@@ -1,204 +1,254 @@
 {
- "date": "2026-09-21",
- "generated_at": "2026-09-21T10:09:57Z",
- "reading_minutes": 3,
- "profile_used": false,
- "items": [
-  {
-   "ids": [
-    "74d868ca510859",
-    "eb3a2367250754"
-   ],
-   "headline": "SoftBank taps bond markets for more than US$10bn to fund its OpenAI stake",
-   "summary": "SoftBank Group has launched bond issues totalling over US$10 billion, earmarked for its investment in OpenAI. According to the term sheet, pricing is expected on 24 September and settlement on 29 September.",
-   "why_it_matters": "This is one of the largest single-issuer debt raises tied to AI equity. The order book and the spread SoftBank pays this week will show how far credit investors will go in funding the AI capex cycle.",
-   "categories": [
-    "Credit"
-   ],
-   "countries": [],
-   "sectors": [
-    "TMT",
-    "Financials"
-   ],
-   "links": [
+  "date": "2026-09-21 (SGT)",
+  "generated_at": "2026-09-21T13:02:19Z",
+  "reading_minutes": 5,
+  "items": [
     {
-     "source": "The Business Times",
-     "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/softbank-group-launches-over-us10-billion-bonds-openai-investment"
+      "headline": "SoftBank launches bond sale of over US$10 billion to fund OpenAI investment",
+      "summary": "SoftBank Group has launched a bond sale of more than US$10 billion, with one report putting the total at US$11 billion, to fund its investment in OpenAI. The bond issuances are expected to price on Sep 24 and settle on Sep 29, according to the reports.",
+      "why_it_matters": "The size of the raise signals SoftBank's continued heavy financial commitment to OpenAI and shows credit markets remain willing to absorb large, single-issuer AI-linked debt sales even as broader bond markets stay tense, a signal credit investors will track closely as more AI infrastructure financing comes to market in the months ahead.",
+      "ids": [
+        "74d868ca510859",
+        "52f9e73624f7f9"
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/softbank-group-launches-over-us10-billion-bonds-openai-investment"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/softbank-launches-us11-billion-bonds-fund-openai-investment-6398451"
+        }
+      ]
     },
     {
-     "source": "CNA Business",
-     "url": "https://www.channelnewsasia.com/business/softbank-group-launches-over-10-billion-in-bonds-openai-investment-term-sheet-shows-6398451"
-    }
-   ]
-  },
-  {
-   "ids": [
-    "4be026ef232205"
-   ],
-   "headline": "Mitsubishi lifts its stake in Philippines' Ayala in a US$709.5m deal",
-   "summary": "Mitsubishi Corp will increase its shareholding in Ayala Corp, one of the Philippines' largest conglomerates, in a deal valued at about US$709.5 million.",
-   "why_it_matters": "This fits a steady pattern of Japanese trading houses buying into Southeast Asian conglomerates. Expect more minority-stake deals of this kind rather than outright takeovers.",
-   "categories": [
-    "M&A"
-   ],
-   "countries": [
-    "SEA"
-   ],
-   "sectors": [
-    "Industrials"
-   ],
-   "links": [
-    {
-     "source": "CNA Business",
-     "url": "https://www.channelnewsasia.com/business/mitsubishi-boost-stake-in-philippines-ayala-in-7095-million-deal-6399281"
-    }
-   ]
-  },
-  {
-   "ids": [
-    "5d6bd9416e095d"
-   ],
-   "headline": "Telix and ITM agree a merger to build a vertically integrated radiopharma group",
-   "summary": "Telix Pharmaceuticals and ITM have announced a merger. The companies describe it as reinforcing Telix's strategy to integrate development, isotope production and global commercialisation.",
-   "why_it_matters": "Isotope supply is the bottleneck in radiopharmaceuticals. Owning production is the logic of the deal, and it is a template other players in the space may follow.",
-   "categories": [
-    "M&A"
-   ],
-   "countries": [],
-   "sectors": [
-    "Healthcare"
-   ],
-   "links": [
-    {
-     "source": "PR Newswire M&A",
-     "url": "https://www.prnewswire.com/news-releases/telix-and-itm-join-forces-to-create-a-radiopharmaceutical-powerhouse-302884153.html"
-    }
-   ]
-  },
-  {
-   "ids": [
-    "9e430705a7cf86",
-    "725656d040fc97"
-   ],
-   "headline": "New World Development wins Shanghai approval for a US$570m REIT listing",
-   "summary": "The Shanghai bourse has approved a US$570 million REIT listing for New World Development. The indebted Hong Kong developer is trying to cut debt, dispose of assets and shore up liquidity.",
-   "why_it_matters": "Mainland REIT listings are becoming an exit route for stressed Hong Kong developers. Watch whether the proceeds meaningfully move NWD's leverage and bond prices.",
-   "categories": [
-    "Credit"
-   ],
-   "countries": [
-    "HK/CN"
-   ],
-   "sectors": [
-    "Real Estate"
-   ],
-   "links": [
-    {
-     "source": "The Business Times",
-     "url": "https://www.businesstimes.com.sg/property/new-world-development-gets-shanghai-bourse-nod-us570-million-reit-listing"
+      "headline": "New World Development wins Shanghai nod for US$570 million REIT listing",
+      "summary": "New World Development has received approval from the Shanghai stock exchange for a US$570 million real estate investment trust listing. The move comes as the indebted Hong Kong developer seeks to cut debt, dispose of assets and bolster liquidity amid ongoing financial pressure.",
+      "why_it_matters": "A successful listing would give one of Hong Kong's most heavily indebted developers a fresh deleveraging channel and offers a test case for carving out real estate assets into Shanghai-listed REITs. Other distressed China-linked property groups seeking liquidity will watch closely whether the structure gains investor acceptance and can be replicated at scale.",
+      "ids": [
+        "9e430705a7cf86",
+        "725656d040fc97"
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Real Estate"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/property/new-world-development-gets-shanghai-bourse-nod-us570-million-reit-listing"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/new-world-development-gets-shanghai-bourse-nod-570-million-reit-listing-6398361"
+        }
+      ]
     },
     {
-     "source": "CNA Business",
-     "url": "https://www.channelnewsasia.com/business/new-world-development-gets-shanghai-bourse-nod-570-million-reit-listing-6398361"
+      "headline": "Singapore earmarks S$3.7 billion of green-bond proceeds for rail expansion",
+      "summary": "Singapore set aside S$3.7 billion of green-bond proceeds for electric rail expansion in FY2025. Of that, S$2.7 billion remains unallocated and will be earmarked for the Jurong Region Line and Cross Island Line in the next fiscal year.",
+      "why_it_matters": "The allocation shows Singapore's green-bond programme increasingly funding core transport infrastructure rather than only buildings or utilities, a model credit and infrastructure investors will watch as the city-state scales its sustainable-financing framework across successive fiscal years and rail lines move toward construction.",
+      "ids": [
+        "d95214f9e2120a"
+      ],
+      "categories": [
+        "Credit",
+        "Infra"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Infrastructure",
+        "Public / Macro"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/esg/singapore-set-aside-s3-7-billion-green-bond-proceeds-electric-rail-expansion-fy2025"
+        }
+      ]
+    },
+    {
+      "headline": "Mitsubishi to triple its Ayala stake in $709.5 million Philippines push",
+      "summary": "Mitsubishi Corp is tripling its existing stake in Philippine conglomerate Ayala Corp, in a deal valued at $709.5 million, as part of its push into the Philippines.",
+      "why_it_matters": "The increased stake deepens a long-standing Japanese-Filipino corporate partnership between Mitsubishi and Ayala, and signals continued foreign strategic capital flowing into the Philippines' largest conglomerates at a time when regional players are competing for exposure to Southeast Asian consumer and infrastructure growth markets.",
+      "ids": [
+        "1da3086a6b0924"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/mitsubishi-triple-stake-in-ayala-in-7095-million-philippines-push-6399281"
+        }
+      ]
+    },
+    {
+      "headline": "Hong Kong IPO market takes in US$1.8 billion in a single day as four Chinese firms seek up to $1.83 billion",
+      "summary": "Hong Kong's listing market brought in US$1.8 billion in a single day, with four Chinese firms separately seeking to raise up to $1.83 billion in Hong Kong offerings. The city's market for first-time listings is on track for a record year as AI-linked investment fuels demand.",
+      "why_it_matters": "The surge confirms Hong Kong's re-emergence as Asia's primary listing venue for Chinese issuers after several subdued years, a trend capital-markets bankers and PE investors will watch closely for fresh exit opportunities and as a barometer of risk appetite toward China-linked equity heading into year-end.",
+      "ids": [
+        "203f7adf8074e3",
+        "f29d23d0cabb35"
+      ],
+      "categories": [],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "TMT",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/hong-kong-listing-spree-brings-us1-8-billion-market-one-day"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/four-chinese-firms-seek-raise-up-183-billion-in-hong-kong-offerings-6398226"
+        }
+      ]
+    },
+    {
+      "headline": "Japan's Sojitz acquires 27.6% stake in Vietnam's Taseco Airs",
+      "summary": "Japanese trading house Sojitz has acquired a 27.6% stake in Vietnamese company Taseco Airs, expanding its footprint in the Vietnamese market.",
+      "why_it_matters": "The stake purchase extends Japanese trading houses' broader push into Vietnam's consumer and services sectors, reflecting continued Japanese strategic investment in Southeast Asia as companies diversify supply chains and consumer exposure away from more mature, slower-growing markets.",
+      "ids": [
+        "c9036a02beb3b2"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NRUsxU3VibGxXYW82b1VLeWhSR0VIMk5NM2dBYVJuTEp2NU5FSzROZWtPN00xMDlYVUpReHhPajZKdzJWZ2tuOFJUOE1zQ1dOeGJvS055NmZwMmFKclJkWWNRU1NZQkNlVTZicS1KaEw3QQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "UK's Searchable acquires New York AI-visibility rival Meridian in seven-figure deal",
+      "summary": "Searchable, described as the UK's largest answer engine optimization startup, has acquired New York-based Meridian Tech in a seven-figure deal. The acquisition gives Searchable Meridian's product and customer base as the company expands further into the US market.",
+      "why_it_matters": "The deal reflects early consolidation among AI-search optimization startups as vendors race to build scale and US customer bases ahead of broader enterprise adoption of AI-driven search and answer-engine tools, an emerging category still small enough for bolt-on acquisitions to shift competitive position quickly.",
+      "ids": [
+        "5136bc24bf5206"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/ai-visibility-platform-searchable-acquires-new-yorks-meridian-in-seven-figure-deal-302883134.html"
+        }
+      ]
+    },
+    {
+      "headline": "Bee Alternatives closes seventh secondaries fund above $150 million",
+      "summary": "Bee Alternatives has closed its seventh secondaries fund, raising above $150 million from limited partners.",
+      "why_it_matters": "Continued fundraising for secondaries strategies, even at a relatively modest fund size, points to sustained LP demand for liquidity solutions as traditional private equity exit markets remain constrained and both GPs and LPs turn to secondary transactions to return and recycle capital.",
+      "ids": [
+        "23c72915f978a2"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTTBKN2hzdzJOdXFIcF9XY1FoSzZLQVpVRXlqX1ZkTlFncHNqVFlCWE5ORnZJMlBKQ2lxZkRRRzFVb1ljbUc4MVo2dXJNRFNQSDlZSGtVTkYwdEtabUhmajhSZnM4TEMyODM2cVZINmU4NDBnZjdzNmxfTUdBaWNOTA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Jane Street's US$15 billion loss triggers Fed, BoE scrutiny of bank exposure",
+      "summary": "Jane Street suffered a US$15 billion loss, prompting the Federal Reserve and Bank of England to scrutinize banks' exposure to trading firms, according to a Financial Times report.",
+      "why_it_matters": "Regulatory scrutiny of banks' financing and counterparty exposure to large trading firms could tighten credit terms and capital charges across the sector, and adds to a broader debate about systemic risk from non-bank financial institutions that credit investors and bank lenders are watching closely.",
+      "ids": [
+        "ebd7635bc7a00e"
+      ],
+      "categories": [],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/jane-streets-us15-billion-loss-prompts-fed-boe-scrutiny-banks-trading-firm-exposure-ft"
+        }
+      ]
+    },
+    {
+      "headline": "China's Pinglu Canal seen cutting logistics costs by a third for Singapore, SEA ports",
+      "summary": "China's Pinglu Canal is likely to benefit Singapore and other Southeast Asian ports over the long term, according to observers. The strategic waterway enhancement could cut logistics costs by as much as a third, they say.",
+      "why_it_matters": "Lower logistics costs from the canal could reshape regional trade routing and port competitiveness across South China and Southeast Asia, a factor infrastructure and logistics investors will weigh when assessing port, warehousing and transport assets in the region over the coming years as the waterway comes into fuller use.",
+      "ids": [
+        "66aefe0565ca39"
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [
+        "SEA",
+        "SG",
+        "HK/CN"
+      ],
+      "sectors": [
+        "Industrials",
+        "Infrastructure"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/chinas-pinglu-canal-likely-benefit-singapore-other-south-east-asia-ports-long-term"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "ids": [
-    "d789dc630a9b93",
-    "f29d23d0cabb35"
-   ],
-   "headline": "Asia-Pacific IPO pipeline fills up: Firmus targets US$5bn, four Chinese issuers line up in Hong Kong",
-   "summary": "Australia's Firmus plans to launch a US$5 billion IPO on 6 October, according to a term sheet. Separately, four Chinese companies are seeking to raise up to US$1.83 billion through Hong Kong offerings.",
-   "why_it_matters": "Hong Kong's run of listings is still going. A US$5bn deal from Australia will test whether demand holds outside the China-tech theme.",
-   "categories": [],
-   "countries": [
-    "HK/CN"
-   ],
-   "sectors": [
-    "TMT"
-   ],
-   "links": [
-    {
-     "source": "CNA Business",
-     "url": "https://www.channelnewsasia.com/business/australias-firmus-launch-5-billion-ipo-october-6-term-sheet-shows-6398731"
-    },
-    {
-     "source": "CNA Business",
-     "url": "https://www.channelnewsasia.com/business/four-chinese-firms-seek-raise-up-183-billion-in-hong-kong-offerings-6398226"
-    }
-   ]
-  },
-  {
-   "ids": [
-    "26f120e1c3d433",
-    "ead33ac6a2b994",
-    "37ef855301a0ae"
-   ],
-   "headline": "Trump-Xi summit week: AI safety talks and a possible US$6bn LNG deal",
-   "summary": "Senior US and Chinese officials discussed an AI safety plan in New York on Sunday ahead of this week's Trump-Xi summit. Restored LNG trade could mean about US$6 billion of US natural gas going to China. The Business Times expects a maintenance check rather than a breakthrough.",
-   "why_it_matters": "For deal flow, the useful signal is whether energy and tech restrictions ease. Both feed directly into cross-border M&A and infrastructure appetite.",
-   "categories": [
-    "Infra"
-   ],
-   "countries": [
-    "US",
-    "HK/CN"
-   ],
-   "sectors": [
-    "Public / Macro",
-    "Energy"
-   ],
-   "links": [
-    {
-     "source": "BBC Business",
-     "url": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "source": "The Business Times",
-     "url": "https://www.businesstimes.com.sg/international/mutual-gain-trump-xi-talks-could-mean-us6-billion-us-natural-gas-china"
-    },
-    {
-     "source": "The Business Times",
-     "url": "https://www.businesstimes.com.sg/international/global/trump-xi-summit-will-be-maintenance-check-not-breakthrough"
-    }
-   ]
-  },
-  {
-   "ids": [
-    "59585a645b7660",
-    "23c72915f978a2",
-    "98f20e0607dad9"
-   ],
-   "headline": "Private markets: asset owners add infrastructure and get pickier on everything else",
-   "summary": "A Marsh survey finds geopolitics is the top risk for large asset owners. More of them are raising cash exposure and infrastructure holdings while becoming more selective on private markets. In fundraising, Bee Alternatives closed its seventh secondaries fund above US$150m. Infrastructure Investor reports LP demand for cross-asset solutions.",
-   "why_it_matters": "Secondaries and infrastructure are where LP money is still flowing. This is consistent with a slower, more selective primary PE fundraising market.",
-   "categories": [
-    "PE",
-    "Infra"
-   ],
-   "countries": [
-    "SG",
-    "SEA"
-   ],
-   "sectors": [
-    "Financials",
-    "Infrastructure"
-   ],
-   "links": [
-    {
-     "source": "The Business Times",
-     "url": "https://www.businesstimes.com.sg/companies-markets/geopolitical-risks-remain-top-risk-more-investors-looking-increase-cash-exposure-marsh-survey"
-    },
-    {
-     "source": "DealStreetAsia",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTTBKN2hzdzJOdXFIcF9XY1FoSzZLQVpVRXlqX1ZkTlFncHNqVFlCWE5ORnZJMlBKQ2lxZkRRRzFVb1ljbUc4MVo2dXJNRFNQSDlZSGtVTkYwdEtabUhmajhSZnM4TEMyODM2cVZINmU4NDBnZjdzNmxfTUdBaWNOTA?oc=5"
-    },
-    {
-     "source": "Infrastructure Investor",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVjNBYVpxalNqTEl3NV9vZzVEdmdjQzZ2cG15R0F2cFRVTkVEQ3YtZ0MxMmhDWVBtMEtpT2czNEYzX09NeUlrRWtYWkh6eVd6XzJhT1N2MjhNNG5iTVljZGpSV3N5SG1HYUhqUmJGX192SGNnSmpnVDVtUVByWWw2U1VnVDNaVGNQOW81dHhQY3MzVVZUWFEtcVdyYmM4VXlVdlA4TnA4eWZnZlloVmJvb2NwdlIxNTloT3F0R0t1QmNjUkxaSW5iN3VVRDYwQ0hzMWdHQTZUejAzOFh6RVBuT3N2blA?oc=5"
-    }
-   ]
-  }
- ]
+  ]
 }
