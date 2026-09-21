@@ -16,7 +16,7 @@ The planned public URL is `https://<github-user>.github.io/dealwire_dailyupdate/
 Only headlines, links and short snippets are stored. Article bodies are never stored.
 
 ## Sources
-- **Direct RSS**: BBC Business, CNA Business, The Business Times (Companies & Markets, Top Stories), PR Newswire M&A, GlobeNewswire M&A, SEC EDGAR 8-K
+- **Direct RSS**: BBC Business, CNA Business, The Business Times (Companies & Markets, Top Stories), PR Newswire M&A, SEC EDGAR 8-K (GlobeNewswire disabled: times out)
 - **Via Google News**: DealStreetAsia, Infrastructure Investor, PEI Private Credit, SGX announcements (AVCJ disabled)
 
 Notes:

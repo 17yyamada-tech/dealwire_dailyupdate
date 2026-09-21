@@ -124,6 +124,8 @@
    "M&A"
   ],
   "always_deal": true,
-  "max_age_days": 4
+  "max_age_days": 4,
+  "disabled": true,
+  "note": "Times out from both local PC and GitHub Actions (2026-09-21). PR Newswire covers M&A press releases."
  }
 ]
