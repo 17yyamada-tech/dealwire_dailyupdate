@@ -25,6 +25,7 @@
     <div class="top-meta">
       <span class="clock" id="clock" aria-label="Singapore time"></span>
       <span id="updated" class="updated">Loading…</span>
+      <button id="btn-mail" class="icon-btn" aria-label="Get the digest by email" title="Get the digest by email" hidden>✉</button>
       <button id="btn-saved" class="icon-btn" aria-label="Saved stories" title="Saved">☆</button>
       <button id="btn-settings" class="icon-btn" aria-label="Settings" title="Settings">⚙</button>
     </div>
@@ -70,6 +71,10 @@
       <h2 id="digest-h">Today's Digest</h2>
       <span class="panel-meta" id="digest-meta"></span>
     </div>
+    <div class="edition-bar" id="edition-bar">
+      <div class="edition-tabs" id="edition-tabs" role="tablist" aria-label="Editions"></div>
+      <button class="link-btn" id="btn-archive">All past digests →</button>
+    </div>
     <ol class="digest-list" id="digest-list"></ol>
   </section>
 
@@ -98,6 +103,11 @@
     <ol class="rows" id="results"></ol>
   </section>
 
+  <section class="panel p-archive" id="view-archive" hidden>
+    <div class="panel-head"><h2>Past digests</h2><span class="panel-meta" id="archive-meta"></span></div>
+    <ol class="archive-list" id="archive-list"></ol>
+  </section>
+
   <section class="panel p-saved" id="view-saved" hidden>
     <div class="panel-head"><h2>Saved</h2></div>
     <ol class="rows" id="saved-list"></ol>
@@ -108,6 +118,7 @@
   <button class="tab active" data-view="home">Home</button>
   <button class="tab" data-view="deals">Deals</button>
   <button class="tab" data-view="search">Search</button>
+  <button class="tab" data-view="archive">Digests</button>
   <button class="tab" data-view="saved">Saved</button>
 </nav>
 
@@ -122,6 +133,20 @@
       <button type="button" id="reset-profile" class="chip ghost">Reset learning</button>
       <button value="close" class="chip">Done</button>
     </div>
+  </form>
+</dialog>
+
+<dialog id="subscribe">
+  <form class="settings" id="sub-form">
+    <h2>Get Deal Wire by email</h2>
+    <p class="sub-copy">The digest lands in your inbox three times a day: 08:30, 12:30 and 15:30 SGT. Each story links back to its page here, and past emails keep working.</p>
+    <label class="field col"><span>Email</span><input id="sub-email" type="email" required autocomplete="email" placeholder="you@example.com"></label>
+    <p class="sub-status" id="sub-status" role="status"></p>
+    <div class="row-btns">
+      <button type="button" id="sub-skip" class="chip ghost">Not now</button>
+      <button type="submit" class="chip" id="sub-submit">Subscribe</button>
+    </div>
+    <p class="sub-fine">We send a confirmation email first. Every email has a one-click unsubscribe link.</p>
   </form>
 </dialog>
 

@@ -90,3 +90,17 @@ dialog::backdrop { background: rgba(0,0,0,.4); }
 .settings h2 { font: 650 22px var(--serif); }
 .profile { font: 500 12px/1.6 var(--mono); color: var(--ink-2); }
 .profile .bar { background: var(--accent); }
+
+/* editions, archive, sign-up (shared minimal styling) */
+.edition-bar { padding: 8px 0 10px; }
+.ed-day { font: 600 11px/1 var(--mono, monospace); text-transform: uppercase; letter-spacing: .1em; opacity: .7; }
+.ed-tab { font: 600 12px/1 var(--mono, monospace); border: 1px solid currentColor; border-radius: 999px; opacity: .65; padding: 5px 10px; }
+.ed-tab[aria-selected="true"] { opacity: 1; font-weight: 700; }
+.link-btn, .d-share, .d-prev { font: 500 11px/1.5 var(--mono, monospace); opacity: .75; text-decoration: underline; }
+.d-badge { font: 700 10px/1 var(--mono, monospace); letter-spacing: .12em; text-transform: uppercase; padding: 3px 6px; border-radius: 3px; border: 1px solid currentColor; }
+.digest-list li.pinned { outline: 2px solid currentColor; outline-offset: 4px; }
+.arch-day { padding: 12px 0; }
+.arch-ed { padding: 7px 0; border-top: 1px solid rgba(127,127,127,.25); }
+.arch-time { font: 600 12px/1 var(--mono, monospace); }
+.arch-n { font-size: 11px; opacity: .6; }
+#sub-email { padding: 9px 12px; border-radius: 8px; border: 1px solid rgba(127,127,127,.4); background: transparent; color: inherit; font: inherit; }

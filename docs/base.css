@@ -90,3 +90,27 @@ dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
   .tabbar { display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; padding: 6px 8px calc(6px + env(safe-area-inset-bottom)); }
   .tab { flex: 1; border: 0; padding: 8px 0; }
 }
+
+/* digest editions, archive, permalinks, sign-up */
+.p-archive { grid-area: 1 / 1 / 2 / -1; }
+body[data-view="archive"] .p-deals, body[data-view="archive"] .p-digest, body[data-view="archive"] .p-stories { display: none; }
+.edition-bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.edition-tabs { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.ed-tab, .link-btn, .d-share { background: none; border: 0; padding: 0; }
+.ed-tab { padding: 4px 10px; }
+.d-badge { display: inline-block; margin-bottom: 4px; }
+.digest-list li.pinned { scroll-margin-top: 170px; }
+.archive-list { list-style: none; margin: 0; padding: 0; }
+.arch-day h3 { margin: 0; }
+.arch-ed { display: grid; grid-template-columns: 58px minmax(0, 1fr) auto; gap: 12px; align-items: baseline; text-decoration: none; }
+.arch-heads { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.field.col { flex-direction: column; align-items: stretch; gap: 6px; }
+#sub-email { width: 100%; }
+.sub-copy, .sub-fine, .sub-status { margin: 0; }
+.sub-status:empty { display: none; }
+@media (max-width: 999px) {
+  body[data-view="archive"] .p-digest { display: none; }
+  .arch-ed { grid-template-columns: 50px minmax(0, 1fr); }
+  .arch-n { display: none; }
+  .arch-heads { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+}

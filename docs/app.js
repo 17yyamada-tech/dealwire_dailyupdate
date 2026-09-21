@@ -1,9 +1,12 @@
 /* Deal Wire front end — static, no build step.
- * Data:     data/latest.json (7 days), data/archive/YYYY-MM.json (search), data/digest.json (daily, written by the Routine).
+ * Data:     data/latest.json (7 days), data/archive/YYYY-MM.json (search), data/digests/ (3 editions a day, written by the Routine).
  * Learning: per viewer. Each browser logs its own opens/saves/hides to localStorage (nothing leaves the browser);
  *           once per day the profile (weights per category / region / sector / source / keyword) is recomputed
  *           and used to rank Top stories and to reorder the digest for that viewer.
  * Look:     markup is skin-neutral; everything visual is in skins/<name>.css (see SKINS).
+ * Digest:   three editions a day (data/digests/<YYYY-MM-DD-HHMM>.json + index.json). Every item has a permanent
+ *           link ?e=<edition>&i=<index> so links in past emails always open the right story.
+ * Email:    sign-up posts to a Google Apps Script web app (MAIL_ENDPOINT); addresses never touch this repo.
  */
 (() => {
   "use strict";
@@ -13,6 +16,8 @@
     get(k, d) { try { const v = localStorage.getItem("dw." + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
     set(k, v) { try { localStorage.setItem("dw." + k, JSON.stringify(v)); } catch { /* storage unavailable */ } },
   };
+  // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
+  const MAIL_ENDPOINT = "";
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const REGION_ORDER = ["SG", "HK/CN", "SEA", "US"];   // SG items also carry SEA; show the most specific first
@@ -25,7 +30,7 @@
   const DAILY_DECAY = 0.94;
 
   const state = {
-    items: [], updated: null, digest: null,
+    items: [], updated: null, editions: [], edition: null, editionCache: new Map(), pinned: null, lastRanked: [],
     filters: normFilters(store.get("filters", null)),
     shown: PAGE, dealsShown: DEALS_PAGE, view: "home",
     seenDeals: new Set(store.get("seenDeals", [])), firstLoad: true,
@@ -239,38 +244,99 @@
     store.set("seenDeals", [...state.seenDeals].slice(-3000));
   }
 
+  /* ---------------- digest editions ---------------- */
+  const permalink = (eid, i) => `${location.origin}${location.pathname}?e=${encodeURIComponent(eid)}` + (i == null ? "" : `&i=${i}`);
+  const editionTime = (e) => e.id.slice(11, 13) + ":" + e.id.slice(13, 15);
+  const editionDay = (e) => e.id.slice(0, 10);
+  const fmtDay = (day, weekday) => new Date(day + "T00:00:00Z").toLocaleDateString("en-SG", { weekday: weekday ? "short" : undefined, day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+  async function loadEdition(id) {
+    if (!state.editionCache.has(id)) state.editionCache.set(id, await getJSON(`data/digests/${id}.json`));
+    return state.editionCache.get(id);
+  }
+  function renderEditionTabs() {
+    const box = $("#edition-tabs"); box.textContent = "";
+    if (!state.editions.length) return;
+    const cur = state.edition || state.editions[0].id;
+    const day = cur.slice(0, 10);
+    const d = document.createElement("span"); d.className = "ed-day";
+    d.textContent = day === todaySG() ? "Today" : fmtDay(day);
+    box.append(d);
+    state.editions.filter(e => editionDay(e) === day).slice().reverse().forEach(e => {
+      const b = document.createElement("button");
+      b.className = "ed-tab"; b.setAttribute("role", "tab"); b.setAttribute("aria-selected", e.id === cur);
+      b.textContent = editionTime(e);
+      b.title = e.label || e.id;
+      b.addEventListener("click", () => { state.pinned = null; history.replaceState(null, "", location.pathname); showEdition(e.id); });
+      box.append(b);
+    });
+  }
+  async function showEdition(id, scrollTo = null) {
+    state.edition = id;
+    try { await loadEdition(id); } catch { /* missing edition: fall back to auto-picked */ }
+    renderDigest(state.lastRanked);
+    if (scrollTo != null) {
+      const el = $(`#digest-list li[data-n="${scrollTo}"]`);
+      if (el) { el.classList.add("pinned"); el.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    }
+  }
+
+  function digestItemNode(x, n, eid, displayNo) {
+    const li = document.createElement("li");
+    li.dataset.n = n; li.id = `d-${n}`;
+    const num = document.createElement("span"); num.className = "d-num"; num.textContent = String(displayNo).padStart(2, "0");
+    const body = document.createElement("div"); body.className = "d-body";
+    if (x.status === "update") {
+      const up = document.createElement("span"); up.className = "d-badge"; up.textContent = "Update";
+      body.append(up);
+    }
+    const h = document.createElement("h3");
+    const a = document.createElement("a"); a.textContent = x.headline; a.href = (x.links && x.links[0] && x.links[0].url) || "#"; a.target = "_blank"; a.rel = "noopener";
+    h.append(a);
+    const p = document.createElement("p"); p.className = "d-sum"; p.textContent = x.summary;
+    const why = document.createElement("p"); why.className = "d-why";
+    const b = document.createElement("b"); b.textContent = "Why it matters"; why.append(b, " ", x.why_it_matters || "");
+    const links = document.createElement("p"); links.className = "d-links";
+    (x.links || []).forEach((l, j) => { if (j) links.append(" · "); const la = document.createElement("a"); la.href = l.url; la.target = "_blank"; la.rel = "noopener"; la.textContent = l.source; links.append(la); });
+    if (x.prev && x.prev.edition) {
+      const pv = document.createElement("a"); pv.className = "d-prev"; pv.href = permalink(x.prev.edition, x.prev.index);
+      pv.textContent = "earlier coverage →";
+      pv.addEventListener("click", ev => { ev.preventDefault(); openPermalink(x.prev.edition, x.prev.index); });
+      links.append(" · ", pv);
+    }
+    const share = document.createElement("button"); share.type = "button"; share.className = "d-share"; share.textContent = "copy link";
+    share.addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(permalink(eid, n)); share.textContent = "copied"; } catch { prompt("Link to this story", permalink(eid, n)); }
+      setTimeout(() => { share.textContent = "copy link"; }, 1500);
+    });
+    links.append(" · ", share);
+    body.append(h, p, why, links); li.append(num, body);
+    return li;
+  }
+
   function renderDigest(ranked) {
     const list = $("#digest-list"); list.textContent = "";
-    const d = state.digest, meta = $("#digest-meta");
-    const fresh = d && d.items && d.items.length && (Date.now() - Date.parse(d.generated_at)) < 36 * 36e5;
-    if (fresh) {
-      // Chosen once a day for everyone; each viewer sees them reordered by their own reading.
+    const meta = $("#digest-meta");
+    renderEditionTabs();
+    const eid = state.edition || (state.editions[0] && state.editions[0].id);
+    const d = eid && state.editionCache.get(eid);
+    const isLatest = !!(eid && state.editions[0] && eid === state.editions[0].id);
+    const usable = d && d.items && d.items.length && (!isLatest || (Date.now() - Date.parse(d.generated_at)) < 36 * 36e5);
+    $("#digest-h").textContent = eid && eid.slice(0, 10) !== todaySG() ? "Digest" : "Today's Digest";
+    if (usable) {
+      // The latest edition is reordered by this viewer's reading; a linked or past edition keeps the editor's order.
+      const personal = isLatest && !state.pinned;
       const prof = activeProfile(), N = d.items.length;
-      const items = d.items
-        .map((x, i) => ({ x, s: (N - i) / N + 0.6 * affinity({ categories: x.categories, countries: x.countries, sectors: x.sectors, title: x.headline }, prof) }))
-        .sort((a, b) => b.s - a.s).map(o => o.x)
-        .filter(x => !anyFilter() || passes(x));
+      let rows = d.items.map((x, n) => ({ x, n, s: (N - n) / N + (personal ? 0.6 * affinity({ categories: x.categories, countries: x.countries, sectors: x.sectors, title: x.headline }, prof) : 0) }));
+      rows.sort((a, b) => b.s - a.s);
+      if (personal) rows = rows.filter(r => !anyFilter() || passes(r.x));
       meta.textContent = `${d.reading_minutes || 5} min read · ${fmtDate(d.generated_at)} SGT`;
-      items.forEach((x, i) => {
-        const li = document.createElement("li");
-        const num = document.createElement("span"); num.className = "d-num"; num.textContent = String(i + 1).padStart(2, "0");
-        const body = document.createElement("div"); body.className = "d-body";
-        const h = document.createElement("h3");
-        const a = document.createElement("a"); a.textContent = x.headline; a.href = (x.links && x.links[0] && x.links[0].url) || "#"; a.target = "_blank"; a.rel = "noopener";
-        h.append(a);
-        const p = document.createElement("p"); p.className = "d-sum"; p.textContent = x.summary;
-        const why = document.createElement("p"); why.className = "d-why";
-        const b = document.createElement("b"); b.textContent = "Why it matters"; why.append(b, " ", x.why_it_matters || "");
-        const links = document.createElement("p"); links.className = "d-links";
-        (x.links || []).forEach((l, j) => { if (j) links.append(" · "); const la = document.createElement("a"); la.href = l.url; la.target = "_blank"; la.rel = "noopener"; la.textContent = l.source; links.append(la); });
-        body.append(h, p, why, links); li.append(num, body); list.append(li);
-      });
-      if (!items.length) list.append(empty("None of today's digest items match these filters."));
+      rows.forEach((r, k) => list.append(digestItemNode(r.x, r.n, eid, k + 1)));
+      if (!rows.length) list.append(empty("None of this edition's stories match these filters."));
       return;
     }
-    // Until the daily digest exists: the top-ranked stories of the last ~day.
-    const top = ranked.filter(x => (Date.now() - Date.parse(x.it.published)) < 30 * 36e5).slice(0, 6);
-    meta.textContent = "auto-picked · written summary arrives with the morning digest";
+    // No edition yet (or the latest is stale): the top-ranked stories of the last ~day.
+    const top = (ranked || []).filter(x => (Date.now() - Date.parse(x.it.published)) < 30 * 36e5).slice(0, 6);
+    meta.textContent = "auto-picked · written summary arrives with the next edition";
     top.forEach(({ it }, i) => {
       const li = document.createElement("li");
       const num = document.createElement("span"); num.className = "d-num"; num.textContent = String(i + 1).padStart(2, "0");
@@ -286,6 +352,37 @@
     if (!top.length) list.append(empty("No stories in the last 24 hours."));
   }
 
+  function renderArchive() {
+    const ol = $("#archive-list"); ol.textContent = "";
+    const byDay = new Map();
+    state.editions.forEach(e => { const d = editionDay(e); if (!byDay.has(d)) byDay.set(d, []); byDay.get(d).push(e); });
+    byDay.forEach((eds, day) => {
+      const li = document.createElement("li"); li.className = "arch-day";
+      const h = document.createElement("h3"); h.textContent = fmtDay(day, true);
+      li.append(h);
+      eds.forEach(e => {
+        const a = document.createElement("a"); a.className = "arch-ed"; a.href = permalink(e.id, null);
+        const t = document.createElement("span"); t.className = "arch-time"; t.textContent = editionTime(e);
+        const hl = document.createElement("span"); hl.className = "arch-heads"; hl.textContent = (e.headlines || []).join(" · ");
+        const n = document.createElement("span"); n.className = "arch-n"; n.textContent = (e.items || 0) + " stories";
+        a.append(t, hl, n);
+        a.addEventListener("click", ev => { ev.preventDefault(); openPermalink(e.id, null); });
+        li.append(a);
+      });
+      ol.append(li);
+    });
+    if (!state.editions.length) ol.append(empty("No digests yet."));
+    $("#archive-meta").textContent = state.editions.length + " editions";
+  }
+
+  async function openPermalink(eid, i) {
+    state.pinned = { e: eid, i };
+    history.replaceState(null, "", permalink(eid, i));
+    setView("home");
+    await showEdition(eid, i);
+    if (i == null) $("#digest").scrollIntoView({ behavior: "smooth" });
+  }
+
   function renderSaved() {
     const saved = Object.values(store.get("saved", {})).sort((a, b) => b.published.localeCompare(a.published));
     const ol = $("#saved-list"); ol.textContent = "";
@@ -295,7 +392,8 @@
 
   function renderAll() {
     syncFilterUI();
-    renderDigest(renderStories());
+    state.lastRanked = renderStories();
+    renderDigest(state.lastRanked);
     renderDeals();
     if (state.view === "search") runSearch();
     if (state.view === "saved") renderSaved();
@@ -360,6 +458,8 @@
     document.body.dataset.view = v;
     $("#view-search").hidden = v !== "search";
     $("#view-saved").hidden = v !== "saved";
+    $("#view-archive").hidden = v !== "archive";
+    if (v === "archive") renderArchive();
     $$(".tab").forEach(t => t.classList.toggle("active", t.dataset.view === v));
     if (v === "search") runSearch();
     if (v === "saved") renderSaved();
@@ -375,10 +475,15 @@
   }
   async function load() {
     try {
-      const [latest, digest] = await Promise.all([getJSON("data/latest.json"), getJSON("data/digest.json").catch(() => null)]);
+      const [latest, idx] = await Promise.all([getJSON("data/latest.json"), getJSON("data/digests/index.json").catch(() => ({ editions: [] }))]);
       state.items = latest.items || [];
       state.updated = latest.updated;
-      state.digest = digest;
+      const newest = idx.editions && idx.editions[0] && idx.editions[0].id;
+      const hadNewest = state.editions[0] && state.editions[0].id;
+      state.editions = idx.editions || [];
+      // follow the newest edition unless the viewer is reading a specific (linked or chosen) one
+      if (!state.pinned && (!state.edition || state.edition === hadNewest)) state.edition = newest || null;
+      if (state.edition) await loadEdition(state.edition).catch(() => null);
       $("#updated").textContent = "Updated " + fmtAgo(latest.updated) + " ago";
       $("#updated").title = fmtDate(latest.updated) + " SGT";
       renderAll();
@@ -406,6 +511,32 @@
   }
   function tickClock() {
     $("#clock").textContent = new Date().toLocaleTimeString("en-SG", { timeZone: "Asia/Singapore", hour: "2-digit", minute: "2-digit", hour12: false }) + " SGT";
+  }
+
+  /* ---------------- email sign-up ---------------- */
+  function setupSubscribe() {
+    if (!MAIL_ENDPOINT) return;               // not configured yet: keep the feature invisible
+    const dlg = $("#subscribe"), form = $("#sub-form"), status = $("#sub-status");
+    $("#btn-mail").hidden = false;
+    const open = () => { status.textContent = ""; dlg.showModal(); };
+    $("#btn-mail").addEventListener("click", open);
+    $("#sub-skip").addEventListener("click", () => { store.set("mailAsked", Date.now()); dlg.close(); });
+    form.addEventListener("submit", async ev => {
+      ev.preventDefault();
+      const email = $("#sub-email").value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { status.textContent = "Please enter a valid email."; return; }
+      $("#sub-submit").disabled = true; status.textContent = "Sending…";
+      try {
+        // Apps Script web apps do not send CORS headers; a no-cors POST still delivers the form.
+        await fetch(MAIL_ENDPOINT, { method: "POST", mode: "no-cors", body: new URLSearchParams({ action: "subscribe", email }) });
+        store.set("mailAsked", Date.now()); store.set("mailSubscribed", email);
+        status.textContent = "Almost done: check your inbox and click the confirmation link.";
+      } catch {
+        status.textContent = "Could not reach the mail service. Please try again later.";
+      } finally { $("#sub-submit").disabled = false; }
+    });
+    // First visit on this device: offer it once (not when arriving from an email link).
+    if (!store.get("mailAsked", 0) && !store.get("mailSubscribed", "") && !new URLSearchParams(location.search).get("e")) setTimeout(open, 2500);
   }
 
   /* ---------------- wiring ---------------- */
@@ -444,8 +575,18 @@
       if (confirm("Clear everything this browser has learned?")) { store.set("events", []); store.set("profile", null); renderProfileView(); renderAll(); }
     });
     tickClock(); setInterval(tickClock, 15000);
+    $("#btn-archive").addEventListener("click", () => setView("archive"));
+    setupSubscribe();
     setView("home");
-    load();
+    const qp = new URLSearchParams(location.search);
+    if (qp.get("e")) {
+      const i = qp.get("i");
+      state.pinned = { e: qp.get("e"), i: i == null ? null : +i };
+      state.edition = qp.get("e");
+      load().then(() => openPermalink(state.pinned.e, state.pinned.i));
+    } else if (qp.get("view") === "archive") {
+      load().then(() => setView("archive"));   // "All past digests" link in every email
+    } else load();
     setInterval(load, REFRESH_MS);
     document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
   }
