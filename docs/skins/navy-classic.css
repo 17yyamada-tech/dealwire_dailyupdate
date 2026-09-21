@@ -1,0 +1,36 @@
+/* Skin: Navy classic — flat deep navy, gold hairlines, serif headlines. Builds on navy.css. */
+@import url("navy.css");
+
+body { background: #0b1730; font-size: 15px; }
+.top { background: #0b1730; backdrop-filter: none; -webkit-backdrop-filter: none; border-bottom: 1px solid rgba(214,179,112,.35); }
+.brand-name { font: 500 26px/1 var(--display); letter-spacing: .02em; text-transform: none; }
+.brand-mark { transform: none; width: 4px; height: 26px; }
+#q, .chip, select { border-radius: 2px; }
+.chip[aria-pressed="true"] { background: transparent; color: var(--gold); border-color: var(--gold); }
+select.active { background-color: transparent; color: var(--gold); border-color: var(--gold); }
+
+/* layout: digest column with deals alongside, stories below */
+@media (min-width: 1000px) {
+  .grid { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); grid-template-areas: "digest deals" "stories deals"; gap: 36px; }
+  .digest-list { display: block; }
+  .p-deals { position: sticky; top: 150px; max-height: calc(100vh - 170px); overflow-y: auto; }
+}
+.panel { background: transparent; border: 0; border-radius: 0; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; padding: 0; }
+.panel-head { padding: 0 0 10px; border-bottom: 1px solid var(--gold); }
+.panel-head h2 { font: 500 22px/1.2 var(--display); }
+.p-digest { background: transparent; }
+.p-digest .panel-head h2 { font-size: 30px; }
+.p-digest .panel-head h2::before { display: none; }
+.digest-list { padding: 0; }
+.digest-list li { border-top: 0; border-bottom: 1px solid var(--edge); padding: 18px 0; grid-template-columns: 48px minmax(0,1fr); }
+.d-num { font-size: 28px; }
+.digest-list h3 { font: 500 21px/1.3 var(--display); }
+.d-sum, .d-why { font-size: 14.5px; }
+.row { padding: 14px 0; border-top: 0; border-bottom: 1px solid var(--edge); }
+.row:hover { background: transparent; }
+.c-type { background: transparent; padding: 0; }
+.c-title { font: 500 18px/1.35 var(--display); }
+.row.compact .c-title { font: 500 15.5px/1.4 var(--display); }
+.panel-meta.pad { padding: 8px 0 0; }
+.empty { padding: 20px 0; }
+.tab, .tab.active { border-radius: 2px; }

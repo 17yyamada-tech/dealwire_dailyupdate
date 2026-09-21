@@ -1,0 +1,204 @@
+{
+ "date": "2026-09-21",
+ "generated_at": "2026-09-21T10:09:57Z",
+ "reading_minutes": 3,
+ "profile_used": false,
+ "items": [
+  {
+   "ids": [
+    "74d868ca510859",
+    "eb3a2367250754"
+   ],
+   "headline": "SoftBank taps bond markets for more than US$10bn to fund its OpenAI stake",
+   "summary": "SoftBank Group has launched bond issues totalling over US$10 billion, earmarked for its investment in OpenAI. According to the term sheet, pricing is expected on 24 September and settlement on 29 September.",
+   "why_it_matters": "This is one of the largest single-issuer debt raises tied to AI equity. The order book and the spread SoftBank pays this week will show how far credit investors will go in funding the AI capex cycle.",
+   "categories": [
+    "Credit"
+   ],
+   "countries": [],
+   "sectors": [
+    "TMT",
+    "Financials"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/softbank-group-launches-over-us10-billion-bonds-openai-investment"
+    },
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/softbank-group-launches-over-10-billion-in-bonds-openai-investment-term-sheet-shows-6398451"
+    }
+   ]
+  },
+  {
+   "ids": [
+    "4be026ef232205"
+   ],
+   "headline": "Mitsubishi lifts its stake in Philippines' Ayala in a US$709.5m deal",
+   "summary": "Mitsubishi Corp will increase its shareholding in Ayala Corp, one of the Philippines' largest conglomerates, in a deal valued at about US$709.5 million.",
+   "why_it_matters": "This fits a steady pattern of Japanese trading houses buying into Southeast Asian conglomerates. Expect more minority-stake deals of this kind rather than outright takeovers.",
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "SEA"
+   ],
+   "sectors": [
+    "Industrials"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/mitsubishi-boost-stake-in-philippines-ayala-in-7095-million-deal-6399281"
+    }
+   ]
+  },
+  {
+   "ids": [
+    "5d6bd9416e095d"
+   ],
+   "headline": "Telix and ITM agree a merger to build a vertically integrated radiopharma group",
+   "summary": "Telix Pharmaceuticals and ITM have announced a merger. The companies describe it as reinforcing Telix's strategy to integrate development, isotope production and global commercialisation.",
+   "why_it_matters": "Isotope supply is the bottleneck in radiopharmaceuticals. Owning production is the logic of the deal, and it is a template other players in the space may follow.",
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Healthcare"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/telix-and-itm-join-forces-to-create-a-radiopharmaceutical-powerhouse-302884153.html"
+    }
+   ]
+  },
+  {
+   "ids": [
+    "9e430705a7cf86",
+    "725656d040fc97"
+   ],
+   "headline": "New World Development wins Shanghai approval for a US$570m REIT listing",
+   "summary": "The Shanghai bourse has approved a US$570 million REIT listing for New World Development. The indebted Hong Kong developer is trying to cut debt, dispose of assets and shore up liquidity.",
+   "why_it_matters": "Mainland REIT listings are becoming an exit route for stressed Hong Kong developers. Watch whether the proceeds meaningfully move NWD's leverage and bond prices.",
+   "categories": [
+    "Credit"
+   ],
+   "countries": [
+    "HK/CN"
+   ],
+   "sectors": [
+    "Real Estate"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/property/new-world-development-gets-shanghai-bourse-nod-us570-million-reit-listing"
+    },
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/new-world-development-gets-shanghai-bourse-nod-570-million-reit-listing-6398361"
+    }
+   ]
+  },
+  {
+   "ids": [
+    "d789dc630a9b93",
+    "f29d23d0cabb35"
+   ],
+   "headline": "Asia-Pacific IPO pipeline fills up: Firmus targets US$5bn, four Chinese issuers line up in Hong Kong",
+   "summary": "Australia's Firmus plans to launch a US$5 billion IPO on 6 October, according to a term sheet. Separately, four Chinese companies are seeking to raise up to US$1.83 billion through Hong Kong offerings.",
+   "why_it_matters": "Hong Kong's run of listings is still going. A US$5bn deal from Australia will test whether demand holds outside the China-tech theme.",
+   "categories": [],
+   "countries": [
+    "HK/CN"
+   ],
+   "sectors": [
+    "TMT"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/australias-firmus-launch-5-billion-ipo-october-6-term-sheet-shows-6398731"
+    },
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/four-chinese-firms-seek-raise-up-183-billion-in-hong-kong-offerings-6398226"
+    }
+   ]
+  },
+  {
+   "ids": [
+    "26f120e1c3d433",
+    "ead33ac6a2b994",
+    "37ef855301a0ae"
+   ],
+   "headline": "Trump-Xi summit week: AI safety talks and a possible US$6bn LNG deal",
+   "summary": "Senior US and Chinese officials discussed an AI safety plan in New York on Sunday ahead of this week's Trump-Xi summit. Restored LNG trade could mean about US$6 billion of US natural gas going to China. The Business Times expects a maintenance check rather than a breakthrough.",
+   "why_it_matters": "For deal flow, the useful signal is whether energy and tech restrictions ease. Both feed directly into cross-border M&A and infrastructure appetite.",
+   "categories": [
+    "Infra"
+   ],
+   "countries": [
+    "US",
+    "HK/CN"
+   ],
+   "sectors": [
+    "Public / Macro",
+    "Energy"
+   ],
+   "links": [
+    {
+     "source": "BBC Business",
+     "url": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/mutual-gain-trump-xi-talks-could-mean-us6-billion-us-natural-gas-china"
+    },
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/global/trump-xi-summit-will-be-maintenance-check-not-breakthrough"
+    }
+   ]
+  },
+  {
+   "ids": [
+    "59585a645b7660",
+    "23c72915f978a2",
+    "98f20e0607dad9"
+   ],
+   "headline": "Private markets: asset owners add infrastructure and get pickier on everything else",
+   "summary": "A Marsh survey finds geopolitics is the top risk for large asset owners. More of them are raising cash exposure and infrastructure holdings while becoming more selective on private markets. In fundraising, Bee Alternatives closed its seventh secondaries fund above US$150m. Infrastructure Investor reports LP demand for cross-asset solutions.",
+   "why_it_matters": "Secondaries and infrastructure are where LP money is still flowing. This is consistent with a slower, more selective primary PE fundraising market.",
+   "categories": [
+    "PE",
+    "Infra"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Financials",
+    "Infrastructure"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/geopolitical-risks-remain-top-risk-more-investors-looking-increase-cash-exposure-marsh-survey"
+    },
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTTBKN2hzdzJOdXFIcF9XY1FoSzZLQVpVRXlqX1ZkTlFncHNqVFlCWE5ORnZJMlBKQ2lxZkRRRzFVb1ljbUc4MVo2dXJNRFNQSDlZSGtVTkYwdEtabUhmajhSZnM4TEMyODM2cVZINmU4NDBnZjdzNmxfTUdBaWNOTA?oc=5"
+    },
+    {
+     "source": "Infrastructure Investor",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVjNBYVpxalNqTEl3NV9vZzVEdmdjQzZ2cG15R0F2cFRVTkVEQ3YtZ0MxMmhDWVBtMEtpT2czNEYzX09NeUlrRWtYWkh6eVd6XzJhT1N2MjhNNG5iTVljZGpSV3N5SG1HYUhqUmJGX192SGNnSmpnVDVtUVByWWw2U1VnVDNaVGNQOW81dHhQY3MzVVZUWFEtcVdyYmM4VXlVdlA4TnA4eWZnZlloVmJvb2NwdlIxNTloT3F0R0t1QmNjUkxaSW5iN3VVRDYwQ0hzMWdHQTZUejAzOFh6RVBuT3N2blA?oc=5"
+    }
+   ]
+  }
+ ]
+}

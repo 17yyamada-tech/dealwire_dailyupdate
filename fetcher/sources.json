@@ -1,0 +1,129 @@
+[
+ {
+  "id": "bbc",
+  "name": "BBC Business",
+  "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+  "max_age_days": 4
+ },
+ {
+  "id": "cna",
+  "name": "CNA Business",
+  "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936",
+  "max_age_days": 4
+ },
+ {
+  "id": "bt_cm",
+  "name": "The Business Times",
+  "url": "https://www.businesstimes.com.sg/rss/companies-markets",
+  "country_default": [
+   "SG"
+  ],
+  "max_age_days": 4,
+  "max": 100
+ },
+ {
+  "id": "bt_top",
+  "name": "The Business Times",
+  "url": "https://www.businesstimes.com.sg/rss/top-stories",
+  "country_default": [
+   "SG"
+  ],
+  "max_age_days": 4
+ },
+ {
+  "id": "dsa",
+  "name": "DealStreetAsia",
+  "gnews": "site:dealstreetasia.com when:3d",
+  "max_age_days": 5,
+  "skip_title": [
+   "^Editor",
+   "Newsletter",
+   "^DealStreetAsia$"
+  ]
+ },
+ {
+  "id": "avcj",
+  "name": "AVCJ",
+  "gnews": "site:avcj.com",
+  "category_default": [
+   "PE"
+  ],
+  "max_age_days": 8,
+  "skip_title": [
+   "awards news",
+   "Page \\d+"
+  ],
+  "disabled": true,
+  "note": "Public feed and homepage frozen at Nov 2023 (checked 2026-09-21). Re-enable if AVCJ resumes public updates."
+ },
+ {
+  "id": "infra_inv",
+  "name": "Infrastructure Investor",
+  "gnews": "site:infrastructureinvestor.com when:7d",
+  "category_default": [
+   "Infra"
+  ],
+  "max_age_days": 8
+ },
+ {
+  "id": "pei_pc",
+  "name": "PEI Private Credit",
+  "gnews": "site:pei-privatecredit.com",
+  "category_default": [
+   "Credit"
+  ],
+  "max_age_days": 15,
+  "skip_title": [
+   "Page \\d+ of",
+   "Articles \\|",
+   "^Welcome to",
+   "^Sponsored$",
+   "Top Private Credit Firms",
+   "PEI \\d{3}"
+  ]
+ },
+ {
+  "id": "sgx",
+  "name": "SGX announcements",
+  "gnews": "site:links.sgx.com when:3d",
+  "country_default": [
+   "SG"
+  ],
+  "max_age_days": 4,
+  "skip_title": [
+   ": \\d{1,2}-[A-Z][a-z]{2}-\\d{4}$"
+  ]
+ },
+ {
+  "id": "sec_8k",
+  "name": "SEC EDGAR 8-K",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&company=&dateb=&owner=include&start=0&count=100&output=atom",
+  "sec": true,
+  "country_default": [
+   "US"
+  ],
+  "always_deal": true,
+  "max": 100,
+  "max_age_days": 3
+ },
+ {
+  "id": "prn_ma",
+  "name": "PR Newswire M&A",
+  "url": "https://www.prnewswire.com/rss/financial-services-latest-news/acquisitions-mergers-and-takeovers-list.rss",
+  "category_default": [
+   "M&A"
+  ],
+  "always_deal": true,
+  "max_age_days": 4
+ },
+ {
+  "id": "gnw_ma",
+  "name": "GlobeNewswire M&A",
+  "url": "https://www.globenewswire.com/RssFeed/subjectcode/27-Mergers%20And%20Acquisitions/feedTitle/GlobeNewswire%20-%20Mergers%20And%20Acquisitions",
+  "category_default": [
+   "M&A"
+  ],
+  "always_deal": true,
+  "max_age_days": 4
+ }
+]

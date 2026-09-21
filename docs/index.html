@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" data-skin="board">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deal Wire</title>
+<meta name="description" content="Live deal board and daily briefing: M&A, PE, credit and infrastructure across the US, Southeast Asia, Singapore and Hong Kong / China.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css">
+<!-- The whole look lives in one skin file. Default = data-skin above; viewers can switch in Settings; ?skin=editorial also works. -->
+<link rel="stylesheet" id="skin-css" href="skins/board.css">
+</head>
+<body data-view="home">
+<header class="top">
+  <div class="top-row">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">Deal Wire</span>
+      <span class="brand-sub">US · SEA · SG · HK/CN</span>
+    </div>
+    <div class="top-meta">
+      <span class="clock" id="clock" aria-label="Singapore time"></span>
+      <span id="updated" class="updated">Loading…</span>
+      <button id="btn-saved" class="icon-btn" aria-label="Saved stories" title="Saved">☆</button>
+      <button id="btn-settings" class="icon-btn" aria-label="Settings" title="Settings">⚙</button>
+    </div>
+  </div>
+  <div class="search-row">
+    <input id="q" type="search" placeholder="Search every story — company, sponsor, sector…" autocomplete="off" aria-label="Search news">
+  </div>
+  <nav class="filters" aria-label="Filters">
+    <div class="chip-group" data-group="category">
+      <button class="chip" data-v="M&A">M&amp;A</button>
+      <button class="chip" data-v="PE">PE</button>
+      <button class="chip" data-v="Credit">Credit</button>
+      <button class="chip" data-v="Infra">Infra</button>
+    </div>
+    <span class="sep" aria-hidden="true"></span>
+    <div class="chip-group" data-group="country">
+      <button class="chip" data-v="US">US</button>
+      <button class="chip" data-v="SEA">SEA</button>
+      <button class="chip" data-v="SG">SG</button>
+      <button class="chip" data-v="HK/CN">HK/CN</button>
+    </div>
+    <span class="sep" aria-hidden="true"></span>
+    <label class="select-wrap"><span class="sr">Sector</span>
+      <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
+    </label>
+    <button id="clear" class="chip ghost" hidden>Clear</button>
+  </nav>
+</header>
+
+<main class="grid">
+  <section class="panel p-deals" id="view-deals" aria-labelledby="deals-h">
+    <div class="panel-head">
+      <h2 id="deals-h"><span class="live-dot" aria-hidden="true"></span>Live deal board</h2>
+      <span class="panel-meta" id="deals-count"></span>
+    </div>
+    <div class="board-cols" aria-hidden="true"><span>Time</span><span>Region</span><span>Type</span><span>Deal</span></div>
+    <ol class="rows" id="deals"></ol>
+    <button class="more" id="deals-more" hidden>Show all deals</button>
+  </section>
+
+  <section class="panel p-digest" id="digest" aria-labelledby="digest-h">
+    <div class="panel-head">
+      <h2 id="digest-h">Today's Digest</h2>
+      <span class="panel-meta" id="digest-meta"></span>
+    </div>
+    <ol class="digest-list" id="digest-list"></ol>
+  </section>
+
+  <section class="panel p-stories" id="view-home" aria-labelledby="stories-h">
+    <div class="panel-head">
+      <h2 id="stories-h">Top stories</h2>
+      <span class="panel-meta" id="rank-hint"></span>
+    </div>
+    <ol class="rows" id="stories"></ol>
+    <button class="more" id="more" hidden>Show more</button>
+  </section>
+
+  <section class="panel p-search" id="view-search" hidden>
+    <div class="panel-head">
+      <h2>Search archive</h2>
+      <label class="select-wrap small"><span class="sr">Period</span>
+        <select id="period">
+          <option value="7">Last 7 days</option>
+          <option value="30" selected>Last 30 days</option>
+          <option value="90">Last 90 days</option>
+          <option value="0">All time</option>
+        </select>
+      </label>
+    </div>
+    <p class="panel-meta pad" id="search-status"></p>
+    <ol class="rows" id="results"></ol>
+  </section>
+
+  <section class="panel p-saved" id="view-saved" hidden>
+    <div class="panel-head"><h2>Saved</h2></div>
+    <ol class="rows" id="saved-list"></ol>
+  </section>
+</main>
+
+<nav class="tabbar" aria-label="Sections">
+  <button class="tab active" data-view="home">Home</button>
+  <button class="tab" data-view="deals">Deals</button>
+  <button class="tab" data-view="search">Search</button>
+  <button class="tab" data-view="saved">Saved</button>
+</nav>
+
+<dialog id="settings">
+  <form method="dialog" class="settings">
+    <h2>Settings</h2>
+    <label class="field"><span>Look</span>
+      <select id="skin-select"></select>
+    </label>
+    <div class="profile" id="profile-view"></div>
+    <div class="row-btns">
+      <button type="button" id="reset-profile" class="chip ghost">Reset learning</button>
+      <button value="close" class="chip">Done</button>
+    </div>
+  </form>
+</dialog>
+
+<template id="row-tpl">
+  <li class="row">
+    <span class="c-time"></span>
+    <span class="c-reg"></span>
+    <span class="c-type"></span>
+    <div class="c-main">
+      <a class="c-title" target="_blank" rel="noopener"></a>
+      <p class="c-snip"></p>
+      <div class="c-meta"><span class="src"></span><span class="ago"></span><span class="sector"></span><span class="why"></span><span class="also"></span></div>
+    </div>
+    <div class="c-act">
+      <button class="act save" title="Save" aria-label="Save">☆</button>
+      <button class="act hide" title="Less like this" aria-label="Less like this">×</button>
+    </div>
+  </li>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>
