@@ -17,7 +17,7 @@
     set(k, v) { try { localStorage.setItem("dw." + k, JSON.stringify(v)); } catch { /* storage unavailable */ } },
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
-  const MAIL_ENDPOINT = "";
+  const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const REGION_ORDER = ["SG", "HK/CN", "SEA", "US"];   // SG items also carry SEA; show the most specific first
