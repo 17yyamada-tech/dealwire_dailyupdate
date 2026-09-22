@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-09-22-1530",
+   "label": "22 Sep 2026 · 15:30 SGT",
+   "generated_at": "2026-09-22T07:31:00Z",
+   "items": 4,
+   "headlines": [
+    "Philippines taps India's GMR Group for $11 billion Manila airport project",
+    "MAS financial stability review flags AI-pullback and global-shock risks, says Singapore well-buffered",
+    "PhonePe secures initial UAE central bank approval for payment licence"
+   ]
+  },
+  {
    "id": "2026-09-22-1230",
    "label": "22 Sep 2026 · 12:30 SGT",
    "generated_at": "2026-09-22T04:33:16Z",

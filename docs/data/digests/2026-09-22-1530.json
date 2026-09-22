@@ -1,0 +1,109 @@
+{
+ "edition": "2026-09-22-1530",
+ "edition_label": "22 Sep 2026 · 15:30 SGT",
+ "date": "2026-09-22",
+ "generated_at": "2026-09-22T07:31:00Z",
+ "reading_minutes": 2,
+ "items": [
+  {
+   "headline": "Philippines taps India's GMR Group for $11 billion Manila airport project",
+   "summary": "The Philippines has tapped India's GMR Group to develop an $11 billion airport, The Business Times reported. The award is part of a shift by Manila toward courting private capital from Asian investors rather than relying on official development aid.",
+   "why_it_matters": "The scale of the award signals rising Indian infrastructure appetite for Southeast Asian aviation assets and underscores the region's reliance on private capital to fund large infrastructure build-outs.",
+   "status": "new",
+   "prev": null,
+   "key": "manila-gmr-airport",
+   "ids": [
+    "0f023a111cd9ff"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/asean/manila-taps-indias-gmr-us11-billion-airport-does-it-need-another"
+    }
+   ],
+   "categories": [
+    "Infra"
+   ],
+   "countries": [
+    "SEA"
+   ],
+   "sectors": [
+    "Infrastructure"
+   ]
+  },
+  {
+   "headline": "MAS financial stability review flags AI-pullback and global-shock risks, says Singapore well-buffered",
+   "summary": "The Monetary Authority of Singapore's latest Financial Stability Review warned of risks from fresh global shocks and a potential pullback in AI-related investment, CNA reported. It said Singapore firms and households remain well-buffered, though economies that have benefited from AI-related exports and investment are among the most exposed if the AI boom cools.",
+   "why_it_matters": "The warning points to a build-up of debt tied to AI-driven capital spending across the region, a risk credit investors will want to track as financing for data-centre and chip investment keeps growing.",
+   "status": "new",
+   "prev": null,
+   "key": "mas-financial-stability-ai-pullback",
+   "ids": [
+    "8a98a4f21dd758"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/singapore/mas-financial-stability-review-ai-pullback-6401101"
+    }
+   ],
+   "categories": [
+    "Credit"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "TMT"
+   ]
+  },
+  {
+   "headline": "PhonePe secures initial UAE central bank approval for payment licence",
+   "summary": "India's PhonePe has received initial approval from the UAE central bank for payment licences, CNA reported. The nod is a preliminary step and does not amount to a full licence.",
+   "why_it_matters": "The approval would extend PhonePe's digital-payments footprint into the Gulf, a market increasingly targeted by South and Southeast Asian fintechs seeking growth outside home markets.",
+   "status": "new",
+   "prev": null,
+   "key": "phonepe-uae-payment-licence",
+   "ids": [
+    "b68cf3bfb055ba"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/indias-phonepe-gets-initial-uae-central-bank-nod-payment-licenses-6401556"
+    }
+   ],
+   "categories": [],
+   "countries": [],
+   "sectors": [
+    "Financials",
+    "Public / Macro"
+   ]
+  },
+  {
+   "headline": "Binance faces US scrutiny over possible Iran sanctions violations, Bloomberg reports",
+   "summary": "Binance is under scrutiny from US authorities over possible violations of Iran sanctions, Bloomberg News reported, according to CNA. Details of the alleged violations were not disclosed.",
+   "why_it_matters": "Renewed US sanctions scrutiny adds to compliance risk facing crypto exchanges, a factor institutional counterparties and lenders with Binance exposure will want to monitor.",
+   "status": "new",
+   "prev": null,
+   "key": "binance-us-iran-sanctions-scrutiny",
+   "ids": [
+    "203e3f9c0f8430"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/binance-under-us-scrutiny-over-possible-iran-sanctions-violations-bloomberg-news-reports-6401076"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  }
+ ]
+}
