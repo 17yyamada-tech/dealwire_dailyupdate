@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-09-22-1230",
+   "label": "22 Sep 2026 · 12:30 SGT",
+   "generated_at": "2026-09-22T04:33:16Z",
+   "items": 6,
+   "headlines": [
+    "Singapore's BDx breaks ground on 640MW AI data centre in Indonesia, backed by $320m loan",
+    "Korean wealth fund weighs sale of more than $1 billion of PE stakes, report says",
+    "Australian regulator warns private credit sector of more enforcement after Bathla's A$3.4bn collapse"
+   ]
+  },
+  {
    "id": "2026-09-22-0830",
    "label": "22 Sep 2026 · 08:30 SGT",
    "generated_at": "2026-09-22T00:40:00Z",

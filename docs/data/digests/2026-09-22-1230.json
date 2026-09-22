@@ -1,0 +1,171 @@
+{
+ "edition": "2026-09-22-1230",
+ "edition_label": "22 Sep 2026 · 12:30 SGT",
+ "date": "2026-09-22",
+ "generated_at": "2026-09-22T04:33:16Z",
+ "reading_minutes": 2,
+ "items": [
+  {
+   "headline": "Singapore's BDx breaks ground on 640MW AI data centre in Indonesia, backed by $320m loan",
+   "summary": "Singapore-based BDx has started construction on a 640 MW AI data centre in Indonesia. The company secured a US$320 million loan facility in 2026 to support the expansion into the region's biggest economy.",
+   "why_it_matters": "The facility's scale and dedicated financing point to accelerating capital deployment into Southeast Asian AI infrastructure, with lenders increasingly financing data-centre build-outs directly.",
+   "status": "new",
+   "prev": null,
+   "key": "bdx-indonesia-ai-datacentre",
+   "ids": [
+    "7615b4cd205ac9"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/asean/singapores-bdx-starts-construction-640-mw-ai-data-centre-indonesia"
+    }
+   ],
+   "categories": [
+    "Credit",
+    "Infra"
+   ],
+   "countries": [
+    "SEA",
+    "SG"
+   ],
+   "sectors": [
+    "TMT",
+    "Industrials",
+    "Public / Macro"
+   ]
+  },
+  {
+   "headline": "Korean wealth fund weighs sale of more than $1 billion of PE stakes, report says",
+   "summary": "A South Korean wealth fund is weighing the sale of more than $1 billion of private equity stakes, according to a report. Further details of the fund's identity and the sale timeline were not disclosed.",
+   "why_it_matters": "A sale of this size would rank among the larger LP-led secondaries transactions out of Asia this year, testing buyer appetite for large stake portfolios.",
+   "status": "new",
+   "prev": null,
+   "key": "korean-wealth-fund-pe-stakes-sale",
+   "ids": [
+    "fec354469072c9"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaEhzUE5JaVNPblRjeW50Wm1wTTJTSnhRdjFFZk9mTGdiS2dFNThwV2llUGNZTTh4dDM3U3BLbHktQUVzSEFjMmNneEtaZ3Nhck9yaW9fakN5MGZQTU9BX004eXRxenFiYzFvOG1wcGtvVktyREFDN3VsVmh6VGpNQ2V1RTE?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Financials"
+   ]
+  },
+  {
+   "headline": "Australian regulator warns private credit sector of more enforcement after Bathla's A$3.4bn collapse",
+   "summary": "Australia's regulator warned the private credit sector to expect more enforcement action following the insolvency of Bathla. Bathla's A$3.4 billion in debt from 40 lenders was funnelled through around 542 special purpose vehicles.",
+   "why_it_matters": "The scale of the SPV structure shows how opaque private credit financing has become, and a regulator signalling more enforcement raises compliance costs across the sector.",
+   "status": "new",
+   "prev": null,
+   "key": "australia-bathla-private-credit-enforcement",
+   "ids": [
+    "47b4c9d8714199",
+    "3e007327762194"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/property/australia-tells-private-credit-sector-expect-more-enforcement-following-bathlas-insolvency"
+    },
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/property/australian-regulator-warns-private-credit-firms-more-enforcement-after-bathla-insolvency"
+    }
+   ],
+   "categories": [
+    "Credit"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Financials"
+   ]
+  },
+  {
+   "headline": "Six lenders hold US$870 million exposure to iron-ore trader Radiant World, first public tally shows",
+   "summary": "A newly disclosed table shows six lenders with a combined US$870 million exposure to iron-ore trader Radiant World. It is the first comprehensive public accounting of lenders' exposure to the company.",
+   "why_it_matters": "The disclosure gives creditors and counterparties their first clear picture of concentration risk in a commodity-trading credit relationship that had previously been opaque.",
+   "status": "new",
+   "prev": null,
+   "key": "radiant-world-lender-exposure",
+   "ids": [
+    "6c5ab0ecb60104"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/radiant-world-table-shows-six-lenders-us870-million-exposure"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Alibaba targets AI model with up to 10 trillion parameters, sets 20GW data-centre capacity goal",
+   "summary": "Alibaba said it is developing an AI model with 5 trillion to 10 trillion parameters and unveiled a new chip. The company also set a target for Alibaba Cloud's global data-centre capacity to exceed 20 gigawatts by 2032.",
+   "why_it_matters": "The capacity target signals a multi-year escalation in China's AI infrastructure build-out, with implications for chip supply chains and data-centre financing across the region.",
+   "status": "new",
+   "prev": null,
+   "key": "alibaba-ai-model-chip-datacentre",
+   "ids": [
+    "3fe2ba8e977853"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/alibaba-plans-ai-model-5-trillion-10-trillion-parameters-unveils-new-chip"
+    }
+   ],
+   "categories": [
+    "Infra"
+   ],
+   "countries": [
+    "HK/CN"
+   ],
+   "sectors": [
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Safran opens US$22 million landing-gear MRO facility in Singapore",
+   "summary": "Safran has launched a US$22 million landing-gear maintenance, repair and overhaul facility in Singapore. The site makes Singapore the aviation group's second-largest location globally for such services.",
+   "why_it_matters": "The investment underscores Singapore's continued draw for aerospace-services capital even as the MRO sector consolidates around fewer, larger hubs.",
+   "status": "new",
+   "prev": null,
+   "key": "safran-singapore-mro-facility",
+   "ids": [
+    "cdbfcbcdd063c6"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/safran-launches-us22-million-landing-gear-mro-facility-singapore"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Industrials"
+   ]
+  }
+ ]
+}
