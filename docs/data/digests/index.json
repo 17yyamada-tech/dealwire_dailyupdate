@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-09-22-0830",
+   "label": "22 Sep 2026 · 08:30 SGT",
+   "generated_at": "2026-09-22T00:40:00Z",
+   "items": 10,
+   "headlines": [
+    "Paramount clears final hurdles for $110bn Warner Bros merger after state, union settlements",
+    "Titan International to sell ITM business to USCO S.p.A. for up to $285 million",
+    "Vanguard Renewables and Pinta Energy split Generate Capital's 12-site RNG platform"
+   ]
+  },
+  {
    "id": "2026-09-21-2100",
    "label": "21 Sep 2026 · 21:00 SGT",
    "generated_at": "2026-09-21T13:02:19Z",

@@ -1,0 +1,161 @@
+{
+ "edition": "2026-09-22-0830",
+ "edition_label": "22 Sep 2026 · 08:30 SGT",
+ "date": "2026-09-22",
+ "generated_at": "2026-09-22T00:40:00Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "Paramount clears final hurdles for $110bn Warner Bros merger after state, union settlements",
+   "summary": "Paramount has settled a lawsuit brought by a group of US states that challenged its $110bn merger with Warner Bros, agreeing to produce 30 films a year or face a forced sale of parts of the combined company. The Writers Guild of America separately settled its own parallel case against Paramount, removing another disclosed legal obstacle to the takeover.",
+   "why_it_matters": "The settlements clear the last publicly known legal hurdles to one of the largest media mergers in years. The film-output commitment shows regulators extracting binding operational concessions rather than blocking the deal outright, a template that could shape how other large media combinations get cleared, and dealmakers will watch how closely Paramount is held to the production quota once the merger closes.",
+   "status": "new",
+   "prev": null,
+   "key": "paramount-warner-bros-merger",
+   "ids": ["ebfdcadb409f09", "749c84b1e02403", "7708bce67c88ff"],
+   "links": [
+    {"source": "BBC Business", "url": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss"},
+    {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/paramount-wins-warner-bros-takeover-after-settling-states-union-lawsuits"}
+   ],
+   "categories": ["M&A"],
+   "countries": ["US"],
+   "sectors": ["Other"]
+  },
+  {
+   "headline": "Titan International to sell ITM business to USCO S.p.A. for up to $285 million",
+   "summary": "Titan International has signed a definitive agreement to sell its ITM business to USCO S.p.A., a transaction it expects to generate up to approximately $285 million in total cash value. Titan is a global manufacturer of off-highway wheels, tires and undercarriage products.",
+   "why_it_matters": "The disposal lets Titan sharpen its focus on core off-highway wheel and tire operations while banking sizeable cash proceeds, a divestiture pattern increasingly common among industrial manufacturers looking to delever and streamline their portfolios. The roughly $285 million price tag also gives investors a fresh valuation reference point for niche off-highway component businesses.",
+   "status": "new",
+   "prev": null,
+   "key": "titan-international-itm-usco-sale",
+   "ids": ["c2fbd32337aa7b"],
+   "links": [
+    {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/titan-international-signs-definitive-agreement-to-sell-itm-business-to-usco-spa-302884962.html"}
+   ],
+   "categories": ["M&A"],
+   "countries": ["US"],
+   "sectors": ["Industrials"]
+  },
+  {
+   "headline": "Vanguard Renewables and Pinta Energy split Generate Capital's 12-site RNG platform",
+   "summary": "Generate Capital is selling its Generate Upcycle anaerobic digestion platform, with Pinta Energy and Vanguard Renewables acquiring separate portions of the 12-site network spanning the UK, Canada and the US. Vanguard Renewables is taking Generate Upcycle's North American operations and combining them with its own business to form what it calls North America's largest food waste-to-renewable natural gas platform.",
+   "why_it_matters": "The split sale points to continued consolidation in food-waste-to-renewable-gas infrastructure as buyers chase scale ahead of expected growth in RNG demand, and gives Generate Capital an exit from a maturing infrastructure investment. Carving the platform into geography-specific buyers also suggests strategic operators are now willing to pay up for regional density rather than a single global RNG portfolio.",
+   "status": "new",
+   "prev": null,
+   "key": "generate-upcycle-vanguard-pinta-sale",
+   "ids": ["6877d236307e10", "0590fe84ff1298"],
+   "links": [
+    {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/generate-capital-announces-sale-of-global-anaerobic-digestion-platform-generate-upcycle-302882739.html"},
+    {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/vanguard-renewables-and-generate-upcycle-unite-to-create-north-americas-largest-food-waste-to-rng-platform-302884253.html"}
+   ],
+   "categories": ["Infra", "M&A"],
+   "countries": ["US"],
+   "sectors": ["Energy", "Infrastructure", "Consumer"]
+  },
+  {
+   "headline": "Iambic Therapeutics, backed by Nvidia and Qatar's QIA, files for US IPO",
+   "summary": "Iambic Therapeutics, whose backers include Nvidia and the Qatar Investment Authority, has filed for a US initial public offering. The filing comes as the biotech IPO market continues to strengthen.",
+   "why_it_matters": "Backing from Nvidia and a sovereign wealth fund highlights how AI-driven drug discovery platforms are drawing capital from both strategic technology investors and large state funds, and the filing is another test of investor appetite for the ongoing biotech listing rebound.",
+   "status": "new",
+   "prev": null,
+   "key": "iambic-therapeutics-us-ipo",
+   "ids": ["c4b6ddaeb4e495"],
+   "links": [
+    {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/nvidia-qia-backed-iambic-therapeutics-files-us-ipo-biotech-boom-rolls-6400706"}
+   ],
+   "categories": [],
+   "countries": ["US"],
+   "sectors": ["Healthcare"]
+  },
+  {
+   "headline": "Google strikes nuclear power agreement with Southern Co utility subsidiary",
+   "summary": "A subsidiary of Southern Co has signed an agreement with Google to add nuclear generating capacity. Financial and commercial terms were not disclosed.",
+   "why_it_matters": "The tie-up adds to a wave of technology companies contracting directly with utilities and nuclear operators to secure carbon-free power for AI-driven data-centre growth, a trend credit and infrastructure investors are tracking closely as demand for firm, round-the-clock power rises.",
+   "status": "new",
+   "prev": null,
+   "key": "southern-co-google-nuclear-deal",
+   "ids": ["164b29818a66a6"],
+   "links": [
+    {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/southern-co-unit-signs-deal-google-add-nuclear-capacity-6400716"}
+   ],
+   "categories": [],
+   "countries": [],
+   "sectors": ["Energy"]
+  },
+  {
+   "headline": "Seatrium unveils S$200 million buyback covering up to 2% of shares",
+   "summary": "Seatrium has allocated S$200 million for a new share buyback programme, allowing it to repurchase up to a maximum of 2% of its total issued shares.",
+   "why_it_matters": "The buyback signals management's confidence in the offshore and marine group's balance sheet and valuation, and adds Seatrium to a growing list of Singapore-listed companies returning capital to shareholders this year.",
+   "status": "new",
+   "prev": null,
+   "key": "seatrium-share-buyback-programme",
+   "ids": ["0a17ba8470b7bf"],
+   "links": [
+    {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/seatrium-allocates-s200-million-new-share-buyback-programme"}
+   ],
+   "categories": [],
+   "countries": ["SG", "SEA"],
+   "sectors": ["Other"]
+  },
+  {
+   "headline": "Singapore's Syfe tops S$20 billion in assets under management",
+   "summary": "Digital wealth platform Syfe has crossed S$20 billion in assets under management, with growth coming from both its investment and trading segments. The company said its focus is now on curating the funds it offers on the platform.",
+   "why_it_matters": "The milestone underscores continued growth in Singapore's digital wealth management sector, positioning Syfe among the region's larger fintech asset gatherers as competition for retail investment flows intensifies.",
+   "status": "new",
+   "prev": null,
+   "key": "syfe-aum-milestone",
+   "ids": ["cdffa44215c77a"],
+   "links": [
+    {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/startups-tech/startups/syfe-crosses-s20-billion-aum-mark-tracks-growth-investment-and-trading-segments"}
+   ],
+   "categories": [],
+   "countries": ["SG", "SEA"],
+   "sectors": ["Other"]
+  },
+  {
+   "headline": "China held about 94% of global rare-earth magnet output in 2024, giving it leverage over US",
+   "summary": "China accounted for about 94% of global rare-earth permanent-magnet manufacturing in 2024, giving Beijing significant leverage over the US, according to a report.",
+   "why_it_matters": "The concentration of rare-earth magnet production in China is a persistent supply-chain vulnerability for US and allied manufacturers across defence, autos and clean energy, raising the strategic premium on deals and projects that diversify magnet and critical-mineral supply outside China.",
+   "status": "new",
+   "prev": null,
+   "key": "rare-earth-magnet-china-leverage",
+   "ids": ["e2f6404f1dfc0d"],
+   "links": [
+    {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/international/global/worlds-top-rare-earth-magnet-maker-gives-xi-leverage-over-us"}
+   ],
+   "categories": [],
+   "countries": ["US", "HK/CN"],
+   "sectors": ["Industrials"]
+  },
+  {
+   "headline": "CrownPoint Partners completes over $34 million in dental sale-leaseback deals across Michigan, Ohio",
+   "summary": "CrownPoint Partners has completed more than $34 million in dental sale-leaseback transactions across Michigan and Ohio, bringing its total to more than 27 such deals so far this year. Recent closings include properties in Ann Arbor, Norton Shores and Sterling Heights.",
+   "why_it_matters": "The steady pace of sale-leaseback dealmaking in healthcare real estate shows continued investor demand for triple-net income from dental and other medical properties, a niche that credit-oriented real estate buyers have kept active even as broader property transaction volumes stay subdued. The multi-state cadence also points to a repeatable, programmatic strategy rather than one-off transactions.",
+   "status": "new",
+   "prev": null,
+   "key": "crownpoint-dental-sale-leaseback",
+   "ids": ["6b6596c55b0afc"],
+   "links": [
+    {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/crownpoint-partners-completes-more-than-34-million-in-dental-sale-leaseback-transactions-across-michigan-and-ohio-302885085.html"}
+   ],
+   "categories": ["M&A"],
+   "countries": [],
+   "sectors": ["Real Estate"]
+  },
+  {
+   "headline": "Construction Partners completes acquisition expanding operations in Florida Panhandle",
+   "summary": "Construction Partners has completed an acquisition that expands the company's operations in the Florida Panhandle. Construction Partners is a vertically integrated civil infrastructure company focused on construction and maintenance of transportation infrastructure.",
+   "why_it_matters": "The bolt-on acquisition extends Construction Partners' geographic footprint in a fast-growing US infrastructure and paving market, continuing a consolidation trend among vertically integrated civil contractors positioning for sustained public and private infrastructure spending.",
+   "status": "new",
+   "prev": null,
+   "key": "construction-partners-florida-acquisition",
+   "ids": ["d1baeccf49af86"],
+   "links": [
+    {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/construction-partners-inc-completes-florida-acquisition-302885046.html"}
+   ],
+   "categories": ["M&A", "Infra"],
+   "countries": ["US"],
+   "sectors": ["Industrials", "Infrastructure"]
+  }
+ ]
+}
