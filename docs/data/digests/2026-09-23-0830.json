@@ -1,0 +1,192 @@
+{
+  "edition": "2026-09-23-0830",
+  "edition_label": "23 Sep 2026 · 08:30 SGT",
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T00:32:59Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Blackstone and EQT complete $6.6bn purchase of Platinum Equity's Urbaser",
+      "summary": "Platinum Equity said it has completed the sale of Urbaser, a Madrid-based environmental infrastructure platform, to Blackstone and EQT in a transaction valued at approximately $6.6 billion (roughly €5.6 billion). The sale follows a multi-year transformation process at Urbaser under Platinum Equity's ownership.",
+      "why_it_matters": "The deal shows continued institutional appetite for environmental-services infrastructure at scale, with two of the largest alternative managers taking joint control of a pan-European waste and water platform.",
+      "status": "new",
+      "prev": null,
+      "key": "urbaser-blackstone-eqt-sale",
+      "ids": [
+        "5573fb1d9d57fd"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/platinum-equity-completes-sale-of-global-environmental-services-business-urbaser-to-blackstone-and-eqt-for-6-6-billion-302886364.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Persistent's tender offer for Nagarro succeeds with 83.25% acceptance",
+      "summary": "Persistent Systems said its takeover offer for IT-services firm Nagarro was successful, securing a total of 83.25% of Nagarro's outstanding share capital by the end of the acceptance period. An additional acceptance period runs from September 23 to October 6, 2026, giving remaining shareholders a further window to tender.",
+      "why_it_matters": "Clearing the majority threshold lets Persistent consolidate control of Nagarro's digital-engineering business, extending an Indian IT major's push into higher-value consulting work.",
+      "status": "new",
+      "prev": null,
+      "key": "persistent-nagarro-takeover",
+      "ids": [
+        "493a31f7555340"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/persistents-takeover-offer-for-nagarro-successful-302886318.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "AI infrastructure firm Accelevation targets $5.4bn valuation in US IPO",
+      "summary": "Accelevation and its backers are aiming to raise up to $720 million in a US IPO, targeting a valuation of up to $5.4 billion for the data-centre and AI-infrastructure firm.",
+      "why_it_matters": "A successful listing would add to the run of AI-infrastructure companies tapping public markets and test investor appetite for data-centre capacity plays after months of hyperscaler capex headlines.",
+      "status": "new",
+      "prev": null,
+      "key": "accelevation-us-ipo",
+      "ids": [
+        "b4b211c7991d22",
+        "59d8704be75243"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/ai-infrastructure-firm-accelevation-targets-up-54-billion-valuation-in-us-ipo-6402136"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/accelevation-backers-aim-raise-up-720-million-in-us-ipo-6402136"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT",
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Apollo's Forge agrees to acquire Pamlico-backed Becker's Healthcare",
+      "summary": "Forge, a portfolio company of Apollo, has agreed to acquire Becker's Healthcare, a Chicago-based media and events platform owned by Pamlico Capital, under a definitive agreement advised by JEGI LEONIS. Financial terms were not disclosed.",
+      "why_it_matters": "The deal is a sponsor-to-sponsor handoff in healthcare information services, a segment private equity has favoured for its recurring, asset-light revenue.",
+      "status": "new",
+      "prev": null,
+      "key": "forge-apollo-beckers-healthcare",
+      "ids": [
+        "7459079e841ade"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/jegi-leonis-has-advised-forge-a-portfolio-company-of-apollo-on-their-definitive-agreement-to-acquire-beckers-healthcare-a-portfolio-company-of-pamlico-capital-302886780.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT",
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Binance buys $100m stake in Circle, deepens stablecoin partnership",
+      "summary": "Binance has bought a $100 million stake in Circle, the issuer of the USDC stablecoin, and expanded its partnership with the company.",
+      "why_it_matters": "The investment ties the world's largest crypto exchange more closely to the leading regulated stablecoin issuer as stablecoins increasingly compete with banks in payments and settlement.",
+      "status": "new",
+      "prev": null,
+      "key": "binance-circle-stake",
+      "ids": [
+        "861782ce5afde6"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/binance-buys-100-million-stake-in-circle-expands-partnership-6402246"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Cognex to acquire RealSense, expanding into robotic 3D perception",
+      "summary": "Cognex Corporation has agreed to acquire RealSense, adding a 3D robotic-perception platform to broaden its machine-vision business into the robotics market. Financial terms were not disclosed.",
+      "why_it_matters": "The deal signals industrial-automation vendors racing to bolt on perception technology as robotics deployment accelerates in warehouses and factories.",
+      "status": "new",
+      "prev": null,
+      "key": "cognex-realsense-acquisition",
+      "ids": [
+        "358c4fda571a25"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/cognex-to-acquire-realsense-expanding-machine-vision-leadership-into-high-growth-robotic-perception-market-302885738.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT",
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Snorkel AI valued at $3.5 billion amid AI training-data demand",
+      "summary": "Snorkel AI has been valued at $3.5 billion, reflecting surging demand for complex AI training data.",
+      "why_it_matters": "The mark adds to a run of rich valuations for data-labelling and training-data specialists as AI developers compete for high-quality, complex datasets.",
+      "status": "new",
+      "prev": null,
+      "key": "snorkel-ai-valuation",
+      "ids": [
+        "ec65e87fe2dc9c"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/exclusive-snorkel-ai-valued-35-billion-amid-surging-demand-complex-ai-training-data-6402476"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    }
+  ]
+}
