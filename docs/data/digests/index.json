@@ -1,103 +1,114 @@
 {
- "editions": [
-  {
-   "id": "2026-09-24-1230",
-   "label": "24 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-24T04:35:35Z",
-   "items": 4,
-   "headlines": [
-    "US's Elmet Group agrees to buy 5% of Masan High-Tech Materials, valuing it at $2.5bn",
-    "Aurora Cannabis challenges Curaleaf's takeover circular at Alberta securities regulator",
-    "Blackstone's Copeland completes purchase of May River-backed Dickson"
-   ]
-  },
-  {
-   "id": "2026-09-24-0830",
-   "label": "24 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-24T00:38:52Z",
-   "items": 10,
-   "headlines": [
-    "Hellman & Friedman explores sale of Applied Systems at up to $10bn",
-    "StarHub, Keppel confirm advanced talks over M1 deal",
-    "People Incorporated withdraws bid to take MGM Resorts private"
-   ]
-  },
-  {
-   "id": "2026-09-23-1530",
-   "label": "23 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-23T07:33:23Z",
-   "items": 3,
-   "headlines": [
-    "Huspy invests $86m in Italy, acquires Integra Finance to enter market",
-    "Incredible Holdings files for judicial management after CAD/MAS probe disclosure",
-    "EQT opens Abu Dhabi office to launch dedicated Middle East platform"
-   ]
-  },
-  {
-   "id": "2026-09-23-1230",
-   "label": "23 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-23T04:33:54Z",
-   "items": 4,
-   "headlines": [
-    "Apollo again limits withdrawals from private credit fund as 14.7% of investors seek to exit",
-    "Alibaba to build data centres in Europe and Middle East, escalating cloud rivalry with AWS, Google",
-    "Australian healthtech Heidi raises $100m in Series C round"
-   ]
-  },
-  {
-   "id": "2026-09-23-0830",
-   "label": "23 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-23T00:32:59Z",
-   "items": 7,
-   "headlines": [
-    "Blackstone and EQT complete $6.6bn purchase of Platinum Equity's Urbaser",
-    "Persistent's tender offer for Nagarro succeeds with 83.25% acceptance",
-    "AI infrastructure firm Accelevation targets $5.4bn valuation in US IPO"
-   ]
-  },
-  {
-   "id": "2026-09-22-1530",
-   "label": "22 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-22T07:31:00Z",
-   "items": 4,
-   "headlines": [
-    "Philippines taps India's GMR Group for $11 billion Manila airport project",
-    "MAS financial stability review flags AI-pullback and global-shock risks, says Singapore well-buffered",
-    "PhonePe secures initial UAE central bank approval for payment licence"
-   ]
-  },
-  {
-   "id": "2026-09-22-1230",
-   "label": "22 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-22T04:33:16Z",
-   "items": 6,
-   "headlines": [
-    "Singapore's BDx breaks ground on 640MW AI data centre in Indonesia, backed by $320m loan",
-    "Korean wealth fund weighs sale of more than $1 billion of PE stakes, report says",
-    "Australian regulator warns private credit sector of more enforcement after Bathla's A$3.4bn collapse"
-   ]
-  },
-  {
-   "id": "2026-09-22-0830",
-   "label": "22 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-22T00:40:00Z",
-   "items": 10,
-   "headlines": [
-    "Paramount clears final hurdles for $110bn Warner Bros merger after state, union settlements",
-    "Titan International to sell ITM business to USCO S.p.A. for up to $285 million",
-    "Vanguard Renewables and Pinta Energy split Generate Capital's 12-site RNG platform"
-   ]
-  },
-  {
-   "id": "2026-09-21-2100",
-   "label": "21 Sep 2026 · 21:00 SGT",
-   "generated_at": "2026-09-21T13:02:19Z",
-   "items": 10,
-   "headlines": [
-    "SoftBank launches bond sale of over US$10 billion to fund OpenAI investment",
-    "New World Development wins Shanghai nod for US$570 million REIT listing",
-    "Singapore earmarks S$3.7 billion of green-bond proceeds for rail expansion"
-   ]
-  }
- ]
+  "editions": [
+    {
+      "id": "2026-09-24-1530",
+      "label": "24 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-24T07:33:34Z",
+      "items": 6,
+      "headlines": [
+        "Thai private equity firm Lakeshore Capital closes third fund above target at $305m",
+        "ESR acquires full ownership of Singapore-headquartered Aquila Clean Energy",
+        "IFC likely to invest $70m as cornerstone investor in GCash's IPO"
+      ]
+    },
+    {
+      "id": "2026-09-24-1230",
+      "label": "24 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-24T04:35:35Z",
+      "items": 4,
+      "headlines": [
+        "US's Elmet Group agrees to buy 5% of Masan High-Tech Materials, valuing it at $2.5bn",
+        "Aurora Cannabis challenges Curaleaf's takeover circular at Alberta securities regulator",
+        "Blackstone's Copeland completes purchase of May River-backed Dickson"
+      ]
+    },
+    {
+      "id": "2026-09-24-0830",
+      "label": "24 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-24T00:38:52Z",
+      "items": 10,
+      "headlines": [
+        "Hellman & Friedman explores sale of Applied Systems at up to $10bn",
+        "StarHub, Keppel confirm advanced talks over M1 deal",
+        "People Incorporated withdraws bid to take MGM Resorts private"
+      ]
+    },
+    {
+      "id": "2026-09-23-1530",
+      "label": "23 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-23T07:33:23Z",
+      "items": 3,
+      "headlines": [
+        "Huspy invests $86m in Italy, acquires Integra Finance to enter market",
+        "Incredible Holdings files for judicial management after CAD/MAS probe disclosure",
+        "EQT opens Abu Dhabi office to launch dedicated Middle East platform"
+      ]
+    },
+    {
+      "id": "2026-09-23-1230",
+      "label": "23 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-23T04:33:54Z",
+      "items": 4,
+      "headlines": [
+        "Apollo again limits withdrawals from private credit fund as 14.7% of investors seek to exit",
+        "Alibaba to build data centres in Europe and Middle East, escalating cloud rivalry with AWS, Google",
+        "Australian healthtech Heidi raises $100m in Series C round"
+      ]
+    },
+    {
+      "id": "2026-09-23-0830",
+      "label": "23 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-23T00:32:59Z",
+      "items": 7,
+      "headlines": [
+        "Blackstone and EQT complete $6.6bn purchase of Platinum Equity's Urbaser",
+        "Persistent's tender offer for Nagarro succeeds with 83.25% acceptance",
+        "AI infrastructure firm Accelevation targets $5.4bn valuation in US IPO"
+      ]
+    },
+    {
+      "id": "2026-09-22-1530",
+      "label": "22 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-22T07:31:00Z",
+      "items": 4,
+      "headlines": [
+        "Philippines taps India's GMR Group for $11 billion Manila airport project",
+        "MAS financial stability review flags AI-pullback and global-shock risks, says Singapore well-buffered",
+        "PhonePe secures initial UAE central bank approval for payment licence"
+      ]
+    },
+    {
+      "id": "2026-09-22-1230",
+      "label": "22 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-22T04:33:16Z",
+      "items": 6,
+      "headlines": [
+        "Singapore's BDx breaks ground on 640MW AI data centre in Indonesia, backed by $320m loan",
+        "Korean wealth fund weighs sale of more than $1 billion of PE stakes, report says",
+        "Australian regulator warns private credit sector of more enforcement after Bathla's A$3.4bn collapse"
+      ]
+    },
+    {
+      "id": "2026-09-22-0830",
+      "label": "22 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-22T00:40:00Z",
+      "items": 10,
+      "headlines": [
+        "Paramount clears final hurdles for $110bn Warner Bros merger after state, union settlements",
+        "Titan International to sell ITM business to USCO S.p.A. for up to $285 million",
+        "Vanguard Renewables and Pinta Energy split Generate Capital's 12-site RNG platform"
+      ]
+    },
+    {
+      "id": "2026-09-21-2100",
+      "label": "21 Sep 2026 · 21:00 SGT",
+      "generated_at": "2026-09-21T13:02:19Z",
+      "items": 10,
+      "headlines": [
+        "SoftBank launches bond sale of over US$10 billion to fund OpenAI investment",
+        "New World Development wins Shanghai nod for US$570 million REIT listing",
+        "Singapore earmarks S$3.7 billion of green-bond proceeds for rail expansion"
+      ]
+    }
+  ]
 }
