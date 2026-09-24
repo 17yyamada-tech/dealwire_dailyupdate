@@ -1,0 +1,61 @@
+{
+ "edition": "2026-09-24-1230",
+ "edition_label": "24 Sep 2026 · 12:30 SGT",
+ "date": "2026-09-24",
+ "generated_at": "2026-09-24T04:35:35Z",
+ "reading_minutes": 1,
+ "items": [
+  {
+   "headline": "US's Elmet Group agrees to buy 5% of Masan High-Tech Materials, valuing it at $2.5bn",
+   "summary": "US-based Elmet Group has agreed to acquire a 5% stake in Masan High-Tech Materials, valuing the company at $2.5 billion.",
+   "why_it_matters": "The stake sale sets a fresh $2.5 billion valuation benchmark for Masan High-Tech Materials and brings in a US strategic investor, though the release does not detail what governance or commercial rights accompany the investment.",
+   "status": "new",
+   "prev": null,
+   "key": "masan-hightech-elmet-stake",
+   "ids": ["47b7450e14e128"],
+   "links": [{"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTVVRU1ZjeWtaTHFwb3g4b2xPYUVFcEFVM3hsaEE4bnRycTRodWV1ZHdFRWU3TGk1eXNBLVJ2ckg4RmwwVm9KSFJ6V1JsR1o4dlI3eURhUzBFTVRPcVl5ZFkwclc2dGpQRXRaMS1FS0wyQnlzVmx4NnNkdDB3X2NWSWl6ckx5TURYeEt3YWxwbG5RY2RaX2dHN0N0NzZGWENCS1BVcEg0UUFBM2VSVzJmdVFEUlRGMENuLUE0X3E1SQ?oc=5"}],
+   "categories": ["M&A"],
+   "countries": ["US"],
+   "sectors": ["Other"]
+  },
+  {
+   "headline": "Aurora Cannabis challenges Curaleaf's takeover circular at Alberta securities regulator",
+   "summary": "Aurora Cannabis has filed an application with the Alberta Securities Commission seeking an order requiring Curaleaf to comply with securities laws in its hostile bid for Aurora. Aurora says it will show that Curaleaf's takeover circular has several disclosure deficiencies affecting Aurora shareholders.",
+   "why_it_matters": "The filing opens a securities-law front in the contested hostile bid, giving Aurora a potential lever to delay or reshape Curaleaf's offer terms and timeline.",
+   "status": "new",
+   "prev": null,
+   "key": "aurora-cannabis-curaleaf-hostile-bid",
+   "ids": ["3dc9167591fca8"],
+   "links": [{"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/aurora-cannabis-files-application-with-alberta-securities-commission-to-protect-company-shareholders-having-identified-several-deficiencies-in-curaleafs-hostile-bid-disclosure-302888310.html"}],
+   "categories": ["M&A"],
+   "countries": ["US"],
+   "sectors": ["Other"]
+  },
+  {
+   "headline": "Blackstone's Copeland completes purchase of May River-backed Dickson",
+   "summary": "May River Capital has completed the sale of its portfolio company Dickson to Copeland, a portfolio company of Blackstone with more than 100 years' history in compression technologies and controls. Financial terms were not disclosed.",
+   "why_it_matters": "The deal hands May River Capital a strategic exit to a well-capitalised Blackstone-backed platform, extending Copeland's buy-and-build push in industrial compression and controls.",
+   "status": "new",
+   "prev": null,
+   "key": "may-river-dickson-copeland-sale",
+   "ids": ["3c7c6f1a824548"],
+   "links": [{"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/may-river-capital-completes-sale-of-dickson-302886896.html"}],
+   "categories": ["M&A"],
+   "countries": [],
+   "sectors": ["Other"]
+  },
+  {
+   "headline": "Singapore took 92% of SEA's $7.25bn H1 startup funding as capital concentrated",
+   "summary": "Singapore-based startups captured 92% of South-east Asia's US$7.25 billion in H1 startup funding, a new report found. Total regional funding rose nearly 300% as capital concentrated on fewer, larger deals.",
+   "why_it_matters": "The concentration confirms Singapore's grip on SEA's growth-capital dealflow and signals that larger, later-stage rounds are driving activity while smaller regional hubs see a shrinking share.",
+   "status": "new",
+   "prev": null,
+   "key": "sea-h1-startup-funding-singapore",
+   "ids": ["3702bcd7c200c4"],
+   "links": [{"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-records-92-south-east-asias-us7-25-billion-h1-startup-funding-report"}],
+   "categories": [],
+   "countries": ["SEA", "SG"],
+   "sectors": ["Other"]
+  }
+ ]
+}
