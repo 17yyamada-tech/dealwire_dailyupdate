@@ -1,0 +1,284 @@
+{
+ "edition": "2026-09-24-0830",
+ "edition_label": "24 Sep 2026 · 08:30 SGT",
+ "date": "2026-09-24",
+ "generated_at": "2026-09-24T00:38:52Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "Hellman & Friedman explores sale of Applied Systems at up to $10bn",
+   "summary": "Hellman & Friedman is exploring a sale of Applied Systems that could value the company at up to $10 billion, sources said.",
+   "why_it_matters": "A deal at that size would rank among the year's larger sponsor exits and test buyer appetite for elevated valuations. It would also add to a run of large-cap sponsor exits after a stretch of muted big-ticket M&A.",
+   "status": "new",
+   "prev": null,
+   "key": "hellman-friedman-applied-systems-sale",
+   "ids": [
+    "7d0b378c1f413e"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/exclusive-hellman-friedman-explores-sale-applied-systems-up-10-billion-sources-say-6406321"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "StarHub, Keppel confirm advanced talks over M1 deal",
+   "summary": "StarHub and Keppel have confirmed they are in advanced talks over a potential deal involving M1, with Keppel saying the discussions are part of its efforts to explore consolidation opportunities for the telco. The talks come after Simba's proposed S$1.4 billion acquisition of M1's telco business fell through in May.",
+   "why_it_matters": "A second attempt at consolidating M1 would reshape Singapore's telecom market after the earlier Simba deal collapsed, with implications for pricing and network competition among the city-state's operators. It would also mark a rare case of two listed Singapore groups negotiating directly over a domestic telecom asset rather than an outside bidder driving the process.",
+   "status": "new",
+   "prev": null,
+   "key": "starhub-keppel-m1-talks",
+   "ids": [
+    "10732b14b7aa05",
+    "0f8b40275972d2"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/starhub-advanced-talks-keppel-over-m1-deal-sources"
+    },
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/starhub-keppel-confirm-talks-over-potential-m1-deal"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "TMT",
+    "Other"
+   ]
+  },
+  {
+   "headline": "People Incorporated withdraws bid to take MGM Resorts private",
+   "summary": "People Incorporated, chaired by Barry Diller, has withdrawn its June 2026 proposal to purchase all public shares of MGM Resorts International. MGM Resorts' board confirmed the withdrawal and reaffirmed its commitment to executing the company's strategy as a standalone business.",
+   "why_it_matters": "The collapse removes one of the year's higher-profile take-private overtures in US gaming, leaving MGM's board without an alternative on the table to its current standalone plan. It also leaves open the question of what near-term catalyst, if any, will re-rate the shares after the failed approach.",
+   "status": "new",
+   "prev": null,
+   "key": "mgm-resorts-people-incorporated-bid-withdrawn",
+   "ids": [
+    "391a29c0397e62",
+    "717ee0e66092f5"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/people-incorporated-withdraws-proposal-to-purchase-all-public-shares-of-mgm-resorts-international-302888293.html"
+    },
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/mgm-resorts-internationals-board-of-directors-confirms-commitment-to-execution-of-mgm-resorts-strategy-as-a-standalone-company-302888309.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Keppel Reit to sell Seoul Grade A office tower for $255.8m",
+   "summary": "Keppel Reit has agreed to divest a freehold Grade A office building in Seoul for US$255.8 million. The sale is expected to complete by the fourth quarter of this year.",
+   "why_it_matters": "The disposal fits a pattern of Singapore REITs recycling capital out of North Asian office assets amid soft demand, redeploying proceeds toward higher-yielding or core holdings. A fourth-quarter completion timeline gives Keppel Reit visibility on deploying the proceeds before its fiscal year closes.",
+   "status": "new",
+   "prev": null,
+   "key": "keppel-reit-seoul-office-divestment",
+   "ids": [
+    "4c37af2f263ce9"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/keppel-reit-divest-freehold-grade-office-building-seoul-us255-8-million"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Real Estate"
+   ]
+  },
+  {
+   "headline": "MoonPay to acquire North Capital, adding private-markets infrastructure",
+   "summary": "MoonPay has agreed to acquire North Capital, combining North Capital's private-securities-markets technology and regulated financial-services capabilities with MoonPay's onchain financial infrastructure platform.",
+   "why_it_matters": "The deal pushes MoonPay beyond crypto payments into regulated capital-markets infrastructure, a bet that tokenised and private-market assets will need rails similar to those built for digital currencies. Folding a regulated, securities-focused business into a crypto-native platform also signals continued convergence between traditional private-markets plumbing and onchain finance.",
+   "status": "new",
+   "prev": null,
+   "key": "moonpay-north-capital-acquisition",
+   "ids": [
+    "abc627aeca9d17"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/moonpay-to-acquire-north-capital-and-expand-into-onchain-capital-markets-302887065.html"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "Infra"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "TMT",
+    "Infrastructure"
+   ]
+  },
+  {
+   "headline": "OpenText prices $1bn of secured notes to refinance 2027, 2028 debt",
+   "summary": "OpenText priced a $1 billion offering of senior secured notes, split into two $500 million tranches including 6.700% notes due 2031. Proceeds are earmarked to redeem its outstanding notes due 2027 and fund a cash tender offer for a portion of its 3.875% notes due 2028.",
+   "why_it_matters": "The refinancing locks in new secured debt at a materially higher coupon than the notes it replaces, underscoring the higher cost of capital borrowers face when terming out maturities in the current rate environment. Moving to secured notes from unsecured debt also typically narrows the pool of assets available to other creditors, a detail holders of OpenText's remaining debt will be watching.",
+   "status": "new",
+   "prev": null,
+   "key": "opentext-notes-refinancing",
+   "ids": [
+    "9f16f0b8b279f3",
+    "4f9786e1b2509a"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/opentext-announces-cash-tender-offer-for-a-portion-of-its-outstanding-2028-notes-302887723.html"
+    },
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/opentext-announces-pricing-of-senior-secured-notes-offering-to-redeem-its-outstanding-2027-notes-and-fund-tender-offer-for-a-portion-of-its-outstanding-2028-notes-302888261.html"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "Credit"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Bio-Techne shareholders approve acquisition by Merck KGaA",
+   "summary": "Bio-Techne shareholders have voted to approve and adopt the definitive agreement under which the life-science tools and diagnostics company will be acquired by Merck KGaA of Darmstadt, Germany.",
+   "why_it_matters": "Shareholder approval clears one of the final hurdles before Merck KGaA's acquisition of the global life-science tools, reagents and diagnostics supplier can close.",
+   "status": "new",
+   "prev": null,
+   "key": "bio-techne-merck-kgaa-shareholder-approval",
+   "ids": [
+    "3e19caa0826337"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/bio-techne-shareholders-approve-acquisition-by-merck-kgaa-darmstadt-germany-302887726.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "KKR-backed EQuest eyes $325m raise for Vietnam expansion",
+   "summary": "KKR-backed EQuest is looking to raise $325 million to fund its expansion in Vietnam, according to a report.",
+   "why_it_matters": "The raise points to continued sponsor appetite for growth capital in Vietnam even as broader Southeast Asian fundraising has turned more selective. It also reflects continued backing for the platform as it pursues domestic scale rather than a sponsor exit.",
+   "status": "new",
+   "prev": null,
+   "key": "equest-kkr-vietnam-fundraising",
+   "ids": [
+    "e40367f525cf8a"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pVDdxWE9nX2xiaDlTMlJycG5jMWNHNlI5VmZ6SXhhRkNGeDBYeUgzQUZjcklIeHQ0Q01lTUZSeXExeFBSYjhLYkEyNVJjOW4wWl9mbHB0YUZPOVZuWGtrWDdONXQ5Sk9peml0UkxtRTdYcjBycnJ5eGVTTGFyS3M?oc=5"
+    }
+   ],
+   "categories": [
+    "PE"
+   ],
+   "countries": [
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Kotak Alts' Yield & Growth Fund hits final close at $522m",
+   "summary": "Kotak Alts has reached a final close of $522 million for its Yield & Growth Fund, an India-focused vehicle.",
+   "why_it_matters": "The close adds to a steady flow of India-dedicated yield and growth capital from domestic managers, alongside growing global investor interest in direct India allocations. A final close of this size also signals continued fundraising momentum for alternative growth strategies targeting Indian companies.",
+   "status": "new",
+   "prev": null,
+   "key": "kotak-alts-yield-growth-fund-close",
+   "ids": [
+    "fb50014e1facb4"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83cjZ4Z1h4X1l0eFNwM2c3MFpTRk4yaFlvRmh0UXR0cUJ2aXV0UGxubDZBTTJ5UFBmU0NEVjFIWHFfTDdQOTFwY0o0WEp0cjd4VUNIT1Q3OWUtaTFHaXh2NEpxSHdObDN6aGNYOEc4a2FVaWV3Q0U3aw?oc=5"
+    }
+   ],
+   "categories": [
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Tessenderlo Group closes minority equity investment in FMC Corporation",
+   "summary": "Tessenderlo Group has closed a minority equity investment in FMC Corporation, the US agricultural sciences company, the two companies announced.",
+   "why_it_matters": "The investment gives Tessenderlo, a Belgian industrial group, a minority stake in one of the larger global crop-protection and agricultural-sciences companies.",
+   "status": "new",
+   "prev": null,
+   "key": "tessenderlo-fmc-minority-investment",
+   "ids": [
+    "4cb1d013603780"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/fmc-corporation-and-tessenderlo-group-complete-minority-equity-investment-302887740.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Industrials"
+   ]
+  }
+ ]
+}
