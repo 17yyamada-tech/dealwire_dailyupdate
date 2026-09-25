@@ -1,6 +1,16 @@
 {
   "editions": [
     {
+      "id": "2026-09-25-1230",
+      "label": "25 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-25T04:33:21Z",
+      "items": 2,
+      "headlines": [
+        "Far East Orchard buys London site for US$79.3m student housing project",
+        "Addvalue shareholders approve spinoff of unit for separate Nasdaq listing"
+      ]
+    },
+    {
       "id": "2026-09-25-0830",
       "label": "25 Sep 2026 · 08:30 SGT",
       "generated_at": "2026-09-25T00:35:00Z",

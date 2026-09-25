@@ -1,0 +1,35 @@
+{
+  "edition": "2026-09-25-1230",
+  "edition_label": "25 Sep 2026 · 12:30 SGT",
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T04:33:21Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Far East Orchard buys London site for US$79.3m student housing project",
+      "summary": "Singapore-listed Far East Orchard has acquired a freehold development site in London for US$79.3 million. The site will be developed into purpose-built student accommodation, with a separate key-worker accommodation component.",
+      "why_it_matters": "The purchase extends Far East Orchard's push into UK living-sector real estate, adding another income-generating asset class alongside its existing hospitality portfolio.",
+      "status": "new",
+      "prev": null,
+      "key": "far-east-orchard-london-student-housing",
+      "ids": ["3de4584382ab67"],
+      "links": [{"source": "The Business Times", "url": "https://www.businesstimes.com.sg/property/far-east-orchard-buys-london-freehold-development-us79-3-million"}],
+      "categories": ["M&A"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Addvalue shareholders approve spinoff of unit for separate Nasdaq listing",
+      "summary": "Shareholders of Addvalue have approved a plan to spin off its Addvalue Solutions unit into a new holding company that will pursue an initial public offering on Nasdaq. The restructuring will dilute existing Addvalue shareholders as new shares are issued in the IPO.",
+      "why_it_matters": "The spinoff gives Addvalue Solutions a direct route to Nasdaq capital markets, a structure other Singapore-listed tech units may look to replicate to unlock value separate from their parent.",
+      "status": "new",
+      "prev": null,
+      "key": "addvalue-solutions-nasdaq-spinoff",
+      "ids": ["1a85c5922d9a87"],
+      "links": [{"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/addvalue-shareholders-approve-spinoff-unit-share-dilution-nasdaq-listing"}],
+      "categories": [],
+      "countries": ["US"],
+      "sectors": ["Other"]
+    }
+  ]
+}
