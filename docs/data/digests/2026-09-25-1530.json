@@ -1,0 +1,61 @@
+{
+  "edition": "2026-09-25-1530",
+  "edition_label": "25 Sep 2026 · 15:30 SGT",
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T07:31:44Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Judge casts doubt on Radiant World's claimed US$1b in receivables as KPMG named restructuring executive",
+      "summary": "A Singapore High Court judge raised doubts that iron-ore trader Radiant World is owed the US$1 billion in receivables it has claimed, The Business Times reported. The court has appointed KPMG restructuring executives to take charge of the business, following Radiant World's placement under judicial management this week after Mizuho alleged fraud linked to iron-ore receivables.",
+      "why_it_matters": "Judicial doubt over the underlying receivables raises the risk that recoveries fall short of the US$870 million lenders have already disclosed as exposure, sharpening the stakes for Mizuho and the other banks involved.",
+      "status": "update",
+      "prev": {"edition": "2026-09-25-0830", "index": 6},
+      "key": "radiant-world-lender-exposure",
+      "ids": ["20d095e13adfab"],
+      "links": [{"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/singapore-judge-raises-doubts-iron-ore-trader-radiant-world-owed-us1-billion"}],
+      "categories": ["Credit"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "SMBC in talks to raise stake in Vietnam's VPBank, sources say",
+      "summary": "Japan's Sumitomo Mitsui Banking Corp is in talks to increase its existing stake in Vietnamese lender VPBank, according to sources cited by CNA Business. The report did not specify a target stake size or deal value.",
+      "why_it_matters": "A larger SMBC stake would deepen Japanese banks' strategic push into Vietnam's banking sector, a market already drawing heavy foreign investment.",
+      "status": "new",
+      "prev": null,
+      "key": "smbc-vpbank-stake-increase",
+      "ids": ["85163f6c11ed57"],
+      "links": [{"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/exclusive-japans-smbc-in-talks-increase-stake-in-vietnams-vpbank-sources-say-6410111"}],
+      "categories": ["M&A"],
+      "countries": ["SEA"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Goldman Sachs named lead buyer for GSR Ventures's US$350m fund",
+      "summary": "Goldman Sachs has emerged as the lead buyer for a US$350 million fund tied to venture firm GSR Ventures, DealStreetAsia reported. No further deal terms were disclosed in the report.",
+      "why_it_matters": "The transaction points to continued institutional appetite for exposure to venture portfolios even as traditional VC fundraising has slowed.",
+      "status": "new",
+      "prev": null,
+      "key": "goldman-gsr-ventures-fund",
+      "ids": ["a72b5aabab20ac"],
+      "links": [{"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1VSDBldjMtc09XWFBMdHphQjdSUW52ekJqR0lVVHUyZERsX2dheTNreVNQckhBa3dtOVlORVAtMmZzWDBEN1RpR01XUW9UUDJzajBvWi1xV0NobUJMX0dmcTFnZzVEeU9WY3hzU3Rnc3czdXJKenNPNmxZbw?oc=5"}],
+      "categories": [],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Singapore launches national semiconductor brand, signs R&D deals with Applied Materials, GlobalFoundries, KLA",
+      "summary": "Singapore launched a national semiconductor brand initiative and signed new research and development agreements, The Business Times reported. Applied Materials, GlobalFoundries and KLA are among the firms deepening partnerships with state agency A*Star under the programme.",
+      "why_it_matters": "The initiative signals Singapore's continued push to position itself as a semiconductor R&D hub, deepening ties with major equipment makers as governments compete for chip-sector investment.",
+      "status": "new",
+      "prev": null,
+      "key": "singapore-semicon-brand-rd-deals",
+      "ids": ["ebf1cd3093b41e"],
+      "links": [{"source": "The Business Times", "url": "https://www.businesstimes.com.sg/singapore/singapore-launches-national-semicon-brand-initiative-inks-rd-deals"}],
+      "categories": [],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Consumer"]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-25-1530",
+      "label": "25 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-25T07:31:44Z",
+      "items": 4,
+      "headlines": [
+        "Judge casts doubt on Radiant World's claimed US$1b in receivables as KPMG named restructuring executive",
+        "SMBC in talks to raise stake in Vietnam's VPBank, sources say",
+        "Goldman Sachs named lead buyer for GSR Ventures's US$350m fund"
+      ]
+    },
+    {
       "id": "2026-09-25-1230",
       "label": "25 Sep 2026 · 12:30 SGT",
       "generated_at": "2026-09-25T04:33:21Z",
