@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-25-0830",
+      "label": "25 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-25T00:35:00Z",
+      "items": 9,
+      "headlines": [
+        "Akamai signs US$11.6bn cloud deal with Anthropic, grants warrant for up to 5% stake",
+        "BlackRock, IFM close in on $25bn Stack data center deal, Bloomberg reports",
+        "SoftBank prices US$11.1bn bond, the largest high-yield corporate sale on record"
+      ]
+    },
+    {
       "id": "2026-09-24-1530",
       "label": "24 Sep 2026 · 15:30 SGT",
       "generated_at": "2026-09-24T07:33:34Z",

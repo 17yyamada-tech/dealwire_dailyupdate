@@ -1,0 +1,147 @@
+{
+  "edition": "2026-09-25-0830",
+  "edition_label": "25 Sep 2026 · 08:30 SGT",
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T00:35:00Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "Akamai signs US$11.6bn cloud deal with Anthropic, grants warrant for up to 5% stake",
+      "summary": "Akamai and Anthropic signed an $11.6 billion cloud services agreement, under which Akamai grants Anthropic a warrant to purchase Series B shares at $111.33 each, exercisable for up to a 5% stake. The deal ties one of the largest AI labs' compute needs to a content-delivery and cloud infrastructure provider.",
+      "why_it_matters": "The warrant structure, equity granted in exchange for a cloud-capacity commitment, shows how AI labs are financing compute buildouts and gives infrastructure providers direct upside in their AI customers' growth.",
+      "status": "new",
+      "prev": null,
+      "key": "akamai-anthropic-cloud-deal",
+      "ids": ["e196d237522f91", "345c86a71eec9b"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/anthropic-signs-us11-6-billion-cloud-deal-akamai-gets-warrant-5-stake"},
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/akamai-anthropic-sign-116-billion-cloud-services-deal-6409301"}
+      ],
+      "categories": [],
+      "countries": ["SG", "SEA"],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "BlackRock, IFM close in on $25bn Stack data center deal, Bloomberg reports",
+      "summary": "BlackRock and IFM Investors are nearing a deal for data center operator Stack Infrastructure valued at about $25 billion, Bloomberg News reported. Terms have not been finalized.",
+      "why_it_matters": "A deal of this size underscores how much capital infrastructure investors are committing to AI-driven data center demand, and could reset pricing benchmarks for the sector. It would rank among the largest data center transactions of the year.",
+      "status": "new",
+      "prev": null,
+      "key": "blackrock-ifm-stack-datacenter",
+      "ids": ["aabd763918733c"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/blackrock-ifm-close-in-25-billion-stack-data-center-deal-bloomberg-news-reports-6407641"}
+      ],
+      "categories": ["Infra"],
+      "countries": [],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "SoftBank prices US$11.1bn bond, the largest high-yield corporate sale on record",
+      "summary": "SoftBank finalized its high-yield corporate bond sale at US$11.1 billion, the largest such offering on record, after launching the sale earlier this week at just over $10 billion. The heavy debt issuance is aimed at funding SoftBank's OpenAI stake and other AI bets.",
+      "why_it_matters": "The final size confirms strong investor appetite for AI-linked credit risk even as SoftBank's leverage climbs, a signal credit investors will watch when pricing future AI-related debt.",
+      "status": "update",
+      "prev": {"edition": "2026-09-21-2100", "index": 0},
+      "key": "softbank-launches-bond-sale-of-over-us-10-billio",
+      "ids": ["a15d32b9aed0f1"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/softbank-raising-us11-1-billion-worlds-biggest-high-yield-corporate-bond-sale"}
+      ],
+      "categories": ["Credit"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "Oracle invokes force majeure on AI data center project, delay ripples through Blue Owl financing",
+      "summary": "Oracle cited force majeure on a data center project, pointing to power delays, Bloomberg News reported. The delay is sending ripples through AI financing arrangements including private credit provided by Blue Owl, sources told CNA Business.",
+      "why_it_matters": "Power bottlenecks are emerging as a direct credit risk in AI data center financing, not just a construction issue, and lenders such as Blue Owl are exposed when projects slip. Investors are watching whether the delay is isolated or a sign of wider power-supply strain across the AI buildout.",
+      "status": "new",
+      "prev": null,
+      "key": "oracle-blue-owl-datacenter-force-majeure",
+      "ids": ["48731519d4e46c", "0d57064ef7742b"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/oracle-cites-force-majeure-shield-itself-data-center-bloomberg-news-reports-6408541"},
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/analysisoracle-blue-owl-project-delay-sends-ripples-through-ai-financing-sources-say-6409591"}
+      ],
+      "categories": ["Infra"],
+      "countries": [],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "Iridium stockholders approve acquisition by Rocket Lab",
+      "summary": "Iridium Communications stockholders voted to approve the company's acquisition by Rocket Lab, the companies said. The vote was described as an important milestone toward completing the transaction, which has not yet closed.",
+      "why_it_matters": "Shareholder approval clears one of the last major conditions before closing, bringing Rocket Lab's push into satellite communications infrastructure closer to completion.",
+      "status": "new",
+      "prev": null,
+      "key": "iridium-rocket-lab-acquisition",
+      "ids": ["7ff86d1ab6c25c"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/iridium-stockholders-approve-acquisition-by-rocket-lab-302889586.html"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Cloopen shareholders approve merger agreement",
+      "summary": "Cloopen Group Holding, a Beijing-headquartered, US-listed company (OTC: RAASY), said shareholders voted at an extraordinary general meeting to approve its merger agreement.",
+      "why_it_matters": "Clearing shareholder approval removes one of the main conditions to closing, typically the last major hurdle before a merger completes.",
+      "status": "new",
+      "prev": null,
+      "key": "cloopen-merger-shareholder-approval",
+      "ids": ["4b4b10cf4b5bcb"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/cloopen-group-holding-limited-announces-shareholders-approval-of-merger-agreement-302888913.html"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["HK/CN"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Radiant World placed under judicial management as Mizuho alleges fraud",
+      "summary": "A Singapore court placed iron ore trader Radiant World under judicial management by KPMG, after Mizuho Bank accused the trader of alleged fraud linked to iron ore receivables. Six lenders had earlier disclosed a combined US$870 million exposure to the company.",
+      "why_it_matters": "Judicial management formalizes the distress lenders had already flagged, and a fraud allegation on receivables raises the risk that recoveries on the US$870 million of exposed credit fall short.",
+      "status": "update",
+      "prev": {"edition": "2026-09-22-1230", "index": 3},
+      "key": "radiant-world-lender-exposure",
+      "ids": ["f93bfca2f3897e"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/singapore-court-places-iron-ore-trader-radiant-world-under-judicial-management-kpmg"}
+      ],
+      "categories": [],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Financials"]
+    },
+    {
+      "headline": "Amazon bets $3bn on India's fast-delivery push, sources say",
+      "summary": "Amazon is investing $3 billion in India's fast-delivery market, according to sources cited by CNA Business.",
+      "why_it_matters": "The investment signals Amazon deepening its commitment to India's fast-growing quick-commerce market, where competition for delivery infrastructure and market share is intensifying. A commitment of this size sets a fresh benchmark for how much global platforms are prepared to spend to compete with local delivery apps.",
+      "status": "new",
+      "prev": null,
+      "key": "amazon-india-fast-delivery-investment",
+      "ids": ["95fa6202536d3f"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/exclusive-amazon-bets-3-billion-indias-fast-delivery-boom-sources-say-6407831"}
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "AI security startup Island valued at $6.4bn in latest funding round",
+      "summary": "Island, described as both an AI startup and a cybersecurity company, was valued at $6.4 billion in its latest funding round, CNA Business reported. The round comes amid growing concern over security risks posed by autonomous AI agents.",
+      "why_it_matters": "The valuation reflects investor appetite for security tooling built specifically for AI agents, a category gaining urgency as enterprises deploy more autonomous systems.",
+      "status": "new",
+      "prev": null,
+      "key": "island-ai-security-valuation",
+      "ids": ["7c0024bcfba517", "f2889ddc8820cc"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/ai-startup-island-valued-64-billion-in-latest-funding-round-6408211"},
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/cybersecurity-startup-island-valued-64-billion-amid-ai-agent-security-risks-6408211"}
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": ["TMT"]
+    }
+  ]
+}
