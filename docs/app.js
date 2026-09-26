@@ -37,7 +37,7 @@
     filters: normFilters(store.get("filters", null)),
     shown: PAGE, dealsShown: DEALS_PAGE, view: "home",
     seenDeals: new Set(store.get("seenDeals", [])), firstLoad: true,
-    archive: new Map(), archiveMonths: [],
+    archive: new Map(), archiveMonths: [], filings: [],
     lang: store.get("lang", "en") === "ja" ? "ja" : "en",
   };
 
@@ -308,6 +308,50 @@
     requestAnimationFrame(syncDigestHeight);   // the board's height is what the digest is capped to
   }
 
+  /* ---------------- Japan filings ----------------
+     EDINET says who is bidding for whom and when they filed, which the news coverage often
+     leaves out. Nothing here is interpreted: every field is copied from the filing index. */
+  const FILING_LABEL = { tob: "Tender offer", tob_result: "Offer result", opinion: "Target response", stake: "5% stake" };
+  function renderFilings() {
+    const panel = $("#filings"), ol = $("#filing-list");
+    const cards = (state.filings || []).filter(c => !state.filters.country.length || state.filters.country.includes("JP"));
+    panel.hidden = !cards.length;
+    if (!cards.length) return;
+    ol.textContent = "";
+    cards.slice(0, 30).forEach(c => ol.append(filingNode(c)));
+    $("#filings-meta").textContent = cards.length + (cards.length === 1 ? " filing" : " filings") + " · EDINET";
+  }
+  const coName = (p) => p.name_en || p.name || "";
+  function filingNode(c) {
+    const li = document.createElement("li"); li.className = "filing-card";
+    const head = document.createElement("div"); head.className = "fc-head";
+    const k = document.createElement("span"); k.className = "fc-kind k-" + c.kind;
+    k.textContent = FILING_LABEL[c.kind] || c.kind;
+    head.append(k);
+    if (c.sponsor) { const s = document.createElement("span"); s.className = "fc-sponsor"; s.textContent = "Sponsor"; head.append(s); }
+    const d = document.createElement("span"); d.className = "fc-date"; d.textContent = fmtDate(c.filed); head.append(d);
+
+    const target = document.createElement("a"); target.className = "fc-target";
+    target.href = c.link; target.target = "_blank"; target.rel = "noopener";
+    target.textContent = coName(c.target) || "Target not named in the index";
+    if (c.target.ticker) { const t = document.createElement("span"); t.className = "fc-ticker"; t.textContent = " " + c.target.ticker; target.append(t); }
+    target.title = c.target.name || "";
+
+    const by = document.createElement("p"); by.className = "fc-line";
+    const byl = document.createElement("span"); byl.className = "fc-lbl"; byl.textContent = "By";
+    const byv = document.createElement("span"); byv.textContent = coName(c.buyer);
+    by.append(byl, byv);
+
+    const foot = document.createElement("div"); foot.className = "fc-foot";
+    const type = document.createElement("span"); type.className = "fc-type"; type.textContent = c.type_en;
+    type.title = c.type_ja;
+    const n = document.createElement("span"); n.className = "fc-n";
+    n.textContent = c.filings > 1 ? c.filings + " filings" : "";
+    foot.append(type, n);
+    li.append(head, target, by, foot);
+    return li;
+  }
+
   /* ---------------- digest editions ---------------- */
   const permalink = (eid, i) => `${location.origin}${location.pathname}?e=${encodeURIComponent(eid)}` + (i == null ? "" : `&i=${i}`);
   const editionTime = (e) => e.id.slice(11, 13) + ":" + e.id.slice(13, 15);
@@ -485,6 +529,7 @@
     state.lastRanked = renderStories();
     renderDigest(state.lastRanked);
     renderDeals();
+    renderFilings();
     if (state.view === "search") runSearch();
     if (state.view === "saved") renderSaved();
     state.firstLoad = false;
@@ -565,8 +610,13 @@
   }
   async function load() {
     try {
-      const [latest, idx] = await Promise.all([getJSON("data/latest.json"), getJSON("data/digests/index.json").catch(() => ({ editions: [] }))]);
+      const [latest, idx, filings] = await Promise.all([
+        getJSON("data/latest.json"),
+        getJSON("data/digests/index.json").catch(() => ({ editions: [] })),
+        getJSON("data/edinet.json").catch(() => ({ cards: [] })),   // absent until the first EDINET run
+      ]);
       state.items = latest.items || [];
+      state.filings = filings.cards || [];
       state.updated = latest.updated;
       const newest = idx.editions && idx.editions[0] && idx.editions[0].id;
       const hadNewest = state.editions[0] && state.editions[0].id;

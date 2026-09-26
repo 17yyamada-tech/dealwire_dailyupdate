@@ -37,6 +37,22 @@ Open http://127.0.0.1:8765/
 - `fetcher/sources.json`: add or remove feeds (`url` or `gnews` query, defaults, age limit).
 - `fetcher/rules.json`: keyword rules for categories, countries, sectors, deal signals and sponsors. A `cs:` prefix means case-sensitive, for acronyms like US and AI. A `re:` prefix means regex.
 
+## Japan filings
+`fetcher/edinet.py` reads EDINET's filing index and writes `docs/data/edinet.json`, shown as a
+shelf of cards under the deal board. A card names the target (English name and ticker, from the
+FSA's own code list), the bidder and the filing type, and links to the filing PDF.
+
+Kept: tender offers and their amendments and results, the target's response, and 5% stake
+reports. The last run to a couple of hundred a day, nearly all of them custody and index desks,
+so only filings by an investor already in `actor.Sponsor` earn a card. The index leaves those
+reports' target empty, so it is read from the filing's own CSV.
+
+Not there yet: the offer price, the premium and the offer period. Those are inside the
+document, not in the index.
+
+Needs the repository secret `EDINET_API_KEY` (free registration at EDINET). The filings run on
+their own schedule, four times a day on JST weekdays, because that is when filings land.
+
 ## Language
 The header button switches **the digest's summaries** into Japanese, and the choice is
 remembered per viewer. Only two pieces change: each story's summary and its "why it matters"

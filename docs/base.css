@@ -44,13 +44,25 @@ select { appearance: none; }
 .grid {
   max-width: 1320px; margin: 0 auto; padding: 16px; display: grid; gap: 20px; align-items: start;
   grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
-  grid-template-areas: "deals digest" "stories stories";
+  grid-template-areas: "deals digest" "filings filings" "stories stories";
 }
+.p-filings { grid-area: filings; min-width: 0; }
+/* the cards scroll sideways: a filing is a small card, and a row of them reads as a shelf */
+.filing-strip { list-style: none; margin: 0; padding: 0; display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x proximity; }
+.filing-strip::-webkit-scrollbar { height: 8px; }
+.filing-card { flex: 0 0 265px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.fc-head { display: flex; align-items: center; gap: 6px; }
+.fc-target { overflow-wrap: anywhere; }
+.fc-line { display: flex; gap: 6px; min-width: 0; }
+.fc-line span:last-child { min-width: 0; overflow-wrap: anywhere; }
+.fc-foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .p-deals { grid-area: deals; }
 .p-digest { grid-area: digest; }
 .p-stories { grid-area: stories; }
 .p-search, .p-saved { grid-area: 1 / 1 / 2 / -1; }
 body[data-view="search"] .p-deals, body[data-view="search"] .p-digest, body[data-view="search"] .p-stories,
+body[data-view="search"] .p-filings, body[data-view="saved"] .p-filings, body[data-view="archive"] .p-filings,
+body[data-view="deals"] .p-filings,
 body[data-view="saved"] .p-deals, body[data-view="saved"] .p-digest, body[data-view="saved"] .p-stories { display: none; }
 .panel { min-width: 0; }
 .panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
@@ -98,9 +110,10 @@ dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
 .row-btns { display: flex; justify-content: space-between; }
 
 @media (max-width: 999px) {
-  .grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "digest" "deals" "stories"; padding: 10px 12px 90px; }
+  .grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "digest" "deals" "filings" "stories"; padding: 10px 12px 90px; }
   body[data-view="home"] .p-deals { display: none; }
   body[data-view="deals"] .p-digest, body[data-view="deals"] .p-stories { display: none; }
+  .filing-card { flex-basis: 78vw; }
   .brand-sub, .updated { display: none; }
   .board-cols { display: none; }
   .row {

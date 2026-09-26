@@ -191,6 +191,18 @@ def main() -> int:
         print("every day failed; leaving the existing file alone")
         return 1
     cards.sort(key=lambda c: c["filed"], reverse=True)
+    # One campaign files repeatedly: an offer plus its amendments, a stake plus its changes.
+    # Keep the newest filing per buyer/target/kind and say how many there were.
+    merged, seen = [], {}
+    for c in cards:
+        k = (c["buyer"]["code"], c["target"]["code"] or c["target"]["name"], c["kind"])
+        if k in seen:
+            seen[k]["filings"] += 1
+            continue
+        c["filings"] = 1
+        seen[k] = c
+        merged.append(c)
+    cards = merged
     OUT.write_text(json.dumps({"updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                                "cards": cards}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     by_kind = {}
