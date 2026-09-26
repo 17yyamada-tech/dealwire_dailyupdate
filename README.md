@@ -37,6 +37,16 @@ Open http://127.0.0.1:8765/
 - `fetcher/sources.json`: add or remove feeds (`url` or `gnews` query, defaults, age limit).
 - `fetcher/rules.json`: keyword rules for categories, countries, sectors, deal signals and sponsors. A `cs:` prefix means case-sensitive, for acronyms like US and AI. A `re:` prefix means regex.
 
+## The two lists
+They answer different questions, and both are on the home page.
+
+- **Live deal board**: only items tagged `is_deal`, newest first, no personal ranking. It is a
+  wire: what has been reported, in the order it arrived. The head switches it between the last
+  seven days and today only, and "Show all deals" opens the rest.
+- **Top stories**: everything, deals and general market news alike, ranked by recency, deal
+  relevance and what this viewer has been opening. It answers "what should I read", where the
+  board answers "what happened".
+
 ## Japan filings
 `fetcher/edinet.py` reads EDINET's filing index and writes `docs/data/edinet.json`, shown as a
 shelf of cards under the deal board. A card names the target (English name and ticker, from the

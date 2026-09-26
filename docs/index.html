@@ -120,7 +120,10 @@
   <section class="panel p-deals" id="view-deals" aria-labelledby="deals-h">
     <div class="panel-head">
       <h2 id="deals-h"><span class="live-dot" aria-hidden="true"></span>Live deal board</h2>
-      <span class="panel-meta" id="deals-count"></span>
+      <span class="panel-head-right">
+        <button class="link-btn" id="deals-range" title="Narrow the board to what was filed or reported today">Today only</button>
+        <span class="panel-meta" id="deals-count"></span>
+      </span>
     </div>
     <div class="board-cols" aria-hidden="true"><span>Time</span><span>Region</span><span>Type</span><span>Deal</span></div>
     <ol class="rows" id="deals"></ol>

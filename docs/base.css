@@ -67,6 +67,7 @@ body[data-view="saved"] .p-deals, body[data-view="saved"] .p-digest, body[data-v
 .panel { min-width: 0; }
 .panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .panel-head h2 { margin: 0; display: flex; align-items: center; gap: 8px; }
+.panel-head-right { display: flex; align-items: baseline; gap: 12px; flex: none; }
 
 /* rows: one template for deals, stories, search results and saved */
 .rows, .digest-list { list-style: none; margin: 0; padding: 0; }

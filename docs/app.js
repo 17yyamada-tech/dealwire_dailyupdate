@@ -38,6 +38,7 @@
     shown: PAGE, dealsShown: DEALS_PAGE, view: "home",
     seenDeals: new Set(store.get("seenDeals", [])), firstLoad: true,
     archive: new Map(), archiveMonths: [], filings: [],
+    dealsToday: store.get('dealsToday', false) === true,
     lang: store.get("lang", "en") === "ja" ? "ja" : "en",
   };
 
@@ -288,7 +289,11 @@
 
   function renderDeals() {
     const hidden = store.get("hidden", {});
-    const deals = collapseDupes(state.items.filter(it => it.is_deal && passes(it) && !hidden[it.id])
+    // "Today only" is the counterpart of "Show all deals": on a busy day the seven-day board
+    // buries this morning's deals, and the board is the part people check repeatedly.
+    const today = todaySG();
+    const inRange = (it) => !state.dealsToday || sgParts(it.published).day === today;
+    const deals = collapseDupes(state.items.filter(it => it.is_deal && passes(it) && !hidden[it.id] && inRange(it))
       .sort((a, b) => a.published.localeCompare(b.published)).map(it => ({ it })))   // oldest first: first report wins
       .reverse();
     // A Focus chip moves matching deals to the front of the board, keeping each block by time.
@@ -300,8 +305,12 @@
       const isNew = !state.firstLoad && !state.seenDeals.has(x.it.id);
       ol.append(rowNode(x.it, { also: x.also, compact: true, fresh: isNew }));
     });
-    if (!deals.length) ol.append(empty("No deals match these filters."));
-    $("#deals-count").textContent = deals.length + " in 7 days";
+    if (!deals.length) ol.append(empty(state.dealsToday
+      ? "No deals reported yet today. Switch to the last 7 days."
+      : "No deals match these filters."));
+    $("#deals-count").textContent = deals.length + (state.dealsToday ? " today" : " in 7 days");
+    $("#deals-range").textContent = state.dealsToday ? "Last 7 days" : "Today only";
+    $("#deals-range").setAttribute("aria-pressed", state.dealsToday);
     $("#deals-more").hidden = deals.length <= limit;
     deals.forEach(d => state.seenDeals.add(d.it.id));
     store.set("seenDeals", [...state.seenDeals].slice(-3000));
@@ -716,6 +725,12 @@
     $("#clear").addEventListener("click", () => { state.filters = normFilters(null); store.set("filters", state.filters); renderAll(); });
     $("#more").addEventListener("click", () => { state.shown += PAGE; renderStories(); });
     $("#deals-more").addEventListener("click", () => { state.dealsShown += 30; renderDeals(); });
+    $("#deals-range").addEventListener("click", () => {
+      state.dealsToday = !state.dealsToday;
+      store.set("dealsToday", state.dealsToday);
+      state.dealsShown = DEALS_PAGE;
+      renderDeals();
+    });
     let t;
     $("#q").addEventListener("input", () => {
       clearTimeout(t);
