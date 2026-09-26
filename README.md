@@ -38,11 +38,14 @@ Open http://127.0.0.1:8765/
 - `fetcher/rules.json`: keyword rules for categories, countries, sectors, deal signals and sponsors. A `cs:` prefix means case-sensitive, for acronyms like US and AI. A `re:` prefix means regex.
 
 ## Language
-The chrome and the digest switch between English and Japanese with the header button, and the
-choice is remembered per viewer. Each digest edition carries both languages (`headline_ja`,
-`summary_ja`, `why_it_matters_ja`), written by the Routine, and the reader sees one of them.
-Editions published before that fall back to English. Headlines from the feeds are always shown
-in the language they were published in; they are never machine-translated.
+The header button switches **the digest's summaries** into Japanese, and the choice is
+remembered per viewer. Only two pieces change: each story's summary and its "why it matters"
+line, which the Routine writes in both languages (`summary_ja`, `why_it_matters_ja`).
+
+Everything else stays in English, on purpose. Headlines are never translated: a digest
+headline is the editor's own line and stays as written, and a feed headline belongs to the
+outlet that published it. Editions published before the Japanese fields existed fall back to
+the English text rather than rendering empty.
 
 Japanese text needs different handling in four places, all of them already wired: the id hash
 (`norm_title`), keyword matching (`has_any` drops the ASCII letter boundaries), headline

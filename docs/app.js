@@ -21,42 +21,6 @@
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; re-orders the list, never filters
-
-  /* ---------------- language ----------------
-     The page ships in English. Japanese swaps the chrome and, for the digest, the editor's
-     own Japanese text when the edition carries it (headline_ja / summary_ja / why_ja).
-     Headlines from the feeds stay in the language they were published in. */
-  const JA = {
-    "q.ph": "記事を検索 — 企業名、ファンド名、セクター…",
-    "f.region": "地域", "f.type": "種別", "f.focus": "注目",
-    "f.sponsor": "ファンド ↑", "f.strategic": "事業会社 ↑", "f.clear": "クリア",
-    "f.allSectors": "全セクター",
-    "p.board": "ディール速報", "p.top": "主要ニュース", "p.search": "記事を検索",
-    "p.archive": "過去のダイジェスト", "p.saved": "保存した記事",
-    "col.time": "時刻", "col.region": "地域", "col.type": "種別", "col.deal": "ディール",
-    "b.allDeals": "すべてのディールを表示", "b.more": "もっと見る", "b.pastDigests": "過去のダイジェスト →",
-    "t.home": "ホーム", "t.deals": "ディール", "t.search": "検索", "t.digests": "ダイジェスト", "t.saved": "保存",
-    "per.7": "過去7日", "per.30": "過去30日", "per.90": "過去90日", "per.0": "全期間",
-    "s.title": "設定", "s.look": "見た目", "s.reset": "学習をリセット", "s.done": "閉じる",
-    "m.title": "ダイジェストをメールで受け取る",
-    "m.copy": "1日3回、08:30・12:30・15:30 SGTに届きます。各記事はこのサイトの該当ページにリンクし、過去のメールのリンクも切れません。",
-    "m.email": "メールアドレス", "m.later": "あとで", "m.subscribe": "登録する",
-    "m.fine": "先に確認メールをお送りします。配信メールには常に1クリックの配信停止リンクが付きます。",
-    "r.save": "保存", "r.hide": "興味なし",
-    "d.today": "今日のダイジェスト", "d.past": "ダイジェスト", "d.update": "続報",
-    "d.why": "なぜ重要か", "d.prev": "前回の記事 →", "d.copy": "リンクをコピー", "d.copied": "コピーしました",
-    "d.auto": "自動選出 · 要約は次の版で付きます",
-    "d.none": "この版に条件に合う記事はありません", "d.empty": "24時間以内の記事はありません",
-    "d.noEditions": "ダイジェストはまだありません", "d.today.tab": "今日",
-    "h.updated": "更新", "h.offline": "オフライン", "h.loading": "読み込み中…",
-    "rank.you": "あなた向けに並べ替え", "rank.plain": "新着とディール重視で表示",
-    "deals.none": "条件に合うディールはありません",
-    "stories.none": "過去7日に条件に合う記事はありません", "stories.empty": "記事がまだありません",
-    "saved.empty": "記事の☆を押すとここに残ります",
-    "search.hint": "これまでに集めた全記事を検索できます。完全一致は引用符で囲んでください。",
-    "search.working": "検索中…", "search.none": "見つかりません。語を減らすか期間を広げてください。",
-  };
-  const t = (key, en) => (state.lang === "ja" && JA[key]) || en;
   const REGION_ORDER = ["SG", "JP", "HK/CN", "SEA", "US"];   // SG items also carry SEA; show the most specific first
   const CJK = "\\u3040-\\u30ff\\u4e00-\\u9fff\\uff66-\\uff9f";
   const TYPE_ORDER = ["M&A", "PE", "Credit", "Infra"];
@@ -76,31 +40,24 @@
     archive: new Map(), archiveMonths: [],
     lang: store.get("lang", "en") === "ja" ? "ja" : "en",
   };
+
+  /* ---------------- language ----------------
+     Only the digest's own writing switches: the summary and the "why it matters" line, which
+     the editor writes in both languages. Headlines stay as published, in English for the
+     digest and in their own language in the feed, because a headline we did not write is not
+     ours to translate. The rest of the page stays in English. */
   function applyLang(lang) {
     state.lang = lang === "ja" ? "ja" : "en";
     store.set("lang", state.lang);
-    document.documentElement.lang = state.lang;
-    // the English wording is kept on the element, so switching back needs no second table
-    $$("[data-i18n]").forEach(el => {
-      if (el.dataset.en === undefined) el.dataset.en = el.textContent;
-      el.textContent = t(el.dataset.i18n, el.dataset.en);
-    });
-    $$("[data-i18n-ph]").forEach(el => {
-      if (el.dataset.enPh === undefined) el.dataset.enPh = el.placeholder;
-      el.placeholder = t(el.dataset.i18nPh, el.dataset.enPh);
-    });
-    $$("[data-i18n-title]").forEach(el => {
-      if (el.dataset.enTitle === undefined) el.dataset.enTitle = el.title;
-      el.title = el.ariaLabel = t(el.dataset.i18nTitle, el.dataset.enTitle);
-    });
     const btn = $("#btn-lang");
-    if (btn) {
-      btn.textContent = state.lang === "ja" ? "EN" : "日本語";
-      btn.title = btn.ariaLabel = state.lang === "ja" ? "Switch to English" : "日本語に切り替え";
-    }
-    const sel = $("#sector");
-    if (sel && sel.options.length) sel.options[0].textContent = t("f.allSectors", "All sectors");
+    btn.textContent = state.lang === "ja" ? "EN" : "日本語";
+    btn.title = btn.ariaLabel = state.lang === "ja"
+      ? "Read the digest summaries in English"
+      : "ダイジェストの要約を日本語で読む";
+    btn.classList.toggle("on", state.lang === "ja");
   }
+  // Editions published before the editor wrote Japanese keep only the English text.
+  const dtext = (x, field) => (state.lang === "ja" && x[field + "_ja"]) || x[field] || "";
   function normFilters(f) {
     const ok = { category: TYPE_ORDER, country: REGION_ORDER };
     f = f || {};
@@ -287,7 +244,7 @@
     highlight($(".c-snip", n), compact ? "" : (it.snippet || ""), q);
     $(".src", n).textContent = it.source;
     $(".sponsor", n).textContent = it.actor === "Sponsor" ? "Sponsor" : "";
-    $(".ago", n).textContent = fmtAgo(it.published) + (state.lang === "ja" ? "前" : " ago");
+    $(".ago", n).textContent = fmtAgo(it.published) + " ago";
     const sec = (it.sectors || []).filter(s => s !== "Other")[0];
     $(".sector", n).textContent = sec || "";
     $(".why", n).textContent = reasons.length ? "for you: " + reasons.join(", ") : "";
@@ -323,9 +280,9 @@
       .filter(x => x.s >= 0).sort((a, b) => b.s - a.s));
     const ol = $("#stories"); ol.textContent = "";
     ranked.slice(0, state.shown).forEach(x => ol.append(rowNode(x.it, { reasons: x.reasons, also: x.also })));
-    if (!ranked.length) ol.append(empty(anyFilter() ? t("stories.none", "Nothing matches these filters in the last 7 days.") : t("stories.empty", "No stories yet.")));
+    if (!ranked.length) ol.append(empty(anyFilter() ? "Nothing matches these filters in the last 7 days." : "No stories yet."));
     $("#more").hidden = ranked.length <= state.shown;
-    $("#rank-hint").textContent = Object.keys(prof.weights || {}).length ? t("rank.you", "ranked for you") : t("rank.plain", "ranked by recency & deal relevance");
+    $("#rank-hint").textContent = Object.keys(prof.weights || {}).length ? "ranked for you" : "ranked by recency & deal relevance";
     return ranked;
   }
 
@@ -343,8 +300,8 @@
       const isNew = !state.firstLoad && !state.seenDeals.has(x.it.id);
       ol.append(rowNode(x.it, { also: x.also, compact: true, fresh: isNew }));
     });
-    if (!deals.length) ol.append(empty(t("deals.none", "No deals match these filters.")));
-    $("#deals-count").textContent = state.lang === "ja" ? `7日間で${deals.length}件` : deals.length + " in 7 days";
+    if (!deals.length) ol.append(empty("No deals match these filters."));
+    $("#deals-count").textContent = deals.length + " in 7 days";
     $("#deals-more").hidden = deals.length <= limit;
     deals.forEach(d => state.seenDeals.add(d.it.id));
     store.set("seenDeals", [...state.seenDeals].slice(-3000));
@@ -366,7 +323,7 @@
     const cur = state.edition || state.editions[0].id;
     const day = cur.slice(0, 10);
     const d = document.createElement("span"); d.className = "ed-day";
-    d.textContent = day === todaySG() ? t("d.today.tab", "Today") : fmtDay(day);
+    d.textContent = day === todaySG() ? "Today" : fmtDay(day);
     box.append(d);
     state.editions.filter(e => editionDay(e) === day).slice().reverse().forEach(e => {
       const b = document.createElement("button");
@@ -387,37 +344,33 @@
     }
   }
 
-  // The editor writes each digest story twice. Editions published before that keep only the
-  // English text, so fall back to it rather than showing an empty story.
-  const dtext = (x, field) => (state.lang === "ja" && x[field + "_ja"]) || x[field] || "";
-
   function digestItemNode(x, n, eid, displayNo) {
     const li = document.createElement("li");
     li.dataset.n = n; li.id = `d-${n}`;
     const num = document.createElement("span"); num.className = "d-num"; num.textContent = String(displayNo).padStart(2, "0");
     const body = document.createElement("div"); body.className = "d-body";
     if (x.status === "update") {
-      const up = document.createElement("span"); up.className = "d-badge"; up.textContent = t("d.update", "Update");
+      const up = document.createElement("span"); up.className = "d-badge"; up.textContent = "Update";
       body.append(up);
     }
     const h = document.createElement("h3");
-    const a = document.createElement("a"); a.textContent = dtext(x, "headline"); a.href = (x.links && x.links[0] && x.links[0].url) || "#"; a.target = "_blank"; a.rel = "noopener";
+    const a = document.createElement("a"); a.textContent = x.headline; a.href = (x.links && x.links[0] && x.links[0].url) || "#"; a.target = "_blank"; a.rel = "noopener";
     h.append(a);
     const p = document.createElement("p"); p.className = "d-sum"; p.textContent = dtext(x, "summary");
     const why = document.createElement("p"); why.className = "d-why";
-    const b = document.createElement("b"); b.textContent = t("d.why", "Why it matters"); why.append(b, " ", dtext(x, "why_it_matters"));
+    const b = document.createElement("b"); b.textContent = "Why it matters"; why.append(b, " ", dtext(x, "why_it_matters"));
     const links = document.createElement("p"); links.className = "d-links";
     (x.links || []).forEach((l, j) => { if (j) links.append(" · "); const la = document.createElement("a"); la.href = l.url; la.target = "_blank"; la.rel = "noopener"; la.textContent = l.source; links.append(la); });
     if (x.prev && x.prev.edition) {
       const pv = document.createElement("a"); pv.className = "d-prev"; pv.href = permalink(x.prev.edition, x.prev.index);
-      pv.textContent = t("d.prev", "earlier coverage →");
+      pv.textContent = "earlier coverage →";
       pv.addEventListener("click", ev => { ev.preventDefault(); openPermalink(x.prev.edition, x.prev.index); });
       links.append(" · ", pv);
     }
-    const share = document.createElement("button"); share.type = "button"; share.className = "d-share"; share.textContent = t("d.copy", "copy link");
+    const share = document.createElement("button"); share.type = "button"; share.className = "d-share"; share.textContent = "copy link";
     share.addEventListener("click", async () => {
-      try { await navigator.clipboard.writeText(permalink(eid, n)); share.textContent = t("d.copied", "copied"); } catch { prompt("Link to this story", permalink(eid, n)); }
-      setTimeout(() => { share.textContent = t("d.copy", "copy link"); }, 1500);
+      try { await navigator.clipboard.writeText(permalink(eid, n)); share.textContent = "copied"; } catch { prompt("Link to this story", permalink(eid, n)); }
+      setTimeout(() => { share.textContent = "copy link"; }, 1500);
     });
     links.append(" · ", share);
     body.append(h, p, why, links); li.append(num, body);
@@ -432,7 +385,7 @@
     const d = eid && state.editionCache.get(eid);
     const isLatest = !!(eid && state.editions[0] && eid === state.editions[0].id);
     const usable = d && d.items && d.items.length && (!isLatest || (Date.now() - Date.parse(d.generated_at)) < 36 * 36e5);
-    $("#digest-h").textContent = eid && eid.slice(0, 10) !== todaySG() ? t("d.past", "Digest") : t("d.today", "Today's Digest");
+    $("#digest-h").textContent = eid && eid.slice(0, 10) !== todaySG() ? "Digest" : "Today's Digest";
     if (usable) {
       // The latest edition is reordered by this viewer's reading; a linked or past edition keeps the editor's order.
       const personal = isLatest && !state.pinned;
@@ -440,16 +393,14 @@
       let rows = d.items.map((x, n) => ({ x, n, s: (N - n) / N + (personal ? 0.6 * affinity({ categories: x.categories, countries: x.countries, sectors: x.sectors, title: x.headline }, prof) : 0) }));
       rows.sort((a, b) => b.s - a.s);
       if (personal) rows = rows.filter(r => !anyFilter() || passes(r.x));
-      meta.textContent = state.lang === "ja"
-        ? `${d.reading_minutes || 5}分 · ${fmtDate(d.generated_at)} SGT`
-        : `${d.reading_minutes || 5} min read · ${fmtDate(d.generated_at)} SGT`;
+      meta.textContent = `${d.reading_minutes || 5} min read · ${fmtDate(d.generated_at)} SGT`;
       rows.forEach((r, k) => list.append(digestItemNode(r.x, r.n, eid, k + 1)));
-      if (!rows.length) list.append(empty(t("d.none", "None of this edition's stories match these filters.")));
+      if (!rows.length) list.append(empty("None of this edition's stories match these filters."));
       return;
     }
     // No edition yet (or the latest is stale): the top-ranked stories of the last ~day.
     const top = (ranked || []).filter(x => (Date.now() - Date.parse(x.it.published)) < 30 * 36e5).slice(0, 6);
-    meta.textContent = t("d.auto", "auto-picked · written summary arrives with the next edition");
+    meta.textContent = "auto-picked · written summary arrives with the next edition";
     top.forEach(({ it }, i) => {
       const li = document.createElement("li");
       const num = document.createElement("span"); num.className = "d-num"; num.textContent = String(i + 1).padStart(2, "0");
@@ -462,16 +413,22 @@
       const l = document.createElement("p"); l.className = "d-links"; l.textContent = it.source + " · " + fmtAgo(it.published) + " ago";
       body.append(h, p, l); li.append(num, body); list.append(li);
     });
-    if (!top.length) list.append(empty(t("d.empty", "No stories in the last 24 hours.")));
+    if (!top.length) list.append(empty("No stories in the last 24 hours."));
     requestAnimationFrame(syncDigestHeight);
   }
 
   /* The digest often runs far longer than the deal board beside it, leaving the left column
      short and the page lopsided. Where the two share a row, cap the digest list at the
      board's height and let it scroll, so the two columns end level. */
+  let syncing = false;
   function syncDigestHeight() {
+    if (syncing) return;                                           // our own resize, not a real one
     const list = $("#digest-list"), board = $("#view-deals"), panel = $("#digest"), grid = $(".grid");
     if (!list || !board || !panel || !grid) return;
+    syncing = true;
+    try { measureDigest(list, board, panel, grid); } finally { syncing = false; }
+  }
+  function measureDigest(list, board, panel, grid) {
     list.style.maxHeight = "";
     // "stories stories" marks the two-column layout; the phone and the navy-classic
     // layouts put the board elsewhere, where lining the columns up makes no sense
@@ -504,8 +461,8 @@
       });
       ol.append(li);
     });
-    if (!state.editions.length) ol.append(empty(t("d.noEditions", "No digests yet.")));
-    $("#archive-meta").textContent = state.lang === "ja" ? `${state.editions.length}版` : state.editions.length + " editions";
+    if (!state.editions.length) ol.append(empty("No digests yet."));
+    $("#archive-meta").textContent = state.editions.length + " editions";
   }
 
   async function openPermalink(eid, i) {
@@ -520,7 +477,7 @@
     const saved = Object.values(store.get("saved", {})).sort((a, b) => b.published.localeCompare(a.published));
     const ol = $("#saved-list"); ol.textContent = "";
     saved.forEach(it => ol.append(rowNode(it)));
-    if (!saved.length) ol.append(empty(t("saved.empty", "Tap ☆ on a story to keep it here.")));
+    if (!saved.length) ol.append(empty("Tap ☆ on a story to keep it here."));
   }
 
   function renderAll() {
@@ -568,8 +525,8 @@
   async function runSearch() {
     const s = $("#q").value.trim(), seq = ++searchSeq, days = +$("#period").value;
     const status = $("#search-status"), ol = $("#results");
-    if (!s) { ol.textContent = ""; status.textContent = t("search.hint", "Type to search every story collected so far. Use quotes for exact phrases."); return; }
-    status.textContent = t("search.working", "Searching…");
+    if (!s) { ol.textContent = ""; status.textContent = "Type to search every story collected so far. Use quotes for exact phrases."; return; }
+    status.textContent = "Searching…";
     const all = await loadArchiveMonths(days ? Math.ceil(days / 30) + 1 : 0);
     if (seq !== searchSeq) return;
     const q = parseQuery(s), since = days ? Date.now() - days * 864e5 : 0, seen = new Set();
@@ -581,10 +538,8 @@
     }).sort((a, b) => b.published.localeCompare(a.published));
     ol.textContent = "";
     hits.slice(0, 200).forEach(it => ol.append(rowNode(it, { q })));
-    status.textContent = state.lang === "ja"
-      ? `${hits.length}件${hits.length > 200 ? "（新しい200件を表示）" : ""} · ${all.length.toLocaleString()}件を検索`
-      : `${hits.length} result${hits.length === 1 ? "" : "s"}${hits.length > 200 ? " (showing 200 newest)" : ""} · ${all.length.toLocaleString()} stories searched`;
-    if (!hits.length) ol.append(empty(t("search.none", "No matches. Try fewer words or a longer period.")));
+    status.textContent = `${hits.length} result${hits.length === 1 ? "" : "s"}${hits.length > 200 ? " (showing 200 newest)" : ""} · ${all.length.toLocaleString()} stories searched`;
+    if (!hits.length) ol.append(empty("No matches. Try fewer words or a longer period."));
   }
 
   /* ---------------- views ---------------- */
@@ -619,11 +574,11 @@
       // follow the newest edition unless the viewer is reading a specific (linked or chosen) one
       if (!state.pinned && (!state.edition || state.edition === hadNewest)) state.edition = newest || null;
       if (state.edition) await loadEdition(state.edition).catch(() => null);
-      $("#updated").textContent = t("h.updated", "Updated") + " " + fmtAgo(latest.updated) + (state.lang === "ja" ? "前" : " ago");
+      $("#updated").textContent = "Updated " + fmtAgo(latest.updated) + " ago";
       $("#updated").title = fmtDate(latest.updated) + " SGT";
       renderAll();
     } catch (e) {
-      $("#updated").textContent = t("h.offline", "Offline");
+      $("#updated").textContent = "Offline";
       console.error(e);
     }
   }
@@ -681,11 +636,6 @@
     applySkin(SKINS[urlSkin] ? urlSkin : store.get("skin", document.documentElement.dataset.skin));
     const sel = $("#sector");
     SECTORS.forEach(s => { const o = document.createElement("option"); o.value = s; o.textContent = s; sel.append(o); });
-    applyLang(state.lang);
-    $("#btn-lang").addEventListener("click", () => {
-      applyLang(state.lang === "ja" ? "en" : "ja");
-      renderAll();
-    });
     const skinSel = $("#skin-select");
     Object.entries(SKINS).forEach(([k, v]) => { const o = document.createElement("option"); o.value = k; o.textContent = v; skinSel.append(o); });
     skinSel.addEventListener("change", () => {
@@ -694,6 +644,16 @@
     });
     let rt;
     window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(syncDigestHeight, 150); });
+    applyLang(state.lang);
+    $("#btn-lang").addEventListener("click", () => { applyLang(state.lang === "ja" ? "en" : "ja"); renderAll(); });
+    // One measurement after render is not enough: the web fonts land later and re-wrap both
+    // columns, and an edition arrives after its own fetch. Watch instead of guessing.
+    if (window.ResizeObserver) {
+      const ro = new ResizeObserver(() => syncDigestHeight());
+      ro.observe($("#view-deals"));
+      ro.observe($("#digest"));
+    }
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(syncDigestHeight);
     $$(".chip-group .chip").forEach(b => b.addEventListener("click", () => {
       const g = b.closest(".chip-group"), key = g.dataset.group, v = b.dataset.v, cur = state.filters[key];
       // data-single groups (Focus) hold one value at a time; the others toggle in a list

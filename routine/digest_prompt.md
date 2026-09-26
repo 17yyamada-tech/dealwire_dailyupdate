@@ -38,24 +38,25 @@ If a file with that id already exists, stop and report it. That means this slot 
    - `categories`, `countries` and `sectors`: the union of the source items' tags.
    - `links`: `[{source, url}]` built from the ids (`url` = the item's `link`).
 
-   Then write the same three fields in Japanese, as `headline_ja`, `summary_ja` and
-   `why_it_matters_ja`. The reader chooses one language and sees only that one, so each
-   language has to stand on its own: write natural Japanese for a finance professional
-   rather than a literal translation, keep every number and proper noun identical to the
-   English, and add no fact that is not already in the English. Company names stay in the
-   form the source uses. Use plain ですます-free 常体 and no emojis.
+   Then write `summary_ja` and `why_it_matters_ja`: the same two pieces in Japanese.
+   Headlines are **not** translated; there is no `headline_ja`. The reader who switches to
+   Japanese sees the English headline with the Japanese summary beneath it, so the Japanese
+   has to stand on its own: write it for a finance professional rather than as a literal
+   translation, keep every number and proper noun identical to the English, and add no fact
+   that is not already there. Company names stay in the form the source uses. Use 常体
+   (plain form, no ですます) and no emojis.
 5. **Write the files.**
    - `docs/data/digests/<edition-id>.json`:
      ```json
      {"edition": "<id>", "edition_label": "22 Sep 2026 · 08:30 SGT", "date": "YYYY-MM-DD", "generated_at": "ISO UTC", "reading_minutes": 5,
       "items": [{"headline": "", "summary": "", "why_it_matters": "",
-                "headline_ja": "", "summary_ja": "", "why_it_matters_ja": "", "status": "new|update", "prev": null, "key": "", "ids": [], "links": [], "categories": [], "countries": [], "sectors": []}]}
+                "summary_ja": "", "why_it_matters_ja": "", "status": "new|update", "prev": null, "key": "", "ids": [], "links": [], "categories": [], "countries": [], "sectors": []}]}
      ```
    - `docs/data/digests/index.json`: insert at the top `{"id", "label", "generated_at", "items": <count>, "headlines": [first 3 headlines]}`. Keep every older entry. Never delete editions: links in past emails point to them.
 6. **Validate** with Python before you commit:
    - Both files parse.
    - Every id exists in latest.json.
-   - Every item has all six text fields, and the Japanese ones are not copies of the English.
+   - Every item has `summary_ja` and `why_it_matters_ja`, and neither is a copy of the English.
    - Every `prev` points to an existing edition file and index.
    - The index is newest-first with no duplicate ids.
 7. **Commit** only these two files with the message `digest: <edition-id>` and push to main. If the push is rejected, run `git pull --rebase` and push again, up to 3 times.
