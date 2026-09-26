@@ -15,6 +15,7 @@ a { color: inherit; }
 .brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .top-meta { display: flex; align-items: center; gap: 8px; flex: none; }
 .icon-btn { background: none; border: 0; padding: 4px 8px; line-height: 1; }
+.lang-btn { font-size: .8em; letter-spacing: .04em; }
 .search-row { margin-top: 10px; }
 #q { width: 100%; }
 /* One row per axis with its own label: Region / Type / Focus. Each row scrolls on its own

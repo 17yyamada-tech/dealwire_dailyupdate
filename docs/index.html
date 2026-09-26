@@ -69,16 +69,17 @@
       <span class="clock" id="clock" aria-label="Singapore time"></span>
       <span id="updated" class="updated">Loading…</span>
       <button id="btn-mail" class="icon-btn" aria-label="Get the digest by email" title="Get the digest by email" hidden>✉</button>
+      <button id="btn-lang" class="icon-btn lang-btn" aria-label="日本語に切り替え" title="日本語に切り替え">日本語</button>
       <button id="btn-saved" class="icon-btn" aria-label="Saved stories" title="Saved">☆</button>
       <button id="btn-settings" class="icon-btn" aria-label="Settings" title="Settings">⚙</button>
     </div>
   </div>
   <div class="search-row">
-    <input id="q" type="search" placeholder="Search every story — company, sponsor, sector…" autocomplete="off" aria-label="Search news">
+    <input id="q" type="search" data-i18n-ph="q.ph" placeholder="Search every story — company, sponsor, sector…" autocomplete="off" aria-label="Search news">
   </div>
   <nav class="filters" aria-label="Filters">
     <div class="filter-row">
-      <span class="filter-label" id="lbl-region">Region</span>
+      <span class="filter-label" id="lbl-region" data-i18n="f.region">Region</span>
       <div class="chip-group" data-group="country" role="group" aria-labelledby="lbl-region">
         <button class="chip" data-v="US"><svg class="flag"><use href="#flag-us"/></svg>US</button>
         <button class="chip" data-v="SEA"><svg class="flag"><use href="#flag-sea"/></svg>SEA</button>
@@ -88,7 +89,7 @@
       </div>
     </div>
     <div class="filter-row">
-      <span class="filter-label" id="lbl-type">Type</span>
+      <span class="filter-label" id="lbl-type" data-i18n="f.type">Type</span>
       <div class="chip-group" data-group="category" role="group" aria-labelledby="lbl-type">
         <button class="chip" data-v="M&A">M&amp;A</button>
         <button class="chip" data-v="PE">PE</button>
@@ -97,18 +98,18 @@
       </div>
     </div>
     <div class="filter-row">
-      <span class="filter-label" id="lbl-focus">Focus</span>
+      <span class="filter-label" id="lbl-focus" data-i18n="f.focus">Focus</span>
       <!-- Focus lifts matching deals to the top instead of hiding the rest: the headline-only
            sponsor test misses some deals, and a missed one must not vanish from the board. -->
       <div class="filter-controls">
         <div class="chip-group" data-group="focus" data-single role="group" aria-labelledby="lbl-focus">
-          <button class="chip" data-v="Sponsor" title="Lift financial sponsor deals to the top">Sponsor ↑</button>
-          <button class="chip" data-v="Strategic" title="Lift corporate buyer deals to the top">Strategic ↑</button>
+          <button class="chip" data-v="Sponsor" data-i18n="f.sponsor" title="Lift financial sponsor deals to the top">Sponsor ↑</button>
+          <button class="chip" data-v="Strategic" data-i18n="f.strategic" title="Lift corporate buyer deals to the top">Strategic ↑</button>
         </div>
         <label class="select-wrap"><span class="sr">Sector</span>
           <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
         </label>
-        <button id="clear" class="chip ghost" hidden>Clear</button>
+        <button id="clear" class="chip ghost" data-i18n="f.clear" hidden>Clear</button>
       </div>
     </div>
   </nav>
@@ -117,12 +118,12 @@
 <main class="grid">
   <section class="panel p-deals" id="view-deals" aria-labelledby="deals-h">
     <div class="panel-head">
-      <h2 id="deals-h"><span class="live-dot" aria-hidden="true"></span>Live deal board</h2>
+      <h2 id="deals-h"><span class="live-dot" aria-hidden="true"></span><span data-i18n="p.board">Live deal board</span></h2>
       <span class="panel-meta" id="deals-count"></span>
     </div>
-    <div class="board-cols" aria-hidden="true"><span>Time</span><span>Region</span><span>Type</span><span>Deal</span></div>
+    <div class="board-cols" aria-hidden="true"><span data-i18n="col.time">Time</span><span data-i18n="col.region">Region</span><span data-i18n="col.type">Type</span><span data-i18n="col.deal">Deal</span></div>
     <ol class="rows" id="deals"></ol>
-    <button class="more" id="deals-more" hidden>Show all deals</button>
+    <button class="more" id="deals-more" data-i18n="b.allDeals" hidden>Show all deals</button>
   </section>
 
   <section class="panel p-digest" id="digest" aria-labelledby="digest-h">
@@ -132,29 +133,29 @@
     </div>
     <div class="edition-bar" id="edition-bar">
       <div class="edition-tabs" id="edition-tabs" role="tablist" aria-label="Editions"></div>
-      <button class="link-btn" id="btn-archive">All past digests →</button>
+      <button class="link-btn" id="btn-archive" data-i18n="b.pastDigests">All past digests →</button>
     </div>
     <ol class="digest-list" id="digest-list"></ol>
   </section>
 
   <section class="panel p-stories" id="view-home" aria-labelledby="stories-h">
     <div class="panel-head">
-      <h2 id="stories-h">Top stories</h2>
+      <h2 id="stories-h" data-i18n="p.top">Top stories</h2>
       <span class="panel-meta" id="rank-hint"></span>
     </div>
     <ol class="rows" id="stories"></ol>
-    <button class="more" id="more" hidden>Show more</button>
+    <button class="more" id="more" data-i18n="b.more" hidden>Show more</button>
   </section>
 
   <section class="panel p-search" id="view-search" hidden>
     <div class="panel-head">
-      <h2>Search archive</h2>
+      <h2 data-i18n="p.search">Search archive</h2>
       <label class="select-wrap small"><span class="sr">Period</span>
         <select id="period">
-          <option value="7">Last 7 days</option>
-          <option value="30" selected>Last 30 days</option>
-          <option value="90">Last 90 days</option>
-          <option value="0">All time</option>
+          <option value="7" data-i18n="per.7">Last 7 days</option>
+          <option value="30" selected data-i18n="per.30">Last 30 days</option>
+          <option value="90" data-i18n="per.90">Last 90 days</option>
+          <option value="0" data-i18n="per.0">All time</option>
         </select>
       </label>
     </div>
@@ -163,49 +164,49 @@
   </section>
 
   <section class="panel p-archive" id="view-archive" hidden>
-    <div class="panel-head"><h2>Past digests</h2><span class="panel-meta" id="archive-meta"></span></div>
+    <div class="panel-head"><h2 data-i18n="p.archive">Past digests</h2><span class="panel-meta" id="archive-meta"></span></div>
     <ol class="archive-list" id="archive-list"></ol>
   </section>
 
   <section class="panel p-saved" id="view-saved" hidden>
-    <div class="panel-head"><h2>Saved</h2></div>
+    <div class="panel-head"><h2 data-i18n="p.saved">Saved</h2></div>
     <ol class="rows" id="saved-list"></ol>
   </section>
 </main>
 
 <nav class="tabbar" aria-label="Sections">
-  <button class="tab active" data-view="home">Home</button>
-  <button class="tab" data-view="deals">Deals</button>
-  <button class="tab" data-view="search">Search</button>
-  <button class="tab" data-view="archive">Digests</button>
-  <button class="tab" data-view="saved">Saved</button>
+  <button class="tab active" data-view="home" data-i18n="t.home">Home</button>
+  <button class="tab" data-view="deals" data-i18n="t.deals">Deals</button>
+  <button class="tab" data-view="search" data-i18n="t.search">Search</button>
+  <button class="tab" data-view="archive" data-i18n="t.digests">Digests</button>
+  <button class="tab" data-view="saved" data-i18n="t.saved">Saved</button>
 </nav>
 
 <dialog id="settings">
   <form method="dialog" class="settings">
-    <h2>Settings</h2>
-    <label class="field"><span>Look</span>
+    <h2 data-i18n="s.title">Settings</h2>
+    <label class="field"><span data-i18n="s.look">Look</span>
       <select id="skin-select"></select>
     </label>
     <div class="profile" id="profile-view"></div>
     <div class="row-btns">
-      <button type="button" id="reset-profile" class="chip ghost">Reset learning</button>
-      <button value="close" class="chip">Done</button>
+      <button type="button" id="reset-profile" class="chip ghost" data-i18n="s.reset">Reset learning</button>
+      <button value="close" class="chip" data-i18n="s.done">Done</button>
     </div>
   </form>
 </dialog>
 
 <dialog id="subscribe">
   <form class="settings" id="sub-form">
-    <h2>Get Deal Wire by email</h2>
-    <p class="sub-copy">The digest lands in your inbox three times a day: 08:30, 12:30 and 15:30 SGT. Each story links back to its page here, and past emails keep working.</p>
-    <label class="field col"><span>Email</span><input id="sub-email" type="email" required autocomplete="email" placeholder="you@example.com"></label>
+    <h2 data-i18n="m.title">Get Deal Wire by email</h2>
+    <p class="sub-copy" data-i18n="m.copy">The digest lands in your inbox three times a day: 08:30, 12:30 and 15:30 SGT. Each story links back to its page here, and past emails keep working.</p>
+    <label class="field col"><span data-i18n="m.email">Email</span><input id="sub-email" type="email" required autocomplete="email" placeholder="you@example.com"></label>
     <p class="sub-status" id="sub-status" role="status"></p>
     <div class="row-btns">
-      <button type="button" id="sub-skip" class="chip ghost">Not now</button>
-      <button type="submit" class="chip" id="sub-submit">Subscribe</button>
+      <button type="button" id="sub-skip" class="chip ghost" data-i18n="m.later">Not now</button>
+      <button type="submit" class="chip" id="sub-submit" data-i18n="m.subscribe">Subscribe</button>
     </div>
-    <p class="sub-fine">We send a confirmation email first. Every email has a one-click unsubscribe link.</p>
+    <p class="sub-fine" data-i18n="m.fine">We send a confirmation email first. Every email has a one-click unsubscribe link.</p>
   </form>
 </dialog>
 
@@ -220,8 +221,8 @@
       <div class="c-meta"><span class="src"></span><span class="sponsor"></span><span class="ago"></span><span class="sector"></span><span class="why"></span><span class="also"></span></div>
     </div>
     <div class="c-act">
-      <button class="act save" title="Save" aria-label="Save">☆</button>
-      <button class="act hide" title="Less like this" aria-label="Less like this">×</button>
+      <button class="act save" data-i18n-title="r.save" title="Save" aria-label="Save">☆</button>
+      <button class="act hide" data-i18n-title="r.hide" title="Less like this" aria-label="Less like this">×</button>
     </div>
   </li>
 </template>
