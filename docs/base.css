@@ -55,6 +55,9 @@ select { appearance: none; }
 .fc-target { overflow-wrap: anywhere; }
 .fc-line { display: flex; gap: 6px; min-width: 0; }
 .fc-line span:last-child { min-width: 0; overflow-wrap: anywhere; }
+.fc-terms { margin: 2px 0 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; }
+.fc-terms dt { grid-column: 1; }
+.fc-terms dd { grid-column: 2; margin: 0; overflow-wrap: anywhere; }
 .fc-foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .p-deals { grid-area: deals; }
 .p-digest { grid-area: digest; }

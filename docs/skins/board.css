@@ -179,3 +179,5 @@ dialog::backdrop { background: rgba(0,0,0,.6); }
 .fc-line { margin: 0; font: 500 11.5px/1.4 var(--sans); color: var(--ink-2); }
 .fc-lbl { font: 600 9.5px/1.7 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); flex: none; }
 .fc-type, .fc-n { font: 500 10px/1 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); }
+.fc-terms dt { font: 600 9.5px/1.6 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+.fc-terms dd { font: 500 11.5px/1.5 var(--mono); color: var(--ink); }

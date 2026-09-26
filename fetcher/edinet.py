@@ -107,6 +107,84 @@ def load_codes() -> dict:
     return data
 
 
+ZEN = str.maketrans("０１２３４５６７８９（）／％，－", "0123456789()/%,-")
+
+
+def csv_values(doc_id: str) -> dict:
+    """The filing's tagged values, label -> value. One request per document."""
+    raw = fetch(f"{API}/documents/{doc_id}?" + urllib.parse.urlencode({"type": 5, "Subscription-Key": KEY}))
+    out = {}
+    with zipfile.ZipFile(io.BytesIO(raw)) as z:
+        for name in z.namelist():
+            if not name.lower().endswith(".csv"):
+                continue
+            text = z.read(name).decode("utf-16", errors="replace")
+            for r in csv.reader(io.StringIO(text), delimiter="\t"):
+                if len(r) >= 9 and r[8].strip() not in ("", "－", "-"):
+                    out.setdefault(r[1], r[8].strip())
+    return out
+
+
+def find(values: dict, needle: str) -> str:
+    for label, v in values.items():
+        if needle in label:
+            return v.translate(ZEN)
+    return ""
+
+
+def terms_of_offer(values: dict) -> dict:
+    """Price, period, floor and settlement date, read out of a tender offer filing.
+
+    The premium is deliberately absent: it is not a tagged value, and working it out needs
+    the share price before the announcement, which this site does not collect. A number we
+    cannot stand behind is worse than no number.
+    """
+    t = {}
+    price = re.search(r"につき金([\d,]+)円", find(values, "買付け等の価格") or find(values, "買付価格"))
+    if price:
+        t["price"] = price.group(1)
+
+    period = find(values, "買付け等の期間") or find(values, "公開買付期間")
+    span = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日.{0,12}?から(\d{4})年(\d{1,2})月(\d{1,2})日.{0,12}?まで", period)
+    if span:
+        a, b, c, d, e, f = span.groups()
+        t["opens"] = f"{a}-{int(b):02d}-{int(c):02d}"
+        t["closes"] = f"{d}-{int(e):02d}-{int(f):02d}"
+    days = re.search(r"\((\d+)営業日\)", period)
+    if days:
+        t["business_days"] = int(days.group(1))
+
+    shares = find(values, "買付予定の株券等の数")
+    nums = re.findall(r"([\d,]+)\(株\)", shares)
+    if nums:
+        t["shares"] = nums[0]
+        if len(nums) > 1:
+            t["floor"] = nums[1]
+
+    ratio = find(values, "議決権の数の総株主等の議決権の数に占める割合")
+    try:
+        if ratio:
+            t["stake_pct"] = round(float(ratio.replace(",", "")) * 100, 2)
+    except ValueError:
+        pass
+
+    settle = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日", find(values, "決済の開始日"))
+    if settle:
+        a, b, c = settle.groups()
+        t["settles"] = f"{a}-{int(b):02d}-{int(c):02d}"
+
+    # who is behind the bid vehicle: the filing lists its shareholders, and a name we already
+    # recognise as a sponsor is exactly what the news coverage tends to leave as "a fund"
+    blob = " ".join(values.values())
+    for w in SPONSORS:
+        if w.startswith(("cs:", "re:")) or w.isascii():
+            continue
+        if w in blob:
+            t["backer"] = w
+            break
+    return t
+
+
 def issuer_from_document(doc_id: str) -> str:
     """A 5% stake report names its target inside the document, not in the index. The filing
     ships a CSV of its tagged values, so pull the issuer from there. Best effort: a card
@@ -136,11 +214,20 @@ def party(codes: dict, code: str, fallback_name: str = "") -> dict:
     return {"code": code, "name": row[0] or fallback_name, "name_en": row[1], "ticker": row[2]}
 
 
+def previous_terms() -> dict:
+    try:
+        old = json.loads(OUT.read_text(encoding='utf-8'))
+        return {c['id']: c['terms'] for c in old.get('cards', []) if c.get('terms')}
+    except Exception:  # noqa: BLE001 - first run, or a file we cannot read
+        return {}
+
+
 def main() -> int:
     if not KEY:
         print("EDINET_API_KEY is not set; nothing written")
         return 1
     codes = load_codes()["codes"]
+    known = previous_terms()
     today = dt.date.today()
     cards, days_ok = [], 0
     for back in range(DAYS):
@@ -167,11 +254,17 @@ def main() -> int:
             doc_id = r.get("docID")
             desc = r.get("docDescription") or ""
             target = party(codes, r.get("subjectEdinetCode") or "")
+            terms = known.get(doc_id, {})
             if kind == "stake" and not target["name"]:
                 name = issuer_from_document(doc_id)
                 if name:
                     hit = next((c for c, v in codes.items() if v[0] == name), "")
                     target = party(codes, hit, name)
+            elif kind in ("tob", "tob_result") and not terms:
+                try:
+                    terms = terms_of_offer(csv_values(doc_id))
+                except Exception as e:  # noqa: BLE001 - the card is worth having without them
+                    print(f"      terms lookup failed for {doc_id}: {str(e)[:90]}")
             cards.append({
                 "id": doc_id,
                 "filed": (r.get("submitDateTime") or "").replace(" ", "T") + "+09:00",
@@ -182,6 +275,7 @@ def main() -> int:
                 "target": target,
                 "sponsor": sponsor,
                 "parent": r.get("parentDocID") or "",
+                "terms": terms,
                 "link": PDF.format(doc_id),
             })
             kept += 1
@@ -198,6 +292,8 @@ def main() -> int:
         k = (c["buyer"]["code"], c["target"]["code"] or c["target"]["name"], c["kind"])
         if k in seen:
             seen[k]["filings"] += 1
+            if not seen[k]["terms"] and c["terms"]:
+                seen[k]["terms"] = c["terms"]
             continue
         c["filings"] = 1
         seen[k] = c
@@ -208,7 +304,8 @@ def main() -> int:
     by_kind = {}
     for c in cards:
         by_kind[c["kind"]] = by_kind.get(c["kind"], 0) + 1
-    print(f"wrote {len(cards)} cards over {days_ok} days: {by_kind}")
+    priced = sum(1 for c in cards if c["terms"].get("price"))
+    print(f"wrote {len(cards)} cards over {days_ok} days: {by_kind} | with an offer price: {priced}")
     return 0
 
 

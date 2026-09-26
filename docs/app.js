@@ -351,13 +351,34 @@
     const byv = document.createElement("span"); byv.textContent = coName(c.buyer);
     by.append(byl, byv);
 
+    li.append(head, target, by);
+    // Terms come straight out of the filing. There is no premium here on purpose: it is not
+    // a filed figure, and we do not hold the pre-announcement share price to work it out.
+    const t = c.terms || {};
+    const pairs = [];
+    if (t.price) pairs.push(["Price", "¥" + t.price + " / sh"]);
+    if (t.opens && t.closes) pairs.push(["Period", fmtDay(t.opens) + " – " + fmtDay(t.closes) + (t.business_days ? ` (${t.business_days}d)` : "")]);
+    if (t.shares) pairs.push(["Sought", t.shares + " sh" + (t.stake_pct ? ` · ${t.stake_pct}%` : "")]);
+    if (t.floor) pairs.push(["Floor", t.floor + " sh"]);
+    if (t.settles) pairs.push(["Settles", fmtDay(t.settles)]);
+    if (t.backer) pairs.push(["Backer", t.backer]);
+    if (pairs.length) {
+      const dl = document.createElement("dl"); dl.className = "fc-terms";
+      pairs.forEach(([k, v]) => {
+        const dt = document.createElement("dt"); dt.textContent = k;
+        const dd = document.createElement("dd"); dd.textContent = v;
+        dl.append(dt, dd);
+      });
+      li.append(dl);
+    }
+
     const foot = document.createElement("div"); foot.className = "fc-foot";
     const type = document.createElement("span"); type.className = "fc-type"; type.textContent = c.type_en;
     type.title = c.type_ja;
     const n = document.createElement("span"); n.className = "fc-n";
     n.textContent = c.filings > 1 ? c.filings + " filings" : "";
     foot.append(type, n);
-    li.append(head, target, by, foot);
+    li.append(foot);
     return li;
   }
 
