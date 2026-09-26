@@ -148,8 +148,8 @@ def tag(item: dict, src: dict) -> dict:
     ecm = has_any(title.lower(), ["ipo", "listing", "offering", "offerings", "placement", "rights issue", "float", "debut"], title) and money
     is_deal = bool(deal_verb and (core or (financing and money))) or ecm or src.get("always_deal", False)
     # Who is on the deal: a financial sponsor (PE house, activist, infra/credit fund) or a
-    # corporate buyer. Headline-only detection misses some sponsors, so this axis only
-    # re-orders the list in the app; it never filters anything out.
+    # corporate buyer. Headline-only detection misses some sponsors; the app's Focus chips
+    # filter the deal board on this field.
     sponsor = has_any(text, RULES.get("actor", {}).get("Sponsor", []), orig)
     # "Strategic" needs a real M&A headline with no sponsor named. Filing feeds (8-K) are deals
     # by source, not by headline, and say nothing about who is buying: those stay unlabelled.

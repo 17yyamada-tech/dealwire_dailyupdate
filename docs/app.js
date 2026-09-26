@@ -20,7 +20,7 @@
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
-  const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; re-orders the list, never filters
+  const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
   const REGION_ORDER = ["SG", "JP", "HK/CN", "SEA", "US"];   // SG items also carry SEA; show the most specific first
   const CJK = "\\u3040-\\u30ff\\u4e00-\\u9fff\\uff66-\\uff9f";
   const TYPE_ORDER = ["M&A", "PE", "Credit", "Infra"];
@@ -28,7 +28,6 @@
   const DEALS_PAGE = 14;
   const REFRESH_MS = 5 * 60 * 1000;
   const HALF_LIFE_H = 18;
-  const FOCUS_LIFT = 2.2;   // how hard a Focus chip lifts matching deals up the list
   const PROFILE_WINDOW_DAYS = 45;
   const DAILY_DECAY = 0.94;
 
@@ -147,7 +146,6 @@
     const base = 0.35 + (it.is_deal ? 0.35 : 0) + (it.has_amount ? 0.15 : 0) + (it.categories.length ? 0.1 : 0);
     let s = recency * (base + aff);
     if (read[it.id]) s *= 0.55;
-    if (state.filters.focus && it.actor === state.filters.focus) s *= FOCUS_LIFT;
     return { s, reasons: [...new Set(reasons)].slice(0, 2) };
   }
 
@@ -293,7 +291,8 @@
     // viewer reads, which is otherwise only visible in the digest.
     const today = todaySG();
     const wanted = (it) => (state.dealsAll || it.is_deal) && passes(it) && !hidden[it.id]
-      && (!state.dealsToday || sgParts(it.published).day === today);
+      && (!state.dealsToday || sgParts(it.published).day === today)
+      && (!state.filters.focus || it.actor === state.filters.focus);
     let deals;
     if (state.dealsInterest) {
       deals = rankedItems().filter(x => wanted(x.it));
@@ -302,9 +301,6 @@
         .sort((a, b) => a.published.localeCompare(b.published)).map(it => ({ it })))   // oldest first: first report wins
         .reverse();
     }
-    // A Focus chip moves matching deals to the front of the board, keeping each block by time.
-    const focus = state.filters.focus;
-    if (focus) deals.sort((a, b) => (b.it.actor === focus) - (a.it.actor === focus));
     const ol = $("#deals"); ol.textContent = "";
     const limit = state.view === "deals" ? 200 : state.dealsShown;
     deals.slice(0, limit).forEach(x => {

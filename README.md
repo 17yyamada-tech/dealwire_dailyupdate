@@ -103,7 +103,7 @@ de-duplication (`tokenSet` falls back to character pairs) and what the ranking l
 ## Filters
 Three axes, one labelled row each: **Region** (US / SEA / SG / JP / HK/CN), **Type** and **Focus**.
 
-Focus is the odd one out. `rules.json` → `actor.Sponsor` lists PE houses, activists, infra and credit funds and sovereign investors; a story naming one is tagged `Sponsor`, a plain M&A headline naming none is `Strategic`, and anything with no evidence either way (filing feeds such as SEC 8-K) stays unlabelled. Because that test only reads the headline it misses some deals, so the Focus chips **lift matching deals to the top of the list instead of filtering the rest away**. Region, Type and Sector do filter.
+Focus is the odd one out. `rules.json` → `actor.Sponsor` lists PE houses, activists, infra and credit funds and sovereign investors; a story naming one is tagged `Sponsor`, a plain M&A headline naming none is `Strategic`, and anything with no evidence either way (filing feeds such as SEC 8-K) stays unlabelled. A Focus chip **shows only that side on the deal board**, like the other filters; it does not touch the digest. The test reads only the headline and snippet, so a deal that names no known house can land in Strategic or stay unlabelled. Japanese houses are listed as the press writes them (アパックス, 日本成長投資アライアンス), plus phrases such as ファンドが / ファンド連合 that name no house but leave no doubt.
 
 ## Changing the look
 All visual design lives in one file per skin: `docs/skins/board.css` (departure board, the default) and `docs/skins/editorial.css`.

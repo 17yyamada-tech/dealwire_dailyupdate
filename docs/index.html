@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Deal Wire</title>
-<meta name="description" content="Live deal board and daily briefing: M&A, PE, credit and infrastructure across the US, Southeast Asia, Singapore and Hong Kong / China.">
+<meta name="description" content="Live deal board and daily briefing: M&A, PE, credit and infrastructure across the US, Southeast Asia, Singapore, Japan and Hong Kong / China.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,12 +99,12 @@
     </div>
     <div class="filter-row">
       <span class="filter-label" id="lbl-focus">Focus</span>
-      <!-- Focus lifts matching deals to the top instead of hiding the rest: the headline-only
-           sponsor test misses some deals, and a missed one must not vanish from the board. -->
+      <!-- Focus narrows the deal board to one side. The test reads only the headline and snippet,
+           so a deal naming no known house is Strategic or unlabelled; clearing the chip shows all. -->
       <div class="filter-controls">
         <div class="chip-group" data-group="focus" data-single role="group" aria-labelledby="lbl-focus">
-          <button class="chip" data-v="Sponsor" title="Lift financial sponsor deals to the top">Sponsor ↑</button>
-          <button class="chip" data-v="Strategic" title="Lift corporate buyer deals to the top">Strategic ↑</button>
+          <button class="chip" data-v="Sponsor" title="Show only deals with a financial sponsor (PE, activist, infra or credit fund, sovereign fund)">Sponsor</button>
+          <button class="chip" data-v="Strategic" title="Show only deals by a corporate buyer">Strategic</button>
         </div>
         <label class="select-wrap"><span class="sr">Sector</span>
           <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
