@@ -40,7 +40,7 @@ select.active { background-color: var(--chip-on); color: var(--chip-on-ink); }
 
 /* editorial layout: digest leads, deals in a side column */
 @media (min-width: 1000px) {
-  .grid { grid-template-columns: minmax(0, 1fr) 360px; grid-template-areas: "digest deals" "stories deals"; column-gap: 28px; }
+  .grid { grid-template-columns: minmax(0, 1fr) 360px; grid-template-areas: "digest deals" "filings filings"; column-gap: 28px; }
   .p-deals { position: sticky; top: 160px; max-height: calc(100vh - 180px); overflow-y: auto; border-left: 1px solid var(--rule); padding-left: 20px; }
 }
 .panel-head { margin: 6px 0 6px; border-bottom: 2px solid var(--ink); padding-bottom: 6px; }

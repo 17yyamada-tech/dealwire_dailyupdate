@@ -25,7 +25,7 @@
   const CJK = "\\u3040-\\u30ff\\u4e00-\\u9fff\\uff66-\\uff9f";
   const TYPE_ORDER = ["M&A", "PE", "Credit", "Infra"];
   const STOP = new Set("the a an and or of to in on for with by at from as is are be its it this that after over into new says said will than more up amid us uk sg".split(" "));
-  const PAGE = 30, DEALS_PAGE = 14;
+  const DEALS_PAGE = 14;
   const REFRESH_MS = 5 * 60 * 1000;
   const HALF_LIFE_H = 18;
   const FOCUS_LIFT = 2.2;   // how hard a Focus chip lifts matching deals up the list
@@ -35,10 +35,12 @@
   const state = {
     items: [], updated: null, editions: [], edition: null, editionCache: new Map(), pinned: null, lastRanked: [],
     filters: normFilters(store.get("filters", null)),
-    shown: PAGE, dealsShown: DEALS_PAGE, view: "home",
+    dealsShown: DEALS_PAGE, view: "home",
     seenDeals: new Set(store.get("seenDeals", [])), firstLoad: true,
     archive: new Map(), archiveMonths: [], filings: [],
     dealsToday: store.get('dealsToday', false) === true,
+    dealsAll: store.get('dealsAll', false) === true,
+    dealsInterest: store.get('dealsInterest', false) === true,
     lang: store.get("lang", "en") === "ja" ? "ja" : "en",
   };
 
@@ -275,27 +277,31 @@
   function empty(msg) { const li = document.createElement("li"); li.className = "empty"; li.textContent = msg; return li; }
 
   /* ---------------- panels ---------------- */
-  function renderStories() {
+  // The board draws itself; this is the ranking behind "By interest", and the order the
+  // digest falls back to when no edition has been published yet.
+  function rankedItems() {
     const prof = activeProfile(), read = store.get("read", {}), hidden = store.get("hidden", {});
-    const ranked = collapseDupes(state.items.filter(passes).map(it => ({ it, ...score(it, prof, read, hidden) }))
+    return collapseDupes(state.items.filter(passes).map(it => ({ it, ...score(it, prof, read, hidden) }))
       .filter(x => x.s >= 0).sort((a, b) => b.s - a.s));
-    const ol = $("#stories"); ol.textContent = "";
-    ranked.slice(0, state.shown).forEach(x => ol.append(rowNode(x.it, { reasons: x.reasons, also: x.also })));
-    if (!ranked.length) ol.append(empty(anyFilter() ? "Nothing matches these filters in the last 7 days." : "No stories yet."));
-    $("#more").hidden = ranked.length <= state.shown;
-    $("#rank-hint").textContent = Object.keys(prof.weights || {}).length ? "ranked for you" : "ranked by recency & deal relevance";
-    return ranked;
   }
 
   function renderDeals() {
     const hidden = store.get("hidden", {});
-    // "Today only" is the counterpart of "Show all deals": on a busy day the seven-day board
-    // buries this morning's deals, and the board is the part people check repeatedly.
+    // Three ways to cut the same list. "Today only" is the counterpart of "Show all deals":
+    // on a busy day the seven-day window buries this morning. "All stories" opens it up to
+    // the market and macro pieces that are not deals. "By interest" reorders by what this
+    // viewer reads, which is otherwise only visible in the digest.
     const today = todaySG();
-    const inRange = (it) => !state.dealsToday || sgParts(it.published).day === today;
-    const deals = collapseDupes(state.items.filter(it => it.is_deal && passes(it) && !hidden[it.id] && inRange(it))
-      .sort((a, b) => a.published.localeCompare(b.published)).map(it => ({ it })))   // oldest first: first report wins
-      .reverse();
+    const wanted = (it) => (state.dealsAll || it.is_deal) && passes(it) && !hidden[it.id]
+      && (!state.dealsToday || sgParts(it.published).day === today);
+    let deals;
+    if (state.dealsInterest) {
+      deals = rankedItems().filter(x => wanted(x.it));
+    } else {
+      deals = collapseDupes(state.items.filter(wanted)
+        .sort((a, b) => a.published.localeCompare(b.published)).map(it => ({ it })))   // oldest first: first report wins
+        .reverse();
+    }
     // A Focus chip moves matching deals to the front of the board, keeping each block by time.
     const focus = state.filters.focus;
     if (focus) deals.sort((a, b) => (b.it.actor === focus) - (a.it.actor === focus));
@@ -303,14 +309,17 @@
     const limit = state.view === "deals" ? 200 : state.dealsShown;
     deals.slice(0, limit).forEach(x => {
       const isNew = !state.firstLoad && !state.seenDeals.has(x.it.id);
-      ol.append(rowNode(x.it, { also: x.also, compact: true, fresh: isNew }));
+      ol.append(rowNode(x.it, { also: x.also, reasons: x.reasons || [], compact: true, fresh: isNew }));
     });
     if (!deals.length) ol.append(empty(state.dealsToday
-      ? "No deals reported yet today. Switch to the last 7 days."
-      : "No deals match these filters."));
+      ? "Nothing reported yet today. Switch to the last 7 days."
+      : "Nothing matches these filters."));
     $("#deals-count").textContent = deals.length + (state.dealsToday ? " today" : " in 7 days");
     $("#deals-range").textContent = state.dealsToday ? "Last 7 days" : "Today only";
-    $("#deals-range").setAttribute("aria-pressed", state.dealsToday);
+    $("#deals-scope").textContent = state.dealsAll ? "Deals only" : "All stories";
+    $("#deals-order").textContent = state.dealsInterest ? "Newest first" : "By interest";
+    [["deals-range", state.dealsToday], ["deals-scope", state.dealsAll], ["deals-order", state.dealsInterest]]
+      .forEach(([id, on]) => $("#" + id).setAttribute("aria-pressed", on));
     $("#deals-more").hidden = deals.length <= limit;
     deals.forEach(d => state.seenDeals.add(d.it.id));
     store.set("seenDeals", [...state.seenDeals].slice(-3000));
@@ -504,11 +513,10 @@
   }
   function measureDigest(list, board, panel, grid) {
     list.style.maxHeight = "";
-    // "stories stories" marks the two-column layout; the phone and the navy-classic
-    // layouts put the board elsewhere, where lining the columns up makes no sense
-    if (!getComputedStyle(grid).gridTemplateAreas.includes("stories stories")) return;
     if (board.offsetParent === null) return;                       // board hidden in this view
     const b = board.getBoundingClientRect(), p = panel.getBoundingClientRect();
+    // only worth doing where the two actually sit side by side; stacked, they follow each other
+    if (Math.abs(b.top - p.top) > 4) return;
     if (b.height >= p.height - 1) return;                          // digest is already the shorter one
     const l = list.getBoundingClientRect();
     const head = l.top - p.top;        // panel head and edition tabs above the list
@@ -556,7 +564,7 @@
 
   function renderAll() {
     syncFilterUI();
-    state.lastRanked = renderStories();
+    state.lastRanked = rankedItems();
     renderDigest(state.lastRanked);
     renderDeals();
     renderFilings();
@@ -740,18 +748,18 @@
       state.filters[key] = g.dataset.single != null
         ? (cur === v ? "" : v)
         : (cur.includes(v) ? cur.filter(x => x !== v) : [...cur, v]);
-      store.set("filters", state.filters); state.shown = PAGE; renderAll();
+      store.set("filters", state.filters); state.dealsShown = DEALS_PAGE; renderAll();
     }));
-    sel.addEventListener("change", () => { state.filters.sector = sel.value; store.set("filters", state.filters); state.shown = PAGE; renderAll(); });
+    sel.addEventListener("change", () => { state.filters.sector = sel.value; store.set("filters", state.filters); state.dealsShown = DEALS_PAGE; renderAll(); });
     $("#clear").addEventListener("click", () => { state.filters = normFilters(null); store.set("filters", state.filters); renderAll(); });
-    $("#more").addEventListener("click", () => { state.shown += PAGE; renderStories(); });
     $("#deals-more").addEventListener("click", () => { state.dealsShown += 30; renderDeals(); });
-    $("#deals-range").addEventListener("click", () => {
-      state.dealsToday = !state.dealsToday;
-      store.set("dealsToday", state.dealsToday);
-      state.dealsShown = DEALS_PAGE;
-      renderDeals();
-    });
+    [["deals-range", "dealsToday"], ["deals-scope", "dealsAll"], ["deals-order", "dealsInterest"]]
+      .forEach(([id, key]) => $("#" + id).addEventListener("click", () => {
+        state[key] = !state[key];
+        store.set(key, state[key]);
+        state.dealsShown = DEALS_PAGE;
+        renderDeals();
+      }));
     let t;
     $("#q").addEventListener("input", () => {
       clearTimeout(t);

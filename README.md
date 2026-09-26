@@ -37,15 +37,20 @@ Open http://127.0.0.1:8765/
 - `fetcher/sources.json`: add or remove feeds (`url` or `gnews` query, defaults, age limit).
 - `fetcher/rules.json`: keyword rules for categories, countries, sectors, deal signals and sponsors. A `cs:` prefix means case-sensitive, for acronyms like US and AI. A `re:` prefix means regex.
 
-## The two lists
-They answer different questions, and both are on the home page.
+## The board
+One list, cut three ways from its header. Each control is remembered per viewer.
 
-- **Live deal board**: only items tagged `is_deal`, newest first, no personal ranking. It is a
-  wire: what has been reported, in the order it arrived. The head switches it between the last
-  seven days and today only, and "Show all deals" opens the rest.
-- **Top stories**: everything, deals and general market news alike, ranked by recency, deal
-  relevance and what this viewer has been opening. It answers "what should I read", where the
-  board answers "what happened".
+- **Deals only / All stories**: the board holds the items tagged `is_deal` by default. Of the
+  last seven days' 1,228 stories, 442 are deals; the rest are market and macro pieces that
+  "All stories" brings in.
+- **Newest first / By interest**: chronological by default. By interest reorders by recency,
+  deal relevance and what this viewer has been opening.
+- **Today only / Last 7 days**: on a busy day the week buries the morning.
+
+There used to be a second list, Top stories, ranked by interest across everything. Measured on
+a fresh browser it repeated five of the board's top eight, and its two distinguishing features
+were mostly invisible: the "for you" reasons need a reading history, and only 59% of items
+carry a snippet at all. Three controls on one list say the same thing without the repetition.
 
 ## Japan filings
 `fetcher/edinet.py` reads EDINET's filing index and writes `docs/data/edinet.json`, shown as a

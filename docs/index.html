@@ -121,6 +121,8 @@
     <div class="panel-head">
       <h2 id="deals-h"><span class="live-dot" aria-hidden="true"></span>Live deal board</h2>
       <span class="panel-head-right">
+        <button class="link-btn" id="deals-scope" title="Deals only, or every story collected">All stories</button>
+        <button class="link-btn" id="deals-order" title="Newest first, or ordered by what you read">By interest</button>
         <button class="link-btn" id="deals-range" title="Narrow the board to what was filed or reported today">Today only</button>
         <span class="panel-meta" id="deals-count"></span>
       </span>
@@ -152,14 +154,6 @@
     <ol class="filing-strip" id="filing-list"></ol>
   </section>
 
-  <section class="panel p-stories" id="view-home" aria-labelledby="stories-h">
-    <div class="panel-head">
-      <h2 id="stories-h">Top stories</h2>
-      <span class="panel-meta" id="rank-hint"></span>
-    </div>
-    <ol class="rows" id="stories"></ol>
-    <button class="more" id="more" hidden>Show more</button>
-  </section>
 
   <section class="panel p-search" id="view-search" hidden>
     <div class="panel-head">
