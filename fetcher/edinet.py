@@ -176,8 +176,11 @@ def terms_of_offer(values: dict) -> dict:
     # who is behind the bid vehicle: the filing lists its shareholders, and a name we already
     # recognise as a sponsor is exactly what the news coverage tends to leave as "a fund"
     blob = " ".join(values.values())
+    # a house's name is the point; "投資ファンド" is what the news already said
+    generic = {"投資ファンド", "買収ファンド", "プライベートエクイティ", "プライベート・エクイティ",
+               "アクティビスト", "物言う株主", "官民ファンド", "ベンチャーキャピタル"}
     for w in SPONSORS:
-        if w.startswith(("cs:", "re:")) or w.isascii():
+        if w.startswith(("cs:", "re:")) or w.isascii() or w in generic:
             continue
         if w in blob:
             t["backer"] = w
