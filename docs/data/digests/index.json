@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-26-0830",
+      "label": "26 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-26T00:35:20Z",
+      "items": 7,
+      "headlines": [
+        "SK Hynix weighs listing for Solidigm at valuation of up to $150 billion",
+        "Rexel agrees to acquire US specialty wire and cable distributor GCG",
+        "Inpex to acquire JERA's stake in Ichthys LNG project via pre-emptive rights"
+      ]
+    },
+    {
       "id": "2026-09-25-1530",
       "label": "25 Sep 2026 · 15:30 SGT",
       "generated_at": "2026-09-25T07:31:44Z",
