@@ -48,6 +48,7 @@ body { background: var(--bg); color: var(--ink); font: 14px/1.5 var(--sans); }
 .chip:hover { color: var(--ink); border-color: var(--ink-3); }
 .chip[aria-pressed="true"] { background: var(--amber); color: #000; border-color: var(--amber); }
 .chip.ghost { background: transparent; }
+.filter-label { font: 600 10px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); }
 .sep { background: var(--line); }
 select {
   font: 600 12px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2);
@@ -86,6 +87,7 @@ select.active { background-color: var(--amber); color: #000; border-color: var(-
 .c-snip { color: var(--ink-2); font-size: 13px; }
 .c-meta { font: 500 10.5px/1.4 var(--mono); color: var(--ink-3); text-transform: uppercase; letter-spacing: .04em; }
 .c-meta .src { color: var(--ink-2); }
+.c-meta .sponsor { color: var(--amber); }
 .c-meta .why { color: var(--amber); }
 .act { color: var(--ink-3); border-radius: 3px; font-size: 15px; }
 .act:hover { background: var(--flap-top); color: var(--ink); }

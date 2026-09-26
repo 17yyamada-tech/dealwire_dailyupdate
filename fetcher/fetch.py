@@ -140,8 +140,16 @@ def tag(item: dict, src: dict) -> dict:
     financing = set(cats) & {"Credit", "Infra"}
     ecm = has_any(title.lower(), ["ipo", "listing", "offering", "offerings", "placement", "rights issue", "float", "debut"], title) and money
     is_deal = bool(deal_verb and (core or (financing and money))) or ecm or src.get("always_deal", False)
+    # Who is on the deal: a financial sponsor (PE house, activist, infra/credit fund) or a
+    # corporate buyer. Headline-only detection misses some sponsors, so this axis only
+    # re-orders the list in the app; it never filters anything out.
+    sponsor = has_any(text, RULES.get("actor", {}).get("Sponsor", []), orig)
+    # "Strategic" needs a real M&A headline with no sponsor named. Filing feeds (8-K) are deals
+    # by source, not by headline, and say nothing about who is buying: those stay unlabelled.
+    strategic = bool(deal_verb and core)
+    actor = "Sponsor" if sponsor else ("Strategic" if strategic else "")
     return {"categories": cats, "countries": countries, "sectors": sectors[:3] or ["Other"],
-            "is_deal": is_deal, "has_amount": money}
+            "is_deal": is_deal, "has_amount": money, "actor": actor}
 
 
 def norm_title(t: str) -> str:

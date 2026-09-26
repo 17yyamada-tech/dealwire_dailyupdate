@@ -19,13 +19,15 @@
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
-  const SECTORS = ["TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
+  const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
+  const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; re-orders the list, never filters
   const REGION_ORDER = ["SG", "HK/CN", "SEA", "US"];   // SG items also carry SEA; show the most specific first
   const TYPE_ORDER = ["M&A", "PE", "Credit", "Infra"];
   const STOP = new Set("the a an and or of to in on for with by at from as is are be its it this that after over into new says said will than more up amid us uk sg".split(" "));
   const PAGE = 30, DEALS_PAGE = 14;
   const REFRESH_MS = 5 * 60 * 1000;
   const HALF_LIFE_H = 18;
+  const FOCUS_LIFT = 2.2;   // how hard a Focus chip lifts matching deals up the list
   const PROFILE_WINDOW_DAYS = 45;
   const DAILY_DECAY = 0.94;
 
@@ -43,6 +45,7 @@
       category: (f.category || []).filter(x => ok.category.includes(x)),
       country: (f.country || []).filter(x => ok.country.includes(x)),
       sector: SECTORS.includes(f.sector) ? f.sector : "",
+      focus: FOCUS.includes(f.focus) ? f.focus : "",
     };
   }
 
@@ -113,6 +116,7 @@
     const base = 0.35 + (it.is_deal ? 0.35 : 0) + (it.has_amount ? 0.15 : 0) + (it.categories.length ? 0.1 : 0);
     let s = recency * (base + aff);
     if (read[it.id]) s *= 0.55;
+    if (state.filters.focus && it.actor === state.filters.focus) s *= FOCUS_LIFT;
     return { s, reasons: [...new Set(reasons)].slice(0, 2) };
   }
 
@@ -138,11 +142,11 @@
     if (f.sector && !(it.sectors || []).includes(f.sector)) return false;
     return true;
   }
-  const anyFilter = () => state.filters.category.length || state.filters.country.length || state.filters.sector;
+  const anyFilter = () => state.filters.category.length || state.filters.country.length || state.filters.sector || state.filters.focus;
   function syncFilterUI() {
     $$(".chip-group").forEach(g => {
-      const key = g.dataset.group;
-      $$(".chip", g).forEach(b => b.setAttribute("aria-pressed", state.filters[key].includes(b.dataset.v)));
+      const key = g.dataset.group, v = state.filters[key];
+      $$(".chip", g).forEach(b => b.setAttribute("aria-pressed", Array.isArray(v) ? v.includes(b.dataset.v) : v === b.dataset.v));
     });
     $("#sector").value = state.filters.sector;
     $("#sector").classList.toggle("active", !!state.filters.sector);
@@ -163,11 +167,22 @@
   };
   const boardTime = (iso) => { const p = sgParts(iso); return p.day === todaySG() ? p.hm : p.dm; };
   const fmtDate = (iso) => new Date(iso).toLocaleString("en-SG", { timeZone: "Asia/Singapore", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", hour12: false });
-  const regionOf = (it) => {
+  const regionsOf = (it) => {
     const c = it.countries || [];
-    const r = REGION_ORDER.filter(x => c.includes(x) && !(x === "SEA" && c.includes("SG")));
-    return r.slice(0, 2).join(" ") || "—";
+    return REGION_ORDER.filter(x => c.includes(x) && !(x === "SEA" && c.includes("SG"))).slice(0, 2);
   };
+  // SEA has no flag of its own, so it flies the ASEAN emblem; HK/CN shows both flags.
+  const FLAGS = { US: ["us"], SEA: ["sea"], SG: ["sg"], "HK/CN": ["hk", "cn"] };
+  function flagNode(name) {
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("class", "flag");
+    svg.setAttribute("aria-hidden", "true");
+    const use = document.createElementNS(NS, "use");
+    use.setAttribute("href", "#flag-" + name);
+    svg.append(use);
+    return svg;
+  }
   const typeOf = (it) => (TYPE_ORDER.find(t => (it.categories || []).includes(t))) || (it.is_deal ? "Deal" : "News");
   const typeClass = (t) => "t-" + t.toLowerCase().replace(/[^a-z]/g, "");
 
@@ -179,11 +194,19 @@
     const time = $(".c-time", n);
     time.textContent = q ? sgParts(it.published).dm : boardTime(it.published);
     time.title = fmtDate(it.published) + " SGT";
-    $(".c-reg", n).textContent = regionOf(it);
+    const reg = $(".c-reg", n);
+    reg.textContent = "";
+    const regions = regionsOf(it);
+    // the most specific region only: its flag (two for HK/CN) and its code. A second region
+    // would not fit beside the flags, so it lives in the tooltip instead.
+    (FLAGS[regions[0]] || []).forEach(f => reg.append(flagNode(f)));
+    reg.append(regions[0] || "—");
+    reg.title = regions.join(" ") || "No region tagged";
     const t = typeOf(it); const ty = $(".c-type", n); ty.textContent = t; ty.classList.add(typeClass(t));
     const a = $(".c-title", n); a.href = it.link; highlight(a, it.title, q);
     highlight($(".c-snip", n), compact ? "" : (it.snippet || ""), q);
     $(".src", n).textContent = it.source;
+    $(".sponsor", n).textContent = it.actor === "Sponsor" ? "Sponsor" : "";
     $(".ago", n).textContent = fmtAgo(it.published) + " ago";
     const sec = (it.sectors || []).filter(s => s !== "Other")[0];
     $(".sector", n).textContent = sec || "";
@@ -231,6 +254,9 @@
     const deals = collapseDupes(state.items.filter(it => it.is_deal && passes(it) && !hidden[it.id])
       .sort((a, b) => a.published.localeCompare(b.published)).map(it => ({ it })))   // oldest first: first report wins
       .reverse();
+    // A Focus chip moves matching deals to the front of the board, keeping each block by time.
+    const focus = state.filters.focus;
+    if (focus) deals.sort((a, b) => (b.it.actor === focus) - (a.it.actor === focus));
     const ol = $("#deals"); ol.textContent = "";
     const limit = state.view === "deals" ? 200 : state.dealsShown;
     deals.slice(0, limit).forEach(x => {
@@ -242,6 +268,7 @@
     $("#deals-more").hidden = deals.length <= limit;
     deals.forEach(d => state.seenDeals.add(d.it.id));
     store.set("seenDeals", [...state.seenDeals].slice(-3000));
+    requestAnimationFrame(syncDigestHeight);   // the board's height is what the digest is capped to
   }
 
   /* ---------------- digest editions ---------------- */
@@ -350,6 +377,26 @@
       body.append(h, p, l); li.append(num, body); list.append(li);
     });
     if (!top.length) list.append(empty("No stories in the last 24 hours."));
+    requestAnimationFrame(syncDigestHeight);
+  }
+
+  /* The digest often runs far longer than the deal board beside it, leaving the left column
+     short and the page lopsided. Where the two share a row, cap the digest list at the
+     board's height and let it scroll, so the two columns end level. */
+  function syncDigestHeight() {
+    const list = $("#digest-list"), board = $("#view-deals"), panel = $("#digest"), grid = $(".grid");
+    if (!list || !board || !panel || !grid) return;
+    list.style.maxHeight = "";
+    // "stories stories" marks the two-column layout; the phone and the navy-classic
+    // layouts put the board elsewhere, where lining the columns up makes no sense
+    if (!getComputedStyle(grid).gridTemplateAreas.includes("stories stories")) return;
+    if (board.offsetParent === null) return;                       // board hidden in this view
+    const b = board.getBoundingClientRect(), p = panel.getBoundingClientRect();
+    if (b.height >= p.height - 1) return;                          // digest is already the shorter one
+    const l = list.getBoundingClientRect();
+    const head = l.top - p.top;        // panel head and edition tabs above the list
+    const tail = p.bottom - l.bottom;  // whatever the skin puts below it
+    list.style.maxHeight = Math.max(240, Math.round(b.height - head - tail)) + "px";
   }
 
   function renderArchive() {
@@ -548,10 +595,18 @@
     SECTORS.forEach(s => { const o = document.createElement("option"); o.value = s; o.textContent = s; sel.append(o); });
     const skinSel = $("#skin-select");
     Object.entries(SKINS).forEach(([k, v]) => { const o = document.createElement("option"); o.value = k; o.textContent = v; skinSel.append(o); });
-    skinSel.addEventListener("change", () => { store.set("skin", skinSel.value); applySkin(skinSel.value); });
+    skinSel.addEventListener("change", () => {
+      store.set("skin", skinSel.value); applySkin(skinSel.value);
+      setTimeout(syncDigestHeight, 60);   // the new skin's stylesheet changes both column heights
+    });
+    let rt;
+    window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(syncDigestHeight, 150); });
     $$(".chip-group .chip").forEach(b => b.addEventListener("click", () => {
-      const key = b.closest(".chip-group").dataset.group, v = b.dataset.v, arr = state.filters[key];
-      state.filters[key] = arr.includes(v) ? arr.filter(x => x !== v) : [...arr, v];
+      const g = b.closest(".chip-group"), key = g.dataset.group, v = b.dataset.v, cur = state.filters[key];
+      // data-single groups (Focus) hold one value at a time; the others toggle in a list
+      state.filters[key] = g.dataset.single != null
+        ? (cur === v ? "" : v)
+        : (cur.includes(v) ? cur.filter(x => x !== v) : [...cur, v]);
       store.set("filters", state.filters); state.shown = PAGE; renderAll();
     }));
     sel.addEventListener("change", () => { state.filters.sector = sel.value; store.set("filters", state.filters); state.shown = PAGE; renderAll(); });

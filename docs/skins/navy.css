@@ -40,6 +40,7 @@ body {
 .chip:hover { color: var(--ink); border-color: rgba(214,179,112,.5); }
 .chip[aria-pressed="true"] { background: var(--gold); color: #0b1730; border-color: var(--gold); }
 .chip.ghost { background: transparent; }
+.filter-label { font: 500 10.5px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
 .sep { background: var(--edge); }
 select {
   font: 500 12.5px var(--sans); color: var(--ink-2); background: var(--glass); border: 1px solid var(--edge); padding: 6px 28px 6px 14px; border-radius: 999px;
@@ -92,6 +93,7 @@ select.active { background-color: var(--gold); color: #0b1730; }
 .c-snip { color: var(--ink-2); font-size: 13.5px; }
 .c-meta { font: 500 11px/1.4 var(--sans); color: var(--ink-3); }
 .c-meta .src { color: var(--ink-2); }
+.c-meta .sponsor { color: var(--gold); }
 .c-meta .why { color: var(--gold); }
 .act { color: var(--ink-3); border-radius: 999px; font-size: 15px; }
 .act:hover { background: var(--glass-2); color: var(--ink); }

@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#0f1720"/><rect x="14" y="16" width="10" height="10" fill="#ff7a6b"/><rect x="14" y="32" width="36" height="4" fill="#e8e6e1"/><rect x="14" y="41" width="28" height="4" fill="#e8e6e1"/><rect x="30" y="16" width="20" height="4" fill="#e8e6e1"/><rect x="30" y="23" width="14" height="3" fill="#858b93"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Deal Wire">
+  <g fill="none" stroke="#e8862a" stroke-width="4.6" stroke-linecap="round">
+    <path d="M58.08 25.01A27 27 0 0 0 5.92 25.01"/>
+    <path d="M5.92 38.99A27 27 0 0 0 58.08 38.99"/>
+  </g>
+  <path d="M0 0-9.5-6.3-9.5 6.3Z" fill="#e8862a" transform="translate(5.26 28.24)rotate(98)"/>
+  <path d="M0 0-9.5-6.3-9.5 6.3Z" fill="#e8862a" transform="translate(58.74 35.76)rotate(-82)"/>
+  <circle cx="32" cy="32" r="19" fill="#e8862a"/>
+  <rect x="30.3" y="16.6" width="3.4" height="30.8" rx="1.2" fill="#fff"/>
+  <path fill="none" stroke="#fff" stroke-width="4.4" stroke-linecap="round" d="M39 27.2C39 23.6 35.5 21.6 32 21.6C28.5 21.6 25 23.6 25 27.2C25 30.4 28.5 32 32 32.6C35.5 33.2 39.4 34.6 39.4 38.2C39.4 41.6 36 43.8 32 43.8C28 43.8 24.6 41.8 24.6 38.2"/>
+</svg>

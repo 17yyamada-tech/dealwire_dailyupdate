@@ -29,6 +29,7 @@ body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--sans); }
 .chip { border: 1px solid transparent; background: var(--chip); color: var(--ink); padding: 5px 12px; border-radius: 999px; font: 500 13px/1.2 var(--sans); }
 .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-ink); }
 .chip.ghost { background: transparent; border-color: var(--rule); color: var(--ink-2); }
+.filter-label { font: 600 10.5px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); }
 .sep { background: var(--rule); }
 select {
   font: 500 13px var(--sans); color: var(--ink); background: var(--chip); border: 0; padding: 6px 28px 6px 12px; border-radius: 999px;
@@ -59,6 +60,7 @@ select.active { background-color: var(--chip-on); color: var(--chip-on-ink); }
 .c-snip { color: var(--ink-2); font-size: 14px; }
 .c-meta { font: 500 11px/1.4 var(--mono); color: var(--ink-3); }
 .c-meta .src { color: var(--ink-2); }
+.c-meta .sponsor { color: var(--accent); }
 .c-meta .why { color: var(--accent); }
 .act { color: var(--ink-3); border-radius: 6px; font-size: 16px; }
 .act:hover { background: var(--chip); color: var(--ink); }

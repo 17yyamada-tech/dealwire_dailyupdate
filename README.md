@@ -34,7 +34,12 @@ Open http://127.0.0.1:8765/
 
 ## Tuning
 - `fetcher/sources.json`: add or remove feeds (`url` or `gnews` query, defaults, age limit).
-- `fetcher/rules.json`: keyword rules for categories, countries, sectors and deal signals. A `cs:` prefix means case-sensitive, for acronyms like US and AI. A `re:` prefix means regex.
+- `fetcher/rules.json`: keyword rules for categories, countries, sectors, deal signals and sponsors. A `cs:` prefix means case-sensitive, for acronyms like US and AI. A `re:` prefix means regex.
+
+## Filters
+Three axes, one labelled row each: **Region**, **Type** and **Focus**.
+
+Focus is the odd one out. `rules.json` → `actor.Sponsor` lists PE houses, activists, infra and credit funds and sovereign investors; a story naming one is tagged `Sponsor`, a plain M&A headline naming none is `Strategic`, and anything with no evidence either way (filing feeds such as SEC 8-K) stays unlabelled. Because that test only reads the headline it misses some deals, so the Focus chips **lift matching deals to the top of the list instead of filtering the rest away**. Region, Type and Sector do filter.
 
 ## Changing the look
 All visual design lives in one file per skin: `docs/skins/board.css` (departure board, the default) and `docs/skins/editorial.css`.

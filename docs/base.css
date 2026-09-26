@@ -17,8 +17,22 @@ a { color: inherit; }
 .icon-btn { background: none; border: 0; padding: 4px 8px; line-height: 1; }
 .search-row { margin-top: 10px; }
 #q { width: 100%; }
-.filters { position: relative; margin-top: 10px; display: flex; align-items: center; gap: 8px; overflow-x: auto; scrollbar-width: none; }
-.filters::-webkit-scrollbar { display: none; }
+/* One row per axis with its own label: Region / Type / Focus. Each row scrolls on its own
+   so a long axis never pushes the others out of view on a phone. */
+.filters { position: relative; margin-top: 10px; display: grid; gap: 5px; }
+.filter-row { display: flex; align-items: center; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+.filter-row::-webkit-scrollbar { display: none; }
+.filter-label { flex: none; width: 52px; }
+.flag-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+.flag { width: 15px; height: 10px; flex: none; vertical-align: -1px; }
+.chip .flag { margin-right: 5px; }
+.chip .flag + .flag { margin-left: -3px; }
+.filter-controls { display: flex; align-items: center; gap: 8px; flex: none; }
+/* on a phone the Focus row wraps under its own label instead of scrolling Clear out of reach */
+@media (max-width: 560px) {
+  .filters .filter-row:last-child { overflow-x: visible; }
+  .filter-controls { flex: 1 1 auto; min-width: 0; flex-wrap: wrap; row-gap: 6px; }
+}
 .chip-group { display: flex; gap: 6px; flex: none; }
 .chip { flex: none; white-space: nowrap; }
 .sep { width: 1px; height: 20px; flex: none; }
@@ -43,13 +57,18 @@ body[data-view="saved"] .p-deals, body[data-view="saved"] .p-digest, body[data-v
 
 /* rows: one template for deals, stories, search results and saved */
 .rows, .digest-list { list-style: none; margin: 0; padding: 0; }
+/* the digest is capped to the deal board's height in script; it scrolls inside that cap */
+.digest-list { overflow-y: auto; overscroll-behavior: contain; }
 .board-cols, .row {
   display: grid; align-items: start; column-gap: 10px;
-  grid-template-columns: 58px 74px 64px minmax(0, 1fr) 56px;
+  grid-template-columns: 58px 88px 64px minmax(0, 1fr) 56px;
   grid-template-areas: "time reg type main act";
 }
 .board-cols span:last-child { grid-column: main / act; }
-.c-time { grid-area: time; } .c-reg { grid-area: reg; } .c-type { grid-area: type; }
+.c-time { grid-area: time; } .c-type { grid-area: type; }
+.c-reg { grid-area: reg; display: flex; align-items: center; justify-content: center; gap: 4px; }
+.c-reg .flag { width: 13px; height: 9px; }
+.c-reg .flag + .flag { margin-left: -2px; }
 .c-main { grid-area: main; min-width: 0; } .c-act { grid-area: act; display: flex; gap: 2px; justify-content: flex-end; }
 .c-title { display: block; overflow-wrap: anywhere; text-decoration: none; }
 .c-title:hover { text-decoration: underline; }

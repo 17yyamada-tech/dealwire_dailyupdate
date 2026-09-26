@@ -15,6 +15,44 @@
 <link rel="stylesheet" id="skin-css" href="skins/board.css">
 </head>
 <body data-view="home">
+<!-- Region flags, drawn inline so they render the same everywhere. Windows has no flag-emoji
+     font, so 🇸🇬 and friends would show as bare letters there. SEA uses the ASEAN emblem. -->
+<svg class="flag-defs" aria-hidden="true" focusable="false"><defs>
+  <symbol id="flag-us" viewBox="0 0 30 20">
+    <rect width="30" height="20" fill="#fff"/>
+    <path fill="#b22234" d="M0 0h30v1.54H0zM0 3.08h30v1.54H0zM0 6.15h30v1.54H0zM0 9.23h30v1.54H0zM0 12.31h30v1.54H0zM0 15.38h30v1.54H0zM0 18.46h30v1.54H0z"/>
+    <rect width="12" height="10.77" fill="#3c3b6e"/>
+    <g fill="#fff"><circle cx="2.4" cy="2.2" r=".62"/><circle cx="5.4" cy="2.2" r=".62"/><circle cx="8.4" cy="2.2" r=".62"/><circle cx="3.9" cy="4.4" r=".62"/><circle cx="6.9" cy="4.4" r=".62"/><circle cx="2.4" cy="6.6" r=".62"/><circle cx="5.4" cy="6.6" r=".62"/><circle cx="8.4" cy="6.6" r=".62"/><circle cx="3.9" cy="8.8" r=".62"/><circle cx="6.9" cy="8.8" r=".62"/></g>
+    <rect width="30" height="20" fill="none" stroke="#888" stroke-opacity=".45"/>
+  </symbol>
+  <symbol id="flag-sg" viewBox="0 0 30 20">
+    <rect width="30" height="20" fill="#fff"/>
+    <rect width="30" height="10" fill="#ed2939"/>
+    <circle cx="7" cy="5" r="3.6" fill="#fff"/>
+    <circle cx="9.2" cy="5" r="3.6" fill="#ed2939"/>
+    <g fill="#fff"><circle cx="14" cy="2.2" r=".62"/><circle cx="16.1" cy="3.72" r=".62"/><circle cx="15.3" cy="6.18" r=".62"/><circle cx="12.7" cy="6.18" r=".62"/><circle cx="11.9" cy="3.72" r=".62"/></g>
+    <rect width="30" height="20" fill="none" stroke="#888" stroke-opacity=".45"/>
+  </symbol>
+  <symbol id="flag-hk" viewBox="0 0 30 20">
+    <rect width="30" height="20" fill="#de2910"/>
+    <g fill="#fff"><circle cx="15" cy="6.8" r="1.95"/><circle cx="18" cy="9" r="1.95"/><circle cx="16.9" cy="12.6" r="1.95"/><circle cx="13.1" cy="12.6" r="1.95"/><circle cx="12" cy="9" r="1.95"/></g>
+    <rect width="30" height="20" fill="none" stroke="#888" stroke-opacity=".45"/>
+  </symbol>
+  <symbol id="flag-cn" viewBox="0 0 30 20">
+    <rect width="30" height="20" fill="#de2910"/>
+    <g fill="#ffde00"><circle cx="6" cy="6" r="2.5"/><circle cx="11.4" cy="2.6" r=".95"/><circle cx="13.4" cy="5" r=".95"/><circle cx="13.4" cy="8" r=".95"/><circle cx="11.4" cy="10.3" r=".95"/></g>
+    <rect width="30" height="20" fill="none" stroke="#888" stroke-opacity=".45"/>
+  </symbol>
+  <symbol id="flag-sea" viewBox="0 0 30 20">
+    <rect width="30" height="20" fill="#0032a0"/>
+    <circle cx="15" cy="10" r="6.6" fill="#fff"/>
+    <circle cx="15" cy="10" r="5.5" fill="#ce1126"/>
+    <g stroke="#ffcd00" stroke-width=".95" stroke-linecap="round">
+      <path d="M12.4 12.7 13 7.5"/><path d="M13.7 13 13.9 7.2"/><path d="M15 13.1 15 7.1"/><path d="M16.3 13 16.1 7.2"/><path d="M17.6 12.7 17 7.5"/>
+    </g>
+    <rect width="30" height="20" fill="none" stroke="#888" stroke-opacity=".45"/>
+  </symbol>
+</defs></svg>
 <header class="top">
   <div class="top-row">
     <div class="brand">
@@ -34,24 +72,39 @@
     <input id="q" type="search" placeholder="Search every story — company, sponsor, sector…" autocomplete="off" aria-label="Search news">
   </div>
   <nav class="filters" aria-label="Filters">
-    <div class="chip-group" data-group="category">
-      <button class="chip" data-v="M&A">M&amp;A</button>
-      <button class="chip" data-v="PE">PE</button>
-      <button class="chip" data-v="Credit">Credit</button>
-      <button class="chip" data-v="Infra">Infra</button>
+    <div class="filter-row">
+      <span class="filter-label" id="lbl-region">Region</span>
+      <div class="chip-group" data-group="country" role="group" aria-labelledby="lbl-region">
+        <button class="chip" data-v="US"><svg class="flag"><use href="#flag-us"/></svg>US</button>
+        <button class="chip" data-v="SEA"><svg class="flag"><use href="#flag-sea"/></svg>SEA</button>
+        <button class="chip" data-v="SG"><svg class="flag"><use href="#flag-sg"/></svg>SG</button>
+        <button class="chip" data-v="HK/CN"><svg class="flag"><use href="#flag-hk"/></svg><svg class="flag"><use href="#flag-cn"/></svg>HK/CN</button>
+      </div>
     </div>
-    <span class="sep" aria-hidden="true"></span>
-    <div class="chip-group" data-group="country">
-      <button class="chip" data-v="US">US</button>
-      <button class="chip" data-v="SEA">SEA</button>
-      <button class="chip" data-v="SG">SG</button>
-      <button class="chip" data-v="HK/CN">HK/CN</button>
+    <div class="filter-row">
+      <span class="filter-label" id="lbl-type">Type</span>
+      <div class="chip-group" data-group="category" role="group" aria-labelledby="lbl-type">
+        <button class="chip" data-v="M&A">M&amp;A</button>
+        <button class="chip" data-v="PE">PE</button>
+        <button class="chip" data-v="Credit">Credit</button>
+        <button class="chip" data-v="Infra">Infra</button>
+      </div>
     </div>
-    <span class="sep" aria-hidden="true"></span>
-    <label class="select-wrap"><span class="sr">Sector</span>
-      <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
-    </label>
-    <button id="clear" class="chip ghost" hidden>Clear</button>
+    <div class="filter-row">
+      <span class="filter-label" id="lbl-focus">Focus</span>
+      <!-- Focus lifts matching deals to the top instead of hiding the rest: the headline-only
+           sponsor test misses some deals, and a missed one must not vanish from the board. -->
+      <div class="filter-controls">
+        <div class="chip-group" data-group="focus" data-single role="group" aria-labelledby="lbl-focus">
+          <button class="chip" data-v="Sponsor" title="Lift financial sponsor deals to the top">Sponsor ↑</button>
+          <button class="chip" data-v="Strategic" title="Lift corporate buyer deals to the top">Strategic ↑</button>
+        </div>
+        <label class="select-wrap"><span class="sr">Sector</span>
+          <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
+        </label>
+        <button id="clear" class="chip ghost" hidden>Clear</button>
+      </div>
+    </div>
   </nav>
 </header>
 
@@ -158,7 +211,7 @@
     <div class="c-main">
       <a class="c-title" target="_blank" rel="noopener"></a>
       <p class="c-snip"></p>
-      <div class="c-meta"><span class="src"></span><span class="ago"></span><span class="sector"></span><span class="why"></span><span class="also"></span></div>
+      <div class="c-meta"><span class="src"></span><span class="sponsor"></span><span class="ago"></span><span class="sector"></span><span class="why"></span><span class="also"></span></div>
     </div>
     <div class="c-act">
       <button class="act save" title="Save" aria-label="Save">☆</button>
