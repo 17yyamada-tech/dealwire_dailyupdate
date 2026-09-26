@@ -57,8 +57,14 @@ reports. The last run to a couple of hundred a day, nearly all of them custody a
 so only filings by an investor already in `actor.Sponsor` earn a card. The index leaves those
 reports' target empty, so it is read from the filing's own CSV.
 
-Not there yet: the offer price, the premium and the offer period. Those are inside the
-document, not in the index.
+A tender offer card also carries the filed terms, read from the CSV that ships inside the
+document: the offer price, the period and its business days, the shares sought and the
+minimum that must be tendered, the resulting stake and the settlement date. Where the bid
+vehicle's shareholder list names a house we already treat as a sponsor, the card names the
+backer too, which is usually the part the news leaves as "an investment fund".
+
+No premium. It is not a filed figure, and calculating one needs the share price before the
+announcement, which this site does not collect.
 
 Needs the repository secret `EDINET_API_KEY` (free registration at EDINET). The filings run on
 their own schedule, four times a day on JST weekdays, because that is when filings land.
