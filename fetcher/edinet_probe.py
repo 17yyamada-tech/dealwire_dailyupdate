@@ -51,6 +51,16 @@ def main() -> int:
     print("\ndocTypeCode counts (code, ordinance):")
     for k, n in seen.most_common(18):
         print(f"   {k}  {n}")
+
+    # one full record of each kind we care about, so the card fields can be chosen from
+    # what the API really returns rather than from guesses
+    day = (today - dt.timedelta(days=1)).isoformat()
+    results = (get("documents.json", date=day, type=2).get("results") or [])
+    for want in ("250", "270", "350"):
+        rec = next((r for r in results if r.get("docTypeCode") == want), None)
+        if rec:
+            print(f"\n--- full record, docTypeCode {want} ---")
+            print(json.dumps(rec, ensure_ascii=False, indent=1))
     return 0
 
 
