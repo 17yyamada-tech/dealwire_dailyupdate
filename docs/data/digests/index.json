@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-26-1530",
+      "label": "26 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-26T07:34:08Z",
+      "items": 3,
+      "headlines": [
+        "Kadoya Seiyu, Japan's top sesame oil maker, backs tender offer from investment fund",
+        "KYCOM Holdings acquires software developer Union Joho Kikaku as subsidiary",
+        "Valtes Holdings acquires IT staffing firm Optim as subsidiary"
+      ]
+    },
+    {
       "id": "2026-09-26-1230",
       "label": "26 Sep 2026 · 12:30 SGT",
       "generated_at": "2026-09-26T04:33:16Z",
