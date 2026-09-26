@@ -153,6 +153,26 @@
     <ol class="filing-strip" id="filing-list"></ol>
   </section>
 
+  <section class="panel p-contact" id="contact" aria-labelledby="contact-h">
+    <div class="panel-head">
+      <h2 id="contact-h">Contact / Inquiry</h2>
+      <span class="panel-meta">Goes straight to my inbox</span>
+    </div>
+    <form class="contact-form" id="contact-form">
+      <label class="sr" for="contact-message">Your message</label>
+      <textarea id="contact-message" name="message" rows="3" required maxlength="4000"
+                placeholder="A source worth adding, something that looks wrong, anything you want in here…"></textarea>
+      <div class="contact-row">
+        <label class="sr" for="contact-from">Your email, if you want a reply</label>
+        <input id="contact-from" name="from" type="email" autocomplete="email" placeholder="your email (optional, for a reply)">
+        <!-- a bot fills this in; a person never sees it -->
+        <input id="contact-website" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button type="submit" class="chip" id="contact-send">Send</button>
+      </div>
+      <p class="contact-status" id="contact-status" role="status"></p>
+    </form>
+  </section>
+
 
   <section class="panel p-search" id="view-search" hidden>
     <div class="panel-head">

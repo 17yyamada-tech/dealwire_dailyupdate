@@ -52,7 +52,7 @@ select.active { background-color: var(--gold); color: #0b1730; }
 
 /* layout: digest leads across the top, deals and stories side by side below */
 @media (min-width: 1000px) {
-  .grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); grid-template-areas: "digest digest" "filings deals"; gap: 22px; }
+  .grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); grid-template-areas: "digest digest" "filings deals" "contact contact"; gap: 22px; }
   .digest-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 28px; }
 }
 .panel { background: var(--glass); border: 1px solid var(--edge); border-radius: 18px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding: 4px 0 8px; box-shadow: 0 20px 50px rgba(0,0,0,.25); }
@@ -151,3 +151,13 @@ dialog::backdrop { background: rgba(3,8,20,.6); backdrop-filter: blur(4px); }
 .fc-type, .fc-n { font: 500 10.5px/1 var(--sans); color: var(--ink-3); }
 .fc-terms dt { font: 600 10px/1.6 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
 .fc-terms dd { font: 500 12px/1.5 var(--sans); color: var(--ink); }
+
+/* Contact */
+.p-contact .panel-head { border-top: 1px solid var(--edge); padding-top: 10px; }
+.contact-form textarea, .contact-form input[type=email] {
+  background: var(--glass); border: 1px solid var(--edge); color: var(--ink);
+  padding: 10px 14px; border-radius: 12px; font: 13.5px var(--sans);
+}
+.contact-form textarea::placeholder, .contact-form input::placeholder { color: var(--ink-3); }
+.contact-form textarea:focus, .contact-form input:focus { outline: 1px solid var(--gold); }
+.contact-status { font: 500 12px/1.5 var(--sans); color: var(--gold); }

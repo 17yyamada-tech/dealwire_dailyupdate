@@ -181,3 +181,13 @@ dialog::backdrop { background: rgba(0,0,0,.6); }
 .fc-type, .fc-n { font: 500 10px/1 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); }
 .fc-terms dt { font: 600 9.5px/1.6 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
 .fc-terms dd { font: 500 11.5px/1.5 var(--mono); color: var(--ink); }
+
+/* Contact */
+.p-contact .panel-head { border-top: 1px solid var(--line); padding-top: 10px; }
+.contact-form textarea, .contact-form input[type=email] {
+  background: var(--panel); border: 1px solid var(--line); color: var(--ink);
+  padding: 9px 12px; border-radius: 3px; font: 13px var(--mono);
+}
+.contact-form textarea::placeholder, .contact-form input::placeholder { color: var(--ink-3); }
+.contact-form textarea:focus, .contact-form input:focus { outline: 1px solid var(--amber); }
+.contact-status { font: 500 11px/1.5 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--amber); }

@@ -11,7 +11,7 @@ select.active { background-color: transparent; color: var(--gold); border-color:
 
 /* layout: digest column with deals alongside, stories below */
 @media (min-width: 1000px) {
-  .grid { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); grid-template-areas: "digest deals" "filings deals"; gap: 36px; }
+  .grid { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); grid-template-areas: "digest deals" "filings deals" "contact contact"; gap: 36px; }
   .digest-list { display: block; }
   .p-deals { position: sticky; top: 150px; max-height: calc(100vh - 170px); overflow-y: auto; }
 }

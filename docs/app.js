@@ -717,6 +717,36 @@
     if (!store.get("mailAsked", 0) && !store.get("mailSubscribed", "") && !new URLSearchParams(location.search).get("e")) setTimeout(open, 2500);
   }
 
+  /* ---------------- contact box ----------------
+     Posts to the same Apps Script as the mail sign-up, which forwards it to the owner's
+     inbox. Apps Script sends no CORS headers, so the reply cannot be read: the form says
+     it was sent, and the honest fallback is the owner noticing nothing arrived. */
+  function setupContact() {
+    const panel = $("#contact"), form = $("#contact-form"), status = $("#contact-status");
+    if (!MAIL_ENDPOINT) { panel.hidden = true; return; }   // nowhere to send it
+    form.addEventListener("submit", async ev => {
+      ev.preventDefault();
+      const message = $("#contact-message").value.trim();
+      if (!message) return;
+      const btn = $("#contact-send");
+      btn.disabled = true; status.textContent = "Sending…";
+      try {
+        await fetch(MAIL_ENDPOINT, {
+          method: "POST", mode: "no-cors",
+          body: new URLSearchParams({
+            action: "contact", message,
+            from: $("#contact-from").value.trim(),
+            website: $("#contact-website").value,
+          }),
+        });
+        form.reset();
+        status.textContent = "Sent. Thank you.";
+      } catch {
+        status.textContent = "Could not send it. Please try again later.";
+      } finally { btn.disabled = false; }
+    });
+  }
+
   /* ---------------- wiring ---------------- */
   function init() {
     const urlSkin = new URLSearchParams(location.search).get("skin");
@@ -779,6 +809,7 @@
     tickClock(); setInterval(tickClock, 15000);
     $("#btn-archive").addEventListener("click", () => setView("archive"));
     setupSubscribe();
+    setupContact();
     setView("home");
     const qp = new URLSearchParams(location.search);
     if (qp.get("e")) {

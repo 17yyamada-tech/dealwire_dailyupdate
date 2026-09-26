@@ -4,6 +4,7 @@
  * Holds the subscriber list in a private Google Sheet (never in the public repo) and emails each new
  * digest edition to confirmed subscribers.
  *   doPost  action=subscribe     -> adds the address as "pending" and sends a confirmation email
+ *   doPost  action=contact       -> emails the site owner what a reader typed in the Contact box
  *   doGet   action=confirm       -> marks the address "active"
  *   doGet   action=unsubscribe   -> marks the address "unsubscribed" (link in every email)
  *   sendNewEdition (time trigger, every 10 min) -> if a new edition exists on GitHub, email it once
@@ -18,6 +19,8 @@ const CONFIG = {
   SHEET_NAME: 'Subscribers',
   SENDER_NAME: 'Deal Wire',
   MAX_EDITION_AGE_HOURS: 3,       // do not email an edition that is older than this (e.g. after downtime)
+  CONTACT_MAX_CHARS: 4000,
+  CONTACT_MAX_PER_DAY: 40,        // a cap so a bot cannot burn the Gmail quota
 };
 
 /* ---------------- setup ---------------- */
@@ -42,11 +45,40 @@ function setup() {
   Logger.log('Subscribers sheet: https://docs.google.com/spreadsheets/d/' + id);
 }
 
+/* ---------------- contact box ---------------- */
+
+/**
+ * Sends what a reader typed straight to whoever owns this script. The address is read from
+ * the session rather than written down, so it never appears in the public repository.
+ */
+function contact_(p) {
+  if (String(p.website || '')) return 'ok';                 // honeypot: only a bot fills this
+  const message = String(p.message || '').trim().slice(0, CONFIG.CONTACT_MAX_CHARS);
+  if (!message) return 'empty';
+
+  const props = PropertiesService.getScriptProperties();
+  const today = Utilities.formatDate(new Date(), 'Asia/Singapore', 'yyyy-MM-dd');
+  const key = 'CONTACT_' + today;
+  const sent = Number(props.getProperty(key) || 0);
+  if (sent >= CONFIG.CONTACT_MAX_PER_DAY) return 'limit';
+
+  const from = String(p.from || '').trim().slice(0, 120);
+  const owner = Session.getEffectiveUser().getEmail();
+  const body = [message, '', '---', 'From: ' + (from || '(no address given)'),
+    'Sent from: ' + CONFIG.SITE_URL, 'At: ' + new Date().toISOString()].join('\n');
+  const options = { to: owner, subject: 'Deal Wire · message from a reader', name: CONFIG.SENDER_NAME, body: body };
+  if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(from)) options.replyTo = from;
+  MailApp.sendEmail(options);
+  props.setProperty(key, String(sent + 1));
+  return 'ok';
+}
+
 /* ---------------- web endpoints ---------------- */
 
 function doPost(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'subscribe') return text_(subscribe_(String(p.email || '').trim().toLowerCase()));
+  if (p.action === 'contact') return text_(contact_(p));
   return text_('unknown action');
 }
 

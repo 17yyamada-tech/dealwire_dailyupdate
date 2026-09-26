@@ -44,9 +44,17 @@ select { appearance: none; }
 .grid {
   max-width: 1320px; margin: 0 auto; padding: 16px; display: grid; gap: 20px; align-items: start;
   grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
-  grid-template-areas: "deals digest" "filings filings";
+  grid-template-areas: "deals digest" "filings filings" "contact contact";
 }
 .p-filings { grid-area: filings; min-width: 0; }
+.p-contact { grid-area: contact; min-width: 0; }
+.contact-form { display: grid; gap: 8px; }
+.contact-form textarea { width: 100%; resize: vertical; min-height: 68px; }
+.contact-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.contact-row input[type=email] { flex: 1 1 240px; min-width: 0; }
+#contact-website { position: absolute; left: -9999px; width: 1px; height: 1px; }
+.contact-status:empty { display: none; }
+.contact-status { margin: 0; }
 /* the cards scroll sideways: a filing is a small card, and a row of them reads as a shelf */
 .filing-strip { list-style: none; margin: 0; padding: 0; display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x proximity; }
 .filing-strip::-webkit-scrollbar { height: 8px; }
@@ -62,6 +70,8 @@ select { appearance: none; }
 .p-deals { grid-area: deals; }
 .p-digest { grid-area: digest; }
 .p-search, .p-saved { grid-area: 1 / 1 / 2 / -1; }
+body[data-view="search"] .p-contact, body[data-view="saved"] .p-contact,
+body[data-view="archive"] .p-contact, body[data-view="deals"] .p-contact,
 body[data-view="search"] .p-deals, body[data-view="search"] .p-digest,
 body[data-view="search"] .p-filings, body[data-view="saved"] .p-filings, body[data-view="archive"] .p-filings,
 body[data-view="deals"] .p-filings,
@@ -113,7 +123,7 @@ dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
 .row-btns { display: flex; justify-content: space-between; }
 
 @media (max-width: 999px) {
-  .grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "digest" "deals" "filings"; padding: 10px 12px 90px; }
+  .grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "digest" "deals" "filings" "contact"; padding: 10px 12px 90px; }
   body[data-view="home"] .p-deals { display: none; }
   body[data-view="deals"] .p-digest { display: none; }
   .filing-card { flex-basis: 78vw; }

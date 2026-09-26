@@ -74,6 +74,16 @@ announcement, which this site does not collect.
 Needs the repository secret `EDINET_API_KEY` (free registration at EDINET). The filings run on
 their own schedule, four times a day on JST weekdays, because that is when filings land.
 
+## Contact box
+Under the filings, a free-text box posts to the same Apps Script as the mail sign-up, which
+forwards the message to whoever owns the script (`Session.getEffectiveUser()`, so no address is
+written into this public repository). An optional address becomes the Reply-To. There is a
+hidden honeypot field and a cap of 40 messages a day.
+
+Apps Script sends no CORS headers, so the page cannot read the reply: it says the message was
+sent and cannot prove it. Changing `Code.gs` needs a redeploy as a new version, or the endpoint
+keeps running the old code and silently answers "unknown action".
+
 ## Language
 The header button switches **the digest's summaries** into Japanese, and the choice is
 remembered per viewer. Only two pieces change: each story's summary and its "why it matters"
