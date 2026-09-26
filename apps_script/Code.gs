@@ -183,7 +183,7 @@ function shell_(inner, footer) {
   return '<div style="background:#eef0f3;padding:24px 0"><table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:640px;margin:0 auto;background:#ffffff;border-collapse:collapse">' +
     '<tr><td style="background:#07090b;padding:18px 24px"><span style="display:inline-block;width:10px;height:10px;background:#ffbf3c;margin-right:10px"></span>' +
     '<span style="font:bold 18px/1 Consolas,Menlo,monospace;letter-spacing:.14em;color:#ffbf3c">DEAL WIRE</span>' +
-    '<span style="font:11px/1 Consolas,Menlo,monospace;letter-spacing:.1em;color:#8a929c;margin-left:10px">US · SEA · SG · HK/CN</span></td></tr>' +
+    '<span style="font:11px/1 Consolas,Menlo,monospace;letter-spacing:.1em;color:#8a929c;margin-left:10px">US · SEA · SG · JP · HK/CN</span></td></tr>' +
     '<tr><td style="padding:22px 24px">' + inner + '</td></tr>' +
     (footer ? '<tr><td style="padding:16px 24px;border-top:1px solid #e5e7eb;font:12px/1.6 Arial,sans-serif;color:#6b7280">' + footer + '</td></tr>' : '') +
     '</table></div>';
