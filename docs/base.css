@@ -81,6 +81,7 @@ body[data-view="saved"] .p-deals, body[data-view="saved"] .p-digest, body[data-v
 .more { display: block; margin: 12px auto; }
 .empty { list-style: none; padding: 20px 0; }
 .digest-list li { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 8px; }
+.digest-list li.empty { display: block; }   /* the message is one cell, not a numbered story */
 .digest-list h3 { margin: 0; }
 .digest-list p { margin: 4px 0 0; }
 

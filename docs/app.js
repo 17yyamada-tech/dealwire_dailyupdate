@@ -21,7 +21,8 @@
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; re-orders the list, never filters
-  const REGION_ORDER = ["SG", "HK/CN", "SEA", "US"];   // SG items also carry SEA; show the most specific first
+  const REGION_ORDER = ["SG", "JP", "HK/CN", "SEA", "US"];   // SG items also carry SEA; show the most specific first
+  const CJK = "\\u3040-\\u30ff\\u4e00-\\u9fff\\uff66-\\uff9f";
   const TYPE_ORDER = ["M&A", "PE", "Credit", "Infra"];
   const STOP = new Set("the a an and or of to in on for with by at from as is are be its it this that after over into new says said will than more up amid us uk sg".split(" "));
   const PAGE = 30, DEALS_PAGE = 14;
@@ -64,10 +65,18 @@
     const cutoff = Date.now() - PROFILE_WINDOW_DAYS * 864e5;
     store.set("events", ev.filter(e => e.t >= cutoff).slice(-3000));
   }
+  // words that carry no signal about what a reader likes, so they never become a keyword
+  const JA_STOP = new Set(["買収", "取得", "株式", "会社", "企業", "発表", "検討", "完了", "予定", "実施",
+    "投資", "事業", "経営", "提案", "報道", "計画", "方針", "可能", "影響", "関する", "について"]);
   function keywords(title) {
     // proper nouns / tickers are the most predictive of what gets opened again
-    return [...new Set((title.match(/\b[A-Z][A-Za-z0-9&'.-]{2,}\b/g) || [])
-      .map(w => w.replace(/['.]+$/, "").toLowerCase()).filter(w => !STOP.has(w)))].slice(0, 6);
+    const latin = (title.match(/\b[A-Z][A-Za-z0-9&'.-]{2,}\b/g) || [])
+      .map(w => w.replace(/['.]+$/, "").toLowerCase());
+    // Japanese headlines carry their names as katakana runs and kanji compounds instead
+    const kana = title.match(/[ァ-ヶー]{3,}/g) || [];
+    const kanji = title.match(/[一-鿿]{2,5}/g) || [];
+    return [...new Set([...latin, ...kana, ...kanji])]
+      .filter(w => !STOP.has(w) && !JA_STOP.has(w)).slice(0, 8);
   }
   const KIND_W = { open: 1, save: 2.5, hide: -2 };
   function buildProfile() {
@@ -121,7 +130,16 @@
   }
 
   // The same story from several outlets: keep the first/best one and note the others.
-  const tokenSet = (t) => new Set(t.toLowerCase().replace(/us\$|s\$|\$/g, "").split(/[^a-z0-9]+/).filter(w => w.length > 2 && !STOP.has(w)));
+  const tokenSet = (t) => {
+    const s = t.toLowerCase().replace(/us\$|s\$|\$/g, "");
+    const out = new Set(s.split(/[^a-z0-9]+/).filter(w => w.length > 2 && !STOP.has(w)));
+    // Japanese has no spaces, so splitting on non-letters returns nothing and two reports of
+    // the same deal never match. Character pairs stand in for words here.
+    (s.match(new RegExp("[" + CJK + "]{2,}", "g")) || []).forEach(run => {
+      for (let i = 0; i + 2 <= run.length; i++) out.add(run.slice(i, i + 2));
+    });
+    return out;
+  };
   function similar(a, b) { let n = 0; a.forEach(w => { if (b.has(w)) n++; }); return n / Math.min(a.size, b.size || 1); }
   function collapseDupes(list) {
     const kept = [];
@@ -172,7 +190,7 @@
     return REGION_ORDER.filter(x => c.includes(x) && !(x === "SEA" && c.includes("SG"))).slice(0, 2);
   };
   // SEA has no flag of its own, so it flies the ASEAN emblem; HK/CN shows both flags.
-  const FLAGS = { US: ["us"], SEA: ["sea"], SG: ["sg"], "HK/CN": ["hk", "cn"] };
+  const FLAGS = { US: ["us"], SEA: ["sea"], SG: ["sg"], JP: ["jp"], "HK/CN": ["hk", "cn"] };
   function flagNode(name) {
     const NS = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(NS, "svg");

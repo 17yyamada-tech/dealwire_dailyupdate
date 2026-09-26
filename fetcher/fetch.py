@@ -34,9 +34,10 @@ LATEST_DAYS = 7
 SNIPPET_MAX = 280
 
 
-def gnews(query: str) -> str:
-    return "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-        {"q": query, "hl": "en-SG", "gl": "SG", "ceid": "SG:en"})
+def gnews(query: str, lang: str = "en") -> str:
+    loc = {"q": query, "hl": "ja", "gl": "JP", "ceid": "JP:ja"} if lang == "ja" else \
+          {"q": query, "hl": "en-SG", "gl": "SG", "ceid": "SG:en"}
+    return "https://news.google.com/rss/search?" + urllib.parse.urlencode(loc)
 
 
 def fetch(url: str, sec: bool = False) -> bytes:
@@ -112,6 +113,11 @@ def has_any(text: str, words, orig: str = "") -> bool:
         elif w.startswith("re:"):
             if re.search(w[3:], text, re.I):
                 return True
+        elif not w.isascii():
+            # Japanese is written without spaces, so a plain substring is the right test.
+            # Letter boundaries would also miss it after Latin text, as in KYCOMホールディングス.
+            if w.lower() in text:
+                return True
         elif re.search(r"(?<![a-z])" + re.escape(w.lower()) + r"(?![a-z])", text):
             return True
     return False
@@ -133,8 +139,9 @@ def tag(item: dict, src: dict) -> dict:
     for c in src.get("category_default", []):
         if c not in cats:
             cats.append(c)
-    money = bool(re.search(r"(us\$|s\$|\$|£|€)\s?\d[\d.,]*\s?(m|mn|b|bn|million|billion)\b", text)) or \
-        bool(re.search(r"\d[\d.,]*\s?(million|billion)\b", text))
+    money = bool(re.search(r"(us\$|s\$|\$|£|€|¥)\s?\d[\d.,]*\s?(m|mn|b|bn|million|billion)\b", text)) or \
+        bool(re.search(r"\d[\d.,]*\s?(million|billion)\b", text)) or \
+        bool(re.search(r"\d[\d.,]*\s?(億|兆|千万)円", orig))   # Japanese amounts: 350億円, 1.2兆円
     deal_verb = has_any(text, RULES["deal_signals"], orig)
     core = set(cats) & {"M&A", "PE"}
     financing = set(cats) & {"Credit", "Infra"}
@@ -152,8 +159,13 @@ def tag(item: dict, src: dict) -> dict:
             "is_deal": is_deal, "has_amount": money, "actor": actor}
 
 
+CJK = r"぀-ヿ一-鿿ｦ-ﾟ"   # kana, kanji, half-width katakana
+
+
 def norm_title(t: str) -> str:
-    return re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+    """Strip punctuation for the id hash. Japanese characters have to survive: dropping them
+    left every Japanese headline with an empty key, so they all hashed to the same id."""
+    return re.sub(rf"[^a-z0-9{CJK}]+", " ", t.lower()).strip()
 
 
 def item_id(link: str, title: str) -> str:
@@ -193,7 +205,7 @@ def main() -> int:
     for src in SOURCES:
         if src.get("disabled"):
             continue
-        url = gnews(src["gnews"]) if src.get("gnews") else src["url"]
+        url = gnews(src["gnews"], src.get("lang", "en")) if src.get("gnews") else src["url"]
         try:
             raw = fetch(url, sec=src.get("sec", False))
             recs = list(parse_feed(raw))
