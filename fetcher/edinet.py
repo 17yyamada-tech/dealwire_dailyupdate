@@ -107,6 +107,28 @@ def load_codes() -> dict:
     return data
 
 
+def issuer_from_document(doc_id: str) -> str:
+    """A 5% stake report names its target inside the document, not in the index. The filing
+    ships a CSV of its tagged values, so pull the issuer from there. Best effort: a card
+    without a target is still a card, but a stake report without one says very little."""
+    try:
+        raw = fetch(f"{API}/documents/{doc_id}?" + urllib.parse.urlencode({"type": 5, "Subscription-Key": KEY}))
+        with zipfile.ZipFile(io.BytesIO(raw)) as z:
+            for name in z.namelist():
+                if not name.lower().endswith(".csv"):
+                    continue
+                text = z.read(name).decode("utf-16", errors="replace")
+                for row in csv.reader(io.StringIO(text), delimiter="\t"):
+                    if len(row) < 9:
+                        continue
+                    label, value = row[1], row[8].strip()
+                    if value and value != "－" and ("発行者" in label or "発行会社" in label) and "名" in label:
+                        return value
+    except Exception as e:  # noqa: BLE001 - enrichment only
+        print(f"      issuer lookup failed for {doc_id}: {str(e)[:90]}")
+    return ""
+
+
 def party(codes: dict, code: str, fallback_name: str = "") -> dict:
     row = codes.get(code or "")
     if not row:
@@ -144,6 +166,12 @@ def main() -> int:
                 continue            # custody and index desks file most of these
             doc_id = r.get("docID")
             desc = r.get("docDescription") or ""
+            target = party(codes, r.get("subjectEdinetCode") or "")
+            if kind == "stake" and not target["name"]:
+                name = issuer_from_document(doc_id)
+                if name:
+                    hit = next((c for c, v in codes.items() if v[0] == name), "")
+                    target = party(codes, hit, name)
             cards.append({
                 "id": doc_id,
                 "filed": (r.get("submitDateTime") or "").replace(" ", "T") + "+09:00",
@@ -151,7 +179,7 @@ def main() -> int:
                 "type_ja": desc,
                 "type_en": label_en + (" (amended)" if desc.startswith("訂正") else ""),
                 "buyer": party(codes, r.get("edinetCode"), buyer_name),
-                "target": party(codes, r.get("subjectEdinetCode") or ""),
+                "target": target,
                 "sponsor": sponsor,
                 "parent": r.get("parentDocID") or "",
                 "link": PDF.format(doc_id),
