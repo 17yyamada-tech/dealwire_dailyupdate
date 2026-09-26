@@ -122,10 +122,13 @@ dialog::backdrop { background: rgba(0,0,0,.4); }
 .fc-terms dd { font: 500 12px/1.5 var(--sans); color: var(--ink); }
 
 /* Contact */
-.p-contact .panel-head { border-top: 1px solid var(--rule); padding-top: 10px; }
+.panel.p-contact { border-top: 1px dashed var(--ink-3); margin-top: 22px; padding-top: 14px; }
+.p-contact .panel-head { border-bottom: 0; margin: 0 0 6px; padding: 0; }
+.p-contact .panel-head h2 { font: 600 13px/1.2 var(--sans); color: var(--ink-3); }
 .contact-form textarea, .contact-form input[type=email] {
-  background: var(--surface); border: 1px solid var(--rule); color: var(--ink);
-  padding: 9px 12px; border-radius: 8px; font: 14px var(--sans);
+  background: transparent; border: 1px solid var(--rule); color: var(--ink-2);
+  padding: 7px 10px; border-radius: 8px; font: 13px var(--sans);
 }
+.p-contact .chip { background: transparent; border-color: var(--rule); color: var(--ink-3); font-size: 12px; }
 .contact-form textarea:focus, .contact-form input:focus { outline: 2px solid var(--ink); outline-offset: -1px; }
 .contact-status { font: 500 12.5px/1.5 var(--sans); color: var(--accent); }

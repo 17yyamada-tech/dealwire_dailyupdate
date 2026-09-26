@@ -153,11 +153,17 @@ dialog::backdrop { background: rgba(3,8,20,.6); backdrop-filter: blur(4px); }
 .fc-terms dd { font: 500 12px/1.5 var(--sans); color: var(--ink); }
 
 /* Contact */
-.p-contact .panel-head { border-top: 1px solid var(--edge); padding-top: 10px; }
-.contact-form textarea, .contact-form input[type=email] {
-  background: var(--glass); border: 1px solid var(--edge); color: var(--ink);
-  padding: 10px 14px; border-radius: 12px; font: 13.5px var(--sans);
+.panel.p-contact {
+  background: transparent; border: 0; border-top: 1px dashed var(--ink-3); border-radius: 0; box-shadow: none;
+  backdrop-filter: none; -webkit-backdrop-filter: none; margin-top: 22px; padding: 16px 0 0;
 }
+.p-contact .panel-head { padding: 0 0 8px; border: 0; }
+.p-contact .panel-head h2 { font: 500 13px/1.2 var(--sans); letter-spacing: .04em; color: var(--ink-3); }
+.contact-form textarea, .contact-form input[type=email] {
+  background: transparent; border: 1px solid var(--edge); color: var(--ink-2);
+  padding: 8px 12px; border-radius: 12px; font: 12.5px var(--sans);
+}
+.p-contact .chip { background: transparent; color: var(--ink-3); font-size: 12px; }
 .contact-form textarea::placeholder, .contact-form input::placeholder { color: var(--ink-3); }
 .contact-form textarea:focus, .contact-form input:focus { outline: 1px solid var(--gold); }
 .contact-status { font: 500 12px/1.5 var(--sans); color: var(--gold); }

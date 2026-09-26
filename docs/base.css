@@ -48,8 +48,11 @@ select { appearance: none; }
 }
 .p-filings { grid-area: filings; min-width: 0; }
 .p-contact { grid-area: contact; min-width: 0; }
-.contact-form { display: grid; gap: 8px; }
-.contact-form textarea { width: 100%; resize: vertical; min-height: 68px; }
+/* Contact is a footnote to the page, not one of its sections. Each skin drops the panel chrome and sets it
+   apart with a dashed rule; here it only gets a narrower, shorter form. */
+.p-contact .panel-head, .contact-form { max-width: 760px; }
+.contact-form { display: grid; gap: 6px; }
+.contact-form textarea { width: 100%; resize: vertical; min-height: 44px; }
 .contact-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .contact-row input[type=email] { flex: 1 1 240px; min-width: 0; }
 #contact-website { position: absolute; left: -9999px; width: 1px; height: 1px; }

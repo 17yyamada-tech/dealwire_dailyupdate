@@ -75,7 +75,8 @@ Needs the repository secret `EDINET_API_KEY` (free registration at EDINET). The 
 their own schedule, four times a day on JST weekdays, because that is when filings land.
 
 ## Contact box
-Under the filings, a free-text box posts to the same Apps Script as the mail sign-up, which
+Under the filings, set apart as a footnote rather than a section: a dashed rule, no panel chrome,
+muted type and a narrower form in every skin. The free-text box posts to the same Apps Script as the mail sign-up, which
 forwards the message to whoever owns the script (`Session.getEffectiveUser()`, so no address is
 written into this public repository). An optional address becomes the Reply-To. There is a
 hidden honeypot field and a cap of 40 messages a day.
