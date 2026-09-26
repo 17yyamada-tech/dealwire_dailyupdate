@@ -53,7 +53,7 @@
     state.lang = lang === "ja" ? "ja" : "en";
     store.set("lang", state.lang);
     const btn = $("#btn-lang");
-    btn.textContent = state.lang === "ja" ? "EN" : "日本語";
+    btn.textContent = state.lang === "ja" ? "EN" : "JP";
     btn.title = btn.ariaLabel = state.lang === "ja"
       ? "Read the digest summaries in English"
       : "ダイジェストの要約を日本語で読む";
