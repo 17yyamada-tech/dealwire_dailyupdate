@@ -150,7 +150,9 @@ function sync_(p) {
   const lock = LockService.getScriptLock(); lock.waitLock(10000);
   try {
     const sh = viewersTab_(), rows = sh.getDataRange().getValues(), now = new Date();
-    const row = [vid, JSON.stringify(follows), JSON.stringify(companies), now];
+    // stored in the shape the page sends, so every reader can run it through cleanCompanies_ again
+    const stored = companies.map(function (c) { return { name: c.names.join(', '), keywords: c.keywords }; });
+    const row = [vid, JSON.stringify(follows), JSON.stringify(stored), now];
     let r = 1;
     while (r < rows.length && rows[r][0] !== vid) r++;
     if (r < rows.length) sh.getRange(r + 1, 1, 1, 4).setValues([row]); else sh.appendRow(row);
