@@ -65,11 +65,16 @@
       <span class="brand-name">Deal Wire</span>
       <span class="clock" id="clock" aria-label="Singapore time"></span>
     </div>
+    <!-- three pages; on phones the same three sit in the tab bar at the bottom instead -->
+    <nav class="views" aria-label="Pages">
+      <button class="vtab active" data-view="home">Home</button>
+      <button class="vtab" data-view="follow">Deals<span class="vcount" data-count="follow"></span></button>
+      <button class="vtab" data-view="companies">Companies<span class="vcount" data-count="companies"></span></button>
+    </nav>
     <div class="top-meta">
       <button id="btn-mail" class="icon-btn" aria-label="Get the digest by email" title="Get the digest by email" hidden>✉</button>
       <!-- switches the digest's summaries into Japanese; everything else stays in English -->
       <button id="btn-lang" class="icon-btn lang-btn" aria-label="ダイジェストの要約を日本語で読む" title="ダイジェストの要約を日本語で読む">JP</button>
-      <button id="btn-saved" class="icon-btn" aria-label="Saved stories" title="Saved">☆</button>
       <button id="btn-settings" class="icon-btn" aria-label="Settings" title="Settings">⚙</button>
     </div>
   </div>
@@ -193,18 +198,38 @@
     <ol class="archive-list" id="archive-list"></ol>
   </section>
 
-  <section class="panel p-saved" id="view-saved" hidden>
-    <div class="panel-head"><h2>Saved</h2></div>
-    <ol class="rows" id="saved-list"></ol>
+  <!-- Deals: every ☆ story, with what came before it and what has happened since. The research
+       is done by the follow-up Routine and published under data/follow/. -->
+  <section class="panel p-follow" id="view-follow" hidden>
+    <div class="panel-head">
+      <h2>Following</h2>
+      <span class="panel-meta">☆ a story to follow it · researched at 08:45, 12:45 and 15:45 SGT</span>
+    </div>
+    <ol class="fl-list" id="follow-list"></ol>
+  </section>
+
+  <!-- Companies: kept with the mail service, not in the public data; the news is fetched there. -->
+  <section class="panel p-companies" id="view-companies" hidden>
+    <div class="panel-head">
+      <h2>Companies</h2>
+      <span class="panel-meta" id="co-meta">Private to this browser · headlines refresh every 30 minutes</span>
+    </div>
+    <form class="co-form" id="co-form">
+      <label class="sr" for="co-name">Company</label>
+      <input id="co-name" required maxlength="120" autocomplete="off" placeholder="Company, e.g. Toyota (add other names after a comma)">
+      <label class="sr" for="co-kw">Keywords</label>
+      <input id="co-kw" maxlength="300" autocomplete="off" placeholder="Keywords, comma separated (optional: blank = all news)">
+      <button type="submit" class="chip" id="co-add">Add</button>
+    </form>
+    <p class="panel-meta pad co-status" id="co-status" role="status"></p>
+    <ol class="fl-list" id="co-list"></ol>
   </section>
 </main>
 
-<nav class="tabbar" aria-label="Sections">
+<nav class="tabbar" aria-label="Pages">
   <button class="tab active" data-view="home">Home</button>
-  <button class="tab" data-view="deals">Deals</button>
-  <button class="tab" data-view="search">Search</button>
-  <button class="tab" data-view="archive">Digests</button>
-  <button class="tab" data-view="saved">Saved</button>
+  <button class="tab" data-view="follow">Deals</button>
+  <button class="tab" data-view="companies">Companies</button>
 </nav>
 
 <dialog id="settings">

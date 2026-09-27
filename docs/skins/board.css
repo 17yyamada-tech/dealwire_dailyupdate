@@ -184,11 +184,14 @@ dialog::backdrop { background: rgba(0,0,0,.6); }
 .panel.p-contact { background: none; border: 0; border-top: 1px dashed var(--ink-3); border-radius: 0; margin-top: 22px; padding: 16px 0 0; }
 .p-contact .panel-head { background: none; border: 0; border-radius: 0; padding: 0 0 8px; }
 .p-contact .panel-head h2 { font-size: 11px; letter-spacing: .14em; color: var(--ink-3); }
-.contact-form textarea, .contact-form input[type=email] {
+.contact-form textarea, .contact-form input[type=email], .co-form input {
   background: transparent; border: 1px solid var(--line); color: var(--ink-2);
   padding: 7px 10px; border-radius: 3px; font: 12px var(--mono);
 }
 .p-contact .chip { background: transparent; color: var(--ink-3); font-size: 11px; }
-.contact-form textarea::placeholder, .contact-form input::placeholder { color: var(--ink-3); }
-.contact-form textarea:focus, .contact-form input:focus { outline: 1px solid var(--amber); }
+.contact-form textarea::placeholder, .contact-form input::placeholder, .co-form input::placeholder { color: var(--ink-3); }
+.contact-form textarea:focus, .contact-form input:focus, .co-form input:focus { outline: 1px solid var(--amber); }
 .contact-status { font: 500 11px/1.5 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--amber); }
+
+/* page tabs in the header */
+.vtab { font: 700 12.5px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; }

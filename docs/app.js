@@ -551,13 +551,6 @@
     if (i == null) $("#digest").scrollIntoView({ behavior: "smooth" });
   }
 
-  function renderSaved() {
-    const saved = Object.values(store.get("saved", {})).sort((a, b) => b.published.localeCompare(a.published));
-    const ol = $("#saved-list"); ol.textContent = "";
-    saved.forEach(it => ol.append(rowNode(it)));
-    if (!saved.length) ol.append(empty("Tap ☆ on a story to keep it here."));
-  }
-
   function renderAll() {
     syncFilterUI();
     state.lastRanked = rankedItems();
@@ -565,7 +558,7 @@
     renderDeals();
     renderFilings();
     if (state.view === "search") runSearch();
-    if (state.view === "saved") renderSaved();
+    if (state.view === "follow") renderFollow();
     state.firstLoad = false;
   }
 
@@ -576,12 +569,182 @@
   }
   function toggleSave(it, btn) {
     const s = store.get("saved", {});
+    // ☆ = follow: the story joins the Deals page and the follow-up research
     if (s[it.id]) { delete s[it.id]; btn.classList.remove("on"); btn.textContent = "☆"; }
-    else { s[it.id] = it; btn.classList.add("on"); btn.textContent = "★"; logEvent("save", it); }
+    else { s[it.id] = { ...it, since: new Date().toISOString() }; btn.classList.add("on"); btn.textContent = "★"; logEvent("save", it); }
     store.set("saved", s);
+    updateCounts(); queueSync();
+    if (state.view === "follow") renderFollow();
   }
   function hide(it) { const h = store.get("hidden", {}); h[it.id] = Date.now(); store.set("hidden", prune(h)); logEvent("hide", it); }
   function prune(obj) { const c = Date.now() - 120 * 864e5; return Object.fromEntries(Object.entries(obj).filter(([, t]) => t >= c)); }
+
+  /* ---------------- following and companies ----------------
+     A ☆ story is followed: the browser sends its list to the Apps Script (with a random id that
+     names no one), a fetch job copies the combined list into data/follow/queue.json, and the
+     follow-up Routine writes what it finds to data/follow/<id>.json. Companies go to the same
+     script and stay there: it fetches their headlines and returns them only to this browser. */
+  function viewerId() {
+    let v = store.get("vid", "");
+    if (!/^[a-f0-9]{32}$/.test(v)) {
+      const b = new Uint8Array(16); crypto.getRandomValues(b);
+      v = [...b].map(x => x.toString(16).padStart(2, "0")).join("");
+      store.set("vid", v);
+    }
+    return v;
+  }
+  const followed = () => Object.values(store.get("saved", {}))
+    .sort((a, b) => String(b.since || b.published).localeCompare(String(a.since || a.published)));
+  const companies = () => store.get("companies", []);
+
+  let syncTimer = null;
+  function queueSync(delay = 1200) {
+    if (!MAIL_ENDPOINT) return;
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(() => {
+      const follows = followed().map(it => ({ id: it.id, title: it.title, link: it.link, source: it.source, published: it.published, since: it.since || it.published }));
+      fetch(MAIL_ENDPOINT, { method: "POST", mode: "no-cors",
+        body: new URLSearchParams({ action: "sync", vid: viewerId(), follows: JSON.stringify(follows), companies: JSON.stringify(companies()) }) })
+        .catch(() => { /* offline: the next change or visit sends it again */ });
+    }, delay);
+  }
+  // Apps Script replies are read as JSONP: a script tag loads across origins without CORS.
+  let jsonpSeq = 0;
+  function jsonp(params) {
+    return new Promise((resolve, reject) => {
+      const cb = "dwcb" + (++jsonpSeq) + Date.now().toString(36), s = document.createElement("script");
+      const done = () => { delete window[cb]; s.remove(); clearTimeout(timer); };
+      const timer = setTimeout(() => { done(); reject(new Error("timeout")); }, 20000);
+      window[cb] = (data) => { done(); resolve(data); };
+      s.onerror = () => { done(); reject(new Error("load")); };
+      s.src = MAIL_ENDPOINT + "?" + new URLSearchParams({ ...params, callback: cb });
+      document.head.append(s);
+    });
+  }
+  function updateCounts() {
+    const n = { follow: Object.keys(store.get("saved", {})).length, companies: companies().length };
+    $$("[data-count]").forEach(el => { el.textContent = n[el.dataset.count] || ""; });
+  }
+
+  const agoText = (iso) => { const a = fmtAgo(iso); return a === "now" ? "just now" : a + " ago"; };
+  const fmtWhen = (d) => {
+    if (!d) return "";
+    const m = String(d).match(/^(\d{4})-(\d{2})(?:-(\d{2}))?/);
+    if (!m) return d;
+    const mon = new Date(Date.UTC(+m[1], +m[2] - 1, 1)).toLocaleString("en-GB", { month: "short", timeZone: "UTC" });
+    return (m[3] ? +m[3] + " " : "") + mon + " " + m[1];
+  };
+  // One entry in a Background / Since then column, or one company headline.
+  function flItem({ date, title, url, source, summary }) {
+    const li = document.createElement("li"); li.className = "fl-item";
+    const meta = document.createElement("p"); meta.className = "d-links fl-meta";
+    meta.textContent = [fmtWhen(date), source].filter(Boolean).join(" · ");
+    const h = document.createElement("h3"), a = document.createElement("a");
+    a.href = url; a.target = "_blank"; a.rel = "noopener"; a.textContent = title; h.append(a);
+    li.append(meta, h);
+    if (summary) { const p = document.createElement("p"); p.className = "d-sum"; p.textContent = summary; li.append(p); }
+    return li;
+  }
+  function flColumn(label, items, emptyMsg) {
+    const col = document.createElement("div"); col.className = "fl-col";
+    const head = document.createElement("p"); head.className = "panel-meta fl-head";
+    head.textContent = label + (items && items.length ? " · " + items.length : "");
+    const ol = document.createElement("ol"); ol.className = "digest-list fl-items";
+    if (items && items.length) items.forEach(x => ol.append(flItem(x)));
+    else { const li = document.createElement("li"); li.className = "empty"; li.textContent = emptyMsg; ol.append(li); }
+    col.append(head, ol);
+    return col;
+  }
+  const arrow = () => { const s = document.createElement("div"); s.className = "fl-arrow"; s.setAttribute("aria-hidden", "true"); s.textContent = "→"; return s; };
+
+  /* Deals page */
+  const followData = new Map();
+  let followIndex = null;
+  async function loadFollow() {
+    followIndex = await getJSON("data/follow/index.json").catch(() => ({ stories: {} }));
+    const ids = followed().map(it => it.id).filter(id => followIndex.stories && followIndex.stories[id]);
+    await Promise.all(ids.map(async id => {
+      const stamp = followIndex.stories[id].checked_at;
+      if (followData.has(id) && followData.get(id).checked_at === stamp) return;
+      const d = await getJSON(`data/follow/${id}.json`).catch(() => null);
+      if (d) followData.set(id, d);
+    }));
+  }
+  function renderFollow() {
+    const ol = $("#follow-list"); ol.textContent = "";
+    const list = followed();
+    if (!list.length) { ol.append(empty("Nothing followed yet. Tap ☆ on any story and its background and follow-ups will build up here.")); return; }
+    const pick = (x) => ({ date: x.date, title: x.headline || x.title, url: x.url, source: x.source, summary: dtext(x, "summary") });
+    list.forEach(it => {
+      const li = document.createElement("li"); li.className = "fl-row";
+      const story = document.createElement("div"); story.className = "fl-story";
+      const rows = document.createElement("ol"); rows.className = "rows"; rows.append(rowNode(it));
+      story.append(rows);
+      const d = followData.get(it.id);
+      const wait = "Being researched. The first results arrive with the next run (08:45, 12:45 or 15:45 SGT).";
+      li.append(story,
+        flColumn("Background", d ? (d.background || []).map(pick) : null, d ? "Nothing earlier found." : wait),
+        arrow(),
+        flColumn("Since then", d ? (d.since || []).map(pick) : null, d ? "No developments yet. Checked " + agoText(d.checked_at) + "." : wait));
+      ol.append(li);
+    });
+  }
+
+  /* Companies page */
+  let coData = null, coLoading = false;
+  async function loadCompanies() {
+    if (!MAIL_ENDPOINT || coLoading) return;
+    coLoading = true;
+    try { coData = await jsonp({ action: "companies", vid: viewerId() }); $("#co-status").textContent = ""; }
+    catch { $("#co-status").textContent = "Could not reach the news service. Showing what this browser remembers."; }
+    finally { coLoading = false; }
+    if (state.view === "companies") renderCompanies();
+  }
+  const coKey = (c) => (c.name.split(/[,、]/).map(x => x.trim()).filter(Boolean).join(",") + "#" + c.keywords.map(x => x.trim()).join(",")).toLowerCase();
+  function renderCompanies() {
+    const ol = $("#co-list"); ol.textContent = "";
+    const mine = companies();
+    if (!mine.length) { ol.append(empty("No companies yet. Add one above; keywords narrow it to the news you care about.")); return; }
+    const remote = new Map(((coData && coData.companies) || []).map(c => [coKey(c), c]));
+    mine.forEach((c, i) => {
+      const r = remote.get(coKey(c));
+      const li = document.createElement("li"); li.className = "fl-row co-row";
+      const card = document.createElement("div"); card.className = "co-card";
+      const h = document.createElement("h3"); h.className = "co-name"; h.textContent = c.name.split(/[,、]/)[0].trim();
+      const also = (r && r.searched || []).slice(1);
+      const meta = document.createElement("p"); meta.className = "panel-meta";
+      meta.textContent = also.length ? "Also searching: " + also.join(", ") : "";
+      const kw = document.createElement("div"); kw.className = "co-kw";
+      (c.keywords.length ? c.keywords : ["All news"]).forEach(k => { const s = document.createElement("span"); s.className = "chip co-chip"; s.textContent = k; kw.append(s); });
+      const foot = document.createElement("p"); foot.className = "panel-meta";
+      foot.textContent = r && r.updated ? "Updated " + agoText(r.updated) : "First headlines arrive within a few minutes.";
+      const rm = document.createElement("button"); rm.className = "link-btn co-rm"; rm.type = "button"; rm.textContent = "Remove";
+      rm.addEventListener("click", () => {
+        store.set("companies", companies().filter((_, j) => j !== i)); updateCounts(); renderCompanies(); queueSync(200);
+      });
+      card.append(h, meta, kw, foot, rm);
+      const news = r ? (r.news || []).map(x => ({ date: x.published && x.published.slice(0, 10), title: x.title, url: x.link, source: x.source })) : null;
+      li.append(card, arrow(), flColumn("Latest", news, r ? "No headlines in the last 45 days." : "Fetching…"));
+      ol.append(li);
+    });
+  }
+  function setupCompanies() {
+    $("#co-form").addEventListener("submit", ev => {
+      ev.preventDefault();
+      const name = $("#co-name").value.trim();
+      if (!name) return;
+      const keywords = $("#co-kw").value.split(/[,、]/).map(s => s.trim()).filter(Boolean).slice(0, 8);
+      const list = companies();
+      if (list.length >= 15) { $("#co-status").textContent = "Up to 15 companies. Remove one to add another."; return; }
+      if (list.some(c => coKey(c) === coKey({ name, keywords }))) { $("#co-status").textContent = "Already on the list."; return; }
+      list.unshift({ name, keywords });
+      store.set("companies", list);
+      $("#co-form").reset(); updateCounts(); renderCompanies();
+      queueSync(0);
+      // the script fetches a new company's first headlines while it stores it; ask again shortly
+      setTimeout(loadCompanies, 6000); setTimeout(loadCompanies, 20000);
+    });
+  }
 
   /* ---------------- search ---------------- */
   async function loadArchiveMonths(n) {
@@ -626,12 +789,14 @@
     state.view = v;
     document.body.dataset.view = v;
     $("#view-search").hidden = v !== "search";
-    $("#view-saved").hidden = v !== "saved";
+    $("#view-follow").hidden = v !== "follow";
+    $("#view-companies").hidden = v !== "companies";
     $("#view-archive").hidden = v !== "archive";
     if (v === "archive") renderArchive();
-    $$(".tab").forEach(t => t.classList.toggle("active", t.dataset.view === v));
+    $$(".tab, .vtab").forEach(t => t.classList.toggle("active", t.dataset.view === v));
     if (v === "search") runSearch();
-    if (v === "saved") renderSaved();
+    if (v === "follow") { renderFollow(); loadFollow().then(() => { if (state.view === "follow") renderFollow(); }); }
+    if (v === "companies") { renderCompanies(); loadCompanies(); }
     renderDeals();
     window.scrollTo({ top: 0 });
   }
@@ -795,8 +960,10 @@
       }, 220);
     });
     $("#period").addEventListener("change", runSearch);
-    $$(".tab").forEach(b => b.addEventListener("click", () => setView(b.dataset.view)));
-    $("#btn-saved").addEventListener("click", () => setView(state.view === "saved" ? "home" : "saved"));
+    $$(".tab, .vtab").forEach(b => b.addEventListener("click", () => {
+      if ($("#q").value) $("#q").value = "";   // leaving search for a page
+      setView(b.dataset.view);
+    }));
     const dlg = $("#settings");
     $("#btn-settings").addEventListener("click", () => { skinSel.value = document.documentElement.dataset.skin; renderProfileView(); dlg.showModal(); });
     $("#reset-profile").addEventListener("click", () => {
@@ -806,6 +973,9 @@
     $("#btn-archive").addEventListener("click", () => setView("archive"));
     setupSubscribe();
     setupContact();
+    setupCompanies();
+    updateCounts();
+    queueSync(3000);   // keeps this browser's follows counted (a browser unseen for 60 days drops out)
     setView("home");
     const qp = new URLSearchParams(location.search);
     if (qp.get("e")) {

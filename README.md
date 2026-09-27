@@ -12,6 +12,8 @@ The planned public URL is `https://<github-user>.github.io/dealwire_dailyupdate/
 | Digest editions | Claude Code cloud Routine (`routine/digest_prompt.md`) writes `docs/data/digests/<YYYY-MM-DD-HHMM>.json` and `index.json`. Repeats are excluded and developments are marked UPDATE. | 08:30, 12:30 and 15:30 SGT |
 | Email | Google Apps Script (`apps_script/Code.gs`, setup in `apps_script/SETUP_ja.md`) stores subscribers in a private Google Sheet and emails each new edition | Checks every 10 min |
 | Archive for search | `docs/data/archive/YYYY-MM.json` (append-only) | With each fetch |
+| Followed stories (Deals page) | Browsers send their ☆ list to the Apps Script; `fetcher/follows.py` (in fetch.yml) copies the combined list to `docs/data/follow/queue.json`; a second cloud Routine (`routine/follow_prompt.md`) writes `docs/data/follow/<id>.json` | List every 30 min, research at 08:45, 12:45 and 15:45 SGT |
+| Companies page | The Apps Script keeps each browser's companies and fetches their Google News headlines itself. Nothing about companies reaches this repository. | Every 30 min |
 | Learning | Each viewer's own browser (localStorage). Nothing is sent anywhere. | Profile rebuilt once a day per viewer |
 
 Only headlines, links and short snippets are stored. Article bodies are never stored.
@@ -36,6 +38,23 @@ Open http://127.0.0.1:8765/
 ## Tuning
 - `fetcher/sources.json`: add or remove feeds (`url` or `gnews` query, defaults, age limit).
 - `fetcher/rules.json`: keyword rules for categories, countries, sectors, deal signals and sponsors. A `cs:` prefix means case-sensitive, for acronyms like US and AI. A `re:` prefix means regex.
+
+## Pages
+Three pages, in the header line on wide screens and in the bottom tab bar on phones.
+- **Home**: the deal board, the digest, Japan filings and the contact box. Phones show the digest with the board below it.
+- **Deals**: every story this browser follows (☆). One row each, left to right: the story, its
+  background (up to 12 months before) and what has happened since. Rows share one height and each
+  column scrolls inside it. The research is public, in `docs/data/follow/`; which browser follows
+  what is not: the Apps Script only publishes the combined list, without ids.
+- **Companies**: a company name (other names after a comma) and optional keywords. The Apps Script
+  searches Google News for `(names) (keywords)` in English and Japanese, adds the name in the other
+  language when only one is given (LanguageApp), keeps 45 days, and returns the list only to the
+  browser that registered it. This stays private because a company someone is watching can itself be
+  sensitive.
+
+Each browser has a random id (`dw.vid`) that names no one. Limits: 20 follows and 15 companies per
+browser, 30 stories researched in total. A browser not seen for 60 days stops counting.
+Apps Script replies are read as JSONP (`callback=`), since a script tag loads across origins.
 
 ## The board
 One list, cut three ways from its header. Each control is remembered per viewer.

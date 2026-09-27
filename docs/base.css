@@ -75,13 +75,11 @@ select { appearance: none; }
 .fc-foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .p-deals { grid-area: deals; }
 .p-digest { grid-area: digest; }
-.p-search, .p-saved { grid-area: 1 / 1 / 2 / -1; }
-body[data-view="search"] .p-contact, body[data-view="saved"] .p-contact,
-body[data-view="archive"] .p-contact, body[data-view="deals"] .p-contact,
+.p-search, .p-follow, .p-companies { grid-area: 1 / 1 / 2 / -1; }
+body:not([data-view="home"]) .p-contact, body:not([data-view="home"]) .p-filings,
 body[data-view="search"] .p-deals, body[data-view="search"] .p-digest,
-body[data-view="search"] .p-filings, body[data-view="saved"] .p-filings, body[data-view="archive"] .p-filings,
-body[data-view="deals"] .p-filings,
-body[data-view="saved"] .p-deals, body[data-view="saved"] .p-digest { display: none; }
+body[data-view="follow"] .p-deals, body[data-view="follow"] .p-digest,
+body[data-view="companies"] .p-deals, body[data-view="companies"] .p-digest { display: none; }
 .panel { min-width: 0; }
 .panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .panel-head h2 { margin: 0; display: flex; align-items: center; gap: 8px; }
@@ -120,6 +118,45 @@ body[data-view="saved"] .p-deals, body[data-view="saved"] .p-digest { display: n
 /* tab bar only on narrow screens */
 .tabbar { display: none; }
 
+/* pages: in the header line on wide screens; phones use the tab bar */
+.top-meta { margin-left: auto; }
+.views { display: flex; align-self: stretch; margin: -10px 0 -10px 28px; }
+.vtab { background: none; border: 0; padding: 0 14px; cursor: pointer; white-space: nowrap; color: var(--ink-3); box-shadow: inset 0 -3px 0 transparent; }
+.vtab:hover { color: var(--ink); }
+.vtab.active { color: var(--amber, var(--gold, var(--accent, var(--ink)))); box-shadow: inset 0 -3px 0 currentColor; }
+.vcount:not(:empty) { margin-left: 6px; padding: 1px 5px; border-radius: 2px; font-size: .78em; vertical-align: 1px;
+  background: var(--line, var(--rule, var(--edge))); color: var(--ink-2); }
+
+/* Deals (followed stories) and Companies: one row per item, left to right: the thing followed,
+   what came before, what has come since. Rows share one height; each column scrolls inside it. */
+.fl-list { list-style: none; margin: 0; padding: 0; }
+.fl-row { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr) 20px minmax(0, 1fr); column-gap: 14px; }
+.co-row { grid-template-columns: minmax(0, .75fr) 20px minmax(0, 2fr); }
+.fl-row { height: 340px; padding: 12px 14px; align-items: stretch; border-bottom: 1px solid var(--line, var(--rule, var(--edge))); }
+.fl-row:last-child { border-bottom: 0; }
+.fl-list > li.empty { display: block; }
+.fl-story, .co-card { min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
+/* the followed story keeps its board row, stacked the way phones show it: tags above the headline */
+.fl-story .row { padding: 0; border: 0; background: none; grid-template-columns: auto auto auto minmax(0, 1fr) auto;
+  grid-template-areas: "time reg type . act" "main main main main main"; row-gap: 8px; }
+.fl-story .c-snip { -webkit-line-clamp: 6; }
+body[data-view="follow"] .filters, body[data-view="companies"] .filters { display: none; }
+.fl-col { display: flex; flex-direction: column; min-height: 0; }
+.fl-head { margin: 0 0 4px; }
+.digest-list.fl-items { display: block; padding: 0; flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }   /* one column in every skin */
+.fl-items li.fl-item, .fl-items li.empty { display: block; padding: 8px 0; }
+.fl-items h3 { font-size: 13.5px; line-height: 1.35; margin: 2px 0 0; }
+.fl-items .d-sum { font-size: 12.5px; margin: 3px 0 0; }
+.fl-meta { margin: 0; }
+.fl-arrow { align-self: center; text-align: center; font-size: 18px; color: var(--ink-3); }
+.co-form { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) auto; gap: 8px; padding: 12px 14px; max-width: 1040px; }
+.co-status:empty { display: none; }
+.co-name { margin: 0 0 4px; }
+.co-card p { margin: 4px 0 0; }
+.co-kw { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 2px; }
+.co-chip { cursor: default; font-size: 11px; padding: 3px 8px; }
+.co-rm { margin-top: 8px; }
+
 /* settings */
 dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
 .settings { padding: 20px; display: flex; flex-direction: column; gap: 14px; }
@@ -130,7 +167,6 @@ dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
 
 @media (max-width: 999px) {
   .grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "digest" "deals" "filings" "contact"; padding: 10px 12px 90px; }
-  body[data-view="home"] .p-deals { display: none; }
   body[data-view="deals"] .p-digest { display: none; }
   .filing-card { flex-basis: 78vw; }
   .brand-sub { display: none; }
@@ -143,6 +179,10 @@ dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
     row-gap: 4px;
   }
   .tabbar { display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; padding: 6px 8px calc(6px + env(safe-area-inset-bottom)); }
+  .views, .fl-arrow { display: none; }
+  .fl-row, .co-row { grid-template-columns: minmax(0, 1fr); height: auto; row-gap: 10px; padding: 12px; }
+  .fl-col { max-height: 300px; }
+  .co-form { grid-template-columns: minmax(0, 1fr); }
   .tab { flex: 1; border: 0; padding: 8px 0; }
 }
 
