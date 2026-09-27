@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20260927-1450";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20260927-1500";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -761,7 +761,7 @@
       const kw = document.createElement("div"); kw.className = "co-kw";
       (c.keywords.length ? c.keywords : ["All news"]).forEach(k => { const s = document.createElement("span"); s.className = "chip co-chip"; s.textContent = k; kw.append(s); });
       const edit = document.createElement("button"); edit.className = "link-btn co-edit"; edit.type = "button";
-      edit.textContent = c.keywords.length ? "Edit keywords" : "Add keywords";
+      edit.textContent = c.keywords.length ? "＋ Edit keywords" : "＋ Add keywords";
       edit.addEventListener("click", () => editKeywords(i, kw, edit));
       const foot = document.createElement("p"); foot.className = "panel-meta";
       foot.textContent = r && r.updated ? "Updated " + agoText(r.updated) : "First headlines arrive within a few minutes.";
