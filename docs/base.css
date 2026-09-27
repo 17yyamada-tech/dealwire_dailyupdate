@@ -167,7 +167,7 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters { displa
 /* funds and corporates in two colours: the card's bar, its label and the keyword boxes in its headlines */
 .co-row.kind-fund { --kind: #2f6cb3; }   /* deep blue */
 .co-row.kind-corp { --kind: #1f8a53; }   /* deep green */
-.fl-row.co-row { border-left-color: var(--kind); }
+.fl-row.co-row { border-left-color: var(--kind); background: color-mix(in srgb, var(--kind) 9%, transparent); }   /* a tint well under the rule, so the rule stays visible */
 .co-chip { display: inline-flex; align-items: center; gap: 4px; border-color: var(--kind); }
 .co-chip-x { background: none; border: 0; padding: 0 0 0 2px; cursor: pointer; color: inherit; opacity: .6; font-size: 1.1em; line-height: 1; }
 .co-chip-x:hover { opacity: 1; color: var(--kind); }
