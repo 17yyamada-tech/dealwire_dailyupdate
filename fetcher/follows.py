@@ -7,6 +7,7 @@ reads queue.json and writes its research next to it. Standard library only; runs
 import json
 import re
 import sys
+import time
 import urllib.request
 from pathlib import Path
 
@@ -25,11 +26,18 @@ def main() -> int:
     if not url:
         print("follows: no endpoint configured")
         return 0
-    try:
-        with urllib.request.urlopen(url + "?action=follows", timeout=60) as r:
-            data = json.loads(r.read().decode("utf-8"))
-    except Exception as e:  # the news fetch must not fail because of this
-        print(f"follows: could not read the list ({e})")
+    req = urllib.request.Request(url + "?action=follows", headers={"User-Agent": "Mozilla/5.0 (DealWire follow list)"})
+    data, err = None, None
+    for _ in range(3):   # Apps Script answers the odd request from a data centre with a 404; ask again
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            break
+        except Exception as e:
+            err = e
+            time.sleep(5)
+    if data is None:  # the news fetch must not fail because of this
+        print(f"follows: could not read the list ({err})")
         return 0
     stories = data.get("stories")
     if not isinstance(stories, list):
