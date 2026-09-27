@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-27-0830",
+      "label": "27 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-27T00:34:18Z",
+      "items": 5,
+      "headlines": [
+        "Rocket Lab's $8b Iridium acquisition hinges on Neutron rocket's maiden flight",
+        "BASF explores multi-billion-euro takeover of Evonik",
+        "PayPal jumps 5% on all-stock takeover report, Meta buyout proposal also surfaces"
+      ]
+    },
+    {
       "id": "2026-09-26-1530",
       "label": "26 Sep 2026 · 15:30 SGT",
       "generated_at": "2026-09-26T07:34:08Z",

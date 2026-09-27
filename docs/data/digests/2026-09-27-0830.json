@@ -1,0 +1,94 @@
+{
+  "edition": "2026-09-27-0830",
+  "edition_label": "27 Sep 2026 · 08:30 SGT",
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T00:34:18Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Rocket Lab's $8b Iridium acquisition hinges on Neutron rocket's maiden flight",
+      "summary": "Rocket Lab's acquisition of satellite operator Iridium, already cleared by Iridium shareholders, is valued at $8 billion, according to new reporting. Completion of the vertical integration between the two companies now depends on the maiden flight of Rocket Lab's Neutron rocket.",
+      "why_it_matters": "The disclosed price tag confirms Rocket Lab is paying up to fold satellite connectivity into its launch business, but the timeline now hinges on Neutron's unproven flight record.",
+      "summary_ja": "ロケット・ラボによるイリジウム買収は株主承認済みの案件だが、新たな報道により買収額が80億ドルと判明した。両社の垂直統合の完了は、ロケット・ラボの新型ロケット「ニュートロン」の初飛行を待つ必要がある。",
+      "why_it_matters_ja": "買収額の判明により、ロケット・ラボが衛星通信事業を打上げ事業に統合するため相応の対価を払っていることが確認された一方、統合完了の時期は実績のない「ニュートロン」の初飛行にかかっている。",
+      "status": "update",
+      "prev": {"edition": "2026-09-25-0830", "index": 4},
+      "key": "iridium-rocket-lab-acquisition",
+      "ids": ["58eec020384e13"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "BASF explores multi-billion-euro takeover of Evonik",
+      "summary": "BASF is exploring a takeover of German chemicals peer Evonik in a deal that would be worth several billion euros, according to reports. Shares in both companies reacted sharply to the news.",
+      "why_it_matters": "A tie-up between two of Germany's largest chemicals groups would reshape the European specialty chemicals landscape and test appetite for large-scale industrial consolidation.",
+      "summary_ja": "BASFはドイツの化学大手エボニックの買収を検討しており、買収額は数十億ユーロ規模になるとみられる。この報道を受け、両社の株価は大きく反応した。",
+      "why_it_matters_ja": "ドイツを代表する化学大手2社が統合すれば欧州の特殊化学品業界の構図が変わり、大型の業界再編に対する意欲が試されることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "basf-evonik-takeover",
+      "ids": ["c8e3ba0447d18a"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBnekZyTlkza1FJQy1PQlJiTmd3akhXNEFFRzJQQllIbXg5NmhQTmlGZjF3WFdJWFd2U28xVDJyLUJlU05PWEg1SDRLaDFuV0p2TGY4eW0ycGItMFNjUjNqUWxfSWZBT1RMNmhSTDBMUU1pTE1z?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "PayPal jumps 5% on all-stock takeover report, Meta buyout proposal also surfaces",
+      "summary": "PayPal shares rose 5% after reports that an unnamed West Coast technology company is considering an all-stock acquisition of the payments group. A separate proposal for Meta to acquire PayPal has also emerged, according to the reports.",
+      "why_it_matters": "Renewed takeover speculation underscores PayPal's vulnerability after a prolonged share slide, and a Meta deal would rank among the largest fintech acquisitions on record if it materialised.",
+      "summary_ja": "米西海岸のテック企業が全株式交換方式でのペイパル買収を検討しているとの報道を受け、ペイパル株は5%急騰した。これとは別に、メタによる買収提案も浮上していると報じられている。",
+      "why_it_matters_ja": "買収観測の再燃は株価低迷が続くペイパルの脆弱性を浮き彫りにするものであり、仮にメタによる買収が実現すればフィンテック分野で過去最大級の案件となる。",
+      "status": "new",
+      "prev": null,
+      "key": "paypal-takeover-speculation",
+      "ids": ["20420bdc776c69"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZDlDUWpwT05LWEFXSGNEc3dZVkhXN3FWUG1UeVQtcVNYRnlic0R1U091Q3pVcWR3OEttZ0xLbTRiNjN6Q0xFU2tva1hZdmNlSkhwNmczVElKc0w5S1NQeXhZRGxoNFZTRk13aXZuUEVHdmNI?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Gold Fields approaches Northern Star about acquisition, Bloomberg reports",
+      "summary": "Gold Fields has approached Northern Star Resources about a potential acquisition, Bloomberg reported, citing people familiar with the matter.",
+      "why_it_matters": "A combination would create one of the world's largest gold producers at a moment when bullion prices are near record highs, intensifying consolidation pressure across the mining sector.",
+      "summary_ja": "ゴールド・フィールズがノーザン・スター・リソーシズに買収を打診したと、事情に詳しい関係者の話としてブルームバーグが報じた。",
+      "why_it_matters_ja": "金価格が過去最高水準に近い中でこの統合が実現すれば世界有数の金生産会社が誕生し、鉱業セクター全体で再編圧力が一段と強まることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "gold-fields-northern-star-approach",
+      "ids": ["147c6fd65d318c"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoN1ZpR2JQdTZZM2RGandlUUl5QWhJejdEWlFlRTlBai1hOHE1ZGxkLW5tUVROZE1BWkRfcy1idG9sRFJJVk92SFQwRTlGOHZabmUzMm1yODFyeXQ3MlZScDUzNTlBOWFmSndTXzFHQUw?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Apax nears deal to buy Warburg Pincus's stake in Odido, FT reports",
+      "summary": "Apax Partners is close to an agreement to acquire Warburg Pincus's stake in Dutch telecoms operator Odido, the Financial Times reported.",
+      "why_it_matters": "The deal would mark a private-equity ownership handover at one of the Netherlands' largest telecom operators, continuing the sector's wave of sponsor-to-sponsor consolidation.",
+      "summary_ja": "アパックスは、ウォーバーグ・ピンカスが保有するオランダの通信会社オディドの持ち分取得で合意間近だと、フィナンシャル・タイムズが報じた。",
+      "why_it_matters_ja": "この案件が成立すればオランダ最大級の通信事業者でプライベートエクイティ間の所有権移転が実現し、スポンサー同士の統合が続く業界の流れを裏付けることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "apax-warburg-odido-stake",
+      "ids": ["349e63d796ad81"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wLVh2Z3lxN0dUajVyOXNJUW9laVBiZ1ZLSE1pR0J3SDhoZHFUeDZDRVlpM2F5ZGEwWGV4TVZTUE1ZSTVFTHJFZ191WV8xc29PQzQ5WkpZZFV1cW1aeWRUZ296VTdLekk4QzQzTV9rdF9rOUNibm9VQg?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    }
+  ]
+}
