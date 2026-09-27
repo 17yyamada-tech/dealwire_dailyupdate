@@ -54,8 +54,8 @@
     const btn = $("#btn-lang");
     btn.textContent = state.lang === "ja" ? "EN" : "JP";
     btn.title = btn.ariaLabel = state.lang === "ja"
-      ? "Read the digest summaries in English"
-      : "ダイジェストの要約を日本語で読む";
+      ? "English: digest summaries in English, stories written in Japanese hidden"
+      : "日本語: 日本語の記事も表示し、ダイジェストの要約を日本語で読む";
     btn.classList.toggle("on", state.lang === "ja");
   }
   // Editions published before the editor wrote Japanese keep only the English text.
@@ -173,7 +173,11 @@
   }
 
   /* ---------------- filters ---------------- */
+  // In English mode a story written in Japanese is left out everywhere (board, search, company
+  // news). Followed stories stay: the reader chose them. Kana or kanji in the headline decides.
+  const isJa = (it) => /[\u3040-\u30ff\u4e00-\u9fff]/.test(it.title || "");
   function passes(it) {
+    if (state.lang === "en" && isJa(it)) return false;
     const f = state.filters;
     if (f.category.length && !f.category.some(c => (it.categories || []).includes(c))) return false;
     if (f.country.length && !f.country.some(c => (it.countries || []).includes(c))) return false;
@@ -560,6 +564,7 @@
     renderFilings();
     if (state.view === "search") runSearch();
     if (state.view === "follow") renderFollow();
+    if (state.view === "companies") renderCompanies();
     state.firstLoad = false;
   }
 
@@ -717,16 +722,46 @@
       meta.textContent = also.length ? "Also searching: " + also.join(", ") : "";
       const kw = document.createElement("div"); kw.className = "co-kw";
       (c.keywords.length ? c.keywords : ["All news"]).forEach(k => { const s = document.createElement("span"); s.className = "chip co-chip"; s.textContent = k; kw.append(s); });
+      const edit = document.createElement("button"); edit.className = "link-btn co-edit"; edit.type = "button";
+      edit.textContent = c.keywords.length ? "Edit keywords" : "Add keywords";
+      edit.addEventListener("click", () => editKeywords(i, kw, edit));
       const foot = document.createElement("p"); foot.className = "panel-meta";
       foot.textContent = r && r.updated ? "Updated " + agoText(r.updated) : "First headlines arrive within a few minutes.";
       const rm = document.createElement("button"); rm.className = "link-btn co-rm"; rm.type = "button"; rm.textContent = "Remove";
       rm.addEventListener("click", () => {
         store.set("companies", companies().filter((_, j) => j !== i)); updateCounts(); renderCompanies(); queueSync(200);
       });
-      card.append(h, meta, kw, foot, rm);
-      const news = r ? (r.news || []).map(x => ({ date: x.published && x.published.slice(0, 10), title: x.title, url: x.link, source: x.source })) : null;
+      card.append(h, meta, kw, edit, foot, rm);
+      const news = r ? (r.news || []).filter(x => state.lang !== "en" || !isJa(x))
+        .map(x => ({ date: x.published && x.published.slice(0, 10), title: x.title, url: x.link, source: x.source })) : null;
       li.append(card, arrow(), flColumn("Latest", news, r ? "No headlines in the last 45 days." : "Fetching…"));
       ol.append(li);
+    });
+  }
+  // Swap the keyword chips for a text box; saving re-sends the list, and the script fetches
+  // headlines for the new query straight away.
+  function editKeywords(i, chips, btn) {
+    const c = companies()[i];
+    const f = document.createElement("form"); f.className = "co-form co-kw-form";
+    const inp = document.createElement("input"); inp.maxLength = 300; inp.autocomplete = "off";
+    inp.value = c.keywords.join(", "); inp.placeholder = "Keywords, comma separated (blank = all news)";
+    inp.setAttribute("aria-label", "Keywords for " + c.name);
+    const save = document.createElement("button"); save.type = "submit"; save.className = "chip"; save.textContent = "Save";
+    const cancel = document.createElement("button"); cancel.type = "button"; cancel.className = "link-btn"; cancel.textContent = "Cancel";
+    const msg = document.createElement("p"); msg.className = "panel-meta co-kw-msg";
+    f.append(inp, save, cancel, msg);
+    chips.replaceWith(f); btn.hidden = true; inp.focus();
+    cancel.addEventListener("click", renderCompanies);
+    f.addEventListener("submit", ev => {
+      ev.preventDefault();
+      const keywords = inp.value.split(/[,、]/).map(s => s.trim()).filter(Boolean).slice(0, 8);
+      const list = companies();
+      if (list.some((o, j) => j !== i && coKey(o) === coKey({ name: c.name, keywords }))) { msg.textContent = "The same company with these keywords is already on the list."; return; }
+      list[i] = { ...list[i], keywords };
+      store.set("companies", list);
+      renderCompanies();
+      queueSync(0);
+      setTimeout(loadCompanies, 6000); setTimeout(loadCompanies, 20000);
     });
   }
   // Returns an error message, or "" when the company was added.
