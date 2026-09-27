@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20260927-1500";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20260927-1520";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -747,29 +747,50 @@
       const kind = kindOf(c, r && r.searched);
       const li = document.createElement("li"); li.className = "fl-row co-row kind-" + kind;
       const card = document.createElement("div"); card.className = "co-card";
-      const kb = document.createElement("button"); kb.type = "button"; kb.className = "co-kind";
-      kb.textContent = kind === "fund" ? "Fund" : "Corporate";
-      kb.title = "Tap to mark it as " + (kind === "fund" ? "a corporate" : "a fund");
-      kb.addEventListener("click", () => {
-        const list = companies(); list[i] = { ...list[i], kind: kind === "fund" ? "corp" : "fund" };
-        store.set("companies", list); renderCompanies();
-      });
       const h = document.createElement("h3"); h.className = "co-name"; h.textContent = c.name.split(/[,、]/)[0].trim();
       const also = (r && r.searched || []).slice(1);
       const meta = document.createElement("p"); meta.className = "panel-meta";
       meta.textContent = also.length ? "Also searching: " + also.join(", ") : "";
+      // Keywords one by one: × drops one, the box below adds one (or several, comma separated).
       const kw = document.createElement("div"); kw.className = "co-kw";
-      (c.keywords.length ? c.keywords : ["All news"]).forEach(k => { const s = document.createElement("span"); s.className = "chip co-chip"; s.textContent = k; kw.append(s); });
-      const edit = document.createElement("button"); edit.className = "link-btn co-edit"; edit.type = "button";
-      edit.textContent = c.keywords.length ? "＋ Edit keywords" : "＋ Add keywords";
-      edit.addEventListener("click", () => editKeywords(i, kw, edit));
+      if (!c.keywords.length) { const s = document.createElement("span"); s.className = "chip co-chip"; s.textContent = "All news"; kw.append(s); }
+      c.keywords.forEach((k, j) => {
+        const s = document.createElement("span"); s.className = "chip co-chip"; s.textContent = k;
+        const x = document.createElement("button"); x.type = "button"; x.className = "co-chip-x"; x.textContent = "×";
+        x.title = x.ariaLabel = "Remove keyword " + k;
+        x.addEventListener("click", () => setKeywords(i, c.keywords.filter((_, n) => n !== j)));
+        s.append(x); kw.append(s);
+      });
+      const add = document.createElement("form"); add.className = "co-kw-add";
+      const inp = document.createElement("input"); inp.maxLength = 120; inp.autocomplete = "off";
+      inp.placeholder = "Add a keyword"; inp.setAttribute("aria-label", "Add a keyword for " + c.name);
+      const go = document.createElement("button"); go.type = "submit"; go.className = "co-kw-go"; go.textContent = "＋ Add";
+      const msg = document.createElement("p"); msg.className = "panel-meta co-kw-msg";
+      add.append(inp, go, msg);
+      add.addEventListener("submit", ev => {
+        ev.preventDefault();
+        const more = inp.value.split(/[,、]/).map(s => s.trim()).filter(Boolean);
+        if (!more.length) return;
+        const next = [...c.keywords];
+        more.forEach(k => { if (!next.some(o => o.toLowerCase() === k.toLowerCase())) next.push(k); });
+        if (next.length > 8) { msg.textContent = "Up to 8 keywords."; return; }
+        msg.textContent = setKeywords(i, next);
+      });
       const foot = document.createElement("p"); foot.className = "panel-meta";
       foot.textContent = r && r.updated ? "Updated " + agoText(r.updated) : "First headlines arrive within a few minutes.";
-      const rm = document.createElement("button"); rm.className = "link-btn co-rm"; rm.type = "button"; rm.textContent = "Remove";
+      const acts = document.createElement("p"); acts.className = "co-acts";
+      const kb = document.createElement("button"); kb.type = "button"; kb.className = "link-btn";
+      kb.textContent = kind === "fund" ? "Mark as corporate" : "Mark as fund";
+      kb.addEventListener("click", () => {
+        const list = companies(); list[i] = { ...list[i], kind: kind === "fund" ? "corp" : "fund" };
+        store.set("companies", list); renderCompanies();
+      });
+      const rm = document.createElement("button"); rm.className = "link-btn"; rm.type = "button"; rm.textContent = "Remove";
       rm.addEventListener("click", () => {
         store.set("companies", companies().filter((_, j) => j !== i)); updateCounts(); renderCompanies(); queueSync(200);
       });
-      card.append(kb, h, meta, kw, edit, foot, rm);
+      acts.append(kb, rm);
+      card.append(h, meta, kw, add, foot, acts);
       const news = r ? (r.news || []).filter(x => state.lang !== "en" || !isJa(x))
         .map(x => ({ date: x.published && x.published.slice(0, 10), title: x.title, url: x.link, source: x.source,
           tags: c.keywords.filter(k => wordHit(x.title, k)) })) : null;
@@ -778,31 +799,17 @@
       ol.append(li);
     });
   }
-  // Swap the keyword chips for a text box; saving re-sends the list, and the script fetches
-  // headlines for the new query straight away.
-  function editKeywords(i, chips, btn) {
-    const c = companies()[i];
-    const f = document.createElement("form"); f.className = "co-form co-kw-form";
-    const inp = document.createElement("input"); inp.maxLength = 300; inp.autocomplete = "off";
-    inp.value = c.keywords.join(", "); inp.placeholder = "Keywords, comma separated (blank = all news)";
-    inp.setAttribute("aria-label", "Keywords for " + c.name);
-    const save = document.createElement("button"); save.type = "submit"; save.className = "chip"; save.textContent = "Save";
-    const cancel = document.createElement("button"); cancel.type = "button"; cancel.className = "link-btn"; cancel.textContent = "Cancel";
-    const msg = document.createElement("p"); msg.className = "panel-meta co-kw-msg";
-    f.append(inp, save, cancel, msg);
-    chips.replaceWith(f); btn.hidden = true; inp.focus();
-    cancel.addEventListener("click", renderCompanies);
-    f.addEventListener("submit", ev => {
-      ev.preventDefault();
-      const keywords = inp.value.split(/[,、]/).map(s => s.trim()).filter(Boolean).slice(0, 8);
-      const list = companies();
-      if (list.some((o, j) => j !== i && coKey(o) === coKey({ name: c.name, keywords }))) { msg.textContent = "The same company with these keywords is already on the list."; return; }
-      list[i] = { ...list[i], keywords };
-      store.set("companies", list);
-      renderCompanies();
-      queueSync(0);
-      setTimeout(loadCompanies, 6000); setTimeout(loadCompanies, 20000);
-    });
+  // Saves a company's keywords and re-sends the list; the script fetches headlines for the new
+  // query straight away. Returns an error message, or "".
+  function setKeywords(i, keywords) {
+    const list = companies(), c = list[i];
+    if (list.some((o, j) => j !== i && coKey(o) === coKey({ name: c.name, keywords }))) return "The same company with these keywords is already on the list.";
+    list[i] = { ...c, keywords };
+    store.set("companies", list);
+    renderCompanies();
+    queueSync(0);
+    setTimeout(loadCompanies, 6000); setTimeout(loadCompanies, 20000);
+    return "";
   }
   // Returns an error message, or "" when the company was added.
   function addCompany(name, kwText) {

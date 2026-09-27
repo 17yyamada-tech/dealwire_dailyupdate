@@ -163,21 +163,24 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters { displa
 .co-card p { margin: 4px 0 0; }
 .co-kw { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 2px; }
 .co-chip { cursor: default; font-size: 11px; padding: 3px 8px; }
-.co-rm { margin-top: 8px; display: block; }
-/* the way to add keywords has to be seen: a framed button in the card's colour, under the chips */
-.link-btn.co-edit { display: inline-block; margin-top: 8px; padding: 4px 9px; border-radius: 3px; cursor: pointer;
-  border: 1px solid var(--kind, var(--ink-3)); color: var(--kind, var(--ink-2)); text-decoration: none; }
-.link-btn.co-edit:hover { background: color-mix(in srgb, var(--kind, var(--ink-3)) 15%, transparent); }
+
 /* funds and corporates in two colours: the card's bar, its label and the keyword boxes in its headlines */
-.co-row.kind-fund { --kind: var(--t-pe, #3f7fe0); }
-.co-row.kind-corp { --kind: var(--t-ma, #c98a1a); }
+.co-row.kind-fund { --kind: #2f6cb3; }   /* deep blue */
+.co-row.kind-corp { --kind: #1f8a53; }   /* deep green */
 .fl-row.co-row { border-left-color: var(--kind); }
-.co-kind { display: inline-block; margin: 0 0 6px; padding: 2px 7px; border-radius: 2px; cursor: pointer;
-  background: none; border: 1px solid var(--kind); color: var(--kind);
-  font: 700 10px/1.3 var(--mono, monospace); letter-spacing: .12em; text-transform: uppercase; }
+.co-chip { display: inline-flex; align-items: center; gap: 4px; border-color: var(--kind); }
+.co-chip-x { background: none; border: 0; padding: 0 0 0 2px; cursor: pointer; color: inherit; opacity: .6; font-size: 1.1em; line-height: 1; }
+.co-chip-x:hover { opacity: 1; color: var(--kind); }
+.co-kw-add { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; margin: 8px 0 2px; max-width: 280px; }
+.co-kw-add input { min-width: 0; padding: 5px 8px; font-size: 12px; background: transparent; color: inherit;
+  border: 1px solid color-mix(in srgb, var(--kind) 60%, transparent); border-radius: 3px; }
+.co-kw-add input:focus { outline: 1px solid var(--kind); }
+.co-kw-go { background: none; cursor: pointer; padding: 4px 9px; border-radius: 3px; border: 1px solid var(--kind); color: var(--kind);
+  font: 700 11px/1.2 var(--mono, monospace); letter-spacing: .06em; white-space: nowrap; }
+.co-kw-go:hover { background: color-mix(in srgb, var(--kind) 15%, transparent); }
+.co-acts { display: flex; gap: 14px; margin: 8px 0 0; }
 .kw-tag { display: inline-block; margin-left: 8px; padding: 0 5px; border-radius: 2px; vertical-align: 1px;
   border: 1px solid var(--kind); color: var(--kind); font-size: .92em; line-height: 1.5; text-transform: none; letter-spacing: .02em; }
-.co-card .co-kw-form { grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; padding: 0; margin: 8px 0 2px; }
 .co-kw-msg { grid-column: 1 / -1; margin: 0; }
 .co-kw-msg:empty { display: none; }
 
