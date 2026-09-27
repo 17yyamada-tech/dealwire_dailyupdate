@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20260927-1610";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20260927-1620";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only

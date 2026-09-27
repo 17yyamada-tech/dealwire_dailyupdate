@@ -6,14 +6,18 @@
 <title>Deal Wire</title>
 <meta name="description" content="Live deal board and daily briefing: M&A, PE, credit and infrastructure across the US, Southeast Asia, Singapore, Japan and Hong Kong / China.">
 <meta name="robots" content="noindex, nofollow">
+<!-- Safari (iPad, iPhone) does not take an SVG tab icon: it uses the PNGs; the home screen uses apple-touch-icon -->
+<link rel="icon" href="icons/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <!-- ?v= makes browsers fetch the new file after a change; bump it together with ASSET_V in app.js -->
-<link rel="stylesheet" href="base.css?v=20260927-1610">
+<link rel="stylesheet" href="base.css?v=20260927-1620">
 <!-- The whole look lives in one skin file. Default = data-skin above; viewers can switch in Settings; ?skin=editorial also works. -->
-<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20260927-1610">
+<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20260927-1620">
 </head>
 <body data-view="home">
 <!-- Region flags, drawn inline so they render the same everywhere. Windows has no flag-emoji
@@ -293,6 +297,6 @@
   </li>
 </template>
 
-<script src="app.js?v=20260927-1610"></script>
+<script src="app.js?v=20260927-1620"></script>
 </body>
 </html>
