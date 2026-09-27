@@ -5,9 +5,13 @@
  * digest edition to confirmed subscribers.
  *   doPost  action=subscribe     -> adds the address as "pending" and sends a confirmation email
  *   doPost  action=contact       -> emails the site owner what a reader typed in the Contact box
+ *   doPost  action=sync          -> stores one browser's followed stories and companies
+ *   doGet   action=follows       -> every followed story, no viewer ids (read by the fetch job)
+ *   doGet   action=companies     -> one browser's companies with their latest headlines (private)
  *   doGet   action=confirm       -> marks the address "active"
  *   doGet   action=unsubscribe   -> marks the address "unsubscribed" (link in every email)
  *   sendNewEdition (time trigger, every 10 min) -> if a new edition exists on GitHub, email it once
+ *   refreshCompanies (time trigger, every 30 min) -> Google News headlines for every followed company
  *
  * Setup: paste this file into a new Apps Script project, run setup() once, then Deploy > New deployment >
  * Web app (Execute as: Me, Who has access: Anyone). Put the /exec URL into MAIL_ENDPOINT in docs/app.js.
@@ -39,6 +43,9 @@ function setup() {
   }
   ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'sendNewEdition').forEach(t => ScriptApp.deleteTrigger(t));
   ScriptApp.newTrigger('sendNewEdition').timeBased().everyMinutes(10).create();
+  ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'refreshCompanies').forEach(t => ScriptApp.deleteTrigger(t));
+  ScriptApp.newTrigger('refreshCompanies').timeBased().everyMinutes(30).create();
+  viewersTab_(); newsTab_();
   // Mark the current newest edition as already sent so setup does not email an old digest.
   const idx = fetchJson_(CONFIG.DATA_URL + 'index.json');
   if (idx && idx.editions && idx.editions[0]) props.setProperty('LAST_SENT', idx.editions[0].id);
@@ -73,17 +80,228 @@ function contact_(p) {
   return 'ok';
 }
 
+/* ---------------- following and companies ----------------
+ *
+ * Each browser keeps a random viewer id and sends its ☆ stories and its companies here. The id is
+ * not tied to a person and never leaves this script.
+ *   Stories: the research on them is public (the follow-up Routine writes it into the repository),
+ *            so ?action=follows lists every followed story, without viewer ids, for the fetch job.
+ *   Companies: private. This script fetches their news itself and hands it back only to the
+ *            viewer that registered them (?action=companies&vid=...).
+ */
+
+const FOLLOW = {
+  VIEWERS: 'Viewers',
+  NEWS: 'CompanyNews',
+  MAX_FOLLOWS_PER_VIEWER: 20,
+  MAX_FOLLOWED_STORIES: 30,       // the Routine researches at most this many stories
+  MAX_COMPANIES_PER_VIEWER: 15,
+  MAX_COMPANY_QUERIES: 60,        // across all viewers, per refresh
+  NEWS_KEEP: 40,                  // headlines kept per company
+  NEWS_DAYS: 45,
+  ACTIVE_DAYS: 60,                // a browser not seen for this long stops counting
+  REFRESH_BUDGET_MS: 4.5 * 60 * 1000,
+};
+
+function book_() { return SpreadsheetApp.openById(PropertiesService.getScriptProperties().getProperty('SHEET_ID')); }
+function tab_(name, header) {
+  const ss = book_();
+  let sh = ss.getSheetByName(name);
+  if (!sh) { sh = ss.insertSheet(name); sh.appendRow(header); sh.setFrozenRows(1); }
+  return sh;
+}
+function viewersTab_() { return tab_(FOLLOW.VIEWERS, ['vid', 'follows', 'companies', 'updated']); }
+function newsTab_() { return tab_(FOLLOW.NEWS, ['key', 'names', 'keywords', 'news', 'updated']); }
+
+function clip_(s, n) { return String(s == null ? '' : s).trim().slice(0, n); }
+function parseList_(raw) { try { const a = JSON.parse(raw || '[]'); return Array.isArray(a) ? a : []; } catch (e) { return []; } }
+function hex_(s) {
+  return Utilities.computeDigest(Utilities.DigestAlgorithm.MD5, s, Utilities.Charset.UTF_8)
+    .map(function (b) { return ('0' + (b & 255).toString(16)).slice(-2); }).join('').slice(0, 16);
+}
+
+function cleanFollows_(raw) {
+  return parseList_(raw).slice(0, FOLLOW.MAX_FOLLOWS_PER_VIEWER).map(function (x) {
+    return {
+      id: clip_(x.id, 40).replace(/[^A-Za-z0-9_-]/g, ''), title: clip_(x.title, 300), link: clip_(x.link, 600),
+      source: clip_(x.source, 80), published: clip_(x.published, 30), since: clip_(x.since, 30),
+    };
+  }).filter(function (x) { return x.id && x.title && /^https?:\/\//.test(x.link); });
+}
+
+// A company is {name, keywords}. The name field may hold several names separated by commas
+// ("Toyota, トヨタ自動車"); the first is the one shown.
+function cleanCompanies_(raw) {
+  return parseList_(raw).slice(0, FOLLOW.MAX_COMPANIES_PER_VIEWER).map(function (x) {
+    const names = String(x.name || '').split(/[,、]/).map(function (s) { return clip_(s, 60); }).filter(String).slice(0, 4);
+    const keywords = (Array.isArray(x.keywords) ? x.keywords : []).map(function (s) { return clip_(s, 40); }).filter(String).slice(0, 8);
+    return { names: names, keywords: keywords };
+  }).filter(function (c) { return c.names.length; });
+}
+function companyKey_(c) {
+  return hex_(c.names.map(function (s) { return s.toLowerCase(); }).join('|') + '#' +
+    c.keywords.map(function (s) { return s.toLowerCase(); }).sort().join('|'));
+}
+
+function sync_(p) {
+  const vid = String(p.vid || '');
+  if (!/^[a-f0-9]{24,40}$/.test(vid)) return 'bad viewer';
+  const follows = cleanFollows_(p.follows), companies = cleanCompanies_(p.companies);
+  const lock = LockService.getScriptLock(); lock.waitLock(10000);
+  try {
+    const sh = viewersTab_(), rows = sh.getDataRange().getValues(), now = new Date();
+    const row = [vid, JSON.stringify(follows), JSON.stringify(companies), now];
+    let r = 1;
+    while (r < rows.length && rows[r][0] !== vid) r++;
+    if (r < rows.length) sh.getRange(r + 1, 1, 1, 4).setValues([row]); else sh.appendRow(row);
+  } finally { lock.releaseLock(); }
+  // A company added just now gets its first headlines at once instead of at the next refresh.
+  const tab = newsTab_(), known = {};
+  tab.getDataRange().getValues().slice(1).forEach(function (r) { known[r[0]] = true; });
+  companies.filter(function (c) { return !known[companyKey_(c)]; }).slice(0, 3)
+    .forEach(function (c) { refreshCompany_(tab, c); });
+  return 'ok';
+}
+
+function activeViewers_() {
+  const cutoff = Date.now() - FOLLOW.ACTIVE_DAYS * 864e5;
+  return viewersTab_().getDataRange().getValues().slice(1)
+    .filter(function (r) { return r[0] && new Date(r[3]).getTime() >= cutoff; });
+}
+
+// Every followed story, most followed first, then the most recently followed.
+function follows_() {
+  const byId = {};
+  activeViewers_().forEach(function (r) {
+    parseList_(r[1]).forEach(function (x) {
+      const s = byId[x.id] || (byId[x.id] = { id: x.id, title: x.title, link: x.link, source: x.source, published: x.published, since: x.since || '', followers: 0 });
+      s.followers++;
+      if (x.since && (!s.since || x.since < s.since)) s.since = x.since;
+    });
+  });
+  const stories = Object.keys(byId).map(function (k) { return byId[k]; })
+    .sort(function (a, b) { return b.followers - a.followers || String(b.since).localeCompare(String(a.since)); })
+    .slice(0, FOLLOW.MAX_FOLLOWED_STORIES);
+  return { generated_at: new Date().toISOString(), stories: stories };
+}
+
+function companiesFor_(vid) {
+  if (!/^[a-f0-9]{24,40}$/.test(String(vid || ''))) return { companies: [] };
+  const mine = viewersTab_().getDataRange().getValues().slice(1).filter(function (r) { return r[0] === vid; })[0];
+  const news = {};
+  newsTab_().getDataRange().getValues().slice(1).forEach(function (r) {
+    news[r[0]] = { names: parseList_(r[1]), news: parseList_(r[3]), updated: r[4] ? new Date(r[4]).toISOString() : '' };
+  });
+  return {
+    companies: (mine ? cleanCompanies_(mine[2]) : []).map(function (c) {
+      const n = news[companyKey_(c)] || { names: c.names, news: [], updated: '' };
+      return { name: c.names.join(', '), keywords: c.keywords, searched: n.names, news: n.news, updated: n.updated };
+    }),
+  };
+}
+
+// The name in the other language, so "Toyota" also finds トヨタ and トヨタ自動車 also finds Toyota Motor.
+// A translation that is not a name (Apple -> りんご) would search for the wrong thing, so the
+// company is framed as a company and anything that comes back in plain hiragana is dropped.
+function otherName_(name) {
+  const isJa = /[぀-ヿ一-鿿]/.test(name);
+  try {
+    let t = isJa ? LanguageApp.translate(name, 'ja', 'en') : LanguageApp.translate('the company ' + name, 'en', 'ja');
+    t = String(t || '').replace(/^(その|同)?(会社|企業)\s*/, '').replace(/(社|株式会社)$/, '').replace(/^the company\s+/i, '').trim();
+    if (!t || t.toLowerCase() === name.toLowerCase()) return '';
+    if (!isJa && /^[぀-ゟ\s]+$/.test(t)) return '';
+    return t.slice(0, 60);
+  } catch (e) { return ''; }
+}
+
+function quote_(s) { return /\s/.test(s) ? '"' + s.replace(/"/g, '') + '"' : s; }
+
+function refreshCompany_(tab, c) {
+  const key = companyKey_(c);
+  const rows = tab.getDataRange().getValues();
+  let r = 1;
+  while (r < rows.length && rows[r][0] !== key) r++;
+  const existing = r < rows.length ? rows[r] : null;
+  let names = existing ? parseList_(existing[1]) : [];
+  if (!names.length) {
+    names = c.names.slice();
+    if (names.length === 1) { const o = otherName_(names[0]); if (o) names.push(o); }
+  }
+  let q = '(' + names.map(quote_).join(' OR ') + ')';
+  if (c.keywords.length) q += ' (' + c.keywords.map(quote_).join(' OR ') + ')';
+  let news = existing ? parseList_(existing[3]) : [];
+  [['en-US', 'US', 'US:en'], ['ja', 'JP', 'JP:ja']].forEach(function (ed) {
+    const url = 'https://news.google.com/rss/search?q=' + encodeURIComponent(q + ' when:30d') +
+      '&hl=' + ed[0] + '&gl=' + ed[1] + '&ceid=' + encodeURIComponent(ed[2]);
+    news = news.concat(parseRss_(url));
+  });
+  const cutoff = Date.now() - FOLLOW.NEWS_DAYS * 864e5, seen = {};
+  news = news.filter(function (x) {
+    const k = x.title.toLowerCase().replace(/\s+/g, ' ');
+    if (seen[x.link] || seen[k] || Date.parse(x.published) < cutoff) return false;
+    seen[x.link] = seen[k] = true; return true;
+  }).sort(function (a, b) { return String(b.published).localeCompare(String(a.published)); }).slice(0, FOLLOW.NEWS_KEEP);
+  const row = [key, JSON.stringify(names), JSON.stringify(c.keywords), JSON.stringify(news), new Date()];
+  if (existing) tab.getRange(r + 1, 1, 1, 5).setValues([row]); else tab.appendRow(row);
+}
+
+function parseRss_(url) {
+  try {
+    const res = UrlFetchApp.fetch(url, { muteHttpExceptions: true });
+    if (res.getResponseCode() !== 200) return [];
+    const channel = XmlService.parse(res.getContentText()).getRootElement().getChild('channel');
+    return channel.getChildren('item').map(function (it) {
+      const src = it.getChild('source'), source = src ? src.getText() : '';
+      let title = it.getChildText('title') || '';
+      if (source && title.slice(-(source.length + 3)) === ' - ' + source) title = title.slice(0, -(source.length + 3));
+      const d = new Date(it.getChildText('pubDate'));
+      return { title: clip_(title, 300), link: clip_(it.getChildText('link'), 600), source: clip_(source, 80),
+        published: isNaN(d) ? '' : d.toISOString() };
+    }).filter(function (x) { return x.title && x.link && x.published; });
+  } catch (e) { return []; }
+}
+
+// Time trigger (every 30 minutes): refresh every company someone still follows, stalest first,
+// and drop the ones nobody follows any more.
+function refreshCompanies() {
+  const start = Date.now(), wanted = {};
+  activeViewers_().forEach(function (r) {
+    cleanCompanies_(r[2]).forEach(function (c) { wanted[companyKey_(c)] = c; });
+  });
+  const tab = newsTab_(), rows = tab.getDataRange().getValues(), updated = {};
+  for (let r = rows.length - 1; r >= 1; r--) {
+    if (!wanted[rows[r][0]]) tab.deleteRow(r + 1); else updated[rows[r][0]] = new Date(rows[r][4]).getTime() || 0;
+  }
+  Object.keys(wanted).sort(function (a, b) { return (updated[a] || 0) - (updated[b] || 0); })
+    .slice(0, FOLLOW.MAX_COMPANY_QUERIES).forEach(function (k) {
+      if (Date.now() - start < FOLLOW.REFRESH_BUDGET_MS) refreshCompany_(tab, wanted[k]);
+    });
+}
+
+// Reads come back as JSONP when the page asks for it: a script tag loads across origins
+// where a fetch of an Apps Script reply cannot be relied on.
+function json_(obj, callback) {
+  const body = JSON.stringify(obj);
+  if (callback && /^[A-Za-z_$][\w$]{0,40}$/.test(callback)) {
+    return ContentService.createTextOutput(callback + '(' + body + ');').setMimeType(ContentService.MimeType.JAVASCRIPT);
+  }
+  return ContentService.createTextOutput(body).setMimeType(ContentService.MimeType.JSON);
+}
+
 /* ---------------- web endpoints ---------------- */
 
 function doPost(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'subscribe') return text_(subscribe_(String(p.email || '').trim().toLowerCase()));
   if (p.action === 'contact') return text_(contact_(p));
+  if (p.action === 'sync') return text_(sync_(p));
   return text_('unknown action');
 }
 
 function doGet(e) {
   const p = (e && e.parameter) || {};
+  if (p.action === 'follows') return json_(follows_(), p.callback);
+  if (p.action === 'companies') return json_(companiesFor_(p.vid), p.callback);
   if (p.action === 'confirm') return page_(setStatusByToken_(p.t, 'active')
     ? ['You are subscribed', 'Deal Wire will arrive at 08:30, 12:30 and 15:30 SGT.']
     : ['Link not valid', 'This confirmation link has expired or was already used.']);
