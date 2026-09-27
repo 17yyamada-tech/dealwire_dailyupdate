@@ -80,7 +80,8 @@ select.active { background-color: var(--gold); color: #0b1730; }
 .row { grid-template-columns: auto auto auto minmax(0, 1fr) auto; grid-template-areas: "type reg time . act" "main main main main act"; row-gap: 4px; padding: 12px 20px; border-top: 1px solid var(--edge); }
 .row:hover { background: var(--glass); }
 .c-time, .c-reg, .c-type { font: 600 10.5px/1.7 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
-.c-type { padding: 0 8px; border-radius: 999px; background: var(--glass-2); }
+.c-type { padding: 0 8px; border-radius: 999px; background: var(--glass-2); align-self: flex-start; }
+.c-types { flex-direction: row; align-items: center; gap: 4px; }
 .c-type.t-ma { color: var(--t-ma); } .c-type.t-pe { color: var(--t-pe); } .c-type.t-credit { color: var(--t-credit); }
 .c-type.t-infra { color: var(--t-infra); } .c-type.t-deal { color: var(--t-deal); } .c-type.t-news { color: var(--t-news); background: transparent; padding: 0; }
 .c-reg { color: var(--ink-2); }

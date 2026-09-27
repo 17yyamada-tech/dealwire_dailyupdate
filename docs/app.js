@@ -225,7 +225,8 @@
     svg.append(use);
     return svg;
   }
-  const typeOf = (it) => (TYPE_ORDER.find(t => (it.categories || []).includes(t))) || (it.is_deal ? "Deal" : "News");
+  // Every type a story carries, in board order: a take-private by a fund is both M&A and PE.
+  const typesOf = (it) => { const t = TYPE_ORDER.filter(x => (it.categories || []).includes(x)); return t.length ? t : [it.is_deal ? "Deal" : "News"]; };
   const typeClass = (t) => "t-" + t.toLowerCase().replace(/[^a-z]/g, "");
 
   /* ---------------- rows ---------------- */
@@ -244,7 +245,8 @@
     (FLAGS[regions[0]] || []).forEach(f => reg.append(flagNode(f)));
     reg.append(regions[0] || "—");
     reg.title = regions.join(" ") || "No region tagged";
-    const t = typeOf(it); const ty = $(".c-type", n); ty.textContent = t; ty.classList.add(typeClass(t));
+    const tys = $(".c-types", n);
+    typesOf(it).forEach(t => { const s = document.createElement("span"); s.className = "c-type " + typeClass(t); s.textContent = t; tys.append(s); });
     const a = $(".c-title", n); a.href = it.link; highlight(a, it.title, q);
     highlight($(".c-snip", n), compact ? "" : (it.snippet || ""), q);
     $(".src", n).textContent = it.source;
@@ -295,27 +297,33 @@
     // the market and macro pieces that are not deals. "By interest" reorders by what this
     // viewer reads, which is otherwise only visible in the digest.
     const today = todaySG();
-    const wanted = (it) => (state.dealsAll || it.is_deal) && passes(it) && !hidden[it.id]
-      && (!state.dealsToday || sgParts(it.published).day === today)
-      && (!state.filters.focus || it.actor === state.filters.focus);
-    let deals;
-    if (state.dealsInterest) {
-      deals = rankedItems().filter(x => wanted(x.it));
-    } else {
-      deals = collapseDupes(state.items.filter(wanted)
-        .sort((a, b) => a.published.localeCompare(b.published)).map(it => ({ it })))   // oldest first: first report wins
-        .reverse();
-    }
+    const collect = (onlyToday) => {
+      const wanted = (it) => (state.dealsAll || it.is_deal) && passes(it) && !hidden[it.id]
+        && (!onlyToday || sgParts(it.published).day === today)
+        && (!state.filters.focus || it.actor === state.filters.focus);
+      return state.dealsInterest
+        ? rankedItems().filter(x => wanted(x.it))
+        : collapseDupes(state.items.filter(wanted)
+          .sort((a, b) => a.published.localeCompare(b.published)).map(it => ({ it })))   // oldest first: first report wins
+          .reverse();
+    };
+    let deals = collect(state.dealsToday);
+    // An empty board reads as a missing board (a quiet morning, or English mode on a day of
+    // Japanese-only news): when today has nothing, fall back to the week and say so.
+    const fellBack = state.dealsToday && !deals.length;
+    if (fellBack) deals = collect(false);
     const ol = $("#deals"); ol.textContent = "";
+    if (fellBack && deals.length) {
+      const li = empty("Nothing reported yet today" + (state.lang === "en" ? " in English" : "") + ". Showing the last 7 days.");
+      li.classList.add("fallback"); ol.append(li);
+    }
     const limit = state.view === "deals" ? 200 : state.dealsShown;
     deals.slice(0, limit).forEach(x => {
       const isNew = !state.firstLoad && !state.seenDeals.has(x.it.id);
       ol.append(rowNode(x.it, { also: x.also, reasons: x.reasons || [], compact: true, fresh: isNew }));
     });
-    if (!deals.length) ol.append(empty(state.dealsToday
-      ? "Nothing reported yet today. Switch to the last 7 days."
-      : "Nothing matches these filters."));
-    $("#deals-count").textContent = deals.length + (state.dealsToday ? " today" : " in 7 days");
+    if (!deals.length) ol.append(empty("Nothing matches these filters."));
+    $("#deals-count").textContent = deals.length + (state.dealsToday && !fellBack ? " today" : " in 7 days");
     $("#deals-range").textContent = state.dealsToday ? "Last 7 days" : "Today only";
     $("#deals-scope").textContent = state.dealsAll ? "Deals only" : "All stories";
     $("#deals-order").textContent = state.dealsInterest ? "Newest first" : "By interest";

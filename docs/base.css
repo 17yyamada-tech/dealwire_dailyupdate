@@ -95,7 +95,8 @@ body[data-view="companies"] .p-deals, body[data-view="companies"] .p-digest { di
   grid-template-areas: "time reg type main act";
 }
 .board-cols span:last-child { grid-column: main / act; }
-.c-time { grid-area: time; } .c-type { grid-area: type; }
+.c-time { grid-area: time; }
+.c-types { grid-area: type; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
 .c-reg { grid-area: reg; display: flex; align-items: center; justify-content: center; gap: 4px; }
 .c-reg .flag { width: 13px; height: 9px; }
 .c-reg .flag + .flag { margin-left: -2px; }
@@ -110,6 +111,7 @@ body[data-view="companies"] .p-deals, body[data-view="companies"] .p-digest { di
 .act { border: 0; background: none; width: 26px; height: 26px; line-height: 1; padding: 0; }
 .more { display: block; margin: 12px auto; }
 .empty { list-style: none; padding: 20px 0; }
+.rows > li.empty.fallback { padding-top: 10px; padding-bottom: 10px; }
 .digest-list li { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 8px; }
 .digest-list li.empty { display: block; }   /* the message is one cell, not a numbered story */
 .digest-list h3 { margin: 0; }
@@ -180,6 +182,7 @@ dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
   .brand { gap: 7px; }
   .brand-mark { width: 22px; height: 22px; }
   .board-cols { display: none; }
+  .c-types { flex-direction: row; }
   .row {
     grid-template-columns: auto auto auto minmax(0, 1fr) auto;
     grid-template-areas: "time reg type . act" "main main main main main";

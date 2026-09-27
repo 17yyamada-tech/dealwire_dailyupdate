@@ -202,7 +202,10 @@
   ],
   "always_deal": true,
   "max": 100,
-  "max_age_days": 3
+  "max_age_days": 3,
+  "skip_title": [
+   "^Federal Home Loan Bank of "
+  ]
  },
  {
   "id": "prn_ma",

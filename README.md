@@ -122,6 +122,15 @@ de-duplication (`tokenSet` falls back to character pairs) and what the ranking l
 ## Filters
 Three axes, one labelled row each: **Region** (US / SEA / SG / JP / HK/CN), **Type** and **Focus**.
 
+A story can carry several types (a fund's take-private is M&A and PE): the board row shows every
+one, and each Type chip finds it. `infrastructure` counts for Infra only when it is not cloud, IT,
+software or network infrastructure, and the Federal Home Loan Banks' routine debt notices on the
+SEC feed are skipped (`skip_title` in `sources.json`).
+
+In English mode (the header button reads JP) stories whose headline is in Japanese are hidden on the
+board, in search and on the Companies page; followed stories stay. When "Today only" has nothing,
+the board shows the last seven days and says so.
+
 Focus is the odd one out. `rules.json` → `actor.Sponsor` lists PE houses, activists, infra and credit funds and sovereign investors; a story naming one is tagged `Sponsor`, a plain M&A headline naming none is `Strategic`, and anything with no evidence either way (filing feeds such as SEC 8-K) stays unlabelled. A Focus chip **shows only that side on the deal board**, like the other filters; it does not touch the digest. The test reads only the headline and snippet, so a deal that names no known house can land in Strategic or stay unlabelled. Japanese houses are listed as the press writes them (アパックス, 日本成長投資アライアンス), plus phrases such as ファンドが / ファンド連合 that name no house but leave no doubt.
 
 ## Changing the look

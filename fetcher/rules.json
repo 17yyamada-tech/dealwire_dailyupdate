@@ -149,7 +149,7 @@
    "新株予約権付社債"
   ],
   "Infra": [
-   "infrastructure",
+   "re:(?<!cloud )(?<!digital )(?<!it )(?<!ai )(?<!tech )(?<!technology )(?<!software )(?<!computing )(?<!payment )(?<!payments )(?<!security )(?<!network )infrastructure",
    "data centre",
    "data center",
    "data centres",
