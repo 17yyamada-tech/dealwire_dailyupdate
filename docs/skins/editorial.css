@@ -19,9 +19,9 @@ body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--sans); }
 
 .top { background: var(--bg); border-bottom: 1px solid var(--rule); }
 .brand { align-items: baseline; }
-.brand-mark { width: 12px; height: 12px; background: var(--accent); align-self: center; }
+.brand-mark { align-self: center; }
 .brand-name { font: 650 26px/1 var(--serif); letter-spacing: -.01em; }
-.brand-sub, .updated, .clock { font: 500 11px/1 var(--mono); color: var(--ink-3); letter-spacing: .06em; }
+.brand-sub, .clock { font: 500 11px/1 var(--mono); color: var(--ink-3); letter-spacing: .06em; }
 .icon-btn { color: var(--ink-2); border-radius: 6px; font-size: 17px; }
 .icon-btn:hover { background: var(--chip); }
 #q { padding: 9px 12px; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); color: var(--ink); font: 15px var(--sans); }

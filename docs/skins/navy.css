@@ -26,11 +26,9 @@ body {
 }
 
 .top { background: rgba(8, 18, 38, .72); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--edge); }
-.brand-mark { width: 10px; height: 10px; background: var(--gold); transform: rotate(45deg); }
 .brand-name { font: 500 24px/1 var(--display); letter-spacing: .28em; text-transform: uppercase; color: var(--ink); }
 .brand-sub { font: 500 10.5px/1 var(--sans); letter-spacing: .22em; color: var(--gold); }
 .clock { font: 500 13px/1 var(--sans); color: var(--ink-2); letter-spacing: .08em; }
-.updated { font: 500 11px/1 var(--sans); color: var(--ink-3); }
 .icon-btn { color: var(--ink-2); font-size: 16px; border-radius: 999px; }
 .icon-btn:hover { background: var(--glass-2); color: var(--gold); }
 #q { padding: 10px 16px; border: 1px solid var(--edge); border-radius: 999px; background: var(--glass); color: var(--ink); font: 14px var(--sans); }

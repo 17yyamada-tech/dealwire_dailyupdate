@@ -4,7 +4,6 @@
 body { background: #0b1730; font-size: 15px; }
 .top { background: #0b1730; backdrop-filter: none; -webkit-backdrop-filter: none; border-bottom: 1px solid rgba(214,179,112,.35); }
 .brand-name { font: 500 26px/1 var(--display); letter-spacing: .02em; text-transform: none; }
-.brand-mark { transform: none; width: 4px; height: 26px; }
 #q, .chip, select { border-radius: 2px; }
 .chip[aria-pressed="true"] { background: transparent; color: var(--gold); border-color: var(--gold); }
 select.active { background-color: transparent; color: var(--gold); border-color: var(--gold); }

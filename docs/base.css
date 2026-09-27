@@ -13,6 +13,9 @@ a { color: inherit; }
 .top-row, .search-row, .filters { max-width: 1320px; margin: 0 auto; }
 .top-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.brand-mark { display: block; flex: none; width: 26px; height: 26px; }
+.brand-name, .clock { white-space: nowrap; }
+@media (max-width: 480px) { .clock .tz { display: none; } }
 .top-meta { display: flex; align-items: center; gap: 8px; flex: none; }
 .icon-btn { background: none; border: 0; padding: 4px 8px; line-height: 1; }
 .lang-btn { font-size: .8em; letter-spacing: .04em; }
@@ -130,7 +133,9 @@ dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
   body[data-view="home"] .p-deals { display: none; }
   body[data-view="deals"] .p-digest { display: none; }
   .filing-card { flex-basis: 78vw; }
-  .brand-sub, .updated { display: none; }
+  .brand-sub { display: none; }
+  .brand { gap: 7px; }
+  .brand-mark { width: 22px; height: 22px; }
   .board-cols { display: none; }
   .row {
     grid-template-columns: auto auto auto minmax(0, 1fr) auto;

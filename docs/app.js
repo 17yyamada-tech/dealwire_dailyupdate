@@ -658,11 +658,8 @@
       // follow the newest edition unless the viewer is reading a specific (linked or chosen) one
       if (!state.pinned && (!state.edition || state.edition === hadNewest)) state.edition = newest || null;
       if (state.edition) await loadEdition(state.edition).catch(() => null);
-      $("#updated").textContent = "Updated " + fmtAgo(latest.updated) + " ago";
-      $("#updated").title = fmtDate(latest.updated) + " SGT";
       renderAll();
     } catch (e) {
-      $("#updated").textContent = "Offline";
       console.error(e);
     }
   }
@@ -684,7 +681,10 @@
     });
   }
   function tickClock() {
-    $("#clock").textContent = new Date().toLocaleTimeString("en-SG", { timeZone: "Asia/Singapore", hour: "2-digit", minute: "2-digit", hour12: false }) + " SGT";
+    const c = $("#clock"), t = new Date().toLocaleTimeString("en-SG", { timeZone: "Asia/Singapore", hour: "2-digit", minute: "2-digit", hour12: false });
+    c.textContent = t;
+    const tz = document.createElement("span"); tz.className = "tz"; tz.textContent = " SGT";   // dropped on phones, where the header is full
+    c.append(tz);
   }
 
   /* ---------------- email sign-up ---------------- */
