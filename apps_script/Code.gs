@@ -12,6 +12,7 @@
  *   doGet   action=unsubscribe   -> marks the address "unsubscribed" (link in every email)
  *   sendNewEdition (time trigger, every 10 min) -> if a new edition exists on GitHub, email it once
  *   refreshCompanies (time trigger, every 30 min) -> Google News headlines for every followed company
+ *   kickFetch (time trigger, every 30 min) -> asks GitHub to run fetch.yml (its own schedule runs late)
  *
  * Setup: paste this file into a new Apps Script project, run setup() once, then Deploy > New deployment >
  * Web app (Execute as: Me, Who has access: Anyone). Put the /exec URL into MAIL_ENDPOINT in docs/app.js.
@@ -45,6 +46,8 @@ function setup() {
   ScriptApp.newTrigger('sendNewEdition').timeBased().everyMinutes(10).create();
   ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'refreshCompanies').forEach(t => ScriptApp.deleteTrigger(t));
   ScriptApp.newTrigger('refreshCompanies').timeBased().everyMinutes(30).create();
+  ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'kickFetch').forEach(t => ScriptApp.deleteTrigger(t));
+  ScriptApp.newTrigger('kickFetch').timeBased().everyMinutes(30).create();
   viewersTab_(); newsTab_();
   // Mark the current newest edition as already sent so setup does not email an old digest.
   const idx = fetchJson_(CONFIG.DATA_URL + 'index.json');
@@ -288,6 +291,25 @@ function json_(obj, callback) {
     return ContentService.createTextOutput(callback + '(' + body + ');').setMimeType(ContentService.MimeType.JAVASCRIPT);
   }
   return ContentService.createTextOutput(body).setMimeType(ContentService.MimeType.JSON);
+}
+
+/* ---------------- keeping the headline fetch on time ----------------
+ * GitHub starts scheduled workflows late when it is busy: fetch.yml says every 30 minutes but ran
+ * every 3 to 5 hours, so the digest found nothing new. This trigger asks GitHub to run it every
+ * 30 minutes instead. It needs a fine-grained token limited to this repository with
+ * Actions: read and write, saved as the script property GITHUB_TOKEN. Without it, nothing happens.
+ */
+const GITHUB_FETCH_WORKFLOW = 'https://api.github.com/repos/17yyamada-tech/dealwire_dailyupdate/actions/workflows/fetch.yml/dispatches';
+
+function kickFetch() {
+  const token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+  if (!token) { Logger.log('No GITHUB_TOKEN script property: nothing to do'); return; }
+  const res = UrlFetchApp.fetch(GITHUB_FETCH_WORKFLOW, {
+    method: 'post', contentType: 'application/json', payload: JSON.stringify({ ref: 'main' }), muteHttpExceptions: true,
+    headers: { Authorization: 'Bearer ' + token.trim(), Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' },
+  });
+  const code = res.getResponseCode();
+  Logger.log(code === 204 ? 'fetch.yml started' : 'fetch.yml did not start: ' + code + ' ' + res.getContentText().slice(0, 200));
 }
 
 /* ---------------- web endpoints ---------------- */
