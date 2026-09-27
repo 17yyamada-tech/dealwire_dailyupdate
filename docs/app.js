@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20260927-1540";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20260927-1600";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -791,11 +791,14 @@
       });
       acts.append(kb, rm);
       card.append(h, meta, kw, add, foot, acts);
+      // With keywords, only headlines that name one of them: Google matches article bodies too,
+      // which lets in stories that are not about the keyword at all.
       const news = r ? (r.news || []).filter(x => state.lang !== "en" || !isJa(x))
         .map(x => ({ date: x.published && x.published.slice(0, 10), title: x.title, url: x.link, source: x.source,
-          tags: c.keywords.filter(k => wordHit(x.title, k)) })) : null;
+          tags: c.keywords.filter(k => wordHit(x.title, k)) }))
+        .filter(x => !c.keywords.length || x.tags.length) : null;
       const rule = document.createElement("div"); rule.className = "co-rule"; rule.setAttribute("aria-hidden", "true");
-      li.append(card, rule, flColumn("Latest", news, r ? "No headlines in the last 45 days." : "Fetching…"));
+      li.append(card, rule, flColumn("Latest", news, r ? (c.keywords.length ? "No headlines with these keywords in the last 45 days." : "No headlines in the last 45 days.") : "Fetching…"));
       ol.append(li);
     });
   }
