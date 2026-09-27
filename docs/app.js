@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20260927-1520";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20260927-1540";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1019,6 +1019,21 @@
     });
   }
 
+  /* ---------------- staying current ----------------
+     GitHub Pages lets a browser keep the page itself for ten minutes, and the ?v= stamps only help
+     once the new page is in hand. So ask the server which stamp is live; if it is not this one,
+     reload once (a reload revalidates the page). */
+  async function checkVersion() {
+    try {
+      const html = await (await fetch("index.html?t=" + Date.now(), { cache: "no-store" })).text();
+      const live = (html.match(/app\.js\?v=([\w-]+)/) || [])[1];
+      if (!live || live === ASSET_V) return;
+      let tried = "";
+      try { tried = sessionStorage.getItem("dw.reloadedFor") || ""; sessionStorage.setItem("dw.reloadedFor", live); } catch { /* no storage: reload anyway, once per load */ }
+      if (tried !== live) location.reload();
+    } catch { /* offline: keep what we have */ }
+  }
+
   /* ---------------- wiring ---------------- */
   function init() {
     const urlSkin = new URLSearchParams(location.search).get("skin");
@@ -1098,7 +1113,8 @@
       load().then(() => setView("archive"));   // "All past digests" link in every email
     } else load();
     setInterval(load, REFRESH_MS);
-    document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
+    checkVersion(); setInterval(checkVersion, REFRESH_MS);
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) { load(); checkVersion(); } });
   }
   init();
 })();
