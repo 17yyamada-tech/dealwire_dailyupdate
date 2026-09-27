@@ -1,0 +1,44 @@
+{
+  "edition": "2026-09-27-1530",
+  "edition_label": "27 Sep 2026 · 15:30 SGT",
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T07:34:11Z",
+  "reading_minutes": 1,
+  "items": [
+    {
+      "headline": "Stripe acquires AI model-routing startup OpenRouter",
+      "summary": "Stripe has acquired OpenRouter, according to a report examining the rationale behind the deal. The report ties the acquisition to warnings about a coming wave of fraud carried out through AI agents.",
+      "why_it_matters": "The deal gives Stripe a foothold in AI model-routing infrastructure just as concern grows over agentic AI being turned against payment systems, a risk that sits squarely in Stripe's core business.",
+      "summary_ja": "StripeがOpenRouterを買収した。買収の意図を分析する報道は、AIエージェントを悪用した詐欺の拡大への警戒とこの買収を結びつけている。",
+      "why_it_matters_ja": "この買収によりStripeはAIモデルのルーティング基盤への足かかりを得る。エージェント型AIが決済詐欺に悪用されるリスクへの危機感が高まる中、まさにStripeの中核事業に直結する領域での対应力強化となる。",
+      "status": "new",
+      "prev": null,
+      "key": "stripe-openrouter-acquisition",
+      "ids": ["61ccb43785a16f"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GTTB1N1IwUndqUDhhT2ZocUFRLTlzUmNWNzBZZUVHTFVOd3E1M1FIcGN6WnhPVTdqaEZxa1Z1bWFjXzMtUng2QXEzeW1WQnFpSHRLX2xTUmpzTmt0RnptWHNaX1lidw?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["AI & Semis", "TMT"]
+    },
+    {
+      "headline": "A24 and Sony emerge as bidders for Japanese movie-review platform",
+      "summary": "A24 and Sony have both entered a bidding contest for a movie-review social networking platform, according to reports. The reports did not disclose a valuation or transaction terms.",
+      "why_it_matters": "A Hollywood studio and a major Japanese entertainment group circling the same asset points to strategic interest in film-focused consumer platforms as distributors look for closer ties to audience data.",
+      "summary_ja": "映画レビューSNSの買収を巡り、A24とソニーが名乗りを上げていると報じられた。買収額や契約条件は明らかにされていない。",
+      "why_it_matters_ja": "ハリウッドのスタジオと日本の大手エンターテイノーント企業が同一の対象に関心を寄せる構図は、配給各社が視聴者データとの接点を重視し、映画関連の消費者向けプレットフォームへの戦略的関心が高まっていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "a24-sony-movie-review-sns-bidding-war",
+      "ids": ["74830c8a519f60", "529fb741815bc5"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYmEyNFJpamQ1WXZaRmhwMl90ZXNVZ093MkFyRk5tdTR6U2ZYblN0aUVlV3RGZzBQSE5vNF9UYjdBTENlbnRWUFVSUGMtM3NEdGhpTUNyWmd2bzFxbU95SGVtUGxCSDdjZlhQVUNNNDFkQ1JfdVdLZHdFVlNCeFk?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1EaVM1NUdhT29aWkpZSWRwSkM5czBIbHpxMnhjUEstZlpsY2ZMODRvTGthalBzY1JTdWpaU3ZhRFNQZXJLOU1Ddw?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    }
+  ]
+}
