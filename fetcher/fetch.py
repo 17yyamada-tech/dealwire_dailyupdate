@@ -272,6 +272,8 @@ def main() -> int:
                     key=lambda x: x["published"], reverse=True)
     out = {"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "sources": status, "items": latest}
     (DATA / "latest.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    # the Companies page tells funds from corporates with the same list the Sponsor tag uses
+    (DATA / "sponsors.json").write_text(json.dumps(RULES.get("actor", {}).get("Sponsor", []), ensure_ascii=False), encoding="utf-8")
 
     ok = sum(1 for s in status.values() if s["ok"])
     print(f"sources ok {ok}/{len(status)} | fetched {len(fresh)} | latest {len(latest)} | months {index['months']}")

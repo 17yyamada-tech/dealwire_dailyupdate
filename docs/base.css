@@ -162,6 +162,15 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters { displa
 .co-kw { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 2px; }
 .co-chip { cursor: default; font-size: 11px; padding: 3px 8px; }
 .co-rm, .co-edit { margin-top: 8px; display: block; }
+/* funds and corporates in two colours: the card's bar, its label and the keyword boxes in its headlines */
+.co-row.kind-fund { --kind: var(--t-pe, #3f7fe0); }
+.co-row.kind-corp { --kind: var(--t-ma, #c98a1a); }
+.fl-row.co-row { border-left-color: var(--kind); }
+.co-kind { display: inline-block; margin: 0 0 6px; padding: 2px 7px; border-radius: 2px; cursor: pointer;
+  background: none; border: 1px solid var(--kind); color: var(--kind);
+  font: 700 10px/1.3 var(--mono, monospace); letter-spacing: .12em; text-transform: uppercase; }
+.kw-tag { display: inline-block; margin-left: 8px; padding: 0 5px; border-radius: 2px; vertical-align: 1px;
+  border: 1px solid var(--kind); color: var(--kind); font-size: .92em; line-height: 1.5; text-transform: none; letter-spacing: .02em; }
 .co-card .co-kw-form { grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; padding: 0; margin: 8px 0 2px; }
 .co-kw-msg { grid-column: 1 / -1; margin: 0; }
 .co-kw-msg:empty { display: none; }

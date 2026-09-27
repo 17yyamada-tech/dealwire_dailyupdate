@@ -51,6 +51,9 @@ Three pages, in the header line on wide screens and in the bottom tab bar on pho
   language when only one is given (LanguageApp), keeps 45 days, and returns the list only to the
   browser that registered it. This stays private because a company someone is watching can itself be
   sensitive.
+  Each company is marked Fund (blue) or Corporate (amber): a guess from `data/sponsors.json` (the
+  Sponsor list, written by fetch.py) and names such as "... Capital", which the reader can flip on the
+  card. The same colour frames the card and boxes the company's keywords found in each headline.
 
 Each browser has a random id (`dw.vid`) that names no one. Limits: 20 follows and 15 companies per
 browser, 30 stories researched in total. A browser not seen for 60 days stops counting.

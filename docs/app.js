@@ -649,10 +649,12 @@
     return (m[3] ? +m[3] + " " : "") + mon + " " + m[1];
   };
   // One entry in a Background / Since then column, or one company headline.
-  function flItem({ date, title, url, source, summary }) {
+  function flItem({ date, title, url, source, summary, tags }) {
     const li = document.createElement("li"); li.className = "fl-item";
     const meta = document.createElement("p"); meta.className = "d-links fl-meta";
     meta.textContent = [fmtWhen(date), source].filter(Boolean).join(" · ");
+    // the company's keywords this headline contains, boxed in the company's colour
+    (tags || []).forEach(k => { const t = document.createElement("span"); t.className = "kw-tag"; t.textContent = k; meta.append(t); });
     const h = document.createElement("h3"), a = document.createElement("a");
     a.href = url; a.target = "_blank"; a.rel = "noopener"; a.textContent = title; h.append(a);
     li.append(meta, h);
@@ -714,6 +716,25 @@
     finally { coLoading = false; }
     if (state.view === "companies") renderCompanies();
   }
+  // Fund or corporate: the company's own choice if the reader set one, otherwise a guess from the
+  // fund list behind the Sponsor tag (data/sponsors.json) and names such as "... Capital".
+  let sponsorWords = null;
+  async function loadSponsors() { if (!sponsorWords) sponsorWords = await getJSON("data/sponsors.json").catch(() => []); }
+  const FUND_NAME = /\b(capital|partners|equity|funds?|investments?|investors|asset management)\b|ファンド|キャピタル|パートナーズ|インベストメント/i;
+  const reEsc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  function wordHit(text, w) {
+    if (w.startsWith("cs:")) return new RegExp("(?<![A-Za-z])" + reEsc(w.slice(3)) + "(?![A-Za-z])").test(text);
+    if (w.startsWith("re:")) { try { return new RegExp(w.slice(3), "i").test(text); } catch { return false; } }
+    const lw = w.toLowerCase(), lt = text.toLowerCase();
+    if (!/^[\x00-\x7f]*$/.test(lw)) return lt.includes(lw);
+    return new RegExp("(?<![a-z])" + reEsc(lw) + "(?![a-z])").test(lt);
+  }
+  function kindOf(c, searched) {
+    if (c.kind === "fund" || c.kind === "corp") return c.kind;
+    const names = [...c.name.split(/[,、]/), ...(searched || [])].map(s => s.trim()).filter(Boolean);
+    if (names.some(n => FUND_NAME.test(n))) return "fund";
+    return (sponsorWords || []).some(w => names.some(n => wordHit(n, w))) ? "fund" : "corp";
+  }
   const coKey = (c) => (c.name.split(/[,、]/).map(x => x.trim()).filter(Boolean).join(",") + "#" + c.keywords.map(x => x.trim()).join(",")).toLowerCase();
   function renderCompanies() {
     const ol = $("#co-list"); ol.textContent = "";
@@ -722,8 +743,16 @@
     const remote = new Map(((coData && coData.companies) || []).map(c => [coKey(c), c]));
     mine.forEach((c, i) => {
       const r = remote.get(coKey(c));
-      const li = document.createElement("li"); li.className = "fl-row co-row";
+      const kind = kindOf(c, r && r.searched);
+      const li = document.createElement("li"); li.className = "fl-row co-row kind-" + kind;
       const card = document.createElement("div"); card.className = "co-card";
+      const kb = document.createElement("button"); kb.type = "button"; kb.className = "co-kind";
+      kb.textContent = kind === "fund" ? "Fund" : "Corporate";
+      kb.title = "Tap to mark it as " + (kind === "fund" ? "a corporate" : "a fund");
+      kb.addEventListener("click", () => {
+        const list = companies(); list[i] = { ...list[i], kind: kind === "fund" ? "corp" : "fund" };
+        store.set("companies", list); renderCompanies();
+      });
       const h = document.createElement("h3"); h.className = "co-name"; h.textContent = c.name.split(/[,、]/)[0].trim();
       const also = (r && r.searched || []).slice(1);
       const meta = document.createElement("p"); meta.className = "panel-meta";
@@ -739,9 +768,10 @@
       rm.addEventListener("click", () => {
         store.set("companies", companies().filter((_, j) => j !== i)); updateCounts(); renderCompanies(); queueSync(200);
       });
-      card.append(h, meta, kw, edit, foot, rm);
+      card.append(kb, h, meta, kw, edit, foot, rm);
       const news = r ? (r.news || []).filter(x => state.lang !== "en" || !isJa(x))
-        .map(x => ({ date: x.published && x.published.slice(0, 10), title: x.title, url: x.link, source: x.source })) : null;
+        .map(x => ({ date: x.published && x.published.slice(0, 10), title: x.title, url: x.link, source: x.source,
+          tags: c.keywords.filter(k => wordHit(x.title, k)) })) : null;
       li.append(card, arrow(), flColumn("Latest", news, r ? "No headlines in the last 45 days." : "Fetching…"));
       ol.append(li);
     });
@@ -868,7 +898,7 @@
     $$(".tab, .vtab").forEach(t => t.classList.toggle("active", t.dataset.view === v));
     if (v === "search") runSearch();
     if (v === "follow") { renderFollow(); loadFollow().then(() => { if (state.view === "follow") renderFollow(); }); }
-    if (v === "companies") { renderCompanies(); loadCompanies(); }
+    if (v === "companies") { renderCompanies(); loadSponsors().then(() => { if (state.view === "companies") renderCompanies(); }); loadCompanies(); }
     renderDeals();
     window.scrollTo({ top: 0 });
   }
