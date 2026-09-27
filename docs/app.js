@@ -257,6 +257,7 @@
     a.addEventListener("click", open);
     a.addEventListener("auxclick", open);
     sb.addEventListener("click", () => toggleSave(it, sb));
+    $(".co", n).addEventListener("click", () => openCompanyDialog(it));
     $(".hide", n).addEventListener("click", () => { hide(it); n.remove(); });
     return n;
   }
@@ -728,22 +729,50 @@
       ol.append(li);
     });
   }
+  // Returns an error message, or "" when the company was added.
+  function addCompany(name, kwText) {
+    name = name.trim();
+    if (!name) return "Enter a company name.";
+    const keywords = kwText.split(/[,、]/).map(s => s.trim()).filter(Boolean).slice(0, 8);
+    const list = companies();
+    if (list.length >= 15) return "Up to 15 companies. Remove one to add another.";
+    if (list.some(c => coKey(c) === coKey({ name, keywords }))) return "Already on the list.";
+    list.unshift({ name, keywords });
+    store.set("companies", list);
+    updateCounts();
+    if (state.view === "companies") renderCompanies();
+    queueSync(0);
+    // the script fetches a new company's first headlines while it stores it; ask again shortly
+    setTimeout(loadCompanies, 6000); setTimeout(loadCompanies, 20000);
+    return "";
+  }
+  // From a story: guess the company as the headline's first phrase ("小林製薬、…", "Acme to buy …")
+  // and let the reader correct it.
+  function openCompanyDialog(it) {
+    const t = it.title || "";
+    const head = t.replace(/^【[^】]*】\s*/, "");
+    const m = head.match(/^([^、，,：:｢「（(\s]{2,24}?)(?:は|が)?[、，,]/) || head.match(/^([^、，,：:｢「（(\s]{2,20}?)(?:は|が)/)
+      || head.match(/^(.{2,40}?)\s+(?:to|agrees|plans|weighs|buys|acquires|sells|says|in talks)\b/i);
+    $("#co-dlg-story").textContent = t;
+    $("#co-dlg-name").value = m ? m[1].trim() : "";
+    $("#co-dlg-kw").value = ""; $("#co-dlg-status").textContent = "";
+    $("#co-dialog").showModal();
+    $("#co-dlg-name").select();
+  }
   function setupCompanies() {
     $("#co-form").addEventListener("submit", ev => {
       ev.preventDefault();
-      const name = $("#co-name").value.trim();
-      if (!name) return;
-      const keywords = $("#co-kw").value.split(/[,、]/).map(s => s.trim()).filter(Boolean).slice(0, 8);
-      const list = companies();
-      if (list.length >= 15) { $("#co-status").textContent = "Up to 15 companies. Remove one to add another."; return; }
-      if (list.some(c => coKey(c) === coKey({ name, keywords }))) { $("#co-status").textContent = "Already on the list."; return; }
-      list.unshift({ name, keywords });
-      store.set("companies", list);
-      $("#co-form").reset(); updateCounts(); renderCompanies();
-      queueSync(0);
-      // the script fetches a new company's first headlines while it stores it; ask again shortly
-      setTimeout(loadCompanies, 6000); setTimeout(loadCompanies, 20000);
+      const err = addCompany($("#co-name").value, $("#co-kw").value);
+      $("#co-status").textContent = err;
+      if (!err) { $("#co-form").reset(); renderCompanies(); }
     });
+    $("#co-dlg-form").addEventListener("submit", ev => {
+      ev.preventDefault();
+      const err = addCompany($("#co-dlg-name").value, $("#co-dlg-kw").value);
+      $("#co-dlg-status").textContent = err || "Added. It is on the Companies page.";
+      if (!err) setTimeout(() => $("#co-dialog").close(), 900);
+    });
+    $("#co-dlg-cancel").addEventListener("click", () => $("#co-dialog").close());
   }
 
   /* ---------------- search ---------------- */

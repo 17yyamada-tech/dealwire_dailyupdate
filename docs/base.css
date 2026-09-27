@@ -91,7 +91,7 @@ body[data-view="companies"] .p-deals, body[data-view="companies"] .p-digest { di
 .digest-list { overflow-y: auto; overscroll-behavior: contain; }
 .board-cols, .row {
   display: grid; align-items: start; column-gap: 10px;
-  grid-template-columns: 58px 88px 64px minmax(0, 1fr) 56px;
+  grid-template-columns: 58px 88px 64px minmax(0, 1fr) 82px;
   grid-template-areas: "time reg type main act";
 }
 .board-cols span:last-child { grid-column: main / act; }

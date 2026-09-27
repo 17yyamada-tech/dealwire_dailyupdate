@@ -260,6 +260,20 @@
   </form>
 </dialog>
 
+<dialog id="co-dialog">
+  <form class="settings" id="co-dlg-form">
+    <h2>Follow a company</h2>
+    <p class="sub-copy" id="co-dlg-story"></p>
+    <label class="field col"><span>Company (other names after a comma)</span><input id="co-dlg-name" required maxlength="120" autocomplete="off"></label>
+    <label class="field col"><span>Keywords (optional, comma separated)</span><input id="co-dlg-kw" maxlength="300" autocomplete="off" placeholder="blank = all news about the company"></label>
+    <p class="sub-status" id="co-dlg-status" role="status"></p>
+    <div class="row-btns">
+      <button type="button" id="co-dlg-cancel" class="chip ghost">Cancel</button>
+      <button type="submit" class="chip">Add to Companies</button>
+    </div>
+  </form>
+</dialog>
+
 <template id="row-tpl">
   <li class="row">
     <span class="c-time"></span>
@@ -271,7 +285,8 @@
       <div class="c-meta"><span class="src"></span><span class="sponsor"></span><span class="ago"></span><span class="sector"></span><span class="why"></span><span class="also"></span></div>
     </div>
     <div class="c-act">
-      <button class="act save" title="Save" aria-label="Save">☆</button>
+      <button class="act co" title="Follow a company in this story" aria-label="Follow a company in this story">⊕</button>
+      <button class="act save" title="Follow this story" aria-label="Follow this story">☆</button>
       <button class="act hide" title="Less like this" aria-label="Less like this">×</button>
     </div>
   </li>
