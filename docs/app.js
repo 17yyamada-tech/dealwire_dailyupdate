@@ -772,7 +772,8 @@
       const news = r ? (r.news || []).filter(x => state.lang !== "en" || !isJa(x))
         .map(x => ({ date: x.published && x.published.slice(0, 10), title: x.title, url: x.link, source: x.source,
           tags: c.keywords.filter(k => wordHit(x.title, k)) })) : null;
-      li.append(card, arrow(), flColumn("Latest", news, r ? "No headlines in the last 45 days." : "Fetching…"));
+      const rule = document.createElement("div"); rule.className = "co-rule"; rule.setAttribute("aria-hidden", "true");
+      li.append(card, rule, flColumn("Latest", news, r ? "No headlines in the last 45 days." : "Fetching…"));
       ol.append(li);
     });
   }

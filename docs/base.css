@@ -155,6 +155,8 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters { displa
 .fl-items .d-sum { font-size: 12.5px; margin: 3px 0 0; }
 .fl-meta { margin: 0; }
 .fl-arrow { align-self: center; text-align: center; font-size: 18px; color: var(--ink-3); }
+/* Companies: a plain vertical rule between the company and its headlines, in the card's colour */
+.co-rule { justify-self: center; align-self: stretch; width: 1px; background: color-mix(in srgb, var(--kind) 55%, transparent); }
 .co-form { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) auto; gap: 8px; padding: 12px 14px; max-width: 1040px; }
 .co-status:empty { display: none; }
 .co-name { margin: 0 0 4px; }
@@ -198,7 +200,7 @@ dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
     row-gap: 4px;
   }
   .tabbar { display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; padding: 6px 8px calc(6px + env(safe-area-inset-bottom)); }
-  .views, .fl-arrow { display: none; }
+  .views, .fl-arrow, .co-rule { display: none; }
   .fl-list { padding: 10px 10px 4px; gap: 12px; }
   .fl-row, .co-row { grid-template-columns: minmax(0, 1fr); height: auto; row-gap: 10px; padding: 12px 12px 12px 14px; }
   .fl-col { max-height: 300px; }
