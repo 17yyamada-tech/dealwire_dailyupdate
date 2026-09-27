@@ -18,6 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
+  const ASSET_V = "20260927-1450";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -75,7 +76,7 @@
   function applySkin(name) {
     if (!SKINS[name]) name = document.documentElement.dataset.skin in SKINS ? document.documentElement.dataset.skin : "board";
     document.documentElement.dataset.skin = name;
-    $("#skin-css").href = `skins/${name}.css`;
+    $("#skin-css").href = `skins/${name}.css?v=${ASSET_V}`;
   }
 
   /* ---------------- learning ---------------- */

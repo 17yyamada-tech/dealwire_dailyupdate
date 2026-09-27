@@ -136,6 +136,11 @@ the board shows the last seven days and says so.
 
 Focus is the odd one out. `rules.json` → `actor.Sponsor` lists PE houses, activists, infra and credit funds and sovereign investors; a story naming one is tagged `Sponsor`, a plain M&A headline naming none is `Strategic`, and anything with no evidence either way (filing feeds such as SEC 8-K) stays unlabelled. A Focus chip **shows only that side on the deal board**, like the other filters; it does not touch the digest. The test reads only the headline and snippet, so a deal that names no known house can land in Strategic or stay unlabelled. Japanese houses are listed as the press writes them (アパックス, 日本成長投資アライアンス), plus phrases such as ファンドが / ファンド連合 that name no house but leave no doubt.
 
+## Publishing a change to the page
+GitHub Pages lets browsers keep files for 10 minutes. `index.html` loads `base.css`, the skin and
+`app.js` with `?v=<stamp>`, so after a change bump that stamp (three places in `index.html` and
+`ASSET_V` in `app.js`) and readers get the new files on their next load.
+
 ## Changing the look
 All visual design lives in one file per skin: `docs/skins/board.css` (departure board, the default) and `docs/skins/editorial.css`.
 - To change the default for everyone, set `data-skin` on `<html>` and `href` of `#skin-css` in `docs/index.html`.
