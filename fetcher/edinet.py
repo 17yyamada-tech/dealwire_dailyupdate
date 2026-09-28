@@ -17,6 +17,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 import zipfile
@@ -34,6 +35,9 @@ UA = {"User-Agent": "DealWire (contact: 17yyamada@gmail.com)"}
 KEY = os.environ.get("EDINET_API_KEY", "")
 DAYS = int(os.environ.get("EDINET_DAYS", "6"))
 CODES_MAX_AGE_DAYS = 7
+SEEN = ROOT / "docs" / "data" / "edinet_seen.json"
+MAX_NEW_DOCS = int(os.environ.get("EDINET_MAX_NEW_DOCS", "350"))   # 5% reports opened per run
+PAUSE_S = 0.4                                                     # between document downloads
 
 # The filing types that describe a deal. Everything else in the index is routine reporting.
 KINDS = {
@@ -77,13 +81,15 @@ def is_sponsor(name: str) -> bool:
 
 
 def load_codes() -> dict:
-    """EDINET code -> {ja, en, ticker}. Refreshed weekly; the file is committed so the
-    scheduled run does not pull 570KB from the FSA on every pass."""
+    """EDINET code -> [ja, en, ticker, industry, listed]. Refreshed weekly; the file is committed
+    so the scheduled run does not pull 570KB from the FSA on every pass. The Companies page's
+    search list (company_index.py) is built from it too."""
     cur = {}
     if CODES.exists():
         cur = json.loads(CODES.read_text(encoding="utf-8"))
         age = (dt.date.today() - dt.date.fromisoformat(cur.get("generated", "2000-01-01"))).days
-        if age < CODES_MAX_AGE_DAYS:
+        rows_ok = all(len(v) >= 5 for v in list(cur.get("codes", {}).values())[:50])
+        if age < CODES_MAX_AGE_DAYS and rows_ok:
             return cur
     raw = fetch(CODELIST)
     with zipfile.ZipFile(io.BytesIO(raw)) as z:
@@ -100,7 +106,9 @@ def load_codes() -> dict:
             continue
         out[code] = [r[idx["提出者名"]].strip(),
                      r[idx["提出者名（英字）"]].strip(),
-                     r[idx["証券コード"]].strip()[:4]]
+                     r[idx["証券コード"]].strip()[:4],
+                     r[idx["提出者業種"]].strip() if "提出者業種" in idx else "",
+                     r[idx["上場区分"]].strip() if "上場区分" in idx else ""]
     data = {"generated": dt.date.today().isoformat(), "codes": out}
     CODES.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"code list refreshed: {len(out)} companies")
@@ -110,10 +118,11 @@ def load_codes() -> dict:
 ZEN = str.maketrans("０１２３４５６７８９（）／％，－", "0123456789()/%,-")
 
 
-def csv_values(doc_id: str) -> dict:
-    """The filing's tagged values, label -> value. One request per document."""
+def csv_rows(doc_id: str) -> list:
+    """The filing's tagged values as (label, value) pairs, in order. One request per document.
+    A label can repeat: a 5% report lists each joint holder with the same labels."""
     raw = fetch(f"{API}/documents/{doc_id}?" + urllib.parse.urlencode({"type": 5, "Subscription-Key": KEY}))
-    out = {}
+    out = []
     with zipfile.ZipFile(io.BytesIO(raw)) as z:
         for name in z.namelist():
             if not name.lower().endswith(".csv"):
@@ -121,8 +130,54 @@ def csv_values(doc_id: str) -> dict:
             text = z.read(name).decode("utf-16", errors="replace")
             for r in csv.reader(io.StringIO(text), delimiter="\t"):
                 if len(r) >= 9 and r[8].strip() not in ("", "－", "-"):
-                    out.setdefault(r[1], r[8].strip())
+                    out.append((r[1], r[8].strip()))
     return out
+
+
+def csv_values(doc_id: str) -> dict:
+    """The filing's tagged values, label -> first value."""
+    out = {}
+    for label, value in csv_rows(doc_id):
+        out.setdefault(label, value)
+    return out
+
+
+def pct(value: str):
+    """A holding ratio as a percentage. The filings tag it as a fraction (0.1374) or, now and
+    then, as a percentage already (13.74)."""
+    try:
+        x = float(value.translate(ZEN).replace(",", "").replace("%", "").strip())
+    except ValueError:
+        return None
+    return round(x * 100 if x <= 1 else x, 2)
+
+
+def stake_details(rows: list):
+    """What a 5% report says: the holding now and in the previous report, and why it is held.
+
+    Joint holders repeat the ratio labels, one per holder plus the group total, so the largest
+    value is the group's. "重要提案行為等" in the purpose means the holder may make proposals
+    to the company: the activist signal, whoever the filer is."""
+    now, prev, purpose, issuer = [], [], "", ""
+    for label, value in rows:
+        if "株券等保有割合" in label:
+            p = pct(value)
+            if p is not None:
+                (prev if "直前" in label else now).append(p)
+        elif "保有目的" in label and not purpose:
+            purpose = re.sub(r"\s+", " ", value.translate(ZEN)).strip()
+        elif not issuer and ("発行者" in label or "発行会社" in label) and "名" in label:
+            issuer = value
+    t = {}
+    if now:
+        t["stake_now"] = max(now)
+    if prev:
+        t["stake_prev"] = max(prev)
+    if purpose:
+        t["purpose"] = purpose[:160]
+    denied = re.search(r"重要提案行為等?を?(行う|行なう)(こと|予定)?(は|も)?(ない|ありません)|重要提案行為等?を?行わない", purpose)
+    t["proposal"] = bool("重要提案行為" in purpose and not denied)
+    return t, issuer
 
 
 def find(values: dict, needle: str) -> str:
@@ -225,12 +280,26 @@ def previous_terms() -> dict:
         return {}
 
 
+def load_seen() -> dict:
+    """Every 5% report already opened, with what it said. About two hundred arrive each business
+    day and nearly all are custody desks, so each is read once and remembered, not re-read on
+    every run. Pruned to the window this script looks at."""
+    try:
+        docs = json.loads(SEEN.read_text(encoding="utf-8")).get("docs", {})
+    except Exception:  # noqa: BLE001 - first run
+        docs = {}
+    cutoff = (dt.date.today() - dt.timedelta(days=DAYS + 8)).isoformat()
+    return {k: v for k, v in docs.items() if v.get("d", "") >= cutoff}
+
+
 def main() -> int:
     if not KEY:
         print("EDINET_API_KEY is not set; nothing written")
         return 1
     codes = load_codes()["codes"]
     known = previous_terms()
+    seen = load_seen()
+    opened = waiting = 0
     today = dt.date.today()
     cards, days_ok = [], 0
     for back in range(DAYS):
@@ -252,17 +321,32 @@ def main() -> int:
                 continue
             buyer_name = r.get("filerName") or ""
             sponsor = is_sponsor(buyer_name)
-            if kind == "stake" and not sponsor:
-                continue            # custody and index desks file most of these
             doc_id = r.get("docID")
             desc = r.get("docDescription") or ""
             target = party(codes, r.get("subjectEdinetCode") or "")
             terms = known.get(doc_id, {})
-            if kind == "stake" and not target["name"]:
-                name = issuer_from_document(doc_id)
-                if name:
-                    hit = next((c for c, v in codes.items() if v[0] == name), "")
-                    target = party(codes, hit, name)
+            if kind == "stake":
+                # Kept when the filer is a house we know, or when the filing itself says it may
+                # make proposals: that catches activists nobody has put on the list yet.
+                doc = seen.get(doc_id)
+                if doc is None:
+                    if opened >= MAX_NEW_DOCS:
+                        waiting += 1          # the next run picks these up
+                        continue
+                    try:
+                        t, issuer = stake_details(csv_rows(doc_id))
+                    except Exception as e:  # noqa: BLE001 - not remembered, so retried next run
+                        print(f"      stake lookup failed for {doc_id}: {str(e)[:90]}")
+                        continue
+                    opened += 1
+                    time.sleep(PAUSE_S)
+                    doc = seen[doc_id] = {"d": day.isoformat(), "keep": bool(sponsor or t.get("proposal")), "t": t, "i": issuer}
+                if not doc["keep"]:
+                    continue
+                terms = doc["t"]
+                if not target["name"] and doc.get("i"):
+                    hit = next((c for c, v in codes.items() if v[0] == doc["i"]), "")
+                    target = party(codes, hit, doc["i"])
             elif kind in ("tob", "tob_result") and not terms:
                 try:
                     terms = terms_of_offer(csv_values(doc_id))
@@ -287,6 +371,8 @@ def main() -> int:
     if not days_ok:
         print("every day failed; leaving the existing file alone")
         return 1
+    SEEN.write_text(json.dumps({"docs": seen}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"5% reports: opened {opened} new, {waiting} left for the next run, {len(seen)} remembered")
     cards.sort(key=lambda c: c["filed"], reverse=True)
     # One campaign files repeatedly: an offer plus its amendments, a stake plus its changes.
     # Keep the newest filing per buyer/target/kind and say how many there were.

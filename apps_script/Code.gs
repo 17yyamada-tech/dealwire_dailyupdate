@@ -132,13 +132,17 @@ function cleanFollows_(raw) {
   }).filter(function (x) { return x.id && x.title && /^https?:\/\//.test(x.link); });
 }
 
-// A company is {name, keywords}. The name field may hold several names separated by commas
-// ("Toyota, トヨタ自動車"); the first is the one shown.
+// A company is {name, keywords} plus, when the reader picked it from the search list, where it
+// is listed: market (JP/US), ticker and, for the US, the SEC's CIK. The name field may hold
+// several names separated by commas ("Toyota, トヨタ自動車"); the first is the one shown.
 function cleanCompanies_(raw) {
   return parseList_(raw).slice(0, FOLLOW.MAX_COMPANIES_PER_VIEWER).map(function (x) {
     const names = String(x.name || '').split(/[,、]/).map(function (s) { return clip_(s, 60); }).filter(String).slice(0, 4);
     const keywords = (Array.isArray(x.keywords) ? x.keywords : []).map(function (s) { return clip_(s, 40); }).filter(String).slice(0, 8);
-    return { names: names, keywords: keywords };
+    const market = x.market === 'JP' || x.market === 'US' ? x.market : '';
+    const ticker = /^[A-Za-z0-9.\-]{1,10}$/.test(String(x.ticker || '')) ? String(x.ticker).toUpperCase() : '';
+    const cik = /^\d{1,10}$/.test(String(x.cik || '')) ? String(x.cik) : '';
+    return { names: names, keywords: keywords, market: market, ticker: ticker, cik: market === 'US' ? cik : '' };
   }).filter(function (c) { return c.names.length; });
 }
 function companyKey_(c) {
@@ -154,7 +158,9 @@ function sync_(p) {
   try {
     const sh = viewersTab_(), rows = sh.getDataRange().getValues(), now = new Date();
     // stored in the shape the page sends, so every reader can run it through cleanCompanies_ again
-    const stored = companies.map(function (c) { return { name: c.names.join(', '), keywords: c.keywords }; });
+    const stored = companies.map(function (c) {
+      return { name: c.names.join(', '), keywords: c.keywords, market: c.market, ticker: c.ticker, cik: c.cik };
+    });
     const row = [vid, JSON.stringify(follows), JSON.stringify(stored), now];
     let r = 1;
     while (r < rows.length && rows[r][0] !== vid) r++;
@@ -165,6 +171,10 @@ function sync_(p) {
   tab.getDataRange().getValues().slice(1).forEach(function (r) { known[r[0]] = true; });
   companies.filter(function (c) { return !known[companyKey_(c)]; }).slice(0, 3)
     .forEach(function (c) { refreshCompany_(tab, c); });
+  // and a new US company its SEC figures
+  const facts = factsByCik_();
+  companies.filter(function (c) { return c.cik && !facts[c.cik]; }).slice(0, 2)
+    .forEach(function (c) { refreshFacts_(c.cik); });
   return 'ok';
 }
 
@@ -197,12 +207,77 @@ function companiesFor_(vid) {
   newsTab_().getDataRange().getValues().slice(1).forEach(function (r) {
     news[r[0]] = { names: parseList_(r[1]), news: parseList_(r[3]), updated: r[4] ? new Date(r[4]).toISOString() : '' };
   });
+  const facts = factsByCik_();
   return {
     companies: (mine ? cleanCompanies_(mine[2]) : []).map(function (c) {
       const n = news[companyKey_(c)] || { names: c.names, news: [], updated: '' };
-      return { name: c.names.join(', '), keywords: c.keywords, searched: n.names, news: n.news, updated: n.updated };
+      return { name: c.names.join(', '), keywords: c.keywords, searched: n.names, news: n.news, updated: n.updated,
+        facts: c.cik && facts[c.cik] ? facts[c.cik].facts : null };
     }),
   };
+}
+
+/* ---------------- US figures from the SEC ----------------
+ * For a US company picked from the search list (it carries a CIK), the SEC's own XBRL data: the
+ * last two fiscal years' revenue, operating income and net income as filed in the 10-K, the
+ * shares outstanding, and the industry (SIC). Refreshed weekly. Numbers are exactly what the
+ * company filed; nothing is estimated. The SEC asks for a contact in the User-Agent, and the
+ * script owner's address is used for that, so none is written into the public repository.
+ */
+const FACTS_TAB = 'Fundamentals';
+const FACTS_MAX_AGE_MS = 7 * 864e5;
+const REVENUE_TAGS = ['Revenues', 'RevenueFromContractWithCustomerExcludingAssessedTax', 'SalesRevenueNet',
+  'RevenuesNetOfInterestExpense', 'TotalRevenuesAndOtherIncome'];
+
+function factsTab_() { return tab_(FACTS_TAB, ['cik', 'facts', 'updated']); }
+function factsByCik_() {
+  const out = {};
+  factsTab_().getDataRange().getValues().slice(1).forEach(function (r) {
+    let f = null; try { f = JSON.parse(r[1] || 'null'); } catch (e) { /* unreadable row: refetched */ }
+    out[String(r[0])] = { facts: f, updated: new Date(r[2]).getTime() || 0 };
+  });
+  return out;
+}
+function secGet_(url) {
+  const res = UrlFetchApp.fetch(url, { muteHttpExceptions: true,
+    headers: { 'User-Agent': 'DealWire ' + Session.getEffectiveUser().getEmail() } });
+  return res.getResponseCode() === 200 ? JSON.parse(res.getContentText()) : null;
+}
+// The latest two fiscal years of one concept, from annual reports only.
+function annual_(concept, unit) {
+  const rows = (concept && concept.units && concept.units[unit]) || [];
+  const byEnd = {};
+  rows.forEach(function (x) {
+    if (!/^(10-K|20-F|40-F)/.test(x.form || '') || !x.start || !x.end) return;
+    const days = (Date.parse(x.end) - Date.parse(x.start)) / 864e5;
+    if (days < 330 || days > 400) return;                       // a full year, not a quarter
+    if (!byEnd[x.end] || String(x.filed) > String(byEnd[x.end].filed)) byEnd[x.end] = x;   // latest restatement wins
+  });
+  return Object.keys(byEnd).sort().reverse().slice(0, 2).map(function (e) { return { end: e, val: byEnd[e].val }; });
+}
+function concept_(pad, taxonomy, tag) {
+  return secGet_('https://data.sec.gov/api/xbrl/companyconcept/CIK' + pad + '/' + taxonomy + '/' + tag + '.json');
+}
+function refreshFacts_(cik) {
+  const pad = ('0000000000' + cik).slice(-10), f = { currency: 'USD' };
+  try {
+    const sub = secGet_('https://data.sec.gov/submissions/CIK' + pad + '.json');
+    if (sub) { f.sic = sub.sicDescription || ''; f.fiscal_year_end = sub.fiscalYearEnd || ''; }
+    for (let i = 0; i < REVENUE_TAGS.length && !f.revenue; i++) {
+      const r = annual_(concept_(pad, 'us-gaap', REVENUE_TAGS[i]), 'USD');
+      if (r.length) f.revenue = r;
+    }
+    const op = annual_(concept_(pad, 'us-gaap', 'OperatingIncomeLoss'), 'USD'); if (op.length) f.operating_income = op;
+    const ni = annual_(concept_(pad, 'us-gaap', 'NetIncomeLoss'), 'USD'); if (ni.length) f.net_income = ni;
+    const sh = concept_(pad, 'dei', 'EntityCommonStockSharesOutstanding');
+    const pts = ((sh && sh.units && sh.units.shares) || []).slice().sort(function (a, b) { return String(b.end).localeCompare(String(a.end)); });
+    if (pts.length) f.shares = { end: pts[0].end, val: pts[0].val };
+  } catch (e) { Logger.log('SEC facts failed for ' + cik + ': ' + e); }
+  const tab = factsTab_(), rows = tab.getDataRange().getValues();
+  let r = 1;
+  while (r < rows.length && String(rows[r][0]) !== String(cik)) r++;
+  const row = [String(cik), JSON.stringify(f), new Date()];
+  if (r < rows.length) tab.getRange(r + 1, 1, 1, 3).setValues([row]); else tab.appendRow(row);
 }
 
 // The name in the other language, so "Toyota" also finds トヨタ and トヨタ自動車 also finds Toyota Motor.
@@ -281,6 +356,11 @@ function refreshCompanies() {
     .slice(0, FOLLOW.MAX_COMPANY_QUERIES).forEach(function (k) {
       if (Date.now() - start < FOLLOW.REFRESH_BUDGET_MS) refreshCompany_(tab, wanted[k]);
     });
+  // SEC figures for US companies: weekly, a few per run
+  const facts = factsByCik_(), ciks = {};
+  Object.keys(wanted).forEach(function (k) { if (wanted[k].cik) ciks[wanted[k].cik] = true; });
+  Object.keys(ciks).filter(function (c) { return !facts[c] || Date.now() - facts[c].updated > FACTS_MAX_AGE_MS; })
+    .slice(0, 5).forEach(function (c) { if (Date.now() - start < FOLLOW.REFRESH_BUDGET_MS) refreshFacts_(c); });
 }
 
 // Reads come back as JSONP when the page asks for it: a script tag loads across origins

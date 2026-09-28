@@ -13,7 +13,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25   # every new 5% report is opened once (about 200 a business day)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "deal-wire-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/data/edinet.json fetcher/edinet_codes.json
+          git add docs/data/edinet.json docs/data/edinet_seen.json fetcher/edinet_codes.json
           git diff --cached --quiet && exit 0
           git commit -m "edinet: $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase --autostash

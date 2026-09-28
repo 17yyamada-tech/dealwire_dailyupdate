@@ -76,7 +76,7 @@ select { appearance: none; }
 .p-deals { grid-area: deals; }
 .p-digest { grid-area: digest; }
 .p-search, .p-follow, .p-companies { grid-area: 1 / 1 / 2 / -1; }
-body:not([data-view="home"]) .p-contact, body:not([data-view="home"]) .p-filings,
+body:not([data-view="home"]) .p-contact, body:not([data-view="home"]) .p-filings, body:not([data-view="home"]) .p-reference,
 body[data-view="search"] .p-deals, body[data-view="search"] .p-digest,
 body[data-view="follow"] .p-deals, body[data-view="follow"] .p-digest,
 body[data-view="companies"] .p-deals, body[data-view="companies"] .p-digest { display: none; }
@@ -179,6 +179,50 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters { displa
   font: 700 11px/1.2 var(--mono, monospace); letter-spacing: .06em; white-space: nowrap; }
 .co-kw-go:hover { background: color-mix(in srgb, var(--kind) 15%, transparent); }
 .co-acts { display: flex; gap: 14px; margin: 8px 0 0; }
+/* listing: ticker beside the name, sector and filed figures under it, then the outbound links */
+.co-ticker { margin-left: 8px; padding: 1px 6px; border-radius: 2px; vertical-align: 2px; white-space: nowrap;
+  border: 1px solid var(--kind); color: var(--kind); font: 700 10.5px/1.4 var(--mono, monospace); letter-spacing: .04em; }
+.co-facts p { margin: 3px 0 0; font-size: 12.5px; color: var(--ink-2); }
+.co-facts .co-src { font-size: 10.5px; color: var(--ink-3); }
+.co-links { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 8px 0 0; font-size: 11.5px; }
+.co-links a { color: var(--kind); text-decoration: none; border-bottom: 1px dotted currentColor; }
+.co-links a:hover { border-bottom-style: solid; }
+.co-link-pick { margin: 8px 0 0; max-width: 280px; }
+.co-link-pick input { width: 100%; padding: 5px 8px; font-size: 12px; background: transparent; color: inherit;
+  border: 1px dashed color-mix(in srgb, var(--kind) 60%, transparent); border-radius: 3px; }
+/* suggestions under a company box */
+.co-suggest-wrap { position: relative; min-width: 0; }
+.co-suggest-wrap > input { width: 100%; }
+.co-suggest { position: absolute; z-index: 30; left: 0; right: 0; top: calc(100% + 2px); margin: 0; padding: 4px 0; list-style: none;
+  min-width: 300px; max-height: 320px; overflow-y: auto; border-radius: 4px;
+  background: var(--panel, var(--surface, var(--bg, #fff))); border: 1px solid var(--line, var(--rule, var(--edge, #ccc)));
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .25); }
+.co-suggest li { display: grid; grid-template-columns: 58px minmax(0, 1fr); column-gap: 10px; padding: 6px 10px; cursor: pointer; }
+.co-suggest li.on, .co-suggest li:hover { background: color-mix(in srgb, var(--ink-3) 18%, transparent); }
+.sg-t { grid-row: 1 / 3; font: 700 12px/1.4 var(--mono, monospace); color: var(--ink); }
+.sg-n { font-size: 13px; color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sg-m { font-size: 10.5px; color: var(--ink-3); }
+
+/* 5% stake: the change in the holding, and the proposal-intent flag */
+.fc-chg { font-weight: 700; }
+.fc-chg.up { color: #2fa36b; } .fc-chg.down { color: #d9534f; }
+.fc-purpose { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.fc-proposal { padding: 1px 5px; border-radius: 2px; border: 1px solid #e0913a; color: #e0913a;
+  font: 700 9.5px/1.3 var(--mono, monospace); letter-spacing: .08em; text-transform: uppercase; }
+
+/* Sources & reliability: a quiet reference at the foot of Home */
+.panel.p-reference { grid-column: 1 / -1; }
+.ref-tiers { list-style: none; margin: 10px 0 12px; padding: 0 14px; display: grid; gap: 5px; font-size: 12.5px; color: var(--ink-2); }
+.ref-tier { display: inline-block; min-width: 76px; margin-right: 8px; padding: 1px 6px; border-radius: 2px; text-align: center;
+  font: 700 10px/1.5 var(--mono, monospace); letter-spacing: .06em; text-transform: uppercase; border: 1px solid currentColor; }
+.t-official { color: #2fa36b; } .t-issuer { color: #3f8fd8; } .t-press { color: #8b8fd9; }
+.t-aggregated { color: #d9a23a; } .t-machine { color: #d9607a; }
+.ref-scroll { overflow-x: auto; padding: 0 14px; }
+.ref-table { width: 100%; border-collapse: collapse; font-size: 12.5px; color: var(--ink-2); min-width: 640px; }
+.ref-table th { text-align: left; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); padding: 6px 8px; }
+.ref-table td { padding: 6px 8px; vertical-align: top; border-top: 1px solid var(--line, var(--rule, var(--edge))); }
+.ref-table td.sec { color: var(--ink); font-weight: 600; white-space: nowrap; }
+.ref-note { padding: 10px 14px 4px; }
 .kw-tag { display: inline-block; margin-left: 8px; padding: 0 5px; border-radius: 2px; vertical-align: 1px;
   border: 1px solid var(--kind); color: var(--kind); font-size: .92em; line-height: 1.5; text-transform: none; letter-spacing: .02em; }
 .co-kw-msg { grid-column: 1 / -1; margin: 0; }

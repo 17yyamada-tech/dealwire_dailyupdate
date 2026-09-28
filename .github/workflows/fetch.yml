@@ -23,6 +23,10 @@ jobs:
         run: python fetcher/fetch.py
       - name: Followed stories (list for the follow-up Routine)
         run: python fetcher/follows.py
+      - name: Company search list (weekly; Companies page)
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python fetcher/company_index.py
       - name: Commit data
         run: |
           git config user.name "deal-wire-bot"

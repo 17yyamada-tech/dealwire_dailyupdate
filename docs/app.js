@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20260927-1620";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20260928-2130";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -357,6 +357,8 @@
     k.textContent = FILING_LABEL[c.kind] || c.kind;
     head.append(k);
     if (c.sponsor) { const s = document.createElement("span"); s.className = "fc-sponsor"; s.textContent = "Sponsor"; head.append(s); }
+    // the filing's own purpose says the holder may make proposals: the activist signal
+    if (c.terms && c.terms.proposal) { const s = document.createElement("span"); s.className = "fc-proposal"; s.textContent = "Proposal intent"; s.title = "Holding purpose includes 重要提案行為等"; head.append(s); }
     const d = document.createElement("span"); d.className = "fc-date"; d.textContent = fmtDate(c.filed); head.append(d);
 
     const target = document.createElement("a"); target.className = "fc-target";
@@ -381,11 +383,22 @@
     if (t.floor) pairs.push(["Floor", t.floor + " sh"]);
     if (t.settles) pairs.push(["Settles", fmtDay(t.settles)]);
     if (t.backer) pairs.push(["Backer", t.backer]);
+    // 5% reports: the holding before and after, as filed, and why it is held
+    if (t.stake_now != null) {
+      const now = t.stake_now.toFixed(2) + "%";
+      if (t.stake_prev != null) {
+        const d = t.stake_now - t.stake_prev;
+        pairs.push(["Holding", `${t.stake_prev.toFixed(2)}% → ${now}`, `(${d >= 0 ? "+" : "−"}${Math.abs(d).toFixed(2)}pt)`, d >= 0 ? "up" : "down"]);
+      } else pairs.push(["Holding", now, "(new)", "up"]);
+    }
+    if (t.purpose) pairs.push(["Purpose", t.purpose]);
     if (pairs.length) {
       const dl = document.createElement("dl"); dl.className = "fc-terms";
-      pairs.forEach(([k, v]) => {
+      pairs.forEach(([k, v, extra, dir]) => {
         const dt = document.createElement("dt"); dt.textContent = k;
         const dd = document.createElement("dd"); dd.textContent = v;
+        if (extra) { const e = document.createElement("span"); e.className = "fc-chg " + (dir || ""); e.textContent = " " + extra; dd.append(e); }
+        if (k === "Purpose") dd.className = "fc-purpose";
         dl.append(dt, dd);
       });
       li.append(dl);
@@ -737,20 +750,158 @@
     return (sponsorWords || []).some(w => names.some(n => wordHit(n, w))) ? "fund" : "corp";
   }
   const coKey = (c) => (c.name.split(/[,、]/).map(x => x.trim()).filter(Boolean).join(",") + "#" + c.keywords.map(x => x.trim()).join(",")).toLowerCase();
+
+  /* The search list (data/company_index.json, rebuilt weekly): every listed Japanese company from
+     the FSA's EDINET code list and every US-listed ticker from the SEC. Loaded on first use. */
+  let coIndex = null, coIndexLoading = null;
+  function loadCompanyIndex() {
+    if (coIndex) return Promise.resolve(coIndex);
+    return coIndexLoading || (coIndexLoading = getJSON("data/company_index.json").catch(() => ({ rows: [] }))
+      .then(d => (coIndex = (d.rows || []).map(r => ({ ...r, ln: r.n.toLowerCase(), le: (r.e || "").toLowerCase(), lt: r.t.toLowerCase() })))));
+  }
+  function searchCompanies(q) {
+    q = q.trim().toLowerCase();
+    if (!q || !coIndex) return [];
+    const tiers = [[], [], [], []];   // ticker exact, ticker prefix, name prefix, name contains
+    for (const r of coIndex) {
+      if (r.lt === q) tiers[0].push(r);
+      else if (r.lt.startsWith(q)) tiers[1].push(r);
+      else if (r.ln.startsWith(q) || r.le.startsWith(q)) tiers[2].push(r);
+      else if (q.length > 1 && (r.ln.includes(q) || r.le.includes(q))) tiers[3].push(r);
+    }
+    return tiers.flat().slice(0, 8);
+  }
+  const EXCHANGE_TV = { NYSE: "NYSE", Nasdaq: "NASDAQ", "NYSE American": "AMEX", CBOE: "CBOE" };
+  const listingLabel = (c) => c.market === "JP" ? `${c.ticker} · TSE` : c.market === "US" ? `${c.ticker} · ${c.exchange || "US"}` : "";
+  // The 33 TSE industries as EDINET names them, in English for an English page.
+  const JP_SECTOR = { "水産・農林業": "Fishery & Agriculture", "鉱業": "Mining", "建設業": "Construction", "食料品": "Foods",
+    "繊維製品": "Textiles", "パルプ・紙": "Pulp & Paper", "化学": "Chemicals", "医薬品": "Pharmaceuticals",
+    "石油・石炭製品": "Oil & Coal Products", "ゴム製品": "Rubber Products", "ガラス・土石製品": "Glass & Ceramics",
+    "鉄鋼": "Iron & Steel", "非鉄金属": "Nonferrous Metals", "金属製品": "Metal Products", "機械": "Machinery",
+    "電気機器": "Electric Appliances", "輸送用機器": "Transportation Equipment", "精密機器": "Precision Instruments",
+    "その他製品": "Other Products", "電気・ガス業": "Electric Power & Gas", "陸運業": "Land Transportation",
+    "海運業": "Marine Transportation", "空運業": "Air Transportation", "倉庫・運輸関連業": "Warehousing",
+    "情報・通信業": "Information & Communication", "卸売業": "Wholesale Trade", "小売業": "Retail Trade", "銀行業": "Banks",
+    "証券、商品先物取引業": "Securities & Commodities", "保険業": "Insurance", "その他金融業": "Other Financing",
+    "不動産業": "Real Estate", "サービス業": "Services" };
+  // Legal suffixes make a poor news query ("KKR & Co. Inc."); drop them from a picked US name.
+  const plainUS = (n) => n.replace(/,?\s+(Inc\.?|Incorporated|Corp\.?|Corporation|Ltd\.?|Limited|plc|PLC|L\.?P\.?|N\.V\.|S\.A\.|AG|SE|Holdings?,? Inc\.?)$/i, "").trim();
+  const pickFields = (r) => ({ market: r.m, ticker: r.t, cik: r.c || "", exchange: r.x || "", sector: r.m === "JP" ? (JP_SECTOR[r.s] || r.s || "") : "" });
+  // An already-added company with no listing: link it when the name is exactly a ticker or a
+  // listed name. Anything less certain waits for the reader to pick from the list.
+  function autoListing(c) {
+    if (c.market || !coIndex) return null;
+    const first = c.name.split(/[,、]/)[0].trim().toLowerCase();
+    const hits = coIndex.filter(r => r.lt === first || r.ln === first || r.le === first || (r.m === "US" && plainUS(r.n).toLowerCase() === first));
+    return hits.length === 1 ? hits[0] : null;
+  }
+
+  // Suggestions under a text box: type a name or a ticker, pick with a click or the arrow keys.
+  function attachSuggest(input, onPick) {
+    const wrap = document.createElement("div"); wrap.className = "co-suggest-wrap";
+    input.replaceWith(wrap); wrap.append(input);
+    const ul = document.createElement("ul"); ul.className = "co-suggest"; ul.hidden = true; ul.setAttribute("role", "listbox");
+    wrap.append(ul);
+    let rows = [], at = -1;
+    const close = () => { ul.hidden = true; at = -1; };
+    const draw = () => {
+      ul.textContent = "";
+      rows.forEach((r, i) => {
+        const li = document.createElement("li"); li.setAttribute("role", "option"); if (i === at) li.className = "on";
+        const t = document.createElement("span"); t.className = "sg-t"; t.textContent = r.t;
+        const n = document.createElement("span"); n.className = "sg-n"; n.textContent = r.n;
+        const m = document.createElement("span"); m.className = "sg-m";
+        m.textContent = r.m === "JP" ? ["TSE", JP_SECTOR[r.s] || r.s].filter(Boolean).join(" · ") : (r.x || "US");
+        li.append(t, n, m);
+        li.addEventListener("mousedown", ev => { ev.preventDefault(); pick(r); });
+        ul.append(li);
+      });
+      ul.hidden = !rows.length;
+    };
+    const pick = (r) => { input.value = r.m === "US" ? plainUS(r.n) : r.n; input.dataset.pick = JSON.stringify(r); close(); onPick && onPick(r); };
+    input.addEventListener("input", () => {
+      delete input.dataset.pick;
+      loadCompanyIndex().then(() => { rows = searchCompanies(input.value); at = -1; draw(); });
+    });
+    input.addEventListener("keydown", ev => {
+      if (ul.hidden) return;
+      if (ev.key === "ArrowDown") { at = Math.min(rows.length - 1, at + 1); draw(); ev.preventDefault(); }
+      else if (ev.key === "ArrowUp") { at = Math.max(0, at - 1); draw(); ev.preventDefault(); }
+      else if (ev.key === "Enter" && at >= 0) { pick(rows[at]); ev.preventDefault(); }
+      else if (ev.key === "Escape") close();
+    });
+    input.addEventListener("blur", () => setTimeout(close, 150));
+    return input;
+  }
+  const picked = (input) => { try { return input.dataset.pick ? JSON.parse(input.dataset.pick) : null; } catch { return null; } };
+
+  const money = (v) => {
+    const a = Math.abs(v), s = v < 0 ? "−$" : "$";
+    return a >= 1e9 ? s + (a / 1e9).toFixed(a >= 1e11 ? 0 : 1) + "bn" : a >= 1e6 ? s + Math.round(a / 1e6) + "m" : s + Math.round(a).toLocaleString();
+  };
+  // US figures, exactly as filed with the SEC (10-K): no estimates, no market prices.
+  function factsLines(f) {
+    const out = [];
+    if (f.sic) out.push(f.sic.replace(/\b([A-Z])([A-Z]+)\b/g, (m, a, b) => a + b.toLowerCase()));
+    const rev = f.revenue || [];
+    if (rev.length) {
+      let s = `Revenue FY${rev[0].end.slice(0, 4)} ${money(rev[0].val)}`;
+      if (rev[1] && rev[1].val) { const g = (rev[0].val / rev[1].val - 1) * 100; s += ` (${g >= 0 ? "+" : "−"}${Math.abs(g).toFixed(0)}% YoY)`; }
+      out.push(s);
+    }
+    const bits = [];
+    if (f.operating_income && f.operating_income[0]) bits.push("Op. income " + money(f.operating_income[0].val));
+    if (f.net_income && f.net_income[0]) bits.push("Net income " + money(f.net_income[0].val));
+    if (bits.length) out.push(bits.join(" · "));
+    return out;
+  }
+  // One click to the places a reader would look next; the page does not try to be them.
+  function listingLinks(c) {
+    const T = encodeURIComponent(c.ticker);
+    const L = c.market === "JP"
+      ? [["IR BANK", `https://irbank.net/${T}`], ["Kabutan", `https://kabutan.jp/stock/?code=${T}`],
+         ["Yahoo!ファイナンス", `https://finance.yahoo.co.jp/quote/${T}.T`], ["TradingView", `https://www.tradingview.com/symbols/TSE-${T}/`]]
+      : [["Yahoo Finance", `https://finance.yahoo.com/quote/${T}`], ["SEC filings", `https://www.sec.gov/edgar/browse/?CIK=${encodeURIComponent(c.cik || "")}`],
+         ["TradingView", `https://www.tradingview.com/symbols/${EXCHANGE_TV[c.exchange] || "NYSE"}-${T}/`]];
+    const p = document.createElement("p"); p.className = "co-links";
+    L.forEach(([label, href]) => { const a = document.createElement("a"); a.href = href; a.target = "_blank"; a.rel = "noopener"; a.textContent = label; p.append(a); });
+    return p;
+  }
+  function setListing(i, r) {
+    const list = companies(); list[i] = { ...list[i], ...pickFields(r) };
+    store.set("companies", list); renderCompanies(); queueSync(0);
+    if (r.m === "US") { setTimeout(loadCompanies, 8000); setTimeout(loadCompanies, 25000); }
+  }
+
   function renderCompanies() {
     const ol = $("#co-list"); ol.textContent = "";
     const mine = companies();
     if (!mine.length) { ol.append(empty("No companies yet. Add one above; keywords narrow it to the news you care about.")); return; }
     const remote = new Map(((coData && coData.companies) || []).map(c => [coKey(c), c]));
+    // companies added before the search list existed: link the unambiguous ones once
+    if (coIndex) {
+      let changed = false;
+      const list = mine.map(c => { const r = autoListing(c); if (r) { changed = true; return { ...c, ...pickFields(r) }; } return c; });
+      if (changed) { store.set("companies", list); queueSync(0); return renderCompanies(); }
+    } else loadCompanyIndex().then(() => { if (state.view === "companies") renderCompanies(); });
     mine.forEach((c, i) => {
       const r = remote.get(coKey(c));
       const kind = kindOf(c, r && r.searched);
       const li = document.createElement("li"); li.className = "fl-row co-row kind-" + kind;
       const card = document.createElement("div"); card.className = "co-card";
       const h = document.createElement("h3"); h.className = "co-name"; h.textContent = c.name.split(/[,、]/)[0].trim();
+      if (c.market) { const t = document.createElement("span"); t.className = "co-ticker"; t.textContent = listingLabel(c); h.append(t); }
       const also = (r && r.searched || []).slice(1);
       const meta = document.createElement("p"); meta.className = "panel-meta";
       meta.textContent = also.length ? "Also searching: " + also.join(", ") : "";
+      // what it is: the sector, and for a US company its last filed figures
+      const facts = document.createElement("div"); facts.className = "co-facts";
+      const lines = [];
+      if (c.market === "JP" && c.sector) lines.push(c.sector);
+      if (c.market === "US" && r && r.facts) lines.push(...factsLines(r.facts));
+      lines.forEach(t => { const p = document.createElement("p"); p.textContent = t; facts.append(p); });
+      if (c.market === "US" && r && r.facts && r.facts.revenue) { const s = document.createElement("p"); s.className = "co-src"; s.textContent = "As filed with the SEC (10-K)"; facts.append(s); }
+      if (c.market === "US" && !(r && r.facts)) { const p = document.createElement("p"); p.className = "co-src"; p.textContent = "SEC figures arrive within a few minutes."; facts.append(p); }
       // Keywords one by one: × drops one, the box below adds one (or several, comma separated).
       const kw = document.createElement("div"); kw.className = "co-kw";
       if (!c.keywords.length) { const s = document.createElement("span"); s.className = "chip co-chip"; s.textContent = "All news"; kw.append(s); }
@@ -790,7 +941,17 @@
         store.set("companies", companies().filter((_, j) => j !== i)); updateCounts(); renderCompanies(); queueSync(200);
       });
       acts.append(kb, rm);
-      card.append(h, meta, kw, add, foot, acts);
+      card.append(h, meta, facts);
+      if (c.market) card.append(listingLinks(c));
+      else {
+        // not linked to a listing yet: let the reader pick it, which adds the ticker and links
+        const lf = document.createElement("div"); lf.className = "co-link-pick";
+        const li2 = document.createElement("input"); li2.placeholder = "Find its ticker (name or code)"; li2.autocomplete = "off";
+        li2.setAttribute("aria-label", "Find the listing for " + c.name);
+        lf.append(li2); card.append(lf);
+        attachSuggest(li2, row => setListing(i, row));
+      }
+      card.append(kw, add, foot, acts);
       // With keywords, only headlines that name one of them: Google matches article bodies too,
       // which lets in stories that are not about the keyword at all.
       const news = r ? (r.news || []).filter(x => state.lang !== "en" || !isJa(x))
@@ -815,14 +976,15 @@
     return "";
   }
   // Returns an error message, or "" when the company was added.
-  function addCompany(name, kwText) {
+  function addCompany(name, kwText, pick) {
     name = name.trim();
     if (!name) return "Enter a company name.";
     const keywords = kwText.split(/[,、]/).map(s => s.trim()).filter(Boolean).slice(0, 8);
     const list = companies();
     if (list.length >= 15) return "Up to 15 companies. Remove one to add another.";
     if (list.some(c => coKey(c) === coKey({ name, keywords }))) return "Already on the list.";
-    list.unshift({ name, keywords });
+    const listing = pick || autoListing({ name });
+    list.unshift({ name, keywords, ...(listing ? pickFields(listing) : {}) });
     store.set("companies", list);
     updateCounts();
     if (state.view === "companies") renderCompanies();
@@ -840,20 +1002,23 @@
       || head.match(/^(.{2,40}?)\s+(?:to|agrees|plans|weighs|buys|acquires|sells|says|in talks)\b/i);
     $("#co-dlg-story").textContent = t;
     $("#co-dlg-name").value = m ? m[1].trim() : "";
-    $("#co-dlg-kw").value = ""; $("#co-dlg-status").textContent = "";
+    $("#co-dlg-kw").value = ""; $("#co-dlg-status").textContent = ""; delete $("#co-dlg-name").dataset.pick;
+    loadCompanyIndex();
     $("#co-dialog").showModal();
     $("#co-dlg-name").select();
   }
   function setupCompanies() {
+    attachSuggest($("#co-name"));
+    attachSuggest($("#co-dlg-name"));
     $("#co-form").addEventListener("submit", ev => {
       ev.preventDefault();
-      const err = addCompany($("#co-name").value, $("#co-kw").value);
+      const err = addCompany($("#co-name").value, $("#co-kw").value, picked($("#co-name")));
       $("#co-status").textContent = err;
-      if (!err) { $("#co-form").reset(); renderCompanies(); }
+      if (!err) { $("#co-form").reset(); delete $("#co-name").dataset.pick; renderCompanies(); }
     });
     $("#co-dlg-form").addEventListener("submit", ev => {
       ev.preventDefault();
-      const err = addCompany($("#co-dlg-name").value, $("#co-dlg-kw").value);
+      const err = addCompany($("#co-dlg-name").value, $("#co-dlg-kw").value, picked($("#co-dlg-name")));
       $("#co-dlg-status").textContent = err || "Added. It is on the Companies page.";
       if (!err) setTimeout(() => $("#co-dialog").close(), 900);
     });

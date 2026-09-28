@@ -15,9 +15,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <!-- ?v= makes browsers fetch the new file after a change; bump it together with ASSET_V in app.js -->
-<link rel="stylesheet" href="base.css?v=20260927-1620">
+<link rel="stylesheet" href="base.css?v=20260928-2130">
 <!-- The whole look lives in one skin file. Default = data-skin above; viewers can switch in Settings; ?skin=editorial also works. -->
-<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20260927-1620">
+<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20260928-2130">
 </head>
 <body data-view="home">
 <!-- Region flags, drawn inline so they render the same everywhere. Windows has no flag-emoji
@@ -181,6 +181,42 @@
     </form>
   </section>
 
+  <!-- Where each part of the page comes from and how far to trust it. Keep in step with
+       fetcher/sources.json, the two Routines and the Apps Script when a source changes. -->
+  <section class="panel p-reference" id="reference" aria-labelledby="reference-h">
+    <div class="panel-head"><h2 id="reference-h">Sources &amp; reliability</h2></div>
+    <ul class="ref-tiers">
+      <li><span class="ref-tier t-official">Official</span> A regulator's or exchange's own record: the filing itself.</li>
+      <li><span class="ref-tier t-issuer">Issuer</span> The company's own announcement: first-hand, not checked by anyone else.</li>
+      <li><span class="ref-tier t-press">Press</span> An established news organisation.</li>
+      <li><span class="ref-tier t-aggregated">Aggregated</span> A Google News keyword search: major papers and small sites mixed. Judge by the outlet named.</li>
+      <li><span class="ref-tier t-machine">Machine</span> Written, researched, translated or tagged by software. Can be wrong: open the link before relying on it.</li>
+    </ul>
+    <div class="ref-scroll">
+      <table class="ref-table">
+        <thead><tr><th>Section</th><th>Source</th><th>Reliability</th><th>Updated</th></tr></thead>
+        <tbody>
+          <tr><td class="sec" rowspan="5">News, English</td><td>BBC Business, CNA Business, The Business Times</td><td><span class="ref-tier t-press">Press</span></td><td>Every 30 min</td></tr>
+          <tr><td>DealStreetAsia, Infrastructure Investor, PEI Private Credit (read through Google News, so an item can arrive late or be missed)</td><td><span class="ref-tier t-press">Press</span></td><td>Every 30 min</td></tr>
+          <tr><td>PR Newswire, M&amp;A releases</td><td><span class="ref-tier t-issuer">Issuer</span></td><td>Every 30 min</td></tr>
+          <tr><td>SEC EDGAR, 8-K filings</td><td><span class="ref-tier t-official">Official</span></td><td>Every 30 min</td></tr>
+          <tr><td>SGX announcements (through Google News)</td><td><span class="ref-tier t-official">Official</span></td><td>Every 30 min</td></tr>
+          <tr><td class="sec">News, Japanese</td><td>Google News searches for M&amp;A, PE &amp; activists, and disclosures</td><td><span class="ref-tier t-aggregated">Aggregated</span></td><td>Every 30 min</td></tr>
+          <tr><td class="sec">Japan filings</td><td>EDINET (Financial Services Agency): tender offers and 5% stake reports, with the holding, its change and the stated purpose read from the filing</td><td><span class="ref-tier t-official">Official</span></td><td>4 times a business day</td></tr>
+          <tr><td class="sec" rowspan="2">Digest</td><td>Written by AI from the headlines and snippets above only; it does not read the articles</td><td><span class="ref-tier t-machine">Machine</span></td><td>08:30, 12:30, 15:30 SGT</td></tr>
+          <tr><td>Japanese summaries: AI translation of the English</td><td><span class="ref-tier t-machine">Machine</span></td><td>With each edition</td></tr>
+          <tr><td class="sec">Deals (followed stories)</td><td>AI web research; every entry is dated and links to its source</td><td><span class="ref-tier t-machine">Machine</span></td><td>08:45, 12:45, 15:45 SGT</td></tr>
+          <tr><td class="sec" rowspan="4">Companies</td><td>Headlines: Google News search for the company and its keywords</td><td><span class="ref-tier t-aggregated">Aggregated</span></td><td>Every 30 min</td></tr>
+          <tr><td>Tickers and sectors: EDINET code list (Japan), SEC ticker list (US)</td><td><span class="ref-tier t-official">Official</span></td><td>Weekly</td></tr>
+          <tr><td>US revenue, operating and net income: SEC XBRL, as filed in the 10-K</td><td><span class="ref-tier t-official">Official</span></td><td>Weekly</td></tr>
+          <tr><td>The company's name in the other language: Google Translate; fund or corporate: a guess from names</td><td><span class="ref-tier t-machine">Machine</span></td><td>When added</td></tr>
+          <tr><td class="sec">Tags</td><td>Type, Region, Sector, Sponsor / Strategic: keyword rules on the headline and snippet</td><td><span class="ref-tier t-machine">Machine</span></td><td>With each fetch</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="panel-meta ref-note">Only headlines, links and short snippets are stored; articles are never copied. Market prices are not collected, so there is no market cap or premium here.</p>
+  </section>
+
 
   <section class="panel p-search" id="view-search" hidden>
     <div class="panel-head">
@@ -297,6 +333,6 @@
   </li>
 </template>
 
-<script src="app.js?v=20260927-1620"></script>
+<script src="app.js?v=20260928-2130"></script>
 </body>
 </html>

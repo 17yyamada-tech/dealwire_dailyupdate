@@ -96,6 +96,21 @@ announcement, which this site does not collect.
 Needs the repository secret `EDINET_API_KEY` (free registration at EDINET). The filings run on
 their own schedule, four times a day on JST weekdays, because that is when filings land.
 
+## Company search and figures
+`fetcher/company_index.py` (weekly, in fetch.yml) writes `docs/data/company_index.json`: every listed Japanese
+company from the EDINET code list (securities code, name, sector) and every NYSE/Nasdaq/NYSE American/Cboe
+ticker from the SEC. The Companies boxes suggest from it as you type a name or a ticker; a picked company
+carries its market, ticker and (US) CIK, and its card shows the ticker, the sector and links to IR BANK,
+Kabutan, Yahoo and TradingView (Japan) or Yahoo, SEC filings and TradingView (US). For a US company the
+Apps Script adds the last two fiscal years' revenue, operating and net income exactly as filed in the 10-K
+(SEC XBRL), weekly. No market prices are collected.
+
+## 5% stake reports
+`edinet.py` opens every 5% report once (about 200 a business day, remembered in `docs/data/edinet_seen.json`)
+and keeps it when the filer is on the sponsor list or the stated purpose includes 重要提案行為等 (proposal
+intent, the activist signal). The card shows the holding before and after (group total across joint
+holders) and the purpose.
+
 ## Contact box
 Under the filings, set apart as a footnote rather than a section: a dashed rule, no panel chrome,
 muted type and a narrower form in every skin. The free-text box posts to the same Apps Script as the mail sign-up, which
