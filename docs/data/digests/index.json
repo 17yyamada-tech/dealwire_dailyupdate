@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-28-0830",
+      "label": "28 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-28T00:36:30Z",
+      "items": 7,
+      "headlines": [
+        "Nippon Sheet Glass to delist from Tokyo Stock Exchange Prime market as it joins Apollo Global Management",
+        "Nubank in talks to acquire Monzo for up to $13 billion, reports say",
+        "At least eight foreign banks have signalled UBS merger interest, Swiss newspaper reports"
+      ]
+    },
+    {
       "id": "2026-09-27-1530",
       "label": "27 Sep 2026 · 15:30 SGT",
       "generated_at": "2026-09-27T07:34:11Z",
