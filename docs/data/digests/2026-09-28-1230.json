@@ -1,0 +1,224 @@
+{
+  "edition": "2026-09-28-1230",
+  "edition_label": "28 Sep 2026 · 12:30 SGT",
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T04:35:44Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "City Developments to invest S$5 billion, target S$6 billion of divestments in strategy reset; shares fall 6%",
+      "summary": "Singapore's City Developments Limited unveiled a refreshed strategy to invest S$5 billion and target S$6 billion of divestments, aiming to double assets under management to S$10 billion by FY2029. CDL shares fell as much as 6% after the announcement before paring some of the losses.",
+      "why_it_matters": "The scale of the planned capital recycling marks one of the largest portfolio overhauls among Singapore developers, and the negative share reaction shows investors want clarity on execution and near-term earnings dilution.",
+      "summary_ja": "シンガポールのシティ・デベロップメンツ(CDL)は、新戦略のもとで50億シンガポールドルを投資し、60億シンガポールドル規模の資産売却を目指すと発表した。2029年12月期までに運用資産(AUM)を100億シンガポールドルへ倍増させる計画。発表を受けCDL株は一時6%下落し、その後下げ幅をやや縮小した。",
+      "why_it_matters_ja": "今回の資産入れ替えの規模はシンガポールのデベロッパーの中でも最大級のポートフォリオ再編であり、株価下落は実行力や短期的な利益希薄化について投資家が明確な説明を求めていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "cdl-strategic-review-divestment",
+      "ids": [
+        "53f3034d134a33",
+        "e918dd3b5ef977"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/cdl-invest-s5-billion-target-s6-billion-divestments-under-refreshed-strategy"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/cdl-shares-dip-6-after-strategic-review-release"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Warburg Pincus raises takeover offer for Ingenia Communities to A$2.14 billion",
+      "summary": "Warburg Pincus increased its acquisition proposal for Australian retirement and holiday-park operator Ingenia Communities to A$2.14 billion, sending Ingenia shares higher. Ingenia is weighing whether to seek further improved terms.",
+      "why_it_matters": "A sweetened bid signals private equity's continued appetite for real-asset operators with recurring, demographic-linked income, and could draw rival interest if Ingenia's board holds out for more.",
+      "summary_ja": "ウォーバーグ・ピンカスは、豪州の高齢者向け住宅・ホリデーパーク運営会社インジェニア・コミュニティーズに対する買収提案を21億4000万豪ドルに引き上げ、インジェニア株は上昇した。インジェニアはさらなる条件改善を求めるか検討している。",
+      "why_it_matters_ja": "提示額の引き上げは、人口動態に連動した安定収益を持つ実物資産運営会社へのPEマネーの根強い意欲を示すものであり、取締役会が高値を待てば対抗する買い手が現れる可能性もある。",
+      "status": "new",
+      "prev": null,
+      "key": "ingenia-warburg-pincus-takeover",
+      "ids": [
+        "b987fb6f51abf1",
+        "663a62f2100ad6"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jOWZ4bEYtWmpFbnpXZ2RnNVJRMVNfdE1rUFYxMzBaUjNtdkJnZWxyRXZOZ3JaOEFLYUxNTHdKbUNWU2dyVDA2RkJpV2hUSm5RX2p3MmNHdTAwQmdzWG5SZEJCNDZCblRLSm81UmxXV0ZySXBBMDdJZQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpRkJiLU0xUDY2ZnlzR0E3dkVrOHFMYWxnQ2lNemFlVmgyOXVnOUlYQnE5RUU5ZkppWTY5aHp6VGV2ZkZRZ2o5ZUNHS0xKVFNNODZtRGgydmx5a1BOanhlSGpyZ3czY0hm?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "City Index Fifth launches ¥125,000-per-unit tender offer for Sankei Real Estate, aiming to delist J-REIT",
+      "summary": "City Index Fifth, linked to the former Murakami fund, launched a tender offer for Sankei Real Estate Investment Corporation at ¥125,000 per unit, aiming to take the Tokyo-listed REIT private and delist it. The bid quote for Sankei RE units rose in response to the offer.",
+      "why_it_matters": "A successful take-private would be a rare instance of an activist-linked buyer fully privatising a listed J-REIT, testing investor appetite for real estate consolidation as Japanese property valuations stay firm.",
+      "summary_ja": "旧村上ファンド系のシティインデックスフィフスは、サンケイリアルエステート投資法人に対し1口12万5000円で公開買付け(TOB)を実施し、東証上場のJ-REITを非公開化・上場廃止する狙いだ。この提案を受け、サンケイRE投資口の気配値は切り上がった。",
+      "why_it_matters_ja": "アクティビスト系の買い手が上場J-REITを完全に非公開化する事例は珍しく、日本の不動産評価が底堅く推移する中で不動産再編に対する投資家の受容度を試す試金石となる。",
+      "status": "new",
+      "prev": null,
+      "key": "sankei-re-city-index-fifth-tob",
+      "ids": [
+        "03f362ab547895",
+        "2d37efdf7280ad",
+        "07bbc353138015"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU2gxUHh0WWlJNkFGenZMVU4yQTQzSnhoSEVRblYtYkhvcXVRbjVSYTctRGpMUi1ZN1lqYUdQUGlMcXFaTW9td3hMVllKRUFOS3F6enN1XzJCUTQ1cEZiS1pyYjZxZzloRzFiblUzeXlFeVpTWUVEYzNfOTRObWVHSW5MbU9xY0U?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBEbzdGdl9tTHpQdi1mcUdsTVRSVUFFZ01uVi1rMGp6dnE2SVY4UzRONTFKTVpHVkNHYlpxRnZlemxPTXRHdGZiSA?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWUFPOUgxVVU5UHo2TjFQMnVNS3gxam5OUG5hZEhGVkZocDNxQUkyenZuQmZqNVpwb0JBclFIR0ZwTDVJYXZGVEtXMTlGSlV6cDNCajhkSlEyS2xKQ0ZFMnlTMlpqZk1vdzlmVW9Yd3RmcVpqSDdKN25VUGxSLTQ5T25RR0hySmc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other",
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "Goodbaby International chairman proposes HK$1.50-a-share tender offer to take company private",
+      "summary": "Goodbaby International's chairman, Song, proposed a tender offer at HK$1.50 per share to take the Hong Kong-listed children's products maker private. The proposal marks a move by the founding chairman to consolidate control of the company.",
+      "why_it_matters": "Chairman-led take-privates of Hong Kong-listed mainland consumer companies have been picking up as depressed valuations make public listings less attractive, and a successful deal here could prompt similar moves among peers.",
+      "summary_ja": "香港上場の育児用品メーカー、好孩子国際(グッドベイビー・インターナショナル)の宋会長は、1株1.50香港ドルでの公開買付け(TOB)により会社を非公開化する提案を行った。創業家出身の会長による支配権集約の動きとなる。",
+      "why_it_matters_ja": "評価額の低迷で上場を維持する魅力が薄れる中、香港上場の中国本土系消費財企業を会長主導で非公開化する動きが増えており、本件が成立すれば同業他社にも同様の動きを促す可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "goodbaby-international-going-private",
+      "ids": [
+        "23ae662d44ccd7"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFZUZC1JWElYbFRFenhUaEVNei1XaFBBbFRTMERtM2NkdU9GWW1iajRDekVxaDVKMUtRcjhWRk9leldLWkM5TEx5Qkw4d0xxcDIwV3ZNemNkeFltY2tZYU5XeVRieU5UWHUzOUdjejhOUHB6b3dfb21wUUJIaEtJQVdlNWlqLWM?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Northern Star rejects Gold Fields' takeover approach",
+      "summary": "Northern Star Resources has rejected the acquisition approach from fellow Australian gold producer Gold Fields, Reuters reported. The rejection follows Gold Fields' initial approach reported earlier this week.",
+      "why_it_matters": "The rebuff suggests Northern Star's board sees more value standing alone near record gold prices, though a public rejection often precedes an improved or hostile bid in mining consolidation.",
+      "summary_ja": "ノーザン・スター・リソーシズは、同じ豪州の金生産大手ゴールド・フィールズからの買収打診を拒否したとロイターが報じた。今週初めに伝えられたゴールド・フィールズの当初の打診を受けての対応となる。",
+      "why_it_matters_ja": "拒否の背景には、金価格が過去最高水準に近い中で単独路線の方が企業価値を高められるとの取締役会の判断がうかがえるが、鉱業再編では公の拒否がその後の増額提示や敵対的買収につながることも多い。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-27-0830",
+        "index": 3
+      },
+      "key": "gold-fields-northern-star-approach",
+      "ids": [
+        "7bd185e2adbbea"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKQXJPWl9jbENwNjZmNmV5Ujd5Y3JIYWpaYThRZjJSLVZUZ1MwbTZjRzhPSkI4OXFVTXFTdFBycG4za1lMckg4b0hCSnE3Nk5rZFJlWkRmX3pNNzNhM2Q2YXZCSC1Jck1JTFhDVTQ0UkFqTVBjU3RaSmI2QWJxcnM?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Regulators open pre-merger review of Uber's proposed acquisition of Delivery Hero's Baemin business",
+      "summary": "Competition regulators have opened a pre-merger review of Uber's proposed acquisition of Delivery Hero, under which management control of food-delivery app Baemin would also transfer to Uber. The review marks a regulatory step in the proposed transaction.",
+      "why_it_matters": "A combination would hand Uber a leading position in a major food-delivery market, and the regulatory scrutiny signals authorities' focus on further platform consolidation in the sector.",
+      "summary_ja": "競争当局は、ウーバーによるデリバリーヒーロー買収提案について事前審査を開始した。この買収では、フードデリバリーアプリ「Baemin」の経営権もウーバーに移行するとされる。今回の審査開始は、提案されている取引における規制上の一手続きとなる。",
+      "why_it_matters_ja": "この統合が実現すれば、ウーバーはフードデリバリー分野で有力な地位を得ることになり、規制当局の審査開始は同業界におけるプラットフォーム再編に対する監視強化を示している。",
+      "status": "new",
+      "prev": null,
+      "key": "uber-delivery-hero-baemin-review",
+      "ids": [
+        "071272ae437e5d"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qVHJ3T01EUW1BMjhQQUFGLXNDbVJUTkxISHR3Z2pPNHhodFJiZHZpa2tHRUlIMW50aVBaaVdoZGh0amI3RU9sZjBVWUxlQmEtN1QxT2UtellnQ1QtcUlKZVkya2FTTEFoZGU0NWlmMTN2QTRSODJhMG1SLXY?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Public / Macro"
+      ]
+    },
+    {
+      "headline": "Excelsior Capital closes second Vietnam fund above $170 million",
+      "summary": "Excelsior Capital closed its second Vietnam-focused fund at more than $170 million. The close adds to a wave of dedicated Vietnam private capital vehicles raised this year.",
+      "why_it_matters": "A fund of this size signals continued limited-partner confidence in Vietnam as a standalone allocation within Southeast Asia, even as broader regional fundraising stays selective.",
+      "summary_ja": "エクセルシオール・キャピタルは、ベトナム特化の第2号ファンドを1億7000万ドル超で最終クローズした。今年に入り相次いでいるベトナム専門プライベート・キャピタル・ファンドの組成の一つとなる。",
+      "why_it_matters_ja": "このファンド規模は、東南アジア全体のファンドレイジングが選別的になる中でも、ベトナムを独立した投資配分先とみるLP(出資者)の根強い信頼を示している。",
+      "status": "new",
+      "prev": null,
+      "key": "excelsior-capital-vietnam-fund-ii-close",
+      "ids": [
+        "cd7e5d9a00d886"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQY3RpNy0yOGZPWVZ5clhsWmxCaWVqUnZBOWtoYUpKYVFfYW1aNTY3cVpBOV84Wnh3U01wOFNfVklSdm54dE8zNGtUanE0QWNHNmdIMTVSRjk2U2ZxdzMxT19lMm8ySmdzVnFCLV9jaVVTckU1OW9LRmJkTW1vTVZoS05n?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-28-1230",
+      "label": "28 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-28T04:35:44Z",
+      "items": 7,
+      "headlines": [
+        "City Developments to invest S$5 billion, target S$6 billion of divestments in strategy reset; shares fall 6%",
+        "Warburg Pincus raises takeover offer for Ingenia Communities to A$2.14 billion",
+        "City Index Fifth launches ¥125,000-per-unit tender offer for Sankei Real Estate, aiming to delist J-REIT"
+      ]
+    },
+    {
       "id": "2026-09-28-0830",
       "label": "28 Sep 2026 · 08:30 SGT",
       "generated_at": "2026-09-28T00:36:30Z",
