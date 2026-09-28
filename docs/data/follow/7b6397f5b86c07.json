@@ -1,0 +1,100 @@
+{
+  "id": "7b6397f5b86c07",
+  "title": "US dollar dips as oil eases, yen jumps on Japan remarks",
+  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
+  "source": "The Business Times",
+  "published": "2026-09-27T13:31:03Z",
+  "checked_at": "2026-09-28T00:46:38Z",
+  "background": [
+    {
+      "date": "2026-09-26",
+      "headline": "Trump rejects Iran's conditional ceasefire proposal for Hormuz as Saudi coalition intercepts projectiles",
+      "summary": "CNBC reported, citing the Wall Street Journal, that President Trump rejected Iran's conditional ceasefire proposal tied to the Strait of Hormuz, while a Saudi-led coalition intercepted incoming projectiles, keeping Middle East war-risk elevated heading into the weekend.",
+      "summary_ja": "CNBCがウォール・ストリート・ジャーナルの報道として伝えたところによると、トランプ大統領はホルムズ海峡を巡るイランの条件付き停戦案を拒否し、サウジ主導の連合軍は飛来物を迎撃した。週末を前に中東の地政学リスクは高止まりした。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/26/trump-rejects-irans-conditional-ceasefire-proposal-wsj-reports.html"
+    },
+    {
+      "date": "2026-09-25",
+      "headline": "Katayama and Takaichi remarks send yen to best day in two weeks near 157/dollar as oil eases 2% on Iran truce hopes",
+      "summary": "Japanese Finance Minister Satsuki Katayama said Tokyo \"won't hesitate to take bold action\" on the yen and Prime Minister Sanae Takaichi said she had told President Trump an undervalued yen was \"problematic,\" sending the yen up as much as 0.6-1% to around 157 per dollar for its best day in over two weeks, while the dollar dipped and oil eased roughly 2% on hopes for a US-Iran truce.",
+      "summary_ja": "片山さつき財務相が円について「大胆な行動を取ることも辞さない」と述べ、高市早苗首相もトランプ大統領に「円安は問題だ」と伝えたと明かしたことで、円は対ドルで一時0.6~1%上昇し1ドル=157円前後まで買われ、2週間超ぶりの大幅高となった。同日、ドルは下落し、米イラン停戦への期待から原油も約2%下落した。",
+      "source": "Yahoo Finance (Bloomberg)",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/yen-heads-best-day-two-064223233.html"
+    },
+    {
+      "date": "2026-09-24",
+      "headline": "Katayama says principles behind July's Japan-US joint yen intervention 'remain alive'",
+      "summary": "Katayama said the principles underpinning July's coordinated Japan-US yen-buying intervention \"remain alive,\" signalling Tokyo's readiness to intervene jointly again if renewed yen weakness warrants it.",
+      "summary_ja": "片山財務相は7月の日米協調円買い介入を支える原則は「生きている」と述べ、円安が再燃すれば再び協調介入も辞さない姿勢を示した。",
+      "source": "Investing.com (Reuters)",
+      "url": "https://www.investing.com/news/economy-news/japans-katayama-says-principles-of-japanus-fx-intervention-remain-in-place-4914402"
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "BOJ hikes policy rate 25bp to 1.25%, highest since 1995, in split 7-2 vote",
+      "summary": "The Bank of Japan raised its policy rate by 25 basis points to 1.25% in a 7-2 vote at its September meeting, the highest level since 1995, with two reflationist board members appointed by PM Takaichi dissenting.",
+      "summary_ja": "日銀は9月の金融政策決定会合で政策金利を0.25%引き上げ1.25%とすることを7対2の賛成多数で決定した。1995年以来の高水準で、高市首相が任命したリフレ派の審議委員2人が反対した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Fed raises rates 25bp to 3.75%-4.00%, first hike since 2023, dot plot flags more increases",
+      "summary": "The US Federal Reserve raised the federal funds rate by 25 basis points to a 3.75%-4.00% range, its first hike since 2023, with the updated dot plot signalling further increases could follow.",
+      "summary_ja": "米連邦準備制度理事会(FRB)はフェデラルファンド金利を0.25%引き上げ3.75~4.00%のレンジとした。2023年以来の利上げで、更新されたドットプロットは追加利上げの可能性を示唆した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "OPEC+ core members hold October output flat after September's 188,000 bpd increase",
+      "summary": "OPEC+'s core eight members agreed to hold October production at September's level, pausing further increases after having raised output by 188,000 barrels per day in September.",
+      "summary_ja": "OPECプラスの主要8カ国は10月の生産量を9月と同水準に据え置くことで合意した。9月に日量18万8000バレルの増産を実施した後、増産ペースを一旦停止する形となった。",
+      "source": "Energy Connects",
+      "url": "https://www.energyconnects.com/news/oil/2026/september/opecplus-keeps-output-policy-unchanged-for-october"
+    },
+    {
+      "date": "2026-08-03",
+      "headline": "Japan, US confirm rare July 31 coordinated yen-buying intervention, Bessent vows readiness for more",
+      "summary": "Japan and the US confirmed a rare coordinated yen-buying intervention conducted on July 31, with US Treasury Secretary Scott Bessent saying Washington \"will not hesitate to participate in further joint intervention\" if disorderly currency moves resume.",
+      "summary_ja": "日本と米国は7月31日に実施した異例の協調円買い介入を確認した。ベッセント米財務長官は、無秩序な相場変動が再発すれば「さらなる協調介入への参加もためらわない」と述べた。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/03/yen-intervention-us-japan-trump-bessent-katayama.html"
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "BOJ holds rate at 1%, warns on inflation, same day as Japan-US joint yen intervention",
+      "summary": "The Bank of Japan held its policy rate at 1% while warning that core inflation could exceed its 2% target, the same day Tokyo and Washington carried out their joint yen-buying intervention.",
+      "summary_ja": "日銀は政策金利を1%に据え置く一方、コアインフレ率が2%目標を上回る可能性があると警告した。同日、日米は協調円買い介入を実施した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html"
+    }
+  ],
+  "since": [
+    {
+      "date": "2026-09-28",
+      "headline": "Brent rebounds above $106, up over 1%, after Trump rejects Iran's Hormuz reopening proposal",
+      "summary": "Brent crude rose more than 1%, back above $106 a barrel, after President Trump rejected Iran's proposal to reopen the Strait of Hormuz, reviving concern that restoration of oil flows through the waterway would be delayed.",
+      "summary_ja": "トランプ大統領がホルムズ海峡再開を巡るイランの提案を拒否したことを受け、ブレント原油は1%超上昇し1バレル106ドル台を回復した。同海峡経由の原油輸送再開の遅れへの懸念が再燃した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "Yen extends Friday's rally into thin Monday Asia trade as fresh Hormuz missile report sharpens risk",
+      "summary": "The yen extended Friday's gains into thin Monday Asia trading, with risk sentiment further sharpened by a report from Iranian media of a missile fired at a vessel in the Strait of Hormuz.",
+      "summary_ja": "円は金曜日の上昇分を維持し、薄商いとなった月曜アジア時間も堅調に推移した。イラン国営メディアがホルムズ海峡での船舶へのミサイル発射を報じたことで、リスク心理は一段と敏感になった。",
+      "source": "InvestingLive",
+      "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices-september-28-2026/"
+    },
+    {
+      "date": "2026-09-27",
+      "headline": "Trump tells Axios he expects US-Iran talks to resume this week despite rejecting Tehran's truce plan",
+      "summary": "Trump told Axios he expects US-Iran talks to resume this week, even as he rejected Iran's seven-day truce proposal tied to reopening the Strait of Hormuz.",
+      "summary_ja": "トランプ氏はAxiosに対し、ホルムズ海峡再開を条件とするイランの7日間停戦案は拒否したものの、今週中に米イラン協議が再開する見通しだと語った。",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal"
+    }
+  ]
+}

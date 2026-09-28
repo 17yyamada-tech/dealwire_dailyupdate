@@ -1,0 +1,51 @@
+{
+ "id": "17cab88d00fb5d",
+ "title": "クラーケン親会社Payward、欧州の銀行を「まもなく買収」へ＝CoinDesk（NADA NEWS）",
+ "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-09-27T10:00:23Z",
+ "checked_at": "2026-09-28T00:46:38Z",
+ "background": [
+  {
+   "date": "2026-07-27",
+   "headline": "Payward agrees to acquire Magic Labs' wallet-as-a-service business for undisclosed sum",
+   "summary": "Payward agreed to acquire the wallet-as-a-service (embedded custodial wallet) business of Magic Labs, an asset-purchase deal with undisclosed financial terms, to expand its B2B infrastructure platform Payward Services; Magic Labs said it would rebrand the remainder of its business as Newton Labs.",
+   "summary_ja": "Paywardは、B2Bインフラ基盤「Payward Services」拡充のため、Magic Labsのウォレット・アズ・ア・サービス（カストディアル型組込みウォレット）事業を資産譲渡方式で買収することに合意した。金額は非公表。Magic Labsは残る事業をNewton Labsに改称する方針。",
+   "source": "Business Wire",
+   "url": "https://www.businesswire.com/news/home/20260727181779/en/Payward-to-Acquire-Magic-Labs-Wallet-Infrastructure-Business-to-Expand-B2B-Offering-with-Embedded-Wallets"
+  },
+  {
+   "date": "2026-07-07",
+   "headline": "CoinDesk reports Kraken/Payward seeking full banking license in Europe via Lithuania",
+   "summary": "CoinDesk reported that Kraken/Payward is working to secure a full banking license in Europe, with Lithuania identified as the target jurisdiction; if successful, Kraken would become the first crypto exchange with a full European banking license, following the path taken by Revolut via the same Lithuanian regulator.",
+   "summary_ja": "CoinDeskは、クラーケン（Payward）が欧州で完全な銀行免許の取得を目指しており、リトアニアを取得先の管轄地に定めていると報じた。実現すれば、リボルトが同国の規制当局から免許を得た前例と同様に、クラーケンは完全な銀行免許を持つ初の暗号資産取引所となる。",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/07/crypto-exchange-kraken-is-trying-to-become-a-bank-in-europe"
+  },
+  {
+   "date": "2026-05-07",
+   "headline": "Payward agrees to acquire stablecoin payments firm Reap for up to $600 million",
+   "summary": "Payward agreed to acquire Reap Technologies Holdings, a stablecoin-native payments and card-issuing platform, for up to $600 million in cash and stock, a deal valuing Payward's equity at about $20 billion; Reap's licenses were said to extend Payward's reach across Asia-Pacific and Latin America.",
+   "summary_ja": "Paywardは、ステーブルコイン建て決済・カード発行基盤を持つReap Technologies Holdingsを現金と株式で最大6億ドルで買収することに合意した。取引はPayward株式を約200億ドルと評価するもので、Reapが持つ免許によりアジア太平洋・中南米への展開拡大が見込まれるとされた。",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/05/07/kraken-to-buy-stablecoin-payments-firm-reap-in-usd600-million-deal-bloomberg"
+  },
+  {
+   "date": "2026-04-17",
+   "headline": "Payward agrees to acquire US derivatives exchange Bitnomial for up to $550 million",
+   "summary": "Payward agreed to acquire Bitnomial, a US crypto derivatives exchange holding all three CFTC licenses (DCM, DCO, FCM) needed to run a full-stack derivatives business, for up to $550 million in cash and stock; the deal closed on May 4, 2026.",
+   "summary_ja": "Paywardは、取引所・清算機関・ブローカーの3種類のCFTC免許（DCM、DCO、FCM）をすべて保有する米暗号資産デリバティブ取引所Bitnomialを、現金と株式で最大5.5億ドルで買収することに合意した。取引は2026年5月4日に完了した。",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/04/17/kraken-s-parent-company-payward-to-acquire-derivatives-exchange-bitnomial-for-usd550-million-in-cash-and-stock"
+  },
+  {
+   "date": "2026-04-14",
+   "headline": "Deutsche Börse buys 1.5% stake in Kraken parent Payward for $200 million",
+   "summary": "Deutsche Börse AG invested $200 million to acquire existing shares giving it a 1.5% fully diluted stake in Payward, a deal Bloomberg calculated values Kraken at about $13.3 billion, deepening a tie-up on blockchain-based trading and tokenized products first outlined in December 2025.",
+   "summary_ja": "ドイツ取引所（Deutsche Börse）は既存株式の取得により、クラーケン親会社Paywardの完全希薄化後1.5%相当の株式を2億ドルで取得した。ブルームバーグの試算ではクラーケンの企業価値は約133億ドルとされ、2025年12月に発表されたブロックチェーン取引・トークン化商品分野での提携関係を深めるものとなった。",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/04/14/deutsche-boerse-takes-1-5-stake-in-crypto-exchange-kraken-for-usd200-million"
+  }
+ ],
+ "since": []
+}
