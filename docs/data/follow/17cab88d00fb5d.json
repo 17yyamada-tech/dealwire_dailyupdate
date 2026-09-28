@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T10:00:23Z",
- "checked_at": "2026-09-28T04:48:55Z",
+ "checked_at": "2026-09-28T07:49:36Z",
  "background": [
   {
    "date": "2026-07-27",
@@ -47,5 +47,14 @@
    "url": "https://www.coindesk.com/business/2026/04/14/deutsche-boerse-takes-1-5-stake-in-crypto-exchange-kraken-for-usd200-million"
   }
  ],
- "since": []
+ "since": [
+  {
+   "date": "2026-09-27",
+   "headline": "Payward co-CEO says Kraken parent will \"soon\" acquire a European bank, target undisclosed",
+   "summary": "In a CoinDesk interview published September 26, 2026, Payward co-CEO Arjun Sethi said the company will soon acquire a bank in Europe, without naming the target, price or timeline, framing it alongside Payward's other recent deals including the NinjaTrader and Bitnomial acquisitions and Nasdaq's stake purchase.",
+   "summary_ja": "Paywardのアルジュン・セティ共同CEOは2026年9月26日付CoinDeskのインタビューで、欧州の銀行をまもなく買収すると述べたが、買収先の銀行名や金額、時期は明らかにしなかった。この発言は、NinjaTraderやBitnomialの買収、Nasdaqによる出資など、Paywardの一連の取引と並べて紹介された。",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange"
+  }
+ ]
 }

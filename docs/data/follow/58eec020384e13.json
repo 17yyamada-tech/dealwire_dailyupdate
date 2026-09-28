@@ -4,7 +4,7 @@
   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
   "source": "Japan M&A",
   "published": "2026-09-26T18:17:00Z",
-  "checked_at": "2026-09-28T04:48:55Z",
+  "checked_at": "2026-09-28T07:49:36Z",
   "background": [
     {
       "date": "2026-09-24",
@@ -55,5 +55,14 @@
       "url": "https://spacenews.com/rocket-lab-delays-first-neutron-launch-to-2026/"
     }
   ],
-  "since": []
+  "since": [
+    {
+      "date": "2026-09-26",
+      "headline": "Rocket Lab-Iridium deal expected to close by mid-2027 after shareholder approval, follow-up coverage says",
+      "summary": "Coverage following Iridium shareholders' September 24 approval reiterated the deal terms (Rocket Lab paying $27 in cash plus stock per share, a $54 notional value) and said the roughly $8 billion transaction is expected to close by mid-2027, pending remaining regulatory approvals.",
+      "summary_ja": "9月24日のイリジウム株主による承認を受けた続報は、取引条件(ロケットラボが1株当たり現金27ドルと株式を組み合わせ、想定価値54ドル)を改めて示すとともに、残る規制当局の承認を経て総額約80億ドルの本件取引は2027年半ばまでに完了する見通しだと伝えた。",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/09/26/major-milestone-passed-in-iridium-rocket-lab-tie-up/"
+    }
+  ]
 }

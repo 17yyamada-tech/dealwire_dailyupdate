@@ -4,7 +4,7 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-09-28T04:48:55Z",
+  "checked_at": "2026-09-28T07:49:36Z",
   "background": [
     {
       "date": "2026-09-26",
@@ -74,6 +74,14 @@
   "since": [
     {
       "date": "2026-09-28",
+      "headline": "Iran's army vows to keep blocking vessels near the Strait of Hormuz as Tehran says it is \"fully prepared\" for war",
+      "summary": "An Iranian army deputy coordinator said Iranian forces are acting with authority in the northern Arabian Sea and east of the Strait of Hormuz and \"will not let anyone pass,\" while Tehran said it remains open to \"real diplomacy\" but is fully prepared for war.",
+      "summary_ja": "イラン軍副調整官は、イラン軍がアラビア海北部およびホルムズ海峡東方で権限を行使しており「誰も通過させない」と述べた。テヘラン側は「本物の外交」には引き続き前向きだとしつつ、戦争への備えは万全だとした。",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions"
+    },
+    {
+      "date": "2026-09-28",
       "headline": "Dollar index climbs to around 101.15, on track for best month since June, as yen slips to 157.7 and Brent holds above $106",
       "summary": "The dollar index edged up to about 101.15, on track for a 1.7% gain in September, its best month since June, as the yen weakened 0.3% to 157.7 per dollar and Brent crude held above $106 a barrel, with hawkish Federal Reserve rate-hike bets and the US-Iran Hormuz standoff both supporting the dollar.",
       "summary_ja": "ドル指数は101.15程度まで上昇し、9月は1.7%高と6月以来最も良い月間成績となる見通しとなった。円は0.3%安の1ドル=157.7円まで下落し、ブレント原油は106ドル超を維持した。FRBの利上げ観測強まりと米イラン間のホルムズ海峡を巡る対立の双方がドルを支えた。",
@@ -103,6 +111,14 @@
       "summary_ja": "トランプ氏はAxiosに対し、ホルムズ海峡再開を条件とするイランの7日間停戦案は拒否したものの、今週中に米イラン協議が再開する見通しだと語った。",
       "source": "France 24",
       "url": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal"
+    },
+    {
+      "date": "2026-09-27",
+      "headline": "Iranian FM Araghchi says Tehran is ready for a \"doomsday\" war with the US but keeps diplomacy open",
+      "summary": "In an interview aired Sunday, Iranian Foreign Minister Abbas Araghchi said Iran is prepared for a \"doomsday\" war with the United States after Trump rejected Tehran's seven-day Hormuz reopening proposal, while stressing Iran will not miss any chance for peace.",
+      "summary_ja": "日曜に放送されたインタビューで、イランのアラグチ外相は、トランプ大統領がテヘラン側のホルムズ海峡再開に向けた7日間停戦案を拒否したことを受け、米国との「終末的な」戦争に備えていると述べた一方、和平の機会は逃さない考えを強調した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/27/iran-foreign-minister-keeps-indirect-talks-with-us-open-state-media.html"
     }
   ]
 }
