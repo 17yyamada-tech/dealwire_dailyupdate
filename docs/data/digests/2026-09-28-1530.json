@@ -1,0 +1,198 @@
+{
+  "edition": "2026-09-28-1530",
+  "edition_label": "28 Sep 2026 · 15:30 SGT",
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T07:37:44Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Paramount to raise $7.5bn more debt to fund Warner Bros deal",
+      "summary": "Paramount has started a syndicated loan process to borrow an additional $7.5 billion to help fund its acquisition of Warner Bros. The move follows Paramount's clearing of the last disclosed legal hurdles to the $110 billion merger.",
+      "why_it_matters": "The added leverage shows the scale of financing still needed to close one of the largest media mergers in years, and lenders' appetite for the syndication will be an early test of credit-market sentiment toward the combined company.",
+      "summary_ja": "パラマウントは、ワーナー・ブラザースの買収資金を賄うため、追加で75億ドルを借り入れる協調融資（シンジケートローン）の手続きを開始した。同社は総額1100億ドル規模のこの合併における公表済みの法的障害を既に解消している。",
+      "why_it_matters_ja": "追加借り入れの規模は、この大型メディア合併の完了になお必要な資金調達の大きさを物語っており、協調融資に対する貸し手の反応は、統合後の会社に対する信用市場の見方を測る初期の試金石となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-22-0830",
+        "index": 0
+      },
+      "key": "paramount-warner-bros-merger",
+      "ids": [
+        "a2aaa7560775b1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoRXVnRlFtMmtUQWtzUURZcm9ROFBiRWZWSXJwcl9ybERKSVlSUGdGcEYxSVdyb3o5OTNuallCZnZ4VjAybXZqdTRxSURoaGhMYWw1MnN4N2g4YXV0bDlCSGl3QkRDd2g4Qm1uZHFrdDlWREprWl82MDNEcHlnUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Geely to take 30% of Nio Power, valuing unit at 16 billion yuan",
+      "summary": "Geely will acquire a 30% stake in Nio's power unit as part of a broader battery-swapping and charging agreement between the two automakers. The transaction values Nio Power at about 16 billion yuan.",
+      "why_it_matters": "The stake sale gives a concrete equity structure to the battery-swapping tie-up disclosed this week and hands Geely direct exposure to Nio's charging-network economics, deepening consolidation among China's EV charging infrastructure players.",
+      "summary_ja": "吉利（ジーリー）は、両社間のバッテリー交換・充電に関する包括契約の一環として、NIOのパワー事業会社の株式30%を取得する。この取引によりNIOパワーの評価額は約160億元となる。",
+      "why_it_matters_ja": "今回の出資により、今週明らかになったバッテリー交換提携に具体的な資本関係が加わり、吉利はNIOの充電ネットワークの収益に直接関与することになる。中国のEV充電インフラ業界の再編が一段と進むことを示す。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-28-0830",
+        "index": 3
+      },
+      "key": "nio-geely-battery-energy-valuation",
+      "ids": [
+        "cce3504b8e43f1"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/geely-acquire-30-nios-power-unit-part-battery-swapping-charging-business-deals"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Temasek buys 9% stake in Italy's FSI, commits capital to future funds",
+      "summary": "Temasek has acquired a 9% stake in Italian private equity investor FSI, which manages about €5 billion (US$5.7 billion) of assets. Temasek has also committed additional capital for FSI's future funds.",
+      "why_it_matters": "The investment gives Temasek a direct economic stake in a European buyout manager and its future funds, adding to its push into GP-stakes investing.",
+      "summary_ja": "テマセクはイタリアの未上場株投資会社FSI（運用資産約50億ユーロ、57億米ドル相当）の株式9%を取得した。テマセクはFSIの将来のファンドにも追加出資する方針。",
+      "why_it_matters_ja": "今回の出資により、テマセクは欧州のバイアウト運用会社とその将来のファンドの経済的持分を直接取得することになり、GPステーク投資への注力を一段と強めることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "temasek-fsi-stake",
+      "ids": [
+        "c9de111f1ab75a"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/singapore/temasek-acquires-9-stake-italian-equity-investor-fsi-additional-capital-set-future-funds"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "HYUGA PRIMARY CARE to delist via ¥2,110-a-share MBO backed by JGIA",
+      "summary": "HYUGA PRIMARY CARE plans to go private through a management buyout, with a JGIA-affiliated entity launching a tender offer at ¥2,110 per share. The company will delist from the Tokyo Stock Exchange if the offer succeeds.",
+      "why_it_matters": "The deal adds to a run of Japanese MBOs by growth-focused sponsors taking small-cap companies private amid persistently low valuations.",
+      "summary_ja": "HYUGA PRIMARY CARE（証券コード7133）は、JGIA系の主体によるTOBを通じたMBOで非公開化する計画だ。TOB価格は1株2,110円で、成立すれば東証から上場廃止となる。",
+      "why_it_matters_ja": "今回の案件は、成長投資系スポンサーによる日本の中小型株MBOが相次ぐ流れの一つであり、小型株の評価が低迷し続ける中での非公開化の動きを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "hyuga-primary-care-mbo",
+      "ids": [
+        "35cc8cec0731c0",
+        "2424ea644cb436"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxcklMaDJGdGVIaDE0VzBTWmZjaUdjR2VJWl9idE55MlBkQ3FUenp3Wm1xelNEZndic1QwNDdlVjdFY3FPelR5TVc4bG5pUVBOd2c?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcm9ackw3OUxvNEpST2FCeGM5NWNEX3JVNzBIcUpYMkc4RjZlSW5mRjdxQWt0ZHJELVl2cUdWaVVlcXZWTE42Z3VFbXBwTGpVY05YLXFkMFNZMGpmVTUzYU9IT092dGhraWRoQUlxZU1GT0RKS3NCQ05aREd4UTE5Q0xicmJtNnc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Vertiv to acquire King Environmental Services, expanding data-centre cooling into EMEA",
+      "summary": "Vertiv has agreed to acquire King Environmental Services, a fluid management company, to expand its thermal-services capabilities for high-density, AI-driven data centres into Europe, the Middle East and Africa. The deal builds on Vertiv's existing fluid-management business in North America.",
+      "why_it_matters": "The acquisition extends Vertiv's push to control more of the cooling supply chain for AI data centres, a segment where thermal management has become a bottleneck as rack densities rise.",
+      "summary_ja": "ベルティブは、流体管理会社キング・エンバイロメンタル・サービシズを買収することで合意した。これにより、高密度でAI駆動型のデータセンター向け熱管理サービスを欧州・中東・アフリカへ拡大する。今回の買収は、北米で展開する既存の流体管理事業を土台とするもの。",
+      "why_it_matters_ja": "今回の買収は、AIデータセンター向け冷却サプライチェーンへのベルティブの関与を一段と強めるものであり、ラック密度が上昇する中で熱管理がボトルネックになりつつある分野での動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "vertiv-king-environmental-acquisition",
+      "ids": [
+        "870ab69c29768e",
+        "68d451ae8634ef"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVlU1bFI3S016UFplVnZkSEVHbTNmRTNJSHFFU0RpOTlCUXdOWTM3MVRNNGsxMHd0T3R3S2J0RE9vYXRTTGwxQ2NLQ3hUVnlUMXYzS3Zncm5FWENLMzUyZnRqdzRsLU1qbGRudXlKVE9qMGl3YXpua3FRRmFwRUxvd0tCaFhhRklVUHAzd2ZuWU5aWnJseUxoQ19id2tzSUVuZ1dyaGZ3?oc=5"
+        },
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/vertiv-announces-agreement-to-acquire-king-environmental-services-ltd-expanding-global-fluid-management-services-302889097.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other",
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Hafary founding family bids S$0.64 a share to take company private",
+      "summary": "Hafary's founding family has made an offer to take the Singapore-listed company private at S$0.64 a share. The family cited low trading liquidity and rising compliance costs as reasons for the delisting.",
+      "why_it_matters": "The bid adds to a run of small-cap privatisations on the Singapore Exchange as founders weigh the cost of a public listing against thin trading volumes.",
+      "summary_ja": "シンガポール上場のハファリーの創業家が、1株0.64シンガポールドルで会社を非公開化する提案を行った。創業家は株式の売買高の低さとコンプライアンス費用の増加を非公開化の理由に挙げている。",
+      "why_it_matters_ja": "今回の提案は、シンガポール取引所における小型株の非公開化が相次ぐ流れに連なるもので、創業家が上場維持コストと低い取引流動性を天秤にかけていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "hafary-founding-family-privatisation",
+      "ids": [
+        "aec59693c4a32a"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/hafary-founding-family-makes-bid-take-company-private-s0-64-share"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
