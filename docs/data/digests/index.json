@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-29-1530",
+      "label": "29 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-29T07:37:07Z",
+      "items": 8,
+      "headlines": [
+        "Kanadevia and Nippon Steel Engineering end merger integration talks",
+        "UniCredit could complete Commerzbank takeover as early as January, FT reports",
+        "Tokio Marine reportedly narrows acquisition focus to Australia's Suncorp"
+      ]
+    },
+    {
       "id": "2026-09-29-1230",
       "label": "29 Sep 2026 · 12:30 SGT",
       "generated_at": "2026-09-29T04:36:10Z",
