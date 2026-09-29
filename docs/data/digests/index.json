@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-29-0830",
+      "label": "29 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-29T00:38:34Z",
+      "items": 10,
+      "headlines": [
+        "AMD to acquire Fei-Fei Li's 'physical AI' startup World Labs for $8.2 billion",
+        "SBS Holdings to acquire Mitsubishi Chemical's logistics unit for ¥19.35 billion",
+        "TechnoPro's TX1 launches ¥2,200-a-share tender offer for Project Holdings, which agrees to go private"
+      ]
+    },
+    {
       "id": "2026-09-28-1530",
       "label": "28 Sep 2026 · 15:30 SGT",
       "generated_at": "2026-09-28T07:37:44Z",

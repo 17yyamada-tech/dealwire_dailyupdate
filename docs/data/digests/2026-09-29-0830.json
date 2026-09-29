@@ -1,0 +1,327 @@
+{
+  "edition": "2026-09-29-0830",
+  "edition_label": "29 Sep 2026 · 08:30 SGT",
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29T00:38:34Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "AMD to acquire Fei-Fei Li's 'physical AI' startup World Labs for $8.2 billion",
+      "summary": "AMD agreed to acquire World Labs, the AI startup founded by Fei-Fei Li, for $8.2 billion. The deal is intended to bolster AMD's AI systems strategy by letting it offer customers a wider range of AI models, including World Labs' work on \"physical AI\", as it competes with Nvidia.",
+      "why_it_matters": "The purchase pushes AMD beyond chips into AI model development, arming it with 'physical AI' capabilities it can bundle alongside its processors. That intensifies its rivalry with Nvidia for control of the full AI stack from silicon to software, and shows how aggressively chipmakers are now bidding for scarce AI research talent and intellectual property.",
+      "summary_ja": "AMDは、フェイフェイ・リー氏が設立したAIスタートアップ、ワールド・ラブズを82億ドルで買収することで合意した。この買収により、同社が手がける「フィジカルAI」を含む多様なAIモデルを顧客に提供できるようになり、AMDのAI戦略を強化してNvidiaへの対抗力を高める狙いがある。",
+      "why_it_matters_ja": "この買収により、AMDは半導体からAIモデル開発へと事業領域を広げ、プロセッサーとあわせて「フィジカルAI」の能力を顧客に提供できるようになる。これによりシリコンからソフトウェアまでAIスタック全体の主導権を争うNvidiaとの競争が一段と激化し、半導体各社が希少なAI研究人材と知的財産の獲得にどれほど積極的になっているかを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "amd-world-labs-acquisition",
+      "ids": [
+        "8937b1fe93e0c6",
+        "314566dfd41b45"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/amd-acquire-fei-fei-lis-world-labs-in-82-billion-deal-6416721"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/amd-acquires-world-labs-in-82-billion-deal-bolster-ai-systems-strategy-6416721"
+        }
+      ]
+    },
+    {
+      "headline": "SBS Holdings to acquire Mitsubishi Chemical's logistics unit for ¥19.35 billion",
+      "summary": "SBS Holdings agreed to acquire all shares of Mitsubishi Chemical Logistics for approximately ¥19.35 billion, Japanese trade press reported. The logistics company is due to become a subsidiary of SBSHD from April 2027.",
+      "why_it_matters": "The acquisition adds a chemical-sector logistics specialist to SBSHD's network at a time when Japanese logistics groups are consolidating ahead of tighter trucking-capacity rules and driver shortages, while letting Mitsubishi Chemical shed a non-core logistics arm as it sharpens its focus on its chemicals manufacturing business.",
+      "summary_ja": "SBSホールディングスは三菱ケミカル物流の全株式を約193.5億円で取得することで合意したと、日本の業界紙が報じた。同社は2027年4月付でSBSHDの子会社となる見通し。",
+      "why_it_matters_ja": "この買収により、SBSHDの物流ネットワークに化学品分野に強い物流会社が加わる。トラック輸送の規制強化やドライバー不足を控え、日本の物流各社の再編が続く中での動きであり、三菱ケミカル側にとっては非中核の物流事業を切り離し、化学品製造事業への集中を強める狙いがある。",
+      "status": "new",
+      "prev": null,
+      "key": "sbshd-mitsubishi-chemical-logistics",
+      "ids": [
+        "1557792f3e8dba",
+        "d3987fe3cd0ccf"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YRzhnbW1id0NialVBdE1Ja2ZCYmlDWVZHNmlWY1o0Q2E3WmtlVDBUUkVxbV9RemFza1ZfLXByaWwxbHNDakhOSkMxaG5mVGRaNmhLZA?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16YmphRDdNcVl5dk9tOXRWNXNIbHZBUXZqU3RfempWOWljU3dCS3p1a3NqaXJzTXZNSjZiZ0RrcFAzNDFidS1QQlBKY096TTZweHdQMTVWR3Uxc2psMDF6eWFFLTNUSmR3OUE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "TechnoPro's TX1 launches ¥2,200-a-share tender offer for Project Holdings, which agrees to go private",
+      "summary": "TX1, a TechnoPro Holdings vehicle, commenced a tender offer for Project Holdings (TSE: 9246), Japanese disclosures showed. Project Holdings' board accepted the ¥2,200-per-share offer, and the company is set to delist as it goes private under TechnoPro.",
+      "why_it_matters": "The take-private extends a run of board-approved tender offers in Japan's staffing and outsourcing sector this year, as acquirers use TOBs rather than open-market purchases to secure full control and consolidate businesses away from the disclosure and activist scrutiny that come with a public listing.",
+      "summary_ja": "テクノプロ・ホールディングス傘下のTX1が、プロジェクトホールディングス（東証9246）に対する公開買付けを開始したことが日本の適時開示で明らかになった。同社の取締役会は1株2200円の買付価格を受け入れ、テクノプロ傘下で非公開化・上場廃止される見通し。",
+      "why_it_matters_ja": "取締役会が賛同するTOBによる非公開化は、今年の日本の人材・アウトソーシング業界で相次いでいる。買収企業は市場での買い集めではなくTOBを用いることで完全な支配権を確保し、上場維持に伴う開示負担やアクティビストの監視を離れて事業を再編する動きを進めている。",
+      "status": "new",
+      "prev": null,
+      "key": "technopro-tx1-project-holdings-tob",
+      "ids": [
+        "456cc2e6d627e8",
+        "cffb3a25ec7c42",
+        "6cb262afe327ff"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAySTFVT3BkRzlRZF9hVVFtS2JnX0JrRVpRUC0yUTRwZ0htbDBnZFYtNTZIaU8xbTIyMUxLYndFeG53VGR2dHc?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUE1TY2lvZ2NwMHNDM29CSWRuY2xVTjlDNFQxT3h0Uzd0VWxmSEJZN0hzVy1CX205Y2FBYmZiTk9nVkhSVTZ2VG1BTE9YbW5VUS1XNlQ2dXF2NmZ6cVZuTWIxQ2hacnhUVnQ4Sld0QUxJbEg4Z09Ub0tIN3RZSmkwSm1R0gGHAUFVX3lxTE5aMG1MeFA4ZGZyOUEyMWJjRXNzb1hmdEktNmlycWhpNlY5VDVjNEEtRTlPWkJCQ2wzMzJyZ0FhWFFkT29hd0sxeTViejV2aG9icFQ3dzVqZlBxRVlSNnJ6amduZXR2TTYwcmZ2ZktBel93ME9QaTZyNlB6YzlKaVo5WGV2Y1hvOA?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdWVGbmRTVkJUNTBFWk5wcFZ6dExOdEp6ckVvamlEd01NS0R2eHRZQmFNOW5mbU1sSUZhMlhBYmhpOXBVcTNmNmZsMTdVaXNMSHAtaUZWSVpwV185bW9Fd0hGYi1hcXFTWTJGNlpqalFqMHNjUE9XQW5vWTRBYXNLSU9tRVNEclE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "KDDI dissolves capital tie-up with Kakaku.com as takeover battle for the site continues",
+      "summary": "KDDI has dissolved its capital alliance with price-comparison site operator Kakaku.com, Japanese media reported, though the two companies' business tie-up continues. The move comes amid an ongoing tender-offer battle for control of Kakaku.com.",
+      "why_it_matters": "Unwinding the cross-shareholding removes a potential complication for bidders in the contested tender offer for Kakaku.com, even as KDDI's operational ties to its price-comparison and review platforms stay intact — a reminder that in Japan's TOB battles, capital and commercial relationships can be untangled independently of one another.",
+      "summary_ja": "KDDIは価格比較サイトを運営するカカクコムとの資本提携を解消したと日本メディアが報じた。両社の業務提携は継続する。この動きは、カカクコムの経営権をめぐるTOB争奪戦が続く中でのものだ。",
+      "why_it_matters_ja": "資本関係の解消により、争奪戦を繰り広げる買い手候補にとっての障害の一つが取り除かれる形となる一方、KDDIとカカクコムの価格比較・口コミサービスをめぐる業務提携自体は維持される。日本のTOB争奪戦では、資本関係と事業上の関係が別々に整理され得ることを示す事例といえる。",
+      "status": "new",
+      "prev": null,
+      "key": "kddi-kakakucom-capital-tie-up-dissolution",
+      "ids": [
+        "d773ca0aad3f20",
+        "f0114f555dc0a2"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMHhUQU5fd20ycEVvTXhJejBMc1FCcVZDMzZXSmRpTTAxMVpTZlV3ZTItSHB4bnRFeWx3SnpLbVRjN3Q0aHpzUl9faWNpQmg0US15Y1VPN0ROd3RBYkNIZUo3MzY3MEVHUzlhOGRmYmdNSkZ5bjU1SV9rcG1fZU8td0NmeFk2cHc?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQR2o1dEd0UlhzU3VpaHJfYm4wSmdUVVdsTFBKZ01ZdXFqYlFEMElnV0xGd05mUTZoVTlyczc2cmpmTWpKeFdmVUNhYnpsQ2NjWWlaM2JXbThwYnljR2Y5WGdQRGgxWFQzUG5NRG4xc0t4NzExa3B1Yk1Tb1JSM28weEtlSVBJeW9RMlhDeDF3?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Kimberly-Clark launches exchange offers for Kenvue notes tied to its pending acquisition",
+      "summary": "Kimberly-Clark commenced exchange offers and consent solicitations for notes issued by Kenvue, in connection with its previously announced pending acquisition of the company, the company said.",
+      "why_it_matters": "The note exchange is a routine but necessary financing step for Kimberly-Clark to fold Kenvue's balance sheet into its own once the acquisition closes, smoothing the combined company's debt structure ahead of completion, and is worth tracking for credit investors holding Kenvue paper who must now decide whether to tender into the offer.",
+      "summary_ja": "キンバリー・クラークは、既に公表済みのケンビュー買収に関連し、ケンビュー発行の社債を対象とした交換公開買付けおよび同意勧誘を開始したと発表した。",
+      "why_it_matters_ja": "この社債交換は事務的な手続きではあるが、買収完了に向けてケンビューの負債をキンバリー・クラーク側に統合し、合併後の負債構成を整理するために必要な財務対応である。ケンビュー債を保有するクレジット投資家は、この買付けに応じるかどうかの判断を迫られることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "kimberly-clark-kenvue-notes-exchange",
+      "ids": [
+        "b8da93af7d29af"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/kimberly-clark-corporation-announces-commencement-of-exchange-offers-and-consent-solicitations-for-kenvue-notes-302891811.html"
+        }
+      ]
+    },
+    {
+      "headline": "BRC Group agrees to acquire Sangoma Technologies at $204 million enterprise value",
+      "summary": "BRC Group Holdings agreed to acquire Sangoma Technologies, valuing Sangoma at an enterprise value of approximately $204 million (C$289 million); combined, BRC's communications businesses and Sangoma generated about $441 million in trailing-twelve-month revenue as of June 2026. Sangoma shares jumped more than 40% after the deal was announced.",
+      "why_it_matters": "The deal scales BRC's communications portfolio to roughly $441 million in combined trailing revenue and signals continued roll-up activity among mid-sized unified-communications vendors, a sector where cloud-migration costs have pushed smaller players toward consolidation; the sharp jump in Sangoma's shares suggests the market saw the offer as a premium to where the stock had been trading.",
+      "summary_ja": "BRCグループ・ホールディングスはサンゴマ・テクノロジーズの買収に合意し、サンゴマの企業価値は約2億400万ドル（2億8900万カナダドル）と評価された。BRCの通信事業とサンゴマを合わせた直近12カ月の売上高は2026年6月時点で約4億4100万ドルに達する。発表を受け、サンゴマ株は40%超急騰した。",
+      "why_it_matters_ja": "この買収により、BRCの通信事業ポートフォリオの直近合算売上高は約4億4100万ドル規模に拡大し、中堅の統合コミュニケーション事業者間で再編・ロールアップが続いていることを示している。クラウド移行コストの負担が中小事業者を統合に向かわせている分野であり、サンゴマ株の急騰は市場がこの買収提示額を従来の株価に対するプレミアムと受け止めたことを示唆する。",
+      "status": "new",
+      "prev": null,
+      "key": "brc-sangoma-technologies-acquisition",
+      "ids": [
+        "47a00670dd8980",
+        "0603436138b632"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/brc-group-holdings-inc-agrees-to-acquire-sangoma-technologies-corporation-to-scale-communications-portfolio-302892009.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjdEp5ZU5pV3pYeFhMWlRfTGE0d2FqUUQySUZ4WGljNllpb19TVHpJd3hxWnZ3aU15QmdNbGZZZHZRazkzNkMyZi1iNDM0YWkyazh5N0NPR3ZHamdabEVPT05fMHl4TkExZXY5YTFCRHE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gates completes acquisition of Timken's belts business",
+      "summary": "Gates Industrial Corporation completed its acquisition of the belts business of The Timken Company, both companies announced. Timken said the divestiture improves its profitability and sharpens its focus on its core advanced-motion-technology operations.",
+      "why_it_matters": "The carve-out lets Timken concentrate capital and management attention on its higher-margin advanced-motion-technology lines, while handing Gates a business that slots directly into its existing power-transmission and fluid-power portfolio — a bolt-on that sharpens both industrial companies' focus without either needing to build the capability from scratch.",
+      "summary_ja": "ゲイツ・インダストリアル・コーポレーションは、タイケン・カンパニーのベルト事業の買収を完了したと両社が発表した。タイケンは、この事業売却により収益性が改善し、中核とする先端モーション技術事業への集中が強まるとしている。",
+      "why_it_matters_ja": "この事業切り出しにより、タイケンは収益性の高い先端モーション技術分野に経営資源と経営陣の関心を集中できる。一方でゲイツは自社の動力伝達・流体動力事業のポートフォリオに直接合致する事業を獲得しており、両社ともに一から能力を構築することなく事業の絞り込みを進められるボルトオン型の再編といえる。",
+      "status": "new",
+      "prev": null,
+      "key": "gates-timken-belts-business-acquisition",
+      "ids": [
+        "752fb8f881b4ad",
+        "dd5500455eb624"
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy",
+        "Industrials",
+        "Infrastructure",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/gates-completes-acquisition-of-the-belts-business-from-the-timken-company-302891947.html"
+        },
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/timken-completes-sale-of-belts-business-to-gates-302891952.html"
+        }
+      ]
+    },
+    {
+      "headline": "TransDigm completes $1.066 billion acquisition of aerospace parts maker Prince & Izant",
+      "summary": "TransDigm Group completed its acquisition of Prince & Izant, formerly a portfolio company of private equity firm Industrial Growth Partners, for approximately $1.066 billion, the company said.",
+      "why_it_matters": "The deal extends TransDigm's long-running strategy of buying proprietary aerospace component makers with pricing power and sole-source positions, adding another platform to a roll-up model that has compounded shareholder returns for two decades and that rivals watch closely as a signal of where aftermarket-parts consolidation is heading next.",
+      "summary_ja": "トランスダイム・グループは、プライベートエクイティのインダストリアル・グロース・パートナーズの傘下企業だったプリンス・アンド・アイザントを約10億6600万ドルで買収完了したと発表した。",
+      "why_it_matters_ja": "この買収は、価格決定力と独占供給的な地位を持つ航空宇宙部品メーカーを買い進めるトランスダイムの長年の戦略を継続するもので、20年にわたり株主還元を積み重ねてきた同社のロールアップ型M&Aにまた一つのプラットフォームが加わる。業界他社にとっても、アフターマーケット部品分野の再編の方向性を示す動きとして注視されている。",
+      "status": "new",
+      "prev": null,
+      "key": "transdigm-prince-izant-acquisition",
+      "ids": [
+        "3e6364ee5640c1"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/transdigm-completes-acquisition-of-prince--izant-302891432.html"
+        }
+      ]
+    },
+    {
+      "headline": "AAR agrees to acquire controlling interest in MRO Holdings, adding over $1 billion in revenue",
+      "summary": "AAR agreed to acquire a controlling interest in MRO Holdings, accelerating its aftermarket platform strategy. The company said the deal adds more than $1 billion in revenue supporting blue-chip US airline customers and expands AAR's consolidated adjusted EBITDA margins from about 12% to 16% before synergies.",
+      "why_it_matters": "The acquisition materially boosts AAR's scale and margin profile in aircraft maintenance, repair and overhaul, a segment airlines are outsourcing more heavily as fleets age and parts supply stays tight; a four-point jump in adjusted EBITDA margin before synergies signals AAR expects meaningful cost efficiencies once MRO Holdings is folded into its network.",
+      "summary_ja": "AARはMROホールディングスの支配的持分を取得することで合意し、アフターマーケット事業戦略を加速させる。同社によると、この買収により大手米国航空会社顧客向けの売上高が10億ドル超積み増され、シナジー効果を除いても連結調整後EBITDAマージンは約12%から16%に拡大する。",
+      "why_it_matters_ja": "この買収により、AARの航空機整備・修理・オーバーホール（MRO）事業の規模と収益性が大きく向上する。機材の高齢化と部品供給の逼迫を背景に、航空会社によるアウトソーシング需要が高まっている分野であり、シナジー効果を除いても調整後EBITDAマージンが4ポイント上昇する見込みは、AARがMROホールディングスの統合により相応のコスト効率化を見込んでいることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "aar-mro-holdings-controlling-interest",
+      "ids": [
+        "5c03c574d15d7f"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT",
+        "Consumer"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/aar-accelerates-its-aftermarket-platform-strategy-by-agreeing-to-acquire-a-controlling-interest-in-mro-holdings-302891941.html"
+        }
+      ]
+    },
+    {
+      "headline": "DNO declines to raise Capricorn Energy bid after rival Genel sweetens its offer",
+      "summary": "DNO said it will not raise its takeover proposal for Capricorn Energy after rival bidder Genel Energy increased its own offer, Japanese wire reports said. DNO shares fell sharply on the news.",
+      "why_it_matters": "Standing pat in a competitive bidding process risks ceding Capricorn to Genel, testing how much North Sea and Kurdistan-focused oil assets are really worth to strategic buyers in a public bidding war, and the sharp share-price reaction suggests investors read DNO's restraint as capital discipline rather than confidence it can still win the target.",
+      "summary_ja": "DNOは、対抗入札者のジェネル・エナジーが提示額を引き上げたことを受けても、キャプリコーン・エナジーへの買収提案を引き上げない方針を示したと日本の通信社が報じた。この発表を受け、DNO株は急落した。",
+      "why_it_matters_ja": "競争入札の局面で提示額を据え置くことは、キャプリコーン獲得の主導権をジェネルに譲るリスクを伴い、北海およびクルディスタン地域の石油資産に戦略的買い手がどこまでの価値を認めるかが問われる展開となっている。株価が急落した反応は、市場がDNOの静観姿勢を規律ある資本配分と受け止めるよりも、案件を勝ち取れる自信の乏しさの表れと解釈したことを示唆する。",
+      "status": "new",
+      "prev": null,
+      "key": "dno-genel-capricorn-energy-bidding-war",
+      "ids": [
+        "d0b21b6825c4a3",
+        "a3f2f3d1fadcad"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Energy"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsR1ZTcTVIUlUxbnRTWURIM2dNYXJTTTE1TnZxYzh0Z01RcXZiUG83emo4VENCR21PVXZpdXJUNXg1Z0hNQ0JzcTdULUlaZGktdy1BbENZSFlJdkpLZmRfU0pCZ28zYmNEV1ZxRWI3ZzJ6UUh2UkI4?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWlNIQjFpWjB0NkllY1paeG82emw4REdFT19IaUdyYWxLdXJXV0NCY3ZkLTVxOTBsMy1SNUpFNzdSN2hmUEVXdlpiZGlKMzJWUTFXd0d6Q0djYlVFc0VwenhPQ0dIVzdTZmpQS3NDRGNIVjZtbE5yQy1pNHRyQkRvQWxhTGtnMFhyd1g0ekpETmJBSmZmY1k5VG9TWXBOcnh1M0hGYVJDSQ?oc=5"
+        }
+      ]
+    }
+  ]
+}
