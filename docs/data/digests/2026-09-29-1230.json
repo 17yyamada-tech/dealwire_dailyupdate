@@ -1,0 +1,131 @@
+{
+  "edition": "2026-09-29-1230",
+  "edition_label": "29 Sep 2026 · 12:30 SGT",
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29T04:36:10Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Nvidia approves additional ¥23 trillion buyback, described as largest in market history",
+      "summary": "Nvidia's board approved an additional ¥23 trillion share buyback programme, Japanese wire services reported, adding to the company's existing capital-return plans. Local media described the repurchase as the largest in stock market history.",
+      "why_it_matters": "The buyback underscores the scale of cash Nvidia is generating at the peak of the AI infrastructure boom, and its confidence in sustaining that cash flow even as it commits large sums to AI data-centre deals elsewhere; a repurchase of this size also sets a new benchmark for corporate capital returns globally.",
+      "summary_ja": "エヌビディア取締役会は23兆円規模の追加自社株買いを承認したと、日本の通信社が報じた。既存の株主還元策に上乗せする形となり、現地メディアはこの自社株買いを株式市場史上最大規模と伝えている。",
+      "why_it_matters_ja": "この規模の自社株買いは、AIインフラ需要が最高潮にある中でエヌビディアが生み出すキャッシュフローの大きさと、他のAIデータセンター案件に巨額を投じながらもそれを維持できるという同社の自信を裏付けるものだ。同時に、世界の企業による株主還元の新たな基準を打ち立てる規模でもある。",
+      "status": "new",
+      "prev": null,
+      "key": "nvidia-buyback-23-trillion-yen",
+      "ids": ["a87cd3bd430f41", "600a5988b5bc41"],
+      "categories": [],
+      "countries": ["JP"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan disclosures", "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mS1QxazBpVmJtejNIV2hyeHRDbGFCUlBJc0pxTUtoN3BjNjhacXJydl94YW11R212NWd5LWVlc2hCM0NtUE1EdTRTbDBZVGNmQ21jWnpNZ2w4VnlfT2xN?oc=5"},
+        {"source": "Japan disclosures", "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZWkxdm55SUNZdmJrbG0zQXhIcDhYMnROd2hZTnEzNmFLbXZ6cG1NVkkyTUdsa2ktWGJiWlh4UGpYUjlFS0k2aTJfUDVfRnM0T2twNkxGcGhhandwRThVT29EOVRGR1ZONHlJTWxTSjV4dkdkMGFPbndPLWg4Z294T2hBTmNmR29acm1EbjV4UFhibkhKTUx3aWxOSEpmNl9Vd0pMMkI0TFpMcG9NbXc?oc=5"}
+      ]
+    },
+    {
+      "headline": "Samsung and affiliates to invest $1 billion in KKR-backed Helix Digital AI infrastructure buildout",
+      "summary": "Samsung Electronics and its affiliates agreed to invest $1 billion in KKR-backed Helix Digital Infrastructure, the companies said. Helix aims to use the capital to secure the infrastructure needed to bring large AI computing facilities online quickly.",
+      "why_it_matters": "The investment ties Samsung more closely to the privately financed AI data-centre buildout that underpins demand for its chips and memory, and adds another large strategic backer to KKR's infrastructure platform as competition to secure AI computing capacity intensifies.",
+      "summary_ja": "サムスン電子とその関連会社は、KKRが支援するヘリックス・デジタル・インフラストラクチャーに10億ドルを出資することで合意したと両社が発表した。ヘリックスは、大規模なAI向け演算設備を迅速に稼働させるために必要なインフラの確保にこの資金を活用する狙いだ。",
+      "why_it_matters_ja": "この出資により、サムスンは自社の半導体・メモリー需要を支える民間資本主導のAIデータセンター拡張に一段と深く関与することになる。AI演算能力の確保競争が激化する中、KKRのインフラ事業には有力な戦略的出資者がまた一社加わった形だ。",
+      "status": "new",
+      "prev": null,
+      "key": "samsung-kkr-helix-digital-investment",
+      "ids": ["0e51773e28ba6d", "9247b40e8ff5a1"],
+      "categories": ["PE", "Infra"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["AI & Semis", "TMT", "Infrastructure"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/samsung-invest-us1-billion-kkrs-ai-infrastructure-company"},
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/samsung-electronics-commits-1-billion-kkr-backed-helix-digital-ai-buildout-6417001"}
+      ]
+    },
+    {
+      "headline": "Megaport signs US$687 million of AI infrastructure deals, lifts FY2027 earnings forecast",
+      "summary": "Australia's Megaport signed US$687 million worth of AI infrastructure deals, the company said, and raised its earnings forecast for fiscal 2027 as a result.",
+      "why_it_matters": "The contract wins and higher guidance point to strong demand for network infrastructure supporting AI workloads, positioning Megaport as a beneficiary of the broader AI data-centre buildout even though it is neither a hyperscaler nor a chipmaker.",
+      "summary_ja": "オーストラリアのメガポートは、総額6億8700万米ドル規模のAIインフラ関連契約を締結したと発表し、これを受けて2027会計年度の業績見通しを上方修正した。",
+      "why_it_matters_ja": "今回の契約獲得と上方修正された見通しは、AI関連の処理需要を支えるネットワークインフラへの需要の強さを示している。メガポートはハイパースケーラーでも半導体メーカーでもないが、AIデータセンター拡張の恩恵を受ける企業の一つとして位置づけられる。",
+      "status": "new",
+      "prev": null,
+      "key": "megaport-ai-infrastructure-deals",
+      "ids": ["77383c8ba9abca", "821d6aff8779b8"],
+      "categories": [],
+      "countries": [],
+      "sectors": ["AI & Semis", "TMT", "Infrastructure"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/australias-megaport-wins-687-million-ai-infrastructure-deals-raises-2027-earnings-forecast-6416976"},
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/australias-megaport-signs-687-million-ai-infrastructure-deals-lifts-annual-forecast-6416976"}
+      ]
+    },
+    {
+      "headline": "HCLSoftware to acquire agentic automation startup Robotiq.ai",
+      "summary": "HCLSoftware agreed to acquire Robotiq.ai, the company said, adding enterprise robotic-process-automation capabilities to its HCL UnO Agentic platform. The deal is intended to strengthen orchestration between AI agents and enterprise applications.",
+      "why_it_matters": "The acquisition shows enterprise software vendors racing to fold RPA into agentic-AI platforms as customers look to automate more complex workflows, sharpening competition among vendors building end-to-end AI-agent orchestration suites.",
+      "summary_ja": "HCLソフトウェアはロボティック・アイ（Robotiq.ai）を買収することで合意したと発表した。これにより、同社のエージェント型AIプラットフォーム「HCL UnOエージェンティック」に企業向けRPA機能が加わる。今回の買収は、AIエージェントと企業アプリケーションとの連携を強化する狙いがある。",
+      "why_it_matters_ja": "この買収は、企業向けソフトウェア各社がRPA機能をエージェント型AIプラットフォームに取り込む競争を加速させていることを示している。顧客がより複雑な業務プロセスの自動化を求める中、AIエージェントの統合基盤を構築するベンダー間の競争が一段と激しくなっている。",
+      "status": "new",
+      "prev": null,
+      "key": "hclsoftware-robotiq-acquisition",
+      "ids": ["cf6967d491b8ae"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/hclsoftware-adquirira-robotiqai-reforzando-la-automatizacion-con-agentes-a-nivel-empresarial-302892276.html"}
+      ]
+    },
+    {
+      "headline": "Fire protection specialist Deluge Corp files for Singapore mainboard IPO with S$433 million order book",
+      "summary": "Deluge Corp, a fire protection specialist, filed a preliminary prospectus for a mainboard listing on the Singapore Exchange, the company said. Its order book stood at S$433 million as at Sep 16.",
+      "why_it_matters": "The filing adds another operating company to Singapore's mainboard IPO pipeline, testing investor appetite for industrial-services listings as the exchange continues efforts to revive local listing activity.",
+      "summary_ja": "消防設備専門会社のデルージュ・コーポレーションは、シンガポール取引所メインボードへの上場に向けた予備目論見書を提出したと発表した。受注残高は9月16日時点で4億3300万シンガポールドルに達している。",
+      "why_it_matters_ja": "今回の上場申請により、シンガポールのメインボードIPOのパイプラインに新たな事業会社が加わることになる。同取引所が国内上場の活性化に取り組みを続ける中、産業サービス関連銘柄への投資家の需要が試される案件だ。",
+      "status": "new",
+      "prev": null,
+      "key": "deluge-corp-mainboard-ipo",
+      "ids": ["0a1c3e5765d8f2"],
+      "categories": [],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/fire-protection-specialist-deluge-corp-files-preliminary-prospectus-mainboard-ipo"}
+      ]
+    },
+    {
+      "headline": "Mapletree Industrial Trust to sell Minnesota data centre for US$9.8 million",
+      "summary": "Mapletree Industrial Trust agreed to sell a data centre property in Minnesota for US$9.8 million, the trust said. Net proceeds may be used to pare down debt and/or fund working capital requirements.",
+      "why_it_matters": "The disposal is a small but deliberate step toward trimming Mapletree Industrial Trust's US data-centre exposure and strengthening its balance sheet, at a time when Singapore-listed REITs face pressure to manage leverage amid higher-for-longer interest rates.",
+      "summary_ja": "メープルツリー・インダストリアル・トラストは、米ミネソタ州のデータセンター物件を980万米ドルで売却することで合意したと発表した。売却純収入は債務の圧縮および運転資金の確保に充てられる可能性があるとしている。",
+      "why_it_matters_ja": "この売却は小規模ながらも、メープルツリー・インダストリアル・トラストが米国のデータセンター資産へのエクスポージャーを縮小し、財務基盤を強化するための着実な一歩といえる。金利の高止まりが続く中、シンガポール上場REIT各社はレバレッジ管理への圧力にさらされている。",
+      "status": "new",
+      "prev": null,
+      "key": "mapletree-industrial-trust-minnesota-sale",
+      "ids": ["11874d4af10a25"],
+      "categories": ["Infra"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["TMT", "Real Estate", "Industrials"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/reits-property/mapletree-industrial-trust-sell-minnesota-data-centre-property-us9-8-million"}
+      ]
+    },
+    {
+      "headline": "HK-listed Metasurface files for dual primary listing on Singapore's Catalist board",
+      "summary": "Metasurface, a Hong Kong-listed engineering firm, filed for a dual primary listing on Singapore's Catalist board, the company said. The semiconductor industry accounted for more than 95% of its revenue in the first half of 2026.",
+      "why_it_matters": "A dual listing would give Metasurface access to Singapore's capital markets and broaden its investor base, reflecting how some Hong Kong-listed, semiconductor-linked industrial companies are seeking additional listing venues in Southeast Asia to diversify funding sources.",
+      "summary_ja": "香港上場のエンジニアリング会社メタサーフェスは、シンガポールのキャタリスト市場へのデュアル・プライマリー上場を申請したと発表した。2026年上半期の売上高の95%超を半導体関連事業が占めている。",
+      "why_it_matters_ja": "デュアル上場が実現すれば、メタサーフェスはシンガポールの資本市場にアクセスでき、投資家層の拡大にもつながる。半導体関連の香港上場企業の一部が、資金調達源の多様化を図るため東南アジアでの上場先を追加的に求めている動きを反映した事例といえる。",
+      "status": "new",
+      "prev": null,
+      "key": "metasurface-catalist-dual-listing",
+      "ids": ["0f4abb5db5d805"],
+      "categories": [],
+      "countries": ["SG", "HK/CN", "SEA"],
+      "sectors": ["AI & Semis", "TMT", "Industrials"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/hk-listed-engineering-firm-metasurface-files-dual-primary-listing-catalist"}
+      ]
+    }
+  ]
+}

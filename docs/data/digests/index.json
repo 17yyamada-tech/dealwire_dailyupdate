@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-29-1230",
+      "label": "29 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-29T04:36:10Z",
+      "items": 7,
+      "headlines": [
+        "Nvidia approves additional ¥23 trillion buyback, described as largest in market history",
+        "Samsung and affiliates to invest $1 billion in KKR-backed Helix Digital AI infrastructure buildout",
+        "Megaport signs US$687 million of AI infrastructure deals, lifts FY2027 earnings forecast"
+      ]
+    },
+    {
       "id": "2026-09-29-0830",
       "label": "29 Sep 2026 · 08:30 SGT",
       "generated_at": "2026-09-29T00:38:34Z",
