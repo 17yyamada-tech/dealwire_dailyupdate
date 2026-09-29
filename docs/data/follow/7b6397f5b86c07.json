@@ -4,7 +4,7 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-09-29T04:48:27Z",
+  "checked_at": "2026-09-29T07:52:00Z",
   "background": [
     {
       "date": "2026-09-26",
@@ -72,6 +72,30 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-09-29",
+      "headline": "Katayama repeats warning that undervalued yen is 'problematic' after phone call with Bessent",
+      "summary": "Japanese Finance Minister Satsuki Katayama said the yen's undervaluation remains a concern and that Tokyo and Washington will stay in close contact to keep currency markets orderly, following her phone call with US Treasury Secretary Scott Bessent.",
+      "summary_ja": "片山さつき財務相は、円安は引き続き問題だとの認識を示し、外国為替市場の秩序維持へ日米で緊密な連絡を続ける考えを示した。ベッセント米財務長官との電話協議を受けた発言である。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/japan-s-katayama-reiterates-weak-yen-concern-after-bessent-call"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Iran's Araghchi meets Qatari mediators in New York, says US may respond to Hormuz proposal by Tuesday",
+      "summary": "Iranian Foreign Minister Abbas Araghchi met Qatari mediators in New York to relay Iran's amended Strait of Hormuz reopening proposal, saying he hoped for Washington's final response by Tuesday, while a US official said there would be no end-of-war agreement unless Iran's nuclear programme is addressed.",
+      "summary_ja": "イランのアラグチ外相はニューヨークでカタール仲介団と会談し、ホルムズ海峡再開に関する修正提案を伝え、火曜日までに米国から最終回答を得たいとの見通しを示した。米当局者は、イランの核開発計画への対応なしに終戦合意はないと述べた。",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/29/irans-araghchi-meets-qatari-mediators-as-us-insists-on-nuclear-talks"
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "US officials say Hormuz oil flows near prewar levels despite Iran's claims of successful strikes",
+      "summary": "US officials said oil flows through the Strait of Hormuz have recovered substantially despite Iran's claims of successful attacks on shipping there, with the Energy Secretary citing about 13 million barrels a day and the Treasury Secretary citing an estimate of 15-22 million barrels a day, against roughly 20 million barrels a day before the war.",
+      "summary_ja": "イランが同海峡付近での船舶攻撃の成功を主張する一方、米当局者はホルムズ海峡の原油輸送量が開戦前の水準に近づいていると述べた。米エネルギー長官は日量約1300万バレル、米財務長官は日量1500万~2200万バレルとの見方を示し、開戦前の日量約2000万バレルと比較した。",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions"
+    },
     {
       "date": "2026-09-28",
       "headline": "Iran's army vows to keep blocking vessels near the Strait of Hormuz as Tehran says it is \"fully prepared\" for war",
