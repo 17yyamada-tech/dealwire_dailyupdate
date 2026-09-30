@@ -1,0 +1,322 @@
+{
+  "edition": "2026-09-30-0830",
+  "edition_label": "30 Sep 2026 · 08:30 SGT",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T00:35:23Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "OpenAI in talks for $30 billion funding round at $1.4 trillion valuation",
+      "summary": "OpenAI is targeting a $30 billion funding round that would value the company at $1.4 trillion, Bloomberg reported. The valuation could put OpenAI above rival Anthropic's latest private-market mark, extending the run of mega-rounds among frontier AI labs.",
+      "why_it_matters": "A raise of this size shows how much capital AI labs are still absorbing even as public-market IPO sentiment cools. It also keeps OpenAI's compute-spending commitments funded and sets a fresh reference point for how private investors are pricing the sector's leading labs against each other.",
+      "summary_ja": "OpenAIは1.4兆ドルの評価額で300億ドルの資金調達を目指していると、ブルームバーグが報じた。実現すれば評価額はライバルであるAnthropicの直近の非公開市場評価を上回る。",
+      "why_it_matters_ja": "これほどの規模の調達は、IPO市場心理が冷え込む中でもAIラボが巨額の資本を吸収し続けている実態を映し出す。OpenAIの計算基盤への投資公約の原資を確保するとともに、大手AIラボ同士を比較する上での新たな評価基準を示すものとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "openai-30bn-funding-1-4-trillion",
+      "ids": [
+        "9211c4f91e9962",
+        "9b39b5486de786"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/openai-targets-30-billion-funding-14-trillion-valuation-bloomberg-news-reports-6419526"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/openai-targets-us30-billion-new-funding-us1-4-trillion-value"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "PPIH's Don Quijote to acquire Toys 'R' Us Japan operations for about ¥10 billion",
+      "summary": "PPIH, operator of Don Quijote, agreed to acquire Toys 'R' Us's Japan business, taking over all roughly 150 stores nationwide as Toys 'R' Us exits store operations in the country. The deal is reported to be worth about ¥10 billion, according to multiple Japanese media reports.",
+      "why_it_matters": "The deal folds a shrinking toy retailer into Japan's dominant discount chain, extending PPIH's push into big-box retail consolidation amid a declining child population. It also marks Toys 'R' Us's full retreat from running its own stores in the country.",
+      "summary_ja": "ドン・キホーテを運営するPPIHが、トイザらスの日本事業を全国約150店舗ごと買収することで合意した。トイザらスは日本での店舗運営から撤退する。取得額は複数の日本メディアの報道によれば約100億円規模とされる。",
+      "why_it_matters_ja": "縮小するおもちゃ小売チェーンが日本最大級のディスカウントチェーンに組み込まれる案件であり、少子化が進む中でのPPIHによる大型小売の統合戦略を一段と広げるものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "ppih-donki-toysrus-japan",
+      "ids": [
+        "14c5b6c08d99e8",
+        "ed03edc9791152",
+        "2449901368f6b1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TUF93T2ZNbm5ONm9uS2t3bDkzU0J6X2dLYnhzbzVEaldQMkN0NWl0TUNyaG5JcG1EeURuOHlJa1hKNVd6TVBMbzhLNlhnbUpsNnE4VGx5dU5mV2VBcUwxSkR0RWZpeW1kM1oybg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9BWFVqd0ZVaVd2QVU0R25XNHY2cXJEMmRMcHRjck9BdFREVjZhSlNKbnhYNURJSkJUNURxaE9RamJCS2VHUXBsalo0NUozeEVQTXo5bGZMR3oxc2dzN0FrN3BwaVNteGF1T2Z0WmJDMkIzVG1L?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xNXhnUmpQdTlnWWVmRnpQbWJ5NGg0MVVrT1RrY2drSnZpekZzVGhVUEpTMDQ0c1BmalE5MWxPTDVpak9iTnpOR21YMXVldFZBY2lTR1VoV1hkaU9pSURvalotUjFhMEk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "BASF offers €10.3 billion to acquire Evonik",
+      "summary": "BASF has presented a €10.3 billion offer to acquire Evonik, according to reports, turning previously disclosed takeover interest into a firm bid. The offer follows days after BASF first confirmed it was exploring a deal for the German chemicals maker.",
+      "why_it_matters": "A priced offer turns days of speculation into a concrete test of German chemicals-sector consolidation, and puts pressure on Evonik's board to respond. It also carries implications for both companies' credit profiles, given the scale of financing a deal this size would require.",
+      "summary_ja": "BASFがエボニックの買収に向けて103億ユーロの提案を提示したと報じられた。これまで表明していた買収検討が、数日を経て具体的な金額を伴う提案へと進んだ。",
+      "why_it_matters_ja": "価格を伴う提案が示されたことで、数日間の憶測が具体的な独化学業界の再編案件へと変わり、エボニック取締役会は対応を迫られる。両社の信用力にも影響し得る規模の資金調達が必要になる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-27-0830",
+        "index": 1
+      },
+      "key": "basf-evonik-takeover",
+      "ids": [
+        "a8074cb2bd5814"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5U1ZsYU93b3BKdFkycVBXb3V0aHlNTlFKLWdMb3BHQm93bE9aTG41dXBXRnZwT2xSNVpieTI4RDBTM1FsR1ZJejZQR2Jod2NpSG5z?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Paramount's Warner-related bond sale draws $109 billion in orders, 3.6 times oversubscribed",
+      "summary": "Paramount's bond offering tied to funding its Warner Bros deal drew about $109 billion in investor orders, 3.6 times the amount on offer, according to reports. The result follows Paramount's earlier move to raise $7.5 billion of additional debt for the acquisition.",
+      "why_it_matters": "Heavy demand signals credit investors are comfortable with the leverage Paramount is taking on for the Warner Bros acquisition. That eases financing risk around the deal and could support tighter pricing on the notes.",
+      "summary_ja": "パラマウントがワーナー・ブラザース買収の資金調達に絡んで実施した社債発行に、発行額の3.6倍にあたる約1090億ドルの投資家需要が集まったと報じられた。これは、同社が買収資金として追加で75億ドルの起債を進めていたことを受けた結果である。",
+      "why_it_matters_ja": "旺盛な需要は、クレジット投資家がワーナー・ブラザース買収に伴うパラマウントのレバレッジ拡大を許容していることを示す。これにより買収の資金調達リスクが和らぎ、発行条件がより有利になる可能性もある。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-28-1530",
+        "index": 0
+      },
+      "key": "paramount-warner-bros-merger",
+      "ids": [
+        "d3590f0b40e152"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Jd1FJWUxYZVN6U1VpamYtZVJQN3NmbnVaVkRhellhNDMyNkF6eEYyaV9ZcGFRem1OWVRZTm5HOVV2N0tnUTdnZGhIZ3ljX2dHXzFuYlFsTFRLcFpvTGxlNUp0TGoycmJFMlo3eUd5R1poQUNQeFpJ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "American Express Global Business Travel completes $6.3 billion take-private by Long Lake",
+      "summary": "American Express Global Business Travel (Amex GBT) has completed its $6.3 billion take-private acquisition by Long Lake, according to reports. The company also filed an 8-K with the SEC disclosing completion of the transaction, along with related changes to its financing, governance and securities.",
+      "why_it_matters": "The closing removes Amex GBT from public markets and hands a corporate-travel platform to private ownership just as business-travel demand recovers. Sponsors and rivals will watch how the new ownership structure reshapes pricing and technology investment at the platform.",
+      "summary_ja": "アメリカン・エキスプレス・グローバル・ビジネス・トラベル（アメックスGBT）が、ロングレイクによる63億ドルの非公開化を完了したと報じられた。同社は取引完了に加え、資金調達・ガバナンス・証券関連の変更を開示する8-Kも米SECに提出した。",
+      "why_it_matters_ja": "この完了により法人旅行プラットフォームが上場市場から外れ、出張需要の回復局面で非公開の運営体制に移る。スポンサーや競合他社は、新たな所有構造が同プラットフォームの価格戦略や技術投資をどう変えるかを注視するとみられる。",
+      "status": "new",
+      "prev": null,
+      "key": "amex-gbt-long-lake-take-private",
+      "ids": [
+        "12d817fe88f010",
+        "370f79acaed970"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPbUIyeFVNNTlSUjI0bXBGd0RidElTN3ZENDBwYVg4TFU1clJOU0lGMDFudHVoV3lDLUZSLUFLbktIZUE4dVE2NnRYa0NOR0VtN3NMamV3UE1tMUJyVktPb2Y2Y19FTnBueVp6VGtBYkU?oc=5"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1820872/000114036126037931/0001140361-26-037931-index.htm"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other",
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "SBI Insurance Group and SBI Global Asset Management sign basic agreement to merge",
+      "summary": "SBI Insurance Group and SBI Global Asset Management signed a basic agreement for a management integration via an absorption-type merger, the companies disclosed. The disclosure did not give a merger ratio or completion date.",
+      "why_it_matters": "The tie-up consolidates two SBI Group financial units under one roof, part of the group's continued restructuring of its insurance and asset-management arms. Combining the two into a single entity simplifies SBI's corporate structure in both business lines.",
+      "summary_ja": "SBIインシュアランスグループとSBIグローバルアセットマネジメントが、吸収合併による経営統合に関する基本合意書を締結したと開示した。開示では合併比率や完了時期には言及していない。",
+      "why_it_matters_ja": "SBIグループ傘下の保険会社と資産運用会社を一体化する動きであり、同グループが続ける金融事業再編の一環と位置付けられる。両社を一つの法人にまとめることで、双方の事業における企業構造が簡素化される。",
+      "status": "new",
+      "prev": null,
+      "key": "sbi-insurance-global-asset-management-merger",
+      "ids": [
+        "c962440628be6d"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MMmdnd25KdTlFRU1hTkQ0VndNeExQc0NGN2ZKTGNNV09Ja2NnTnJuZk40S0dPOVRKdjJ6NXBrM3NNRWxBcGo5WmNRVU0xbExFM3F5R2ZzNGU5Nk9TMTdjMVNRRHROSnNCZUE?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "EQT raises Kakaku.com tender offer price to ¥3,681, extends deadline to October 14",
+      "summary": "EQT, a European buyout fund, raised its tender offer price for Kakaku.com by ¥1 to ¥3,681 per share and extended the offer period for a fifth time, to October 14, as the takeover battle for the Tabelog operator continues.",
+      "why_it_matters": "Repeated small price bumps and extensions suggest EQT is fighting to hold ground in a contested auction. Rival bidders and target shareholders will be watching whether a larger increase becomes necessary to close out the deal.",
+      "summary_ja": "欧州系ファンドのEQTがカカクコムへのTOB価格を1円引き上げ1株3681円とし、買付期間を5回目の延長で10月14日まで延ばした。「食べログ」を運営する同社をめぐる争奪戦が続いている。",
+      "why_it_matters_ja": "小幅な価格引き上げと延長を繰り返す展開は、EQTが争奪戦の中で立場を守ろうとしていることを示す。決着には、より大幅な引き上げが必要になるかどうかを他の入札者や株主が注視している。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-29-0830",
+        "index": 3
+      },
+      "key": "kddi-kakakucom-capital-tie-up-dissolution",
+      "ids": [
+        "1b2bddb137d4d0",
+        "466da436afbaa4"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1wNUVMaEhxTGZwN2ZxcnhmeUd4ZFFMX0Z5OUNKNkNGcFZBaVBYQ1ZIa2NEbWVPWHVqc1BwV0VXbloxeUdGNFBSSmZXZTVFYTNTSlFKbkhyMA?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaWtlV01GZF9YdW1yYlZqQTMzR0J3b1dtc2lETXlhdVFOS2FHa042SEh2TmMwZWpLMW1KQVNvQkZwYjlFTlhIUWxxbVJoYzk0eHpZVEdRb1poQzV1UmtSXzBBMmhDQmxYZkNoUVg2WE5VNTdsbmc1UWJlUmxHU1BlM096NURkLXc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "HSBC transfers $1.4 billion of loans to bolster Hang Seng Bank's balance sheet",
+      "summary": "HSBC transferred $1.4 billion in loans to strengthen the balance sheet of its Hong Kong unit, Hang Seng Bank, according to reports. Reports did not detail the type or maturity of the loans transferred.",
+      "why_it_matters": "The intragroup transfer shows HSBC actively managing capital and asset quality at Hang Seng. Credit investors are likely to read the move for signs of asset-quality strain at the Hong Kong lender, and will watch for further capital actions inside the franchise.",
+      "summary_ja": "HSBCが香港子会社の恒生銀行の財務基盤を強化するため、14億ドル相当のローンを移管したと報じられた。移管したローンの種類や償還期限については報道でも明らかにされていない。",
+      "why_it_matters_ja": "グループ内でのこうした移管は、HSBCが恒生銀行の資本と資産の質を積極的に管理していることを示す。クレジット投資家は同行の資産の質に関する懸念材料としてこの動きを注視し、傘下事業でのさらなる資本対応にも目を向けるとみられる。",
+      "status": "new",
+      "prev": null,
+      "key": "hsbc-hang-seng-loan-transfer",
+      "ids": [
+        "d606c4c526dbea"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/hsbc-bolsters-hang-seng-balance-sheet-14-billion-loan-transfer-6418091"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Germany weighs blocking major Chinese shipping company's takeover of mid-size port logistics firm",
+      "summary": "The German government is reportedly considering blocking a major Chinese shipping company from acquiring a mid-size German port logistics firm, citing serious national security concerns. Neither the acquirer nor the target was named in the reports.",
+      "why_it_matters": "It is the latest sign European governments are tightening scrutiny of Chinese buyers in port and logistics infrastructure. That raises the bar for future Chinese outbound M&A in transport and logistics assets across Europe.",
+      "summary_ja": "ドイツ政府が、中国の大手海運会社による中堅港湾物流会社の買収を、重大な安全保障上の懸念を理由に阻止する方向で検討していると報じられた。買収企業と対象企業の社名はいずれも報道では明らかにされていない。",
+      "why_it_matters_ja": "港湾・物流インフラをめぐる中国企業の買収案件に対し、欧州各国政府が審査を一段と厳格化していることを示す事例だ。欧州における輸送・物流資産をめぐる今後の中国企業の対外M&Aのハードルが上がることを示唆する。",
+      "status": "new",
+      "prev": null,
+      "key": "germany-blocks-china-shipping-port-logistics",
+      "ids": [
+        "b2d73d1fdf0aea"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DLWhrbWlPaUR1dEVjLUhDYnZ4dnc2ZzAxMUlHUFRvS1JqUEhyWktpU2FNaHlWY1JXSjFpUnRmTXpUX3ltSTRDTkVlUGFNUGtacVd5dA?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "HK/CN",
+        "JP"
+      ],
+      "sectors": [
+        "Industrials",
+        "Public / Macro"
+      ]
+    },
+    {
+      "headline": "Zheneng Jinjiang Environment gets take-private proposal at S$0.70 a share",
+      "summary": "Zheneng Jinjiang Environment received a proposal to take the company private at S$0.70 a share, or alternatively to issue new shares as an option. The company has not tapped the equity capital markets to raise funds since 2018, according to reports.",
+      "why_it_matters": "A go-private option for a long-dormant SGX issuer highlights the pressure on thinly traded small caps to either recapitalise or exit public markets. The choice offered between privatisation and a share issue underscores how limited its financing options have become.",
+      "summary_ja": "Zheneng Jinjiang Environmentが1株0.70シンガポールドルでの非公開化提案、または選択肢としての新株発行の提案を受け取った。報道によれば、同社は2018年以降、株式市場での資金調達を行っていない。",
+      "why_it_matters_ja": "取引が長らく低調だったSGX上場企業に非公開化という選択肢が示されたことは、薄商いの小型株が資本増強か市場からの撤退かの選択を迫られている実態を映している。非公開化と新株発行という二択が提示されたこと自体、資金調達の選択肢がいかに限られているかを物語る。",
+      "status": "new",
+      "prev": null,
+      "key": "zheneng-jinjiang-environment-privatisation-proposal",
+      "ids": [
+        "8522a31d2fdb30"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/zhenang-jinjiang-environment-proposes-take-company-private-s0-70-share-or-issue-new-shares"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

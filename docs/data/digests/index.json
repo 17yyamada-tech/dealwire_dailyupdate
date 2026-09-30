@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-30-0830",
+      "label": "30 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-30T00:35:23Z",
+      "items": 10,
+      "headlines": [
+        "OpenAI in talks for $30 billion funding round at $1.4 trillion valuation",
+        "PPIH's Don Quijote to acquire Toys 'R' Us Japan operations for about ¥10 billion",
+        "BASF offers €10.3 billion to acquire Evonik"
+      ]
+    },
+    {
       "id": "2026-09-29-1530",
       "label": "29 Sep 2026 · 15:30 SGT",
       "generated_at": "2026-09-29T07:37:07Z",
