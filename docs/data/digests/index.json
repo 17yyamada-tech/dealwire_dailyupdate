@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-30-1230",
+      "label": "30 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-30T04:40:00Z",
+      "items": 10,
+      "headlines": [
+        "Nidec weighs selling electronic-components unit Nidec Components to Carlyle for about ¥100 billion",
+        "KKR exits Japan and Korea tank-storage businesses after five years, sells Korean unit CTK to Bain Capital",
+        "Evonik rejects BASF's €10.3 billion takeover offer"
+      ]
+    },
+    {
       "id": "2026-09-30-0830",
       "label": "30 Sep 2026 · 08:30 SGT",
       "generated_at": "2026-09-30T00:35:23Z",

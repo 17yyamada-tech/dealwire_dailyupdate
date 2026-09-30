@@ -1,0 +1,302 @@
+{
+  "edition": "2026-09-30-1230",
+  "edition_label": "30 Sep 2026 · 12:30 SGT",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T04:40:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Nidec weighs selling electronic-components unit Nidec Components to Carlyle for about ¥100 billion",
+      "summary": "Nidec is considering selling its electronic-components subsidiary, Nidec Components, to US private equity firm Carlyle in a deal that could be worth about ¥100 billion, according to reports. Nidec is expected to book a large loss tied to the unit in its earnings announcement due today, September 30.",
+      "why_it_matters": "A ¥100 billion-scale disposal would mark one of Carlyle's larger recent Japan buyouts and lets Nidec shed a lower-margin components business as it books an associated writedown, sharpening its portfolio around core motor and precision-machinery operations.",
+      "summary_ja": "ニデックが電子部品子会社ニデックコンポーネンツを米カーライルへ売却する方向で検討していると報じられた。売却額は1000億円規模とされ、ニデックは本日9月30日の決算発表で当該子会社に絡む巨額損失を計上する見込みだ。",
+      "why_it_matters_ja": "1000億円規模の売却が実現すれば、カーライルにとって近年の日本での大型買収案件の一つとなる。ニデックは損失計上と引き換えに低採算の電子部品事業を切り離し、モーターや精密機械といった中核事業へ経営資源を集中させる狙いがある。",
+      "status": "new",
+      "prev": null,
+      "key": "nidec-components-carlyle-sale",
+      "ids": [
+        "4ea42b43cf25c7",
+        "fe0121b5e36a70"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02Y0VYV3RkN29ENWxfT3pVNDNrX2s4c2QzR1JfcUZCNFNrNlEwSEV5eUVubWZVTlhPRWhfaGVnYkswVzVndDAzejRoTkVGUmZXd3c1VkJNaUJyajVkd0hhc08yclNycURuXzNzcUtNekNxWXQ5UGZSMFZ4bGhVSGs?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tb3ZNR2NRczFXMm5HS1IyMUc2bEJidW11OHVkSEdDclpJZG5mbzdJOFBNRHkyTWVtZUJ5eGJZZlBfYlkxSThlZ0l6S2VwdmJyS2FTdUUwTF85N01qampnNkF4cEZWYnlMWlFZWWpPcEV3dVZ0Umc?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "KKR exits Japan and Korea tank-storage businesses after five years, sells Korean unit CTK to Bain Capital",
+      "summary": "KKR has exited its Japan and Korea tank-storage businesses after roughly five years of ownership, according to reports. Its Korean unit, CTK, was acquired by Bain Capital.",
+      "why_it_matters": "The exit crystallises returns on a multi-year Asian liquid-storage infrastructure bet and hands Bain Capital a foothold in Korean tank-terminal assets, pointing to continued sponsor-to-sponsor deal flow in the region's industrial infrastructure.",
+      "summary_ja": "KKRが韓国・日本で保有していたタンクストレージ事業から、約5年の保有期間を経て撤退したと報じられた。韓国側の事業会社CTKはBain Capitalが買収した。",
+      "why_it_matters_ja": "複数年にわたるアジアの液体貯蔵インフラ投資からの投資回収が実現した案件であり、Bain Capitalは韓国のタンクターミナル資産への足がかりを得る。同地域の産業インフラ資産をめぐるスポンサー間での売買が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "kkr-tank-storage-japan-korea-exit",
+      "ids": [
+        "98838ac73db456",
+        "02b3f3e8a3c383"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05ZEdGMkxhSF90MGlsY003VmhNNE11MERmeWpacHNTM3BSQ1IwaUhmZEZERWlSZF9VSlFxVXBKR0dtR1daeTg5VmxJUVFuQ21sTFR3a0dSdkFSRVlXSk5kbUV6VWVJZ3pDN3NyWmdtRDlGZ0ctcGRWZUdXZ2lDX1E?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96YWY2eU9SbzdnMHpqZS0zREhVVjgyNTZnSU4zVkpmc0I0ZFNKZlFiUHFnN0xHVkx3SVA0VG5xaG9WVXVjcmE3VzBFVGZRSkRPdXR3SG5vRzFzTGZQcld2aHhSTUR4M2FENzJQMlVqWWRtTHI4?oc=5"
+        }
+      ],
+      "categories": [
+        "PE",
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Evonik rejects BASF's €10.3 billion takeover offer",
+      "summary": "Evonik has rejected a €10.3 billion takeover offer from BASF, according to reports, even as BASF confirmed it is pursuing the acquisition of the German chemicals maker in what would accelerate consolidation among chemicals majors.",
+      "why_it_matters": "A rejection at this price raises the odds BASF returns with sweetened terms or walks away, and keeps Evonik's board under pressure to justify holding out in a sector where scale is increasingly prized.",
+      "summary_ja": "BASFによるエボニックへの103億ユーロの買収提案が、エボニック側に拒否されたと報じられた。一方でBASFは同社買収に向けた協議を進めていることを認めており、実現すれば化学大手同士の再編が加速することになる。",
+      "why_it_matters_ja": "この価格での提案が拒否されたことで、BASFが条件を引き上げて再提示するか、買収を断念するかの分岐点となる。規模の追求が一段と重視される業界の中で、エボニック取締役会は拒否を続ける根拠を問われ続けることになる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-30-0830",
+        "index": 2
+      },
+      "key": "basf-evonik-takeover",
+      "ids": [
+        "fc9dc1e89902d4",
+        "339bf207363eb1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rQlhVXzZRMFZsbmtYTEgzY3JMbUlkNVFwaEZ6UjBsTHBrZjRBVnJXTS15c3Vkd1lWenYxSFZ3QTlGaE4yNUFGN3YzMFNPMXF5cG5na3JBUjIyaWtyR05F?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oRWFleU1LMFVCeW82UjdQQjdnVElRWHh5d1pHSkNNb0czU2N6aGZMXzFBdUZvN1Zma0NscXpZeFlMUVJlX3BQdFVxc2VaekRyQXNMcS1XZ01nLUpGU19CLU9aT3NudGRDUmlCdXFseVZzZjhS?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other",
+        "Materials"
+      ]
+    },
+    {
+      "headline": "Bain Capital shifts strategy to pursue US data-centre acquisitions",
+      "summary": "Bain Capital is now pursuing acquisitions of US data centres, according to reports, reversing an earlier stance in which the firm had stayed on the sidelines of the sector's boom.",
+      "why_it_matters": "The pivot signals a large-cap sponsor sees continued room to deploy capital into AI-driven data-centre infrastructure even after a period of rich pricing, and could intensify competition for scarce assets.",
+      "summary_ja": "Bain Capitalが米国のデータセンター買収に乗り出す方針へ転換したと報じられた。同社はこれまでデータセンター投資ブームを静観する立場を取っていた。",
+      "why_it_matters_ja": "大手スポンサーが、価格が高騰した局面を経てもなおAI関連データセンターインフラへの投資余地があると判断していることを示す。希少な優良資産をめぐる競争が一段と激しくなる可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "bain-capital-us-data-centre-pivot",
+      "ids": [
+        "e46fdc17d5bf86"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55ckVNZEtuWk5JVUQ4YVpRMHg0MW5mZ3lXc2RwWjdUYjZTRjBIenFPbTYtX1NiMUxQN2ZId0JkeXFxTi1jVkE5b0o2OHlxUk43WmFBdDh2aFZhank3Y0lhYmtTS2FKQ0VZdDRkZk1EZmZSeHFsVzlJ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Hwa Seng Builder-led consortium wins S$1.2 billion Tuas Road Viaduct phase two contracts",
+      "summary": "Hwa Seng Builder and two Chinese construction firms won a combined S$1.2 billion in contracts for phase two of the Tuas Road Viaduct project, according to reports. Construction is due to start in early 2027 and run until 2032.",
+      "why_it_matters": "The award extends Singapore's heavy pipeline of transport-infrastructure contracts and shows Chinese contractors continuing to win sizeable public-works packages in the city-state alongside local builders.",
+      "summary_ja": "Hwa Seng Builderと中国系建設会社2社が、Tuasロード高架橋プロジェクトのフェーズ2工事で合計12億シンガポールドル規模の契約を獲得したと報じられた。着工は2027年初め、完工は2032年を予定している。",
+      "why_it_matters_ja": "シンガポールで積み上がる交通インフラ関連の発注が続いていることを示す案件であり、地元建設会社と並んで中国系建設会社が同国内の大型公共工事を引き続き受注していることが分かる。",
+      "status": "new",
+      "prev": null,
+      "key": "hwa-seng-tuas-road-viaduct-phase2",
+      "ids": [
+        "ea5a5c488aeff0"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/singapore/hwa-seng-builder-two-china-companies-win-s1-2-billion-tuas-road-viaduct-phase-two-contracts"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "HK/CN",
+        "SEA"
+      ],
+      "sectors": [
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Temasek-backed Mapletree evaluates India office REIT listing",
+      "summary": "Temasek-backed Mapletree is evaluating a listing of an India office REIT, according to reports, and is said to have held talks with banks about injecting four of its office parks into the vehicle.",
+      "why_it_matters": "A REIT listing would let Mapletree crystallise value from its India office portfolio through public markets, adding to a recent run of Asian real-estate owners seeking a REIT exit.",
+      "summary_ja": "テマセク系のMapletreeが、インドのオフィスREIT上場を検討していると報じられた。傘下のオフィスパーク4件をREITに組み入れる方向で銀行と協議しているとされる。",
+      "why_it_matters_ja": "REIT上場が実現すれば、Mapletreeはインドのオフィス資産の価値を公開市場を通じて顕在化できる。アジアの不動産保有者がREIT形式での出口を模索する動きが続いていることを裏付ける案件だ。",
+      "status": "new",
+      "prev": null,
+      "key": "mapletree-india-office-reit-listing",
+      "ids": [
+        "bfe9ecfbd780cf"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/reits-property/temasek-backed-mapletree-evaluates-india-office-reit-listing"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Financials",
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "CPP Investments commits $310 million to Prestige's India hotel platform",
+      "summary": "Canada Pension Plan Investment Board (CPP Investments) is investing $310 million in Prestige's India hotel platform, according to reports.",
+      "why_it_matters": "The commitment gives one of the world's largest pension investors direct exposure to India's hospitality-sector expansion, as institutional capital increasingly targets the country's hotel platforms.",
+      "summary_ja": "カナダ年金基金投資委員会（CPP Investments）が、Prestigeのインドホテル事業に3億1000万ドルを投資すると報じられた。",
+      "why_it_matters_ja": "世界有数の年金投資家が、インドのホテル事業拡大に直接エクスポージャーを持つことになる案件であり、機関投資家がインドのホテルプラットフォームへの投資を強めている流れを映す。",
+      "status": "new",
+      "prev": null,
+      "key": "cpp-investments-prestige-india-hotels",
+      "ids": [
+        "2181aca5f05b8b"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdVUyYjFIVExfRS1VT1BwUXpiM25PbkpuWWZEZFZVNVhDeTlIN2ZMMjNTbjJGSmhCTXl6QklTY19LWmV1QnZNXzlGZjBYbDltNk5BcE9JOXllckRIb1NYMlFyNHFjRXNJT21xeXdSNnFQLXFYZzVBdzFFQnZ0N2ZyN09PcTVkZHZuUmlqLVdaQThnLW1icGpz?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "Germany identifies China's COSCO as target of planned port-logistics takeover block",
+      "summary": "Germany's move to block a Chinese shipping group's takeover of a mid-size German port logistics firm now has a named acquirer: state-backed COSCO Shipping, according to reports. Earlier reports on the planned block had not identified the Chinese buyer.",
+      "why_it_matters": "Naming COSCO turns a previously anonymous national-security review into a concrete test case for how far Germany will go in blocking Chinese state-linked buyers from critical port and logistics infrastructure.",
+      "summary_ja": "ドイツによる中国海運大手の買収阻止方針をめぐり、対象となる買収企業がCOSCO（中国遠洋海運集団）であることが明らかになったと報じられた。これまでの報道では買収企業名は伏せられていた。",
+      "why_it_matters_ja": "買収企業名がCOSCOと特定されたことで、匿名だった安全保障審査が具体的な事例となる。中国の国有系企業による港湾・物流インフラ買収に対し、ドイツがどこまで阻止に踏み込むかを占う試金石となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-30-0830",
+        "index": 8
+      },
+      "key": "germany-blocks-china-shipping-port-logistics",
+      "ids": [
+        "c0d561da6a6df8"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94MXRPU1Q4TlBtVS1ZblJBa21YUzZDV080UXFjblpCc3NUZ0U5a09wZXFkMk9UcW5xRG9vX2s1UktxeWl1NnBXTjJPLVZwa3JHcVg5bG9GZi1MYXVUWlJkcXZwX1hDV2dRT0tfd3o5UF9JVGt0UzRSY0xsakI?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Industrials",
+        "Public / Macro"
+      ]
+    },
+    {
+      "headline": "Mizuho Asia Partners, eWTP and other investors exit Vietnam's Seedcom",
+      "summary": "Mizuho Asia Partners, eWTP and other investors have exited their stakes in Vietnam's Seedcom, according to reports.",
+      "why_it_matters": "The exit closes out a long-running Southeast Asian venture bet and frees up capital for the investors to redeploy into the region, at a time when Vietnam-focused funding rounds remain relatively scarce.",
+      "summary_ja": "Mizuho Asia PartnersやeWTPなど複数の投資家が、ベトナムのSeedcomへの出資から撤退したと報じられた。",
+      "why_it_matters_ja": "長期にわたった東南アジアでのベンチャー投資が決着した案件であり、投資家は資金を回収して地域内での再投資に振り向けられる。ベトナム関連の資金調達が相対的に少ない中での動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "mizuho-ewtp-seedcom-exit",
+      "ids": [
+        "5dc7cfeaf01b1b"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdlZzWkFWVkUwT0ROR012YjVvRXJnWmlaaTRhS1NxNGRxZkhpcUx0RklDODVMbFB2VWNhb0lsajZLQlVXWGhYWXB1S3pRY1dhbWlFbGVrV0RRNWRHdHEwbUtCOXBkS3dwemFQaWJKcVM0Rnl1dkNORjh1bDEtWUR6MFhBcDJLUQ?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Navis Capital, Dymon Asia roll healthcare assets into latest funds",
+      "summary": "Navis Capital and Dymon Asia have rolled existing healthcare assets into their latest funds, according to reports.",
+      "why_it_matters": "Continuation-style transfers let sponsors hold healthcare assets longer while giving existing investors a liquidity option, reflecting continued conviction in the sector's growth even as fundraising conditions tighten.",
+      "summary_ja": "Navis CapitalとDymon Asiaが、保有するヘルスケア資産を最新のファンドへ移管したと報じられた。",
+      "why_it_matters_ja": "継続ビークルを通じた資産移管により、スポンサーはヘルスケア資産を長期保有しつつ既存投資家に流動性の選択肢を提供できる。資金調達環境が厳しさを増す中でも同セクターへの確信が続いていることを映す。",
+      "status": "new",
+      "prev": null,
+      "key": "navis-dymon-healthcare-continuation",
+      "ids": [
+        "a36a8080eb3daf"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hX1NKcjB5NXhMcUk4SUpPeEw0SFc5WGhsWmJJczRZSFRNNGdFdlFlaUZ4cHRVeGN5NWVWNmRQcXhJOW92bHplSlVmWllXYjBQci1pQjQ2T1hlTUVpdFI4ZkZkUHdoVUpRMWo2cDUyUWVYTWZUZ05pOUdEaFlvQQ?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Healthcare"
+      ]
+    }
+  ]
+}
