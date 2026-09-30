@@ -4,7 +4,7 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-09-30T00:50:01Z",
+  "checked_at": "2026-09-30T04:48:54Z",
   "background": [
     {
       "date": "2026-09-26",
@@ -72,6 +72,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-09-29",
+      "headline": "CNN analysis: Iran's Hormuz leverage fading as oil flows recover to two-thirds of pre-war levels, IMF sees economy shrinking over 5%",
+      "summary": "A CNN analysis by former senior US official Brett McGurk said Iran's leverage from disrupting shipping in the Strait of Hormuz is dissipating as a renewed US blockade and protection of commercial vessels have restored oil flows to about two-thirds of pre-war levels, citing IMF projections that Iran's economy will contract more than 5% this year with inflation approaching 70%.",
+      "summary_ja": "元米政府高官ブレット・マガーク氏によるCNNの分析記事は、米国による封鎖の再強化と商船護衛により、ホルムズ海峡経由の原油輸送量が開戦前の約3分の2まで回復する中、同海峡での船舶妨害を通じたイランのレバレッジは弱まりつつあると指摘した。IMFの予測では、イラン経済は今年5%超のマイナス成長となり、インフレ率は70%近くに達する見通しだという。",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/09/29/economy/oil-strait-of-hormuz-iran"
+    },
     {
       "date": "2026-09-29",
       "headline": "Katayama repeats warning that undervalued yen is 'problematic' after phone call with Bessent",
