@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-09-30-1530",
+      "label": "30 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-30T07:36:34Z",
+      "items": 5,
+      "headlines": [
+        "Mitsubishi Kakoki, Tsukishima Holdings to merge under new holding company by April 2027",
+        "OPmobility to buy Hyundai Mobis' lighting unit for $443 million",
+        "KV Asia exits Indonesia's Victoria Care after five-year investment"
+      ]
+    },
+    {
       "id": "2026-09-30-1230",
       "label": "30 Sep 2026 · 12:30 SGT",
       "generated_at": "2026-09-30T04:40:00Z",
