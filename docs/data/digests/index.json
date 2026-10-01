@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-01-1530",
+      "label": "1 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-01T07:36:01Z",
+      "items": 10,
+      "headlines": [
+        "Paramount Skydance's $110 billion Warner Bros Discovery deal gets antitrust approval, on track to close October 6",
+        "PHC Holdings confirms Toho's buyout proposal, shares hit near four-year high",
+        "Suncorp denies takeover talks with Tokio Marine, shares drop"
+      ]
+    },
+    {
       "id": "2026-10-01-1230",
       "label": "1 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-01T04:38:03Z",

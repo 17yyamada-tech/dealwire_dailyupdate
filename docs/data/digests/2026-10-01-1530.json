@@ -1,0 +1,325 @@
+{
+  "edition": "2026-10-01-1530",
+  "edition_label": "1 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T07:36:01Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Paramount Skydance's $110 billion Warner Bros Discovery deal gets antitrust approval, on track to close October 6",
+      "summary": "A US federal judge has approved the antitrust settlement clearing Paramount Skydance's roughly $110 billion acquisition of Warner Bros Discovery, Japanese media reported, with the merger now on track to complete on October 6. The approval follows last week's confirmation of the deal's $52 billion financing package.",
+      "why_it_matters": "Court approval removes the last major regulatory hurdle before closing, giving the combined company a fixed date to begin integration. The higher financing cost from rising rates will still weigh on the balance sheet from day one.",
+      "summary_ja": "米連邦判事が、パラマウント・スカイダンスによる1100億ドル規模のワーナー・ブラザース・ディスカバリー買収をめぐる独禁法上の和解を承認したと日本メディアが報じた。合併は10月6日に完了する見通しとなった。先週には520億ドルの資金調達パッケージの確保も確認されている。",
+      "why_it_matters_ja": "司法承認により、買収完了前の主要な規制上のハードルが取り除かれ、統合後の会社は確定した日程のもとで統合作業に着手できる。一方、金利上昇による調達コストの増加は、発足当初から財務の重荷となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-01-1230",
+        "index": 1
+      },
+      "key": "paramount-warner-bros-merger",
+      "ids": [
+        "649b72c5467adb",
+        "319f24199c5099",
+        "2109454d5e6f68"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUT0E3N01yT2JhRUozdnNxdFJsaWFXdjFzNTk1N3FHb0pjemNUeEkyWGpiaHFFdkIzQU9BOC05djJFLUJxa1ZfV3BoVlFhWVI1eEIxVENaSjRudDZyZmlNcnVzQnd0UDJ3NGVScjVveEhTdVNR?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcG8tZ3BUSEd3VHNMUWlIQ1REamt0bDlKRXFvMTRIUGh0LU10em1VeDl6VGQ3WjVEd0hCS0lrdWVuMjJsWkd5dlNMcFhoT1FPZ0xLRXpLc2NxQjVicFl3Z1lIM2s1TlE5M21CN0FwaXRZcXRnOFUxV0JWTWNLbFVGY3BtYXZuc09DQ2p6a1pB0gGOAUFVX3lxTE1wby1ncFRIR3dUc0xRaUhDVERqa3RsOUpFcW8xNEhQaHQtTXR6bVV4OXpUZDdaNUR3SEJLSWt1ZW4yMmxaR3l2U0xwWGhPUU9nTEtFektzY3FCNWJwWXdnWUgzazVOUTkzbUI3QXBpdFlxdGc4VTFXQlZNY0tsVUZjcG1hdm5zT0NDanprWkE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OQUVJWjBQYzNQZ0REWmRZMWM4SUMxcVYzSlJQNFkwbkxLWjRCdkw2VnRRTE01QmNJZ2p3bXdXYzBhdXpDS1BCWDlNOFYycmF4eVl0YlZ6aXdXUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "PHC Holdings confirms Toho's buyout proposal, shares hit near four-year high",
+      "summary": "PHC Holdings has confirmed it received Toho Holdings' acquisition proposal, Japanese media reported, sending PHC shares to their highest level in almost four years. Toho's own shares swung sharply before rebounding on the news.",
+      "why_it_matters": "PHC's own confirmation turns a media report into an acknowledged process, raising the odds that the more-than-¥200 billion plan moves toward formal negotiations rather than stalling at the proposal stage.",
+      "summary_ja": "PHCホールディングスが、東邦ホールディングスからの買収提案を受領したことを確認したと日本メディアが報じ、PHC株は4年ぶりに近い高値をつけた。東邦株も買収提案を受けて乱高下した後、急反発した。",
+      "why_it_matters_ja": "PHC自身による確認は、報道段階から公認されたプロセスへの移行を意味し、2000億円超規模の計画が提案段階にとどまらず正式な交渉へ進む公算を高める。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-01-1230",
+        "index": 0
+      },
+      "key": "toho-holdings-phc-acquisition",
+      "ids": [
+        "9ba81480627a1d",
+        "5872dfe868e672"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Healthcare"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45NjF4TExGR0ZEUWtoOHBuZ2RDVW9KMHJ1V0pyOThjeXpKdFpoaWNvcTlaVWdZNkZOUTRpajF5dnptWWdkUDYtU2UydzhmcEtTeVp5dDV1MXFueG82TDRwc09SNzFUTEsxVy1faGUyM3Q?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qM0hBME5nRWFwa205V0Z0dlpvMXdwWkg5LW83WVJSNHZZUXJpdVhUNE5rMC1RQjY2VGJBUWJXV0o4VTJzS2U5N0VQUnFBaWYwQmdGNm5vTXpOQmtPbkxSLXp2TVg3bVVHYmV4Y0p3dkM4eGtkZDZr?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Suncorp denies takeover talks with Tokio Marine, shares drop",
+      "summary": "Australia's Suncorp has denied it is in takeover talks with Tokio Marine, Japanese media reported, and its shares fell on the denial. The statement follows last week's reports that Tokio Marine had narrowed its acquisition focus toward Suncorp.",
+      "why_it_matters": "A flat denial casts doubt on the reported approach and is a reminder of how quickly speculative, unconfirmed deal reports in Japanese insurers' overseas push can unwind once the target pushes back.",
+      "summary_ja": "豪サンコープが東京海上との買収協議を否定したと日本メディアが報じ、同社株は否定を受けて下落した。この発表は、東京海上が買収対象をサンコープに絞り込みつつあるとの先週の報道を受けたものだ。",
+      "why_it_matters_ja": "明確な否定により、報じられていた接触の信憑性には疑問符がつく。日本の保険会社による海外展開をめぐる未確認の憶測報道が、対象企業の否定一つでいかに早く覆り得るかを示す事例だ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-29-1530",
+        "index": 2
+      },
+      "key": "tokio-marine-suncorp-approach",
+      "ids": [
+        "a248e8c2da7118",
+        "54caa3d0872dee"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/australias-suncorp-denies-takeover-talks-tokio-marine-shares-fall-6423651"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LVFVjZjJjQU9hZHE1VmFVUUNBR2NnQ1gwU19oTHM3NlBLTjVLeEs1dnlEU1hjdFp6ZlhZVWlObGZXZkJpNng4c0dEdVlwUVk2Tm1FZGNMTUVzU1RTQ3J0NjRfTWxlRlViUXJyc3FiY3g?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Lynas to acquire Brazilian rare earth producer for about ¥100 billion",
+      "summary": "Australia's Lynas Rare Earths has agreed to acquire a Brazilian rare earth company for about ¥100 billion, Japanese media reported, gaining rare earth deposits and extraction interests in the country.",
+      "why_it_matters": "The deal extends Lynas's rare earth supply chain outside China, adding to allied efforts to diversify critical-minerals sourcing away from Chinese-dominated supply.",
+      "summary_ja": "豪ライナス・レアアースが、ブラジルのレアアース企業を約1000億円で買収することで合意したと日本メディアが報じた。同国内のレアアース鉱床と採掘権益を取得する。",
+      "why_it_matters_ja": "この買収により、ライナスのレアアース供給網は中国国外へとさらに広がる。中国に偏重した重要鉱物の調達先を多様化しようとする同盟国側の取り組みの一環でもある。",
+      "status": "new",
+      "prev": null,
+      "key": "lynas-brazil-rare-earth-acquisition",
+      "ids": [
+        "015f6ac20f3a03",
+        "c1ef371991fa72"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Materials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlNGY3aU1RWWZtZkh1bWlRdDBmdmpwTndGdEFhdDU0OUxSTHlrLTNGU05pWTQ1aEp1N3I3R3poMDMta1ZUS3BQa0g3dC01Rm1EVUxGd3Y0TXNIbXJNWG4yWnFYWC1iVXFWQ3N1dzE2Vk9Laml6cFZj?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14dnJoakFsX3psWDBJQmlkUUhabktHTmFHdG5neG1xNmllamczU0ZaNTdhQ3RUVC0yTE1uRldqMzRkemhFMXA2c0duRUhndkRkSFBkcWJBeGotUm5iU3dxSGp4M2ZpYVZzYUc1Xw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Malaysia Aviation Group signs deal to buy Airbus's Sepang Aircraft Engineering unit",
+      "summary": "Malaysia Aviation Group has signed an agreement to acquire Sepang Aircraft Engineering, an Airbus maintenance subsidiary, Japanese media reported, as part of an expansion of its aircraft maintenance, repair and overhaul business.",
+      "why_it_matters": "Bringing MRO capacity in-house reduces MAG's reliance on third-party maintenance providers at a time when regional airlines are competing for scarce aircraft overhaul slots.",
+      "summary_ja": "マレーシア・アビエーション・グループが、エアバス傘下の整備会社スパン・エアクラフト・エンジニアリングを買収する契約に署名したと日本メディアが報じた。航空機の整備・修理・オーバーホール（MRO）事業の拡大の一環としている。",
+      "why_it_matters_ja": "MRO機能を自社に取り込むことで、MAGはサードパーティーの整備会社への依存を減らせる。域内の航空各社が限られた機体整備枠を奪い合う中での動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "mag-airbus-sepang-engineering-acquisition",
+      "ids": [
+        "427520a937b0eb",
+        "302bef59c144a9"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/malaysia-aviation-group-signs-deal-buy-airbus-unit-sepang-aircraft-engineering-6423581"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JTDJ2V3VpczNFLUFmam5RVVlORndwcjRhdlNOcnY1LU5GTHNLTEtRa1kycEtSRC02Xy1xelMzcGNQSUh1UkMtQUtnU1hSMHI2TUFwV2pMLUFzTWt2aDhoM1didlRHNDRkNlU2SlV3dFZnNm5M?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "NOK and Eagle Industry to integrate under new holding company NOK Group",
+      "summary": "NOK Corp and Eagle Industry have agreed to integrate their businesses under a newly formed holding company to be named NOK Group, Japanese media reported.",
+      "why_it_matters": "The business integration adds to a run of consolidation among Japan's mid-cap industrial-parts makers, as suppliers combine scale to manage cost and investment pressure.",
+      "summary_ja": "NOKとイーグル工業が、新設する持株会社「NOK Group株式会社」のもとで経営統合することで合意したと日本メディアが報じた。",
+      "why_it_matters_ja": "今回の経営統合は、日本の中堅部品メーカーの間で相次ぐ再編の一例だ。各社がコストや投資負担に対応するため規模の確保を進めている。",
+      "status": "new",
+      "prev": null,
+      "key": "nok-eagle-industry-integration",
+      "ids": [
+        "e032dac4b0f3d0"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Wbmx6NGhxaDliS1hKQ0FTNnBpLVRFNGhzX1lJdEp5TncwS1huYmtsQnRjSGU4TTZ5bmttMnZCZ01tZXo0RXZXNF9XYjJoMGRua283Nml1Rmg3YWs?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Terumo shares extend gains on US medtech acquisition targeting brain hematoma treatment",
+      "summary": "Terumo's shares extended their rally after the company said it is acquiring a US medical device startup, Japanese media reported, as it works toward regulatory approval of a brain hematoma treatment device.",
+      "why_it_matters": "The acquisition adds a neurovascular therapy candidate to Terumo's device pipeline, extending the Japanese medtech maker's push into higher-growth US treatment areas.",
+      "summary_ja": "テルモが米医療機器スタートアップを買収すると発表し、株価が続伸したと日本メディアが報じた。脳血腫治療デバイスの承認取得を目指すという。",
+      "why_it_matters_ja": "今回の買収により、テルモの製品パイプラインに脳血管領域の治療候補が加わる。日本の医療機器大手が、成長性の高い米国の治療分野への進出を一段と進める動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "terumo-us-medtech-brain-hematoma-acquisition",
+      "ids": [
+        "19feca4a30d516"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Healthcare"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVa0JlRnpHTjk0TE1OVjVsR25IaFkzdTJ2R3BreW94Z3hQbU96TkxWOEFBZ09kOTN2czIzRFd2ZkJaVGdLT2tHZlhqV0k4anR2ZEZPenVnZkpxZEFRd1lHU0VXU3gyWHgzN1RLUg?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Shinko Electric to acquire JDI's Mobara plant, convert it to AI chip packaging",
+      "summary": "Shinko Electric is acquiring Japan Display's Mobara manufacturing plant, Japanese media reported, with plans to convert the site into a production base for AI semiconductor packaging.",
+      "why_it_matters": "Repurposing a struggling display maker's factory for advanced chip packaging adds domestic capacity to Japan's effort to build out AI semiconductor supply chains.",
+      "summary_ja": "新光電気工業が、ジャパンディスプレイの茂原工場を買収すると日本メディアが報じた。同拠点をAI半導体パッケージングの生産拠点に転換する計画だという。",
+      "why_it_matters_ja": "経営不振のディスプレイメーカーの工場を先端半導体パッケージング向けに転用することで、日本国内のAI半導体サプライチェーン構築に生産能力が一つ加わる。",
+      "status": "new",
+      "prev": null,
+      "key": "shinko-electric-jdi-mobara-acquisition",
+      "ids": [
+        "53ce813743b8b2"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5T216aEFmVk9YQjhNc2hTeVpVNFY2LU5KdEQwbTYyMG5NU0JiZ2xNQ2ZHX3R1Yjk5MlRFNnBoeXVtSkxiQzBDR1UxaUplVUJ0NDRWbDZ3TmZxVjlEd2Ytd2EwUS0xQ0daRkhBLUxqYkZ4OW4y?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Asian investors back GMI Cloud's $668 million funding round",
+      "summary": "GMI Cloud has raised $668 million in a funding round backed by Asian investors, DealStreetAsia reported.",
+      "why_it_matters": "The size of the raise points to continued investor appetite for cloud infrastructure capacity in Asia, even as competition for capital among compute providers intensifies.",
+      "summary_ja": "GMIクラウドが、アジアの投資家が参加する資金調達ラウンドで6億6800万ドルを調達したとDealStreetAsiaが報じた。",
+      "why_it_matters_ja": "今回の調達規模の大きさは、アジアにおけるクラウドインフラ領域への投資家の旺盛な関心を示している。コンピューティング事業者間の資金獲得競争が激しさを増す中での動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "gmi-cloud-668m-funding",
+      "ids": [
+        "5ad1cb93528cf3"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTFna3pWODU3OU0tUlZWSkNMeFZoZGowSnBTcXRlQ1UweTFXdjY5YmZvVWcwbmRMdmVqbWk5NHlabFI5TnpXbDdNNnlVTWVxMHZOWW1NWmV4WnFkZXl4ZFc0MTc5NzZOcENqTlJEWnA5a1prdXlJNzNZRlpTR0UxQkdVek9idGxEbG1RYll3clJZMWpPd3NnYlR3Tm1RSUoyOFBNSE5qNTl3WlBfU1lHQTdmb054am8zZkEyNmdMYmxXZDBza1VMaElCaGE3LWJY?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "SBI completes full acquisition of crypto exchange Bitbank, shifts to new management",
+      "summary": "SBI Holdings has completed the full acquisition of cryptocurrency exchange Bitbank and is moving to a new management structure, Japanese media reported.",
+      "why_it_matters": "Full ownership gives SBI direct control of one of Japan's larger crypto exchanges, adding to the group's push to build out a domestic digital-asset business alongside its brokerage and banking operations.",
+      "summary_ja": "SBIホールディングスが暗号資産取引所ビットバンクの完全子会社化を完了し、新たな経営体制に移行すると日本メディアが報じた。",
+      "why_it_matters_ja": "完全子会社化により、SBIは日本有数の暗号資産取引所を直接の傘下に収めることになる。証券・銀行業務に加え、国内のデジタル資産事業を強化しようとするグループの動きの一環だ。",
+      "status": "new",
+      "prev": null,
+      "key": "sbi-bitbank-full-acquisition",
+      "ids": [
+        "608d6b0218c64f"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16aVVJUHEyeURoUW5HdFZtSDA1Q1Zud2N0bVEzOEM0QWJRVmw1TDBqS05PQUZRNW0zQWZZR0d4QXJDZWJNZHZkM3pHN0ZrQ1hobXdOZEJLQlllaDBOejNEUVlVRTVySzBYWlcxV0JRaTZySHRFdThJaTh2S1pOdlk?oc=5"
+        }
+      ]
+    }
+  ]
+}
