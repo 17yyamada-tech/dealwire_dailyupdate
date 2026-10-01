@@ -1,0 +1,225 @@
+{
+  "edition": "2026-10-01-1230",
+  "edition_label": "1 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T04:38:03Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Toho Holdings submits non-binding proposal to acquire PHC Holdings",
+      "summary": "PHC Holdings has received a non-binding acquisition proposal from Toho Holdings, Bloomberg reported, a step beyond the preliminary talks disclosed earlier this week. PHC Holdings shares rose to their highest level in more than three years on the news.",
+      "why_it_matters": "A formal, if non-binding, proposal moves the more-than-¥200 billion plan from talks toward a concrete process, and would extend Toho's reach from drug wholesaling into PHC's device and diagnostics business.",
+      "summary_ja": "PHCホールディングスが東邦ホールディングスから法的拘束力のない買収提案を受領したとブルームバーグが報じた。今週報じられていた協議段階から一歩進んだ格好で、PHCホールディングス株は3年4カ月ぶりの高値をつけた。",
+      "why_it_matters_ja": "拘束力はないものの正式な提案の提出により、2000億円超規模の計画は協議段階から具体的なプロセスへと進むことになる。実現すれば東邦の事業は医薬品卸売からPHCの医療機器・診断分野へと広がる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-01-0830",
+        "index": 1
+      },
+      "key": "toho-holdings-phc-acquisition",
+      "ids": [
+        "b7c89a9c28964d",
+        "3b3bd8a9a9d1e4",
+        "5d070e8f9164a1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wZmxZRGFEYzhmT2ZrUklDVlY3X1Vkcnh4UDI3SXppTnZpaHA4U2pORFVTeENwOE93WGJqcTNBZ0xVNXIyUnlYeGh4cXB4T3lhQm1lWnA3LWxKRlZyM1hDdF9jek1JZHFBbmQ5bkFCRno5aTlCNTRzVWM3Q09JTTA?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RbXBsWHNqMVBSdWdzNWxvZHRJc0JIOEJTNW9IN21TRGREUDFnTklINjVTZl9ObExxUVNFMUZfSGtUSzF2MzZQTHlCOXp2dlh0QlVmbVE3TXU2V3N4cmRFd1VrQW1HR2J2aXl1Rg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93ckNYOWJQZ2pYaDgyTEN0WFdKVjlPZXhWREVPMXFFV1Nqb1ZWSkNEaTRxbC04cy1pVm5GZUJRbnktQXJOMkxiSnBxV1VFbXo0enoxZ1Zab0RxeFBBcjlObGl6NXZSWkxWeE1KYg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Paramount Skydance secures $52 billion in financing for Warner Bros Discovery deal",
+      "summary": "Paramount Skydance has secured $52 billion in financing to fund its acquisition of Warner Bros Discovery, Japanese media reported, with rising interest rates adding to the cost of the debt package.",
+      "why_it_matters": "Locking in the financing package clears a major condition for closing the Warner Bros Discovery merger, though the higher interest burden from rising rates will weigh on the combined company's balance sheet from the outset.",
+      "summary_ja": "パラマウント・スカイダンスが、ワーナー・ブラザース・ディスカバリー買収の資金として520億ドルを確保したと日本のメディアが報じた。金利上昇により、調達した債務の負担は増している。",
+      "why_it_matters_ja": "資金調達の確保により、ワーナー・ブラザース・ディスカバリー買収完了に向けた大きな条件が一つ満たされた形だが、金利上昇による利払い負担の増加は、統合後の会社の財務に当初から重くのしかかることになる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-01-0830",
+        "index": 4
+      },
+      "key": "paramount-warner-bros-merger",
+      "ids": [
+        "18c534a3dcc4ab"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GRmpOTERhV0NMRm9nMi1jMFlGXzVidEZyR09oc2M3enpzWDQ3cGpRcC1QRmJiUTVhNWlSVzJFdEtsekhZYUFGVXN0anpfZ25GMi1QM0tuMEJGSExMNGFNX1VEZFJxMk1vNHlqbEVRUGUxZk13dzZr?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Kadoya Seiyu shares jump as J-Oil and others weigh rival moves to its go-private deal",
+      "summary": "Shares in sesame oil maker Kadoya Seiyu jumped after reports that J-Oil and other parties are exploring countermoves to the investment fund's tender offer that Kadoya had earlier backed, Japanese media reported.",
+      "why_it_matters": "A potential rival move would turn what had been an agreed go-private deal into a contested situation, testing whether Kadoya's board and the incumbent sponsor can hold the family-run sesame oil maker's takeover together.",
+      "summary_ja": "ごま油最大手のかどや製油の株価が急騰した。かどやが賛同していた投資ファンドによるTOBに対し、Jオイルなど他の当事者が対抗策を模索していると日本のメディアが報じた。",
+      "why_it_matters_ja": "対抗提案が実現すれば、かどやの非公開化は合意済みの案件から争奪戦へと一変する。同族経営のごま油メーカーの買収を、取締役会と既存スポンサーが維持できるかが試される。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-26-1530",
+        "index": 0
+      },
+      "key": "kadoya-seiyu-tob",
+      "ids": [
+        "07750989fd34ef"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Id3ctd0g2bC1EVEhpYWlHOUoxdHcySGJaUVJUd2F2ZzNlNWlXejd2aXlib0tTVW1rTlRmOWJwUXNGMW5Ndm5nS2RDbGFYSDc0UFdFU2JRMTJ0TkFkclpUQnFaQjBQQjZnN1BzNA?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Supermarket chain Life to acquire Hokuriku's Albis for up to ¥26.3 billion",
+      "summary": "Supermarket operator Life Corp is moving to acquire Albis, a grocery chain based in the Hokuriku region, in a deal worth up to ¥26.3 billion, Japanese media reported, expanding into a market outside its core Tokyo-area and neighbouring territories.",
+      "why_it_matters": "The deal pushes Life beyond its usual metropolitan and adjacent footprint into a non-contiguous region, part of a broader round of consolidation among Japanese regional supermarket chains.",
+      "summary_ja": "スーパー大手のライフコーポレーションが、北陸地盤のスーパー、アルビスを最大263億円で買収する方向で動いていると日本のメディアが報じた。首都圏やその隣接エリアではない地域への進出となる。",
+      "why_it_matters_ja": "今回の買収により、ライフは従来の首都圏・隣接エリアという事業基盤を越え、飛び地となる地域へ進出することになる。日本の地方スーパー再編が広がっていることを示す一例である。",
+      "status": "new",
+      "prev": null,
+      "key": "life-albis-acquisition",
+      "ids": [
+        "83cda196bc3c35",
+        "c2ae89d55b3483"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mZ2cxc05hTFRrM2RMcVRKc0wtaWZzX1VkOXNlZU1heUtsMUltV21NdW9oa0s4d2pyNkYzRnR2eXU3R2lTOU5DWWV0TGt2Mm5mdVlXVE1NcVBIM3h2UjZhZU9YUU1Wc2Ywdjlfam55RlhTSjdhcUZxd2I0d2RTVjA?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YeE9fQ0ZzSFA3b0JtYkFqeVkyT1FyekI4MEZ5S1JVNXJINVd3UXd3cDdTdVF1YTRVNW8wQlRmcDFSNFJ0TDBiUHF3Vkc4S0k?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "South Korea ordered to pay Elliott $48.49 million in Samsung merger case",
+      "summary": "South Korea has been ordered to pay Elliott Management $48.49 million in connection with the Samsung merger case, CNA Business reported.",
+      "why_it_matters": "The payout closes out part of a long-running investor-state dispute tied to one of Korea's most closely watched merger battles, a case activist investors have followed as a marker for minority-shareholder rights in Korea.",
+      "summary_ja": "韓国が、サムスン合併案件をめぐりエリオット・マネジメントに4849万ドルを支払うよう命じられたとCNAビジネスが報じた。",
+      "why_it_matters_ja": "この支払いにより、韓国で最も注目された合併案件の一つを発端とする、長期にわたる投資家対国家の紛争の一部が決着する。アクティビスト投資家は、この案件を韓国における少数株主の権利の指標として注視してきた。",
+      "status": "new",
+      "prev": null,
+      "key": "south-korea-elliott-samsung-merger-ruling",
+      "ids": [
+        "c71a1654a89642"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/south-korea-ordered-pay-elliott-4849-million-in-samsung-merger-case-6422986"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "EQT agrees to sell Korean financial platform Acuon to Hanwha Life, Centroid",
+      "summary": "EQT has agreed to sell its Korean financial platform Acuon to Hanwha Life and Centroid, DealStreetAsia reported.",
+      "why_it_matters": "The sale gives the European buyout firm an exit from a Korean financial-services holding, adding to a recent run of sponsor-to-strategic handovers in the country's financial sector.",
+      "summary_ja": "EQTが韓国の金融プラットフォーム、アキュオンをハンファ生命とセントロイドに売却することで合意したとDealStreetAsiaが報じた。",
+      "why_it_matters_ja": "この売却により、欧州系投資ファンドは韓国の金融サービス持株会社から投資回収を果たすことになる。韓国の金融セクターでは、スポンサーから事業会社への売却が最近相次いでいる。",
+      "status": "new",
+      "prev": null,
+      "key": "eqt-acuon-sale-hanwha-centroid",
+      "ids": [
+        "0e587bdbe8e42b"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOTNjeG9oSk0wLWp4eWwwMWxYM1c3eXN0Vm5RYzEtald2MUNFZWQwZ1Z1WkNMaTlFbzV2aFo2bnNobVh1Tmo4Nk5IdXRDUGNqOFlqbElWXzZNMGVsdkVkSndGdHBMeUFTU3hUU0hRdnd0SGx5WGVuYTdZZWwxaWNLbER3?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "IFC weighs loan of up to $500 million for India's Kotak Bank",
+      "summary": "The International Finance Corporation may extend a loan of up to $500 million to India's Kotak Bank, DealStreetAsia reported.",
+      "why_it_matters": "A loan of this size would add significant development-finance capital to an Indian private-sector bank's balance sheet, underscoring continued multilateral-lender interest in the country's financial sector.",
+      "summary_ja": "国際金融公社（IFC）が、インドのコタック銀行に対し最大5億ドルの融資を検討しているとDealStreetAsiaが報じた。",
+      "why_it_matters_ja": "これほどの規模の融資が実現すれば、インドの民間銀行の財務基盤に多国間開発金融機関からの資金が大きく加わることになり、同国の金融セクターに対する国際開発金融機関の関心が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "ifc-kotak-bank-loan",
+      "ids": [
+        "a453d0eb5930b3"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9od0ZVTmpGSVB0TWE3MHNCOUx5ZTV2SERFSHp1X3FOcWRrM29Zdm8zVWI2M19XbUtSeW9xOF9oeW41Zk1sRDhHOURWaEdfQURidVNrZFk4TFdCQ3ZDYmw4RW0tbUNtczlfUF9QZ2NVRDg2cnc?oc=5"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    }
+  ]
+}
