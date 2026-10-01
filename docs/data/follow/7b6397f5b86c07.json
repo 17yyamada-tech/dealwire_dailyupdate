@@ -4,7 +4,7 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-10-01T00:50:30Z",
+  "checked_at": "2026-10-01T04:50:13Z",
   "background": [
     {
       "date": "2026-09-26",
@@ -72,6 +72,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-09-30",
+      "headline": "Iran confirms receipt of formal US response to its Hormuz/ceasefire proposal, delivered to Pezeshkian's cabinet",
+      "summary": "Iran confirmed it had received an official US response, relayed through Qatari mediators, to its latest proposal to end the war and reopen the Strait of Hormuz; Foreign Minister Abbas Araghchi delivered the response to President Masoud Pezeshkian at a cabinet meeting after returning from talks in New York, and the contents were not disclosed.",
+      "summary_ja": "イランは、戦争終結とホルムズ海峡再開に関する自国提案への米国の公式回答を、カタールの仲介を通じて受け取ったことを確認した。アラグチ外相はニューヨークでの協議から帰国後、閣議でペゼシュキアン大統領にこの回答を伝達したが、内容は明らかにされなかった。",
+      "source": "The Boston Globe",
+      "url": "https://www.bostonglobe.com/2026/09/30/world/iran-us-response-end-war/"
+    },
     {
       "date": "2026-09-29",
       "headline": "CNN analysis: Iran's Hormuz leverage fading as oil flows recover to two-thirds of pre-war levels, IMF sees economy shrinking over 5%",
