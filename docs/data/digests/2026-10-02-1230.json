@@ -1,0 +1,148 @@
+{
+  "edition": "2026-10-02-1230",
+  "edition_label": "2 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T04:53:46Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "Anthropic said to target IPO before Thanksgiving at $1.8 trillion-$2 trillion valuation",
+      "summary": "Anthropic is working toward an initial public offering before the Thanksgiving holiday, The Business Times reported, citing people familiar with the plans. Sources put the AI developer's fair valuation at roughly US$1.8 trillion to US$2 trillion.",
+      "why_it_matters": "A listing at that valuation would be one of the largest tech IPOs on record and would give public markets their first direct pricing test for a frontier AI lab, a bellwether for how investors value compute-heavy AI businesses more broadly.",
+      "summary_ja": "アンソロピックが感謝祭休暇前の新規株式公開(IPO)を目指していると、The Business Timesが関係者の話として報じた。関係者によると、同社の公正な評価額は1.8兆〜2兆米ドルの水準とみられる。",
+      "why_it_matters_ja": "この評価額での上場が実現すれば過去最大級のテック企業IPOとなり、計算資源への投資が重いAI企業を公開市場がどう評価するかを測る初の直接的な試金石となる。",
+      "status": "new",
+      "prev": null,
+      "key": "anthropic-ipo-target",
+      "ids": ["3e6d4e44739951"],
+      "categories": [],
+      "countries": ["SG", "SEA"],
+      "sectors": ["AI & Semis"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/anthropic-targets-mega-ipo-thanksgiving-holiday"}
+      ]
+    },
+    {
+      "headline": "Mattel shares jump 18% on report of $6bn-plus takeover approach from Authentic Brands Group",
+      "summary": "Mattel has attracted takeover interest from Authentic Brands Group, a source told The Business Times, which cautioned there is no guarantee Mattel will be open to an offer. Japanese media reported Mattel shares surged 18% after Authentic Brands made a takeover approach valued at more than $6 billion.",
+      "why_it_matters": "A deal would hand a licensing-driven brand manager control of one of the toy industry's largest portfolios, though the surge in Mattel's shares on an unconfirmed report shows how sensitive the stock is to even preliminary takeover speculation.",
+      "summary_ja": "マテルがオーセンティック・ブランズ・グループから買収の関心を受けていると、関係者がThe Business Timesに語った。同社はこの買収提案にマテルが応じる保証はないとしている。日本のメディアによると、オーセンティック・ブランズは60億ドル超の買収提案を行い、これを受けてマテル株は18%急騰した。",
+      "why_it_matters_ja": "買収が成立すればライセンス事業を軸とするブランド運営会社が玩具業界最大級のポートフォリオを手中にすることになるが、未確定の報道だけでマテル株が急騰したことは、同社株が初期段階の買収観測にも敏感であることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "mattel-authentic-brands-takeover-interest",
+      "ids": ["7f1da2649f995e", "90c783a82afaea"],
+      "categories": ["M&A"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/consumer-healthcare/mattel-attracts-takeover-interest-authentic-brands-group-source"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CSzN2bzlQcm92ZUl4dlBSTUNkeml5aXJoZXZLaGxNOERWUTBSQW5aYzRMSVplY3cyWWVDUkVpYkJjRjUwVmFfZnRMSk44ME9CWTVKUjA0emZQbmlISDlDelhLaUJ5MUppbnNsbnFEZUo2QjNY?oc=5"}
+      ]
+    },
+    {
+      "headline": "Crystal Jade holding companies in Singapore and Hong Kong placed under receivership",
+      "summary": "Crystal Jade's holding companies in Singapore and Hong Kong have been placed under receivership, The Business Times reported. Advisory firm Kroll has been appointed to review the restaurant group's financial and operational affairs.",
+      "why_it_matters": "The receivership marks a rare restructuring event for a well-known Asian F&B operator and will test how creditors and landlords across its multi-market restaurant network are treated as the review proceeds.",
+      "summary_ja": "クリスタル・ジェイドのシンガポールおよび香港の持株会社が管財人管理下に置かれたと、The Business Timesが報じた。助言会社のクロールが同グループの財務・事業状況の精査を担う。",
+      "why_it_matters_ja": "著名なアジアの外食グループがこうした再建手続きに入るのは異例であり、精査が進む中で複数市場にまたがるレストラン網の債権者や賃貸人がどのように扱われるかが問われる。",
+      "status": "new",
+      "prev": null,
+      "key": "crystal-jade-receivership",
+      "ids": ["1e06696a989df6"],
+      "categories": [],
+      "countries": ["HK/CN"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/singapore/crystal-jade-holding-companies-spore-hong-kong-placed-under-receivership"}
+      ]
+    },
+    {
+      "headline": "Sojitz buys UK seafood group SFIH, consolidating NESI as subsidiary",
+      "summary": "Sojitz has acquired a UK seafood processing and sales company, Japanese media reported, with one report saying the trading house took all shares in SFIH and brought NESI and related units into its consolidated group. Reuters described the purchase as part of Sojitz's push to strengthen its overseas business.",
+      "why_it_matters": "The deal extends a Japanese trading house's push into overseas food supply chains, adding processing and distribution capacity in the UK seafood market.",
+      "summary_ja": "双日が英国の水産物加工・販売会社を買収したと日本のメディアが報じた。一部の報道では、同社がSFIHの全株式を取得し、NESIなどを連結子会社化したとしている。ロイターはこれを海外事業強化の一環と伝えた。",
+      "why_it_matters_ja": "この買収は日本の商社が海外の食品サプライチェーンへの展開を強める動きの一環であり、英国の水産物市場における加工・流通能力を積み増すものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "sojitz-sfih-uk-seafood-acquisition",
+      "ids": ["4d43c232ead1ac", "b69e062da19672", "b78d7ad29508ad"],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lTjVZX29NZzFiVWIxaWNiU2dCMXJfRzd2eUZESnAxTUYtT2l5dXJoMlpwd3hOaGE1cWJ5VHZFRDdLOEkwU1llc1dkWnc5dU15UHdPNlJmV2VURl96UWhHblF3?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5saFhmOVc3YV9fc0Yxd3diMi1ldWFBUno1MGdoODRSMlVvRWt5THRmN3RCYklDdXdYT1RnaHY1T2lfUkJ2b0xSUGRnWUdrd20wV1daTFpXZGU5RnBsX3BWaVM1MGxzbElVRVZjbjM3TjdJY0xmdlFKSzZfcFZwSms?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEY1E2MlU3SDh0MDF4c0NfTjdieHBFdXB5N3d5SFRMNUJIY2lBVUJHQmVhU0dzWjRVYzY5Z05fLTQwVW80Nk5MQU00Y0lwOGRhOU9YSw?oc=5"}
+      ]
+    },
+    {
+      "headline": "Kokuyo approves $177m funding for Thien Long acquisition vehicle",
+      "summary": "Kokuyo has approved $177 million in funding for an acquisition vehicle linked to Thien Long, DealStreetAsia reported. The approval allows the vehicle to proceed with the planned acquisition, though further deal terms were not disclosed in the report.",
+      "why_it_matters": "The size of the commitment signals Kokuyo is prepared to fund a meaningful cross-border transaction through a dedicated acquisition structure, a model that lets strategic acquirers pursue deals with added flexibility on financing and disclosure.",
+      "summary_ja": "日本のコクヨが、Thien Longに関連する買収ビークルへの1億7700万ドルの資金拠出を承認したと、DealStreetAsiaが報じた。この承認により当該ビークルは買収手続きを進めることが可能になるが、報道では具体的な取引条件は明らかにされていない。",
+      "why_it_matters_ja": "この規模の資金拠出は、コクヨが専用の買収ビークルを通じて相応の規模の案件に資金を投じる構えであることを示しており、資金調達や情報開示の面で柔軟性を持たせたい戦略的買収者がこうした仕組みを活用する一例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "kokuyo-thien-long-acquisition-vehicle",
+      "ids": ["d0d7ee1831f7f8"],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWUNfZGNrY2FTTk1fdE96dlhsU2lUYWVQVXpXcmd1RXkyUG41TTFKRlFpUFMxYVNvNXpPUXltZnhNXzJIR2JpVVNQcVdSVkI2ZXZRVHplZ1o2b05OWkd3cURadGlXcU53YW84Qno4Z3FGQzRYeC1KU2ZyS1VOeDczQkJOcndvS1piV3J1Wm12NFA2QnpyTVQzd3FrNjFGdzNMbHRiZGZqNVh5d0VDWU5iMElCLV81TDA?oc=5"}
+      ]
+    },
+    {
+      "headline": "Asia Quest to acquire Tetra Communications for ¥920 million",
+      "summary": "Asia Quest is making Tetra Communications a subsidiary in a deal valued at about ¥920 million, Traders Web reported. The acquisition brings Tetra Communications into Asia Quest's corporate group.",
+      "why_it_matters": "The bolt-on is modest in size but reflects the steady pace at which Japanese IT services providers are using small subsidiary acquisitions to add capacity and capabilities.",
+      "summary_ja": "アジアクエストがテトラ・コミュニケーションズを約9.2億円で子会社化すると、トレーダーズ・ウェブが報じた。この買収によりテトラ・コミュニケーションズはアジアクエストのグループ会社に加わる。",
+      "why_it_matters_ja": "規模は小さいものの、日本のIT関連企業が小規模な子会社化を通じて事業能力を積み重ねている動きの一端を示す。",
+      "status": "new",
+      "prev": null,
+      "key": "asiaquest-tetra-communications-acquisition",
+      "ids": ["b3253dc473fa29"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR214aE9VbFFNOXZJc3A3RW9VbV9qSkhnSlczbE1hb3dRdWMwQlNMZTU4dGZSb1FiMUtUc1hGWFdwLUpfa25MRmxKNUIxRmltY0wxb0JCTVVUNzh0YzRkaVp4ZjlRMWF1cmJuWmtPWUpoVlREQzZIcUtKdGpKUHNtNjB4RVpxSW8?oc=5"}
+      ]
+    },
+    {
+      "headline": "Daisee Every24 acquires Chuo Kosoku Unyu to fill Nagano gap in cold-chain network",
+      "summary": "Daisee Every24 has made Chuo Kosoku Unyu a subsidiary, Japanese media reported, saying the deal fills a gap in the Nagano area and strengthens the acquirer's nationwide cold-chain logistics network.",
+      "why_it_matters": "The acquisition is a reminder that Japan's cold-chain logistics sector is still consolidating region by region as operators build out national coverage for temperature-controlled freight.",
+      "summary_ja": "ダイセーエブリー二十四が中央高速運輸を子会社化したと日本のメディアが報じた。報道によれば、この買収は長野エリアの空白を埋め、買収企業の全国コールドチェーン網を強化するものだ。",
+      "why_it_matters_ja": "この買収は、日本の低温物流業界が全国網の構築に向け地域単位での統合をなお進めている状況を示す一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "daisee-every24-chuo-kosoku-acquisition",
+      "ids": ["19cf486a415477"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZVG1QSlpyVGFJLXY2bHZYV2JJQ3htelc1eUs5ajYtLXNuZUpRaWRpMUlSdFpHX2tvbThCY3JqOWpOS0E0UnNZTEhuMG5ldDVhU2tkUXVZcERFQ0V2Z0Jz?oc=5"}
+      ]
+    },
+    {
+      "headline": "Takebishi completes acquisition of Fukui Mitsubishi Electric equipment unit, renames it Fukui Takebishi",
+      "summary": "Takebishi has completed the acquisition of Fukui Mitsubishi Electric Equipment Sales, making it a subsidiary and renaming it Fukui Takebishi, according to the report.",
+      "why_it_matters": "The completed deal extends Takebishi's regional distribution footprint for electrical equipment under its own brand.",
+      "summary_ja": "たけびしが福井三菱電機機器販売の子会社化を完了し、商号を「福井たけびし」に変更したと報じられた。",
+      "why_it_matters_ja": "この買収完了により、たけびしは自社ブランドでの電気機器販売における地域展開を広げる。",
+      "status": "new",
+      "prev": null,
+      "key": "takebishi-fukui-mitsubishi-electric-acquisition",
+      "ids": ["aaa451cc2c19c0"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbDgtQVYtWkZMVEsxX3NidHdWSWN2OHFsODljWWd3UzRPRWZDc3Z5RHVzcEZsUDAzSjhTc1VHTUFWWkhkV1pVX0V5X0JFaVdaVUFXa1VLeHQ2ZDVxVUxvXy1kaGJOdGxhanFROE5SbGpPZnlBUXk4YzMzMnRlZUIxSVh4aXVFRG_SAYwBQVVfeXFMTWp6ZHNzZG4wUWlLLWhGQ25seDBudWx0N0dlQWFOSmpXRUJqLUlmOWJpU3lISnB2ZXZUS3N5a2JwVFRGZFcxcW5tOTh2ZGtacVY0Q3NsZ1RHaGNidTQ4cHJTbXFwdktOUHNtVTV4a1B2NXhjRlR3dTRKaGxOUjRuTlg1QTctQV9PX2ZwWUg?oc=5"}
+      ]
+    }
+  ]
+}
