@@ -1,0 +1,323 @@
+{
+  "edition": "2026-10-02-0830",
+  "edition_label": "2 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T00:35:50Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "ProCrea, Iwate Bank and Akita Bank weigh merger that would create Japan's largest regional banking group with ¥13 trillion in assets",
+      "summary": "ProCrea Holdings, Iwate Bank and Akita Bank are set to bring a possible business integration to their boards on October 2, Japanese media reported, with combined assets of about ¥13 trillion that would overtake 77 Bank to form Japan's largest regional banking group. The Tokyo Stock Exchange halted trading in all three companies' shares to confirm the accuracy of the reports, and the banks' leaders may hold a joint press conference as early as the same day.",
+      "why_it_matters": "A combination at this scale would reorder Japan's regional banking hierarchy at a time when lenders are consolidating to cope with shrinking local populations and the end of ultra-low rates. The exchange's trading halt ahead of any formal announcement signals regulators already view the reports as price-sensitive.",
+      "summary_ja": "プロクレアホールディングス、岩手銀行、秋田銀行が10月2日の取締役会に経営統合の検討を付議する見通しだと日本メディアが報じた。統合が実現すれば総資産は約13兆円となり、七十七銀行を上回って国内最大の地銀グループが誕生する。東京証券取引所は報道内容の真偽を確認するため3社の株式の売買を停止し、3行トップは2日にも共同記者会見を開く可能性がある。",
+      "why_it_matters_ja": "これほどの規模の統合が実現すれば、人口減少や金利正常化への対応で再編が進む日本の地銀業界の勢力図が大きく塗り替わる。取引所が正式発表前に売買停止に踏み切ったこと自体、この報道を株価に影響する重要情報とみなしていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "tohoku-banks-procrea-iwate-akita-merger",
+      "ids": [
+        "53243bfed42621",
+        "9af0d654e36741",
+        "fd9617cf82f312"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBSbG9pYktZSm93WGJlaTMxMmp6b0pLRzdzbFEwU3lIRGhNNmJXNExFRHNkb2tvNWRQS1gySGcyQ2x2ZmFFaUJfNFZVa0hsNVF1Tm1UNU9xWnBGTWNxaXVIcVhjTTIxUmk1QS0xYTdqazg3WnNwbjZnWm1ZQQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VaE5jOHl6ZTFMMVJacXNacUhNNmxsdzFnMnhGU0hKTkdrM1laeHVfWV92WGRhcHR0WHV0bU8tNzdiRUNtRjZ1bGJZbm4zSWFLcG9JbjhyOVZmSmpRSElNNw?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1CWU5tMkVRcTFsZjRLUW0xRjZfbmFPdFg2QmdTZlo5UGN5alBEcGRndnlyVlZUUFZZNUJpWXhGY2cwLXV5YUFoVGpmTXptUVQ1WGc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Nuveen completes acquisition of Schroders, creating $2.6 trillion asset and wealth manager",
+      "summary": "Nuveen has completed its acquisition of Schroders, the companies said, combining the two into what they describe as one of the world's leading active public-to-private asset and wealth managers with $2.6 trillion in assets under management.",
+      "why_it_matters": "Closing the deal creates one of the largest active managers spanning both public and private markets, adding scale just as asset managers race to bundle private-market products with traditional funds for wealth clients.",
+      "summary_ja": "ニューヴィーンがシュローダーの買収を完了したと両社が発表した。両社は統合後の会社について、運用資産残高2.6兆ドルを有する、上場資産運用とプライベート資産運用を併せ持つ世界有数のアクティブ運用会社になるとしている。",
+      "why_it_matters_ja": "今回の完了により、公開市場とプライベート市場の双方にまたがる世界最大級のアクティブ運用会社が誕生する。資産運用各社がウェルス顧客向けにプライベート市場商品と伝統的ファンドを組み合わせようと競う中での規模拡大となる。",
+      "status": "new",
+      "prev": null,
+      "key": "nuveen-schroders-acquisition",
+      "ids": [
+        "d84fe4576e9a76"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/nuveen-completes-acquisition-of-schroders-302895276.html"
+        }
+      ]
+    },
+    {
+      "headline": "ON Semiconductor revises Synaptics acquisition to roughly ¥901 billion all-cash deal",
+      "summary": "ON Semiconductor has changed the terms of its planned acquisition of Synaptics to an all-cash payment of about ¥901 billion, Japanese media reported, with both companies also disclosing the amended agreement in separate regulatory filings the same day.",
+      "why_it_matters": "A roughly ¥901 billion cash commitment is a sizeable bet for a chipmaker in a tight financing environment, underscoring how aggressively US semiconductor players are consolidating analog and sensor assets to serve AI and automotive customers.",
+      "summary_ja": "米オン・セミコンダクターが、計画しているシナプティクス買収の条件を変更し、約9010億円の現金一括払いとしたと日本メディアが報じた。両社は同日、それぞれの規制当局向け開示でも変更後の契約内容を公表した。",
+      "why_it_matters_ja": "資金調達環境が厳しい中での約9010億円規模の現金拠出は、半導体メーカーとして大きな賭けだ。AIや自動車向け需要に対応するため、米半導体各社がアナログ・センサー資産の統合を積極化させていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "onsemi-synaptics-acquisition-terms",
+      "ids": [
+        "155d2afecb56c1",
+        "2b28ed0f162085",
+        "589066cab3a54a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWjd5UWc4OG9RQ1RpOUt6b0tDcWJ2Tl9uMmdZd0hsaE1UN2xrLW9SNzRHekR1SC1TU19mTWFta1JPWEU3bUYxV0Y5MVd3Nlpybk9POGdGR1pFMERjZWdqNDNMdDlkVnVBWWhwV2hjVWd3N0FJTnQza2loUGxKbjl2Mks2YktGcEVLejBmWHV3?oc=5"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126038294/0001140361-26-038294-index.htm"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126038301/0001140361-26-038301-index.htm"
+        }
+      ]
+    },
+    {
+      "headline": "CenterPoint Energy completes $2.62 billion sale of Ohio gas utility to National Fuel Gas",
+      "summary": "CenterPoint Energy has completed the previously announced $2.62 billion sale of its Ohio natural gas local distribution business, Vectren Energy, to National Fuel Gas, the companies said.",
+      "why_it_matters": "The disposal lets CenterPoint narrow its footprint to higher-growth electric and gas markets while handing National Fuel Gas an established regulated utility customer base, a rare asset type to trade hands at this size.",
+      "summary_ja": "センターポイント・エナジーが、オハイオ州のガス事業会社ベクトレン・エナジーをナショナル・フューエル・ガスに26億2000万ドルで売却する既発表の取引を完了したと両社が発表した。",
+      "why_it_matters_ja": "今回の売却により、センターポイントは成長性の高い電力・ガス事業への集中を進められる。一方ナショナル・フューエル・ガスは、この規模で取引される機会が少ない、既存顧客基盤を持つ規制対象の公益事業を手に入れる。",
+      "status": "new",
+      "prev": null,
+      "key": "centerpoint-ohio-gas-sale",
+      "ids": [
+        "cf4ca8e3c4a990",
+        "b7cdae356fc58c",
+        "8ac89fef680d0d"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/centerpoint-energy-completes-sale-of-its-ohio-natural-gas-business-to-national-fuel-gas-company-for-2-62-billion-302895851.html"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1130310/000110465926112565/0001104659-26-112565-index.htm"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/70145/000119312526409787/0001193125-26-409787-index.htm"
+        }
+      ]
+    },
+    {
+      "headline": "HarbourVest said to buy $1 billion GIC private-fund portfolio in secondary deal",
+      "summary": "HarbourVest Partners is buying a private fund portfolio from Singapore's GIC worth about $1 billion in a secondary-market transaction, DealStreetAsia reported, citing people familiar with the matter.",
+      "why_it_matters": "A deal of this size shows sovereign investors like GIC are willing to use the secondary market to actively manage mature private-fund exposure, not just as a tool for distressed or forced sellers.",
+      "summary_ja": "ハーバーヴェスト・パートナーズが、シンガポール政府投資公社（GIC）からプライベートファンドのポートフォリオを約10億ドルでセカンダリー取引により取得するもようだと、事情に詳しい関係者の話としてDealStreetAsiaが報じた。",
+      "why_it_matters_ja": "この規模の取引は、GICのような政府系ファンドが、不良債権化した資産や強制売却の手段としてだけでなく、成熟したプライベートファンド投資を積極的に管理する手段としてセカンダリー市場を活用していることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "harbourvest-gic-secondary-portfolio",
+      "ids": [
+        "b705ce97b4cd16"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeDVBWU14NUsxMW5pWC1xajk4dHVIb3JVSkFDWHVSTkJhYkZ2SWtqUzljZzc4Y0h2S093ME5xb0djV01MMTBoYzRDZGRETG9JZmxIdTc3cEkySjF2YVNvSVM5V1lEU0xHaHYwbjFXM1hoVHMzZmVQMEEwTDNBRWRzYmZTNTBrZw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "SBI discloses ¥46.7 billion total cost for Bitbank buyout as it builds out exchange business",
+      "summary": "SBI Holdings has disclosed that its total acquisition cost for cryptocurrency exchange Bitbank came to ¥46.7 billion, Japanese media reported, as the group moves to build out a full-scale exchange business.",
+      "why_it_matters": "Putting a number on the buyout lets the market judge what SBI paid to secure full control of one of Japan's larger crypto exchanges, a detail missing when the deal's completion was first confirmed.",
+      "summary_ja": "SBIホールディングスが、暗号資産取引所ビットバンクの買収に要した総費用が467億円だったと開示したと日本メディアが報じた。グループは本格的な取引所事業の構築を進めている。",
+      "why_it_matters_ja": "買収額が明らかになったことで、SBIが日本有数の暗号資産取引所の完全掌握にいくら投じたのかを市場が判断できるようになった。完全子会社化の完了が確認された際には示されていなかった情報だ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-01-1530",
+        "index": 9
+      },
+      "key": "sbi-bitbank-full-acquisition",
+      "ids": [
+        "fa41c7600ab375"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XNDZGZTBnLVVsMmRjRlE0czlHaElSZzQ0TDQ5UkFuZlRIUEpfZFUzenJwbUo0QXF0UXg4OVU4VzZ6LWs1NVJBMW9UUElOUHptRjhLT0h3OXhGblg0ODhyRUt2bExWaG8wYjRMVndfVzlHTndL?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Nippon TV to acquire video production group KANAMEL for ¥48.3 billion",
+      "summary": "Nippon Television is acquiring major video production company KANAMEL for ¥48.3 billion, Japanese media reported, as part of a push by the broadcaster to reduce its reliance on terrestrial television.",
+      "why_it_matters": "The deal shows a leading Japanese broadcaster spending at scale to diversify beyond free-to-air TV as it competes with global streaming platforms for production capacity and content.",
+      "summary_ja": "日本テレビが、大手映像制作会社KANAMELを483億円で買収すると日本メディアが報じた。地上波テレビへの依存低減を進める同社の取り組みの一環だという。",
+      "why_it_matters_ja": "この買収は、日本の有力放送局が地上波の枠を超えて事業を多角化するために大規模な投資を行っていることを示す。世界の動画配信プラットフォームと制作体制を奪い合う中での動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "ntv-kanamel-acquisition",
+      "ids": [
+        "e79b78bd58d763"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1yc3FOOTlMN3I1TExsRk1TU3dCdVZfUTNYQmVHYXMxUkhNeXJsNDF3VUhOZlREbzJ3NERWSElRQlRzblYteEtveDI4R0fSAU9BVV95cUxOSHFsUzlaWUdja2FfWmtkVl90VGVaZndYcmNxLVlVaWxaTTZzSGVXNUQ1bUhoQzhvREtqbkZFNWR1Zk9rRUQ2aTdoMVVIUzhF?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Thomson Reuters and KKR close deal on Global Print business joint venture",
+      "summary": "Thomson Reuters has closed its previously announced sale of a majority stake in its Global Print business to capital accounts advised by KKR, the companies said, completing the joint venture without disclosing financial terms.",
+      "why_it_matters": "Carving out a mature print unit into a KKR-backed joint venture lets Thomson Reuters retain upside through a minority stake while shedding a declining business from its core balance sheet, a structure sponsors increasingly use when buying legacy media assets.",
+      "summary_ja": "トムソン・ロイターが、既発表の印刷事業（グローバル・プリント・ビジネス）の過半数株式をKKR系の運用口座に売却する取引を完了し、ジョイントベンチャーを設立したと両社が発表した。金額条件は開示されていない。",
+      "why_it_matters_ja": "縮小傾向にある印刷事業をKKR傘下のジョイントベンチャーに切り出すことで、トムソン・ロイターは少数株主持分を通じて今後のアップサイドを維持しつつ、低迷事業を本体のバランスシートから切り離せる。レガシーメディア資産の買収でスポンサーが用いる手法が広がっていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "thomson-reuters-kkr-global-print-jv",
+      "ids": [
+        "8c4f4e831810e2"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/thomson-reuters-and-kkr-complete-joint-venture-for-global-print-business-302896145.html"
+        }
+      ]
+    },
+    {
+      "headline": "Vistria Group makes strategic investment in $14 billion RIA Curi Capital",
+      "summary": "Curi Capital, a registered investment adviser with more than $14 billion in assets under advisement, has completed a strategic investment from The Vistria Group, the companies said, without disclosing the size of the investment.",
+      "why_it_matters": "Private equity continues to back independent wealth managers as a route into fee-based advisory growth even when deal terms stay undisclosed, extending a wave of sponsor-backed RIA consolidation.",
+      "summary_ja": "運用助言資産140億ドル超を有する独立系RIA（登録投資顧問業者）のキュリ・キャピタルが、ザ・ビストリア・グループから戦略的投資を受け入れる取引を完了したと両社が発表した。投資額は開示されていない。",
+      "why_it_matters_ja": "未開示の取引額であっても、プライベートエクイティが手数料ベースの助言事業の成長を取り込むため独立系ウェルスマネージャーへの出資を続けていることを示す。スポンサー主導のRIA再編の波が広がっている。",
+      "status": "new",
+      "prev": null,
+      "key": "curi-capital-vistria-investment",
+      "ids": [
+        "b45c2e0a445a37"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/curi-capital-completes-strategic-investment-from-the-vistria-group-302895166.html"
+        }
+      ]
+    },
+    {
+      "headline": "Samsonite completes acquisition of luggage brand BÉIS",
+      "summary": "Samsonite Group has completed its acquisition of BÉIS, the companies said, without disclosing financial terms of the transaction.",
+      "why_it_matters": "Adding BÉIS extends Samsonite's brand portfolio in the US direct-to-consumer luggage segment, a category that has drawn fresh competition from digitally native entrants.",
+      "summary_ja": "サムソナイト・グループが、旅行かばんブランドBÉISの買収を完了したと両社が発表した。取引の金額条件は開示されていない。",
+      "why_it_matters_ja": "BÉISの獲得により、サムソナイトは米国の直販型（D2C）旅行かばん市場におけるブランドポートフォリオを拡大する。同分野にはデジタルネイティブの新興企業が相次いで参入し、競争が激しくなっている。",
+      "status": "new",
+      "prev": null,
+      "key": "samsonite-beis-acquisition",
+      "ids": [
+        "0659cb5545046a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Consumer"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/samsonite-group-completes-acquisition-of-beis-302896685.html"
+        }
+      ]
+    }
+  ]
+}
