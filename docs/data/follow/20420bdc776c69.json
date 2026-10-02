@@ -1,75 +1,75 @@
 {
-  "id": "20420bdc776c69",
-  "title": "米国の西海岸テック企業が全株式交換方式での買収を検討と伝わり、ペイパルが5%急騰——メタによる買収案も浮上",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZDlDUWpwT05LWEFXSGNEc3dZVkhXN3FWUG1UeVQtcVNYRnlic0R1U091Q3pVcWR3OEttZ0xLbTRiNjN6Q0xFU2tva1hZdmNlSkhwNmczVElKc0w5S1NQeXhZRGxoNFZTRk13aXZuUEVHdmNI?oc=5",
-  "source": "Japan M&A",
-  "published": "2026-09-26T18:20:14Z",
-  "checked_at": "2026-10-01T07:47:48Z",
-  "background": [
-    {
-      "date": "2026-09-22",
-      "headline": "PayPal partners with Meta to power checkout inside Meta's Muse AI shopping agent",
-      "summary": "PayPal announced a commercial partnership letting customers complete purchases at PayPal merchants through Muse, Meta's AI shopping agent, extending one-tap checkout into Facebook (and later Instagram).",
-      "summary_ja": "ペイパルは、メタのAIショッピングエージェント「Muse」経由でペイパル加盟店の決済を完了できるようにする業務提携を発表した。フェイスブック(将来的にはインスタグラムにも拡大予定)のフィード内でワンタップ決済が可能になる。",
-      "source": "PYMNTS",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-adds-paypal-muse-ai-assistant-global-checkout/"
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "PayPal to cut 251 jobs at San Jose HQ as part of plan to shed ~20% of global workforce",
-      "summary": "PayPal filed a WARN notice for 251 layoffs at its San Jose headquarters, mostly engineering roles, part of a multiyear restructuring under CEO Enrique Lores aiming to cut roughly 20% of its global workforce.",
-      "summary_ja": "ペイパルはサンノゼ本社で251人を削減するWARN通知を提出した。対象の大半はエンジニア職で、エンリケ・ロレスCEOの下で進む複数年の構造改革の一環であり、全世界の従業員の約2割を削減する計画に含まれる。",
-      "source": "San Francisco Chronicle",
-      "url": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
-    },
-    {
-      "date": "2026-08-28",
-      "headline": "Stripe-Advent consortium abandons roughly $53B pursuit of PayPal, shares tumble as much as 16%",
-      "summary": "Stripe and private-equity firm Advent International walked away from their renewed pursuit of PayPal after failing to agree on price and deal terms, sending PayPal shares down sharply the next trading session.",
-      "summary_ja": "ストライプとプライベートエクイティのアドベント・インターナショナルによるコンソーシアムは、価格や契約条件で折り合えず、約530億ドル規模とされたペイパル買収の追求を断念した。翌取引日にペイパル株は急落した。",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/08/28/stripe-advent-end-paypal-pursuit"
-    },
-    {
-      "date": "2026-08-14",
-      "headline": "WSJ: PayPal reopens sale talks with Stripe-Advent group at a higher price after rejecting $60.50/share bid",
-      "summary": "The Wall Street Journal reported PayPal was again discussing a potential sale to the Stripe-Advent International group, with the two sides negotiating a higher per-share price than the $60.50 offered in July.",
-      "summary_ja": "ウォール・ストリート・ジャーナルは、ペイパルが7月に提示された1株60.50ドルの買収案を拒否した後、ストライプ・アドベント連合との売却協議を再開し、より高い価格を交渉していると報じた。",
-      "source": "24/7 Wall St (citing WSJ)",
-      "url": "https://247wallst.com/investing/2026/08/15/breaking-paypal-is-in-talks-to-sell-itself-after-rejecting-stripes-initial-60-50-bid-in-july/"
-    },
-    {
-      "date": "2026-07-15",
-      "headline": "Stripe and Advent make ~$53B, $60.50/share all-cash bid for PayPal; board rejects it as too low",
-      "summary": "Stripe and Advent International formally offered $60.50 per share, a roughly 28-39% premium, valuing PayPal at more than $53 billion with about $50 billion in committed financing from JPMorgan and Morgan Stanley; PayPal's board rejected the price as inadequate, reportedly seeking closer to $70 per share.",
-      "summary_ja": "ストライプとアドベント・インターナショナルは1株60.50ドル、総額530億ドル超(JPモルガンとモルガン・スタンレーによる約500億ドルのコミットメント融資付き)の全額現金による買収案を正式提示したが、ペイパル取締役会は価格が低すぎるとして拒否し、1株70ドル近辺を求めているとされる。",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html"
-    },
-    {
-      "date": "2026-02-26",
-      "headline": "PayPal says it is not in sale talks with Stripe or anyone else, had been preparing takeover defenses",
-      "summary": "Following the Bloomberg report of Stripe's interest, Semafor reported PayPal was not currently in talks to sell itself to Stripe or any other party, and that the company had for months been working with bankers to prepare for a possible activist campaign or unwanted takeover bid after its stock decline.",
-      "summary_ja": "ストライプの関心を報じたブルームバーグ報道を受け、セマフォーはペイパルがストライプを含むいかなる相手とも売却協議を行っていないと報じた。同社は株価下落を受け、アクティビストの介入や望まない買収提案に備え、数カ月前から銀行団と準備を進めていたとされる。",
-      "source": "Semafor",
-      "url": "https://www.semafor.com/article/02/26/2026/paypal-stripe-not-currently-in-talks"
-    },
-    {
-      "date": "2026-02-24",
-      "headline": "Report that Stripe is weighing acquiring all or part of PayPal sends shares up nearly 7%, triggers trading halt",
-      "summary": "Bloomberg reported Stripe was in early-stage discussions about potentially acquiring all or parts of PayPal's business, sending PayPal shares up nearly 7% and briefly triggering a limit-up/limit-down trading halt.",
-      "summary_ja": "ブルームバーグは、ストライプがペイパルの全部または一部の事業買収を検討する初期段階の協議に入っていると報じ、これを受けペイパル株は一時7%近く急伸し、値幅制限による取引の一時停止(LULD)も発生した。",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/02/24/paypal-stock-stripe-acquisition-report.html"
-    },
-    {
-      "date": "2026-02-03",
-      "headline": "PayPal ousts CEO Alex Chriss, names HP's Enrique Lores as successor after weak Q4 and soft 2026 guidance, shares fall ~20%",
-      "summary": "PayPal replaced CEO Alex Chriss with former HP CEO Enrique Lores after fourth-quarter 2025 results missed expectations and the company issued a disappointing 2026 profit forecast; PayPal shares fell about 19-20% on the news, with the board citing the pace of turnaround progress as inadequate.",
-      "summary_ja": "ペイパルは2025年第4四半期決算が市場予想に届かず、2026年の利益見通しも弱含みとなったことを受け、アレックス・クリスCEOを退任させ、後任に元HPのエンリケ・ロレス氏を起用した。取締役会は業績改善のペースが不十分だとしており、発表を受けペイパル株は約19〜20%下落した。",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/02/03/paypal-pypl-earnings-q4-2025.html"
-    }
-  ],
-  "since": []
+    "id": "20420bdc776c69",
+    "title": "米国の西海岸テック企業が全株式交換方式での買収を検討と伝わり、ペイパルが5%急騰——メタによる買収案も浮上",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZDlDUWpwT05LWEFXSGNEc3dZVkhXN3FWUG1UeVQtcVNYRnlic0R1U091Q3pVcWR3OEttZ0xLbTRiNjN6Q0xFU2tva1hZdmNlSkhwNmczVElKc0w5S1NQeXhZRGxoNFZTRk13aXZuUEVHdmNI?oc=5",
+    "source": "Japan M&A",
+    "published": "2026-09-26T18:20:14Z",
+    "checked_at": "2026-10-02T00:49:55Z",
+    "background": [
+        {
+            "date": "2026-09-22",
+            "headline": "PayPal partners with Meta to power checkout inside Meta's Muse AI shopping agent",
+            "summary": "PayPal announced a commercial partnership letting customers complete purchases at PayPal merchants through Muse, Meta's AI shopping agent, extending one-tap checkout into Facebook (and later Instagram).",
+            "summary_ja": "ペイパルは、メタのAIショッピングエージェント「Muse」経由でペイパル加盟店の決済を完了できるようにする業務提携を発表した。フェイスブック(将来的にはインスタグラムにも拡大予定)のフィード内でワンタップ決済が可能になる。",
+            "source": "PYMNTS",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-adds-paypal-muse-ai-assistant-global-checkout/"
+        },
+        {
+            "date": "2026-09-04",
+            "headline": "PayPal to cut 251 jobs at San Jose HQ as part of plan to shed ~20% of global workforce",
+            "summary": "PayPal filed a WARN notice for 251 layoffs at its San Jose headquarters, mostly engineering roles, part of a multiyear restructuring under CEO Enrique Lores aiming to cut roughly 20% of its global workforce.",
+            "summary_ja": "ペイパルはサンノゼ本社で251人を削減するWARN通知を提出した。対象の大半はエンジニア職で、エンリケ・ロレスCEOの下で進む複数年の構造改革の一環であり、全世界の従業員の約2割を削減する計画に含まれる。",
+            "source": "San Francisco Chronicle",
+            "url": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+        },
+        {
+            "date": "2026-08-28",
+            "headline": "Stripe-Advent consortium abandons roughly $53B pursuit of PayPal, shares tumble as much as 16%",
+            "summary": "Stripe and private-equity firm Advent International walked away from their renewed pursuit of PayPal after failing to agree on price and deal terms, sending PayPal shares down sharply the next trading session.",
+            "summary_ja": "ストライプとプライベートエクイティのアドベント・インターナショナルによるコンソーシアムは、価格や契約条件で折り合えず、約530億ドル規模とされたペイパル買収の追求を断念した。翌取引日にペイパル株は急落した。",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/08/28/stripe-advent-end-paypal-pursuit"
+        },
+        {
+            "date": "2026-08-14",
+            "headline": "WSJ: PayPal reopens sale talks with Stripe-Advent group at a higher price after rejecting $60.50/share bid",
+            "summary": "The Wall Street Journal reported PayPal was again discussing a potential sale to the Stripe-Advent International group, with the two sides negotiating a higher per-share price than the $60.50 offered in July.",
+            "summary_ja": "ウォール・ストリート・ジャーナルは、ペイパルが7月に提示された1株60.50ドルの買収案を拒否した後、ストライプ・アドベント連合との売却協議を再開し、より高い価格を交渉していると報じた。",
+            "source": "24/7 Wall St (citing WSJ)",
+            "url": "https://247wallst.com/investing/2026/08/15/breaking-paypal-is-in-talks-to-sell-itself-after-rejecting-stripes-initial-60-50-bid-in-july/"
+        },
+        {
+            "date": "2026-07-15",
+            "headline": "Stripe and Advent make ~$53B, $60.50/share all-cash bid for PayPal; board rejects it as too low",
+            "summary": "Stripe and Advent International formally offered $60.50 per share, a roughly 28-39% premium, valuing PayPal at more than $53 billion with about $50 billion in committed financing from JPMorgan and Morgan Stanley; PayPal's board rejected the price as inadequate, reportedly seeking closer to $70 per share.",
+            "summary_ja": "ストライプとアドベント・インターナショナルは1株60.50ドル、総額530億ドル超(JPモルガンとモルガン・スタンレーによる約500億ドルのコミットメント融資付き)の全額現金による買収案を正式提示したが、ペイパル取締役会は価格が低すぎるとして拒否し、1株70ドル近辺を求めているとされる。",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html"
+        },
+        {
+            "date": "2026-02-26",
+            "headline": "PayPal says it is not in sale talks with Stripe or anyone else, had been preparing takeover defenses",
+            "summary": "Following the Bloomberg report of Stripe's interest, Semafor reported PayPal was not currently in talks to sell itself to Stripe or any other party, and that the company had for months been working with bankers to prepare for a possible activist campaign or unwanted takeover bid after its stock decline.",
+            "summary_ja": "ストライプの関心を報じたブルームバーグ報道を受け、セマフォーはペイパルがストライプを含むいかなる相手とも売却協議を行っていないと報じた。同社は株価下落を受け、アクティビストの介入や望まない買収提案に備え、数カ月前から銀行団と準備を進めていたとされる。",
+            "source": "Semafor",
+            "url": "https://www.semafor.com/article/02/26/2026/paypal-stripe-not-currently-in-talks"
+        },
+        {
+            "date": "2026-02-24",
+            "headline": "Report that Stripe is weighing acquiring all or part of PayPal sends shares up nearly 7%, triggers trading halt",
+            "summary": "Bloomberg reported Stripe was in early-stage discussions about potentially acquiring all or parts of PayPal's business, sending PayPal shares up nearly 7% and briefly triggering a limit-up/limit-down trading halt.",
+            "summary_ja": "ブルームバーグは、ストライプがペイパルの全部または一部の事業買収を検討する初期段階の協議に入っていると報じ、これを受けペイパル株は一時7%近く急伸し、値幅制限による取引の一時停止(LULD)も発生した。",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/02/24/paypal-stock-stripe-acquisition-report.html"
+        },
+        {
+            "date": "2026-02-03",
+            "headline": "PayPal ousts CEO Alex Chriss, names HP's Enrique Lores as successor after weak Q4 and soft 2026 guidance, shares fall ~20%",
+            "summary": "PayPal replaced CEO Alex Chriss with former HP CEO Enrique Lores after fourth-quarter 2025 results missed expectations and the company issued a disappointing 2026 profit forecast; PayPal shares fell about 19-20% on the news, with the board citing the pace of turnaround progress as inadequate.",
+            "summary_ja": "ペイパルは2025年第4四半期決算が市場予想に届かず、2026年の利益見通しも弱含みとなったことを受け、アレックス・クリスCEOを退任させ、後任に元HPのエンリケ・ロレス氏を起用した。取締役会は業績改善のペースが不十分だとしており、発表を受けペイパル株は約19〜20%下落した。",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/02/03/paypal-pypl-earnings-q4-2025.html"
+        }
+    ],
+    "since": []
 }
