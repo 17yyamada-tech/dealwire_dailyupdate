@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-02-1530",
+      "label": "2 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-02T07:40:57Z",
+      "items": 5,
+      "headlines": [
+        "ProCrea, Iwate Bank and Akita Bank confirm merger talks, target April 2028 integration",
+        "GCash parent Mynt prices $845 million IPO on Philippine Stock Exchange",
+        "Evernorth's XRP treasury vehicle raises over $1 billion as shareholders approve SPAC merger with Armada II"
+      ]
+    },
+    {
       "id": "2026-10-02-1230",
       "label": "2 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-02T04:53:46Z",

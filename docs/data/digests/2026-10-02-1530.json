@@ -1,0 +1,180 @@
+{
+  "edition": "2026-10-02-1530",
+  "edition_label": "2 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T07:40:57Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "ProCrea, Iwate Bank and Akita Bank confirm merger talks, target April 2028 integration",
+      "summary": "ProCrea Holdings, Iwate Bank and Akita Bank confirmed on October 2 that they have begun formal talks on a management integration, disclosing the move to the Tokyo Stock Exchange and holding a joint press conference in Morioka. The three banks' presidents said they are targeting completion by April 2028, giving the tie-up first reported two days earlier a confirmed timeline.",
+      "why_it_matters": "A confirmed timetable turns what had been speculative merger reports into an active integration process, giving markets and other regional lenders a concrete timeline to plan around as Tohoku's banking sector consolidates further.",
+      "summary_ja": "プロクレアホールディングス、岩手銀行、秋田銀行は10月2日、経営統合に向けた協議入りを正式に確認し、東京証券取引所への開示と盛岡市での共同記者会見でこれを発表した。3行の頭取は2028年4月の統合実現を目指すと表明し、2日前に報じられた統合構想に初めて具体的な時期が示された形となった。",
+      "why_it_matters_ja": "統合の具体的な時期が示されたことで、これまで観測報道の域にあった統合構想は実際の統合プロセスへと移行した。市場や他の東北地銀にとっても、今後の再編を見据える上での具体的な目安が得られたことになる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-02-0830",
+        "index": 0
+      },
+      "key": "tohoku-banks-procrea-iwate-akita-merger",
+      "ids": [
+        "b7fd2c93c2d9b1",
+        "541050d9714234",
+        "694b2d025562f4"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other",
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FVGJfa2h3YjJvVWpLT1U0OHlaWXdYeHJvT0lHbkZRZGtVb2gzZzZXRE9rQWU5RzFuSjZyV3d3dnJGZDBaU3Bial9fdXlsdHFvdVd3Y1ZtaVJIdEtOTlRnckQ3MkF3TVhyNFRzNUVfUkdlOHBkbE1hV0xWYw?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54emlMMVdGMi0tREZtaTFDNWROODg2U19RR1gyclpESU1CRFM0XzkyMzNnOHZ4aWVTZHp2U2diQlRRUERNZVoteWt1enNlWnlJX0hDQTBST2d6ajVtcDBBTw?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TdFdSb2dyWU51ZTRTUTZZb1VxaDRrbGxwUHZBcEVBUkhPclYyUGdYNTFVNWRGRDVIeS1ydmZBWDlWdXM2bDlfYjhRUUFDODFjMzJPN0JxeDEydVJDSThjSEpRV1duaTF3ZkE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "GCash parent Mynt prices $845 million IPO on Philippine Stock Exchange",
+      "summary": "Mynt, the parent of Philippine fintech GCash, has priced an initial public offering at US$845 million, Business Times reported. The listing is expected to lift the Philippine bourse, where total funds raised in 2026 had fallen 71% year-on-year as of September 29.",
+      "why_it_matters": "A deal of this size would be one of the largest Southeast Asian listings of the year and a rare win for a regional IPO market that has otherwise struggled to attract large new issuers in 2026.",
+      "summary_ja": "フィリピンのフィンテック企業GCashの親会社Myntが8億4500万米ドル規模の新規株式公開(IPO)の価格を決定したとBusiness Timesが報じた。今回の上場により、2026年の調達額が9月29日時点で前年比71%減となっていたフィリピン証券取引所の市況改善が見込まれる。",
+      "why_it_matters_ja": "この規模の案件が実現すれば今年の東南アジアで最大級の上場案件の一つとなり、大型の新規上場に苦戦してきた同地域のIPO市場にとって数少ない明るい材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "gcash-mynt-ipo-pricing",
+      "ids": [
+        "e89baf1abee0fb"
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/gcash-parent-mynt-prices-us845-million-ipo-set-bolster-philippine-share-market"
+        }
+      ]
+    },
+    {
+      "headline": "Evernorth's XRP treasury vehicle raises over $1 billion as shareholders approve SPAC merger with Armada II",
+      "summary": "Shareholders of Armada II approved its business combination with Evernorth at a September 30 meeting, with the transaction and related private placements raising more than $1 billion in total, including about $300 million in gross cash proceeds, and additional investor contributions of XRP in kind. The combined company is expected to begin trading on Nasdaq under the ticker XRPN on October 8.",
+      "why_it_matters": "The deal creates one of the largest publicly listed corporate treasuries built around XRP, extending the SPAC-funded crypto-treasury model already used for bitcoin and ether into a new token.",
+      "summary_ja": "アーマダIIの株主は9月30日の会議でEvernorthとの事業統合を承認し、本取引と関連する私募増資により総額10億ドル超を調達、このうち現金での調達額は約3億ドル、加えて投資家からは現物でXRPの拠出も受けた。統合後の会社は10月8日からナスダックに「XRPN」のティッカーで上場する見通し。",
+      "why_it_matters_ja": "この案件により、XRPを中核とする企業としては上場規模で最大級の財務保有体制が誕生する。ビットコインやイーサリアムで既に使われてきたSPACを通じた暗号資産トレジャリー企業の手法が、新たなトークンにも広がったことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "evernorth-armada-xrp-treasury-listing",
+      "ids": [
+        "a5ab4a66e4a11a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/shareholders-approve-evernorth-business-combination-transaction-and-related-private-placements-have-raised-over-1-billion-nasdaq-trading-under-xrpn-expected-to-begin-on-october-8-302895260.html"
+        }
+      ]
+    },
+    {
+      "headline": "Nidec confirms sale of Nidec Components to Carlyle as new president moves to exit low-margin units",
+      "summary": "Nidec has confirmed it will transfer its electronic-components subsidiary, Nidec Components, to US private equity firm Carlyle, moving the previously reported sale discussions to a completed decision. The company's new president said the move is part of a plan to clean up lower-profitability businesses.",
+      "why_it_matters": "Confirming the sale turns Nidec's reported deliberations into a definitive portfolio action under new leadership, signaling a faster pace of non-core divestitures than the market had been pricing in.",
+      "summary_ja": "ニデックは電子部品子会社のニデックコンポーネンツを米プライベートエクイティ大手カーライルへ譲渡することを確認し、これまで報じられていた売却の検討が正式な決定へと進んだ。同社の新社長は、収益性の低い事業を整理する方針の一環だと説明した。",
+      "why_it_matters_ja": "売却が確定したことで、ニデックのこれまでの検討段階の報道が新経営体制下での具体的なポートフォリオ再編へと移行した。市場が想定していたよりも速いペースで非中核事業の売却が進む可能性を示している。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-30-1230",
+        "index": 0
+      },
+      "key": "nidec-components-carlyle-sale",
+      "ids": [
+        "2a64961e612c97",
+        "0ca48285349a3f"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVzVDaHJTQUZEbTJZMlBIbHlHN1JTWXI5ZDdEbWc4WFZFZW9rbUlZYzF5MDdsc25GWGNnY0FuUnJIczR3WWI2blhWS2lQOXl5c3FBTWE3bjE2UkxEYVNXanByYjd1c25ocDd0M1FqT0h6Mk9VeUFZVzJhQmJSMGRKck1B0gGHAUFVX3lxTFA5V0Z4VWNINUJoLXJTM0ZsV2tmbmpyRTA2NTRTdlUxbE9BbXhkNndYVnBUeHFYRGo0U3JXR285OWd0dW1TSUFnd1kzVUNEX1BRU3JjX1RwRVFIQU5UM3VRRG9VX3h2WWJZY0xQZTNKTFltbXdxV0JRaHpaSHRETDNiMmNBY0tBdw?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE40TnltaEY0N1pob1laVEd5SHh3bU52WXZueVdhRmt1bU8zbU94SEFpbFI0aWl6VndkUjh5bGNxRjQ1VmIwUXRuMWdHa21VOGtUYW5MOTcwc0VydDg?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "PPIH to acquire bankrupt Japan Toys 'R' Us, keeping all 150 stores and jobs",
+      "summary": "Pan Pacific International Holdings, operator of Don Quijote, has agreed to acquire Nihon Toys 'R' Us after the toy retailer filed for civil rehabilitation, with PPIH set to retain the chain's roughly 150 stores and their employees. PPIH said the deal is aimed at making it the largest player in Japan's toy retail market by share.",
+      "why_it_matters": "The acquisition lets PPIH absorb a struggling national retail network on distressed-sale terms while expanding its push into toys, consolidating a category where Toys 'R' Us Japan had been losing ground before its restructuring filing.",
+      "summary_ja": "ドン・キホーテを運営するパン・パシフィック・インターナショナルホールディングス(PPIH)は、民事再生を申し立てた日本トイザらスの買収に合意し、同チェーンの約150店舗と従業員の雇用を維持する方針。PPIHは今回の買収により玩具小売市場でシェア首位を目指すとしている。",
+      "why_it_matters_ja": "この買収により、PPIHは経営不振に陥っていた全国規模の小売網を割安な条件で取り込みつつ、玩具分野への展開を拡大することになる。経営再建の申し立て前からシェアを落としていた日本トイザらスが属する玩具カテゴリーの再編が進む形だ。",
+      "status": "new",
+      "prev": null,
+      "key": "ppih-toys-r-us-japan-acquisition",
+      "ids": [
+        "633a297ec12c7b",
+        "ad3cf8e627456b",
+        "4952dc19a6d9f7"
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPRXg2VFgzVWZPUzZLVDFDNW4xX0pTa1AzdHVlRk5SNFcxUXI2U1ZwZTcwa2N5Sm1mYW9BRmIzX0p0RHZRdkRKeWdrSFZ5YVVYRVNwM1hVREQwUHFDVGp3TzZTZmdaQmNsNl9GLTFVTUl5TDBwUzVPeUx2RWcwS1pabkVXSDRpYU5kY09QRng2eFgtMVgxTUFIMGdIcHFwWGpneC1EdXg2QUJLc1F1R0YzQkNNeHNnTGNSQzV2TlBZNWloZjVUNXFPSFdldXRNdVZsMXJDaWw1TVJxbXBnNnREZ21uYTlES1h6WjlNRGtrRU90bjE5d0VYbFhvazVWMXM2aHQ0d1hzU1A5WUJXQkJ5Ujc5azVuQWtFYzJFQkpfbGFBOF9rRXl1SlN2OWNYdzBSWHQzOWIwOHItdGVQbTlFc01pWW9TX1NLeF9WWTIxQnZUZXBHSWtkLWNjaVJfU3c3YWozNXdBUE9uOEVs?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fVkpONjNZS3JMdHhDUGJuWVVUZmI1R2tzNnBERzhPcWQ5LXZMYzZrTW9tWEtsdFNOVmF6V0pLSEZ3YlBRMmtZWXNJdmtuMmRXYnZVcEt1NEo0OU1JTTVvWktB?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZMkZxdThfYlpmM1NFUFFueHROT3REY3VWOTA0V1EzTEoxR1VHMl9zOHhrc3h2WkVSTnd4Mmc5OWFzMTdOS0VzMm02X0ZlR1NlcE1IZnZSeXEydFZKMEtTaXpldl9pSmx1MHU5ZTl2VnNIUHVDcDdYTHR1REtrR0E?oc=5"
+        }
+      ]
+    }
+  ]
+}
