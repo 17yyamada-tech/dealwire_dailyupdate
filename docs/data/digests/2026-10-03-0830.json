@@ -1,0 +1,284 @@
+{
+  "edition": "2026-10-03-0830",
+  "edition_label": "3 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T00:39:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Paramount Skydance confirms combined company will be renamed simply 'Skydance' as Warner Bros Discovery deal nears close",
+      "summary": "Paramount Skydance's chief executive confirmed the merged company will drop both the Paramount and Warner Bros names and be known simply as \"Skydance\" once its roughly $110 billion acquisition of Warner Bros Discovery completes, with Japanese media reporting the deal remains on track to close around October 6.",
+      "why_it_matters": "A clean rebrand signals the new owners want a distinct identity rather than carrying forward two storied but troubled legacy studio names, and settles a lingering question about corporate identity just as one of the largest media mergers in years reaches its closing date.",
+      "summary_ja": "パラマウント・スカイダンスの最高経営責任者は、ワーナー・ブラザース・ディスカバリーに対する約1100億ドル規模の買収完了後、統合会社がパラマウントとワーナー両方の社名を外し、単に「スカイダンス」と名乗ると確認した。日本メディアによれば、買収は10月6日前後の完了に向けて予定通り進んでいるという。",
+      "why_it_matters_ja": "社名を一新する決定は、新経営陣が老舗ながら苦境にあった2つのスタジオ名をそのまま引き継がず、独自のブランドを打ち出す狙いを示す。近年最大級のメディア再編が完了日を迎える直前に、企業としてのアイデンティティをめぐる懸案に決着をつけた格好だ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-01-1530",
+        "index": 0
+      },
+      "key": "paramount-warner-bros-merger",
+      "ids": [
+        "fab37936e6d71b",
+        "0735572d4604f9",
+        "d85e717125eb9b"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HcFVnSER3TDJfSDI1WlFPRTdoLWtEMjkySHh6N1Vyemw0RzloWHQxNXBKZXpLVjBOd3F5OGw0dC1pVmsyekJwY0xwUm5SZFl3VVlfVldUWWRnUENOTVZHM1NsdlRqUFk2Q2w5VmJuQVh6ZUlCRVQ3REVIck5Oejg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kUWozVGJiTk1WRjhqZU5HVi1wVVFmdDZNMmZreTdxR1pMQ2VvM3RwZDhKcTJVTjIxSmNLa2lvQm0tQWlOaDUtQkltM3k1MXUyVzlUX09IVUN4WlFfVTJpaWJmMGFMeHhwOG1jeg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nQ0F3NEtDSUYwVkNWVHB5ak9lejBzaU9JaVJuMHp6bUpSekM4SDlQYk1yd2prNEQ5OGxCekVaQUttbkZfN3RfS05XVjJkWXhIX2lVTEg1ckJHd052MEFDWldYckx4U2JuYmt0bFA4VW5OMlR1ckZEbzR4bzdDRzQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bain Capital explores investment in Hong Kong developer New World Development",
+      "summary": "Bain Capital is studying a potential investment in New World Development, according to people familiar with the matter, in a deal that could also see the developer's controlling Cheng family inject fresh capital.",
+      "why_it_matters": "New World has been among Hong Kong's most financially stressed major developers; a Bain-anchored recapitalisation alongside the founding family would be a significant vote of confidence and could serve as a template for deleveraging other distressed Hong Kong property groups.",
+      "summary_ja": "事情に詳しい関係者によれば、ベインキャピタルが香港の不動産大手ニューワールド・ディベロップメントへの投資を検討している。取引が実現すれば、同社を支配する鄭家一族が新たに資本を注入する展開もあり得るという。",
+      "why_it_matters_ja": "ニューワールドは香港の大手デベロッパーの中でも特に財務が逼迫している一社であり、ベインが創業家とともに資本再構成に乗り出すとすれば、市場からの信認を示す大きな材料となる。苦境にある他の香港不動産グループの債務圧縮にとっても一つのひな形になり得る。",
+      "status": "new",
+      "prev": null,
+      "key": "bain-new-world-development-investment",
+      "ids": [
+        "7cb044f11eb91e"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Real Estate"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/bain-exploring-investment-hong-kongs-new-world-sources"
+        }
+      ]
+    },
+    {
+      "headline": "Infroneia Holdings to raise up to ¥147.2 billion to repay debt from Water ing and other acquisitions",
+      "summary": "Infroneia Holdings plans a public share offering of up to approximately ¥147.2 billion, with proceeds earmarked to repay borrowings taken on for its acquisitions of water utility operator Water ing and other companies.",
+      "why_it_matters": "Tapping equity markets to delever after an infrastructure buying spree shows the cost of debt-funded consolidation in Japan's water and utility services sector, and tests investor appetite for financing further infrastructure roll-ups.",
+      "summary_ja": "インフロニアホールディングスは、最大約1472億円規模の公募増資を計画している。調達資金は、水道事業会社の水ingなどの買収に伴う借入金の返済に充てる方針だ。",
+      "why_it_matters_ja": "インフラ企業の買収を重ねた後に株式市場で資金を調達して負債を圧縮する動きは、日本の水道・インフラサービス分野における借入主導の業界再編のコストの大きさを映す。今後さらなるインフラ再編を進める上で、株式市場がどこまで資金供給に応じるかを占う試金石にもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "infroneia-water-ing-equity-offering",
+      "ids": [
+        "02831e264ee9e5",
+        "e2098307321d34"
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQenBOTmpjNHBOOVc2S25sYXRyY0ZleEFEejNTNVZsaGpJZklhMWpLSFJJYkczTlBYc2NZbzdHUHNuaHdSOVl4M3htMTZoSWRXNVFxczlDaFNKeWxBSW5obmJZQS00ZGxPMGRrQ2Y0aTFEZzVTaHVCbV9KYm9qZ0F4RDh1d3NzdzZUVk04N0NB?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KaTNvSHJpYU9TV3VTQVVCcjVNTktPVFg4d1IzMXhOUTNJcUdhel85al9PcUd3WWNCM2ZkZENJQkNNc29hUm9fMEdzOFVWVFQ4aGc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "NGK Spark Plug scraps plan to acquire Denso's spark plug business",
+      "summary": "Nippon Tokushu Togyo (NGK Spark Plug) has called off its plan to acquire Denso's spark plug business, according to Japanese media reports, which did not disclose a reason for the collapse.",
+      "why_it_matters": "The failed deal ends a consolidation effort between two of Japan's established auto parts makers, leaves Denso's spark plug unit without an announced buyer, and raises questions about the pace of further tie-ups in a shrinking internal-combustion parts market.",
+      "summary_ja": "日本特殊陶業（NGKスパークプラグ）が、デンソーのプラグ事業を買収する計画を白紙撤回したと日本メディアが報じた。撤回の理由については明らかにされていない。",
+      "why_it_matters_ja": "日本の自動車部品大手2社による再編の試みが頓挫したことを意味し、デンソーのプラグ事業は買い手が決まらないまま残された。内燃機関向け部品市場が縮小する中、今後の業界再編のペースにも疑問符が付く。",
+      "status": "new",
+      "prev": null,
+      "key": "ngk-spark-plug-denso-acquisition-scrapped",
+      "ids": [
+        "f2c6d98e06ca83"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tbTl6OUNZTWR6MmJ5YnNoY0JabnBjMHF1UkVGMGREd0RoQUJ1S3pmRnRxR241YVo0ZnV1MWUxUkRzZW5fQ1dJSjY1dklYajk3Nk5mem94ZzdCTlBpd21Cc2xGR3RGVW5tdEoxeE12Yjd6VmUw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Supabase raises $150 million and acquires database company Turso",
+      "summary": "Supabase, the open-source Postgres development platform, announced $150 million in new funding alongside its acquisition of Turso, saying the combined business will add support for millions of additional AI agents each month.",
+      "why_it_matters": "Pairing a funding round with an acquisition shows platform companies in the AI developer-tooling layer using fresh capital to buy capability as well as build it, and points to continued investor appetite for the infrastructure underpinning AI-driven software creation. It also signals further consolidation among database and backend-infrastructure vendors as the market for agentic software scales up.",
+      "summary_ja": "オープンソースのPostgres開発プラットフォームを手がけるSupabaseは、1億5000万ドルの新規資金調達とデータベース企業Tursoの買収を発表した。両社の統合により、月間数百万件規模のAIエージェントの追加に対応できるようになるとしている。",
+      "why_it_matters_ja": "資金調達と買収を同時に発表したことは、AI向け開発基盤を手がけるプラットフォーム企業が、新たな資金を自社開発だけでなく能力の買収にも充てていることを示す。AI主導のソフトウェア開発を支えるインフラ分野への投資意欲が引き続き強いことも裏付ける。エージェント型ソフトウェアの市場拡大に伴い、データベースやバックエンド基盤を手がけるベンダー間の再編がさらに進む兆しでもある。",
+      "status": "new",
+      "prev": null,
+      "key": "supabase-turso-acquisition-funding",
+      "ids": [
+        "5526d88137504c"
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Infrastructure"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html"
+        }
+      ]
+    },
+    {
+      "headline": "HydroEdge Solutions buys majority stake in RES Water to build Appalachian Basin water platform",
+      "summary": "HydroEdge Solutions, through subsidiary WET Tech, acquired a majority interest in RES Water, combining the two into a water management platform that operates five facilities in Pennsylvania with about 700,000 barrels of storage and up to 116,000 barrels per day of processing capacity.",
+      "why_it_matters": "Consolidating water-handling infrastructure for oil and gas operators points to continued roll-up activity in energy-adjacent infrastructure services, where scale increasingly determines the ability to win long-term contracts. Deals of this kind, though individually small, are steadily concentrating ownership of basin-level water-handling capacity in fewer private platforms.",
+      "summary_ja": "ハイドロエッジ・ソリューションズは、子会社ウェットテックを通じてRESウォーターの過半数株式を取得した。両社の統合により、ペンシルベニア州内の5拠点を運営し、貯蔵能力約70万バレル、処理能力は日量最大11万6000バレルに達する水管理プラットフォームが誕生する。",
+      "why_it_matters_ja": "石油・ガス事業者向けの水処理インフラの統合が進んでいることは、エネルギー関連インフラサービス分野でのロールアップが続いていることを示す。この分野では規模の大きさが長期契約を獲得できるかどうかを左右する度合いを強めている。一件ごとの規模は小さくとも、こうした取引の積み重ねが、特定の盆地における水処理能力の所有をより少数の民間プラットフォームに集中させつつある。",
+      "status": "new",
+      "prev": null,
+      "key": "hydroedge-res-water-acquisition",
+      "ids": [
+        "a9a38a480c6ec6"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/hydroedge-solutions-acquires-majority-interest-in-res-water-creating-the-appalachian-basins-premier-full-cycle-water-management-platform-302897266.html"
+        }
+      ]
+    },
+    {
+      "headline": "SGS acquires majority stake in US cybersecurity compliance firm Prescient Security",
+      "summary": "SGS, the Swiss testing, inspection and certification group, has completed the acquisition of a majority stake in Prescient Security, a US-based provider of enterprise cybersecurity and digital compliance services. Financial terms of the deal were not disclosed.",
+      "why_it_matters": "The deal extends a global testing-and-certification leader's push into cybersecurity and digital-compliance services, a higher-margin adjacency to its traditional inspection business, and gives it a US compliance specialist to cross-sell to existing enterprise clients. An undisclosed price for a majority stake suggests the target was small relative to SGS's balance sheet, consistent with its pattern of bolt-on acquisitions.",
+      "summary_ja": "世界的な検査・認証大手である欧州SGSは、米国の企業向けサイバーセキュリティ・デジタルコンプライアンス専門会社プレシエント・セキュリティの過半数株式取得を完了した。取引の金額条件は開示されていない。",
+      "why_it_matters_ja": "今回の買収は、検査・認証分野の世界大手がサイバーセキュリティやデジタルコンプライアンスという、従来の検査事業より利幅の大きい隣接分野への進出を広げるものだ。既存の大企業顧客に対して米国のコンプライアンス専門会社の提供する新たなクロスセルの選択肢を加えることにもなる。過半数株式の取得額が非開示であることは、SGSの財務規模に比して対象企業が小粒であり、同社が得意とするボルトオン型買収の延長線上にあることをうかがわせる。",
+      "status": "new",
+      "prev": null,
+      "key": "sgs-prescient-security-acquisition",
+      "ids": [
+        "2e4f27b6da6168"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/sgs-acquires-prescient-security-in-the-us-an-expert-in-enterprise-cybersecurity-and-digital-compliance-302896959.html"
+        }
+      ]
+    },
+    {
+      "headline": "TNL MediaGene sells Japan business to CEO-led buyout vehicle for $5.5 million",
+      "summary": "TNL MediaGene is divesting its Japan operations through a management buyout, transferring the unit to an acquisition vehicle led by its CEO, Imada, for $5.5 million, according to Japanese media reports.",
+      "why_it_matters": "The carve-out is a small but clean example of a founder- or CEO-led buyout letting local management take control of a regional unit outside its parent's broader portfolio, a structure other overseas media groups may replicate when unwinding non-core Japan operations. The $5.5 million price also underscores how modestly local digital-media assets are being valued relative to larger regional deals this week.",
+      "summary_ja": "TNLメディアジーンは、日本事業をマネジメント・バイアウト（MBO）により手放す方針で、今田CEOが率いる買収会社に550万ドルで譲渡すると日本メディアが報じた。",
+      "why_it_matters_ja": "規模は小さいものの、現地のトップが親会社のポートフォリオから切り離して経営権を握る、CEO主導のバイアウトの典型例と言える。日本での非中核事業の整理を検討する他の海外メディアグループにとっても、参考になり得る手法だ。550万ドルという金額は、今週報じられた他の大型案件と比べ、国内デジタルメディア資産の評価がいかに控えめであるかも物語っている。",
+      "status": "new",
+      "prev": null,
+      "key": "tnl-mediagene-japan-mbo",
+      "ids": [
+        "3ae4d51ad3ede3"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VSE42VDhDLXZGWGJweEd2TzVUSGJsaW1xUzNnWW9UUlVFQ0tOOU9rZEJycHdsYzJ5VmxxRk1tNVpYWVZJYkF2YVAzVUFzNWdrTEFHRDNmbFBNN0N0elFzZi1VN0ZIcmFKQ2c?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Yamaguchi Financial Group to launch up to ¥10 billion regional investment fund for 20th anniversary",
+      "summary": "Yamaguchi Financial Group plans to set up a fund of up to ¥10 billion to invest in regional companies, marking the banking group's 20th anniversary.",
+      "why_it_matters": "Another Japanese regional banking group turning to direct equity investment underscores how local banks are diversifying beyond lending in a prolonged low-margin environment at home, adding to the wave of regional-bank strategic moves this week. A fund of this size also gives Yamaguchi FG a direct equity channel into the small and mid-size companies in its home market that it would otherwise only reach through loans.",
+      "summary_ja": "山口フィナンシャルグループは、設立20周年を機に、地域企業へ投資する最大100億円規模のファンドを創設する計画だ。",
+      "why_it_matters_ja": "日本の地方銀行グループがまた一つ直接出資に乗り出したことは、国内の低金利環境が長引く中、地銀各行が融資以外の収益源を広げようとしている流れを裏付ける。今週相次いだ地銀の戦略的な動きの一つにも数えられる。この規模のファンドを持つことで、山口FGは地元の中小企業に対し、従来の融資を通じてだけでは得られなかった直接出資のチャネルを持つことにもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "yamaguchi-fg-regional-investment-fund",
+      "ids": [
+        "5860dbc6642b18"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Dbkt3UEE0VUFQMEJEakIydkRPTFE0SWx6TlF0OTRfVGdBSGtUamRmenNvcmYzM0x3MU5ZcE92RnN0dEdOdENVZllyS0x5c1dFS0xMMTVZbGw5b29sZmgtMzBTZ2lkemRXWTBwb0Vqa2NoczVS?oc=5"
+        }
+      ]
+    }
+  ]
+}
