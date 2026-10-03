@@ -4,7 +4,7 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
     "source": "Japan M&A",
     "published": "2026-09-27T10:00:23Z",
-    "checked_at": "2026-10-03T00:52:00Z",
+    "checked_at": "2026-10-03T04:51:00Z",
     "background": [
         {
             "date": "2026-07-27",
@@ -48,6 +48,14 @@
         }
     ],
     "since": [
+        {
+            "date": "2026-09-30",
+            "headline": "BNY Mellon in talks with Kraken parent Payward on broad digital-asset partnership covering custody, trading and payments",
+            "summary": "Bank of New York Mellon is discussing a wide-ranging digital-asset and financial-infrastructure partnership with Payward, Kraken's parent, that could span crypto custody, trading, payments and infrastructure delivered through Payward Services, with elements said to resemble Payward's existing Nasdaq tie-up; the companies have not reached an agreement.",
+            "summary_ja": "ニューヨーク・メロン銀行（BNY）は、クラーケン親会社Paywardとの幅広いデジタル資産・金融インフラ提携について協議している。協議にはPayward Services経由での暗号資産カストディ、トレーディング、決済、インフラなどが含まれるとされ、一部はPaywardとナスダックの既存提携に近い内容になるとされる。両社はまだ合意に至っていない。",
+            "source": "CoinDesk",
+            "url": "https://www.coindesk.com/business/2026/09/30/bny-in-talks-with-kraken-parent-payward-over-infrastructure-partnership"
+        },
         {
             "date": "2026-09-27",
             "headline": "Payward co-CEO says Kraken parent will \"soon\" acquire a European bank, target undisclosed",
