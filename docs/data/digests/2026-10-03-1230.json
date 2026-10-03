@@ -1,0 +1,83 @@
+{
+  "edition": "2026-10-03-1230",
+  "edition_label": "3 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T04:38:01Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Iwate, Akita and Aomori Michinoku banks to form new joint holding company, keep April 2028 integration target",
+      "summary": "Iwate Bank, Akita Bank and Aomori Michinoku Bank said at a joint press conference that they will set up a new holding company to bring all three lenders under it as subsidiaries, confirming the April 2028 target for their management integration set out earlier this week.",
+      "why_it_matters": "Opting for a new joint holding company instead of a direct merger lets each lender keep its own brand and balance sheet while still forming what would be one of Tohoku's largest regional banking groups by assets, a structure regional bank consolidations increasingly favor to limit integration risk.",
+      "summary_ja": "岩手銀行、秋田銀行、青森みちのく銀行は合同記者会見で、新設の持株会社を設立し57行をその傘下に入れる方針を明らかにした。経営統合の目標時期は今週表明していた2028年4月のまま据え置く。",
+      "why_it_matters_ja": "合併ではなく新設の共同持株会社方式を採ることで、3行はそれぞれのブランドとバランスシートを維持しつつ、実現すれば東北最大級となる地銀グループを形成できる。統合リスクを抱えたい地銀再編で近年好まれる手法だ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-02-1530",
+        "index": 0
+      },
+      "key": "tohoku-banks-procrea-iwate-akita-merger",
+      "ids": ["4135606876c2f3", "c332deb7ddd9d4"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92ZFhnSjBEcW5sN2VXcDF6TzBIRmRlbDBlX1NBclNreDJwNUtKeWZEcTNrdmpfUGkzMVlpQ1I0TzVEWGFSNkc1Y0ZlMVVOd3hRc0J5MTdtS2tvVVVTdXIxQQ?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15ZjRwN05YSE15OFRpWG1vRTAzLWk1SkRpWFhWMTE4a01UUTRWX1JUZ21MNTB4M3puWnU0X05jSDFUSE1Wdy1qRFJwQTZZRXFFNXU5cUZtQWhyNU9zNkt1Zg?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Financials"]
+    },
+    {
+      "headline": "SK Group chairman Chey to sell $700 million stake in SK Corp after divorce ruling",
+      "summary": "SK Group chairman Chey plans to sell a 2.26% stake in SK Corp for 944 billion won, or about $700 million, Channel NewsAsia reported, following a divorce ruling.",
+      "why_it_matters": "A stake sale by the group's controlling shareholder tied to a court divorce ruling could shift SK Corp's ownership structure at the top of one of South Korea's largest conglomerates, and will be watched for whether the shares go to outside investors or are used to settle the ruling directly.",
+      "summary_ja": "SKグループのチェイ会長は、離婚訴訟の判決を受けてSKコーポレーションの株式2.26%を9440億ウォン（約7億ドル）で売却する計画だと、チャンネル・ニュースアジアが報じた。",
+      "why_it_matters_ja": "支配株主である会長による株式売却が裁判所の離婚判決に関連している点は、韓国有数の財閥であるSKコーポレーションの資本構成の変化につながり得る。売却株式が外部投資家に渡るのか、判決の履行に直接充てられるのかが注目点となる。",
+      "status": "new",
+      "prev": null,
+      "key": "sk-group-chey-sk-corp-stake-sale",
+      "ids": ["9d1d59f0c3fb77", "83191a1f1d668f"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/sk-group-chairman-chey-sell-226-stake-in-sk-corp-944-billion-won-6426371"},
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/sk-groups-chey-sell-700-million-stake-in-sk-corp-after-divorce-ruling-6426371"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Nippon Seiki to acquire Toyo Denso for ¥49.9 billion, making it a wholly owned subsidiary",
+      "summary": "Nippon Seiki agreed to acquire all shares of Toyo Denso for ¥49.9 billion, making it a wholly owned subsidiary, Japanese media reported.",
+      "why_it_matters": "Taking full ownership rather than a partial stake gives Nippon Seiki direct control over Toyo Denso's operations, a structure companies typically choose when planning deeper integration or supply-chain consolidation.",
+      "summary_ja": "日本精機は東洋電装の全株式を499億円で取得し、完全子会社化することで合意したと日本メディアが報じた。",
+      "why_it_matters_ja": "一部出資ではなく完全子会社化を選んだことで、日本精機は東洋電装の事業運営を直接統制できるようになる。より踏み込んだ統合やサプライチェーンの再編を見据える際に企業が選びやすい手法だ。",
+      "status": "new",
+      "prev": null,
+      "key": "nippon-seiki-toyo-denso-acquisition",
+      "ids": ["5c44f5018cc929"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBCZGo5VkpabG1TSjVTSl9xa3djQW9fOFFhWm8xYzdwS1hfanVEZ0RiS1JfdTdBOXRGX1RfQl9CTW1seWdYMkQta2V30gFPQVVfeXFMTXJldThNRE9rcmlMbU5vQWxBQUJlN21NampURVZhcThkNXdBclBnb090VVR3cUQ4dE1wUmFNV1RZcDlwaE1rQVc4R0ZUcjUxbw?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Sugakiya operator acquires DomDom Food Service, plans joint store openings",
+      "summary": "The operator of Nagoya ramen chain Sugakiya has made burger chain DomDom Food Service a subsidiary, with the companies saying they plan joint store openings in commercial facilities and are looking at expansion into the Kanto region, Japanese media reported.",
+      "why_it_matters": "Pairing two regional Japanese food-service brands under one owner points to continued consolidation in the country's restaurant sector, where chains are combining real-estate footprints and operating know-how to fund expansion beyond their home markets.",
+      "summary_ja": "名古屋のラーメンチェーン「スガキヤ」の運営会社が、ハンバーガーチェーン「ドムドムフードサービス」を子会社化した。両社は商業施設への共同出店などを計画しており、関東への展開も視野に入れているという。",
+      "why_it_matters_ja": "日本の地域密着型外食ブランド同士が同一グループの傘下に入る動きは、同国の外食業界で再編が続いていることを示す。各社は不動産の出店網やノウハウを組み合わせ、地元市場を超えた拡大の資金を確保しようとしている。",
+      "status": "new",
+      "prev": null,
+      "key": "sugakiya-domdom-food-service-acquisition",
+      "ids": ["871666561146b2", "a3bfbeb16d209b"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zMGtHNjZUOUtyZ09ZVl9UV3dnb0kzY1V3eE8yd1QtQVlpTllzV2lfa3FUTXBUQTZGTG1nWTloaTJZLU1HaFh4X1VOblpKUVQwWFJVVkNhMmpuN3JzZHh5Z0xoMV9BcEpnZ0dIbQ?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Gd3NSWXl4WGVjc2RGdDNDUjUwc01EWnJjY1RRY2Qzd2VOTzB3dFgxaXRpbEFsamZ1TTBkMWhvSVRKWWM5NlhPZ0ctSlYwQQ?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other", "Real Estate"]
+    }
+  ]
+}
