@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-04-1530",
+      "label": "4 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-04T07:34:53Z",
+      "items": 4,
+      "headlines": [
+        "Hong Kong share sales hit record US$47.5 billion in Q3 as AI deal frenzy drives Asia-Pacific issuance past US$120 billion",
+        "Yagi Tsusho to acquire all shares of Sojitz Fashion, making it a wholly owned subsidiary",
+        "Thakral weighs lifestyle unit spinoff listing and India expansion after 18% H1 revenue growth"
+      ]
+    },
+    {
       "id": "2026-10-04-0830",
       "label": "4 Oct 2026 · 08:30 SGT",
       "generated_at": "2026-10-04T00:33:50Z",

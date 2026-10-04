@@ -1,0 +1,79 @@
+{
+  "edition": "2026-10-04-1530",
+  "edition_label": "4 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T07:34:53Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Hong Kong share sales hit record US$47.5 billion in Q3 as AI deal frenzy drives Asia-Pacific issuance past US$120 billion",
+      "summary": "Hong Kong share sales reached a record US$47.5 billion in the third quarter even as the broader stock market sold off, according to The Business Times. Asia-Pacific share sales as a whole topped US$120 billion in the quarter, extending a boom participants attribute to AI-related deal activity.",
+      "why_it_matters": "The record pace shows capital-markets activity decoupling from broader equity weakness, giving issuers and underwriters a wider window to bring deals even on a volatile tape; sustained AI-driven demand could keep Hong Kong's ECM pipeline full into year-end.",
+      "summary_ja": "香港の株式売却額は第3四半期に過去最高の475億米ドルに達した。株式市場が総じて軟調な中でも、The Business Timesによるとアジア太平洋地域全体の株式売却額は同四半期に1200億米ドルを超え、AI関連の取引熱が拡大を後押ししている。",
+      "why_it_matters_ja": "株式市場全体の軟調さと資本市場活動の活況が分かれている点が注目される。発行体や引受会社にとっては、相場が不安定な中でも取引を実行できる余地が広がっていることを意味する。AI主導の需要が続けば、香港のECMパイプラインは年末まで旺盛な状態が続く可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "hk-share-sales-record-q3-ai-frenzy",
+      "ids": ["91ad807ae34da6", "f12c15df527efc"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/ai-deal-frenzy-powers-hong-kong-fundraising-record-summer"},
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/ai-frenzy-drives-hong-kong-share-sales-record-us47-5-billion-q3-despite-stock-sell"}
+      ],
+      "categories": [],
+      "countries": ["HK/CN"],
+      "sectors": ["AI & Semis", "TMT"]
+    },
+    {
+      "headline": "Yagi Tsusho to acquire all shares of Sojitz Fashion, making it a wholly owned subsidiary",
+      "summary": "Yagi Tsusho agreed to acquire 100% of Sojitz Fashion's shares, converting the apparel trading firm into a wholly owned subsidiary, according to Japanese trade press. Two outlets reported the deal within roughly two minutes of each other; no financial terms were disclosed.",
+      "why_it_matters": "The deal fits a pattern of Japan's trading houses reshaping their apparel portfolios, with Sojitz shedding a non-core fashion unit while Yagi Tsusho expands its textile and apparel trading scale.",
+      "summary_ja": "八木通商が双日ファッションの全株式を取得し、同社を完全子会社化すると日本の業界紙が報じた。2分ほどの間に複数の媒体が同じ内容を報じており、取得金額などの財務条件は明らかにされていない。",
+      "why_it_matters_ja": "この買収は、総合商社がアパレル関連事業の構成を見直す動きの一例だ。双日は非中核のアパレル子会社を切り離し、八木通商は繊維・アパレル取引の規模を拡大する。",
+      "status": "new",
+      "prev": null,
+      "key": "yagi-tsusho-sojitz-fashion-acquisition",
+      "ids": ["d4a6cb6e084f41", "af62d9686d9742"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fZk5yNlExVFE2VUdOVUlfQVBoeV9QbkFhMzZDRm84VlA1eGZaTEdkT01JNmlVWVgtNDRkTndzT0gtTmZER0tHVlNqUzdQWkk1VVFHRTVHTnBnZGJDRW5JXzU1VW5YQWVXR3F1NG95ODkydVFIZDNYR3VEbV9VTFE?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mWGhNWDM1VXRTNktQY1FQejFybTNsSkdKaEhzU3JpSUh1em5yZkRKZFNCU2hsMWRaNXVYZmdrel8wWWNOc2p2R1o3Rmpid29XTm4w?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Thakral weighs lifestyle unit spinoff listing and India expansion after 18% H1 revenue growth",
+      "summary": "Thakral is considering a spinoff listing of its lifestyle business and expansion into India after group revenue rose 18% in the first half, according to The Business Times. The company's chief executive said the current environment makes it a good time to pursue an IPO.",
+      "why_it_matters": "A spinoff would let Thakral's lifestyle arm raise its own capital and gain a market-based valuation separate from the parent, a structure Singapore conglomerates increasingly use to unlock value, while signalling management's confidence in regional consumer demand.",
+      "summary_ja": "Thakralは上期の売上高が18%増加したことを受け、ライフスタイル事業のスピンオフ上場とインド展開を検討していると、The Business Timesが報じた。同社の最高経営責任者は、今が新規株式公開を進める好機だと述べた。",
+      "why_it_matters_ja": "スピンオフにより、ライフスタイル部門は親会社と別に独自の資金調達と市場評価を得られるようになる。シンガポールのコングロマリットが企業価値を引き出す手法として採用例が増えている構造であり、同時に地域の消費需要に対する経営陣の自信も示している。",
+      "status": "new",
+      "prev": null,
+      "key": "thakral-lifestyle-spinoff-listing",
+      "ids": ["fc031c31d5b267"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/thakral-looks-unlock-value-through-lifestyle-spinoff-listing-india-expansion"}
+      ],
+      "categories": [],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Cortina completes 8% share buyback; Chandra Asri raises stake in Hiap Seng",
+      "summary": "Cortina Holdings completed an 8% share buyback, while Chandra Asri increased its stake in Hiap Seng Engineering, according to SGX filings cited by The Business Times. Across the market, directors and CEOs reported 22 share acquisitions and no disposals over the week, while substantial shareholders logged 28 acquisitions against five disposals.",
+      "why_it_matters": "The completed buyback and the stake build are among the more notable moves in an active week of insider dealing on the Singapore exchange, where skewed buy-sell ratios among directors and substantial shareholders are often read as a signal of management and investor confidence.",
+      "summary_ja": "Cortina Holdingsが株式の8%の買い戻しを完了し、Chandra AsriはHiap Seng Engineeringへの出資比率を引き上げた。The Business Timesが伝えたSGXの開示によると、同週は取締役・経営幹部による株式取得が22件で処分はゼロ、主要株主による取得は28件、処分は5件だった。",
+      "why_it_matters_ja": "買い戻しの完了と出資比率の引き上げは、シンガポール取引所における活発なインサイダー取引の週の中でも目立つ動きだ。取締役や主要株主の取得・処分比率の偏りは、経営陣や投資家の自信を示すシグナルとしてしばしば読み取られる。",
+      "status": "new",
+      "prev": null,
+      "key": "cortina-buyback-chandra-asri-hiap-seng-stake",
+      "ids": ["42ee8331737618"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/cortina-completes-8-buyback-chandra-asri-adds-hiap-seng-stake"}
+      ],
+      "categories": [],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Other"]
+    }
+  ]
+}
