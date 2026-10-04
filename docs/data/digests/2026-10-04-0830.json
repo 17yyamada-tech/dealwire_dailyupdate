@@ -1,0 +1,205 @@
+{
+  "edition": "2026-10-04-0830",
+  "edition_label": "4 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T00:33:50Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Broadcom lines up $60 billion debt package to fund AI chips for Anthropic",
+      "summary": "Broadcom is assembling roughly $60 billion in debt financing to fund chip production for Anthropic, according to sources. Banks arranging the package include Bank of America, Citigroup and Morgan Stanley.",
+      "why_it_matters": "A debt package of this size for a single AI customer illustrates how much capital chipmakers are now committing to lock in long-term AI compute demand. It also shows credit markets, not just equity investors, increasingly underwriting the AI infrastructure buildout, raising the stakes if demand growth slows.",
+      "summary_ja": "ブロードコムは、アンスロピック向けの半導体生産資金として約600億ドルの債務調達を組成中。バンク・オブ・アメリカ、シティグループ、モルガン・スタンレーなどの銀行が関与していると関係者が明らかにした。",
+      "why_it_matters_ja": "単一のAI顧客向けにこれほどの規模の債務パッケージが組まれることは、半導体メーカーがAI向け需要確保にどれほどの資本を投じているかを示す。また、株式投資家だけでなくクレジット市場もAIインフラ構築の資金源となりつつあり、需要拡大が鈍化した場合のリスクも大きくなっている。",
+      "status": "new",
+      "prev": null,
+      "key": "broadcom-anthropic-chip-financing",
+      "ids": [
+        "da46d164c23e02"
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/startups-tech/technology/broadcom-amassing-us60-billion-fund-chips-anthropic-sources"
+        }
+      ]
+    },
+    {
+      "headline": "Paramount Skydance's Warner Bros Discovery acquisition to close October 6, company renamed 'Skydance'",
+      "summary": "Paramount Skydance's acquisition of Warner Bros Discovery is set to complete on October 6, according to reports. After closing, the Paramount name will be dropped and the combined company will operate simply as Skydance.",
+      "why_it_matters": "A firm closing date caps months of regulatory review and financing work on one of the year's largest media mergers. Attention now shifts to how quickly the enlarged studio and network group can be integrated under the Skydance name.",
+      "summary_ja": "パラマウント・スカイダンスによるワーナー・ブラザース・ディスカバリー買収は10月6日に完了する見通し。完了後、パラマウントの社名は廃止され、統合会社は単に「スカイダンス」として事業を行う。",
+      "why_it_matters_ja": "完了日が確定したことで、今年最大級のメディア業界の合併案件が規制・資金調達の障壁を乗り越えたことになる。今後は「スカイダンス」の名のもとで、拡大したスタジオと放送事業の統合作業をどれだけ早く進められるかに注目が移る。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-03-0830",
+        "index": 0
+      },
+      "key": "paramount-warner-bros-merger",
+      "ids": [
+        "3bb00fe60efbfb"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40SWNOVE5tNW1CV2ZGeFBpZXhGYmxaMENUUVhPM2FDazBfLV94RGQ5RFpkQWdpcFNOMDdya2RTblhvSnFnZnQ1SGRNSGNvaW1uOW4wdU9ERjIxVWtxNmVfeWpB?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Intesa Sanpaolo sweetens Monte dei Paschi takeover bid with extra €800 million in cash",
+      "summary": "Intesa Sanpaolo, Italy's largest bank, has raised its takeover offer for Monte dei Paschi, offering shareholders an additional €800 million in cash, according to reports. The sweetened terms come as Intesa pushes Monte dei Paschi shareholders to decide on the bid.",
+      "why_it_matters": "A richer cash sweetener signals Intesa wants shareholder approval secured quickly rather than drawn out. The outcome will reshape Italian banking by combining the country's largest and third-largest lenders, with implications for competition and capital levels across the sector.",
+      "summary_ja": "イタリア最大手銀行インテーザ・サンパオロが、モンテ・デイ・パスキ・ディ・シエナへの買収案を増額し、株主に対し追加で8億ユーロの現金を提示した。インテーザは、株主に買収案への回答を迫る形となっている。",
+      "why_it_matters_ja": "現金上乗せの増額は、インテーザが株主承認を早期に取り付けようとしていることを示唆する。今回の結果は、イタリア最大手行と第3位行の統合を通じて同国の銀行業界の勢力図を塗り替え、競争環境や資本水準にも影響を及ぼす。",
+      "status": "new",
+      "prev": null,
+      "key": "intesa-sanpaolo-mps-bid-increase",
+      "ids": [
+        "f8be1dea1820bc",
+        "f19510546afb47"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3Si1VSmdpaW1ncHU1NElXenVNV1Z5SmdtYkpZWS1nOHBQOEhQZHdXbks2b0NCVWM0QUV4Y2lXa09Qa0tCUkFvR0ZnZFpoR19DZ0RQb05kSDhhTnctZXhXdngxQWVYQU0?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBySHhhWENxUWJtS210cERfNHVfSkkwNFZ2NDhtb0hPR2NxdVJhS2NhSmF5NUR3T0N4cDlYR3BVWHJFNHNqUEtjbGVMQTh4Qlg5a1Z0MHEwY0ZpUWdVRVgwRFhaRTdtOFZWaHVCY3hjcXI2X3hoeWJz?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Salesforce announces acquisition of Listen Labs",
+      "summary": "Salesforce has announced it will acquire Listen Labs; financial terms were not disclosed.",
+      "why_it_matters": "The purchase extends Salesforce's recent run of bolt-on acquisitions as it adds capabilities to its platform, even as investors continue to debate whether the stock's valuation already reflects its growth prospects.",
+      "summary_ja": "セールスフォースがListen Labsの買収を発表した。財務条件は明らかにされていない。",
+      "why_it_matters_ja": "今回の買収は、セールスフォースが最近相次いで行っているボルトオン型買収の一つであり、プラットフォームへの機能追加の一環となる。一方で、投資家の間では同社株のバリュエーションが成長性を織り込み済みかどうかの議論が続いている。",
+      "status": "new",
+      "prev": null,
+      "key": "salesforce-listen-labs-acquisition",
+      "ids": [
+        "9d277c86f62b1e"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQay02VmlkbmVGSVl0QTlmTk85ajBrZ3ZBU0FCMGFveENKTGVxaDdveDhPQWpKcTNtXzgtVzEyOU12a285T1VTNURMcnN3M2N6bktqWE84cHBuNWptTlNhU0xSeGhoQ0VkWTM5amFvbTQ1UHg3dmdjSm0wRzY4MHZHSE9CeTQ4VEtFUndfS1c4SkdNcFHSAZMBQVVfeXFMUGstNlZpZG5lRklZdEE5Zk5POWowa2d2QVNBQjBhb3hDSkxlcWg3b3g4T0FqSnEzbV84LVcxMjlNdmtvOU9VUzVETHJzdzNjem5LalhPOHBwbjVqbU5TYVNMUnhoaENFZFkzOWphb200NVB4N3ZnY0ptMEc2ODB2R0hPQnk0OFRLRVJ3X0tXOEpHTXBR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Wandercraft to acquire exoskeleton rival Ekso Bionics, combining both onto one platform",
+      "summary": "Wandercraft is acquiring Ekso Bionics, bringing together two rival makers of robotic exoskeletons onto a single platform, according to reports.",
+      "why_it_matters": "Consolidation among exoskeleton makers points to a maturing but still-thin market for mobility robotics. Combining the two rivals' technology and customer bases may be a step toward the scale needed to reach profitability in a niche medtech category.",
+      "summary_ja": "ワンダークラフトがエクソ・バイオニクスを買収し、外骨格ロボット分野で競合関係にあった両社を一つのプラットフォームに統合する。",
+      "why_it_matters_ja": "外骨格メーカー同士の統合は、モビリティ・ロボティクス市場がまだ薄利ながら成熟しつつあることを示す。両社の技術と顧客基盤を統合することは、このニッチな医療機器分野で黒字化に必要な規模を確保する一歩となり得る。",
+      "status": "new",
+      "prev": null,
+      "key": "wandercraft-ekso-bionics-acquisition",
+      "ids": [
+        "49f518f1eb0007"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0dueTl0WTYtWW14RjBYRlRZeEJueC1JTGJLeklteEtPS1NOdUpDWS1sc3RQX1Q3Tk81TDZVQjQtenRrSXhPMGk5c0pRejExeFUzY1ZyblJTM3RyMXhGQTJ2S1p0Yy1IbWZncEItU21vWlVHZ2tkS1Fud1JTRnk2VVNHUllwUGpwSlFTczF1RHYxWHo2NklIalVqY2F3dm5kdjVXeWtlM1lPeVNxeGc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "IFC raises $100 million for Indian infrastructure",
+      "summary": "IFC, the World Bank Group's private-investment arm, has raised $100 million for Indian infrastructure, according to Infrastructure Investor.",
+      "why_it_matters": "The fundraising adds to a steady flow of development-finance capital into India's infrastructure sector, where multilateral and institutional investors continue to see long-term demand for power, transport and logistics assets.",
+      "summary_ja": "IFC（国際金融公社）はインド向けインフラ投資のため1億ドルを調達した。Infrastructure Investor誌が報じた。",
+      "why_it_matters_ja": "今回の資金調達は、インドのインフラ部門に流入する開発金融資金の継続的な動きの一つである。電力、交通、物流などの資産に対し、多国間機関や機関投資家が引き続き長期的な需要を見込んでいることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "ifc-india-infra-fundraising",
+      "ids": [
+        "7d2d80a19b4ebf"
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Infrastructure"
+      ],
+      "links": [
+        {
+          "source": "Infrastructure Investor",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NNW9henNZTGdmNVBKTXFBZkNpMWlxOWNpQWVEWlQxb0VkV3RyRDBZZDZUNFdaeG1LZ1ktSXBEZFVaMjdTbEpQeG93XzdNQUhtT0VubkZuMEF2UHppTjAtOUFEdDJmR0xqRVludzBSUEw3c3N5UExjbTdCVE8?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Asiatic Group to acquire Malaysian car dealership iCaur",
+      "summary": "Asiatic Group has agreed to acquire Malaysian car dealership iCaur, according to a filing.",
+      "why_it_matters": "The small bolt-on deal extends Asiatic's footprint in Malaysia's auto retail sector and is a reminder that consolidation continues among regional dealership networks even as larger cross-border deals dominate headlines.",
+      "summary_ja": "アジアティック・グループがマレーシアの自動車販売店iCaurを買収することで合意した。",
+      "why_it_matters_ja": "小規模なボルトオン買収ではあるが、マレーシアの自動車小売分野におけるアジアティックの事業基盤拡大を意味する。大型の国境を越えた案件が目立つ中でも、地域の販売店網では再編が続いていることを示す一例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "asiatic-icaur-dealership-acquisition",
+      "ids": [
+        "e2ab5d29f83ea5"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "SGX announcements",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPV20zdHQzVm1ONDVyQlFHbzE4V24yRldwNmxBNFV5OEVhWXd3TENNbXdwOVVkVHJ2eE8zcjd5a0pQcEhqQVp3d1hFN3RUYWlPRHNEaWJwUjIzZXpNaHo4RnF5T1U1TFV0WkJZUm0tTjFVYWl3WVVKYVdIeWY4Qm9wWjF5LWJHSDl5cXRUVU5JZkpEeXVGb2g1cU1fY2M1NkpwT1hBQ2xzM0pqSmtxMmxUSFMtalhiSEZoYTJWdVhGM012MU5oRHNFUFp3?oc=5"
+        }
+      ]
+    }
+  ]
+}

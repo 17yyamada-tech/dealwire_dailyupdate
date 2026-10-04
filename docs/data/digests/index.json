@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-04-0830",
+      "label": "4 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-04T00:33:50Z",
+      "items": 7,
+      "headlines": [
+        "Broadcom lines up $60 billion debt package to fund AI chips for Anthropic",
+        "Paramount Skydance's Warner Bros Discovery acquisition to close October 6, company renamed 'Skydance'",
+        "Intesa Sanpaolo sweetens Monte dei Paschi takeover bid with extra €800 million in cash"
+      ]
+    },
+    {
       "id": "2026-10-03-1230",
       "label": "3 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-03T04:38:01Z",
