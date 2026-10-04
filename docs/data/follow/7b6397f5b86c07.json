@@ -4,7 +4,7 @@
     "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
     "source": "The Business Times",
     "published": "2026-09-27T13:31:03Z",
-    "checked_at": "2026-10-03T07:53:18Z",
+    "checked_at": "2026-10-04T00:50:11Z",
     "background": [
         {
             "date": "2026-09-26",
@@ -72,6 +72,14 @@
         }
     ],
     "since": [
+        {
+            "date": "2026-10-02",
+            "headline": "NYT: US tightens naval blockade and sanctions on Iran as Hormuz oil flows recover despite weekly drone and missile attacks on shipping",
+            "summary": "The New York Times reported that oil flows through the Strait of Hormuz have risen even as Iran continues launching dozens of drones and missiles at commercial vessels there each week, largely unreported and often missing their targets, while the US has responded with a tightened naval blockade and additional sanctions on Iran as President Trump shifts the campaign from military strikes toward economic pressure.",
+            "summary_ja": "ニューヨーク・タイムズは、イランがホルムズ海峡で商船に対し毎週多数の無人機・ミサイル攻撃を続け(多くは報じられず、命中にも失敗している)にもかかわらず、同海峡経由の原油輸送量は増加していると報じた。米国はイランに対する海上封鎖の強化と追加制裁で対応しており、トランプ大統領は軍事作戦から経済的圧力重視へと方針を転換しているという。",
+            "source": "The New York Times (via The Philadelphia Inquirer)",
+            "url": "https://www.inquirer.com/news/nation-world/iran-strait-of-hormuz-oil-20261002.html"
+        },
         {
             "date": "2026-09-30",
             "headline": "Iran confirms receipt of formal US response to its Hormuz/ceasefire proposal, delivered to Pezeshkian's cabinet",
