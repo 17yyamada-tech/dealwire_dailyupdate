@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-05-1530",
+      "label": "5 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-05T07:32:56Z",
+      "items": 4,
+      "headlines": [
+        "Schneider Electric confirms $22.6bn deal to buy PTC, up from reported $20bn",
+        "BT agrees near-£400m rescue takeover of TalkTalk, pending regulatory approval",
+        "Shionogi to buy US biopharma IntraBio for ¥315.5bn to bolster neurological drug pipeline"
+      ]
+    },
+    {
       "id": "2026-10-05-1230",
       "label": "5 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-05T04:38:37Z",

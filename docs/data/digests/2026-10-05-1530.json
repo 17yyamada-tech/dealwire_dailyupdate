@@ -1,0 +1,137 @@
+{
+  "edition": "2026-10-05-1530",
+  "edition_label": "5 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T07:32:56Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Schneider Electric confirms $22.6bn deal to buy PTC, up from reported $20bn",
+      "summary": "Schneider Electric has confirmed an agreement to acquire US engineering software maker PTC for $22.6 billion, Reuters and CNA reported, up from the roughly $20 billion previously reported as under negotiation. The companies' prior talks, reported earlier Monday, had not yet confirmed a final price.",
+      "why_it_matters": "The confirmed $22.6 billion price, above the roughly $20 billion previously reported, makes this one of Schneider Electric's largest acquisitions and locks in a deal that pushes the French group deeper into industrial software as infrastructure providers race to bundle software with hardware for AI-driven data-centre demand.",
+      "summary_ja": "シュナイダーエレクトリックは、米エンジニアリングソフトウェア大手PTCを226億ドルで買収することで合意したと、ロイターおよびCNAが報じた。これまで交渉中として報じられていた約200億ドルから価格が上積みされた形で、最終価格はこの日まで確定していなかった。",
+      "why_it_matters_ja": "確定した226億ドルという買収額は、これまで報じられていた約200億ドルを上回り、シュナイダーエレクトリックにとって過去最大級の買収の一つとなる。AI需要を背景にインフラ企業がハードウェアとソフトウェアの一体提供を競う中、同社の産業用ソフトウェア事業拡大を確定づける案件だ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-05-1230",
+        "index": 0
+      },
+      "key": "schneider-electric-ptc-acquisition",
+      "ids": [
+        "7d6290fe84fe0d",
+        "59e4f296fe44c6"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/frances-schneider-electric-confirms-226-billion-deal-buy-us-software-firm-ptc-6432401"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5na0Q4Qm1razJabEpaUTNLZUFXLTMtb2dRMGkxUVh0UXN6XzJ0a01LS2ExQUgwNGY2T24xM3gwbFl3ckJKWFNNTUxKdDJfYjJkYWNkelJSVXR4Z3Z5TU1BX3VjeDFuMmtkMjB3OFNqVXpYdWh3R1ZTVXZUYjU3U1U?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "BT agrees near-£400m rescue takeover of TalkTalk, pending regulatory approval",
+      "summary": "BT Group has agreed a rescue takeover of broadband operator TalkTalk for about £400 million, according to a Japanese-language report citing Investing.com. The BBC reported the deal still needs regulatory approval but would give certainty to TalkTalk's millions of customers.",
+      "why_it_matters": "A rescue deal removes a source of uncertainty for TalkTalk's customer base and signals continued consolidation in UK broadband as smaller operators struggle under debt and competition, with regulatory sign-off remaining a watchpoint before completion.",
+      "summary_ja": "BTグループが、ブロードバンド事業者TalkTalkを約4億ポンドで買収する救済型の合意に達したと、Investing.comを引用した日本語の報道が伝えた。BBCによれば、この買収には規制当局の承認が必要だが、実現すればTalkTalkの数百万人の顧客に安定をもたらすという。",
+      "why_it_matters_ja": "救済買収によりTalkTalkの顧客基盤に対する不確実性が取り除かれ、債務や競争に苦しむ中小のブロードバンド事業者を巡る英国内の再編が続いていることを示す。完了には規制当局の承認が依然として注視点となる。",
+      "status": "new",
+      "prev": null,
+      "key": "bt-talktalk-takeover",
+      "ids": [
+        "2ed504cee36e32",
+        "b3eb5919c67522"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "BBC Business",
+          "url": "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05bzA4cy0zdDZpMk1mRU1oY0lMTXJ6UFppVFYxM196ekVNY1Y0OWlhVmxUbU1ya3B3QTIwT1lPcjdTS2VMb1ozRVZCYXRhM0NDR0dxUk9hM1FkU2VwTTRENUR1WVdYZVFvQjZBam4wbDE0RTN4OW04?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Shionogi to buy US biopharma IntraBio for ¥315.5bn to bolster neurological drug pipeline",
+      "summary": "Shionogi has agreed to acquire IntraBio, a US biopharmaceutical company developing treatments for neurological diseases, for about ¥315.5 billion, according to a company disclosure and a Reuters-sourced report. IntraBio would become a wholly owned subsidiary of the Japanese drugmaker.",
+      "why_it_matters": "The size of the deal would make it one of Shionogi's largest acquisitions, deepening the Japanese drugmaker's push into rare neurological disease treatments as it looks beyond its core infectious-disease franchise for growth, and adds a US biopharma pipeline asset.",
+      "summary_ja": "塩野義製薬が、神経疾患治療薬を開発する米バイオ医薬品企業IntraBioを約3155億円で買収することに合意したと、開示資料およびロイター発の報道が伝えた。IntraBioは塩野義の完全子会社となる見通し。",
+      "why_it_matters_ja": "この買収規模は塩野義にとって過去最大級の一つとなり、主力の感染症事業の先を見据えた成長分野として希少神経疾患治療薬への展開を強化する。米国のバイオ医薬品パイプライン資産を取り込む動きでもある。",
+      "status": "new",
+      "prev": null,
+      "key": "shionogi-intrabio-acquisition",
+      "ids": [
+        "018cbbc5de438b",
+        "817dcd6b1e9789"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP",
+        "US"
+      ],
+      "sectors": [
+        "Healthcare"
+      ],
+      "links": [
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbmxjTTNQNVMxNXRHd0w2WmpuYzB2RC1URkZ0Z1NpemlsTEJPYnI4TUJrbzJmUGxMemZaODZIY0FFaGQ2OXJweHh4UzUxNVpVSGVqYWhlTTltQjNRQU80VkI5aWdZYXg5aEJGcEN6UVhKeEFyaXlXN0tJb09wY0x3YWVGUWZhaFVlSXA1dXRGLVVPbHdTMFRlT1hXQ25FU3ozX29ab3h6SzFGNmNNeFNiRGlUekZfb1VYOVhSanc1VjhGSVVubE51WkRuVWo?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xMnpQengwSU9lZWJMYUdIdXpxMjdFazIzTWRkZUQ5cExVRlBNVHc3LW5wSnlqZkdoUlBQamwtS1FNdzN0cXB4ZGE0eTBkRURNa1daSm5hQjJUaU55bmN0MXpzbWJuNHdtNGYwZGdIQ0V2MWhCeGkyOE9Cem0?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bayan Resources agrees to sell 30% stake to Jhonlin Baratama in Indonesian coal ownership shake-up",
+      "summary": "Bayan Resources, one of Indonesia's largest coal miners, has agreed to sell a 30% stake to Jhonlin Baratama, part of a wider reshuffling of coal ownership in Indonesia, according to a Business Times report. No price was disclosed.",
+      "why_it_matters": "A stake sale by one of Indonesia's largest coal producers points to continued ownership consolidation in the country's coal sector as major players adjust holdings, though the absence of disclosed terms leaves the scale of the transaction unclear.",
+      "summary_ja": "インドネシア最大級の石炭生産会社の一つであるバヤン・リソーシズが、ジョンリン・バラタマに30%の株式を売却することで合意したと、ビジネス・タイムズが報じた。インドネシアの石炭業界における所有構造再編の一環だが、価格は明らかにされていない。",
+      "why_it_matters_ja": "インドネシア最大級の石炭生産会社による株式売却は、同国石炭セクターで大手各社が持株構成を見直す中、所有構造の再編が続いていることを示す。ただし取引条件が開示されていないため、規模感は不明だ。",
+      "status": "new",
+      "prev": null,
+      "key": "bayan-resources-jhonlin-stake-sale",
+      "ids": [
+        "9ec222e9a4d722"
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/newsletters/asean-business/five-things-know-about-indonesias-latest-coal-ownership-shake"
+        }
+      ]
+    }
+  ]
+}
