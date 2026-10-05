@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-05T00:52:36Z",
+ "checked_at": "2026-10-05T04:49:52Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-04",
+   "headline": "Iran reiterates Strait of Hormuz stays closed until US meets its conditions",
+   "summary": "Al Jazeera reported that Iran said the Strait of Hormuz will remain closed until the United States meets Tehran's conditions, as the two sides continued indirect talks on ending the standoff over the waterway.",
+   "summary_ja": "アル・ジャジーラの報道によると、イランは米国が自国の要求を満たすまでホルムズ海峡の封鎖を維持すると改めて表明した。両国はこの海峡を巡る対立の解消に向け、間接協議を続けている。",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
+  },
   {
    "date": "2026-10-02",
    "headline": "NYT: US tightens naval blockade and sanctions on Iran as Hormuz oil flows recover despite weekly drone and missile attacks on shipping",
