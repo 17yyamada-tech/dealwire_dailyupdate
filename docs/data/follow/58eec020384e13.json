@@ -1,68 +1,68 @@
 {
-    "id": "58eec020384e13",
-    "title": "ロケットラボ、80億ドルでイリジウムを買収 垂直統合の完成には「ニュートロン」の初飛行が最後の鍵",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
-    "source": "Japan M&A",
-    "published": "2026-09-26T18:17:00Z",
-    "checked_at": "2026-10-04T07:50:07Z",
-    "background": [
-        {
-            "date": "2026-09-24",
-            "headline": "Iridium stockholders approve Rocket Lab merger with 99.6% of votes cast",
-            "summary": "Iridium stockholders voted at a special meeting on September 24, 2026 to approve the merger agreement with Rocket Lab, with about 99.6% of votes cast in favor, representing roughly 81% of outstanding shares.",
-            "summary_ja": "イリジウムの株主は2026年9月24日の特別株主総会でロケットラボとの合併契約を承認した。投票総数の約99.6%が賛成票で、これは発行済み株式の約81%に相当する。",
-            "source": "Rocket Lab",
-            "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab"
-        },
-        {
-            "date": "2026-09-17",
-            "headline": "FCC accepts Rocket Lab-Iridium license-transfer applications, opens public comment period",
-            "summary": "The Federal Communications Commission accepted for filing the applications from Rocket Lab and Iridium to transfer Iridium's satellite and spectrum licenses, opening a public-comment period; the acceptance is a procedural step, not an approval of the deal.",
-            "summary_ja": "米連邦通信委員会（FCC）はロケットラボとイリジウムが提出したライセンス移転申請を受理し、パブリックコメント期間を開始した。これは手続き上の一段階であり、買収そのものの承認ではない。",
-            "source": "24/7 Wall St.",
-            "url": "https://247wallst.com/investing/2026/09/17/rocket-lab-jumps-6-as-fcc-clears-first-hurdle-on-iridium-deal-iridium-communications-barely-budges/"
-        },
-        {
-            "date": "2026-09-15",
-            "headline": "Rocket Lab completes $1.94bn share sale, cancels $3.6bn bridge loan to fully finance Iridium deal",
-            "summary": "Rocket Lab completed a $1.944 billion at-the-market equity offering and canceled its $3.6 billion senior secured bridge facility, while Iridium amended its $1.775 billion term loan to permit the transaction, fully financing the pending acquisition without bridge debt.",
-            "summary_ja": "ロケットラボは19.44億ドルのATM増資を完了し、36億ドルのブリッジローンを解約した。イリジウムも17.75億ドルのターム・ローンを買収実施を認める内容に改定し、ブリッジ融資なしで買収資金を全額確保した。",
-            "source": "Rocket Lab",
-            "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-fully-funds-iridium-acquisition-including-completion"
-        },
-        {
-            "date": "2026-08-13",
-            "headline": "Rocket Lab clears HSR antitrust waiting period, files Form S-4 and FCC applications for Iridium deal",
-            "summary": "Rocket Lab announced that the Hart-Scott-Rodino antitrust waiting period for the Iridium acquisition had lapsed, that it filed a Form S-4 registration statement with the SEC, and that Rocket Lab and Iridium filed applications with the FCC to transfer Iridium's licenses.",
-            "summary_ja": "ロケットラボは、イリジウム買収に関するハート・スコット・ロディノ法の待機期間が満了したこと、SECにフォームS-4を提出したこと、両社がFCCにイリジウムの免許移転申請を提出したことを発表した。",
-            "source": "Rocket Lab",
-            "url": "https://www.globenewswire.com/news-release/2026/08/13/3344359/0/en/rocket-lab-corporation-announces-progress-on-iridium-acquisition-hsr-period-lapses-form-s-4-filed-fcc-applications-filed-capital-strategy-underway.html"
-        },
-        {
-            "date": "2026-06-29",
-            "headline": "Rocket Lab agrees to acquire Iridium for $54/share in cash-and-stock deal valuing it at about $8bn",
-            "summary": "Rocket Lab and Iridium announced a definitive agreement under which Rocket Lab will acquire all outstanding Iridium shares for $54 per share, comprising $27 in cash plus Rocket Lab stock, valuing Iridium at an enterprise value of about $8.0 billion; Rocket Lab secured a $3.6 billion bridge loan commitment from Deutsche Bank and Wells Fargo to fund the cash portion.",
-            "summary_ja": "ロケットラボとイリジウムは最終合意を発表し、ロケットラボがイリジウムの発行済み株式全てを1株54ドル（現金27ドルとロケットラボ株式の組み合わせ）で取得する。企業価値は約80億ドル。ロケットラボはドイチェ・バンクとウェルズ・ファーゴから現金部分の資金として36億ドルのブリッジローンのコミットメントを確保した。",
-            "source": "Rocket Lab",
-            "url": "https://rocketlabcorp.com/updates/rocket-lab-to-acquire-iridium-in-historic-deal-creating-a-fully-vertically-integrated-space-powerhouse-primed-for-growth/"
-        },
-        {
-            "date": "2025-11-11",
-            "headline": "Rocket Lab delays Neutron rocket's debut launch to 2026 after tank test failure",
-            "summary": "Rocket Lab postponed the first launch of its Neutron rocket to 2026, following a stage-1 fuel tank test failure; the company had previously targeted 2024 and then 2025 for the debut.",
-            "summary_ja": "ロケットラボは第1段燃料タンクの試験失敗を受け、ニュートロンロケットの初打ち上げを2026年に延期した。同社は以前、打ち上げ目標を2024年、その後2025年としていた。",
-            "source": "SpaceNews",
-            "url": "https://spacenews.com/rocket-lab-delays-first-neutron-launch-to-2026/"
-        }
-    ],
-    "since": [
-        {
-            "date": "2026-09-26",
-            "headline": "Rocket Lab-Iridium deal expected to close by mid-2027 after shareholder approval, follow-up coverage says",
-            "summary": "Coverage following Iridium shareholders' September 24 approval reiterated the deal terms (Rocket Lab paying $27 in cash plus stock per share, a $54 notional value) and said the roughly $8 billion transaction is expected to close by mid-2027, pending remaining regulatory approvals.",
-            "summary_ja": "9月24日のイリジウム株主による承認を受けた続報は、取引条件(ロケットラボが1株当たり現金27ドルと株式を組み合わせ、想定価値54ドル)を改めて示すとともに、残る規制当局の承認を経て総額約80億ドルの本件取引は2027年半ばまでに完了する見通しだと伝えた。",
-            "source": "The Motley Fool",
-            "url": "https://www.fool.com/investing/2026/09/26/major-milestone-passed-in-iridium-rocket-lab-tie-up/"
-        }
-    ]
+ "id": "58eec020384e13",
+ "title": "ロケットラボ、80億ドルでイリジウムを買収 垂直統合の完成には「ニュートロン」の初飛行が最後の鍵",
+ "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-09-26T18:17:00Z",
+ "checked_at": "2026-10-05T00:52:36Z",
+ "background": [
+  {
+   "date": "2026-09-24",
+   "headline": "Iridium stockholders approve Rocket Lab merger with 99.6% of votes cast",
+   "summary": "Iridium stockholders voted at a special meeting on September 24, 2026 to approve the merger agreement with Rocket Lab, with about 99.6% of votes cast in favor, representing roughly 81% of outstanding shares.",
+   "summary_ja": "イリジウムの株主は2026年9月24日の特別株主総会でロケットラボとの合併契約を承認した。投票総数の約99.6%が賛成票で、これは発行済み株式の約81%に相当する。",
+   "source": "Rocket Lab",
+   "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab"
+  },
+  {
+   "date": "2026-09-17",
+   "headline": "FCC accepts Rocket Lab-Iridium license-transfer applications, opens public comment period",
+   "summary": "The Federal Communications Commission accepted for filing the applications from Rocket Lab and Iridium to transfer Iridium's satellite and spectrum licenses, opening a public-comment period; the acceptance is a procedural step, not an approval of the deal.",
+   "summary_ja": "米連邦通信委員会（FCC）はロケットラボとイリジウムが提出したライセンス移転申請を受理し、パブリックコメント期間を開始した。これは手続き上の一段階であり、買収そのものの承認ではない。",
+   "source": "24/7 Wall St.",
+   "url": "https://247wallst.com/investing/2026/09/17/rocket-lab-jumps-6-as-fcc-clears-first-hurdle-on-iridium-deal-iridium-communications-barely-budges/"
+  },
+  {
+   "date": "2026-09-15",
+   "headline": "Rocket Lab completes $1.94bn share sale, cancels $3.6bn bridge loan to fully finance Iridium deal",
+   "summary": "Rocket Lab completed a $1.944 billion at-the-market equity offering and canceled its $3.6 billion senior secured bridge facility, while Iridium amended its $1.775 billion term loan to permit the transaction, fully financing the pending acquisition without bridge debt.",
+   "summary_ja": "ロケットラボは19.44億ドルのATM増資を完了し、36億ドルのブリッジローンを解約した。イリジウムも17.75億ドルのターム・ローンを買収実施を認める内容に改定し、ブリッジ融資なしで買収資金を全額確保した。",
+   "source": "Rocket Lab",
+   "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-fully-funds-iridium-acquisition-including-completion"
+  },
+  {
+   "date": "2026-08-13",
+   "headline": "Rocket Lab clears HSR antitrust waiting period, files Form S-4 and FCC applications for Iridium deal",
+   "summary": "Rocket Lab announced that the Hart-Scott-Rodino antitrust waiting period for the Iridium acquisition had lapsed, that it filed a Form S-4 registration statement with the SEC, and that Rocket Lab and Iridium filed applications with the FCC to transfer Iridium's licenses.",
+   "summary_ja": "ロケットラボは、イリジウム買収に関するハート・スコット・ロディノ法の待機期間が満了したこと、SECにフォームS-4を提出したこと、両社がFCCにイリジウムの免許移転申請を提出したことを発表した。",
+   "source": "Rocket Lab",
+   "url": "https://www.globenewswire.com/news-release/2026/08/13/3344359/0/en/rocket-lab-corporation-announces-progress-on-iridium-acquisition-hsr-period-lapses-form-s-4-filed-fcc-applications-filed-capital-strategy-underway.html"
+  },
+  {
+   "date": "2026-06-29",
+   "headline": "Rocket Lab agrees to acquire Iridium for $54/share in cash-and-stock deal valuing it at about $8bn",
+   "summary": "Rocket Lab and Iridium announced a definitive agreement under which Rocket Lab will acquire all outstanding Iridium shares for $54 per share, comprising $27 in cash plus Rocket Lab stock, valuing Iridium at an enterprise value of about $8.0 billion; Rocket Lab secured a $3.6 billion bridge loan commitment from Deutsche Bank and Wells Fargo to fund the cash portion.",
+   "summary_ja": "ロケットラボとイリジウムは最終合意を発表し、ロケットラボがイリジウムの発行済み株式全てを1株54ドル（現金27ドルとロケットラボ株式の組み合わせ）で取得する。企業価値は約80億ドル。ロケットラボはドイチェ・バンクとウェルズ・ファーゴから現金部分の資金として36億ドルのブリッジローンのコミットメントを確保した。",
+   "source": "Rocket Lab",
+   "url": "https://rocketlabcorp.com/updates/rocket-lab-to-acquire-iridium-in-historic-deal-creating-a-fully-vertically-integrated-space-powerhouse-primed-for-growth/"
+  },
+  {
+   "date": "2025-11-11",
+   "headline": "Rocket Lab delays Neutron rocket's debut launch to 2026 after tank test failure",
+   "summary": "Rocket Lab postponed the first launch of its Neutron rocket to 2026, following a stage-1 fuel tank test failure; the company had previously targeted 2024 and then 2025 for the debut.",
+   "summary_ja": "ロケットラボは第1段燃料タンクの試験失敗を受け、ニュートロンロケットの初打ち上げを2026年に延期した。同社は以前、打ち上げ目標を2024年、その後2025年としていた。",
+   "source": "SpaceNews",
+   "url": "https://spacenews.com/rocket-lab-delays-first-neutron-launch-to-2026/"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-09-26",
+   "headline": "Rocket Lab-Iridium deal expected to close by mid-2027 after shareholder approval, follow-up coverage says",
+   "summary": "Coverage following Iridium shareholders' September 24 approval reiterated the deal terms (Rocket Lab paying $27 in cash plus stock per share, a $54 notional value) and said the roughly $8 billion transaction is expected to close by mid-2027, pending remaining regulatory approvals.",
+   "summary_ja": "9月24日のイリジウム株主による承認を受けた続報は、取引条件(ロケットラボが1株当たり現金27ドルと株式を組み合わせ、想定価値54ドル)を改めて示すとともに、残る規制当局の承認を経て総額約80億ドルの本件取引は2027年半ばまでに完了する見通しだと伝えた。",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/investing/2026/09/26/major-milestone-passed-in-iridium-rocket-lab-tie-up/"
+  }
+ ]
 }
