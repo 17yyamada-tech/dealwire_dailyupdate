@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-05-0830",
+      "label": "5 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-05T00:36:27Z",
+      "items": 7,
+      "headlines": [
+        "Intesa Sanpaolo threatens to pull Monte dei Paschi offer as top shareholder Delfin tenders full 17.6% stake",
+        "Collapsed NGK Spark Plug-Denso deal was worth ¥180 billion, reports say",
+        "SBS Holdings to acquire India business of China's SF Group"
+      ]
+    },
+    {
       "id": "2026-10-04-1530",
       "label": "4 Oct 2026 · 15:30 SGT",
       "generated_at": "2026-10-04T07:34:53Z",
