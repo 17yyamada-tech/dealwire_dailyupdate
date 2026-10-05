@@ -1,0 +1,96 @@
+{
+  "edition": "2026-10-05-1230",
+  "edition_label": "5 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T04:38:37Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Schneider Electric nears $20bn deal to buy US software maker PTC",
+      "summary": "Schneider Electric is in final coordination to acquire PTC, a US engineering and design software provider, for about $20 billion, according to Japanese media reports. Schneider Electric, which positions itself as a global data-centre infrastructure provider, would add PTC's engineering software to its portfolio.",
+      "why_it_matters": "A $20 billion purchase would be one of Schneider Electric's largest acquisitions and pushes the French group further into industrial software just as data-centre infrastructure providers race to bundle software with hardware for AI-driven demand. It would also hand PTC shareholders a sizeable premium exit from a company that has built a design-software franchise over decades.",
+      "summary_ja": "シュナイダーエレクトリックが、米エンジニアリング・設計ソフト企業PTCを約200億ドルで買収する方向で最終調整に入ったと日本メディアが報じた。データセンター向けインフラソリューションを展開するシュナイダーエレクトリックは、PTCのエンジニアリングソフトウェアを自社の事業ポートフォリオに加える。",
+      "why_it_matters_ja": "200億ドル規模の買収はシュナイダーエレクトリックにとって過去最大級の案件となり、AI需要を背景にインフラ企業がハードウェアとソフトウェアの一体提供を競う中、同社の産業用ソフトウェア事業をさらに拡大させる。長年設計ソフトウェア事業を築いてきたPTCの株主にとっても、相応のプレミアムを伴う売却機会となる。",
+      "status": "new",
+      "prev": null,
+      "key": "schneider-electric-ptc-acquisition",
+      "ids": ["72a09b0d1b461e", "26715a3ec91a08", "be86f8eabb158d"],
+      "categories": ["M&A", "Infra"],
+      "countries": ["US"],
+      "sectors": ["Other", "TMT"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVVEMycnJkbUI1cmQyb2M4bTFIUXU0Tk1pYlhvd2xNVElFdG1wd0ZwRFBvUTNwZGREY0h3UDRDN2J0T2M3RzQ0MGhsVGlnVUM3NUxhZTZydXE3c2lBNTVFanZvMm1qek8tVjNtQWFBM1pBOExm?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQTHoyZzlvaVNXYmN5S2dfY0o2dXZGYkRqVVhUUWdsc2RRYXdRS1VCY2E5ZHlYcUxrMzBzTnRReXZJVEJOelZNMGVKZ09DajBhMTE0WWdMdDBwcGZiYU5HQkw5OE9yczlnVWZpZS1HRnZUcFZvcHp6bGV1d3FOVmhZTWVacGlRWmp1UDJSdndXeEQzaXp4OHRORFdzNHVKVG5Jd3NUYXEyd01PZGp0VV9rZ2JHWmNzSWFwLTZ6S1NSLWlweS01dFJvOENBRWRNb3dBa0ZsTWJOeFpnbzBiSjJsREp5SmFLRFNBdzF2bkM0OXF0VUxYVXdGakQyRnByRzZiQXp5eXJBdkJNWHN3d0VOLWxNZEU2aDh3ck5aQjVRX2k1ZUJiakpsX2RnVDlfczlCRGo3UF9xcVFiUURmM0JB?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJRG9DS2E5a2RDeUZoVS1lRWFLNUwxYjlfME96RGVSLXFtOUY4UG1iNkVHYTdENDl1RDcweVRkSEotUzBISHEyaWh6NW1aWUU?oc=5"}
+      ]
+    },
+    {
+      "headline": "Firmus to allocate half its IPO shares to existing investors, letting Nvidia and Blackstone raise stakes",
+      "summary": "Firmus is planning to allocate half of its initial public offering to existing investors rather than new buyers, according to a Business Times report. The allocation would let Nvidia and Blackstone, which already hold stakes in the data-centre operator, increase their positions in the IPO.",
+      "why_it_matters": "Letting existing backers absorb half the float suggests Firmus and its underwriters are managing demand uncertainty after the company's valuation tripled in two months, rather than relying solely on new investors to validate the price. It also deepens Nvidia and Blackstone's exposure to one AI-driven data-centre platform at a moment when the IPO's reception is being watched as a bellwether for the sector.",
+      "summary_ja": "データセンター運営会社ファーマス(Firmus)が、新規株式公開(IPO)の株式の半分を新規投資家ではなく既存投資家に割り当てる計画だとビジネス・タイムズが報じた。この割当により、既にファーマスに出資しているエヌビディアとブラックストーンがIPOで持株比率を引き上げられるようになる。",
+      "why_it_matters_ja": "既存出資者に浮動株の半分を吸収させる形は、2カ月でバリュエーションが3倍となった後、新規投資家だけに価格の妥当性を委ねず需要の不確実性を管理する狙いがあることを示す。同時に、エヌビディアとブラックストーンのAIデータセンター1社への投資エクスポージャーを一段と深めるものであり、このIPOの評価は業界全体の先行指標として注目されている。",
+      "status": "update",
+      "prev": {"edition": "2026-10-05-0830", "index": 4},
+      "key": "firmus-ipo-valuation",
+      "ids": ["e52933f0a820f0"],
+      "categories": ["Infra"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["AI & Semis", "TMT"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/data-centre-operator-firmus-said-plan-allocating-half-ipo-existing-investors"}
+      ]
+    },
+    {
+      "headline": "BASE backs SBI's tender offer, signs capital alliance with SBI Holdings",
+      "summary": "BASE, the Tokyo-listed e-commerce platform operator, has expressed support for a tender offer for its shares by SBI group vehicle SBINM and taken a neutral stance on whether shareholders should tender, according to a disclosure. BASE has also entered into a capital and business alliance agreement with SBI Holdings.",
+      "why_it_matters": "Board support removes a key uncertainty for SBI's tender offer even as the neutral recommendation leaves the tendering decision to shareholders, and the accompanying alliance signals SBI intends an operational tie-up with BASE rather than a purely financial stake. It extends SBI's push to build out a broader e-commerce and fintech ecosystem alongside its existing financial-services businesses.",
+      "summary_ja": "東証上場のEコマースプラットフォーム運営会社BASEは、SBIグループの買収主体であるSBINM合同会社による自社株式へのTOB(公開買付け)に賛同を表明し、応募するかどうかは株主の判断に委ねる中立の立場を示したと、開示資料で明らかにした。BASEはまた、SBIホールディングスとの資本業務提携契約も締結した。",
+      "why_it_matters_ja": "取締役会の賛同表明はSBIのTOBにとって大きな不確実性を取り除く一方、応募中立の判断は株主自身に委ねられる。併せて締結された資本業務提携は、SBIが単なる財務的な出資ではなく事業面での連携を狙っていることを示す。これはSBIが既存の金融事業に加え、Eコマース・フィンテック分野でのエコシステム構築を進める動きの一環となる。",
+      "status": "new",
+      "prev": null,
+      "key": "base-sbi-tender-offer-alliance",
+      "ids": ["37136e0bd9cc5c"],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5na2dVMHFKZUwweDkzMndLZFl3VVA1VFBKSDlqTWRmRDZpNWZjZWFzQldodUtsbUc3M3NKVm1xWEsxREEwMDNsX01sZnNiQWVzTDhvcm9TSWdFMFo1dmJkVHBOcnZEM0Fmb2c?oc=5"}
+      ]
+    },
+    {
+      "headline": "Korean wealth fund weighs offers for $1b portfolio of private equity fund stakes",
+      "summary": "A Korean wealth fund is evaluating offers for a $1 billion portfolio of private equity fund stakes, according to a DealStreetAsia report. No buyer or fund names were disclosed.",
+      "why_it_matters": "A $1 billion secondary sale would be among the larger LP-led portfolio trades this year, adding to a wave of sovereign and institutional investors using the secondaries market to rebalance PE exposure amid slower distributions. It also points to continued appetite among secondaries buyers for large, diversified fund-stake portfolios out of Asia.",
+      "summary_ja": "韓国の政府系ファンドが、プライベートエクイティ(PE)ファンドの持分ポートフォリオ(規模10億ドル)の売却提案を検討していると、DealStreetAsiaが報じた。買い手やファンド名は明らかにされていない。",
+      "why_it_matters_ja": "10億ドル規模のセカンダリー売却が実現すれば、今年のLP主導型ポートフォリオ取引の中でも大型の一つとなる。配当還流の鈍化を背景に、政府系・機関投資家がセカンダリー市場を通じてPEエクスポージャーを調整する動きが広がっていることを示す。アジア発の大型・多様化されたファンド持分ポートフォリオに対するセカンダリー買い手の需要の強さも浮き彫りにする。",
+      "status": "new",
+      "prev": null,
+      "key": "korea-wealth-fund-pe-stakes-sale",
+      "ids": ["ca399642277cbb"],
+      "categories": [],
+      "countries": [],
+      "sectors": ["Financials"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94UUZrRmJMVVRCbndXSHdPTmg4Vnp3M0hrQU45MzgzYXlnS3RSZGpsRXQwUk5NaTdSdVc3X3d2UXRIRnVOTWhkc1FkbmkxYTV1RTFDcWdqTHFyTC1CcHBJOEZKRXJqelc2bHpkRkk2VjlOTFI2VE5reW1KNm9IQ0U?oc=5"}
+      ]
+    },
+    {
+      "headline": "Malaysia Aviation Group to acquire Airbus's Sepang Aircraft Engineering unit",
+      "summary": "Malaysia Aviation Group is moving to acquire Sepang Aircraft Engineering, an aircraft maintenance and overhaul company currently owned by Airbus, according to a Japanese media report. Financial terms were not disclosed.",
+      "why_it_matters": "The purchase would bring maintenance, repair and overhaul capacity in-house for Malaysia's national carrier group, reducing reliance on an Airbus-owned provider as airlines across the region rebuild fleets. It also marks Airbus paring back its ownership of a regional maintenance asset.",
+      "summary_ja": "マレーシア・アビエーション・グループが、エアバス傘下の航空機整備(MRO)会社セパン・エアクラフト・エンジニアリングの買収に動いていると、日本メディアが報じた。財務条件は明らかにされていない。",
+      "why_it_matters_ja": "この買収が実現すれば、マレーシアの国営航空グループは整備・修理・オーバーホール機能を自社に取り込み、エアバス傘下企業への依存を減らすことになる。アジア地域の航空会社が機材整備網を再構築する中での動きであり、エアバスにとっては地域の整備資産への出資を縮小する形となる。",
+      "status": "new",
+      "prev": null,
+      "key": "malaysia-aviation-sepang-aircraft-engineering",
+      "ids": ["efe2c6d59db79a"],
+      "categories": ["M&A"],
+      "countries": ["SEA"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE82NGlybUtYRmljTVZxX3RHWUVsdHJObUhIRDJXVXpNOE5kOXZFZHlCQkZXdHZqbjIxQklVdlNaM09HcERzZTBN?oc=5"}
+      ]
+    }
+  ]
+}
