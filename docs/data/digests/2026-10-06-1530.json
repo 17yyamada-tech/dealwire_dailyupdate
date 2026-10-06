@@ -1,0 +1,303 @@
+{
+  "edition": "2026-10-06-1530",
+  "edition_label": "6 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T07:43:16Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "DeepSeek raising at least $12bn in Tencent-backed round ahead of market debut",
+      "summary": "DeepSeek is raising at least US$12 billion in a funding round backed by Tencent, Bloomberg reported. The round sets up what would be one of the most closely watched Chinese market debuts in years.",
+      "why_it_matters": "A raise of this size would mark one of China's largest AI financings yet and signals investor appetite for a domestic listing despite ongoing US-China tech tensions.",
+      "summary_ja": "ブルームバーグの報道によると、DeepSeekはテンセントが支援する資金調達ラウンドで少なくとも120億米ドルを調達する見通し。このラウンドは、近年で最も注目される中国企業の上場につながる布石となる。",
+      "why_it_matters_ja": "この規模の調達が実現すれば中国AI企業として最大級の資金調達となり、米中間のハイテク摩擦が続く中でも中国内上場に対する投資家の高い関心を示す。",
+      "status": "new",
+      "prev": null,
+      "key": "deepseek-tencent-funding-round",
+      "ids": [
+        "d14053d7b73615",
+        "e1cb9f7ee78284"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/deepseek-raise-least-us12-billion-tencent-backed-funding"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/deepseek-raise-least-12-billion-in-tencent-backed-funding-bloomberg-news-reports-6435381"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "NextEra's $67bn Dominion Energy deal hits political pushback in Virginia",
+      "summary": "NextEra Energy Resources' proposed $67 billion acquisition of Dominion Energy is facing political backlash in Virginia, Japanese-language reports citing Investing.com said.",
+      "why_it_matters": "Opposition in Dominion's home state adds regulatory risk to one of the largest utility deals in the pipeline, at a time when power companies are consolidating to meet AI-driven electricity demand.",
+      "summary_ja": "Investing.com発の報道によると、ネクステラ・エナジー・リソーシズによる670億ドル規模のドミニオン・エナジー買収が、バージニア州で政治的な反発に直面している。",
+      "why_it_matters_ja": "本拠地バージニア州での政治的対立は、AI需要拡大に伴う電力業界の規模拡大が進む中、大型電力会社買収案件に新たな規制リスクをもたらす。",
+      "status": "new",
+      "prev": null,
+      "key": "nextera-dominion-virginia-pushback",
+      "ids": [
+        "d4ea6cd6348413"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fbkZqSTdhNjd3a3d5NmNJeVJnOVhwbEp3YW92SnEwcmdTd0w4cE5sak1TdnNPbzNEUnZMQWpmZmJ4NFBsczlfTnAtVUswVkh2djNSRmVxT1ZpNjdWZ0NFbUlOT3hfM1c5Q0V3QWFaLTU?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Informa agrees to buy Clarion Events for £2.24bn, weighs Taylor & Francis split",
+      "summary": "Informa has agreed to acquire events group Clarion for £2.24 billion, Japanese-language reports citing Investing.com said. The same reports said Informa is separately weighing a split-off of its academic publishing unit, Taylor & Francis.",
+      "why_it_matters": "The Clarion deal adds scale to Informa's events business, while a Taylor & Francis separation would sharpen the group's split between academic publishing and live events, something investors have pushed for.",
+      "summary_ja": "Investing.com発の報道によると、インフォーマは展示会大手クラリオンを22億4000万ポンドで買収することに合意した。同時に、学術出版部門テイラー＆フランシスの分離も検討しているという。",
+      "why_it_matters_ja": "クラリオン買収はインフォーマのイベント事業の規模拡大につながる一方、テイラー＆フランシスの分離は学術出版とライブイベント事業を切り分ける動きとなり、投資家からの要望に応えるものとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "informa-clarion-acquisition",
+      "ids": [
+        "fa6e1b647cc47f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PQlRKVVZ0dFdpdkxaVGpSOHA5NlVTdndhb253OGN3dmJyOWJSTkNBSWIyaGNWV2N0TmFVYVVyWjYxTVN2U1JRWi1NVGxwajdBcjZNbGRESkRRZzc0ZGlaSC1rRHVEZlp1XzViblRWd0o?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Siena Group in advanced talks to buy MBK Partners' Golfzon County for about ₩2 trillion",
+      "summary": "South Korea's The Siena Group is advancing a deal to acquire golf-course operator Golfzon County from private equity firm MBK Partners, in a transaction drawing attention at about ₩2 trillion (roughly ¥240 billion), Japanese-language reports said.",
+      "why_it_matters": "A deal at this size would be one of the larger sponsor-to-strategic exits in South Korea's golf and leisure sector this year, and a test of exit pricing for MBK's older buyout vintages.",
+      "summary_ja": "日本語報道によると、韓国のThe Siena Groupは、プライベートエクイティのMBKパートナーズが保有するゴルフ場運営会社Golfzon Countyの買収を推進しており、規模は2兆ウォン（約2400億円）規模とされ、注目を集めている。",
+      "why_it_matters_ja": "この規模の取引が成立すれば、韓国のゴルフ・レジャー業界における今年最大級のスポンサーから事業会社への売却の一つとなり、MBKの旧ファンドの出口価格を測る試金石となる。",
+      "status": "new",
+      "prev": null,
+      "key": "siena-group-golfzon-county-acquisition",
+      "ids": [
+        "57e876c4405702"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkbWtkMmdQeGFhcE9FcTBEbUdzOWNxTmxpWUJEM09NYzFQN0pLY0RFVFU2R1ZBOEZMMFJ6a1VESy1fYXRkTFFCTG5GYVpzN3M5NThQTkgwSVVZeHJnLS1lT252RlpBZnloSGNxZGx5R2psREdt?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Seagate and Toshiba compete to buy TDK's HDD magnetic-head unit, shares jump 7%",
+      "summary": "Seagate and Toshiba are competing to acquire TDK's hard-disk-drive magnetic-head business, Japanese-language reports said, citing people familiar with the matter. TDK shares rose more than 7% intraday on the report and a separate ratings upgrade.",
+      "why_it_matters": "A sale would let TDK exit a legacy hardware line as it reallocates toward higher-growth electronic components, while giving the winning bidder tighter control of a key HDD component as AI-driven data-centre storage demand grows.",
+      "summary_ja": "日本語報道によると、シーゲートと東芝がTDKのハードディスクドライブ（HDD）用磁気ヘッド事業の買収で競合しているという。TDK株は、この報道と別の格付け引き上げを受けて一時7%超上昇した。",
+      "why_it_matters_ja": "売却が成立すればTDKは従来型ハードウェア事業から退き、成長性の高い電子部品分野への経営資源の再配分を進められる。一方、落札した企業はAI主導のデータセンター向けストレージ需要が拡大する中、HDDの主要部材を押さえることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "seagate-toshiba-tdk-hdd-heads",
+      "ids": [
+        "30f876c96e1740",
+        "65911b28ec9eb3",
+        "476b521b41398e"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE43a2QxU01ZNGNBWkN4anBxNE1aSkZGZ2JVWHM2MFRyTkpGaDBtSmswb1pYXzBaRHFnczBfNHpQQ3RpRjB2V2lBcTEtTHROTDVjU2NCbmhsZno5T1F0THdGTDVDZHNMbUhERjJqNE9iajZIWHliVzQ4?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MWHdCbHlPQmRUM1pDczFYV3hIUWNtMTJiRzBHeGljc0ZKTkN0MXVTNGkzNVdWRkFkR3c1Q0JCTmtGUVdWaFp4cmhDMjhhdEMtTV90eUZNR19QSUtfTWJSbWc2OVl5OVJZU0psVHNRZUlpMFBvRDY4?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZeWFPRnAtZ19wRENsc1JZNTF4QXR1eXhhSTZhV0NwZW5MdzJEWFBtYVVaaS1tOGh2bnVoa1FsR0F6Nm5OR2NRU2J2SWVGWVU4ZFZNdjZOdXNTYXdYOVBBWQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Toyota Tsusho buys two major African healthcare distributors in Botswana, Madagascar",
+      "summary": "Toyota Tsusho has acquired two major African healthcare companies as subsidiaries, including leading pharmaceutical distributors in Botswana and Madagascar, Japanese-language reports said. The deals extend the trading house's push beyond its core automotive business.",
+      "why_it_matters": "The acquisitions give Toyota Tsusho a bigger footprint in African pharmaceutical distribution, a market with limited competition from global players, as the trading house diversifies revenue away from auto-related trade.",
+      "summary_ja": "日本語報道によると、豊田通商はアフリカの大手ヘルスケア企業2社を子会社化した。ボツワナとマダガスカルの大手医薬品流通企業が含まれるという。今回の買収は、同社の自動車以外の事業領域拡大の一環。",
+      "why_it_matters_ja": "この買収により、豊田通商はグローバル企業の競争が限られるアフリカの医薬品流通市場での存在感を強め、自動車関連取引への依存を下げる多角化を進める。",
+      "status": "new",
+      "prev": null,
+      "key": "toyota-tsusho-africa-healthcare-acquisition",
+      "ids": [
+        "0ad3e79bd1c03e",
+        "8a9fbae9b845a0"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTNGxzVEFzOXp5UTgzWWxXM0RUVVgzdFV0M19aei05OThNQ2NKRFo5Yk8yTjJnWVd3OEpheVY1R1ozYmhjNlFxMU9CbVZ4RE1nYjhpUlZFaU1nNVBKSm5XeFdnMV9IcllraW5aUg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hSF9RMlNYUTl1LW8ycGs4TFFsVnROVjlzalc1TTZHNE1TLUNiZUFaWm5YWklxdUE4MncxYlQ5RE9YUUR6UTB1V2JGRm9lUEY3cHlCVlg2SnZWOEpONjRXZmdvNGJxc1RNZlE?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Healthcare",
+        "Industrials",
+        "Energy"
+      ]
+    },
+    {
+      "headline": "New World Development launches bond exchange offer to push out debt maturities",
+      "summary": "Hong Kong developer New World Development is seeking more time to repay bonds through an exchange offer, as it continues to grapple with tight credit conditions and a prolonged property-market downturn, the Business Times reported.",
+      "why_it_matters": "The exchange offer underscores ongoing balance-sheet stress among Hong Kong developers and will test bondholders' willingness to extend maturities rather than push the company toward a harder restructuring.",
+      "summary_ja": "ビジネス・タイムズの報道によると、香港の不動産デベロッパー、ニューワールド・デベロップメントは、厳しい信用環境と長引く不動産市況の低迷が続く中、債券の交換オファーによって返済期限の延長を図っている。",
+      "why_it_matters_ja": "この交換オファーは香港デベロッパーのバランスシート悪化が続いていることを示しており、債券保有者がより厳格な再編を避けて期限延長に応じるかどうかが試される。",
+      "status": "new",
+      "prev": null,
+      "key": "new-world-development-bond-exchange-offer",
+      "ids": [
+        "91cb06b60d6c99"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/reits-property/hong-kong-property-developer-new-world-seeks-more-time-pay-bonds-exchange-offer"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Financials",
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "NOK Group holding company formally launches, completing NOK-Eagle Industry merger",
+      "summary": "NOK Group has been established as the new holding company created from the business integration of NOK and Eagle Industry, Japanese-language reports said, confirming the deal has now completed.",
+      "why_it_matters": "Formal completion moves NOK and Eagle Industry from announced plan to execution, the latest step in a wave of consolidation among Japan's mid-cap industrial-parts makers.",
+      "summary_ja": "日本語報道によると、NOKとイーグル工業の経営統合によって新設された持株会社「NOK Group」が設立された。これにより、両社の統合が正式に完了したことが確認された。",
+      "why_it_matters_ja": "正式な設立は、NOKとイーグル工業の統合が発表段階から実行段階に移ったことを示し、日本の中堅部品メーカーの間で続く再編の流れの一例となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-01-1530",
+        "index": 5
+      },
+      "key": "nok-eagle-industry-integration",
+      "ids": [
+        "303d0eafd0ffd8"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MQUR0dlk5WnFMTmF2WHA2LTNFX0dJSDNTMnJkTmZjTHkxT3pmT0xqMmJlUnBZdC1vQURPTFBfcjk1eU41MWN3Y1pORlMyUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Fire-safety firm Deluge Corporation to raise S$23m in Singapore IPO, list October 16",
+      "summary": "Fire-safety specialist Deluge Corporation plans to raise S$23 million in a Singapore IPO priced at 60 cents a share, with trading expected to start October 16. The company said proceeds will support larger projects, acquisitions and regional growth, the Business Times reported.",
+      "why_it_matters": "The listing adds another small-cap debut to Singapore's exchange and gives Deluge capital to pursue acquisitions, a stated use of proceeds pointing to further consolidation in the regional fire-safety services market.",
+      "summary_ja": "ビジネス・タイムズの報道によると、防火設備専門会社のデルージュ・コーポレーションは、1株60セントでシンガポールにIPOを実施し、2300万シンガポールドルを調達する計画で、取引開始は10月16日の予定。同社は調達資金を大型プロジェクト、買収、地域事業拡大に活用するとしている。",
+      "why_it_matters_ja": "この上場はシンガポール取引所における小型株上場の一例であり、デルージュに買収資金をもたらすもので、資金使途として挙げられた買収方針は同地域の防火設備サービス業界でさらなる統合が進む可能性を示している。",
+      "status": "new",
+      "prev": null,
+      "key": "deluge-corp-sgx-ipo",
+      "ids": [
+        "cd27390e025332",
+        "5fb5efa06d76b9"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/fire-safety-specialist-deluge-corporation-raise-s23-million-ipo-60-cents-share"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/fire-safety-specialist-deluge-corp-aims-raise-s23-million-ipo-s0-60-share"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Luxshare Precision moves to take 75% stake in Zhifeng Industrial Electronics after stock's rally",
+      "summary": "China's Luxshare Precision is moving to acquire a 75% stake in Zhifeng Industrial Electronics, Japanese-language reports said. Zhifeng shares, which had surged about 80% over the past month on the speculation, fell more than 20% once trading resumed and the stake purchase was confirmed.",
+      "why_it_matters": "The sharp swing in Zhifeng's shares around the announcement highlights how volatile China's small-cap supply-chain stocks have become on M&A speculation, and marks another acquisitive move by Luxshare Precision in the electronics components supply chain.",
+      "summary_ja": "日本語報道によると、中国の立訊精密（ラックスシェア・プレシジョン）は致豊工業電子の株式75%を取得する方向で動いている。致豊工業電子株は、この思惑を背景に過去1カ月で約80%急騰していたが、取引再開後、株式取得が確認されると2割超下落した。",
+      "why_it_matters_ja": "発表前後の致豊工業電子株の大きな変動は、M&A思惑を背景とした中国の小型サプライチェーン株のボラティリティの高さを示しており、電子部品サプライチェーンにおける立訊精密の積極的な買収姿勢を改めて示す動きとなった。",
+      "status": "new",
+      "prev": null,
+      "key": "luxshare-zhifeng-stake-acquisition",
+      "ids": [
+        "8f22c18fcaa28f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yS05TSmZCa3Y5UE5VOHM3VG1yMVBKdEROSVVKTDZteHV0UlNfSGliQ3EtTXVSYkp0VnRDakk3RUdVcW15OEJVbEkwZFFSNXRTajJTR19qTUhMSHFHbC1yZW5uc1Y4NGNnWmd0Mlp2Z2hNYk5R?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
