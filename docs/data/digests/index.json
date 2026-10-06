@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-06-0830",
+      "label": "6 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-06T00:36:19Z",
+      "items": 10,
+      "headlines": [
+        "C.H. Robinson agrees to acquire rival freight broker RXO, shares jump",
+        "Mitsubishi Electric weighs ¥880bn bid for German elevator maker's Europe business",
+        "OpenAI's $30bn funding round draws UAE funds and BlackRock as investors"
+      ]
+    },
+    {
       "id": "2026-10-05-1530",
       "label": "5 Oct 2026 · 15:30 SGT",
       "generated_at": "2026-10-05T07:32:56Z",
