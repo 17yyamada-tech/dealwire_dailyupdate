@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-05T07:48:40Z",
+ "checked_at": "2026-10-06T00:50:34Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-05",
+   "headline": "UKMTO logs four tanker strikes in Strait of Hormuz over October 3-5, latest ignites engine-room fire",
+   "summary": "UKMTO reported four separate tanker strikes by unknown projectiles in the Strait of Hormuz between October 3 and 5: a crude oil tanker struck above the waterline on October 3, an inbound LPG tanker hit at 1716 UTC and a crude oil tanker hit at 1907 UTC on October 4, and another tanker struck at 1637 UTC on October 5 that caught fire in its engine room, which the crew was fighting.",
+   "summary_ja": "UKMTOの報告によると、10月3日から5日にかけてホルムズ海峡でタンカー4隻が不明の飛来物に相次いで被弾した。10月3日には原油タンカー1隻が喫水線上部を被弾し、10月4日にはLPGタンカーが協定世界時16時16分、原油タンカーが同19時07分に被弾、10月5日には別の船舶が同16時37分に被弾し機関室で火災が発生、乗組員が消火活動を行っている。",
+   "source": "gCaptain",
+   "url": "https://gcaptain.com/five-hormuz-incidents-reported-monday-as-tanker-attacks-mount"
+  },
+  {
+   "date": "2026-10-05",
+   "headline": "Iran's IRGC orders inbound tanker near Strait of Hormuz to turn back or be targeted, vessel complies",
+   "summary": "UKMTO reported that Iran's Revolutionary Guard Corps hailed an inbound tanker about 11 nautical miles north of Khasab, Oman, near the Strait of Hormuz, and ordered it to turn around or be targeted; the tanker's master complied with the instruction.",
+   "summary_ja": "UKMTOの報告によると、イラン革命防衛隊(IRGC)はホルムズ海峡付近、オマーンのハサブ北方約11海里の地点でインバウンドのタンカーを呼び止め、引き返すよう命じ、従わなければ攻撃すると警告した。同船の船長はこの指示に従った。",
+   "source": "BOE Report",
+   "url": "https://boereport.com/2026/10/05/tanker-ordered-by-irans-irgc-to-turn-back-in-hormuz-or-risk-being-hit-ukmto-says/"
+  },
   {
    "date": "2026-10-04",
    "headline": "Iran reiterates Strait of Hormuz stays closed until US meets its conditions",
