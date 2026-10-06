@@ -1,0 +1,192 @@
+{
+  "edition": "2026-10-06-1230",
+  "edition_label": "6 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T04:35:48Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Moonshot AI weighs Hong Kong IPO in early 2027 after valuation hits $50 billion",
+      "summary": "Moonshot AI is reportedly weighing a Hong Kong listing as early as 2027 after its valuation reached US$50 billion. The Chinese AI developer is said to be considering raising up to US$5 billion in the offering.",
+      "why_it_matters": "A listing at this scale would be one of the largest AI-sector IPOs attempted out of China and a test of Hong Kong's appetite for high-growth AI names amid heavy global capital spending on AI infrastructure.",
+      "summary_ja": "中国のAI企業Moonshotは、企業価値が500億米ドルに達したことを受け、早ければ2027年にも香港での上場を検討していると報じられている。同社は最大50億米ドルの資金調達を検討しているとされる。",
+      "why_it_matters_ja": "この規模の上場が実現すれば、中国発のAI企業による上場としては最大級となり、AIインフラへの世界的な投資拡大が続く中、香港市場が高成長AI銘柄をどこまで受け入れられるかを試す案件となる。",
+      "status": "new",
+      "prev": null,
+      "key": "moonshot-ai-hk-ipo",
+      "ids": [
+        "0aa2c157ed7465"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/moonshot-said-eye-hong-kong-ipo-early-2027-after-value-hits-us50-billion"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "KKR agrees to buy fund administrator Gen II Fund Services for $5.1 billion",
+      "summary": "KKR has agreed to acquire Gen II Fund Services for about $5.1 billion, according to Japanese wire reports. The deal adds a large fund-administration platform to KKR's private markets business.",
+      "why_it_matters": "Owning a fund administrator gives KKR recurring fee income tied to the broader private markets industry rather than only its own funds, extending the sponsor's reach from asset management into financial infrastructure.",
+      "summary_ja": "KKRがファンド管理会社Gen II Fund Servicesを約51億米ドルで買収することに合意したと、日本の報道各社が伝えた。今回の買収により、KKRのプライベートマーケッツ事業に大規模なファンド管理基盤が加わる。",
+      "why_it_matters_ja": "ファンド管理会社を傘下に持つことで、KKRは自社ファンドに限らず業界全体の運用資産から継続的な手数料収入を得られるようになる。スポンサーとしての事業領域を資産運用から金融インフラ分野にまで広げる動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "kkr-gen-ii-fund-services-acquisition",
+      "ids": [
+        "879ab530e68dce",
+        "9f1e1786783b00"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SbjZKNVhaLVJ4aTZJSGdkUlB3bldKbWVWOVZacC15Qk1CWWdkNy03eUtIcDhROG9JQVFJanJlT1pYTTB6Uk1scFpRcmdlQ1Rpcm5OVUVXeWdGU0w3TlJvMThpalFDcnlMWDJqcUpEVHI?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HZEg3Q20yVGs4WmxKOWx1VUwxbkxGMkhNcGNqLTloQi1wYTR4dlVDSy15WVVQWE9ydmY2d1BtblFPVWNfOEp2ZEY5Q3YzWVNJT3pxRjZ4cG1uU3VzR1ZBV3hsdmRuZWhrWndDeDFTSXA?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "DayOne Data Centers could seek up to $5 billion in US IPO at $20 billion valuation",
+      "summary": "DayOne Data Centers, the Singapore-based data-centre operator, may seek to raise as much as $5 billion in its US IPO at a potential valuation of $20 billion, Business Times reported. The company's earlier filing report had disclosed no pricing or size details.",
+      "why_it_matters": "A $20 billion valuation would make DayOne one of the largest data-centre listings yet tied to AI-driven demand for compute capacity, giving investors a sizeable pure-play vehicle in the infrastructure build-out.",
+      "summary_ja": "シンガポール拠点のデータセンター運営会社デイワン・データセンターズは、米国での新規株式公開(IPO)で最大50億米ドルの調達を目指す可能性があり、想定企業価値は200億米ドルに達するとBusiness Timesが報じた。当初の申請報道では価格や規模の詳細は開示されていなかった。",
+      "why_it_matters_ja": "企業価値200億米ドルが実現すれば、AI需要主導の計算資源需要を背景としたデータセンター上場としては最大級の案件となり、投資家にとってインフラ構築に賭けるための大型の純粋プレー型投資先となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-06-0830",
+        "index": 6
+      },
+      "key": "dayone-data-centers-us-ipo",
+      "ids": [
+        "2028a6e974d808",
+        "499ee0a74f9be1"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/singapore-data-centre-operator-dayone-files-us-ipo-joining-ai-infrastructure-rush"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/singapore-data-centre-operator-dayone-files-us-ipo-potential-us20-billion-valuation"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [
+        "US",
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Nippon Sheet Glass completes delisting as Apollo takeover closes",
+      "summary": "Nippon Sheet Glass's acquisition by Apollo Global Management has completed, Japanese M&A reports said, following the company's planned delisting from the Tokyo Stock Exchange's Prime Market. The glassmaker is moving to a new management structure under its new private-equity owner.",
+      "why_it_matters": "Completion closes out one of the recent run of Prime Market exits into private-equity ownership, with the new structure a signal of how Apollo intends to run the business outside public-market scrutiny.",
+      "summary_ja": "日本板硝子に対するアポロ・グローバル・マネジメントによる買収が完了したと、日本のM&A関連報道が伝えた。東証プライム市場からの上場廃止という当初の計画どおりの動きで、同社は新たな経営体制のもとプライベートエクイティ傘下での運営に移る。",
+      "why_it_matters_ja": "買収完了により、最近相次ぐプライム市場からプライベートエクイティ傘下への移行事例の一つが完結した形だ。新経営体制は、アポロが上場市場の監視を離れた事業運営をどう進めるかを示す材料となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-09-28-0830",
+        "index": 0
+      },
+      "key": "nippon-sheet-glass-apollo-delisting",
+      "ids": [
+        "ea48e3b0670cb4"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45cXpLVU5IMHV6TGpvY0ktV3NEbTV2OXhmRXh2ek5jVkZtd1MtOU1kZFctc3J0UEdmRGgxRkZFTGJydmtpSzE4XzJ0YzdfRDNYdXBONFFJd2ptQUJHS3Yw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Mynt's $844 million Philippine IPO opens, with real-time share allocation for GCash users",
+      "summary": "Mynt, the parent of GCash, opened its $844 million Philippine IPO, offering GCash users real-time share allocation, CNA reported. The listing follows Mynt's pricing of the offer at $845 million earlier this month.",
+      "why_it_matters": "Real-time allocation through GCash's existing user base could broaden retail participation in the listing, adding depth to what is already shaping up as one of the Philippine market's largest offerings this year.",
+      "summary_ja": "GCashの親会社Myntが8億4400万米ドル規模のフィリピンでのIPOを開始し、GCashユーザー向けにリアルタイムでの株式配分を提供するとCNAが報じた。これは今月すでに8億4500万米ドルで価格決定されていた案件の上場にあたる。",
+      "why_it_matters_ja": "GCashの既存ユーザー基盤を通じたリアルタイム配分は、上場における個人投資家の参加層を広げる可能性がある。今年のフィリピン市場で最大級とみられる上場案件に厚みを加える動きだ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-02-1530",
+        "index": 1
+      },
+      "key": "gcash-mynt-ipo-pricing",
+      "ids": [
+        "e9b10b44c7e070"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/mynt-opens-844-million-philippine-ipo-offers-gcash-users-real-time-share-allocation-6434931"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Google nears nuclear power deal with Constellation, Bloomberg reports",
+      "summary": "Google and Constellation Energy are nearing a deal for nuclear power, Bloomberg News reported. No financial or contractual terms were disclosed.",
+      "why_it_matters": "A tie-up with a major nuclear operator would give Google another source of firm, carbon-free power for its data-centre fleet as AI workloads push hyperscalers to lock up generation capacity directly.",
+      "summary_ja": "Googleとコンステレーション・エナジーが原子力発電をめぐる契約に近づいているとBloomberg Newsが報じた。財務条件や契約内容は開示されていない。",
+      "why_it_matters_ja": "大手原子力事業者との提携は、AI向け需要の拡大を背景にハイパースケーラー各社が発電容量を直接確保する動きの中で、Googleがデータセンター向けに安定した低炭素電力源をさらに確保する手段となる。",
+      "status": "new",
+      "prev": null,
+      "key": "google-constellation-nuclear-power",
+      "ids": [
+        "4e786abe9df4c9"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/google-constellation-near-deal-nuclear-power-bloomberg-news-reports-6434911"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Energy"
+      ]
+    }
+  ]
+}

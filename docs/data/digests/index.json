@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-06-1230",
+      "label": "6 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-06T04:35:48Z",
+      "items": 6,
+      "headlines": [
+        "Moonshot AI weighs Hong Kong IPO in early 2027 after valuation hits $50 billion",
+        "KKR agrees to buy fund administrator Gen II Fund Services for $5.1 billion",
+        "DayOne Data Centers could seek up to $5 billion in US IPO at $20 billion valuation"
+      ]
+    },
+    {
       "id": "2026-10-06-0830",
       "label": "6 Oct 2026 · 08:30 SGT",
       "generated_at": "2026-10-06T00:36:19Z",
