@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T10:00:23Z",
- "checked_at": "2026-10-07T04:50:00Z",
+ "checked_at": "2026-10-07T07:50:00Z",
  "background": [
   {
    "date": "2026-07-27",
@@ -48,6 +48,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-05",
+   "headline": "Payward links Singapore Gulf Bank's clearing network to let institutional clients settle crypto trades 24/7",
+   "summary": "CoinDesk reported that Payward, Kraken's parent, integrated Singapore Gulf Bank's real-time clearing network so institutional clients can settle qualifying digital-asset transactions around the clock and fund trading even on non-banking days, starting with US dollar transactions for select clients in eligible Asian and Gulf jurisdictions.",
+   "summary_ja": "CoinDeskの報道によると、クラーケン親会社Paywardはシンガポール・ガルフ・バンクのリアルタイム決済網を自社基盤に統合し、機関投資家向け顧客が暗号資産取引を24時間体制で決済でき、非営業日でも取引資金を確保できるようにした。まずアジアとガルフ地域の対象顧客向けに米ドル取引から開始する。",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/05/kraken-operator-payward-and-singapore-gulf-bank-platform-for-24-7-institutional-crypto-settlement"
+  },
   {
    "date": "2026-09-30",
    "headline": "BNY Mellon in talks with Kraken parent Payward on broad digital-asset partnership covering custody, trading and payments",
