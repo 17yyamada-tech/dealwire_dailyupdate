@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-06T07:50:00Z",
+ "checked_at": "2026-10-07T00:50:00Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-06",
+   "headline": "Hormuz vessel transit collapses to 5% of pre-crisis traffic even as non-Iran Mideast oil exports top pre-war levels",
+   "summary": "CNBC reported, citing maritime tracker Kpler, that commercial transit through the Strait of Hormuz fell to about 5% of pre-crisis levels on October 4 (four vessels versus a typical 85 per day), even as Middle East oil exports excluding Iran surpassed pre-war levels over the preceding week despite continued tanker attacks.",
+   "summary_ja": "CNBCが海事データ企業Kplerの情報として報じたところによると、ホルムズ海峡の商業船舶の通航量は10月4日時点で危機前の約5%(通常85隻に対し4隻)まで落ち込んだ一方、タンカー攻撃が続く中でもイラン産を除く中東の石油輸出は前週に開戦前の水準を上回った。",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+  },
   {
    "date": "2026-10-05",
    "headline": "UKMTO logs four tanker strikes in Strait of Hormuz over October 3-5, latest ignites engine-room fire",
