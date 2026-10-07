@@ -1,0 +1,174 @@
+{
+  "edition": "2026-10-07-1530",
+  "edition_label": "7 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T07:36:00Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "AirTrunk commits $1bn to new Japan data centre campus",
+      "summary": "AirTrunk, the data-centre operator backed by Blackstone, said it will invest $1 billion in a new data centre campus in Japan.",
+      "why_it_matters": "The commitment adds to the wave of sponsor-backed capital flowing into Japan's data centre sector as operators race to secure sites for AI-driven demand.",
+      "summary_ja": "ブラックストーン傘下のデータセンター運営会社AirTrunkが、日本国内に新設するデータセンターキャンパスに10億ドルを投資すると発表した。",
+      "why_it_matters_ja": "AI需要の拡大を背景に、スポンサー系資本が日本のデータセンター用地確保に向けて流入する動きがさらに強まることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "airtrunk-japan-data-centre-1bn",
+      "ids": [
+        "140608252a3690"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/blackstone-backed-airtrunk-invest-1-billion-in-japan-data-centre-campus-6438441"
+        }
+      ],
+      "categories": [
+        "PE",
+        "Infra"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Teijin Frontier and Asahi Kasei Advance combine to form TA Frontier",
+      "summary": "Teijin Frontier and Asahi Kasei Advance, the materials subsidiaries of Teijin and Asahi Kasei, have completed a management integration, launching a new joint company called TA Frontier.",
+      "why_it_matters": "The tie-up consolidates two of Japan's established textile and advanced-materials businesses under one roof, continuing a wave of restructuring among the country's traditional materials makers.",
+      "summary_ja": "帝人と旭化成の素材子会社である帝人フロンティアと旭化成アドバンスが経営統合を完了し、新会社「TAフロンティア」を発足させた。",
+      "why_it_matters_ja": "日本の繊維・先端材料分野を代表する2社が一つの傘下に統合されることになり、伝統的な素材メーカーの再編が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "teijin-frontier-asahi-kasei-advance-ta-frontier",
+      "ids": [
+        "0e16c05f3920b9"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0ZXB2VlpWenJ5ZTF3YjhmMjlOSzNxZnBWOVZhWGw2ZWdjWmpNQnl4Tm5jQUhRQV84b0Z6SG4yOXJCdUNUS3dvV2tIMlhQOW85MldxZjMzWVYzUlBTaWc0?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Dai-ichi Life passes on Prudential's Latin America business for now",
+      "summary": "Dai-ichi Life Holdings has decided not to proceed, at this time, with a potential acquisition of Prudential Financial's Latin America operations.",
+      "why_it_matters": "The pass suggests Dai-ichi is being selective in outbound insurance M&A even as Japanese insurers keep scouting for overseas growth.",
+      "summary_ja": "第一生命ホールディングスは、プルデンシャル・ファイナンシャルの中南米事業の買収案について、現時点では進めない判断をした。",
+      "why_it_matters_ja": "日本の保険会社が海外成長機会を探る中でも、第一生命が買収案件を慎重に選別している姿勢がうかがえる。",
+      "status": "new",
+      "prev": null,
+      "key": "daiichi-life-prudential-latam-pass",
+      "ids": [
+        "871159c8c9bd0b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JdVIxOVpWZTBSMHQ1SEZvNnMtMm9sZ1RtTnlXeFZObHZCWjJkdHJvWFJzMXNNRXMzSFU3MkxDTXZxS0ZnOXBLU2E5VUp5ZDRUSm1oMlJxb1ltUEZRRnE5NzNjQnJwNExjRXFZVHd3OUhxa2k2SHdZ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Yoshimura Food Holdings makes canned-food maker Nihon Kanzume a subsidiary",
+      "summary": "Yoshimura Food Holdings has acquired Nihon Kanzume, a Japanese canned-food producer, making it a subsidiary.",
+      "why_it_matters": "The deal adds another niche food producer to Yoshimura Food's portfolio as consolidation continues among Japan's smaller food manufacturers.",
+      "summary_ja": "ヨシムラ・フードホールディングスは、缶詰メーカーの日本罐詰を子会社化した。",
+      "why_it_matters_ja": "日本の中小食品メーカーの統合が続く中、ヨシムラ・フードが傘下にニッチな食品企業を加えたことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "yoshimura-food-nihon-kanzume-subsidiary",
+      "ids": [
+        "076aefaf7d9d6e"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzUE90Tm9YdTExUGhxN0JFUkxCUDBFVWUwdGpuZHNoYUpDQk9aQmpieFZRUWRKWlQ3cmxUQzlWTHB2V1RSWHo3MGtB?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Nippon Knowledge enters capital alliance with Business Brain Ota Showa",
+      "summary": "Nippon Knowledge has signed a capital alliance agreement with Business Brain Ota Showa, to be carried out through a third-party share allotment and a secondary share sale that will change Nippon Knowledge's major shareholder.",
+      "why_it_matters": "The shareholder-base overhaul points to continued consolidation among Japan's smaller listed IT and consulting firms.",
+      "summary_ja": "日本ナレッジは、株式会社ビジネスブレイン太田昭和との資本提携契約を締結し、第三者割当による新株式発行と株式の売出しを通じて実行する。これにより主要株主が変更される。",
+      "why_it_matters_ja": "株主構成の見直しは、日本の中小IT・コンサルティング上場企業の再編が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "nippon-knowledge-business-brain-ota-showa-capital-alliance",
+      "ids": [
+        "768420acb6ea66"
+      ],
+      "links": [
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ0VFYjBWQU1vLUFGWFNRckw5Q2duRUUzaVFhWFdxRGVRVEd5Sm1qRk1hZk1ZX3hvS1V0RVFaa0dPc0haNG1TdlhsSndoZHhjTE00aHAyYWh5QWtzY2RabkVWeUhqWjB3WkduYlM2OTZMNVN5eFdGVUdKMEtPaUFBT3E1Q1hEUEtzaHNyYUhjU29ISlVmR0JXRUNtaHAxdXQxSklzYnhRaWFsc2w1bXdZMm8yYk4wVjFwdjdRMHRxeFEyU0RGUDRtbThRak0?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Trade Nation agrees to acquire FXCM's UK customer base from Stratos Markets",
+      "summary": "Trade Nation, an FCA-regulated spread-betting and CFD provider, has agreed to acquire the UK customer base of Stratos Markets, which operates in Britain under the FXCM and Tradu brands.",
+      "why_it_matters": "The deal shows consolidation continuing among UK-regulated retail trading brokers as scale becomes more important competitively.",
+      "summary_ja": "FCA規制下でスプレッドベッティングとCFDを提供するTrade Nationが、英国でFXCMおよびTraduブランドを展開するStratos Marketsの英国顧客基盤を買収することで合意した。",
+      "why_it_matters_ja": "英国でFCA規制対象のリテール取引ブローカー業界において、規模拡大を狙った統合がさらに進んでいることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "trade-nation-fxcm-uk-customer-base",
+      "ids": [
+        "4b09c536bfc799"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/trade-nation-ubernimmt-den-britischen-kundenstamm-von-fxcm-stratos-markets-limited-302900753.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
