@@ -1,0 +1,312 @@
+{
+  "edition": "2026-10-07-0830",
+  "edition_label": "7 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T00:35:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Paramount Skydance completes $110bn Warner Bros Discovery merger, forms Hollywood giant",
+      "summary": "Paramount Skydance has completed its roughly $110 billion acquisition of Warner Bros Discovery, which earlier reporting pegged at about ¥17 trillion. The combined company becomes a major Hollywood player running dozens of television networks alongside the Paramount+ and HBO Max streaming services, with combined streaming subscribers reported at more than 200 million.",
+      "why_it_matters": "Completion ends months of regulatory and financing uncertainty and creates one of the largest media and streaming groups globally, intensifying competition with Netflix and Disney for subscribers, advertising dollars and content spending across both legacy television and streaming.",
+      "summary_ja": "パラマウント・スカイダンスが、ワーナー・ブラザース・ディスカバリーの買収を完了した。買収額は約1100億ドル(約17兆円)。合併後の新会社は数十のテレビネットワークと、Paramount+およびHBO Maxの両配信サービスを運営する巨大メディア企業となり、配信の合計契約者数は2億人超と報じられている。",
+      "why_it_matters_ja": "買収完了により規制審査と資金調達面の不確実性に終止符が打たれ、世界最大級のメディア・配信グループが誕生した。従来型テレビと配信事業の両面で、Netflixやディズニーとの加入者獲得・広告収入・コンテンツ投資を巡る競争が一段と激しくなる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-04-0830",
+        "index": 1
+      },
+      "key": "paramount-warner-bros-merger",
+      "ids": [
+        "8e1169b92d197b",
+        "6c0ce2df0a5ec9",
+        "94d354b7ebce32"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/paramount-completes-us110-billion-warner-bros-merger-creating-hollywood-giant-skydance"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzX2s4OVhsLXM5RkxzQVpuT2pEc1JrVDNZS3JzZllNZE81Z0dHUDVFRkRiZk5WR0xNMUl4RmNnMjNJR19GVXJuUWh6MWxLRHhINDlYLQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWV9yMFQ4TjRuUlgyN25RLVV2UjY2WVNYcmNMSEFMMjNPMWRjekZ5NC11ZEJ0TGtfdU1yVnZLbzZCWmlYbzJRN2dsRXlCRzBOT1JxVV9SdjhicWszQ3k1a3lkNl9pX0pEcl9oSXRjT05CXzVFZ3RPTUVNTFZwS3hVaG5jSTRIZVFpMkZmeHpvZTBPOWJOOE1JZ3Bn0gGMAUFVX3lxTE91UVlqUlB1LWZDekdoQUhrSnZ5aWJVMk9YSEN5dGpvTHQxY2VqcnpHUHI0eFM3dEx5R05FTFVlX3JlYUhFeWZDaDlaa3JQSHhSWU9tcTlVSEdXZEZXMEdybUVxWkVEMHIwWHd6S1dCc0pGaUJsN2h5b0c5UDhGM2paV2FXbElzSmc2eFJl?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "SpaceX seeks to raise $40bn to fund Nvidia chip purchases, FT reports",
+      "summary": "SpaceX is seeking to raise about $40 billion, with the funds earmarked to buy Nvidia chips, the Financial Times reported. The report did not disclose further terms of the fundraising.",
+      "why_it_matters": "A raise of this size would rank among the largest private fundraisings this year and shows how even non-AI-native companies are now committing massive capital to secure scarce Nvidia compute capacity, a trend that keeps widening the pool of buyers bidding for the same constrained chip supply.",
+      "summary_ja": "スペースXが、エヌビディア製チップの購入資金として約400億ドルの調達を目指していると、フィナンシャル・タイムズが報じた。調達の詳細条件は明らかになっていない。",
+      "why_it_matters_ja": "この規模の資金調達が実現すれば今年最大級の民間調達の一つとなり、AI専業でない企業までがエヌビディアの希少な計算資源を確保するために巨額資本を投じている実態を示す。限られたチップ供給を奪い合う買い手の層は一段と広がっている。",
+      "status": "new",
+      "prev": null,
+      "key": "spacex-nvidia-chip-purchase-financing",
+      "ids": [
+        "3c8671b300a974"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/spacex-seeks-40-billion-buy-nvidia-chips-ft-reports-6437756"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Bain Capital, GIC weigh IPO or sale of Japan's WHI at about $3.2bn valuation",
+      "summary": "Bain Capital and Singapore's GIC are exploring an initial public offering or a sale of their Japanese portfolio company WHI at a valuation of about $3.2 billion, according to sources familiar with the matter. The two investors could still decide to retain ownership rather than exit, the sources said.",
+      "why_it_matters": "A $3.2 billion exit option underscores continued investor appetite for Japanese buyout assets and gives Bain and GIC optionality between a listing and a trade sale as they weigh the best route to realise value from a mature holding.",
+      "summary_ja": "ベイン・キャピタルとシンガポール政府系ファンドGICが、日本の投資先企業WHIについて新規株式公開(IPO)または売却を検討していることが関係者の話で分かった。評価額は約32億ドル。両社とも保有を継続する可能性もある。",
+      "why_it_matters_ja": "32億ドル規模のエグジット選択肢が浮かぶことは、日本のバイアウト資産に対する投資家の需要が続いていることを示す。ベインとGICは、成熟した投資先から最良の形で価値を実現するため、上場と相対売却のどちらを選ぶか見極める余地を得る。",
+      "status": "new",
+      "prev": null,
+      "key": "bain-gic-japan-whi-ipo-sale",
+      "ids": [
+        "bb5909e67f6a63"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/bain-gic-explore-ipo-or-sale-japans-whi-valuation-about-us3-2-billion-sources"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "SG",
+        "JP",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Uber to acquire corporate catering platform ezCater for $2.3bn",
+      "summary": "Uber has agreed to acquire ezCater, a US platform for workplace food delivery, for about $2.3 billion (roughly ¥360 billion). The deal is aimed at building corporate demand for Uber Eats.",
+      "why_it_matters": "The purchase pushes Uber Eats further into business-to-business catering, a higher-margin, recurring revenue segment that is less exposed to the discounting pressure seen in consumer food delivery, and gives Uber a direct line into corporate procurement budgets.",
+      "summary_ja": "ウーバーが、職場向け食事手配を手がける米ezCaterを約23億ドル(約3600億円)で買収することに合意した。狙いはUber Eatsの法人需要の取り込みだ。",
+      "why_it_matters_ja": "この買収でUber Eatsは企業向けケータリング事業への進出を強める。法人需要は消費者向けフードデリバリーに比べ値引き圧力が弱く、収益性と継続性に優れる分野であり、企業の調達予算への直接的な接点も得られる。",
+      "status": "new",
+      "prev": null,
+      "key": "uber-ezcater-acquisition",
+      "ids": [
+        "413636804b0891",
+        "f7cdb2d1f6b725"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04S242T3NnWkdtTkZvMmJ5SDkyMmJNR1h4Zi1BSmR5dTVQVlRRV0lpeF9SWEhtVWZyTFVvcUNBRmtjSXRqb3NoX2ROSTBtOG9jWWNn?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2LWVxNWtoSlFROVB1QlRrektHUVo4QTFITWZHbUlSclUxZGsyRndOcGtyN1ROYnFnMkMtdkJqNkx6ZjZpeF9WQTBJLUg1OGM2V3ZXem53WnVfZ1ZpX2NFSUdDU3VONy00M3UwVw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Kanadevia and Nippon Steel Engineering abandon merger talks",
+      "summary": "Kanadevia and Nippon Steel Engineering have called off talks to integrate under a joint holding company, after the two sides were unable to reach agreement on the conditions of the deal.",
+      "why_it_matters": "The breakdown underscores how hard it remains to align boardroom and shareholder expectations on terms even when the strategic rationale for consolidating overlapping industrial businesses is clear, and may revive speculation about alternative partners or standalone restructuring plans for both firms.",
+      "summary_ja": "カナデビアと日鉄エンジニアリングが、共同持株会社設立による経営統合に向けた協議を断念した。諸条件で合意に至らなかったという。",
+      "why_it_matters_ja": "統合の戦略的合理性が明確であっても、取締役会や株主の期待を条件面で一致させるのがいかに難しいかを示す決裂だ。両社がそれぞれ別の提携先を探るか、あるいは単独での再編を模索する思惑が再び強まる可能性もある。",
+      "status": "new",
+      "prev": null,
+      "key": "kanadevia-nippon-steel-engineering-merger-collapse",
+      "ids": [
+        "3ef4d203f6792f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYcGZORWN4Y3RmUnNjZGdyeU9OcjFGVUtOc0FlaWdSSDdDTVZmSFZULXNTTHlJR1pYY2hneHJLY3FQb1ZUWXZfZUtZbVdjUDNkakhhNm01RlZfLWdNN3hwSTlQRzdqWTBzTXp5UFhjNlFvd0dCaXdBc09lVQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Tokyo court strikes down Toho Holdings' takeover defences; company appeals",
+      "summary": "A Tokyo court ruled that Toho Holdings' takeover-defense measures are not necessary, a decision reported as a possible tailwind for an activist shareholder building a stake in the company. Toho Holdings has since filed an appeal against the injunction with the Tokyo District Court, contesting the ruling.",
+      "why_it_matters": "A court siding against a target's defence measures narrows the legal toolkit Japanese boards can use against activist pressure, a closely watched test case given how often takeover defences are now being challenged as shareholder activism rises across corporate Japan.",
+      "summary_ja": "東京地裁が、東邦ホールディングスの買収防衛策について「必要性」を認めない判断を示した。物言う株主への追い風との見方も報じられている。東邦HDはこの差し止めを不服として、東京地裁に異議を申し立てた。",
+      "why_it_matters_ja": "買収防衛策を否定する司法判断が出たことで、日本企業が物言う株主の圧力に対抗できる法的手段は狭まる。企業統治を巡るアクティビズムが拡大し、買収防衛策そのものが争われる場面が増える中、注目度の高い先例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "toho-holdings-takeover-defense-ruling",
+      "ids": [
+        "80ba8ab6af4376",
+        "325c4a5e838139"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82S0F0VS1uVmpZbjZYS1VnbHBlVTEzZmhmRHRrTFFESzJRTkxobWZST1pEQzdJdW9VYUFHcHRac0QzUDk5TmF3OVNMR3BUek9uaENYcDI5MGdrSmRfS1RRSUFUcWVjYnZsbUdzUzdXZjhhWnpXQ2RPX2Q2Z0M?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8xczZSUG84aVVzVkJ4VkZsOGRDaWxJRmRQc1htZC1uMjdTTGp2dmlYVEdGNXBRYTdMMGY5c2hZYVBWMkRfeWl6bg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other",
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "CVC raises buyout offer for Recordati to €53 a share, extends acceptance period",
+      "summary": "CVC Capital Partners has raised its takeover offer for Italian pharmaceutical group Recordati to €53 per share and extended the tender offer's acceptance period, as the private equity firm pushes to complete its buyout of the company.",
+      "why_it_matters": "A sweetened, extended offer suggests CVC is working to secure sufficient shareholder acceptances to complete the take-private, a dynamic increasingly common in contested or slow-moving European buyouts this year as sponsors fight harder for the acceptance thresholds needed to delist targets.",
+      "summary_ja": "CVCキャピタル・パートナーズが、イタリアの製薬大手レコルダティに対する買収提示額を1株53ユーロに引き上げ、応募期間を延長した。同社による非公開化の完了に向けた動きとみられる。",
+      "why_it_matters_ja": "提示額の上積みと期間延長は、CVCが非公開化を完了させるのに十分な応募を確保しようとしていることを示す。今年の欧州バイアウトでは、上場廃止に必要な応募水準を確保するためスポンサー側が攻勢を強める案件が目立つ。",
+      "status": "new",
+      "prev": null,
+      "key": "recordati-cvc-buyout-offer-increase",
+      "ids": [
+        "c01d01519d5929"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52SDhDSHZVQWVuaFlrSnBqY0RiTzJ3a1Y1aS0xSVNBS184bTNmMGd1THZFQlNmVzVlZkxVc1FZVVJBeXhOUnVBMkxBUFExZDBEcVhoVmFrc2c3TkVydzJKSXlZYmVib1lXeHh1VldhMzV5RUZUMEJB?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Alto to acquire Forge Trust from Schwab, forming $20bn+ IRA custody platform",
+      "summary": "Alto has agreed to acquire Forge Trust from Charles Schwab, combining the two businesses into a self-directed IRA platform with more than $20 billion in assets under custody and administration. The companies describe the deal as targeting the retirement-account route into a $32 trillion private markets opportunity.",
+      "why_it_matters": "Bundling custody, compliance and investment infrastructure into one retirement-account platform could widen the on-ramp for individual investors into private markets, a segment that has so far been dominated by institutional and high-net-worth capital, and signals that custodians see retirement accounts as a credible distribution channel for alternative assets.",
+      "summary_ja": "Altoが、チャールズ・シュワブからForge Trustを買収することで合意した。両事業を統合し、運用・管理資産が200億ドルを超える自己管理型IRA(個人退職年金)向けプラットフォームを構築する。両社はこれを、32兆ドル規模とされるプライベート市場機会への退職口座を通じた入り口と位置づけている。",
+      "why_it_matters_ja": "カストディ、コンプライアンス、投資インフラを一つの退職口座プラットフォームに統合することで、これまで機関投資家や富裕層中心だったプライベート市場への個人投資家の参入余地が広がる可能性がある。カストディ事業者が退職口座をオルタナティブ資産の有力な販売チャネルとみなし始めている表れでもある。",
+      "status": "new",
+      "prev": null,
+      "key": "alto-forge-trust-schwab-acquisition",
+      "ids": [
+        "dbce17cc11cc33"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/alto-to-acquire-forge-trust-from-schwab-creating-the-category-defining-platform-for-private-market-investing-through-retirement-accounts-302899762.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Blackstone-backed ASK Alternates raises $52m for second India private credit fund",
+      "summary": "ASK Alternates, an India-focused private credit manager backed by Blackstone, has raised $52 million for its second private credit fund. No further terms of the raise were disclosed.",
+      "why_it_matters": "The raise adds to the steady build-out of India's private credit market, where local managers continue to draw global sponsor backing to fund mid-market borrowers that remain underserved by traditional bank lending, even as the individual fund sizes involved stay modest next to global private credit vehicles.",
+      "summary_ja": "ブラックストーンが支援するインドのプライベートクレジット運用会社ASK Alternatesが、2号目のプライベートクレジットファンドで5200万ドルを調達した。調達の詳細条件は明らかにされていない。",
+      "why_it_matters_ja": "今回の調達は、インドのプライベートクレジット市場が着実に拡大していることを示す。現地の運用会社は、銀行融資が十分に行き届かない中堅企業の資金需要を取り込むため、グローバルスポンサーの支援を得続けている。個別ファンドの規模自体は、グローバルのプライベートクレジット運用額に比べればなお小さい。",
+      "status": "new",
+      "prev": null,
+      "key": "ask-alternates-private-credit-fund-raise",
+      "ids": [
+        "6756c776579632"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT2xLQmtKSW5OeHdrM0xvTmVjc0dTNjRnTUtMQkl6RFg2azZ2V3lROWhUXzZ0WUZpbUstNmlYSVptU05Va3NBWlFVS0hUb3BLSmtGVzB4d2FyenMtNnhfZ1FFbHVrMFpqT0p5TVRIdTI2UDd6RVYxWGlHTGw5OTJhVQ?oc=5"
+        }
+      ],
+      "categories": [
+        "PE",
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Sapporo drugstore operator Satudora Holdings to delist next month via MBO",
+      "summary": "Satudora Holdings, the Hokkaido-based drugstore chain operator, is set to delist from the Tokyo Stock Exchange next month through a management buyout.",
+      "why_it_matters": "The MBO adds to a steady run of Japanese retailers and regional operators going private this year, often to pursue restructuring away from the pressure of quarterly public-market scrutiny and short-term shareholder demands, while management retains control of strategy.",
+      "summary_ja": "北海道を拠点とするドラッグストア運営会社サツドラホールディングスが、マネジメント・バイアウト(MBO)により来月、上場廃止となる見通しだ。",
+      "why_it_matters_ja": "今回のMBOは、今年相次ぐ日本の小売・地方企業の非公開化の流れに加わるものだ。四半期ごとの市場からの監視圧力や株主の短期的な要求を離れ、経営陣が戦略の主導権を保ったまま再編を進める狙いが多い。",
+      "status": "new",
+      "prev": null,
+      "key": "satudora-holdings-mbo-delisting",
+      "ids": [
+        "9e2d3f6ac1fa44"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1RmJsTEk5YWtBM0dWODZqdV9PNkxDemNjNEhoQ1k2UElFd2xHQU9CRjUzLUlWWng3YW1pd3Fza1phRFRTMm5yemF4R3VSajVhYmNnbkJ1a2t3dw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
