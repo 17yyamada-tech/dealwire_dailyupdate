@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-08T00:48:55Z",
+ "checked_at": "2026-10-08T04:49:59Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -73,12 +73,44 @@
  ],
  "since": [
   {
+   "date": "2026-10-07",
+   "headline": "UKMTO: tanker off Qatar struck by multiple projectiles, agency urges caution transiting the Strait of Hormuz",
+   "summary": "UKMTO reported that a tanker off Qatar was struck by multiple unidentified projectiles and advised vessels transiting the Strait of Hormuz to proceed with caution and report suspicious activity.",
+   "summary_ja": "英海事当局UKMTOは、カタール沖でタンカー1隻が複数の不明な飛来物による攻撃を受けたと報告し、ホルムズ海峡を航行する船舶に注意しての航行と不審な動きの通報を呼びかけた。",
+   "source": "Times of Israel",
+   "url": "https://www.timesofisrael.com/liveblog-october-07-2026/"
+  },
+  {
+   "date": "2026-10-07",
+   "headline": "VLCC spot rate to ship US crude to Asia hits $77 million, nearly 8x the 2025 average, as Hormuz disruption persists",
+   "summary": "Bloomberg reported that the cost to hire a very large crude carrier to move US oil to Asia reached $77 million, according to Baltic Exchange data, compared with a 2025 average of $9.2 million, as the Strait of Hormuz disruption kept tanker shipping costs at record highs.",
+   "summary_ja": "ブルームバーグの報道によると、バルチック海運取引所のデータでは、米国産原油をアジアへ輸送するVLCC(超大型原油タンカー)の用船料が7700万ドルに達した。2025年の平均は920万ドルで、ホルムズ海峡の混乱を受けタンカーの海運コストは記録的な高水準を維持している。",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/oil-shipping-costs-reach-dizzying-new-highs-on-hormuz-snarls"
+  },
+  {
+   "date": "2026-10-07",
+   "headline": "NBC News: at least 12 tanker attacks near Strait of Hormuz in week to October 5, the most intense week of the war",
+   "summary": "NBC News reported that maritime security trackers counted at least 12 attacks on oil, LNG and LPG tankers around the Strait of Hormuz in the week of September 28 to October 5, 2026, the most intense week for such attacks since the Iran war began, even as oil exports from the region have risen.",
+   "summary_ja": "NBCニュースの報道によると、海事セキュリティー調査機関の集計で、2026年9月28日から10月5日の週にホルムズ海峡周辺で原油・LNG・LPGタンカーへの攻撃が少なくとも12件発生した。これはイラン戦争開始以降で最も攻撃が激しかった週であり、同地域からの原油輸出は増加しているという。",
+   "source": "NBC News",
+   "url": "https://www.nbcnews.com/business/energy/hormuz-oil-exports-increase-ship-attacks-rcna601597"
+  },
+  {
    "date": "2026-10-06",
    "headline": "Hormuz vessel transit collapses to 5% of pre-crisis traffic even as non-Iran Mideast oil exports top pre-war levels",
    "summary": "CNBC reported, citing maritime tracker Kpler, that commercial transit through the Strait of Hormuz fell to about 5% of pre-crisis levels on October 4 (four vessels versus a typical 85 per day), even as Middle East oil exports excluding Iran surpassed pre-war levels over the preceding week despite continued tanker attacks.",
    "summary_ja": "CNBCが海事データ企業Kplerの情報として報じたところによると、ホルムズ海峡の商業船舶の通航量は10月4日時点で危機前の約5%(通常85隻に対し4隻)まで落ち込んだ一方、タンカー攻撃が続く中でもイラン産を除く中東の石油輸出は前週に開戦前の水準を上回った。",
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+  },
+  {
+   "date": "2026-10-05",
+   "headline": "Saudi Aramco CEO Amin Nasser warns global oil stockpiles are 'scarily thin'",
+   "summary": "Saudi Aramco chief executive Amin Nasser said global oil stockpiles are 'scarily thin,' a remark reported by Bloomberg amid the continuing Strait of Hormuz disruption to oil shipping.",
+   "summary_ja": "サウジアラムコのアミン・ナーセルCEOは、世界の石油在庫が「恐ろしく薄い」状態にあると述べた。ホルムズ海峡の混乱が原油輸送に影響を及ぼし続ける中でのブルームバーグへの発言である。",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/oil-gains-as-iran-ramps-up-pace-of-attacks-on-tankers-in-strait"
   },
   {
    "date": "2026-10-05",
