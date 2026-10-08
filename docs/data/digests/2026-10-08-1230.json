@@ -1,0 +1,152 @@
+{
+  "edition": "2026-10-08-1230",
+  "edition_label": "8 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T04:36:15Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Ellison family's stake in Paramount Skydance's Warner Bros Discovery deal disclosed at about ¥2.7 trillion",
+      "summary": "Public filings show the Ellison family's investment in Paramount Skydance's acquisition of Warner Bros Discovery was about ¥2.7 trillion, the first disclosure quantifying the family's own stake in the deal that closed earlier this month.",
+      "why_it_matters": "The figure shows how much of the record studio takeover is backed by the Ellison family's own capital rather than outside investors, adding detail to a financing structure that had closed without that number public.",
+      "summary_ja": "公開資料により、パラマウント・スカイダンスによるワーナー・ブラザーズ・ディスカバリー買収におけるエリソン一族の出資額が約2.7兆円であることが分かった。今月完了したこの買収において、同一族自身の出資規模が数字で示されたのは今回が初めて。",
+      "why_it_matters_ja": "この数字は、今回の大型スタジオ買収がどの程度エリソン一族自身の資本によって支えられているかを示すものであり、すでに完了していた資金構成に新たな具体的な情報を加えるものである。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-07-0830",
+        "index": 0
+      },
+      "key": "paramount-warner-bros-merger",
+      "ids": [
+        "f7c75a6f1171ca"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNnZPNDFhTlRnNUJWRU1oUlpZZXFxVGRzVjUwU3RYa2xMbzl3cVBnV01BX28wYUphSGgydHZCZURoOU8yakNneS05UHhvcWprc2xvUldsOW13ZnZ1azd3QUtVRTRpTlRRZF90cTR4VkZJbFZRSFYydnctOWI2RFlscVV3N2tNTHM2czhKcS13?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "SK Hynix's Solidigm picks Goldman Sachs, Morgan Stanley for ~$10bn 2027 US IPO",
+      "summary": "SK Hynix's NAND flash memory unit Solidigm has picked Goldman Sachs and Morgan Stanley to work on a US initial public offering targeted for 2027, aiming to raise around $10 billion, according to a report.",
+      "why_it_matters": "A roughly $10 billion listing would rank among the largest tech IPOs in years, giving SK Hynix a path to crystallize value from a NAND flash unit sitting at the center of the current AI-driven memory boom.",
+      "summary_ja": "SKハイニックス傘下のNAND型フラッシュメモリ事業Solidigmが、2027年を目標とする米国での新規株式公開に向けてゴールドマン・サックスとモルガン・スタンレーを起用したと報じられた。調達目標額は約100億ドルとされる。",
+      "why_it_matters_ja": "約100億ドル規模の上場が実現すれば近年のテクノロジー企業IPOとして最大級となり、SKハイニックスはAI主導のメモリ好況の中心にあるNANDフラッシュ事業の価値を現金化する道を得る。",
+      "status": "new",
+      "prev": null,
+      "key": "sk-hynix-solidigm-ipo",
+      "ids": [
+        "219b7af2709f25"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/sk-hynixs-flash-memory-unit-solidigm-said-pick-banks-us-ipo-2027"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Crypto platforms Orca and Loopscale merge to form Formation, target AI-era capital markets",
+      "summary": "Orca and Loopscale have merged to operate as Formation, combining their trading, credit and vault infrastructure built for crypto markets. The combined platform aims to expand access to capital for AI, robotics and other frontier industries.",
+      "why_it_matters": "The deal consolidates two crypto infrastructure platforms into a single capital-markets business just as AI and robotics companies look for new, faster channels to raise funding outside traditional lenders.",
+      "summary_ja": "暗号資産プラットフォームのOrcaとLoopscaleが合併し、Formationとして事業を統合した。両社が手掛けていた取引・クレジット・保管(ヴォールト)インフラを組み合わせ、AIやロボティクスなどフロンティア産業への資金アクセス拡大を狙う。",
+      "why_it_matters_ja": "この統合により、暗号資産向けの2つのインフラ基盤が一つのキャピタル・マーケッツ事業にまとまる。AIやロボティクス企業が従来型の貸し手以外によるより速い資金調達手段を求める中での動きである。",
+      "status": "new",
+      "prev": null,
+      "key": "orca-loopscale-formation-merger",
+      "ids": [
+        "e8c106e9ede616"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/orca-and-loopscale-merge-to-build-capital-markets-for-ai-and-the-frontier-economy-302901726.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Singapore's Anyflo emerges from stealth, acquires Native to build stablecoin payments platform",
+      "summary": "Singapore-based Anyflo has emerged from stealth after acquiring Native, a Sui-ecosystem project, in an acqui-hire aimed at simplifying stablecoin payments for enterprises. Anyflo is led by Lola Oyelayo-Pearson, previously of Shopify, Capital One and Mysten Labs, and plans to enter private alpha in October.",
+      "why_it_matters": "The deal adds blockchain engineering talent and technology to a new enterprise stablecoin payments platform just as stablecoins gain traction as a settlement rail for cross-border business payments.",
+      "summary_ja": "シンガポールのAnyfloが、SuiエコシステムのプロジェクトであるNativeをアクハイア(人材獲得型買収)で取得し、ステルス状態から姿を現した。企業向けステーブルコイン決済の簡素化を狙う。AnyfloはShopify、Capital One、Mysten Labs出身のLola Oyelayo-Pearson氏が率い、10月にプライベートアルファ版を開始する計画。",
+      "why_it_matters_ja": "この買収により、新たな企業向けステーブルコイン決済プラットフォームにブロックチェーン技術者と技術基盤が加わる。国境を跨ぐ企業間決済の決済手段としてステーブルコインの利用が広がりつつある局面での動きである。",
+      "status": "new",
+      "prev": null,
+      "key": "anyflo-native-stablecoin-acquihire",
+      "ids": [
+        "fecc763131c4e2"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/anyflo-emerges-from-stealth-with-acquisition-of-native-to-simplify-stablecoin-payments-for-enterprises-302901053.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Indonesia's Cicil to buy 30% stake in Pool Advista, moves beyond P2P lending",
+      "summary": "Indonesian fintech Cicil has agreed to acquire a 30% stake in Pool Advista, part of a push to expand beyond its peer-to-peer lending business.",
+      "why_it_matters": "The stake purchase signals an Indonesian consumer-lending fintech diversifying beyond its core P2P business into new revenue lines, a common move as the sector matures.",
+      "summary_ja": "インドネシアのフィンテック企業Cicilが、Pool Advistaの株式30%を取得することで合意した。中核であるP2P（個人間）融資事業を超えて事業領域を広げる動きの一環。",
+      "why_it_matters_ja": "このP2P融資専業からの事業多角化は、インドネシアの消費者向け融資フィンテックが新たな収益源を模索する動きを映すものであり、同分野が成熟する中でよくみられる展開である。",
+      "status": "new",
+      "prev": null,
+      "key": "cicil-pool-advista-stake",
+      "ids": [
+        "77746f7c0f48b5"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tVzJtRlpXcjd0OUdEdkhYcDBTRzhYdjRBbExLNTN0RnF2bno1eFA1Njd4NF8yczRJU09aaGRMVnhZVldvdk1yWml4NVNCY2YwSGJSZUVNbzZSb3lpSkZYd0swTVRLVWJLWWtJOWlKbkFleGV0b3VMWjRZd1k?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

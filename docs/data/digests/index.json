@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-08-1230",
+      "label": "8 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-08T04:36:15Z",
+      "items": 5,
+      "headlines": [
+        "Ellison family's stake in Paramount Skydance's Warner Bros Discovery deal disclosed at about ¥2.7 trillion",
+        "SK Hynix's Solidigm picks Goldman Sachs, Morgan Stanley for ~$10bn 2027 US IPO",
+        "Crypto platforms Orca and Loopscale merge to form Formation, target AI-era capital markets"
+      ]
+    },
+    {
       "id": "2026-10-08-0830",
       "label": "8 Oct 2026 · 08:30 SGT",
       "generated_at": "2026-10-08T00:40:00Z",
