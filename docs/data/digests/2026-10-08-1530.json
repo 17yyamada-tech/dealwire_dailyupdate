@@ -1,0 +1,96 @@
+{
+  "edition": "2026-10-08-1530",
+  "edition_label": "8 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T07:37:35Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "OUE Reit confirms IOI Properties, CapitaLand in exclusive talks for One Raffles Place",
+      "summary": "IOI Properties Group and CapitaLand Investment have submitted a joint bid for One Raffles Place, with OUE Reit and UOB accepting the offer for exclusive due diligence. OUE Reit confirmed the talks on Thursday, saying no binding deal has been reached and there is no certainty a transaction will materialise.",
+      "why_it_matters": "A combined IOI-CapitaLand purchase would be one of the largest Singapore office deals under negotiation this year, testing investor appetite for core CBD towers as rates weigh on valuations.",
+      "summary_ja": "IOIプロパティーズとキャピタランド・インベストメントは、ワン・ラッフルズ・プレイスの共同買収案を提示し、OUEリートとUOBはこれを受け入れて独占的なデューデリジェンスに入った。OUEリートは木曜日に協議の存在を認めたが、拘束力のある合意には至っておらず、取引が成立する確証はないとしている。",
+      "why_it_matters_ja": "IOIとキャピタランドの共同買収が成立すれば、今年交渉中のシンガポールのオフィス取引としては最大級となる。金利上昇で評価が重石を受ける中、中心業務地区の優良物件への投資家の需要が試される。",
+      "status": "new",
+      "prev": null,
+      "key": "oue-reit-one-raffles-place-ioi-capitaland-talks",
+      "ids": ["889dbfd565305f", "b282ad2e834ca0"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/property/ioi-properties-and-capitaland-investment-closer-acquiring-one-raffles-place-joint-bid"},
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/property/oue-reit-confirms-ioi-properties-capitaland-talks-one-raffles-place-says-no-binding-deal-reached-yet"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Real Estate"]
+    },
+    {
+      "headline": "Taxi startup newmo signs deal for Hokkaido's Ebetsu Hire, launches Sapporo service",
+      "summary": "Ride-hailing startup newmo Group has signed a contract to acquire shares in Ebetsu Hire, a Hokkaido taxi operator, as it begins operating in the Sapporo area.",
+      "why_it_matters": "The deal underscores how taxi-industry consolidation is spreading beyond Japan's biggest cities as ride-hailing platforms seek local licences and fleets region by region.",
+      "summary_ja": "タクシー配車の新興企業newmoグループは、北海道のタクシー会社・江別ハイヤーの株式取得に関する契約を締結し、札幌圏での運行を開始した。",
+      "why_it_matters_ja": "配車プラットフォームが地域ごとに免許と車両を確保する動きが広がり、タクシー業界の統合が大都市圏にとどまらず波及していることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "newmo-ebetsu-hire-taxi-acquisition",
+      "ids": ["3d4cdb8a91dbb9", "79a944d911a43a"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jSVhPRkFNM0c1c0xlNWEwUU1MQW84SkdDQmphdW91OWcxWW9XV1BjNXYzdDQxRndodzNET0k0enZDQmVPdVlLNHZWRllzaVVqdUM1YUYwMjVrbnhvVnYxYzkyNmlDQWRzalE?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwWmdpZEZpSFgzSTNMZUdiOWU5dWFqQmZhTXZ5eWgyYWtIZHlOMDRjLTk2b201MnVVc3Rpc2FNaFNWcjZrRmx5dS1hTDhFRXRMNjNwNlVkWVJSUQ?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Stripe agrees to acquire Parafin",
+      "summary": "Payments group Stripe has agreed to acquire Parafin, according to a Japanese-language M&A disclosure. Deal terms were not disclosed in the available reporting.",
+      "why_it_matters": "The deal signals Stripe's continued push into financial-services capabilities that go beyond its core payments-processing business.",
+      "summary_ja": "決済大手ストライプは、Parafinの買収に合意したと日本語のM&A情報で報じられた。買収条件は現時点の報道では明らかにされていない。",
+      "why_it_matters_ja": "この買収は、ストライプが中核の決済処理事業にとどまらず、金融サービス機能の拡充を続けていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "stripe-parafin-acquisition",
+      "ids": ["55087ca2527a09"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtZnZ2MThjZjllSWxnYkNNdWJ1am9qeURwUjFieTY4RWhzdFRuREV1cWJ6UXRIRENxTG5WbjB0d2tzZzVycUplMVJ5cnZicWdGdGtxZFVFWElYdU0wTFNZbk1ROUphcjRKNUE?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Malaysian chip firm SQAI plans $73m IPO at up to RM1.5b valuation",
+      "summary": "Penang-based chip firm SQAI is planning a roughly $73 million initial public offering in early 2027, people familiar with the matter say. The firm may seek a valuation of up to RM1.5 billion.",
+      "why_it_matters": "A listing would add to a run of Southeast Asian semiconductor IPOs as investors chase exposure to the region's expanding role in chip supply chains.",
+      "summary_ja": "マレーシア・ペナン拠点の半導体企業SQAIは、2027年初めに約7300万ドル規模の新規株式公開(IPO)を計画していると事情に詳しい関係者が明らかにした。同社はRM15億までの企業価値を目指す可能性がある。",
+      "why_it_matters_ja": "上場が実現すれば、東南アジアの半導体サプライチェーンでの存在感拡大に投資家が注目する中、同地域の半導体関連IPOの流れに加わることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "sqai-ipo-plan",
+      "ids": ["21333aef8e25b7"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/international/asean/malaysian-chip-firm-sqai-said-plan-us73-million-ipo-early-2027"}
+      ],
+      "categories": [],
+      "countries": ["SEA"],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "France's Sesterce plans $11bn AI investment in Finland",
+      "summary": "French AI infrastructure group Sesterce is planning an $11 billion investment in artificial-intelligence capacity in Finland.",
+      "why_it_matters": "The project would rank among the largest AI-infrastructure commitments in the Nordics, as AI data-centre investment continues to shift toward markets offering cheaper power.",
+      "summary_ja": "フランスのAIインフラ企業セスターシュは、フィンランドで110億ドル規模の人工知能向け投資を計画している。",
+      "why_it_matters_ja": "実現すれば北欧地域で最大級のAIインフラ投資となる。AI向けデータセンター投資が、電力コストの低い市場へと重心を移していることを示す一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "sesterce-finland-ai-investment",
+      "ids": ["445f46c5a6fdcb"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726"}
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": ["AI & Semis", "TMT"]
+    }
+  ]
+}

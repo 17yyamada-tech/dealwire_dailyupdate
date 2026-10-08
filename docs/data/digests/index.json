@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-08-1530",
+      "label": "8 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-08T07:37:35Z",
+      "items": 5,
+      "headlines": [
+        "OUE Reit confirms IOI Properties, CapitaLand in exclusive talks for One Raffles Place",
+        "Taxi startup newmo signs deal for Hokkaido's Ebetsu Hire, launches Sapporo service",
+        "Stripe agrees to acquire Parafin"
+      ]
+    },
+    {
       "id": "2026-10-08-1230",
       "label": "8 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-08T04:36:15Z",
