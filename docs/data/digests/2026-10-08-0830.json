@@ -1,0 +1,309 @@
+{
+  "edition": "2026-10-08-0830",
+  "edition_label": "8 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T00:40:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Activist investor Oasis urges Nidec to start going-private review",
+      "summary": "Oasis Management, which holds a large stake in Nidec, said it is deeply disappointed as a shareholder and formally asked the company to begin an initial review of taking itself private. Oasis cited the risk of delisting tied to Nidec not issuing an unqualified audit opinion, arguing the company needs to prepare for that possibility rather than risk an unintended delisting.",
+      "why_it_matters": "A push from an activist holder for a go-private review at one of Japan's largest industrial groups would be one of the country's largest take-private situations if it advances, and raises the stakes around Nidec's unresolved audit issue, which has already weighed on the stock and on governance confidence.",
+      "summary_ja": "ニデック株を大量保有する物言う株主のオアシス・マネジメントは、株主として「深く失望した」と表明し、同社に非公開化に向けた初期的な検討を速やかに始めるよう正式に要請した。オアシスは監査意見の不表明に伴う上場廃止リスクを指摘し、意図しない上場廃止を避けるためにも同社がその事態に備える必要があると主張している。",
+      "why_it_matters_ja": "日本有数の総合電機メーカーで物言う株主が非公開化の検討を求めたことは、実現すれば国内最大級の非公開化案件となり得るほか、株価やガバナンスへの信頼にも影を落としているニデックの未解決の監査問題を巡る緊張を一段と高める。",
+      "status": "new",
+      "prev": null,
+      "key": "oasis-nidec-go-private-request",
+      "ids": [
+        "47cdb298450a02",
+        "80b95c15f4c000",
+        "20e02e4b34db92"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wZEVMcmNibjVzWDJEOHFIRk5Rem5ISWdJNVV0bDNlTUtmcEIwcExIUEtyNmNwa0VyNVBvalBXVFpFc2tCRU8wT0lKbFJXU3RLdEU0UlRYaE1fQQ?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBLczdiWmhXVkxwRVljRm1wRWwzSmRvTk5ZRDQ3SG9HaExnRzFVODRmM0NIaUFZdzBkaWR3dUw2NkxsMVRBMkFXOHlCTEE2NXhWTDQ1Z3llUG94eG44Ny1fOThlMmZWMUduR183ellJZXRKXy1wYmsyalBn0gF_QVVfeXFMTzhCaVB2SGM2ZEp1R0lMWktlMl80aHNGN0RUMmJ0dkJCT2NuRDd3ckxHbEZlNjVmWVNETlRHVFlUeFpDQkxIZkZIZXhOQmhwOExpU2VhN2lMaWU0QndOVXNoVEJoVmkxS0dlQV8tTWxwYldvVGNVaHhBOEMyb29rOA?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NdG5rRnRHaFIwbUp1QUJoejQteWJPREtYWUEtS3ZnZ2kwLTJPYjlHZ0cyOThxZE9CbWZwbUJaQlMyc0dzcV9JZG9RS1JMbFhiSmtOanJDTFBxR21IN1ZCM3ZOek91TXJ5anVmNUFzeGJZbWF4?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Hikari Tsushin launches ¥267.6 billion tender offer for Leopalace21, success in doubt",
+      "summary": "Hikari Tsushin has proceeded with its previously signaled tender offer for Leopalace21, worth about ¥267.6 billion. Leopalace21 shares hit their daily limit up on the news, and reports flagged a risk that the tender offer may not reach completion at the terms set.",
+      "why_it_matters": "The jump to the daily limit suggests the market sees value above the offer price, raising the chance Hikari Tsushin has to sweeten terms or walk away from a deal that looked settled a week ago.",
+      "summary_ja": "光通信はレオパレス21に対し、以前から示唆していた総額約2676億円のTOB（株式公開買付け）を実際に開始した。この発表を受けてレオパレス21株はストップ高となったが、現在の条件ではTOBが不成立となるリスクも指摘されている。",
+      "why_it_matters_ja": "株価がストップ高まで買われたことは、市場が買付価格を上回る価値を見込んでいることを示しており、1週間前には決着したかに見えたこの案件で、光通信が条件を引き上げるか撤退を迫られる可能性を高めている。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-01-0830",
+        "index": 0
+      },
+      "key": "hikari-tsushin-leopalace21-tob",
+      "ids": [
+        "8564efddb96f0e"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HekdoMUFnNGNKU2x5TjI4aFFaQm5QNFM4NWhMLVVKeWlzNThQeGNSSkhCYUFMeFdacm5qYzRoWE9kUklYc2dNOEhoTXphYk4wdjVRSktNMVdGaG5zSnJaRlU3aFRaSlJWMHc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "ANTA Sports completes purchase of 29.06% Puma stake, becomes top shareholder",
+      "summary": "ANTA Sports has completed its acquisition of a 29.06% stake in Puma, making it the German sportswear group's largest shareholder. ANTA said the deal supports its globalization strategy and will help unlock Puma's potential across global markets, including China, by drawing on complementary strengths and its multi-brand management experience.",
+      "why_it_matters": "Holding the largest stake gives China's biggest sportswear group direct influence over a major Western rival just as it pushes deeper into international markets, and tests how far a Chinese strategic owner can go in reshaping a storied European brand.",
+      "summary_ja": "アンタ・スポーツは独プーマの株式29.06％の取得を完了し、同社の筆頭株主となった。アンタは、この買収が自社のグローバル化戦略を後押しするとともに、両社の強みの補完性とマルチブランド経営の経験を活かし、中国を含む世界市場でプーマの潜在力を引き出す一助になるとしている。",
+      "why_it_matters_ja": "中国最大のスポーツ用品会社が欧州の名門ブランドの筆頭株主となったことで、海外展開を加速させる同社が西側のライバルブランドに直接的な影響力を持つことになり、中国系の戦略株主がどこまで欧州ブランドの変革に踏み込めるかが問われる。",
+      "status": "new",
+      "prev": null,
+      "key": "anta-sports-puma-stake-completion",
+      "ids": [
+        "a7540ed7d729ba"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/anta-sports-completes-acquisition-of-29-06-stake-in-puma-becomes-largest-shareholder-302901071.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "Hong Kong fund rejects Kobayashi Pharmaceutical founding family's buyout approach",
+      "summary": "A Hong Kong-based fund has turned down a buyout approach from Kobayashi Pharmaceutical's founding family, in a deal that could have totaled more than ¥500 billion. The rejection leaves the founding family's take-private plan for the Japanese drugmaker without the fund's backing, at least for now.",
+      "why_it_matters": "Without the fund's support, the founding family faces a harder path to privatizing Kobayashi Pharmaceutical at the scale reported, and the standoff could invite rival approaches or force the family to look for a different partner.",
+      "summary_ja": "香港系ファンドは、小林製薬の創業家が提案した買収案を拒否した。買収総額は5000億円を超える可能性があったとされ、創業家による非公開化計画は、少なくとも現時点ではこのファンドの支持を得られない状態となっている。",
+      "why_it_matters_ja": "ファンドの支援を失ったことで、創業家が報じられた規模で小林製薬を非公開化するハードルは一段と高まり、対立が続けば他の買収提案を招くか、創業家が別の提携先を探さざるを得なくなる可能性もある。",
+      "status": "new",
+      "prev": null,
+      "key": "kobayashi-pharma-family-buyout-rejected",
+      "ids": [
+        "72f3d88c4a6eae"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wbDBtWWg0dFRnbWRWYnNUel9xc3U0anN2Y2JPR2ExeThNTGYyT3Z5c001OElvMFZ2UldMYnVEazFhZDgxLTJEdEZCYw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN",
+        "JP"
+      ],
+      "sectors": [
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Germany blocks China's COSCO from buying German logistics firm",
+      "summary": "The German government has blocked a bid by China's COSCO to acquire a German logistics company, citing national-security concerns. Reports linked the block to worries about potential disruption to supply chains if the Chinese shipping group had taken control.",
+      "why_it_matters": "The block adds to a run of European pushback on Chinese acquisitions in transport and logistics infrastructure, and signals that scrutiny of COSCO's overseas expansion is not easing.",
+      "summary_ja": "ドイツ政府は、中国コスコ（COSCO）によるドイツの物流会社買収を、安全保障上の懸念を理由に阻止した。報道では、この中国海運大手が経営権を握ればサプライチェーンが混乱しかねないとの懸念が、今回の決定と結び付けられている。",
+      "why_it_matters_ja": "今回の阻止は、運輸・物流インフラにおける中国企業の買収に対する欧州の警戒の高まりを示すものであり、コスコの海外展開への監視が緩んでいないことを浮き立たせる。",
+      "status": "new",
+      "prev": null,
+      "key": "germany-cosco-logistics-block",
+      "ids": [
+        "4e6e65606aa4d7",
+        "ae35e97af85ea1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3c0dQbHYtMjV0UjQxanZDTkZfbDJuRmlzb0VrLWlWSE5TSVlqZUprU1BoVkVRamg1dlJYY2FGMU8yNFhqVkdXQThjNDY2VVRIaVFhMktkbU91UQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11MWVZdjlfTXFfdVUxM3p0SFB4QjdoMmIybFFWX2h2VFloSEJFS0tMVGNkRVZoc2x2ellaOC1VZk1KSzZUTzNVbG9VLVVxVVNyUWZIemhfLWI0cVZtN0lvcTlXV0liZEcwSEVUN29NcVFXT2VsQzFVSGJsRFBXNzA?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Industrials",
+        "Public / Macro",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Clear Channel Outdoor clears CFIUS review for Mubadala Capital takeover",
+      "summary": "Clear Channel Outdoor Holdings has received clearance from the Committee on Foreign Investment in the United States for its acquisition by Mubadala Capital. The company said the transaction is expected to close on or about October 14, 2026.",
+      "why_it_matters": "Clearing the US national-security review removes the last major regulatory hurdle for a foreign buyer, putting the Abu Dhabi-backed buyout of the outdoor-advertising group on track to close within the week rather than face further delay.",
+      "summary_ja": "クリアチャンネル・アウトドア・ホールディングスは、ムバダラ・キャピタルによる買収について、対米外国投資委員会（CFIUS）の承認を取得した。同社は取引が2026年10月14日前後に完了する見通しだと発表した。",
+      "why_it_matters_ja": "外国資本による買収にとって最後の大きな規制上の障壁である米国の安全保障審査を通過したことで、この屋外広告大手に対するアブダビ系資本による買収は、さらなる遅延を避けて今週中に完了する軌道に乗った。",
+      "status": "new",
+      "prev": null,
+      "key": "clear-channel-mubadala-cfius-clearance",
+      "ids": [
+        "f8a0c6604d8a52"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/clear-channel-outdoor-receives-cfius-clearance-for-acquisition-by-mubadala-capital-302901634.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Third Coast Bancshares, Great Plains Bancshares agree merger creating $9bn-plus bank",
+      "summary": "Third Coast Bancshares, parent of Third Coast Bank, and Great Plains Bancshares have announced a definitive merger agreement. The combined bank holding companies will have total assets exceeding $9 billion once the deal completes.",
+      "why_it_matters": "The tie-up between the Houston and Oklahoma City-based lenders is another step in US regional-bank consolidation aimed at building scale to compete with larger national players, and brings Third Coast close to the $10 billion asset mark that typically draws tougher regulatory scrutiny.",
+      "summary_ja": "サードコースト・バンクの親会社であるサードコースト・バンクシェアーズとグレートプレーンズ・バンクシェアーズは、合併に関する最終契約を締結したと発表した。取引完了後、両持株会社の合算総資産は90億ドルを超える見通し。",
+      "why_it_matters_ja": "ヒューストンとオクラホマシティを拠点とする両銀行の統合は、より大きな全国規模の銀行と競うための規模拡大を狙う米地方銀行の統合の流れを示すもう一つの動きであり、サードコーストはより厳しい規制上の監視を招きやすい資産規模の節目である100億ドルに近づくことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "third-coast-great-plains-bancshares-merger",
+      "ids": [
+        "f5bf6f9cd9004f"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/third-coast-bancshares-inc-and-great-plains-bancshares-inc-announce-definitive-merger-agreement-302900499.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Silver Point leads $650m loan backing Stryten Energy's C&D Trojan acquisition",
+      "summary": "Silver Point Capital's Direct Lending business has led a $650 million term loan financing to support Stryten Energy's acquisition of C&D Technologies and Trojan Battery Company, together referred to as C&D Trojan. Silver Point described itself as a global leader in credit investing on the deal.",
+      "why_it_matters": "The sizable financing shows private credit continuing to fund industrial roll-ups in the battery and energy-storage supply chain, a segment that has drawn growing direct-lending appetite.",
+      "summary_ja": "シルバーポイント・キャピタルのダイレクトレンディング部門は、ストライテン・エナジーによるC&Dテクノロジーズおよびトロージャン・バッテリー・カンパニー（両社を合わせてC&Dトロージャンと呼ぶ）の買収を支援する6.5億ドルのタームローン融資を主導した。シルバーポイントはクレジット投資のグローバルリーダーを自任している。",
+      "why_it_matters_ja": "この大型融資は、バッテリー・エネルギー貯蔵分野のサプライチェーンにおける事業統合をプライベートクレジットが引き続き支えていることを示しており、同分野へのダイレクトレンディングの関心が高まっていることもうかがわせる。",
+      "status": "new",
+      "prev": null,
+      "key": "silver-point-stryten-cd-trojan-financing",
+      "ids": [
+        "80e56fc1ea7623"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/silver-point-leads-650-million-financing-supporting-the-acquisition-of-cd-trojan-by-stryten-energy-302901249.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials",
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Alpha Alternatives nears $600m final close for India-focused fund",
+      "summary": "Alpha Alternatives is approaching a $600 million final close for its India-focused fund, according to an exclusive report. No further details on the fund's strategy, sector focus or backers were disclosed.",
+      "why_it_matters": "A close near $600 million would mark a sizable raise for India-dedicated capital, adding to the pool of funds targeting infrastructure and private assets in the country at a time when regional PE and infra fundraising has been active.",
+      "summary_ja": "アルファ・オルタナティブズは、インドに特化したファンドで6億ドルの最終クローズに近づいていると独自報道で伝えられた。ファンドの戦略や投資分野、出資者についての詳細は明らかにされていない。",
+      "why_it_matters_ja": "6億ドル規模のクローズが実現すれば、インド特化型ファンドとして大規模な資金調達となり、域内のPE・インファンド調達が活発化する中で、同国のインフラ・プライベート資産に向かう資金の広がりを示すことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "alpha-alternatives-india-infra-fund",
+      "ids": [
+        "231f24f1131ab5"
+      ],
+      "links": [
+        {
+          "source": "Infrastructure Investor",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaWhpQ2lWbzhUX1ZyR2hzMmNiV0s3aGNjd2dGUGY1YUtNczJUUk5CUGR2S1RGNTdMQkNINDAyenRhWTRqczN3MjAteTMyUHdBS25FdVJ3dlFzVFdwcDgwYXphNDN1OHJvb0lZQXpVeU1qYWRtODZWMGlUeWxjVmRYYVlkS0w0TXptVGNGZjcxNXVnXzJSRDFibFNUNTZoMzg2NEdWRUVqODlZY1dST0RoZnJfVnZvUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "PE",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Automation Anywhere to acquire conversational-AI firm Boost.ai",
+      "summary": "Automation Anywhere has agreed to acquire Boost.ai, its second AI acquisition in a year. The company said the deal extends its reach from employee-service automation into customer-facing conversational and voice AI, aiming to build the most complete offering for what it calls the Autonomous Enterprise.",
+      "why_it_matters": "The bolt-on fits a broader pattern of automation vendors buying conversational-AI specialists to bundle voice and chat capabilities into enterprise software platforms rather than build them from scratch, and signals Automation Anywhere is positioning beyond back-office automation toward the front office.",
+      "summary_ja": "オートメーション・エニウェアは、過去1年で2件目となるAI関連買収として、ブースト・エーアイの取得に合意した。同社は、この買収により従業員向け業務自動化から顧客対応型の会話・音声AIへと事業領域を広げ、同社が「自律型エンタープライズ」と呼ぶ構想に向けた最も包括的な製品群を構築すると説明している。",
+      "why_it_matters_ja": "この小規模買収は、自動化ベンダーが音声・チャット機能を自社で開発する代わりに会話AI専業企業を買収し、エンタープライズ向けソフトウェアに組み込むという大きな流れに合致する動きであり、オートメーション・エニウェアがバックオフィス自動化の先、フロントオフィス領域へ布陣を広げつつあることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "automation-anywhere-boostai-acquisition",
+      "ids": [
+        "508f75dba3a3d5"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/conversational-ai-is-finally-connected-to-the-work-automation-anywhere-to-acquire-boostai-302900621.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    }
+  ]
+}
