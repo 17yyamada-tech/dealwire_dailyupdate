@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-08T07:50:59Z",
+ "checked_at": "2026-10-09T00:51:05Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-07",
+   "headline": "September FOMC minutes show July 31 yen intervention's US side was funded via Treasury account, not the Fed's own balance sheet",
+   "summary": "Bloomberg reported, citing the Federal Reserve's September FOMC minutes, that the New York Fed carried out the US side of the July 31 Japan-US joint yen-buying intervention using US Treasury funds rather than the Federal Reserve's own balance sheet.",
+   "summary_ja": "ブルームバーグの報道によると、FRBの9月FOMC議事要旨で、7月31日の日米協調円買い介入における米国側の実施分はFRB自身の資産ではなく米財務省の資金を通じて行われたことが明らかになった。",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-used-treasury-funds-to-support-yen-in-joint-intervention"
+  },
   {
    "date": "2026-10-07",
    "headline": "UKMTO: tanker off Qatar struck by multiple projectiles, agency urges caution transiting the Strait of Hormuz",
