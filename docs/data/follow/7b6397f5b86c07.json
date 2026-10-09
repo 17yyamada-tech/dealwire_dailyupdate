@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-09T04:52:33Z",
+ "checked_at": "2026-10-09T07:51:28Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-07",
+   "headline": "Gulf of Mexico operators shut in about 25% of oil output as Tropical Storm Isaias approaches",
+   "summary": "Reuters reported that US Gulf of Mexico operators had shut in about 25.08% of current oil production and 16.37% of natural gas production as of Wednesday October 7, 2026, as Tropical Storm Isaias approached, with personnel evacuated from eight production platforms and two rigs moved off location as a precaution.",
+   "summary_ja": "ロイターの報道によると、トロピカルストーム「イサイアス」の接近を受け、米メキシコ湾の事業者は2026年10月7日(水)時点で原油生産量の約25.08%、天然ガス生産量の約16.37%を停止した。生産プラットフォーム8基から作業員が退避し、リグ2基が予防的に移動した。",
+   "source": "BOE Report (Reuters)",
+   "url": "https://boereport.com/2026/10/07/about-25-of-gulf-of-mexico-oil-output-shut-in-due-to-isaias-us-agency-says/"
+  },
   {
    "date": "2026-10-07",
    "headline": "Pentagon orders CENTCOM to ready options for renewed large-scale combat against Iran; Trump has not decided",
