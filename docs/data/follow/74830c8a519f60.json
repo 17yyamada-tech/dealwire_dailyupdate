@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYmEyNFJpamQ1WXZaRmhwMl90ZXNVZ093MkFyRk5tdTR6U2ZYblN0aUVlV3RGZzBQSE5vNF9UYjdBTENlbnRWUFVSUGMtM3NEdGhpTUNyWmd2bzFxbU95SGVtUGxCSDdjZlhQVUNNNDFkQ1JfdVdLZHdFVlNCeFk?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T05:00:00Z",
- "checked_at": "2026-10-09T00:51:05Z",
+ "checked_at": "2026-10-09T04:52:33Z",
  "background": [
   {
    "date": "2026-09-25",
@@ -47,5 +47,14 @@
    "url": "https://deadline.com/2026/05/letterboxd-for-sale-1236921783/"
   }
  ],
- "since": []
+ "since": [
+  {
+   "date": "2026-10-08",
+   "headline": "Gigi Pritzker-led investor group joins Letterboxd bidding as NYT seen as frontrunner; membership nears 35 million",
+   "summary": "TheWrap reported that a consortium led by producer Gigi Pritzker's Madison Wells has emerged as a new bidder for Letterboxd, while people familiar with the sale process see The New York Times as the favorite given its ability to act as a \"neutral custodian\"; the report said Letterboxd's membership has grown to about 35 million, up from 30.7 million at the end of the second quarter, with any deal still expected to value the platform above $300 million.",
+   "summary_ja": "TheWrapの報道によると、プロデューサーのジジ・プリツカー氏が率いるマディソン・ウェルズの投資家連合が、Letterboxd買収の新たな候補として名乗りを上げた。売却プロセスに詳しい関係者は「中立的な管理者」になり得るとして、ニューヨーク・タイムズを依然本命と見ているという。同社の会員数は第2四半期末の3070万人から約3500万人に増加したとされ、買収額は依然3億ドル超と見込まれている。",
+   "source": "TheWrap",
+   "url": "https://www.thewrap.com/industry-news/business/letterboxd-sale-gigi-pritzker-investor-consortium-acquisition/"
+  }
+ ]
 }

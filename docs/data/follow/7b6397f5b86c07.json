@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-09T00:51:05Z",
+ "checked_at": "2026-10-09T04:52:33Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-07",
+   "headline": "Pentagon orders CENTCOM to ready options for renewed large-scale combat against Iran; Trump has not decided",
+   "summary": "Breitbart reported, citing Axios, that the Pentagon directed US Central Command to complete preparations for a possible resumption of major combat operations against Iran, with officials saying targets could include nuclear, infrastructure and energy sites; President Trump had not made a final decision and no date was set.",
+   "summary_ja": "ブライトバートがAxiosの報道として伝えたところによると、米国防省は中央軍(CENTCOM)に対し、イランへの大規模な戦闘作戦再開に向けた準備を完了するよう指示した。当局者によれば対象には核施設やインフラ、エネルギー関連施設が含まれるとされるが、トランプ大統領はまだ最終決定を下しておらず、実施時期も定まっていない。",
+   "source": "Breitbart (via Axios)",
+   "url": "https://www.breitbart.com/politics/2026/10/07/report-pentagon-orders-centcom-ready-iran-strike-options-trump-weighs-major-operations/"
+  },
   {
    "date": "2026-10-07",
    "headline": "September FOMC minutes show July 31 yen intervention's US side was funded via Treasury account, not the Fed's own balance sheet",

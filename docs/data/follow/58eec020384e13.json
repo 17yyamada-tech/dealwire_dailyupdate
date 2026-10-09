@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-26T18:17:00Z",
- "checked_at": "2026-10-09T00:51:05Z",
+ "checked_at": "2026-10-09T04:52:33Z",
  "background": [
   {
    "date": "2026-09-24",
@@ -56,6 +56,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-07",
+   "headline": "Astronomy groups urge FCC to bind Rocket Lab to Iridium's interference-avoidance obligations before clearing license transfer",
+   "summary": "Law360 reported that astronomy groups told the FCC that Rocket Lab must be held to Iridium's existing obligations to avoid harmful interference with radio astronomy observations before the agency approves the transfer of Iridium's satellite and spectrum licenses in the pending $8 billion acquisition.",
+   "summary_ja": "Law360の報道によると、天文学関連団体は米連邦通信委員会(FCC)に対し、約80億ドルの買収案に伴うイリジウムの衛星・周波数免許のロケットラボへの移転を承認する前に、電波天文観測への有害な干渉を避けるイリジウムの既存の義務をロケットラボにも確実に継承させるよう求めた。",
+   "source": "Law360",
+   "url": "https://www.law360.com/mergersacquisitions/articles/2535084"
+  },
   {
    "date": "2026-09-26",
    "headline": "Rocket Lab-Iridium deal expected to close by mid-2027 after shareholder approval, follow-up coverage says",
