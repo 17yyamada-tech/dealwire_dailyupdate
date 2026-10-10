@@ -1,0 +1,93 @@
+{
+  "edition": "2026-10-10-1230",
+  "edition_label": "10 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T04:36:35Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Investment fund's tender offer for Sapporo medical-records developer CEHD succeeds, delisting set for January 2027",
+      "summary": "An investment fund's tender offer for CEHD, a Sapporo-based developer of electronic medical record systems, has succeeded, Japanese trade press reported. The company is scheduled to delist in January 2027 following the completed offer.",
+      "why_it_matters": "The buyout takes another listed Japanese healthcare-IT company private, part of a broader wave of sponsor-led take-privates of smaller Tokyo-market companies trading below their standalone potential.",
+      "summary_ja": "札幌の電子カルテ開発会社CEHDに対する投資ファンドの株式公開買付け（TOB）が成立したと、日本のM&A関連メディアが報じた。同社はこの買付けの完了を受け、2027年1月に上場廃止となる予定。",
+      "why_it_matters_ja": "上場するヘルスケアIT企業がまた一社、スポンサー主導で非公開化されることになり、実力より低く評価された中小型上場企業を対象とする買収の広がりを示す一例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "cehd-sapporo-delisting-tob",
+      "ids": [
+        "8d89c718245e9e",
+        "607eaf9e7cb539"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QaTlTT0s5UGF2Vks2NHZqbllQSGF0RDNCM0lDa1NkZWh1eVlVUHBybnlGRHd2MUNEZlU1YWhHUEhCRF9HRUYwZmhkOV91cXFxVVR2aG03Z0E1dw?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4WDA1NGVTdFVNNTBYeWJnR0QzNmpIekJzNE5QS21zc05KN1hIclpqaTJpTHZUQlpCZWJ5Rm1yWGhWbDhtNjVCUW5CSkRuNGFKMUU3ZTA4WDhjZw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Sequoia-backed chip startup Nuvacore in talks to raise funding at about $2.5bn valuation",
+      "summary": "Chip startup Nuvacore, backed by Sequoia, is in talks to raise a new funding round that would value the company at about $2.5 billion, according to a report citing sources familiar with the matter. Terms of the round, including its size and lead investors, have not been disclosed.",
+      "why_it_matters": "A valuation near $2.5bn for an early-stage chip developer shows investor appetite for AI-related semiconductor plays remains strong even as public markets grow more selective about compute-infrastructure bets.",
+      "summary_ja": "セコイアが出資する半導体スタートアップのNuvacoreが、約25億ドルの評価額となる新たな資金調達に向けて協議を進めていると、関係者の話を引用した報道が伝えた。調達額や主要投資家などの条件は明らかにされていない。",
+      "why_it_matters_ja": "創業初期の半導体開発企業に約25億ドルの評価額が付いたことは、公開市場がコンピューティング基盤関連の投資先をより選別的に見るようになる中でも、AI関連半導体への投資家の意欲が依然として強いことを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "nuvacore-sequoia-funding-2-5bn",
+      "ids": [
+        "58ab638570a35a"
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/exclusive-sequoia-backed-chip-startup-nuvacore-raising-funds-about-25-billion-valuation-sources-say-6448066"
+        }
+      ]
+    },
+    {
+      "headline": "Biren Technology relaunches HK$4bn share placement, stock drops nearly 12%",
+      "summary": "Biren Technology has re-executed a third-party share placement worth about HK$4 billion, according to a Japanese disclosure report. The company's stock fell by as much as nearly 12% following the announcement.",
+      "why_it_matters": "A near-12% share-price drop on a HK$4bn capital raise signals investor wariness about dilution at the Chinese AI-chip maker, even as it presses ahead with the financing.",
+      "summary_ja": "壁仞科技（Biren Technology）は約40億香港ドル規模の第三者割当増資を再実施したと、日本の開示情報が報じた。この発表を受けて同社の株価は一時12％近く下落した。",
+      "why_it_matters_ja": "40億香港ドル規模の増資に対し株価が一時12％近く下落したことは、調達を進める中国のAI半導体メーカーに対し、既存株主の希薄化への警戒感が強いことを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "biren-technology-hk-placement-share-drop",
+      "ids": [
+        "52589d5996a68a"
+      ],
+      "categories": [],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TRFVySUFvellZa1dqYU1ac2RSU2NKVHJHZXRYQ0g0LVd4dnB0U2sxRDAtaU13dUh5ZEluOElSeEFKVkFfMENuN1BwQ2cwT2k0ZDhRN0phOGp3RnoyYkJQZlh0Nk9Fd0xKdVNzWXlUOGhFc3BV?oc=5"
+        }
+      ]
+    }
+  ]
+}
