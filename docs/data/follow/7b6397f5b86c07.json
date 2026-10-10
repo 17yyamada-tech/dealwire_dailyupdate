@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-10T00:48:45Z",
+ "checked_at": "2026-10-10T04:50:16Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-09",
+   "headline": "CNBC: Hormuz tanker attacks hit wartime high as September Gulf oil exports still matched prewar levels excluding Iran, Brent near $105",
+   "summary": "CNBC reported that tanker attacks in the Strait of Hormuz reached a wartime high, with the IMO counting eleven tankers attacked in the week to October 4 and five more the following week, even as Kpler estimated September Persian Gulf crude exports excluding Iran matched the prewar average and Brent settled near $105 a barrel on October 8 after rising more than 4% the day before.",
+   "summary_ja": "CNBCの報道によると、ホルムズ海峡でのタンカー攻撃は開戦以来最多の水準に達し、IMOの集計では10月4日までの週に11隻、翌週にさらに5隻が攻撃を受けた。一方でKplerの推計ではイランを除くペルシャ湾の9月の原油輸出量は開戦前の平均と同水準となり、ブレント原油は前日に4%超上昇した後、10月8日に1バレル=105ドル近辺で終えた。",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html"
+  },
   {
    "date": "2026-10-07",
    "headline": "Gulf of Mexico operators shut in about 25% of oil output as Tropical Storm Isaias approaches",
