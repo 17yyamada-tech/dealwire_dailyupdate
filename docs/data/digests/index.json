@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-10-1530",
+      "label": "10 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-10T07:41:13Z",
+      "items": 7,
+      "headlines": [
+        "Evernorth completes XRP-treasury SPAC merger with Armada II, lists on Nasdaq October 12",
+        "Midea completes controlling-stake acquisition of Italian medical-imaging maker Esaote",
+        "Alimentation Couche-Tard signs deal to buy Irving Oil retail assets in Québec and Ontario"
+      ]
+    },
+    {
       "id": "2026-10-10-1230",
       "label": "10 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-10T04:36:35Z",

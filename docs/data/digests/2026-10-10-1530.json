@@ -1,0 +1,129 @@
+{
+  "edition": "2026-10-10-1530",
+  "edition_label": "10 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T07:41:13Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Evernorth completes XRP-treasury SPAC merger with Armada II, lists on Nasdaq October 12",
+      "summary": "Evernorth Holdings has completed its business combination with Armada Acquisition Corp. II, entering public markets holding about 473 million XRP and roughly $300 million in gross cash proceeds. Shares will begin trading on Nasdaq on October 12 under the ticker XRPN, four days later than the October 8 date set when shareholders approved the deal on September 30.",
+      "why_it_matters": "The closing cements one of the largest listed corporate treasuries built around XRP, extending the SPAC-funded crypto-treasury model already used for bitcoin and ether into a new token, though the slipped listing date is a reminder of how fluid these structures' timelines still are.",
+      "summary_ja": "Evernorth HoldingsはArmada Acquisition Corp. IIとの事業統合を完了し、約4億7300万XRPと約3億ドルの現金を保有する上場企業となった。株式は10月12日にナスダックでティッカー「XRPN」の下で取引を開始する予定で、9月30日の株主承認時に示されていた10月8日から4日遅れた。",
+      "why_it_matters_ja": "XRPを中核に据えた企業としては上場規模で最大級の財務保有体制が確定し、ビットコインやイーサリアムで使われてきたSPAC型の暗号資産トレジャリー手法が新たなトークンにも広がった形になる。ただ上場日がずれ込んだこと自体、こうした枠組みの日程がなお流動的であることを示している。",
+      "status": "update",
+      "prev": {"edition": "2026-10-02-1530", "index": 2},
+      "key": "evernorth-armada-xrp-treasury-listing",
+      "ids": ["f79d1d4a6f2376", "7d918aed5eea63"],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/evernorth-completes-business-combination-with-armada-acquisition-corp-ii-302903875.html"},
+        {"source": "SEC EDGAR 8-K", "url": "https://www.sec.gov/Archives/edgar/data/2092592/000119312526419146/0001193125-26-419146-index.htm"}
+      ]
+    },
+    {
+      "headline": "Midea completes controlling-stake acquisition of Italian medical-imaging maker Esaote",
+      "summary": "China's Midea Group has completed the acquisition of a controlling stake in Esaote, the Genoa-based medical-imaging equipment maker, the companies announced. Esaote described the deal as a reflection of Midea's commitment to healthcare and innovation; no price was disclosed.",
+      "why_it_matters": "The deal gives Midea, built on home appliances, direct control of a European leader in medical imaging, part of a broader push by Chinese industrial groups to diversify into healthcare technology through outbound M&A.",
+      "summary_ja": "中国の美的集団（Midea Group）は、イタリア・ジェノバを拠点とする医療用画像機器メーカーEsaoteの支配株式取得を完了したと両社が発表した。Esaote側はこの買収をMideaのヘルスケアおよびイノベーションへの取り組みの表れと位置づけており、取得価格は開示されていない。",
+      "why_it_matters_ja": "家電事業で築いた基盤を持つMideaが欧州の医療用画像機器大手を直接支配下に置いたことになり、中国の産業グループがアウトバウンドM&Aを通じてヘルスケア技術分野へ多角化を進める動きの一例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "midea-esaote-acquisition-completion",
+      "ids": ["510969a944e39f"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Healthcare"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/midea-completes-the-acquisition-of-esaote-302902498.html"}
+      ]
+    },
+    {
+      "headline": "Alimentation Couche-Tard signs deal to buy Irving Oil retail assets in Québec and Ontario",
+      "summary": "Alimentation Couche-Tard has entered a definitive agreement with Irving Oil to acquire certain retail assets in Québec and Ontario, the companies announced. The transaction covers service-station and convenience assets; neither side disclosed a purchase price.",
+      "why_it_matters": "For a convenience-retail consolidator built on scale, picking up a regional rival's service-station assets is a low-risk way to keep adding density in a core market.",
+      "summary_ja": "Alimentation Couche-Tardは、ケベック州とオンタリオ州におけるIrving Oilの小売資産を取得する最終契約を締結したと発表した。対象にはサービスステーションおよびコンビニエンス関連資産が含まれるが、両社とも取得価格は開示していない。",
+      "why_it_matters_ja": "規模を武器とするコンビニエンス・小売の統合企業にとって、地域の同業他社からサービスステーション資産を取得することは、主力市場であるカナダでの密度を低リスクで積み上げる手段となる。",
+      "status": "new",
+      "prev": null,
+      "key": "couche-tard-irving-oil-retail-assets",
+      "ids": ["59917e3012b8e5"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Energy", "Consumer"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/alimentation-couche-tard-enters-into-definitive-agreement-to-acquire-retail-assets-from-irving-oil-in-quebec-and-ontario-302903462.html"}
+      ]
+    },
+    {
+      "headline": "Sopris Capital acquires AI imaging-orchestration firm Blackford Analysis",
+      "summary": "Sopris Capital, a multi-strategy investment firm, has acquired Blackford Analysis, a developer of AI imaging-orchestration technology, to expand its healthcare-technology platform. Sopris said the deal reinforces its push into end-to-end, AI-enabled patient care; terms were not disclosed.",
+      "why_it_matters": "It's another example of sponsors building healthcare-AI platforms through bolt-on acquisitions rather than one large deal, a strategy that adds capability without betting the portfolio on a single technology.",
+      "summary_ja": "マルチストラテジー投資会社のSopris Capitalは、AI画像オーケストレーション技術を手がけるBlackford Analysisを買収した。同社はこの買収がヘルスケア・テクノロジー事業基盤の拡大と、AIを活用したエンドツーエンドの患者ケアへの取り組み強化につながるとしており、取得条件は開示されていない。",
+      "why_it_matters_ja": "ヘルスケアAIの事業基盤を一件の大型買収ではなくボルトオン型の買収を重ねて築くやり方の一例であり、単一の技術に経営資源を集中させずに能力を積み上げられる手法といえる。",
+      "status": "new",
+      "prev": null,
+      "key": "sopris-capital-blackford-analysis-acquisition",
+      "ids": ["eda24bdd5444a5"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["AI & Semis", "TMT", "Healthcare"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/sopris-capital-acquires-blackford-analysis-strengthening-ai-orchestration-capabilities-across-its-healthtech-portfolio-302903112.html"}
+      ]
+    },
+    {
+      "headline": "Proptech unicorn PLACE acquires mortgage-retention startup Ardley",
+      "summary": "PLACE, a real-estate and financial-services technology company, has agreed to acquire Ardley, whose AI-powered technology automates loan recapture and retention for lenders. PLACE said the deal strengthens its platform for lenders and financial institutions as it builds what it calls a mortgage operating system; terms were not disclosed.",
+      "why_it_matters": "Folding automated retention tools into a broader lending platform is a bet that mortgage technology consolidates around a handful of full-stack operating systems rather than staying fragmented across point solutions.",
+      "summary_ja": "不動産・金融サービス向けテクノロジー企業PLACEは、貸し手向けにローンの再捕捉・維持をAIで自動化する技術を持つArdleyの買収に合意した。PLACEは、自社が目指す「モーゲージ・オペレーティング・システム」の構築に向けて貸し手や金融機関向けプラットフォームを強化するとしており、取得条件は開示されていない。",
+      "why_it_matters_ja": "自動化されたリテンション技術をより広いレンディング・プラットフォームに組み込む動きは、モーゲージ関連技術が個別のポイントソリューションのまま分散し続けるのではなく、一握りのフルスタック型オペレーティング・システムに収束していくという見立てに基づいている。",
+      "status": "new",
+      "prev": null,
+      "key": "place-ardley-acquisition",
+      "ids": ["34ea2f2accbf38"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["AI & Semis", "TMT", "Real Estate"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/place-acquires-ardley-advancing-its-vision-to-build-the-ultimate-mortgage-operating-system-302903539.html"}
+      ]
+    },
+    {
+      "headline": "Basis makes Japan Electrical Safety Association a wholly owned subsidiary",
+      "summary": "Basis has made the Japan Electrical Safety Association a wholly owned subsidiary, the company said, moving into what it calls the \"smart safety\" field combining IoT and electrical-safety inspection. Financial terms were not disclosed.",
+      "why_it_matters": "It's a small but telling example of a technology company buying its way into a regulated inspection niche rather than building compliance credibility from scratch, a shortcut other IoT entrants into Japan's utility-adjacent services may follow.",
+      "summary_ja": "Basisは日本電気安全協会を完全子会社化したと発表した。同社はIoTと電気保安を組み合わせた「スマート保安」分野への展開を進めるとしており、取得条件は開示されていない。",
+      "why_it_matters_ja": "テクノロジー企業が規制の厳しい検査分野に、ゼロから実績を積むのではなく買収によって参入する小さな、しかし象徴的な例であり、日本の電力・インフラ関連サービスに参入する他のIoT企業が同様の手法を取る可能性を示している。",
+      "status": "new",
+      "prev": null,
+      "key": "basis-japan-electrical-safety-association",
+      "ids": ["efff38ddd5b696"],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pN1dtWmhlUjZqcnR4MjlfT3pMUnM1T1NzTEFuVXEtQjJPZmlJdjZhN2RnaWNWWFNZb2lDYlkwRHBWU1lCNkdMd284SXdvUFpQUDdMSk10M2I3SjZIUjlHa2ZMMDdLMGpkTkE?oc=5"}
+      ]
+    },
+    {
+      "headline": "Auxo-backed Precision Products Group buys nonwoven-textiles maker Monadnock Non-Wovens",
+      "summary": "Precision Products Group, a portfolio company of Auxo Investment Partners, has acquired Monadnock Non-Wovens, a Mount Pocono, Pennsylvania-based maker of engineered meltblown nonwoven materials used in specialty filtration and acoustic media. The deal expands PPG's engineered-textiles portfolio; terms were not disclosed.",
+      "why_it_matters": "It's a standard sponsor-backed roll-up move, adding a specialty-materials maker to a platform company to broaden its product set, rather than a standalone strategic bet.",
+      "summary_ja": "Auxo Investment Partners傘下のPrecision Products Groupは、ペンシルベニア州マウント・ポコノを拠点とし、特殊濾材や吸音材向けの高機能メルトブローン不織布を手がけるMonadnock Non-Wovensを買収した。この買収によりPPGのエンジニアード・テキスタイル事業は拡大するが、取得条件は開示されていない。",
+      "why_it_matters_ja": "スポンサー傘下のプラットフォーム企業が製品領域を広げるために特殊素材メーカーを取り込む典型的なロールアップ型の買収であり、単独の戦略的な賭けとは言えない。",
+      "status": "new",
+      "prev": null,
+      "key": "precision-products-monadnock-acquisition",
+      "ids": ["1ac3ddb92e715d"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["TMT", "Industrials"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/precision-products-group-acquires-monadnock-non-wovens-expanding-its-engineered-textiles-portfolio-with-specialty-filtration-and-acoustic-media-302903499.html"}
+      ]
+    }
+  ]
+}
