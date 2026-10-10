@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-10-0830",
+      "label": "10 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-10T00:39:31Z",
+      "items": 10,
+      "headlines": [
+        "KKR affiliate delays Taiyo Holdings tender offer to late November",
+        "Toho Holdings abandons plan to acquire PHC Holdings",
+        "GTCR and Elliott in advanced talks to acquire CCC Intelligent Solutions, Bloomberg reports"
+      ]
+    },
+    {
       "id": "2026-10-09-1530",
       "label": "9 Oct 2026 · 15:30 SGT",
       "generated_at": "2026-10-09T07:35:51Z",
