@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-09T07:51:28Z",
+ "checked_at": "2026-10-10T00:48:45Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -127,6 +127,14 @@
    "summary_ja": "CNBCが海事データ企業Kplerの情報として報じたところによると、ホルムズ海峡の商業船舶の通航量は10月4日時点で危機前の約5%(通常85隻に対し4隻)まで落ち込んだ一方、タンカー攻撃が続く中でもイラン産を除く中東の石油輸出は前週に開戦前の水準を上回った。",
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+  },
+  {
+   "date": "2026-10-06",
+   "headline": "Tanker On Peace struck by projectile off Oman's Musandam coast, injuring 12 crew including 11 Indian nationals",
+   "summary": "A projectile struck the Panama-flagged tanker On Peace near the Strait of Hormuz off Oman's Musandam Governorate on October 6, 2026, starting a fire and injuring 12 of the vessel's crew, 11 of them Indian nationals; Omani authorities evacuated the injured to Khasab for treatment.",
+   "summary_ja": "2026年10月6日、オマーンのムサンダム州沖、ホルムズ海峡付近でパナマ船籍のタンカー「On Peace」が飛来物の直撃を受け火災が発生し、乗組員12人(うち11人がインド人)が負傷した。オマーン当局は負傷者をハサブへ搬送し治療を行った。",
+   "source": "Baird Maritime",
+   "url": "https://www.bairdmaritime.com/security/incidents/on-peace-tanker-attack-hormuz"
   },
   {
    "date": "2026-10-05",
