@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-26T18:17:00Z",
- "checked_at": "2026-10-11T00:48:59Z",
+ "checked_at": "2026-10-11T07:49:59Z",
  "background": [
   {
    "date": "2026-09-24",
@@ -71,6 +71,14 @@
    "summary_ja": "9月24日のイリジウム株主による承認を受けた続報は、取引条件(ロケットラボが1株当たり現金27ドルと株式を組み合わせ、想定価値54ドル)を改めて示すとともに、残る規制当局の承認を経て総額約80億ドルの本件取引は2027年半ばまでに完了する見通しだと伝えた。",
    "source": "The Motley Fool",
    "url": "https://www.fool.com/investing/2026/09/26/major-milestone-passed-in-iridium-rocket-lab-tie-up/"
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "Iridium stockholders approve Rocket Lab merger with 99.6% of votes cast, about 81% of shares outstanding, in favor",
+   "summary": "At a special meeting, Iridium stockholders adopted the merger agreement under which Rocket Lab will acquire Iridium, with approximately 99.6% of votes cast in favor, representing about 81.0% of Iridium's outstanding shares entitled to vote.",
+   "summary_ja": "イリジウムは臨時株主総会で、ロケットラボによる買収に関する合併契約を承認した。投じられた票の約99.6%が賛成票で、これはイリジウムの投票権を有する発行済み株式の約81.0%に相当する。",
+   "source": "Rocket Lab (investor relations release)",
+   "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab"
   }
  ]
 }
