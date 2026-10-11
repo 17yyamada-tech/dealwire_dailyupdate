@@ -1,0 +1,134 @@
+{
+  "edition": "2026-10-11-0830",
+  "edition_label": "11 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T00:36:13Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "China's Focus Media wins conditional approval for RMB8.3bn buyout of elevator-ad rival Xinchao Media",
+      "summary": "Chinese authorities have conditionally approved Focus Media's RMB8.3bn acquisition of elevator-advertising rival Xinchao Media. Focus Media committed to a five-year freeze on price increases and agreed to waive property-exclusivity clauses as conditions of the approval.",
+      "why_it_matters": "The conditions suggest regulators are using behavioral remedies to allow consolidation of China's elevator-advertising duopoly rather than blocking the deal outright, a structure that may serve as a template for other concentrated ad or retail-media mergers under review.",
+      "summary_ja": "中国政府はFocus Mediaによるエレベーター広告大手Xinchao Media買収（RMB8.3bn）を条件付きで承認した。Focus Mediaは承認の条件として、5年間の価格引き上げ凍結と物件独占条項の放棄を約束した。",
+      "why_it_matters_ja": "この条件は、当局が大型の戦略的買収を一律に阻止するのではなく、行動的な制約を課す形で業界再編を認めていることを示しており、他の寡占的な広告・リテールメディア業界の審査でも同様の手法が使われる可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "focus-media-xinchao-media-approval",
+      "ids": [
+        "2222d02a4861f7",
+        "528a938178c0b0"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vZEQ3SHBYVDBSM2VWOUtuVUFXTFNTLVVPUWhPWFBxaDM0Y0tiTGJValptUUN1bWlDZTB4cnR0MVNvTFRlZE1ndkQyMU5EZndLcG5yOG1PX0N6QjkyUU9DR0FpZmgxdU53MTJvMnhHWHBtbTkz?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wMmdIY0Q3R0NrVWJiTTJMLUVhYzFoZ21TSFYyb2Jac3c5bUxXckVwYkRmOHcyME1DbmlTUHoybmdsenJUUDhhQXdfNU1fUUtiU1pucnlfNVN0Ukt6M0d3aVhyQXVMYko2M2hLcDB3dlpGSm9V?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Nvidia in talks to acquire or boost stake in AI startup Reflection AI, FT reports",
+      "summary": "Nvidia is discussing either buying AI startup Reflection AI outright or expanding its existing stake in the company, the Financial Times reported. Reflection AI develops an open-source AI model, and the talks are being framed as part of Nvidia's push to field a rival to China's DeepSeek.",
+      "why_it_matters": "A Nvidia-backed open-source model would extend the chipmaker's influence beyond hardware into which AI software stacks gain adoption, reinforcing its position as competition with DeepSeek intensifies.",
+      "summary_ja": "NvidiaはAIスタートアップのReflection AIを買収するか、既存の出資を拡大するかについて協議していると、Financial Timesが報じた。Reflection AIはオープンソースのAIモデルを開発しており、今回の協議はNvidiaがDeepSeekへの対抗軸を確保する動きとして位置づけられている。",
+      "why_it_matters_ja": "Nvidiaが出資するオープンソースモデルが広がれば、同社はハードウェアだけでなくAIソフトウェアスタックの主導権にも影響力を持つことになり、DeepSeekとの競争が激化する中でその存在感を強めることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "nvidia-reflection-ai-talks",
+      "ids": [
+        "37de1579472ad9",
+        "2e419ab2c0abe5",
+        "63bced1e69d69b"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/nvidia-in-talks-invest-further-in-reflection-ai-or-buy-it-ft-reports-6449691"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KWUp6NFRTVlBobV9UUjd0U19KZ2Ywc3g2VlJOUmpWUnFnMFlZYjRMT21hU2c1WS1HQkFBbmIxYldzRy1rOEJ2QTJhc2xOV1QxS0NLNHZlMnVabm4wclU4YWt4V2xRWFZJT3ZuNXROaGo2cGwz?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPemhwUk8yNnNBN1JsX24xcnFwa1hrcF9pSkdBOU5NS0pUUXdUTTcyWUdGV3QwQ1V3UlpfTVhEUEhKR0tka1dDcWdObVNRblNKVEJxbTlPaHFTbWVTVGdqcUhjMW5VaW52UmNud21WQUF0MGVTTlBVRkNKd1lWbUQ0aHVNTE5iMnRlX211TlJWbk5RTlFxRUUxc3NfTFMxanYwdjZaUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Cloudflare acquires Deno to strengthen Workers programming model",
+      "summary": "Cloudflare has acquired Deno, the company behind the Deno JavaScript and TypeScript runtime. The deal is aimed at improving the programming model behind Cloudflare's Workers serverless platform.",
+      "why_it_matters": "The deal deepens Cloudflare's control over the developer tooling underpinning its edge-compute business, as cloud platforms compete to lock in developers building serverless and AI applications.",
+      "summary_ja": "CloudflareはDeno JavaScript・TypeScriptランタイムを開発するDenoを買収した。今回の買収は、同社のサーバーレスプラットフォームWorkersのプログラミングモデル改善を目的としている。",
+      "why_it_matters_ja": "この買収により、Cloudflareはエッジコンピューティング事業を支える開発者向けツール群への支配力を強めることになり、クラウド各社がサーバーレス・AIアプリケーション開発者の取り込みを競う構図を反映している。",
+      "status": "new",
+      "prev": null,
+      "key": "cloudflare-deno-acquisition",
+      "ids": [
+        "dec3476e0bfe41"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVk0tVXk1R1llOGtHM3pwY085UTlBN043QTBqeTlJT0lFdnYxZU43azFxWmQ4QzYzLVZQSER6enktbmlCZHNLN1Z4ODFXTERtWktKME4yOWFhYWt0VVA1ZWk3ZUNTSzhSUlFEV3FsN1J6YjBiX2QyVGVOU1c4MmxGN2loVk1vaFh2clptemhKT0dFb1pBdFFTYnlCLXlFZTNuYVM2Q1pGVUI3R0FfMjlkZWp5NDFKSGFTd0FlRzRFSUV3dlhaTm16OEFn?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Vietnam's One Capital Hospitality raises capital to VND3.3 trillion, acquires IDS Equity Holdings",
+      "summary": "Vietnam's One Capital Hospitality (OCH) has increased its charter capital to VND3.3 trillion and acquired IDS Equity Holdings. Terms of the IDS Equity Holdings acquisition were not detailed.",
+      "why_it_matters": "The capital increase funding the deal points to OCH scaling up through M&A, adding a Southeast Asian real-estate data point as the region's hospitality and property sectors continue to consolidate.",
+      "summary_ja": "ベトナムのOne Capital Hospitality（OCH）は資本金をVND3.3 trillionに増資し、IDS Equity Holdingsを買収した。IDS Equity Holdings買収の具体的な条件は明らかにされていない。",
+      "why_it_matters_ja": "今回の増資と買収は、OCHがM&Aを通じて事業基盤を拡大しようとする動きを示しており、東南アジアの不動産・ホスピタリティ業界における地域的な再編の一事例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "och-ids-equity-holdings-vietnam",
+      "ids": [
+        "646d17722336a2"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQzFoV2c1Q19RdnlSNU12TWFRMThPb29yby1tVTA2LTgtSkhad2RpYXNBWEFRZWlIZHI2eWZJalowSDJtYnJzejNoaTJMRlF1U3JId0J2TTRvaEFVMEl6TWU0ak1ldjUzZUx4T25nMkxkVHBVTDNMQ3BVbFdvNGNvdTY0U2ViMGhyYXd2Y29QQ2FEdy0xaFBjXzFfR2xCNUZxSE1zQ09NdG1IbEdocTBvSjRUUEo5YjBENGc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate"
+      ]
+    }
+  ]
+}
