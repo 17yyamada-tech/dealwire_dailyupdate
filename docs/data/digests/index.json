@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-12-0830",
+      "label": "12 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-12T00:38:15Z",
+      "items": 8,
+      "headlines": [
+        "Nvidia has already put $800m into Reflection AI, now valued at $25bn, as buyout talks continue",
+        "Amazon discussing roughly $7bn deal to acquire AI startup Decart, WSJ reports",
+        "Masan Group to invest more than VND10 trillion in acquisition deal tied to consumer unit MCH"
+      ]
+    },
+    {
       "id": "2026-10-11-0830",
       "label": "11 Oct 2026 · 08:30 SGT",
       "generated_at": "2026-10-11T00:36:13Z",
