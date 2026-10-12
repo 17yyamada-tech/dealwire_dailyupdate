@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-12-1230",
+      "label": "12 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-12T04:36:36Z",
+      "items": 5,
+      "headlines": [
+        "Kim Dong-sun launches KRW128.5bn tender offer for Hanwha M&S to secure control, shares surge",
+        "Samsung SDS buys domestic air-cargo carrier Woojung Air to build out logistics arm",
+        "Gunma Bank and Daishi Hokuetsu Financial Group to merge management next April"
+      ]
+    },
+    {
       "id": "2026-10-12-0830",
       "label": "12 Oct 2026 · 08:30 SGT",
       "generated_at": "2026-10-12T00:38:15Z",

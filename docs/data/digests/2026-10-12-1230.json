@@ -1,0 +1,151 @@
+{
+  "edition": "2026-10-12-1230",
+  "edition_label": "12 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T04:36:36Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Kim Dong-sun launches KRW128.5bn tender offer for Hanwha M&S to secure control, shares surge",
+      "summary": "Kim Dong-sun has launched a tender offer for about 16.06 million shares of Hanwha M&S, investing roughly KRW128.5bn, CHOSUNBIZ reported. The stock surged on the news as the move is aimed at securing control of the company.",
+      "why_it_matters": "A tender offer aimed squarely at control, rather than a passive stake build, signals a leadership contest at a Hanwha group company that the market is now pricing as live and contestable.",
+      "summary_ja": "キム・ドンソン氏がハンファM&S株約1606万株を対象に公開買付（TOB）を実施し、約1285億ウォンを投じると報じられた。CHOSUNBIZによれば、経営権確保を狙った動きを受けて同社株価は急騰した。",
+      "why_it_matters_ja": "経営権を明確に狙ったTOBは単なる持株比率の引き上げとは異なり、ハンファ系企業における経営権争いが市場から現実的な動きとみなされていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "hanwha-ms-tender-offer",
+      "ids": [
+        "02f132b70c2729",
+        "6d03040f7d651e",
+        "c85e72eb2a891e"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbXZMaXdpaWlDTFRnMmlhQm9mak92QXhfM2NmZnpXeFY3cldNN011RHVZZ2JkWmY0WkQtNExzbkpMbDh0ZGNyR2w0cmxsamxsTkZHakZ1eFRReFpXMjlBUnBiOXRtbVNiQ0F2cjBRb2JPc3p5SHkyRE1QM29BZmpiRtIBlAFBVV95cUxQUVZLQ3ZUZG5yWXJEbVQxTUc5RjA0bS0zaHZXQWhWMWZockhIdEt5czg0cFdMRWZqdHJuWlRYQy1GX3o0WTZKUzhNWVB3TkstaFpUOFlaWVVVNnMzcGpFV0NWaHdzaE9UblktNkpZdzVnRl9zZzZIYmQ4U041VUJ1WU9OeWNaVkFqNjB1VTh0M3lrNnI1?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11eGduaTIwSEhQNi1yNHd5Rk1WRDB3SUNSZHJYY29xc2JyNVlCUHJMVDRZeFhsN2t5TE9hc2tFTkVRcmFMSWVoZkphYjdCYW9FNEI2U21jZWFaTW4wZW1SMUdYR2pGMzZvY29wR2JOZGtHQUJfOXdjYTRoUGtpM1nSAZMBQVVfeXFMT25VcktFaC1zR19ySE8xVnNBbGJ1aTdzdkViUkgxVVJITlJrUkpla1JuU0tiWl85dEI2eG9GWS1KSWVHNzdmbXdHVERXbXd4TGdpLWZSMVYybmxYdUhFM1NxZi1idk9MblFzTnNhLWFqOU8wcllCRzVsREF0ZFdMaE4xMm5kUlBaOVV5ZHRrTjFBR21R?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaDVMeWdZR3RKRThVWVM0aXJEZ09HOXVXWm5nczdQN05CdXl2b1JkejhiWVE2aEkyZTlPQnJQTEs2WTJMaVhtcnpscHlycUNMTnNtNDdfd0YzQ0RzN0hpSXFlaHdXUkc3eGZ3RTNMeGRuYlJlVms5QWZyYTg3a0dFR1d6b2l3bG0xSjRSblFjTzhxbk5zdk9BMDNoUHZueldRT0hqc0prc0w5R3ZKaGFac3ctSzRvRERVS1RybUFNelIxRU12ZUZKVnE0MFJ4YThDN19IaWVWZXFuNW1QZGlTNk1vY3dCNzNrZUs1VC1R?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Samsung SDS buys domestic air-cargo carrier Woojung Air to build out logistics arm",
+      "summary": "Samsung SDS has acquired Woojung Air, a domestic air-cargo transporter, according to IT-industry sources cited by Japan M&A. The company plans to use the deal to strengthen its air-freight and logistics business.",
+      "why_it_matters": "The purchase gives Samsung SDS direct capacity in air-cargo transport, extending its logistics push beyond IT services into physical freight infrastructure.",
+      "summary_ja": "サムスンSDSが国内の航空貨物運送業者であるウジョン航空を買収したと、IT業界関係者の情報としてJapan M&Aが報じた。同社はこの買収を通じて航空貨物輸送事業を強化する方針だ。",
+      "why_it_matters_ja": "この買収により、サムスンSDSはIT・物流サービスの枠を超え、航空貨物という実物の輸送インフラに直接進出することになる。",
+      "status": "new",
+      "prev": null,
+      "key": "samsung-sds-woojung-air-cargo",
+      "ids": [
+        "99b6667d086318"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzbjJLZ3UwdVN0SDJ4eW9SSklVVk5wTExMUDExbnhuRnRTUkY2MEloMGF0MW5SbzUwSzBvQTJwR0Vzb3pRVHoxZXNDNVd3STQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Gunma Bank and Daishi Hokuetsu Financial Group to merge management next April",
+      "summary": "Gunma Bank and Daishi Hokuetsu Financial Group plan to integrate management from next April, Japan M&A reported. The tie-up comes alongside a pickup in investment tied to regional revitalisation in Niigata.",
+      "why_it_matters": "The combination adds to the wave of regional-bank consolidation in Japan, where thin margins and shrinking local economies are pushing smaller lenders toward scale.",
+      "summary_ja": "群馬銀行と第四北越フィナンシャルグループが来年4月に経営統合する計画だとJapan M&Aが報じた。これに合わせて、新潟の地域創生に向けた投資も活発化している。",
+      "why_it_matters_ja": "この統合は、利益率の低下と地域経済の縮小を背景に規模拡大を迫られている日本の地銀再編の流れを一段と進めるものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "gunma-bank-daishi-hokuetsu-merger",
+      "ids": [
+        "bfb5619e79bf54"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BbmVpVmdWZHRKSGdoeUpkU3VtRFdjSXFWRE1RMkY0MXZldGllQmRtNTV3Y1NiVVcxQTZvNkJyZG54OXZwNmN4cmVZOTh3YjJIaFcwY2xvbEd3ZWsyemhlYkl0UVY4NWM?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Dutch development lender FMO weighs $60m loan for Vietnam's Nam A Bank",
+      "summary": "FMO, the Dutch development bank, is considering a loan of about $60m to Vietnam's Nam A Bank, DealStreetAsia reported.",
+      "why_it_matters": "Development-finance lending into a mid-sized Vietnamese bank widens the pool of dollar credit available to the sector, feeding onward lending to local businesses.",
+      "summary_ja": "オランダの開発金融機関FMOが、ベトナムのナムア銀行に対し約6000万ドルの融資を検討しているとDealStreetAsiaが報じた。",
+      "why_it_matters_ja": "開発金融機関によるベトナム中堅銀行への融資は、現地企業向け貸出の原資となるドル資金の供給源を広げるものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "fmo-nam-a-bank-loan",
+      "ids": [
+        "088002b4bf6606"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaWVzZjZVSFBiTjFaWlR1N0huYVhWeDVTVHpsdTVxb2QtVFR5V2VDQlpSWDBmUmdFYjJZdGpkNGxQbE5XR1UxSUdpT3dOS1BDU3BHLXhPdnJQM1J2NUlWUHJ6WmlPeXFILU95WFFiOVlDLU43Z09aZ0cwVWd3YU9VTGtCTDhpdlJZZmFpT1Roa3pNZ00?oc=5"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "OK Financial Group's JoongAng Ilbo bid draws scrutiny over lender ownership structure",
+      "summary": "The acquisition vehicle behind OK Financial Group's bid for JoongAng Ilbo is a lending company, CHOSUNBIZ reported, putting foreign-ownership rules and reputational risk forward as open questions for the deal.",
+      "why_it_matters": "Consumer-lender ownership of a major newspaper invites regulatory and reputational scrutiny that could complicate or delay the transaction, a risk factor acquirers in sensitive sectors need to price in.",
+      "summary_ja": "OKフィナンシャルグループによる中央日報買収の実質的な主体は貸金業者であるとCHOSUNBIZが報じた。外資規制や評判リスクが取引の変数として浮上している。",
+      "why_it_matters_ja": "消費者金融会社が大手新聞社の買収主体となることは規制・レピュテーション面での精査を招きやすく、買収側が事前に織り込むべきリスク要因となる。",
+      "status": "new",
+      "prev": null,
+      "key": "ok-financial-joongang-ilbo-acquisition",
+      "ids": [
+        "c7c561988da673"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zYjdJTmJXX29Eb0RqcGhzSlFhcDZ3NUgyLVZmSzZSS19pTzliTHlLeHN2OG5vZDZiZU5DYjJkaVdxWWduYmlzWVlIazZyTmpJQzdqdE9SaXJhQ0RMRDVEWTV2X3ZRbGEyYTVxek9jOWVMT0pT?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Public / Macro"
+      ]
+    }
+  ]
+}
