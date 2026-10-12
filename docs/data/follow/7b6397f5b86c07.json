@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-11T07:49:59Z",
+ "checked_at": "2026-10-12T00:55:00Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-11",
+   "headline": "CNN: Gulf oil flows near two-thirds of pre-war levels as analysts say Iran has partially lost control of Hormuz",
+   "summary": "CNN reported that Gulf oil flows have rebounded to roughly two-thirds of pre-war levels, citing Goldman Sachs estimates of a rise to about 15-16 million barrels a day from a March low of 5-6 million, as a tightened US blockade curbs Iran's own oil exports; a Kpler analyst said it \"increasingly looks like Iran has at least partially lost control of the strait.\"",
+   "summary_ja": "CNNの報道によると、ゴールドマン・サックスの推計では、ガルフ地域の原油輸送量は3月の安値である日量500万~600万バレルから現在は1500万~1600万バレル程度まで回復し、戦前水準の約3分の2に達した。米国による封鎖強化がイラン自身の原油輸出を圧迫する一方、Kplerのアナリストは「イランはホルムズ海峡の支配権を少なくとも部分的に失ったように見える」と指摘した。",
+   "source": "CNN",
+   "url": "https://cnn.com/2026/10/11/middleeast/iran-hormuz-oil-analysis-intl"
+  },
   {
    "date": "2026-10-10",
    "headline": "IRGC claims a crude supertanker hit a mine and exploded in the Strait of Hormuz; UAE rescues 22 crew from a separate Gulf tanker fire",

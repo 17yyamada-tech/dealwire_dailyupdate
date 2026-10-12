@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T10:00:23Z",
- "checked_at": "2026-10-11T07:49:59Z",
+ "checked_at": "2026-10-12T00:55:00Z",
  "background": [
   {
    "date": "2026-07-27",
@@ -48,6 +48,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-07",
+   "headline": "CoinDesk: Wells Fargo in early talks with Kraken parent Payward to supply crypto-trading liquidity",
+   "summary": "CoinDesk reported, citing two people familiar with the matter, that Wells Fargo is in talks with Payward, Kraken's parent, under which Payward would supply liquidity for the bank's crypto trading; both companies declined to comment and the discussions may not result in a deal.",
+   "summary_ja": "CoinDeskが事情に詳しい関係者2人の情報として報じたところによると、ウェルズ・ファーゴはクラーケン親会社Paywardと協議しており、Paywardが同行の暗号資産取引向けに流動性を提供する案が検討されているという。両社ともコメントを控えており、協議が合意に至るとは限らない。",
+   "source": "CryptoBriefing (via CoinDesk)",
+   "url": "https://cryptobriefing.com/wells-fargo-payward-kraken-crypto-liquidity-talks/"
+  },
   {
    "date": "2026-10-05",
    "headline": "Payward links Singapore Gulf Bank's clearing network to let institutional clients settle crypto trades 24/7",
