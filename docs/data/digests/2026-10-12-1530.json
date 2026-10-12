@@ -1,0 +1,182 @@
+{
+  "edition": "2026-10-12-1530",
+  "edition_label": "12 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T07:37:48Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "SpaceX's spectrum deal with Grain Management for Starlink Mobile valued at about $8bn",
+      "summary": "SpaceX's agreement to buy Grain Management's nationwide 800MHz spectrum for Starlink Mobile, first reported without disclosed terms, is now valued at about $8bn, Japan M&A reported. SpaceX plans to use the low-band spectrum to expand its satellite-to-phone service.",
+      "why_it_matters": "A confirmed price tag puts concrete scale on SpaceX's push into licensed low-band spectrum, showing how much capital it is willing to commit to building out satellite-to-phone capacity against incumbent US carriers.",
+      "summary_ja": "SpaceXによるGrain Managementの全米800MHz帯スペクトル資産買収は、Starlink Mobile向けだが、取引条件非公開で第一報が出た後、約80億ドル規模と判明したとJapan M&Aが報じた。SpaceXはこの低帯域スペクトルを使い、衛星直接通信サービスを拡大する計画だ。",
+      "why_it_matters_ja": "価格が判明したことで、SpaceXが米既存キャリアに対抗して衛星直接通信サービスを拡大するために、ライセンス低帯域スペクトルにどれほどの資金を投じる構えかが具体的な規模感として示される。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-09-0830",
+        "index": 1
+      },
+      "key": "spacex-grain-management-spectrum",
+      "ids": [
+        "78518c803567f3"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQ2FMa0tIaDhnYjJnY2xpM2lDcUZGVVplYlZxSk9XLWpWczBOakkwRkZ1ZmtUekcyazdZYUNaZFN0eC12WDFuWjJ6OWRlM0NuNGY1UTh6YUtId2ExYkY0UVRYX2RKYllNMWpBMDlfVFNjT0puQ2tZZGhlS2d1QkdtcXh5NGxBQTdfUHBldXhqRlFHS3I5SkVIdng1TkNZZGx0OUlrWGdob3piQQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "1MDB settles US$1.1bn Deutsche Bank lawsuit over alleged fund siphoning",
+      "summary": "1MDB has reached a settlement with Deutsche Bank over a US$1.1 billion lawsuit linked to the Malaysian state fund's corruption scandal, Business Times reported. Legal claims against major banks over the alleged siphoning of 1MDB money have continued for years.",
+      "why_it_matters": "Closing out one of the largest bank claims removes a long-running legal overhang for 1MDB's asset-recovery campaign, even as the scandal remains a reference point for counterparty risk in Malaysia.",
+      "summary_ja": "1MDBはドイツ銀行を相手とする11億米ドル規模の訴訟で和解に達したとBusiness Timesが報じた。マレーシア国営ファンドの資金流用疑惑を巡る大手銀行への法的請求は、長年にわたり続いている。",
+      "why_it_matters_ja": "大型の銀行請求を解決することは1MDBの資産回収活動にとって長年の法的懸念を一つ取り除くものだが、スキャンダル自体はマレーシアの取引相手リスクを測る際の参照点として残る。",
+      "status": "new",
+      "prev": null,
+      "key": "1mdb-deutsche-bank-settlement",
+      "ids": [
+        "9c2f43b6656aeb"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/1mdb-reaches-settlement-deutsche-bank-us1-1-billion-lawsuit"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Moonshot AI executives negotiate shareholder settlement ahead of Hong Kong IPO",
+      "summary": "Moonshot AI executives are in talks to settle a dispute with a shareholder ahead of the company's planned Hong Kong IPO, Business Times reported, citing people familiar with the matter. The dispute is not expected to derail the offering but could complicate the listing process.",
+      "why_it_matters": "A shareholder dispute surfacing just as Moonshot prepares a roughly $5bn IPO at a $50bn valuation adds a governance wrinkle for investors underwriting China's AI-unicorn listings.",
+      "summary_ja": "Moonshot AIの経営陣は、香港上場を計画する中で株主との紛争解決に向けて協議していると、関係者の話としてBusiness Timesが報じた。この紛争が上場自体を頓挫させる可能性は低いとみられるが、上場手続きを複雑にする可能性がある。",
+      "why_it_matters_ja": "企業価値500億ドル、最大50億ドル規模の香港上場を準備する中で株主紛争が浮上したことは、中国発AIユニコーンの上場を引き受ける投資家にとってガバナンス面の新たな懸念材料となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-06-1230",
+        "index": 0
+      },
+      "key": "moonshot-ai-hk-ipo",
+      "ids": [
+        "d419bb1b3b9054"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/moonshot-execs-talks-settle-dispute-shareholder-ahead-planned-ipo-people-say"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "HK/CN",
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Other"
+      ]
+    },
+    {
+      "headline": "AirAsia in talks with Malaysian government for funding support after quarterly loss",
+      "summary": "AirAsia is in talks with the Malaysian government over potential funding support, Business Times reported, citing sources. The airline posted a net loss of RM831 million (US$204 million) for the second quarter ended June 30.",
+      "why_it_matters": "Government-backed funding talks at Southeast Asia's largest low-cost carrier would mark a shift from market financing toward state support for a strategically important but loss-making national carrier.",
+      "summary_ja": "AirAsiaはマレーシア政府との間で資金支援について協議しているとBusiness Timesが関係者の情報として報じた。同社の第2四半期（6月30日終了）の純損失は8億3100万リンギット（2億400万米ドル）だった。",
+      "why_it_matters_ja": "東南アジア最大の格安航空会社が政府主導の資金協議に入ったことは、市場からの資金調達から国家支援への転換を示すものであり、戦略的に重要だが損失を抱える国内大手企業への各国政府の対応として注目される。",
+      "status": "new",
+      "prev": null,
+      "key": "airasia-malaysia-government-funding-talks",
+      "ids": [
+        "6c882205d5d1ad"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/airasia-talks-malaysian-government-over-potential-funding-support-sources"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Consumer",
+        "Public / Macro"
+      ]
+    },
+    {
+      "headline": "India's Tessolve Semiconductor raises $75m in round led by Vector Line Capital",
+      "summary": "Tessolve Semiconductor has raised $75m in a funding round led by Vector Line Capital, DealStreetAsia reported. No further terms were disclosed.",
+      "why_it_matters": "The raise adds another data point to India's active semiconductor-services funding pipeline, where global and regional investors continue backing specialist players serving the chip design and testing value chain.",
+      "summary_ja": "インドのTessolve Semiconductorが、Vector Line Capitalが主導するラウンドで7500万ドルを調達したとDealStreetAsiaが報じた。その他の調達条件は明らかにされていない。",
+      "why_it_matters_ja": "今回の調達は、インドの半導体サービス分野における資金調達の活発な流れに新たな事例を加えるものであり、グローバルおよび地域の投資家がチップ設計・テストのバリューチェーンを担う専門企業への支援を続けていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "tessolve-semiconductor-funding-round",
+      "ids": [
+        "9a41271e3ad43f"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX0NibEMxMlpsUjNFcUNxbm8tbkpNbmJJY25VeGFSLWlYRDA0MWVpdkFCbXFXOXZQSVJUYmxZNTdqaWVGMzNJX19yV2VycTc4RlB4d0xfRXpuVU5Ndlo2eUxsVk13Q1hXdWExejJOTUh4ODl5MzNqeDJ5cGtpblpZdVRJblZaeTg?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Fund linked to Nguyen Thanh Phuong exits full stake in Vietcap",
+      "summary": "An investment fund linked to Nguyen Thanh Phuong has sold its entire stake in Vietcap, Japan PE & Activists reported. No buyer or deal terms were disclosed.",
+      "why_it_matters": "A full exit by a fund tied to one of Vietcap's name-brand shareholders is a reminder that even strategic, founder-linked holders are rotating out of Vietnamese companies as the market matures.",
+      "summary_ja": "グエン・タイン・フオン氏に関係する投資ファンドがベトキャップの全株式を売却したとJapan PE & Activistsが報じた。買い手や取引条件は明らかにされていない。",
+      "why_it_matters_ja": "ベトキャップの著名株主の一つであったファンドが全株を手放したことは、創業者とつながりの深い戦略的株主であっても、市場の成熟に伴い入れ替わりが進んでいることを示す一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "vietcap-nguyen-thanh-phuong-fund-exit",
+      "ids": [
+        "ae62334df78157"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaGxvb3AxZVpjNVBGaEF2WmN2RW85UmZBX0pIWGx1NnRhNjMxUl9fMGZER3JrdlBneS1vWENDX0k0VjdNR045S044WkVXTVVZSUVwTWV2b1V3WVAzY3JyblBUU3ROaXNLbzB0S2NxUGV4OUozTTIwT1Z5Z3VEdUg0dGYzbFpNNTRZNVFhTGZvNHBHMXhQblZKX3RB?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

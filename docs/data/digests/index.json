@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-12-1530",
+      "label": "12 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-12T07:37:48Z",
+      "items": 6,
+      "headlines": [
+        "SpaceX's spectrum deal with Grain Management for Starlink Mobile valued at about $8bn",
+        "1MDB settles US$1.1bn Deutsche Bank lawsuit over alleged fund siphoning",
+        "Moonshot AI executives negotiate shareholder settlement ahead of Hong Kong IPO"
+      ]
+    },
+    {
       "id": "2026-10-12-1230",
       "label": "12 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-12T04:36:36Z",
