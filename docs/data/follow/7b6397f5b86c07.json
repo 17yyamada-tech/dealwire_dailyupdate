@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-13T04:50:27Z",
+ "checked_at": "2026-10-13T07:50:34Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-12",
+   "headline": "Iran's security chief Rezaei vows to target US-UAE oil 'shuttle' out of Hormuz, rejects Trump's claim the strait is open",
+   "summary": "Al Jazeera reported that Iran's security chief Mohsen Rezaei said the US- and UAE-assisted shuttle system used to move oil out of the Strait of Hormuz is now an explicit target for Tehran, and rejected President Trump's assertion that the strait is open, insisting Iran remains in control of the passage.",
+   "summary_ja": "アルジャジーラの報道によると、イランのモフセン・レザイー治安担当責任者は、米国とアラブ首長国連邦(UAE)が支援する、ホルムズ海峡から原油を運び出す「シャトル」輸送網をテヘランの明確な攻撃対象にすると表明した。また、トランプ大統領が同海峡は開通しているとの見方を示したことについては、イランが依然として同海峡の支配権を握っているとしてこれを否定した。",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+  },
   {
    "date": "2026-10-11",
    "headline": "CNN: Gulf oil flows near two-thirds of pre-war levels as analysts say Iran has partially lost control of Hormuz",
