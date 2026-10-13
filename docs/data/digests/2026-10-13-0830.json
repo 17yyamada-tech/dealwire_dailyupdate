@@ -1,0 +1,310 @@
+{
+  "edition": "2026-10-13-0830",
+  "edition_label": "13 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T00:36:55Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Omron to acquire US industrial-PC maker OnLogic and parent Interlogic for ¥104.6bn",
+      "summary": "Omron has agreed to acquire US industrial PC designer and manufacturer OnLogic and its parent company, Interlogic, Inc., for about ¥104.6 billion, the company disclosed. The move gives Omron direct ownership of a US-based industrial PC platform rather than a supply arrangement.",
+      "why_it_matters": "The deal strengthens Omron's push into edge-computing hardware for factory automation and what it calls 'physical AI,' giving it in-house US manufacturing capacity for the compute layer underneath its robotics and sensing business. It also signals that Japanese industrial groups are increasingly willing to buy, rather than license, AI-adjacent hardware platforms outright.",
+      "summary_ja": "オムロンは、米国の産業用PCメーカーOnLogicとその親会社Interlogic, Inc.を約1046億円で買収することで合意したと開示した。従来の取引関係から一歩進み、米国拠点の産業用PC事業を直接傘下に収める。",
+      "why_it_matters_ja": "ファクトリーオートメーションとロボティクスを支える「フィジカルAI」基盤の強化が狙いで、米国内に自社の産業用PC生産能力を確保する点が実務上の意味を持つ。日本の産業グループがAI関連ハードウェアを提携ではなく買収によって取り込む姿勢を示す一例でもある。",
+      "status": "new",
+      "prev": null,
+      "key": "omron-onlogic-interlogic-acquisition",
+      "ids": [
+        "010b2549005e56",
+        "52a4d01d841244"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US",
+        "JP"
+      ],
+      "sectors": [
+        "Industrials",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mQmRJRU9tcFhSc1ZmSGN0RGQwdDl0V21uS0lpeFNxeldsMUFBOHRHRnotd08zS3VsaXB4dHdOaXBIaUhWMTU0Q1poODJkM1h3Q2VZVm11T1Rta0l6T1RmOTI2bVlOREpNRFE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS3ZoRTFTS01uejZlTFBCTXJSeU9Id2JhbTcwT2hVMHh6ZkxyUjRQdW9PN2QtbUpsTjF2QTU0LXVaQ09kNHQxcFBEN0QtQ0NwWFk5MGlja28yN0VVT1BWbzRkak82MktuNHBpNnU3UFI2UG81M083czYwcDVHaVJSZjN2bWpTMlE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "IonQ to acquire cybersecurity firm Elisity for up to $1.3bn in all-stock deal",
+      "summary": "Quantum computing company IonQ has agreed to acquire zero-trust cybersecurity firm Elisity in an all-stock deal valued at up to $1.3 billion, aiming to combine post-quantum cryptography with Elisity's security platform. IonQ shares fell after the announcement.",
+      "why_it_matters": "The deal shows quantum-computing firms moving to bundle cryptographic security as enterprises prepare for post-quantum threats, though the stock's drop suggests investors are wary of the price and integration risk. It also extends IonQ's diversification beyond pure hardware sales into adjacent security software.",
+      "summary_ja": "量子コンピューター企業IonQは、ゼロトラスト型サイバーセキュリティ企業Elisityを全額株式交換で最大13億ドルで買収することに合意した。ポスト量子暗号とElisityのセキュリティ基盤の統合を狙う。発表を受けIonQ株は下落した。",
+      "why_it_matters_ja": "量子企業がポスト量子時代のセキュリティ需要を見据え暗号技術を取り込む動きを示す一方、株価の下落は買収価格や統合リスクへの警戒感を反映している。",
+      "status": "new",
+      "prev": null,
+      "key": "ionq-elisity-acquisition",
+      "ids": [
+        "8d1f986ed92aa5",
+        "d9b339d326c719"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/ionq-buy-cybersecurity-firm-elisity-in-up-13-billion-deal-6453091"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yMWtjbk0xNWtzUmVJQUtMZk93eDV3b054V0o1NU9pUTI0dlZpdnJYV1FwWDd6X2k3N2ZXQTRmTkNxMGVjelAzb2VjTmMtVHZnWjlJ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bumble in advanced talks to go private at $1bn valuation, shares jump",
+      "summary": "Dating app Bumble is in advanced talks to be taken private at a valuation of about $1 billion, a source told Channel News Asia. Bumble shares jumped roughly 50% following the report.",
+      "why_it_matters": "A take-private at this level would mark a steep reset from Bumble's 2021 listing valuation, underscoring how far sentiment toward consumer dating apps has fallen before any recovery attempt. It would also hand control to a private owner at a moment when the stock had been trading well below its public debut price.",
+      "summary_ja": "出会い系アプリ運営のバンブルが、評価額約10億ドルでの非公開化に向けて大詰めの協議を行っていると関係者がCNAに語った。報道を受けバンブル株は約50%急騰した。",
+      "why_it_matters_ja": "2021年の上場時評価額から大幅に下がった水準での非公開化となれば、消費者向けデーティングアプリへの市場の評価がいかに下落したかを示す形となる。",
+      "status": "new",
+      "prev": null,
+      "key": "bumble-go-private-talks",
+      "ids": [
+        "167efa120ad0f8",
+        "a2a6d70359a8c3"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/dating-app-bumble-in-advanced-talks-go-private-1-billion-valuation-source-says-6454156"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd3pzVWtPU09TQ2VzNEs5cWluRU44dFRSclZrRHMzbGFoWDIyS2x0V0R2T0wzcXMwNlBUN1hneDU5TWNsVWR1dGlWTHdpNkJKNnBUcUhMSk5iTEVzZUNaeHliQWRpYUpRWjNQMDM4NjAzRGlCaGFxaW1yeXVRQ3ZfZVBYcUNyTDlFQ3pubTRJc3c5UVNoRmg3OFRWRkhKNVBDRkttaW1mczVvcElyRHY0N00wYVNZVkFh?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Hanwha Investment & Securities to acquire GI Capital Management's securities unit, entering Japan",
+      "summary": "Hanwha Investment & Securities has agreed to acquire the securities brokerage arm of Japan's GI Capital Management, marking its entry into the Japanese market as part of a broader expansion of its Asia platform.",
+      "why_it_matters": "The deal adds to a wave of Korean financial groups moving into Japan's brokerage industry, deepening cross-border consolidation in regional wealth and securities services. For Hanwha, it provides an onshore licence and client base rather than a purely advisory presence in Japan.",
+      "summary_ja": "ハンファ投資証券は、日本のGIキャピタル・マネジメントの証券部門を買収することで合意し、日本市場に進出する。アジア拠点の拡大戦略の一環としている。",
+      "why_it_matters_ja": "韓国系金融グループによる日本の証券業界への進出が相次ぐ中での一件で、地域の証券・資産運用業界における国境を越えた再編が一段と進む。",
+      "status": "new",
+      "prev": null,
+      "key": "hanwha-securities-gi-capital-japan",
+      "ids": [
+        "f9d751a6e7974b",
+        "b933cac807c869"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTjhQWmNZWEx5cURmaUVXWXoxM19pSVBXd3BGSjluVjZTSGtiMnR6aGJDRUNJbTh2WEdkVHJVdkFuMDVlVHd5T1dUOVhRaVVHZnRGTjFhTlBJVWJzTFFTWVBCOTJielg4UVNZRW5YYWdLZlVNb1FPSjF3SHZQc3lZZtIBlAFBVV95cUxPcG1ScmJOaTVVVm96SlhncENfRjJWOWVybHN4Z0NSWVk0TzZxZ3V6dElWNXN1bWJsQm53Zjl3X2RKdEwyTVZQVF9DYUNqaDJUdEJfaXJTSlZRbFJEUHdqd0xOaUFtaUI4cnZuclFpT3R6QWFkdTg4a2t0bXIwZnQxcUl0ZkVQMXNjVDVNU2Z3QmxlRG1h?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MajFCYzJ5WHlWdDZZZzVfMEJQcUlEMHN3OVMteHZ3aXhxVHFGRmFQZUJkb2hDSF9EOGJzcTZCMDJabVQ2YXplS3ZEUFFhMTFoWm56UjcwMFA0bmtIUVFyUVY3ZnVVcXZTeXdwSzN1UXJxN2x1?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "China approves Geely's acquisition of Ford España",
+      "summary": "China's antitrust regulator has approved Geely's acquisition of Ford's Spanish subsidiary, Ford España, clearing a regulatory hurdle for the deal.",
+      "why_it_matters": "Clearance from Beijing removes a gating condition for Geely to add European manufacturing capacity, part of its broader push to expand its production footprint in Europe. It also shows Chinese regulators continuing to wave through outbound deals even as some destination markets scrutinise Chinese buyers more closely.",
+      "summary_ja": "中国の独占禁止当局は、吉利（Geely）によるフォードのスペイン子会社フォード・エスパーニャの買収を承認した。これにより取引完了に向けた規制上のハードルの一つが解消された。",
+      "why_it_matters_ja": "中国当局の承認は、吉利が欧州での生産体制を拡大する上での関門の一つが外れたことを意味し、同社の欧州展開戦略を後押しする。",
+      "status": "new",
+      "prev": null,
+      "key": "geely-ford-espana-china-approval",
+      "ids": [
+        "26e110a535263f"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CTDBpNksxQTdHa05yWHlHNDdqQl9sMnhfcEIwRnppRWQ3ODFtdDlvT3N4d1lhMGN5Z1JWSFptcDZ4R0JmU0RGRXhWSTJvVTViWUNZRUR5Mjh0UEJmWXVXN3pWUm9JczN2OHZSenUxcXlaRWIzRkV4MQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "IOI Properties advances Reit listing backed by $1.8bn portfolio",
+      "summary": "Malaysia's IOI Properties is pressing ahead with a real estate investment trust listing backed by a US$1.8 billion property portfolio. The Reit plans to launch its prospectus in the fourth quarter of 2026 before listing on Bursa Malaysia.",
+      "why_it_matters": "A successful listing would be one of the larger Reit launches in Southeast Asia this year, testing investor appetite for the region's real estate yield products. It would also give IOI Properties a currency to recycle capital out of mature assets into new development.",
+      "summary_ja": "マレーシアのIOIプロパティーズは、総額18億米ドル規模の不動産ポートフォリオを裏付けとするREITの上場準備を進めている。2026年第4四半期に目論見書を提出し、その後ブルサ・マレーシアに上場する計画だ。",
+      "why_it_matters_ja": "実現すれば今年の東南アジアで有数規模のREIT上場となり、同地域の不動産イールド商品に対する投資家需要を試す材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "ioi-properties-reit-listing",
+      "ids": [
+        "bfbccddb82c39a"
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/ioi-properties-advances-reit-listing-backed-us1-8-billion-portfolio"
+        }
+      ]
+    },
+    {
+      "headline": "China's Anjoy Foods to acquire Singapore frozen-bakery maker IFC for $30.47m",
+      "summary": "Chinese food manufacturer Anjoy Foods has agreed to acquire Singapore frozen bakery company IFC for $30.47 million.",
+      "why_it_matters": "The deal gives a major Chinese frozen-food producer a bakery manufacturing and distribution base in Singapore, extending its push into Southeast Asian consumer markets. It is also a reminder that mid-sized Chinese consumer firms continue to look to Singapore as a regional manufacturing and export hub.",
+      "summary_ja": "中国の安井食品は、シンガポールの冷凍ベーカリー企業IFCを3,047万ドルで買収することで合意した。",
+      "why_it_matters_ja": "中国の大手冷凍食品メーカーがシンガポールにベーカリーの生産・流通拠点を獲得する取引で、東南アジアの消費市場への展開を広げる一手となる。",
+      "status": "new",
+      "prev": null,
+      "key": "anjoy-foods-ifc-singapore-acquisition",
+      "ids": [
+        "5c0dfa9540bcf2"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Consumer"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SS01HMVZlSkNlbVZzNW9Za3V1cE81M3ZEYV9XcVNzUmFUS01ZZllzczdDN0lBM25FemstZDhCT0JNXzFrTmxlZ0VsMnpvcHpJcklyZk42SmxBdktkNXJPX2tPS1Q2bjRSd2k4Ni1QY0MwSVU4?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Xodus Medical agrees to be acquired by STERIS",
+      "summary": "Pittsburgh-based Xodus Medical, which develops and makes surgical safety products, has agreed to be acquired by STERIS, a global provider of products and services supporting patient care, the companies announced.",
+      "why_it_matters": "The deal extends STERIS's surgical and patient-safety product portfolio, adding a specialist supplier of operating-room safety devices to its platform. Bolt-on deals like this remain the preferred route for large medtech acquirers to add niche product lines without taking on big integration risk.",
+      "summary_ja": "手術用安全機器の開発・製造を手がける米ピッツバーグのXodus Medicalは、患者ケアを支える製品・サービスを提供するSTERISに買収されることで合意したと両社が発表した。",
+      "why_it_matters_ja": "STERISにとっては手術室の安全機器分野の専門企業を取り込む取引となり、患者安全関連の製品ポートフォリオを拡充する狙いがある。",
+      "status": "new",
+      "prev": null,
+      "key": "steris-xodus-medical-acquisition",
+      "ids": [
+        "f35793a58e9248"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/xodus-medical-announces-agreement-to-be-acquired-by-steris-nyse-ste-302906035.html"
+        }
+      ]
+    },
+    {
+      "headline": "Fraikin's credit-fund owners sign exclusive deal with Asterion Industrial Partners",
+      "summary": "Fraikin, a pan-European commercial-vehicle leasing and fleet-management platform, said its majority shareholders — affiliates of credit managers Benefit Street Partners, Värde Partners and Canyon Partners — have entered an exclusive agreement with infrastructure investor Asterion Industrial Partners to support the company's next phase of growth.",
+      "why_it_matters": "The move brings a dedicated infrastructure investor into a credit-fund-owned fleet-leasing business, pointing to continued consolidation of European commercial-vehicle leasing platforms under long-term institutional capital. It also illustrates credit funds increasingly rotating control of operating assets to infrastructure specialists once a platform matures.",
+      "summary_ja": "欧州全域で商用車リースとフリート管理を手がけるFraikinは、主要株主であるクレジット系ファンドBenefit Street Partners、Värde Partners、Canyon Partnersの関連会社が、インフラ投資会社Asterion Industrial Partnersと独占契約を締結したと発表した。同社の次の成長フェーズを支える位置付けだ。",
+      "why_it_matters_ja": "クレジット系ファンドが保有するフリートリース事業にインフラ専門投資家が新たに加わる動きで、欧州の商用車リース基盤が長期的な機関投資家資本の下で再編を進めていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "fraikin-asterion-industrial-partners",
+      "ids": [
+        "f382e898516d4e"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/fraikin-announces-exclusive-agreement-with-asterion-industrial-partners-to-support-its-next-phase-of-growth-302905893.html"
+        }
+      ]
+    },
+    {
+      "headline": "China's Aoke Co calls off acquisition of Suzhou Qitian, trading to resume October 13",
+      "summary": "China's Aoke Co has called off its planned acquisition of Suzhou Qitian, with trading in Aoke shares set to resume on October 13.",
+      "why_it_matters": "The scrapped deal adds to a string of mainland Chinese acquisitions abandoned mid-process this year, a reminder that announced M&A in China's A-share market frequently fails to reach completion. Shareholders will now watch whether the resumed trading session triggers a sharp price move once the suspension lifts.",
+      "summary_ja": "中国の奥克股份（アオケ株份）は、蘇州祺添の買収計画を中止すると発表し、同社株の取引は10月13日に再開するとした。",
+      "why_it_matters_ja": "今年、中国本土のA株市場で発表後に破談となるM&Aが相次いでいる中で、本件もその一例であり、発表済み案件であっても成立に至らないケースが少なくないことを改めて示す。",
+      "status": "new",
+      "prev": null,
+      "key": "aoke-suzhou-qitian-acquisition-called-off",
+      "ids": [
+        "6e52f16b55913b"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxT082X2ItcHNNX01OVy1lczRacUZxb1p0empJNWlqamR6YkpDdDhVaEJLUTFHdVV3NEEtUGdfMzl1UWtQNzN1UHhSdHdaY2dlUmpsZjdHYUlVdkw2SWltWlpGd042bHp2dTJVVHdCcUdDcXln?oc=5"
+        }
+      ]
+    }
+  ]
+}
