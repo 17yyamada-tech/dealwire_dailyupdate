@@ -1,0 +1,231 @@
+{
+  "edition": "2026-10-13-1230",
+  "edition_label": "13 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T04:36:26Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "NTT Data in final talks to build Anthropic's first data centre in Japan",
+      "summary": "NTT Data is in final-stage talks to build what would be Anthropic's first data centre in Japan, Nikkei reported via Channel News Asia. No financial terms or facility capacity were disclosed.",
+      "why_it_matters": "A deal would give NTT Data a flagship role hosting frontier AI-model infrastructure domestically and mark Anthropic's first dedicated data-centre commitment in Japan, extending the AI compute buildout beyond the US. It would also put NTT Data ahead of rival domestic operators in landing a marquee foundation-model tenant.",
+      "summary_ja": "NTTデータは、アンソロピック（Anthropic）にとって日本初となるデータセンターの構築に向け、最終段階の協議を進めていると日経新聞が報じた。財務条件や施設規模などの詳細は明らかになっていない。",
+      "why_it_matters_ja": "実現すれば、NTTデータは国内で最先端AIモデルの基盤インフラを担う主要な役割を得ることになり、アンソロピックにとっても日本で初の専用データセンター契約となる。AI向け計算基盤の整備が米国外にも広がっていることを示す動きであり、国内の他事業者より先に主要AI企業の大口顧客を取り込む形にもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "ntt-data-anthropic-japan-datacentre",
+      "ids": [
+        "bca470f0f88098"
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/ntt-data-in-final-talks-build-anthropics-first-data-centre-in-japan-nikkei-reports-6454731"
+        }
+      ]
+    },
+    {
+      "headline": "Starbucks denies plan to acquire Chipotle after FT report, shares fall 3.8%",
+      "summary": "Starbucks has denied planning to acquire Chipotle Mexican Grill, rebutting a Financial Times report from last week that it had weighed a buyout, and said it would focus fully on executing its own turnaround plan instead. Chipotle shares fell about 3.8% after the denial, Japanese media reported.",
+      "why_it_matters": "The denial removes, for now, what would have been the largest takeover in restaurant-industry history, and the share reversal shows how much of Chipotle's recent rally rested on the buyout speculation alone. It also signals Starbucks is prioritising internal fixes over large-scale M&A as it works through its own turnaround.",
+      "summary_ja": "スターバックスは、チポトレ・メキシカン・グリルを買収する計画はないと否定し、先週の英フィナンシャル・タイムズによる買収検討報道を打ち消した。買収ではなく自社の改革実行に全力を注ぐとした。この否定を受け、チポトレ株は約3.8%下落したと日本メディアが報じた。",
+      "why_it_matters_ja": "今回の否定により、実現すれば外食産業史上最大級となるはずだった買収は一旦遠のいた形となる。株価の反落は、チポトレの最近の上昇がどれだけ買収観測だけに支えられていたかを浮き彫りにしている。大型M&Aより自社改革を優先する姿勢を示したとも言える。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-09-0830",
+        "index": 0
+      },
+      "key": "starbucks-chipotle-acquisition-talk",
+      "ids": [
+        "969ca776381ea1",
+        "6a0b392066c6ca",
+        "e2b02bc83101f3"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US",
+        "JP"
+      ],
+      "sectors": [
+        "Other",
+        "Consumer"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RNWc4VDNuMUxtdzhNb1REQ3B3c2NZamNOV0VqWlJobnpnSHFibFE1b3hfTHdCVUx4RExIbW5jQ2JXeXZPMVlHc2Q3WkhhUmI1VlphN0d2RkpKNWItZEhhSWJYMNIBaEFVX3lxTFAtdEhwU1Z0VFhHWm13SUV2TEZvTW1Zb1M1TWU3ZEZqU09wMlNycmNpSGhXb3FNN3RrY3V6ZVY4bUhMelNidHk2VlpWSm5ERDdtNy1IUVJFLXhMaDR4b19Bd0MyQWZ1S2xY?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LN3dCTzFWbFM3YmpYc0p3NXdUeTdDMWhoT1ZndmJiWmVzOE5kald6U1B1YVNoUmQwOFMzc1RPUm5BOENhMVUyUFJJMGpHc0hielpVSEx4MHhZamZKc0Ytb2Z1WElCRVpiam5PT3NMQlhyc0E4cTdQMVpNNndMWWc?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iMEJ1bUYwTHFqaGd6eEV6T1Z1LUwtdnlXa2Rjd2JaQ2ZNVjBQd2RzbGhNVmdXSE41SVJEQzZWMk1aNWs4T2RYN19Hamg1elFkTGQ2UElGVENZWG00SHF5NkdiSWd6Q01zOVpKVWo3dlRBV3Jobnc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Tencent markets dollar and dim sum bonds in four tranches, advancing $5bn AI-funding plan",
+      "summary": "Tencent has begun marketing US dollar and offshore renminbi (dim sum) bonds across four tranches, Channel News Asia reported, moving ahead with the bond sale to fund AI investment that it had been weighing a week earlier at around $5 billion. Tranche sizes and pricing were not disclosed.",
+      "why_it_matters": "Launching the multi-tranche offering shows Tencent converting its stated AI-funding plan into an active capital raise, and the dim-sum tranche gives offshore renminbi investors a rare large-cap tech credit to absorb.",
+      "summary_ja": "テンセントは、米ドル債とダイムサム債（オフショア人民元債）を4トランシェに分けて販売する準備に入ったとCNAが報じた。1週間前に検討段階として示していた約50億ドル規模のAI資金調達債券発行を前進させる動きで、各トランシェの規模や条件は明らかにされていない。",
+      "why_it_matters_ja": "複数トランシェでの発行開始は、テンセントが表明していたAI投資資金の調達計画を実際の資金調達行動に移したことを示す。ダイムサム債の組み入れは、オフショア人民元投資家に大型テック企業の信用リスクを取り込む機会を提供する点でも意味がある。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-09-0830",
+        "index": 4
+      },
+      "key": "tencent-ai-bond-offering",
+      "ids": [
+        "2072ca27efe46e"
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "US",
+        "HK/CN"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/tencent-markets-us-dollar-and-dim-sum-bonds-in-four-tranches-6454546"
+        }
+      ]
+    },
+    {
+      "headline": "Jardine Matheson to buy remaining 50% of Gammon Construction for $330m, lifts 2026 guidance",
+      "summary": "Jardine Matheson will acquire the remaining 50% stake in Gammon Construction that it does not already own for US$330 million, the group said alongside raised 2026 earnings guidance of up to US$5.65 per share.",
+      "why_it_matters": "Taking full control of Gammon gives Jardine Matheson complete ownership of a long-standing Hong Kong construction joint venture at a moment the group is also lifting its profit outlook, pointing to confidence in its core businesses.",
+      "summary_ja": "ジャーディン・マセソンは、ガモン・コンストラクションの未保有分である残り50%の株式を3億3000万米ドルで買収すると発表した。同時に2026年通期の1株当たり利益見通しを最大5.65米ドルに上方修正した。",
+      "why_it_matters_ja": "ガモンの完全子会社化により、同社は香港の長年の合弁建設事業を単独保有する形となる。業績見通しの上方修正と同時に発表されたことは、グループの中核事業に対する自信の表れとも読める。",
+      "status": "new",
+      "prev": null,
+      "key": "jardine-matheson-gammon-construction-acquisition",
+      "ids": [
+        "d5ec713d26cec4"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/jardine-matheson-raises-2026-earnings-guidance-high-us5-65-share"
+        }
+      ]
+    },
+    {
+      "headline": "DayOne's Johor data centre project secures RM15bn in financing from seven lenders",
+      "summary": "DayOne's data-centre project in Johor has received a financing boost of RM15 billion from seven lenders — CIMB, Credit Agricole CIB, DBS, Maybank, OCBC, Standard Chartered and UOB — the Business Times reported.",
+      "why_it_matters": "The size of the lender group underscores how much bank capital is being committed to Southeast Asia's data-centre buildout, with Johor emerging as a cross-border hub for capacity serving Singapore's AI and cloud demand.",
+      "summary_ja": "DayOneがジョホールで進めるデータセンター事業に対し、CIMB、クレディ・アグリコルCIB、DBS、メイバンク、OCBC、スタンダード・チャータード、UOBの7行が合計150億リンギの融資を実施すると、ザ・ビジネス・タイムズが報じた。",
+      "why_it_matters_ja": "これだけの規模の銀行団が組成されたことは、東南アジアのデータセンター建設に投じられている融資規模の大きさを示している。ジョホールは、シンガポールのAI・クラウド需要を支える国境を越えた拠点としての存在感を強めている。",
+      "status": "new",
+      "prev": null,
+      "key": "dayone-johor-datacentre-financing",
+      "ids": [
+        "d85f33aa62f9e9"
+      ],
+      "categories": [
+        "Infra",
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "TMT",
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/dayones-johor-data-centre-project-gets-rm15-billion-boost-financing-seven-lenders"
+        }
+      ]
+    },
+    {
+      "headline": "Malaysian king buys 2.25% stake in Singapore-listed rare-earths miner Southern Alliance Mining",
+      "summary": "Johor's Sultan Ibrahim Iskandar, Malaysia's king, has paid a premium to buy a 2.25% stake in Southern Alliance Mining, a Singapore-listed miner expanding into rare earths, the Business Times reported.",
+      "why_it_matters": "A head-of-state buyer paying above market for a stake highlights how rare-earths exposure is drawing non-traditional investors as supply-chain diversification away from China gains urgency across the region.",
+      "summary_ja": "マレーシア・ジョホール州の国王、スルタン・イブラヒム・イスカンダル氏が、レアアース事業への展開を進めるシンガポール上場の鉱業会社サザン・アライアンス・マイニングの株式2.25%を、市場価格にプレミアムを付けて取得したと、ザ・ビジネス・タイムズが報じた。",
+      "why_it_matters_ja": "国家元首による市場価格を上回る出資は、中国への依存を減らすサプライチェーン多様化が急がれる中で、レアアース関連資産に従来とは異なる投資家層の関心が集まっていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "malaysian-king-southern-alliance-mining-stake",
+      "ids": [
+        "666920385972d2"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA",
+        "SG"
+      ],
+      "sectors": [
+        "Materials"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/malaysian-king-buys-stake-singapore-listed-mining-firm-expanding-rare-earths"
+        }
+      ]
+    },
+    {
+      "headline": "Balestier Regency freehold site draws fresh en bloc bid at S$255m",
+      "summary": "A fresh collective-sale bid worth S$255 million has been made for the 72-unit freehold Balestier Regency site in Singapore, the Business Times reported. The site could be redeveloped into up to 161 units, subject to approvals.",
+      "why_it_matters": "Renewed en-bloc interest at this price point signals developers still see appetite for mid-sized freehold redevelopment sites in Singapore even as the broader collective-sale market has been slow this cycle.",
+      "summary_ja": "シンガポールのバレスティア・リージェンシー（フリーホールド、72戸）に対し、2億5500万シンガポールドル規模の新たな共同売却（エンブロック）提案が出されたと、ザ・ビジネス・タイムズが報じた。認可を前提に、再開発後は最大161戸となる可能性がある。",
+      "why_it_matters_ja": "この価格帯でのエンブロック提案が再び出てきたことは、今サイクルで全体的には停滞しているシンガポールの共同売却市場でも、中規模のフリーホールド再開発用地への需要がなお残っていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "balestier-regency-en-bloc-bid",
+      "ids": [
+        "c05f70d02f4eff"
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/property/balestier-regency-makes-another-en-bloc-bid-s255-million"
+        }
+      ]
+    }
+  ]
+}
