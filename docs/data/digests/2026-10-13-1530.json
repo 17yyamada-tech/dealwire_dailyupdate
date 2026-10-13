@@ -1,0 +1,79 @@
+{
+ "edition": "2026-10-13-1530",
+ "edition_label": "13 Oct 2026 · 15:30 SGT",
+ "date": "2026-10-13",
+ "generated_at": "2026-10-13T07:41:00Z",
+ "reading_minutes": 2,
+ "items": [
+  {
+   "headline": "Visa cleared to run domestic clearing network in China after years-long wait, tapping US$144tn payments market",
+   "summary": "China has approved Visa to prepare a domestic clearing and payments business, the Business Times and CNA reported, ending a years-long wait for a local clearing licence. A local clearing organisation would let Visa settle domestic yuan transactions directly through its own network instead of through local intermediaries, giving it access to a payments market the reports put at roughly US$144 trillion.",
+   "why_it_matters": "Few foreign card networks have secured this kind of direct access to China's domestic payments infrastructure, and the approval gives Visa a rare foothold without relying on a local partner even as broader US-China friction in financial services continues.",
+   "summary_ja": "中国がVisaに対し国内清算・決済事業の準備を認可したと、Business TimesとCNAが報じた。数年にわたる認可待ちがようやく実を結び、Visaは自社の清算組織を通じて人民元建ての国内取引を直接決済できるようになる。対象となる中国の決済市場規模は両メディアによれば約144兆米ドルとされる。",
+   "why_it_matters_ja": "中国の国内決済インフラにこの形で直接アクセスできた外国のカードネットワークはこれまで数少なく、米中間で金融分野の摩擦が続くなかでも、Visaは現地パートナーを介さずに足場を得た点で異例の開放例となる。",
+   "status": "new",
+   "prev": null,
+   "key": "visa-china-domestic-clearing-approval",
+   "ids": ["5ee19ebaaa1f62", "3e113ff1202356"],
+   "links": [
+    {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/visa-approved-prepare-domestic-payments-business-china"},
+    {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/china-visa-approval-local-clearing-organisation-6455046"}
+   ],
+   "categories": [],
+   "countries": ["HK/CN"],
+   "sectors": ["Financials", "Other"]
+  },
+  {
+   "headline": "Character.AI files for bankruptcy, sells some assets to Disney for $20mn",
+   "summary": "AI chatbot startup Character.AI has filed for bankruptcy and agreed to sell some of its assets to Disney for $20 million, CNA reported. The sale covers only part of the company's assets, and the report did not disclose further financial terms.",
+   "why_it_matters": "A quick collapse at a once closely-funded consumer AI company is a data point for credit investors pricing risk across the AI sector, while Disney picking up assets out of a bankruptcy shows large media groups still opportunistically shopping for AI capability.",
+   "summary_ja": "AIチャットボット企業Character.AIが破産を申請し、資産の一部を2000万ドルでディズニーに売却することで合意したと、CNAが報じた。今回の売却対象は資産の一部にとどまり、それ以外の財務条件は報道では明らかにされていない。",
+   "why_it_matters_ja": "かつて資金を厚く確保していた消費者向けAI企業がここまで急速に行き詰まった事実は、AIセクターのリスクを見る信用投資家にとって一つの材料となる。破産した企業からディズニーのような大手メディア企業が資産を取得する動きが続いている点も示している。",
+   "status": "new",
+   "prev": null,
+   "key": "character-ai-bankruptcy-disney-asset-sale",
+   "ids": ["d4150dad21a3a5"],
+   "links": [
+    {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-6454941"}
+   ],
+   "categories": ["Credit"],
+   "countries": [],
+   "sectors": ["AI & Semis", "TMT"]
+  },
+  {
+   "headline": "Freshworks signs final agreement to acquire Torii, folding AI spend-management tool into Freshservice",
+   "summary": "US software company Freshworks has signed a final agreement to acquire Torii, according to Japan M&A coverage of the deal. Freshworks plans to integrate Torii's capabilities into Freshservice as an \"AI spend management\" feature; the reports did not disclose a purchase price.",
+   "why_it_matters": "The deal shows enterprise software vendors moving quickly to bundle AI-spend oversight into IT service-management products as corporate buyers struggle to track fast-growing AI tooling costs, and is a bet by Freshworks that spend governance becomes a standard feature rather than a standalone product.",
+   "summary_ja": "米ソフトウェア企業FreshworksがToriiの買収について最終契約を締結したと、Japan M&A関連報道が伝えた。FreshworksはToriiの機能をFreshserviceに統合し、「AI支出管理」機能として提供する計画で、買収価格は報道では明らかにされていない。",
+   "why_it_matters_ja": "企業向けソフトウェア各社がAI関連ツールの支出管理機能をITサービス管理製品に急いで組み込んでいる動きを示すもので、企業側がAIツールのコスト急増を把握しづらくなっている背景がある。上場企業であるFreshworksにとっては、支出ガバナンスが単独製品ではなく標準機能になるとの賭けでもある。",
+   "status": "new",
+   "prev": null,
+   "key": "freshworks-torii-acquisition",
+   "ids": ["2ae61d9e7af82e", "09a591f3027c20"],
+   "links": [
+    {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aaVJxZW5YeG82Ykl0NHVOVE1lSi1KX09xdFV4bzJvQmFLTFphX1dRZWxneW5hcmVZeGNqbXBZQTZ1SlJPa2EtMGtCYnVQMl9NZ0tv?oc=5"},
+    {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwblhGLXduRDhkX2R6aG4zUmxOTTFqTVBsVVdrOTdLZkd0QmdBb3VmMHh2QXBpQ2dYX1pETlRwNFVzTjFzRy01V196LUZ5TWR5emVUanVGR2p2SFBJZ2xWUkU4OTlSNERhU0VoSmRFOTRnNGs5SXhGdTFtZXgweTA?oc=5"}
+   ],
+   "categories": ["M&A"],
+   "countries": [],
+   "sectors": ["AI & Semis", "TMT"]
+  },
+  {
+   "headline": "ECARX completes buyout of Flyme software business, taking vehicle operating system fully in-house",
+   "summary": "Chinese auto-tech company ECARX has completed its acquisition of the Flyme software business, moving toward a fully in-house vehicle operating system, according to Japan M&A coverage. The deal ends ECARX's reliance on an external software provider for that part of its platform; financial terms were not disclosed.",
+   "why_it_matters": "Bringing the OS fully in-house gives ECARX more control over its product roadmap and margins as competition among Chinese connected-vehicle software suppliers intensifies, and cuts its dependence on a single outside supplier for a component that increasingly differentiates vehicles.",
+   "summary_ja": "中国の車載ソフトウェア企業ECARXがFlymeソフトウェア事業の買収を完了し、車載OSの完全内製化に進むと、Japan M&A関連報道が伝えた。この買収により、プラットフォームの該当部分で外部ソフトウェア会社への依存がなくなる。買収金額は明らかにされていない。",
+   "why_it_matters_ja": "OSを完全に内製化することで、中国のコネクテッドカー向けソフトウェア競争が激しくなるなか、ECARXは製品ロードマップと利益率をより自社でコントロールできるようになる。車両の差別化要因としてソフトウェアの重みが増すなか、特定の外部サプライヤーへの依存リスクも軽減される。",
+   "status": "new",
+   "prev": null,
+   "key": "ecarx-flyme-software-acquisition",
+   "ids": ["dfdab228918175"],
+   "links": [
+    {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9seU1nQzVfZXJmamh4ZThXS3hDVXRPenVnOFozVzRMcV9fV1dmczRCM1lES21wY2l1SGxyTVFCZGZpaGdJdzVGZFVhcWdya21HbFl4a1MtUWJ6WHh5dlhyeHJn?oc=5"}
+   ],
+   "categories": ["M&A"],
+   "countries": [],
+   "sectors": ["TMT"]
+  }
+ ]
+}

@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-13-1530",
+      "label": "13 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-13T07:41:00Z",
+      "items": 4,
+      "headlines": [
+        "Visa cleared to run domestic clearing network in China after years-long wait, tapping US$144tn payments market",
+        "Character.AI files for bankruptcy, sells some assets to Disney for $20mn",
+        "Freshworks signs final agreement to acquire Torii, folding AI spend-management tool into Freshservice"
+      ]
+    },
+    {
       "id": "2026-10-13-1230",
       "label": "13 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-13T04:36:26Z",
