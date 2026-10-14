@@ -1,0 +1,151 @@
+{
+  "edition": "2026-10-14-0830",
+  "edition_label": "14 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T00:40:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Kimberly-Clark wins conditional EU approval for $40bn Kenvue takeover, advances note exchange",
+      "summary": "Kimberly-Clark received conditional approval from EU antitrust regulators for its roughly $40 billion acquisition of Kenvue. Separately, the company said holders of Kenvue's outstanding notes have consented to proposed amendments tied to its exchange offer for those notes.",
+      "why_it_matters": "The EU clearance removes one of the last major regulatory hurdles to the largest consumer-health M&A deal in years, while the note consents show Kimberly-Clark lining up the financing structure ahead of closing.",
+      "summary_ja": "キンバリー・クラークは、約400億ドル規模のケンビュー買収についてEU独占禁止当局から条件付き承認を得た。同社は別途、ケンビューの既発債保有者が交換オファーに関連する改定条項への同意を行ったことも発表した。",
+      "why_it_matters_ja": "EUの承認により、近年最大級の消費者向けヘルスケアM&Aにおける主要な規制上のハードルがほぼ取り除かれた形となる。同時に債券保有者の同意取得は、買収完了に向けた資金調達構造の整備が進んでいることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "kimberly-clark-kenvue-eu-approval",
+      "ids": ["dff817fc059aa2", "15ab1558466e1e"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4ya3NHR3JXT3g0WU0zNS1KTVd2UW94MDF4NDlqc3JHQmdwcWJoXzB4NklubHJ6RGdqNkt6VXpXX2Robkg1X2xkQ1hEMG5QQy1zb1ZzWjZfcWhCMmdMS191UTBrblZrTDhnQWR1Nkw2YnlaV0JpSzZCbA?oc=5"},
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/kimberly-clark-announces-successful-consent-solicitations-for-kenvue-notes-and-amendment-to-terms-of-exchange-offers-302906282.html"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["Financials", "Other"]
+    },
+    {
+      "headline": "AT&T agrees to sell AT&T Mexico to Grupo Televisa and Fintech Holdings",
+      "summary": "AT&T said it will sell its Mexican wireless unit, AT&T Mexico, to Grupo Televisa and Fintech Holdings. The company said the deal sharpens its focus and capital allocation on building out fiber and 5G networks in the United States.",
+      "why_it_matters": "The sale marks AT&T's retreat from the Mexican wireless market it entered more than a decade ago, freeing up capital for its US fiber and 5G buildout as domestic telecom competition intensifies.",
+      "summary_ja": "AT&Tは、メキシコの携帯事業子会社AT&Tメキシコをグルポ・テレビサおよびフィンテック・ホールディングスに売却すると発表した。同社はこの取引により、米国内のファイバー網・5G網への投資に経営資源と資本配分を集中できるとしている。",
+      "why_it_matters_ja": "今回の売却により、AT&Tは10年以上前に参入したメキシコの携帯市場から退くことになる。国内の通信競争が激化する中、米国内のファイバー・5G投資に資本を振り向ける狙いがある。",
+      "status": "new",
+      "prev": null,
+      "key": "att-mexico-televisa-fintech-sale",
+      "ids": ["035fb49f0c68f4"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/att-to-sell-att-mexico-to-grupo-televisa-and-fintech-holdings-302907590.html"}
+      ],
+      "categories": ["Infra", "M&A"],
+      "countries": ["US"],
+      "sectors": ["TMT", "Financials", "Infrastructure"]
+    },
+    {
+      "headline": "Bumble agrees to $1.3bn take-private deal with Ithaca Holdings at $6.05 a share",
+      "summary": "Bumble signed a definitive agreement to be acquired by investment firm Ithaca Holdings for $1.3 billion, or $6.05 a share, confirming earlier reports that the dating app was in advanced talks to go private. Bumble shares jumped on the news.",
+      "why_it_matters": "The signed deal converts this week's informal advanced talks into a firm agreement at a markedly higher valuation than the $1bn first floated, underscoring continued consolidation among struggling dating-app operators.",
+      "summary_ja": "バンブルは投資会社イサカ・ホールディングスによる買収で最終契約を締結したと発表した。買収額は13億ドル、1株当たり6.05ドルで、非公開化に向けた協議が大詰めとの観測を裏付けた。発表を受けバンブル株は急伸した。",
+      "why_it_matters_ja": "これまでの「大詰めの協議」段階から正式な契約締結に進み、当初報じられていた10億ドルより高い評価額で決着した。不振が続く出会い系アプリ業界で再編が一段と進んでいることを示す。",
+      "status": "update",
+      "prev": {"edition": "2026-10-13-0830", "index": 2},
+      "key": "bumble-go-private-talks",
+      "ids": ["df599ff93a6ef6", "f20dfe216ae4da", "964f28f4ff18cd"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/bumble-swipes-right-13-billion-go-private-deal-amid-online-dating-industry-reset-6456041"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZVBvUHhYcWpfZE5qNnYwWG5NSkZWbFZZUXBWRHdfNHB3a0Ewc3dYTFkxREdIVWJZcEVCUWFJVmI3YkFsdExsRjdkRmdYQUMxMm02YUlYUmk1ZUcyT1JoRFRWV20wZkxiOWt0czgxUDgwQnZZcFk3TDlpU1FRYmNSOG5yYVJtbWM?oc=5"},
+        {"source": "BBC Business", "url": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Getty Images Holdings files for Chapter 11 bankruptcy, plans to go private",
+      "summary": "Getty Images Holdings filed for Chapter 11 bankruptcy protection and signed an agreement to take the company private, according to Japanese-language reports, as the stock-photo and video seller struggles against competition from AI-generated imagery. Getty also filed an 8-K disclosing the agreement.",
+      "why_it_matters": "A Chapter 11 filing paired with a take-private deal signals Getty's public-market structure could no longer support its balance sheet under AI-driven revenue pressure, a bellwether for other content licensors facing the same squeeze.",
+      "summary_ja": "ゲッティイメージズ・ホールディングスは連邦破産法11章(チャプター11)の適用を申請し、非公開化に向けた契約を締結したと日本語メディアが報じた。AI生成画像との競争激化が背景にあるとされる。同社はこの契約についてSECに8-Kも提出した。",
+      "why_it_matters_ja": "チャプター11申請と非公開化が同時に進むのは、AIによる収益圧迫の中で上場という資本構成がもはや維持できなくなったことを示す。同様の圧力を受ける他のコンテンツライセンス事業者にとっても先行指標となる。",
+      "status": "new",
+      "prev": null,
+      "key": "getty-images-bankruptcy-go-private",
+      "ids": ["a2d842333f6391", "0a3a36f6971fbe", "1c473bcf1a29e6"],
+      "links": [
+        {"source": "Japan PE & activists", "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONmNlNFZXR1Z1a2JaOGM5MFVDT3l6MEZiVHVlM1otdkJoRDJfdmxyajVMS0R5UEJwNlVWUzAxM0dEWWMxRG5pQXFfQV9ueGVEM3dRQmZsOXVVUk1oUXFJb19QakxjNUItNmYwTnJLTDdnSHdnckVvVmxGUVQ2MElHLVVfRFY?oc=5"},
+        {"source": "SEC EDGAR 8-K", "url": "https://www.sec.gov/Archives/edgar/data/1898496/000121390026108700/0001213900-26-108700-index.htm"},
+        {"source": "Japan PE & activists", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4em5HaTVoazBMQ1Bvak96VjdMYUpTVmp3TDFkZHVYU2tHMEVGMEFWcklneXI1dEU2REhMY2RRUlF3ZGdUMGRsbnR6eTV0emNsM08wSVhNd2ppQTRLZUUzT0kxMG03bGJZM21xNg?oc=5"}
+      ],
+      "categories": ["M&A", "Credit", "PE"],
+      "countries": ["US"],
+      "sectors": ["Other", "AI & Semis", "TMT"]
+    },
+    {
+      "headline": "Workday to acquire agentic-identity platform C1.ai",
+      "summary": "Workday agreed to acquire C1.ai, a platform that manages access permissions for both human employees and AI agents across a company's systems. Workday said the deal lets it govern access from the day someone joins to the day they leave, for people and AI agents alike. Financial terms were not disclosed.",
+      "why_it_matters": "The deal shows HR and enterprise-software vendors racing to build identity and access-management tools specifically for autonomous AI agents, not just human staff, as agentic AI spreads inside corporate workflows.",
+      "summary_ja": "ワークデイは、社内システムへのアクセス権限を従業員とAIエージェントの双方について管理するプラットフォーム「C1.ai」を買収することで合意した。入社から退社までのアクセス管理を人とAIエージェントの両方に適用できるとしている。買収条件は非公表。",
+      "why_it_matters_ja": "企業の業務にエージェント型AIが広がる中、HR・業務システム各社が人間の従業員だけでなく自律的なAIエージェント向けのID・アクセス管理ツールの確保を競っていることを示す一例である。",
+      "status": "new",
+      "prev": null,
+      "key": "workday-c1-ai-acquisition",
+      "ids": ["a77da5ab5cc322"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/workday-to-acquire-c1ai-a-leading-agentic-identity-platform-for-people-and-agents-302906593.html"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["AI & Semis", "TMT"]
+    },
+    {
+      "headline": "Blackstone-backed AirTrunk delays Singapore Reit IPO amid AI stock selloff",
+      "summary": "AirTrunk, the data-centre operator backed by Blackstone, has delayed its planned initial public offering of a Singapore real estate investment trust, according to sources. The delay comes as an AI-driven stock selloff dragged Asian equities to more than two-month lows.",
+      "why_it_matters": "The postponement shows how the recent pullback in AI-related stocks is now spilling over into data-centre financing plans in Southeast Asia, a sector that had been one of the region's hottest fundraising stories.",
+      "summary_ja": "ブラックストーンが支援するデータセンター事業者AirTrunkは、計画していたシンガポールREITの新規株式公開(IPO)を延期したと複数の関係者が明らかにした。アジア株がAI関連の売りを受けて2カ月超ぶりの安値まで下落したことが背景にある。",
+      "why_it_matters_ja": "最近のAI関連株の急落が、東南アジアで最も活発だった資金調達分野の一つであるデータセンターの上場計画にも及び始めていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "airtrunk-singapore-reit-ipo-delay",
+      "ids": ["bb5ca689e5f24a"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/blackstone-backed-airtrunk-delays-singapore-reit-ipo-amid-ai-stock-selloff-sources-say"}
+      ],
+      "categories": ["PE"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["AI & Semis", "TMT", "Real Estate"]
+    },
+    {
+      "headline": "Agilent to acquire pathology-software maker Proscia for $240mn",
+      "summary": "Agilent Technologies agreed to acquire Proscia, a maker of digital-pathology software, for $240 million.",
+      "why_it_matters": "The deal adds AI-assisted pathology-image analysis software to Agilent's diagnostics business, part of a broader push by lab-equipment makers to bundle software with hardware as digital pathology adoption grows.",
+      "summary_ja": "アジレント・テクノロジーズは、デジタルパソロジー(病理画像診断)ソフトウェアを手掛けるプロシアを2億4000万ドルで買収することで合意した。",
+      "why_it_matters_ja": "今回の買収により、アジレントの診断事業にAIを活用した病理画像解析ソフトウェアが加わる。デジタルパソロジーの普及が進む中、検査機器メーカーがハードウェアとソフトウェアを組み合わせる動きの一環である。",
+      "status": "new",
+      "prev": null,
+      "key": "agilent-proscia-acquisition",
+      "ids": ["1c951240f2d033"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/agilent-buy-pathology-software-maker-proscia-240-million-6455891"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "Hulic launches ¥295-a-share tender offer to take Riso Kyoiku Group fully private",
+      "summary": "Hulic launched a tender offer for its subsidiary Riso Kyoiku Group at ¥295 per share, aiming to make the tutoring operator a wholly owned subsidiary and delist it from the Tokyo Stock Exchange. Reports linked the move to deepening ties with the Tetsuryokukai cram-school brand.",
+      "why_it_matters": "The buyout lets Hulic, a real estate group, fully integrate an education asset it already controls, part of a broader wave of Japanese parent companies taking minority-owned listed subsidiaries fully private.",
+      "summary_ja": "ヒューリックは子会社のリソー教育グループに対し、1株295円でTOB(株式公開買付け)を実施すると発表した。完全子会社化し、東京証券取引所から上場廃止とすることを目指す。鉄緑会との連携強化が背景にあるとの報道もある。",
+      "why_it_matters_ja": "不動産大手のヒューリックが、既に支配下にある教育関連子会社を完全に取り込む動きである。少数株主が残る上場子会社を親会社が完全子会社化する流れが日本で広がる中の一例といえる。",
+      "status": "new",
+      "prev": null,
+      "key": "hulic-riso-kyoiku-tob",
+      "ids": ["be801bc5d046a6", "3b33502e10f926"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZEZZN3BySGt5WFVGbmFSc19aQjNZYVh0N1pjUm9FUzNGMTRTeTRHcFlJbjB3Sk92cVU5NUVMV0ljb0dUS1hEOG5WUjVQRndSR1BaNFE2UEkzZWRuY3RqekhSVjh5djl1MnhHT244ellOODc2RWpqZkRBUEVRWF9rdkVB0gGHAUFVX3lxTE1GeFFFdC1ZUGdrSWtiRlBQb1pMNWpBckEzQkJGaE85TWtCcDAzSlhwUWwwSnFHUXJ3T0EzdHNDMnByZXJzQzhfSm8yclgzUGd3T2lEZV9HcndvcTN2enhUbnRrTmVnbDlxSV90Y0U1ekxxbjJhMDRxNjBFQnBzZF9QWW40NUVDZw?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xNXlyUWxvWF9icHZoczViNVAzZHpCX25vQm9oRFUzTHR4LTVNSzRtRm5iRjYtOTZCMF85LVNfNlV5d0tweTdXRXQ0REFRbkU0MWdCZGVmdFhOMndzY0JTbmFJSDNoZS1DZUxiOQ?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"]
+    }
+  ]
+}
