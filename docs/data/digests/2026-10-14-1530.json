@@ -1,0 +1,113 @@
+{
+  "edition": "2026-10-14-1530",
+  "edition_label": "14 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T07:32:12Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Singapore's Princeton Digital Group seeks up to US$1.2bn loan for Johor data centre",
+      "summary": "Princeton Digital Group (PDG), the Singapore-based Asian data centre operator, is seeking a syndicated loan of up to US$1.2 billion, according to a source cited by The Business Times. The financing is tied to its data centre development in Johor, Malaysia.",
+      "why_it_matters": "The size of the facility shows how central large syndicated loans have become to funding Asia's AI-driven data centre build-out, with lenders increasingly backing sizeable cross-border projects just across the causeway from Singapore.",
+      "summary_ja": "シンガポールのデータセンター運営会社プリンストン・デジタル・グループ(PDG)が、最大12億米ドルのシンジケートローンを調達しようとしている。関係者がThe Business Timesに語った。調達資金はマレーシア・ジョホールのデータセンター開発に関連する。",
+      "why_it_matters_ja": "大型のシンジケートローンがアジアのAI主導型データセンター建設の資金調達で中心的な役割を担っていることを示す一例で、シンガポールのすぐ対岸にあたるジョホールのクロスボーダー案件に対し、貸し手が大規模な協調融資を組む動きが広がっている。",
+      "status": "new",
+      "prev": null,
+      "key": "pdg-johor-data-centre-loan",
+      "ids": ["80d404b6b41fc7"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/singapores-pdg-seeking-us1-2-billion-loan-johor-data-centre-source"}
+      ],
+      "categories": ["Credit", "Infra"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "Japan's World and TSI Holdings agree to merge under new holding company Infinity United",
+      "summary": "Japanese apparel groups World Co and TSI Holdings (TSIHD) have agreed to integrate their management, according to Japan M&A sources citing Reuters. The two will set up a joint holding company named Infinity United in March 2027.",
+      "why_it_matters": "The tie-up would place two of Japan's largest multi-brand apparel retailers under one holding structure, part of a wave of consolidation in the sector as operators contend with shrinking domestic department-store demand and rising sourcing costs.",
+      "summary_ja": "日本のアパレル大手ワールドとTSIホールディングス(TSIHD)が経営統合に合意した。Japan M&Aがロイター報道として伝えた。両社は2027年3月に共同持株会社「インフィニティ・ユナイテッド」を設立する。",
+      "why_it_matters_ja": "国内百貨店需要の縮小と調達コストの上昇を背景に業界再編が進むなか、日本有数のマルチブランドアパレル企業2社が1つの持株会社の傘下に統合される動きとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "world-tsi-holdings-merger",
+      "ids": ["d126f83ae6020f", "97d617127e8fbc", "52c3ad82888941"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUTFBnZElGaTJVQV93UmlUbmZ2dnpaMDdWN2lOLXBVSHQ5Zm5aSnBFbkVkeWxpeXVvZGRtRzh6ZEVKT2NDRXN6TEl3UlhnWVJ1X3Q4SXFzWi0yYVZ3aHJRQ2dyWi1ORkRz?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DTFVSLVlVd0hJNnhNMGtPbnVvSWxOWGtCYWlYNzlCb0xNdC1UUkNhTnJoWER0TDZLT2pTVEl3LTNpUVp4UXo2QlJTS0swQWxuMHFQdXZMY2szcENhZFNvZWdqbDRMVnNKbWVyUA?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xRHlWOWIwZkpxS3hncmo3Zm9CUDQtazdxSmhJaUlIMS1NNFRLMHloMlF0TjZHT1JoX2Y5Q19QSjJTNnN3OXJyQVVIbTZsc010VkRXb1o3OTA?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Singapore's Nanyang Biologics eyes Nasdaq listing at US$1.5bn valuation",
+      "summary": "Singapore-based AI drug-discovery biotech Nanyang Biologics is awaiting a Nasdaq listing at a valuation of about US$1.5 billion, The Business Times reported. The valuation is driven by its proprietary agentic AI platform and a potential first-in-class cancer treatment.",
+      "why_it_matters": "A US$1.5bn Nasdaq listing would rank among the largest for a Singapore-headquartered biotech, testing whether investor appetite for AI-driven drug-discovery platforms holds up beyond the current large-cap AI trade.",
+      "summary_ja": "シンガポール拠点のAI創薬バイオテック、Nanyang Biologicsがナスダック上場を控えており、企業価値は約15億米ドルとされる。The Business Timesが報じた。独自のエージェント型AIプラットフォームとファーストインクラスのがん治療薬候補が評価を支えている。",
+      "why_it_matters_ja": "15億米ドル規模のナスダック上場が実現すれば、シンガポール拠点のバイオテックとして最大級となる。大型AI株への関心が一巡した後も、AI創薬プラットフォームへの投資家の意欲が続くかを試す案件となる。",
+      "status": "new",
+      "prev": null,
+      "key": "nanyang-biologics-nasdaq-listing",
+      "ids": ["abc54e30dbbd64"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/consumer-healthcare/nasdaq-listing-awaits-singapores-us1-5-billion-ai-drug-discovery-biotech-nanyang-biologics"}
+      ],
+      "categories": [],
+      "countries": ["US", "SG", "SEA"],
+      "sectors": ["AI & Semis", "TMT", "Healthcare"]
+    },
+    {
+      "headline": "Bank of China (Hong Kong) to issue up to US$3.3bn of yuan CDs under new funding access",
+      "summary": "Bank of China (Hong Kong), the city's renminbi clearing bank, has gained new funding access as part of a yuan-internationalisation push, The Business Times reported. Its plan entails issuing up to US$3.3 billion of negotiable certificates of deposit this year.",
+      "why_it_matters": "A bigger CD issuance programme gives Hong Kong's clearing bank a deeper funding base to support offshore yuan liquidity, a precondition for growing cross-border renminbi trade and credit markets.",
+      "summary_ja": "香港の人民元クリアリング銀行である中国銀行(香港)が、人民元国際化を後押しする新たな資金調達手段を得た。The Business Timesが報じた。今年中に最大33億米ドル相当の譲渡性預金証書(CD)を発行する計画。",
+      "why_it_matters_ja": "CD発行枠の拡大により、香港のクリアリング銀行はオフショア人民元の流動性を支える資金基盤を強化する。これは人民元のクロスボーダー取引とクレジット市場の拡大を支える前提条件となる。",
+      "status": "new",
+      "prev": null,
+      "key": "boc-hk-yuan-cd-issuance",
+      "ids": ["937c629015e801"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/hong-kongs-clearing-bank-gains-new-funding-access-yuan-push"}
+      ],
+      "categories": [],
+      "countries": ["HK/CN"],
+      "sectors": ["Financials"]
+    },
+    {
+      "headline": "Adams Street launches $363.5m evergreen fund for venture investing",
+      "summary": "Private-markets firm Adams Street has launched an evergreen fund of $363.5 million dedicated to venture investments, DealStreetAsia reported.",
+      "why_it_matters": "Evergreen structures let venture investors recycle capital without a fixed fund life, a model gaining traction among large institutional allocators seeking more flexible access to growth and late-stage deals.",
+      "summary_ja": "プライベートマーケット運用会社アダムス・ストリートが、ベンチャー投資向けに3億6350万米ドル規模のエバーグリーン・ファンドを立ち上げた。DealStreetAsiaが報じた。",
+      "why_it_matters_ja": "エバーグリーン型の仕組みは、固定された運用期間に縛られずに資本を再投資できる仕組みであり、グロース期・レイター期の投資へより柔軟にアクセスしたい大手機関投資家の間で採用が広がっている。",
+      "status": "new",
+      "prev": null,
+      "key": "adams-street-evergreen-fund",
+      "ids": ["378a4f6e8d39a8"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1eVYzV096OHhiOTJKREI0TU1jVkZiZ0t1UGZaLTlDV2xheEpocTgxZy0zNF9hN3o2M0tLZmhMV0Z5Yzd1cU05bExBLXZvaWV2bzg2ZUlBRTJyUEFJYVlxZHRVaGlaam9iSlJENmQwcGlRamZVa2NncHgwdndFQQ?oc=5"}
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Singapore's Antares Ventures secures $50m at second close of deeptech fund",
+      "summary": "Singapore-based venture firm Antares Ventures has secured $50 million at the second close of its deeptech fund, DealStreetAsia reported.",
+      "why_it_matters": "The raise adds to a thin pool of dedicated deeptech capital in Southeast Asia, where investors have mostly favoured software and consumer-internet bets over hardware-intensive, science-based startups.",
+      "summary_ja": "シンガポールのベンチャー企業アンタレス・ベンチャーズが、ディープテック向けファンドの2回目のクローズで5000万米ドルを確保した。DealStreetAsiaが報じた。",
+      "why_it_matters_ja": "東南アジアではソフトウェアや消費者向けインターネット企業への投資が主流で、ハードウェアを多く要するサイエンス系ディープテックへの専業資金はまだ薄い。今回の調達はその数少ない専業資金の積み増しとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "antares-ventures-deeptech-fund-close",
+      "ids": ["cb030ce7a95a73"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdDJYRldHd0M2YmxlX2RvUzUxNE1GNTV2eE9YZUFhZk5TeFREQUhnRFFxcWgyOUVjVkZUXzhXekh5VnBrbl9tamtLMDZiLVRVQWg0M0Qxd01TZDRZMHZ2M3BMWk1PZ1ZhLUFfQWRhTHliRVJrNmhqcElBOFdpMGJsN1V3?oc=5"}
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": ["Other"]
+    }
+  ]
+}
