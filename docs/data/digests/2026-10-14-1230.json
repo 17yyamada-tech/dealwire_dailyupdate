@@ -1,0 +1,244 @@
+{
+  "edition": "2026-10-14-1230",
+  "edition_label": "14 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T04:39:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "LSEG in talks to acquire financial-data provider Octus for about $3.5bn",
+      "summary": "London Stock Exchange Group is in talks to acquire financial-data company Octus for roughly $3.5 billion, according to Reuters.",
+      "why_it_matters": "A deal of this size would be one of LSEG's largest moves yet into financial-data services, a segment exchange groups have been building up to diversify away from trading and clearing fees.",
+      "summary_ja": "ロンドン証券取引所グループ(LSEG)は、金融データ会社Octusの買収に向けて協議を進めている。買収額は約35億ドルとロイターが報じた。",
+      "why_it_matters_ja": "実現すればLSEGによる金融データ事業への進出としては最大級の動きとなる。取引所各社は取引・清算収入への依存を減らすため、データ事業の強化を競っている。",
+      "status": "new",
+      "prev": null,
+      "key": "lseg-octus-acquisition-talks",
+      "ids": [
+        "1b71681fe7e23e",
+        "050902041517cf"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45NzMyZ2lmcjRuRE5ZbDlVX3NYYU5hWGkzSnQ4VDV3cWVHT2pCMlh1d1g4RDRmY2U3NVZmSXZHMkZzRU96NDF6bmN2RVJpUWs3OVRuc203cnd1Wnc1bW56YzR6NTVoSndlRzgwYWRucFBPNS1acVAtOUcwVEgzUGM?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNEdkU2xHcnk2RXh4VzdnZWVjaG9DZnUxZnJhUVZzSFE4Q3hCLW5JQk5ZRnVXeVNJNjdqUXA3cE5hWnlpM01sX1FOcDVIcFN2T2pFaWc0c1pJOUtTRmVCRFVabkY3RmVFaUt1MFhHX1MwM2k0Z25vR1JrVnRkVngtNktVdlo5Zw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "SK Group chairman Chey sells SK Corp stake to Dell-family office fund for $406mn",
+      "summary": "SK Group chairman Chey Tae-won sold a stake in SK Corp to a family office fund linked to the Dell family for $406 million. The sale follows his plan, reported last month, to sell a 2.26% stake in SK Corp for about $700 million after a divorce ruling.",
+      "why_it_matters": "The sale puts part of SK Corp's ownership in the hands of a US family office tied to the Dell family, giving outside observers a clearer picture of how the divorce-related stake sale is unwinding at the top of SK Group.",
+      "summary_ja": "SKグループのチェ・テウォン会長は、SKコーポレーションの株式をデル家系列のファミリーオフィスファンドに4億600万ドルで売却した。これは、離婚訴訟の判決を受けてSKコーポレーション株式2.26%を約7億ドルで売却するとした先月の計画に続くものである。",
+      "why_it_matters_ja": "今回の売却により、SKコーポレーション株の一部がデル家系列の米ファミリーオフィスの手に渡ることが明らかになった。離婚判決を受けた株式売却の行方がより具体的になり、SKグループの支配構造の変化を見る材料となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-03-1230",
+        "index": 1
+      },
+      "key": "sk-group-chey-sk-corp-stake-sale",
+      "ids": [
+        "a5474d9804c5f9"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/sk-group-chairman-chey-sells-stake-dell-family-office-fund-406-million-6457511"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "Kachitas launches ¥2,000-a-share tender offer for Tobu Jyuhan, aiming to delist it",
+      "summary": "Kachitas, a used-home resale operator, launched a tender offer for real-estate company Tobu Jyuhan at ¥2,000 a share. The offer aims to make Tobu Jyuhan a wholly owned subsidiary and delist it from the Tokyo Stock Exchange, with reports citing expected scale benefits from the deal.",
+      "why_it_matters": "The buyout adds scale to Kachitas's used-home resale business by folding in a real-estate peer, part of a broader trend of Japanese acquirers taking affiliated listed companies fully private.",
+      "summary_ja": "中古住宅買い取り事業を手掛けるカチタスは、不動産会社の東武住販に対し1株2000円でTOB(株式公開買付け)を実施した。東武住販を完全子会社化し、東京証券取引所から上場廃止とすることを目指す。規模拡大効果が見込まれるとの報道もある。",
+      "why_it_matters_ja": "この買収により、カチタスの中古住宅買い取り事業に不動産同業の規模が加わる。日本では、関連する上場企業を完全子会社化して非公開化する動きが広がっており、その一例である。",
+      "status": "new",
+      "prev": null,
+      "key": "kachitas-tobu-jyuhan-tob",
+      "ids": [
+        "a33b4ce24a5558",
+        "f6380ea0ae35c2"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOalpfRHMteXFDVUNFZ2Q2YzdNTkhWbEUzVERpXzI4YWpUNDNMNFg1UEQxNjB4ZlNSVWdzNjJsc3Rtc1ZMWnpOZmczU2k1QWlSWkNTak1wWjlzQXdtYnNyMl9CR3M5cVZBbGw2RVNkSUdPU0Exb3UzV1lNbmF6X2J5YlFZQ2N6QTg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90YnVNeF9JMVBVZ0NKUDRESHYzdkRtRWRZM2llNDZNLW5VSjlkeW9HVncyeldPTGNLRDJKZHhKSjNocXl0QU1PVm9mVl9jbzlOMmthaFN2U25LbzZCRElDdUcyVnFjaEJTQjdYQXM4NUxJdw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "Metaplanet raises ¥51.9bn via euro-yen convertible bond to repay debt, fund buybacks",
+      "summary": "Metaplanet raised ¥51.9 billion through a euro-yen denominated convertible bond. The company said proceeds will go toward repaying debt and funding share buybacks.",
+      "why_it_matters": "The bond sale shows Metaplanet, known for its bitcoin treasury strategy, also tapping conventional debt markets to manage its balance sheet and return capital to shareholders.",
+      "summary_ja": "メタプラネットは、ユーロ円建て転換債(CB)で519億円を調達した。調達資金は借入金の返済と自己株式取得に充当するとしている。",
+      "why_it_matters_ja": "ビットコインを財務戦略の柱とすることで知られるメタプラネットが、通常の債券市場も活用して資金を確保し、借入返済と株主還元に充てていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "metaplanet-euroyen-cb",
+      "ids": [
+        "6084bb0eefd84f",
+        "481c30e0b01175"
+      ],
+      "links": [
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44WlNoZDNOY2NiUm9kMmlyTEU0NjFRdXk2c0Y4TGw0cFhzOEVsWWtESmktbnNtQkNSYVpkRVhGektOU3poNm1SaWpiREZlMVY3eG5PMmV2ZktPb3k0WHY2YlVEd2VkV1FWaVF4N1cwaGE?oc=5"
+        },
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQjhaMEdTZmJ3ZF91eTh6SldjUlZ5dkJpUjUwM0JpV21pMzdUZXFpY3QxRmhMOFNTdUl1YzN0N1V0Yll0Uk42dTJxaTlfdW5DeXBOeWUycTFJRE9GcE0tbXNIVkNqeGszM21tYzFiLUJYSVZkcjBLSHNnRjhGVDZlc0pjRm5zZUU?oc=5"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Parkway Life Reit buys three French nursing homes for US$43.5mn, lifting leverage to 35.3%",
+      "summary": "Parkway Life Reit agreed to buy three nursing homes in France for US$43.5 million. The trust said the deal will lift its aggregate leverage to about 35.3%.",
+      "why_it_matters": "The purchase extends Parkway Life Reit's overseas healthcare-property push into France, though the leverage rise to about 35.3% leaves less headroom for further acquisitions without fresh equity.",
+      "summary_ja": "パークウェイ・ライフ・リートは、フランスの介護施設3施設を4350万米ドルで買収することで合意した。同リートはこの取引により総負債比率(レバレッジ)が約35.3%まで上昇する見込みだとしている。",
+      "why_it_matters_ja": "この買収により、パークウェイ・ライフ・リートの海外ヘルスケア不動産への展開がフランスにも広がる。一方でレバレッジが約35.3%まで上がることで、新規の株式調達なしに追加買収を行う余地は限られる。",
+      "status": "new",
+      "prev": null,
+      "key": "parkway-life-reit-france-nursing-homes",
+      "ids": [
+        "c0191d12de0347"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/property/parkway-life-reit-buys-three-nursing-homes-france-us43-5-million"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "Malaysia's Vynn Capital closes Fund II, targeting 13-14 portfolio companies",
+      "summary": "Malaysia's Vynn Capital closed its second fund and plans to back 13 to 14 portfolio companies with the proceeds.",
+      "why_it_matters": "The fund close gives Vynn Capital fresh capital to deploy into Malaysian and regional startups, at a time when Southeast Asian venture fundraising has been comparatively slow.",
+      "summary_ja": "マレーシアのベンチャーキャピタル、ヴィン・キャピタルは第2号ファンドのクロージングを完了した。同ファンドから13~14社の投資先企業を支援する計画としている。",
+      "why_it_matters_ja": "ファンドのクロージングにより、ヴィン・キャピタルはマレーシアおよび東南アジア地域のスタートアップへの投資資金を新たに確保した。東南アジアのベンチャー資金調達が比較的停滞している中での動きである。",
+      "status": "new",
+      "prev": null,
+      "key": "vynn-capital-fund-ii-close",
+      "ids": [
+        "7b135842072237"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaelNwMkJhaW8xM216WkVEa0ZFYVV0dmgweEJRSUZ4Y1BjYVF4OTk2VjRwSEszUEwtQ3VvZDUwRlIydXpyOUR0LWNPSklQT2p3VXZRSDZVdTNLRHdzM2txVlItbUhEakJNcDlQUG1qUkJ3Uzd0QVV3R1ljYw?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Austal shares jump as Hanwha wins more time to bid for US shipyard unit",
+      "summary": "Austal shares rose after Hanwha was given more time to submit a bid for Austal's US shipbuilding unit.",
+      "why_it_matters": "The extended bidding window keeps a Hanwha-led consolidation of US naval shipbuilding capacity in play, a sector Washington has pushed allies to invest in amid concerns over Chinese shipbuilding capacity.",
+      "summary_ja": "オーストラルの株価は、ハンワが同社の米造船子会社への買収提案期限の延長を得たことを受けて上昇した。",
+      "why_it_matters_ja": "オーストラルの米造船部門をめぐる入札期限の延長により、ハンワ主導の米造船業再編の可能性が維持される。米国が中国の造船能力拡大への対抗として同盟国による投資拡大を求めてきた分野である。",
+      "status": "new",
+      "prev": null,
+      "key": "austal-hanwha-us-unit-bid",
+      "ids": [
+        "d6b5562a8bd193"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/austal-shares-jump-hanwha-gets-more-time-bid-us-unit-6457826"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "New South Wales launches 1.5GW tender targeting new gas-fired generation",
+      "summary": "The Australian state of New South Wales is launching a tender for 1.5 gigawatts of new generation capacity, targeting gas-fired plants.",
+      "why_it_matters": "The tender signals continued government-backed investment in gas generation even as renewable buildout accelerates, a reminder that firm, dispatchable capacity remains a live opportunity for infrastructure investors in the energy transition.",
+      "summary_ja": "オーストラリアのニューサウスウェールズ州は、ガス火力発電を主な対象とする新規発電容量1.5ギガワット分のテンダー(入札)を実施する。",
+      "why_it_matters_ja": "再生可能エネルギーの導入が進む中でも、政府主導のガス発電への投資が続いていることを示す。安定供給力(ファーム電源)はエネルギー転換期においてもインフラ投資家にとって依然投資機会となり得る分野である。",
+      "status": "new",
+      "prev": null,
+      "key": "nsw-gas-generation-tender",
+      "ids": [
+        "69222a4a61969b"
+      ],
+      "links": [
+        {
+          "source": "Infrastructure Investor",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcHFOVW1wUnpmOXJ1cGoxdk8zc3k2OFJKQUNTQXFKUEF0cTdCUms0N0I4dTNqY3pNNlg4MlNJTXRDRVpLeEdjbjQxYW1yWjdTeDZEMTdJZGJtRHpjOUY0Q3dZdjdjWHJ4YnE4bWU4aTA3NkZTWE1adzk3cm5XMDdWcDdMYWRSV28yTkNzQUxGTnByWFhjUW1Hc1FYTm5FOHhMd1B4Wkx3?oc=5"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Energy"
+      ]
+    }
+  ]
+}
