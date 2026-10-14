@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-13T07:50:34Z",
+ "checked_at": "2026-10-14T00:51:14Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -122,6 +122,14 @@
   },
   {
    "date": "2026-10-07",
+   "headline": "US Vice President Vance demands Iran show 'meaningful' cut to uranium enrichment capacity for a war-ending deal",
+   "summary": "US Vice President JD Vance said in a Reuters interview that any deal to end the US-Iran war must require an actual, meaningful reduction in Iran's uranium enrichment capacity rather than assurances, questioning why Iran needs 60%-enriched fuel if it does not seek a nuclear weapon; a senior Iranian official told Reuters that Washington's position remained at odds with Tehran's demands.",
+   "summary_ja": "ロイターのインタビューでJD・バンス米副大統領は、米イラン戦争終結に向けた合意には、単なる保証ではなくイランのウラン濃縮能力の実質的かつ「意味のある」削減が必要だと述べ、核兵器を求めないのであればなぜ60%濃縮燃料が必要なのかと疑問を呈した。イラン政府高官はロイターに対し、米側の立場は依然テヘラン側の要求とかみ合っていないと述べた。",
+   "source": "Times of Israel",
+   "url": "https://www.timesofisrael.com/vance-iran-needs-to-show-meaningful-reduction-in-nuclear-enrichment-for-a-deal/"
+  },
+  {
+   "date": "2026-10-07",
    "headline": "Gulf of Mexico operators shut in about 25% of oil output as Tropical Storm Isaias approaches",
    "summary": "Reuters reported that US Gulf of Mexico operators had shut in about 25.08% of current oil production and 16.37% of natural gas production as of Wednesday October 7, 2026, as Tropical Storm Isaias approached, with personnel evacuated from eight production platforms and two rigs moved off location as a precaution.",
    "summary_ja": "ロイターの報道によると、トロピカルストーム「イサイアス」の接近を受け、米メキシコ湾の事業者は2026年10月7日(水)時点で原油生産量の約25.08%、天然ガス生産量の約16.37%を停止した。生産プラットフォーム8基から作業員が退避し、リグ2基が予防的に移動した。",
@@ -167,6 +175,14 @@
    "summary_ja": "NBCニュースの報道によると、海事セキュリティー調査機関の集計で、2026年9月28日から10月5日の週にホルムズ海峡周辺で原油・LNG・LPGタンカーへの攻撃が少なくとも12件発生した。これはイラン戦争開始以降で最も攻撃が激しかった週であり、同地域からの原油輸出は増加しているという。",
    "source": "NBC News",
    "url": "https://www.nbcnews.com/business/energy/hormuz-oil-exports-increase-ship-attacks-rcna601597"
+  },
+  {
+   "date": "2026-10-06",
+   "headline": "Iranian President Pezeshkian calls talks with US 'meaningless,' citing three attacks on Iran after earlier negotiations",
+   "summary": "Iranian President Masoud Pezeshkian told state media that negotiations with Washington were meaningless, citing three attacks on Iran that followed earlier rounds of talks as evidence the US was not seeking genuine dialogue, and describing the US as an adversary that assassinates, sanctions, pressures and threatens daily.",
+   "summary_ja": "イランのペゼシュキアン大統領は国営メディアに対し、米国との交渉は無意味だと述べた。過去の協議後にイランが3回攻撃を受けたことを挙げ、米国が真の対話を求めていない証拠だとし、米国を暗殺や制裁、圧力、脅迫を日常的に行う敵対国だと表現した。",
+   "source": "Daily Sabah",
+   "url": "https://www.dailysabah.com/world/mid-east/irans-pezeshkian-says-negotiations-with-us-meaningless/amp"
   },
   {
    "date": "2026-10-06",
