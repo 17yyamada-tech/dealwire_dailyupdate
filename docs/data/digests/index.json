@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-15-0830",
+      "label": "15 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-15T00:37:55Z",
+      "items": 10,
+      "headlines": [
+        "Clear Channel Outdoor completes buyout by Abu Dhabi's Mubadala Capital",
+        "3C merges with Datalec to form US$400m-plus liquid-cooling and data-centre services group",
+        "Aurora Cannabis rejects Curaleaf's revised hostile takeover bid"
+      ]
+    },
+    {
       "id": "2026-10-14-1530",
       "label": "14 Oct 2026 · 15:30 SGT",
       "generated_at": "2026-10-14T07:32:12Z",

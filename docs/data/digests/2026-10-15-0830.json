@@ -1,0 +1,310 @@
+{
+  "edition": "2026-10-15-0830",
+  "edition_label": "15 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T00:37:55Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Clear Channel Outdoor completes buyout by Abu Dhabi's Mubadala Capital",
+      "summary": "Clear Channel Outdoor Holdings has completed its previously announced acquisition by Mubadala Capital, the company said, with a separate SEC filing confirming the deal's completion and listing items covering the delisting of its common stock and changes to its board and officers. The close follows the company's CFIUS clearance earlier this month.",
+      "why_it_matters": "The completed take-private hands the US outdoor-advertising group to an Abu Dhabi-backed buyer and closes out a deal that had been pending national-security review, a reminder that CFIUS clearance is usually the last gate before a foreign buyout crosses the line.",
+      "summary_ja": "クリアチャンネル・アウトドア・ホールディングスは、ムバダラ・キャピタルによる買収を完了したと発表した。別途提出されたSEC開示でも取引完了に加え、普通株式の上場廃止や取締役・役員の異動に関する項目が記載され、経営権の異動が確認された。今月のCFIUS（対米外国投資委員会）審査通過を経ての完了となる。",
+      "why_it_matters_ja": "この完全子会社化により米屋外広告大手はアブダビ系資本の傘下に入り、安全保障審査待ちだった案件が決着した。外国企業による買収案件では、CFIUSの通過が成立までの最後の関門となることが多い点を改めて示す事例だ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-08-0830",
+        "index": 5
+      },
+      "key": "clear-channel-mubadala-cfius-clearance",
+      "ids": [
+        "8dfa9581616efc",
+        "02af950166f295"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/clear-channel-outdoor-holdings-inc-announces-completion-of-acquisition-by-mubadala-capital-302909016.html"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334978/000121390026109385/0001213900-26-109385-index.htm"
+        }
+      ]
+    },
+    {
+      "headline": "3C merges with Datalec to form US$400m-plus liquid-cooling and data-centre services group",
+      "summary": "UK-based 3C has merged with Datalec to create a combined group with more than US$400 million in revenue spanning liquid cooling, mechanical and electrical engineering, ODM manufacturing, connectivity and facilities management, the companies said. They said the tie-up gives data-centre operators a single partner from design through to operation.",
+      "why_it_matters": "Rolling up specialist liquid-cooling and facilities-management providers into one platform positions the combined group to capture more infrastructure spend as data-centre operators shift toward liquid cooling for higher-density AI servers.",
+      "summary_ja": "英国の3Cはデータレックと経営統合し、液体冷却、機械・電気（M&E）エンジニアリング、ODM製造、コネクティビティ、ファシリティマネジメント（FM）を手掛ける売上高4億米ドル超の統合グループを発足させたと両社が明らかにした。設計から運用までデータセンター事業者に単一のパートナーを提供できるようになるとしている。",
+      "why_it_matters_ja": "液体冷却やファシリティマネジメントに特化した事業者を一つのプラットフォームに統合することで、データセンター事業者が高密度AIサーバー向けに液体冷却への移行を進めるなか、統合後のグループはインフラ投資をより多く取り込める立場になる。",
+      "status": "new",
+      "prev": null,
+      "key": "3c-datalec-liquid-cooling-merger",
+      "ids": [
+        "c3dd9167305e16"
+      ],
+      "categories": [
+        "Infra",
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT",
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/3c-merges-with-datalec-to-create-us400m-revenue-liquid-cooling-and-data-centre-services-platform-302907856.html"
+        }
+      ]
+    },
+    {
+      "headline": "Aurora Cannabis rejects Curaleaf's revised hostile takeover bid",
+      "summary": "Aurora Cannabis has reaffirmed its recommendation that shareholders reject Curaleaf's revised hostile bid, saying the offer still significantly undervalues the company and does not address concerns the board previously raised. Aurora's special committee said it is actively exploring strategic alternatives to maximise shareholder value.",
+      "why_it_matters": "A second rejection of a sweetened hostile offer signals Aurora's board believes it can extract a higher price or find another path, setting up a longer contest for control of one of North America's larger cannabis producers.",
+      "summary_ja": "オーロラ・カンナビスは、カーリーフによる修正後の敵対的買収提案について株主に拒否を推奨する姿勢を改めて表明した。同社は、提案価格が依然として会社価値を大きく過小評価しており、取締役会がこれまでに示した懸念にも対応していないとしている。オーロラの特別委員会は、株主価値を最大化するための戦略的選択肢を積極的に検討していると述べた。",
+      "why_it_matters_ja": "引き上げられた敵対的買収提案を再び拒否したことは、取締役会がより高い価格の実現や別の選択肢を得られると見ていることを示しており、北米大手カンナビス生産会社の一角を巡る争奪戦が長期化する構図となる。",
+      "status": "new",
+      "prev": null,
+      "key": "aurora-cannabis-curaleaf-hostile-bid-rejected",
+      "ids": [
+        "3da8637d764cbb"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/aurora-cannabis-reaffirms-recommendation-to-shareholders-reject-curaleafs-revised-hostile-bid-preserve-opportunities-for-future-upside-302909066.html"
+        }
+      ]
+    },
+    {
+      "headline": "Zocdoc makes first acquisition in its history, buying insurance-navigation startup Sohar Health",
+      "summary": "Zocdoc has acquired Sohar Health, a company focused on making insurance easier to navigate for patients and providers, marking the first acquisition in Zocdoc's nearly 20-year history. The deal extends Zocdoc beyond its scheduling marketplace into healthcare access infrastructure, the companies said.",
+      "why_it_matters": "A first-ever acquisition from a company as established as Zocdoc signals it sees insurance navigation, not just appointment booking, as the next layer of value to own in US healthcare access, and sets a marker for how marketplace platforms expand via M&A once they reach scale.",
+      "summary_ja": "Zocdocは、患者と医療提供者にとって保険手続きを分かりやすくすることを手がけるSohar Healthを買収した。これは創業から約20年に及ぶZocdocの歴史において初めてのM&Aとなる。両社によれば、この買収により同社は予約マーケットプレイス事業の枠を超え、医療アクセスのインフラ領域へ事業を広げることになる。",
+      "why_it_matters_ja": "Zocdocほど確立した企業が初めて買収に踏み切ったことは、同社が予約仲介だけでなく保険手続きのナビゲーションこそ米国の医療アクセスにおいて次に押さえるべき付加価値だと見ていることを示しており、マーケットプレイス型プラットフォームが一定の規模に達した後にどのようにM&Aで事業を広げるかを示す先例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "zocdoc-sohar-health-acquisition",
+      "ids": [
+        "bc7dba7d25bb40"
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Financials",
+        "Energy",
+        "Healthcare"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/zocdoc-acquires-sohar-health-to-make-insurance-easier-to-navigate-for-patients-and-providers-302907770.html"
+        }
+      ]
+    },
+    {
+      "headline": "New World Development to issue US$189m in new notes after debt exchange results",
+      "summary": "New World Development expects to issue US$189 million of new notes following early results from a debt exchange offer, CNA reported. Full terms of the issuance were not disclosed in the report.",
+      "why_it_matters": "A debt exchange followed by fresh note issuance is one way companies push out looming maturities without triggering a restructuring, and the result here gives bondholders an early read on how the exchange was received.",
+      "summary_ja": "ニュー・ワールド・デベロップメントは、債務交換（エクスチェンジ）の早期結果を受けて1億8900万米ドルの新規ノートを発行する見通しだと、CNAが報じた。発行の詳細条件は報道では明らかにされていない。",
+      "why_it_matters_ja": "債務交換に続く新規ノート発行は、再編（リストラクチャリング）に踏み込まずに迫る償還を先送りする手段の一つであり、今回の結果は債権者にとって交換案への反応を早期に見極める材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "new-world-development-notes-exchange",
+      "ids": [
+        "13adb58a72e5e0"
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/new-world-expects-issue-189-million-new-notes-after-early-debt-exchange-results-6460896"
+        }
+      ]
+    },
+    {
+      "headline": "EQT raises Kakaku.com takeover offer price, extends deadline to Oct 28",
+      "summary": "European buyout fund EQT raised its tender offer price for Japanese online platform operator Kakaku.com by ¥1 to ¥3,682 per share and extended the offer period again, to October 28, Japanese media reported. Kakaku.com operates the Tabelog restaurant-review site and has been the subject of a prolonged takeover contest.",
+      "why_it_matters": "A marginal price increase paired with yet another deadline extension suggests EQT is still working to win over enough shareholders, underscoring how contested some take-private bids for Japanese internet platforms have become, and how a European sponsor can be drawn into repeated small concessions rather than a single decisive offer.",
+      "summary_ja": "欧州の買収ファンドEQTは、カカクコムに対するTOB（株式公開買付け）価格を1円引き上げ1株3682円とし、買付期間を10月28日まで再び延長したと日本のメディアが報じた。カカクコムは「食べログ」を運営しており、長期化する争奪戦の対象となっている。",
+      "why_it_matters_ja": "小幅な価格引き上げと度重なる期限延長は、EQTが十分な株主の賛同をまだ得られていないことを示唆しており、日本のインターネット系企業を巡るTOBがいかに難航し得るか、そして欧州系スポンサーが一度の決定的な提示ではなく小刻みな譲歩の繰り返しに追い込まれ得るかを浮き彫りにする。",
+      "status": "new",
+      "prev": null,
+      "key": "kakaku-eqt-tob-price-increase",
+      "ids": [
+        "5000bf7348c4c7",
+        "9bdfa4b7d0f8d8"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ETHZ3Ym9xVlpTaU9VSXNnZHdKQWY1S040UDNXUU00N3dNSmE3WXR3RWJhNlY0UjFwWmFLdmN5cWZBdjM0ZWNCUWNWQ3dhbl9uaGFadFVMQ2RQczMzc3VYR0xsTEdmMWdIblVwY1ZiY3ZlZDdK?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GVkpRamFhczk4T0d6WEJLYm00MDNvVnRNcUR0SDNnSnNnNEtEcmxTSlJUVncxM0JyVU4wNTNSdnZVLWMtUVJXVjJxcE5yQU1EQXZtRFYtVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "JERA increases stake in Australian LNG project, to make partner a subsidiary",
+      "summary": "Japan's JERA has made an additional investment in an Australian LNG project and will turn the participating partner company into a subsidiary, Japanese media reported.",
+      "why_it_matters": "The move extends Japan's largest power generator's push to lock up long-term LNG supply through direct equity stakes rather than offtake contracts alone, a hedge against tightening global gas markets.",
+      "summary_ja": "JERAは豪州のLNG（液化天然ガス）プロジェクトへの追加出資を行い、参画企業を子会社化すると日本のメディアが報じた。",
+      "why_it_matters_ja": "この動きは、日本最大の発電会社が引取契約だけでなく直接の出資によって長期的なLNG調達を確保しようとする取り組みの延長線上にあり、世界的なガス市場の逼迫に対するヘッジとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "jera-australia-lng-stake-increase",
+      "ids": [
+        "a5dbe26bb1ec3f"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ZUHdxLUtjV0tWWWhIZmJxeDNRMWlyU3lrR3BTOGFGMFBWTXBlZjB4TTEwS1NMbUJ1Ylc0djlUXzQ0aGZFZFNLaExEakd3QWVtQTVxTkxSOA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic's quarterly revenue reaches US$16.8 billion ahead of IPO",
+      "summary": "Anthropic's revenue jumped to US$16.8 billion in the quarter, the company said, and it reached profitability on an adjusted basis in the third quarter. The AI company, which develops the Claude models, is preparing for an IPO.",
+      "why_it_matters": "Hitting adjusted profitability just before a listing strengthens Anthropic's position heading into the IPO process and gives investors a data point on how quickly leading AI labs can turn revenue growth into margin.",
+      "summary_ja": "アンソロピックの四半期売上高は168億米ドルに達したと同社が明らかにし、調整後ベースでは第3四半期に黒字化したという。Claudeモデルを開発する同社は新規株式公開（IPO）を準備している。",
+      "why_it_matters_ja": "上場を目前に調整後ベースでの黒字化を達成したことは、IPOプロセスに臨むアンソロピックの立場を強化するとともに、主要AI企業が売上成長をどれだけ早く利益率に転換できるかを投資家に示す材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "anthropic-revenue-pre-ipo",
+      "ids": [
+        "803f8922defed7"
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/anthropic-revenue-jumps-us16-8-billion-quarter-ipo"
+        }
+      ]
+    },
+    {
+      "headline": "Kraken parent Payward moves to acquire Lithuania's Saldo Bank",
+      "summary": "Payward, the parent company of crypto exchange Kraken, is moving to acquire EU-licensed Saldo Bank in Lithuania, Japanese media reported, which would mark the first time a cryptocurrency company has acquired a bank in Europe.",
+      "why_it_matters": "Owning a licensed EU bank would give Kraken's parent a regulated deposit-taking and payments rail inside Europe, a structural advantage as crypto exchanges compete to offer bank-like services under tightening EU rules, rather than relying on partner banks that can cut ties at will.",
+      "summary_ja": "暗号資産取引所クラーケンの親会社ペイワードは、リトアニアのEU認可銀行サルド・バンクの買収に動いていると日本のメディアが報じた。実現すれば欧州で暗号資産企業が銀行を買収する初の事例になるという。",
+      "why_it_matters_ja": "EU認可銀行を傘下に収めれば、クラーケンの親会社は欧州域内で規制対象となる預金受け入れや決済インフラを得ることになり、提携銀行がいつでも関係を打ち切れるという立場から脱却できる。EU規制が強化される中で銀行類似サービスを競う暗号資産取引所にとって構造的な優位性となる。",
+      "status": "new",
+      "prev": null,
+      "key": "payward-saldo-bank-acquisition",
+      "ids": [
+        "13930161f26b01",
+        "3e8e2781d06568",
+        "1e122667526afd"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RSklvNXA5cl82aUZGSFBTcFhOSFBHSjF6b1FTb1pQRXB1MmE0ZlQ5aUdoUVNrOFBpNC03VEg4YlFULXhRdjdXUENkSUpqOVdKdlEwZGRoYVRtUlozOFh6LUZ4eTJxbndxNzd4MkpvLXVhTzlU?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9GVkFua2NxbGJ6M0JqQW5RY1htdF8xSlNMU3FfUTZ6RlpMUElnOWNqLTI2dHFLbkpXQ2dCOWVQREN4RmM?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ITExSMDQ4ZlA0bjk0SHRhZzdheUcxYV9MZ0NROE9GeUR5dkg1ajdLRlVZNGNkdmtJeVVQamJIa1poUWtBRXZHRTdFVE5ac3ZadzVYMzZrYll0NlN2Ukk5cjhxQ1RmV0xMOHJzV0QxVUI1ekhIWklZQkdGZGtuN0U?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Flex completes acquisition of EPC Power to expand AI data-centre power conversion",
+      "summary": "Flex has completed its acquisition of EPC Power, adding grid-forming and power-conversion technology to its Cloud and Power Infrastructure portfolio, the company said. The deal is aimed at expanding Flex's capabilities for AI data centres and grid applications.",
+      "why_it_matters": "The purchase adds specialised power-conversion technology to Flex's infrastructure business just as AI data-centre operators scramble to secure power equipment, positioning the contract manufacturer deeper into one of the fastest-growing capex categories in tech.",
+      "summary_ja": "フレックスはEPCパワーの買収を完了したと発表し、グリッドフォーミング（系統形成）技術や電力変換技術をクラウド・電力インフラ事業に加えた。今回の買収はAIデータセンターおよび系統関連用途向けの能力拡大を狙ったものだ。",
+      "why_it_matters_ja": "AIデータセンター各社が電力関連設備の確保を急ぐ中、専門的な電力変換技術を自社のインフラ事業に取り込むことで、フレックスはテック業界で最も急成長する設備投資分野への関与を一段と深めることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "flex-epc-power-acquisition-completion",
+      "ids": [
+        "8e4bcdaa365c6b"
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Energy"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/flex-completes-acquisition-of-epc-power-expanding-power-conversion-capabilities-for-ai-data-centers-and-grid-applications-302907691.html"
+        }
+      ]
+    }
+  ]
+}
