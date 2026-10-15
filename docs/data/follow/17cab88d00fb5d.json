@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T10:00:23Z",
- "checked_at": "2026-10-14T07:50:36Z",
+ "checked_at": "2026-10-15T01:00:00Z",
  "background": [
   {
    "date": "2026-07-27",
@@ -48,6 +48,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-14",
+   "headline": "Payward signs deal to buy Lithuania-licensed Saldo Bank, becoming first crypto firm to acquire an EU bank",
+   "summary": "CoinDesk reported that Payward, Kraken's parent, signed an agreement to acquire Saldo Finance Oy, the Finnish holding company of Lithuania-licensed Saldo Bank UAB, which also holds passporting rights in Finland, Sweden, Germany and the Netherlands; sources put the bank's total assets at roughly $190 million (CryptoSlate cited about €163 million/$181 million), the price was not disclosed, and the deal is expected to close during 2027 subject to regulatory approval. The acquisition would give Payward an EU banking license enabling deposit-taking and lending.",
+   "summary_ja": "CoinDeskの報道によると、クラーケン親会社Paywardは、リトアニアで銀行免許を持つSaldo Bank UABのフィンランド持株会社Saldo Finance Oyの買収で合意した。同行はフィンランド、スウェーデン、ドイツ、オランダでもパスポート権を持つ。資産規模は約1億9000万ドル(CryptoSlateは約1億8100万ドル/1億6300万ユーロと報道)とされ、価格は非公表。買収は規制当局の承認を前提に2027年中の完了を見込む。実現すればPaywardは欧州の銀行免許を得て、預金受け入れと貸出業務が可能になる。",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
+  },
   {
    "date": "2026-10-07",
    "headline": "CoinDesk: Wells Fargo in early talks with Kraken parent Payward to supply crypto-trading liquidity",

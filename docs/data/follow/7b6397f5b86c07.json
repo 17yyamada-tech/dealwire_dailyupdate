@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-14T07:50:36Z",
+ "checked_at": "2026-10-15T01:00:00Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-14",
+   "headline": "Hormuz tanker attacks hit wartime-high daily pace; Iran officials tell Reuters they plan to widen strikes beyond the strait, Brent near $106.32",
+   "summary": "Al Jazeera reported that attacks on commercial ships in and around the Strait of Hormuz reached their highest daily level since the war began, with UKMTO logging 15 attacks between October 6 and 14, 11 of them in the final four days; two senior Iranian officials told Reuters that Tehran plans to widen shipping attacks into the Gulf of Oman and beyond to keep oil prices elevated ahead of the US midterms, while CENTCOM said it helped move more than 19 million barrels of crude through Hormuz on Monday and disputed Iran's claim of controlling the strait. Brent crude rose 0.6% to $106.32 a barrel.",
+   "summary_ja": "アルジャジーラの報道によると、ホルムズ海峡一帯での商船攻撃は開戦以来最も激しい日次ペースに達し、英海事当局UKMTOは10月6日から14日までに15件の攻撃を記録、うち11件は直近4日間に集中した。イラン政府高官2人はロイターに対し、米中間選挙を前に原油価格を高止まりさせる狙いで、攻撃をオマーン湾以遠にも拡大する計画だと語った。米中央軍(CENTCOM)は月曜日に湾岸諸国の原油1900万バレル超の輸送を支援したとし、イランが海峡を支配しているとの主張を否定した。ブレント原油は0.6%高の1バレル106.32ドルとなった。",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again"
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "Two previously-attacked UAE-linked cargo ships sink in Strait of Hormuz within 24 hours; tanker Alfonso and three container ships also struck",
+   "summary": "The National reported that two cargo ships owned by a UAE shipping company, which had earlier been struck in the Strait of Hormuz, sank in quick succession over a 24-hour period; separately on October 13 three container ships and the Barbados-flagged tanker Alfonso were hit by unidentified projectiles, with the vessel GFS Pride catching fire and ultimately sinking after all 21 crew were safely evacuated.",
+   "summary_ja": "The Nationalの報道によると、以前ホルムズ海峡で攻撃を受けていたUAE海運会社所有の貨物船2隻が、24時間以内に相次いで沈没した。これとは別に10月13日、コンテナ船3隻とバルバドス船籍のタンカー「Alfonso」が不明の飛来物による攻撃を受け、うち「GFS Pride」は出火し最終的に沈没したが、乗組員21人全員は無事避難した。",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/news/gulf/2026/10/13/strait-of-hormuz-attacks-surge-as-iran-steps-up-campaign-against-us-backed-oil-shipping/"
+  },
   {
    "date": "2026-10-12",
    "headline": "IRGC says it struck a very large crude carrier in the Strait of Hormuz, the third tanker attack it has claimed in 48 hours",
