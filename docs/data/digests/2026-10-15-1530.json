@@ -1,0 +1,95 @@
+{
+  "edition": "2026-10-15-1530",
+  "edition_label": "15 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T07:37:22Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "EQT to acquire Stockbridge, a US real estate manager with $16.5bn in fee-paying AUM",
+      "summary": "EQT has agreed to acquire Stockbridge, a US real estate investment manager with roughly $16.5 billion in fee-generating assets under management and $27 billion in gross asset value, according to a PR Newswire release. EQT said the deal advances EQT Real Estate's strategy of becoming a more thematically diversified platform. Financial terms of the acquisition were not disclosed.",
+      "why_it_matters": "The purchase hands EQT a sizeable US real estate platform at a time when global sponsors are consolidating specialist managers to scale fee income, pointing to continued sponsor appetite for real estate M&A even as rate uncertainty weighs on the asset class.",
+      "summary_ja": "EQTは、運用資産(フィー対象)約165億ドル、グロスアセットバリュー270億ドル規模の米不動産運用会社ストックブリッジを買収することで合意した。PRニューズワイヤーの発表によるもの。EQTはこの買収をEQTリアルエステートがテーマ別に多角化したプラットフォームへ進化する戦略の一環と位置づけている。買収の財務条件は開示されていない。",
+      "why_it_matters_ja": "グローバルスポンサーが運用会社の統合を進めフィー収入の規模拡大を図るなか、EQTは米不動産分野で相応の規模のプラットフォームを手に入れることになる。金利の先行き不透明感が資産クラスの重荷となる中でも、スポンサーによる不動産M&Aへの意欲が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "eqt-stockbridge-acquisition",
+      "ids": ["bafb3de9260ff8", "475f88f92844e6"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/eqt-to-acquire-stockbridge-accelerating-eqt-real-estates-evolution-into-a-thematically-diversified-platform-302909464.html"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oRHZjaWh6STNrYTkwRThRMVFJTkRBTEVQZHBGdXJIY01UaHZkUFdCZDZ4NEtjQ2VVNGx4azZBMDQzckVsSFRVZDJ2Z1h5YmUyYVVBNU9Oa2ZsN0FKQnFkOEoxc3FmOW9SNUp2dFR3eUI?oc=5"}
+      ],
+      "categories": ["M&A", "PE"],
+      "countries": ["US"],
+      "sectors": ["Real Estate"]
+    },
+    {
+      "headline": "Oasis, Kobayashi Pharmaceutical's top shareholder, demands a competitive process for go-private",
+      "summary": "Oasis Management, the largest shareholder in Kobayashi Pharmaceutical, has called for a competitive process in the drugmaker's planned go-private deal, Japan PE & activists reported. The intervention follows the founding family's earlier buyout approach, which a Hong Kong-based fund had declined to back.",
+      "why_it_matters": "An activist shareholder pushing for an open sale process raises the odds that rival bidders emerge, and could force the founding family to improve its terms or find a new financial partner to take the company private.",
+      "summary_ja": "小林製薬の筆頭株主であるオアシス・マネジメントが、同社の非公開化計画において競争的なプロセスを求めていると、Japan PE & activistsが報じた。創業家が先に提案した買収案は、香港系ファンドが支持を見送っていた。",
+      "why_it_matters_ja": "アクティビスト株主が公開された売却プロセスを求めることで、対抗する買収提案が出てくる可能性が高まる。創業家は提示条件の改善を迫られるか、非公開化のための新たな資金パートナーを探さざるを得なくなるおそれがある。",
+      "status": "update",
+      "prev": {"edition": "2026-10-08-0830", "index": 3},
+      "key": "kobayashi-pharma-family-buyout-rejected",
+      "ids": ["910ed33c20e5a0"],
+      "links": [
+        {"source": "Japan PE & activists", "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XVl9iUEt4Q25GQ1R2amJDN25fRl9iWkI5WkZYUWwzQmhMVk1vOGhZRHBwREVuaGZQYWRzakZaUE9uMVhSV3V5bnBRZ2U3enJVU0NqT19aTkNLS1ZTX0duY2xGaFVEMUdsNnpCOXQ4OG81RnhSM3Nz?oc=5"}
+      ],
+      "categories": ["M&A", "PE"],
+      "countries": ["JP"],
+      "sectors": ["Healthcare"]
+    },
+    {
+      "headline": "Kikkoman emerges as bidder in unusual contest for sesame-oil maker Kadoya",
+      "summary": "Sesame-oil maker Kadoya has become the subject of an unusual bidding contest after one of its own stable shareholders began searching for a buyer for its stake, Japan M&A reported. Kikkoman has put its name forward as a bidder in the process.",
+      "why_it_matters": "A stable shareholder shopping its own stake is an unusual trigger for a sale process within Japan's traditionally change-resistant cross-shareholding system, and Kikkoman's interest suggests strategic buyers see consolidation value in the seasonings and condiments space.",
+      "summary_ja": "ごま油メーカーのかどやで、異例の買収争奪戦が起きている。同社の「安定株主」の一社が自ら保有株の買い手を探し始めたことがきっかけで、Japan M&Aが報じた。この売却プロセスにキッコーマンが買い手として名乗りを上げている。",
+      "why_it_matters_ja": "安定株主自らが持ち株の売却先を探すというのは、変化を嫌う日本の持ち合い構造の中では異例の売却プロセスの引き金であり、キッコーマンの関心表明は、調味料・食品分野の戦略的買い手が再編に価値を見出していることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "kadoya-sesame-oil-bidding-war",
+      "ids": ["3e15c8353ec72b"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1cGhJckp5MnpvMEJRLVgyLXNFV0s4NjVxYkw3UmZFQ21wMW1BTnA4V3pndmZPYkVCeTJWT3NXem5BUVdCQ0VOMF9FcjRFOHF1ZFdxeHRGRGIzWGZHUjMwT2VfQXRKUTY4ai14eGdGNDhMa1Z1?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "MS&AD weighs acquisition of Malaysian insurer valued around ¥200bn",
+      "summary": "MS&AD Insurance Group is considering an acquisition of a Malaysian non-life insurer with a market capitalisation of roughly ¥200 billion, Japan M&A reported, citing people familiar with the matter. The target's name and further deal terms were not disclosed.",
+      "why_it_matters": "A deal of this size would rank among the larger Japanese insurer forays into Southeast Asia this year, extending MS&AD's push to diversify earnings outside a saturated and loss-prone domestic non-life market.",
+      "summary_ja": "MS&ADインシュアランスグループが、時価総額約2000億円規模のマレーシアの損害保険会社の買収を検討していると、関係者の話としてJapan M&Aが報じた。対象企業名やその他の取引条件は明らかにされていない。",
+      "why_it_matters_ja": "この規模の買収が実現すれば、今年の日本の保険会社による東南アジア進出の中でも大型の案件となり、飽和し損害率も高い国内損害保険市場の外で収益源を多角化しようとするMS&ADの動きを裏付けるものとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "msad-malaysia-insurer-acquisition",
+      "ids": ["add721f1834a78"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxWXhFbVozdmVDVHFFdDl2dm5fcWtvQUJ0QnBWTjVQel9YTnhDaHZHRjZZOWxBYW9VSnlSRW1hV2FwRklVTC1oVjF5OVFUU0Jjb1E0eHhkT0VvQVF3T3lOQ2tYWi1yMzVVdW9OS0NXU0o3WkNCY3pv?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["SEA"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Auditors flag going-concern doubts at Singapore's NoonTalk Media, citing need for CEO support",
+      "summary": "Auditors for Singapore-listed NoonTalk Media have flagged factors that could cast doubt on its ability to continue operating, warning that the company needs continued financial support from chief executive Dasmond Koh, The Business Times reported. No further detail on the scale of that support was given.",
+      "why_it_matters": "A going-concern flag tied to reliance on the CEO's own backing is a credit red flag for a small-cap Singapore name, underscoring how thin some SGX-listed balance sheets have become after a tough fundraising stretch.",
+      "summary_ja": "シンガポール上場のノーントーク・メディアについて、監査人が事業継続能力に疑義を生じさせる事象があると指摘し、デズモンド・コー最高経営責任者(CEO)からの継続的な資金支援が必要だと警告したと、The Business Timesが報じた。支援の規模についての詳細は明らかにされていない。",
+      "why_it_matters_ja": "事業継続に関する疑義がCEO自身の資金支援への依存に結び付いている点は、シンガポールの小型株にとって信用面の警戒信号であり、厳しい資金調達環境の中でSGX上場企業の一部のバランスシートがいかに薄くなっているかを浮き立たせる。",
+      "status": "new",
+      "prev": null,
+      "key": "noontalk-going-concern-warning",
+      "ids": ["de709bb6b07445"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/noontalk-needs-continued-financial-support-ceo-dasmond-koh-auditors-warn"}
+      ],
+      "categories": [],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Other"]
+    }
+  ]
+}

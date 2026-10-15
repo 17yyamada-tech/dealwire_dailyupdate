@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-15-1530",
+      "label": "15 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-15T07:37:22Z",
+      "items": 5,
+      "headlines": [
+        "EQT to acquire Stockbridge, a US real estate manager with $16.5bn in fee-paying AUM",
+        "Oasis, Kobayashi Pharmaceutical's top shareholder, demands a competitive process for go-private",
+        "Kikkoman emerges as bidder in unusual contest for sesame-oil maker Kadoya"
+      ]
+    },
+    {
       "id": "2026-10-15-1230",
       "label": "15 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-15T04:36:25Z",
