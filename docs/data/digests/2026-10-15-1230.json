@@ -1,0 +1,77 @@
+{
+  "edition": "2026-10-15-1230",
+  "edition_label": "15 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T04:36:25Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "ByteDance nears chip-supply deal with MediaTek for AI data centres, Bloomberg reports",
+      "summary": "ByteDance is closing in on a chip-supply agreement with Taiwanese chipmaker MediaTek to support its AI data-centre build-out, Bloomberg News reported, according to CNA. Terms of the prospective deal were not disclosed in the report.",
+      "why_it_matters": "A supply tie-up with MediaTek would give ByteDance another source of AI compute outside Nvidia as US export controls keep squeezing Chinese buyers' access to advanced chips, underscoring how Chinese tech groups are diversifying their silicon supply chains.",
+      "summary_ja": "バイトダンスは、AIデータセンター向けにメディアテックとの半導体供給契約締結に近づいていると、ブルームバーグ・ニュースが報じた。CNAが伝えた。報道では、想定される契約の条件は明らかにされていない。",
+      "why_it_matters_ja": "メディアテックとの供給提携が実現すれば、米国の輸出規制で先端半導体の入手が制限され続ける中、バイトダンスはエヌビディア以外のAI計算資源の調達ルートを確保することになり、中国テック企業が半導体サプライチェーンの多様化を進めている実態を映す。",
+      "status": "new",
+      "prev": null,
+      "key": "bytedance-mediatek-chip-supply-deal",
+      "ids": ["ee11e22bf3451e"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/bytedance-nears-chip-supply-deal-mediatek-data-centres-bloomberg-news-reports-6461136"}
+      ],
+      "categories": ["Infra"],
+      "countries": [],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "Nippon Seiki completes buyout of remaining Toyo Denso shares, making it wholly owned",
+      "summary": "Japan's Nippon Seiki has completed the acquisition of all remaining shares in Toyo Denso, making it a wholly owned subsidiary, Japan M&A reported. The report did not disclose the acquisition price or Nippon Seiki's prior stake.",
+      "why_it_matters": "Converting a partly owned affiliate into a wholly owned subsidiary lets Nippon Seiki consolidate Toyo Denso's results and operations fully into its own group, a routine but telling step as Japanese manufacturers tidy up cross-shareholding structures.",
+      "summary_ja": "日本の日本精機は、東洋電装の残り全株式の取得を完了し、同社を完全子会社化したとJapan M&Aが報じた。買収価格や取得前の出資比率は報道では明らかにされていない。",
+      "why_it_matters_ja": "一部出資にとどまっていた関連会社を完全子会社化することで、日本精機は東洋電装の業績や事業をグループに完全に取り込めるようになる。日本の製造業各社が持株関係を整理する動きの一端を示す事例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "nippon-seiki-toyo-denso-buyout",
+      "ids": ["96bde084d5e803"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QUGh6Qm14MUxidXMwVHJBaGpaYW5VTV9qeDdSSGFiU0JrTnJub0lvdUJwUTZ3N2hGZHNvMmp0VHU0SVZ2NFR5ZFpnOVRSVHczcjAyWU1ZMldEWXdNV084?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Polygon completes acquisition of CoinMe, gaining money-transmission compliance across 48 US states",
+      "summary": "Polygon has completed its acquisition of CoinMe, giving it regulatory compliance for money transmission in 48 US states, Japan M&A reported. The report did not disclose financial terms.",
+      "why_it_matters": "Securing money-transmission licensing across almost the entire US gives Polygon a compliant on-ramp for crypto-to-cash transactions at scale, a capability many blockchain platforms still lack as US regulators tighten scrutiny of unlicensed money movement.",
+      "summary_ja": "ポリゴンはコインミーの買収を完了し、米国48州で資金移動業に関する規制上の適合を得たとJapan M&Aが報じた。報道では財務条件は明らかにされていない。",
+      "why_it_matters_ja": "米国のほぼ全州で資金移動業の許認可を確保したことで、ポリゴンは暗号資産と現金の相互変換の窓口を規制に適合させた形で大規模に持てるようになる。無許可の資金移動に対する米規制当局の監視が強まる中、多くのブロックチェーン企業がまだ持たない能力だ。",
+      "status": "new",
+      "prev": null,
+      "key": "polygon-coinme-acquisition-completion",
+      "ids": ["781cec40083022"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9rancxd0lWV0hsNG5Pd3dpOFRNMjMxamlaeFdNaVhQbE1BWkw1WlhsUjJwLTg4aTNIS3FGWmN5aU9jSms?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Public / Macro"]
+    },
+    {
+      "headline": "Navis Capital explores exit from trail-mix maker Dan-D",
+      "summary": "Private equity firm Navis Capital is looking to exit its investment in Dan-D, a trail-mix and snack-food company, DealStreetAsia reported. No sale process details or valuation were disclosed.",
+      "why_it_matters": "A mooted exit signals Navis judges the consumer-snacks asset ready for sale, adding to a thin but steady flow of Southeast Asian sponsor-to-buyer consumer deals this cycle.",
+      "summary_ja": "プライベートエクイティ企業のネイビス・キャピタルが、トレイルミックス(ミックスナッツ)メーカーのダンディーへの投資からのエグジットを検討しているとDealStreetAsiaが報じた。売却プロセスの詳細や評価額は明らかにされていない。",
+      "why_it_matters_ja": "エグジットの検討が報じられたことは、ネイビスがこの消費者向けスナック資産を売却可能な段階にあると判断していることを示し、薄いながらも続く東南アジアのスポンサーから買い手への消費財案件の流れに加わる動きとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "navis-dan-d-exit",
+      "ids": ["dd8b9b425d49b1"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FOUxSaXVTdGNnTzZuSnl2VXlydjJydVBlVm1rcWVVT295RW84WTl1SzVPQmMtamNfNTJjV2VQbE02UWNCT2cySDI3dXFySEU2R3JxMlRxRUZCMGxQdVN6alBzRUczTWtoWkdIQ2llQQ?oc=5"}
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": ["Other"]
+    }
+  ]
+}
