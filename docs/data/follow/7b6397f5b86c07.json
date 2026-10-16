@@ -4,7 +4,7 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-10-16T04:49:58Z",
+  "checked_at": "2026-10-16T07:49:21Z",
   "background": [
     {
       "date": "2026-09-26",
@@ -72,6 +72,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-10-14",
+      "headline": "Reuters/IMO data: bulk carrier Cape Dao sinks near Hormuz; one crew member killed in a September 23 projectile strike",
+      "summary": "Reuters reported, citing International Maritime Organization casualty data, that the Antigua and Barbuda-flagged bulk carrier Cape Dao sank near the Strait of Hormuz, weeks after being struck by a projectile on September 23, 2026 that killed one crew member, with the rest of the crew evacuated immediately after the strike; Reuters said Cape Dao and the container ship GFS Pride, which sank the same day, were the second and third vessels to sink since the US-Iran war began on February 28, 2026.",
+      "summary_ja": "ロイターが国際海事機関(IMO)の被害データを引用して報じたところによると、アンティグア・バーブーダ船籍のばら積み船「ケープ・ダオ」が、2026年9月23日の飛来物攻撃で乗組員1人が死亡した後、他の乗組員は直後に避難していたが、数週間を経てホルムズ海峡付近で沈没した。ロイターによれば、同日沈没したコンテナ船「GFS プライド」とケープ・ダオは、2026年2月28日の米イラン戦争開始以降で2隻目・3隻目の沈没船となった。",
+      "source": "gCaptain (via Reuters)",
+      "url": "https://gcaptain.com/bulk-carrier-sinks-weeks-after-deadly-strait-of-hormuz-strike/"
+    },
     {
       "date": "2026-10-14",
       "headline": "Hormuz tanker attacks hit wartime-high daily pace; Iran officials tell Reuters they plan to widen strikes beyond the strait, Brent near $106.32",
