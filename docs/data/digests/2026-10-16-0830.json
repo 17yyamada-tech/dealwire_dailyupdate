@@ -1,0 +1,329 @@
+{
+  "edition": "2026-10-16-0830",
+  "edition_label": "16 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T00:42:53Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Thoma Bravo's Proofpoint to acquire Varonis Systems for $6.3bn in cash",
+      "summary": "Thoma Bravo-owned cybersecurity group Proofpoint agreed to buy Varonis Systems in an all-cash deal valued at $6.3 billion. Japan M&A outlets described the tie-up as combining two of the largest players in data and AI security.",
+      "why_it_matters": "The deal consolidates two significant data-protection vendors under one PE-backed platform just as enterprises race to secure AI systems, underscoring how sponsors are using scale to compete in cybersecurity. At $6.3bn, it ranks among the largest security deals this year.",
+      "summary_ja": "Thoma Bravo傘下のサイバーセキュリティ企業プルーフポイントが、ヴァロニス・システムズを63億ドルの全額現金で買収することに合意した。日本のM&A関連報道は、両社をデータ・AI保護分野で最大級の統合と位置付けている。",
+      "why_it_matters_ja": "AI活用の広がりに伴い企業がシステム防御を急ぐ中、データ保護分野の有力2社がPEファンド傘下で統合されることになる。スポンサーが規模を武器にサイバーセキュリティ市場で競う動きを象徴する。63億ドルという規模は、今年のセキュリティ関連案件の中でも最大級である。",
+      "status": "new",
+      "prev": null,
+      "key": "proofpoint-varonis-acquisition",
+      "ids": [
+        "6f496b26fc12f8",
+        "5442fc6dd8fe89",
+        "7d08c7dffef37b"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/thoma-bravos-proofpoint-buy-varonis-systems-in-63-billion-all-cash-deal-6463991"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9MOTNOWkRnT3dvSnVwYXRMWWxJc19ocjFmOVpKbDRlSkJISFF5Vkdzd0VDNWFUcGR6M3YtbFhiMUtsY3U5Sjl3SVpOS2o3NFk0a1hr?oc=5"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1361113/000121390026109901/0001213900-26-109901-index.htm"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other",
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Penske Automotive to go private in deal with Penske Corp and Mitsui at $212 a share",
+      "summary": "Penske Automotive Group agreed to be taken private by parent Penske Corporation together with Mitsui & Co, with shareholders set to receive $212.00 per share in cash. Mitsui will raise its investment to as much as ¥240bn, lifting its stake in the combination to 36%.",
+      "why_it_matters": "The deal hands Mitsui a much larger position in one of the largest US auto retailers, extending the Japanese trading house's push into overseas mobility and dealership assets outside its traditional commodities base. It also marks one of the largest Japanese bets on North American auto retail to date.",
+      "summary_ja": "ペンスキー・オートモーティブ・グループは、親会社ペンスキー・コーポレーションと三井物産による非公開化に合意した。株主は1株当たり212.00ドルの現金を受け取る。三井物産は出資額を最大2,400億円に積み増し、統合後の持分を36%に引き上げる。",
+      "why_it_matters_ja": "三井物産は米国有数の自動車販売大手でより大きな持分を握ることになる。従来の資源・コモディティ事業の枠を超え、海外のモビリティ・ディーラー資産への展開を強める動きであり、日本企業による北米自動車販売分野への投資としても最大級の案件となる。",
+      "status": "new",
+      "prev": null,
+      "key": "penske-automotive-mitsui-take-private",
+      "ids": [
+        "9fa32d7311114f",
+        "696a4df614cc5f",
+        "44d790a12dd668"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/penske-automotive-group-announces-agreement-to-be-taken-private-by-penske-corporation-and-mitsui--co-302909412.html"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1tSjBJbDRVQk5MTmFoeUs3eFo0dFpiUVd6aTNjY3k0MDJ4bzVPNkd0cnJJcWpOVEFsMFc1dm5hbG8wLVlNLXNta3B5czUtOTFCc21PLXV0NDRKaFk1a2J1eGxYY0xYU1l1LVpmRUVrM0dIWTlt?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YREVRblVkNXhvTHhiNFRWTzE3QVhFcFBGS3JJZXJzMHV6U3hyUUVkZWFudVBSS003emF2MXNRTFFRckNpSFdZU05NcDlFMXdINGs0?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Industrials",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Richemont and Signet in talks to join consortium bidding for De Beers",
+      "summary": "Cartier owner Richemont and US jewelry retailer Signet are discussing joining a consortium bidding to acquire De Beers, with the talks reported to have reached a final stage. Reuters and Bloomberg both reported the discussions, though no financial terms have been disclosed.",
+      "why_it_matters": "Bringing a major luxury group and the world's largest specialty jeweller into the bidding would reshape the ownership contest for one of the best-known diamond businesses, at a time when the industry is consolidating around fewer, larger players with the balance sheets to fund a deal of this scale.",
+      "summary_ja": "「カルティエ」を擁するリシュモンと米ジュエリー小売大手シグネットが、デビアス買収を目指す入札コンソーシアムへの参加を協議していることが分かった。交渉は最終段階に入ったと報じられており、ロイターとブルームバーグが共に報じたが、金額などの条件は明らかになっていない。",
+      "why_it_matters_ja": "大手ラグジュアリー企業と世界最大級の専門宝飾小売業者が入札に加われば、著名なダイヤモンド事業の争奪戦の構図が変わる可能性がある。この規模の案件を賄える体力を持つ、より少数の大手プレーヤーへと業界の集約が進む局面での動きである。",
+      "status": "new",
+      "prev": null,
+      "key": "richemont-signet-debeers-consortium",
+      "ids": [
+        "8fa4f7d94c2807",
+        "d951de75a559a3",
+        "e06662cbced911"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTnE4WlN3UldnNktmWkdCOERZWXJKWmZqWVZ1a2FEbU5ueUlyd2tMR3loRFlOVmpjOC0tUTlVTndhMVhFeG1OUzhibjVOell6Vjl4NnhSVGNTZDltMVRCdnEyRDVQR2ZKd1NRMnE5dE9pZFBtOW1XbTBKVDBWR2RHLW51U09EZTg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yRFk0cU5EYUxNTlBGUXUzM1lkUkJ4clpzNnk3VmpWRXFGWHFTWnBJTUZTVGczazdVRFhMc09qRGdBQm5yQVQ1ejJUUXh3SWs2dmszVGd1NmhWajBCVER4UWg1cFBBRi0wQTRvVGJEZjBYZmZl?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01MnZIVkdNN1pwbDF6NDZHeXQ2REk1Zjgzc2c0V1F5OGRNZDVLeEEteU55UmRGMm5xajJyaEwtcVo2dzZJV3J0T3BUUThGaV9KR1M3TDRDYjZlZTFRZUEzdU9YYXpfVi1NaFR4Q2VRMW5NNG9ab2dfSg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "ECB clears cap removal, paving way for UniCredit to take control of Commerzbank",
+      "summary": "The European Central Bank approved the removal of a cap restricting UniCredit's stake in Commerzbank, clearing the way for the Italian bank to gain control of its German rival, according to Japan M&A sources. Reports say UniCredit could secure control before the end of the year.",
+      "why_it_matters": "A UniCredit-Commerzbank combination would create one of the eurozone's largest banking groups and mark a rare cross-border consolidation within a European banking sector that has historically stayed fragmented along national lines.",
+      "summary_ja": "欧州中央銀行(ECB)は、ウニクレディトによるコメルツ銀行への出資上限を撤廃することを承認した。日本のM&A関連報道によると、これによりイタリアの銀行がドイツの同業に対する支配権を獲得する道が開かれた。年内にも支配権を握る可能性があると報じられている。",
+      "why_it_matters_ja": "ウニクレディトとコメルツ銀行の統合が実現すれば、ユーロ圏最大級の銀行グループが誕生することになる。欧州の銀行業界は国境を越えた再編が従来少なかっただけに、異例の越境統合の動きとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "unicredit-commerzbank-ecb-approval",
+      "ids": [
+        "6bbe347cb0f262",
+        "5a1db4368f28e9"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE85V3plOUVPSGF1ekY2dEl2a0dzNnlMeGlUTEZMNXJoZU9uRDRIeEl4eDBIOTFMSWxOMFlTOHhLOG5NM2RXTVVJdXZMSjBkYzZkRmk0QjBpOU4wZ29wYU5icVowNWJfT3pTalZvb0dsV19STjRv?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOZzJmUllHN05KWW5MSUhGWmR4Z1k2cXRRTG5Xc01ockpKNm5rSUU1S2VjZkpYMGFCcmRuMkhoSURyLTQyRDdfaEdyLXpLRDB6RXRqc1RPNlM3NVpaNXZmVGFGbGU3SVRHZjRaMw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Oasis raises Nidec stake to 9%, steps up pressure for go-private review",
+      "summary": "Activist investor Oasis Management increased its stake in Nidec to 9%, intensifying pressure on the Japanese motor maker to pursue a go-private review. The move follows Oasis's earlier public request that Nidec begin an initial review of taking itself private.",
+      "why_it_matters": "A larger stake gives Oasis more leverage at one of Japan's largest industrial groups, keeping alive the prospect of what would be one of the country's largest take-private situations if the review advances. The escalation also tests how far Japanese boards are now willing to go in engaging activist demands.",
+      "summary_ja": "物言う株主のオアシス・マネジメントは、ニデック株の保有比率を9%に引き上げ、非公開化に向けた検討を進めるよう同社への圧力を強めている。オアシスが以前に非公開化の初期的検討開始を正式に要請したことに続く動きである。",
+      "why_it_matters_ja": "保有比率の引き上げにより、オアシスは日本有数の総合電機メーカーに対する発言力を一段と強めることになる。検討が進めば国内最大級の非公開化案件となり得る可能性は残ったままである。今回の圧力強化は、日本企業の取締役会が物言う株主の要求にどこまで応じる姿勢を見せるかを測る試金石にもなる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-08-0830",
+        "index": 0
+      },
+      "key": "oasis-nidec-go-private-request",
+      "ids": [
+        "201de975603b4f"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MR1hOb044SFVNZ2xBeHlodUtyMW84dV9yUTNwTTZJVHRYX1gxNnNsMmVTNzc5bUFpNjRab2dvM1FDZm80MFJMbWtuZkJMQVJVV1JLWjZ6ODRYWWxPTFRaNUNKSGRjaUhQdjdGblV4UDZLa0tr?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Labcorp to acquire select BioReference Health assets from OPKO Health",
+      "summary": "Labcorp agreed to acquire select assets of BioReference Health from OPKO Health, aiming to expand access to clinical laboratory services, including a broad specialty testing menu, for patients and providers nationwide. Both companies disclosed the agreement in SEC filings.",
+      "why_it_matters": "The deal lets Labcorp broaden its specialty-testing footprint through a bolt-on lab acquisition, consolidating further share in the fragmented US clinical-diagnostics market, where scale increasingly determines negotiating power with insurers and health systems.",
+      "summary_ja": "ラボコープは、オプコ・ヘルスからBioReference Healthの一部資産を取得することで合意した。全米の患者と医療提供者向けに、幅広い専門検査メニューを含む臨床検査サービスの提供範囲を拡大する狙いがある。両社はSECへの開示でこの契約を明らかにした。",
+      "why_it_matters_ja": "ボルトオン型の検査事業買収により、ラボコープは専門検査分野での事業基盤を広げることになる。分散が進む米国の臨床検査市場でシェアの集約をさらに進める動きであり、規模の大きさが保険会社や医療機関との交渉力を左右する度合いが強まっている。",
+      "status": "new",
+      "prev": null,
+      "key": "labcorp-opko-bioreference-acquisition",
+      "ids": [
+        "061261aa38fc84",
+        "84e42ad0a69dca"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/labcorp-enters-into-agreement-with-opko-health-to-acquire-select-assets-of-bioreference-health-302909289.html"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/944809/000119312526422877/0001193125-26-422877-index.htm"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "TKO Hotels publicly calls on Service Properties Trust to engage on $2bn hotel-portfolio offer",
+      "summary": "TKO Hotels called on Service Properties Trust and its board to engage promptly and in good faith on TKO's written offer, dated October 7, 2026, to acquire SVC's hotel portfolio for about $2 billion in cash. The appeal follows TKO's earlier formal proposal for the same all-cash deal.",
+      "why_it_matters": "Going public with the pressure campaign signals TKO sees SVC's board as reluctant to engage, a tactic that raises the odds of a contested process around the $2bn hotel-portfolio sale and puts pressure on the board to respond publicly.",
+      "summary_ja": "TKOホテルズは、サービス・プロパティーズ・トラスト(SVC)とその取締役会に対し、2026年10月7日付の書面による提案に誠実かつ速やかに応じるよう公に求めた。この提案は、約20億ドルの全額現金でSVCのホテルポートフォリオを取得するという従来の正式な提案と同じものである。",
+      "why_it_matters_ja": "圧力を公にしたことは、TKOがSVC取締役会の対応に消極的だとみていることを示唆する。20億ドル規模のホテルポートフォリオ売却を巡り、対立的なプロセスに発展する可能性が高まっている。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-10-0830",
+        "index": 3
+      },
+      "key": "tko-hotels-service-properties-trust-bid",
+      "ids": [
+        "c174eb6d677b88"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/tko-hotels-calls-on-service-properties-trust-to-engage-on-2-0-billion-all-cash-offer-to-acquire-hospitality-portfolio-302909178.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "EQT to build infrastructure-secondaries business following Coller acquisition",
+      "summary": "EQT said it plans to build out an infrastructure secondaries business after its acquisition of Coller, DealStreetAsia reported. No financial terms or timeline for the build-out were disclosed in the report.",
+      "why_it_matters": "Adding infrastructure secondaries would broaden EQT's product suite in one of private markets' fastest-growing niches, as investors increasingly turn to secondaries to manage liquidity in long-duration infrastructure funds and as sponsors look for new ways to return capital to backers.",
+      "summary_ja": "EQTは、コラー買収後にインフラ分野のセカンダリー事業を新たに立ち上げる方針を示した。DealStreetAsiaが報じたが、条件や時期など詳細は明らかにされていない。",
+      "why_it_matters_ja": "インフラ・セカンダリー事業の追加は、プライベート市場の中でも成長が著しい分野でEQTの商品ラインアップを広げるものとなる。長期運用型のインフラファンドの流動性を確保する手段として、投資家によるセカンダリー活用が増えている。",
+      "status": "new",
+      "prev": null,
+      "key": "eqt-infrastructure-secondaries-coller",
+      "ids": [
+        "8f49912ed1d0e9"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbHdkTDhWdUF5cWtsZEhUNkxVbmtEeG5uRnJBc0s1TG8teXdZNkhWRXhJNEp1M252OWZDQkZaSFJ2RlpuNk9kcUxTQ0VxY21uYlQwQmZVSTZKQWJDZTZKM2lUS2FHaGpldGVVLTBwdi1FNERDcHQyMTROODlsYTlIdHdVWDBDMEdLVEhuRQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "UK culture secretary 'minded to intervene' in Sky's £1.6bn ITV entertainment takeover",
+      "summary": "UK culture secretary Nandy said she is minded to intervene in Sky's £1.6bn takeover of ITV's entertainment arm, citing concerns the deal could affect free expression and the variety of Britain's news landscape.",
+      "why_it_matters": "A public-interest intervention would add a regulatory hurdle to a deal already agreed between the two broadcasters, and signals UK authorities remain willing to scrutinise media consolidation on plurality grounds.",
+      "summary_ja": "英国のナンディ文化相は、スカイによる16億ポンド規模のITVエンターテインメント部門買収について、介入する意向があると述べた。報道の多様性や英国のニュース環境の多様性に影響を与えかねないとの懸念を理由に挙げている。",
+      "why_it_matters_ja": "公共性の観点からの介入は、両放送局が既に合意している買収に新たな規制上のハードルを加えるものである。英当局がメディアの多元性を理由に業界再編を引き続き精査する姿勢を示す動きでもある。",
+      "status": "new",
+      "prev": null,
+      "key": "sky-itv-entertainment-takeover-intervention",
+      "ids": [
+        "3de9aa955c294a"
+      ],
+      "links": [
+        {
+          "source": "BBC Business",
+          "url": "https://www.bbc.co.uk/news/articles/cm79pe5yej7no?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "GungHo activist demands EGM over SME stock-acquisition scheme, citing ¥5.2bn profit opportunity",
+      "summary": "An activist shareholder in GungHo Online Entertainment has demanded the company convene an extraordinary general meeting, proposing changes to a scheme for acquiring shares in SME that the investor says could generate ¥5.2 billion in profit.",
+      "why_it_matters": "The demand adds GungHo to the list of Japanese companies facing activist pressure over capital-allocation decisions, as shareholders increasingly challenge how firms structure intra-group stock deals.",
+      "summary_ja": "ガンホー・オンライン・エンターテイメントの物言う株主が、臨時株主総会の招集を会社側に要求した。SMEの株式取得スキームを変更すれば52億円の利益を生み出せると提案している。",
+      "why_it_matters_ja": "資本配分を巡り物言う株主から圧力を受ける日本企業の一社にガンホーも加わった形である。グループ内の株式取得の組成方法を巡り、株主が異議を唱える動きが広がっている。",
+      "status": "new",
+      "prev": null,
+      "key": "gungho-activist-egm-sme-scheme",
+      "ids": [
+        "c1eab0271e70db"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE02REhKazcwNmRndDI1ck96eTRBelZ1MWNMTGhhNWl0SlNvVlZ1X3kxWTNuYjNKRHdFcDdoUS1tVk9LQkgz?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
