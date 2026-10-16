@@ -1,0 +1,195 @@
+{
+  "edition": "2026-10-16-1230",
+  "edition_label": "16 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T04:40:00Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "MSCI proposes downgrading Indonesia to standalone status; Jakarta shares drop as much as 11%",
+      "summary": "MSCI proposed reclassifying Indonesia from emerging-market to standalone status, citing concerns about opacity in shareholding structures and coordinated trading that affected pricing. Indonesia's stock exchange said it will seek further clarification from MSCI, and Jakarta-listed shares fell as much as 11% on the news.",
+      "why_it_matters": "A standalone-market downgrade would trigger forced selling by index-tracking funds and could cut off a swathe of passive capital from Indonesian equities, a live risk for PE and credit investors with Indonesia exposure.",
+      "summary_ja": "MSCIは、保有構造の不透明さや価格形成に影響する協調的な取引への懸念を理由に、インドネシアを新興国から単独市場（スタンドアロン）に格下げする案を提示した。インドネシア証券取引所はMSCIにさらなる説明を求める方針で、ジャカルタ市場の株価はこの発表を受けて最大11%下落した。",
+      "why_it_matters_ja": "スタンドアロン市場への格下げが決まれば、インデックス運用資金の強制的な売却を招き、インドネシア株式からパッシブマネーが一斉に流出するリスクがある。インドネシアに投資するPEやクレジット投資家にとって現実的なリスクだ。",
+      "status": "new",
+      "prev": null,
+      "key": "msci-indonesia-standalone-downgrade",
+      "ids": [
+        "32db6d191d3de1",
+        "ff56d4c8bd91a8",
+        "5794c4a739fa41"
+      ],
+      "categories": [],
+      "countries": [
+        "SEA",
+        "US"
+      ],
+      "sectors": [
+        "Financials",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/msci-proposes-downgrading-indonesia-standalone-market-status"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/msci-proposes-standalone-status-indonesia-jakarta-stocks-plunge-8"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/indonesia-stocks-msci-weigh-market-reclassification-6464081"
+        }
+      ]
+    },
+    {
+      "headline": "JPMorgan and Goldman raise yield on Volta AI loan to clear investor demand",
+      "summary": "JPMorgan and Goldman Sachs increased the yield on a loan backing AI company Volta to attract investors, after marketing the offering since last week. The banks priced and sold the deal on Thursday.",
+      "why_it_matters": "Needing a sweetened coupon to clear points to pockets of investor caution in AI-linked credit even as volumes stay heavy, a signal worth tracking for anyone underwriting similar paper.",
+      "summary_ja": "JPMorganとGoldman Sachsは、AI企業Voltaを裏付けとするローンの利回りを引き上げ、投資家の需要を引き出した。両行は先週からこの案件の販売を進め、木曜日に価格付けと売却を完了した。",
+      "why_it_matters_ja": "利回りの上乗せが必要だったことは、取引量自体は多いAI関連クレジット市場の中にも投資家の慎重姿勢が一部残っていることを示しており、同種の案件を引き受ける側には注視すべき兆候だ。",
+      "status": "new",
+      "prev": null,
+      "key": "jpmorgan-goldman-volta-ai-loan",
+      "ids": [
+        "64dc6a81fb62d4"
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/jpmorgan-goldman-boost-yield-volta-ai-loan-lure-investors"
+        }
+      ]
+    },
+    {
+      "headline": "Investors pare back Anthropic IPO valuation expectations as revenue growth slows",
+      "summary": "Investors are tempering valuation expectations for Anthropic's planned listing after the AI group's revenue growth slowed, according to people familiar with the matter. A cooler reception for the IPO could weigh on sentiment across the wider AI market.",
+      "why_it_matters": "Anthropic's listing has been read as a bellwether for AI valuations broadly; a softer reception would ripple into private-market marks for AI-adjacent portfolio companies.",
+      "summary_ja": "関係者によると、Anthropicの売上高成長が鈍化したことを受け、投資家はIPOのバリュエーション期待を引き下げている。上場への反応が冷めれば、AI市場全体のセンチメントにも影響しかねない。",
+      "why_it_matters_ja": "AnthropicのIPOはAIバリュエーション全般の指標とみなされてきた。反応が鈍れば、AI関連のプライベート市場のポートフォリオ企業の評価にも波及する可能性がある。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-15-0830",
+        "index": 7
+      },
+      "key": "anthropic-revenue-pre-ipo",
+      "ids": [
+        "d9bcfd6d277201"
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources"
+        }
+      ]
+    },
+    {
+      "headline": "IonQ shares down about 20% in a week on dilution concerns from Elisity all-stock deal",
+      "summary": "IonQ shares have fallen roughly 20% over the past week as investors weigh dilution from its all-stock acquisition of cybersecurity firm Elisity. The company separately raised its full-year guidance for its core quantum-computing business.",
+      "why_it_matters": "The sell-off shows how stock-funded M&A in richly valued tech names can draw an immediate dilution discount, even when the acquirer's underlying business is performing well.",
+      "summary_ja": "IonQの株価はこの1週間で約2割下落した。サイバーセキュリティ企業Elisityを全額株式で買収したことによる希薄化への懸念が背景にある。一方、同社は量子コンピューティング事業の通期見通しを上方修正した。",
+      "why_it_matters_ja": "本業の業績が良好でも、株式対価によるM&Aは高バリュエーションのテック企業にただちに希薄化ディスカウントをもたらすことを示す事例だ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-13-0830",
+        "index": 1
+      },
+      "key": "ionq-elisity-acquisition",
+      "ids": [
+        "4c6bd623eb00f7"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWY0s1UGlYaHhaWkk1RWN2a0gyUTRIX3ZOaklzZnZ1U0d2VDQxT2hZLVQ0VjBwR1dEV0hrQ3VZeTI4MldEUWg3M2QtZnQ1d2tTdDlUSTFNTGIwUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Weston family lines up $8.9bn deal to acquire UK pharmacy chain Boots",
+      "summary": "The Weston family agreed to acquire UK pharmacy and health-and-beauty chain Boots for $8.9 billion. The deal is reported to explore new revenue models spanning Boots' pharmacy network and beauty business.",
+      "why_it_matters": "A take-private of this size for a storied high-street pharmacy chain underscores continued family-office and strategic appetite for consumer retail assets with real-estate and health-services upside.",
+      "summary_ja": "ウェストン家は英国の薬局・ヘルス＆ビューティーチェーン、Bootsを89億ドルで買収することで合意した。本件では、Bootsの薬局網と美容事業を組み合わせた新たな収益モデルの検討が進められているという。",
+      "why_it_matters_ja": "老舗の高級商店街薬局チェーンに対するこの規模の非公開化は、不動産やヘルスケアサービスの上振れ余地を持つ消費財・リテール資産に対して、ファミリーオフィスや戦略的投資家の関心が続いていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "boots-weston-family-acquisition",
+      "ids": [
+        "1ee2c25d54d45e"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGVm14NkVFM2ZYUUo3T0cxVGJoSk16RXdVekpCek81bkhIenpqSTdHVXhHVFJIZ21UYVdMNkt1RDdmOVUzLXhpdURucGRyYTBuVE03cmR3LTlYUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "MyDearest acquires Roblox game studio moze to expand VR and Roblox development",
+      "summary": "Japanese VR game developer MyDearest acquired Roblox game studio moze. The deal is intended to strengthen MyDearest's Roblox and VR game development and operations.",
+      "why_it_matters": "The deal shows Japanese VR specialists adding Roblox-native development capability as that platform's game economy keeps attracting strategic acquirers.",
+      "summary_ja": "日本のVRゲーム開発会社MyDearestは、Robloxゲームスタジオ「moze」を買収した。MyDearestのRoblox・VRゲーム開発・運営体制の強化を狙った買収とされる。",
+      "why_it_matters_ja": "Robloxのゲーム経済が戦略的な買収者を引き続き呼び込む中、日本のVR専門企業がRoblox向け開発力の取り込みに動いていることを示す事例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "mydearest-moze-acquisition",
+      "ids": [
+        "a9d393178a4889",
+        "caf2d6af8c2cc9"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44eTYtVnlsVjRqenltRXRhUzBTTGpYSk5QMFlRQWplT0loWm9VRV9RMDBaRmZSdjlJakNnOXNFbzlZNUFGY0E0U0pFbzY0M2dNbVE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kbDcxYk53Z2Vpekxra0VaU3JiN2lVTzByNkdGM2IyeWRSbThjT1kxM0M3MmVOZ29nY3RSN3FfbVNtSkU3UjRrblVKUU5pLXQ4SEU4aXotQjd6T29WR0dsN1h1S3NLclo5eFE?oc=5"
+        }
+      ]
+    }
+  ]
+}
