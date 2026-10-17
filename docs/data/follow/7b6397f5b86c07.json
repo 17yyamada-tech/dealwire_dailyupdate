@@ -4,7 +4,7 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-10-17T04:50:25Z",
+  "checked_at": "2026-10-17T07:50:00Z",
   "background": [
     {
       "date": "2026-09-26",
@@ -72,6 +72,22 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-10-15",
+      "headline": "CNN: Pentagon draws up Iran strike options including MOAB bunker-buster against Pickaxe Mountain nuclear site",
+      "summary": "CNN reported, citing US officials, that the Pentagon has drawn up new strike options against Iranian energy and nuclear infrastructure, including possible use of the GBU-43/B Massive Ordnance Air Blast bomb (MOAB) against the Pickaxe Mountain nuclear site; officials questioned whether the weapon could penetrate deeply enough to destroy the underground facility, and the White House declined to discuss the plans, saying President Trump had not authorized a strike and that any decision would hinge on events before or after the November 3 midterm elections.",
+      "summary_ja": "CNNが米政府当局者の情報として報じたところによると、米国防総省はイランのエネルギー・核関連インフラへの新たな攻撃選択肢を策定しており、その中にはピッケルアックス・マウンテンの核関連施設に対する最大級の非核爆弾GBU-43/B(通称モアブ)の使用も含まれるという。当局者は同爆弾が地下深くの施設を破壊できるか疑問視している。ホワイトハウスは計画について論評を避け、トランプ大統領はまだ攻撃を承認しておらず、決定は11月3日の米中間選挙の前か後かの状況次第になるとした。",
+      "source": "CNN (via Free Press Journal)",
+      "url": "https://www.freepressjournal.in/world/mother-of-all-bombs-could-be-used-against-irans-pickaxe-mountain-nuclear-site-cnn-reports"
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "Reuters: US weighs easing shadow-fleet tanker sanctions to curb record freight rates, Russian and Iranian oil to stay excluded",
+      "summary": "Reuters reported, citing a US official, that the Trump administration is weighing a partial easing of sanctions on shadow-fleet tankers tied to Russia, Iran and Venezuela so they could carry non-sanctioned ('legal') oil, with companies needing US Treasury approval to use the vessels; Energy Secretary Chris Wright said record freight rates had curbed demand for US crude, but Russian and Iranian oil would remain excluded, and maritime sources told Reuters the change was unlikely to broadly lower rates since insurers would still have to comply with EU and UK rules.",
+      "summary_ja": "ロイターが米政府当局者の情報として報じたところによると、トランプ政権はロシア・イラン・ベネズエラ関連の制裁対象タンカー(シャドーフリート)について、制裁対象外の「合法な」原油の輸送を認める形で制裁を部分的に緩和する案を検討しており、利用には米財務省の承認が必要になるという。クリス・ライト米エネルギー長官は記録的な運賃上昇が米国産原油の需要を圧迫していると述べたが、ロシア・イラン産原油は引き続き対象外とされ、海事関係者は保険会社が依然EUや英国の規制に従う必要があるため運賃の全般的な低下にはつながりにくいとロイターに語った。",
+      "source": "gCaptain (via Reuters)",
+      "url": "https://gcaptain.com/trump-weighs-lifting-shadow-fleet-sanctions-as-tanker-rates-soar/"
+    },
     {
       "date": "2026-10-14",
       "headline": "Reuters/IMO data: bulk carrier Cape Dao sinks near Hormuz; one crew member killed in a September 23 projectile strike",
