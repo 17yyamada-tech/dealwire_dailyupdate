@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-17-1530",
+      "label": "17 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-17T07:40:45Z",
+      "items": 4,
+      "headlines": [
+        "Proofpoint lines up $1.25bn in financing for $6.3bn Varonis takeover",
+        "Parkview Health agrees to acquire shared-services provider Ovation Healthcare",
+        "Allstate's Arity unit signs definitive agreement to acquire mobility-data firm INRIX"
+      ]
+    },
+    {
       "id": "2026-10-17-1230",
       "label": "17 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-17T04:37:00Z",
