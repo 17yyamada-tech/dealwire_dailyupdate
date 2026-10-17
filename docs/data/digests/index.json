@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-17-1230",
+      "label": "17 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-17T04:37:00Z",
+      "items": 4,
+      "headlines": [
+        "Anthropic offers Blackstone double-digit yield in AI chip-financing deal",
+        "Panzani and Cerealis to merge into European food group with €1bn in combined revenue",
+        "Klook Technology withdraws US listing filing, had applied for IPO last November"
+      ]
+    },
+    {
       "id": "2026-10-17-0830",
       "label": "17 Oct 2026 · 08:30 SGT",
       "generated_at": "2026-10-17T00:35:00Z",
