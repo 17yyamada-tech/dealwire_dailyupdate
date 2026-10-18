@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-18-1530",
+      "label": "18 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-18T07:38:17Z",
+      "items": 4,
+      "headlines": [
+        "CCC Intelligent Solutions agrees to $6.1bn take-private buyout by GTCR and Elliott",
+        "AI-debt jitters spread beyond CoreWeave to Oracle and SoftBank as data-centre delays mount",
+        "Doubts over AI infrastructure financing cool rally in Asia's 'picks-and-shovels' stocks"
+      ]
+    },
+    {
       "id": "2026-10-17-1530",
       "label": "17 Oct 2026 · 15:30 SGT",
       "generated_at": "2026-10-17T07:40:45Z",

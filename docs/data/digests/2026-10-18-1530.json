@@ -1,0 +1,77 @@
+{
+  "edition": "2026-10-18-1530",
+  "edition_label": "18 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T07:38:17Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "CCC Intelligent Solutions agrees to $6.1bn take-private buyout by GTCR and Elliott",
+      "summary": "CCC Intelligent Solutions has agreed to be acquired by private-equity firm GTCR and activist investor Elliott Management, in a deal that values the company at about $6.1bn in enterprise value and will take it private.",
+      "why_it_matters": "The agreement marks a rare joint take-private by a buyout shop and an activist investor, and removes another software company from public markets at a moment when take-private volumes remain elevated.",
+      "summary_ja": "CCCインテリジェント・ソリューションズは、プライベートエクイティのGTCRとアクティビスト投資家のエリオット・マネジメントによる買収に合意した。取引における企業価値は約61億ドルで、同社は非公開化される。",
+      "why_it_matters_ja": "バイアウトファンドとアクティビストが共同で非公開化を進める案件は珍しく、ソフトウェア企業の上場撤退が相次ぐ中、非公開化の動きが依然として活発であることを示す一件だ。",
+      "status": "new",
+      "prev": null,
+      "key": "ccc-intelligent-gtcr-elliott",
+      "ids": ["a84d17dd326264"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RVzd3dGZ0VEpBWW5OVUNYdzZ2R3FyWXNGUmYzbXlSX0lwd0dNNmpzbzlSSTFGWUhHcVgxOVdDSVZfU1FtRHZwS3ViTUhMakt6QXUw?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "AI-debt jitters spread beyond CoreWeave to Oracle and SoftBank as data-centre delays mount",
+      "summary": "Concerns about the borrowing underpinning the AI-computing buildout are widening beyond CoreWeave to include Oracle and SoftBank, with credit investors growing more nervous about debt tied to AI infrastructure. A growing number of data centres being delayed by permitting issues is adding to the worries.",
+      "why_it_matters": "The broadening of debt concerns beyond a single name suggests the market is starting to question AI-infrastructure leverage more systemically, a shift credit investors and lenders financing the sector's buildout will need to watch closely.",
+      "summary_ja": "AIインフラ投資を支える借入れへの懸念は、CoreWeave一社からOracleやSoftBankにも広がりつつあり、クレジット投資家の警戒感が強まっている。データセンターの許認可手続きの遅れが増えていることも、新たな懸念材料として浮上した。",
+      "why_it_matters_ja": "懸念が一社から複数社へ広がったことは、市場がAIインフラ向けレバレッジをより構造的な問題として疑い始めていることを示唆し、同セクターの資金調達を支えるクレジット投資家や貸し手は注視する必要がある。",
+      "status": "update",
+      "prev": {"edition": "2026-10-17-0830", "index": 2},
+      "key": "coreweave-ai-debt-concerns",
+      "ids": ["dbefc4fe512ae3"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/cracks-emerge-ai-borrowing-boom-coreweave-oracle-and-softbank-debt-worries-grow"}
+      ],
+      "categories": ["Credit", "Infra"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["AI & Semis", "TMT"]
+    },
+    {
+      "headline": "Doubts over AI infrastructure financing cool rally in Asia's 'picks-and-shovels' stocks",
+      "summary": "A rally in Asian stocks exposed to the AI infrastructure build-out, often dubbed 'picks-and-shovels' plays, has stalled as investor concern grows over whether hyperscalers and neo-cloud operators can keep funding the data-centre capacity AI deployment requires. Shares tied to that trade fell as the worries spread across the region.",
+      "why_it_matters": "The pullback shows financing concerns first flagged in AI-infrastructure credit markets are now spilling into related equities across Asia, a read-through credit and infrastructure investors in the region should watch given how much capital has flowed into the AI data-centre trade.",
+      "summary_ja": "AIインフラ構築に関連する、いわゆる「ピックス・アンド・ショベルズ」銘柄のアジアでの上昇相場が足踏みしている。ハイパースケーラーやニアクラウド事業者がAI展開に必要なデータセンター投資の資金を引き続き確保できるかという懸念が強まっているためで、関連株は懸念の広がりとともに地域全体で下落した。",
+      "why_it_matters_ja": "AIインフラ向けクレジット市場で最初に浮上した資金調達への懸念が、アジアの関連株にも波及し始めたことを示す動きであり、AIデータセンター案件に多くの資本が流入してきたことを踏まえれば、クレジットやインフラ投資家にとって注視すべき指標だ。",
+      "status": "new",
+      "prev": null,
+      "key": "asia-ai-picks-shovels-stocks",
+      "ids": ["bccb8420191892"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/ai-funding-fears-puncture-rally-asias-high-flying-picks-and-shovels-stocks"}
+      ],
+      "categories": ["Infra"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["AI & Semis", "TMT", "Infrastructure"]
+    },
+    {
+      "headline": "Anthropic presents its own draft AI safety bill to US lawmakers",
+      "summary": "Anthropic has presented its own draft bill to US lawmakers, laying out a plan for regulating artificial intelligence safety and security. The proposal comes from the AI developer itself rather than from policymakers or industry groups.",
+      "why_it_matters": "A leading AI lab writing its own rulebook ahead of Washington could shape the baseline for safety regulation that the rest of the industry, and its financiers, eventually have to live with.",
+      "summary_ja": "Anthropicは、人工知能の安全性とセキュリティ規制の枠組みを定めた独自の法案草案を米議会に提示した。この提案は、政策当局や業界団体からではなく、AI開発企業自身から出された点が特徴だ。",
+      "why_it_matters_ja": "大手AI研究機関が政府の規制に先んじて自ら規則の草案を書くことは、業界全体、そしてその資金提供者が最終的に従うことになる安全規制の基準を形作る可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "anthropic-ai-safety-bill",
+      "ids": ["b55741261e7ee8"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/anthropic-pitches-ai-safety-bill-lawmakers"}
+      ],
+      "categories": [],
+      "countries": ["US"],
+      "sectors": ["AI & Semis", "TMT"]
+    }
+  ]
+}
