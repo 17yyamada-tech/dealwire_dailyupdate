@@ -4,7 +4,7 @@
   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
   "source": "Japan M&A",
   "published": "2026-09-27T10:00:23Z",
-  "checked_at": "2026-10-19T00:50:45Z",
+  "checked_at": "2026-10-19T00:54:19Z",
   "background": [
     {
       "date": "2026-07-27",
@@ -55,6 +55,14 @@
       "summary_ja": "CoinDeskの報道によると、クラーケン親会社Paywardは、リトアニアで銀行免許を持つSaldo Bank UABのフィンランド持株会社Saldo Finance Oyの買収で合意した。同行はフィンランド、スウェーデン、ドイツ、オランダでもパスポート権を持つ。資産規模は約1億9000万ドル(CryptoSlateは約1億8100万ドル/1億6300万ユーロと報道)とされ、価格は非公表。買収は規制当局の承認を前提に2027年中の完了を見込む。実現すればPaywardは欧州の銀行免許を得て、預金受け入れと貸出業務が可能になる。",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "Payward secures VARA's Full Market Approval in Dubai, UAE client launch expected within weeks",
+      "summary": "Payward, Kraken's parent, received the United Arab Emirates' Virtual Assets Regulatory Authority (VARA) Full Market Approval, the final stage of Dubai's licensing process, following a preliminary approval granted on May 21, 2026; the licence covers retail, professional and institutional clients, including AED-pair spot and margin trading and OTC/Kraken Prime access for institutions, with derivatives and additional yield products expected later subject to further approval.",
+      "summary_ja": "クラーケン親会社Paywardは、ドバイの仮想資産規制当局(VARA)から本免許(フルマーケット承認)を取得した。2026年5月21日に得た仮免許に続くドバイのライセンス手続きの最終段階にあたる。免許はリテール・プロフェッショナル・機関投資家向け顧客を対象とし、UAEディルハム建てのスポット・マージン取引や、機関投資家向けのOTC取引・Kraken Primeへのアクセスを含む。デリバティブや追加のイールド商品は今後の提供を予定しており、別途の承認が必要となる。",
+      "source": "Payward (press release)",
+      "url": "https://www.payward.com/press-release/payward-vara-authorization-uae"
     },
     {
       "date": "2026-10-07",
