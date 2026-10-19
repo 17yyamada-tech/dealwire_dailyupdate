@@ -4,7 +4,7 @@
   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
   "source": "Japan M&A",
   "published": "2026-09-26T18:17:00Z",
-  "checked_at": "2026-10-18T07:48:38Z",
+  "checked_at": "2026-10-19T00:50:45Z",
   "background": [
     {
       "date": "2026-09-24",
@@ -56,6 +56,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-10-14",
+      "headline": "Rocket Lab delays Neutron rocket's debut launch from Q4 2026 to 2027 over carbon-composite structural concerns",
+      "summary": "Rocket Lab said on October 14, 2026 that the first launch of its Neutron rocket would slip from the fourth quarter of 2026 to sometime in 2027, citing carbon-composite issues found during inspections that could have compromised the vehicle's structural strength, which the company said it has since resolved; the Iridium deal's vertical-integration rationale depends on Neutron reaching orbit.",
+      "summary_ja": "ロケットラボは2026年10月14日、ニュートロン・ロケットの初打ち上げを2026年第4四半期から2027年中に延期すると発表した。検査で炭素複合材に強度上の懸念が見つかったことが理由とされ、同社はこの問題は既に解決したとしている。イリジウム買収が目指す垂直統合の完成は、ニュートロンの軌道到達が前提となっている。",
+      "source": "Light Reading",
+      "url": "https://lightreading.com/satellite/rocket-lab-s-first-neutron-rocket-launch-delayed-to-2027"
+    },
     {
       "date": "2026-10-07",
       "headline": "Astronomy groups urge FCC to bind Rocket Lab to Iridium's interference-avoidance obligations before clearing license transfer",

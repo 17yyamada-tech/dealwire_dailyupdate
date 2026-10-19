@@ -4,7 +4,7 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-10-18T07:48:38Z",
+  "checked_at": "2026-10-19T00:50:45Z",
   "background": [
     {
       "date": "2026-09-26",
@@ -72,6 +72,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-10-16",
+      "headline": "Iran's navy says it detected a burning tanker in a restricted zone east of the Strait of Hormuz, vessel unidentified",
+      "summary": "Iran's navy said on Friday, October 16, 2026 that it detected a tanker on fire inside a zone it designates prohibited east of the Strait of Hormuz, without naming the vessel, its flag or the cause of the fire, and without reporting casualties; the claim was not independently verified.",
+      "summary_ja": "イラン海軍は2026年10月16日(金)、ホルムズ海峡東方に自ら設定した禁止区域内で炎上中のタンカー1隻を検知したと発表した。船名や船籍、出火原因は明らかにされておらず、死傷者の報告もない。この発表は独立した形では確認されていない。",
+      "source": "Yeni Şafak",
+      "url": "https://en.yenisafak.com/world/iranian-navy-reports-tanker-fire-in-gulf-of-oman-3724518"
+    },
     {
       "date": "2026-10-15",
       "headline": "CNN: Pentagon draws up Iran strike options including MOAB bunker-buster against Pickaxe Mountain nuclear site",
