@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-19-1230",
+      "label": "19 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-19T04:39:06Z",
+      "items": 6,
+      "headlines": [
+        "Fairfax revives India bank privatisation with $5.6bn bid for IDBI",
+        "SG Fleet agrees to buy Australia's FleetPartners for A$1.13bn, sending both shares to highs",
+        "IFC weighs $400m loan to Malaysia's Affin Bank as Thailand's Muangthai Capital secures $60m from FinDev Canada"
+      ]
+    },
+    {
       "id": "2026-10-19-0830",
       "label": "19 Oct 2026 · 08:30 SGT",
       "generated_at": "2026-10-19T00:36:10Z",
