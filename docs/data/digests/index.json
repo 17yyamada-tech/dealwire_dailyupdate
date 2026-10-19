@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-19-0830",
+      "label": "19 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-19T00:36:10Z",
+      "items": 10,
+      "headlines": [
+        "EQT agrees to acquire Australia's Cleanaway in $6.5bn deal",
+        "Daiichi Life unit tables A$7.94bn takeover bid for Australia's Challenger, valued at about ¥700bn",
+        "Accenture looks to sell Chinese operations for up to $1.5bn, FT reports"
+      ]
+    },
+    {
       "id": "2026-10-18-1530",
       "label": "18 Oct 2026 · 15:30 SGT",
       "generated_at": "2026-10-18T07:38:17Z",
