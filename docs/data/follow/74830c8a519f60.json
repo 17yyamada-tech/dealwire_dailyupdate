@@ -4,7 +4,7 @@
   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYmEyNFJpamQ1WXZaRmhwMl90ZXNVZ093MkFyRk5tdTR6U2ZYblN0aUVlV3RGZzBQSE5vNF9UYjdBTENlbnRWUFVSUGMtM3NEdGhpTUNyWmd2bzFxbU95SGVtUGxCSDdjZlhQVUNNNDFkQ1JfdVdLZHdFVlNCeFk?oc=5",
   "source": "Japan M&A",
   "published": "2026-09-27T05:00:00Z",
-  "checked_at": "2026-10-19T00:50:45Z",
+  "checked_at": "2026-10-19T04:51:20Z",
   "background": [
     {
       "date": "2026-09-25",
@@ -55,6 +55,14 @@
       "summary_ja": "TheWrapの報道によると、プロデューサーのジジ・プリツカー氏が率いるマディソン・ウェルズの投資家連合が、Letterboxd買収の新たな候補として名乗りを上げた。売却プロセスに詳しい関係者は「中立的な管理者」になり得るとして、ニューヨーク・タイムズを依然本命と見ているという。同社の会員数は第2四半期末の3070万人から約3500万人に増加したとされ、買収額は依然3億ドル超と見込まれている。",
       "source": "TheWrap",
       "url": "https://www.thewrap.com/industry-news/business/letterboxd-sale-gigi-pritzker-investor-consortium-acquisition/"
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Intrinsic opens \"Letterboxd4All\" crowdfunding so individual users can buy equity in a community bid, $100 minimum via Wefunder",
+      "summary": "TheWrap reported that Intrinsic Entertainment Collaborative, the public-benefit company led by Elizabeth Joyce already pursuing a bid for Letterboxd, launched a campaign called Letterboxd4All letting individual users take an equity stake with a $100 minimum investment through Wefunder or make smaller donations via GoFundMe, saying it already had institutional backers capable of writing seven- and eight-figure checks and was now seeking support from the platform's user base.",
+      "summary_ja": "TheWrapの報道によると、Letterboxd買収を目指す公益法人Intrinsic Entertainment Collaborative（代表エリザベス・ジョイス氏）は「Letterboxd4All」と名付けたキャンペーンを開始し、個人ユーザーがWefunder経由で最低100ドルから出資して株式を取得できるようにしたほか、GoFundMe経由での少額寄付も受け付けるとした。同社は7桁・8桁の小切手を切れる機関投資家からの支援は既に得ているとし、今後はプラットフォームの利用者層からの支持を募るとしている。",
+      "source": "TheWrap",
+      "url": "https://www.thewrap.com/culture-lifestyle/culture/letterboxd-users-investors-launch-grassroots-campaign/"
     }
   ]
 }
