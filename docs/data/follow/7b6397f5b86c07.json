@@ -4,7 +4,7 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-10-19T07:50:57Z",
+  "checked_at": "2026-10-20T00:47:30Z",
   "background": [
     {
       "date": "2026-09-26",
@@ -72,6 +72,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-10-19",
+      "headline": "IRGC says another tanker catches fire after mine strike in Hormuz, alleges unauthorized southern route",
+      "summary": "Reuters reported, via The Korea Times, that Iran's Revolutionary Guards Navy said on Monday, October 19, 2026 that another oil tanker caught fire after hitting a naval mine in the Strait of Hormuz, alleging the vessel had used an unauthorized southern route and disabled its positioning and navigation systems; the claim was not independently verified.",
+      "summary_ja": "ロイターがコリア・タイムズ経由で報じたところによると、イラン革命防衛隊海軍は2026年10月19日(月)、ホルムズ海峡で別のタンカーが機雷に接触し出火したと発表した。同船は無許可の南側航路を使用し、測位・航行システムを無効化していたと主張しているが、独立した形での確認はされていない。",
+      "source": "Reuters (via The Korea Times)",
+      "url": "https://www.koreatimes.co.kr/world/20261019/oil-tanker-on-fire-after-hitting-mine-in-hormuz"
+    },
     {
       "date": "2026-10-16",
       "headline": "Iran's navy says it detected a burning tanker in a restricted zone east of the Strait of Hormuz, vessel unidentified",
