@@ -1,0 +1,138 @@
+{
+ "edition": "2026-10-20-1530",
+ "edition_label": "20 Oct 2026 · 15:30 SGT",
+ "date": "2026-10-20",
+ "generated_at": "2026-10-20T07:33:00Z",
+ "reading_minutes": 2,
+ "items": [
+  {
+   "headline": "EU accuses KKR of misleading regulators in Telecom Italia network deal, weighs fine",
+   "summary": "The European Commission has accused KKR of misleading EU authorities during its review of the private equity firm's acquisition of Telecom Italia's fixed-line network, Reuters reported. Separate wire reports said Brussels is considering a fine over the alleged conduct.",
+   "why_it_matters": "A finding against KKR would mark a rare EU sanction tied to conduct during a merger review rather than the deal's substance, raising the compliance bar for PE firms buying regulated infrastructure assets in Europe.",
+   "summary_ja": "欧州委員会は、KKRによるテレコム・イタリア固定電話ネットワーク買収の審査過程において、同社がEU当局に誤った情報を提供したと指摘した。ロイターが報じた。別の報道では、欧州委が制裁金の検討に入ったと伝えている。",
+   "why_it_matters_ja": "KKRへの制裁が科されれば、買収内容そのものではなく審査対応を理由とするEUの制裁として異例であり、欧州で規制対象インフラ資産を買収するPEファンドに対するコンプライアンス基準を一段と引き上げることになる。",
+   "status": "new",
+   "prev": null,
+   "key": "kkr-telecom-italia-eu-misleading",
+   "ids": [
+    "e8f58962d81cc8",
+    "d99eba112e032e",
+    "61bfef601baf02"
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "TMT",
+    "Public / Macro",
+    "Other"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWZklFR29lSG5YTHB3b3VWSG1MVFZPc3p1S2lzZkg1ODE2RTNIQWFkYmRrdWdRMTUtMm15M3puN19ZSDAwVWlEbkUwYmt2bUhTSzMzR2V4eUNUb0pKakRQMEg1VkJNVWdRcGtmZHRRcTJJcEtDTlNPVw?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByeDFEZFFoVmRxYTVXQURLcnRDMWg0cjNubHBHUENtY0N0dzJuMzRNeWhGdS1COWZMalFyOVdsR0UzajUwdTlkMmdxUzlja3dGeHllc1hCQ0ZXRjktR0VtZGVrRDBsQjlENVNLdUdEV20?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNekVBVUlTSFVfaEFnMUdjWDJvUkNiaGJQNGJSQmdZNjJIQkUzSHRxWEZfVy1COGtMSkVMYXJ4eEowVEZpUkVxTUhpNjQzOUpDT0xqRzhKQ3NFNXhZQ2szdmV4R3MxWk53M28tcElBTnVLLXlrTTdORTRxX2N6azNLNTlLdUxBUQ?oc=5"
+    }
+   ]
+  },
+  {
+   "headline": "GCash parent Mynt raises ~$967m in Southeast Asia's top 2026 IPO, shares rise in debut",
+   "summary": "Mynt, the operator of mobile wallet GCash, raised about US$966.99 million after selling more than 8 billion shares, in what wire reports described as Southeast Asia's top IPO of 2026 and the Philippines' largest listing on record. Shares rose as much as 2.1% from the offer price in early trading, outperforming a weaker Philippine benchmark amid a broader Asian sell-off.",
+   "why_it_matters": "A record IPO from a payments-adjacent fintech signals investor appetite for Southeast Asian listings even as regional equities wobble, and it sets a pricing benchmark for other digital-wallet operators weighing public listings.",
+   "summary_ja": "モバイルウォレットGCashを運営するMyntは、80億株超を売却し約9億6,699万米ドルを調達した。これは2026年の東南アジア最大のIPOであり、フィリピン史上最大の上場とされる。株価は売り出し価格から一時2.1%上昇し、アジア株全般が売られる中で軟調だったフィリピン株指数をアウトパフォームした。",
+   "why_it_matters_ja": "決済関連フィンテック企業による大型IPOの成功は、地域株が不安定な中でも東南アジアの新規上場需要が根強いことを示し、上場を検討する他のデジタルウォレット事業者にとって価格形成の指標となる。",
+   "status": "new",
+   "prev": null,
+   "key": "gcash-mynt-philippines-ipo",
+   "ids": [
+    "5bcbaab8cb0f0e",
+    "832b2b13159961"
+   ],
+   "categories": [],
+   "countries": [
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/philippines-gcash-mynt-shares-ipo-6474091"
+    },
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/asean/gcash-parent-mynt-rises-market-debut-after-s-e-asias-top-2026-ipo"
+    }
+   ]
+  },
+  {
+   "headline": "Seoul data-centre infrastructure firm Elice plunges 33% in debut after raising Won201bn IPO",
+   "summary": "Elice, a Seoul-based data-centre infrastructure company, raised 201 billion won in its IPO, with the retail tranche subscribed 400 times over, before shares fell 33% on their trading debut. Wire reports called it an 'ugly debut' that is rekindling doubts about AI-related capital spending.",
+   "why_it_matters": "A heavily oversubscribed retail book followed by a one-third first-day collapse highlights a widening gap between retail enthusiasm for AI-infrastructure listings and the price institutional investors are actually willing to pay, a caution for the pipeline of similar data-centre IPOs.",
+   "summary_ja": "ソウルを拠点とするデータセンターインフラ企業Eliceは、IPOで2010億ウォンを調達し、個人投資家向け配分は400倍の申し込みを集めたが、上場初日に株価は33%下落した。報道はこれを「見苦しいデビュー」と評し、AI関連投資への懸念を再燃させていると伝えている。",
+   "why_it_matters_ja": "個人投資家の旺盛な需要にもかかわらず初日に3分の1下落したことは、AIインフラ関連上場に対する個人投資家の熱狂と機関投資家が実際に支払う価格との間のギャップの広がりを示し、同種のデータセンターIPOの先行きに警鐘を鳴らす。",
+   "status": "new",
+   "prev": null,
+   "key": "elice-ipo-debut-plunge",
+   "ids": [
+    "4d28eb1f29ed1c"
+   ],
+   "categories": [
+    "Infra"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "AI & Semis",
+    "TMT",
+    "Consumer"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/data-centre-infrastructure-firm-elices-33-plunge-ugly-debut-rekindles-ai-spending-doubts"
+    }
+   ]
+  },
+  {
+   "headline": "Australian rival to buy Mitsubishi Motors-backed vehicle-leasing firm for ¥125bn after Japanese bidders lose out",
+   "summary": "An Australian vehicle-leasing company backed by Mitsubishi Motors is being acquired by a domestic Australian competitor for ¥125 billion, Japan M&A wire services reported, with competing bids from Japanese suitors unsuccessful.",
+   "why_it_matters": "The outcome illustrates Japanese strategics losing contested auctions for offshore assets to better-capitalised local trade buyers, a recurring theme as Japanese corporates compete for cross-border targets against domestic incumbents with home-market advantages.",
+   "summary_ja": "三菱自動車が出資する豪州の車両リース会社を、豪州の同業他社が1250億円で買収することになったと日本のM&A関連ニュースが報じた。競合していた日本側の買収提案は不成立となった。",
+   "why_it_matters_ja": "この結果は、海外資産の争奪戦において、地元優位性を持つ資金力のある現地同業に日本企業が競り負ける事例を示しており、海外M&Aで日本の事業会社が直面する競争環境の厳しさを映している。",
+   "status": "new",
+   "prev": null,
+   "key": "mitsubishi-motors-australia-vehicle-leasing-sale",
+   "ids": [
+    "a392232061e69c"
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Financials"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlQV80YWJSRG5ybGtYbXBQbkVnT3U2QjhSc2NXR01MWmc3dlViQUowSHJTaG44Y0pISzRmUUxxeEltZGhjRzhxNFFtc3EtZUw3WUtVUkU1YkNRa28ySkZDcDYzakhKWnlHdWl3Tw?oc=5"
+    }
+   ]
+  }
+ ]
+}

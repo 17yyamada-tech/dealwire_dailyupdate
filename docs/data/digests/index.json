@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-10-20-1530",
+   "label": "20 Oct 2026 · 15:30 SGT",
+   "generated_at": "2026-10-20T07:33:00Z",
+   "items": 4,
+   "headlines": [
+    "EU accuses KKR of misleading regulators in Telecom Italia network deal, weighs fine",
+    "GCash parent Mynt raises ~$967m in Southeast Asia's top 2026 IPO, shares rise in debut",
+    "Seoul data-centre infrastructure firm Elice plunges 33% in debut after raising Won201bn IPO"
+   ]
+  },
+  {
    "id": "2026-10-20-1230",
    "label": "20 Oct 2026 · 12:30 SGT",
    "generated_at": "2026-10-20T04:35:00Z",
