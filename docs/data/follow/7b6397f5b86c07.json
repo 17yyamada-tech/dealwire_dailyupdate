@@ -4,7 +4,7 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-10-20T00:47:30Z",
+  "checked_at": "2026-10-20T04:50:32Z",
   "background": [
     {
       "date": "2026-09-26",
@@ -81,12 +81,28 @@
       "url": "https://www.koreatimes.co.kr/world/20261019/oil-tanker-on-fire-after-hitting-mine-in-hormuz"
     },
     {
+      "date": "2026-10-17",
+      "headline": "US and Iran each claim control of Strait of Hormuz after weekend container-ship attack; Trump says US reinstating blockade and fee for safe passage",
+      "summary": "Al Jazeera reported that the US and Iran each asserted control of the Strait of Hormuz after a weekend Iranian attack on a container ship, with Iran citing a right under last month's interim peace deal to manage transit and potentially charge fees, while President Trump said the US was reinstating a blockade on Iran in the strait and would also charge ships for safe passage; the dispute came roughly halfway through the 60-day window set for talks on a permanent end to the war.",
+      "summary_ja": "アルジャジーラの報道によると、週末にイランがコンテナ船を攻撃した後、米国とイランはそれぞれホルムズ海峡の管理権を主張した。イランは先月の暫定和平合意に基づき通航を管理し通行料を課す権利があるとし、トランプ大統領は米国がイランに対する海峡封鎖を再開し、船舶にも安全通航料を課すと述べた。この対立は、戦争終結に向けた恒久的合意を協議するとされた60日間の交渉期間のおおむね中間時点で起きた。",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels"
+    },
+    {
       "date": "2026-10-16",
       "headline": "Iran's navy says it detected a burning tanker in a restricted zone east of the Strait of Hormuz, vessel unidentified",
       "summary": "Iran's navy said on Friday, October 16, 2026 that it detected a tanker on fire inside a zone it designates prohibited east of the Strait of Hormuz, without naming the vessel, its flag or the cause of the fire, and without reporting casualties; the claim was not independently verified.",
       "summary_ja": "イラン海軍は2026年10月16日(金)、ホルムズ海峡東方に自ら設定した禁止区域内で炎上中のタンカー1隻を検知したと発表した。船名や船籍、出火原因は明らかにされておらず、死傷者の報告もない。この発表は独立した形では確認されていない。",
       "source": "Yeni Şafak",
       "url": "https://en.yenisafak.com/world/iranian-navy-reports-tanker-fire-in-gulf-of-oman-3724518"
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "UKMTO logs 12 attacks on Gulf shipping in week to October 16, rates threat to Hormuz shipping 'severe'",
+      "summary": "UKMTO recorded 12 attacks on commercial shipping in the week ending October 16 - 10 in the Strait of Hormuz, one in the Persian Gulf and one in the Gulf of Oman - with one vessel lost, two disabled and three outcomes unconfirmed, and said it believes the true number is higher since most targeted vessels decline to report; the agency rated the threat to Hormuz shipping 'severe' and said further attacks were 'highly likely'.",
+      "summary_ja": "UKMTO(英海事貿易活動局)は10月16日までの1週間に商船への攻撃を12件記録したと発表した。ホルムズ海峡内が10件、ペルシャ湾が1件、オマーン湾が1件で、船舶1隻が失われ、2隻が航行不能、3件は結果不明という。攻撃を受けた船舶の多くが報告を避けるため実際の件数はさらに多いとみられるとした。同局はホルムズ海峡の船舶航行への脅威を「深刻」と評価し、さらなる攻撃の可能性が「非常に高い」と警告した。",
+      "source": "gCaptain",
+      "url": "https://gcaptain.com/fog-of-war-deepens-in-hormuz-as-ukmto-says-most-ship-attacks-go-unreported/"
     },
     {
       "date": "2026-10-15",
