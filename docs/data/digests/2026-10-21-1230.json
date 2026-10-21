@@ -1,0 +1,157 @@
+{
+  "edition": "2026-10-21-1230",
+  "edition_label": "21 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T04:39:31Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Progress Software completes acquisition of Domo's AI and data-platform business",
+      "summary": "Progress Software, which provides AI infrastructure software, has completed its acquisition of Domo's AI and data-platform business. No financial terms were disclosed.",
+      "why_it_matters": "The deal adds AI-and-data-platform capability to Progress Software's infrastructure stack, part of a broader wave of software consolidation as vendors race to bundle AI tooling with existing enterprise platforms.",
+      "summary_ja": "AIインフラ向けソフトウェアを手掛けるプログレス・ソフトウェアが、DomoのAI・データプラットフォーム事業の買収を完了した。財務条件は開示されていない。",
+      "why_it_matters_ja": "本取引はプログレス・ソフトウェアの基盤にAI・データプラットフォーム機能を追加するもので、各ベンダーがAIツールを既存の企業向けプラットフォームに組み込もうとするソフトウェア業界統合の流れの一部である。",
+      "status": "new",
+      "prev": null,
+      "key": "progress-software-domo-acquisition",
+      "ids": [
+        "db4dc8056652d0",
+        "1473f92ad5e054"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jLVlVRER3a21vdnVCTjl0SmgzMzdzQks4N3ljcG9wQk9PaW1ubjloUnQxLUJqc1NsTEpyeWg3VWNrYTZ6TnQwNXNjSmJ1MHNCYUVqRXhHWXZIUHdQb1ExcDJDOHFtWHM2R1E?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1EdldoUkhESlpWM093cU1VZENINXI0RkJwZWhOci1xa3hfQmZLbm00aE43Ukt0NzFibzNUNE5ycl9uNWhKOG9ld3MwelAwVlk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "CVC Capital Partners in talks to acquire a stake in Thai soy milk maker Tofusan",
+      "summary": "CVC Capital Partners is in talks to acquire a stake in Tofusan, a Thai soy milk maker, DealStreetAsia reported. No stake size or valuation was disclosed.",
+      "why_it_matters": "A global buyout firm circling a Thai consumer-staples brand points to continued private-equity appetite for branded food and beverage assets in Southeast Asia even as broader regional PE volumes stay selective.",
+      "summary_ja": "CVCキャピタル・パートナーズが、タイの豆乳メーカーTofusanの株式取得に向けて協議しているとディールストリートアジアが報じた。出資比率や企業価値は開示されていない。",
+      "why_it_matters_ja": "グローバルなバイアウト・ファンドがタイの生活必需品ブランドに関心を示していることは、地域全体のPE投資額が選別的な中でも、東南アジアの食品・飲料ブランド資産への需要が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "cvc-tofusan-stake-talks",
+      "ids": [
+        "7b376ce7a878a0"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBQcF9qS0ZnZ1ZEdl9PY1BLY2hFbnpNd0lOdTh1UUxxYkdaaXpKemwyNGdOdVlMdVBTSUVFRV9hb2hpaWRveWFhb0k0REN0ZkUzUWlOWHpUVU5rM0dRbG1pS0ZoaWYzWFBrcnR6dlBQREc1UmVaQTBSZ2dWMjM?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Nvidia in talks to raise its investment in AI cloud firm Firmus after its IPO flop",
+      "summary": "Nvidia is in talks to invest more in Firmus, an AI cloud provider, after the company's initial public offering flopped, the Business Times reported. The report said the move signals Nvidia's continued support for \"neoclouds\", a group of debt-laden AI cloud providers.",
+      "why_it_matters": "Nvidia stepping back in after a failed listing shows how reliant some AI-infrastructure operators remain on anchor-investor support to stay funded, and how exposed Nvidia itself is becoming to the credit health of its customer base.",
+      "summary_ja": "AIクラウド事業者ファーマスが新規株式公開(IPO)に失敗した後、エヌビディアが追加出資に向けて協議しているとビジネス・タイムズが報じた。同報道は、これが債務を抱えるAIクラウド事業者群「ネオクラウド」への支援継続を示すものだとしている。",
+      "why_it_matters_ja": "上場失敗後にエヌビディアが再び支援に動いたことは、一部のAIインフラ事業者が資金繰りで大株主の支援に依然依存していることを示すと同時に、エヌビディア自身が顧客基盤の信用状況へのエクスポージャーを高めつつあることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "nvidia-firmus-investment-talks",
+      "ids": [
+        "ef661ad849b9e0"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/nvidia-talks-invest-more-ai-cloud-firm-firmus-after-ipo-flop-report"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Reliance Jio's IPO opens for public bids in record $3.2bn India sale",
+      "summary": "Reliance Jio's initial public offering has opened for public bids, with the overall sale valued at a record US$3.2 billion, Channel NewsAsia reported. The offering had already drawn more than $25bn in anchor-investor bids before the public tranche opened.",
+      "why_it_matters": "The public tranche opening on the back of a heavily oversubscribed anchor book points to robust investor demand for India's largest IPOs of the year, a positive signal for the pipeline of large-cap listings in the region.",
+      "summary_ja": "リライアンス・ジオのIPOが公開株の募集を開始し、売出総額は過去最高の32億米ドルになるとチャンネル・ニュースアジアが報じた。公開分の募集開始前には、アンカー投資家からの需要が250億ドルを上回っていた。",
+      "why_it_matters_ja": "アンカー投資家の需要が大幅に積み上がった状態で公開分の募集が始まったことは、インド最大級のIPOへの投資家需要の強さを示し、地域の大型上場パイプラインにとって良好な兆候となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-20-0830",
+        "index": 5
+      },
+      "key": "reliance-jio-ipo-anchor-book",
+      "ids": [
+        "e5c9eaaf3439d1"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/india-jio-platforms-ipo-opens-reliance-ambani-6476976"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Signs emerge that Daiichi Life may need to raise its bid for Australia's Challenger, NNA reports",
+      "summary": "NNA reported signs that Daiichi Life's takeover bid for Australia's Challenger may need to be raised. No specific price change was disclosed. The original offer had valued Challenger at A$7.94bn, a 19.8% premium, when first tabled.",
+      "why_it_matters": "Speculation over a higher bid suggests Challenger's board or shareholders see room to extract a better price, a dynamic increasingly common in contested or finely balanced Australian takeovers.",
+      "summary_ja": "NNAは、第一生命によるオーストラリアのチャレンジャー買収案について、価格引き上げの観測が出ていると報じた。具体的な価格変更は開示されていない。当初の提案はチャレンジャーを79.4億豪ドル、19.8%のプレミアムで評価していた。",
+      "why_it_matters_ja": "価格引き上げの観測は、チャレンジャーの取締会または株主がより有利な価格を引き出す余地があるとみていることを示唆し、競合的あるいは均衡が微妙なオーストラリアの買収案件で近年みられる傾向である。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-19-0830",
+        "index": 1
+      },
+      "key": "daiichi-life-challenger-takeover-bid",
+      "ids": [
+        "3d4dcdfcdabf06"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PV0c3dU95RWNNSzFsYloyY21jNEtQUHZKM0s4M0poVjhVNzNfWTdlSXI3YXVuSVJXQTllaUozUDlxTE9mZlR2aHl6SkRsMlVvVFNYcURIcEtubklGN08tcml2dWZsZ0tUQmZESFVwSTZvTWhib2o0NUw3Uk9sbVk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

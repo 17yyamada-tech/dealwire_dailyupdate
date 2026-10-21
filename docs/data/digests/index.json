@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-10-21-1230",
+   "label": "21 Oct 2026 · 12:30 SGT",
+   "generated_at": "2026-10-21T04:39:31Z",
+   "items": 5,
+   "headlines": [
+    "Progress Software completes acquisition of Domo's AI and data-platform business",
+    "CVC Capital Partners in talks to acquire a stake in Thai soy milk maker Tofusan",
+    "Nvidia in talks to raise its investment in AI cloud firm Firmus after its IPO flop"
+   ]
+  },
+  {
    "id": "2026-10-21-0830",
    "label": "21 Oct 2026 · 08:30 SGT",
    "generated_at": "2026-10-21T00:39:53Z",
