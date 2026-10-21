@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-20T07:51:33Z",
+ "checked_at": "2026-10-21T00:49:16Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-20",
+   "headline": "IRGC claims naval mines disabled two tankers on US-backed Hormuz route; vessels unidentified, unconfirmed by CENTCOM/UKMTO",
+   "summary": "Iran's Revolutionary Guard Corps said naval mines halted two tankers transiting the Strait of Hormuz via a southern route backed by the US that Iran does not recognize, without identifying either vessel, its flag or extent of damage; CENTCOM and UKMTO had not confirmed the claim.",
+   "summary_ja": "イラン革命防衛隊(IRGC)は、米国が支援しイランが認めていないホルムズ海峡南側の航路を通過していたタンカー2隻が機雷により航行不能になったと主張した。船名や船籍、被害の程度は明らかにされていない。米中央軍(CENTCOM)と英海事当局UKMTOはこの主張を確認していない。",
+   "source": "Al Arabiya English",
+   "url": "https://english.alarabiya.net/News/middle-east/2026/10/20/iran-s-irgc-says-mines-halted-two-tankers-crossing-strait-of-hormuz"
+  },
+  {
+   "date": "2026-10-20",
+   "headline": "Iran claims it downed a US MQ-9 Reaper drone over the Strait of Hormuz; CENTCOM has not commented",
+   "summary": "Iran said its forces shot down a US MQ-9 Reaper drone over the Strait of Hormuz; US Central Command had not commented on the claim.",
+   "summary_ja": "イランは、米軍のMQ-9リーパー無人機1機をホルムズ海峡上空で撃墜したと主張した。米中央軍(CENTCOM)はこの主張についてコメントしていない。",
+   "source": "HNGN",
+   "url": "https://www.hngn.com/articles/273540/20261020/iran-says-two-supertankers-hit-mines-hormuz.htm"
+  },
   {
    "date": "2026-10-19",
    "headline": "IRGC says another tanker catches fire after mine strike in Hormuz, alleges unauthorized southern route",
