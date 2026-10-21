@@ -1,0 +1,319 @@
+{
+ "edition": "2026-10-21-0830",
+ "edition_label": "21 Oct 2026 · 08:30 SGT",
+ "date": "2026-10-21",
+ "generated_at": "2026-10-21T00:39:53Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "Musk says Tesla and SpaceX have formed special committees to explore a merger",
+   "summary": "Elon Musk said both companies have set up special committees to study combining Tesla and SpaceX, days after SpaceX posted its first profit as a public company. Musk called the idea a \"good idea\" with \"a lot of merit\" but cautioned that shareholder support is required and a deal is not guaranteed.",
+   "why_it_matters": "A combination would bring Musk's two largest companies under one roof, testing how public shareholders value his cross-company ambitions and the governance concentration that would come with it. Risk arbitrage desks are likely to watch closely for any formal proposal, given the scale and complexity such a combination would entail.",
+   "summary_ja": "イーロン・マスク氏は、テスラとスペースXの統合を検討するため両社がそれぞれ特別委員会を設置したと明らかにした。発言はスペースXが上場企業として初の四半期利益を計上した数日後のものだ。マスク氏は統合には「大きな利点がある」と述べたが、株主の支持が必要であり、合意が確実というわけではないとも警告した。",
+   "why_it_matters_ja": "テスラとスペースXの統合が実現すれば、マスク氏が率いる最大手2社がひとつの傘下に収まることになり、複数企業を横断するマスク氏の構想とガバナンスの集中を株主がどう評価するかが問われることになる。規模と複雑さを考えると、正式な統合案が出てくれば、リスクアービトラージの運用者らがその内容を注視することになりそうだ。",
+   "status": "new",
+   "prev": null,
+   "key": "tesla-spacex-merger-talks",
+   "ids": [
+    "ba011529b856eb",
+    "c0150880b7f0da",
+    "91f386e711c627"
+   ],
+   "links": [
+    {
+     "source": "BBC Business",
+     "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/elon-musk-says-spacex-tesla-have-begun-exploring-merger-warns-deal-not-guaranteed"
+    },
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/musk-calls-tesla-spacex-merger-good-idea-spacex-posts-first-profit-public-company-6476721"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Salesforce to acquire Braze for $5.66bn in all-cash deal at $47.50 a share",
+   "summary": "Salesforce agreed to buy customer-engagement software maker Braze for $5.66bn in an all-cash deal priced at $47.50 per share. Braze shares soared 51% on the news.",
+   "why_it_matters": "Large software incumbents are still willing to pay up for customer-engagement and marketing assets even as public markets debate the durability of the SaaS model. The 51% jump in Braze shares also shows how richly the market is willing to price such targets once a strategic buyer steps in.",
+   "summary_ja": "セールスフォースは、顧客エンゲージメント向けソフトウェアを手掛けるブレイズを56.6億ドルで買収することで合意した。買収は全額現金で、1株当たり47.50ドルの価格が付けられている。この発表を受け、ブレイズの株価は51%急伸した。",
+   "why_it_matters_ja": "大手ソフトウェア企業が、SaaSモデルの持続性が議論される中でも顧客エンゲージメントやマーケティング関連の資産に高い対価を支払う姿勢を崩していないことを示す取引だ。ブレイズ株が51%急伸したことは、戦略的買い手が現れれば市場がこうした対象企業をいかに高く評価するかも映し出している。",
+   "status": "new",
+   "prev": null,
+   "key": "salesforce-braze-acquisition",
+   "ids": [
+    "d6a8414867d325",
+    "3da77e07be3818",
+    "152612563b32a7"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/salesforce-acquire-braze-in-566-billion-deal-6475576"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE44MHB5Si03UHg3M2Q0RTcyWGdxaDNzVXBQdXBPOFdJTmZMdHRHN0FSb2lacUhjbmdIcnRSVllWRHNLRkEwZ2UwVjJPdzh5d0UtUHZndVRVX0J6MEtQU0pKNTVMc3RMUGd4blJKakI1cC1rX0tn?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOWZKcTE1QVJoaWkzVzk5Zm80cnVnbVlQSWRDdDhlVmQ5cjRrM3RvaldKM254X1VlUDRGNFZnUVhsV3JaUjBrcmpYRlB6QjhsWml5Tk5ZNUlaQXJPTVZHSi1LUHJQZ0xuODk1TFQxa25ZQ1Fla3hPZ2w0OEVQaGFrN1RKMmhYdTJKSFhjd0phSGpST0JKVDhGanRXZ2hfVmMxd1JhYkFFVDlibzRKMkR6WmoxTi1YZw?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "CBRE to acquire London-based network infrastructure firm Onnec for up to $1bn, WSJ reports",
+   "summary": "CBRE is in talks to acquire London-based Onnec, a network infrastructure services provider, in a deal that could be worth up to $1bn, the Wall Street Journal reported.",
+   "why_it_matters": "The deal would extend CBRE's push beyond traditional real-estate services into network and data-centre infrastructure, an adjacency growing quickly on AI-driven demand for connectivity capacity. It would also be one of CBRE's larger forays into telecoms infrastructure services, a segment increasingly adjacent to its core facilities business.",
+   "summary_ja": "CBREはロンドンを拠点とするネットワークインフラサービス会社オンネックの買収交渉を進めており、取引規模は最大10億ドルになる可能性があると、ウォール・ストリート・ジャーナルが報じた。",
+   "why_it_matters_ja": "この買収が成立すれば、CBREの事業が従来の不動産サービスからネットワークやデータセンターのインフラという拡大領域へさらに広がることになる。AI需要の拡大により通信容量への需要が加速する中、通信インフラサービスへの参入としてもCBREにとって規模の大きい動きとなる。",
+   "status": "new",
+   "prev": null,
+   "key": "cbre-onnec-acquisition",
+   "ids": [
+    "4c3067b56fd6fe"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UNlpSS2pXRGQ1WUpRZ0RhenJTVFlWbUhyaVFhYmg3SXR4enJ0LTZFUU1NWWZOV1Q0clRzV2JWVEt6X3RpdTl4bWhFMURxWVNkekkyYVlWal9yaThCMjc5cnNlTEZua1NYTzdjSGtOXzUyR3dfT1F2eQ?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Qiagen shares jump on report of buyout talks with EQT",
+   "summary": "Shares in Qiagen rose sharply after a report that the company is in buyout talks with private equity firm EQT.",
+   "why_it_matters": "A deal would be one of the largest sponsor take-privates of a listed company so far this year. It would also test investor appetite for sponsor-led take-privates of mid-cap listed companies more broadly, at a time when financing conditions for such deals remain selective.",
+   "summary_ja": "キアゲンの株価は、同社がEQTと買収交渉を進めているとの報道を受けて急伸した。",
+   "why_it_matters_ja": "取引が成立すれば、今年これまでで最大級の上場企業に対するスポンサー主導の非公開化案件のひとつとなる。資金調達環境が選別的になる中、中型上場企業の非公開化に対する投資家の意欲を試す案件にもなる。",
+   "status": "new",
+   "prev": null,
+   "key": "qiagen-eqt-buyout-talks",
+   "ids": [
+    "695c16f6ba63ad"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11aUtfUWNrbXc0U3NIdWpCaUoxbFAtZ2ltVzRVQXVPSTdhVmZyNk01SEZQYUNXR3JDVnlHeV9ybWdQSHdOUnc4WXgtc29RUmdVeEpHSkFnNmhCSUFNT3htWGk2b3ZjNFNndmRZU2o2RUw?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "OpenAI acquires Orchestra Bio to build AI agents for drug discovery",
+   "summary": "OpenAI has acquired Orchestra Bio, a move aimed at strengthening its AI capabilities in drug discovery and putting AI agents to work within the drug discovery process.",
+   "why_it_matters": "The deal extends OpenAI's push from general-purpose models into specialized, high-stakes applications such as pharma R&D. It also signals an acquisition-led path, rather than partnerships alone, for building out domain-specific AI products, deepening its competition with biotech-focused AI players.",
+   "summary_ja": "オープンAIはオーケストラ・バイオを買収した。創薬プロセスにAIエージェントを導入し、創薬分野でのAI活用能力を強化する狙いがある。",
+   "why_it_matters_ja": "この買収は、オープンAIが汎用モデルの提供から、製薬研究開発のような専門性が高く重要度の高い分野への応用へと事業を広げていることを示す。提携だけでなく買収を通じて特定領域向けのAI製品を築く路線を示すものでもあり、バイオテック特化型のAI企業との競合が一段と強まる可能性がある。",
+   "status": "new",
+   "prev": null,
+   "key": "openai-orchestra-bio-acquisition",
+   "ids": [
+    "67ebf077db0be5",
+    "d68e54103b040f"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jQy1WNUc5RFJQSkd3UDNNSUZWbEdIcFFJTkJ3VFZlcldWS2pfZFpxNVA5RnNaSWVMUnktanh4LVNCT280UHJCLW5CWTREeC1SSTh0LWZmNkIxN3FVN1NZSDZRMVhQQy1FZnp4bHhLR0JRU0xl?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DalNva1Brem9JNTZHMncyT3NXTUdZSG9DM1MtdEZwMDFmLTliMGJHeXgtNmZMWG1xMFdqdmVkNEt6c1FEMGRabnZWVHY2NzhVbHpldzVjTGh5RmpjWGtKTXlDd0NVVEU0UEoyWnhhQ1M?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "AI & Semis",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Germany's BaFin fines Nomura Holdings over disclosure lapse in UniCredit's Commerzbank bid",
+   "summary": "Germany's financial regulator BaFin fined Nomura Holdings for violating securities-law notification obligations tied to UniCredit's takeover bid for Commerzbank.",
+   "why_it_matters": "The penalty shows disclosure rules around contested European bank M&A are being enforced strictly. It also marks a reputational point for Nomura as it builds out its advisory and markets business tied to the deal.",
+   "summary_ja": "ドイツの金融監督当局BaFinは、ユニクレディトによるコメルツ銀行への買収提案に関連する証券法上の開示義務違反を理由に、野村ホールディングスに制裁金を科した。",
+   "why_it_matters_ja": "この制裁は、欧州における銀行の攻防戦的なM&Aに関する開示規制が厳格に運用されていることを示す。野村にとっては、この案件に絡むアドバイザリーおよびマーケッツ業務を展開する中での評判面の留意点となる。",
+   "status": "new",
+   "prev": null,
+   "key": "nomura-bafin-fine-unicredit-commerzbank",
+   "ids": [
+    "6a7cc0340be20d",
+    "8f05b4753a0638"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQjkxYVBlQ2pnSE8yZnMwVVl5c3RLdzV5eXVVdm1TTVNZME1POUtuS3YzMFgwS3FUN2lPaHB6cllyS3UzOXNxMS1LYVlOcy0xVlhvc2FLbnVteVRtS2lIMnZqQ0YwZVVnejRyMHU2b1I5bG9oR05RLWgtUUpIQWh4UWVleDlKVHdtWFBPVHNn?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01Rl93M19jOUpxZFdYdkdpVml2QUlZbFNpdTZQXzRqZUNEVTRZWnZYZ2N2NXBjWkZHVU9SU2hwODNXMk1nLWZhRHJydHJycURVa2Z6X2ZKWHNNZlJ6YjJfODFvZm1RSnhzcGRSZnlHd2c5Y2txU2c?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other",
+    "Financials"
+   ]
+  },
+  {
+   "headline": "Temasek invests in EQT's $5.6bn Scaleup Europe Fund",
+   "summary": "Singapore's Temasek has made an investment in EQT-managed Scaleup Europe Fund, which has $5.6bn in committed capital.",
+   "why_it_matters": "The commitment signals continued appetite among Asian sovereign investors for European growth-equity exposure. It also adds to the roster of large global sponsors drawing repeat commitments from Southeast Asian state investors, deepening Temasek's relationship with EQT across its fund platforms.",
+   "summary_ja": "シンガポールのテマセクは、EQTが運用する総額56億ドルのスケールアップ・ヨーロッパ・ファンドに出資した。",
+   "why_it_matters_ja": "この出資は、アジアの政府系ファンドが欧州のグロースエクイティへの投資意欲を持ち続けていることを示す。東南アジアの政府系ファンドから繰り返し出資を集める大手グローバルスポンサーの一角として、テマセクとEQTの複数ファンドにわたる関係を一段と深めるものでもある。",
+   "status": "new",
+   "prev": null,
+   "key": "temasek-eqt-scaleup-europe-fund",
+   "ids": [
+    "124eff91dd2b07"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQU1DNk1XeFlIZGltMDJSTVlKQ1d3ckw2QkJ2SkY4SHVNVHFIbGNaSDNRVEFqU1NQZWFKMkZuUk9KZ0FLdGlXak54SUNwT0s2amFucmZwakpRblBaU1hNUUlaT1lvN2xHYkZ6NjhDSmVfSDB3cXpza3lLZmlqcjEwUU5iRGdHTC1XN3pINDM5VW9ydE9BODNXNFoxS3FCN1BJRDU0?oc=5"
+    }
+   ],
+   "categories": [
+    "PE"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Ferrotec converts Chinese semiconductor-equipment parts maker into a subsidiary",
+   "summary": "Japan's Ferrotec is converting a Chinese manufacturer of aluminium shower heads and other parts for semiconductor manufacturing equipment into a subsidiary, after acquiring shares in the company, which had been an equity-method affiliate.",
+   "why_it_matters": "The move tightens Ferrotec's control over a China-based link in its semiconductor-equipment supply chain. It comes as Japanese toolmakers face pressure to secure supply amid US-China tech tensions, making closer ownership of key suppliers more valuable.",
+   "summary_ja": "日本のフェローテックは、半導体製造装置向けアルミシャワーヘッドなどを製造・販売する中国企業の株式を取得し、これまで持分法適用会社だった同社を子会社化する。",
+   "why_it_matters_ja": "この動きは、フェローテックが半導体製造装置のサプライチェーンにおける中国拠点への管理を強化するものだ。米中の技術摩擦のもとで日本の装置メーカーが供給網の確保を迫られる中、主要な供給元をより直接的に保有する価値が高まっている。",
+   "status": "new",
+   "prev": null,
+   "key": "ferrotec-china-subsidiary",
+   "ids": [
+    "c466a6a09563ed",
+    "d00d6423b5709c"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLXBMT3d2X3RodnJCQVdrUTUyZWZmMGFDR2ZHT0JRVkFGMWFBQkkyS1o3cmhtTHRwLXIwc1FUclFKX0FHVjZQaFpQbFZWNURYNFR1VFNrMVVfWVlvdGtvQVlORGlmbXl3el9yU0dNcmYtc3FURWhyYXNDYmVTS3lDTTFxRHZMdU3SAYcBQVVfeXFMTS1wTE93dl90aHZyQkFXa1E1MmVmZjBhQ0dmR09CUVZBRjFhQUJJMktaN3JobUx0cC1yMHNRVHJRSl9BR1Y2UGhaUGxWVjVEWDRUdVRTazFVX1lZb3Rrb0FZTkRpZm15d3pfclNHTXJmLXNxVEVocmFzQ2JlU0t5Q00xcUR2THVN?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56STMxYURfOXFBRHdBNnpxU2gxV19PSXJVTThSNURUWkNnckhwblRKZ1JrMEtxeUV4OFAtQ0ZrX0pieV9pUWR6dHhBeDhqMnYtOWVaNHhLaVFXd21vemVHQjIyRXg1QVR1eHc?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "HK/CN",
+    "JP"
+   ],
+   "sectors": [
+    "AI & Semis",
+    "Industrials",
+    "Other"
+   ]
+  },
+  {
+   "headline": "Centerbridge, Mubadala in talks to acquire Canaccord Genuity's UK wealth arm",
+   "summary": "Private equity firm Centerbridge and Abu Dhabi's Mubadala are in talks to acquire Canaccord Genuity's UK wealth management division, Bloomberg reported.",
+   "why_it_matters": "A deal would pair a US buyout sponsor with a Gulf sovereign investor in UK wealth management, a sector that keeps drawing capital from both camps as scale becomes more important to compete.",
+   "summary_ja": "プライベートエクイティ企業のセンターブリッジとアブダビのムバダラは、カナコード・ジェニュイティの英国資産運用部門の買収について協議していると、ブルームバーグが報じた。",
+   "why_it_matters_ja": "取引が成立すれば、米国のバイアウトスポンサーと中東の政府系投資家が英国の資産運用事業で手を組む形となる。規模の確保が競争力を左右する中、同分野には双方の資金が引き続き流入している。",
+   "status": "new",
+   "prev": null,
+   "key": "centerbridge-mubadala-canaccord-talks",
+   "ids": [
+    "2be3e22fa79a4a"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KQjg4ZktGRlBlOEpHYW12R2pnNktwbzdiNHJpUm0yeUh0YUVIZE5QTHZ2UndqaENfYWE1aTlGaWdvb3BSVExIVERzcjdlSzYxMzhkRm5nTHhWblFGUDN6NXEySFpHX0JhOUZ6bjBJZWdsZTNaSzZISA?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Foundation Credit closes second infrastructure credit fund at $540m",
+   "summary": "Foundation Credit has closed its second infrastructure-focused credit fund at $540m.",
+   "why_it_matters": "The closing adds to a growing pool of capital chasing infrastructure debt strategies. It also underscores how specialist credit managers, rather than banks alone, are increasingly financing long-duration infrastructure assets, as they compete with banks and larger infra funds for financing opportunities.",
+   "summary_ja": "ファウンデーション・クレジットは、インフラ特化型のクレジットファンド第2号を5億4000万ドルで最終クローズした。",
+   "why_it_matters_ja": "このクローズは、インフラ債務戦略に向かう資金がさらに積み上がっていることを示す。銀行だけでなく専門のクレジット運用会社が長期のインフラ資産に融資する動きを強めていることも映し出し、銀行や大型インフラファンドと融資機会を競う構図が浮かび上がる。",
+   "status": "new",
+   "prev": null,
+   "key": "foundation-credit-infra-fund-ii",
+   "ids": [
+    "a70e19b1e9a038"
+   ],
+   "links": [
+    {
+     "source": "Infrastructure Investor",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPc3pHVFhQS29wd3FTRnVKM05DY1FZZUpGX0NIY0lBTElnYUVjUmVzZTNvTXgxREtidnNNdVhicmtmM1VWT1o4dDJsaHN5SEJVd1VoYm1fZzhVYkdPbVpLZmlORXJJeTJpZmdBS3VjOGJBUVY4N1FmMmxoVGk2cFJkSV95MkhpaFlWYmwwWFhHaVFwR3BpZFltUXNzRFk5LWJQeGc?oc=5"
+    }
+   ],
+   "categories": [
+    "Infra"
+   ],
+   "countries": [],
+   "sectors": [
+    "Financials"
+   ]
+  }
+ ]
+}
