@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-21T00:49:16Z",
+ "checked_at": "2026-10-21T04:50:39Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-20",
+   "headline": "UKMTO reports tanker's ‘interaction’ with military forces off Oman, identity undisclosed",
+   "summary": "The UK Maritime Trade Operations agency said a tanker was involved in an incident with military forces about 121 nautical miles east of Duqm, Oman, and that authorities were investigating; it gave no further detail on the vessel's identity or nationality.",
+   "summary_ja": "英国海事貿易活動機関(UKMTO)は、オマーリンのドゥクム東方約121海里の海域で、タンカー1隻が軍事勢力との「接触」事案に遭ったと発表した。當局が調査中であり、船名や船籍など詳細は明らかにしていない。",
+   "source": "Iran International",
+   "url": "https://www.iranintl.com/en/202610203250"
+  },
   {
    "date": "2026-10-20",
    "headline": "IRGC claims naval mines disabled two tankers on US-backed Hormuz route; vessels unidentified, unconfirmed by CENTCOM/UKMTO",
