@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-26T18:17:00Z",
- "checked_at": "2026-10-21T04:50:39Z",
+ "checked_at": "2026-10-21T07:51:40Z",
  "background": [
   {
    "date": "2026-09-24",
@@ -56,6 +56,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-19",
+   "headline": "Ligado tells FCC to weigh Iridium's use of spectrum petitions against rivals before clearing Rocket Lab deal",
+   "summary": "Ligado Networks, a spectrum partner of AST SpaceMobile, filed FCC comments on the Rocket Lab-Iridium license transfer arguing Iridium has used procedural petitions to obstruct competing satellite services, citing SpaceX's earlier filing that Iridium lodged more than 50 petitions to deny over an eight-month period; SpaceX has said it does not oppose the transaction itself.",
+   "summary_ja": "AST SpaceMobileの周波数提携先であるLigado Networksは、ロケットラボによるイリジウム買収の免許移転審査についてFCCにコメントを提出した。イリジウムが競合する衛星サービスを妨げる目的で手続き上の申立てを利用してきたと主張し、SpaceXが以前の申請で指摘した「8か月間で50件超の拒否申立て」を引用した。なお、SpaceX自身は買収そのものには反対していないとしている。",
+   "source": "TradingView (Stocktwits)",
+   "url": "https://www.tradingview.com/news/stocktwits:a51d2b9dd094b:0-rklb-stock-suffers-worst-week-ever-ast-spacemobile-partner-challenges-iridium-deal-claims-rival-uses-fcc-to-block-competitors/"
+  },
   {
    "date": "2026-10-14",
    "headline": "Rocket Lab delays Neutron rocket's debut launch from Q4 2026 to 2027 over carbon-composite structural concerns",
