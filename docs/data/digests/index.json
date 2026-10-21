@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-10-21-1530",
+   "label": "21 Oct 2026 · 15:30 SGT",
+   "generated_at": "2026-10-21T07:37:05Z",
+   "items": 5,
+   "headlines": [
+    "Fortrea completes acquisition of early-stage clinical services unit from Worldwide Clinical Trials",
+    "DayOne weighs delaying or shrinking US IPO after data-centre stock rout",
+    "OrbiMed secures over $1bn for sixth Asia healthcare fund"
+   ]
+  },
+  {
    "id": "2026-10-21-1230",
    "label": "21 Oct 2026 · 12:30 SGT",
    "generated_at": "2026-10-21T04:39:31Z",

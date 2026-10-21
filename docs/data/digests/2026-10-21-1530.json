@@ -1,0 +1,96 @@
+{
+  "edition": "2026-10-21-1530",
+  "edition_label": "21 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T07:37:05Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Fortrea completes acquisition of early-stage clinical services unit from Worldwide Clinical Trials",
+      "summary": "Fortrea has completed its acquisition of the early-stage services division of Worldwide Clinical Trials, according to Jiji Press. Financial terms were not disclosed.",
+      "why_it_matters": "The deal adds early-phase trial capacity to Fortrea's contract-research business as CROs keep consolidating to compete for large pharma and biotech trial budgets.",
+      "summary_ja": "フォートリアは、ワールドワイド・クリニカル・トライアルズの早期段階サービス部門の買収を完了したと時事通信が報じた。財務条件は開示されていない。",
+      "why_it_matters_ja": "本件によりフォートリアの受託臨床試験事業に早期段階の試験対応力が加わる。大手製薬・バイオ企業の試験予算を奪い合うCRO業界の統合がさらに進んだ形だ。",
+      "status": "new",
+      "prev": null,
+      "key": "fortrea-worldwide-clinical-trials-acquisition",
+      "ids": ["fc0a8054be194b", "6ce98a3b0cbebd", "b597183a3d00e4"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxRGY0UGxjMjk3Z09kaE5NZklwazBYaW9EY3h6bjcyWHpSb0V2a2pFODRzcVNBUks5czFfUDVxWmVWWWo5UndYZm1LVXBfTHVTRkZzSQ?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSUo5aHhPbW1aemtWbGV5X2tkSUhuWWpHeS1VNWFlQVhNOVZLUVVYQ3lDZnd4VG55clUxNXFCdzJESV9mbjNxTGVrcHJySGRSaThpb0x6TGxBOFZseGNRVTN0ZDZ0VWd1Y1ZyajVMRTdaSjYxSnJDeV9RUDBJYnZVS1BjQ2lfNXc?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxOeXRDSndTQ2V0YUY2dnVIeDE0M3h6dm5TbjZqblk3UXhodklPREZtZ1VydVlObTlnNEUyMkhEUmRnOXFlTXB1cGlwYWxrUXZ6ZVQwMEt5cmZ4QkpaZTBHcjNKeE9McFo0b0VwQUg3eEM3VS1wUE5uUmphTUVSRFB6dHhfdkd1S1dGQlZSanhMMTlDR1FxX2JiR1BCTm93UkJBNG1fTWU4ckUyZVIzUktkTzZaZ09SaHdlNnlmZ2JmSmY0ZDZINzVDcTRYb0EwNEljamhUQUhodlRld0VYZm9kaXh4YmlWS2R5Zl9Ta0ZicGIyUU1fN1pKb2Z6VTRYYVd4T1pHVnRkTjZ2MThXWVh3Uk4xQWkxTW1VSjBzaWZ1eS11NnhkXzZXRWRDa2xiSVhfTWp1TVVTZV83aXMtcHNxMVZwLXFWNWNqLU54VWFPeFJfZDlDWFhSQWtZZ3NURGRDajFJb2NZb1dQa1NmcDhxd0V3ZE5fdzZOeHlSNF9qZUpfdlRDMk9GQkRxYnZVTjlTWDdVNlBvaVFGazdNVFRTU05EZmlwNEkyR3dUSGdtcm5PbDNobWtfY3g4MmRiU2VwbWRKenVlSi1SaEZCNWJBaUxzZTNpb0FDZnpoMWN5Yy1KdHdsLWVNak9VWmZZOTFLYU5HRUFsdVdiRXRXelZYdzh5OEE1OENwZlFKS180RzRQV3ZBQTRyNFA0WHpWVEIweFFucVhmOHRadVpUT0M0N1g0QlQzbTUySEdXNjJ3RTRsZEdiZGh6a2pkNlZKRmFkNzB3ZGsyMUVQT0pwWWFESWdfLThGRDVOendyRlhUWHFER2oxTWgwRw?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other", "TMT"]
+    },
+    {
+      "headline": "DayOne weighs delaying or shrinking US IPO after data-centre stock rout",
+      "summary": "DayOne is weighing options including delaying or cutting the size of its US initial public offering following a selloff in data-centre stocks, the Business Times reported. The company has not made a final decision and may still move ahead with the offering in the coming weeks.",
+      "why_it_matters": "A pullback from a company that had been eyeing a multibillion-dollar US listing would add to signs that the AI data-centre financing boom is cooling, a dynamic infrastructure investors have been watching closely as AI-debt concerns spread across the sector.",
+      "summary_ja": "データセンター企業デイワンは、データセンター関連株の急落を受けて、米国での新規株式公開(IPO)の延期や規模縮小を含む選択肢を検討していると、ビジネス・タイムズが報じた。最終決定はしておらず、数週間以内に公開を進める可能性も残るという。",
+      "why_it_matters_ja": "数十億ドル規模の米国上場を目指していた企業がここで慎重姿勢に転じたことは、AIデータセンター向け資金調達ブームが冷え込みつつある兆候の一つとなる。AI関連の債務懸念が業界全体に広がる中、インフラ投資家が注視してきた動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "dayone-ipo-delay-size-cut",
+      "ids": ["6ef8382cf11d01"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/dayone-said-weigh-options-including-delay-size-cut-us-ipo-after-data-centre-rout"}
+      ],
+      "categories": ["Infra"],
+      "countries": ["US"],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "OrbiMed secures over $1bn for sixth Asia healthcare fund",
+      "summary": "OrbiMed has secured more than $1 billion in commitments for its sixth Asia-focused healthcare fund, DealStreetAsia reported.",
+      "why_it_matters": "The raise signals continued institutional appetite for Asia healthcare investing even as broader regional PE fundraising has slowed, giving OrbiMed fresh capital to deploy into the sector's growth and buyout opportunities.",
+      "summary_ja": "OrbiMedは、アジア特化の第6号ヘルスケアファンドで10億ドルを超える出資確約を確保したとディールストリートアジアが報じた。",
+      "why_it_matters_ja": "地域全体のPEファンド組成が減速する中でも、アジアのヘルスケア投資への機関投資家の需要が続いていることを示す。OrbiMedは同分野の成長案件やバイアウトに投じる新たな資金を手にした。",
+      "status": "new",
+      "prev": null,
+      "key": "orbimed-asia-healthcare-fund-vi",
+      "ids": ["58ce272c91eb87"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ0Y1YlB4UkpVNGphcGpONi1PdHN6STIxTG9yNHE0a0VBVmtONVZxZEtSMV93TGlvTGRONVJKRnZzM2hNcFlMR2h1TDhxVFNjZnJ5ckhsTEJYYm9uUG5OZnVPbkNXZHZVbjZvSFBmeExyTU13d1R0Ri1NWDVLRW1Mc2k2cmxPaldNWEE?oc=5"}
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": ["Healthcare"]
+    },
+    {
+      "headline": "SK Hynix shares surge as activist fund discloses 1.5% stake",
+      "summary": "An activist fund disclosed a 1.5% stake in South Korea's SK Hynix, and the chipmaker's shares surged sharply on the news, Japan PE & activists sources reported.",
+      "why_it_matters": "Activist interest in one of the world's largest memory-chip makers comes as SK Hynix sits at the centre of the AI memory-chip supply chain, raising the stakes for how the company balances shareholder returns against capacity spending.",
+      "summary_ja": "韓国SKハイニックスの株式を1.5%保有したとアクティビストファンドが発表し、同社株は急伸したと「Japan PE & activists」が報じた。",
+      "why_it_matters_ja": "世界最大級のメモリー半導体メーカーに対するアクティビストの関与は、SKハイニックスがAI向けメモリーのサプライチェーンの中核を担う局面で表面化したものであり、株主還元と設備投資への資金配分の判断が一段と注目される。",
+      "status": "new",
+      "prev": null,
+      "key": "sk-hynix-activist-stake",
+      "ids": ["32a7db9a4e7c0c"],
+      "links": [
+        {"source": "Japan PE & activists", "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rSllRcHBRclByVzlCWlAwa0YwU3Z0VGtyRzhCVFVhcWRnNmtnbWNHbDJNRWo5UndsbTZKOWJGR3ZxZG9iQ1hObjJoSHc1cVpCQlE?oc=5"}
+      ],
+      "categories": ["PE"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Temasek denies pressuring MSCI over Indonesia downgrade proposal",
+      "summary": "Temasek has denied claims that it pressured index provider MSCI into proposing a downgrade of Indonesia to standalone-market status, calling the allegation \"patently untrue,\" DealStreetAsia reported.",
+      "why_it_matters": "The denial pushes back on a narrative that a major regional sovereign investor shaped the controversial reclassification, a question that matters to index-tracking funds and other investors assessing their Indonesia exposure.",
+      "summary_ja": "テマセクは、MSCIによるインドネシアのスタンドアロン市場への格下げ提案を自ら働きかけたとの指摘を否定し、「全く事実と異なる」と主張したとディールストリートアジアが報じた。",
+      "why_it_matters_ja": "域内最大級のソブリン投資家が問題となっている格下げ提案に影響を与えたとの見方に対する反論であり、インドネシア投資のエクスポージャーを見極める指数追随型ファンドや他の投資家にとって重要な論点となる。",
+      "status": "update",
+      "prev": {"edition": "2026-10-16-1230", "index": 0},
+      "key": "msci-indonesia-standalone-downgrade",
+      "ids": ["45ca5cbf5f74fe"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FUmt5SzEwUXVrR0ltbWx0djZkRWhPamdJN05ZVnBqY0I4anJyQjU4dXdBQzNnQVItRHkwalV3S2dtaWw3QXdPVUJ0N2x4VDd3cFZPYllFTzZPSzhJSktpTzNUMV9XeWRWcHdWYXVjTUF1dw?oc=5"}
+      ],
+      "categories": ["PE", "Credit"],
+      "countries": ["SEA", "SG"],
+      "sectors": ["Other"]
+    }
+  ]
+}
