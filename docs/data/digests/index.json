@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-10-22-0830",
+   "label": "22 Oct 2026 · 08:30 SGT",
+   "generated_at": "2026-10-22T00:38:33Z",
+   "items": 10,
+   "headlines": [
+    "Cencora agrees to acquire American Oncology Network for $2.4bn",
+    "Taiwan blocks Grab's $600m foodpanda Taiwan acquisition for a second time",
+    "Labcorp-OPKO BioReference asset sale priced at $722m or more"
+   ]
+  },
+  {
    "id": "2026-10-21-1530",
    "label": "21 Oct 2026 · 15:30 SGT",
    "generated_at": "2026-10-21T07:37:05Z",

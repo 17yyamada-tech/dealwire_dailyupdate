@@ -1,0 +1,304 @@
+{
+  "edition": "2026-10-22-0830",
+  "edition_label": "22 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T00:38:33Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "Cencora agrees to acquire American Oncology Network for $2.4bn",
+      "summary": "Cencora has agreed to acquire American Oncology Network in a deal valued at $2.4 billion, according to Japan M&A.",
+      "why_it_matters": "The deal adds scale in community oncology distribution and services for Cencora, a sector where drug distributors have been racing to deepen ties with specialty-care networks as margins pressure the core wholesale business.",
+      "summary_ja": "センコラは、アメリカン・オンコロジー・ネットワークを24億ドルで買収することに合意したと日本M&Aが報じた。",
+      "why_it_matters_ja": "本件によりセンコラは地域がん治療ネットワークの流通・サービス領域での規模を拡大する。医薬品卸売の本業の利幅が圧迫される中、専門医療ネットワークとの関係強化を競う業界の流れを映す動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "cencora-american-oncology-network",
+      "ids": [
+        "f013fb38dc92d9"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Jd3lXaG1jSmxDbHdZMDdXT1RxV0NzdllNakl5TkRyb3lEREhLeFVTaGFGMFJHQ2hwTE1JWE04dVNldFN5dWd0dXBReml1Yk9NcDZlM2tEVXd2OEJmLXNuNW5icGh6aEYtYkk2dGNYYlRkVkpCVkVUTg?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Taiwan blocks Grab's $600m foodpanda Taiwan acquisition for a second time",
+      "summary": "Taiwan's competition watchdog has again quashed Grab's agreement, struck in March, to pay US$600 million in cash for foodpanda's Taiwan delivery business. Regulators cited concerns that Uber's equity stake in Grab could let the deal consolidate control and weaken competition in the market.",
+      "why_it_matters": "A repeat rejection signals Taipei's tougher antitrust stance toward platform consolidation tied to cross-shareholdings, a precedent Grab and other regional super-apps will need to navigate in future deals.",
+      "summary_ja": "台湾の公正取引委員会は、グラブが3月に合意した台湾のフードパンダ配送事業をめぐる6億ドルの現金買収案を再び認めなかった。ウーバーがグラブに出資している点を踏まえ、本件が市場での支配の集中と競争の弱体化につながる恐れがあると当局は指摘した。",
+      "why_it_matters_ja": "二度目の否認は、資本関係を伴うプラットフォーム統合に対する台湾当局の姿勢が一段と厳しくなっていることを示す。グラブをはじめ東南アジアのスーパーアプリ各社は、今後の買収案件でこの前例を踏まえる必要がある。",
+      "status": "new",
+      "prev": null,
+      "key": "grab-foodpanda-taiwan-blocked",
+      "ids": [
+        "06526f0211a970",
+        "1f1f4ac880d057"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/taiwans-competition-watchdog-quashes-grabs-acquisition-foodpanda-taiwan"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HT3czNE5JVHkyd0NlOEYzd1ZtcjhBMWgyZlFEaEVFYkRudk5lUi1wbnpmTWdfakV3bUFJd0lMMFBYRlQydzNQNFpnbEg2TkZoRTBha3BVQl9hUVFJZ1BvaGFkMmNiVW9oZTRUdGduOGdDTWVE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Labcorp-OPKO BioReference asset sale priced at $722m or more",
+      "summary": "OPKO Health has disclosed that its agreement to sell select assets of subsidiary BioReference Health to Labcorp is valued at more than $722 million, according to a Greenberg Traurig release on its advisory role for OPKO. The price was not disclosed when the deal was first announced earlier this month.",
+      "why_it_matters": "The disclosed price confirms the scale of Labcorp's bolt-on push into specialty lab testing and gives dealmakers a benchmark for value creation in the fragmented US diagnostics sector.",
+      "summary_ja": "オプコ・ヘルスは、子会社BioReference Healthの一部資産をラボコープに売却する契約の価格が7.22億ドル超であることを明らかにした。これはグリーンバーグ・トラウリグがオプコの助言を務めたことを発表した資料による。今月の契約発表時点では価格は非開示だった。",
+      "why_it_matters_ja": "価格の開示により、ラボコープが専門検査分野へのボルトオン型進出をどの規模で進めているかが裏付けられた。分散が進む米臨床検査市場で、M&A関係者にとって価値算定の目安となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-16-0830",
+        "index": 5
+      },
+      "key": "labcorp-opko-bioreference-acquisition",
+      "ids": [
+        "679082125bf86c"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-advises-opko-health-on-722m-agreement-to-sell-select-bioreference-health-assets-to-labcorp-302915762.html"
+        }
+      ]
+    },
+    {
+      "headline": "CIMB weighs ~$196m buyout to take Indonesia's CIMB Niaga private",
+      "summary": "Malaysia's CIMB is exploring a buyout estimated at US$196 million to take its Indonesian unit, CIMB Niaga, private, the Business Times reported. Tight free-float rules in Indonesia are among the factors pushing the bank toward the move amid broader market volatility.",
+      "why_it_matters": "A go-private move by a regional banking group underscores how Indonesia's tightening float requirements are reshaping ownership structures for listed financial institutions, a dynamic other foreign-owned Indonesian units may also face.",
+      "summary_ja": "マレーシアのCIMBは、インドネシア子会社CIMBニアガを非公開化するため、約1.96億ドル規模の買収を検討しているとビジネス・タイムズが報じた。インドネシアの浮動株比率規制の厳格化が、市場の不安定さと並んで同行をこの判断に向かわせる要因の一つとなっている。",
+      "why_it_matters_ja": "地域銀行グループによる非公開化の動きは、インドネシアの浮動株規制強化が上場金融機関の株主構成を変えつつあることを浮き彫りにする。同国に上場する他の外資系金融子会社にも同様の圧力が及ぶ可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "cimb-niaga-go-private",
+      "ids": [
+        "fc81e4e5aec15c",
+        "48f06c78fcfb49"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Public / Macro",
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zRXh3WmQ5SUFZUnJidkhUd25vRUpTT2J1YnBmTndHRXp5MThxMHJKVlV1ZDF1WUk2MWJqQ3BHVmZqUldlOG5EQzRNWjNKZlFEZ1Q4TkYtbUpyNkNWbkZ5QXl3eG1wMzR6SHlpVnFrN0VSbENG?oc=5"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/malaysias-cimb-explores-taking-indonesian-arm-private-amid-market-volatility"
+        }
+      ]
+    },
+    {
+      "headline": "Bridgepoint and Bain Capital both bid for UK asset manager W1M",
+      "summary": "Bridgepoint and Bain Capital have each submitted bids to acquire UK asset manager W1M, according to Japan PE & activists.",
+      "why_it_matters": "Two large buyout firms competing for the same asset manager points to intensifying sponsor appetite for wealth and asset-management platforms, where recurring fee income is prized amid uneven dealmaking elsewhere.",
+      "summary_ja": "ブリッジポイントとベインキャピタルは、英国の資産運用会社W1Mの買収に向けてそれぞれ入札したと「Japan PE & activists」が報じた。",
+      "why_it_matters_ja": "大手バイアウト2社が同一の資産運用会社を争う構図は、他の分野で案件が伸び悩む中でも、安定した手数料収入が見込める資産運用プラットフォームへのスポンサーの関心が強まっていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "bridgepoint-bain-w1m-bid",
+      "ids": [
+        "9333b92bddf0bf"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5zQW01M2ZoVW0tLU1pREdOMGRLd01fYjdLSWFveUhzSUdVdFpSSFYtN2huUTZlcTBNekY3Y0RIUXpWTmZLd1cyUjJBY0wyZVNIbDQzbnJZMmZqNnNSOUQxSnJtMDdKeEdybDAtamF1ZkRPaV9RVjA4?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "INTEGRIS Health signs definitive agreement to join Risant Health",
+      "summary": "INTEGRIS Health and Risant Health have signed a definitive agreement for INTEGRIS Health to become part of Risant Health, according to a company announcement. The companies describe the move as aimed at expanding access to value-based care in Oklahoma.",
+      "why_it_matters": "The tie-up extends the trend of US regional health systems joining larger value-based-care platforms, a structure increasingly used to share risk and scale across state lines.",
+      "summary_ja": "INTEGRISヘルスとリザントヘルスは、INTEGRISヘルスがリザントヘルスの傘下に入ることで最終契約を締結したと両社の発表が明らかにした。両社は、オクラホマ州における価値基準型医療（バリューベースケア）へのアクセス拡大を狙いとしていると説明している。",
+      "why_it_matters_ja": "この統合は、米国の地域医療システムがより大規模なバリューベースケア基盤に参加する流れを一段と進めるものだ。州境を越えてリスクを分散し規模を確保する手法として、こうした枠組みの活用が広がっている。",
+      "status": "new",
+      "prev": null,
+      "key": "integris-risant-health",
+      "ids": [
+        "2ebd0b710c87ad"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/integris-health-to-become-part-of-risant-health-302915273.html"
+        }
+      ]
+    },
+    {
+      "headline": "SANKYO takes full control of pachinko maker A-gon via 100% stake buy",
+      "summary": "Pachinko-machine maker SANKYO (ticker 6417) has acquired 100% of A-gon, a gaming-machine planning and manufacturing company, making it a wholly owned subsidiary. SANKYO plans to operate A-gon as a new brand within the group to strengthen its brand lineup and group foundation.",
+      "why_it_matters": "The bolt-on deal lets SANKYO broaden its gaming-machine product range through an in-house brand strategy, as Japan's pachinko-machine makers consolidate to diversify their model lineups.",
+      "summary_ja": "パチンコ機メーカーのSANKYO（証券コード6417）は、遊技機の企画・製造を手がけるA-gonの株式を100%取得し、完全子会社化した。SANKYOはA-gonをグループ内の新ブランドとして展開し、ブランド力とグループ基盤の強化を図る。",
+      "why_it_matters_ja": "このボルトオン型買収により、SANKYOは社内ブランド戦略を通じて遊技機のラインアップを広げることになる。日本の遊技機メーカーが機種構成の多様化を狙って統合を進める動きの一つだ。",
+      "status": "new",
+      "prev": null,
+      "key": "sankyo-agon-subsidiary",
+      "ids": [
+        "20cc52950c15d3",
+        "8c9757b29ce9e4",
+        "d0eef07abb7457"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Industrials",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdE5Ha192VlAxbkJESEowc3N0QW1OamFIWmgzTF9SbGRHakktRE5DVnFwWTFPYUVzcjZzYUUxTlpPZGpjR09JTm9BbXVrZnNKSnBEa1doUXc3YjFDY0tlbXlhMjQ2NFZDNDdqdHp1VzNRTWV2b0NOZHZfNGF2ZENTelJnLU9lZEpZRW9SYjctWEttdm5p0gGHAUFVX3lxTFBubUFuZktVaTJzQWxXaGRHSlhIOFMtaXFwSTg0cmhVODV0WEVfTVlNT1FEWUs4cHRHWmFYcjhDZTZxV19sT0YtUUJ0R3ZjMEV5NEdtbWlqaHJESDZGOG4tRTJ3aXM1MnUxX0tQU09QZThmZWdoeXh5VnNGR05CQTlJV2VLRjJBUQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM21FcGNkc0dFb0JGTUlhQlFiVWM3NjVHUmVRcDFOMUVLV21vcjNhbWRHdVNKOV8yM2hvSC1FY0lYSXFVOU5JYV9HYnZGYTlQRUp0c0I3bDA2SkJHYUczdDRETWJ3QkN0M2NiTDBYTmtjd3hfYTV4Nm9UR3g2S0lILU8zTFNSZWlLM3pjdVdNYlE3eHJ2MWEtQ2tkejFPUjBuejI0NXBjUEEzSkJ6YWJHLU5B?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tZDNvYTg4VTZOeFhpMkZMZ3ZXSVhZV2tBVzVjM29LN2pjY2tlMFE5Q1lkeGFoc3BkYUxlTml4d1QzSndvS2dRTnJCSHVpMTlGM3ZvV0Z0ODhUUDdkTGZ4UQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "TBS Energi secures $434m from BlackRock's HPS for waste-management expansion",
+      "summary": "Indonesia's TBS Energi has secured $434 million in financing from BlackRock's HPS to expand its waste-management business, DealStreetAsia reported.",
+      "why_it_matters": "The financing shows private credit lenders continuing to back environmental-services expansion in Southeast Asia even as broader infrastructure financing comes under closer scrutiny.",
+      "summary_ja": "インドネシアのTBSエネルギは、廃棄物処理事業の拡大に向けてブラックロック傘下HPSから4.34億ドルの資金を確保したとディールストリートアジアが報じた。",
+      "why_it_matters_ja": "インフラ関連の資金調達全般への目が厳しくなる中でも、プライベートクレジット勢が東南アジアの環境関連事業拡大を支え続けていることを示す一件だ。",
+      "status": "new",
+      "prev": null,
+      "key": "tbs-energi-blackrock-hps",
+      "ids": [
+        "70550990aadf94"
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbURDWlJySEwteHMxSmp6Q1hsSV9Hc3U5ZGxFQlBaZkotajhFQTBSNlcxM2xHTEgyS1p2MFF2Q21JanJVclRaN0w0RTM4Z3Y5S1BwakNQN2FBVmk4Q1kyeWZuNTlkODdndHFXb3hIRDBmbDJ3cFkyNDl0RFg1SjZzMlBLWnFuak1JTDNsRjVqbUI?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bose acquires headphone brand Skullcandy to expand consumer audio line-up",
+      "summary": "Bose Corporation has acquired Skullcandy, expanding its consumer audio portfolio, according to a company announcement. The deal follows an existing partnership between the two companies and advances Bose's shift toward becoming a multi-brand products and technology company.",
+      "why_it_matters": "The acquisition lets Bose add a younger-skewing audio brand to its stable, as legacy consumer-electronics names increasingly pursue M&A to diversify beyond a single brand identity.",
+      "summary_ja": "ボーズ・コーポレーションは、同社の発表によるとスカルキャンディを買収し、コンシューマー向けオーディオ事業の布陣を広げた。両社の既存の協業関係を踏まえた買収で、ボーズが複数ブランドを持つ製品・技術企業へと進化する方針を一歩進めるものだ。",
+      "why_it_matters_ja": "本買収により、ボーズは若年層に強いオーディオブランドを傘下に加えることになる。老舗の家電ブランドが単一ブランド依存から脱却するためM&Aを活用する流れが強まっていることを映す。",
+      "status": "new",
+      "prev": null,
+      "key": "bose-skullcandy-acquisition",
+      "ids": [
+        "491ab780b8b393"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT",
+        "Consumer"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/bose-corporation-acquires-skullcandy-expanding-its-consumer-audio-portfolio-to-reach-new-audiences-302915875.html"
+        }
+      ]
+    },
+    {
+      "headline": "PE fund in talks to invest in Singapore tuition chain HCL Education",
+      "summary": "An unnamed private equity fund is in talks to invest in Singapore tuition chain HCL Education, DealStreetAsia reported.",
+      "why_it_matters": "Continued PE interest in Singapore's tuition sector points to steady investor appetite for education assets with recurring, fee-based revenue even as broader regional fundraising has slowed.",
+      "summary_ja": "名称非公開のPEファンドが、シンガポールの学習塾チェーンHCLエデュケーションへの出資を協議中だとディールストリートアジアが報じた。",
+      "why_it_matters_ja": "シンガポールの学習塾セクターへのPEの関心が続いていることは、地域全体のファンド組成が減速する中でも、継続的な月謝収入を持つ教育資産への投資家の需要が底堅いことを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "hcl-education-pe-talks",
+      "ids": [
+        "4b1f7b53288cb4"
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQVh3a0h1dVR1d3MtcDlSSTVMaVFKRUkyVXkxbThvclZhQzgwUE1VZmRKVERvZ2cyTm9UZklnVTFOM0ZOQVU1eHZSVHZ1bTNFRFVMNXIyY2E5clFhaEJfN0lURGdTNlRjMXQyWm1pWTFMbzNPa1ljeHNqV0h6bnR2dnFGNA?oc=5"
+        }
+      ]
+    }
+  ]
+}
