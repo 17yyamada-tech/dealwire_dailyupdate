@@ -1,0 +1,145 @@
+{
+  "edition": "2026-10-22-1530",
+  "edition_label": "22 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T07:33:00Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "EQT agrees to acquire Qiagen for €9.6bn, confirming earlier buyout talks",
+      "summary": "Swedish investment firm EQT has agreed to acquire molecular diagnostics company Qiagen for €9.6bn, a report said. The agreement converts the buyout talks between the two, first reported last week, into a signed transaction.",
+      "why_it_matters": "A signed deal turns one of the largest prospective sponsor take-privates of a listed company this year into a live transaction, testing financing markets and investor appetite for further sponsor-led take-privates of mid-cap listed companies.",
+      "summary_ja": "スウェーデンの投資会社EQTが、分子診断企業キアゲンを96億ユーロで買収することで合意したと報じられた。先週報じられていた買収交渉が、正式な合意に至った形だ。",
+      "why_it_matters_ja": "合意が成立したことで、今年最大級となり得る上場企業のスポンサー主導の非公開化案件が実際の取引に移行した。資金調達市場と、中型上場企業のさらなる非公開化案件に対する投資家の意欲を試す案件となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-21-0830",
+        "index": 3
+      },
+      "key": "qiagen-eqt-buyout-talks",
+      "ids": [
+        "3f095a94ce3c44"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kZURxdVozU1NjMzRQTW5XSEI2QnFwQnZjRGRyZS16aTVaRVVwMl9SMGpLd2JrRjBmbnpYRXZGQnhET1JoRW5CZWwxOXl1WFZueUtURWZ0akJXWFYzeTJQSGpvYnFuVXR5RDloMUNjekNhcmIzVFBv?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Axel Springer proposes acquiring TikTok's European operations, FT reports",
+      "summary": "German publisher Axel Springer has proposed acquiring TikTok's European operations, the Financial Times reported. The report did not disclose further terms of the proposal.",
+      "why_it_matters": "A bid from a European publisher would be an unusual entrant into TikTok's ownership structure and could reshape how the platform's European business is run and regulated, though the proposal's terms and Axel Springer's rationale are not yet known.",
+      "summary_ja": "独メディア大手アクセル・シュプリンガーがTikTok欧州事業の買収を提案したと、フィナンシャル・タイムズが報じた。提案の具体的な条件は明らかになっていない。",
+      "why_it_matters_ja": "欧州の出版大手による買収提案は、TikTokの株主構成における異例の参入者となる。欧州事業の運営体制や規制対応の在り方を左右し得るが、提案条件やシュプリンガー側の狙いはまだ明らかではない。",
+      "status": "new",
+      "prev": null,
+      "key": "axel-springer-tiktok-europe-bid",
+      "ids": [
+        "c9e59bf37912f1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56Q3owSmo5R3B4bGJlVU5KWnAyZHZmZi1LRThYS293ZEZnbzhqQXBzVDBSelFIb1ZMbkpXNE5RYW9RUXdBbENpRldySXBsZno2MkxkRHRva1FLbjIwVlVKRlNVSDFzRU8tOFFtMEwxS2I?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "China's Midea completes acquisition of Italian diagnostic-imaging maker Esaote",
+      "summary": "Chinese appliance and technology group Midea has completed its acquisition of Esaote, an Italian maker of diagnostic imaging equipment, the companies said. Midea said the deal reaffirms its commitment to healthcare and innovation.",
+      "why_it_matters": "The completed deal extends Midea's push beyond consumer appliances into medical technology and gives the Chinese group a foothold in European diagnostic imaging, a sector where Western incumbents face growing competition from Chinese buyers.",
+      "summary_ja": "中国の家電・技術大手美的集団(Midea)が、イタリアの画像診断機器メーカーEsaoteの買収を完了したと両社が発表した。Mideaはヘルスケアとイノベーションへのコミットメントを改めて強調した。",
+      "why_it_matters_ja": "買収完了により、Mideaは家電事業にとどまらず医療技術分野への展開を広げ、欧州の画像診断分野に足場を得る。同分野では欧米の既存プレーヤーが中国系買い手との競争激化に直面している。",
+      "status": "new",
+      "prev": null,
+      "key": "midea-esaote-acquisition",
+      "ids": [
+        "bb63d98a5d484c"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/midea-completa-la-adquisicion-de-esaote-302915414.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Vinci Compass launches permanent-capital unit with acquisition of AustralRe",
+      "summary": "Alternative asset manager Vinci Compass has launched a new business line, Vinci Permanent Capital Solutions (VPCS), through the acquisition of AustralRe. The company said VPCS is structured separately from its asset-management division, with AustralRe's capital intended to fund the new, balance-sheet-based business.",
+      "why_it_matters": "The move adds Vinci Compass to a group of alternative managers building permanent-capital vehicles funded by insurance or reinsurance balance sheets, a structure that reduces reliance on fundraising cycles for new capital.",
+      "summary_ja": "オルタナティブ資産運用会社のVinci CompassがAustralReを買収し、新事業ラインVinci Permanent Capital Solutions(VPCS)を立ち上げた。同社によると、VPCSは資産運用部門とは別建てで、AustralReの資本を元にバランスシート型の新事業を運営する。",
+      "why_it_matters_ja": "この動きにより、Vinci Compassは保険・再保険のバランスシートを活用して永続資本型ビークルを構築するオルタナティブ運用会社の一角に加わる。こうした仕組みは新規資金調達サイクルへの依存を減らす狙いがある。",
+      "status": "new",
+      "prev": null,
+      "key": "vinci-compass-australre-acquisition",
+      "ids": [
+        "3670c2f893b35d"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/vinci-compass-announces-the-launch-of-vinci-permanent-capital-solutions-with-the-acquisition-of-australre-302915949.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Mérieux NutriSciences completes acquisition of Certified Group, becomes North America's leading food-testing provider",
+      "summary": "Mérieux NutriSciences has completed its acquisition of Certified Group, first announced in August, the company said. The combined business is now North America's leading food-testing provider, according to Mérieux.",
+      "why_it_matters": "The completion caps a consolidation move in food-safety testing, a fragmented sector where scale increasingly matters as retailers and food companies push suppliers toward larger, more standardised testing networks.",
+      "summary_ja": "Mérieux NutriSciencesは、8月に発表していたCertified Groupの買収を完了したと発表した。同社によれば、この統合により北米最大の食品検査プロバイダーが誕生した。",
+      "why_it_matters_ja": "買収完了は、食品安全検査分野における統合の動きを象徴する。この分野は分散度が高く、小売業者や食品会社がサプライヤーに対しより大規模で標準化された検査網を求める傾向が強まる中、規模の重要性が増している。",
+      "status": "new",
+      "prev": null,
+      "key": "merieux-certified-group-acquisition",
+      "ids": [
+        "ebd5716d715faf"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/merieux-nutrisciences-completes-acquisition-of-certified-group-becoming-north-americas-leading-food-testing-provider-302915607.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Consumer"
+      ]
+    }
+  ]
+}

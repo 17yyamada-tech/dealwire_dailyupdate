@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-10-22-1530",
+   "label": "22 Oct 2026 · 15:30 SGT",
+   "generated_at": "2026-10-22T07:33:00Z",
+   "items": 5,
+   "headlines": [
+    "EQT agrees to acquire Qiagen for €9.6bn, confirming earlier buyout talks",
+    "Axel Springer proposes acquiring TikTok's European operations, FT reports",
+    "China's Midea completes acquisition of Italian diagnostic-imaging maker Esaote"
+   ]
+  },
+  {
    "id": "2026-10-22-1230",
    "label": "22 Oct 2026 · 12:30 SGT",
    "generated_at": "2026-10-22T04:35:00Z",
