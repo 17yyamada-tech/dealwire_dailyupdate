@@ -1,0 +1,295 @@
+{
+  "edition": "2026-10-22-1230",
+  "edition_label": "22 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T04:35:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "CIMB denies plan to take Indonesia's CIMB Niaga private",
+      "summary": "CIMB has categorically denied that it plans to privatise its Indonesian unit, CIMB Niaga, the Business Times reported. The bank said Niaga remains an integral part of its regional footprint, after earlier reports this week that it was exploring a roughly $196 million buyout to take the unit private.",
+      "why_it_matters": "The denial reverses the go-private narrative from earlier this week and leaves open how CIMB addresses Indonesia's tightening free-float rules for its listed subsidiary.",
+      "summary_ja": "CIMBは、インドネシア子会社CIMBニアガを非公開化する計画を否定したとビジネス・タイムズが報じた。同行はニアガが地域事業網の不可欠な一部であり続けると説明した。今週報じられていた約1.96億ドル規模の非公開化買収の検討に関する観測を打ち消す内容だ。",
+      "why_it_matters_ja": "この否定表明により、今週浮上していた非公開化観測は一転した。インドネシアの浮動株規制強化に上場子会社としてどう対応するかという課題は、依然としてCIMBに残されている。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-22-0830",
+        "index": 3
+      },
+      "key": "cimb-niaga-go-private",
+      "ids": [
+        "358c5f1d305dca"
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/cimb-categorically-denies-it-will-privatise-indonesian-unit-niaga"
+        }
+      ]
+    },
+    {
+      "headline": "DeepSeek raises $15bn in challenge to leading US AI labs",
+      "summary": "Chinese AI developer DeepSeek has raised US$15 billion, the Business Times and CNA Business reported, citing Bloomberg News. The round narrows a financial-resource gap that has long favoured leading US frontier AI labs.",
+      "why_it_matters": "A raise of this size puts DeepSeek's capital base closer to that of top US AI labs, sharpening the US-China contest over model training and compute spending.",
+      "summary_ja": "中国のAI企業DeepSeekが150億ドルを調達したと、ビジネス・タイムズおよびCNAビジネスがブルームバーグ・ニュースを引用して報じた。この資金調達により、米国の最先端AI研究所が長らく持っていた資金力の優位は縮小しつつある。",
+      "why_it_matters_ja": "この規模の調達により、DeepSeekの資金基盤は米トップAI研究所に近づいた。モデル訓練や計算資源への投資をめぐる米中の競争は一段と激しくなる。",
+      "status": "new",
+      "prev": null,
+      "key": "deepseek-15bn-raise",
+      "ids": [
+        "b1f42ef2613dfd",
+        "27033d07808983"
+      ],
+      "categories": [],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/deepseek-raises-us15-billion-challenge-leading-us-labs"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/deepseek-raises-15-billion-in-challenge-leading-us-labs-bloomberg-news-reports-6481206"
+        }
+      ]
+    },
+    {
+      "headline": "Legendary makes buyout proposal for Lionsgate Studios",
+      "summary": "Legendary Entertainment, the studio behind Godzilla, has made a buyout proposal for Lionsgate Studios, owner of the John Wick franchise, Japan M&A reported. Lionsgate shares had already risen this week on acquisition speculation, with StoneX flagging the takeover chatter in its analysis.",
+      "why_it_matters": "A formal approach from Legendary would be one of the biggest shifts in US studio ownership this year, as mid-sized Hollywood players seek scale to compete with larger media groups.",
+      "summary_ja": "「ゴジラ」シリーズを手がけるレジェンダリー・エンターテインメントが、「ジョン・ウィック」シリーズを持つライオンズゲート・スタジオに買収提案を行ったと日本M&Aが報じた。ライオンズゲート株は今週すでに買収観測で上昇しており、StoneXもこの買収観測を分析で取り上げていた。",
+      "why_it_matters_ja": "レジェンダリーによる正式な買収提案が実現すれば、今年の米スタジオ業界で最大級の資本再編となる。中規模のハリウッド企業が大手メディア各社との競争で規模を確保しようとする動きの一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "legendary-lionsgate-buyout-proposal",
+      "ids": [
+        "40284e66038b8d",
+        "d5147dc4b56667"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5oQjdxTV81YTJSYjFWUFBXRTdzRGZHQWhSX2wzUXFDQlZGcks2dWstUXVxZU44UWpITGVRcm5EbFlYSGhSWWNFV3N3?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jN1NNX3VBTjN2VW8tOXA0VzRoM21TMEQ5QldILVFfYWJ3YkZwVmxjSjBncnBGTVJnYUliX2I2d3lER3p2YzdTVnhYWXNZdjRwMHJVYmV4Uml0cHpxUFpqbFA3eGIzc0NuaFBWMXN5Zm1feHVT?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Pantheon raises $6bn for global private equity secondaries fund",
+      "summary": "Pantheon has raised $6 billion for a global private equity secondaries fund, DealStreetAsia reported.",
+      "why_it_matters": "The fund's size shows continued investor demand for secondaries vehicles, which give LPs liquidity and buyers diversified PE exposure without committing to new primary funds.",
+      "summary_ja": "パンテオンは、グローバル・プライベートエクイティ・セカンダリーファンドのために60億ドルを調達したとディールストリートアジアが報じた。",
+      "why_it_matters_ja": "このファンド規模は、セカンダリー投資ビークルへの投資家需要が続いていることを示す。LPには流動性を、買い手には新規のプライマリーファンドへのコミットなしに分散されたPE投資へのアクセスを提供する手法だ。",
+      "status": "new",
+      "prev": null,
+      "key": "pantheon-6bn-secondaries-fund",
+      "ids": [
+        "0f79c93715f70e"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLTJWdlNkTFpDaGxfSUg0cWNqYm9iSnpLNVBvdzVVY1F5WVdqWHpJcXh2cjdlQWdwbEJjS2lmcTl3ci1RSG9YTUxwTS1Jb202Vktrb0sxZlBZMmdZREZhLWdRZmNsRE1NNDVrT2dZY0htV1RseGdzY1d3eDlIem9UMUJPSVQzY0Rf?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Carro sets up Singapore's first auto-loan ABS with S$450m facility",
+      "summary": "Carro has set up Singapore's first asset-backed securitisation backed by car loans, with a S$450 million (US$352 million) facility, according to the Business Times and DealStreetAsia. The company said the facility diversifies its funding sources and supports regional expansion.",
+      "why_it_matters": "The structure gives Southeast Asia's auto-finance sector a new securitisation tool to tap credit markets directly, more commonly used in larger, more mature markets.",
+      "summary_ja": "Carroは、自動車ローンを裏付けとするシンガポール初の資産担保証券化を実施し、4.5億シンガポールドル（3.52億米ドル）規模の枠を組成したとビジネス・タイムズおよびディールストリートアジアが報じた。同社はこの枠組みが資金調達手段の多様化と地域展開の資金的な柔軟性確保につながるとしている。",
+      "why_it_matters_ja": "この証券化スキームにより、東南アジアの自動車金融業界はクレジット市場に直接アクセスできる新たな調達手段を手にした。より成熟した大規模市場で一般的な手法が同地域に導入された事例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "carro-singapore-auto-loan-abs",
+      "ids": [
+        "9c72c6999ee0c3",
+        "87e6036a395540"
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMzRtLUdCMzBYQm5aN0JHeDVjNUtCSFY2UzFWNjlRbEhYZDJWLXpSVUJveXRKUUFmZ1FMM2FvRTBJTlhtX3N2RHV4QWc5X2VGMm44RHZZb3FFMEdqOGhIYnJWVlNrODJ6aTRXMlloQ3RmUXVLRTNOLThfYTdNc21lR1VxYTF5Ynl1bERSV1VLeEwxeUtyQ3dfM2U0bVJ2NGFHUlhKRFZIUWZpRWE0eHc?oc=5"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/carro-establishes-s450-million-financing-facility-backed-car-loans"
+        }
+      ]
+    },
+    {
+      "headline": "SBI's tender offer for BASE ends with just 90,000 shares tendered",
+      "summary": "SBI's tender offer for e-commerce platform BASE has ended with only about 90,000 shares tendered, falling short of the stake needed to make BASE an equity-method affiliate, Traders Web reported. BASE shares fell sharply on the news.",
+      "why_it_matters": "The shortfall shows limited shareholder appetite for SBI's approach, leaving BASE's ownership structure unchanged for now and raising questions about SBI's next move.",
+      "summary_ja": "SBIによるBASEの株式に対するTOBが終了し、応募株数は約9万株にとどまり、持分法適用会社化に必要な水準に届かなかったとトレーダーズ・ウェブが報じた。BASE株はこの発表を受けて大幅安となった。",
+      "why_it_matters_ja": "応募が低調だったことは、SBIの提案に対する株主の関心が限られていたことを示す。BASEの株主構成は当面変わらず、SBIが次にどう動くかが問われる。",
+      "status": "new",
+      "prev": null,
+      "key": "sbi-base-tob-shortfall",
+      "ids": [
+        "b4467d435f835a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ2VhejVwQmU2VDFhYzdscEpNYldPRlBxNFNqc3J5VHEyVXRZbmhmT3V4WUdmcmt6c3JYV094SFBZaHlON0VtZldrWFlNcGtLWm1Xbnhpbld0eFNqZjl2eUppVHkzcm9rMDZKc2g3V3ZGLWN2eXFVZWJhemp3UXRfYS1Gd2x6bU0?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Equinix weighs strategic fundraising for its Malaysia business",
+      "summary": "Equinix is weighing a strategic fundraising process for its Malaysia business, DealStreetAsia reported.",
+      "why_it_matters": "A capital raise tied to its Malaysia operations would let Equinix fund data-centre capacity expansion in one of Southeast Asia's fastest-growing digital-infrastructure markets without placing the full cost on its own balance sheet.",
+      "summary_ja": "エクイニクスは、マレーシア事業について戦略的な資金調達を検討しているとディールストリートアジアが報じた。",
+      "why_it_matters_ja": "マレーシア事業に絡む資金調達が実現すれば、エクイニクスは自社のバランスシートに全額を負担させずに、東南アジアで最も成長が速いデジタルインフラ市場でのデータセンター拡張資金を確保できる。",
+      "status": "new",
+      "prev": null,
+      "key": "equinix-malaysia-fundraising",
+      "ids": [
+        "6632c917c100b2"
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1MlBUMnBSb2ZfaDlrWkpFUkZNbExFRkFIZV9pa0ppNXgwZDFoZFVLRnROY2FZbjNKS2p2VTRGNVBuc1U4dFpHNlBudXJHeUN1cnRJN2cyUVdWU2hYRS1WV0ItdUg2MFdvNG5MTG90X091SnVadzRfdHBaNA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitget to acquire GMO's licensed Thai crypto exchange",
+      "summary": "Bitget is set to acquire the Thailand-licensed crypto exchange owned by Japan's GMO, Japan M&A reported.",
+      "why_it_matters": "The deal gives Bitget a regulated entry point into Thailand's crypto market and lets GMO exit a licensed exchange business, as international crypto platforms compete for licensed footholds across Southeast Asia.",
+      "summary_ja": "ビットゲットは、GMO傘下のタイで認可を持つ暗号資産取引所を買収する方針だと日本M&Aが報じた。",
+      "why_it_matters_ja": "本件によりビットゲットはタイの規制下にある暗号資産市場への足場を得る一方、GMOは認可取引所事業から退くことになる。国際的な暗号資産プラットフォームが東南アジアで認可取得を競う流れを映す動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "bitget-gmo-thailand-exchange",
+      "ids": [
+        "f44a86ce2bb5d5",
+        "6609ce5ad34c9a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIUGNldWhhR1pKSUV1b2RkYnRkLXpfMm5lLWtFa2pZQlFsd3VVWXI1MFlRR0dPRVFLWk9rS0pGQ0kyS1VyYmlOeTFVZVhGSnc?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqTXlyRmhrbnVoUzZSQVc3UUh5aE54QmZDdWd1aVpJTVVuNXZRSmpsQm1jR0VyYXAzaWNGNUR2VHdpa0g0cnJocGNua2V0aHJ0WkxUVHhjYlF4QzJnRUZTbFRud0hHMnFZTlRHRlJ2WWVlS3ppRjlhblgzb2hqbzA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "IFC weighs up to $100m investment in Macquarie Asia-Pacific Infra Fund 4",
+      "summary": "The International Finance Corporation is weighing an investment of up to $100 million in Macquarie Asia-Pacific Infra Fund 4, DealStreetAsia reported.",
+      "why_it_matters": "IFC backing would add a development-finance anchor to Macquarie's infrastructure fundraising in Asia-Pacific, supporting continued institutional appetite for the asset class across the region.",
+      "summary_ja": "国際金融公社（IFC）は、マコーリー・アジア太平洋インフラファンド4に最大1億ドルの出資を検討しているとディールストリートアジアが報じた。",
+      "why_it_matters_ja": "IFCの出資が実現すれば、マコーリーのアジア太平洋インフラファンドの組成に開発金融機関としての裏付けが加わる。同資産クラスに対する機関投資家の需要が地域で続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "ifc-macquarie-infra-fund-4",
+      "ids": [
+        "74c98b260bc77f"
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbkwzOTR5MU0xZjA0c1hyOUVxOVVrWGpTclZnMjhOY1h6ekV5aVlESElsaFY0eEoyaW9jdTRsc1lZTUNVdlNJV2ZIeG5sY2hNdGlrbUlFRDVPZUdQd1dqOElTWE1BWnRuOGFTQ3FsSlppeHlnVm11cHptMXVBeFktOWxXcnpoYUpVMUwwUDRR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "World and TSI Holdings merger vehicle to list as two units delist in February 2027",
+      "summary": "World and TSI Holdings' planned business integration will see a new holding company newly listed, with the two existing companies delisting in February 2027, Japan M&A reported.",
+      "why_it_matters": "The listing plan sets a concrete timeline for one of Japan's larger apparel-sector consolidations, formalising the joint holding company's path to the market.",
+      "summary_ja": "ワールドとTSIホールディングスが計画する経営統合では、新たな持株会社が新規上場し、既存の両社は2027年2月に上場廃止となるとM&A専門メディアが報じた。",
+      "why_it_matters_ja": "この上場計画により、日本のアパレル業界で大型案件となる経営統合の具体的なスケジュールが固まった。共同持株会社の市場参入への道筋が明確になったことを意味する。",
+      "status": "new",
+      "prev": null,
+      "key": "world-tsi-holdings-listing",
+      "ids": [
+        "932e5ac341c77c"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xUkV6elpzT1VTbHZ4a3o4RkhBSEJFbmFoczBwY25IaklaTjVWU0w4Y2dBdFlGSGNWbHNRTlVUdUF6d280VWdZaU9kLWpQcnN4YV85MWRqOEg?oc=5"
+        }
+      ]
+    }
+  ]
+}
