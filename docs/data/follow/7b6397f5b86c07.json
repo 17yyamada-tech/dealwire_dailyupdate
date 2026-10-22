@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-21T07:51:40Z",
+ "checked_at": "2026-10-22T00:49:51Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-21",
+   "headline": "Kpler: at least 18 vessel attacks logged over two weeks as strikes spread from Hormuz into Gulf of Oman",
+   "summary": "Maritime risk tracker Kpler recorded at least 18 attacks on vessels in the Strait of Hormuz area over the preceding two weeks, and LSEG analysts said the geographic scope of the attacks had expanded into the Gulf of Oman, Al Arabiya English reported.",
+   "summary_ja": "海事リスク調査会社Kplerは、過去2週間でホルムズ海峡周辺の船舶攻撃が少なくとも18件発生したと集計した。LSEGのアナリストは、攻撃の地理的範囲がオマーン湾にも拡大していると指摘したと、アルアラビーヤ英語版が報じた。",
+   "source": "Al Arabiya English",
+   "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
+  },
+  {
+   "date": "2026-10-21",
+   "headline": "UKMTO: projectile strikes tanker 11 nautical miles west of Oman's Bukha near Strait of Hormuz; fire doused, crew safe",
+   "summary": "The UK Maritime Trade Operations agency said a tanker was struck by an unidentified projectile about 11 nautical miles west of Bukha, Oman, overlooking the Strait of Hormuz; the resulting fire was extinguished, the vessel remained at anchor and all crew were reported safe, with the projectile's origin not identified.",
+   "summary_ja": "英海事貿易活動機関(UKMTO)は、ホルムズ海峡を望むオマーンのブハ西方約11海里の海域で、タンカー1隻が不明の飛来物による攻撃を受けたと発表した。発生した火災は鎮火し、同船は錨泊した状態を維持しており、乗組員全員の安全が確認されている。飛来物の発生源は特定されていない。",
+   "source": "Al Arabiya English",
+   "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
+  },
   {
    "date": "2026-10-20",
    "headline": "UKMTO reports tanker's ‘interaction’ with military forces off Oman, identity undisclosed",
