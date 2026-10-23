@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZDlDUWpwT05LWEFXSGNEc3dZVkhXN3FWUG1UeVQtcVNYRnlic0R1U091Q3pVcWR3OEttZ0xLbTRiNjN6Q0xFU2tva1hZdmNlSkhwNmczVElKc0w5S1NQeXhZRGxoNFZTRk13aXZuUEVHdmNI?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-26T18:20:14Z",
- "checked_at": "2026-10-22T07:49:51Z",
+ "checked_at": "2026-10-23T00:53:02Z",
  "background": [
   {
    "date": "2026-09-22",
@@ -71,5 +71,14 @@
    "url": "https://www.cnbc.com/2026/02/03/paypal-pypl-earnings-q4-2025.html"
   }
  ],
- "since": []
+ "since": [
+  {
+   "date": "2026-10-20",
+   "headline": "PayPal shares rise again as unconfirmed West Coast all-stock takeover rumor resurfaces a month later",
+   "summary": "On October 20, 2026, PayPal shares rose on renewed market chatter, nearly a month after the original report, that an unnamed West Coast technology company may be weighing an all-stock takeover of PayPal; no bidder has been named, no terms have been negotiated, and PayPal has not confirmed any approach.",
+   "summary_ja": "2026年10月20日、約1カ月前に浮上した「西海岸テック企業による全株式交換方式での買収検討」との未確認情報が再び取り沙汰され、ペイパル株は上昇した。買収主体の名前や条件はいまだ明らかになっておらず、ペイパル側も新たな接触があったとは確認していない。",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4647161-paypal-gains-on-report-of-renewed-takeover-interest"
+  }
+ ]
 }

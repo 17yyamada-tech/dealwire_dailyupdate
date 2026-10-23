@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-22T07:49:51Z",
+ "checked_at": "2026-10-23T00:53:02Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-22",
+   "headline": "Brent crude tops $112 a barrel, highest since May, as Hormuz attacks and Houthi strikes on Saudi infrastructure intensify",
+   "summary": "Brent crude rose to around $112.41 a barrel, its highest level since May, while WTI traded near $99.95, as renewed attacks on shipping around the Strait of Hormuz and Houthi strikes on Saudi infrastructure added to supply concerns; gold and silver were pressured on the day despite lower bond yields.",
+   "summary_ja": "ホルムズ海峡周辺での船舶攻撃激化とサウジの石油関連インフラへのフーシ派攻撃を背景に、ブレント原油は1バレル112.41ドル前後まで上昇し5月以来の高値となった。WTIは99.95ドル前後で推移した。利回り低下にもかかわらず金・銀相場は値を下げた。",
+   "source": "Kitco News",
+   "url": "https://kitco.com/news/article/2026-10-22/gold-silver-pressured-despite-lower-yields-hormuz-attacks-send-crude-higher"
+  },
   {
    "date": "2026-10-21",
    "headline": "Kpler: at least 18 vessel attacks logged over two weeks as strikes spread from Hormuz into Gulf of Oman",
