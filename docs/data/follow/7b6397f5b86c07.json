@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-23T04:49:44Z",
+ "checked_at": "2026-10-23T07:54:26Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,30 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-23",
+   "headline": "WTI crude tops $100/barrel, up more than 10% over three weeks on Hormuz supply fears",
+   "summary": "WTI crude futures rose above $100 a barrel, putting the US benchmark on track for a gain of more than 10% over three weeks, as fears of supply disruption from the Strait of Hormuz conflict persisted.",
+   "summary_ja": "WTI原油先物が1バレル100ドルを超え、過去3週間で10%超の上昇となる見通しとなった。ホルムズ海峡の紛争による供給混乱への懸念が続いていることが背景にある。",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/news/wti-oil-rises-beyond-100-amid-fresh-concerns-of-supply-disruptions-202610230716"
+  },
+  {
+   "date": "2026-10-22",
+   "headline": "Trump accuses Iran of staging fake tanker attacks to inflate oil prices before US midterms",
+   "summary": "President Trump said Iran is fabricating reports of tanker attacks and mine strikes in the Strait of Hormuz to drive up oil prices ahead of the November 3 US midterm elections, while the White House repeated that it will not strike Iran before the vote. A CENTCOM spokesperson separately called Iran's mine-strike claims incorrect.",
+   "summary_ja": "トランプ大統領は、イランがホルムズ海峡でのタンカー攻撃や機雷被害の報告を捏造し、11月3日の米中間選挙前に原油価格を押し上げようとしていると非難した。ホワイトハウスは中間選挙前にイランを攻撃しない方針を改めて示し、CENTCOM報道官もイランの機雷被害の主張は不正確だと述べた。",
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
+  },
+  {
+   "date": "2026-10-22",
+   "headline": "Lloyd's List: Hormuz-area ship attacks hit record 28 in October, most since war began",
+   "summary": "Lloyd's List Intelligence data cited by NBC News showed 28 attacks on vessels in and around the Strait of Hormuz so far in October, the highest monthly total since the US-Iran war began on February 28. Tankers continue to transit the strait under US naval escort despite the surge in attacks.",
+   "summary_ja": "NBCニュースが引用したロイズ・リスト・インテリジェンスのデータによると、10月のホルムズ海峡周辺での船舶攻撃件数は28件に達し、2月28日の米イラン開戦以降で最多となった。攻撃の増加にもかかわらず、タンカーは米海軍の護衛下で海峡の航行を続けている。",
+   "source": "NBC News",
+   "url": "https://www.nbcnews.com/world/iran/iran-strikes-strait-hormuz-shipping-trump-oil-prices-midterms-rcna603670"
+  },
   {
    "date": "2026-10-22",
    "headline": "Iran claims 7 tankers hit overnight in Strait of Hormuz, largest single-day toll of the war if confirmed, as Saudi coalition intercepts drones",
