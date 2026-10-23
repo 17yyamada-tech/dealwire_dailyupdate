@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-23T00:53:02Z",
+ "checked_at": "2026-10-23T04:49:44Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-22",
+   "headline": "Iran claims 7 tankers hit overnight in Strait of Hormuz, largest single-day toll of the war if confirmed, as Saudi coalition intercepts drones",
+   "summary": "Iranian state media and the Revolutionary Guard Corps said seven oil tankers were struck in the Strait of Hormuz overnight into October 22, 2026 - four hit while transferring oil and three hit naval mines - which, if confirmed, would be the largest single-day toll in the waterway since the war began on February 28; the claims were not independently verified. The same day, a Saudi-led coalition intercepted drones in its airspace.",
+   "summary_ja": "イラン国営メディアと革命防衛隊(IRGC)は、2026年10月22日未明までにホルムズ海峡で原油タンカー7隻が被弾したと発表した。4隻は原油の移送中に攻撃を受け、3隻は機雷に接触したとされる。事実であれば2月28日の開戦以来最大の単日被害となるが、独立した形での確認はされていない。同日、サウジ主導の連合軍は自国領空で無人機を迎撃した。",
+   "source": "CBC News",
+   "url": "https://www.cbc.ca/news/world/mideast-hormuz-saudi-arabia-attacks-9.7391297"
+  },
   {
    "date": "2026-10-22",
    "headline": "Brent crude tops $112 a barrel, highest since May, as Hormuz attacks and Houthi strikes on Saudi infrastructure intensify",
