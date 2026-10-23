@@ -1,0 +1,111 @@
+{
+  "edition": "2026-10-23-1530",
+  "edition_label": "23 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T07:35:00Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Standard Chartered signs final agreement to acquire Zodia Custody, to fold in its custody business",
+      "summary": "Standard Chartered has signed a final agreement to acquire crypto custodian Zodia Custody, according to a report, with Standard Chartered's custody business set to be integrated into the unit. The move follows an earlier report that the bank planned to make Zodia Custody a wholly owned subsidiary and carve out its software division separately.",
+      "why_it_matters": "A signed agreement turns an earlier ownership plan into a binding deal, giving Standard Chartered a cleaner structure for consolidating its crypto-custody operations. It underscores banks' continued push to bring externally built digital-asset infrastructure fully in-house.",
+      "summary_ja": "スタンダードチャータードは、暗号資産カストディ業務を手がけるゾディア・カストディの買収について最終契約を締結したと報じられた。スタンダードチャータード自身のカストディ業務をこのユニットに統合する計画とされる。これは、同行がゾディア・カストディを完全子会社化しソフトウェア部門を別途分離する方針だとした以前の報道に続くものだ。",
+      "why_it_matters_ja": "最終契約の締結により、以前の所有方針が拘束力のある取決めへ進展し、暗号資産カストディ業務を統合する体制が整う。外部と共同で築いてきたデジタル資産基盤を内部に完全に取り込もうとする銀行各行の流れを映す動きだ。",
+      "status": "update",
+      "prev": {"edition": "2026-10-23-0830", "index": 7},
+      "key": "scb-zodia-custody-subsidiary",
+      "ids": ["73362ea8e1bf6f"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uZ2hpZEFGeWl1VnVWN0hLX2pSN2UwNzJTbmpZQzc1TFhpdWhYOVUyVkhQMVdfMG1vWkRpQ3ZfTXkzVVBwMlA5RjJyYjhhLVZLWVN4UzRNdG04ZGgtQno5d25LYUgzcTNoSHJLUHBhSUFIaWMtXzVaZHo2ODN5M2s?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Musk invests about ¥157bn in Skydance to help address debt from its Warner acquisition",
+      "summary": "Elon Musk is investing roughly ¥157bn in Skydance, according to a report, following the studio's acquisition of Warner. The investment is aimed at helping Skydance manage the heavy debt load it took on to fund that acquisition.",
+      "why_it_matters": "A high-profile backer taking a stake signals investor appetite for post-merger capital solutions in media even as the enlarged Skydance-Warner group works through acquisition-related leverage, and ties Musk more closely to traditional Hollywood studio economics.",
+      "summary_ja": "イーロン・マスク氏がスカイダンスに約1570億円を出資すると報じられた。ワーナー買収を経て同社が抱える巨額債務への対応を支援する狙いとされる。",
+      "why_it_matters_ja": "著名な出資者の参画は、買収に伴う負債を抱えるメディア企業への資本支援需要の強さを示す。マスク氏と伝統的なハリウッド・スタジオの経済圏との結びつきが一段と深まる。",
+      "status": "new",
+      "prev": null,
+      "key": "musk-skydance-investment",
+      "ids": ["9fc80e1094fdea"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zYjN5LWl6LUhGVkVpaW9leDMyLUhKNUt0MkM2dW1QdVlNUm1iUzh3X0paemdlRGZwM2p4eDdfMVBuZkpfaThlZzdSSFZyc1A0aHppYklTVTEyY2hCN0dFaWc3dzA5b3YtQVUwVVFqeHBoNEU5TWVYQTdVTTdCbGc?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Itochu to acquire Hitachi Construction Machinery's Taiwan sales unit, Nikkei reports",
+      "summary": "Itochu is set to acquire the Taiwan sales subsidiary of Hitachi Construction Machinery, according to a Nikkei report cited by Traders Web. Itochu's share price was described as holding firm on the news.",
+      "why_it_matters": "The deal would extend Itochu's distribution reach into Hitachi Construction Machinery's Taiwan sales network, adding a regional channel for construction equipment as Japanese trading houses keep bolting on overseas distribution assets.",
+      "summary_ja": "伊藤忠商事が日立建機の台湾販売子会社を買収する方向だと日経新聞が報じ、トレーダーズ・ウェブが伝えた。伊藤忠の株価はこの報道を受けて底堅く推移しているという。",
+      "why_it_matters_ja": "実現すれば伊藤忠は日立建機の台湾販売網を取り込み、建設機械分野での地域販売チャネルを拡大することになる。日本の商社が海外の販売資産を積み増す動きの一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "itochu-hitachi-construction-taiwan",
+      "ids": ["8724720105431d"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcGl5MUV1WWZOZEhDSTdrc2QzOFN6R29kbS1rWkItM0x5aEdqTHFsWV8xSzBTVThfWWZubGxlUWVDU3J6S0lpZVFwRTVLc0dTcDV6VDlhak9wbmFjWVVhVDFBaENDNGRCRWlSUnJZZlF5eVZxeXVqY194VGtFZDZxd1haaHQ1S2c?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Gilead to pay $1.275bn cash for oral anti-inflammatory drug project from China's Hanchen Xingtai",
+      "summary": "Gilead Sciences has agreed to acquire an oral anti-inflammatory drug development project from Chinese biotech Hanchen Xingtai (瀚辰星泰) for $1.275bn in cash, according to a report.",
+      "why_it_matters": "The deal adds to a wave of large US pharma deals sourcing early- and mid-stage drug candidates from Chinese biotechs, as US drugmakers look abroad for pipeline assets at lower cost than domestic M&A.",
+      "summary_ja": "ギリアド・サイエンシズが、中国のバイオ企業「瀚辰星泰」から経口の抗炎症薬開発プロジェクトを12.75億ドルの現金で買収することに合意したと報じられた。",
+      "why_it_matters_ja": "米製薬大手が中国バイオ企業から早期・中期段階の薬剤候補を導入する大型取引が続いており、国内M&Aより低コストでパイプラインを補強しようとする狙いがうかがえる。",
+      "status": "new",
+      "prev": null,
+      "key": "gilead-hanchen-xingtai-licensing",
+      "ids": ["1e6addbca799ae"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ucGR2d1BUdGFvNWJJX19NYkNQUzVjNE45QTFsZWppRHlJd09wQ1VRd18yYzUxb0tUWDE2SmQ1WGlITG9XY2JRVGlzc012T2dZVlcyMWo5TmttcXp6aXVSSzJLX0l6cUFhdVFHb1JvR1U5QU1v?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Petronas, TotalEnergies and Mitsui sign JV pact for Malaysia carbon storage, targeting 2031 start",
+      "summary": "Petronas, TotalEnergies and Mitsui have signed a joint-venture agreement to develop carbon storage sites in Malaysia, with operations targeted to begin as early as 2031.",
+      "why_it_matters": "The tie-up adds a major-oil and trading-house-backed project to Southeast Asia's nascent carbon capture and storage pipeline, a sector regional governments are counting on to attract industrial decarbonisation investment.",
+      "summary_ja": "ペトロナス、トタルエナジーズ、三井物産がマレーシアでのカーボンストレージ(炭素貯留)拠点開発に関する合弁契約を締結した。稼働開始は早ければ2031年を見込む。",
+      "why_it_matters_ja": "大手石油会社と商社が支援する大型プロジェクトが加わることで、東南アジアでまだ発展途上のCCS(炭素回収・貯留)案件の裾野が広がる。域内各国が産業の脱炭素化投資を呼び込む手段として期待する分野だ。",
+      "status": "new",
+      "prev": null,
+      "key": "petronas-totalenergies-mitsui-ccs-malaysia",
+      "ids": ["0be3d3a0e21afa"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/petronas-totalenergies-mitsui-ink-jv-pact-develop-malaysia-carbon-storage-sites"}
+      ],
+      "categories": [],
+      "countries": ["SEA"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Apple acquires Swiss AI music startup Samplab for its talent and assets",
+      "summary": "Apple has acquired Samplab, a Swiss AI music startup, gaining its team and technology assets, according to a report.",
+      "why_it_matters": "The deal reads as a classic acqui-hire that strengthens Apple's in-house AI capabilities in music and audio tools, an area where it has typically bought small specialist teams rather than made large strategic acquisitions.",
+      "summary_ja": "アップルがスイスのAI音楽スタートアップ「Samplab」を買収し、人材と技術資産を獲得したと報じられた。",
+      "why_it_matters_ja": "典型的な人材獲得型(アクハイア)の買収であり、音楽・音声ツール分野でのアップルの内製AI能力を強化するものだ。同社はこの分野で大型の戦略的買収より小規模な専門チームの獲得を選んできた。",
+      "status": "new",
+      "prev": null,
+      "key": "apple-samplab-acquisition",
+      "ids": ["5b68c08961a47c"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPa0dsNWRSaV9ZVDhxRG9zeWptcjVOdkxwN0theGRjUkxwWnVNOW5UeHJrM3ZhbGdtMVhqY29mLVN0ejVuN2k1X3RtcS1LdDkzTk5VMEt6akN0MXFuanByRmx6dDBjUnJOenlXOF9NTS0wQjlCeE8zLVo4TTUyMDZDQ2d5TTdkQ0pGSzhmUXhfTnd2WnR3S19zZUZUc3NITjYwTWc?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["AI & Semis", "TMT"]
+    }
+  ]
+}
