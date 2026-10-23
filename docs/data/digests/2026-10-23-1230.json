@@ -1,0 +1,187 @@
+{
+  "edition": "2026-10-23-1230",
+  "edition_label": "23 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T04:37:00Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "OpenAI's valuation marked down to $1.25 trillion from $1.4 trillion ahead of funding close",
+      "summary": "OpenAI has cut its valuation to US$1.25 trillion from an earlier US$1.4 trillion as it finalises a new funding round. Investor commitments for the round are expected to be locked in next week.",
+      "why_it_matters": "The markdown shows investors pushing back on AI valuations even for the industry's most prominent name, a signal that could flow through to financing terms for other AI infrastructure and foundation-model companies raising capital.",
+      "summary_ja": "オープンAIが企業価値を従来の1兆4000億ドルから1兆2500億ドルに引き下げ、新たな資金調達ラウンドの最終段階に入った。投資家からの出資確約は来週中に固まる見通し。",
+      "why_it_matters_ja": "AI業界を代表する企業であるオープンAIでさえ評価額の見直しを迫られている事実は、他のAI基盤モデル企業やインフラ企業が今後資金を調達する際の条件にも影響を及ぼし得る。",
+      "status": "new",
+      "prev": null,
+      "key": "openai-valuation-cut-funding-round",
+      "ids": [
+        "4d67f7a09e8c38"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/openai-shifts-value-us1-25-trillion-funding-talks-finalise"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "SK Group's data-centre unit in talks to finance $350bn AI buildout, 15GW planned in South Korea by 2030",
+      "summary": "SK Group's data-centre arm is in talks to finance a US$350bn AI buildout. The plan involves developing 15 gigawatts of data-centre capacity in South Korea by 2030.",
+      "why_it_matters": "The scale of the financing need shows how capital-intensive the AI infrastructure race has become even for a well-capitalised Korean conglomerate, raising the stakes for the credit investors being asked to back South Korea's data-centre expansion.",
+      "summary_ja": "SKグループのデータセンター部門が、3500億ドル規模のAIインフラ投資計画の資金調達に向けて協議を進めている。計画では2030年までに韓国国内で15ギガワットのデータセンター容量を整備する。",
+      "why_it_matters_ja": "資金規模の大きさは、資本力のある韓国財閥であってもAIインフラ競争の資金負担がいかに重いかを示す。韓国のAIデータセンター拡張を支えるクレジット投資家にとってもリスクとリターンの判断材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "sk-group-ai-datacentre-financing",
+      "ids": [
+        "cff41579e6b364"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/sk-groups-data-centre-arm-talks-fund-us350-billion-ai-buildout"
+        }
+      ],
+      "categories": [
+        "Infra",
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Nippon Steel to invest ¥470bn in US Steel hot-rolling upgrade, largest project under acquisition pledge",
+      "summary": "Nippon Steel plans to invest about ¥470bn in hot-rolling equipment at U.S. Steel. The project is the largest single commitment made so far under the investment pledges Nippon Steel gave as part of its acquisition of the American steelmaker.",
+      "why_it_matters": "The outlay shows Nippon Steel following through on the capital commitments that helped secure US political approval for its U.S. Steel takeover, underscoring how large an ongoing capex burden the deal continues to carry.",
+      "summary_ja": "日本製鉄がUSスチールの熱延設備に約4700億円を投資する計画。同社が買収に際して約束した投資計画の中で最大の案件となる。",
+      "why_it_matters_ja": "USスチール買収で米国の承認を得るために掲げた投資公約を日本製鉄が着実に実行していることを示すと同時に、買収後も続く大型資本支出の重さを浮き立たせる。",
+      "status": "new",
+      "prev": null,
+      "key": "nippon-steel-us-steel-hot-rolling",
+      "ids": [
+        "451032cf469dc2"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VS2FFUV9GMXNOaTBBMWNFbGowY29ZRG1ERS1PTUdOZjRLYkJMMlZkSTRjQm5yMTVPOGZ1X21oWWl4cW1va2tZR1EteG10RzQ5MkRRZDFPMVFiTkFXRTdzVkxNek1TR05tWEp2YTdPMEcwZTlI?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US",
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Fireblocks denies report of ~$2.5bn acquisition talks with Visa",
+      "summary": "Local media reported that Visa was in talks to acquire crypto-custody firm Fireblocks for about $2.5bn. Fireblocks denied the report, saying the acquisition talks are ‘not true at this time.’",
+      "why_it_matters": "A denial does not rule out renewed interest later, and the reported price would rank among the largest crypto-infrastructure deals this year if talks resume, given Visa's recent push into stablecoin and digital-asset settlement.",
+      "summary_ja": "ビザが暗号資産カストディ企業ファイアブロックスを約25億ドルで買収する交渉を行っているとの報道に対し、ファイアブロックス側は「現時点で事実ではない」と否定した。",
+      "why_it_matters_ja": "否定は交渉再開の可能性を排除するものではなく、報じられた金額が実現すれば今年最大級の暗号資産インフラ買収となる。ビザが進めるステーブルコイン・デジタル資産決済戦略を踏まえると注目度は高い。",
+      "status": "new",
+      "prev": null,
+      "key": "visa-fireblocks-acquisition-talks",
+      "ids": [
+        "3bc6fce7830460",
+        "7b5958161d048d"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pNUZ0MVJpNW9XMUthZVA1Si1sTjFORWNVM1FveUdraTdiNDdmY2M3TnNVRUE4SWZqWllzczRjLWNVN01kS3B6dlR3UEZuQ2pwbWkzOHZOaVNIVnFwdGVSd2E3LTlRRlh6RHd6U1l4UUsxai1W?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xVnJXYlhXakRNbzJMd0hyMWxHZEVhaHp5aE9Qbk5rVThfRms1T3ByQlc5eUFTdGc0dml4SmUyZk52UHRyeDdDUXBWMEUwcXZURmY1dGYtZEE2WnJDaXdHczIxR1ljcjV2NDc5YTBtVGVmWm90VFJSNg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Marubeni opens tender offer for 28% stake in South Korea's iFamilySC",
+      "summary": "Japanese trading house Marubeni has launched a tender offer for South Korea's iFamilySC Co., Ltd., a major beauty and personal-care company, aiming to acquire a 28% stake.",
+      "why_it_matters": "A successful tender would give Marubeni a strategic position in Korea's consumer beauty sector, extending the trading house's reach beyond its traditional commodities and infrastructure businesses into branded consumer goods.",
+      "summary_ja": "丸紅が韓国の大手ビューティー・パーソナルケア企業iFamilySCに対しTOBを開始し、株式28%の取得を目指す。",
+      "why_it_matters_ja": "実現すれば丸紅は韓国の消費財・ビューティー分野で戦略的な足場を得ることになり、資源・インフラ中心の事業から消費者向けブランドビジネスへの広がりを示す動きとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "marubeni-ifamilysc-tob",
+      "ids": [
+        "72e4614b9ab78e",
+        "dc4df7130a1400"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUkZrVnhFMGZOV2Fmc1JsVDR1WHZBdlFZOWg2LXpFMTlPb3dscGRqdUduTUtpck5TVDdldUE1b1JxQm02LUdIM2lKYTlyazU0S3FZN01fU0FnRTdzSWY5Wm1FWXQzcEl5QmlMRkktcnZDQnl0TGR5SzB2Wi1uSk1VctIBlAFBVV95cUxNS3RsM2ZJZmhoT1BWZVU1cjQtU1lMREdOQmtSTmtSNm0tTFFDMlAxb3VfU0FJX0RjRFhYVVNUYWJfTS1zVzhSS2ExV2xZZmYwRXRZSW5ERTN2c0ttcUtMRGJ6YW8xaUFHeFhaU2N4andtczVBLXZVMm5Ld3Y3T05JMFBUMWt3MU8wZi0wOTdac2VhOXdS?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnaERrUDNCSmQ5S0czYjc4X3lwWlNUY3BSNEtxRU1xWWJNTWNreVRDbFgyTUctYUI0clVQWC1pV3hHUmVLcTRqYy1wOXBKRG54RUpCWi02aGp6YXU5ZmZfUW1oSTZTVjg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Nebius secures $3.5bn Citi credit facility to fund data-centre expansion",
+      "summary": "Nebius has secured a $3.5bn credit facility from Citi to fund the expansion of its data-centre capacity.",
+      "why_it_matters": "The facility highlights banks' growing willingness to extend large-scale debt financing to AI-infrastructure operators, adding credit to the mix of equity and project-finance structures funding the global data-centre buildout.",
+      "summary_ja": "ネビウスがデータセンター拡張の資金として、シティから35億ドルの信用供与枠を確保した。",
+      "why_it_matters_ja": "AIインフラ事業者に対し銀行が大型の債務性資金を供与する動きが広がっていることを示し、株式調達やプロジェクトファイナンスと並ぶ資金調達手段として与信枠が活用されている実態を浮かせる。",
+      "status": "new",
+      "prev": null,
+      "key": "nebius-citi-credit-facility",
+      "ids": [
+        "3549b2e47dccbf"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/nebius-gets-35-billion-citi-facility-data-center-growth-6482346"
+        }
+      ],
+      "categories": [
+        "Credit",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    }
+  ]
+}
