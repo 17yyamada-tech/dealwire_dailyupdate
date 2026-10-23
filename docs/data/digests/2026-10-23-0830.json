@@ -1,0 +1,327 @@
+{
+  "edition": "2026-10-23-0830",
+  "edition_label": "23 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T00:35:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "EQT's Qiagen buyout now valued at €10.8bn, structured to limit dissenting shareholders",
+      "summary": "EQT's buyout of Qiagen is now reported at a total value of €10.8bn, up from the €9.6bn figure given when the deal was agreed last week. The report ties the larger figure to a deal structure designed to limit dissenting shareholders, following Thermo Fisher's unsuccessful earlier attempt to acquire Qiagen.",
+      "why_it_matters": "The size increase and anti-blocking structure point to EQT working to avoid the shareholder holdout disputes that have complicated other recent sponsor take-privates of listed European companies. It also leaves open whether another suitor could still emerge before the transaction closes, given Thermo Fisher's earlier interest.",
+      "summary_ja": "EQTによるキアゲン買収は、先週合意時点で示された96億ユーロから、総額108億ユーロに上方修正されたと報じられた。この規模拡大は、サーモフィッシャーによる買収が不成立に終わったことを踏まえ、反対株主を抑え込む設計によるものとされる。",
+      "why_it_matters_ja": "規模の拡大と反対株主を抑える設計は、欧州上場企業を対象とした他のスポンサー主導の非公開化案件で問題となっている株主の抵抗紛争を、EQTが回避しようとしていることを示唆する。サーモフィッシャーが以前関心を示していたことを踏まえると、取引完了前に別の買い手が現れる可能性も残る。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-22-1530",
+        "index": 0
+      },
+      "key": "qiagen-eqt-buyout-talks",
+      "ids": [
+        "6c70dd1ba64dd4"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT2RRbEpFbVNRQU84Q0ZxQjNfMENYSi15OGVTYVYzb0ZFWDg4ZGxJUFYtRXF3NE9UMFUxa0MzM2JqcUdCM3g4LXBkZFFaY19jOFpuY3A2eTl3QjdSbHpFU1RyemxWbjloNFIxZVVVU1NkWTNXRlduZ0tPQlJydWROdkJ2TlhRaXA4SmU2YzBacw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "LSEG agrees $3.54bn cash deal for credit-data provider Octus, completion targeted for H1 2027",
+      "summary": "London Stock Exchange Group has agreed to acquire credit-data provider Octus for $3.535bn in cash, with completion targeted for the first half of 2027. LSEG said the deal would strengthen its data-analytics capabilities for the AI era, and the announcement came alongside LSEG raising its 2026 outlook on strong quarterly results.",
+      "why_it_matters": "The deal adds scale to LSEG's credit and fixed-income data business at a premium price, underscoring how exchange groups are paying up for proprietary data assets as AI-driven analytics become a bigger competitive battleground. A raised 2026 outlook alongside the announcement also signals LSEG's confidence in absorbing the acquisition without straining near-term earnings.",
+      "summary_ja": "ロンドン証券取引所グループ（LSEG）は、信用データ提供会社オクタスを現金35億3,500万ドルで買収することに合意した。完了は2027年上期を予定する。LSEGは、この買収がAI時代に向けたデータ分析力の強化につながるとし、好調な四半期決算を受けて2026年通期見通しも上方修正した。",
+      "why_it_matters_ja": "この買収により、LSEGの信用・債券データ事業の規模が拡大する。AI主導の分析が競争の新たな焦点となる中、取引所グループが独自データ資産に高い対価を払う傾向を映す案件だ。発表と同時に2026年通期見通しを上方修正したことも、買収を無理なく吸収できるというLSEGの自信を示している。",
+      "status": "new",
+      "prev": null,
+      "key": "lseg-octus-acquisition",
+      "ids": [
+        "d2573335d43389",
+        "1c5269e4839c00",
+        "8dfa2417aa0348"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pT0RJcm1NRWFaUnc0a2RXNGtGS1hsOWxjaEItdTRVdGJPY2dac3NlQVhueWs0em50WWJvWC1KeFNqQ3BWVDVXOUNqOHpjM3lsMHNaUkcwUkU5UlQ3V3VzcnhFVXdoVEFvZUtER01XQ0hpcU0y?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU2JFTnFYczc0QWRUUDdBV1ZtNkZPOWY0VkRyTFI4eUhyWVA5dUlxRkZRZklqdmJIakNlcjg3ODRneUdubzcwUHRMXzhSNlFoVTRZZjVRREhTYi1FQ3J4TU1NcWY4WUpxLXd5TFVnSHV6Sl9vX0RQZmdKN1oyS2FOTTBuYVZLLXRXaW9tdUdR?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81bWQ2UGNIc1czZVQ5X0pyNFNCNWh3c1UxbG9mc2R4VzBvZ3l1OUt2MDQ3NlVWUGJ4a0VhUnAyTEoxMHJkR0U3N3QtZjdWNTA4MHNDNXk1YXdWWm1VVmNLNmsyQi1sZ1A2bXY0eVhrMnJCYThR?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Financials",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Hillhouse-linked Singapore fund launches ¥2,020-a-share tender for Japan's Circlace, to delist it",
+      "summary": "A Singapore-based investment fund linked to Hillhouse has launched a tender offer for Japan-listed Circlace (TSE: 5029) at ¥2,020 a share, aiming to take the company private and make it a wholly owned subsidiary. Circlace is expected to be delisted once the offer completes.",
+      "why_it_matters": "The deal is another example of Asia-based sponsors using tender offers to take smaller Tokyo-listed companies private, a trend that has picked up as Japan's governance reforms push more firms toward going-private deals or buyouts. It also underscores Singapore's continued role as a base for pan-Asian buyout vehicles targeting Japanese small caps.",
+      "summary_ja": "ヒルハウス系のシンガポール投資ファンドが、日本の上場企業サークレイス（東証5029）に対し、1株2020円でTOB（株式公開買付け）を実施した。完全子会社化を目指し、買収完了後は上場廃止となる見通しだ。",
+      "why_it_matters_ja": "アジア系スポンサーがTOBを使って東証の中小型株を非公開化する動きの一例だ。日本のガバナンス改革を背景に、非公開化や買収に進む企業が増える流れを反映している。日本の中小型株を狙う汎アジア系バイアウトファンドの拠点として、シンガポールが引き続き活用されていることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "circlace-hillhouse-tob",
+      "ids": [
+        "4696884d5fe78c",
+        "70a3bbf86a2aca",
+        "a14df4f628b056"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRVpGUUpYWVM3UUdQczJ3YVRSR0J0QTBnY2JnSDR2RnN0V0V3MkZoUVRnb19Ua050US1RWnZwaHI1TnRFSU44Ym9kVk0yd25CMTBFZElfV09pSjdHY2ZHeVBIclpMWG1fNEk0MzdxbDlTWWNOX1hIbzM2dXNuWDNUOWtn0gGHAUFVX3lxTE9PWVdERmRGZDhybG1PdV9hcDdhTkRER3lXQ243eHQzNEZqaXViWmlibmhxRm05RDgyQWZnbWJtVC1uOFZfZC15OXZ3LTJrXzNzOHlLSzZxRE50UDdRbWpxbXBxNjJTM3dZanFVTWw5djNPSEhFTkk3XzAyTldScTktblRvWUE1RQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wS2Y1NXVHUUNjS28xdHZydk5BV2ZRR3ptVERvVERuQThIS1RLUnJEZGllN2dtb01pQXBoSjloUUJfclNPcTFWeER2REFoM0Y1TmQwbEJROTdFaF9iX3FtRjBR?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM1Bvc3NjR1pBLXI4V0VCazFBeEJUb0FucXFwWVgxelU0eVNNV2ptbllicDZFNkswNnAyYXJVR3Q1eUZzSkpXVWRJT1J3cm9GSHFfQlVUbjVTcnhsa05GZFFBQUlvZElYVHp1dV9zX3F3YzY2UThrRTBOSi1RWElub2VpVENtem8?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "SG",
+        "JP",
+        "SEA"
+      ],
+      "sectors": [
+        "Other",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Murakami-linked fund takes 5.06% stake in TV Asahi Holdings, proposes higher dividend and going-private review",
+      "summary": "An investment fund linked to the former Murakami group has acquired a 5.06% stake in TV Asahi Holdings and proposed that the broadcaster raise its dividend and consider taking the company private, according to reports.",
+      "why_it_matters": "An activist push at one of Japan's major broadcasting holding companies tests how far Tokyo-listed media groups are willing to go on shareholder returns and ownership structure, an area where Japanese boards have historically resisted outside pressure. It also adds a prominent media name to the growing list of Japanese targets facing renewed shareholder activism this year.",
+      "summary_ja": "旧村上ファンド系の投資ファンドが、テレビ朝日ホールディングス株式の5.06％を取得し、増配および非公開化の検討を提案したと報じられた。",
+      "why_it_matters_ja": "日本の主要放送持株会社に対するアクティビストの働きかけは、株主還元や資本構成の見直しに東証上場メディア企業がどこまで応じるかを試す案件だ。日本企業の取締会は従来、外部からの圧力に抵抗してきた分野である。今年、株主アクティビズムの対象となる日本企業が増える中、大手メディア企業も新たにその対象に加わったことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "murakami-fund-tv-asahi-stake",
+      "ids": [
+        "5d48beb8c747cd",
+        "55f87a6a0405f1"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE95ODFuUkllLWllTm1Qd0lGbjBWY0w0cFl5TkR2bk0yZ0sxVnFfNkFsMUpSUzFrZE02eG41YzZFVUlTRFNDWDdPLTRoYUtuQQ?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80b25BSUVmRmpvNkh3emQ2dTFQZGFDMlh0bmV6cFBmNlBHRDY2QWtIZFp5ejNDMXNlNHQ4azFnU2F3VmVjRVVCU2VwQkNxMlVLWThPcVRZY092VkRoVFpfaWx2ZU45Z2cyOGIydWtqSkdjazVK?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "ANA Holdings weighs taking regional carriers AirDo and Solaseed Air as subsidiaries",
+      "summary": "ANA Holdings is considering increasing its investment in regional airlines AirDo and Solaseed Air and consolidating them as subsidiaries, according to reports. ANA is said to plan keeping both carriers' route networks and brand names intact, as the two smaller airlines face financial strain linked to the weak yen.",
+      "why_it_matters": "Consolidation by Japan's largest carrier would mark a shift in the country's regional aviation structure, folding independent challenger airlines into ANA's orbit as currency pressure squeezes smaller operators' finances. It also raises questions about how much route and fare competition survives once two independent carriers sit under one corporate parent.",
+      "summary_ja": "ANAホールディングスは、地域航空会社のエア・ドゥとソラシドエアへの出資を拡大し、両社を子会社化する方向で検討していると報じられた。路線網やブランド名は維持する方針とされる。両社は円安の影響で財務面の厳しさに直面しているという。",
+      "why_it_matters_ja": "日本最大の航空会社による子会社化は、国内地域航空の構造転換を意味する。独立系の新規参入航空会社がANAの傘下に組み込まれる動きであり、為替圧力が中小航空会社の財務を圧迫している状況を反映する。2社が同じ親会社の傘下に入れば、路線や料金面での競争がどこまで保たれるかも問われる。",
+      "status": "new",
+      "prev": null,
+      "key": "ana-airdo-solaseed-subsidiary",
+      "ids": [
+        "2c47159571c0d3",
+        "c6c4fc6f655a8f",
+        "6dd631fb3d636d"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Gd3o0RDM0MnUxVTk5ZExPdXpjWjFCM09QWmhEYWIxWWlGZFZHVmZBbjNFVVY4azV1cU9taGJBZnBTOWRqUWVCX2c1MGdoRndEOXlOQmNLbjNSdw?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12LW43WW9oMzJEZ1g1T3FHTkV2UG90aTJfWWdMaFh0RUM3QWZEcUpiZ0lvZUdpSnEzOXpDUUlYWGlFUzYyLXRDNm9ZdUZIMXBBNFd4S3VtcEVjVF83?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56UGcyR05OMjF5anR4aFhSaGR6NWlwUmszWXpmcTFOMEQ4WEJyQVJvV1ZtaXdPNV82X2V4Uk9aRXRsZFF6cFFKSFpZcW1LWWxNUkVFcEtGZXdUSnVuVE95QS1La0U?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Blackstone leads debt financing for Gooch & Housego take-private, Bloomberg reports",
+      "summary": "Blackstone is leading the debt financing for the take-private of UK optics maker Gooch & Housego, Bloomberg News reported.",
+      "why_it_matters": "Blackstone's role as lead lender on a take-private financing shows private credit funds continuing to displace banks on sponsor buyout debt, even for smaller-cap public-to-private deals. It is a reminder that direct lenders are now willing to finance take-privates well below the mega-cap deals that first drew them into the asset class.",
+      "summary_ja": "ブラックストーンが、英光学機器メーカー、グーチ・アンド・ハウセゴの非公開化に伴う債務融資を主導していると、ブルームバーグ・ニュースが報じた。",
+      "why_it_matters_ja": "ブラックストーンが非公開化資金の主要貸し手となったことは、中小型の上場企業非公開化案件においても、プライベートクレジットファンドが銀行に代わってスポンサー買収の債務を担う流れが続いていることを示す。当初は超大型案件を手掛けていた直接貸付業者が、規模の小さい非公開化案件にも資金を供する姿勢を示す一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "blackstone-gooch-housego-debt",
+      "ids": [
+        "16b600a1e02e50"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zOE9CRW8xR3A3WF9yZDdFVmlnYU9YMzQ0cjRvSGhYOWYtamxwTkFiNEhuYWNnN1FucW91WWZMMF9ZZ0RodGViRHR6X1hRbGxOdmNYaVlkWC1GRWZtaUszb2dGa1RpN01wQTlzZ1VVbHN4SU9iTVY3bg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Credit",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "US proposes curbs on investment in Chinese biotech firms",
+      "summary": "The US has proposed restrictions on investment in Chinese biotechnology firms. The move comes as US drugmakers are increasingly turning to China for new medicines, according to the report.",
+      "why_it_matters": "Tighter US investment curbs on Chinese biotech would complicate licensing and venture flows that American pharma companies have come to rely on for new drug candidates, adding another front to US-China decoupling in a sector investors had treated as relatively insulated. It is also likely to sharpen scrutiny of existing licensing tie-ups between US and Chinese drugmakers already in place.",
+      "summary_ja": "米国が中国のバイオテクノロジー企業への投資を制限する規制案を示した。米製薬企業が新薬開発で中国への依存を強めていることを背景とした動きだという。",
+      "why_it_matters_ja": "米国によるバイオテック投資規制の強化は、米製薬企業が新薬候補の確保で依存してきたライセンス取得や投資の流れを複雑にする。投資家が比較的影響を受けにくいと見ていた分野にも、米中デカップリングの波が及ぶことを意味する。既存の米中間のライセンス提携にも、今後は一層厳しい目が向けられる可能性が高い。",
+      "status": "new",
+      "prev": null,
+      "key": "us-curbs-china-biotech-investment",
+      "ids": [
+        "32b498160118ad"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/us-proposes-curbs-investment-chinese-biotech-firms"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "US",
+        "HK/CN"
+      ],
+      "sectors": [
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Standard Chartered to take full ownership of Zodia Custody, carving out its software unit",
+      "summary": "Standard Chartered is set to make crypto-custody business Zodia Custody a wholly owned subsidiary, with Zodia's software division to be separated out, according to a report.",
+      "why_it_matters": "Full ownership gives Standard Chartered tighter control over a key piece of its digital-asset custody infrastructure, as banks continue consolidating crypto-custody capabilities they originally built with outside partners. Separating out the software arm also suggests Standard Chartered wants a cleaner split between regulated custody and the technology layer around it.",
+      "summary_ja": "スタンダードチャータードは、暗号資産カストディ事業のZodia Custodyを完全子会社化する方針で、ソフトウェア部門は分離・独立させるという。",
+      "why_it_matters_ja": "完全子会社化により、スタンダードチャータードは外部と共同で築いてきたデジタル資産カストディ基盤への統制を強める。銀行各行が暗号資産カストディ機能の取り込みを進める流れを反映する。ソフトウェア部門を分離することで、規制対象のカストディ業務と技術部分をより明確に区分したい意図もうかがえる。",
+      "status": "new",
+      "prev": null,
+      "key": "scb-zodia-custody-subsidiary",
+      "ids": [
+        "9f31e08bbea528"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTY1dWS29Ic1VtWXJLMW42dnVwcERpYUVsX3pMQmxPejIwLVd2MWFmMGtqUmFfZG9FRWhFQjhMcXM2M1ZoN1BNVXEtS0NVeDdUQThkeG05NkNoQzZqMW1mbXhlb3AzZ3lZSnlZdFctRnRQUWpR?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "SK Hynix says Solidigm drops plan for US IPO amid market volatility",
+      "summary": "SK Hynix said its Solidigm unit has dropped plans for a US initial public offering, citing market volatility, according to reports.",
+      "why_it_matters": "The withdrawal adds to signs that recent AI-driven swings in tech and semiconductor valuations are closing the IPO window for chip-adjacent businesses, even those backed by well-capitalised parents. It also leaves SK Hynix with fewer near-term options to realise value from Solidigm through the public market.",
+      "summary_ja": "SKハイニックスは、傘下のソリダイムが市場の変動を理由に米国での新規株式公開（IPO）計画を取り下げたと明らかにした。",
+      "why_it_matters_ja": "この撤回は、AI主導のテック・半導体株の変動が、資本力のある親会社を持つ半導体関連企業であってもIPOの窓を狭めていることを示す一例だ。これにより、SKハイニックスが上場市場を通じてソリダイムの価値を実現する近い将来の選択肢は、さらに限られることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "sk-hynix-solidigm-ipo-withdrawal",
+      "ids": [
+        "16c9497bb7b70a"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/sk-hynix-says-solidigm-drops-plan-us-ipo-amid-market-volatility-6484446"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Anthropic IPO set to deliver blockbuster gains for Iconiq, Spark and Singapore's GIC",
+      "summary": "An Anthropic IPO is set to deliver large gains for early backers Iconiq, Spark and Singapore's sovereign wealth fund GIC. GIC owns about 1% of Anthropic after investing more than $4.5bn in the company.",
+      "why_it_matters": "A listing would crystallise one of GIC's largest AI bets to date, giving Singapore's sovereign fund a marked paper gain and reinforcing the fund's heavy exposure to the AI boom's biggest private names. It also highlights how concentrated the AI boom's paper gains are among a small group of early sovereign and venture backers.",
+      "summary_ja": "アンソロピックの新規株式公開（IPO）により、初期出資者であるアイコニック、スパーク、そしてシンガポール政府系ファンドGICに大きな利益がもたらされる見通しだ。GICはアンソロピックに45億ドル超を投資し、約1％の株式を保有している。",
+      "why_it_matters_ja": "上場が実現すれば、GICにとって現時点で最大級のAI投資の一つが具体的な利益として確定することになる。シンガポール政府系ファンドにとって、AIブームを代表する未上場企業への大きな投資エクスポージャーを裏付ける案件だ。AIブームによる未実現益が、一部の早期出資者である政府系ファンドやベンチャー投資家に集中していることも浮き彫りにする。",
+      "status": "new",
+      "prev": null,
+      "key": "anthropic-ipo-gic-gains",
+      "ids": [
+        "70ced88d3fad61"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/anthropic-ipo-drive-blockbuster-gains-iconiq-spark-gic"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "Financials"
+      ]
+    }
+  ]
+}
