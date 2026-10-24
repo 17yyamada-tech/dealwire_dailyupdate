@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-24-1530",
+      "label": "24 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-24T07:34:35Z",
+      "items": 3,
+      "headlines": [
+        "Instacart in talks with DoorDash and Uber over a potential sale",
+        "Shein agrees to pay $100m to settle US FTC probe, EU investigation continues",
+        "Indonesia cuts piped gas exports to Singapore by about 8% from Oct 24"
+      ]
+    },
+    {
       "id": "2026-10-24-0830",
       "label": "24 Oct 2026 · 08:30 SGT",
       "generated_at": "2026-10-24T00:40:54Z",

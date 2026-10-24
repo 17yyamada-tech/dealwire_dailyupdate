@@ -1,0 +1,92 @@
+{
+  "edition": "2026-10-24-1530",
+  "edition_label": "24 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T07:34:35Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Instacart in talks with DoorDash and Uber over a potential sale",
+      "summary": "Instacart is in discussions with DoorDash and Uber about a possible sale, according to a report. Any transaction would bring together major players in US on-demand delivery and is expected to draw antitrust scrutiny.",
+      "why_it_matters": "A sale would mark further consolidation in the crowded US delivery market and signal that standalone grocery-tech platforms are under pressure to find scale through a strategic buyer rather than stay independent.",
+      "summary_ja": "Instacartが、DoorDashおよびUberとの売却交渉に入ったと報じられた。実現すれば米国のオンデマンド配送分野の大手同士の結合となり、反トラスト当局の審査を受ける見通しだ。",
+      "why_it_matters_ja": "米国の配送市場でさらなる統合が進む動きであり、単独の食料品配送テック企業が独立を維持するより戦略的買収による規模確保を迫られていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "instacart-doordash-uber-sale-talks",
+      "ids": [
+        "cb19d6aaaefe4f"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/instacart-talks-doordash-and-uber-sale-report"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Shein agrees to pay $100m to settle US FTC probe, EU investigation continues",
+      "summary": "Fast-fashion group Shein has agreed to pay US$100 million to settle a probe by the US Federal Trade Commission. The company remains under a separate European Commission investigation over illegal products sold on its platform.",
+      "why_it_matters": "The settlement adds to the regulatory costs fast-fashion platforms face as they scale globally, and the size of the payment may offer a reference point for how the EU's own ongoing probe could be resolved.",
+      "summary_ja": "ファストファッション大手Sheinは、米連邦取引委員会(FTC)による調査を和解するため1億米ドルの支払いに同意した。同社は、サイト上の違法製品に関する欧州委員会の別の調査も引き続き受けている。",
+      "why_it_matters_ja": "ファストファッション企業が事業を世界的に拡大する中で規制対応コストが積み上がっていることを示す事例であり、今回の和解金額はEU側の調査が今後どのような規模で決着するかを測る参考材料にもなり得る。",
+      "status": "new",
+      "prev": null,
+      "key": "shein-ftc-settlement",
+      "ids": [
+        "9fe3bd4bd3e514"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/consumer-healthcare/fast-fashion-group-shein-agrees-pay-us100-million-settle-us-ftc-probe"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "Indonesia cuts piped gas exports to Singapore by about 8% from Oct 24",
+      "summary": "Indonesia has begun reducing natural gas exports to Singapore from October 24, a cut equivalent to about 8% of the pipeline gas it sent to Singapore in 2024.",
+      "why_it_matters": "The reduction tightens Singapore's energy security margin and could feed through to gas-fired power costs and infrastructure investment decisions for the city-state's utilities sector.",
+      "summary_ja": "インドネシアは10月24日から、シンガポール向けのパイプライン天然ガス輸出の削減を開始した。削減幅は2024年の同国からシンガポールへの輸出量の約8%に相当する。",
+      "why_it_matters_ja": "シンガポールのエネルギー安全保障の余力を狭める動きであり、同国のガス火力発電コストやユーティリティ分野の投資判断に影響し得る。",
+      "status": "new",
+      "prev": null,
+      "key": "indonesia-singapore-gas-export-cut",
+      "ids": [
+        "c24d3d8e339138"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/singapore/indonesia-begins-cutting-natural-gas-exports-singapore-oct-24-reports"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [
+        "SEA",
+        "SG"
+      ],
+      "sectors": [
+        "Energy",
+        "Infrastructure"
+      ]
+    }
+  ]
+}
