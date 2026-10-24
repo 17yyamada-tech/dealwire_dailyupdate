@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-26T18:17:00Z",
- "checked_at": "2026-10-24T00:49:43Z",
+ "checked_at": "2026-10-24T04:48:59Z",
  "background": [
   {
    "date": "2026-09-24",
@@ -71,6 +71,14 @@
    "summary_ja": "AST SpaceMobileの周波数提携先であるLigado Networksは、ロケットラボによるイリジウム買収の免許移転審査についてFCCにコメントを提出した。イリジウムが競合する衛星サービスを妨げる目的で手続き上の申立てを利用してきたと主張し、SpaceXが以前の申請で指摘した「8か月間で50件超の拒否申立て」を引用した。なお、SpaceX自身は買収そのものには反対していないとしている。",
    "source": "TradingView (Stocktwits)",
    "url": "https://www.tradingview.com/news/stocktwits:a51d2b9dd094b:0-rklb-stock-suffers-worst-week-ever-ast-spacemobile-partner-challenges-iridium-deal-claims-rival-uses-fcc-to-block-competitors/"
+  },
+  {
+   "date": "2026-10-19",
+   "headline": "FCC sets Oct 30 opposition and Nov 9 reply deadlines on Rocket Lab-Iridium license-transfer applications",
+   "summary": "The FCC's public notice (DA 26-985, GN Docket 26-257) on the Rocket Lab-Iridium license transfer set October 30, 2026 as the deadline for responses to comments and oppositions to petitions, and November 9, 2026 as the deadline for replies, after the October 15 deadline for initial comments and petitions had already passed.",
+   "summary_ja": "ロケットラボによるイリジウムの免許移転申請に関するFCCの公示(DA 26-985、GNドケット26-257)は、10月15日の意見・申立て提出期限に続き、意見への回答・申立てへの異議申立ての期限を2026年10月30日、再答弁の期限を同年11月9日と定めた。",
+   "source": "Federal Communications Commission",
+   "url": "https://docs.fcc.gov/public/attachments/DA-26-985A1.pdf"
   },
   {
    "date": "2026-10-14",
