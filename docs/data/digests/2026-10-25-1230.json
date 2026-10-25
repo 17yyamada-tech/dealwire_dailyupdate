@@ -1,0 +1,64 @@
+{
+  "edition": "2026-10-25-1230",
+  "edition_label": "25 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T04:34:37Z",
+  "reading_minutes": 1,
+  "items": [
+    {
+      "headline": "Fireblocks to cut about 7% of staff as Visa acquisition speculation resurfaces",
+      "summary": "Fireblocks is cutting roughly 7% of its workforce, according to a report, as speculation about a Visa acquisition of the crypto-custody firm resurfaces. Fireblocks had previously denied an earlier report that Visa was in talks to buy it for about $2.5bn.",
+      "why_it_matters": "Layoffs alongside renewed buyout chatter raise the question of whether the cuts are meant to make Fireblocks a leaner acquisition target or are simply a response to softer crypto-infrastructure demand; a Visa deal, if it materialises, would rank among the largest crypto-infrastructure acquisitions this year.",
+      "summary_ja": "ファイアブロックスは報道によると、暗号資産カストディ事業の人員の約7%を削減する。同社をめぐっては以前、ビザが約25億ドルで買収交渉を行っているとの報道があったが、ファイアブロックス側はこれを否定していた。",
+      "why_it_matters_ja": "人員削減と買収観測の再燃が同時に起きていることは、コスト削減が買収されやすい体制づくりを意図したものか、暗号資産インフラ需要の軟化への対応かという論点を提起する。ビザによる買収が実現すれば、今年最大級の暗号資産インフラ買収の一つとなる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-23-1230",
+        "index": 3
+      },
+      "key": "visa-fireblocks-acquisition-talks",
+      "ids": [
+        "569e41a35aebb8"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MamlyQmJGNHUteU05aUlNelFtY21kTU1aS3ZMSFZ0a0FiRGp4QU56US1nSVhrekFicGZoQXpYMzdtYnF4emNFWHE5YVJfa1ZNWGY3R0ZnekVGdFpadXdid1M1dG4wNFAycWVIT2pIM1RuYXh6?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "South Africa's IDC nears $610m deal for ArcelorMittal's distressed unit",
+      "summary": "South Africa's Industrial Development Corporation is nearing a deal worth about $610m to acquire a distressed unit of ArcelorMittal, according to a report.",
+      "why_it_matters": "A state-backed buyer stepping in for a distressed ArcelorMittal unit would mark a rare direct state intervention in South Africa's steel sector, and the agreed price will set a reference point for distressed-asset valuations in the country's heavy industry.",
+      "summary_ja": "南アフリカの産業開発公社（IDC）が、アルセロール・ミッタルの苦境に陥っている部門の買収に向け、約6.1億ドル規模の取引に近づいていると報じられた。",
+      "why_it_matters_ja": "国有系の買い手が苦境にあるアルセロール・ミッタルの部門を支える形になれば、南アフリカの鉄鋼業における異例の国家による直接介入となる。合意される価格は、同国の重工業におけるディストレスト資産の評価基準の目安となる。",
+      "status": "new",
+      "prev": null,
+      "key": "idc-arcelormittal-south-africa",
+      "ids": [
+        "a7644d6583185d"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtd0xUVGN5MXE0d3d5cGJRM0U0akZXakdlT3lvS1ppTTNaeVlwTHJ5X25CNGpGaG9YLVpnMVZEVVRoSnZUeUhycjNGR3h2REV2Y25QZG5MM3ZVdjQzMTFPcklqMGVwUVN3eEFqcW1QenpfQjhO?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
