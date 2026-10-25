@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-25T04:51:00Z",
+ "checked_at": "2026-10-25T07:55:19Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-24",
+   "headline": "Trump weighs resuming Iran strikes as Pentagon reinforces Gulf with more warships and Marines ahead of US and Israeli elections",
+   "summary": "Reports on October 24, 2026 said the Trump administration is weighing renewed military strikes against Iran and preparing to escalate once the November 3 US midterm elections and Israel's October 27 election have passed, as the Pentagon continued sending additional warships and Marines to the Middle East.",
+   "summary_ja": "2026年10月24日の報道によると、トランプ政権はイランへの新たな軍事攻撃を検討しており、11月3日の米中間選挙とイスラエルの10月27日選挙が終わった後にエスカレーションに踏み切る準備を進めているという。国防総省は中東への艦艇・海兵隊の増派を続けている。",
+   "source": "The Spokesman-Review",
+   "url": "https://spokesman.com/stories/2026/oct/24/trump-prepares-for-iran-escalation-after-us-israel"
+  },
   {
    "date": "2026-10-23",
    "headline": "Brent settles at $116.72, highest close since April, logging third straight weekly gain of 6.2%",
