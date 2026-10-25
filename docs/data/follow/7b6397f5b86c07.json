@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-24T07:49:41Z",
+ "checked_at": "2026-10-25T00:47:35Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-23",
+   "headline": "Brent settles at $116.72, highest close since April, logging third straight weekly gain of 6.2%",
+   "summary": "Brent crude futures rose 3.1% to settle at $116.72 a barrel on October 23, 2026, their highest close since April 29, while WTI added 3.8% to settle at $103.27; Brent gained 6.2% for the week, its third consecutive weekly increase, as Middle East tensions including the Strait of Hormuz standoff continued to support prices.",
+   "summary_ja": "2026年10月23日、ブレント原油先物は3.1%高の1バレル116.72ドルで引け、4月29日以来の高値を付けた。WTIも3.8%高の103.27ドルで終えた。ブレントは週間で6.2%上昇し3週連続の上昇となった。ホルムズ海峡を巡る対立を含む中東情勢の緊張が原油価格を支えている。",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+  },
   {
    "date": "2026-10-23",
    "headline": "WTI crude tops $100/barrel, up more than 10% over three weeks on Hormuz supply fears",
