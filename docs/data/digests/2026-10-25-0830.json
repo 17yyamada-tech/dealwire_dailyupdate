@@ -1,0 +1,180 @@
+{
+  "edition": "2026-10-25-0830",
+  "edition_label": "25 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T00:34:45Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "RedotPay acquires Japan's BTCBOX in bid to secure a crypto licence",
+      "summary": "RedotPay, a crypto payments provider, has acquired BTCBOX, a Japan-based cryptocurrency exchange. Reports describe RedotPay as a currently unregistered payment operator in Japan, using the deal to secure a licence through BTCBOX's existing registration.",
+      "why_it_matters": "The acquisition offers RedotPay a fast route to a licensed footprint in Japan's crypto market by taking over BTCBOX's existing registration, rather than pursuing registration on its own.",
+      "summary_ja": "暗号資産決済企業のRedotPayが、日本の暗号資産取引所BTCBOXを買収した。報道によると、RedotPayは日本で未登録の決済事業者であり、BTCBOXの既存登録を通じてライセンスを確保する狙いがあるとされる。",
+      "why_it_matters_ja": "この買収により、RedotPayは自ら登録手続きを進めるのではなく、BTCBOXの既存の登録を活用して日本の暗号資産市場に素早く足場を築くことができる。",
+      "status": "new",
+      "prev": null,
+      "key": "redotpay-btcbox-japan",
+      "ids": [
+        "8639a05b8a0efc",
+        "ac78a7adcbe0d0"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa1p2SnNiYWdpa3hOeC02VHlFZlJCN1JsbjZBT2dIdXQ1ZVZOTjJPcVZ0N0dZYl8yZEdqYjB1WUNIWDF5NGhSWFVBWl83WnVSSTJzbXZPaHNON0ZteHlGWF9QRUFDVXZwZU0wMmNONm9fdnBMUHZTNXg0c0M1dHNlLU9RUUZZcUk?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iOVdqRjd1Mkd2cC1uYjRsV2VNWEVzTk13dV9pQU9yWEtuVlpLUHRMakVaY3MxZVVMSlhCWlRuREc0WnpNZXFaWmlNbnpGV2FEcGdqblIzSUNsZXNWY1h2MlRSTTFwNEttMzJ2UU1SY0JFZW03?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Frasers Group acquires Hugo Boss as part of new luxury group plan",
+      "summary": "UK retailer Frasers Group has acquired German fashion house Hugo Boss. The deal is described as part of Frasers' plan to build a new luxury group.",
+      "why_it_matters": "The move signals Frasers Group's ambition to move upmarket beyond its sports and discount retail roots, adding a recognised luxury fashion brand to a portfolio built mainly through stakes in other retailers.",
+      "summary_ja": "英小売大手フレイザーズ・グループが、独ファッションブランドのヒューゴ ボスを買収した。同社が新たなラグジュアリーグループを構築する計画の一環とされる。",
+      "why_it_matters_ja": "この買収は、フレイザーズ・グループがスポーツ用品やディスカウント小売を中心としてきた事業から、知名度の高いラグジュアリーブランドを取り込み、高価格帯市場へ軸足を広げる狙いを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "frasers-hugo-boss",
+      "ids": [
+        "95ea41a869e135",
+        "b7c409afc1aa99"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RR2FoQU1yMkpJbXBqWkFacjBuLVdIMVZPUTdHazVNOHNsLXRZTDdoN29ITGdRZEx1MVk5QTlCTHlSc2VJRjU2WUpBbzRkUHFmNFhPenk1SFdWVF9tMGViWU1Cd2dWMXFSdGtRZEtweWx3Y2FleVpsb3pkdExYOW8?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xUzlSQndTMWxPR3hqcnc3bE5mTW82MzhqaFBZUUY3Y3dHUk93eG9qTXd5OXlobEw4dzNyVTdaUGtISEhJS2x0ZHJTSS1VdDZLbEp3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "Stout acquires Flightline to bring AI due-diligence work in-house",
+      "summary": "Advisory firm Stout has acquired Flightline. The deal is aimed at building in-house AI due-diligence capabilities.",
+      "why_it_matters": "Bringing AI due-diligence in-house lets Stout offer it as a standard part of deal advisory work rather than relying on third-party tools, a capability that could become a differentiator as AI-related diligence becomes more routine in M&A.",
+      "summary_ja": "アドバイザリー企業のStoutが、Flightlineを買収した。AIデューデリジェンス機能を自社内に取り込むことが目的とされる。",
+      "why_it_matters_ja": "AIデューデリジェンスを内製化することで、Stoutは外部ツールに依存せず、取引アドバイザリー業務の標準機能として提供できるようになる。M&AにおけるAI関連の精査が一般化するなか、差別化要因になり得る。",
+      "status": "new",
+      "prev": null,
+      "key": "stout-flightline-ai-dd",
+      "ids": [
+        "cb7849f09d576f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTC1JclNDT05kNUVnV0U4QU10aUhBTmRsOE5RbDhSLUZCVHFMb19jQ0cyclVvY21lWEUzdGpOQ24tVjFkUGxuSk10UnFwNmNnSDZ0cmo1WURMbW10OUYyQjVrTVZhcWRuTU1mVzJQZ3psejZkZzdEQzlUa0JNa3FYNDNIdzlrZ3REWDBoWnVrd2ZLLUk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Cognizant acquires DyFlex to add SAP expertise for enterprise AI",
+      "summary": "IT services group Cognizant has acquired DyFlex. The deal is intended to add SAP-focused expertise to Cognizant's enterprise AI offering.",
+      "why_it_matters": "The purchase lets Cognizant combine SAP implementation know-how with AI services, positioning it to sell AI-enabled enterprise-software upgrades to existing SAP clients rather than ceding that work to specialist competitors.",
+      "summary_ja": "ITサービス大手のCognizantが、DyFlexを買収した。エンタープライズAI事業にSAP分野の専門知識を取り込むことが狙いとされる。",
+      "why_it_matters_ja": "この買収により、CognizantはSAP導入のノウハウとAIサービスを組み合わせられるようになる。既存のSAP顧客に対してAIを活用したシステム刷新を提案しやすくなり、専門業者に顧客を奪われるのを防ぐ狙いがある。",
+      "status": "new",
+      "prev": null,
+      "key": "cognizant-dyflex-sap-ai",
+      "ids": [
+        "f9699d863b1486"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSG9YZW10b2pMT0pBdzBJVUVhVEoydThHTlNHT3dXYW1KaVBwaXgwbl9oTHFyU3BITXFyTzFwdl9fcHRZaVVPSFdIclU4M1NRVGpqOGlZamxKT3VXb3U1S2p5MklibnJoNlFucmlNRlltYk1VY1FHcHVrZHRGU1ZybEhLZjJIREtuaEZwUHgzZEVWbzRlMWRyaWdtcnBYQ1NYT3c?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Meta acquires Sundial to bring AI analytics in-house",
+      "summary": "Meta has acquired Sundial. The deal is aimed at bringing AI analytics capabilities in-house.",
+      "why_it_matters": "Bringing AI analytics in-house reduces Meta's reliance on third-party tools for analysing its AI systems, fitting a broader pattern of large tech platforms absorbing specialist AI teams rather than buying their services.",
+      "summary_ja": "Metaが、Sundialを買収した。AI分析機能を自社内に取り込むことが目的とされる。",
+      "why_it_matters_ja": "AI分析機能を内製化することで、Metaは自社のAIシステムを分析する際の外部ツールへの依存を減らせる。大手テック企業が専門チームをサービス購入ではなく買収によって取り込む、近年の傾向に沿った動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "meta-sundial-ai-analytics",
+      "ids": [
+        "a5fe7d96a66811"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGl2ay1FTm96Q3hXRVQ0R0Y4Y3R2UlNlQlB5cy02emdfX1dCdzg1VlRZZm9hdUJ5Y1hkc3VCZFlRdERnQkpKMUpoQ1VZeFI1cXRjSzJGQXZPT05CcFpxd1N2OFVHVEJCS2JfdkZTLXRMckUza01FQjhHUjZfWTZVTzlzY2pOOU5xZmVxd1Bn?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Apax, Nordic Capital and Dalmore weigh bids for UK's JLA Group",
+      "summary": "Private equity firms Apax Partners, Nordic Capital and Dalmore are considering acquiring Britain's JLA Group, according to a report.",
+      "why_it_matters": "Three sizeable buyout firms circling the same UK target points to a competitive process, which could support the price if the asset goes to auction.",
+      "summary_ja": "プライベートエクイティのアパックス・パートナーズ、ノルディック・キャピタル、ダルモアが、英国のJLAグループの買収を検討していると報じられた。",
+      "why_it_matters_ja": "有力バイアウトファンド3社が同じ英国企業の獲得を検討していることは、入札が競争的なプロセスになる可能性を示しており、オークションとなれば価格を押し上げる要因になり得る。",
+      "status": "new",
+      "prev": null,
+      "key": "apax-nordic-dalmore-jla",
+      "ids": [
+        "37ab30b6970d2f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OZ2l4dmdET1F5RFFBdmpLdjF2VFNnWXdhTmNSMWxHMk9pcU16TkhWT2FzVHdFY1NOZ3JVMnlLME56WG5keGYweEw0ckFqVWdPeG1mcVBPdktwcGFiZ2lja0QzZ2syZVo4SUVLb1EyVmY?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
