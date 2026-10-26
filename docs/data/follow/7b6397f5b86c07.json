@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-26T04:48:36Z",
+ "checked_at": "2026-10-26T07:52:03Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-25",
+   "headline": "Gulf News: new LPG tanker attack near Oman; JMIC rates Strait of Hormuz threat 'severe', about 500 vessels waiting outside",
+   "summary": "Gulf News reported a new attack on a liquefied petroleum gas tanker near Oman, with the Joint Maritime Information Center rating the threat level in the Strait of Hormuz as severe; the report said nearly 500 vessels were waiting outside the strait amid the ongoing disruption.",
+   "summary_ja": "ガルフ・ニュースは、オマーン沖でLPG(液化石油ガス)タンカーが新たに攻撃を受けたと報じた。統合海事情報センター(JMIC)はホルムズ海峡の脅威レベルを「深刻」と評価しているという。同紙によると、海峡の混乱が続く中、約500隻の船舶が海峡外で待機している。",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
+  },
   {
    "date": "2026-10-24",
    "headline": "Trump weighs resuming Iran strikes as Pentagon reinforces Gulf with more warships and Marines ahead of US and Israeli elections",
@@ -239,6 +247,14 @@
    "summary_ja": "ロイターが米政府当局者の情報として報じたところによると、トランプ政権はロシア・イラン・ベネズエラ関連の制裁対象タンカー(シャドーフリート)について、制裁対象外の「合法な」原油の輸送を認める形で制裁を部分的に緩和する案を検討しており、利用には米財務省の承認が必要になるという。クリス・ライト米エネルギー長官は記録的な運賃上昇が米国産原油の需要を圧迫していると述べたが、ロシア・イラン産原油は引き続き対象外とされ、海事関係者は保険会社が依然EUや英国の規制に従う必要があるため運賃の全般的な低下にはつながりにくいとロイターに語った。",
    "source": "gCaptain (via Reuters)",
    "url": "https://gcaptain.com/trump-weighs-lifting-shadow-fleet-sanctions-as-tanker-rates-soar/"
+  },
+  {
+   "date": "2026-10-15",
+   "headline": "Bloomberg: Katayama renews yen-intervention warning after hot US CPI data pushes yen to month's weakest level",
+   "summary": "Bloomberg reported that Japanese Finance Minister Satsuki Katayama renewed her warning that Tokyo stands ready to act in currency markets again, after the yen weakened to its softest level of the month following hotter-than-expected US inflation data; she said there had been no change in Japan's and Washington's stance since their July joint intervention.",
+   "summary_ja": "ブルームバーグの報道によると、片山さつき財務相は、米国の予想を上回るインフレ指標を受けて円が今月の最安値まで下落したことについて、改めて通貨市場への介入準備があると警告した。同氏は、7月の日米協調介入以来、両国の姿勢に変化はないと述べた。",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/japan-s-katayama-renews-warnings-on-yen-after-us-cpi-heats-up"
   },
   {
    "date": "2026-10-14",
