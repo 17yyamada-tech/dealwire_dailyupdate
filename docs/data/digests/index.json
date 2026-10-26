@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-26-1530",
+      "label": "26 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-26T07:40:32Z",
+      "items": 7,
+      "headlines": [
+        "LINE Yahoo, Bain raise Kakaku.com tender offer price to ¥3,700 a share",
+        "Ikuyo launches ¥3,000-a-share tender offer for Muraki, to keep it listed",
+        "TPG-backed One Aged Care acquires Active Global"
+      ]
+    },
+    {
       "id": "2026-10-26-1230",
       "label": "26 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-26T04:36:50Z",
