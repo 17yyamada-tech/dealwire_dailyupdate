@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-26-0830",
+      "label": "26 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-26T00:36:56Z",
+      "items": 8,
+      "headlines": [
+        "Bon Secours to acquire Bain Capital-backed Surgery for $6bn, FT reports",
+        "SpaceX raises $40bn in debt to fund GPU buildout, Musk says",
+        "Tokyo Gas to take full ownership of Indonesia's AGPIU, expanding into LNG infrastructure"
+      ]
+    },
+    {
       "id": "2026-10-25-1230",
       "label": "25 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-25T04:34:37Z",
