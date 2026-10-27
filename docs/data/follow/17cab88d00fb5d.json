@@ -4,7 +4,7 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T10:00:23Z",
- "checked_at": "2026-10-26T07:52:03Z",
+ "checked_at": "2026-10-27T00:50:18Z",
  "background": [
   {
    "date": "2026-07-27",
@@ -48,6 +48,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-26",
+   "headline": "Payward plans CFTC-regulated perpetual futures market on Hyperliquid via subsidiary Bitnomial",
+   "summary": "Payward, Kraken's parent, said it plans to launch a CFTC-regulated perpetual futures market on the Hyperliquid platform, with its derivatives subsidiary Bitnomial handling contract creation, management, clearing and settlement; the arrangement remains subject to regulatory approval and no launch date or contract lineup has been set.",
+   "summary_ja": "クラーケン親会社Paywardは、Hyperliquid上でCFTC規制下のパーペチュアル・フューチャー(無期限先物)市場を立ち上げる計画を示した。契約の組成・管理・清算・決済は傘下のデリバティブ会社Bitnomialが担う。実施には規制当局の承認が必要で、取引開始日や上場契約の詳細はまだ決まっていない。",
+   "source": "Coinedition",
+   "url": "https://coinedition.com/crypto-live-news/kraken-parent-payward-plans-regulated-us-perpetual-futures/"
+  },
+  {
+   "date": "2026-10-22",
+   "headline": "Payward wins in-principle approval from Kazakhstan's AFSA to license Payward Kazakhstan in the AIFC",
+   "summary": "The Astana Financial Services Authority granted Payward in-principle approval to license Payward Kazakhstan within the Astana International Financial Centre, a step toward Kraken parent Payward's expansion into the Kazakhstan market; no date for a customer launch was given.",
+   "summary_ja": "カザフスタンの金融サービス庁(AFSA)は、クラーケン親会社Paywardに対し、アスタナ国際金融センター(AIFC)内でPayward Kazakhstanの免許を取得するための予備承認を与えた。Paywardが同国市場への展開を進める一段階となる。顧客向けサービスの開始時期は明らかにされていない。",
+   "source": "Cryptonews.net",
+   "url": "https://cryptonews.net/news/market/33645682/"
+  },
   {
    "date": "2026-10-14",
    "headline": "Payward signs deal to buy Lithuania-licensed Saldo Bank, becoming first crypto firm to acquire an EU bank",
