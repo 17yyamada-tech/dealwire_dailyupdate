@@ -1,0 +1,178 @@
+{
+  "edition": "2026-10-27-1530",
+  "edition_label": "27 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T07:37:50Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Nvidia to invest $3bn in Meta, deepening AI partnership on Muse agent",
+      "summary": "Nvidia is investing $3 billion in Meta as part of a deepened artificial-intelligence partnership that includes collaborating on Meta's Muse agent, according to CNA Business. No further financial terms were given in the report.",
+      "why_it_matters": "The investment extends Nvidia's strategy of taking stakes in major AI customers and partners, tightening the commercial ties between the dominant AI-chip supplier and one of its largest buyers.",
+      "summary_ja": "NvidiaがMetaに30億ドルを投資し、Metaの「Muse」エージェントでの協業を含むAI分野での提携を深めると、CNA Businessが報じた。これ以上の財務条件は報道で明らかにされていない。",
+      "why_it_matters_ja": "この投資は、NvidiaがAI分野の主要な顧客・パートナーに出資する戦略の延長であり、AI半導体市場を支配する同社と最大級の顧客との商業的な結びつきを一層強めるものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "nvidia-meta-investment-muse",
+      "ids": [
+        "759b33d7c75ef3",
+        "fb50d2e9159988"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/nvidia-meta-deepen-ai-ties-3-billion-investment-deal-6495591"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/nvidia-meta-partner-muse-agent-nvidia-invests-3-billion-6495591"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Perfect completes founder-led take-private of YouCam Makeup operator, four years after listing",
+      "summary": "Perfect, the operator of the YouCam Makeup app, has completed a founder-led buyout that takes the company private, four years after its stock market listing, according to Japan PE & activists. The report did not disclose financial terms.",
+      "why_it_matters": "The deal adds to a run of founder-led take-privates among smaller listed consumer-tech names seeking to step away from public-market disclosure and short-term earnings pressure.",
+      "summary_ja": "「YouCam Makeup」を運営するPerfectが、上場から4年で創業者主導の買収による非公開化を完了したと、Japan PE & activistsが報じた。財務条件は開示されていない。",
+      "why_it_matters_ja": "この買収は、公開市場での開示義務や短期的な業績圧力から離れようとする中小型コンシューマーテック企業による創業者主導の非公開化が続く流れに加わるものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "perfect-youcam-makeup-take-private",
+      "ids": [
+        "c17d686bf4e85e"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAyQkgxWHJudWZNeHY4YWFPRllQUGZyN2piY3A2cEFlSXZvODVpalNDX3lQci1IcWdKS2poRnhVbm1FME1EdjNXVFYtYktId085UVBV?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Truelink Capital agrees to acquire Johnson Controls' global intrusion products business",
+      "summary": "Truelink Capital, a Los Angeles-based private equity firm, has signed a definitive agreement to acquire the global intrusion products business of Johnson Controls, according to the companies. Financial terms were not disclosed.",
+      "why_it_matters": "The carve-out continues a pattern of large industrial conglomerates shedding non-core security and building-products units to private equity buyers seeking standalone platforms.",
+      "summary_ja": "ロサンゼルスを拠点とするプライベートエクイティ企業Truelink Capitalが、ジョンソン・コントロールズの防犯侵入検知機器事業を買収する最終契約を締結したと、両社が発表した。財務条件は開示されていない。",
+      "why_it_matters_ja": "この事業切り出しは、大手産業コングロマリットが非中核のセキュリティ・建材関連事業をプライベートエクイティに売却し、単独プラットフォームとして再編する流れが続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "truelink-johnson-controls-intrusion-products",
+      "ids": [
+        "e31ad0c2cc169b"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/truelink-capital-signs-definitive-agreement-to-acquire-johnson-controls-global-intrusion-products-business-302919844.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Valmet to acquire Tieto's AI-powered manufacturing execution system business",
+      "summary": "Valmet has agreed to acquire the manufacturing execution system (MES) business from Tieto, including Tieto's AI-powered TIPS MES software used for production planning, the company said in a press release. The deal is positioned to support customers' shift toward autonomous industrial operations.",
+      "why_it_matters": "Adding AI-driven production-planning software extends Valmet's industrial-automation offering at a time when manufacturers are investing more heavily in autonomous plant operations.",
+      "summary_ja": "Valmetが、ＴｉｅｔｏからＡＩを活用した生産計画ソフトウェア「ＴＩＰＳ ＭＥＳ」を含む製造実行システム（ＭＥＳ）事業を買収することで合意したと、プレスリリースで発表した。この買収は顧客の自律型工場運営への移行を支援する位置づけとされている。",
+      "why_it_matters_ja": "ＡＩを活用した生産計画ソフトウェアの獲得は、製造業が自律型工場運営への投資を強める中で、Ｖａｌｍｅｔの産業オートメーション事業の提供範囲を広げるものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "valmet-tieto-mes-acquisition",
+      "ids": [
+        "a7d5dbec80c872"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/valmet-to-acquire-leading-manufacturing-execution-system-mes-business-from-tieto-to-accelerate-industrial-transition-towards-autonomous-operations-302920375.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Yangzijiang Maritime extends vessel monetisation drive to $308m in aggregate sales",
+      "summary": "Yangzijiang Maritime has continued its vessel monetisation strategy, reaching an aggregate gross sales value of US$308 million, according to a company announcement on the Singapore Exchange. The filing did not specify which or how many vessels were involved.",
+      "why_it_matters": "The continued sales point to ongoing capital recycling among Singapore-listed shipping owners, who are trimming fleets and managing balance sheets even as freight markets stay firm.",
+      "summary_ja": "Yangzijiang Maritimeが船舶の資産売却戦略を継続し、累計の売却総額が3億800万米ドルに達したと、シンガポール取引所への開示で発表した。開示文書では対象となった船舶の種類や数は明記されていない。",
+      "why_it_matters_ja": "売却継続は、海運市況が底堅く推移する中でも、シンガポール上場の船主がフリート構成とバランスシートを管理するための資本の入れ替えを続けていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "yangzijiang-maritime-vessel-monetisation",
+      "ids": [
+        "b0b7e9811d6d92"
+      ],
+      "links": [
+        {
+          "source": "SGX announcements",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQ045ekw3OWdjWHVKZHJoQmItUjhFQkI4Z3F0SnZ2UUgwTnhLLXZqcVlpNXJib29FMHhXUWtJWUtvSl9qREpkdkxVR0FvSlJHelJJTWJUZHFDNkNRamhOZTYyNFZ6UkZjX19tZ09lWFNQWHdFa1hRWEMwNy1pcC1Tak9VNnp3VmtPalQ5c0RDb0dEY1A0c0x0bkZ3Y1R1WldXOXhsSHFwZUNORktuU002T3V5RHNNODBjQ2c5UGpweXF1a1I1eFFIU0hfNEdFeURxeS00VjA0QURDSXNzZ3RmTUdZVFZ2aFBUVDRvQ0FqM1ZQeEE?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "IFC proposes $30m investment in Hong Kong fintech Unloq's $500m securitisation programme",
+      "summary": "The International Finance Corporation has proposed a $30 million investment in a $500 million securitisation programme run by Hong Kong-based Unloq, according to DealStreetAsia. The report did not detail the underlying assets in the programme.",
+      "why_it_matters": "Development-finance backing for a Hong Kong fintech's securitisation programme signals continued institutional appetite for structured credit platforms in Asia and could widen Unloq's funding base.",
+      "summary_ja": "国際金融公社（ＩＦＣ）が、香港を拠点とするＵｎｌｏｑの5億ドル規模の証券化プログラムに3000万ドルを投資する計画を示したと、DealStreetAsiaが報じた。報道ではプログラムの裏付けとなる資産の詳細には触れていない。",
+      "why_it_matters_ja": "香港のフィンテック企業の証券化プログラムに開発金融機関が関与することは、アジアのストラクチャード・クレジット基盤に対する機関投資家の需要が続いていることを示し、Ｕｎｌｏｑの資金調達基盤を広げる可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "ifc-unloq-securitisation",
+      "ids": [
+        "17e062ad735e93"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56UHdWdFRpUnJJZkpjMDVTX2ZUUDI3czF4UF9zNTJGM2JubFYtZ3ZFYzFyS05UaDZ0ZDZ2eEJ4TnhKOThDMTdDZC1WN0FlQzBseUNpbjF1RUE5c2MwQjRvZDdhUzVpQzA4bnBRNGZRQi1tWTNYZ2Y4bQ?oc=5"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    }
+  ]
+}

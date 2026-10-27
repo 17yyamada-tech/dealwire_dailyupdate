@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-27-1530",
+      "label": "27 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-27T07:37:50Z",
+      "items": 6,
+      "headlines": [
+        "Nvidia to invest $3bn in Meta, deepening AI partnership on Muse agent",
+        "Perfect completes founder-led take-private of YouCam Makeup operator, four years after listing",
+        "Truelink Capital agrees to acquire Johnson Controls' global intrusion products business"
+      ]
+    },
+    {
       "id": "2026-10-27-1230",
       "label": "27 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-27T04:36:53Z",
