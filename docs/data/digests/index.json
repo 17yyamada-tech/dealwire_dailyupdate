@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-27-0830",
+      "label": "27 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-27T00:43:03Z",
+      "items": 10,
+      "headlines": [
+        "EQT agrees all-stock merger with Range Resources in deal valued above $50bn",
+        "DoorDash nears roughly $17bn deal to acquire Instacart, agreement possible within days",
+        "Surgery Partners agrees to go private in Bon Secours-linked deal worth about $5.7bn"
+      ]
+    },
+    {
       "id": "2026-10-26-1530",
       "label": "26 Oct 2026 · 15:30 SGT",
       "generated_at": "2026-10-26T07:40:32Z",

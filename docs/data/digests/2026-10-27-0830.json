@@ -1,0 +1,314 @@
+{
+  "edition": "2026-10-27-0830",
+  "edition_label": "27 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T00:43:03Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "EQT agrees all-stock merger with Range Resources in deal valued above $50bn",
+      "summary": "EQT Corporation and Range Resources Corporation have entered into a definitive merger agreement under which EQT will acquire Range in an all-stock transaction, the companies said. Japan M&A reported the combined deal is valued at more than $50 billion, with EQT describing the tie-up as creating America's largest natural-gas producer.",
+      "why_it_matters": "Combining two major US natural-gas producers into a single dominant player comes as AI-driven power demand is reshaping US energy M&A, and the all-stock structure signals EQT's confidence in using its own equity as acquisition currency.",
+      "summary_ja": "EQTコーポレーションとレンジ・リソーシズ・コーポレーションは、EQTがレンジを全株式交換で買収する最終合併契約を締結したと発表した。Japan M&Aの報道によれば取引総額は500億ドルを超え、EQTはこの統合を米国最大の天然ガス生産者を生み出すものと説明している。",
+      "why_it_matters_ja": "米国の大手天然ガス生産者2社が一つの支配的企業に統合される動きは、AI主導の電力需要が米エネルギーM&Aの構図を変えつつある最中に起きており、全株式交換という構造はEQTが自社株を買収の対価として用いる自信を示している。",
+      "status": "new",
+      "prev": null,
+      "key": "eqt-range-resources-merger",
+      "ids": [
+        "9577b46fe451b7",
+        "fb1e51db7252c4"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/eqt-announces-strategic-acquisition-of-range-resources-creating-americas-undisputed-natural-gas-champion-302919052.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LN2gzTVhwS1JmQ3Z0eEhFcTg1cGRkeDk0TS0tRk1LZEdsdU95OW5KNkJJcENnaUdkOVJhcF9QMUZjeE03ZVRaU3B0MGJuZzg2ajJGNXdfblV3bkszTThBSy1DV0NPZk1BbmpBeEZadUp6V29HV1pj?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy",
+        "Other"
+      ]
+    },
+    {
+      "headline": "DoorDash nears roughly $17bn deal to acquire Instacart, agreement possible within days",
+      "summary": "DoorDash is in final-stage talks to acquire grocery-delivery rival Instacart for about $17 billion, with an announcement possible this week and a deal potentially reached by October 28, according to Japan M&A. The talks mark a narrowing of Instacart's earlier sale process, which had also involved Uber as a potential acquirer.",
+      "why_it_matters": "A DoorDash-Instacart combination would merge two of the largest US food and grocery delivery platforms, intensifying competition with Uber and likely drawing antitrust scrutiny given the concentration it would create in grocery delivery.",
+      "summary_ja": "Japan M&Aの報道によれば、ドアダッシュは食品宅配で競合するインスタカートを約170億ドルで買収する最終交渉段階にあり、今週中の発表や10月28日までの合意の可能性があるという。これは、ウーバーも買収候補として関与していたインスタカートの売却プロセスが絞り込まれたことを示す。",
+      "why_it_matters_ja": "ドアダッシュとインスタカートの統合が実現すれば、米国の食品・食料品宅配の大手2社が一体化することになり、ウーバーとの競争が激化するとともに、食料品宅配分野での集中度の高まりから独占禁止法上の審査を招く可能性が高い。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-24-1530",
+        "index": 0
+      },
+      "key": "instacart-doordash-uber-sale-talks",
+      "ids": [
+        "87fa21bd120188",
+        "3d532faa5c9a1c"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4yUVdUVDkxV0ZEbzdrTmtxdzVIYWM4Y3NPSmtTSXBxcTg2X2kwLXZWUnZOVTg3SDBuc2Zfbkt5RVV6WlFDVHVZU1VBOExqVEpNNi0xT1oyanNFR1U3dmtMbUZ2RFRiSEg1cEJDTXZjYUg5cDFo?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3Wnl4Q05EX1oyUXROVTNCVWlXS0RMX2N6TDhqYXB5TmZUenp1b25SUVFpSkZUVXAyQ0xSbTZvOU0wN3V2QjhVRzZvTXN3TkhYSTNKdkRmaEd2ZGpTczE0SU15SXZXWWgwUkMtUWN3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Consumer",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Surgery Partners agrees to go private in Bon Secours-linked deal worth about $5.7bn",
+      "summary": "Surgery Partners has agreed to be taken private in an acquisition by a Bon Secours-affiliated entity valued at about $5.7 billion, confirming last week's Financial Times report of a roughly $6 billion deal. Surgery Partners shares jumped as much as 21% in after-hours trading on the news, according to Japan M&A.",
+      "why_it_matters": "Turning a reported take-private into a signed agreement locks in Bain Capital's exit from the healthcare group and confirms one of the larger sponsor-to-strategic healthcare deals flagged this week.",
+      "summary_ja": "サージェリー・パートナーズは、ボン・セクール系列の企業による約57億ドルの買収を受けて非公開化することに合意した。これは、フィナンシャル・タイムズが先週報じた約60億ドル規模との報道をおおむね裏付ける内容。Japan M&Aによれば、この発表を受けて同社株は時間外取引で一時21%急騰した。",
+      "why_it_matters_ja": "報道段階だった非公開化が正式契約に至ったことで、ベイン・キャピタルの同社からのイグジットが確定し、今週取り上げた大型のスポンサーから事業会社へのヘルスケア案件の一つが裏付けられた形となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-26-0830",
+        "index": 0
+      },
+      "key": "bon-secours-surgery-acquisition",
+      "ids": [
+        "6fa0f3254a074b",
+        "e700fcdbac4c58"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4ydnBfSWdSZ3l2QlBUQnA0TTZEaVdGR0s1dGlVODRLSWxVQnBFRUhYQ0lxcmtfR3MyVWZzUXRuRXdVSVpON3A0RjB3cE5nNFp2RTNVUVpGX0ZudUpIcVBsMm9McEJDOXBxd3RQYi04cWtiUklBcXI0?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ZR0p2Q1JOUEFwT2FKQ0xmcmtTZWVITmItMUJQWnBkZ0dVMWh4Z2E1NXUxaTJSdVJqcGduYkVlSVFWLVdxZ3Rya2RhOU5fV3ozN2l3S29yTnlDWDd4RGhLSl9ZVGtlek5ycGpCWnBMQ2tmb2tvVHh3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Ovintiv to acquire Montney oil producer Logan Energy for about $890m",
+      "summary": "Ovintiv has agreed to acquire Logan Energy Corp., a Montney-focused oil producer, for C$1.40 per share in cash, for total consideration of approximately $890 million, the companies said. Ovintiv said the deal unlocks incremental profitability and adds oil growth optionality and premium-return drilling inventory.",
+      "why_it_matters": "The all-cash purchase adds oil-weighted Montney acreage to Ovintiv's portfolio at the same time EQT's much larger gas-focused merger with Range Resources is reshaping North American upstream consolidation, underlining how active dealmaking has become across the sector this week.",
+      "summary_ja": "両社の発表によれば、オビンティブはモントニー地区に注力する石油生産会社ローガン・エナジー・コーポレーションを、1株C$1.40の現金で、総額約8億9000万ドルで買収することに合意した。オビンティブは、この取引により収益性が上乗せされ、石油生産の成長余地とプレミアム・リターンの採掘権益が加わるとしている。",
+      "why_it_matters_ja": "この全額キャッシュでの買収により、オビンティブのポートフォリオに石油比率の高いモントニー地区の権益が加わる一方、同時期にはEQTとレンジ・リソーシズによるはるかに大規模なガス主体の合併も進んでおり、今週は北米の上流部門全体で活発な再編が進んでいることを映す。",
+      "status": "new",
+      "prev": null,
+      "key": "ovintiv-logan-energy-acquisition",
+      "ids": [
+        "1a3c4966ffed74"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/ovintiv-announces-agreement-to-acquire-montney-oil-producer-logan-energy-corp-302918951.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Mitsui & Co to take Penske Automotive private, lifting stake to about 36%",
+      "summary": "Mitsui & Co plans to take US auto retailer Penske Automotive private, raising its stake from about 20.3% to roughly 36%, according to Japan PE & activists.",
+      "why_it_matters": "A move to a controlling, take-private stake would be one of the largest Japanese trading-house forays into US auto retail, extending Mitsui's shift toward operating control of overseas businesses rather than passive minority stakes. It also adds a second major Japanese outbound deal to this edition, alongside Umios' and Zeria Shinyaku's acquisitions below.",
+      "summary_ja": "Japan PE & activistsの報道によれば、三井物産は米自動車販売大手ペンスキー・オートモーティブを非公開化する計画で、出資比率を約20.3%から約36%に引き上げるという。",
+      "why_it_matters_ja": "非公開化を伴う支配的出資への移行は、日本の商社による米国自動車販売業への進出としては最大級の案件となり、三井物産が海外事業において少数株主としての受け身の出資から、経営支配への路線転換を進めていることを示す。今回は、下記のウミオスやゼリア新薬工業による買収と並び、日本企業による海外進出案件が複数そろった号でもある。",
+      "status": "new",
+      "prev": null,
+      "key": "mitsui-penske-automotive-take-private",
+      "ids": [
+        "d03a2a298dd96a"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Ua0ozbmJmVVhrN1duSUs1V3FSZmc5TENPQ3pOWTFrQmFLYXNhZ2NKSmZjZmctcXRyaFFZVzRRckJIUmFiTHVGeTFpb0VCaVlaeUJDOHUzVFFIN2FhaXN3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Umios to acquire Canada's High Liner Foods for C$27 a share in roughly ¥89bn deal",
+      "summary": "Japanese seafood group Umios has agreed to acquire Canadian seafood company High Liner Foods for C$27.00 per share in an all-cash transaction, which Japan M&A reported at a value of about ¥89 billion. The companies said the fully financed, all-cash offer creates a vertically integrated North American protein platform pairing Umios' sourcing with High Liner's processing and brands.",
+      "why_it_matters": "The deal gives a Japanese seafood player direct control of processing and branded distribution in North America, extending a pattern of Japanese food companies buying overseas supply-chain assets rather than sourcing through partners.",
+      "summary_ja": "日本の水産大手ウミオスは、カナダの水産会社ハイ・ライナー・フーズを1株C$27.00の全額キャッシュで買収することに合意した。Japan M&Aの報道では取引額は約890億円とされている。両社は、資金を確保済みの全額キャッシュによる買収がウミオスの原料調達力とハイ・ライナーの加工能力・ブランドを組み合わせ、北米で垂直統合された蛋白質プラットフォームを生み出すとしている。",
+      "why_it_matters_ja": "この買収により日本の水産企業が北米での加工とブランド流通を直接支配することになり、提携先を介した調達ではなく海外のサプライチェーン資産そのものを買い取る日本の食品企業の流れを広げるものとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "umios-high-liner-foods-acquisition",
+      "ids": [
+        "4e771057477e97",
+        "762960f8ee908f"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/high-liner-foods-enters-into-agreement-to-be-acquired-by-umios-for-c27-00-per-share-in-cash-302919282.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kRXpJRkF0R2w3LTdKdy1waHdIT19xWVlEemNyLXVXNVRCMGFfNFJJN1NEX3paandwNGt1M3JvVk5EX194YURBbWxBdmJKdy1oNHN2OVZkOW1YNlhLdTNka2hrT256OXpKNmhRUjZkLWdLSTBB?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Hang Seng's investment arm to merge with HSBC's asset management business, sources say",
+      "summary": "Hang Seng Bank's investment arm is set to merge with HSBC's asset management business, according to sources cited by The Business Times, which noted HSBC generates the bulk of its profits in Asia.",
+      "why_it_matters": "Combining the two Hong Kong-linked asset management platforms would consolidate HSBC's regional wealth and asset management footprint as the bank leans further into Asia for growth. It would also simplify a structure in which HSBC and its Hang Seng subsidiary have run separate asset management operations in the same market.",
+      "summary_ja": "ザ・ビジネス・タイムズが関係者の話として報じたところによると、ハンセン銀行の投資部門はHSBCの資産運用事業と統合される見通しだという。同紙は、HSBCの利益の大部分がアジアから生じている点も指摘している。",
+      "why_it_matters_ja": "香港を拠点とする二つの資産運用プラットフォームの統合は、HSBCがアジアでの成長をさらに重視する中で、同行の地域における資産運用・ウェルスマネジメント事業の基盤を強化するものとなる。これにより、HSBCと子会社のハンセン銀行が同じ市場で別々に資産運用事業を展開してきた体制も整理されることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "hang-seng-hsbc-asset-management-merger",
+      "ids": [
+        "3f8804efeaf5c2"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/hang-seng-investment-arm-merge-hsbcs-asset-business-sources"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Zeria Shinyaku to take German drugmaker Haupt Pharma Wulfling as a subsidiary",
+      "summary": "Japan's Zeria Shinyaku Industry will make German pharmaceutical manufacturer Haupt Pharma Wulfling a subsidiary, according to Japan M&A.",
+      "why_it_matters": "The deal gives a mid-sized Japanese drugmaker its own European manufacturing base, part of a broader pattern of Japanese pharma companies buying overseas production capacity rather than relying on contract manufacturers. It is a smaller transaction than Umios' or Mitsui's deals above, but points in the same direction of Japanese companies securing operating control abroad.",
+      "summary_ja": "Japan M&Aの報道によれば、ゼリア新薬工業はドイツの医薬品メーカー、Haupt Pharma Wulflingを子会社化する。",
+      "why_it_matters_ja": "この買収により中堅の日本の製薬会社が自前の欧州製造拠点を持つことになり、受託製造企業に依存するのではなく海外の生産能力そのものを買い取るという日本製薬企業の流れの一例となる。上記のウミオスや三井物産の案件に比べれば小規模だが、日本企業が海外で経営支配権を確保していく同じ方向性を示している。",
+      "status": "new",
+      "prev": null,
+      "key": "zeria-haupt-pharma-wulfling-subsidiary",
+      "ids": [
+        "79adb523899d4b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTlJUeTZ5RFdhRzc2ekREdkpqY0dqdkg1WjcwZlhQQUhSenRCOFpsRmJnNkhzU2xtWjBWUFFTS0huNFhEcjloT3ZMd1paS1o3YlpvUm9xZloyTjlrQVhtMzBLSkJSdFU5dlljMi1OckxrX2xWQ2dVSWFXUlFMWGxFcnRn0gGHAUFVX3lxTE5CbE1kVU5xR2tISDVhSVdMNWRObm5hNFhPZWN1cG50b0N3eHUwV05UVkFyQnEweE03bENVUEdIOGxsZ1QtQnJwc19qSkhRd1ZPSDEzMG5vT3lCUlNYcXBzVmFVVjFXekFTWUNfNlB0R0Z1QnpMcUdRc0pXeEt6bTU4THdGR2QtYw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "SpaceX's previously disclosed $40bn AI-chip financing struck with Apollo",
+      "summary": "SpaceX's earlier-disclosed $40 billion debt raise to fund GPU purchases was arranged through a financing deal with Apollo, according to Channel NewsAsia, naming the counterparty behind Elon Musk's original announcement.",
+      "why_it_matters": "Naming Apollo as the financing partner shows a major alternative-asset manager underwriting AI compute buildouts through private credit, a structure increasingly used to fund capital-intensive AI infrastructure outside traditional bank lending.",
+      "summary_ja": "チャンネル・ニュースアジアの報道によれば、スペースXが以前開示したGPU購入資金のための400億ドルの債務調達は、アポロとの金融契約を通じて組成されたという。これにより、イーロン・マスク氏が当初発表した取引の相手方が明らかになった。",
+      "why_it_matters_ja": "アポロが資金提供の相手方として名指しされたことは、大手オルタナティブ運用会社がプライベートクレジットを通じてAI計算資源の構築を引き受けていることを示し、資本集約的なAIインフラ資金調達において、従来の銀行融資以外の手法が広がっていることを映す。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-26-0830",
+        "index": 1
+      },
+      "key": "spacex-gpu-debt-raise",
+      "ids": [
+        "f0d4e5d6978313"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/spacex-enters-40-billion-deal-apollo-ai-chip-financing-6493106"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Indonesia's IIF extends $33m in financing for data centre and heart hospital projects",
+      "summary": "Indonesia Infrastructure Finance (IIF) has extended $33 million in financing to support a data centre project and a heart hospital project, according to DealStreetAsia.",
+      "why_it_matters": "The financing shows an Indonesian infrastructure lender channelling capital into both digital infrastructure and healthcare facilities, two separate growth priorities competing for the same pool of project finance. Deal sizes in Indonesian project finance remain modest relative to the single large-cap M&A transactions elsewhere in this edition, but they reflect steady deployment of infrastructure credit in Southeast Asia.",
+      "summary_ja": "DealStreetAsiaの報道によれば、インドネシア・インフラストラクチャー・ファイナンス（IIF）はデータセンター事業と心臓病院事業に対し、合計3300万ドルの融資を実行した。",
+      "why_it_matters_ja": "この融資は、インドネシアのインフラ金融機関がデジタルインフラと医療施設という異なる成長分野の双方に資金を振り分けていることを示し、両分野が同じプロジェクトファイナンスの資金を奪い合っている構図を映す。この号で取り上げた他の大型M&A案件と比べれば規模は小さいが、東南アジアにおけるインフラ向けクレジットの着実な供給を示すものでもある。",
+      "status": "new",
+      "prev": null,
+      "key": "indonesia-iif-datacentre-hospital-financing",
+      "ids": [
+        "01cd392bd4f1ca"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd0ZIR1o0UXBZNG8xSmNyMFpjMl9GMUpMRGp3VHI1NjZQUUdnX1A5cW4wUkQyVVNLbnNTX2RMSjUySlBNVHNHb1dnaXRDbUVYY0NIWk1uTVdNWmdMck1nTzhIWjB0Nm1ZRUFCdGY0YjhTS2JWRGV2dC12Xzd0WWVVbVl3SVAycEs4ZDN1UUZFY2VXX2tqMUs3S01QQXBBa1oyLXYxVklRMHZ5OUNMRFpjQ3dyMXJQaUdETzZyZldPUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Healthcare",
+        "TMT"
+      ]
+    }
+  ]
+}
