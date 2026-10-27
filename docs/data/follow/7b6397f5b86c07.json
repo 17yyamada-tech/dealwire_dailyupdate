@@ -4,7 +4,7 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-27T00:50:18Z",
+ "checked_at": "2026-10-27T04:50:00Z",
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +72,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-27",
+   "headline": "Israel goes to the polls October 27 in tight Knesset race pitting Netanyahu's Likud against Eisenkot's Yashar, neither bloc assured of a majority",
+   "summary": "Israel's 120-seat Knesset election was set for October 27, 2026, in a closely contested race between Prime Minister Benjamin Netanyahu's Likud party and former military chief Gadi Eisenkot's Yashar party, with CNN reporting ahead of the vote that neither bloc was clearly positioned to secure the 61 seats needed for a governing majority.",
+   "summary_ja": "イスラエルの定数120の国会(クネセト)選挙は2026年10月27日に予定されていた。CNNは投票前の報道で、ネタニヤフ首相率いるリクードと、元軍参謀総長ガディ・アイゼンコット氏の新党ヤシャールとの接戦になっており、過半数となる61議席の確保を確実にしているブロックはどちらも存在しないと伝えた。",
+   "source": "CNN",
+   "url": "https://www.cnn.com/2026/10/25/middleeast/israel-election-2026-whats-at-stake-intl"
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Gulf News: Brent and WTI ease as Gulf attacks persist, but UAE's Murban crude jumps 3% to $118",
+   "summary": "Gulf News reported that Brent and WTI crude eased on Monday, October 26, 2026 as continuing attacks in the Gulf rattled markets, even as the UAE's Murban benchmark defied the move, jumping 3% to $118 a barrel.",
+   "summary_ja": "ガルフ・ニュースの報道によると、2026年10月26日(月)、湾岸地域での攻撃が続く中で相場が揺さぶられ、ブレント原油とWTI原油は値を下げた一方、UAEのムルバン原油は流れに逆らって3%上昇し1バレル118ドルとなった。",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/business/energy/crude-oils-weird-monday-brent-wti-slip-as-attacks-rattle-markets-murban-jumps-3-to-118-1.500723522"
+  },
   {
    "date": "2026-10-25",
    "headline": "Gulf News: new LPG tanker attack near Oman; JMIC rates Strait of Hormuz threat 'severe', about 500 vessels waiting outside",
