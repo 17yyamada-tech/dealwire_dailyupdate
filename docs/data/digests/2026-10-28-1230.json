@@ -1,0 +1,298 @@
+{
+  "edition": "2026-10-28-1230",
+  "edition_label": "28 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T04:35:17Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "OpenAI in talks to purchase Google-designed AI chips, report says",
+      "summary": "OpenAI plans to buy artificial-intelligence chips made by Google, The Information reported. The report did not disclose contract terms or chip volumes.",
+      "why_it_matters": "A shift toward Google-made chips would add a second major chip supplier to OpenAI's stack and underscore Google's push to sell its in-house AI silicon beyond its own cloud.",
+      "summary_ja": "OpenAIがグーグル製のAI半導体を購入する計画だと、The Informationが報じた。契約条件や購入規模は明らかにされていない。",
+      "why_it_matters_ja": "グーグル製半導体への切り替えは、OpenAIの調達網に新たな主要サプライヤーを加えることになり、グーグルが自社開発のAI半導体を自社クラウド外にも売り込む動きを裏付ける。",
+      "status": "new",
+      "prev": null,
+      "key": "openai-google-ai-chips",
+      "ids": [
+        "ab80101f84ba08"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/openai-plans-buy-googles-ai-chips-information-reports-6498406"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "onsemi in talks to acquire chip startup Felix for about $1bn",
+      "summary": "Chipmaker onsemi is negotiating to acquire chip startup Felix for about $1bn, The Information reported. Investing.com separately reported the same roughly $1bn price tag for the talks.",
+      "why_it_matters": "A deal of this size would rank among onsemi's largest acquisitions and signal further consolidation in the chip-startup market amid heavy AI-driven demand.",
+      "summary_ja": "半導体メーカーのオンセミが、半導体スタートアップのフェリックスを約10億ドルで買収する交渉を進めていると、The Informationが報じた。同額の買収交渉はInvesting.comも同日報じている。",
+      "why_it_matters_ja": "約10億ドル規模の買収が成立すれば、オンセミにとって過去最大級の買収となり、AI需要の高まりを背景に半導体スタートアップ業界の再編が進んでいることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "onsemi-felix-acquisition",
+      "ids": [
+        "a42733d4701051",
+        "d0b1ba0cd3dd4b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5MSkRnUDFmRU1hdXFpYzBLWkZ1VGF0d1pXbEkxc1IwaVVLc0VnWUp0bTJOU2Y3LUR5OEZ2c0QwbGVOa0gyOUhQdTdnRE9XXzRvU01GbU1RN1l5bjA0NWR4NjNOVUxzbm12MDVEREE2dWJFYkhHbmNRUw?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WWmNyWGZOTmV3dFlaSHRtZVZCcUVJR1hxRHdNOTZxaWYzRWFsbVlDMm1WRlM1V3BTc3dOdDRTdTBpcl9UZ1RkY2pFMTJEamJ1Mkg1bnN3ZFYxLWtPa3R2UGtRbXRmS0E2NU9xSUNwYnJKc1NGOXp3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "A. O. Smith sells 81% of its China business to CPE, keeps 19% stake and brand license",
+      "summary": "A. O. Smith has agreed to sell an 81% interest in its China business to alternative asset manager CPE, the US water-technology company announced. A. O. Smith will retain a 19% stake and a long-term license to its brand in China.",
+      "why_it_matters": "The deal lets A. O. Smith reduce direct control of its China operations while keeping exposure to the market and brand royalties, a structure increasingly used by US multinationals facing a tougher China operating environment.",
+      "summary_ja": "米国の水関連技術大手A. O. Smithは、中国事業の81%の権益をオルタナティブ資産運用会社CPEに売却することで合意したと発表した。同社は19%の株式と、中国でのブランドの長期ライセンスを保持する。",
+      "why_it_matters_ja": "この取引により、A. O. Smithは中国事業の直接経営権を手放しつつ、市場への関与とブランド使用料収入は維持できる。中国事業の難しさが増す中、米国の多国籍企業が採る手法として広がりつつある。",
+      "status": "new",
+      "prev": null,
+      "key": "ao-smith-china-business-cpe",
+      "ids": [
+        "de286c40678e65"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/a-o-smith-announces-majority-interest-of-china-business-acquired-by-cpe-a-o-smith-to-retain-19-stake-and-long-term-brand-license-302921444.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US",
+        "HK/CN"
+      ],
+      "sectors": [
+        "TMT",
+        "Financials",
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "Franklin Electric to acquire Challenge Pumps for $181m",
+      "summary": "Franklin Electric has agreed to acquire Challenge Pumps for about $181m, Investing.com reported. The report did not specify an expected completion date or the deal structure.",
+      "why_it_matters": "The purchase would add pump-making capacity to Franklin Electric's water and fluid-systems business at a time of steady industrial consolidation in the pump sector.",
+      "summary_ja": "Franklin Electricは、Challenge Pumpsを約1億8100万ドルで買収することに合意したと、Investing.comが報じた。完了予定時期や取引の具体的な構成については明らかにされていない。",
+      "why_it_matters_ja": "この買収が成立すれば、Franklin Electricの水・流体システム事業にポンプ製造能力が加わる。ポンプ業界では着実な業界再編が続いている。",
+      "status": "new",
+      "prev": null,
+      "key": "franklin-electric-challenge-pumps",
+      "ids": [
+        "6f427047b224e6"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTNjktdllZQlJaaTNjUHhseEN2YUcySDRyRnVRaDdpSkZRblI1d1lWV3IzLVVheEJrcHpTTHRKV29oYVlGY0J0Q2JLZ19oUzRHb2huLUh5SUVENzBmUDJHcnVSMFBRbkpwV1h1cVg1Nzc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Shimano to acquire all shares of Jackall, making it a wholly owned subsidiary",
+      "summary": "Shimano plans to acquire all shares of fishing-tackle maker Jackall, turning it into a wholly owned subsidiary. The two companies have had a business partnership since 2010.",
+      "why_it_matters": "Full ownership would let Shimano fold Jackall's fishing-lure and tackle lineup directly into its own business after 16 years of partnership, deepening its push beyond cycling components.",
+      "summary_ja": "シマノは釣具メーカーのジャッカルの全株式を取得し、完全子会社化する計画だ。両社は2010年から業務提携関係にある。",
+      "why_it_matters_ja": "完全子会社化により、シマノは16年に及ぶ業務提携を経て、ジャッカルのルアーや釣具のラインアップを自社事業に直接取り込むことになる。自転車部品事業に続く事業拡大の一環といえる。",
+      "status": "new",
+      "prev": null,
+      "key": "shimano-jackall-subsidiary",
+      "ids": [
+        "7a6e347401e75c"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8waElXOTZORXlDWXBxQW9VUFgxTkpsaVJNYmg0eGhhbjBnRW1KSjExcWpCb0ZvbFdYbWd6V3JVd3JEQQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Mirae Asset moves toward acquiring a Japanese securities firm, board vote due Oct 29",
+      "summary": "South Korea's Mirae Asset is moving toward acquiring a Japanese securities firm, with its board set to vote on the deal on Oct 29, Japanese-language reports said. The reports describe the deal as a way to cross Japan's brokerage licensing barrier.",
+      "why_it_matters": "A completed deal would give Mirae Asset a licensed foothold in Japan's securities industry via M&A rather than a de novo licence application, a route other foreign asset managers have also used to enter the market.",
+      "summary_ja": "韓国の未来アセットが日本の証券会社の買収に向けて動いており、29日の取締役会で買収の是非を決議する見通しだと、日本語メディアが報じた。買収は、日本の証券免許の壁を越える手段として位置づけられている。",
+      "why_it_matters_ja": "買収が成立すれば、未来アセットは新規免許申請ではなくM&Aを通じて日本の証券業にライセンス付きで参入することになる。これは他の外資系資産運用会社も採ってきた日本市場への参入手法だ。",
+      "status": "new",
+      "prev": null,
+      "key": "mirae-asset-japan-securities-acquisition",
+      "ids": [
+        "50b3702b78a94a",
+        "77016020350dbb"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TYS14SGJBZThTUnh0UGtsOGxRZ1locElfNXZLX3NoSHdWbkE0bXFrN2QxNWVlWS1rWThCTW9fNG9jOXFiak5hRGxFTWVBNFk4VkMwX2lDbmh0cWpDZkhHVlBvTVV3TDRGQ3RSbWw1RUpHN1NqdGV6QnowbzdxV00?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40Z0FrQ3NpY2t2dzR1Wkd2Zi1sSFZoMXpxNUxXTWlWUU13d3YzZDZheGNzMndKaUs1SWsybHU3WHdWTWZqVVhERG5PVlFId3hVajA0MEs4aUxJRW5GRmFsZWh0cmRuVGY1Yk9ZeFpjMTVMRUlv?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Mi Material debuts on SGX Mainboard after $168m IPO",
+      "summary": "Mi Material began trading on the Singapore Exchange Mainboard after raising $168m in its initial public offering, DealStreetAsia reported.",
+      "why_it_matters": "The listing adds to Singapore's IPO pipeline and tests investor appetite for new Mainboard debuts after a thin stretch of regional listings.",
+      "summary_ja": "Mi Materialは1億6800万ドルのIPOを実施した後、シンガポール証券取引所(SGX)メインボードで取引を開始した。DealStreetAsiaが報じた。",
+      "why_it_matters_ja": "この上場はシンガポールのIPOパイプラインに加わるとともに、地域の新規上場が低調だった中でメインボードデビューに対する投資家の需要を測る試金石となる。",
+      "status": "new",
+      "prev": null,
+      "key": "mi-material-sgx-listing",
+      "ids": [
+        "b61ff0368cd250"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRFRmVGo3Q0YwVk1PZVhBd3NxNnM5THdkRU42a2puTDVHa1BBcmstUkxVdnY3TVRKRFFRZlpReEh3UFJUS3NnWHRNMkotcU84WmFoamdGeXl4WlU5WU80dzhyQWp0cERYblY4S1BMTFJJdTRQREVJRDRMamE4ZVJkY2llQWZ6UQ?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "The Siena agrees to acquire Golfzon County from MBK for about ₩1.8tn enterprise value",
+      "summary": "The Siena has signed a share purchase agreement to acquire Golfzon County from private equity firm MBK Partners, Japanese-language reports said. The deal values Golfzon County at an enterprise value of about ₩1.8tn.",
+      "why_it_matters": "The sale would be a notable exit for MBK Partners, one of Korea's largest private equity firms, and points to continued sponsor-to-sponsor dealmaking in the region.",
+      "summary_ja": "ザ・シエナは、プライベートエクエィティ大手MBKパートナーズからGolfzon Countyを買収する株式譲渡契約（SPA）を締結したと、日本語メディアが報じた。付けられた企業価値（EV）は約1.8兆ウォン。",
+      "why_it_matters_ja": "MBKパートナーズにとっては韓国最大級のプライベートエクエィティとしての大型エグジットの一つとなり、同地域ではスポンサー間の売買が引き續き活発であることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "the-siena-golfzon-county-mbk",
+      "ids": [
+        "428f1223c7c971"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeGtqU2RzN0w5MWtGZTJMcFQ1S09HeXo3a09kOXROSTNJSTNZNjMxTmJzWUtDSmxuejFGUFVkUEFRNERmX0d5dVVjYklLcFVWOFA2b2JmdEo0WkxJcVVIQU5XNHF1dW9TOEp5LVFwSEk4WkJOOXJpdEtUN0FPS2k4V9IBlAFBVV95cUxPNmlHRTFzN2k3b0JtRkJCaVN2Sm54MXpyS1dYbF9nTDdjbnlBeFpoR0VJa3RlM2FVMzVjb05Gd3FYYWhlSHRLdXJldlhCNVhUZmJvWVFmeHZSZVoxTVBGMnJ2ZncwMENnbnVpX1gxemRtTTczZkllM3hIRThUbWI0MGEtQlRrLUlta3VzTVdxZ3FyUmZT?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "AriBio Holdings to invest ₩179.5bn acquiring Green Plus, expanding into smart farms and solar power",
+      "summary": "South Korea's AriBio Holdings plans to acquire Green Plus, investing about ₩179.5bn to expand into smart farms and solar power, Japanese-language reports said.",
+      "why_it_matters": "The deal would diversify AriBio beyond its existing business and add exposure to renewable-energy and agri-tech infrastructure, sectors drawing steady sponsor interest across Asia.",
+      "summary_ja": "韓国のAriBio Holdingsは、Green Plusを買収し、スマートファームと太陽光発電への事業領域拡大を図るため約1795億ウォンを投じる計画だと、日本語メディアが報じた。",
+      "why_it_matters_ja": "この買収が実現すれば、AriBioは既存事業の多角化に加え、再生可能エヨルギーや農業テック関連インフリのへの関与を強めることになる。いずれもアジア各地でスポンサーの関心を集めている分野だ。",
+      "status": "new",
+      "prev": null,
+      "key": "aribio-green-plus-acquisition",
+      "ids": [
+        "e57d694c03b229",
+        "d17fca4f1d7778"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUHRvUDI1VGhmUDV3YXMwNGx1WWVFVXhpTHNnSU5INEpqQXNzRXc1SUZTMDBqRWdFekltaGQxUjhGYUc3b1hBb1JiN213VlpmYk5JMDQzbWxDLTZHUzRhV1Nsa2NDdHM3eHRJQUlGZFNRRllHdWxVQ0VDemVMNDduc9IBlAFBVV95cUxNQXZ5TGM2NkxHaEprOHBDSFVFNms3RkJxVGMyZGo2TWt3bDc1QXRhS1VJbmkxdV82OFREOVFyTldXLU1qS1BWbEhmcm9mQXZidTd0UE80VzdJQmt3Tms0NmZ5YVZBRkc1ZFM4Sm1ycVdrQlZUVnlhYVhyS0d1YzhmRGtZOVVZLVlaaFVJNHE3XzExZjli?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56b014c2JZRzBkVXp0OVhIOVRVbVo1S1lSZHpZdklDSkdSMzluR0FGS0JLTjBBZjBDME93bUs0OVNsZW9uNVVhTXBTN2pFd25LcVdiUEo5Y0k1b2xSako4Uk5sM05wTW1aZ1ZsNE85MzQzb3Zu?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Reliance Jio makes Mumbai trading debut after record $3.2bn India IPO",
+      "summary": "Reliance Jio began trading in Mumbai following its record $3.2bn India IPO, The Business Times reported. The grey-market premium had pointed to gains of about 22% ahead of the debut.",
+      "why_it_matters": "A strong debut would cap the largest IPO in Indian history and test demand for the Ambani-controlled telecom unit beyond the anchor and retail order books that filled the offering a week earlier.",
+      "summary_ja": "リライアンス・ジオは、インド史上最大規模となる32億ドルのIPOを経て、ムンバイ市場での取引を開始した。The Business Timesが報じた。グレーマーケットでは上場前、約22%の上昇を示唆していた。",
+      "why_it_matters_ja": "好調な上場となれば、インド史上最大のIPOを締めくくる形になる。1週間前に需要を集めたアンカー投資家や個人投資家の枠を超えて、アンバニ系列の通信会社に対する需要の強さが試される。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-21-1230",
+        "index": 3
+      },
+      "key": "reliance-jio-ipo-anchor-book",
+      "ids": [
+        "3ba4d11c09ece8"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/ambanis-jio-make-mumbai-trading-debut-after-record-us3-2-billion-india-ipo"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
