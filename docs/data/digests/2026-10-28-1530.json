@@ -1,0 +1,247 @@
+{
+  "edition": "2026-10-28-1530",
+  "edition_label": "28 Oct 2026 · 15:30 SGT",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T07:36:24Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "TPG nears $5bn deal to acquire UK data-centre operator Ark",
+      "summary": "TPG is pursuing an acquisition of British data-centre group Ark valued at about $5bn, the Financial Times reported, according to CNA Business. A separate report said TPG is nearing a deal of the same roughly $5bn scale.",
+      "why_it_matters": "A deal of this size would be one of the largest data-centre transactions of the year and extends TPG's push into digital infrastructure, a sector drawing heavy private-equity capital amid the AI buildout.",
+      "summary_ja": "TPGが英データセンター運営会社アークを約50億ドルで買収しようとしていると、Financial Timesが報じ、CNA Businessが伝えた。別の報道でも、TPGが同規模の約50億ドルの取引に近づいているとされる。",
+      "why_it_matters_ja": "この規模の取引が成立すれば今年最大級のデータセンター案件となり、AI需要の高まりを背景に多額のプライベートエクイティ資金が流入するデジタルインフラ分野への、TPGの展開を一段と進めることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "tpg-ark-data-centre",
+      "ids": [
+        "b29025a8dd240f",
+        "7dd6134499d485"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/tpg-pursues-5-billion-acquisition-british-data-centre-group-ark-ft-reports-6499061"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPb1BYM09xUVFMOTdGUVFsR2J2OTYyQ0JndVJWb3d0Q2NadTNpSlJiQk5iSnJDSTFZTkZrYnh0ZkFBeWY3NHcwb3cxSG5TLUs2UFpfNXhlZURPekxkM2hsczJtdS0wTm9ETFNPd3V0QkQ5aURB?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Macquarie Asset Management to buy Gabia and KINX at over 10% premium to first tender offer",
+      "summary": "Macquarie Asset Management has agreed to acquire South Korea's Gabia and its subsidiary KINX via tender offer, buying out all general shareholders, including activist fund Align Partners, at a price more than 10% above Gabia's initial tender offer, Japanese-language reports said.",
+      "why_it_matters": "The raised price shows activist pressure pushing a sponsor to improve its terms mid-process, and gives Macquarie full control of both the parent and its data-infrastructure subsidiary in a single transaction.",
+      "summary_ja": "マッコーリー・アセット・マネジメントは、韓国のガビアとその子会社KINXを公開買付けで買収することに合意し、アクティビストファンドのアラインパートナーズを含む一般株主の持分を、ガビアの第1次公開買付け価格より10%超高い価格で全量買い取ると、日本語メディアが報じた。",
+      "why_it_matters_ja": "買付価格の上乗せは、アクティビストの圧力がスポンサーに取引途中での条件改善を迫った結果であり、マッコーリーは一度の取引で親会社とデータインフラ子会社の両方を完全に傘下に収めることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "macquarie-gabia-kinx-tender",
+      "ids": [
+        "3f2aca75da5211",
+        "83437d34e9d05c"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JdlE3Y24wQWNJU09oYnpxeFVZUnJlQU5JeXNDWXRNclRjaEZtU2hhOTMzTnRRRjVrWTd2VW9NQkxXVjNYM2Q1Nk1iYTBZZ3M?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN09hdW9RcXFnNGx3azFFNXRmTzFMQ01yU0FrbUZ2bTJraUZxV09odUp3SXZoYjRtQ2R4ZWcxQXk3bmRsNUxJc29Gc1pUb3dzamxXVjAweGRPeWFPZVZBVUlrVEE5WUNiM044V2RNQ3pab2lVckFEcEFlOGRab0lLcdIBlAFBVV95cUxPaENNWF84MTc2bXFnNjFvRVFqdWRSNnRwVDJhWnhqS3FOLVZ6ZzMwa245ZUtKa2E1RkZMZDBBNW9KUndSdlZpRzZKUzgzRG56UVY3SFlEUzZfdFVHbUV0TWVOYnhEajFDNTVZWEUzSjNzUm1UWldyelNUWU1Dd1dPM2ZBLWxBdm1jVzMyRHhkUUtBUDZO?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Fox's acquisition of Roku clears shareholder vote; platform neutrality remains open issue",
+      "summary": "Fox Corporation's acquisition of Roku has passed a shareholder approval vote, a Japanese-language report said. The report said platform neutrality remains the outstanding focus in the deal.",
+      "why_it_matters": "Shareholder approval clears a key hurdle for Fox's push into streaming distribution, though unresolved questions over platform neutrality could still shape how the deal is carried out.",
+      "summary_ja": "フォックス・コーポレーションによるRoku買収が株主承認を通過したと、日本語メディアが報じた。報道によれば、取引における残る焦点はプラットフォームの中立性だという。",
+      "why_it_matters_ja": "株主承認の通過により、フォックスのストリーミング配信事業への進出に向けた主要な関門が取り除かれた一方、プラットフォームの中立性をめぐる未解決の論点が、取引の実施方法を左右し得る。",
+      "status": "new",
+      "prev": null,
+      "key": "fox-roku-shareholder-approval",
+      "ids": [
+        "ccec53fa6e6f83"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yelVYV2VDcXo2aGNMeVNDOF9YdkM2ZG1tZldDWl9aMlJKRGprUU5QTkxadlpibm5lOG5zMFJack51dXR3SS1qOVlHeGdwQUFLMDdXUk5fMjRrdEVnZXg5N0t2MXpNUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "S&P Global completes acquisition of blockchain security firm OpenZeppelin",
+      "summary": "S&P Global has completed its acquisition of OpenZeppelin, a blockchain security company, a Japanese-language report said. The report did not disclose the financial terms of the deal.",
+      "why_it_matters": "The deal gives the ratings and data giant in-house blockchain-security capability, as digital-asset infrastructure increasingly intersects with the financial data S&P Global sells to institutions.",
+      "summary_ja": "S&Pグローバルがブロックチェーンセキュリティ企業オープンゼッペリンの買収を完了したと、日本語メディアが報じた。取引の金額等の条件は報道で明らかにされていない。",
+      "why_it_matters_ja": "この買収により、格付け・データ大手のS&Pグローバルは社内にブロックチェーンセキュリティ機能を持つことになる。デジタル資産インフラが、同社が金融機関に提供するデータ事業と接点を増している中での動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "sp-global-openzeppelin-completion",
+      "ids": [
+        "f9977a184daa7b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMGI3UTh6TXdUV1RzNXN4cldmU3RQZFFUc1FPbUxoZThuQlBtY0lYVTVGQ2NrVlBlNFFKVlcybFAyX3M3THRiNkI5c1Q5MGlIcWU2bzk5VW5sVXFpY3pjZTNjTnRqUXJvVUp6REtuSElBV0UzZlBseG9RSTU1ZkhwenA1T2Q2XzVCOC1BQWJ3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Anthropic acquires one-employee biotech to launch its own drug-discovery effort",
+      "summary": "Anthropic has acquired a biotech company with a single employee and is starting its own drug-discovery activity, Japanese-language reports said. The acquired company is researching treatments for rare pediatric diseases.",
+      "why_it_matters": "The purchase marks an unusual move by an AI developer into owning a biotech asset rather than licensing or partnering, and signals Anthropic's ambition to apply its models directly inside drug discovery.",
+      "summary_ja": "Anthropicは社員1人のバイオ企業を買収し、自社での創薬活動に着手したと、日本語メディアが報じた。買収された企業は小児難病の治療薬研究を手掛けている。",
+      "why_it_matters_ja": "ライセンスや提携ではなくバイオ資産そのものを買収するのは、AI開発企業として異例の動きであり、Anthropicが自社モデルを創薬に直接応用しようとする意欲を示している。",
+      "status": "new",
+      "prev": null,
+      "key": "anthropic-biotech-pediatric-disease",
+      "ids": [
+        "a9769d657d466f",
+        "2450f96e7eb365"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMNGtBa1huVzh2MllOUVZlM1FhQ1RCLXhiN3ZYaHhGaFFOTWhsQXFGYnZQaVdHMjRFNkJrVmIyMnN6OTVaaXJ4Wm5uMllpbHkzZXp5NlR6bC1jRkNKcVVMOG0yUE1iUTZzYW9FRDlheHFsRVBaY3lXMjFjLU96ZjA?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93U210WFVaM3Z3VnpKNVBtWmI5UkhfR0JDOFIxNy1nMWVYNXEyQkJuSFhNWFlFdWNGOURweTlQSXUxSUJzMmdWTlNhdzl5RTdQUzA4U3BVVjBIRkVoRWZwSWEtT2d6Tlh2NXc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "RedotPay, which acquired BTCBOX, weighs confidential US IPO filing by year-end",
+      "summary": "RedotPay, the Hong Kong crypto-payments firm that acquired Japan's BTCBOX to secure a local licence, is considering a confidential filing for a US initial public offering by the end of the year, a Japanese-language report said.",
+      "why_it_matters": "A US listing would let RedotPay tap deeper capital markets just months after its BTCBOX acquisition, adding to a thin pipeline of Asian crypto-payments firms pursuing US listings.",
+      "summary_ja": "日本のBTCBOXを買収し現地のライセンスを確保した香港の暗号資産決済企業RedotPayが、年末までに米国での新規株式公開（IPO）に向けた非公開での書類提出を検討しているという、日本語メディアの報道があった。",
+      "why_it_matters_ja": "米国上場が実現すれば、BTCBOX買収からわずか数カ月でより大きな資本市場へのアクセスを得ることになり、米国上場を目指すアジアの暗号資産決済企業の薄い案件の一つに加わる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-25-0830",
+        "index": 0
+      },
+      "key": "redotpay-btcbox-japan",
+      "ids": [
+        "b313333eda3322"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FS0NQNWdLNmtIa0ctd0ZwUGlIaDZjUXZxTndEOFo4YS1FYXU3LVlfLUc4eFk2V3NDSzdjWXdseXlDeEZ3MWd1a0sxS0dXLWc3eFVkYmZSMS1paEluNkxvNDh3UkZsUm00akF5c3FhTGpFUnd5U256N2VUT0l5d1U?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Ingenia shares hit 10-month high as Warburg Pincus raises acquisition price",
+      "summary": "Shares in Japan's Ingenia climbed to a 10-month high after private equity firm Warburg Pincus raised its acquisition price for the company, a Japanese-language report said.",
+      "why_it_matters": "A mid-process price increase suggests competitive tension or shareholder pushback over the original offer, a dynamic increasingly seen in Japanese take-private deals.",
+      "summary_ja": "日本のインジェニア株式が10カ月ぶりの高値をつけた。プライベートエクイティのウォーバーグ・ピンカスが同社の買収価格を引き上げたことを受けたものだと、日本語メディアが報じた。",
+      "why_it_matters_ja": "買収プロセスの途中での価格引き上げは、当初の提示価格に対する競争圧力や株主の反発を示唆しており、日本の非公開化案件で近年目立つ傾向だ。",
+      "status": "new",
+      "prev": null,
+      "key": "ingenia-warburg-pincus-price-increase",
+      "ids": [
+        "76e403dd37a804"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GV1NVdldDX3FSelNnSmFSMnBFazR0a2ZIakh3ZzRCcW1kVTVwX0hYMGQ4ZDhVV2psTjJZaW11YVh3SEszQ3FtSDZsdHBpN240Yll0Y0xlN1NVMnpyakEwZzc2WE9nMkVBMFFhY0p3U3pnZ2EtS3pj?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Keppel seeks $1bn for Vietnam investments as financial centre's first members target $2.7bn",
+      "summary": "Singapore's Keppel is seeking US$1bn for investments in Vietnam after joining the country's new international financial centre, The Business Times reported. The centre's first 10 members, including Keppel, aim to mobilise a combined $2.7bn in capital, CNA Business reported.",
+      "why_it_matters": "Keppel's commitment signals early institutional buy-in for Vietnam's new financial-centre initiative, a potential channel for fresh infrastructure and asset-management capital into the country.",
+      "summary_ja": "シンガポールのケペルが、ベトナムの新たな国際金融センター（VIFC）に参加した上で、同国への投資に向け10億米ドルを確保しようとしていると、The Business Timesが報じた。CNA Businessの報道によれば、ケペルを含む同センター最初の10社は合計27億ドルの資金動員を目指している。",
+      "why_it_matters_ja": "ケペルのコミットメントは、ベトナムの新金融センター構想に対する機関投資家の早期の支持を示すものであり、同国に新たなインフラ・資産運用資金が流入する経路となる可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "keppel-vietnam-financial-centre",
+      "ids": [
+        "aaedc893dabcde",
+        "cec15e01674fab"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/keppel-seeks-us1-billion-vietnam-investments-it-joins-countrys-international-financial-centre"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/vietnam-financial-centre-says-its-first-10-members-mobilise-27-billion-6498981"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SEA",
+        "SG"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
