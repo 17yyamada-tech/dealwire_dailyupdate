@@ -1,0 +1,356 @@
+{
+  "edition": "2026-10-28-0830",
+  "edition_label": "28 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T00:37:05Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "US regulator approves Amazon Leo's $11.5bn acquisition of Globalstar",
+      "summary": "A US agency has approved Amazon's satellite unit Leo to proceed with its $11.5bn acquisition of Globalstar, CNA Business reported.",
+      "why_it_matters": "Regulatory clearance removes a key hurdle for Amazon's push into satellite communications, consolidating spectrum and infrastructure that rivals have been racing to secure. It also shows that large satellite-sector mergers can still clear US regulatory review despite the sector's growing strategic sensitivity.",
+      "summary_ja": "CNA Businessによると、米当局はアマゾンの衛星事業部門Leoによる115億ドルでのグローバルスター買収を承認した。",
+      "why_it_matters_ja": "規制当局の承認により、アマゾンの衛星通信事業進出における大きな障壁が取り除かれ、競合各社が確保を争ってきた周波数とインフラの統合が進む。この種の大型衛星関連統合が、戦略的な重要性を増す分野であっても米規制当局の審査を通過しうることも示した。",
+      "status": "new",
+      "prev": null,
+      "key": "amazon-leo-globalstar-acquisition",
+      "ids": [
+        "c750dfb7aff2c1"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-6497686"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "FTC moves to block Cintas's $5.5bn acquisition of UniFirst",
+      "summary": "The US FTC is moving to block Cintas's $5.5bn (about ¥870bn) acquisition of UniFirst, Japan M&A reported, sending shares in both companies lower.",
+      "why_it_matters": "A successful block would be a reminder that large horizontal mergers in essential-services sectors such as uniform rental still draw close antitrust scrutiny in the US. A contested case would also leave both companies managing operational uncertainty for months regardless of the ultimate outcome.",
+      "summary_ja": "Japan M&Aによると、米連邦取引委員会（FTC）はシンタスによる55億ドル（約8,700億円）規模のユニファースト買収を阻止する方向で動いており、両社の株価は下落した。",
+      "why_it_matters_ja": "この阻止が実現すれば、制服レンタルのような生活必需サービス分野における大型の水平統合が、米国では依然厳しい独禁当局の審査を受けることを改めて示す事例となる。争いが長引けば、最終的な結果にかかわらず両社は数カ月にわたり事業運営上の不確実性を抱えることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "ftc-cintas-unifirst-block",
+      "ids": [
+        "3dc6c730f74a75",
+        "0099202d7cc05c"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RbEJESVBIX21Yby1iRmZ2aFZJZ3ozVXhDbXFzMGJ6WWNIb25aMlp2ZUZUaEUxTDUwWlM1MDlyMDdIb2xSdHI1ODlDNFRJTFJwems2Sk4zaDlJWnNwRFJ3S2pRdjliQU1XV2FvalR6ZmFnU1BDUm1Z?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LWnZmMk82azZ6SmZLcEwyQ0UwaXJRR19aaGZuY1dnTGtVWTBMTVZpenMwemxmTnlXdUd1TUwyOFJNWTRFNEFRUDBWT19sbHRIUEs3WTJWejFjTVRmZnUtVzJzUnFBZnJfRmJyM3BYM1pYc0V5?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Ares Capital agrees to acquire MidCap Financial for about $2.6bn",
+      "summary": "Ares Capital Corp has agreed to acquire MidCap Financial Investment Corp for roughly $2.6bn, Japan M&A reported, sending MidCap shares sharply higher. Both business-development companies disclosed the agreement in separate SEC filings.",
+      "why_it_matters": "The deal consolidates two listed business-development companies at a time when direct lenders are scaling up balance sheets to compete for larger private-credit mandates. Folding a rival BDC's portfolio into Ares's own also adds scale that should spread fixed costs over a larger asset base, a consideration increasingly weighed by listed credit vehicles.",
+      "summary_ja": "アレス・キャピタル・コーポレーションは、Japan M&Aによると約26億ドルでMidCap Financial Investment Corpを買収することで合意し、MidCap株は急伸した。両ビジネス・ディベロップメント・カンパニー（BDC）はそれぞれ別のSEC開示でこの合意を公表した。",
+      "why_it_matters_ja": "この統合は、プライベートクレジット市場でより大型の融資案件を競うため上場BDC2社が規模拡大を進めている局面で起きている。競合BDCのポートフォリオを取り込むことで資産規模が拡大し、固定費をより大きな資産ベースに分散できる点も、上場クレジット・ビークルが重視するようになっている論点だ。",
+      "status": "new",
+      "prev": null,
+      "key": "ares-capital-midcap-financial-acquisition",
+      "ids": [
+        "365813715f56f6",
+        "27abfecc259dd7",
+        "6ed3d0f5814b63"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42SlZ1VHBIMUtmRk5mNV9aVFZqZW1renRpc3VVcEhSY1hSMVd3RHNiZmJRczRDd25EWkg4c3Q4SXUwdkxwaC1hLTNKdUJmSFpUR0hlV044ZWRwdU1IOGFxUV9JV2R6NWszejdSY3lqa2c?oc=5"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926118958/0001104659-26-118958-index.htm"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1278752/000119312526432622/0001193125-26-432622-index.htm"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Guidewire agrees to acquire UK insurance-AI firm hyperexponential for up to $2.1bn",
+      "summary": "Guidewire has signed a definitive agreement to acquire hyperexponential, a London-based AI underwriting software provider, in a deal worth up to $2.1bn. The deal is aimed at building an agentic underwriting platform where AI agents assess, price and make decisions alongside human underwriters and actuaries across commercial and specialty insurance lines.",
+      "why_it_matters": "The deal signals a shift toward AI-run underwriting workflows in commercial insurance, giving Guidewire a platform to compete for insurers racing to automate pricing and risk decisions. It also puts Guidewire in more direct competition with other insurtech vendors chasing the same agentic-underwriting opportunity.",
+      "summary_ja": "ガイドワイヤーは、ロンドンを拠点とするAI引受ソフトウェア企業hyperexponentialを最大21億ドルで買収する最終契約を締結した。狙いは、AIエージェントが商業保険・特殊保険分野で人間の引受人やアクチュアリーと共に査定・プライシング・意思決定を行う「エージェント型引受」プラットフォームの構築にある。",
+      "why_it_matters_ja": "この買収は商業保険の引受業務がAI主導のワークフローへ移行する流れを象徴するもので、ガイドワイヤーは価格・リスク判断の自動化を競う保険会社向けの基盤を手にする。同じ「エージェント型引受」を狙う他のインシュアテック各社との競争も一段と直接的になる。",
+      "status": "new",
+      "prev": null,
+      "key": "guidewire-hyperexponential-acquisition",
+      "ids": [
+        "c2b504c4d35391",
+        "e221de7cb0ba0a",
+        "fd939047e8a6b7"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/guidewire-signs-definitive-agreement-to-acquire-hyperexponential-302920513.html"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/guidewire-buy-uk-insurance-ai-firm-hyperexponential-in-deal-worth-up-21-billion-6496396"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1528396/000119312526432656/0001193125-26-432656-index.htm"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Intel's acquisition of quantum-software startup Classiq valued at about $2.3bn",
+      "summary": "Intel's agreed acquisition of Israeli quantum-software startup Classiq is valued at about $2.3bn, Bloomberg News reported, the first price disclosed for the previously announced deal.",
+      "why_it_matters": "Pricing the deal lets investors gauge how much Intel is willing to spend to build full-stack quantum-computing capability as big tech firms position early for a still-nascent market.",
+      "summary_ja": "ブルームバーグ・ニュースの報道によると、インテルが合意済みのイスラエルの量子ソフトウェア新興企業Classiq買収は約23億ドルと評価されている。既報の買収で価格が明らかになったのは今回が初めて。",
+      "why_it_matters_ja": "買収価格が判明したことで、フルスタックの量子コンピューティング能力構築にインテルがどこまで資金を投じる構えかが投資家にも見えるようになった。大手テック企業がまだ萌芽期にある市場で早期に布陣を競う動きの一環でもある。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-27-1230",
+        "index": 3
+      },
+      "key": "intel-classiq-acquisition",
+      "ids": [
+        "e0268059eab8d0",
+        "44f490b90aca54"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/intel-buy-quantum-firm-classiq-about-23-billion-bloomberg-news-reports-6496851"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM2pBV3hKSDFUZkIwVjN4VVpXOFkwM0VBOG9ieFYyUWdxM09yWE95WGg4bG8wR2lTZktQNzMyVFNwanhHY2QtUzdGRVhpZkJOUkI1Tm5uM0Y3bEFsNWthU2R3OXR3VTNIdXZQcXZ5R3JRV2dieWZNYWhiN3dOSlo2OE9WQ0kzcWc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Vertiv completes $1.45bn acquisition of UtilityInnovation Group",
+      "summary": "Vertiv has completed its roughly $1.45bn acquisition of UtilityInnovation Group, adding microgrid controls, onsite generation orchestration and behind-the-meter power architecture to its data-centre offering, according to PR Newswire and a related SEC filing.",
+      "why_it_matters": "The deal expands Vertiv's addressable market in power-constrained data centres, where operators increasingly need onsite generation and microgrid management to secure capacity as grid connections queue up. It underscores how power availability, not just chip supply, has become a bottleneck investors are pricing into the AI infrastructure buildout.",
+      "summary_ja": "PR Newswireおよび関連するSEC開示によると、ベルティブはUtilityInnovation Groupを約14.5億ドルで買収する手続きを完了し、マイクログリッド制御、オンサイト発電の統合運用、メーター裏側の電源アーキテクチャをデータセンター事業に取り込んだ。",
+      "why_it_matters_ja": "この買収により、ベルティブは電力制約のあるデータセンター市場での対応範囲を広げる。電力網への接続待ちが長期化する中、事業者はオンサイト発電やマイクログリッド管理でキャパシティを確保する必要性を強めている。AIインフラ投資において、チップ供給だけでなく電力確保そのものが制約要因になっていることを裏付ける動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "vertiv-utilityinnovation-acquisition",
+      "ids": [
+        "d9c429a29dbb5e",
+        "2feeee036f8088"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/vertiv-completes-acquisition-of-utilityinnovation-group-302919810.html"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/0001628280-26-067393-index.htm"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT",
+        "Energy"
+      ]
+    },
+    {
+      "headline": "La Caisse to acquire 49.9% stake in Bell's wireless tower infrastructure unit",
+      "summary": "BCE has agreed to a partnership with La Caisse under which the Quebec pension giant will acquire a 49.9% stake in Bell's wireless tower infrastructure business. The companies did not disclose a deal value.",
+      "why_it_matters": "The structure lets Bell monetise part of its tower network while keeping control, an approach telecom operators are using more often to raise capital for debt reduction and network investment. It also deepens Bell's ties to one of Canada's largest pension investors at a time when telecom operators globally are courting infrastructure capital for 5G and fibre rollouts.",
+      "summary_ja": "BCEはラ・ケスとの提携に合意し、ラ・ケスはベルの無線タワー・インフラ事業の49.9％の株式を取得する。取引金額は公表されていない。",
+      "why_it_matters_ja": "この仕組みにより、ベルは経営権を維持したままタワー網の一部を資金化できる。通信事業者が債務削減や設備投資の原資を確保する手法として、この形態の活用は広がっている。カナダ最大級の年金投資家との関係も深まり、世界の通信事業者が5Gや光回線網の整備に向けインフラ資本を取り込もうとする流れに沿った動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "bce-la-caisse-bell-towers",
+      "ids": [
+        "c54f4d6dd42adc"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/bce-announces-partnership-with-la-caisse-which-will-acquire-49-9-stake-in-bell-wireless-tower-infrastructure-company-822276026.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Advantage Partners makes competing bid for Kadoya Seiyu, sparking a bidding war",
+      "summary": "Advantage Partners has made a competing proposal to acquire sesame-oil maker Kadoya Seiyu, turning an existing tender offer for the company into a bidding war, Japan M&A reported. No price has been disclosed.",
+      "why_it_matters": "A rival bid pushes Kadoya's board and shareholders toward a higher price, the latest sign that contested takeovers are becoming more common in Japan as governance reforms encourage shareholders to demand full value.",
+      "summary_ja": "Japan M&Aによると、アドバンテッジパートナーズはごま油メーカーのかどや製油に対抗提案を出し、既存の公開買付けを争奪戦に変えた。買収価格は明らかになっていない。",
+      "why_it_matters_ja": "対抗提案が出たことで、かどやの取締会と株主はより高い価格を求める立場に立つ。日本ではガバナンス改革を背景に株主が十分な価値を要求するようになり、争奪戦型の買収案件が増えている兆しの一つだ。",
+      "status": "new",
+      "prev": null,
+      "key": "advantage-kadoya-seiyu-bidding-war",
+      "ids": [
+        "c1323d604ef1ad",
+        "0ab5699c354fe5"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT0RRbFhlZ0NiYWhTRUxKa2pwUmxCYjE4Mk1BblV2dkxQbkNnMm9Rd2hybE5pSmtGUTJELV9ZX1ZOc3RtNFhKd3JqWDBXV3lLdE04X293eVlBRUN5aUE2YWhJU2xKZzBvRy1XM1BXNlFTM2xOV0Y5QTh6ODlRZlFFTzQzZVl3eDA?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02czk4ajJBZ1drbHhqdURfZ3hRZWMxRVNETjZmaktCeXZ4VUdzOWNjZi12bm1jMzVHcnhtMjd1TzZfaHJzUjB6RzNMMzY4ZHZaQzJHelcxaXFhZWFlekc4anlRWTVlbG9rX3dLaw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Meiko signs basic agreement to acquire Unimicron's Japan unit",
+      "summary": "Printed-circuit-board maker Meiko has signed a basic agreement to take Unimicron's Japan subsidiary, also a printed-circuit-board maker, as its own subsidiary, according to its own disclosure and Japan M&A, aiming to expand production capacity.",
+      "why_it_matters": "The acquisition adds capacity for Meiko in Japan's printed-circuit-board supply chain, which has drawn investment as AI and data-centre hardware demand lifts orders for advanced boards.",
+      "summary_ja": "プリント配線板メーカーのメイコーは、自社開示およびJapan M&Aによると、同じくプリント配線板を手がけるユニマイクロンの日本法人を子会社化する基本合意書を締結した。生産能力の拡大を狙う。",
+      "why_it_matters_ja": "この買収により、メイコーは日本のプリント配線板サプライチェーンにおける生産能力を拡大する。AIやデータセンター向けハードウェア需要の高まりが高機能基板の受注を押し上げ、同分野への投資を呼び込んでいる。",
+      "status": "new",
+      "prev": null,
+      "key": "meiko-unimicron-japan-acquisition",
+      "ids": [
+        "85ba7d6fb2b757",
+        "3c4e9948adc9bd",
+        "1dc2f512036538"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZXMyaXBiNnVzVDFsRTdvZ3NZbUk1d05Xc25RTG9zdUo4MGo0MjdMTmdfcDdqRS1rRUctOEN5UlJ0VmU2R0gwSUVQVHZ1dzJSUEpYZ0xVX1YycjdCcVV4TWE3V1JJV1J3eDBGZHA3RVZScGc4VVg5RlJkZVl3WnFwZFAybVcxTE5kOWtpUVVESllVOW56b25md0QzX0YxcDVRRy1icDE4TTNvVzVDUnNYUFh4emFwbS05bVYwYUtPRG1xZGliOWx6eWJuakE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNDRNbWpncUJwd3AybEVVbXhTRWIyT3VodnhCQmNYblJpajNQaDdWZFJyM0dHTmlSbnpEQzFoN1dETzZMLVJudC1iUHRuYWpjeHVlWE02SEpYdWxyYjRMeDZrdEE2MkpiaEVVSld4emo5QnpXS01QdDAtc2xUWjJZREZB0gGHAUFVX3lxTE5abGc5a0lvUl9faEZyRGU2RS1DbHd2Z3E5dm5zcGw5VGZ1QXlOLVRfcTlPV0p1VjVHOTJpaVZtVzR5MVlqbE5wR0I4czQxQWlGTnJ2X3N2ZTMzRW5EbmNOV1d3TXdmczZrRDNmeHMwQWlvRkI4dUF1Um5jbXZKQjEwVFkxWDc3WQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03ckVCX0pyc1BGeHI2RnNtR19kZmowSGhRWkJBNVB5alpCeW41TnI5YXA3WjR4Z3FEMDhBR3hRWTRncmc0ZEY1OENYZWRpRDU1S2N3YkZyaTRHMm5CQ3FfOENCdW5qWGRobGtUeQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Industrials",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Japanese investor group pursues tender offer for up to 50% of JYP Entertainment",
+      "summary": "A group of Japanese investors is pursuing a tender offer for up to 50% of K-pop agency JYP Entertainment, Japan M&A and The Business Times reported, sending JYP shares up as much as 14% before closing 6.8% higher. South Korean regulators said they would investigate whether the disclosure process involved unfair trading.",
+      "why_it_matters": "The approach shows Japanese capital reaching further into Korean entertainment assets, and the regulatory scrutiny underlines how sensitive foreign control of a marquee K-pop label is for South Korean authorities.",
+      "summary_ja": "Japan M&AおよびThe Business Timesによると、日本の投資家グループがK-POP事務所JYPエンターテインメントの株式最大50％を対象とする公開買付けを進めており、JYP株は一時14％まで上昇し、終値では6.8％高となった。韓国当局は、開示手続きに不公正取引の疑いがないか調査する意向を示した。",
+      "why_it_matters_ja": "この動きは、日本資本が韓国のエンターテインメント資産へさらに踏み込んでいることを示すと同時に、看板的なK-POPレーベルの経営権を外国資本が握ることに対し韓国当局がいかに敏感であるかを浮き立たせている。",
+      "status": "new",
+      "prev": null,
+      "key": "japan-investors-jyp-tender-offer",
+      "ids": [
+        "ce99ebfbb1a10d",
+        "5eda5aa5fead64",
+        "3f08f78d644f0c"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTUd0TFExaE9RVU9uaGtsTEdzSGNkajg1ek5oa1VCcUdrN01mN293WGcyc0NPOGVJbXBVbG8yb05KZEI0WWRERkhPX0R0T2FPbU1oVTViSVFHMEFaTEdVVWRQaHdnWE5yb1NDTXYyb0hzUy12b0ZWNUZ2cUpnY1poSQ?oc=5"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/k-pop-agency-jyps-shares-soar-after-groups-announce-tender-offer-50-stake"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY2RLS2E0Z2hwVmdGVDNTZTU3cGpYelFjb3h0dDNlMXpGS2djenE1Q0hPb2dVY0xsWmRLUDJPb1RHbnFKSkExTTdJbnR3R2dHUW80d01RRGcwTUdOeGw2Ni1FeUVGdGs0elhBa1FTQTFxQVZCTU9XdU13ZlVGWVdVdmJnWjBKZDlucU5lM1l3MVFTQdIBhAFBVV95cUxNYUpUSkFSZkRvNms5Mkxpd1VhQVNsX1d0bXBLY1hTd3RfdjhndGwtRDFwSG02RDZMdC1GX1ZFVnlyME5WS1NUa2dRYmhUb0sxaFF5WW9PMnRwVTRQYUNWd1JYVUE4d3R0YWhNWWVnaHZGSDMtdG1ndDJaYnFhWXFYVFY0cFU?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP",
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
