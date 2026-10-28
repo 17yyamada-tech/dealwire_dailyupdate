@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T07:49:58Z",
+ "updated": "2026-10-28T00:54:24Z",
  "stories": {
   "38f2688f806bd0": {
    "checked_at": "2026-09-27T05:04:08Z",
@@ -7,27 +7,27 @@
    "since": 0
   },
   "58eec020384e13": {
-   "checked_at": "2026-10-27T07:30:00Z",
+   "checked_at": "2026-10-28T00:54:24Z",
    "background": 6,
    "since": 7
   },
   "17cab88d00fb5d": {
-   "checked_at": "2026-10-27T05:30:00Z",
+   "checked_at": "2026-10-28T00:54:24Z",
    "background": 5,
    "since": 8
   },
   "20420bdc776c69": {
-   "checked_at": "2026-10-27T05:15:00Z",
+   "checked_at": "2026-10-28T00:54:24Z",
    "background": 8,
-   "since": 1
+   "since": 2
   },
   "74830c8a519f60": {
-   "checked_at": "2026-10-27T06:30:00Z",
+   "checked_at": "2026-10-28T00:54:24Z",
    "background": 5,
    "since": 2
   },
   "7b6397f5b86c07": {
-   "checked_at": "2026-10-27T07:48:41Z",
+   "checked_at": "2026-10-28T00:54:24Z",
    "background": 8,
    "since": 63
   }
