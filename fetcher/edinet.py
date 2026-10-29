@@ -537,6 +537,24 @@ def main() -> int:
     # earlier documents of a case (the original behind an amendment) that the index no longer shows.
     have = {c["id"] for c in offers}
     offers += [c for c in prev.values() if c["kind"] != "stake" and c["id"] not in have]
+    # a carried document whose price or verdict was missed (an older parser) is read again once
+    again = 0
+    for c in offers:
+        t = c["terms"]
+        if c["kind"] not in ("tob", "tob_result") or t.get("checked") or again >= 12:
+            continue
+        if (c["kind"] == "tob" and not t.get("price")) or (c["kind"] == "tob_result" and not t.get("outcome")):
+            again += 1
+            try:
+                values = csv_values(c["id"])
+                new = terms_of_offer(values) if c["kind"] == "tob" else terms_of_result(values)
+                c["terms"] = new if (new.get("price") or new.get("outcome")) else {**new, **t, "checked": 1}
+                if not c["buyer"].get("name_en"):
+                    c["buyer"]["name_en"] = filer_en(values.items())
+                print(f"      read again {c['id']}: {sorted(c['terms'])}")
+            except Exception as e:  # noqa: BLE001
+                print(f"      re-read failed for {c['id']}: {str(e)[:90]}")
+            time.sleep(PAUSE_S)
     have = {c["id"] for c in offers}
     fetched = 0
     for c in list(offers):
