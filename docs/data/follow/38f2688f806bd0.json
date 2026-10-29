@@ -4,11 +4,17 @@
  "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HQWozdFU2NHdnUjV0dm9xS1NqeEZWelRXQ0YwcXMtUEF6Sm1BTDBtRDZwUGowdnlCSGtKOTBVYXVKN253aF9naGNZWU1QZ05lUHdRVGR3aUZjcl9NdnZFVEZIcDdONlVIR25NejZoN3o4T2FDNC1V0gF8QVVfeXFMTktFcXBZNlRPNUxGWjYyRkVTMGNBcTlYVjc3LTlvZHA2b2dwaHV2QnVrZFdUdk1TM0VEdGo1Qy1xaHNqa3hFWEpUMkR3eV9DREZWMzFZZW9hTWFxVEJDR014M0tBbW5LamJBMmw4VGtqV3NtYVBVY3k0WHFSTA?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-25T20:21:58Z",
- "checked_at": "2026-10-29T04:48:55Z",
+ "checked_at": "2026-10-29T08:00:00Z",
  "status": {
   "as_of": "2026-10-29",
-  "text": "In talks: Kobayashi Pharmaceutical received a preliminary, non-binding joint take-private proposal from CVC Capital Partners and Nippon Sangyo Suishin Kiko (NSSK) around September 24-25, 2026, reportedly valuing the deal above ¥500 billion (about $3.2bn), with the founding family said to be weighing participation. No reported developments since; the company says no decision has been made and discussions continue, with top shareholder Oasis Management (14.4%) seen as a possible holdout.",
-  "text_ja": "小林製薬は2026年9月24~25日頃、CVCキャピタル・パートナーズと日本産業推進機構(NSSK)から、非上場化を視野に入れた予備的かつ拘束力のない共同買収提案を受けたと公表した。買収額は5000億円超(約32億ドル)とされ、創業家による出資参加も検討されているとされる。公表以降、新たな報道は確認されていない。会社はまだ決定していないとしており、筆頭株主オアシス・マネジメント(保有比率14.4%)が提案に応じるかどうかが今後の焦点となる可能性がある。"
+  "text": "In talks, unresolved: Kobayashi received a ¥500bn+ non-binding take-private proposal from CVC and NSSK in September. Top shareholder Oasis Management now wants an open, competitive bidding process, not one favoring the family's preferred bidder.",
+  "text_ja": "小林製薬は9月、CVCとNSSKから5000億円超の非拘束的非公開化提案を受けた。筆頭株主オアシスは創業家が好む相手優先ではなく競争的な公開入札を求めている。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-15/oasis-urges-competition-in-bids-for-scandal-tainted-kobayashi"
+   }
+  ]
  },
  "background": [
   {
@@ -52,5 +58,14 @@
    "url": "https://www.businesswire.com/news/home/20251013054865/en/Court-Proceedings-Begin-in-Oasiss-Shareholder-Derivative-Lawsuit-Seeking-Director-Accountability-for-Kobayashi-Pharmaceutical-Beni-Koji-Supplement-Tragedy"
   }
  ],
- "since": []
+ "since": [
+  {
+   "date": "2026-10-15",
+   "headline": "Oasis Management publicly calls for competitive bidding process in Kobayashi take-private",
+   "summary": "Oasis Management founder Seth Fischer said Kobayashi Pharmaceutical should not favor a particular bidder just because the CEO or founding family prefers them, and called for an open, competitive process for any take-private deal.",
+   "summary_ja": "オアシス・マネジメントの創業者セス・フィッシャー氏は、CEOや創業家が特定の相手を好むからといって小林製薬がその相手を優先すべきではないと述べ、非公開化に際しては競争的でオープンな入札プロセスを求めた。",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/oasis-urges-competition-in-bids-for-scandal-tainted-kobayashi"
+  }
+ ]
 }

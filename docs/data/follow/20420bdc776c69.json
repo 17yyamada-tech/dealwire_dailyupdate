@@ -4,11 +4,21 @@
  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZDlDUWpwT05LWEFXSGNEc3dZVkhXN3FWUG1UeVQtcVNYRnlic0R1U091Q3pVcWR3OEttZ0xLbTRiNjN6Q0xFU2tva1hZdmNlSkhwNmczVElKc0w5S1NQeXhZRGxoNFZTRk13aXZuUEVHdmNI?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-26T18:20:14Z",
- "checked_at": "2026-10-29T04:57:00Z",
+ "checked_at": "2026-10-29T08:00:00Z",
  "status": {
   "as_of": "2026-10-29",
-  "text": "Rumour stage, no confirmed bidder: unconfirmed market chatter about a West Coast tech company weighing an all-stock takeover of PayPal, with Meta also mentioned, resurfaced on October 20, 2026, nearly a month after the original report, with no bidder named and no terms negotiated. On PayPal's October 27 Q3 earnings call, CEO Enrique Lores said the board and management would evaluate any strategic options, including disciplined M&A, \"objectively,\" but that executing the current turnaround plan offers the best path to shareholder value; the company reported adjusted EPS of $1.45 and raised full-year EPS guidance to about $5.60. This follows Stripe and Advent International's abandonment of their roughly $53bn pursuit in late August. No new bidder or confirmed approach has been disclosed.",
-  "text_ja": "ペイパルを巡っては、西海岸テック企業による全株式交換方式での買収検討(メタの名前も挙がる)という未確認情報が2026年10月20日に再び取り沙汰されたが、約1カ月前の当初報道から買収主体名や条件は依然明らかになっていない。10月27日の第3四半期決算説明会で、エンリケ・ロレスCEOは、取締役会と経営陣は規律あるM&Aを含むあらゆる戦略的選択肢を「客観的に」検討するとしつつ、現行のターンアラウンド計画の実行こそが株主価値にとって最良の道だと述べた。同四半期の調整後EPSは1.45ドルで、通期EPS見通しは約5.60ドルに上方修正された。これは8月下旬にストライプとアドベント・インターナショナルが約530億ドル規模の買収追求を断念した後の動き。新たな買収主体や具体的な打診は明らかにされていない。"
+  "text": "No bidder named: an unconfirmed West-Coast tech buyer (Meta mentioned) rumor resurfaced Oct 20. PayPal beat Q3 estimates Oct 27, raised EPS guidance to ~$5.60; CEO Lores favors the turnaround plan over a sale.",
+  "text_ja": "西海岸テック企業による買収検討の未確認情報(メタも言及)が10月20日再燃。27日の決算は予想超えで通期EPS見通しを5.60ドルに上方修正。ロレスCEOは売却より現行計画を優先。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.benzinga.com/news/26/10/62618558/paypal-holdings-q3-2026-earnings-call-transcript"
+   },
+   {
+    "list": "since",
+    "url": "https://seekingalpha.com/news/4647161-paypal-gains-on-report-of-renewed-takeover-interest"
+   }
+  ]
  },
  "background": [
   {

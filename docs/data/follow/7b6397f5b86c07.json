@@ -4,11 +4,21 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-29T05:05:00Z",
+ "checked_at": "2026-10-29T08:00:00Z",
  "status": {
   "as_of": "2026-10-29",
-  "text": "Ongoing: the yen has firmed and oil has stayed elevated on persistent Strait of Hormuz tanker attacks and repeated Japan-US intervention warnings; Brent settled near $116.72 on October 23, its highest close since April. Israel's October 27 election left PM Netanyahu's bloc short of a governing majority (53 of 61 seats needed), clouding his push to escalate against Iran. No Hormuz ceasefire or resolution has been reported.",
-  "text_ja": "円は対ドルで底堅さを見せ、原油もホルムズ海峡でのタンカー攻撃継続と日米の介入警告を背景に高止まりしている。ブレント原油は10月23日に1バレル116.72ドルで引け、4月以来の高値を付けた。10月27日のイスラエル総選挙では、ネタニヤフ首相率いるブロックが政権樹立に必要な61議席に届かず53議席にとどまり、同首相が目指すイランへの攻勢強化の行方は不透明となった。ホルムズ海峡情勢の停戦や収束は報じられていない。"
+  "text": "Ongoing: Brent eased to ~$114.50 from Oct 23's $116.72 high as Saudi-mediated Iran talks raise de-escalation hope, though the US preps post-midterm strikes. Israel's Oct 27 vote left no bloc a majority; coalition talks continue.",
+  "text_ja": "ブレント原油は23日の116.72ドルから114.5ドル前後に下落、サウジ調停で緊張緩和期待も米は中間選挙後の攻撃再開に備える。イスラエルは27日選挙で過半数届かず連立協議継続。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
+   },
+   {
+    "list": "since",
+    "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html"
+   }
+  ]
  },
  "background": [
   {
@@ -77,6 +87,46 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-29",
+   "headline": "Brent eases toward $114.50 as Saudi-mediated Iran diplomacy offsets US strike warnings",
+   "summary": "Brent crude slipped to around $114.50 a barrel in early October 29 trading as Saudi, Turkish and Pakistani mediation with Iran raised hopes of de-escalation, even as Washington reportedly warned Gulf allies to prepare for possible renewed strikes on Iran after the November 3 US midterms.",
+   "summary_ja": "10月29日、サウジ・トルコ・パキスタンによるイラン調停への期待から、ブレント原油は1バレル114.5ドル前後まで下落した。一方、米国は中間選挙後のイラン攻撃再開に備えるよう湾岸諸国に警告したと報じられた。",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Yen weakens toward 158/dollar as Fed hold and fading safe-haven demand lift the dollar ahead of BOJ decision",
+   "summary": "USD/JPY rose back toward 158 in Asian trading on October 29 as the dollar firmed after the Fed's rate hold and safe-haven flows into the yen faded, with the Bank of Japan's own policy decision due October 30 and markets widely expecting it to hold its rate at 1.25%.",
+   "summary_ja": "10月29日、FOMCの金利維持を受けドルが堅調となり円の逃避需要も後退し、ドル円は158円台まで戻した。日銀は30日に政策決定予定で、市場は1.25%での維持を見込む。",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/news/japanese-yen-declines-due-to-stronger-us-dollar-safe-haven-outflows-202610290103"
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Fed holds rates at 3.75%-4% in 10-2 vote, two dissenters favored a hike",
+   "summary": "The Federal Reserve held its benchmark rate range at 3.75%-4% on October 28 in a 10-2 vote, with Governor Lisa Cook and Cleveland Fed President Beth Hammack dissenting in favor of a quarter-point increase; Chair Kevin Warsh denied the midterm elections influenced the decision.",
+   "summary_ja": "FRBは10月28日、政策金利を3.75~4%で維持することを10対2の賛成多数で決定した。クック理事とクリーブランド連銀ハマック総裁は0.25%の利上げを求め反対した。ウォーシュ議長は中間選挙の影響を否定した。",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Brent settles above $115, up 1.3%, as US reportedly readies post-midterm Iran strikes",
+   "summary": "Brent crude futures rose 1.3% to settle at $115.32 a barrel on October 28, after reports that the United States is preparing to resume strikes against Iran once the November 3 midterm elections pass.",
+   "summary_ja": "10月28日、米国が中間選挙後にイラン攻撃を再開する準備を進めているとの報道を受け、ブレント原油先物は1.3%高の1バレル115.32ドルで引けた。",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Shekel and Israeli stocks slide as election leaves neither Netanyahu nor Eisenkot bloc with a majority",
+   "summary": "Israel's shekel fell roughly 1%-2% and Tel Aviv stock indexes dropped about 2.3%-3% on October 28 after the October 27 election left neither Netanyahu's nor Eisenkot's bloc with the 61 seats needed for a majority; President Herzog said he would consult party leaders before assigning the mandate to form a government, with final results due November 4.",
+   "summary_ja": "10月27日の選挙でネタニヤフ陣営もアイゼンコット陣営も過半数61議席に届かず、28日にシェケルは1~2%、テルアビブ株も2.3~3%下落した。ヘルツォーク大統領は各党と協議後に組閣委任する考えで、確定結果は11月4日見込み。",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html"
+  },
   {
    "date": "2026-10-28",
    "headline": "Israel's Oct 27 election leaves Netanyahu's bloc 8 seats short of a majority at 53-48, coalition talks uncertain",
@@ -276,318 +326,6 @@
    "summary_ja": "ロイターが米政府当局者の情報として報じたところによると、トランプ政権はロシア・イラン・ベネズエラ関連の制裁対象タンカー(シャドーフリート)について、制裁対象外の「合法な」原油の輸送を認める形で制裁を部分的に緩和する案を検討しており、利用には米財務省の承認が必要になるという。クリス・ライト米エネルギー長官は記録的な運賃上昇が米国産原油の需要を圧迫していると述べたが、ロシア・イラン産原油は引き続き対象外とされ、海事関係者は保険会社が依然EUや英国の規制に従う必要があるため運賃の全般的な低下にはつながりにくいとロイターに語った。",
    "source": "gCaptain (via Reuters)",
    "url": "https://gcaptain.com/trump-weighs-lifting-shadow-fleet-sanctions-as-tanker-rates-soar/"
-  },
-  {
-   "date": "2026-10-15",
-   "headline": "Bloomberg: Katayama renews yen-intervention warning after hot US CPI data pushes yen to month's weakest level",
-   "summary": "Bloomberg reported that Japanese Finance Minister Satsuki Katayama renewed her warning that Tokyo stands ready to act in currency markets again, after the yen weakened to its softest level of the month following hotter-than-expected US inflation data; she said there had been no change in Japan's and Washington's stance since their July joint intervention.",
-   "summary_ja": "ブルームバーグの報道によると、片山さつき財務相は、米国の予想を上回るインフレ指標を受けて円が今月の最安値まで下落したことについて、改めて通貨市場への介入準備があると警告した。同氏は、7月の日米協調介入以来、両国の姿勢に変化はないと述べた。",
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/japan-s-katayama-renews-warnings-on-yen-after-us-cpi-heats-up"
-  },
-  {
-   "date": "2026-10-14",
-   "headline": "Reuters/IMO data: bulk carrier Cape Dao sinks near Hormuz; one crew member killed in a September 23 projectile strike",
-   "summary": "Reuters reported, citing International Maritime Organization casualty data, that the Antigua and Barbuda-flagged bulk carrier Cape Dao sank near the Strait of Hormuz, weeks after being struck by a projectile on September 23, 2026 that killed one crew member, with the rest of the crew evacuated immediately after the strike; Reuters said Cape Dao and the container ship GFS Pride, which sank the same day, were the second and third vessels to sink since the US-Iran war began on February 28, 2026.",
-   "summary_ja": "ロイターが国際海事機関(IMO)の被害データを引用して報じたところによると、アンティグア・バーブーダ船籍のばら積み船「ケープ・ダオ」が、2026年9月23日の飛来物攻撃で乗組員1人が死亡した後、他の乗組員は直後に避難していたが、数週間を経てホルムズ海峡付近で沈没した。ロイターによれば、同日沈没したコンテナ船「GFS プライド」とケープ・ダオは、2026年2月28日の米イラン戦争開始以降で2隻目・3隻目の沈没船となった。",
-   "source": "gCaptain (via Reuters)",
-   "url": "https://gcaptain.com/bulk-carrier-sinks-weeks-after-deadly-strait-of-hormuz-strike/"
-  },
-  {
-   "date": "2026-10-14",
-   "headline": "Hormuz tanker attacks hit wartime-high daily pace; Iran officials tell Reuters they plan to widen strikes beyond the strait, Brent near $106.32",
-   "summary": "Al Jazeera reported that attacks on commercial ships in and around the Strait of Hormuz reached their highest daily level since the war began, with UKMTO logging 15 attacks between October 6 and 14, 11 of them in the final four days; two senior Iranian officials told Reuters that Tehran plans to widen shipping attacks into the Gulf of Oman and beyond to keep oil prices elevated ahead of the US midterms, while CENTCOM said it helped move more than 19 million barrels of crude through Hormuz on Monday and disputed Iran's claim of controlling the strait. Brent crude rose 0.6% to $106.32 a barrel.",
-   "summary_ja": "アルジャジーラの報道によると、ホルムズ海峡一帯での商船攻撃は開戦以来最も激しい日次ペースに達し、英海事当局UKMTOは10月6日から14日までに15件の攻撃を記録、うち11件は直近4日間に集中した。イラン政府高官2人はロイターに対し、米中間選挙を前に原油価格を高止まりさせる狙いで、攻撃をオマーン湾以遠にも拡大する計画だと語った。米中央軍(CENTCOM)は月曜日に湾岸諸国の原油1900万バレル超の輸送を支援したとし、イランが海峡を支配しているとの主張を否定した。ブレント原油は0.6%高の1バレル106.32ドルとなった。",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again"
-  },
-  {
-   "date": "2026-10-13",
-   "headline": "Houthi missiles strike Aramco's Dhahran headquarters; Reuters sources say top floors including CEO Amin Nasser's office severely damaged",
-   "summary": "Bloomberg reported that Yemen's Houthi forces struck Saudi Aramco's executive headquarters in Dhahran, Saudi Arabia, with missiles on the night of October 13, 2026; Saudi authorities said the strike caused a limited fire with no injuries, but three people with direct knowledge told Reuters the damage was extensive, with fire spreading across several floors including the office of CEO Amin Nasser, while Aramco continued operations with some staff working from home.",
-   "summary_ja": "ブルームバーグの報道によると、イエメンのフーシ派は2026年10月13日夜、サウジアラムコのダーラン本社をミサイルで攻撃した。サウジ当局は火災は限定的で負傷者はいないとしているが、事情に詳しい関係者3人はロイターに対し、被害は複数階に及ぶ大規模なもので、アミン・ナーセルCEOの執務室を含む上層階が深刻な損傷を受けたと述べたという。アラムコは一部従業員を在宅勤務としつつ業務を継続している。",
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-13/aramco-headquarters-hit-during-houthi-attacks-on-saudi-arabia"
-  },
-  {
-   "date": "2026-10-13",
-   "headline": "Two previously-attacked UAE-linked cargo ships sink in Strait of Hormuz within 24 hours; tanker Alfonso and three container ships also struck",
-   "summary": "The National reported that two cargo ships owned by a UAE shipping company, which had earlier been struck in the Strait of Hormuz, sank in quick succession over a 24-hour period; separately on October 13 three container ships and the Barbados-flagged tanker Alfonso were hit by unidentified projectiles, with the vessel GFS Pride catching fire and ultimately sinking after all 21 crew were safely evacuated.",
-   "summary_ja": "The Nationalの報道によると、以前ホルムズ海峡で攻撃を受けていたUAE海運会社所有の貨物船2隻が、24時間以内に相次いで沈没した。これとは別に10月13日、コンテナ船3隻とバルバドス船籍のタンカー「Alfonso」が不明の飛来物による攻撃を受け、うち「GFS Pride」は出火し最終的に沈没したが、乗組員21人全員は無事避難した。",
-   "source": "The National",
-   "url": "https://www.thenationalnews.com/news/gulf/2026/10/13/strait-of-hormuz-attacks-surge-as-iran-steps-up-campaign-against-us-backed-oil-shipping/"
-  },
-  {
-   "date": "2026-10-12",
-   "headline": "IRGC says it struck a very large crude carrier in the Strait of Hormuz, the third tanker attack it has claimed in 48 hours",
-   "summary": "Iran's Revolutionary Guard Corps said it struck a very large crude carrier (VLCC) in the Strait of Hormuz on the morning of October 12, 2026, claiming the vessel had switched off its navigation system and ignored warnings; the ship reportedly caught fire, and it was the third tanker attack the IRGC has claimed within 48 hours. The claim was not independently verified.",
-   "summary_ja": "イラン革命防衛隊(IRGC)は2026年10月12日朝、ホルムズ海峡で超大型原油タンカー(VLCC)1隻を攻撃したと発表した。同船は航行システムを切り警告を無視していたと主張しており、同船は火災を起こしたとされる。これはIRGCが48時間以内に発表した3件目のタンカー攻撃となる。この主張は独立した形では確認されていない。",
-   "source": "Seatrade Maritime News",
-   "url": "https://www.seatrade-maritime.com/security/iran-threatens-wider-tanker-attacks-as-vlcc-struck-in-gulf"
-  },
-  {
-   "date": "2026-10-12",
-   "headline": "Iran's security chief Rezaei vows to target US-UAE oil 'shuttle' out of Hormuz, rejects Trump's claim the strait is open",
-   "summary": "Al Jazeera reported that Iran's security chief Mohsen Rezaei said the US- and UAE-assisted shuttle system used to move oil out of the Strait of Hormuz is now an explicit target for Tehran, and rejected President Trump's assertion that the strait is open, insisting Iran remains in control of the passage.",
-   "summary_ja": "アルジャジーラの報道によると、イランのモフセン・レザイー治安担当責任者は、米国とアラブ首長国連邦(UAE)が支援する、ホルムズ海峡から原油を運び出す「シャトル」輸送網をテヘランの明確な攻撃対象にすると表明した。また、トランプ大統領が同海峡は開通しているとの見方を示したことについては、イランが依然として同海峡の支配権を握っているとしてこれを否定した。",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
-  },
-  {
-   "date": "2026-10-11",
-   "headline": "UKMTO logs another tanker hit by unidentified projectile while leaving the Strait of Hormuz, crew safe",
-   "summary": "UKMTO reported that a tanker was struck on its port side by an unidentified projectile while transiting out of the Strait of Hormuz, with the incident logged at 1200 UTC on October 11, 2026; the crew was reported safe and no pollution was reported.",
-   "summary_ja": "英海事当局UKMTOの報告によると、ホルムズ海峡から出航中のタンカー1隻が2026年10月11日協定世界時12時、左舷側に不明の飛来物の直撃を受けた。乗組員に負傷はなく、油濁の報告もないという。",
-   "source": "Gulf News",
-   "url": "https://gulfnews.com/world/mena/tanker-struck-by-unidentified-projectile-in-strait-of-hormuz-ukmto-says-1.500706575"
-  },
-  {
-   "date": "2026-10-11",
-   "headline": "CNN: Gulf oil flows near two-thirds of pre-war levels as analysts say Iran has partially lost control of Hormuz",
-   "summary": "CNN reported that Gulf oil flows have rebounded to roughly two-thirds of pre-war levels, citing Goldman Sachs estimates of a rise to about 15-16 million barrels a day from a March low of 5-6 million, as a tightened US blockade curbs Iran's own oil exports; a Kpler analyst said it \"increasingly looks like Iran has at least partially lost control of the strait.\"",
-   "summary_ja": "CNNの報道によると、ゴールドマン・サックスの推計では、ガルフ地域の原油輸送量は3月の安値である日量500万~600万バレルから現在は1500万~1600万バレル程度まで回復し、戦前水準の約3分の2に達した。米国による封鎖強化がイラン自身の原油輸出を圧迫する一方、Kplerのアナリストは「イランはホルムズ海峡の支配権を少なくとも部分的に失ったように見える」と指摘した。",
-   "source": "CNN",
-   "url": "https://cnn.com/2026/10/11/middleeast/iran-hormuz-oil-analysis-intl"
-  },
-  {
-   "date": "2026-10-10",
-   "headline": "US Navy fighter jet disables Panama-flagged cargo ship Ocean Molica after it tried to run Iran naval blockade in Gulf of Oman",
-   "summary": "US Central Command said a fighter jet struck the stern of the Panama-flagged cargo vessel Ocean Molica, also referred to as Arika Sun, with a precision munition, disabling its propulsion, after the ship left an Iranian port and ignored repeated warnings while attempting to run the US naval blockade of Iran; the US military said no crew members were injured.",
-   "summary_ja": "米中央軍(CENTCOM)によると、戦闘機がパナマ船籍の貨物船オーシャン・モリカ(アリカ・サンとも呼ばれる)の船尾を精密誘導弾で攻撃し、推進機能を無力化した。同船はイランの港を出港後、米国によるイラン海上封鎖を突破しようと繰り返しの警告を無視したとされる。米軍は乗組員に負傷者はいないとしている。",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman"
-  },
-  {
-   "date": "2026-10-10",
-   "headline": "IRGC claims a crude supertanker hit a mine and exploded in the Strait of Hormuz; UAE rescues 22 crew from a separate Gulf tanker fire",
-   "summary": "Iran's Revolutionary Guard Corps said a crude oil supertanker struck a naval mine and exploded while leaving the Strait of Hormuz via an unauthorized southern route with its navigation systems switched off, without naming the vessel, its flag or the exact location; separately, the UAE National Guard said it rescued 22 Asian crew members from a tanker fire in the Persian Gulf, without confirming whether it was the same vessel.",
-   "summary_ja": "イラン革命防衛隊(IRGC)は、原油を積んだスーパータンカー1隻が無許可の南側航路でホルムズ海峡を離れようとした際に機雷に接触して爆発したと主張した。同タンカーは航行システムを切っていたとされ、船名や船籍、正確な発生場所は明らかにされていない。これとは別に、アラブ首長国連邦(UAE)国家警備隊はペルシャ湾で発生したタンカー火災からアジア系乗組員22人を救助したと発表したが、同一の船舶かどうかは確認していない。",
-   "source": "The Jerusalem Post",
-   "url": "https://www.jpost.com/middle-east/iran-news/article-911241"
-  },
-  {
-   "date": "2026-10-09",
-   "headline": "CNBC: Hormuz tanker attacks hit wartime high as September Gulf oil exports still matched prewar levels excluding Iran, Brent near $105",
-   "summary": "CNBC reported that tanker attacks in the Strait of Hormuz reached a wartime high, with the IMO counting eleven tankers attacked in the week to October 4 and five more the following week, even as Kpler estimated September Persian Gulf crude exports excluding Iran matched the prewar average and Brent settled near $105 a barrel on October 8 after rising more than 4% the day before.",
-   "summary_ja": "CNBCの報道によると、ホルムズ海峡でのタンカー攻撃は開戦以来最多の水準に達し、IMOの集計では10月4日までの週に11隻、翌週にさらに5隻が攻撃を受けた。一方でKplerの推計ではイランを除くペルシャ湾の9月の原油輸出量は開戦前の平均と同水準となり、ブレント原油は前日に4%超上昇した後、10月8日に1バレル=105ドル近辺で終えた。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html"
-  },
-  {
-   "date": "2026-10-08",
-   "headline": "FT: Hormuz tanker captains now paid up to $100,000 a month plus $50,000-per-transit danger bonus as 24 seafarers killed",
-   "summary": "The Financial Times, as reported by Al Jazeera, said tanker captains transiting the Strait of Hormuz can now earn up to about $100,000 a month in base salary plus a $50,000 bonus per transit, versus a normal captain's pay of about $15,000 a month and ordinary crew pay of about $1,500 a month, as freight rates for cargoes through the strait reached about $1.3 million a day that week and 24 seafarers had been killed in the conflict.",
-   "summary_ja": "アルジャジーラがフィナンシャル・タイムズ(FT)の報道として伝えたところによると、ホルムズ海峡を航行するタンカーの船長は現在、月額最大10万ドルの基本給に加え、通過1回につき5万ドルの危険手当を得ているという。平常時の船長の月給は約1万5000ドル、一般乗組員は約1500ドルとされる。同週、同海峡を通る貨物の運賃は1日当たり約130万ドルに達し、これまでに船員24人が死亡したという。",
-   "source": "Al Jazeera (via Financial Times)",
-   "url": "https://www.aljazeera.com/news/2026/10/8/the-hormuz-bonus-sailor-salaries-soar-for-transits-amid-iran-war"
-  },
-  {
-   "date": "2026-10-07",
-   "headline": "US Vice President Vance demands Iran show 'meaningful' cut to uranium enrichment capacity for a war-ending deal",
-   "summary": "US Vice President JD Vance said in a Reuters interview that any deal to end the US-Iran war must require an actual, meaningful reduction in Iran's uranium enrichment capacity rather than assurances, questioning why Iran needs 60%-enriched fuel if it does not seek a nuclear weapon; a senior Iranian official told Reuters that Washington's position remained at odds with Tehran's demands.",
-   "summary_ja": "ロイターのインタビューでJD・バンス米副大統領は、米イラン戦争終結に向けた合意には、単なる保証ではなくイランのウラン濃縮能力の実質的かつ「意味のある」削減が必要だと述べ、核兵器を求めないのであればなぜ60%濃縮燃料が必要なのかと疑問を呈した。イラン政府高官はロイターに対し、米側の立場は依然テヘラン側の要求とかみ合っていないと述べた。",
-   "source": "Times of Israel",
-   "url": "https://www.timesofisrael.com/vance-iran-needs-to-show-meaningful-reduction-in-nuclear-enrichment-for-a-deal/"
-  },
-  {
-   "date": "2026-10-07",
-   "headline": "Gulf of Mexico operators shut in about 25% of oil output as Tropical Storm Isaias approaches",
-   "summary": "Reuters reported that US Gulf of Mexico operators had shut in about 25.08% of current oil production and 16.37% of natural gas production as of Wednesday October 7, 2026, as Tropical Storm Isaias approached, with personnel evacuated from eight production platforms and two rigs moved off location as a precaution.",
-   "summary_ja": "ロイターの報道によると、トロピカルストーム「イサイアス」の接近を受け、米メキシコ湾の事業者は2026年10月7日(水)時点で原油生産量の約25.08%、天然ガス生産量の約16.37%を停止した。生産プラットフォーム8基から作業員が退避し、リグ2基が予防的に移動した。",
-   "source": "BOE Report (Reuters)",
-   "url": "https://boereport.com/2026/10/07/about-25-of-gulf-of-mexico-oil-output-shut-in-due-to-isaias-us-agency-says/"
-  },
-  {
-   "date": "2026-10-07",
-   "headline": "Pentagon orders CENTCOM to ready options for renewed large-scale combat against Iran; Trump has not decided",
-   "summary": "Breitbart reported, citing Axios, that the Pentagon directed US Central Command to complete preparations for a possible resumption of major combat operations against Iran, with officials saying targets could include nuclear, infrastructure and energy sites; President Trump had not made a final decision and no date was set.",
-   "summary_ja": "ブライトバートがAxiosの報道として伝えたところによると、米国防省は中央軍(CENTCOM)に対し、イランへの大規模な戦闘作戦再開に向けた準備を完了するよう指示した。当局者によれば対象には核施設やインフラ、エネルギー関連施設が含まれるとされるが、トランプ大統領はまだ最終決定を下しておらず、実施時期も定まっていない。",
-   "source": "Breitbart (via Axios)",
-   "url": "https://www.breitbart.com/politics/2026/10/07/report-pentagon-orders-centcom-ready-iran-strike-options-trump-weighs-major-operations/"
-  },
-  {
-   "date": "2026-10-07",
-   "headline": "September FOMC minutes show July 31 yen intervention's US side was funded via Treasury account, not the Fed's own balance sheet",
-   "summary": "Bloomberg reported, citing the Federal Reserve's September FOMC minutes, that the New York Fed carried out the US side of the July 31 Japan-US joint yen-buying intervention using US Treasury funds rather than the Federal Reserve's own balance sheet.",
-   "summary_ja": "ブルームバーグの報道によると、FRBの9月FOMC議事要旨で、7月31日の日米協調円買い介入における米国側の実施分はFRB自身の資産ではなく米財務省の資金を通じて行われたことが明らかになった。",
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-used-treasury-funds-to-support-yen-in-joint-intervention"
-  },
-  {
-   "date": "2026-10-07",
-   "headline": "UKMTO: tanker off Qatar struck by multiple projectiles, agency urges caution transiting the Strait of Hormuz",
-   "summary": "UKMTO reported that a tanker off Qatar was struck by multiple unidentified projectiles and advised vessels transiting the Strait of Hormuz to proceed with caution and report suspicious activity.",
-   "summary_ja": "英海事当局UKMTOは、カタール沖でタンカー1隻が複数の不明な飛来物による攻撃を受けたと報告し、ホルムズ海峡を航行する船舶に注意しての航行と不審な動きの通報を呼びかけた。",
-   "source": "Times of Israel",
-   "url": "https://www.timesofisrael.com/liveblog-october-07-2026/"
-  },
-  {
-   "date": "2026-10-07",
-   "headline": "VLCC spot rate to ship US crude to Asia hits $77 million, nearly 8x the 2025 average, as Hormuz disruption persists",
-   "summary": "Bloomberg reported that the cost to hire a very large crude carrier to move US oil to Asia reached $77 million, according to Baltic Exchange data, compared with a 2025 average of $9.2 million, as the Strait of Hormuz disruption kept tanker shipping costs at record highs.",
-   "summary_ja": "ブルームバーグの報道によると、バルチック海運取引所のデータでは、米国産原油をアジアへ輸送するVLCC(超大型原油タンカー)の用船料が7700万ドルに達した。2025年の平均は920万ドルで、ホルムズ海峡の混乱を受けタンカーの海運コストは記録的な高水準を維持している。",
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-07/oil-shipping-costs-reach-dizzying-new-highs-on-hormuz-snarls"
-  },
-  {
-   "date": "2026-10-07",
-   "headline": "NBC News: at least 12 tanker attacks near Strait of Hormuz in week to October 5, the most intense week of the war",
-   "summary": "NBC News reported that maritime security trackers counted at least 12 attacks on oil, LNG and LPG tankers around the Strait of Hormuz in the week of September 28 to October 5, 2026, the most intense week for such attacks since the Iran war began, even as oil exports from the region have risen.",
-   "summary_ja": "NBCニュースの報道によると、海事セキュリティー調査機関の集計で、2026年9月28日から10月5日の週にホルムズ海峡周辺で原油・LNG・LPGタンカーへの攻撃が少なくとも12件発生した。これはイラン戦争開始以降で最も攻撃が激しかった週であり、同地域からの原油輸出は増加しているという。",
-   "source": "NBC News",
-   "url": "https://www.nbcnews.com/business/energy/hormuz-oil-exports-increase-ship-attacks-rcna601597"
-  },
-  {
-   "date": "2026-10-06",
-   "headline": "Iranian President Pezeshkian calls talks with US 'meaningless,' citing three attacks on Iran after earlier negotiations",
-   "summary": "Iranian President Masoud Pezeshkian told state media that negotiations with Washington were meaningless, citing three attacks on Iran that followed earlier rounds of talks as evidence the US was not seeking genuine dialogue, and describing the US as an adversary that assassinates, sanctions, pressures and threatens daily.",
-   "summary_ja": "イランのペゼシュキアン大統領は国営メディアに対し、米国との交渉は無意味だと述べた。過去の協議後にイランが3回攻撃を受けたことを挙げ、米国が真の対話を求めていない証拠だとし、米国を暗殺や制裁、圧力、脅迫を日常的に行う敵対国だと表現した。",
-   "source": "Daily Sabah",
-   "url": "https://www.dailysabah.com/world/mid-east/irans-pezeshkian-says-negotiations-with-us-meaningless/amp"
-  },
-  {
-   "date": "2026-10-06",
-   "headline": "Hormuz vessel transit collapses to 5% of pre-crisis traffic even as non-Iran Mideast oil exports top pre-war levels",
-   "summary": "CNBC reported, citing maritime tracker Kpler, that commercial transit through the Strait of Hormuz fell to about 5% of pre-crisis levels on October 4 (four vessels versus a typical 85 per day), even as Middle East oil exports excluding Iran surpassed pre-war levels over the preceding week despite continued tanker attacks.",
-   "summary_ja": "CNBCが海事データ企業Kplerの情報として報じたところによると、ホルムズ海峡の商業船舶の通航量は10月4日時点で危機前の約5%(通常85隻に対し4隻)まで落ち込んだ一方、タンカー攻撃が続く中でもイラン産を除く中東の石油輸出は前週に開戦前の水準を上回った。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
-  },
-  {
-   "date": "2026-10-06",
-   "headline": "Tanker On Peace struck by projectile off Oman's Musandam coast, injuring 12 crew including 11 Indian nationals",
-   "summary": "A projectile struck the Panama-flagged tanker On Peace near the Strait of Hormuz off Oman's Musandam Governorate on October 6, 2026, starting a fire and injuring 12 of the vessel's crew, 11 of them Indian nationals; Omani authorities evacuated the injured to Khasab for treatment.",
-   "summary_ja": "2026年10月6日、オマーンのムサンダム州沖、ホルムズ海峡付近でパナマ船籍のタンカー「On Peace」が飛来物の直撃を受け火災が発生し、乗組員12人(うち11人がインド人)が負傷した。オマーン当局は負傷者をハサブへ搬送し治療を行った。",
-   "source": "Baird Maritime",
-   "url": "https://www.bairdmaritime.com/security/incidents/on-peace-tanker-attack-hormuz"
-  },
-  {
-   "date": "2026-10-05",
-   "headline": "Saudi Aramco CEO Amin Nasser warns global oil stockpiles are 'scarily thin'",
-   "summary": "Saudi Aramco chief executive Amin Nasser said global oil stockpiles are 'scarily thin,' a remark reported by Bloomberg amid the continuing Strait of Hormuz disruption to oil shipping.",
-   "summary_ja": "サウジアラムコのアミン・ナーセルCEOは、世界の石油在庫が「恐ろしく薄い」状態にあると述べた。ホルムズ海峡の混乱が原油輸送に影響を及ぼし続ける中でのブルームバーグへの発言である。",
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/oil-gains-as-iran-ramps-up-pace-of-attacks-on-tankers-in-strait"
-  },
-  {
-   "date": "2026-10-05",
-   "headline": "UKMTO logs four tanker strikes in Strait of Hormuz over October 3-5, latest ignites engine-room fire",
-   "summary": "UKMTO reported four separate tanker strikes by unknown projectiles in the Strait of Hormuz between October 3 and 5: a crude oil tanker struck above the waterline on October 3, an inbound LPG tanker hit at 1716 UTC and a crude oil tanker hit at 1907 UTC on October 4, and another tanker struck at 1637 UTC on October 5 that caught fire in its engine room, which the crew was fighting.",
-   "summary_ja": "UKMTOの報告によると、10月3日から5日にかけてホルムズ海峡でタンカー4隻が不明の飛来物に相次いで被弾した。10月3日には原油タンカー1隻が喫水線上部を被弾し、10月4日にはLPGタンカーが協定世界時16時16分、原油タンカーが同19時07分に被弾、10月5日には別の船舶が同16時37分に被弾し機関室で火災が発生、乗組員が消火活動を行っている。",
-   "source": "gCaptain",
-   "url": "https://gcaptain.com/five-hormuz-incidents-reported-monday-as-tanker-attacks-mount"
-  },
-  {
-   "date": "2026-10-05",
-   "headline": "Iran's IRGC orders inbound tanker near Strait of Hormuz to turn back or be targeted, vessel complies",
-   "summary": "UKMTO reported that Iran's Revolutionary Guard Corps hailed an inbound tanker about 11 nautical miles north of Khasab, Oman, near the Strait of Hormuz, and ordered it to turn around or be targeted; the tanker's master complied with the instruction.",
-   "summary_ja": "UKMTOの報告によると、イラン革命防衛隊(IRGC)はホルムズ海峡付近、オマーンのハサブ北方約11海里の地点でインバウンドのタンカーを呼び止め、引き返すよう命じ、従わなければ攻撃すると警告した。同船の船長はこの指示に従った。",
-   "source": "BOE Report",
-   "url": "https://boereport.com/2026/10/05/tanker-ordered-by-irans-irgc-to-turn-back-in-hormuz-or-risk-being-hit-ukmto-says/"
-  },
-  {
-   "date": "2026-10-04",
-   "headline": "Iran reiterates Strait of Hormuz stays closed until US meets its conditions",
-   "summary": "Al Jazeera reported that Iran said the Strait of Hormuz will remain closed until the United States meets Tehran's conditions, as the two sides continued indirect talks on ending the standoff over the waterway.",
-   "summary_ja": "アル・ジャジーラの報道によると、イランは米国が自国の要求を満たすまでホルムズ海峡の封鎖を維持すると改めて表明した。両国はこの海峡を巡る対立の解消に向け、間接協議を続けている。",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
-  },
-  {
-   "date": "2026-10-02",
-   "headline": "NYT: US tightens naval blockade and sanctions on Iran as Hormuz oil flows recover despite weekly drone and missile attacks on shipping",
-   "summary": "The New York Times reported that oil flows through the Strait of Hormuz have risen even as Iran continues launching dozens of drones and missiles at commercial vessels there each week, largely unreported and often missing their targets, while the US has responded with a tightened naval blockade and additional sanctions on Iran as President Trump shifts the campaign from military strikes toward economic pressure.",
-   "summary_ja": "ニューヨーク・タイムズは、イランがホルムズ海峡で商船に対し毎週多数の無人機・ミサイル攻撃を続け(多くは報じられず、命中にも失敗している)にもかかわらず、同海峡経由の原油輸送量は増加していると報じた。米国はイランに対する海上封鎖の強化と追加制裁で対応しており、トランプ大統領は軍事作戦から経済的圧力重視へと方針を転換しているという。",
-   "source": "The New York Times (via The Philadelphia Inquirer)",
-   "url": "https://www.inquirer.com/news/nation-world/iran-strait-of-hormuz-oil-20261002.html"
-  },
-  {
-   "date": "2026-09-30",
-   "headline": "Iran confirms receipt of formal US response to its Hormuz/ceasefire proposal, delivered to Pezeshkian's cabinet",
-   "summary": "Iran confirmed it had received an official US response, relayed through Qatari mediators, to its latest proposal to end the war and reopen the Strait of Hormuz; Foreign Minister Abbas Araghchi delivered the response to President Masoud Pezeshkian at a cabinet meeting after returning from talks in New York, and the contents were not disclosed.",
-   "summary_ja": "イランは、戦争終結とホルムズ海峡再開に関する自国提案への米国の公式回答を、カタールの仲介を通じて受け取ったことを確認した。アラグチ外相はニューヨークでの協議から帰国後、閣議でペゼシュキアン大統領にこの回答を伝達したが、内容は明らかにされなかった。",
-   "source": "The Boston Globe",
-   "url": "https://www.bostonglobe.com/2026/09/30/world/iran-us-response-end-war/"
-  },
-  {
-   "date": "2026-09-29",
-   "headline": "CNN analysis: Iran's Hormuz leverage fading as oil flows recover to two-thirds of pre-war levels, IMF sees economy shrinking over 5%",
-   "summary": "A CNN analysis by former senior US official Brett McGurk said Iran's leverage from disrupting shipping in the Strait of Hormuz is dissipating as a renewed US blockade and protection of commercial vessels have restored oil flows to about two-thirds of pre-war levels, citing IMF projections that Iran's economy will contract more than 5% this year with inflation approaching 70%.",
-   "summary_ja": "元米政府高官ブレット・マガーク氏によるCNNの分析記事は、米国による封鎖の再強化と商船護衛により、ホルムズ海峡経由の原油輸送量が開戦前の約3分の2まで回復する中、同海峡での船舶妨害を通じたイランのレバレッジは弱まりつつあると指摘した。IMFの予測では、イラン経済は今年5%超のマイナス成長となり、インフレ率は70%近くに達する見通しだという。",
-   "source": "CNN",
-   "url": "https://www.cnn.com/2026/09/29/economy/oil-strait-of-hormuz-iran"
-  },
-  {
-   "date": "2026-09-29",
-   "headline": "Katayama repeats warning that undervalued yen is 'problematic' after phone call with Bessent",
-   "summary": "Japanese Finance Minister Satsuki Katayama said the yen's undervaluation remains a concern and that Tokyo and Washington will stay in close contact to keep currency markets orderly, following her phone call with US Treasury Secretary Scott Bessent.",
-   "summary_ja": "片山さつき財務相は、円安は引き続き問題だとの認識を示し、外国為替市場の秩序維持へ日米で緊密な連絡を続ける考えを示した。ベッセント米財務長官との電話協議を受けた発言である。",
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-29/japan-s-katayama-reiterates-weak-yen-concern-after-bessent-call"
-  },
-  {
-   "date": "2026-09-29",
-   "headline": "Iran's Araghchi meets Qatari mediators in New York, says US may respond to Hormuz proposal by Tuesday",
-   "summary": "Iranian Foreign Minister Abbas Araghchi met Qatari mediators in New York to relay Iran's amended Strait of Hormuz reopening proposal, saying he hoped for Washington's final response by Tuesday, while a US official said there would be no end-of-war agreement unless Iran's nuclear programme is addressed.",
-   "summary_ja": "イランのアラグチ外相はニューヨークでカタール仲介団と会談し、ホルムズ海峡再開に関する修正提案を伝え、火曜日までに米国から最終回答を得たいとの見通しを示した。米当局者は、イランの核開発計画への対応なしに終戦合意はないと述べた。",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/9/29/irans-araghchi-meets-qatari-mediators-as-us-insists-on-nuclear-talks"
-  },
-  {
-   "date": "2026-09-28",
-   "headline": "US officials say Hormuz oil flows near prewar levels despite Iran's claims of successful strikes",
-   "summary": "US officials said oil flows through the Strait of Hormuz have recovered substantially despite Iran's claims of successful attacks on shipping there, with the Energy Secretary citing about 13 million barrels a day and the Treasury Secretary citing an estimate of 15-22 million barrels a day, against roughly 20 million barrels a day before the war.",
-   "summary_ja": "イランが同海峡付近での船舶攻撃の成功を主張する一方、米当局者はホルムズ海峡の原油輸送量が開戦前の水準に近づいていると述べた。米エネルギー長官は日量約1300万バレル、米財務長官は日量1500万~2200万バレルとの見方を示し、開戦前の日量約2000万バレルと比較した。",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions"
-  },
-  {
-   "date": "2026-09-28",
-   "headline": "Iran's army vows to keep blocking vessels near the Strait of Hormuz as Tehran says it is \"fully prepared\" for war",
-   "summary": "An Iranian army deputy coordinator said Iranian forces are acting with authority in the northern Arabian Sea and east of the Strait of Hormuz and \"will not let anyone pass,\" while Tehran said it remains open to \"real diplomacy\" but is fully prepared for war.",
-   "summary_ja": "イラン軍副調整官は、イラン軍がアラビア海北部およびホルムズ海峡東方で権限を行使しており「誰も通過させない」と述べた。テヘラン側は「本物の外交」には引き続き前向きだとしつつ、戦争への備えは万全だとした。",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions"
-  },
-  {
-   "date": "2026-09-28",
-   "headline": "Dollar index climbs to around 101.15, on track for best month since June, as yen slips to 157.7 and Brent holds above $106",
-   "summary": "The dollar index edged up to about 101.15, on track for a 1.7% gain in September, its best month since June, as the yen weakened 0.3% to 157.7 per dollar and Brent crude held above $106 a barrel, with hawkish Federal Reserve rate-hike bets and the US-Iran Hormuz standoff both supporting the dollar.",
-   "summary_ja": "ドル指数は101.15程度まで上昇し、9月は1.7%高と6月以来最も良い月間成績となる見通しとなった。円は0.3%安の1ドル=157.7円まで下落し、ブレント原油は106ドル超を維持した。FRBの利上げ観測強まりと米イラン間のホルムズ海峡を巡る対立の双方がドルを支えた。",
-   "source": "U.S. News & World Report",
-   "url": "https://money.usnews.com/investing/news/articles/2026-09-27/dollar-firms-as-us-iran-tensions-lift-oil-hawkish-fed-bets-build"
-  },
-  {
-   "date": "2026-09-28",
-   "headline": "Brent rebounds above $106, up over 1%, after Trump rejects Iran's Hormuz reopening proposal",
-   "summary": "Brent crude rose more than 1%, back above $106 a barrel, after President Trump rejected Iran's proposal to reopen the Strait of Hormuz, reviving concern that restoration of oil flows through the waterway would be delayed.",
-   "summary_ja": "トランプ大統領がホルムズ海峡再開を巡るイランの提案を拒否したことを受け、ブレント原油は1%超上昇し1バレル106ドル台を回復した。同海峡経由の原油輸送再開の遅れへの懸念が再燃した。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
-  },
-  {
-   "date": "2026-09-28",
-   "headline": "Yen extends Friday's rally into thin Monday Asia trade as fresh Hormuz missile report sharpens risk",
-   "summary": "The yen extended Friday's gains into thin Monday Asia trading, with risk sentiment further sharpened by a report from Iranian media of a missile fired at a vessel in the Strait of Hormuz.",
-   "summary_ja": "円は金曜日の上昇分を維持し、薄商いとなった月曜アジア時間も堅調に推移した。イラン国営メディアがホルムズ海峡での船舶へのミサイル発射を報じたことで、リスク心理は一段と敏感になった。",
-   "source": "InvestingLive",
-   "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices-september-28-2026/"
-  },
-  {
-   "date": "2026-09-27",
-   "headline": "Trump tells Axios he expects US-Iran talks to resume this week despite rejecting Tehran's truce plan",
-   "summary": "Trump told Axios he expects US-Iran talks to resume this week, even as he rejected Iran's seven-day truce proposal tied to reopening the Strait of Hormuz.",
-   "summary_ja": "トランプ氏はAxiosに対し、ホルムズ海峡再開を条件とするイランの7日間停戦案は拒否したものの、今週中に米イラン協議が再開する見通しだと語った。",
-   "source": "France 24",
-   "url": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal"
-  },
-  {
-   "date": "2026-09-27",
-   "headline": "Iranian FM Araghchi says Tehran is ready for a \"doomsday\" war with the US but keeps diplomacy open",
-   "summary": "In an interview aired Sunday, Iranian Foreign Minister Abbas Araghchi said Iran is prepared for a \"doomsday\" war with the United States after Trump rejected Tehran's seven-day Hormuz reopening proposal, while stressing Iran will not miss any chance for peace.",
-   "summary_ja": "日曜に放送されたインタビューで、イランのアラグチ外相は、トランプ大統領がテヘラン側のホルムズ海峡再開に向けた7日間停戦案を拒否したことを受け、米国との「終末的な」戦争に備えていると述べた一方、和平の機会は逃さない考えを強調した。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/27/iran-foreign-minister-keeps-indirect-talks-with-us-open-state-media.html"
   }
  ]
 }

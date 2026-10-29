@@ -4,11 +4,17 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYmEyNFJpamQ1WXZaRmhwMl90ZXNVZ093MkFyRk5tdTR6U2ZYblN0aUVlV3RGZzBQSE5vNF9UYjdBTENlbnRWUFVSUGMtM3NEdGhpTUNyWmd2bzFxbU95SGVtUGxCSDdjZlhQVUNNNDFkQ1JfdVdLZHdFVlNCeFk?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T05:00:00Z",
- "checked_at": "2026-10-29T04:59:30Z",
+ "checked_at": "2026-10-29T08:00:00Z",
  "status": {
   "as_of": "2026-10-29",
-  "text": "No deal reached: Tiny's sale of its controlling stake in Letterboxd remains in process, with LionTree running the auction. As of the most recent reporting (October 8, 2026), The New York Times is seen as the frontrunner given its ability to act as a \"neutral custodian,\" while A24, a Gigi Pritzker-led Madison Wells consortium, Netflix, Sony, Paramount Skydance, TPG, Alexis Ohanian and the crowdfunded bidder Intrinsic Entertainment Collaborative have all been named as interested parties; any deal is still expected to value Letterboxd above $300 million, roughly 20 times projected 2026 earnings. No winning bidder or signed agreement has been reported since.",
-  "text_ja": "Letterboxdの過半数株主Tinyによる株式売却プロセスは依然決着しておらず、LionTreeが売却手続きを主導している。直近の報道(2026年10月8日)では、「中立的な管理者」になり得るとしてニューヨーク・タイムズが本命と見られているが、A24、プロデューサーのジジ・プリツカー氏率いるマディソン・ウェルズ連合、Netflix、ソニー・ピクチャーズ、パラマウント・スカイダンス、TPG、アレクシス・オハニアン氏、クラウドファンディング型の対抗馬Intrinsic Entertainment Collaborativeなどが買収候補として名前が挙がっている。買収額は依然3億ドル超(2026年予想利益の約20倍)と見込まれている。その後、落札者決定や契約締結の報道はない。"
+  "text": "Unresolved: Tiny's Letterboxd sale, run by LionTree, remains open. The New York Times is seen as frontrunner against A24, a Pritzker-led consortium and others. Value expected above $300m; no winner reported since Oct 8.",
+  "text_ja": "LionTree主導のLetterboxd売却は未決着。NYTが本命視され、A24やプリツカー氏系連合などと競合。想定額は3億ドル超。10月8日以降新たな決着はない。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.thewrap.com/industry-news/business/letterboxd-sale-gigi-pritzker-investor-consortium-acquisition/"
+   }
+  ]
  },
  "background": [
   {

@@ -4,11 +4,25 @@
  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-26T18:17:00Z",
- "checked_at": "2026-10-29T04:52:00Z",
+ "checked_at": "2026-10-29T08:00:00Z",
  "status": {
   "as_of": "2026-10-29",
-  "text": "Pending regulatory review: Rocket Lab's roughly $8bn acquisition of Iridium ($54/share: $27 cash plus stock) won Iridium stockholder approval on September 24, 2026, and is now awaiting FCC consent to transfer Iridium's satellite and spectrum licenses, with opposition filings due October 30 and replies due November 9. SpaceX and Ligado have raised conduct and competition concerns in the docket, though SpaceX says it does not oppose the deal itself. Rocket Lab fully financed the cash portion in September. The deal's vertical-integration goal still depends on Rocket Lab's Neutron rocket, whose debut launch slipped again in October to sometime in 2027; closing is still expected by mid-2027.",
-  "text_ja": "ロケットラボによる約80億ドルのイリジウム買収(1株54ドル=現金27ドルとロケットラボ株式の組み合わせ)は、2026年9月24日にイリジウム株主の承認を得た。現在はFCCによるイリジウムの衛星・周波数免許の移転承認を待つ段階にあり、異議申立ての期限は10月30日、再答弁の期限は11月9日とされている。SpaceXとLigado Networksは審査手続きの中でイリジウムの対応や競争上の懸念を提起しているが、SpaceXは買収自体には反対していないとしている。現金部分の資金はロケットラボが9月に全額確保済み。買収が目指す垂直統合の完成は、ニュートロン・ロケットの初打ち上げが前提となるが、同ロケットの打ち上げは10月に再び延期され2027年中になる見通し。買収完了は依然2027年半ばを見込む。"
+  "text": "Pending FCC review: Iridium holders approved Rocket Lab's ~$8bn ($54/share) buyout Sept 24; FCC's opposition-reply deadline is Oct 30, replies Nov 9. Neutron's debut slipped to 2027; close still expected mid-2027.",
+  "text_ja": "イリジウム株主は9月24日、ロケットラボの約80億ドル買収案を承認した。FCC異議期限は10/30、再答弁11/9。ニュートロン初飛行は27年に延期、完了は27年半ば予定。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://docs.fcc.gov/public/attachments/DA-26-985A1.pdf"
+   },
+   {
+    "list": "since",
+    "url": "https://lightreading.com/satellite/rocket-lab-s-first-neutron-rocket-launch-delayed-to-2027"
+   },
+   {
+    "list": "since",
+    "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab"
+   }
+  ]
  },
  "background": [
   {
