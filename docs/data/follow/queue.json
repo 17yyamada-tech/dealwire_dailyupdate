@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T03:37:34.209Z",
+ "updated": "2026-10-29T07:37:41.044Z",
  "stories": [
   {
    "id": "7b6397f5b86c07",
@@ -7,8 +7,8 @@
    "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
    "source": "The Business Times",
    "published": "2026-09-27T13:31:03Z",
-   "since": "2026-09-27T19:11:34.459Z",
-   "followers": 13
+   "since": "2026-09-27T13:31:03Z",
+   "followers": 26
   },
   {
    "id": "17cab88d00fb5d",
@@ -16,17 +16,8 @@
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
    "source": "Japan M&A",
    "published": "2026-09-27T10:00:23Z",
-   "since": "2026-09-27T17:28:59.680Z",
-   "followers": 13
-  },
-  {
-   "id": "20420bdc776c69",
-   "title": "米国の西海岸テック企業が全株式交換方式での買収を検討と伝わり、ペイパルが5%急騰——メタによる買収案も浮上",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZDlDUWpwT05LWEFXSGNEc3dZVkhXN3FWUG1UeVQtcVNYRnlic0R1U091Q3pVcWR3OEttZ0xLbTRiNjN6Q0xFU2tva1hZdmNlSkhwNmczVElKc0w5S1NQeXhZRGxoNFZTRk13aXZuUEVHdmNI?oc=5",
-   "source": "Japan M&A",
-   "published": "2026-09-26T18:20:14Z",
-   "since": "2026-09-27T15:09:11.563Z",
-   "followers": 13
+   "since": "2026-09-27T10:00:23Z",
+   "followers": 26
   },
   {
    "id": "74830c8a519f60",
@@ -34,8 +25,17 @@
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYmEyNFJpamQ1WXZaRmhwMl90ZXNVZ093MkFyRk5tdTR6U2ZYblN0aUVlV3RGZzBQSE5vNF9UYjdBTENlbnRWUFVSUGMtM3NEdGhpTUNyWmd2bzFxbU95SGVtUGxCSDdjZlhQVUNNNDFkQ1JfdVdLZHdFVlNCeFk?oc=5",
    "source": "Japan M&A",
    "published": "2026-09-27T05:00:00Z",
-   "since": "2026-09-27T15:08:59.381Z",
-   "followers": 13
+   "since": "2026-09-27T05:00:00Z",
+   "followers": 26
+  },
+  {
+   "id": "20420bdc776c69",
+   "title": "米国の西海岸テック企業が全株式交換方式での買収を検討と伝わり、ペイパルが5%急騰——メタによる買収案も浮上",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZDlDUWpwT05LWEFXSGNEc3dZVkhXN3FWUG1UeVQtcVNYRnlic0R1U091Q3pVcWR3OEttZ0xLbTRiNjN6Q0xFU2tva1hZdmNlSkhwNmczVElKc0w5S1NQeXhZRGxoNFZTRk13aXZuUEVHdmNI?oc=5",
+   "source": "Japan M&A",
+   "published": "2026-09-26T18:20:14Z",
+   "since": "2026-09-26T18:20:14Z",
+   "followers": 26
   },
   {
    "id": "58eec020384e13",
@@ -43,8 +43,8 @@
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
    "source": "Japan M&A",
    "published": "2026-09-26T18:17:00Z",
-   "since": "2026-09-27T05:12:53.624Z",
-   "followers": 13
+   "since": "2026-09-26T18:17:00Z",
+   "followers": 26
   },
   {
    "id": "38f2688f806bd0",
@@ -52,8 +52,8 @@
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HQWozdFU2NHdnUjV0dm9xS1NqeEZWelRXQ0YwcXMtUEF6Sm1BTDBtRDZwUGowdnlCSGtKOTBVYXVKN253aF9naGNZWU1QZ05lUHdRVGR3aUZjcl9NdnZFVEZIcDdONlVIR25NejZoN3o4T2FDNC1V0gF8QVVfeXFMTktFcXBZNlRPNUxGWjYyRkVTMGNBcTlYVjc3LTlvZHA2b2dwaHV2QnVrZFdUdk1TM0VEdGo1Qy1xaHNqa3hFWEpUMkR3eV9DREZWMzFZZW9hTWFxVEJDR014M0tBbW5LamJBMmw4VGtqV3NtYVBVY3k0WHFSTA?oc=5",
    "source": "Japan M&A",
    "published": "2026-09-25T20:21:58Z",
-   "since": "2026-10-20T00:00:00Z",
-   "followers": 12
+   "since": "2026-09-25T20:21:58Z",
+   "followers": 25
   }
  ]
 }
