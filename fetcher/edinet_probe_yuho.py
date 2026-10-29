@@ -98,7 +98,7 @@ def main() -> int:
         print(f"  {len(rows)} rows; header: {rows[0][:9]}")
         for r in rows[1:]:
             if len(r) >= 9 and r[0].endswith("BasicPolicyRegardingControlOfCompanyTextBlock"):
-                print(f"  -- BASIC POLICY BLOCK ({len(r[8])} chars): {r[8][:2500]!r}")
+                print(f"  -- BASIC POLICY BLOCK ({len(r[8])} chars): {r[8][700:1500]!r} ...... TAIL {r[8][-500:]!r}")
         print("  -- money elements (plain Current/Prior1 year contexts only)")
         for r in rows[1:]:
             if len(r) < 9 or not MONEY.search(r[0]) or r[2] not in ("CurrentYearDuration", "Prior1YearDuration"):
