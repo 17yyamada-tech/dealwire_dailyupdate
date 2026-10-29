@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261029-2000";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261029-2215";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -338,81 +338,284 @@
 
   /* ---------------- Japan filings ----------------
      EDINET says who is bidding for whom and when they filed, which the news coverage often
-     leaves out. Nothing here is interpreted: every field is copied from the filing index. */
-  const FILING_LABEL = { tob: "Tender offer", tob_result: "Offer result", opinion: "Target response", stake: "5% stake" };
+     leaves out. One row per case: a tender offer's documents (original, amendments, result) are
+     one row, a 5% report is one row. The sentence on each row is built from the filed fields by a
+     fixed template (no AI); nothing here is interpreted beyond what the filing says. */
+  const FL_GLOSS = {
+    tob: ["Tender offer", "A public offer to buy shares straight from shareholders at a set price within a set period (公開買付け, TOB)."],
+    result: ["Offer result", "The bidder's report after the offer period closes: how many shares were tendered and bought."],
+    proposal: ["Proposal intent", "The holder says it may make 'important proposals' to management, such as board changes, payouts or restructuring (重要提案行為等). Often an activist signal."],
+    stake: ["Stake change", "A holder of more than 5% of a listed company reports its holding, and again when it moves by 1 point or more (大量保有報告書・変更報告書)."],
+    joint: ["Joint holders", "The percentage is the group total, counting funds and affiliates that hold together (共同保有者)."],
+    sponsor: ["Sponsor", "An investor already on this site's list of funds and corporate sponsors."],
+    sought: ["Shares sought", "The number of shares the bidder offers to buy, with the stake that would give it."],
+    floor: ["Minimum to succeed", "If fewer shares than this are tendered, the offer fails and nothing is bought (買付予定数の下限)."],
+    settles: ["Payment date", "When the bidder pays for the shares that were tendered (決済の開始日)."],
+    backer: ["Fund behind bidder", "A known sponsor found among the shareholders of the bid vehicle. News often just says 'an investment fund'."]
+  };
+  const FL_BACKER_EN = { "政府系ファンド": "Government-backed fund" };
+  const nfkc = (s) => (s || "").normalize("NFKC").replace(/\s+/g, " ").trim();
+  const stripJa = (s) => s.replace(/^(株式会社|有限会社|合同会社)\s*/, "").replace(/\s*(株式会社|有限会社|合同会社)$/, "");
+  const stripEn1 = (s) => s.replace(/[,.\s]*\b(co[.,\s]*ltd|pte[.,\s]*ltd|k\.?\s?k|inc|corporation|corp|company|co|limited|ltd|llc|llp)\b[.\s]*$/i, "").replace(/[\s&,]+$/, "").trim();
+  const stripEn = (s) => stripEn1(stripEn1(s));
+  const flClip = (s, n) => s.length > n ? s.slice(0, n - 1) + "…" : s;
+  function flName(p) {
+    const en = nfkc(p.name_en), ja = nfkc(p.name);
+    const enS = en ? stripEn(en) : "";
+    let jaS = stripJa(ja) || ja; if (/^[\x00-\x7f]+$/.test(jaS)) jaS = stripEn(jaS) || jaS;
+    return { en, ja, enS, jaS, ticker: p.ticker || "", main: enS || jaS, sub: enS ? ja : "" };
+  }
+  const flEl = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const flTip = (key) => {
+    const g = FL_GLOSS[key], i = flEl("span", "fx-i", "ⓘ");
+    i.tabIndex = 0; i.setAttribute("role", "note"); i.dataset.tip = g[1]; i.setAttribute("aria-label", g[0] + ": " + g[1]);
+    return i;
+  };
+  const flDay = (iso) => fmtDay(iso.slice(0, 10)).replace(/ \d{4}$/, "").replace("Sept", "Sep");               // "12 Nov"
+  const flDayJa = (iso) => { const [, m, d] = iso.slice(0, 10).split("-"); return (+m) + "月" + (+d) + "日"; };
+  const flShares = (s) => { const n = +String(s).replace(/,/g, ""); return n >= 1e6 ? (n / 1e6).toFixed(1) + "M shares" : n.toLocaleString("en-US") + " shares"; };
+  const flYen = (s) => "¥" + Number(String(s).replace(/,/g, "")).toLocaleString("en-US");
+  const flFlat = (d) => Math.abs(d) < 0.005;
+  const flPt = (d) => (d >= 0 ? "+" : "−") + Math.abs(d).toFixed(2) + "pt";
+  function flBizDaysLeft(closes) {
+    let n = 0; const e = new Date(closes + "T00:00:00Z").getTime();
+    for (let t = new Date(todaySG() + "T00:00:00Z").getTime() + 864e5; t <= e; t += 864e5) { const w = new Date(t).getUTCDay(); if (w && w < 6) n++; }
+    return n;
+  }
+  const flDocLabel = (c) => c.kind === "tob_result" ? "Result" : c.kind === "tob_withdrawn" ? "Withdrawn" : c.kind === "opinion" ? "Response" : /訂正/.test(c.type_ja) ? "Amended" : "Filed";
+  const flPdf = (id) => "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/" + id + ".pdf";
+
+  // Same case = same chain of documents: ids linked through `parent`. Earlier documents the feed no longer holds are kept as plain links.
+  function flItems(cards) {
+    const uf = new Map(), find = (x) => { while (uf.get(x) !== x) { uf.set(x, uf.get(uf.get(x))); x = uf.get(x); } return x; };
+    const add = (x) => { if (!uf.has(x)) uf.set(x, x); };
+    const ids = new Set(cards.map(c => c.id));
+    cards.forEach(c => { add(c.id); if (c.parent) { add(c.parent); uf.set(find(c.id), find(c.parent)); } });
+    const groups = new Map();
+    cards.forEach(c => { const r = find(c.id); if (!groups.has(r)) groups.set(r, []); groups.get(r).push(c); });
+    return [...groups.values()].map(docs => {
+      docs.sort((a, b) => a.filed < b.filed ? -1 : 1);                       // oldest first
+      // the target's own response is filed under the bidder's case but names the two the other way round, so
+      // the offer itself (not the response) speaks for the case when there is one
+      const offerDocs = docs.filter(d => d.kind !== "opinion");
+      const latest = (offerDocs.length ? offerDocs : docs)[(offerDocs.length ? offerDocs : docs).length - 1];
+      const earlier = [...new Set(docs.map(d => d.parent).filter(p => p && !ids.has(p)))];
+      const family = latest.kind === "stake" ? "stake" : "tob";
+      const terms = Object.assign({}, ...docs.map(d => d.terms || {}));
+      const it = { family, docs, latest, earlier, terms, chain: Math.max(docs.length + earlier.length, latest.filings || 1),
+        target: flName(latest.target), buyer: flName(latest.buyer), changes: [] };
+      if (family === "tob") {
+        it.hasResult = docs.some(d => d.kind === "tob_result");
+        it.withdrawn = docs.some(d => d.kind === "tob_withdrawn");
+        const t = terms, today = todaySG();
+        if (it.withdrawn) it.status = ["Withdrawn", "done"];
+        else if (it.hasResult) it.status = ["Closed · result filed", "done"];
+        else if (t.closes && today > t.closes) it.status = ["Closed", "done"];
+        else if (t.opens && today < t.opens) it.status = ["Opens " + flDay(t.opens), "soon"];
+        else if (t.closes) { const n = flBizDaysLeft(t.closes); it.status = [n === 0 ? "Open · closes today" : "Open · " + n + " business day" + (n === 1 ? "" : "s") + " left", "open"]; }
+        else it.status = ["Filed", "soon"];
+        // terms that moved between the first filing of the offer and the latest one
+        const withTerms = docs.filter(d => d.terms && (d.terms.price || d.terms.closes));
+        if (withTerms.length > 1) {
+          const a = withTerms[0].terms, b = withTerms[withTerms.length - 1].terms;
+          if (a.price && b.price && a.price !== b.price) it.changes.push((+b.price.replace(/,/g, "") > +a.price.replace(/,/g, "") ? "Price raised " : "Price lowered ") + flYen(a.price) + " → " + flYen(b.price));
+          if (a.closes && b.closes && a.closes !== b.closes) it.changes.push((b.closes > a.closes ? "Extended to " : "Shortened to ") + flDay(b.closes));
+          if (a.shares && b.shares && a.shares !== b.shares) it.changes.push("Shares sought " + flShares(a.shares) + " → " + flShares(b.shares));
+        }
+      } else {
+        const t = latest.terms || {};
+        it.delta = t.stake_now != null && t.stake_prev != null ? t.stake_now - t.stake_prev : null;
+      }
+      return it;
+    });
+  }
+  // One sentence, from filed fields only. Japanese uses the same template.
+  function flSummary(it) {
+    const t = it.terms, tg = it.target, by = it.buyer, L = it.latest;
+    const B = flClip(by.main, 38), T = tg.main, Bj = flClip(by.jaS, 38), Tj = tg.jaS;
+    if (it.family === "tob") {
+      const closeEn = t.closes ? flDay(t.closes) : "", closeJa = t.closes ? flDayJa(t.closes) : "";
+      if (it.withdrawn) return { en: `${B} withdrew its tender offer for ${T}`, ja: `${Bj}は${Tj}の公開買付けを撤回` };
+      if (L.kind === "opinion") return { en: `${B} filed its response to the tender offer by ${T}`, ja: `${Bj}が${Tj}による公開買付けへの意見表明を提出` };
+      if (it.hasResult) {
+        const n = t.tendered ? flShares(t.tendered) : "", after = t.stake_after != null ? t.stake_after.toFixed(2) + "%" : "";
+        if (t.outcome === "success") return {
+          en: `Tender offer for ${T} succeeded: ${n ? n + " tendered" : "closed" + (closeEn ? " " + closeEn : "")}${after ? `, bidder now holds ${after}` : ""}`,
+          ja: `${Tj}の公開買付けは成立${n ? "、応募" + t.tendered + "株" : ""}${after ? "、買付後の所有割合" + after : ""}` };
+        if (t.outcome === "failed") return {
+          en: `Tender offer for ${T} did not succeed${n ? ": " + n + " tendered, below the minimum" : ""}`,
+          ja: `${Tj}の公開買付けは不成立${n ? "、応募" + t.tendered + "株で下限に届かず" : ""}` };
+        return { en: `Tender offer for ${T} closed${closeEn ? " " + closeEn : ""}; result filed`, ja: `${Tj}の公開買付けは${closeJa ? closeJa + "に" : ""}終了、結果報告書を提出` };
+      }
+      const px = t.price ? `, ${flYen(t.price)} a share` : "", pxJa = t.price ? `、1株${flYen(t.price)}` : "";
+      if (it.status[1] === "done") return { en: `Tender offer for ${T} by ${B} closed ${closeEn}`, ja: `${Bj}による${Tj}の公開買付けは${closeJa}に終了` };
+      return { en: `${B} is bidding for ${T}${px}; offer closes ${closeEn}`, ja: `${Bj}が${Tj}の株式公開買付けを実施中${pxJa}、${closeJa}まで` };
+    }
+    const now = t.stake_now, pct = now.toFixed(2) + "%", prop = t.proposal;
+    const propEn = prop ? "; may make proposals" : "", propJa = prop ? "。重要提案行為を行う可能性あり" : "";
+    if (t.stake_prev == null) return { en: `${B} disclosed a new ${pct} stake in ${T}${propEn}`, ja: `${Bj}が${Tj}株を${pct}保有と報告（新規）${propJa}` };
+    const d = now - t.stake_prev;
+    if (Math.abs(d) < 0.005) return { en: `${B} reported its stake in ${T} unchanged at ${pct}${propEn}`, ja: `${Bj}の${Tj}株の保有割合は${pct}で変わらず${propJa}` };
+    return d > 0
+      ? { en: `${B} raised its stake in ${T} to ${pct} (${flPt(d)})${propEn}`, ja: `${Bj}が${Tj}株の保有割合を${pct}に引き上げ（${flPt(d)}）${propJa}` }
+      : { en: `${B} cut its stake in ${T} to ${pct} (${flPt(d)})${propEn}`, ja: `${Bj}が${Tj}株の保有割合を${pct}に引き下げ（${flPt(d)}）${propJa}` };
+  }
+  const flText = (it) => flSummary(it)[state.lang === "ja" ? "ja" : "en"];
+  // [label, value, tipKey, deltaText]
+  function flFigures(it, all) {
+    const t = it.terms, f = [];
+    if (it.family === "tob") {
+      if (t.price) f.push(["Offer price", flYen(t.price) + " a share"]);
+      if (t.opens && t.closes) f.push(["Offer period", `${flDay(t.opens)} to ${flDay(t.closes)}` + (t.business_days ? ` (${t.business_days} business days)` : "")]);
+      if (t.shares) f.push(["Shares sought", flShares(t.shares) + (t.stake_pct ? ` · ${t.stake_pct}%` : ""), "sought"]);
+      if (t.floor) f.push(["Minimum to succeed", flShares(t.floor), "floor"]);
+      if (t.backer) f.push(["Fund behind bidder", FL_BACKER_EN[t.backer] || nfkc(t.backer), "backer"]);
+      if (t.settles) f.push(["Payment date", flDay(t.settles), "settles"]);
+      if (t.outcome) f.push(["Result", t.outcome === "success" ? "Succeeded" : "Did not succeed"]);
+      if (t.tendered) f.push(["Shares tendered", flShares(t.tendered)]);
+      if (t.bought && t.bought !== t.tendered) f.push(["Shares bought", flShares(t.bought)]);
+      if (t.stake_after != null) f.push(["Bidder stake after", t.stake_after.toFixed(2) + "%"]);
+    } else {
+      const now = t.stake_now.toFixed(2) + "%";
+      if (t.stake_prev != null) f.push(["Stake", `${t.stake_prev.toFixed(2)}% → ${now}`, "joint", flFlat(it.delta) ? "unchanged" : (it.delta >= 0 ? "▲ " : "▼ ") + flPt(it.delta)]);
+      else f.push(["Stake", now + " (new report)", "joint"]);
+      if (all && t.purpose) f.push(["Holding purpose", nfkc(t.purpose)]);
+    }
+    return all ? f : f.slice(0, 4);
+  }
+  function flFigNode(rows, cls) {
+    const dl = flEl("dl", cls || "fx-figs");
+    rows.forEach(([k, v, tip, delta]) => {
+      const dt = flEl("dt", null, k); if (tip) dt.append(flTip(tip));
+      const dd = flEl("dd", null, v); if (delta) dd.append(flEl("span", "fx-delta", " " + delta));
+      dl.append(dt, dd);
+    });
+    return dl;
+  }
+  function flHistory(it) {
+    const box = flEl("div", "fx-hist");
+    box.append(flEl("span", "fx-hist-k", it.docs.length > 1 || it.earlier.length ? "Filings" : "Filing"));
+    const link = (txt, href) => { const a = flEl("a", "fx-doc", txt); a.href = href; a.target = "_blank"; a.rel = "noopener"; return a; };
+    it.earlier.forEach(id => box.append(link("Earlier filing ↗", flPdf(id))));
+    // a long offer can have thirty documents: the first, a count of the ones between, then the last three
+    const shown = it.docs.length > 7 ? [...it.docs.slice(0, 1), null, ...it.docs.slice(-3)] : it.docs;
+    shown.forEach(d => d ? box.append(link(`${flDocLabel(d)} ${flDay(d.filed)} ↗`, d.link))
+      : box.append(flEl("span", "fx-hist-more", `· ${it.docs.length - 4} more ·`)));
+    const extra = it.chain - it.docs.length - it.earlier.length;
+    if (extra > 0) box.append(flEl("span", "fx-hist-more", `+${extra} older in this chain`));
+    return box;
+  }
+  function flBadges(it, withKind) {
+    const row = flEl("div", "fx-badges");
+    const k = flEl("span", "fx-kind k-" + it.family, it.family === "tob" ? "Tender offer" : "Stake change");
+    k.append(flTip(it.family === "tob" ? "tob" : "stake"));
+    if (withKind !== false) row.append(k);
+    if (it.family === "tob") row.append(flEl("span", "fx-status s-" + it.status[1], it.status[0]));
+    if (it.latest.terms && it.latest.terms.proposal) { const p = flEl("span", "fx-flag", "Proposal intent"); p.append(flTip("proposal")); row.append(p); }
+    if (it.latest.sponsor) { const p = flEl("span", "fx-flag", "Sponsor"); p.append(flTip("sponsor")); row.append(p); }
+    it.changes.forEach(c => row.append(flEl("span", "fx-change", c)));
+    return row;
+  }
+  function flCompany(it) {
+    const box = flEl("div", "fx-co");
+    const a = flEl("a", "fx-co-main", it.target.main); a.href = it.latest.link; a.target = "_blank"; a.rel = "noopener";
+    box.append(a);
+    if (it.target.ticker) box.append(flEl("span", "fx-ticker", it.target.ticker));
+    if (it.target.sub) box.append(flEl("span", "fx-co-sub", it.target.sub));
+    return box;
+  }
+  function flOrder(items) {
+    const rank = (i) => i.family === "stake" ? 3 : i.status[1] === "open" ? 0 : i.status[1] === "soon" ? 1 : 2;
+    return items.slice().sort((a, b) => rank(a) - rank(b) || (a.family === "tob" && rank(a) === 2 ? (b.terms.closes || "").localeCompare(a.terms.closes || "") : a.family === "tob" ? (a.terms.closes || "").localeCompare(b.terms.closes || "") : b.latest.filed.localeCompare(a.latest.filed)));
+  }
+  const FL_PAGE = 25;
+  const flState = { filter: "all", open: new Set(), shown: FL_PAGE };
+
   function renderFilings() {
-    const panel = $("#filings"), ol = $("#filing-list");
+    const panel = $("#filings"), body = $("#filing-body"), tools = $("#filing-tools");
     const cards = (state.filings || []).filter(c => !state.filters.country.length || state.filters.country.includes("JP"));
     panel.hidden = !cards.length;
     if (!cards.length) return;
-    ol.textContent = "";
-    cards.slice(0, 30).forEach(c => ol.append(filingNode(c)));
-    $("#filings-meta").textContent = cards.length + (cards.length === 1 ? " filing" : " filings") + " · EDINET";
+    const items = flOrder(flItems(cards));
+    const nT = items.filter(i => i.family === "tob").length, nS = items.length - nT;
+    $("#filings-meta").textContent = `${items.length} ${items.length === 1 ? "case" : "cases"} · EDINET`;
+    body.textContent = ""; tools.textContent = "";
+    renderFilingsTable(items, nT, nS, tools, body);
   }
-  const coName = (p) => p.name_en || p.name || "";
-  function filingNode(c) {
-    const li = document.createElement("li"); li.className = "filing-card";
-    const head = document.createElement("div"); head.className = "fc-head";
-    const k = document.createElement("span"); k.className = "fc-kind k-" + c.kind;
-    k.textContent = FILING_LABEL[c.kind] || c.kind;
-    head.append(k);
-    if (c.sponsor) { const s = document.createElement("span"); s.className = "fc-sponsor"; s.textContent = "Sponsor"; head.append(s); }
-    // the filing's own purpose says the holder may make proposals: the activist signal
-    if (c.terms && c.terms.proposal) { const s = document.createElement("span"); s.className = "fc-proposal"; s.textContent = "Proposal intent"; s.title = "Holding purpose includes 重要提案行為等"; head.append(s); }
-    const d = document.createElement("span"); d.className = "fc-date"; d.textContent = fmtDate(c.filed); head.append(d);
-
-    const target = document.createElement("a"); target.className = "fc-target";
-    target.href = c.link; target.target = "_blank"; target.rel = "noopener";
-    target.textContent = coName(c.target) || "Target not named in the index";
-    if (c.target.ticker) { const t = document.createElement("span"); t.className = "fc-ticker"; t.textContent = " " + c.target.ticker; target.append(t); }
-    target.title = c.target.name || "";
-
-    const by = document.createElement("p"); by.className = "fc-line";
-    const byl = document.createElement("span"); byl.className = "fc-lbl"; byl.textContent = "By";
-    const byv = document.createElement("span"); byv.textContent = coName(c.buyer);
-    by.append(byl, byv);
-
-    li.append(head, target, by);
-    // Terms come straight out of the filing. There is no premium here on purpose: it is not
-    // a filed figure, and we do not hold the pre-announcement share price to work it out.
-    const t = c.terms || {};
-    const pairs = [];
-    if (t.price) pairs.push(["Price", "¥" + t.price + " / sh"]);
-    if (t.opens && t.closes) pairs.push(["Period", fmtDay(t.opens) + " – " + fmtDay(t.closes) + (t.business_days ? ` (${t.business_days}d)` : "")]);
-    if (t.shares) pairs.push(["Sought", t.shares + " sh" + (t.stake_pct ? ` · ${t.stake_pct}%` : "")]);
-    if (t.floor) pairs.push(["Floor", t.floor + " sh"]);
-    if (t.settles) pairs.push(["Settles", fmtDay(t.settles)]);
-    if (t.backer) pairs.push(["Backer", t.backer]);
-    // 5% reports: the holding before and after, as filed, and why it is held
-    if (t.stake_now != null) {
-      const now = t.stake_now.toFixed(2) + "%";
-      if (t.stake_prev != null) {
-        const d = t.stake_now - t.stake_prev;
-        pairs.push(["Holding", `${t.stake_prev.toFixed(2)}% → ${now}`, `(${d >= 0 ? "+" : "−"}${Math.abs(d).toFixed(2)}pt)`, d >= 0 ? "up" : "down"]);
-      } else pairs.push(["Holding", now, "(new)", "up"]);
+  function renderFilingsTable(items, nT, nS, tools, body) {
+    [["all", "All", items.length], ["tob", "Tender offers", nT], ["stake", "Stake changes", nS]].forEach(([k, label, n]) => {
+      const b = flEl("button", "chip", `${label} · ${n}`); b.setAttribute("aria-pressed", flState.filter === k);
+      b.addEventListener("click", () => { flState.filter = k; flState.shown = FL_PAGE; renderFilings(); });
+      tools.append(b);
+    });
+    const wrap = flEl("div", "fx-tablewrap"), table = flEl("table", "fx-table");
+    const thead = flEl("thead"), hr = flEl("tr");
+    ["Date", "Company", "What happened", "Key figures", "Filing"].forEach(h => hr.append(flEl("th", null, h)));
+    thead.append(hr); table.append(thead);
+    const tb = flEl("tbody");
+    const list = items.filter(i => flState.filter === "all" || i.family === flState.filter);
+    list.slice(0, flState.shown).forEach(it => {
+      const open = flState.open.has(it.latest.id);
+      const tr = flEl("tr", "fx-row k-" + it.family + (open ? " is-open" : ""));
+      tr.tabIndex = 0; tr.setAttribute("aria-expanded", open);
+      const td = (cls) => { const c = flEl("td", cls); tr.append(c); return c; };
+      td("c-date").textContent = fmtDate(it.latest.filed).replace("Sept", "Sep");
+      td("c-co").append(flCompany(it));
+      const w = td("c-what"); w.append(flEl("span", "fx-sentence", flText(it)));
+      const key = td("c-key");
+      if (it.family === "tob") {
+        key.append(flBadges(it, false));
+        const t = it.terms; const l = [];
+        if (t.price) l.push(flYen(t.price));
+        if (t.opens && t.closes) l.push(`${flDay(t.opens)} to ${flDay(t.closes)}`);
+        key.append(flEl("span", "fx-key-line", l.join(" · ")));
+      } else {
+        const f = flFigures(it, false)[0];
+        key.append(flEl("span", "fx-key-line", f[1]));
+        if (f[3]) key.append(flEl("span", "fx-delta", f[3]));
+        if (it.latest.terms.proposal) { const p = flEl("span", "fx-flag", "Proposal intent"); p.append(flTip("proposal")); key.append(p); }
+      }
+      const fl = td("c-file");
+      const k = flEl("span", "fx-kind k-" + it.family, it.family === "tob" ? "Tender offer" : "Stake"); fl.append(k);
+      const a = flEl("a", "fx-doc", `${flDocLabel(it.latest)} ↗`); a.href = it.latest.link; a.target = "_blank"; a.rel = "noopener"; a.addEventListener("click", e => e.stopPropagation());
+      fl.append(a);
+      if (it.chain > 1) fl.append(flEl("span", "fx-n", it.chain + " in chain"));
+      tb.append(tr);
+      const toggle = () => { flState.open.has(it.latest.id) ? flState.open.delete(it.latest.id) : flState.open.add(it.latest.id); renderFilings(); };
+      tr.addEventListener("click", e => { if (!e.target.closest("a,.fx-i")) toggle(); });
+      tr.addEventListener("keydown", e => { if ((e.key === "Enter" || e.key === " ") && e.target === tr) { e.preventDefault(); toggle(); } });
+      if (open) {
+        const dr = flEl("tr", "fx-detail"), dc = flEl("td"); dc.colSpan = 5;
+        dc.append(flBadges(it), flFigNode(flFigures(it, true), "fx-figs fx-figs-all"));
+        const names = flEl("p", "fx-names");
+        names.textContent = "Filed by " + (it.buyer.en || it.buyer.ja) + (it.buyer.en ? " (" + it.buyer.ja + ")" : "") + ". Target: " + (it.target.en || it.target.ja) + (it.target.en ? " (" + it.target.ja + ")" : "") + ".";
+        dc.append(names, flHistory(it)); dr.append(dc); tb.append(dr);
+      }
+    });
+    table.append(tb); wrap.append(table); body.append(wrap);
+    if (list.length > flState.shown) {
+      const more = flEl("button", "chip fx-more", `Show ${Math.min(FL_PAGE, list.length - flState.shown)} more (${list.length - flState.shown} left)`);
+      more.addEventListener("click", () => { flState.shown += FL_PAGE; renderFilings(); });
+      body.append(more);
     }
-    if (t.purpose) pairs.push(["Purpose", t.purpose]);
-    if (pairs.length) {
-      const dl = document.createElement("dl"); dl.className = "fc-terms";
-      pairs.forEach(([k, v, extra, dir]) => {
-        const dt = document.createElement("dt"); dt.textContent = k;
-        const dd = document.createElement("dd"); dd.textContent = v;
-        if (extra) { const e = document.createElement("span"); e.className = "fc-chg " + (dir || ""); e.textContent = " " + extra; dd.append(e); }
-        if (k === "Purpose") dd.className = "fc-purpose";
-        dl.append(dt, dd);
-      });
-      li.append(dl);
-    }
-
-    const foot = document.createElement("div"); foot.className = "fc-foot";
-    const type = document.createElement("span"); type.className = "fc-type"; type.textContent = c.type_en;
-    type.title = c.type_ja;
-    const n = document.createElement("span"); n.className = "fc-n";
-    n.textContent = c.filings > 1 ? c.filings + " filings" : "";
-    foot.append(type, n);
-    li.append(foot);
-    return li;
   }
+  // one floating note for every ⓘ: hover or keyboard focus on desktop, tap on phones
+  (function flPopover() {
+    const pop = flEl("div", "fx-pop"); pop.hidden = true; pop.setAttribute("role", "tooltip"); document.body.append(pop);
+    const show = (i) => {
+      pop.textContent = i.dataset.tip; pop.hidden = false;
+      const r = i.getBoundingClientRect(), w = pop.offsetWidth;
+      pop.style.left = Math.max(8, Math.min(innerWidth - w - 8, r.left + r.width / 2 - w / 2)) + "px";
+      pop.style.top = (r.bottom + 6 + pop.offsetHeight > innerHeight ? r.top - 6 - pop.offsetHeight : r.bottom + 6) + "px";
+    };
+    const hide = () => { pop.hidden = true; };
+    document.addEventListener("mouseover", e => { const i = e.target.closest && e.target.closest(".fx-i"); if (i) show(i); });
+    document.addEventListener("mouseout", e => { if (e.target.closest && e.target.closest(".fx-i")) hide(); });
+    document.addEventListener("focusin", e => { const i = e.target.closest && e.target.closest(".fx-i"); if (i) show(i); });
+    document.addEventListener("focusout", hide);
+    document.addEventListener("click", e => { const i = e.target.closest && e.target.closest(".fx-i"); if (i) { e.stopPropagation(); pop.hidden && show(i); } else hide(); }, true);
+    window.addEventListener("scroll", hide, { passive: true });
+  })();
 
   /* ---------------- digest editions ---------------- */
   const permalink = (eid, i) => `${location.origin}${location.pathname}?e=${encodeURIComponent(eid)}` + (i == null ? "" : `&i=${i}`);

@@ -165,20 +165,6 @@ dialog::backdrop { background: rgba(0,0,0,.6); }
 
 /* Japan filings */
 .p-filings .panel-head { border-top: 3px solid var(--t-pe); }
-.filing-card { background: var(--panel); border: 1px solid var(--line); border-radius: 3px; padding: 12px 13px; }
-.filing-card:hover { border-color: var(--ink-3); }
-.fc-kind { font: 700 9.5px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--t-pe); }
-.fc-kind.k-tob, .fc-kind.k-tob_result { color: var(--amber); }
-.fc-sponsor { font: 700 9.5px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--t-credit); }
-.fc-date { margin-left: auto; font: 500 9.5px/1 var(--mono); color: var(--ink-3); }
-.fc-target { font: 650 14px/1.3 var(--sans); color: var(--ink); text-decoration: none; }
-.fc-target:hover { text-decoration: underline; }
-.fc-ticker { font: 500 11px var(--mono); color: var(--ink-3); }
-.fc-line { margin: 0; font: 500 11.5px/1.4 var(--sans); color: var(--ink-2); }
-.fc-lbl { font: 600 9.5px/1.7 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); flex: none; }
-.fc-type, .fc-n { font: 500 10px/1 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); }
-.fc-terms dt { font: 600 9.5px/1.6 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
-.fc-terms dd { font: 500 11.5px/1.5 var(--mono); color: var(--ink); }
 
 /* Contact */
 .panel.p-contact { background: none; border: 0; border-top: 1px dashed var(--ink-3); border-radius: 0; margin-top: 22px; padding: 16px 0 0; }

@@ -84,26 +84,49 @@ were mostly invisible: the "for you" reasons need a reading history, and only 59
 carry a snippet at all. Three controls on one list say the same thing without the repetition.
 
 ## Japan filings
-`fetcher/edinet.py` reads EDINET's filing index and writes `docs/data/edinet.json`, shown as a
-shelf of cards under the deal board. A card names the target (English name and ticker, from the
-FSA's own code list), the bidder and the filing type, and links to the filing PDF.
+`fetcher/edinet.py` reads EDINET's filing index and writes `docs/data/edinet.json`, shown as one table
+under the deal board: a row per case, with All / Tender offers / Stake changes buttons, 25 rows at a
+time ("Show more"). A row has the date, the target (English name and ticker from the FSA code list,
+the Japanese name small), a one-sentence summary, the key figures and the filing links. Pressing a row
+opens it: every figure, the full holding purpose, the filer and target in both languages, and the
+documents of the case. The sentence is built from the filed fields by a fixed template (English, and
+Japanese with the JP button), never by AI. Small ⓘ marks explain the terms (tender offer, proposal
+intent, joint holders and so on) on hover or tap.
 
-Kept: tender offers and their amendments and results, the target's response, and 5% stake
-reports. The last run to a couple of hundred a day, nearly all of them custody and index desks,
-so only filings by an investor already in `actor.Sponsor` earn a card. The index leaves those
-reports' target empty, so it is read from the filing's own CSV.
+Kept: tender offers (code 240 original, 250 amended, 260 withdrawal), their reports (270, 280), the
+target's response (290 to 320) and 5% stake reports. The last run to a couple of hundred a day, nearly
+all of them custody and index desks, so only filings by an investor already in `actor.Sponsor` (or
+stating proposal intent) earn a row. The index leaves a stake report's target empty, so it is read from
+the filing's own CSV.
 
-A tender offer card also carries the filed terms, read from the CSV that ships inside the
-document: the offer price, the period and its business days, the shares sought and the
-minimum that must be tendered, the resulting stake and the settlement date. Where the bid
-vehicle's shareholder list names a house we already treat as a sponsor, the card names the
-backer too, which is usually the part the news leaves as "an investment fund".
+**Tender offers are cases, not cards.** A document and its parent (the original it amends or reports on)
+are one case, shown as one row with its documents listed (Filed, Amended, Response, Result) and a status
+tag: "Open · N business days left" (weekends only; holidays ignored), "Closed · result filed", "Withdrawn".
+`edinet.py` keeps every document of a case while the offer runs and for 14 days after its result (or
+close), carries them over from the previous `edinet.json`, and fetches an earlier document by id when the
+index no longer shows it. Case documents are not merged into one card, so the page can compare the first
+and the latest: "Price raised ¥3,000 to ¥3,683" and "Extended to 12 Nov" tags come from that.
+The terms are read from the CSV inside each document (the tagged text blocks):
+- the offer price (`につき金N円` in the price block; the gap is an ideographic space or a comma),
+  the period and its business days, the shares sought and the minimum that must be tendered, the
+  resulting stake and the settlement date;
+- in a tender offer report (公開買付報告書): whether it succeeded (成否 block), the shares tendered
+  and bought, and the bidder's stake afterwards. A result whose outcome the text does not make clear
+  is shown as "result filed" without a verdict;
+- where the bid vehicle's shareholder list names a house we already treat as a sponsor, the backer.
+
+**English names.** Every filing carries its filer's English name (DEI `提出者名（英語表記）`), which is
+what the page uses for the bidder or holder; the FSA code list leaves it empty for most funds and vehicles.
+Without one the NFKC-normalised Japanese name is shown as it is.
 
 No premium. It is not a filed figure, and calculating one needs the share price before the
 announcement, which this site does not collect.
 
 Needs the repository secret `EDINET_API_KEY` (free registration at EDINET). The filings run on
-their own schedule, four times a day on JST weekdays, because that is when filings land.
+their own schedule, four times a day on JST weekdays, because that is when filings land. A manual run
+can take `days` (default 6; for example 190 backfills running offers) and `tob_only=1` (read tender
+offers only and leave the stake rows as they are). `edinet_probe_tob.py` (workflow `edinet-probe`)
+prints the labels and values inside given documents when a filing's layout needs checking.
 
 ## Company search and figures
 `fetcher/company_index.py` (weekly, in fetch.yml) writes `docs/data/company_index.json`: every listed Japanese
@@ -115,10 +138,11 @@ Apps Script adds the last two fiscal years' revenue, operating and net income ex
 (SEC XBRL), weekly. No market prices are collected.
 
 ## 5% stake reports
-`edinet.py` opens every 5% report once (about 200 a business day, remembered in `docs/data/edinet_seen.json`)
-and keeps it when the filer is on the sponsor list or the stated purpose includes 重要提案行為等 (proposal
-intent, the activist signal). The card shows the holding before and after (group total across joint
-holders) and the purpose.
+`edinet.py` opens every 5% report once (about 200 a business day, remembered in `docs/data/edinet_seen.json`,
+which also keeps the filer's English name) and keeps it when the filer is on the sponsor list or the stated
+purpose includes 重要提案行為等 (proposal intent, the activist signal). The row shows the holding before and
+after (group total across joint holders), the change as ▲/▼ in one neutral colour (no good or bad is implied)
+and the purpose. A holder's repeated reports on one company are merged into the newest, with a count.
 
 ## Contact box
 Under the filings, set apart as a footnote rather than a section: a dashed rule, no panel chrome,

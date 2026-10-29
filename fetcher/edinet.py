@@ -280,10 +280,10 @@ def terms_of_result(values: dict) -> dict:
         t["business_days"] = int(days.group(1))
     verdict = find(values, "公開買付けの成否")
     if verdict:
-        if re.search(r"以上となりました|以上でありました|以上であったため|以上となったため", verdict):
-            t["outcome"] = "success"
-        elif re.search(r"満たなかった|満たないこととなり|満たないため|行わないこととなり|買付け等を行いません", verdict):
+        if re.search(r"超えなかった|満たなかった|満たないこととなり|満たないため|行わないこととなり", verdict):
             t["outcome"] = "failed"
+        elif re.search(r"以上となりました|以上でありました|以上であったため|以上となったため|超えたため|超えましたので|を行います", verdict):
+            t["outcome"] = "success"
         total = re.search(r"総数\(([\d,]+)株\)", verdict)
         if total:
             t["tendered"] = total.group(1)
