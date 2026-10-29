@@ -44,10 +44,45 @@ def rows_of(doc_id: str):
     return out
 
 
+POS = re.compile(r"買収防衛策|大規模買付|買付ルール|新株予約権の無償割当|新株予約権無償割当|事前警告|大量取得行為|(買収|買付|大量取得)[^。]{0,40}対応方針|対応方針[^。]{0,40}(買収|買付|大量取得)")
+NEG = re.compile(r"導入(して|し)(い)?(おりま)?せん|導入(して|し)(い)?ない|導入(する|いたす)?予定(は)?(あり|ご)?(ま)?(せん|ない)|廃止|更新(し|は行)(な|ま)|継続(し|は行)(な|ま)|定めて(い)?(おりま)?せん|予定はありません|ありません|行っておりません")
+
+
+def classify(text: str):
+    """yes / none_found with the sentence that decided it."""
+    sentences = [t for t in re.split(r"(?<=。)", text) if t.strip()]
+    pos = [t for t in sentences if POS.search(t)]
+    if not pos:
+        return "none_found", ""
+    live = [t for t in pos if not NEG.search(t)]
+    return ("yes", live[0]) if live else ("none_found", pos[0])
+
+
+def scan(n: int) -> None:
+    idx = json.loads((ROOT / "docs" / "data" / "edinet_yuho.json").read_text(encoding="utf-8"))["by_ticker"]
+    tks = sorted(idx)
+    pick = tks[:: max(1, len(tks) // n)][:n]
+    for t in pick:
+        try:
+            rows = rows_of(idx[t]["doc_id"])
+        except Exception as e:  # noqa: BLE001
+            print(t, "ERROR", str(e)[:80])
+            continue
+        blocks = {r[0].split(":")[-1]: r[8] for r in rows[1:] if len(r) >= 9 and r[2] == "FilingDateInstant"
+                  and r[0].split(":")[-1] in ("BasicPolicyRegardingControlOfCompanyTextBlock", "OverviewOfCorporateGovernanceTextBlock")}
+        bp = blocks.get("BasicPolicyRegardingControlOfCompanyTextBlock")
+        flag, sent = classify(bp) if bp else ("(no block)", "")
+        flag2, sent2 = classify(blocks.get("OverviewOfCorporateGovernanceTextBlock", ""))
+        print(f"{t} {idx[t]['filer'][:14]:<14} basic={flag:<10} len={len(bp or ''):>5} | gov={flag2} | {(sent or sent2)[:150]!r}")
+
+
 def main() -> int:
     if not KEY:
         print("EDINET_API_KEY is not set")
         return 1
+    if TICKERS and TICKERS[0].startswith("scan"):
+        scan(int(TICKERS[0][4:] or 30))
+        return 0
     idx = json.loads((ROOT / "docs" / "data" / "edinet_yuho.json").read_text(encoding="utf-8"))
     print("index size", len(idx["by_ticker"]), "covered_from", idx.get("covered_from"))
     for t in TICKERS:
