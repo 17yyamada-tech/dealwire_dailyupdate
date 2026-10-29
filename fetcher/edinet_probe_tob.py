@@ -37,7 +37,10 @@ def main() -> int:
                     for r in rows[1:]:
                         if len(r) < 9 or r[8].strip() in ("", "－", "-"):
                             continue
-                        print(f"   {r[0][-48:]} | {r[1][:50]} | {r[8].strip()[:110].replace(chr(10), ' ')}")
+                        full = any(w in r[1] for w in ("成否", "買付け等を行った株券等の数", "買付け等の価格", "買付予定の株券等の数", "応募", "買付予定数の下限"))
+                        if not full:
+                            continue
+                        print(f"   {r[0][-48:]} | {r[1][:50]} | {r[8].strip()[:900].replace(chr(10), ' ')}")
                         n += 1
                         if n > 170:
                             print("   ...")
