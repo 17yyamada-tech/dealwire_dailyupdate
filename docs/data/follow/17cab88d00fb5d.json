@@ -4,7 +4,12 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T10:00:23Z",
- "checked_at": "2026-10-29T00:50:25Z",
+ "checked_at": "2026-10-29T04:55:00Z",
+ "status": {
+  "as_of": "2026-10-29",
+  "text": "Agreed, pending close: Kraken parent Payward's co-CEO said in late September it would \"soon\" buy a European bank, and on October 14, 2026 Payward signed an agreement to acquire Lithuania-licensed Saldo Bank, which would give it its first EU banking licence with passporting into Finland, Sweden, Germany and the Netherlands; the price was not disclosed and the deal is expected to close during 2027 subject to regulatory approval. Payward has continued building out regulated rails elsewhere since, including Dubai's VARA full market approval (Oct 12), in-principle approval to license Payward Kazakhstan (Oct 22), and a plan for a CFTC-regulated perpetual futures market via subsidiary Bitnomial (Oct 26). No reported developments on the Saldo Bank deal itself since October 14.",
+  "text_ja": "クラーケン親会社Paywardの共同CEOは9月下旬、欧州の銀行を「まもなく」買収すると述べ、2026年10月14日にはリトアニアで銀行免許を持つSaldo Bankの買収契約に署名した。実現すればPaywardは初のEU銀行免許を得て、フィンランド、スウェーデン、ドイツ、オランダへのパスポート権も得る。価格は非公表で、規制当局の承認を前提に2027年中の完了を見込む。以降もPaywardは各地で規制対応の基盤整備を進めており、ドバイVARAの本免許取得(10月12日)、カザフスタンAFSAからの予備承認(10月22日)、Bitnomial経由のCFTC規制下パーペチュアル・フューチャー市場構想(10月26日)などが続いた。Saldo Bank買収そのものについては、10月14日以降新たな報道はない。"
+ },
  "background": [
   {
    "date": "2026-07-27",

@@ -4,7 +4,12 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-29T00:50:25Z",
+ "checked_at": "2026-10-29T05:05:00Z",
+ "status": {
+  "as_of": "2026-10-29",
+  "text": "Ongoing: the yen has firmed and oil has stayed elevated on persistent Strait of Hormuz tanker attacks and repeated Japan-US intervention warnings; Brent settled near $116.72 on October 23, its highest close since April. Israel's October 27 election left PM Netanyahu's bloc short of a governing majority (53 of 61 seats needed), clouding his push to escalate against Iran. No Hormuz ceasefire or resolution has been reported.",
+  "text_ja": "円は対ドルで底堅さを見せ、原油もホルムズ海峡でのタンカー攻撃継続と日米の介入警告を背景に高止まりしている。ブレント原油は10月23日に1バレル116.72ドルで引け、4月以来の高値を付けた。10月27日のイスラエル総選挙では、ネタニヤフ首相率いるブロックが政権樹立に必要な61議席に届かず53議席にとどまり、同首相が目指すイランへの攻勢強化の行方は不透明となった。ホルムズ海峡情勢の停戦や収束は報じられていない。"
+ },
  "background": [
   {
    "date": "2026-09-26",
@@ -72,6 +77,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-28",
+   "headline": "Israel's Oct 27 election leaves Netanyahu's bloc 8 seats short of a majority at 53-48, coalition talks uncertain",
+   "summary": "With about 93% of polling stations and 85.6% of votes counted after Israel's October 27, 2026 Knesset election, Prime Minister Benjamin Netanyahu's right-wing and religious bloc stood at a projected 53 seats, eight short of the 61 needed to govern, while the opposition bloc led by former military chief Gadi Eisenkot held 48, with Arab parties projected to win a combined 19; Eisenkot has ruled out serving under Netanyahu, including in a rotation government, complicating coalition talks, and remaining ballots could still shift the count.",
+   "summary_ja": "2026年10月27日のイスラエル総選挙を受け、開票率約93%(得票ベースで85.6%)の時点で、ネタニヤフ首相率いる右派・宗教政党ブロックは53議席となり、政権樹立に必要な61議席に8議席届かない見通しとなった。元軍参謀総長ガディ・アイゼンコット氏率いる野党ブロックは48議席、アラブ系政党は合計19議席を得る見通しとなっている。アイゼンコット氏はローテーション制を含めネタニヤフ氏の下での入閣を拒否しており、連立協議は不透明さを増している。残る票の集計で結果が変わる可能性もある。",
+   "source": "The Jerusalem Post",
+   "url": "https://www.jpost.com/israel-election-2026/article-913122"
+  },
   {
    "date": "2026-10-27",
    "headline": "Israel goes to the polls October 27 in tight Knesset race pitting Netanyahu's Likud against Eisenkot's Yashar, neither bloc assured of a majority",
