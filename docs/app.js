@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261029-1600";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261029-1900";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -922,7 +922,11 @@
   function renderCompanies() {
     const ol = $("#co-list"); ol.textContent = "";
     const mine = companies();
-    if (!mine.length) { ol.append(empty("No companies yet. Add one above; keywords narrow it to the news you care about.")); return; }
+    const sub = store.get("coSub", "news") === "profile" ? "profile" : "news";
+    $$(".co-sub .chip").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.sub === sub)));
+    ol.hidden = sub === "profile" && mine.length > 0;
+    $("#co-profile").hidden = !(sub === "profile" && mine.length > 0);
+    if (!mine.length) { ol.hidden = false; ol.append(empty("No companies yet. Add one above; keywords narrow it to the news you care about.")); return; }
     const remote = new Map(((coData && coData.companies) || []).map(c => [coKey(c), c]));
     // companies added before the search list existed: link the unambiguous ones once
     if (coIndex) {
@@ -930,6 +934,7 @@
       const list = mine.map(c => { const r = autoListing(c); if (r) { changed = true; return { ...c, ...pickFields(r) }; } return c; });
       if (changed) { store.set("companies", list); queueSync(0); return renderCompanies(); }
     } else loadCompanyIndex().then(() => { if (state.view === "companies") renderCompanies(); });
+    if (sub === "profile") { renderProfile(mine, remote); return; }
     mine.forEach((c, i) => {
       const r = remote.get(coKey(c));
       const kind = kindOf(c, r && r.searched);
@@ -1009,6 +1014,143 @@
       ol.append(li);
     });
   }
+
+  /* ---------------- Companies > Profile ----------------
+     One row per company from companies[i].profile (Apps Script). Opening a row loads the TradingView
+     widgets for that company only. */
+  const pfOpen = new Set();
+  const TIER = { official: "Official", machine: "Machine", vendor: "Vendor" };
+  function conf(kind) { const s = document.createElement("span"); s.className = "pf-conf t-" + kind; s.textContent = TIER[kind]; return s; }
+  function fmtAmt(cur, v) {
+    if (v == null || isNaN(v)) return "n/a";
+    const sym = cur === "JPY" ? "¥" : "$", a = Math.abs(v), sg = v < 0 ? "−" : "";
+    const u = a >= 1e12 ? [1e12, "tn", 2] : a >= 1e9 ? [1e9, "bn", 1] : a >= 1e6 ? [1e6, "M", 1] : null;
+    return sg + sym + (u ? (a / u[0]).toFixed(u[2]) + u[1] : Math.round(a).toLocaleString());
+  }
+  // the profile from the script, or, for a US company without one yet, the filed figures it already sends
+  function profileOf(c, r) {
+    if (r && r.profile) return r.profile;
+    if (c.market === "US" && r && r.facts && r.facts.revenue) {
+      const f = r.facts;
+      return { market: "US", ticker: c.ticker, sector: f.sic ? f.sic.replace(/\b([A-Z])([A-Z]+)\b/g, (m, a, b) => a + b.toLowerCase()) : "",
+        fin: { currency: "USD", basis: "us-gaap", revenue: f.revenue, operating_income: f.operating_income || [], net_income: f.net_income || [], source: "SEC" },
+        holders: null, defense: null, status: "ok", _fallback: true };
+    }
+    return null;
+  }
+  const cell = (tr, cls) => { const td = document.createElement("td"); if (cls) td.className = cls; tr.append(td); return td; };
+  function renderProfile(mine, remote) {
+    const wrap = $("#co-profile"); wrap.textContent = "";
+    const t = document.createElement("table"); t.className = "pf-table";
+    t.innerHTML = "<thead><tr><th>Company</th><th>Sector</th><th class='num'>Revenue</th><th class='num'>Op. income</th><th class='num'>Net income</th><th class='num'>Rev. growth</th><th>Top holders</th><th>Takeover defense</th></tr></thead>";
+    const tb = document.createElement("tbody");
+    mine.forEach(c => {
+      const key = coKey(c), r = remote.get(key), p = profileOf(c, r), f = p && p.fin;
+      const tr = document.createElement("tr"); tr.className = "pf-row" + (pfOpen.has(key) ? " open" : "");
+      const n = cell(tr);
+      const nb = document.createElement("button"); nb.type = "button"; nb.className = "pf-name"; nb.textContent = c.name.split(/[,、]/)[0].trim();
+      nb.setAttribute("aria-expanded", String(pfOpen.has(key)));
+      n.append(nb);
+      const tk = (p && p.ticker) || c.ticker, mk = (p && p.market) || c.market;
+      if (tk) { const s = document.createElement("span"); s.className = "pf-tk"; s.textContent = tk + (mk ? " · " + mk : ""); n.append(s); }
+      const note = (txt) => { const s = document.createElement("span"); s.className = "pf-note"; s.textContent = txt; return s; };
+      if (!p) {
+        const td = cell(tr, "pf-pend"); td.colSpan = 7; td.textContent = "Profile pending";
+      } else {
+        const sec = cell(tr); sec.textContent = p.sector || c.sector || "n/a";
+        const cur = f && f.currency;
+        [f && f.revenue, f && f.operating_income, f && f.net_income].forEach((arr, k) => {
+          const td = cell(tr, "num");
+          if (f && arr && arr[0]) { td.textContent = fmtAmt(cur, arr[0].val); td.append(conf("official")); td.title = "Year ended " + arr[0].end; }
+          else td.textContent = "n/a";
+        });
+        const g = cell(tr, "num"), rv = f && f.revenue;
+        if (rv && rv[0] && rv[1] && rv[1].val) { const x = (rv[0].val / rv[1].val - 1) * 100; g.textContent = (x >= 0 ? "+" : "−") + Math.abs(x).toFixed(1) + "%"; g.append(conf("official")); }
+        else g.textContent = "n/a";
+        const h = cell(tr), hs = p.holders;
+        if (hs && hs.list && hs.list.length) {
+          hs.list.slice(0, 3).forEach(x => { const s = document.createElement("span"); s.className = "pf-hold"; s.textContent = x.name + (x.pct != null ? " " + x.pct + "%" : ""); h.append(s); });
+          h.append(conf("official"));
+        } else h.textContent = "n/a";
+        const d = cell(tr), df = p.defense;
+        if (df) {
+          const s = document.createElement("span"); const fl = df.flag === "none_found" ? "none found" : (df.flag || "unknown");
+          s.className = "pf-def " + (df.flag || "unknown"); s.textContent = fl; d.append(s, conf("machine"));
+        } else d.textContent = "unknown";
+        if (p.status === "pending" || p.status === "error") n.append(note(p.status_note || (p.status === "error" ? "Profile could not be built." : "Profile pending")));
+        if (p._fallback) n.append(note("Filed figures only; the rest is pending."));
+      }
+      const det = document.createElement("tr"); det.className = "pf-detail"; det.hidden = !pfOpen.has(key);
+      const dtd = document.createElement("td"); dtd.colSpan = 8; det.append(dtd);
+      if (pfOpen.has(key)) fillDetail(dtd, p);
+      const toggle = () => {
+        const open = !pfOpen.has(key);
+        open ? pfOpen.add(key) : pfOpen.delete(key);
+        tr.classList.toggle("open", open); nb.setAttribute("aria-expanded", String(open)); det.hidden = !open;
+        if (open && !dtd.firstChild) fillDetail(dtd, p);
+      };
+      tr.addEventListener("click", ev => { if (ev.target.closest("a")) return; toggle(); });
+      tb.append(tr, det);
+    });
+    t.append(tb); wrap.append(t);
+  }
+  function srcLink(label, url) { const a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener"; a.textContent = label; return a; }
+  function pfBox(title) { const b = document.createElement("div"); b.className = "pf-box"; const h = document.createElement("h4"); h.textContent = title; b.append(h); return b; }
+  function pfLine(box, text, url, label) {
+    const q = document.createElement("p"); q.textContent = text;
+    if (url) { q.append(" "); q.append(srcLink(label || "Source", url)); }
+    box.append(q); return q;
+  }
+  function fillDetail(td, p) {
+    if (!p) { td.textContent = "Profile pending"; return; }
+    if (p.tv_symbol) {
+      const tvBox = document.createElement("div"); tvBox.className = "pf-box";
+      const h = document.createElement("h4"); h.textContent = "Market data (TradingView, delayed)"; h.append(conf("vendor")); tvBox.append(h);
+      const w1 = document.createElement("div"), w2 = document.createElement("div"); w1.className = w2.className = "pf-tv"; tvBox.append(w1, w2);
+      const theme = isDarkPage() ? "dark" : "light";
+      tvWidget(w1, "symbol-info", { symbol: p.tv_symbol, width: "100%", locale: "en", colorTheme: theme, isTransparent: true });
+      tvWidget(w2, "mini-symbol-overview", { symbol: p.tv_symbol, width: "100%", height: 220, locale: "en", dateRange: "12M", colorTheme: theme, isTransparent: true, autosize: false, chartOnly: false });
+      td.append(tvBox);
+    }
+    const info = document.createElement("div"); info.className = "pf-grid";
+    const hs = p.holders;
+    const hb = pfBox(hs ? (hs.kind === "5pct" ? "Holders of 5% or more" : "Largest shareholders") : "Shareholders");
+    if (hs && hs.list && hs.list.length) {
+      const ul = document.createElement("ul");
+      hs.list.forEach(x => { const li = document.createElement("li"); li.textContent = x.name + (x.pct != null ? "  " + x.pct + "%" : ""); ul.append(li); });
+      hb.append(ul);
+      pfLine(hb, "As of " + hs.as_of + " · " + hs.source, hs.url, "Filing");
+    } else pfLine(hb, "Not available yet.");
+    const db = pfBox("Takeover defense");
+    if (p.defense) {
+      pfLine(db, (p.defense.flag === "none_found" ? "none found" : p.defense.flag) + (p.defense.note ? ": " + p.defense.note : ""));
+      pfLine(db, "As of " + p.defense.as_of + " · " + p.defense.source + " · read by software", p.defense.url, "Filing");
+    } else pfLine(db, "Not available yet.");
+    const fb = pfBox("Financials");
+    const f = p.fin;
+    if (f) {
+      const row = (lab, arr) => (arr || []).forEach(x => pfLine(fb, lab + " FY" + x.end.slice(0, 4) + " (year ended " + x.end + "): " + fmtAmt(f.currency, x.val)));
+      row("Revenue", f.revenue); row("Op. income", f.operating_income); row("Net income", f.net_income);
+      pfLine(fb, "Basis: " + f.basis + " · " + f.source, f.url, "Filing");
+    } else pfLine(fb, "Not available yet.");
+    info.append(hb, db, fb); td.append(info);
+    if (p.status === "pending" || p.status === "error") pfLine(td, p.status_note || p.status);
+  }
+  function isDarkPage() {
+    const m = (getComputedStyle(document.body).backgroundColor || "").match(/\d+(\.\d+)?/g);
+    if (!m || m.length < 3) return true;
+    return (0.2126 * m[0] + 0.7152 * m[1] + 0.0722 * m[2]) < 140;
+  }
+  // TradingView's own embed script, one per widget; if it cannot load the rest of the row still shows.
+  function tvWidget(host, name, cfg) {
+    const box = document.createElement("div"); box.className = "tradingview-widget-container";
+    const inner = document.createElement("div"); inner.className = "tradingview-widget-container__widget"; box.append(inner);
+    const sc = document.createElement("script"); sc.async = true;
+    sc.src = "https://s3.tradingview.com/external-embedding/embed-widget-" + name + ".js";
+    sc.textContent = JSON.stringify(cfg);
+    sc.onerror = () => { box.textContent = "TradingView could not be loaded."; box.className = "pf-note"; };
+    box.append(sc); host.append(box);
+  }
   // Saves a company's keywords and re-sends the list; the script fetches headlines for the new
   // query straight away. Returns an error message, or "".
   function setKeywords(i, keywords) {
@@ -1054,6 +1196,7 @@
     $("#co-dlg-name").select();
   }
   function setupCompanies() {
+    $$(".co-sub .chip").forEach(b => b.addEventListener("click", () => { store.set("coSub", b.dataset.sub); renderCompanies(); }));
     attachSuggest($("#co-name"));
     attachSuggest($("#co-dlg-name"));
     $("#co-form").addEventListener("submit", ev => {

@@ -53,6 +53,13 @@ Three pages, in the header line on wide screens and in the bottom tab bar on pho
   language when only one is given (LanguageApp), keeps 45 days, and returns the list only to the
   browser that registered it. This stays private because a company someone is watching can itself be
   sensitive.
+  The page has two views, News (the headlines above) and Profile (a table, one row per company: sector,
+  revenue, operating and net income for the latest year, revenue growth, the top three shareholders and whether a
+  takeover defence was found). Opening a row loads TradingView's embedded widgets (market cap, P/E, price and
+  volume, delayed; shown by TradingView, not stored here) and the full holder list, defence note and financials,
+  each with its filing link. Figures come from EDINET (Japan) and SEC (US) through the Apps Script's `profile`
+  field; a company without one shows "Profile pending". Each value carries its reliability (Official, Machine,
+  Vendor; see the Sources page). Up to 15 companies per browser.
   Each company is marked Fund (blue) or Corporate (amber): a guess from `data/sponsors.json` (the
   Sponsor list, written by fetch.py) and names such as "... Capital", which the reader can flip on the
   card. The same colour frames the card and boxes the company's keywords found in each headline.
