@@ -1,0 +1,43 @@
+name: us-profiles
+# Builds docs/data/us_profiles/<ticker>.json from the SEC: financials for every US company in one
+# pass, shareholders (5% and over) and rights-plan hints a few thousand companies per run.
+on:
+  schedule:
+    - cron: "40 3,12 * * *"
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: comma-separated tickers to rebuild, empty = everything
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: us-profiles
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read SEC data
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          US_TICKERS: ${{ inputs.tickers }}
+        run: python fetcher/us_profiles.py
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "deal-wire-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/us_profiles
+          git diff --cached --quiet && exit 0
+          git commit -m "us-profiles: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep $((i * 3))
+          done
+          exit 1
