@@ -289,20 +289,16 @@ function refreshFacts_(cik) {
  * a takeover defence is in place. Built per listing (JP:7203, US:AAPL), stored in the Profiles
  * tab as the finished JSON the page receives, and rebuilt when it is a week old. Share prices
  * are not collected here; the page embeds TradingView for them and only needs the symbol.
- *   Japan: the latest annual securities report on EDINET. docs/data/edinet_yuho.json (built by
- *          GitHub Actions) says which document, and the EDINET key is the script property
- *          EDINET_API_KEY. Without the key a Japanese profile stays "pending".
+ *   Japan: copied from docs/data/jp_profiles/<ticker>.json, which GitHub Actions builds from the
+ *          latest annual securities report on EDINET (see jpProfile_ below).
  *   US:    the SEC. Financials from the XBRL facts above, holders from Schedule 13D/13G filings
  *          (5% and over), defence from rights-plan filings (8-A, 8-K item 3.03).
  * Every figure is what the filing says. The defence flags are matched by text, so they are hints.
  */
 const PROFILES_TAB = 'Profiles';
 const PROFILE_MAX_AGE_MS = 7 * 864e5;
-const YUHO_URL = 'https://raw.githubusercontent.com/17yyamada-tech/dealwire_dailyupdate/main/docs/data/edinet_yuho.json';
-const INDEX_URL = 'https://raw.githubusercontent.com/17yyamada-tech/dealwire_dailyupdate/main/docs/data/company_index.json';
 const TV_EXCHANGE = { 'Nasdaq': 'NASDAQ', 'NYSE': 'NYSE', 'NYSE American': 'AMEX', 'NYSE MKT': 'AMEX', 'NYSE Arca': 'NYSEARCA', 'CBOE': 'CBOE' };
 const RIGHTS_RE = /rights (agreement|plan)|preferred (share|stock) purchase rights|poison pill/i;
-let indexRows_ = null;
 
 function profilesTab_() { return tab_(PROFILES_TAB, ['key', 'profile', 'updated']); }
 function profilesByKey_() {
@@ -362,8 +358,8 @@ function refreshProfiles_(wanted, start) {
     if (!key) return;
     const have = stored[key];
     const age = have ? Date.now() - have.updated : 0, st = have && have.profile ? have.profile.status : '';
-    // a good profile lasts a week; an error is retried daily; a pending one (no EDINET key yet,
-    // report not indexed yet) every 6 hours, which costs nothing while the key is missing
+    // a good profile lasts a week; an error is retried daily; a pending one (the Actions build has not reached
+    // the company yet) every 6 hours
     const stale = st === 'ok' ? age > PROFILE_MAX_AGE_MS : st === 'error' ? age > 864e5 : age > 6 * 36e5;
     if (!have || !have.profile || stale) todo.push({ key: key, c: wanted[k], at: have ? have.updated : 0 });
   });
@@ -468,164 +464,20 @@ function usProfile_(c) {
   return p;
 }
 
-/* ---------------- Japan: the annual securities report on EDINET ----------------
- * The report ships as a zip of CSV files (UTF-16, tab separated) whose columns are
- * element id, label, context id, relative year, consolidated or not, period or instant,
- * unit id, unit, value. Checked against real reports (Toyota IFRS, Kobayashi Pharmaceutical
- * Japanese GAAP, Takeda, Mitsubishi Corp):
- *   figures      context CurrentYearDuration / Prior1YearDuration (the consolidated figure when the
- *                company has one; a company with consolidated statements keeps its stand-alone
- *                figures under ..._NonConsolidatedMember, which is skipped)
- *   shareholders jpcrp_cor:NameMajorShareholders and jpcrp_cor:ShareholdingRatio (a fraction, 0.1246)
- *                in context CurrentYearInstant_No{n}MajorShareholdersMember
- *   control      jpcrp_cor:BasicPolicyRegardingControlOfCompanyTextBlock, present when the company
- *                states a basic policy on who may control it, usually because it has a defence plan
+/* ---------------- Japan: profiles built by GitHub Actions ----------------
+ * fetcher/jp_profiles.py reads each listed company's annual securities report on EDINET (the key
+ * lives in a GitHub secret, not here) and publishes docs/data/jp_profiles/<ticker>.json in the
+ * shape the page uses. This script only copies that file in; no EDINET call is made from here.
  */
-const JP_REVENUE = ['jppfs_cor:NetSales', 'jpigp_cor:RevenueIFRS', 'jpigp_cor:Revenue2IFRS', 'jppfs_cor:OperatingRevenue1',
-  'jppfs_cor:OperatingRevenue2', 'jpcrp_cor:NetSalesSummaryOfBusinessResults', 'jpcrp_cor:RevenueIFRSSummaryOfBusinessResults',
-  'jpcrp_cor:OperatingRevenue1SummaryOfBusinessResults'];
-// company-specific names (Toyota files its own) fall back to this pattern on the part after the prefix
-const JP_REVENUE_RE = /^(NetSales|Revenues?\d?|OperatingRevenues?\d?|SalesRevenues?|TotalNetRevenues?|NetRevenues?)(IFRS|USGAAP)?(SummaryOfBusinessResults|KeyFinancialData)?$/;
-const JP_OPERATING = ['jppfs_cor:OperatingIncome', 'jpigp_cor:OperatingProfitLossIFRS'];
-const JP_NET = ['jppfs_cor:ProfitLossAttributableToOwnersOfParent', 'jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS',
-  'jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults',
-  'jpcrp_cor:ProfitLossAttributableToOwnersOfParentIFRSSummaryOfBusinessResults', 'jppfs_cor:ProfitLoss', 'jppfs_cor:NetIncomeLoss',
-  'jpcrp_cor:NetIncomeLossSummaryOfBusinessResults'];
-// A takeover defence plan and the wording that says it has ended or was never adopted
-const JP_PLAN_RE = /買収防衛策|大規模買付|買付ルール|新株予約権(の)?無償割当|事前警告|大量取得行為|大量買付行為|(買収|買付|大量取得)[^。]{0,40}対応(方針|策)|対応(方針|策)[^。]{0,40}(買収|買付|大量取得)/;
-const JP_ENDED_RE = /廃止(いたしました|しました|いたします|します|することを決議|を決議)|継続(しない|せず|いたしません|しません)|更新(しない|せず|いたしません|しません)|導入して(おり|い)ました|失効|終了いたしました|終了しました/;
-const JP_NEVER_RE = /導入して(い|おり)(ません|ない)|導入する予定(は)?(あり|な)|定めて(い|おり)(ません|ない)|策定して(い|おり)(ません|ない)/;
-let yuhoIndex_ = null;
-
-// Tab separated values with "double quoted" fields that may hold tabs and line breaks.
-function parseTsv_(text) {
-  const rows = [];
-  let row = [], field = '', quoted = false;
-  for (let i = 0, n = text.length; i < n; i++) {
-    const ch = text.charAt(i);
-    if (quoted) {
-      if (ch === '"') { if (text.charAt(i + 1) === '"') { field += '"'; i++; } else quoted = false; } else field += ch;
-    } else if (ch === '"') quoted = true;
-    else if (ch === '\t') { row.push(field); field = ''; }
-    else if (ch === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
-    else if (ch !== '\r') field += ch;
-  }
-  if (field || row.length) { row.push(field); rows.push(row); }
-  return rows;
-}
-function edinetRows_(docId, key) {
-  const res = UrlFetchApp.fetch('https://api.edinet-fsa.go.jp/api/v2/documents/' + encodeURIComponent(docId) +
-    '?type=5&Subscription-Key=' + encodeURIComponent(key), { muteHttpExceptions: true });
-  if (res.getResponseCode() !== 200) throw new Error('EDINET returned ' + res.getResponseCode() + ' for the report');
-  const files = Utilities.unzip(res.getBlob().setContentType('application/zip'))
-    .filter(function (b) { return /\.csv$/i.test(b.getName()); });
-  const main = files.filter(function (b) { return /jpcrp030000-asr/.test(b.getName()); });
-  let rows = [];
-  (main.length ? main : files).forEach(function (b) {
-    rows = rows.concat(parseTsv_(b.getDataAsString('UTF-16').replace(/^﻿/, '')).slice(1));
-  });
-  return rows.filter(function (r) { return r.length >= 9; });
-}
-function jpNumber_(s) {
-  const t = String(s).replace(/,/g, '').trim();
-  return /^-?\d+(\.\d+)?$/.test(t) ? Number(t) : null;
-}
-// Current and previous year of one measure: the first candidate element that carries a current value.
-function jpMeasure_(rows, names, fuzzy, endDate) {
-  const cur = {}, prev = {}, basis = {};
-  rows.forEach(function (r) {
-    const slot = r[2] === 'CurrentYearDuration' ? cur : r[2] === 'Prior1YearDuration' ? prev : null;
-    if (!slot || slot[r[0]] != null) return;
-    const v = jpNumber_(r[8]);
-    if (v == null) return;
-    slot[r[0]] = v;
-    if (r[2] === 'CurrentYearDuration') basis[r[0]] = r[4];
-  });
-  let id = null;
-  for (let i = 0; i < names.length && !id; i++) if (cur[names[i]] != null) id = names[i];
-  if (!id && fuzzy) {
-    Object.keys(cur).some(function (k) { if (fuzzy.test(k.replace(/^[^:]*:/, ''))) { id = k; return true; } return false; });
-  }
-  if (!id) return null;
-  const y = Number(endDate.slice(0, 4)), out = [{ end: endDate, val: cur[id] }];
-  if (prev[id] != null) out.push({ end: (y - 1) + endDate.slice(4), val: prev[id] });
-  return { series: out, basis: basis[id] };
-}
-// Sentence of the text that mentions a plan, preferring one that says it was adopted, renewed or ended.
-function jpPlanSentence_(text) {
-  const plan = text.split(/(?<=。)/).filter(function (t) { return JP_PLAN_RE.test(t); });
-  if (!plan.length) return '';
-  const pick = plan.filter(function (t) { return /導入|継続|更新|承認|決議|廃止/.test(t); })[0] || plan[0];
-  return pick.replace(/\s+/g, '').slice(0, 100);
-}
+const JP_PROFILE_URL = 'https://raw.githubusercontent.com/17yyamada-tech/dealwire_dailyupdate/main/docs/data/jp_profiles/';
 
 function jpProfile_(c) {
-  const p = { market: 'JP', ticker: c.ticker, tv_symbol: 'TSE:' + c.ticker, sector: '', fin: null, holders: null, defense: null,
-    status: 'ok', status_note: '' };
-  if (!indexRows_) indexRows_ = (fetchJson_(INDEX_URL) || {}).rows || [];
-  indexRows_.some(function (x) { if (x.m === 'JP' && x.t === c.ticker) { p.sector = x.s || ''; return true; } return false; });
-  const key = PropertiesService.getScriptProperties().getProperty('EDINET_API_KEY');
-  if (!key) { p.status = 'pending'; p.status_note = 'EDINET key not set'; return p; }
-  if (!yuhoIndex_) yuhoIndex_ = fetchJson_(YUHO_URL);
-  const hit = yuhoIndex_ && yuhoIndex_.by_ticker && yuhoIndex_.by_ticker[c.ticker];
-  if (!hit) { p.status = 'pending'; p.status_note = 'No annual securities report found for this ticker in the EDINET index yet'; return p; }
-  const url = 'https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/' + hit.doc_id + '.pdf';
-  const rows = edinetRows_(hit.doc_id, key);
-
-  // financials: the consolidated figures when the report has them, otherwise the company's own
-  const rev = jpMeasure_(rows, JP_REVENUE, JP_REVENUE_RE, hit.period_end);
-  const op = jpMeasure_(rows, JP_OPERATING, null, hit.period_end);
-  const ni = jpMeasure_(rows, JP_NET, null, hit.period_end);
-  if (rev || op || ni) {
-    const first = rev || op || ni;
-    p.fin = { currency: 'JPY', basis: first.basis === '個別' ? 'standalone' : 'consolidated',
-      revenue: rev ? rev.series : [], operating_income: op ? op.series : [], net_income: ni ? ni.series : [],
-      source: 'EDINET', url: url };
+  const p = fetchJson_(JP_PROFILE_URL + encodeURIComponent(c.ticker) + '.json');
+  if (!p) {
+    return { market: 'JP', ticker: c.ticker, tv_symbol: 'TSE:' + c.ticker, sector: '', fin: null, holders: null, defense: null,
+      status: 'pending', status_note: 'Japanese filing data not built yet' };
   }
-
-  // the ten largest shareholders as listed in the report
-  const byNo = {};
-  rows.forEach(function (r) {
-    const m = /^CurrentYearInstant_No(\d+)MajorShareholdersMember$/.exec(r[2]);
-    if (!m) return;
-    const e = byNo[m[1]] || (byNo[m[1]] = { n: Number(m[1]), name: '', pct: null });
-    if (/:NameMajorShareholders$/.test(r[0])) e.name = r[8].replace(/\s+/g, ' ').trim().slice(0, 80);
-    else if (/:ShareholdingRatio$/.test(r[0])) { const v = jpNumber_(r[8]); if (v != null) e.pct = Math.round((v <= 1 ? v * 100 : v) * 100) / 100; }
-  });
-  const list = Object.keys(byNo).map(function (k) { return byNo[k]; }).filter(function (e) { return e.name; })
-    .sort(function (a, b) { return a.n - b.n; }).slice(0, 10);
-  if (list.length) {
-    p.holders = { kind: 'top10', as_of: hit.period_end, list: list.map(function (e) { return { name: e.name, pct: e.pct }; }),
-      source: 'EDINET', url: url };
-  }
-
-  // takeover defence, read from the control-policy section (and the governance overview when it has none)
-  const text = {};
-  rows.forEach(function (r) {
-    const m = /:(BasicPolicyRegardingControlOfCompanyTextBlock|OverviewOfCorporateGovernanceTextBlock)$/.exec(r[0]);
-    if (m && !text[m[1]] && r[8].length > 20) text[m[1]] = r[8];
-  });
-  const basic = text.BasicPolicyRegardingControlOfCompanyTextBlock || '', gov = text.OverviewOfCorporateGovernanceTextBlock || '';
-  const MACHINE = ' Matched by wording in the report, so read the filing.';
-  let d;
-  if (basic && JP_PLAN_RE.test(basic)) {
-    const s = jpPlanSentence_(basic);
-    const no = basic.split(/(?<=。)/).filter(function (t) { return JP_NEVER_RE.test(t); })[0];
-    d = JP_ENDED_RE.test(basic)
-      ? { flag: 'unknown', note: 'The control-policy section mentions a takeover defence plan and also wording about ending it: "' + s + '"' + MACHINE }
-      : no ? { flag: 'none_found', note: 'The control-policy section says no plan is adopted: "' + no.replace(/\s+/g, '').slice(0, 100) + '"' + MACHINE }
-      : { flag: 'yes', note: 'The control-policy section describes a takeover defence plan: "' + s + '"' + MACHINE };
-  } else if (basic || gov) {
-    const g = gov.split(/(?<=。)/).filter(function (t) { return /買収防衛/.test(t); })[0];
-    const q = g ? g.replace(/\s+/g, '').slice(0, 100) : '';
-    d = !g ? { flag: 'none_found', note: 'No takeover defence plan wording in the control-policy or governance sections.' + MACHINE }
-      : JP_NEVER_RE.test(g) ? { flag: 'none_found', note: 'The governance section says no plan is in place: "' + q + '"' + MACHINE }
-      : { flag: 'unknown', note: 'The governance section mentions takeover defence: "' + q + '"' + MACHINE };
-  } else {
-    d = { flag: 'unknown', note: 'The report has no control-policy or governance text that could be read.' };
-  }
-  d.as_of = hit.period_end; d.source = 'EDINET'; d.url = url;
-  p.defense = d;
+  p.status = 'ok'; p.status_note = '';
   return p;
 }
 
