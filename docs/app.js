@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261029-1200";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261029-1600";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -664,7 +664,7 @@
   };
   // One entry in a Background / Since then column, or one company headline.
   function flItem({ date, title, url, source, summary, tags }) {
-    const li = document.createElement("li"); li.className = "fl-item";
+    const li = document.createElement("li"); li.className = "fl-item"; li.dataset.url = url || "";
     const meta = document.createElement("p"); meta.className = "d-links fl-meta";
     meta.textContent = [fmtWhen(date), source].filter(Boolean).join(" · ");
     // the company's keywords this headline contains, boxed in the company's colour
@@ -701,6 +701,16 @@
     }));
   }
   // "Where it stands": a speech bubble under the story whose tail points up at the headline.
+  // Jump to the entry (in Background / Since then) that backs the status; fall back to the article.
+  function goToRef(card, url) {
+    const li = $$(".fl-item", card).find(x => x.dataset.url === url);
+    if (!li) { window.open(url, "_blank", "noopener"); return; }
+    const box = li.closest(".fl-items");
+    if (box) box.scrollTo({ top: Math.max(0, li.offsetTop - box.offsetTop - 4), behavior: "smooth" });
+    if (window.matchMedia("(max-width: 760px)").matches) li.scrollIntoView({ behavior: "smooth", block: "center" });
+    li.classList.remove("fl-hit"); void li.offsetWidth; li.classList.add("fl-hit");
+    setTimeout(() => li.classList.remove("fl-hit"), 2200);
+  }
   function statusBubble(d) {
     const ja = state.lang === "ja", st = d && d.status;
     const b = document.createElement("div"); b.className = "fl-status";
@@ -718,6 +728,21 @@
       body.textContent = text;
     }
     b.append(label, body);
+    if (st && Array.isArray(st.refs) && text) {
+      const items = [...(d.since || []), ...(d.background || [])];
+      const refs = st.refs.map(r => items.find(x => x.url === (r && r.url))).filter(Boolean).slice(0, 3);
+      if (refs.length) {
+        const ul = document.createElement("ul"); ul.className = "fl-refs";
+        refs.forEach(x => {
+          const li = document.createElement("li"), a = document.createElement("a");
+          a.href = x.url; a.className = "fl-ref"; a.rel = "noopener";
+          a.textContent = "→ " + [fmtWhen(x.date), x.headline || x.title].filter(Boolean).join(" · ");
+          a.addEventListener("click", e => { e.preventDefault(); goToRef(a.closest(".fl-row"), x.url); });
+          li.append(a); ul.append(li);
+        });
+        b.append(ul);
+      }
+    }
     return b;
   }
   function renderFollow() {

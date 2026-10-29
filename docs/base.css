@@ -156,6 +156,11 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
 .fl-status p { margin: 0; overflow-wrap: anywhere; }
 .fl-status-label { font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 3px !important; }
 .fl-status-text { font-size: 12.5px; line-height: 1.45; color: var(--ink-2, var(--ink)); }
+.fl-refs { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 3px; }
+.fl-ref { display: block; font-size: 11.5px; line-height: 1.35; color: var(--ink-3); text-decoration: none; overflow-wrap: anywhere; }
+.fl-ref:hover { color: var(--ink); text-decoration: underline; }
+.fl-item.fl-hit { animation: fl-hit 2.2s ease-out; }
+@keyframes fl-hit { 0%, 55% { background: color-mix(in srgb, var(--amber, var(--gold, var(--accent, var(--ink-3)))) 28%, transparent); } 100% { background: transparent; } }
 .fl-status.pending .fl-status-text { color: var(--ink-3); font-style: italic; }
 .fl-story .c-snip { -webkit-line-clamp: 6; }
 body[data-view="follow"] .filters, body[data-view="companies"] .filters, body[data-view="sources"] .filters { display: none; }

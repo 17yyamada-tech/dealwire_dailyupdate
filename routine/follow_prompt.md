@@ -22,14 +22,15 @@ Search the web thoroughly. Use English, and also Japanese when the story concern
 
 **Background** (new stories only): the events that explain this story, from up to **12 months before** `published`. Examples: an earlier bid or talks, a strategic review, a prior stake, a financing, a regulatory step, a management change, an earlier deal between the same parties. Keep the ones a deal professional would want before reading the story. Up to **8**, newest first. Skip generic company history.
 
-**Since then**: developments after `published`. For a new story, search from `published` to now. For a refresh, search from `checked_at` minus one day, and add only developments that are **not already in the file**. Examples: agreement signed, price or terms changed, a new bidder, approvals, financing, completion, collapse, litigation. Up to **30** in the file, newest first. When there is nothing new, change nothing but `checked_at` (the one exception is a missing `status`, see **Status** below).
+**Since then**: developments after `published`. For a new story, search from `published` to now. For a refresh, search from `checked_at` minus one day, and add only developments that are **not already in the file**. Examples: agreement signed, price or terms changed, a new bidder, approvals, financing, completion, collapse, litigation. Up to **30** in the file, newest first. When there is nothing new, change nothing but `checked_at` (the exception is a `status` that is missing, has no `refs`, or is over 35 words: rewrite it, see **Status** below).
 
-**Status** (the speech bubble under the story on the Deals page): an object `{"as_of": "YYYY-MM-DD", "text": "...", "text_ja": "..."}` saying where the story stands now.
-- `text`: English, two or three sentences, about 60 words at most. In order: (1) the stage now (rumour, in talks, agreed, under regulatory review, completed, collapsed and so on); (2) the latest important fact, with numbers, dates and counterparties; (3) what is still open or the next milestone, only if reported.
-- Use only facts in the `background` and `since` entries of this file and in this run's search results. No guesses, forecasts or judging words ("likely", "expected to succeed") that no report uses. When nothing has been reported since publication, say so, for example "No reported developments since 27 Sep 2026; ...".
-- `text_ja`: the same content in Japanese, 常体, for a finance professional. Numbers and proper nouns identical, no added fact, and not a word-for-word copy of the English.
+**Status** (the speech bubble under the story on the Deals page): an object `{"as_of": "YYYY-MM-DD", "text": "...", "text_ja": "...", "refs": [{"list": "since", "url": "..."}]}` saying where the story stands now. Keep it very short; the detail lives in the entries, which the bubble links to.
+- `text`: English, one or two sentences, **35 words at most** (strict; count the words and rewrite if over). Only (1) the stage now (rumour, in talks, agreed, under regulatory review, completed, collapsed and so on) and (2) the single most important recent fact, with its number or date. Do not list the history or side news; the `refs` links carry that.
+- Use only facts in the `background` and `since` entries of this file and in this run's search results. No guesses, forecasts or judging words ("likely", "expected to succeed") that no report uses. When nothing has been reported since publication, say so, for example "No reported developments since 27 Sep 2026."
+- `text_ja`: the same content in Japanese, 常体, for a finance professional, **90 full-width characters at most**. Numbers and proper nouns identical, no added fact, and not a word-for-word copy of the English.
+- `refs`: 1 to 3 main news items that support the status, chosen from this file's `since` list (use `background` only when `since` is empty), most important first. `list` is `"since"` or `"background"`, and `url` must be exactly the `url` of that entry. Never make up a url.
 - `as_of`: today's date (UTC) as `YYYY-MM-DD`.
-- When to write: always for a new story, for a story whose file has no `status`, and whenever you add a new `since` entry. Otherwise leave `status` exactly as it is, `as_of` included.
+- When to write: always for a new story, for a story whose file has no `status`, and whenever you add a new `since` entry. Also always rewrite when the existing `status` has no `refs` (old format) or its `text` is over 35 words, even if there is nothing else new. Otherwise leave `status` exactly as it is, `as_of` included.
 
 Rules for every entry:
 - One event is one entry. When several outlets report the same event, keep one, from the most authoritative source (the company, a regulator, Reuters, Bloomberg, FT, WSJ, Nikkei, DealStreetAsia and so on).
@@ -45,7 +46,7 @@ Rules for every entry:
   ```json
   {"id": "<id>", "title": "<title from the queue>", "link": "<link>", "source": "<source>", "published": "<published>",
    "checked_at": "ISO UTC now",
-   "status": {"as_of": "YYYY-MM-DD", "text": "", "text_ja": ""},
+   "status": {"as_of": "YYYY-MM-DD", "text": "", "text_ja": "", "refs": [{"list": "since", "url": ""}]},
    "background": [{"date": "", "headline": "", "summary": "", "summary_ja": "", "source": "", "url": ""}],
    "since": [{"date": "", "headline": "", "summary": "", "summary_ja": "", "source": "", "url": ""}]}
   ```
@@ -54,7 +55,7 @@ Rules for every entry:
 
 ## Validate and commit
 1. Run `git pull --rebase` before you start and again before you commit.
-2. With Python, check that every file you wrote parses, that each file has a `status` with a non-empty `text` and `text_ja` (`text_ja` not a copy of `text`) and an `as_of` of the form `YYYY-MM-DD`, that each entry has all six fields, that no `summary_ja` is empty or a copy of the English, that dates match `YYYY-MM-DD` or `YYYY-MM`, that urls start with `http`, that the lists are newest first, and that the index counts match the files.
+2. With Python, check that every file you wrote parses, that each file has a `status` with a non-empty `text` and `text_ja` (`text_ja` not a copy of `text`) and an `as_of` of the form `YYYY-MM-DD`, that `text` has at most 35 words and `text_ja` at most 90 characters, that `refs` has 1 to 3 items whose `url` each exists in the list of this file named by `list`, that each entry has all six fields, that no `summary_ja` is empty or a copy of the English, that dates match `YYYY-MM-DD` or `YYYY-MM`, that urls start with `http`, that the lists are newest first, and that the index counts match the files.
 3. Commit only files under `docs/data/follow/` except `queue.json`, with the message `follow: <n> new, <m> refreshed`, and push to main. On rejection, `git pull --rebase` and push again, up to 3 times.
 4. If the queue is empty or missing, commit nothing and say so.
 
