@@ -171,10 +171,6 @@ function sync_(p) {
   tab.getDataRange().getValues().slice(1).forEach(function (r) { known[r[0]] = true; });
   companies.filter(function (c) { return !known[companyKey_(c)]; }).slice(0, 3)
     .forEach(function (c) { refreshCompany_(tab, c); });
-  // and a new US company its SEC figures
-  const facts = factsByCik_();
-  companies.filter(function (c) { return c.cik && !facts[c.cik]; }).slice(0, 2)
-    .forEach(function (c) { refreshFacts_(c.cik); });
   // and one new listing its profile; the rest wait for the next refresh
   const have = profilesByKey_();
   companies.filter(function (c) { return profileKey_(c) && !have[profileKey_(c)]; }).slice(0, 1)
@@ -211,94 +207,28 @@ function companiesFor_(vid) {
   newsTab_().getDataRange().getValues().slice(1).forEach(function (r) {
     news[r[0]] = { names: parseList_(r[1]), news: parseList_(r[3]), updated: r[4] ? new Date(r[4]).toISOString() : '' };
   });
-  const facts = factsByCik_(), profiles = profilesByKey_();
+  const profiles = profilesByKey_();
   return {
     companies: (mine ? cleanCompanies_(mine[2]) : []).map(function (c) {
       const n = news[companyKey_(c)] || { names: c.names, news: [], updated: '' };
       return { name: c.names.join(', '), keywords: c.keywords, searched: n.names, news: n.news, updated: n.updated,
-        facts: c.cik && facts[c.cik] ? facts[c.cik].facts : null, profile: profileFor_(c, profiles) };
+        facts: null, profile: profileFor_(c, profiles) };
     }),
   };
 }
 
-/* ---------------- US figures from the SEC ----------------
- * For a US company picked from the search list (it carries a CIK), the SEC's own XBRL data: the
- * last two fiscal years' revenue, operating income and net income as filed in the 10-K, the
- * shares outstanding, and the industry (SIC). Refreshed weekly. Numbers are exactly what the
- * company filed; nothing is estimated. The SEC asks for a contact in the User-Agent, and the
- * script owner's address is used for that, so none is written into the public repository.
- */
-const FACTS_TAB = 'Fundamentals';
-const FACTS_MAX_AGE_MS = 7 * 864e5;
-const REVENUE_TAGS = ['Revenues', 'RevenueFromContractWithCustomerExcludingAssessedTax', 'SalesRevenueNet',
-  'RevenuesNetOfInterestExpense', 'TotalRevenuesAndOtherIncome'];
-
-function factsTab_() { return tab_(FACTS_TAB, ['cik', 'facts', 'updated']); }
-function factsByCik_() {
-  const out = {};
-  factsTab_().getDataRange().getValues().slice(1).forEach(function (r) {
-    let f = null; try { f = JSON.parse(r[1] || 'null'); } catch (e) { /* unreadable row: refetched */ }
-    out[String(r[0])] = { facts: f, updated: new Date(r[2]).getTime() || 0 };
-  });
-  return out;
-}
-function secGet_(url) {
-  const res = UrlFetchApp.fetch(url, { muteHttpExceptions: true,
-    headers: { 'User-Agent': 'DealWire ' + Session.getEffectiveUser().getEmail() } });
-  return res.getResponseCode() === 200 ? JSON.parse(res.getContentText()) : null;
-}
-// The latest two fiscal years of one concept, from annual reports only.
-function annual_(concept, unit) {
-  const rows = (concept && concept.units && concept.units[unit]) || [];
-  const byEnd = {};
-  rows.forEach(function (x) {
-    if (!/^(10-K|20-F|40-F)/.test(x.form || '') || !x.start || !x.end) return;
-    const days = (Date.parse(x.end) - Date.parse(x.start)) / 864e5;
-    if (days < 330 || days > 400) return;                       // a full year, not a quarter
-    if (!byEnd[x.end] || String(x.filed) > String(byEnd[x.end].filed)) byEnd[x.end] = x;   // latest restatement wins
-  });
-  return Object.keys(byEnd).sort().reverse().slice(0, 2).map(function (e) { return { end: e, val: byEnd[e].val }; });
-}
-function concept_(pad, taxonomy, tag) {
-  return secGet_('https://data.sec.gov/api/xbrl/companyconcept/CIK' + pad + '/' + taxonomy + '/' + tag + '.json');
-}
-function refreshFacts_(cik) {
-  const pad = ('0000000000' + cik).slice(-10), f = { currency: 'USD' };
-  try {
-    const sub = secGet_('https://data.sec.gov/submissions/CIK' + pad + '.json');
-    if (sub) { f.sic = sub.sicDescription || ''; f.fiscal_year_end = sub.fiscalYearEnd || ''; }
-    for (let i = 0; i < REVENUE_TAGS.length && !f.revenue; i++) {
-      const r = annual_(concept_(pad, 'us-gaap', REVENUE_TAGS[i]), 'USD');
-      if (r.length) f.revenue = r;
-    }
-    const op = annual_(concept_(pad, 'us-gaap', 'OperatingIncomeLoss'), 'USD'); if (op.length) f.operating_income = op;
-    const ni = annual_(concept_(pad, 'us-gaap', 'NetIncomeLoss'), 'USD'); if (ni.length) f.net_income = ni;
-    const sh = concept_(pad, 'dei', 'EntityCommonStockSharesOutstanding');
-    const pts = ((sh && sh.units && sh.units.shares) || []).slice().sort(function (a, b) { return String(b.end).localeCompare(String(a.end)); });
-    if (pts.length) f.shares = { end: pts[0].end, val: pts[0].val };
-  } catch (e) { Logger.log('SEC facts failed for ' + cik + ': ' + e); }
-  const tab = factsTab_(), rows = tab.getDataRange().getValues();
-  let r = 1;
-  while (r < rows.length && String(rows[r][0]) !== String(cik)) r++;
-  const row = [String(cik), JSON.stringify(f), new Date()];
-  if (r < rows.length) tab.getRange(r + 1, 1, 1, 3).setValues([row]); else tab.appendRow(row);
-}
-
 /* ---------------- company profile ----------------
  * What the Companies page shows above the headlines: financials, who holds the shares and whether
- * a takeover defence is in place. Built per listing (JP:7203, US:AAPL), stored in the Profiles
- * tab as the finished JSON the page receives, and rebuilt when it is a week old. Share prices
- * are not collected here; the page embeds TradingView for them and only needs the symbol.
- *   Japan: copied from docs/data/jp_profiles/<ticker>.json, which GitHub Actions builds from the
- *          latest annual securities report on EDINET (see jpProfile_ below).
- *   US:    the SEC. Financials from the XBRL facts above, holders from Schedule 13D/13G filings
- *          (5% and over), defence from rights-plan filings (8-A, 8-K item 3.03).
+ * a takeover defence is in place. Built per listing (JP:7203, US:AAPL). GitHub Actions does the
+ * reading (EDINET for Japan, the SEC for the US; both refuse or hide behind keys that cannot live
+ * here) and publishes one JSON per ticker under docs/data/jp_profiles and docs/data/us_profiles.
+ * This script copies the file for each company someone follows into the Profiles tab, which is
+ * what the page receives, and refreshes it when it is a week old. Share prices are not collected;
+ * the page embeds TradingView and only needs the symbol in the file.
  * Every figure is what the filing says. The defence flags are matched by text, so they are hints.
  */
 const PROFILES_TAB = 'Profiles';
 const PROFILE_MAX_AGE_MS = 7 * 864e5;
-const TV_EXCHANGE = { 'Nasdaq': 'NASDAQ', 'NYSE': 'NYSE', 'NYSE American': 'AMEX', 'NYSE MKT': 'AMEX', 'NYSE Arca': 'NYSEARCA', 'CBOE': 'CBOE' };
-const RIGHTS_RE = /rights (agreement|plan)|preferred (share|stock) purchase rights|poison pill/i;
 
 function profilesTab_() { return tab_(PROFILES_TAB, ['key', 'profile', 'updated']); }
 function profilesByKey_() {
@@ -318,13 +248,6 @@ function saveProfile_(key, profile) {
   const row = [key, JSON.stringify(profile), new Date()];
   if (r < rows.length) tab.getRange(r + 1, 1, 1, 3).setValues([row]); else tab.appendRow(row);
 }
-function today_() { return Utilities.formatDate(new Date(), 'Asia/Singapore', 'yyyy-MM-dd'); }
-function unesc_(s) {
-  return String(s || '').replace(/&nbsp;|&#160;|&#xA0;/gi, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&amp;/g, '&');
-}
-function plain_(html) { return unesc_(String(html || '').replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' '); }
-
 // What the page gets for one company. Never throws: a company with nothing built yet is "pending".
 function profileFor_(c, stored) {
   const key = profileKey_(c);
@@ -358,9 +281,13 @@ function refreshProfiles_(wanted, start) {
     if (!key) return;
     const have = stored[key];
     const age = have ? Date.now() - have.updated : 0, st = have && have.profile ? have.profile.status : '';
-    // a good profile lasts a week; an error is retried daily; a pending one (the Actions build has not reached
-    // the company yet) every 6 hours
-    const stale = st === 'ok' ? age > PROFILE_MAX_AGE_MS : st === 'error' ? age > 864e5 : age > 6 * 36e5;
+    // a good profile lasts a week; an error, a pending one (the Actions build has not reached the
+    // company yet) or one still collecting holders is looked at again every 6 hours
+    const waiting = have && have.profile && have.profile.detail === 'pending';
+    // a pending or error row whose note this version never writes was left by older code: rebuild it at once
+    const note = have && have.profile ? String(have.profile.status_note) : '';
+    const oldNote = st === 'pending' && !/not built yet$|search list/.test(note) || st === 'error' && /SEC|EDINET|submissions/.test(note);
+    const stale = oldNote || (st === 'ok' && !waiting ? age > PROFILE_MAX_AGE_MS : age > 6 * 36e5);
     if (!have || !have.profile || stale) todo.push({ key: key, c: wanted[k], at: have ? have.updated : 0 });
   });
   const seen = {};
@@ -371,97 +298,6 @@ function refreshProfiles_(wanted, start) {
   const tab = profilesTab_(), rows = tab.getDataRange().getValues(), keep = {};
   Object.keys(wanted).forEach(function (k) { const pk = profileKey_(wanted[k]); if (pk) keep[pk] = true; });
   for (let r = rows.length - 1; r >= 1; r--) if (!keep[String(rows[r][0])]) tab.deleteRow(r + 1);
-}
-
-function secText_(url) {
-  const res = UrlFetchApp.fetch(url, { muteHttpExceptions: true,
-    headers: { 'User-Agent': 'DealWire ' + Session.getEffectiveUser().getEmail() } });
-  return res.getResponseCode() === 200 ? res.getContentText() : '';
-}
-// "The Vanguard Group Inc" and "VANGUARD GROUP" are one holder; so are "Musk Elon" and "Elon R. Musk".
-function holderKey_(name) {
-  return String(name).toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/)
-    .filter(function (w) { return w.length > 1 && !/^(the|inc|corp|corporation|co|company|llc|lp|ltd|plc|group)$/.test(w); })
-    .sort().join(' ');
-}
-
-function usProfile_(c) {
-  if (!c.cik) throw new Error('No SEC CIK for this listing; pick it again from the search list');
-  const pad = ('0000000000' + c.cik).slice(-10), cikNum = String(Number(c.cik));
-  const sub = secGet_('https://data.sec.gov/submissions/CIK' + pad + '.json');
-  if (!sub) throw new Error('SEC submissions not available right now');
-  const ex = (sub.exchanges || [])[0] || '';
-  const p = { market: 'US', ticker: c.ticker, tv_symbol: TV_EXCHANGE[ex] ? TV_EXCHANGE[ex] + ':' + c.ticker : '',
-    sector: sub.sicDescription || '', fin: null, holders: null, defense: null, status: 'ok', status_note: '' };
-
-  // financials: the facts already kept for the company (fetched now if the weekly refresh has not reached it)
-  let facts = factsByCik_()[c.cik];
-  if (!facts || !facts.facts) { refreshFacts_(c.cik); facts = factsByCik_()[c.cik]; }
-  const f = facts && facts.facts;
-  if (f && (f.revenue || f.operating_income || f.net_income)) {
-    p.fin = { currency: 'USD', basis: 'us-gaap', revenue: f.revenue || [], operating_income: f.operating_income || [],
-      net_income: f.net_income || [], source: 'SEC',
-      url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=' + pad + '&type=10-K' };
-  }
-
-  // the last three years of filings, newest first
-  const rc = (sub.filings && sub.filings.recent) || {}, cutoff = Utilities.formatDate(new Date(Date.now() - 3 * 365 * 864e5), 'UTC', 'yyyy-MM-dd');
-  const rows = [];
-  (rc.form || []).forEach(function (form, i) {
-    if (rc.filingDate[i] < cutoff) return;
-    rows.push({ form: form, date: rc.filingDate[i], acc: rc.accessionNumber[i], doc: rc.primaryDocument[i], items: rc.items[i] || '' });
-  });
-  const base = 'https://www.sec.gov/Archives/edgar/data/' + cikNum + '/';
-
-  // holders: Schedule 13D/13G. The XML form (from December 2024) carries the percentage; the older
-  // HTML or text form is read for "Percent of class", and the percentage stays empty if it is not found.
-  const byHolder = {};
-  rows.filter(function (x) { return /^(SC |SCHEDULE )13[DG]/.test(x.form); }).slice(0, 16).forEach(function (x) {
-    const nd = x.acc.replace(/-/g, '');
-    let name = '', pct = null;
-    if (/primary_doc\.xml$/.test(x.doc)) {
-      const xml = secText_(base + nd + '/primary_doc.xml');
-      const m = xml.match(/<reportingPersonName>([^<]+)/);
-      name = m ? unesc_(m[1]).trim() : '';
-      const ps = (xml.match(/<(?:classPercent|percentOfClass)>[\d.]+/g) || []).map(function (t) { return parseFloat(t.replace(/^.*>/, '')); });
-      if (ps.length) pct = Math.max.apply(null, ps);
-    } else {
-      const hdr = secText_(base + nd + '/' + x.acc + '.hdr.sgml');
-      const m = hdr.match(/<FILED-BY>\s*<COMPANY-DATA>\s*<CONFORMED-NAME>([^\n<]+)/);
-      name = m ? unesc_(m[1]).trim() : '';
-      const t = plain_(secText_(base + nd + '/' + x.doc)).match(/percent of class[^%]{0,200}?(\d{1,3}(?:\.\d+)?)\s*%/i);
-      if (t) pct = parseFloat(t[1]);
-    }
-    Utilities.sleep(100);
-    const hk = name ? holderKey_(name) : '';
-    if (hk && !byHolder[hk]) byHolder[hk] = { name: name.slice(0, 80), pct: pct, date: x.date };   // the newest filing of a holder wins
-  });
-  // a holder whose latest filing says under 5% has sold down and is no longer a 5% holder
-  const list = Object.keys(byHolder).map(function (k) { return byHolder[k]; })
-    .filter(function (h) { return h.pct == null || h.pct >= 5; })
-    .sort(function (a, b) { return (b.pct || 0) - (a.pct || 0); }).slice(0, 10);
-  if (Object.keys(byHolder).length) {
-    p.holders = { kind: '5pct', as_of: list.reduce(function (m, h) { return h.date > m ? h.date : m; }, '') || rows[0].date,
-      list: list.map(function (h) { return { name: h.name, pct: h.pct }; }), source: 'SEC',
-      url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=' + pad + '&type=SC+13&dateb=&owner=include&count=40' };
-  }
-
-  // defence: a rights plan shows up as a Form 8-A for the rights, or an 8-K item 3.03 that describes them
-  let found = null;
-  rows.filter(function (x) { return /^8-A12[BG]/.test(x.form) || /^8-K/.test(x.form) && /(^|,)3\.03(,|$)/.test(x.items); })
-    .slice(0, 6).some(function (x) {
-      const t = plain_(secText_(base + x.acc.replace(/-/g, '') + '/' + x.doc));
-      Utilities.sleep(100);
-      if (!RIGHTS_RE.test(t)) return false;
-      found = x; return true;
-    });
-  p.defense = found
-    ? { flag: 'possible', note: 'A shareholder rights plan (poison pill) may be in place: ' + found.form + ' filed ' + found.date +
-        ' describes rights issued to shareholders. Matched by text, so read the filing.', as_of: found.date, source: 'SEC',
-        url: base + found.acc.replace(/-/g, '') + '/' + found.doc }
-    : { flag: 'none_found', note: 'No Form 8-A rights registration or item 3.03 rights-plan 8-K in the last three years. Matched by text, so a plan could still exist.',
-        as_of: today_(), source: 'SEC', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=' + pad + '&type=8-' };
-  return p;
 }
 
 /* ---------------- Japan: profiles built by GitHub Actions ----------------
@@ -478,6 +314,25 @@ function jpProfile_(c) {
       status: 'pending', status_note: 'Japanese filing data not built yet' };
   }
   p.status = 'ok'; p.status_note = '';
+  return p;
+}
+
+/* ---------------- US: profiles built by GitHub Actions ----------------
+ * fetcher/us_profiles.py reads the SEC (XBRL frames for the financials, Schedule 13D/13G for
+ * holders of 5% and over, rights-plan filings for the defence hint) and publishes
+ * docs/data/us_profiles/<ticker>.json. Google's servers are refused by the SEC, so nothing here
+ * calls it. The file has detail "pending" until holders and defence have been looked at.
+ */
+const US_PROFILE_URL = 'https://raw.githubusercontent.com/17yyamada-tech/dealwire_dailyupdate/main/docs/data/us_profiles/';
+
+function usProfile_(c) {
+  const p = fetchJson_(US_PROFILE_URL + encodeURIComponent(c.ticker) + '.json');
+  if (!p) {
+    return { market: 'US', ticker: c.ticker, tv_symbol: '', sector: '', fin: null, holders: null, defense: null,
+      status: 'pending', status_note: 'US filing data not built yet' };
+  }
+  p.status = 'ok';
+  p.status_note = p.detail === 'pending' ? 'Shareholder and defence details are still being collected for this company' : '';
   return p;
 }
 
@@ -563,11 +418,6 @@ function refreshCompanies_() {
     .slice(0, FOLLOW.MAX_COMPANY_QUERIES).forEach(function (k) {
       if (Date.now() - start < FOLLOW.REFRESH_BUDGET_MS) refreshCompany_(tab, wanted[k]);
     });
-  // SEC figures for US companies: weekly, a few per run
-  const facts = factsByCik_(), ciks = {};
-  Object.keys(wanted).forEach(function (k) { if (wanted[k].cik) ciks[wanted[k].cik] = true; });
-  Object.keys(ciks).filter(function (c) { return !facts[c] || Date.now() - facts[c].updated > FACTS_MAX_AGE_MS; })
-    .slice(0, 5).forEach(function (c) { if (Date.now() - start < FOLLOW.REFRESH_BUDGET_MS) refreshFacts_(c); });
   // profiles (financials, holders, takeover defence): a few per run, in what time is left
   refreshProfiles_(wanted, start);
 }
