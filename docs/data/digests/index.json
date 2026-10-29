@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-29-1230",
+      "label": "29 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-29T04:39:10Z",
+      "items": 4,
+      "headlines": [
+        "NOK and Eagle Industry to merge into roughly ¥1tn auto-parts group, but shares stay soft on synergy doubts",
+        "Shiga Bank, Ikeda Senshu HD to formally announce Kansai bank merger plan on Oct 29",
+        "SIA agrees to buy up to 4,800 tonnes of sustainable aviation fuel from Aether's Singapore plant"
+      ]
+    },
+    {
       "id": "2026-10-29-0830",
       "label": "29 Oct 2026 · 08:30 SGT",
       "generated_at": "2026-10-29T00:38:06Z",

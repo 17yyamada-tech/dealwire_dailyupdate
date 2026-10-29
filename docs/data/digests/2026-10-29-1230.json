@@ -1,0 +1,127 @@
+{
+  "edition": "2026-10-29-1230",
+  "edition_label": "29 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T04:39:10Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "NOK and Eagle Industry to merge into roughly ¥1tn auto-parts group, but shares stay soft on synergy doubts",
+      "summary": "Auto-parts makers NOK and Eagle Industry have agreed to integrate their businesses, creating a group with a combined scale of roughly ¥1tn. Shares in both companies have stayed weak since the move was announced, with investors still questioning how much synergy the tie-up will actually produce.",
+      "why_it_matters": "The merger adds to a broader wave of consolidation among Japanese auto-parts suppliers squeezed by the shift to EVs and thinning margins, and the market's muted reaction is an early test of whether scale alone will satisfy investors looking for concrete cost or technology synergies.",
+      "summary_ja": "自動車部品メーカーのNOKとイーグルが経営統合に合意し、合計で規模約1兆円のグループを形成する。統合発表後も両社の株価は軟調なままで、投資家はシナジーがどの程度実現するか見極めかねている。",
+      "why_it_matters_ja": "この統合は、EVシフトと利益率低下に苦しむ日本の自動車部品サプライヤーの間で進む再編の流れに加わるものであり、市場の反応が鈍いことは、規模の拡大だけで投資家が求める具体的なコストや技術面のシナジーを納得させられるかを試す初期のテストとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "nok-eagle-industry-merger",
+      "ids": [
+        "8e2d5b018dda78"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tSTBIWTFVN051M1R0emVRUk0xRlJQTU4wVGpacEZ6MEd2YnlFbHk4VEprRUZUUXljaEVrTGV5WmswNTZzLXdZRlQ0MVlKcmQzR2szaGRtTW1wVmg1Mkpv?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Shiga Bank, Ikeda Senshu HD to formally announce Kansai bank merger plan on Oct 29",
+      "summary": "Shiga Bank and Ikeda Senshu Holdings are set to formally announce their merger plan on October 29, moving the long-discussed Kansai regional-bank tie-up from final-stage talks to an official announcement.",
+      "why_it_matters": "A formal announcement would lock in the creation of Kansai's largest regional banking group and set a concrete timeline for a deal that has been gradually firming up over the past week, adding momentum to Japan's ongoing wave of regional-bank consolidation.",
+      "summary_ja": "滋賀銀行と池田泉州ホールディングスは、関西の地銀統合計画を10月29日に正式発表する見通しとなった。これまで最終調整の段階にあった両社の統合協議が、公式発表という具体的な節目に進んだことになる。",
+      "why_it_matters_ja": "正式発表によって関西最大の地銀グループの誕生が確定し、この1週間ほど徐々に固まってきた統合案に具体的な道筋が付くことになり、日本で続く地銀再編の流れに一段の勢いを与える。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-26-1230",
+        "index": 2
+      },
+      "key": "shiga-bank-ikeda-senshu-merger",
+      "ids": [
+        "e1ff7c285e5f42"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBITV9fbV84b2VqMzhxQ3BKdHBIQV9oTGRodHkwUzc2cTgzNThjX3JJSnBiTTY5S01Tb2pQbGczSERGdmlWNmNVcEVxVm1iNFdDWEVDb1QtSS0xOVk5WlBJ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "SIA agrees to buy up to 4,800 tonnes of sustainable aviation fuel from Aether's Singapore plant",
+      "summary": "Singapore Airlines has signed a deal to purchase up to 4,800 tonnes of sustainable aviation fuel from Aether's plant in Singapore over three years. The agreement adds to SIA's efforts to secure locally produced low-carbon fuel supply.",
+      "why_it_matters": "Locking in a multi-year SAF supply contract gives SIA more certainty over feedstock for its decarbonisation targets, and underscores Singapore's push to build out domestic SAF production capacity rather than rely solely on imports.",
+      "summary_ja": "シンガポール航空は、Aetherのシンガポール工場から持続可能な航空燃料(SAF)を3年間で最大4,800トン購入する契約を締結した。この契約は、SIAが国内生産の低炭素燃料の供給を確保する取り組みの一環となる。",
+      "why_it_matters_ja": "複数年にわたるSAFの供給契約を確保することで、SIAは脱炭素目標に向けた原料確保の確実性を高めることができ、シンガポールが輸入のみに依存せず国内のSAF生産能力を築こうとする動きを裏付けるものとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "sia-aether-saf-supply-deal",
+      "ids": [
+        "e7f8b8e6aabd29"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/sia-buy-4800-tonnes-sustainable-aviation-fuel-aethers-singapore-plant"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Japanese investor group's JYP tender offer faces takeover-defence hurdle as top shareholder's stake put at 15%",
+      "summary": "New reporting on the Japanese investor group's plan to tender for up to 50% of JYP Entertainment puts the K-pop agency's top shareholder's stake at about 15%, and flags takeover-defence issues facing the bid. The detail adds specificity to a situation that had previously centred on the tender-offer plan itself and a South Korean regulatory probe into possible unfair trading around its disclosure.",
+      "why_it_matters": "A relatively low 15% holding by JYP's top shareholder narrows the scope for a straightforward defence against the tender offer, keeping pressure on South Korean regulators and JYP's board as they weigh how to respond to the approach from Japanese capital.",
+      "summary_ja": "日本の投資家グループによるJYPエンターテインメント株最大50％の公開買付け計画について、新たな報道はJYPの筆頭株主の持ち分を約15％とし、買収防衛上の課題があると指摘した。これまでは公開買付け計画自体と、開示を巡る不公正取引疑惑に関する韓国当局の調査が中心だったが、今回の報道はより具体的な情報を加えるものとなる。",
+      "why_it_matters_ja": "JYPの筆頭株主の持ち分が15％程度と比較的低いことは、公開買付けに対する単純な防衛策の余地を狭めるものであり、日本資本の接近にどう対応するかを巡り、韓国当局とJYP取締会への圧力が続くことになる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-28-0830",
+        "index": 9
+      },
+      "key": "japan-investors-jyp-tender-offer",
+      "ids": [
+        "cadff3099f3cdd",
+        "7fef247296f378"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YTTNYQjdMa3ZYbnZ2SFhzQ0Q3MjczNTM4QXFDcXdielNIRW1yeUl0VTg2dG81MlYtUmlCUXg0akUzMUhWSExMMTJ1SkpMOGxObGpiOHB2TVF4REp0WmZabUh4WC11YVFaUFJFOHpaR1AtQdIBVEFVX3lxTE44QjBGVEJSZ0xIcER6RVdTSmhnbnRFNnAzWjN1MTUxblgtYWp0bWpOdGNPRnFKb3FkSzVyUExwQmdmcTVhSEQ4cGFtTURSQWNYSVZXSg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wTEdHWDZLUHQ2Q3ZITWdQbDJLOGgwWS05ZGtrcnluWDVaMlVGWHEtRmhLemExRlRoV2lSSGlmZkRfbUNvNkZkbmZhZEpmSm1lTlQ1RzI1eUdSWkNqdWdYWE55SFFzZXo2dUhtdGNvVnVKdTRleWY5Zjctd0loZDQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
