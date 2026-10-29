@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261029-1900";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261029-2000";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1103,7 +1103,17 @@
   }
   function fillDetail(td, p) {
     if (!p) { td.textContent = "Profile pending"; return; }
-    if (p.tv_symbol) {
+    if (p.market === "JP") {
+      // TradingView's embeds do not show Tokyo-listed stocks: link out instead
+      const T = encodeURIComponent(p.ticker || "");
+      const mb = pfBox("Market data");
+      const q = document.createElement("p"); q.className = "co-links";
+      [["TradingView", `https://www.tradingview.com/symbols/TSE-${T}/`], ["株探", `https://kabutan.jp/stock/?code=${T}`],
+       ["Yahoo!ファイナンス", `https://finance.yahoo.co.jp/quote/${T}.T`]].forEach(([l, u], i) => { if (i) q.append("  "); q.append(srcLink(l, u)); });
+      mb.append(q);
+      pfLine(mb, "Prices for Tokyo-listed stocks are not shown here; open a link.");
+      td.append(mb);
+    } else if (p.tv_symbol) {
       const tvBox = document.createElement("div"); tvBox.className = "pf-box";
       const h = document.createElement("h4"); h.textContent = "Market data (TradingView, delayed)"; h.append(conf("vendor")); tvBox.append(h);
       const w1 = document.createElement("div"), w2 = document.createElement("div"); w1.className = w2.className = "pf-tv"; tvBox.append(w1, w2);

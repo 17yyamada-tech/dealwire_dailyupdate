@@ -55,8 +55,8 @@ Three pages, in the header line on wide screens and in the bottom tab bar on pho
   sensitive.
   The page has two views, News (the headlines above) and Profile (a table, one row per company: sector,
   revenue, operating and net income for the latest year, revenue growth, the top three shareholders and whether a
-  takeover defence was found). Opening a row loads TradingView's embedded widgets (market cap, P/E, price and
-  volume, delayed; shown by TradingView, not stored here) and the full holder list, defence note and financials,
+  takeover defence was found). Opening a row loads TradingView's embedded widgets for US stocks (market cap, P/E, price and
+  volume, delayed; shown by TradingView, not stored here); Tokyo-listed stocks get links to TradingView, Kabutan and Yahoo! Finance Japan instead, because the embeds do not show them and the full holder list, defence note and financials,
   each with its filing link. Figures come from EDINET (Japan) and SEC (US) through the Apps Script's `profile`
   field; a company without one shows "Profile pending". Each value carries its reliability (Official, Machine,
   Vendor; see the Sources page). Up to 15 companies per browser.
