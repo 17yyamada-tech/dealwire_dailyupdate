@@ -46,11 +46,12 @@ PAUSE_S = 0.4                                                     # between docu
 
 # The filing types that describe a deal. Everything else in the index is routine reporting.
 KINDS = {
+    "240": ("tob", "Tender offer filing"),
     "250": ("tob", "Tender offer filing"),
-    "260": ("tob", "Tender offer filing"),
+    "260": ("tob_withdrawn", "Tender offer withdrawn"),
     "270": ("tob_result", "Tender offer result"),
     "280": ("tob_result", "Tender offer result"),
-    "290": ("tob_result", "Tender offer result"),
+    "290": ("opinion", "Target's response"),
     "300": ("opinion", "Target's response"),
     "310": ("opinion", "Target's response"),
     "320": ("opinion", "Target's response"),
@@ -411,11 +412,13 @@ def keep_offers(offers: list, today: dt.date) -> list:
     cutoff = (today - dt.timedelta(days=RETAIN_DAYS)).isoformat()
     out = []
     for docs in cases.values():
-        results = [c["filed"][:10] for c in docs if c["kind"] == "tob_result"]
+        results = [c["filed"][:10] for c in docs if c["kind"] in ("tob_result", "tob_withdrawn")]
         closes = [c["terms"].get("closes", "") for c in docs]
         ref = max(results) if results else (max(closes) or max(c["filed"][:10] for c in docs))
         if ref >= cutoff:
             out.extend(docs)
+        else:
+            print(f"      dropped case {docs[0]['id']} ({len(docs)} docs, last activity {ref})")
     return out
 
 
