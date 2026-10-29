@@ -15,7 +15,7 @@ import zipfile
 API = "https://api.edinet-fsa.go.jp/api/v2"
 KEY = os.environ.get("EDINET_API_KEY", "")
 UA = {"User-Agent": "DealWire (contact: 17yyamada@gmail.com)"}
-DOCS = [d.strip() for d in os.environ.get("PROBE_DOCS", "S100ZAKK,S100Y3N0,S100ZABN,S100Z1G9,S100ZABV").split(",") if d.strip()]
+DOCS = [d.strip() for d in os.environ.get("PROBE_DOCS", "S100Z9B5,S100Z9PM").split(",") if d.strip()]
 
 
 def main() -> int:
