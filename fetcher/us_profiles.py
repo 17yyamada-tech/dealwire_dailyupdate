@@ -39,6 +39,14 @@ REVENUE_TAGS = ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax
 RIGHTS = re.compile(r"rights (agreement|plan)|preferred (share|stock) purchase rights|poison pill", re.I)
 SKIP_WORDS = {"the", "inc", "corp", "corporation", "co", "company", "llc", "lp", "ltd", "plc", "group"}
 
+# Windows cannot hold a file called CON.json, and this folder is checked out there too
+RESERVED = {"CON", "PRN", "AUX", "NUL"} | {f"COM{i}" for i in range(1, 10)} | {f"LPT{i}" for i in range(1, 10)}
+
+
+def fname(tk: str) -> str:
+    return tk + "_.json" if tk.upper() in RESERVED else tk + ".json"
+
+
 _last = [0.0]
 
 
@@ -193,6 +201,8 @@ def main() -> int:
     if ONLY:
         rows = [r for r in rows if r["t"] in ONLY]
     OUT.mkdir(parents=True, exist_ok=True)
+    for t in RESERVED:                       # files written before the rename
+        (OUT / f"{t}.json").unlink(missing_ok=True)
     try:
         state = json.loads(STATE.read_text(encoding="utf-8"))
     except Exception:  # noqa: BLE001
@@ -210,7 +220,7 @@ def main() -> int:
     for r in order:
         tk, cik = r["t"], r["c"]
         st = state.setdefault(tk, {})
-        f = OUT / f"{tk}.json"
+        f = OUT / fname(tk)
         try:
             old = json.loads(f.read_text(encoding="utf-8"))
         except Exception:  # noqa: BLE001

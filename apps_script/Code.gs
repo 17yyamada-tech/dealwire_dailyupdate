@@ -326,7 +326,7 @@ function jpProfile_(c) {
 const US_PROFILE_URL = 'https://raw.githubusercontent.com/17yyamada-tech/dealwire_dailyupdate/main/docs/data/us_profiles/';
 
 function usProfile_(c) {
-  const p = fetchJson_(US_PROFILE_URL + encodeURIComponent(c.ticker) + '.json');
+  const p = fetchJson_(US_PROFILE_URL + encodeURIComponent(c.ticker) + (/^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])$/.test(c.ticker) ? '_' : '') + '.json');
   if (!p) {
     return { market: 'US', ticker: c.ticker, tv_symbol: '', sector: '', fin: null, holders: null, defense: null,
       status: 'pending', status_note: 'US filing data not built yet' };
