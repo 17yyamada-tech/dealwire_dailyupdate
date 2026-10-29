@@ -75,11 +75,12 @@ select { appearance: none; }
 .fc-foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .p-deals { grid-area: deals; }
 .p-digest { grid-area: digest; }
-.p-search, .p-follow, .p-companies { grid-area: 1 / 1 / 2 / -1; }
-body:not([data-view="home"]) .p-contact, body:not([data-view="home"]) .p-filings, body:not([data-view="home"]) .p-reference,
+.p-search, .p-follow, .p-companies, .p-reference { grid-area: 1 / 1 / 2 / -1; }
+body:not([data-view="home"]) .p-contact, body:not([data-view="home"]) .p-filings, body:not([data-view="sources"]) .p-reference,
 body[data-view="search"] .p-deals, body[data-view="search"] .p-digest,
 body[data-view="follow"] .p-deals, body[data-view="follow"] .p-digest,
-body[data-view="companies"] .p-deals, body[data-view="companies"] .p-digest { display: none; }
+body[data-view="companies"] .p-deals, body[data-view="companies"] .p-digest,
+body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[data-view="sources"] .p-filings { display: none; }
 .panel { min-width: 0; }
 .panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .panel-head h2 { margin: 0; display: flex; align-items: center; gap: 8px; }
@@ -146,7 +147,7 @@ body[data-view="companies"] .p-deals, body[data-view="companies"] .p-digest { di
 .fl-story .row { padding: 0; border: 0; background: none; grid-template-columns: auto auto auto minmax(0, 1fr) auto;
   grid-template-areas: "time reg type . act" "main main main main main"; row-gap: 8px; }
 .fl-story .c-snip { -webkit-line-clamp: 6; }
-body[data-view="follow"] .filters, body[data-view="companies"] .filters { display: none; }
+body[data-view="follow"] .filters, body[data-view="companies"] .filters, body[data-view="sources"] .filters { display: none; }
 .fl-col { display: flex; flex-direction: column; min-height: 0; }
 .fl-head { margin: 0 0 4px; }
 .digest-list.fl-items { display: block; padding: 0; flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }   /* one column in every skin */
@@ -210,10 +211,9 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters { displa
 .fc-proposal { padding: 1px 5px; border-radius: 2px; border: 1px solid #e0913a; color: #e0913a;
   font: 700 9.5px/1.3 var(--mono, monospace); letter-spacing: .08em; text-transform: uppercase; }
 
-/* Sources & reliability: a quiet reference at the foot of Home */
-.panel.p-reference { grid-column: 1 / -1; }
+/* Sources & reliability: its own page (Sources tab), shown full width like Deals and Companies */
 .ref-tiers { list-style: none; margin: 10px 0 12px; padding: 0 14px; display: grid; gap: 5px; font-size: 12.5px; color: var(--ink-2); }
-.ref-tier { display: inline-block; min-width: 76px; margin-right: 8px; padding: 1px 6px; border-radius: 2px; text-align: center;
+.ref-tier { display: inline-block; box-sizing: border-box; width: 88px; white-space: nowrap; margin-right: 8px; padding: 1px 0; border-radius: 2px; text-align: center;
   font: 700 10px/1.5 var(--mono, monospace); letter-spacing: .06em; text-transform: uppercase; border: 1px solid currentColor; }
 .t-official { color: #2fa36b; } .t-issuer { color: #3f8fd8; } .t-press { color: #8b8fd9; }
 .t-aggregated { color: #d9a23a; } .t-machine { color: #d9607a; }

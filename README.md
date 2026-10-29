@@ -14,6 +14,7 @@ The planned public URL is `https://<github-user>.github.io/dealwire_dailyupdate/
 | Archive for search | `docs/data/archive/YYYY-MM.json` (append-only) | With each fetch |
 | Followed stories (Deals page) | Browsers send their ☆ list to the Apps Script; `fetcher/follows.py` (in fetch.yml) copies the combined list to `docs/data/follow/queue.json`; a second cloud Routine (`routine/follow_prompt.md`) writes `docs/data/follow/<id>.json` | List every 30 min, research at 08:45, 12:45 and 15:45 SGT |
 | Companies page | The Apps Script keeps each browser's companies and fetches their Google News headlines itself. Nothing about companies reaches this repository. | Every 30 min |
+| Sources page | Static reference in `docs/index.html` (section `#reference`): where each part comes from and how far to trust it. Keep in step with `fetcher/sources.json` and the Routines. | When a source changes |
 | Learning | Each viewer's own browser (localStorage). Nothing is sent anywhere. | Profile rebuilt once a day per viewer |
 
 Only headlines, links and short snippets are stored. Article bodies are never stored.
