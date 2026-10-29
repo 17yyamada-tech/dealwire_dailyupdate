@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T19:37:33.589Z",
+ "updated": "2026-10-29T03:37:34.209Z",
  "stories": [
   {
    "id": "7b6397f5b86c07",
@@ -8,7 +8,7 @@
    "source": "The Business Times",
    "published": "2026-09-27T13:31:03Z",
    "since": "2026-09-27T19:11:34.459Z",
-   "followers": 1
+   "followers": 13
   },
   {
    "id": "17cab88d00fb5d",
@@ -17,7 +17,7 @@
    "source": "Japan M&A",
    "published": "2026-09-27T10:00:23Z",
    "since": "2026-09-27T17:28:59.680Z",
-   "followers": 1
+   "followers": 13
   },
   {
    "id": "20420bdc776c69",
@@ -26,7 +26,7 @@
    "source": "Japan M&A",
    "published": "2026-09-26T18:20:14Z",
    "since": "2026-09-27T15:09:11.563Z",
-   "followers": 1
+   "followers": 13
   },
   {
    "id": "74830c8a519f60",
@@ -35,7 +35,7 @@
    "source": "Japan M&A",
    "published": "2026-09-27T05:00:00Z",
    "since": "2026-09-27T15:08:59.381Z",
-   "followers": 1
+   "followers": 13
   },
   {
    "id": "58eec020384e13",
@@ -44,7 +44,16 @@
    "source": "Japan M&A",
    "published": "2026-09-26T18:17:00Z",
    "since": "2026-09-27T05:12:53.624Z",
-   "followers": 1
+   "followers": 13
+  },
+  {
+   "id": "38f2688f806bd0",
+   "title": "小林製薬、株式非公開化を検討 ファンドから買収提案｜四国新聞WEB朝刊 - shikoku-np.co.jp",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HQWozdFU2NHdnUjV0dm9xS1NqeEZWelRXQ0YwcXMtUEF6Sm1BTDBtRDZwUGowdnlCSGtKOTBVYXVKN253aF9naGNZWU1QZ05lUHdRVGR3aUZjcl9NdnZFVEZIcDdONlVIR25NejZoN3o4T2FDNC1V0gF8QVVfeXFMTktFcXBZNlRPNUxGWjYyRkVTMGNBcTlYVjc3LTlvZHA2b2dwaHV2QnVrZFdUdk1TM0VEdGo1Qy1xaHNqa3hFWEpUMkR3eV9DREZWMzFZZW9hTWFxVEJDR014M0tBbW5LamJBMmw4VGtqV3NtYVBVY3k0WHFSTA?oc=5",
+   "source": "Japan M&A",
+   "published": "2026-09-25T20:21:58Z",
+   "since": "2026-10-20T00:00:00Z",
+   "followers": 12
   }
  ]
 }
