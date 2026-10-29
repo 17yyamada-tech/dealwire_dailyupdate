@@ -44,18 +44,18 @@ def rows_of(doc_id: str):
     return out
 
 
-POS = re.compile(r"買収防衛策|大規模買付|買付ルール|新株予約権の無償割当|新株予約権無償割当|事前警告|大量取得行為|(買収|買付|大量取得)[^。]{0,40}対応方針|対応方針[^。]{0,40}(買収|買付|大量取得)")
-NEG = re.compile(r"導入(して|し)(い)?(おりま)?せん|導入(して|し)(い)?ない|導入(する|いたす)?予定(は)?(あり|ご)?(ま)?(せん|ない)|廃止|更新(し|は行)(な|ま)|継続(し|は行)(な|ま)|定めて(い)?(おりま)?せん|予定はありません|ありません|行っておりません")
+PLAN = re.compile(r"買収防衛策|大規模買付|買付ルール|新株予約権(の)?無償割当|事前警告|大量取得行為|大量買付行為|(買収|買付|大量取得)[^。]{0,40}対応(方針|策)|対応(方針|策)[^。]{0,40}(買収|買付|大量取得)")
+ENDED = re.compile(r"廃止(いたしました|しました|いたします|します|することを決議|を決議)|継続(しない|せず|いたしません|しません)|更新(しない|せず|いたしません|しません)|導入して(い|おり)(ません|ない)|導入して(おり|い)ました|導入する予定(は)?(あり|な)|失効|終了いたしました|終了しました")
 
 
 def classify(text: str):
-    """yes / none_found with the sentence that decided it."""
+    """Mirror of the Apps Script logic: yes / ended-or-unclear / none_found, plus the deciding sentence."""
     sentences = [t for t in re.split(r"(?<=。)", text) if t.strip()]
-    pos = [t for t in sentences if POS.search(t)]
-    if not pos:
+    plan = [t for t in sentences if PLAN.search(t)]
+    if not plan:
         return "none_found", ""
-    live = [t for t in pos if not NEG.search(t)]
-    return ("yes", live[0]) if live else ("none_found", pos[0])
+    pick = next((t for t in plan if re.search(r"導入|継続|更新|承認|決議|廃止", t)), plan[0])
+    return ("unknown(ended?)" if ENDED.search(text) else "yes"), pick
 
 
 def scan(n: int) -> None:
