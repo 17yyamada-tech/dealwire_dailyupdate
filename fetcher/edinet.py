@@ -12,12 +12,14 @@ Needs the repository secret EDINET_API_KEY. Standard library only, like fetch.py
 """
 import csv
 import datetime as dt
+import html
 import io
 import json
 import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 import zipfile
@@ -33,7 +35,10 @@ CODELIST = "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edine
 PDF = "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/{}.pdf"
 UA = {"User-Agent": "DealWire (contact: 17yyamada@gmail.com)"}
 KEY = os.environ.get("EDINET_API_KEY", "")
-DAYS = int(os.environ.get("EDINET_DAYS", "6"))
+DAYS = int(os.environ.get("EDINET_DAYS") or 6)
+TOB_ONLY = os.environ.get("EDINET_TOB_ONLY") == "1"   # backfill: read tender offers only, keep the stake cards as they are
+RETAIN_DAYS = 14        # a tender offer stays on the board this long after its result (or, with none, its close)
+MAX_BACKFILL = 8        # earlier documents of a running offer fetched by id per run
 CODES_MAX_AGE_DAYS = 7
 SEEN = ROOT / "docs" / "data" / "edinet_seen.json"
 MAX_NEW_DOCS = int(os.environ.get("EDINET_MAX_NEW_DOCS", "350"))   # 5% reports opened per run
@@ -195,7 +200,10 @@ def terms_of_offer(values: dict) -> dict:
     cannot stand behind is worse than no number.
     """
     t = {}
-    price = re.search(r"につき金([\d,]+)円", find(values, "買付け等の価格") or find(values, "買付価格"))
+    # the price sits in a text block: "株券普通株式１株につき　金3,683円 新株予約権証券…". The gap after
+    # につき is an ideographic space or a comma, and the same label also names the price-cut clause.
+    block = next((v for k, v in values.items() if "買付け等の価格" in k and "引下げ" not in k and "につき" in v), "")
+    price = re.search(r"につき[\s、,]*金\s*([\d,]+)\s*円", block.translate(ZEN))
     if price:
         t["price"] = price.group(1)
 
@@ -243,6 +251,54 @@ def terms_of_offer(values: dict) -> dict:
     return t
 
 
+def clean_en(name: str) -> str:
+    return re.sub(r"\s+", " ", unicodedata.normalize("NFKC", html.unescape(name or ""))).strip()
+
+
+def filer_en(rows) -> str:
+    """The filer's English name as the filing itself gives it (DEI: 提出者名（英語表記）). Often the only
+    English name there is: the FSA code list leaves it empty for most funds and vehicles."""
+    for label, value in rows:
+        if "提出者名（英語表記）" in label:
+            return clean_en(value)
+    return ""
+
+
+def terms_of_result(values: dict) -> dict:
+    """What a tender offer report (公開買付報告書) says: whether the offer succeeded, how many shares
+    came in and were bought, and the bidder's stake afterwards."""
+    t = {}
+    period = find(values, "公開買付期間")
+    span = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日.{0,12}?から(\d{4})年(\d{1,2})月(\d{1,2})日.{0,12}?まで", period)
+    if span:
+        a, b, c, d, e, f = span.groups()
+        t["opens"] = f"{a}-{int(b):02d}-{int(c):02d}"
+        t["closes"] = f"{d}-{int(e):02d}-{int(f):02d}"
+    days = re.search(r"\((\d+)営業日\)", period)
+    if days:
+        t["business_days"] = int(days.group(1))
+    verdict = find(values, "公開買付けの成否")
+    if verdict:
+        if re.search(r"以上となりました|以上でありました|以上であったため|以上となったため", verdict):
+            t["outcome"] = "success"
+        elif re.search(r"満たなかった|満たないこととなり|満たないため|行わないこととなり|買付け等を行いません", verdict):
+            t["outcome"] = "failed"
+        total = re.search(r"総数\(([\d,]+)株\)", verdict)
+        if total:
+            t["tendered"] = total.group(1)
+    counts = find(values, "買付け等を行った株券等の数")
+    m = re.search(r"株券([\d,]+)\(株\)([\d,]+)\(株\)", counts)
+    if m:
+        t["tendered"], t["bought"] = m.group(1), m.group(2)
+    for label, v in values.items():
+        if "買付け等後における株券等所有割合" in label and "テキストブロック" not in label:
+            p = pct(v)
+            if p is not None:
+                t["stake_after"] = p
+            break
+    return t
+
+
 def issuer_from_document(doc_id: str) -> str:
     """A 5% stake report names its target inside the document, not in the index. The filing
     ships a CSV of its tagged values, so pull the issuer from there. Best effort: a card
@@ -272,10 +328,11 @@ def party(codes: dict, code: str, fallback_name: str = "") -> dict:
     return {"code": code, "name": row[0] or fallback_name, "name_en": row[1], "ticker": row[2]}
 
 
-def previous_terms() -> dict:
+def previous_cards() -> dict:
+    """The cards of the last run, by id. A running tender offer is carried over from here, and a
+    document already read is not read again."""
     try:
-        old = json.loads(OUT.read_text(encoding='utf-8'))
-        return {c['id']: c['terms'] for c in old.get('cards', []) if c.get('terms')}
+        return {c["id"]: c for c in json.loads(OUT.read_text(encoding="utf-8")).get("cards", [])}
     except Exception:  # noqa: BLE001 - first run, or a file we cannot read
         return {}
 
@@ -292,16 +349,87 @@ def load_seen() -> dict:
     return {k: v for k, v in docs.items() if v.get("d", "") >= cutoff}
 
 
+def offer_card(r: dict, codes: dict, prev: dict) -> dict:
+    """A card for a tender offer filing, tender offer result or the target's response. The terms
+    are read from the filing's own CSV once; a card that already has them keeps them."""
+    kind, label_en = KINDS[r["docTypeCode"]]
+    doc_id, desc = r["docID"], r.get("docDescription") or ""
+    buyer_name = r.get("filerName") or ""
+    old = prev.get(doc_id)
+    terms, en = {}, ""
+    done = old and old.get("terms") and (old["terms"].get("price") or kind != "tob") \
+        and (kind != "tob_result" or old["terms"].get("outcome"))
+    if done:
+        terms, en = old["terms"], old["buyer"].get("name_en", "")
+    elif kind in ("tob", "tob_result"):
+        try:
+            values = csv_values(doc_id)
+            terms = terms_of_offer(values) if kind == "tob" else terms_of_result(values)
+            en = filer_en(values.items())
+        except Exception as e:  # noqa: BLE001 - the card is worth having without them
+            print(f"      terms lookup failed for {doc_id}: {str(e)[:90]}")
+        time.sleep(PAUSE_S)
+    buyer = party(codes, r.get("edinetCode"), buyer_name)
+    if not buyer["name_en"] and en:
+        buyer["name_en"] = en
+    return {
+        "id": doc_id,
+        "filed": (r.get("submitDateTime") or "").replace(" ", "T") + "+09:00",
+        "kind": kind,
+        "type_ja": desc,
+        "type_en": label_en + (" (amended)" if desc.startswith("訂正") else ""),
+        "buyer": buyer,
+        "target": party(codes, r.get("subjectEdinetCode") or ""),
+        "sponsor": is_sponsor(buyer_name),
+        "parent": r.get("parentDocID") or "",
+        "terms": terms,
+        "link": PDF.format(doc_id),
+        "filings": 1,
+    }
+
+
+def keep_offers(offers: list, today: dt.date) -> list:
+    """Tender offer documents are grouped by case (a document and its parent are the same case)
+    and a case stays while it is running or for RETAIN_DAYS after its result (or, with no
+    result, its close). The board shows one case once, so its history must not be pushed out."""
+    uf = {}
+
+    def root(x):
+        while uf.setdefault(x, x) != x:
+            uf[x] = uf[uf[x]]
+            x = uf[x]
+        return x
+
+    for c in offers:
+        if c["parent"]:
+            uf[root(c["id"])] = root(c["parent"])
+        else:
+            root(c["id"])
+    cases = {}
+    for c in offers:
+        cases.setdefault(root(c["id"]), []).append(c)
+    cutoff = (today - dt.timedelta(days=RETAIN_DAYS)).isoformat()
+    out = []
+    for docs in cases.values():
+        results = [c["filed"][:10] for c in docs if c["kind"] == "tob_result"]
+        closes = [c["terms"].get("closes", "") for c in docs]
+        ref = max(results) if results else (max(closes) or max(c["filed"][:10] for c in docs))
+        if ref >= cutoff:
+            out.extend(docs)
+    return out
+
+
 def main() -> int:
     if not KEY:
         print("EDINET_API_KEY is not set; nothing written")
         return 1
     codes = load_codes()["codes"]
-    known = previous_terms()
+    prev = previous_cards()
     seen = load_seen()
     opened = waiting = 0
     today = dt.date.today()
-    cards, days_ok = [], 0
+    cards, offers, days_ok = [], [], 0
+    index = {}      # day -> that day's index rows, for finding an earlier document by id
     for back in range(DAYS):
         day = today - dt.timedelta(days=back)
         try:
@@ -310,7 +438,7 @@ def main() -> int:
             print(f"  {day}  ERROR {str(e)[:120]}")
             continue
         days_ok += 1
-        rows = res.get("results") or []
+        rows = index[day.isoformat()] = res.get("results") or []
         kept = 0
         for r in rows:
             kind_label = KINDS.get(r.get("docTypeCode") or "")
@@ -319,46 +447,55 @@ def main() -> int:
             kind, label_en = kind_label
             if r.get("withdrawalStatus") != "0" or r.get("disclosureStatus") != "0":
                 continue
+            if kind != "stake":
+                offers.append(offer_card(r, codes, prev))
+                kept += 1
+                continue
+            if TOB_ONLY:
+                continue
             buyer_name = r.get("filerName") or ""
             sponsor = is_sponsor(buyer_name)
             doc_id = r.get("docID")
             desc = r.get("docDescription") or ""
             target = party(codes, r.get("subjectEdinetCode") or "")
-            terms = known.get(doc_id, {})
-            if kind == "stake":
-                # Kept when the filer is a house we know, or when the filing itself says it may
-                # make proposals: that catches activists nobody has put on the list yet.
-                doc = seen.get(doc_id)
-                if doc is None:
-                    if opened >= MAX_NEW_DOCS:
-                        waiting += 1          # the next run picks these up
+            # Kept when the filer is a house we know, or when the filing itself says it may
+            # make proposals: that catches activists nobody has put on the list yet.
+            doc = seen.get(doc_id)
+            if doc is None or (doc["keep"] and "b" not in doc):
+                if opened >= MAX_NEW_DOCS:
+                    waiting += 1          # the next run picks these up
+                    if doc is None:
                         continue
+                else:
                     try:
-                        t, issuer = stake_details(csv_rows(doc_id))
+                        rows5 = csv_rows(doc_id)
+                        t, issuer = stake_details(rows5)
                     except Exception as e:  # noqa: BLE001 - not remembered, so retried next run
                         print(f"      stake lookup failed for {doc_id}: {str(e)[:90]}")
-                        continue
-                    opened += 1
-                    time.sleep(PAUSE_S)
-                    doc = seen[doc_id] = {"d": day.isoformat(), "keep": bool(sponsor or t.get("proposal")), "t": t, "i": issuer}
-                if not doc["keep"]:
-                    continue
-                terms = doc["t"]
-                if not target["name"] and doc.get("i"):
-                    hit = next((c for c, v in codes.items() if v[0] == doc["i"]), "")
-                    target = party(codes, hit, doc["i"])
-            elif kind in ("tob", "tob_result") and not terms:
-                try:
-                    terms = terms_of_offer(csv_values(doc_id))
-                except Exception as e:  # noqa: BLE001 - the card is worth having without them
-                    print(f"      terms lookup failed for {doc_id}: {str(e)[:90]}")
+                        if doc is None:
+                            continue
+                    else:
+                        opened += 1
+                        time.sleep(PAUSE_S)
+                        if doc is None:
+                            doc = seen[doc_id] = {"d": day.isoformat(), "keep": bool(sponsor or t.get("proposal")), "t": t, "i": issuer}
+                        doc["b"] = filer_en(rows5)       # the filer's English name, as the filing gives it
+            if not doc["keep"]:
+                continue
+            terms = doc["t"]
+            if not target["name"] and doc.get("i"):
+                hit = next((c for c, v in codes.items() if v[0] == doc["i"]), "")
+                target = party(codes, hit, doc["i"])
+            buyer = party(codes, r.get("edinetCode"), buyer_name)
+            if not buyer["name_en"] and doc.get("b"):
+                buyer["name_en"] = doc["b"]
             cards.append({
                 "id": doc_id,
                 "filed": (r.get("submitDateTime") or "").replace(" ", "T") + "+09:00",
                 "kind": kind,
                 "type_ja": desc,
                 "type_en": label_en + (" (amended)" if desc.startswith("訂正") else ""),
-                "buyer": party(codes, r.get("edinetCode"), buyer_name),
+                "buyer": buyer,
                 "target": target,
                 "sponsor": sponsor,
                 "parent": r.get("parentDocID") or "",
@@ -373,28 +510,61 @@ def main() -> int:
         return 1
     SEEN.write_text(json.dumps({"docs": seen}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"5% reports: opened {opened} new, {waiting} left for the next run, {len(seen)} remembered")
+
+    # One stake campaign files repeatedly (a stake plus its changes): keep the newest filing per
+    # holder/company and say how many there were. Tender offers are not merged: their documents
+    # are the history the page shows (original, amendments, result).
     cards.sort(key=lambda c: c["filed"], reverse=True)
-    # One campaign files repeatedly: an offer plus its amendments, a stake plus its changes.
-    # Keep the newest filing per buyer/target/kind and say how many there were.
-    merged, seen = [], {}
+    merged, firsts = [], {}
     for c in cards:
         k = (c["buyer"]["code"], c["target"]["code"] or c["target"]["name"], c["kind"])
-        if k in seen:
-            seen[k]["filings"] += 1
-            if not seen[k]["terms"] and c["terms"]:
-                seen[k]["terms"] = c["terms"]
+        if k in firsts:
+            firsts[k]["filings"] += 1
+            if not firsts[k]["terms"] and c["terms"]:
+                firsts[k]["terms"] = c["terms"]
             continue
         c["filings"] = 1
-        seen[k] = c
+        firsts[k] = c
         merged.append(c)
     cards = merged
+    if TOB_ONLY:
+        cards = [c for c in prev.values() if c["kind"] == "stake"]
+
+    # Running offers outlive the few days this run looks at: carry them over, then fetch the
+    # earlier documents of a case (the original behind an amendment) that the index no longer shows.
+    have = {c["id"] for c in offers}
+    offers += [c for c in prev.values() if c["kind"] != "stake" and c["id"] not in have]
+    have = {c["id"] for c in offers}
+    fetched = 0
+    for c in list(offers):
+        pid = c["parent"]
+        if not pid or pid in have or fetched >= MAX_BACKFILL:
+            continue
+        fetched += 1
+        have.add(pid)
+        try:
+            values = csv_values(pid)
+            day = find(values, "提出日、表紙")[:10]
+            if day not in index:
+                index[day] = api("documents.json", date=day, type=2).get("results") or []
+            row = next((r for r in index[day] if r.get("docID") == pid and KINDS.get(r.get("docTypeCode") or "")), None)
+            if row and row.get("withdrawalStatus") == "0":
+                offers.append(offer_card(row, codes, prev))
+                print(f"      fetched earlier document {pid} ({day})")
+        except Exception as e:  # noqa: BLE001 - history is a bonus
+            print(f"      earlier document {pid} not fetched: {str(e)[:90]}")
+    offers = keep_offers(offers, today)
+    cards = cards + offers
+    cards.sort(key=lambda c: c["filed"], reverse=True)
     OUT.write_text(json.dumps({"updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                                "cards": cards}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     by_kind = {}
     for c in cards:
         by_kind[c["kind"]] = by_kind.get(c["kind"], 0) + 1
     priced = sum(1 for c in cards if c["terms"].get("price"))
-    print(f"wrote {len(cards)} cards over {days_ok} days: {by_kind} | with an offer price: {priced}")
+    outcomes = sum(1 for c in cards if c["terms"].get("outcome"))
+    english = sum(1 for c in cards if c["buyer"].get("name_en"))
+    print(f"wrote {len(cards)} cards over {days_ok} days: {by_kind} | offer price {priced}, result outcome {outcomes}, filer English name {english}")
     return 0
 
 

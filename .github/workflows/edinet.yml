@@ -4,7 +4,14 @@ name: fetch-edinet
 on:
   schedule:
     - cron: "5 1,4,7,10 * * 1-5"   # 10:05, 13:05, 16:05, 19:05 JST on weekdays
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      days:
+        description: days of the index to read (default 6; a long value backfills tender offers)
+        default: ""
+      tob_only:
+        description: "1 = read tender offers only and leave the stake cards as they are"
+        default: ""
 permissions:
   contents: write
 concurrency:
@@ -22,6 +29,8 @@ jobs:
       - name: Fetch EDINET filings
         env:
           EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+          EDINET_DAYS: ${{ inputs.days }}
+          EDINET_TOB_ONLY: ${{ inputs.tob_only }}
         run: python fetcher/edinet.py
       - name: Commit data
         run: |
