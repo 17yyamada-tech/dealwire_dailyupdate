@@ -61,29 +61,32 @@ def main() -> int:
             print("  ERROR", str(e)[:160])
             continue
         print(f"  {len(rows)} rows; header: {rows[0][:9]}")
-        print("  -- distinct context ids (first 40):", sorted({r[2] for r in rows[1:] if len(r) > 8})[:40])
-        print("  -- money elements (value non-empty, short contexts only)")
+        print("  -- money elements (plain Current/Prior1 year contexts only)")
         for r in rows[1:]:
-            if len(r) < 9 or not MONEY.search(r[0]):
+            if len(r) < 9 or not MONEY.search(r[0]) or r[2] not in ("CurrentYearDuration", "Prior1YearDuration"):
                 continue
-            if "_" in r[2] and "Member" in r[2]:
-                continue                       # segment breakdowns
-            if r[8].strip() in ("", "－", "-"):
+            if r[8].strip() in ("", "－", "-") or "TextBlock" in r[0]:
                 continue
-            print(f"     {r[0][:70]:<70} | {r[1][:24]:<24} | {r[2][:34]:<34} | {r[3]} | {r[4]} | {r[5]} | {r[6]} | {r[8][:20]}")
-        print("  -- holders")
-        n = 0
+            print(f"     {r[0][:78]:<78} | {r[2][:6]} | {r[4]} | {r[6]} | {r[8][:16]}")
+        print("  -- everything tagged for the No1 and No2 major shareholder")
         for r in rows[1:]:
-            if len(r) >= 9 and HOLDERS.search(r[0]) and r[8].strip() and n < 40:
-                print(f"     {r[0][:62]:<62} | {r[1][:20]:<20} | {r[2][:40]:<40} | {r[8][:40]}")
-                n += 1
-        print("  -- text blocks about control / defence")
+            if len(r) >= 9 and re.search(r"No[12]MajorShareholdersMember", r[2]):
+                print(f"     {r[0][:70]:<70} | {r[1][:30]:<30} | {r[2][:44]:<44} | {r[8][:40]}")
+        nums = [int(m.group(1)) for r in rows[1:] if len(r) > 2 for m in [re.search(r"No(\d+)MajorShareholdersMember", r[2])] if m]
+        print(f"  -- highest major shareholder number: {max(nums or [0])}; plain instant contexts: "
+              f"{sorted({r[2] for r in rows[1:] if len(r) > 2 and r[2].startswith('CurrentYearInstant') and '_' not in r[2]})}")
+        print("  -- rows whose VALUE mentions control / defence wording")
+        shown = 0
         for r in rows[1:]:
-            if len(r) >= 9 and (DEFENSE.search(r[1]) or DEFENSE.search(r[0])):
+            if len(r) >= 9 and len(r[8]) > 60 and DEFENSE.search(r[8]):
                 v = r[8]
                 hits = sorted(set(DEFENSE.findall(v)))
-                print(f"     {r[0][:70]} | {r[1][:30]} | {r[2][:24]} | len {len(v)} | hits {hits}")
-                print(f"        {v[:240]!r}")
+                i = DEFENSE.search(v).start()
+                print(f"     {r[0][:80]} | {r[1][:34]} | {r[2][:24]} | len {len(v)} | hits {hits}")
+                print(f"        ...{v[max(0, i - 40):i + 160]!r}")
+                shown += 1
+                if shown >= 8:
+                    break
     return 0
 
 
