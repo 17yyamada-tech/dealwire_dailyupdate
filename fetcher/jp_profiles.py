@@ -45,8 +45,11 @@ REVENUE = ["jppfs_cor:NetSales", "jpigp_cor:RevenueIFRS", "jpigp_cor:Revenue2IFR
            "jppfs_cor:OperatingRevenue2", "jppfs_cor:OrdinaryIncomeBNK", "jppfs_cor:OrdinaryIncomeINS",
            "jppfs_cor:OperatingRevenueSEC", "jpcrp_cor:NetSalesSummaryOfBusinessResults",
            "jpcrp_cor:RevenueIFRSSummaryOfBusinessResults", "jpcrp_cor:OperatingRevenue1SummaryOfBusinessResults",
-           "jpcrp_cor:OrdinaryIncomeBNKSummaryOfBusinessResults", "jpcrp_cor:OrdinaryIncomeINSSummaryOfBusinessResults"]
-REVENUE_RE = re.compile(r"^(NetSales|Revenues?\d?|OperatingRevenues?\d?|SalesRevenues?|TotalNetRevenues?|NetRevenues?)"
+           "jpcrp_cor:RevenuesUSGAAPSummaryOfBusinessResults", "jpcrp_cor:OrdinaryIncomeBNKSummaryOfBusinessResults",
+           "jpcrp_cor:OrdinaryIncomeINSSummaryOfBusinessResults"]
+# last resort: the ordinary income (経常収益) line that insurers and banks report in the summary table
+REVENUE_LAST = ["jpcrp_cor:OrdinaryIncomeSummaryOfBusinessResults"]
+REVENUE_RE = re.compile(r"^(NetSales|InsuranceRevenue|Revenues?\d?|OperatingRevenues?\d?|SalesRevenues?|TotalNetRevenues?|NetRevenues?)"
                         r"(IFRS|USGAAP)?(SummaryOfBusinessResults|KeyFinancialData)?$")
 OPERATING = ["jppfs_cor:OperatingIncome", "jpigp_cor:OperatingProfitLossIFRS"]
 NET = ["jppfs_cor:ProfitLossAttributableToOwnersOfParent", "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
@@ -88,7 +91,7 @@ def num(s: str):
     return float(t) if re.fullmatch(r"-?\d+(\.\d+)?", t) else None
 
 
-def measure(rows, names, fuzzy, end):
+def measure(rows, names, fuzzy, end, last=()):
     cur, prev, basis = {}, {}, {}
     for r in rows:
         slot = cur if r[2] == "CurrentYearDuration" else prev if r[2] == "Prior1YearDuration" else None
@@ -103,6 +106,8 @@ def measure(rows, names, fuzzy, end):
     eid = next((n for n in names if n in cur), None)
     if not eid and fuzzy:
         eid = next((k for k in cur if fuzzy.match(k.split(":")[-1])), None)
+    if not eid:
+        eid = next((n for n in last if n in cur), None)
     if not eid:
         return None
     series = [{"end": end, "val": int(cur[eid])}]
@@ -162,7 +167,7 @@ def build(tk: str, hit: dict, sector: str) -> dict:
                     and "TextBlock" not in r[0] and r[0] not in seen:
                 seen.add(r[0])
                 print(f"      {tk} {r[0][:80]:<80} {r[4]} {r[8][:16]}")
-    rev = measure(rows, REVENUE, REVENUE_RE, end)
+    rev = measure(rows, REVENUE, REVENUE_RE, end, REVENUE_LAST)
     op = measure(rows, OPERATING, None, end)
     ni = measure(rows, NET, None, end)
     fin = None
