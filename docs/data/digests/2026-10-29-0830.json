@@ -1,0 +1,344 @@
+{
+  "edition": "2026-10-29-0830",
+  "edition_label": "29 Oct 2026 · 08:30 SGT",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T00:38:06Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Trian-led group proposes to take Wendy's private for $1.4bn, at $7.35 a share",
+      "summary": "Wendy's confirmed it received an unsolicited, non-binding take-private proposal from a group led by Trian Fund Management — already its top shareholder — together with franchise operator Flynn Group, BlueFive Capital and Sixth Street. The consortium is offering $7.35 a share in cash, valuing the deal at about $1.4bn. Wendy's shares jumped sharply on the news.",
+      "why_it_matters": "A buyout led by the company's own largest shareholder and a major franchisee would test how much value is left to unlock once the struggling chain is freed from public-market scrutiny. It also puts Wendy's board in an awkward spot, since the bidders already control the company's biggest stake and some of its restaurant economics.",
+      "summary_ja": "ウェンディーズは、筆頭株主であるトライアン・ファンド・マネジメントが主導し、フランチャイジーのフリン・グループ、ブルーファイブ・キャピタル、シックスス・ストリートが加わるグループから、非拘束的な非公開化提案を受領したことを確認した。提案は1株7.35ドルの現金買収で、総額は約14億ドルとなる。発表を受け、ウェンディーズ株は急騰した。",
+      "why_it_matters_ja": "筆頭株主自らが主要フランチャイジーとともに主導する非公開化案は、上場による圧力から離れた後に低迷するバーガーチェーンにどれだけの価値余地が残るかを試す試金石となる。買収側がすでに筆頭株主としての地位と店舗事業の一部を握っていることも、取締役会にとって難しい判断を迫る要因となる。",
+      "status": "new",
+      "prev": null,
+      "key": "wendys-trian-takeprivate-proposal",
+      "ids": [
+        "b8ec9aaf931090",
+        "1a137b03400e02",
+        "7ce6eb52aaf3ca"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/the-wendys-company-confirms-receipt-of-unsolicited-proposal-from-trian-partners-302922593.html"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2TkI5R0NWYlRWV3REMG9aVmtrcFhxYngxakkxM2hIM0tacndQY0ZNVVB5bFc5SW9NbHBxUHVyUkJSRng3aGRFOUpqSV95M1MzNTlxWWtHRGt4dkx5cWlzcEk1cm13bXVsZl9uVG0wS2JRS3JV?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPZmQ4bnRfV0g3OVNSUzZYSlhiZ2RZYUhxQklWaVVhSGhSczFVS1lFanZJVUxqTVFwRTRaNV9IaVctem1iX2hSMmxwZkJESjBuSlhwcGRubnhUc2Y3U0w4S2VsY3d5TmQzaUtSTlBYS19MZmlHMk1KVHYzUnVQZzc3QmswZTdVV2c2S1c2YVE5RFg1WTl0TmcxTERwalNQbEx2d192Z2l6dVVmblppakRweEU0ay1sYjdUaWdVcDE5bFpLWTBmdUw1U3B0djU3cTYtTTJXamtWRzRvYnBEVDJVTzhzdWZEYkxvRzVtbEZNcC13Tmc0a2lrZHUzYXRncFQzV0ZJQUNCVjY2Vkc3LThqa3NmdHBWbGs2Z0VlbDNvTVlqenlJdFFrQjVB?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "GE Vernova to acquire major transmission-equipment maker Trench for $9bn",
+      "summary": "GE Vernova is moving to acquire a major transmission-equipment maker, reported as Trench, for about $9bn, as it seeks to capture rising power demand from AI data centres. GE Vernova shares fell even after a strong earnings report, as investors weighed the cost of the deal.",
+      "why_it_matters": "Grid hardware is becoming as contested a battleground as chips in the AI build-out, and a $9bn outlay shows how much power-equipment makers can now charge for the capacity utilities need to connect new data centres. The market's wary reaction also suggests investors are starting to question how much AI-driven capital spending they are willing to underwrite.",
+      "summary_ja": "GEベルノバは、AIデータセンター向けの電力需要拡大を取り込むため、大手送電機器メーカー（トレンチと報じられている）を約90億ドルで買収する方向で動いている。好調な決算を発表したにもかかわらず、買収コストを懸念した売りでGEベルノバ株は下落した。",
+      "why_it_matters_ja": "AI拡大競争において送電設備もチップと並ぶ争奪の対象になりつつあり、90億ドルという買収額は、新設データセンターを系統に接続するために電力設備メーカーがいまどれほどの対価を要求できるかを示している。市場の慎重な反応は、投資家がAI関連の資本支出をどこまで受け入れるかを見極め始めていることもうかがわせる。",
+      "status": "new",
+      "prev": null,
+      "key": "ge-vernova-trench-acquisition",
+      "ids": [
+        "9b9a785d18d5f4",
+        "58641b45880509"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeFMzNUlSRWNFM1dubXZTNmJNZ19sQ0NuREtQeE9NMHVnVXl1eXRPSjFkM3VsZWlDUXdzUVRkY04zTmprUWJTWWRXNE9xZXJmWFFPN0lkbWZELVhhTkw3N3NJOEI2Ym12bnFsSndlNWxWRG1qMXI4a3daUUxYSHc4bnZiMU5fQjNtUlh6bGxB?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR2xUM2I3bm9qMG56a2dXX0NTVzQ1allyS1lvMjM2dUpyY3EwVVViek1vXzd2NGNZNUFDdllFY3pLZF9Ka1FpX3N5d3JhVHJNdnM4dFVzLVRvdWxCS24wSDA2QWdTWHFWajBteTZuNFR4cFpqaWctM2UydG02cVgycDVSd3k4MDA?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Marvell reported in final talks to acquire optical-component maker Lumentum in large AI deal",
+      "summary": "Marvell is said to be in final-stage talks to acquire Lumentum, an optical device maker, in what is being reported as a large M&A deal tied to AI optical communications. Lumentum shares surged in after-hours trading following the report.",
+      "why_it_matters": "Buying an optical-components maker would give the chipmaker a direct line into the high-speed interconnects AI data centres need, at a moment when optical supply is a bottleneck for AI infrastructure buildouts. It would also rank among the largest deals yet in AI-linked optical networking, a sign that chipmakers see as much value in owning the pipes as the processors.",
+      "summary_ja": "マーベル・テクノロジーは、光学部品メーカーのルメンタムの買収に向けて最終局面の協議に入っていると報じられた。AI向け光通信分野での大型M&Aと位置づけられている。報道を受け、ルメンタム株は時間外取引で急騰した。",
+      "why_it_matters_ja": "光部品メーカーを取り込めば、AIデータセンターが必要とする高速インターコネクトへの直接的なアクセスを半導体大手が得ることになり、AI基盤拡張の制約要因となっている光部品の供給力確保という点で意味を持つ。実現すればAI関連の光通信分野で最大級の買収となり、半導体企業がプロセッサーだけでなく伝送インフラにも価値を見いだしていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "marvell-lumentum-acquisition-talks",
+      "ids": [
+        "729a2ae4876023",
+        "9bcb40263f0df8",
+        "7a3ace2f66147c"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45UklmSTR2UmQ0QlBQR0FnTGpkU3ZySHVmV3NzU04xSE5yWm9UREwwMXJSN2gtQlhkVlhOQk1qODcxQmlWQUVyLVZZVjBvREFBV05rc0htRnRGSXVfUF9fS3RFZ01ib0luWjJEb212U2NnbEF2?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iemp6cnZYUVFpdC1ReTg0c29MVEFLU3pwX2VjVmtiTEFEcXZwQVQtOU45YWRvWXRLd25FTXlnYU91Y0p2UW5OUmNsVS12b1VPdzNpX3RmOWhNN2k2Um5qVXRIWU0tdThKOUFVdkYyXzc?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zcU9BS3FrNFllQjcyZmZBODRMY2VWbzFMNTlGWGE4QVMxY3I0WEtEcUowUURYY19ZdlAzYWJobzRlVE5DRWJkdmF0MFZuelVfbFRIcXJmVTRJMjQxRVlGYUhxaTJqSjNsNFRLNlJ0QlI1elo1bW0w?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Patrick Industries reaffirms all-stock merger with LCI Industries after rival $101-a-share bid surfaces",
+      "summary": "Patrick Industries reaffirmed its agreement to combine with LCI Industries in an all-stock merger to form a components supplier for the outdoor and recreation industries. The reaffirmation came after reports that LCI had received a rival buyout proposal at $101 a share, which sent LCI shares sharply higher.",
+      "why_it_matters": "A competing cash bid surfacing after a signed stock merger puts pressure on LCI's board to show its own deal still offers the better value, and is a reminder that even agreed mergers can face late challenges. Patrick's quick reaffirmation suggests it is confident shareholders will still back the stock deal over a cash alternative.",
+      "summary_ja": "パトリック・インダストリーズは、LCIインダストリーズとの株式交換による統合契約を改めて確認し、アウトドア・レクリエーション業界向けの部品サプライヤーを形成する計画を維持した。この確認は、LCIが1株101ドルでの対抗買収提案を受けたとの報道を受けてのもので、LCI株は急伸した。",
+      "why_it_matters_ja": "合意済みの株式交換型合併の後に現金での対抗提案が出てきたことで、LCIの取締役会は自社案がより有利であることを示す圧力にさらされており、合意済みの合併でも後から異議を突きつけられる可能性があることを改めて示している。パトリックが即座に契約を再確認したことは、株主が現金による対抗提案よりも株式交換案を支持すると同社が自信を持っていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "patrick-lci-industries-merger-reaffirmed",
+      "ids": [
+        "66a142feeb771d",
+        "423d93da9361be",
+        "f2aaf97195954d"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/patrick-industries-inc-reaffirms-merger-agreement-with-lci-industries-302921983.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abG5DRDFtSEhjVDVJaWJ4c2ViR0s2aUpQdXpGYkdNeHIySWwwcDhYbzZMRFpoNDZ1VmRmdGJIT1NORDBpNzZDX0pOa0xLb0ZqOHpmVU9RbVFIc2VCZHQ1V2ctOVlWQnQ2LTZOTThPaG0?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE44dUpKVUhWVU95MmVCb1ZQWU5PS3J5ZVp0empUNG03NEZySEE1eEJuUC15VDRNOTVBN3R3eFk5TlJhYWNELUpCV3dLaE9kcHM2SC1nS1F6NXBrcXJUektZZDZvOXNFMUJJZG5QRHlldmtXZk8wbXo4?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Mirae Asset Securities names its Japan target: ¥5bn deal for Sanko Securities",
+      "summary": "Mirae Asset Securities is acquiring Japan's mid-tier Sanko Securities for about ¥5bn, marking its entry into the Japanese market. The target was identified a day after reports that Mirae Asset's board was set to vote on a Japanese securities acquisition.",
+      "why_it_matters": "The deal gives the South Korean broker a licensed on-the-ground platform in Japan, a market several foreign players have been circling as domestic securities firms consolidate. The speed from board-level talk to a named target also shows how quickly a cross-border entry plan can turn into an actual deal.",
+      "summary_ja": "未来アセット証券は、日本の中堅証券会社である三晃証券（サンコー証券）を約50億円で買収し、日本市場に参入する。同社の取締役会が買収を審議するとの報道からわずか1日後に、買収先の社名が明らかになった。",
+      "why_it_matters_ja": "この買収により、韓国の証券大手は日本で免許を持つ現地プラットフォームを獲得する。国内証券会社の統合が進むなか、複数の海外勢が日本市場への参入機会をうかがってきた。取締役会での検討から買収先の確定までの速さは、海外勢の参入計画が実際の案件へと短期間で進む様子を示している。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-28-1230",
+        "index": 5
+      },
+      "key": "mirae-asset-japan-securities-acquisition",
+      "ids": [
+        "6a8cbcde2e9037",
+        "b21bf3ed7299f0"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMHE0MWsway1pY1Q4NVlscjhlR1ROQ2Q5ZmgwRmdMMllnbVhfd2d3UjllTzV1aVl1TXJ1Yk5acUFkQS1KVFJpRHZsQzNVTVludnZSV1AzanFPLW5FS3J5bTNYeVdRUk1lT29VYXdWUTF3ejRjRlQ0YVJJenl4cnpVV9IBlAFBVV95cUxOU256QmlhYkJMYjhlSkZybjZ5ckJCMVh3dndwVUZubEpJOXpPcXhqRGxHUVQ3TU1lOWxRV3RTUHNFb0cwOUFQY2VqUGFMbWpsY2hFQjdlRnFqRmdtQ0NwTXNVWlFNZy03LXV0WmJNOWVMcFVwczJLVWJOMnVyMml5VEMtX3dhbk1xQ0tCWmwzenY4QzF5?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWGlWSG4tQ1ItVDVQbUx5Y0g0ZE5Ka0xyRk1BZ0ZVdy1sZkpidGFhcUdlRG1CcHU0dWRBZnNPZHV3YTE1TDZjOFB4NElVaGFHekR2aHBGOGNqdUxXYmtkZUs1N1liX0g0MEJSTVZfX09wQy15dEIzV045QTR6YVpBcQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Advantage Partners lifts rival Kadoya Seiyu bid to as much as ¥3,000 a share",
+      "summary": "Advantage Partners raised its competing tender offer for sesame-oil maker Kadoya Seiyu to as much as ¥3,000 a share, intensifying the bidding war that broke out while a rival tender offer was already under way.",
+      "why_it_matters": "A rising counter-bid in a contested Japanese tender offer shows how activist and sponsor-led bidding wars, once rare in Japan, are now pushing take-private prices higher. It also leaves Kadoya's board and shareholders to weigh a richer but still-evolving offer against the certainty of the rival bid already on the table.",
+      "summary_ja": "アドバンテッジパートナーズは、ごま油メーカーのかどや製油に対する対抗TOBの価格を最大1株3000円まで引き上げた。既に進行中だったTOBに対抗提案を出したことで、争奪戦が激化している。",
+      "why_it_matters_ja": "日本では珍しかったアクティビストやファンド主導の対抗TOBによる争奪戦が、非公開化の提示価格を押し上げる構図が広がっていることを示している。かどやの取締役会と株主は、まだ条件が流動的な高値提案と、既に確定している対抗提案のどちらを取るか判断を迫られる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-28-0830",
+        "index": 7
+      },
+      "key": "advantage-kadoya-seiyu-bidding-war",
+      "ids": [
+        "85243421dd4081",
+        "d1a7c57ffc5bb4"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92RXNicVJrN2tTNzFzY0NvSFk1NWV6Q0ViVFJqRVBaa2tFaU5fSkRYbkZOWlluM3V6cWdpUWNMX0g0V0s3M2g0cGtlMEpSeF9RYkgyZUpyMG9uSzFaYm9ZSzMzMmZRUzVoV1o2Ug?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80SUZpU21XRHJPMlA4Q0tTM3VWbUM0d19peHN5Y3RncDlGUHFPZS1ZekZyT1FibENDSGRRa2RiUEVsbXRQQ29fS1V5b2xUd0pEd1BGMFEwNnh5V1N2eGxFTmNIYjNQWEV5VldnWEFkcEVYOXVQMGl3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Shimamura makes its first-ever acquisition, buying clothing stores from Summit",
+      "summary": "Japan's Shimamura has broken with its long-standing avoidance of M&A, agreeing to acquire clothing stores from Summit. The deal marks the retailer's first-ever acquisition.",
+      "why_it_matters": "A famously M&A-averse company turning to acquisitions for the first time signals mounting competitive pressure in Japanese retail, and could open the door to further consolidation moves by Shimamura. Investors will watch whether this is a one-off or the start of a broader shift away from the organic-growth strategy the chain has long favoured.",
+      "summary_ja": "しまむらは、これまで長らく封印してきたM&Aに踏み出し、サミットから衣料品店を買収することで合意した。同社にとって初めての買収となる。",
+      "why_it_matters_ja": "M&Aを避けてきたとされる企業が初めて買収に動いたことは、日本の小売業界で競争圧力が強まっていることを示し、しまむらによるさらなる業界再編の動きにつながる可能性がある。これが一度限りの動きなのか、長年貫いてきた自前成長路線からの転換の始まりなのか、投資家は見極めを迫られる。",
+      "status": "new",
+      "prev": null,
+      "key": "shimamura-summit-clothing-acquisition",
+      "ids": [
+        "1e4a03003e6016"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mQmJqam5IS0lEV2prdF9ISG1NcGFJRlpEdXUxRGdKck9NWlJHM0pBMXRoZWVROXAxeVlzUmh4VHpzY1ZuOEtUWWhFYTRCS3pBXzlUVFRNRS01bFVFY01GaldWckM0NUE?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Septeni Holdings to acquire Media House Holdings for about ¥10.8bn",
+      "summary": "Septeni Holdings agreed to make Media House Holdings a subsidiary for about ¥10.8bn, a deal aimed at strengthening its HR marketing business.",
+      "why_it_matters": "The deal adds scale to Septeni's HR marketing operations at a time when Japanese companies are spending more to recruit and retain staff amid a tightening labour market. It fits a broader pattern of Japanese TMT groups bolting on marketing-services businesses to diversify beyond advertising.",
+      "summary_ja": "セプテーニ・ホールディングスは、メディアハウス・ホールディングスを約108億円で子会社化することで合意した。HRマーケティング領域の強化を狙う。",
+      "why_it_matters_ja": "労働市場が引き締まるなか、日本企業が採用・人材維持への支出を増やしているタイミングでのHRマーケティング事業の規模拡大となる。広告事業にとどまらず事業領域を広げようとする日本のTMT企業によるマーケティング関連企業の取り込みという、より大きな流れにも合致する。",
+      "status": "new",
+      "prev": null,
+      "key": "septeni-mediahouse-acquisition",
+      "ids": [
+        "745e498adf2897"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WTWNQOGw2X1ZlX2l1aVRQa3dNbjZFRlotbUtueV9aalU4YXE0T0JIcWg2d0czaDVBWnlzVGhBYmxsZmJjMXJDNGExajZlSUpzSW1oNWtuQU9GOW9vaXFJSEM3dUZpNGZ2OGc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Nvidia's $12.9bn Hugging Face acquisition faces US antitrust review, sources say",
+      "summary": "Nvidia's $12.9bn acquisition of AI platform Hugging Face is facing a competitive-impact review from the US Department of Justice, according to people familiar with the matter.",
+      "why_it_matters": "A Justice Department competitive-impact review of a major AI-infrastructure deal shows how closely regulators are now watching consolidation among dominant AI platform players. The outcome could set a marker for how much latitude US antitrust enforcers give chipmakers buying up the software and model-hosting layer around them.",
+      "summary_ja": "米半導体大手エヌビディアによるAIプラットフォーム、ハギングフェイスの129億ドル買収について、米司法省が競争上の影響を審査していると関係者が明らかにした。",
+      "why_it_matters_ja": "大型のAI基盤関連買収に対して司法省が競争影響審査に入ったことは、支配的なAIプラットフォーム企業間の統合を米当局がこれまで以上に注視していることを示している。審査の結論は、半導体企業が自社を取り巻くソフトウェアやモデル提供基盤を買収する動きに米当局がどこまで裁量を認めるかの目安となりうる。",
+      "status": "new",
+      "prev": null,
+      "key": "nvidia-huggingface-doj-antitrust-review",
+      "ids": [
+        "6c7f2f2c235e2a",
+        "7bcbb884d84359"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrdVRTOHhpQUpVVFg1ajB3U1NDd2dxTmdSNEVTcnZERERKVG13SzYzZjdYRDA2Y1Y2cWF4UGFrOGRtZ2Z4U29jTzRSNWViZ0FndzRlVHpCTUJhTk5YUTJ6c2lORzRIcnFZeTEzcVEwWWs?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WTi1IMXV0ZHJMdHExeU5EVHVlWWc0TXcwSWUyX0VobDZDN1NBWmpwTXpBek1CZ3BOS3d5eXhVaWlXc2dMOTMtanFnWFJuZFBDVW5ZTUFDcEVpOV9fUkIxS0k0S2lPbVN5UFRqLWluWnpPLV8zam8zR3BvSkRLaFk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Hong Kong-listed Metasurface raises S$9.72m ahead of SGX Catalist dual listing",
+      "summary": "Precision engineering firm Metasurface, already listed in Hong Kong, priced a S$9.72m share placement at S$0.54 apiece ahead of a planned dual listing on the SGX Catalist board, targeting a Nov 4 debut.",
+      "why_it_matters": "The placement is a small but concrete sign of continued cross-border listing traffic between Hong Kong and Singapore, as issuers look to widen their investor base and liquidity. It also underscores Catalist's continuing role as a secondary-listing venue for smaller regional industrial issuers.",
+      "summary_ja": "香港上場の精密加工会社メタサーフェスは、SGXカタリスト市場への重複上場を控え、1株0.54シンガポールドルで972万シンガポールドル規模の株式を割り当てた。11月4日の上場開始を見込む。",
+      "why_it_matters_ja": "規模は小さいものの、発行体が投資家層や流動性の拡大を狙い、香港とシンガポールの間での重複上場の動きが続いていることを具体的に示す事例である。カタリスト市場が、地域の中小型産業企業にとって第二の上場先として機能し続けていることも浮かび上がる。",
+      "status": "new",
+      "prev": null,
+      "key": "metasurface-sgx-catalist-placement",
+      "ids": [
+        "1ee4cb69b0da3b"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/hong-kong-listed-metasurface-launches-s9-72-million-placement-ahead-sgx-catalist-dual-listing"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "HK/CN",
+        "SEA"
+      ],
+      "sectors": [
+        "Industrials"
+      ]
+    }
+  ]
+}

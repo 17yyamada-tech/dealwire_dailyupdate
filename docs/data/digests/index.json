@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-29-0830",
+      "label": "29 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-29T00:38:06Z",
+      "items": 10,
+      "headlines": [
+        "Trian-led group proposes to take Wendy's private for $1.4bn, at $7.35 a share",
+        "GE Vernova to acquire major transmission-equipment maker Trench for $9bn",
+        "Marvell reported in final talks to acquire optical-component maker Lumentum in large AI deal"
+      ]
+    },
+    {
       "id": "2026-10-28-1530",
       "label": "28 Oct 2026 · 15:30 SGT",
       "generated_at": "2026-10-28T07:36:24Z",
