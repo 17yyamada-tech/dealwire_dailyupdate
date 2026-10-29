@@ -224,6 +224,8 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters, body[da
 
 /* Sources & reliability: its own page (Sources tab), shown full width like Deals and Companies */
 .ref-tiers { list-style: none; margin: 10px 0 12px; padding: 0 14px; display: grid; gap: 5px; font-size: 12.5px; color: var(--ink-2); }
+.ref-tiers li { display: grid; grid-template-columns: 88px 1fr; column-gap: 8px; align-items: baseline; }   /* wrapped lines stay right of the tier box */
+.ref-tiers .ref-tier { margin-right: 0; }
 .ref-tier { display: inline-block; box-sizing: border-box; width: 88px; white-space: nowrap; margin-right: 8px; padding: 1px 0; border-radius: 2px; text-align: center;
   font: 700 10px/1.5 var(--mono, monospace); letter-spacing: .06em; text-transform: uppercase; border: 1px solid currentColor; }
 .t-official { color: #2fa36b; } .t-issuer { color: #3f8fd8; } .t-press { color: #8b8fd9; }
