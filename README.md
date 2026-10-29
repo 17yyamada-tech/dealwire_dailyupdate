@@ -45,7 +45,8 @@ Three pages, in the header line on wide screens and in the bottom tab bar on pho
 - **Home**: the deal board, the digest, Japan filings and the contact box. Phones show the digest with the board below it.
 - **Deals**: every story this browser follows (☆). One row each, left to right: the story, its
   background (up to 12 months before) and what has happened since. Rows share one height and each
-  column scrolls inside it. The research is public, in `docs/data/follow/`; which browser follows
+  column scrolls inside it. Under each story a speech bubble, "Where it stands", gives an AI-written
+  status summary (`status` in the story file: stage, latest facts, open points; English and Japanese). The research is public, in `docs/data/follow/`; which browser follows
   what is not: the Apps Script only publishes the combined list, without ids.
 - **Companies**: a company name (other names after a comma) and optional keywords. The Apps Script
   searches Google News for `(names) (keywords)` in English and Japanese, adds the name in the other

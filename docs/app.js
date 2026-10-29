@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261029-1230";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261029-1145";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -700,6 +700,26 @@
       if (d) followData.set(id, d);
     }));
   }
+  // "Where it stands": a speech bubble under the story whose tail points up at the headline.
+  function statusBubble(d) {
+    const ja = state.lang === "ja", st = d && d.status;
+    const b = document.createElement("div"); b.className = "fl-status";
+    const label = document.createElement("p"); label.className = "fl-status-label";
+    const body = document.createElement("p"); body.className = "fl-status-text";
+    const m = st && String(st.as_of || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    const text = st && ((ja && st.text_ja) || st.text);
+    if (!m || !text) {
+      b.classList.add("pending");
+      label.textContent = ja ? "現況" : "Where it stands";
+      body.textContent = ja ? "現況サマリーは次回のリサーチで届く" : "Status summary arrives with the next research run";
+    } else {
+      const mon = new Date(Date.UTC(+m[1], +m[2] - 1, 1)).toLocaleString("en-GB", { month: "short", timeZone: "UTC" });
+      label.textContent = ja ? `現況 · ${+m[2]}/${+m[3]}時点` : `Where it stands · as of ${+m[3]} ${mon}`;
+      body.textContent = text;
+    }
+    b.append(label, body);
+    return b;
+  }
   function renderFollow() {
     const ol = $("#follow-list"); ol.textContent = "";
     const list = followed();
@@ -711,6 +731,7 @@
       const rows = document.createElement("ol"); rows.className = "rows"; rows.append(rowNode(it));
       story.append(rows);
       const d = followData.get(it.id);
+      story.append(statusBubble(d));
       const wait = "Being researched. The first results arrive with the next run (08:45, 12:45 or 15:45 SGT).";
       li.append(story,
         flColumn("Background", d ? (d.background || []).map(pick) : null, d ? "Nothing earlier found." : wait),

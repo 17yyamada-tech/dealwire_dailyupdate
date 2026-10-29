@@ -146,6 +146,17 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
 /* the followed story keeps its board row, stacked the way phones show it: tags above the headline */
 .fl-story .row { padding: 0; border: 0; background: none; grid-template-columns: auto auto auto minmax(0, 1fr) auto;
   grid-template-areas: "time reg type . act" "main main main main main"; row-gap: 8px; }
+/* status bubble: tail on top, pointing at the story above */
+.fl-status { position: relative; margin: 12px 0 2px 14px; padding: 8px 10px; border-radius: 6px;
+  border: 1px solid color-mix(in srgb, var(--ink-3) 55%, transparent);
+  background: color-mix(in srgb, var(--ink-3) 12%, var(--bg, var(--panel, transparent))); }
+.fl-status::before, .fl-status::after { content: ""; position: absolute; left: 14px; border: 7px solid transparent; border-top-width: 0; }
+.fl-status::before { top: -8px; border-bottom-color: color-mix(in srgb, var(--ink-3) 55%, transparent); }
+.fl-status::after { top: -7px; border-bottom-color: color-mix(in srgb, var(--ink-3) 12%, var(--bg, var(--panel, transparent))); }
+.fl-status p { margin: 0; overflow-wrap: anywhere; }
+.fl-status-label { font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 3px !important; }
+.fl-status-text { font-size: 12.5px; line-height: 1.45; color: var(--ink-2, var(--ink)); }
+.fl-status.pending .fl-status-text { color: var(--ink-3); font-style: italic; }
 .fl-story .c-snip { -webkit-line-clamp: 6; }
 body[data-view="follow"] .filters, body[data-view="companies"] .filters, body[data-view="sources"] .filters { display: none; }
 .fl-col { display: flex; flex-direction: column; min-height: 0; }
