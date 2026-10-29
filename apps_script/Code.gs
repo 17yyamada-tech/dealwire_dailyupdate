@@ -568,7 +568,7 @@ function renderText_(eid, ed, unsub) {
 // failing, so no "Summary of failures" email goes out for something that fixes itself.
 function transient_(e) {
   if (/^kickFetch: GitHub returned/.test(String(e && e.message))) return false;   // our own token error, never transient
-  return /server error occurred|try again|timed out|timeout|Service unavailable|Address unavailable|Bandwidth quota exceeded|Service invoked too many times|lock/i
+  return /server error occurred|try again|timed out|timeout|Service unavailable|Address unavailable|Bandwidth quota exceeded/i
     .test(String(e && e.message != null ? e.message : e));
 }
 
