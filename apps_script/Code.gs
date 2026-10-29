@@ -344,6 +344,12 @@ function parseRss_(url) {
 // Time trigger (every 30 minutes): refresh every company someone still follows, stalest first,
 // and drop the ones nobody follows any more.
 function refreshCompanies() {
+  try { refreshCompanies_(); } catch (e) {
+    if (!transient_(e)) throw e;
+    console.warn('refreshCompanies: transient error, will retry next run: ' + e.message);
+  }
+}
+function refreshCompanies_() {
   const start = Date.now(), wanted = {};
   activeViewers_().forEach(function (r) {
     cleanCompanies_(r[2]).forEach(function (c) { wanted[companyKey_(c)] = c; });
@@ -382,6 +388,12 @@ function json_(obj, callback) {
 const GITHUB_FETCH_WORKFLOW = 'https://api.github.com/repos/17yyamada-tech/dealwire_dailyupdate/actions/workflows/fetch.yml/dispatches';
 
 function kickFetch() {
+  try { kickFetch_(); } catch (e) {
+    if (!transient_(e)) throw e;
+    console.warn('kickFetch: transient error, will retry next run: ' + e.message);
+  }
+}
+function kickFetch_() {
   const token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
   if (!token) { Logger.log('No GITHUB_TOKEN script property: nothing to do'); return; }
   const res = UrlFetchApp.fetch(GITHUB_FETCH_WORKFLOW, {
@@ -389,6 +401,10 @@ function kickFetch() {
     headers: { Authorization: 'Bearer ' + token.trim(), Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' },
   });
   const code = res.getResponseCode();
+  // A rejected token never fixes itself, so make it a visible failure; 5xx and 429 pass on their own.
+  if (code === 401 || code === 403 || code === 404) {
+    throw new Error('kickFetch: GitHub returned ' + code + ' (token expired or lacks Actions write?) ' + res.getContentText().slice(0, 200));
+  }
   Logger.log(code === 204 ? 'fetch.yml started' : 'fetch.yml did not start: ' + code + ' ' + res.getContentText().slice(0, 200));
 }
 
@@ -454,6 +470,12 @@ function setStatusByToken_(token, status) {
 /* ---------------- sending ---------------- */
 
 function sendNewEdition() {
+  try { sendNewEdition_(); } catch (e) {
+    if (!transient_(e)) throw e;
+    console.warn('sendNewEdition: transient error, will retry next run: ' + e.message);
+  }
+}
+function sendNewEdition_() {
   const props = PropertiesService.getScriptProperties();
   const idx = fetchJson_(CONFIG.DATA_URL + 'index.json');
   if (!idx || !idx.editions || !idx.editions.length) return;
@@ -540,6 +562,15 @@ function renderText_(eid, ed, unsub) {
 }
 
 /* ---------------- helpers ---------------- */
+
+// Google now and then fails a call with a passing error ("We're sorry, a server error occurred.
+// Please wait a bit and try again."). Time triggers treat these as "try next run" instead of
+// failing, so no "Summary of failures" email goes out for something that fixes itself.
+function transient_(e) {
+  if (/^kickFetch: GitHub returned/.test(String(e && e.message))) return false;   // our own token error, never transient
+  return /server error occurred|try again|timed out|timeout|Service unavailable|Address unavailable|Bandwidth quota exceeded|Service invoked too many times|lock/i
+    .test(String(e && e.message != null ? e.message : e));
+}
 
 function sheet_() {
   return SpreadsheetApp.openById(PropertiesService.getScriptProperties().getProperty('SHEET_ID')).getSheetByName(CONFIG.SHEET_NAME);
