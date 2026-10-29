@@ -242,7 +242,7 @@ def terms_of_offer(values: dict) -> dict:
     blob = " ".join(values.values())
     # a house's name is the point; "投資ファンド" is what the news already said
     generic = {"投資ファンド", "買収ファンド", "プライベートエクイティ", "プライベート・エクイティ",
-               "アクティビスト", "物言う株主", "官民ファンド", "ベンチャーキャピタル"}
+               "アクティビスト", "物言う株主", "官民ファンド", "政府系ファンド", "ベンチャーキャピタル"}
     for w in SPONSORS:
         if w.startswith(("cs:", "re:")) or w.isascii() or w in generic:
             continue
