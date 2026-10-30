@@ -1,14 +1,21 @@
 # Deal Wire
 
 A website that collects market and deal news for US, SEA, SG, JP and HK/CN, shared by link with friends.
-Hosting is free: GitHub Pages plus GitHub Actions.
-The planned public URL is `https://<github-user>.github.io/dealwire_dailyupdate/`, set by the repository name.
+Hosting is free: Cloudflare Pages (site) plus GitHub Actions (data). The site is private to approved readers.
+URL: `https://dealwire.pages.dev/` (Cloudflare Access login). The old GitHub Pages site was switched off on 2026-10-30.
+The repository stays public: the data under `docs/data/` is readable by anyone who knows the raw URL, only the site is gated.
+
+## Hosting and access
+- **Cloudflare Pages** project `dealwire`: Git-connected to this repository, no build step, output directory `docs`. Build watch paths: include `*`, exclude `docs/data/*`, so the 30-minute data commits do not use the 500 builds/month of the free plan. Only code changes rebuild.
+- **Data is read from GitHub, not from Cloudflare.** Because Pages is not rebuilt on data commits, `docs/app.js` reads every `data/...` file from `https://raw.githubusercontent.com/17yyamada-tech/dealwire_dailyupdate/main/docs/data/` (`DATA_BASE`). raw sends CORS headers and caches for about 5 minutes, so new data can show up to 5 minutes late. On `localhost` / `127.0.0.1` the page reads the relative `data/` instead, so a local copy tests without GitHub.
+- **Who can open the site:** Cloudflare Zero Trust → Access → Policies → `Approved readers` → Emails. Add an address there to let that person in (production and preview are both protected).
+- **Who gets the email digest:** the owner approves each request. A new sign-up becomes `awaiting_owner` in the Subscribers sheet and the owner (the Google account running the Apps Script) gets an Approve / Decline email. Approve → the person gets a confirmation email → once pressed, `active`. Only `active` rows are mailed. Giving site access and approving email are two separate steps.
 
 ## How it works
 | Part | Where | When |
 |---|---|---|
 | Fetch headlines and tag them | `fetcher/fetch.py`, run by `.github/workflows/fetch.yml` | Every 30 min |
-| Site | `docs/` served by GitHub Pages | Checks for new data every 5 min while open |
+| Site | `docs/` served by Cloudflare Pages (Access-protected) | Checks for new data every 5 min while open |
 | Digest editions | Claude Code cloud Routine (`routine/digest_prompt.md`) writes `docs/data/digests/<YYYY-MM-DD-HHMM>.json` and `index.json`. Repeats are excluded and developments are marked UPDATE. | 08:30, 12:30 and 15:30 SGT |
 | Email | Google Apps Script (`apps_script/Code.gs`, setup in `apps_script/SETUP_ja.md`) stores subscribers in a private Google Sheet and emails each new edition | Checks every 10 min |
 | Archive for search | `docs/data/archive/YYYY-MM.json` (append-only) | With each fetch |
@@ -216,7 +223,7 @@ the board shows the last seven days and says so.
 Focus is the odd one out. `rules.json` → `actor.Sponsor` lists PE houses, activists, infra and credit funds and sovereign investors; a story naming one is tagged `Sponsor`, a plain M&A headline naming none is `Strategic`, and anything with no evidence either way (filing feeds such as SEC 8-K) stays unlabelled. A Focus chip **shows only that side on the deal board**, like the other filters; it does not touch the digest. The test reads only the headline and snippet, so a deal that names no known house can land in Strategic or stay unlabelled. Japanese houses are listed as the press writes them (アパックス, 日本成長投資アライアンス), plus phrases such as ファンドが / ファンド連合 that name no house but leave no doubt.
 
 ## Publishing a change to the page
-GitHub Pages lets browsers keep files for 10 minutes. `index.html` loads `base.css`, the skin and
+Browsers may keep files for several minutes. `index.html` loads `base.css`, the skin and
 `app.js` with `?v=<stamp>`, so after a change bump that stamp (three places in `index.html` and
 `ASSET_V` in `app.js`) and readers get the new files on their next load.
 

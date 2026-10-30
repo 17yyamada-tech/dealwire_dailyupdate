@@ -2,15 +2,20 @@
  * Deal Wire mailer — Google Apps Script web app.
  *
  * Holds the subscriber list in a private Google Sheet (never in the public repo) and emails each new
- * digest edition to confirmed subscribers.
- *   doPost  action=subscribe     -> adds the address as "pending" and sends a confirmation email
+ * digest edition to confirmed subscribers. Only people the owner approves receive it:
+ *   subscribe -> "awaiting_owner" + an Approve / Decline email to the owner -> approve: "pending" and the
+ *   person gets the confirmation email -> they press it: "active". Declined: "declined". Paused: "paused".
+ *   doPost  action=subscribe     -> adds the address as "awaiting_owner" and asks the owner to approve
  *   doPost  action=contact       -> emails the site owner what a reader typed in the Contact box
  *   doPost  action=sync          -> stores one browser's followed stories and companies
  *   doGet   action=follows       -> every followed story, no viewer ids (read by the fetch job)
  *   doGet   action=companies     -> one browser's companies with their latest headlines (private)
+ *   doGet   action=approve|decline (id, k) -> owner only; the signed link in the owner email
  *   doGet   action=confirm       -> marks the address "active"
  *   doGet   action=unsubscribe   -> marks the address "unsubscribed" (link in every email)
- *   sendNewEdition (time trigger, every 10 min) -> if a new edition exists on GitHub, email it once
+ *   sendNewEdition (time trigger, every 10 min; create it with setupMailTrigger()) -> if a new edition
+ *     exists on GitHub, email it once to "active" subscribers
+ *   pauseExistingSubscribers() (once), approveExisting(email), requestApprovalForPaused(): run from the editor
  *   refreshCompanies (time trigger, every 30 min) -> Google News headlines for every followed company
  *   kickFetch (time trigger, every 30 min) -> asks GitHub to run fetch.yml (its own schedule runs late)
  *
@@ -19,13 +24,14 @@
  */
 
 const CONFIG = {
-  SITE_URL: 'https://17yyamada-tech.github.io/dealwire_dailyupdate/',
+  SITE_URL: 'https://dealwire.pages.dev/',
   DATA_URL: 'https://raw.githubusercontent.com/17yyamada-tech/dealwire_dailyupdate/main/docs/data/digests/',
   SHEET_NAME: 'Subscribers',
   SENDER_NAME: 'Deal Wire',
   MAX_EDITION_AGE_HOURS: 3,       // do not email an edition that is older than this (e.g. after downtime)
   CONTACT_MAX_CHARS: 4000,
   CONTACT_MAX_PER_DAY: 40,        // a cap so a bot cannot burn the Gmail quota
+  APPROVAL_MAX_PER_DAY: 20,       // approval requests mailed to the owner per day
 };
 
 /* ---------------- setup ---------------- */
@@ -42,8 +48,7 @@ function setup() {
     props.setProperty('SHEET_ID', ss.getId());
     id = ss.getId();
   }
-  ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'sendNewEdition').forEach(t => ScriptApp.deleteTrigger(t));
-  ScriptApp.newTrigger('sendNewEdition').timeBased().everyMinutes(10).create();
+  // The mail trigger is no longer made here: run setupMailTrigger() when delivery should start.
   ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'refreshCompanies').forEach(t => ScriptApp.deleteTrigger(t));
   ScriptApp.newTrigger('refreshCompanies').timeBased().everyMinutes(30).create();
   ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'kickFetch').forEach(t => ScriptApp.deleteTrigger(t));
@@ -53,6 +58,14 @@ function setup() {
   const idx = fetchJson_(CONFIG.DATA_URL + 'index.json');
   if (idx && idx.editions && idx.editions[0]) props.setProperty('LAST_SENT', idx.editions[0].id);
   Logger.log('Subscribers sheet: https://docs.google.com/spreadsheets/d/' + id);
+}
+
+// Creates the 10-minute sendNewEdition trigger once (an existing one is removed first). Run it by hand.
+function setupMailTrigger() {
+  ScriptApp.getProjectTriggers().filter(function (t) { return t.getHandlerFunction() === 'sendNewEdition'; })
+    .forEach(function (t) { ScriptApp.deleteTrigger(t); });
+  ScriptApp.newTrigger('sendNewEdition').timeBased().everyMinutes(10).create();
+  Logger.log('sendNewEdition trigger created (every 10 minutes)');
 }
 
 /* ---------------- contact box ---------------- */
@@ -475,6 +488,7 @@ function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'follows') return json_(follows_(), p.callback);
   if (p.action === 'companies') return json_(companiesFor_(p.vid), p.callback);
+  if (p.action === 'approve' || p.action === 'decline') return page_(ownerDecision_(p.action, p.id, p.k));
   if (p.action === 'confirm') return page_(setStatusByToken_(p.t, 'active')
     ? ['You are subscribed', 'Deal Wire will arrive at 08:30, 12:30 and 15:30 SGT.']
     : ['Link not valid', 'This confirmation link has expired or was already used.']);
@@ -492,19 +506,125 @@ function subscribe_(email) {
     const now = new Date();
     for (let r = 1; r < rows.length; r++) {
       if (rows[r][0] !== email) continue;
-      if (rows[r][1] === 'active') return 'already subscribed';
-      // re-send the confirmation at most every 10 minutes to stop the form being used to spam an inbox
-      if (rows[r][1] === 'pending' && now - new Date(rows[r][3]) < 10 * 60 * 1000) return 'confirmation already sent';
+      const st = rows[r][1];
+      if (st === 'active') return 'already subscribed';
+      if (st === 'declined' || st === 'awaiting_owner') return 'request received';   // no decision is revealed, no second request
+      // approved but not yet confirmed: re-send the confirmation at most every 10 minutes
+      if (st === 'pending') {
+        if (now - new Date(rows[r][3]) < 10 * 60 * 1000) return 'confirmation already sent';
+        const t = Utilities.getUuid();
+        sh.getRange(r + 1, 2, 1, 3).setValues([['pending', t, now]]);
+        sendConfirm_(email, t);
+        return 'confirmation sent';
+      }
+      // paused or unsubscribed: the owner has to approve again
       const token = Utilities.getUuid();
-      sh.getRange(r + 1, 2, 1, 3).setValues([['pending', token, now]]);
-      sendConfirm_(email, token);
-      return 'confirmation sent';
+      sh.getRange(r + 1, 2, 1, 3).setValues([['awaiting_owner', token, now]]);
+      askOwner_(email, token);
+      return 'request received';
     }
     const token = Utilities.getUuid();
-    sh.appendRow([email, 'pending', token, now, '', '']);
-    sendConfirm_(email, token);
-    return 'confirmation sent';
+    sh.appendRow([email, 'awaiting_owner', token, now, '', '']);
+    askOwner_(email, token);
+    return 'request received';
   } finally { lock.releaseLock(); }
+}
+
+/* ---------------- owner approval ---------------- */
+
+// A secret only this script knows; the owner links carry a signature made with it.
+function ownerKey_() {
+  const props = PropertiesService.getScriptProperties();
+  let k = props.getProperty('OWNER_KEY');
+  if (!k) { k = Utilities.getUuid() + Utilities.getUuid(); props.setProperty('OWNER_KEY', k); }
+  return k;
+}
+function ownerSig_(action, id) {
+  return Utilities.computeHmacSha256Signature('owner:' + action + ':' + id, ownerKey_())
+    .map(function (b) { return ('0' + (b & 255).toString(16)).slice(-2); }).join('');
+}
+function ownerLink_(action, id) {
+  return ScriptApp.getService().getUrl() + '?action=' + action + '&id=' + encodeURIComponent(id) + '&k=' + ownerSig_(action, id);
+}
+
+// Mails the owner an Approve / Decline pair for one address (capped per day against floods).
+function askOwner_(email, token) {
+  const props = PropertiesService.getScriptProperties();
+  const key = 'APPROVAL_' + Utilities.formatDate(new Date(), 'Asia/Singapore', 'yyyy-MM-dd');
+  const n = Number(props.getProperty(key) || 0);
+  if (n >= CONFIG.APPROVAL_MAX_PER_DAY) return false;
+  props.setProperty(key, String(n + 1));
+  const owner = Session.getEffectiveUser().getEmail();
+  const yes = ownerLink_('approve', token), no = ownerLink_('decline', token);
+  const html = shell_(
+    '<p style="margin:0 0 16px;font:15px/1.55 Arial,sans-serif;color:#1b1f24"><b>' + esc_(email) + '</b> asked to receive the Deal Wire digest by email.</p>' +
+    button_(yes, 'Approve') + '&nbsp;&nbsp;' + button_(no, 'Decline') +
+    '<p style="margin:18px 0 0;font:12px/1.5 Arial,sans-serif;color:#6b7280">These links work for you only. Approving sends them a confirmation email; the digest starts once they confirm. Access to the site itself is separate (Cloudflare Access).</p>', '');
+  MailApp.sendEmail({ to: owner, subject: 'Deal Wire · approve ' + email + '?', name: CONFIG.SENDER_NAME, htmlBody: html,
+    body: email + ' asked to receive the Deal Wire digest.\nApprove: ' + yes + '\nDecline: ' + no + '\n' });
+  return true;
+}
+
+// Checks the signed owner link and applies it. Only rows waiting for the owner can be changed.
+function ownerDecision_(action, id, k) {
+  const bad = ['Link not valid', 'This link is not valid or was already used.'];
+  if (!id || !k || String(k) !== ownerSig_(action, String(id))) return bad;
+  const lock = LockService.getScriptLock(); lock.waitLock(10000);
+  try {
+    const sh = sheet_(), rows = sh.getDataRange().getValues();
+    for (let r = 1; r < rows.length; r++) {
+      if (rows[r][2] !== id) continue;
+      if (rows[r][1] !== 'awaiting_owner') return bad;
+      if (action === 'decline') {
+        sh.getRange(r + 1, 2).setValue('declined');
+        return ['Declined', rows[r][0] + ' will not receive Deal Wire emails.'];
+      }
+      const token = Utilities.getUuid();               // a new token, so the owner link cannot be reused
+      sh.getRange(r + 1, 2, 1, 3).setValues([['pending', token, new Date()]]);
+      sendConfirm_(rows[r][0], token);
+      return ['Approved', 'A confirmation email was sent to ' + rows[r][0] + '. The digest starts once they confirm.'];
+    }
+    return bad;
+  } finally { lock.releaseLock(); }
+}
+
+// Run once from the editor: everyone subscribed before approval existed goes to "paused" (no mail).
+function pauseExistingSubscribers() {
+  const sh = sheet_(), rows = sh.getDataRange().getValues();
+  let n = 0;
+  for (let r = 1; r < rows.length; r++) {
+    if (rows[r][1] === 'active' || rows[r][1] === 'pending') { sh.getRange(r + 1, 2).setValue('paused'); n++; }
+  }
+  Logger.log('Paused ' + n + ' subscribers');
+}
+
+// Run from the editor to let one address back in: approveExisting('name@example.com').
+// They get the confirmation email; the digest resumes when they press it.
+function approveExisting(email) {
+  email = String(email || '').trim().toLowerCase();
+  const sh = sheet_(), rows = sh.getDataRange().getValues();
+  for (let r = 1; r < rows.length; r++) {
+    if (rows[r][0] !== email) continue;
+    const token = Utilities.getUuid();
+    sh.getRange(r + 1, 2, 1, 3).setValues([['pending', token, new Date()]]);
+    sendConfirm_(email, token);
+    Logger.log('Approved ' + email + ' and sent the confirmation email');
+    return;
+  }
+  Logger.log('Not found: ' + email);
+}
+
+// Run from the editor: mails you an Approve / Decline email for every paused address.
+function requestApprovalForPaused() {
+  const sh = sheet_(), rows = sh.getDataRange().getValues();
+  let n = 0;
+  for (let r = 1; r < rows.length; r++) {
+    if (rows[r][1] !== 'paused') continue;
+    const token = Utilities.getUuid();
+    sh.getRange(r + 1, 2, 1, 3).setValues([['awaiting_owner', token, new Date()]]);
+    if (askOwner_(rows[r][0], token)) n++;
+  }
+  Logger.log('Approval emails sent to the owner: ' + n);
 }
 
 function setStatusByToken_(token, status) {
@@ -543,7 +663,7 @@ function sendNewEdition_() {
   // Claim the edition before sending so an overlapping trigger run cannot send it twice.
   props.setProperty('LAST_SENT', newest.id);
 
-  const subs = sheet_().getDataRange().getValues().slice(1).filter(r => r[1] === 'active');
+  const subs = sheet_().getDataRange().getValues().slice(1).filter(r => r[1] === 'active');   // approved and confirmed only
   const subject = 'Deal Wire · ' + editionLabel_(newest.id) + ' · ' + ed.items[0].headline;
   let sent = 0;
   subs.forEach(r => {

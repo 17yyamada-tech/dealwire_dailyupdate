@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261030-1600";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261030-2000";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -623,7 +623,7 @@
   const editionDay = (e) => e.id.slice(0, 10);
   const fmtDay = (day, weekday) => new Date(day + "T00:00:00Z").toLocaleDateString("en-SG", { weekday: weekday ? "short" : undefined, day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
   async function loadEdition(id) {
-    if (!state.editionCache.has(id)) state.editionCache.set(id, await getJSON(`data/digests/${id}.json`));
+    if (!state.editionCache.has(id)) state.editionCache.set(id, await getJSON(dataUrl(`digests/${id}.json`)));
     return state.editionCache.get(id);
   }
   function renderEditionTabs() {
@@ -894,12 +894,12 @@
   const followData = new Map();
   let followIndex = null;
   async function loadFollow() {
-    followIndex = await getJSON("data/follow/index.json").catch(() => ({ stories: {} }));
+    followIndex = await getJSON(dataUrl("follow/index.json")).catch(() => ({ stories: {} }));
     const ids = followed().map(it => it.id).filter(id => followIndex.stories && followIndex.stories[id]);
     await Promise.all(ids.map(async id => {
       const stamp = followIndex.stories[id].checked_at;
       if (followData.has(id) && followData.get(id).checked_at === stamp) return;
-      const d = await getJSON(`data/follow/${id}.json`).catch(() => null);
+      const d = await getJSON(dataUrl(`follow/${id}.json`)).catch(() => null);
       if (d) followData.set(id, d);
     }));
   }
@@ -982,7 +982,7 @@
   // Fund or corporate: the company's own choice if the reader set one, otherwise a guess from the
   // fund list behind the Sponsor tag (data/sponsors.json) and names such as "... Capital".
   let sponsorWords = null;
-  async function loadSponsors() { if (!sponsorWords) sponsorWords = await getJSON("data/sponsors.json").catch(() => []); }
+  async function loadSponsors() { if (!sponsorWords) sponsorWords = await getJSON(dataUrl("sponsors.json")).catch(() => []); }
   const FUND_NAME = /\b(capital|partners|equity|funds?|investments?|investors|asset management)\b|ファンド|キャピタル|パートナーズ|インベストメント/i;
   const reEsc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   function wordHit(text, w) {
@@ -1005,7 +1005,7 @@
   let coIndex = null, coIndexLoading = null;
   function loadCompanyIndex() {
     if (coIndex) return Promise.resolve(coIndex);
-    return coIndexLoading || (coIndexLoading = getJSON("data/company_index.json").catch(() => ({ rows: [] }))
+    return coIndexLoading || (coIndexLoading = getJSON(dataUrl("company_index.json")).catch(() => ({ rows: [] }))
       .then(d => (coIndex = (d.rows || []).map(r => ({ ...r, ln: r.n.toLowerCase(), le: (r.e || "").toLowerCase(), lt: r.t.toLowerCase() })))));
   }
   function searchCompanies(q) {
@@ -1336,7 +1336,7 @@
     if (!mk || !tk) return Promise.resolve(null);
     const key = mk + ":" + tk;
     if (!pxCache.has(key)) {
-      const url = "data/" + (mk === "JP" ? "jp_profiles/" : "us_profiles/") + encodeURIComponent(tk) + (mk === "US" && RESERVED_FILE.test(tk) ? "_" : "") + ".json?v=" + ASSET_V;
+      const url = DATA_BASE + (mk === "JP" ? "jp_profiles/" : "us_profiles/") + encodeURIComponent(tk) + (mk === "US" && RESERVED_FILE.test(tk) ? "_" : "") + ".json?v=" + ASSET_V;
       pxCache.set(key, fetch(url).then(r => r.ok ? r.json() : null).then(j => (j && j.price) || null).catch(() => null));
     }
     return pxCache.get(key).then(px => px || (p && p.price) || null);
@@ -1603,12 +1603,12 @@
   /* ---------------- search ---------------- */
   async function loadArchiveMonths(n) {
     if (!state.archiveMonths.length) {
-      const idx = await getJSON("data/archive/index.json").catch(() => ({ months: [] }));
+      const idx = await getJSON(dataUrl("archive/index.json")).catch(() => ({ months: [] }));
       state.archiveMonths = idx.months || [];
     }
     const months = n ? state.archiveMonths.slice(0, n) : state.archiveMonths;
     await Promise.all(months.filter(m => !state.archive.has(m)).map(async m => {
-      state.archive.set(m, await getJSON(`data/archive/${m}.json`).catch(() => []));
+      state.archive.set(m, await getJSON(dataUrl(`archive/${m}.json`)).catch(() => []));
     }));
     return months.flatMap(m => state.archive.get(m) || []);
   }
@@ -1656,6 +1656,12 @@
   }
 
   /* ---------------- data ---------------- */
+  /* Cloudflare Pages is not rebuilt on data commits, so the data is read straight from GitHub (raw is CORS-open,
+     cached about 5 minutes). On localhost the relative path is used so a local copy can be tested. */
+  const DATA_BASE = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
+    ? "data/"
+    : "https://raw.githubusercontent.com/17yyamada-tech/dealwire_dailyupdate/main/docs/data/";
+  const dataUrl = p => DATA_BASE + p;
   async function getJSON(url) {
     const r = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Math.floor(Date.now() / 6e4), { cache: "no-store" });
     if (!r.ok) throw new Error(url + " " + r.status);
@@ -1664,9 +1670,9 @@
   async function load() {
     try {
       const [latest, idx, filings] = await Promise.all([
-        getJSON("data/latest.json"),
-        getJSON("data/digests/index.json").catch(() => ({ editions: [] })),
-        getJSON("data/edinet.json").catch(() => ({ cards: [] })),   // absent until the first EDINET run
+        getJSON(dataUrl("latest.json")),
+        getJSON(dataUrl("digests/index.json")).catch(() => ({ editions: [] })),
+        getJSON(dataUrl("edinet.json")).catch(() => ({ cards: [] })),   // absent until the first EDINET run
       ]);
       state.items = latest.items || [];
       state.filings = filings.cards || [];
