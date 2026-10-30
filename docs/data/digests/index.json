@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-30-1530",
+      "label": "30 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-30T07:36:53Z",
+      "items": 5,
+      "headlines": [
+        "China's Orient Securities clears final approval for RMB25.1bn purchase of Shanghai Securities",
+        "Daiwa Securities Group affiliate buys Akasaka Prince Hotel office tower for about ¥300bn",
+        "South Korea's F&F starts due diligence on $2.85bn TaylorMade buyout"
+      ]
+    },
+    {
       "id": "2026-10-30-1230",
       "label": "30 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-30T04:35:14Z",
