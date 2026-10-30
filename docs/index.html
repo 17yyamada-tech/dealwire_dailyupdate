@@ -15,9 +15,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <!-- ?v= makes browsers fetch the new file after a change; bump it together with ASSET_V in app.js -->
-<link rel="stylesheet" href="base.css?v=20261030-1300">
+<link rel="stylesheet" href="base.css?v=20261030-1600">
 <!-- The whole look lives in one skin file. Default = data-skin above; viewers can switch in Settings; ?skin=editorial also works. -->
-<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20261030-1300">
+<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20261030-1600">
 </head>
 <body data-view="home">
 <!-- Region flags, drawn inline so they render the same everywhere. Windows has no flag-emoji
@@ -209,12 +209,14 @@
           <tr><td class="sec" rowspan="2">Digest</td><td>Written by AI from the headlines and snippets above only; it does not read the articles</td><td><span class="ref-tier t-machine">Machine</span></td><td>08:30, 12:30, 15:30 SGT</td></tr>
           <tr><td>Japanese summaries: AI translation of the English</td><td><span class="ref-tier t-machine">Machine</span></td><td>With each edition</td></tr>
           <tr><td class="sec">Deals (followed stories)</td><td>AI web research (including the one-paragraph status summary on each story); every entry is dated and links to its source</td><td><span class="ref-tier t-machine">Machine</span></td><td>08:45, 12:45, 15:45 SGT</td></tr>
-          <tr><td class="sec" rowspan="8">Companies</td><td>Headlines: Google News search for the company and its keywords</td><td><span class="ref-tier t-aggregated">Aggregated</span></td><td>Every 30 min</td></tr>
+          <tr><td class="sec" rowspan="10">Companies</td><td>Headlines: Google News search for the company and its keywords</td><td><span class="ref-tier t-aggregated">Aggregated</span></td><td>Every 30 min</td></tr>
           <tr><td>Tickers and sectors: EDINET code list (Japan), SEC ticker list (US)</td><td><span class="ref-tier t-official">Official</span></td><td>Weekly</td></tr>
           <tr><td>US revenue, operating and net income: SEC XBRL, as filed in the 10-K</td><td><span class="ref-tier t-official">Official</span></td><td>Weekly</td></tr>
           <tr><td>Japan revenue, operating and net income, and the largest shareholders: EDINET annual securities report (有価証券報告書)</td><td><span class="ref-tier t-official">Official</span></td><td>Weekly</td></tr>
           <tr><td>US holders of 5% or more: SEC Schedule 13D / 13G</td><td><span class="ref-tier t-official">Official</span></td><td>Weekly</td></tr>
           <tr><td>Takeover defence in place or not: read from the annual report (Japan) and 8-K filings (US) by software</td><td><span class="ref-tier t-machine">Machine</span></td><td>Weekly</td></tr>
+          <tr><td>Estimated share price, market cap, P/E and P/B (Japan): computed from the annual report's key figures (P/E × EPS for the year-end price, × shares outstanding for market cap, ÷ book value per share for P/B). The year's high and low, P/E and total shareholder return are the filing's own numbers</td><td><span class="ref-tier t-machine">Machine</span> (calculation); source data <span class="ref-tier t-official">Official</span></td><td>When a new report is filed</td></tr>
+          <tr><td>Public float (non-affiliates' market value) for US companies: SEC 10-K cover page (dei:EntityPublicFloat), as of the end of the company's second fiscal quarter</td><td><span class="ref-tier t-official">Official</span></td><td>Yearly, with each 10-K</td></tr>
           <tr><td>Share price, market cap, P/E and volume: TradingView embedded widgets, US-listed only (Tokyo-listed: links out to TradingView, Kabutan and Yahoo! Finance Japan)</td><td><span class="ref-tier t-vendor">Vendor</span></td><td>Live (delayed)</td></tr>
           <tr><td>The company's name in the other language: Google Translate; fund or corporate: a guess from names</td><td><span class="ref-tier t-machine">Machine</span></td><td>When added</td></tr>
           <tr><td class="sec">Tags</td><td>Type, Region, Sector, Sponsor / Strategic: keyword rules on the headline and snippet</td><td><span class="ref-tier t-machine">Machine</span></td><td>With each fetch</td></tr>
@@ -273,9 +275,11 @@
     <div class="co-sub" role="group" aria-label="Companies view">
       <button type="button" class="chip" data-sub="news" aria-pressed="true">News</button>
       <button type="button" class="chip" data-sub="profile" aria-pressed="false">Profile</button>
+      <button type="button" class="chip" data-sub="price" aria-pressed="false">Price</button>
     </div>
     <ol class="fl-list" id="co-list"></ol>
     <div class="pf-wrap" id="co-profile" hidden></div>
+    <div class="px-wrap" id="co-price" hidden></div>
   </section>
 </main>
 
@@ -346,6 +350,6 @@
   </li>
 </template>
 
-<script src="app.js?v=20261030-1300"></script>
+<script src="app.js?v=20261030-1600"></script>
 </body>
 </html>

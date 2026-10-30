@@ -135,7 +135,38 @@ ticker from the SEC. The Companies boxes suggest from it as you type a name or a
 carries its market, ticker and (US) CIK, and its card shows the ticker, the sector and links to IR BANK,
 Kabutan, Yahoo and TradingView (Japan) or Yahoo, SEC filings and TradingView (US). For a US company the
 Apps Script adds the last two fiscal years' revenue, operating and net income exactly as filed in the 10-K
-(SEC XBRL), weekly. No market prices are collected.
+(SEC XBRL), weekly. No market prices are collected; the Price view below estimates them from filings.
+
+### Companies > Price (no price feed is bought)
+The third Companies view, Price, shows a card per linked company. Nothing here is a market quote.
+
+**Japan.** `fetcher/jp_profiles.py` adds `price` to each `docs/data/jp_profiles/<ticker>.json` from the annual
+securities report's key-figures table (主要な経営指標等の推移, five years, consolidated when the company has
+consolidated statements, otherwise stand-alone): EPS (`BasicEarningsLossPerShare*SummaryOfBusinessResults`), PER
+(`PriceEarningsRatio*SummaryOfBusinessResults`), book value per share (`NetAssetsPerShareSummaryOfBusinessResults`,
+or the per-share equity line found by its label for IFRS filers), total shareholder return and the index it is
+compared with (`TotalShareholderReturn`, `TotalReturnOnSharePriceIndex`, company-only context). The highest and
+lowest share price of each year are not tagged separately in the filing: they exist only as text inside
+`BusinessResultsOfReportingCompanyTextBlock`, so they are read from that text and each year is checked against
+PER × EPS (a year that does not fit is dropped, and prices from before a stock split are divided by the split ratio to
+match the restated EPS; the note says so). Shares: the year-end issued shares minus the treasury rows of the
+voting-rights table. Calculated and stored: estimated year-end price = PER × EPS (empty in a loss year),
+estimated market cap = that × shares outstanding, P/B = that ÷ book value per share, all dated at the fiscal year
+end. Shape: `price: {kind:"jp_fy", as_of, basis, est_price, est_mcap, per, pbr, bps, eps, tsr, tsr_index,
+shares_issued, shares_treasury, shares_out, years:[{fy_end, high, low, eps, bps, per, est_close}], notes[], source, url}`.
+A file without `price` is read again on the next run (that is how the first fill, and any change to the
+extraction, rolls over every company). Workflow inputs: `dry=1` prints the block for the given tickers and writes
+nothing, `budget` sets the minutes per run.
+
+**US.** `fetcher/us_profiles.py` adds `price: {kind:"us_float", public_float, as_of, tv_symbol, source, url}` from
+the SEC frames API for `dei:EntityPublicFloat` (the market value held by non-affiliates on the last business day of the
+second fiscal quarter, printed on the 10-K cover). The frame is named by calendar quarter, so the nine quarters
+back are read and each company keeps its newest value.
+
+**Page.** The cards read `data/jp_profiles` and `data/us_profiles` straight from this site (the Apps Script's copy
+is only a fallback, so the Apps Script needs no change). Japan: a self-drawn SVG, one bar per year from low to
+high, the estimated year-end price as a line, and the estimates below with their date. US: TradingView's one-year
+chart, loaded only when the card scrolls into view, and the public float below it.
 
 ## 5% stake reports
 `edinet.py` opens every 5% report once (about 200 a business day, remembered in `docs/data/edinet_seen.json`,

@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261030-1300";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261030-1600";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1125,10 +1125,11 @@
   function renderCompanies() {
     const ol = $("#co-list"); ol.textContent = "";
     const mine = companies();
-    const sub = store.get("coSub", "news") === "profile" ? "profile" : "news";
+    const sv = store.get("coSub", "news"), sub = sv === "profile" || sv === "price" ? sv : "news";
     $$(".co-sub .chip").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.sub === sub)));
-    ol.hidden = sub === "profile" && mine.length > 0;
+    ol.hidden = sub !== "news" && mine.length > 0;
     $("#co-profile").hidden = !(sub === "profile" && mine.length > 0);
+    $("#co-price").hidden = !(sub === "price" && mine.length > 0);
     if (!mine.length) { ol.hidden = false; ol.append(empty("No companies yet. Add one above; keywords narrow it to the news you care about.")); return; }
     const remote = new Map(((coData && coData.companies) || []).map(c => [coKey(c), c]));
     // companies added before the search list existed: link the unambiguous ones once
@@ -1138,6 +1139,7 @@
       if (changed) { store.set("companies", list); queueSync(0); return renderCompanies(); }
     } else loadCompanyIndex().then(() => { if (state.view === "companies") renderCompanies(); });
     if (sub === "profile") { renderProfile(mine, remote); return; }
+    if (sub === "price") { renderPrice(mine, remote); return; }
     mine.forEach((c, i) => {
       const r = remote.get(coKey(c));
       const kind = kindOf(c, r && r.searched);
@@ -1321,6 +1323,149 @@
     });
     t.append(tb); wrap.append(t);
   }
+  /* ---------------- Companies > Price ----------------
+     One card per linked company. Tokyo-listed: a range chart drawn here from the annual report
+     (high to low of each of the last five years, the estimated year-end price as a line) plus the
+     estimates under it. US-listed: TradingView's chart (loaded only once the card scrolls into view)
+     and the public float from the 10-K cover. The figures sit in data/jp_profiles and data/us_profiles
+     (same site, so they are read straight from there; the Apps Script copy is only a fallback). */
+  const pxCache = new Map();
+  const RESERVED_FILE = /^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])$/i;
+  function pxLoad(c, p) {
+    const mk = (p && p.market) || c.market, tk = (p && p.ticker) || c.ticker;
+    if (!mk || !tk) return Promise.resolve(null);
+    const key = mk + ":" + tk;
+    if (!pxCache.has(key)) {
+      const url = "data/" + (mk === "JP" ? "jp_profiles/" : "us_profiles/") + encodeURIComponent(tk) + (mk === "US" && RESERVED_FILE.test(tk) ? "_" : "") + ".json?v=" + ASSET_V;
+      pxCache.set(key, fetch(url).then(r => r.ok ? r.json() : null).then(j => (j && j.price) || null).catch(() => null));
+    }
+    return pxCache.get(key).then(px => px || (p && p.price) || null);
+  }
+  const SVGNS = "http://www.w3.org/2000/svg";
+  function svgEl(tag, attrs, text) {
+    const e = document.createElementNS(SVGNS, tag);
+    Object.entries(attrs || {}).forEach(([k, v]) => e.setAttribute(k, v));
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function hEl(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function dayText(iso) { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || ""); return m ? (+m[3]) + " " + MON[+m[2] - 1] + " " + m[1] : ""; }
+  function niceAxis(lo, hi, n) {
+    const span = Math.max(hi - lo, hi * 0.05, 1), raw = span / n, mag = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / mag;
+    const step = (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * mag;
+    const a = Math.max(0, Math.floor(lo / step) * step), b = Math.ceil(hi / step) * step, ticks = [];
+    for (let v = a; v <= b + step / 2; v += step) ticks.push(Math.round(v * 100) / 100);
+    return ticks;
+  }
+  const yen = (v) => v == null ? "n/a" : "¥" + (v >= 100 ? Math.round(v).toLocaleString("en-US") : v.toLocaleString("en-US", { maximumFractionDigits: 1 }));
+  function pxChart(years, asOfLabel) {
+    const W = 480, H = 232, L = 56, R = 12, T = 16, B = 38, n = years.length;
+    const vals = years.flatMap(y => [y.high, y.low, y.est_close]).filter(v => v != null);
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, class: "px-svg", role: "img", preserveAspectRatio: "xMidYMid meet" });
+    svg.setAttribute("aria-label", "Yearly share price range and estimated year-end price, in yen, " + asOfLabel);
+    if (!vals.length || !n) { svg.append(svgEl("text", { x: W / 2, y: H / 2, "text-anchor": "middle", class: "px-axis" }, "No price history in the filing")); return svg; }
+    const ticks = niceAxis(Math.min(...vals) * 0.92, Math.max(...vals) * 1.05, 5), lo = ticks[0], hi = ticks[ticks.length - 1];
+    const yv = (v) => T + (H - T - B) * (1 - (v - lo) / (hi - lo)), slot = (W - L - R) / n, bw = Math.min(30, slot * 0.46);
+    ticks.forEach(t => {
+      svg.append(svgEl("line", { x1: L, x2: W - R, y1: yv(t), y2: yv(t), class: "px-grid-line" }));
+      svg.append(svgEl("text", { x: L - 6, y: yv(t) + 3.5, "text-anchor": "end", class: "px-axis" }, yen(t)));
+    });
+    const pts = [];
+    years.forEach((y, i) => {
+      const cx = L + slot * (i + 0.5), yr = y.fy_end.slice(0, 4), mo = MON[+y.fy_end.slice(5, 7) - 1];
+      svg.append(svgEl("text", { x: cx, y: H - B + 14, "text-anchor": "middle", class: "px-axis px-axis-x" }, "FY" + yr));
+      svg.append(svgEl("text", { x: cx, y: H - B + 26, "text-anchor": "middle", class: "px-axis px-axis-m" }, "year to " + mo));
+      if (y.high != null && y.low != null) {
+        const bar = svgEl("rect", { x: cx - bw / 2, y: yv(y.high), width: bw, height: Math.max(yv(y.low) - yv(y.high), 2), class: "px-bar" });
+        bar.append(svgEl("title", {}, "FY" + yr + " high " + yen(y.high) + " / low " + yen(y.low)));
+        svg.append(bar);
+      }
+      if (y.est_close != null) pts.push([cx, yv(y.est_close), y]);
+    });
+    if (pts.length > 1) svg.append(svgEl("polyline", { points: pts.map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" "), class: "px-line" }));
+    pts.forEach(([x, y, d]) => {
+      const dot = svgEl("circle", { cx: x, cy: y, r: 4, class: "px-dot" });
+      dot.append(svgEl("title", {}, "FY" + d.fy_end.slice(0, 4) + " estimated year-end price " + yen(d.est_close) + " (PER " + (d.per != null ? d.per : "n/a") + " × EPS " + (d.eps != null ? d.eps : "n/a") + ")"));
+      svg.append(dot);
+      svg.append(svgEl("text", { x, y: y - 8, "text-anchor": "middle", class: "px-val" }, Math.round(d.est_close).toLocaleString("en-US")));
+    });
+    return svg;
+  }
+  function pxCell(label, value, tier, sub) {
+    const d = hEl("div", "px-cell"); d.append(hEl("span", "px-k", label));
+    const v = hEl("span", "px-v", value); if (tier) v.append(conf(tier)); d.append(v);
+    if (sub) d.append(hEl("span", "px-sub", sub));
+    return d;
+  }
+  function pxHead(c, p) {
+    const h = hEl("div", "px-head"), nm = c.name.split(/[,、]/)[0].trim();
+    const t = hEl("span", "px-name", nm); t.title = nm; h.append(t);
+    const tk = (p && p.ticker) || c.ticker, mk = (p && p.market) || c.market;
+    if (tk) h.append(hEl("span", "px-tk", tk + (mk ? " · " + mk : "")));
+    return h;
+  }
+  function pxFillJP(card, c, p, px) {
+    const asOf = dayText(px.as_of), fy = "FY" + (px.as_of || "").slice(0, 4);
+    card.append(pxChart(px.years || [], asOf));
+    const lg = hEl("p", "px-legend"); lg.append(hEl("span", "px-key px-key-bar"), " High to low in the year   ", hEl("span", "px-key px-key-dot"), " Estimated year-end price (PER × EPS)");
+    card.append(lg);
+    card.append(hEl("p", "px-asof", "As of " + fy + " end (" + asOf + "), estimated from the annual report"));
+    const g = hEl("div", "px-cells");
+    g.append(pxCell("Est. price", yen(px.est_price), px.est_price != null ? "machine" : null, "as of " + fy + " end (est.)"),
+      pxCell("Est. market cap", px.est_mcap != null ? fmtAmt("JPY", px.est_mcap) : "n/a", px.est_mcap != null ? "machine" : null, "as of " + fy + " end (est.)"),
+      pxCell("P/E", px.per != null ? px.per.toFixed(1) + "×" : "n/a", px.per != null ? "official" : null, "as reported, " + fy + " end"),
+      pxCell("P/B", px.pbr != null ? px.pbr.toFixed(2) + "×" : "n/a", px.pbr != null ? "machine" : null, "as of " + fy + " end (est.)"),
+      pxCell("TSR (5y)", px.tsr != null ? px.tsr.toFixed(0) + "%" : "n/a", px.tsr != null ? "official" : null, px.tsr_index != null ? "index " + px.tsr_index.toFixed(0) + "%" : "as reported"),
+      pxCell("Shares out", px.shares_out != null ? (px.shares_out / 1e6 >= 1000 ? (px.shares_out / 1e9).toFixed(2) + "bn" : (px.shares_out / 1e6).toFixed(0) + "M") : "n/a", null, "excl. treasury, " + fy + " end"));
+    card.append(g);
+    (px.notes || []).forEach(t => card.append(hEl("p", "px-note", t)));
+    const T = encodeURIComponent((p && p.ticker) || c.ticker);
+    const ln = hEl("p", "px-links", "Today's price: ");
+    [["株探", `https://kabutan.jp/stock/?code=${T}`], ["Yahoo!ファイナンス", `https://finance.yahoo.co.jp/quote/${T}.T`], ["TradingView", `https://www.tradingview.com/symbols/TSE-${T}/`]]
+      .forEach(([l, u], i) => { if (i) ln.append("  "); ln.append(srcLink(l, u)); });
+    if (px.url) { ln.append("   Filing: "); ln.append(srcLink("EDINET", px.url)); }
+    card.append(ln);
+  }
+  function pxFillUS(card, c, p, px) {
+    const sym = px.tv_symbol || (p && p.tv_symbol) || "";
+    const host = hEl("div", "px-tv");
+    if (sym) {
+      card.append(host);
+      const go = () => tvWidget(host, "mini-symbol-overview", { symbol: sym, width: "100%", height: 220, locale: "en", dateRange: "12M", colorTheme: isDarkPage() ? "dark" : "light", isTransparent: true, autosize: false, chartOnly: false });
+      if ("IntersectionObserver" in window) {
+        const io = new IntersectionObserver((es) => { if (es.some(e => e.isIntersecting)) { io.disconnect(); go(); } }, { rootMargin: "200px" });
+        io.observe(host);
+      } else go();
+    } else card.append(hEl("p", "px-note", "No chart: the exchange of this ticker is not mapped."));
+    const g = hEl("div", "px-cells px-cells-1");
+    const fl = px.public_float;
+    g.append(pxCell("Public float (non-affiliates)", fl ? fmtAmt("USD", fl) : "n/a", fl ? "official" : null,
+      fl ? "as of " + dayText(px.as_of) + " (10-K cover, end of the second fiscal quarter)" : "not stated on a 10-K cover"));
+    card.append(g);
+    const ln = hEl("p", "px-links", "Chart by TradingView, delayed; not stored here.");
+    if (px.url) { ln.append("   Filing: "); ln.append(srcLink("SEC", px.url)); }
+    card.append(ln);
+  }
+  function renderPrice(mine, remote) {
+    const wrap = $("#co-price"); wrap.textContent = "";
+    const grid = hEl("div", "px-grid"), skipped = [];
+    mine.forEach(c => {
+      const r = remote.get(coKey(c)), p = profileOf(c, r), mk = (p && p.market) || c.market, tk = (p && p.ticker) || c.ticker;
+      if (!mk || !tk) { skipped.push(c.name.split(/[,、]/)[0].trim()); return; }
+      const card = hEl("article", "px-card"); card.append(pxHead(c, p));
+      const body = hEl("div", "px-body"); body.append(hEl("p", "px-note", "Loading…")); card.append(body);
+      grid.append(card);
+      pxLoad(c, p).then(px => {
+        body.textContent = "";
+        if (!px) { body.append(hEl("p", "px-note", mk === "JP" ? "No annual report figures yet for this ticker." : "No SEC price data yet for this ticker.")); return; }
+        if (px.kind === "jp_fy") pxFillJP(body, c, p, px); else if (px.kind === "us_float") pxFillUS(body, c, p, px);
+      });
+    });
+    wrap.append(grid);
+    if (skipped.length) wrap.append(hEl("p", "px-skip", "Not linked to a listing, so no price: " + skipped.join(", ") + ". Pick the company from the search list to link it."));
+  }
+
   function srcLink(label, url) { const a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener"; a.textContent = label; return a; }
   function pfBox(title) { const b = document.createElement("div"); b.className = "pf-box"; const h = document.createElement("h4"); h.textContent = title; b.append(h); return b; }
   function pfLine(box, text, url, label) {
