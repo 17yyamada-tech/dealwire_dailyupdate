@@ -391,7 +391,7 @@ def price_block(rows, end, url):
         h = l = None
         if n and k < n:
             h, l = hi[n - 1 - k], lo[n - 1 - k]
-    years.append({"k": k, "fy_end": str(int(end[:4]) - k) + end[4:], "high": h, "low": l, "eps": eps, "bps": bps,
+        years.append({"k": k, "fy_end": str(int(end[:4]) - k) + end[4:], "high": h, "low": l, "eps": eps, "bps": bps,
                       "per": per, "est_close": est, "scale": 1})
     resolved = {}
     for y in years:
