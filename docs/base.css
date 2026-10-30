@@ -122,13 +122,13 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
    what came before, what has come since. Rows share one height; each column scrolls inside it. */
 /* each followed story or company is its own card: a gap, a frame and an accent bar on the left,
    so one item never runs into the next */
-.fl-list { list-style: none; margin: 0; padding: 12px 14px 4px; display: grid; gap: 14px; }
+.fl-list { list-style: none; margin: 0; padding: 14px 14px 6px; display: grid; gap: 26px; }
 .fl-row { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr) 20px minmax(0, 1fr); column-gap: 14px; }
 .co-row { grid-template-columns: minmax(0, .75fr) 20px minmax(0, 2fr); }
 .fl-row { height: 340px; padding: 12px 14px 12px 16px; align-items: stretch; border-radius: 4px;
   border: 1px solid var(--line, var(--rule, var(--edge)));
   border-left: 3px solid var(--amber, var(--gold, var(--accent, var(--ink-3))));
-  background: color-mix(in srgb, var(--ink-3) 5%, transparent); }
+  background: color-mix(in srgb, var(--ink-3) 11%, transparent); box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink-3) 18%, transparent); }
 .fl-list > li.empty { display: block; }
 .fl-story, .co-card { min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
 /* the followed story keeps its board row, stacked the way phones show it: tags above the headline */
@@ -155,7 +155,15 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters, body[da
 .fl-col { display: flex; flex-direction: column; min-height: 0; }
 .fl-head { margin: 0 0 4px; }
 .digest-list.fl-items { display: block; padding: 0; flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }   /* one column in every skin */
-.fl-items li.fl-item, .fl-items li.empty { display: block; padding: 8px 0; }
+.fl-items li.empty { display: block; padding: 8px 0; }
+/* Background / Since then read as a timeline: a thin rule down the left, a dot per entry, and the date and source as a small tag */
+.fl-items { padding-left: 8px; }
+.fl-items li.fl-item { display: block; position: relative; padding: 4px 0 18px 18px; border-left: 2px solid color-mix(in srgb, var(--ink-3) 45%, transparent); }
+.fl-items li.fl-item:last-child { padding-bottom: 6px; }
+.fl-items li.fl-item::before { content: ""; position: absolute; left: -6px; top: 7px; width: 10px; height: 10px; border-radius: 50%; box-sizing: border-box;
+  background: var(--bg, var(--panel, #000)); border: 2px solid var(--amber, var(--gold, var(--accent, var(--ink-2)))); }
+.fl-items .fl-meta { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; padding: 1px 7px; border-radius: 3px; margin-bottom: 2px;
+  background: color-mix(in srgb, var(--ink-3) 20%, transparent); color: var(--ink-2); }
 .fl-items h3 { font-size: 13.5px; line-height: 1.35; margin: 2px 0 0; }
 .fl-items .d-sum { font-size: 12.5px; margin: 3px 0 0; }
 .fl-meta { margin: 0; }
@@ -294,21 +302,30 @@ body[data-view="archive"] .p-deals, body[data-view="archive"] .p-digest { displa
 .co-sub .chip { cursor: pointer; }
 .co-sub .chip[aria-pressed="true"] { background: color-mix(in srgb, var(--ink) 16%, transparent); color: var(--ink); border-color: var(--ink-2); }
 .pf-wrap { overflow-x: auto; padding: 0 14px 8px; }
-.pf-table { width: 100%; border-collapse: collapse; font-size: 12.5px; color: var(--ink-2); min-width: 900px; }
-.pf-table th { text-align: left; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); padding: 6px 8px; white-space: nowrap; }
+.pf-table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 12.5px; color: var(--ink-2); min-width: 900px; }
+.pf-table th { text-align: left; font-size: 10.5px; line-height: 1.25; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); padding: 6px 8px; vertical-align: bottom; }
 .pf-table th.num, .pf-table td.num { text-align: right; }
+.pf-table col.pc-name { width: 17%; } .pf-table col.pc-sec { width: 13%; } .pf-table col.pc-num { width: 9%; }
+.pf-table col.pc-gr { width: 9%; } .pf-table col.pc-hold { width: 23%; } .pf-table col.pc-def { width: 11%; }
+/* every collapsed row is the same height: each cell keeps to its own lines and cuts with an ellipsis */
 .pf-table td { padding: 8px; vertical-align: top; border-top: 1px solid var(--line, var(--rule, var(--edge))); }
+.pf-row td { height: 88px; box-sizing: border-box; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; }
+.pf-row td.pf-na { color: var(--ink-3); opacity: .55; }
 .pf-row { cursor: pointer; }
 .pf-row:hover td { background: color-mix(in srgb, var(--ink-3) 10%, transparent); }
-.pf-row .pf-name { background: none; border: 0; padding: 0; color: var(--ink); font: inherit; font-weight: 700; text-align: left; cursor: pointer; }
-.pf-row .pf-name::before { content: "▸"; display: inline-block; width: 1.1em; color: var(--ink-3); }
+.pf-row .pf-name { display: flex; align-items: baseline; max-width: 100%; background: none; border: 0; padding: 0; color: var(--ink); font: inherit; font-weight: 700; text-align: left; cursor: pointer; }
+.pf-row .pf-name::before { content: "▸"; flex: none; width: 1.1em; color: var(--ink-3); }
 .pf-row.open .pf-name::before { content: "▾"; }
-.pf-tk { display: block; margin-left: 1.1em; font: 700 10.5px/1.4 var(--mono, monospace); color: var(--ink-3); }
+.pf-nt { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pf-tk { display: block; margin-left: 1.1em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 700 10.5px/1.4 var(--mono, monospace); color: var(--ink-3); }
 .pf-conf { display: block; margin-top: 2px; font: 700 8.5px/1.2 var(--mono, monospace); letter-spacing: .06em; text-transform: uppercase; }
 h4 .pf-conf { display: inline-block; margin-left: 6px; }
-.pf-hold { display: block; white-space: nowrap; }
+.pf-hold { display: flex; align-items: baseline; gap: 8px; white-space: nowrap; }
+.pf-hn { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.pf-hp { flex: none; margin-left: auto; text-align: right; font-variant-numeric: tabular-nums; }
+.pf-agent { color: var(--ink-3); font-size: 10.5px; }
 .pf-pend { color: var(--ink-3); font-style: italic; }
-.pf-note { display: block; margin-top: 2px; font-size: 10.5px; color: var(--ink-3); }
+.pf-note { display: block; margin: 2px 0 0 1.1em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 10.5px; color: var(--ink-3); }
 .pf-def { font-weight: 700; } .pf-def.yes { color: #e0913a; } .pf-def.possible { color: #d9a23a; }
 .pf-detail > td { padding: 12px 8px 16px; }
 .pf-detail[hidden] { display: none; }

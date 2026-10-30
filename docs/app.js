@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261029-2215";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261030-1100";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1241,45 +1241,69 @@
     }
     return null;
   }
+  // display-only tidy of a shareholder name: NFKC (㈱ to (株)), drop the "(常任代理人 ...)" agent, one space
+  function tidyHolder(raw) {
+    let s = String(raw || "").normalize("NFKC"), agent = "";
+    const i = s.indexOf("(常任代理人");
+    if (i >= 0) {
+      let d = 0, j = i;
+      for (; j < s.length; j++) { if (s[j] === "(") d++; else if (s[j] === ")" && --d === 0) break; }
+      agent = s.slice(i + 1, j).replace(/^常任代理人\s*/, "").trim();
+      s = s.slice(0, i) + s.slice(j + 1);
+    }
+    return { name: s.replace(/\s+/g, " ").trim(), agent };
+  }
+  const NOTE_SHORT = { "Pick the company from the search list to get its profile": "Not linked · pick from list" };
   const cell = (tr, cls) => { const td = document.createElement("td"); if (cls) td.className = cls; tr.append(td); return td; };
   function renderProfile(mine, remote) {
     const wrap = $("#co-profile"); wrap.textContent = "";
     const t = document.createElement("table"); t.className = "pf-table";
     t.innerHTML = "<thead><tr><th>Company</th><th>Sector</th><th class='num'>Revenue</th><th class='num'>Op. income</th><th class='num'>Net income</th><th class='num'>Rev. growth</th><th>Top holders</th><th>Takeover defense</th></tr></thead>";
+    const cg = document.createElement("colgroup");
+    ["pc-name", "pc-sec", "pc-num", "pc-num", "pc-num", "pc-gr", "pc-hold", "pc-def"].forEach(c => { const e = document.createElement("col"); e.className = c; cg.append(e); });
+    t.prepend(cg);
     const tb = document.createElement("tbody");
     mine.forEach(c => {
       const key = coKey(c), r = remote.get(key), p = profileOf(c, r), f = p && p.fin;
       const tr = document.createElement("tr"); tr.className = "pf-row" + (pfOpen.has(key) ? " open" : "");
       const n = cell(tr);
-      const nb = document.createElement("button"); nb.type = "button"; nb.className = "pf-name"; nb.textContent = c.name.split(/[,、]/)[0].trim();
+      const nb = document.createElement("button"); nb.type = "button"; nb.className = "pf-name";
+      const nm = c.name.split(/[,、]/)[0].trim(), nt = document.createElement("span"); nt.className = "pf-nt"; nt.textContent = nm; nb.title = nm; nb.append(nt);
       nb.setAttribute("aria-expanded", String(pfOpen.has(key)));
       n.append(nb);
       const tk = (p && p.ticker) || c.ticker, mk = (p && p.market) || c.market;
       if (tk) { const s = document.createElement("span"); s.className = "pf-tk"; s.textContent = tk + (mk ? " · " + mk : ""); n.append(s); }
-      const note = (txt) => { const s = document.createElement("span"); s.className = "pf-note"; s.textContent = txt; return s; };
+      const na = (td) => { td.textContent = "n/a"; td.classList.add("pf-na"); };
+      const note = (txt) => { const s = document.createElement("span"); s.className = "pf-note"; s.title = txt; s.textContent = NOTE_SHORT[txt] || txt; return s; };
       if (!p) {
         const td = cell(tr, "pf-pend"); td.colSpan = 7; td.textContent = "Profile pending";
       } else {
-        const sec = cell(tr); sec.textContent = p.sector || c.sector || "n/a";
+        const sec = cell(tr, "pf-sec"), sv = p.sector || c.sector;
+        if (sv) { sec.textContent = sv; sec.title = sv; } else na(sec);
         const cur = f && f.currency;
         [f && f.revenue, f && f.operating_income, f && f.net_income].forEach((arr, k) => {
           const td = cell(tr, "num");
           if (f && arr && arr[0]) { td.textContent = fmtAmt(cur, arr[0].val); td.append(conf("official")); td.title = "Year ended " + arr[0].end; }
-          else td.textContent = "n/a";
+          else na(td);
         });
         const g = cell(tr, "num"), rv = f && f.revenue;
         if (rv && rv[0] && rv[1] && rv[1].val) { const x = (rv[0].val / rv[1].val - 1) * 100; g.textContent = (x >= 0 ? "+" : "−") + Math.abs(x).toFixed(1) + "%"; g.append(conf("official")); }
-        else g.textContent = "n/a";
+        else na(g);
         const h = cell(tr), hs = p.holders;
         if (hs && hs.list && hs.list.length) {
-          hs.list.slice(0, 3).forEach(x => { const s = document.createElement("span"); s.className = "pf-hold"; s.textContent = x.name + (x.pct != null ? " " + x.pct + "%" : ""); h.append(s); });
+          hs.list.slice(0, 3).forEach(x => {
+            const tn = tidyHolder(x.name), s = document.createElement("span"); s.className = "pf-hold"; s.title = String(x.name || "").normalize("NFKC").replace(/\s+/g, " ").trim();
+            const a = document.createElement("span"); a.className = "pf-hn"; a.textContent = tn.name;
+            const b = document.createElement("span"); b.className = "pf-hp"; b.textContent = x.pct != null ? x.pct + "%" : "";
+            s.append(a, b); h.append(s);
+          });
           h.append(conf("official"));
-        } else h.textContent = "n/a";
+        } else na(h);
         const d = cell(tr), df = p.defense;
         if (df) {
           const s = document.createElement("span"); const fl = df.flag === "none_found" ? "none found" : (df.flag || "unknown");
           s.className = "pf-def " + (df.flag || "unknown"); s.textContent = fl; d.append(s, conf("machine"));
-        } else d.textContent = "unknown";
+        } else na(d);
         if (p.status === "pending" || p.status === "error") n.append(note(p.status_note || (p.status === "error" ? "Profile could not be built." : "Profile pending")));
         if (p._fallback) n.append(note("Filed figures only; the rest is pending."));
       }
@@ -1330,7 +1354,11 @@
     const hb = pfBox(hs ? (hs.kind === "5pct" ? "Holders of 5% or more" : "Largest shareholders") : "Shareholders");
     if (hs && hs.list && hs.list.length) {
       const ul = document.createElement("ul");
-      hs.list.forEach(x => { const li = document.createElement("li"); li.textContent = x.name + (x.pct != null ? "  " + x.pct + "%" : ""); ul.append(li); });
+      hs.list.forEach(x => {
+        const tn = tidyHolder(x.name), li = document.createElement("li"); li.textContent = tn.name + (x.pct != null ? "  " + x.pct + "%" : "");
+        if (tn.agent) { const sm = document.createElement("small"); sm.className = "pf-agent"; sm.textContent = "  (常任代理人 " + tn.agent + ")"; li.append(sm); }
+        ul.append(li);
+      });
       hb.append(ul);
       pfLine(hb, "As of " + hs.as_of + " · " + hs.source, hs.url, "Filing");
     } else pfLine(hb, "Not available yet.");
