@@ -50,10 +50,16 @@ def main():
                 for r in rows:
                     if len(r) < 9 or "TextBlock" in r[0]:
                         continue
+                    if re.search(r"Treasury|Row\d+Member|ShareholdingRatio|VotingRights|Interim|DividendPaid|Dilut|RatioOfOwners|EquityToAsset", r[0]):
+                        continue
+                    if re.search("最高|最低", r[1]) and "SummaryOfBusinessResults" not in r[0] and seen < 400:
+                        print(f"   [HL] {r[0].split(':')[-1][:60]} | {r[1][:30]} | {r[2][:40]} | {r[4]} | {r[8][:20]}")
+                        seen += 1
+                        continue
                     if WANT.search(r[0]) or "経営指標" in r[1] and "SummaryOfBusinessResults" in r[0] and ("株" in r[1] or "利回" in r[1] or "比率" in r[1]):
                         print(f"   {r[0].split(':')[-1][:70]:<70} | {r[1][:24]:<24} | {r[2][:38]:<38} | {r[3]} | {r[4]} | {r[8][:20]}")
                         seen += 1
-                        if seen > 160:
+                        if seen > 400:
                             break
 
 
