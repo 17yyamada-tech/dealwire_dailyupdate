@@ -130,8 +130,6 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
   --kind: var(--amber, var(--gold, var(--accent, var(--ink-3))));
   border-left: 3px solid var(--kind);
   background: color-mix(in srgb, var(--kind) 9%, transparent); box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink-3) 18%, transparent); }
-.fl-row.act-sponsor { --kind: #2f6cb3; }    /* Sponsor (fund side): deep blue, as Fund on Companies */
-.fl-row.act-strategic { --kind: #1f8a53; }  /* Strategic (corporate side): deep green, as Corporate on Companies */
 .fl-list > li.empty { display: block; }
 .fl-story, .co-card { min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
 /* the followed story keeps its board row, stacked the way phones show it: tags above the headline */
@@ -309,8 +307,8 @@ body[data-view="archive"] .p-deals, body[data-view="archive"] .p-digest { displa
 .pf-table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 12.5px; color: var(--ink-2); min-width: 900px; }
 .pf-table th { text-align: left; font-size: 10.5px; line-height: 1.25; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); padding: 6px 8px; vertical-align: bottom; }
 .pf-table th.num, .pf-table td.num { text-align: right; }
-.pf-table col.pc-name { width: 17%; } .pf-table col.pc-sec { width: 13%; } .pf-table col.pc-num { width: 9%; }
-.pf-table col.pc-gr { width: 9%; } .pf-table col.pc-hold { width: 23%; } .pf-table col.pc-def { width: 11%; }
+.pf-table col.pc-name { width: 17%; } .pf-table col.pc-sec { width: 10%; } .pf-table col.pc-num { width: 9%; }
+.pf-table col.pc-gr { width: 9%; } .pf-table col.pc-hold { width: 26%; } .pf-table col.pc-def { width: 11%; }
 /* every collapsed row is the same height: each cell keeps to its own lines and cuts with an ellipsis */
 .pf-table td { padding: 8px; vertical-align: top; border-top: 1px solid var(--line, var(--rule, var(--edge))); }
 .pf-row td { height: 88px; box-sizing: border-box; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; }
