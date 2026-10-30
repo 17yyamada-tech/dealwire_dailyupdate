@@ -5,6 +5,8 @@ Writes docs/data/us_profiles/<ticker>.json for every US ticker in docs/data/comp
            "frames" API, which returns one value per company for a whole period in a single request,
            so all ~7,700 companies need a few dozen requests, not thousands.
   holders  holders of 5% or more, from Schedule 13D / 13G filings of the last three years
+  price    the public float on the 10-K cover (dei:EntityPublicFloat, market value held by non-affiliates on the last
+           business day of the second fiscal quarter), from the same frames API; the newest period per company wins
   defense  a shareholder rights plan hint: a Form 8-A for rights, or an 8-K item 3.03 that describes them
 Holders and defence cost several requests per company, so they are filled over several runs:
 companies never analysed go first, then the oldest. A company whose relevant filings have not changed
@@ -127,6 +129,23 @@ def load_financials() -> dict:
     return fin
 
 
+def load_float() -> dict:
+    """cik -> {"v": dollars, "end": date} for the newest cover-page public float. Instant frames are named by
+    calendar quarter (CY2025Q2I is 30 Jun 2025); a company's fiscal Q2 end can fall in any of them."""
+    year = dt.date.today().year
+    best = {}
+    for y in (year - 2, year - 1, year):
+        for q in (1, 2, 3, 4):
+            j = get(f"https://data.sec.gov/api/xbrl/frames/dei/EntityPublicFloat/USD/CY{y}Q{q}I.json", True)
+            for r in (j or {}).get("data", []):
+                if r.get("val") is None or not r.get("end"):
+                    continue
+                if r["cik"] not in best or r["end"] > best[r["cik"]]["end"]:
+                    best[r["cik"]] = {"v": r["val"], "end": r["end"]}
+    print(f"  frames EntityPublicFloat: {len(best)} companies")
+    return best
+
+
 # ---------------------------------------------------------------- holders and defence
 
 def analyse(cik: int, sub: dict) -> tuple:
@@ -210,6 +229,7 @@ def main() -> int:
     start = time.time()
     fin = load_financials()
     print(f"financials for {len(fin)} companies in {time.time() - start:.0f}s")
+    floats = load_float()
 
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     today = dt.date.today().isoformat()
@@ -250,6 +270,14 @@ def main() -> int:
             except Exception as ex:  # noqa: BLE001 - retried on a later run
                 failed += 1
                 print(f"  {tk} FAILED {str(ex)[:90]}")
+        fl = floats.get(cik)
+        if fl and fl["v"] > 0:
+            prof["price"] = {"kind": "us_float", "public_float": int(fl["v"]), "as_of": fl["end"], "tv_symbol": prof["tv_symbol"],
+                             "source": "SEC",
+                             "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik:010d}&type=10-K"}
+        elif prof["tv_symbol"]:
+            prof["price"] = {"kind": "us_float", "public_float": None, "as_of": None, "tv_symbol": prof["tv_symbol"], "source": "SEC",
+                             "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik:010d}&type=10-K"}
         prof["updated"] = (old or {}).get("updated", now)
         if old is None or {k: v for k, v in old.items() if k != "updated"} != {k: v for k, v in prof.items() if k != "updated"}:
             prof["updated"] = now
