@@ -424,7 +424,7 @@ def main() -> int:
             have, old_price = old.get("doc_id"), old.get("price")
         except Exception:  # noqa: BLE001
             have, old_price = None, None
-        if have != hit["doc_id"] or not isinstance(old_price, dict):
+        if have != hit["doc_id"] or not isinstance(old_price, dict) or DRY:
             todo.append((tk, hit))
     print(f"{len(index)} companies in the index, {len(todo)} to read")
     start, done, failed = time.time(), 0, 0
