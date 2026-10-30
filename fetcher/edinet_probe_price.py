@@ -48,6 +48,8 @@ def main():
                 print(f"-- {n} rows={len(rows)}")
                 seen = 0
                 for r in rows:
+                    if len(r) >= 9 and re.search(r"NumberOfSharesIssuedSharesVotingRights|NumberOfIssuedShares|NumberOfTreasury|TreasuryStock$", r[0]) and "Row" not in r[2]:
+                        print(f"   [SH] {r[0].split(':')[-1][:90]} | {r[1][:30]} | {r[2][:90]} | {r[8][:20]}")
                     if len(r) >= 9 and re.search("株価|株式の価格|Price", r[1] + r[0]) and "TextBlock" not in r[0]:
                         print(f"   [PX] {r[0].split(':')[-1][:60]} | {r[1][:40]} | {r[2][:40]} | {r[8][:30]}")
                     if len(r) >= 9 and "最高株価" in r[8]:
