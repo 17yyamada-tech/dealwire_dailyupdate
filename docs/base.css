@@ -127,8 +127,11 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
 .co-row { grid-template-columns: minmax(0, .75fr) 20px minmax(0, 2fr); }
 .fl-row { height: 340px; padding: 12px 14px 12px 16px; align-items: stretch; border-radius: 4px;
   border: 1px solid var(--line, var(--rule, var(--edge)));
-  border-left: 3px solid var(--amber, var(--gold, var(--accent, var(--ink-3))));
-  background: color-mix(in srgb, var(--ink-3) 11%, transparent); box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink-3) 18%, transparent); }
+  --kind: var(--amber, var(--gold, var(--accent, var(--ink-3))));
+  border-left: 3px solid var(--kind);
+  background: color-mix(in srgb, var(--kind) 9%, transparent); box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink-3) 18%, transparent); }
+.fl-row.act-sponsor { --kind: #2f6cb3; }    /* Sponsor (fund side): deep blue, as Fund on Companies */
+.fl-row.act-strategic { --kind: #1f8a53; }  /* Strategic (corporate side): deep green, as Corporate on Companies */
 .fl-list > li.empty { display: block; }
 .fl-story, .co-card { min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
 /* the followed story keeps its board row, stacked the way phones show it: tags above the headline */
@@ -158,12 +161,13 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters, body[da
 .fl-items li.empty { display: block; padding: 8px 0; }
 /* Background / Since then read as a timeline: a thin rule down the left, a dot per entry, and the date and source as a small tag */
 .fl-items { padding-left: 8px; }
-.fl-items li.fl-item { display: block; position: relative; padding: 4px 0 18px 18px; border-left: 2px solid color-mix(in srgb, var(--ink-3) 45%, transparent); }
+.fl-items li.fl-item { display: block; position: relative; padding: 4px 0 18px 18px; border-left: 2px solid color-mix(in srgb, var(--kind) 55%, transparent); }
 .fl-items li.fl-item:last-child { padding-bottom: 6px; }
 .fl-items li.fl-item::before { content: ""; position: absolute; left: -6px; top: 7px; width: 10px; height: 10px; border-radius: 50%; box-sizing: border-box;
-  background: var(--bg, var(--panel, #000)); border: 2px solid var(--amber, var(--gold, var(--accent, var(--ink-2)))); }
+  background: var(--bg, var(--panel, #000)); border: 2px solid var(--kind); }
 .fl-items .fl-meta { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; padding: 1px 7px; border-radius: 3px; margin-bottom: 2px;
-  background: color-mix(in srgb, var(--ink-3) 20%, transparent); color: var(--ink-2); }
+  background: color-mix(in srgb, var(--kind) 24%, transparent); color: var(--ink); max-width: 100%; }
+.fl-ms { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .fl-items h3 { font-size: 13.5px; line-height: 1.35; margin: 2px 0 0; }
 .fl-items .d-sum { font-size: 12.5px; margin: 3px 0 0; }
 .fl-meta { margin: 0; }

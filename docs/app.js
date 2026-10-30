@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261030-1100";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261030-1200";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -869,7 +869,7 @@
   function flItem({ date, title, url, source, summary, tags }) {
     const li = document.createElement("li"); li.className = "fl-item"; li.dataset.url = url || "";
     const meta = document.createElement("p"); meta.className = "d-links fl-meta";
-    meta.textContent = [fmtWhen(date), source].filter(Boolean).join(" · ");
+    const ms = document.createElement("span"); ms.className = "fl-ms"; ms.textContent = ms.title = [fmtWhen(date), source].filter(Boolean).join(" · "); meta.append(ms);
     // the company's keywords this headline contains, boxed in the company's colour
     (tags || []).forEach(k => { const t = document.createElement("span"); t.className = "kw-tag"; t.textContent = k; meta.append(t); });
     const h = document.createElement("h3"), a = document.createElement("a");
@@ -954,7 +954,7 @@
     if (!list.length) { ol.append(empty("Nothing followed yet. Tap ☆ on any story and its background and follow-ups will build up here.")); return; }
     const pick = (x) => ({ date: x.date, title: x.headline || x.title, url: x.url, source: x.source, summary: dtext(x, "summary") });
     list.forEach(it => {
-      const li = document.createElement("li"); li.className = "fl-row";
+      const li = document.createElement("li"); li.className = "fl-row" + (it.actor === "Sponsor" ? " act-sponsor" : it.actor === "Strategic" ? " act-strategic" : "");
       const story = document.createElement("div"); story.className = "fl-story";
       const rows = document.createElement("ol"); rows.className = "rows"; rows.append(rowNode(it));
       story.append(rows);
