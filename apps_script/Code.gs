@@ -2,22 +2,31 @@
  * Deal Wire mailer — Google Apps Script web app.
  *
  * Holds the subscriber list in a private Google Sheet (never in the public repo) and emails each new
- * digest edition to confirmed subscribers. Only people the owner approves receive it:
- *   subscribe -> "awaiting_owner" + an Approve / Decline email to the owner -> approve: "pending" and the
- *   person gets the confirmation email -> they press it: "active". Declined: "declined". Paused: "paused".
- *   doPost  action=subscribe     -> adds the address as "awaiting_owner" and asks the owner to approve
+ * digest edition to confirmed subscribers. Site access and email are one flow:
+ *   1. A friend asks for access on the request page (?action=request). The owner gets an Approve / Decline email.
+ *   2. Approve -> this script adds the address to the Cloudflare Access policy "Approved readers" (API) and tells
+ *      the person. They open the site and log in with a 6-digit code mailed to them.
+ *   3. Only approved readers can subscribe to the email digest (confirmation email -> "active"), and each
+ *      edition goes only to "active" subscribers who are still in "Approved readers" at that moment.
+ *   doGet   action=request       -> the public access-request page
+ *   doPost  action=request_access -> records the request (sheet AccessRequests) and asks the owner
+ *   doGet   action=approve|decline (id, k) -> owner only; shows a confirm page, the button POSTs the same to doPost
+ *   doPost  action=subscribe     -> approved readers only: adds the address as "pending" and sends a confirmation email
  *   doPost  action=contact       -> emails the site owner what a reader typed in the Contact box
  *   doPost  action=sync          -> stores one browser's followed stories and companies
  *   doGet   action=follows       -> every followed story, no viewer ids (read by the fetch job)
  *   doGet   action=companies     -> one browser's companies with their latest headlines (private)
- *   doGet   action=approve|decline (id, k) -> owner only; shows a confirm page, the button POSTs the same to doPost
  *   doGet   action=confirm       -> marks the address "active"
  *   doGet   action=unsubscribe   -> marks the address "unsubscribed" (link in every email)
  *   sendNewEdition (time trigger, every 10 min; create it with setupMailTrigger()) -> if a new edition
- *     exists on GitHub, email it once to "active" subscribers
- *   pauseExistingSubscribers() (once), approveExisting(email), requestApprovalForPaused(): run from the editor
+ *     exists on GitHub, email it once to "active" subscribers who are still approved readers
  *   refreshCompanies (time trigger, every 30 min) -> Google News headlines for every followed company
  *   kickFetch (time trigger, every 30 min) -> asks GitHub to run fetch.yml (its own schedule runs late)
+ *   Run from the editor: approveReader(email), revokeReader(email), pauseExistingSubscribers(),
+ *     approveExisting(email), requestApprovalForPaused(), setupMailTrigger()
+ *
+ * Script properties: SHEET_ID (setup), OWNER_KEY (auto), CF_API_TOKEN and CF_ACCOUNT_ID (Cloudflare, set by hand),
+ * GITHUB_TOKEN (optional, kickFetch).
  *
  * Setup: paste this file into a new Apps Script project, run setup() once, then Deploy > New deployment >
  * Web app (Execute as: Me, Who has access: Anyone). Put the /exec URL into MAIL_ENDPOINT in docs/app.js.
@@ -32,6 +41,10 @@ const CONFIG = {
   CONTACT_MAX_CHARS: 4000,
   CONTACT_MAX_PER_DAY: 40,        // a cap so a bot cannot burn the Gmail quota
   APPROVAL_MAX_PER_DAY: 20,       // approval requests mailed to the owner per day
+  ACCESS_REQUESTS_PER_DAY: 40,    // access requests recorded per day (a cap against bots)
+  POLICY_NAME: 'Approved readers', // the reusable Cloudflare Access policy that lists who may open the site
+  READERS_CACHE_SECONDS: 300,
+  CF_API: 'https://api.cloudflare.com/client/v4',
 };
 
 /* ---------------- setup ---------------- */
@@ -53,7 +66,7 @@ function setup() {
   ScriptApp.newTrigger('refreshCompanies').timeBased().everyMinutes(30).create();
   ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'kickFetch').forEach(t => ScriptApp.deleteTrigger(t));
   ScriptApp.newTrigger('kickFetch').timeBased().everyMinutes(30).create();
-  viewersTab_(); newsTab_();
+  viewersTab_(); newsTab_(); accessTab_();
   // Mark the current newest edition as already sent so setup does not email an old digest.
   const idx = fetchJson_(CONFIG.DATA_URL + 'index.json');
   if (idx && idx.editions && idx.editions[0]) props.setProperty('LAST_SENT', idx.editions[0].id);
@@ -482,6 +495,7 @@ function doPost(e) {
   if (p.action === 'contact') return text_(contact_(p));
   if (p.action === 'sync') return text_(sync_(p));
   if (p.action === 'approve' || p.action === 'decline') return page_(ownerDecision_(p.action, p.id, p.k));   // button on the confirmation page
+  if (p.action === 'request_access') return page_(requestAccess_(p));
   return text_('unknown action');
 }
 
@@ -489,6 +503,7 @@ function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'follows') return json_(follows_(), p.callback);
   if (p.action === 'companies') return json_(companiesFor_(p.vid), p.callback);
+  if (p.action === 'request') return requestPage_();
   if (p.action === 'approve' || p.action === 'decline') return ownerConfirmPage_(p.id, p.k);   // asks first; nothing changes on GET
   if (p.action === 'confirm') return page_(setStatusByToken_(p.t, 'active')
     ? ['You are subscribed', 'Deal Wire will arrive at 08:30, 12:30 and 15:30 SGT.']
@@ -501,33 +516,156 @@ function doGet(e) {
 
 function subscribe_(email) {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 200) return 'invalid email';
+  // only people already let into the site (the Cloudflare policy) may subscribe; no second approval is needed
+  let readers;
+  try { readers = getReaders_(false); } catch (e) { Logger.log('subscribe: ' + e); return 'try again later'; }
+  if (readers.indexOf(email) < 0) return 'request access first';
   const lock = LockService.getScriptLock(); lock.waitLock(10000);
   try {
     const sh = sheet_(), rows = sh.getDataRange().getValues();
     const now = new Date();
     for (let r = 1; r < rows.length; r++) {
       if (rows[r][0] !== email) continue;
-      const st = rows[r][1];
-      if (st === 'active') return 'already subscribed';
-      if (st === 'declined' || st === 'awaiting_owner') return 'request received';   // no decision is revealed, no second request
-      // approved but not yet confirmed: re-send the confirmation at most every 10 minutes
-      if (st === 'pending') {
-        if (now - new Date(rows[r][3]) < 10 * 60 * 1000) return 'confirmation already sent';
-        const t = Utilities.getUuid();
-        sh.getRange(r + 1, 2, 1, 3).setValues([['pending', t, now]]);
-        sendConfirm_(email, t);
-        return 'confirmation sent';
-      }
-      // paused or unsubscribed: the owner has to approve again
-      const token = Utilities.getUuid();
-      sh.getRange(r + 1, 2, 1, 3).setValues([['awaiting_owner', token, now]]);
-      askOwner_(email, token);
-      return 'request received';
+      if (rows[r][1] === 'active') return 'already subscribed';
+      // re-send the confirmation at most every 10 minutes to stop the form being used to spam an inbox
+      if (rows[r][1] === 'pending' && now - new Date(rows[r][3]) < 10 * 60 * 1000) return 'confirmation already sent';
+      const t = Utilities.getUuid();
+      sh.getRange(r + 1, 2, 1, 3).setValues([['pending', t, now]]);
+      sendConfirm_(email, t);
+      return 'confirmation sent';
     }
     const token = Utilities.getUuid();
-    sh.appendRow([email, 'awaiting_owner', token, now, '', '']);
-    askOwner_(email, token);
-    return 'request received';
+    sh.appendRow([email, 'pending', token, now, '', '']);
+    sendConfirm_(email, token);
+    return 'confirmation sent';
+  } finally { lock.releaseLock(); }
+}
+
+/* ---------------- Cloudflare Access: who may open the site ----------------
+ * The reusable policy "Approved readers" (Allow, Include = Emails) is the list. This script reads and
+ * edits it through the Cloudflare API with a token that can edit Access policies (property CF_API_TOKEN)
+ * and the account id (CF_ACCOUNT_ID). Docs: developers.cloudflare.com/api/resources/zero_trust/subresources/access/subresources/policies/
+ */
+
+// One Cloudflare call. Throws with a message that says "try again" for 5xx, 429 and network errors,
+// so the time triggers treat those as passing (see transient_).
+function cf_(method, path, payload) {
+  const props = PropertiesService.getScriptProperties();
+  const token = props.getProperty('CF_API_TOKEN'), account = props.getProperty('CF_ACCOUNT_ID');
+  if (!token || !account) throw new Error('Cloudflare is not set up: save CF_API_TOKEN and CF_ACCOUNT_ID as script properties');
+  const opts = { method: method, muteHttpExceptions: true, headers: { Authorization: 'Bearer ' + token.trim() } };
+  if (payload) { opts.contentType = 'application/json'; opts.payload = JSON.stringify(payload); }
+  let res;
+  try { res = UrlFetchApp.fetch(CONFIG.CF_API + '/accounts/' + account.trim() + path, opts); } catch (e) {
+    throw new Error('Cloudflare API unreachable, try again: ' + e.message);
+  }
+  const code = res.getResponseCode(), text = res.getContentText();
+  let body = null; try { body = JSON.parse(text); } catch (e) { /* not JSON */ }
+  if (code >= 500 || code === 429) throw new Error('Cloudflare API ' + code + ', try again');
+  if (code < 200 || code >= 300 || !body || body.success === false) {
+    throw new Error('Cloudflare API ' + code + ': ' + text.slice(0, 300));
+  }
+  return body.result;
+}
+
+function readerPolicy_() {
+  const list = cf_('get', '/access/policies?per_page=100') || [];
+  const hit = list.filter(function (x) { return x.name === CONFIG.POLICY_NAME; })[0];
+  if (!hit) throw new Error('Cloudflare policy "' + CONFIG.POLICY_NAME + '" was not found in this account');
+  return cf_('get', '/access/policies/' + hit.id);
+}
+function policyEmails_(policy) {
+  return (policy.include || []).filter(function (r) { return r && r.email && r.email.email; })
+    .map(function (r) { return String(r.email.email).toLowerCase(); });
+}
+// The addresses in "Approved readers", lower case. Cached for a few minutes unless fresh is true.
+function getReaders_(fresh) {
+  const cache = CacheService.getScriptCache();
+  if (!fresh) { const hit = cache.get('READERS'); if (hit) return JSON.parse(hit); }
+  const list = policyEmails_(readerPolicy_());
+  cache.put('READERS', JSON.stringify(list), CONFIG.READERS_CACHE_SECONDS);
+  return list;
+}
+// Writes the policy back with a new include list. Only the editable fields are sent; the rest stays as it was.
+function savePolicy_(policy, include) {
+  const body = { include: include };
+  ['name', 'decision', 'exclude', 'require', 'precedence', 'session_duration', 'approval_required', 'approval_groups',
+    'isolation_required', 'purpose_justification_required', 'purpose_justification_prompt'].forEach(function (f) {
+    if (policy[f] !== undefined && policy[f] !== null) body[f] = policy[f];
+  });
+  cf_('put', '/access/policies/' + policy.id, body);
+  CacheService.getScriptCache().remove('READERS');
+}
+function addReader_(email) {
+  email = String(email).trim().toLowerCase();
+  const policy = readerPolicy_();
+  if (policyEmails_(policy).indexOf(email) >= 0) return false;   // already in; nothing to change
+  savePolicy_(policy, (policy.include || []).concat([{ email: { email: email } }]));
+  return true;
+}
+function removeReader_(email) {
+  email = String(email).trim().toLowerCase();
+  const policy = readerPolicy_();
+  const keep = (policy.include || []).filter(function (r) { return !(r && r.email && String(r.email.email).toLowerCase() === email); });
+  if (keep.length === (policy.include || []).length) return false;
+  savePolicy_(policy, keep);
+  return true;
+}
+
+/* ---------------- access requests and the owner's decision ---------------- */
+
+function accessTab_() { return tab_('AccessRequests', ['email', 'note', 'status', 'token', 'requested', 'decided']); }
+
+function pageHead_(title, intro) {
+  return '<div style="font-family:Arial,sans-serif;max-width:520px;margin:60px auto;padding:0 16px">' +
+    '<p style="font:bold 14px Consolas,monospace;letter-spacing:.14em;color:#c98a00">DEAL WIRE</p>' +
+    '<h1 style="font-size:22px">' + esc_(title) + '</h1><p style="color:#374151">' + intro + '</p>';
+}
+
+// The public page a friend opens to ask for access.
+function requestPage_() {
+  const url = ScriptApp.getService().getUrl();
+  const input = 'width:100%;box-sizing:border-box;padding:10px;font:15px Arial,sans-serif;border:1px solid #9ca3af;border-radius:3px;margin:0 0 12px';
+  return HtmlService.createHtmlOutput(
+    pageHead_('Ask for access to Deal Wire', 'Enter your email address. After the owner approves it, you open the site and log in with a 6-digit code sent to this address.') +
+    '<form method="post" action="' + esc_(url) + '" target="_top">' +
+    '<input type="hidden" name="action" value="request_access">' +
+    '<input type="email" name="email" required maxlength="200" placeholder="you@example.com" style="' + input + '">' +
+    '<input type="text" name="note" maxlength="300" placeholder="Who are you? (optional)" style="' + input + '">' +
+    '<input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">' +
+    '<button type="submit" style="background:#ffbf3c;color:#000;border:0;border-radius:3px;font:bold 13px Arial,sans-serif;letter-spacing:.06em;padding:12px 18px;cursor:pointer">ASK FOR ACCESS</button>' +
+    '</form></div>').setTitle('Deal Wire');
+}
+
+// Records a request and asks the owner. The answer never says what happened to an earlier request.
+function requestAccess_(p) {
+  const done = ['Request received', 'The owner has been asked. If it is approved, you will get an email at this address.'];
+  if (String(p.website || '')) return done;                                  // honeypot: only a bot fills this
+  const email = String(p.email || '').trim().toLowerCase();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 200) return ['Check the address', 'That does not look like an email address.'];
+  const note = clip_(p.note, 300);
+  const props = PropertiesService.getScriptProperties();
+  const dayKey = 'ACCESS_' + Utilities.formatDate(new Date(), 'Asia/Singapore', 'yyyy-MM-dd');
+  const lock = LockService.getScriptLock(); lock.waitLock(10000);
+  try {
+    const sh = accessTab_(), rows = sh.getDataRange().getValues(), now = new Date();
+    for (let r = 1; r < rows.length; r++) {
+      if (rows[r][0] !== email) continue;
+      const st = rows[r][2];
+      if (st === 'approved') return ['Already approved', 'Open Deal Wire and log in with the 6-digit code sent to this address.'];
+      if (st !== 'error') return done;                                       // awaiting, declined or revoked: no new mail
+      const t = Utilities.getUuid();                                         // a failed approval is asked again
+      sh.getRange(r + 1, 2, 1, 5).setValues([[note, 'awaiting_owner', t, now, '']]);
+      askOwner_(email, t, note);
+      return done;
+    }
+    const n = Number(props.getProperty(dayKey) || 0);
+    if (n >= CONFIG.ACCESS_REQUESTS_PER_DAY) return ['Please try tomorrow', 'Too many requests today.'];
+    props.setProperty(dayKey, String(n + 1));
+    const token = Utilities.getUuid();
+    sh.appendRow([email, note, 'awaiting_owner', token, now, '']);
+    askOwner_(email, token, note);
+    return done;
   } finally { lock.releaseLock(); }
 }
 
@@ -547,9 +685,12 @@ function ownerSig_(action, id) {
 function ownerLink_(action, id) {
   return ScriptApp.getService().getUrl() + '?action=' + action + '&id=' + encodeURIComponent(id) + '&k=' + ownerSig_(action, id);
 }
+function mailOwner_(subject, body) {
+  MailApp.sendEmail({ to: Session.getEffectiveUser().getEmail(), subject: subject, name: CONFIG.SENDER_NAME, body: body });
+}
 
-// Mails the owner an Approve / Decline pair for one address (capped per day against floods).
-function askOwner_(email, token) {
+// Mails the owner an Approve / Decline pair for one request (capped per day against floods).
+function askOwner_(email, token, note) {
   const props = PropertiesService.getScriptProperties();
   const key = 'APPROVAL_' + Utilities.formatDate(new Date(), 'Asia/Singapore', 'yyyy-MM-dd');
   const n = Number(props.getProperty(key) || 0);
@@ -558,11 +699,12 @@ function askOwner_(email, token) {
   const owner = Session.getEffectiveUser().getEmail();
   const yes = ownerLink_('approve', token), no = ownerLink_('decline', token);
   const html = shell_(
-    '<p style="margin:0 0 16px;font:15px/1.55 Arial,sans-serif;color:#1b1f24"><b>' + esc_(email) + '</b> asked to receive the Deal Wire digest by email.</p>' +
+    '<p style="margin:0 0 8px;font:15px/1.55 Arial,sans-serif;color:#1b1f24"><b>' + esc_(email) + '</b> asked for access to Deal Wire.</p>' +
+    (note ? '<p style="margin:0 0 16px;font:14px/1.55 Arial,sans-serif;color:#374151">Note: ' + esc_(note) + '</p>' : '') +
     button_(yes, 'Approve') + '&nbsp;&nbsp;' + button_(no, 'Decline') +
-    '<p style="margin:18px 0 0;font:12px/1.5 Arial,sans-serif;color:#6b7280">These links work for you only; each opens a page where you press the button. Approving sends them a confirmation email; the digest starts once they confirm. Access to the site itself is separate (Cloudflare Access).</p>', '');
-  MailApp.sendEmail({ to: owner, subject: 'Deal Wire · approve ' + email + '?', name: CONFIG.SENDER_NAME, htmlBody: html,
-    body: email + ' asked to receive the Deal Wire digest.\nApprove: ' + yes + '\nDecline: ' + no + '\n' });
+    '<p style="margin:18px 0 0;font:12px/1.5 Arial,sans-serif;color:#6b7280">These links work for you only; each opens a page where you press the button. Approving adds the address to "Approved readers" in Cloudflare Access, so they can open the site and subscribe to the email digest.</p>', '');
+  MailApp.sendEmail({ to: owner, subject: 'Deal Wire · access for ' + email + '?', name: CONFIG.SENDER_NAME, htmlBody: html,
+    body: email + ' asked for access to Deal Wire.' + (note ? '\nNote: ' + note : '') + '\nApprove: ' + yes + '\nDecline: ' + no + '\n' });
   return true;
 }
 
@@ -574,10 +716,10 @@ function ownerConfirmPage_(id, k) {
   if (!id) return page_(bad);
   const okSig = String(k) === ownerSig_('approve', String(id)) || String(k) === ownerSig_('decline', String(id));
   if (!okSig) return page_(bad);
-  const rows = sheet_().getDataRange().getValues();
-  let email = '';
+  const rows = accessTab_().getDataRange().getValues();
+  let email = '', note = '';
   for (let r = 1; r < rows.length; r++) {
-    if (rows[r][2] === id && rows[r][1] === 'awaiting_owner') { email = rows[r][0]; break; }
+    if (rows[r][3] === id && (rows[r][2] === 'awaiting_owner' || rows[r][2] === 'error')) { email = rows[r][0]; note = rows[r][1]; break; }
   }
   if (!email) return page_(['Already handled', 'This request was already approved or declined.']);
   const url = ScriptApp.getService().getUrl();
@@ -588,34 +730,74 @@ function ownerConfirmPage_(id, k) {
       '<button type="submit" style="background:' + color + ';color:#000;border:0;border-radius:3px;font:bold 13px Arial,sans-serif;letter-spacing:.06em;padding:12px 18px;cursor:pointer">' + label + '</button></form>';
   }
   return HtmlService.createHtmlOutput(
-    '<div style="font-family:Arial,sans-serif;max-width:520px;margin:60px auto;padding:0 16px">' +
-    '<p style="font:bold 14px Consolas,monospace;letter-spacing:.14em;color:#c98a00">DEAL WIRE</p>' +
-    '<h1 style="font-size:22px">Approve this subscription?</h1>' +
-    '<p style="color:#374151"><b>' + esc_(email) + '</b> asked to receive the Deal Wire digest by email. Approving sends them a confirmation email.</p>' +
+    pageHead_('Let this person in?', '<b>' + esc_(email) + '</b> asked for access to Deal Wire.' + (note ? ' Note: ' + esc_(note) : '') +
+      ' Approving adds the address to "Approved readers" in Cloudflare Access.') +
     form('approve', 'APPROVE', '#ffbf3c') + form('decline', 'DECLINE', '#e5e7eb') + '</div>').setTitle('Deal Wire');
 }
 
-// Checks the signed owner request (from the confirmation page) and applies it. Only rows waiting for the owner can be changed.
+// Checks the signed owner request (from the confirmation page) and applies it.
 function ownerDecision_(action, id, k) {
   const bad = ['Link not valid', 'This link is not valid or was already used.'];
   if (!id || !k || String(k) !== ownerSig_(action, String(id))) return bad;
-  const lock = LockService.getScriptLock(); lock.waitLock(10000);
+  const lock = LockService.getScriptLock(); lock.waitLock(30000);
   try {
-    const sh = sheet_(), rows = sh.getDataRange().getValues();
+    const sh = accessTab_(), rows = sh.getDataRange().getValues();
     for (let r = 1; r < rows.length; r++) {
-      if (rows[r][2] !== id) continue;
-      if (rows[r][1] !== 'awaiting_owner') return bad;
+      if (rows[r][3] !== id) continue;
+      if (rows[r][2] !== 'awaiting_owner' && rows[r][2] !== 'error') return bad;
+      const email = rows[r][0];
       if (action === 'decline') {
-        sh.getRange(r + 1, 2).setValue('declined');
-        return ['Declined', rows[r][0] + ' will not receive Deal Wire emails.'];
+        sh.getRange(r + 1, 3).setValue('declined'); sh.getRange(r + 1, 6).setValue(new Date());
+        return ['Declined', email + ' was not let in.'];
       }
-      const token = Utilities.getUuid();               // a new token, so the owner link cannot be reused
-      sh.getRange(r + 1, 2, 1, 3).setValues([['pending', token, new Date()]]);
-      sendConfirm_(rows[r][0], token);
-      return ['Approved', 'A confirmation email was sent to ' + rows[r][0] + '. The digest starts once they confirm.'];
+      try { addReader_(email); } catch (e) {
+        sh.getRange(r + 1, 3).setValue('error');
+        const why = String(e && e.message != null ? e.message : e);
+        try { mailOwner_('Deal Wire · could not add ' + email, 'Adding ' + email + ' to "' + CONFIG.POLICY_NAME + '" failed:\n' + why + '\n\nFix the cause (script properties CF_API_TOKEN / CF_ACCOUNT_ID, policy name) and press the Approve link again, or run approveReader("' + email + '") in the editor.'); } catch (m) { /* mail quota */ }
+        return ['Could not add the address', why.slice(0, 300)];
+      }
+      sh.getRange(r + 1, 3, 1, 2).setValues([['approved', Utilities.getUuid()]]);   // a new token: the link cannot be reused
+      sh.getRange(r + 1, 6).setValue(new Date());
+      welcome_(email);
+      return ['Approved', email + ' was added to "' + CONFIG.POLICY_NAME + '" and has been told.'];
     }
     return bad;
   } finally { lock.releaseLock(); }
+}
+
+function welcome_(email) {
+  const url = CONFIG.SITE_URL;
+  const html = shell_(
+    '<p style="margin:0 0 16px;font:15px/1.55 Arial,sans-serif;color:#1b1f24">You are approved. Open Deal Wire and enter the address <b>' + esc_(email) + '</b>; a 6-digit code is emailed to you and lets you in.</p>' +
+    button_(url, 'Open Deal Wire') +
+    '<p style="margin:18px 0 0;font:12px/1.5 Arial,sans-serif;color:#6b7280">To get each edition by email, use the email form inside the site (the envelope button).</p>', '');
+  MailApp.sendEmail({ to: email, subject: 'Deal Wire access approved', name: CONFIG.SENDER_NAME, htmlBody: html,
+    body: 'You are approved. Open ' + url + ' and log in with the 6-digit code that is emailed to this address.\nTo get each edition by email, use the email form inside the site.' });
+}
+
+// Run from the editor: lets an address in without a request (adds it to Approved readers and tells them).
+function approveReader(email) {
+  email = String(email || '').trim().toLowerCase();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { Logger.log('Not an email address: ' + email); return; }
+  const added = addReader_(email);
+  const sh = accessTab_(), rows = sh.getDataRange().getValues();
+  let r = 1;
+  while (r < rows.length && rows[r][0] !== email) r++;
+  const row = [email, r < rows.length ? rows[r][1] : 'added by the owner', 'approved', Utilities.getUuid(), r < rows.length ? rows[r][4] : new Date(), new Date()];
+  if (r < rows.length) sh.getRange(r + 1, 1, 1, 6).setValues([row]); else sh.appendRow(row);
+  if (added) welcome_(email);
+  Logger.log(added ? 'Added ' + email + ' to ' + CONFIG.POLICY_NAME + ' and sent the welcome email' : email + ' was already in ' + CONFIG.POLICY_NAME);
+}
+
+// Run from the editor: takes an address out of Approved readers and pauses their email.
+function revokeReader(email) {
+  email = String(email || '').trim().toLowerCase();
+  const removed = removeReader_(email);
+  const sh = sheet_(), rows = sheet_().getDataRange().getValues();
+  for (let r = 1; r < rows.length; r++) if (rows[r][0] === email && rows[r][1] !== 'unsubscribed') sh.getRange(r + 1, 2).setValue('paused');
+  const at = accessTab_(), ar = at.getDataRange().getValues();
+  for (let r = 1; r < ar.length; r++) if (ar[r][0] === email) { at.getRange(r + 1, 3).setValue('revoked'); at.getRange(r + 1, 6).setValue(new Date()); }
+  Logger.log((removed ? 'Removed ' : 'Was not in the policy: ') + email + '; email subscription paused');
 }
 
 // Run once from the editor: everyone subscribed before approval existed goes to "paused" (no mail).
@@ -628,33 +810,41 @@ function pauseExistingSubscribers() {
   Logger.log('Paused ' + n + ' subscribers');
 }
 
-// Run from the editor to let one address back in: approveExisting('name@example.com').
-// They get the confirmation email; the digest resumes when they press it.
+// Run from the editor to let a paused address back into the email list: approveExisting('name@example.com').
+// It must already be in Approved readers (approveReader does that). They get the confirmation email and the
+// digest resumes when they press it.
 function approveExisting(email) {
   email = String(email || '').trim().toLowerCase();
+  if (getReaders_(true).indexOf(email) < 0) { Logger.log(email + ' is not in Approved readers: run approveReader first'); return; }
   const sh = sheet_(), rows = sh.getDataRange().getValues();
   for (let r = 1; r < rows.length; r++) {
     if (rows[r][0] !== email) continue;
     const token = Utilities.getUuid();
     sh.getRange(r + 1, 2, 1, 3).setValues([['pending', token, new Date()]]);
     sendConfirm_(email, token);
-    Logger.log('Approved ' + email + ' and sent the confirmation email');
+    Logger.log('Sent the confirmation email to ' + email);
     return;
   }
-  Logger.log('Not found: ' + email);
+  Logger.log('Not on the subscriber list: ' + email);
 }
 
-// Run from the editor: mails you an Approve / Decline email for every paused address.
+// Run from the editor: for every paused address, the owner gets an access Approve / Decline email
+// (an address that is already an approved reader just gets its confirmation email).
 function requestApprovalForPaused() {
-  const sh = sheet_(), rows = sh.getDataRange().getValues();
-  let n = 0;
+  const sh = sheet_(), rows = sh.getDataRange().getValues(), readers = getReaders_(true);
+  let asked = 0, confirmed = 0;
   for (let r = 1; r < rows.length; r++) {
     if (rows[r][1] !== 'paused') continue;
-    const token = Utilities.getUuid();
-    sh.getRange(r + 1, 2, 1, 3).setValues([['awaiting_owner', token, new Date()]]);
-    if (askOwner_(rows[r][0], token)) n++;
+    const email = rows[r][0];
+    if (readers.indexOf(email) >= 0) { approveExisting(email); confirmed++; continue; }
+    const at = accessTab_(), ar = at.getDataRange().getValues(), token = Utilities.getUuid();
+    let i = 1;
+    while (i < ar.length && ar[i][0] !== email) i++;
+    if (i < ar.length) at.getRange(i + 1, 2, 1, 5).setValues([['existing subscriber', 'awaiting_owner', token, new Date(), '']]);
+    else at.appendRow([email, 'existing subscriber', 'awaiting_owner', token, new Date(), '']);
+    if (askOwner_(email, token, 'existing subscriber')) asked++;
   }
-  Logger.log('Approval emails sent to the owner: ' + n);
+  Logger.log('Approval emails to the owner: ' + asked + '; confirmation emails: ' + confirmed);
 }
 
 function setStatusByToken_(token, status) {
@@ -690,10 +880,13 @@ function sendNewEdition_() {
   }
   const ed = fetchJson_(CONFIG.DATA_URL + newest.id + '.json');
   if (!ed || !ed.items || !ed.items.length) return;
+  // Who is still an approved reader right now. If Cloudflare cannot be asked, send nothing and try next run
+  // (cf_ words passing failures with "try again", which sendNewEdition treats as transient).
+  const readers = getReaders_(true);
   // Claim the edition before sending so an overlapping trigger run cannot send it twice.
   props.setProperty('LAST_SENT', newest.id);
 
-  const subs = sheet_().getDataRange().getValues().slice(1).filter(r => r[1] === 'active');   // approved and confirmed only
+  const subs = sheet_().getDataRange().getValues().slice(1).filter(r => r[1] === 'active' && readers.indexOf(String(r[0]).toLowerCase()) >= 0);
   const subject = 'Deal Wire · ' + editionLabel_(newest.id) + ' · ' + ed.items[0].headline;
   let sent = 0;
   subs.forEach(r => {

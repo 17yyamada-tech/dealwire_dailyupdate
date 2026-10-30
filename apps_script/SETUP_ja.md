@@ -12,7 +12,7 @@
 1. 上部の関数の選択欄で `setup` を選び、「実行」を押す
 2. 「承認が必要です」と出たら、自分のアカウントを選ぶ
    - 「このアプリは Google で確認されていません」と出たら、「詳細」→「Deal Wire mailer（安全ではないページ）に移動」→「許可」を押す（自分で作ったスクリプトなので問題ありません）
-3. 実行ログに `Subscribers sheet: https://docs.google.com/...` と出れば完了。購読者一覧のシートが自分のドライブに作られ、30分ごとの更新設定が入ります（配信トリガーは自動では作りません。下の「承認制」を参照）
+3. 実行ログに `Subscribers sheet: https://docs.google.com/...` と出れば完了。購読者一覧のシートが自分のドライブに作られ、30分ごとの更新設定が入ります（配信トリガーは自動では作りません。下の「閲覧申請と配信」を参照）
 
 ## 3. Webアプリとして公開する
 1. 右上の「デプロイ」→「新しいデプロイ」を押す
@@ -30,11 +30,13 @@
 - 配信の開始: 関数 `setupMailTrigger` を1回実行すると、`sendNewEdition` の10分トリガーが重複なく作られます
 - 配信の停止: スクリプトエディタの「トリガー」（時計のアイコン）で `sendNewEdition` を削除すると止まります
 
-## 承認制（2026-10-30〜）
-- 新しい登録は status が `awaiting_owner` になり、オーナーに「Approve / Decline」リンク付きのメールが届きます。Approve すると本人に確認メールが飛び、本人が押すと `active`。Decline は `declined`
-- 以前からの購読者は、`pauseExistingSubscribers` を1回実行すると `paused`（配信停止）になります。戻す人は `approveExisting('メールアドレス')`、またはまとめて `requestApprovalForPaused`（承認メールがオーナーに届く）
-- サイトの閲覧許可は別で、Cloudflare Zero Trust の Access ポリシー `Approved readers` にメールアドレスを足します
-- Code.gsを書き換えた場合: 「デプロイ」→「デプロイを管理」→ 鉛筆アイコン → バージョン「新バージョン」→「デプロイ」と進めます。こうするとURLは変わりません
+## 閲覧申請と配信（2026-10-30〜、1つの流れ）
+- 友人は申請ページ `（/exec のURL）?action=request` でメールアドレスを送ります。オーナーに Approve / Decline のメールが届き、リンク先の確認ページでボタンを押すと実行されます
+- Approve すると、Apps Script が Cloudflare API で Access ポリシー `Approved readers` の Emails に追加し、本人に案内メールを送ります。失敗したときは status が `error` になり、オーナーにメールが届きます
+- メール配信は、`Approved readers` に入っている人だけがサイト内のフォームから申し込めます。配信時にも「今も入っているか」を確認するので、Cloudflare で外すと配信も止まります
+- Script Properties に `CF_API_TOKEN`（Access ポリシーを編集できるAPIトークン）と `CF_ACCOUNT_ID` を入れます
+- 以前からの購読者は `pauseExistingSubscribers` を1回実行して `paused` にし、戻す人は `approveReader('アドレス')` のあと `approveExisting('アドレス')`。まとめては `requestApprovalForPaused`
+- 外す人: `revokeReader('アドレス')`（ポリシーから外し、配信を paused に）
 
 ## Contact / Inquiry ボックスを有効にする
 

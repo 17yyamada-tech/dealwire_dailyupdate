@@ -15,9 +15,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <!-- ?v= makes browsers fetch the new file after a change; bump it together with ASSET_V in app.js -->
-<link rel="stylesheet" href="base.css?v=20261030-2000">
+<link rel="stylesheet" href="base.css?v=20261030-2100">
 <!-- The whole look lives in one skin file. Default = data-skin above; viewers can switch in Settings; ?skin=editorial also works. -->
-<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20261030-2000">
+<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20261030-2100">
 </head>
 <body data-view="home">
 <!-- Region flags, drawn inline so they render the same everywhere. Windows has no flag-emoji
@@ -181,6 +181,7 @@
       </div>
       <p class="contact-status" id="contact-status" role="status"></p>
     </form>
+    <p class="sub-fine" style="margin:8px 0 0;font-size:11px;opacity:.65">Sharing the link with a friend? They ask for access on <a href="https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec?action=request" target="_blank" rel="noopener">this request page</a>.</p>
   </section>
 
   <!-- Where each part of the page comes from and how far to trust it. Keep in step with
@@ -314,7 +315,7 @@
       <button type="button" id="sub-skip" class="chip ghost">Not now</button>
       <button type="submit" class="chip" id="sub-submit">Subscribe</button>
     </div>
-    <p class="sub-fine">We send a confirmation email first. Every email has a one-click unsubscribe link.</p>
+    <p class="sub-fine">Only addresses that were approved for access can sign up. We send a confirmation email first. Every email has a one-click unsubscribe link.</p>
   </form>
 </dialog>
 
@@ -350,6 +351,6 @@
   </li>
 </template>
 
-<script src="app.js?v=20261030-2000"></script>
+<script src="app.js?v=20261030-2100"></script>
 </body>
 </html>
