@@ -1,0 +1,296 @@
+{
+  "edition": "2026-10-30-1230",
+  "edition_label": "30 Oct 2026 · 12:30 SGT",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T04:35:14Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Binance halts withdrawals after suspected hack hits $6.3bn, vows to cover all losses",
+      "summary": "Binance said crypto assets worth about $6.3bn were affected by a suspected hack, with roughly $3bn or more already frozen and the figure still rising. The exchange halted withdrawals and suspended transactions while it runs security checks, triggering a broader crypto sell-off. Tether and Circle separately moved to freeze related stablecoin holdings tied to the incident.",
+      "why_it_matters": "A breach of this scale at the world's largest exchange tests counterparty-risk assumptions across crypto markets. Binance's pledge to cover all losses will be watched closely as a test of exchange-level backstops.",
+      "summary_ja": "バイナンスは、ハッキングの疑いにより約63億ドル相当の暗号資産が影響を受けたと発表した。凍結額は30億ドル以上とされ、なお増加している。同社はセキュリティ確認のため取引と出金を停止し、暗号資産市場全体の売りを招いた。テザーとサークルも、この件に関連するステーブルコインを別途凍結した。",
+      "why_it_matters_ja": "世界最大の取引所でこの規模の侵害が起きたことは、暗号資産市場全体のカウンターパーティーリスクの前提を問うものだ。バイナンスが全損失を補償すると表明したことが、取引所レベルの保証機能の実効性を測る試金石となる。",
+      "status": "new",
+      "prev": null,
+      "key": "binance-hack-withdrawal-halt",
+      "ids": [
+        "8e756ee02e39aa",
+        "56d0f8d69e056b",
+        "4da03edd3332ee"
+      ],
+      "links": [
+        {
+          "source": "BBC Business",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/wealth/crypto-alternative-assets/binance-halts-withdrawals-suspected-hack-spurs-crypto-sell-vows-cover-all-losses"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "PAG to acquire 51% of China Evergrande's property unit for HK$4.03bn, triggering mandatory offer",
+      "summary": "PAG has agreed to acquire a 51.016% stake in China Evergrande's property management subsidiary for HK$4.026bn, equivalent to about ¥80bn, according to Japanese M&A reporting. The stake crosses the threshold that triggers a mandatory general offer for the remaining shares under Hong Kong takeover rules.",
+      "why_it_matters": "The deal would hand a global alternative-investment firm control of one of China's largest property-services platforms, offering a rare exit route for assets tied to the stricken Evergrande group. It also signals that distressed Chinese real-estate assets are still finding buyers among well-capitalised sponsors.",
+      "summary_ja": "日系M&A報道によると、太盟投資集団（PAG）が中国恒大の不動産管理子会社の株式51.016％を香港ドル40.26億（約80億円）で取得することに合意した。この取得比率は、香港の買収ルール上、残り株式に対する強制的な公開買付けを発動する水準に達する。",
+      "why_it_matters_ja": "この買収が成立すれば、グローバルな運用会社が中国最大級の不動産管理プラットフォームの一つを手にすることになる。経営危機に陥った恒大グループ関連資産にとって、数少ない出口のひとつとなる。資本力のあるスポンサーが不良化した中国不動産資産の買い手として依然存在することを示す動きでもある。",
+      "status": "new",
+      "prev": null,
+      "key": "pag-evergrande-property-services",
+      "ids": [
+        "740424638a1efe",
+        "77a55ba430081c"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YOGdTT092UHZIV3lXMEdnZGowdlhYMTdvUkl2aUxBSEFzVGdfTUFOOHJaZnhMZ0owX2RlN1U2MlplOExuNUNOVW1rS3RCekR3ZjN6YWlteFdDUVROS1VMd25oNGpiZzFoOENYaQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDa3A1ZWJwWDJXODBCUjlkMlRoUzlPTnJ3WG9TU1o5cVVnTWVDa2g2ZlVDSEJiNWoyZTUxbGpmdWd4bkQwcTVZcnlveEduZVY3bTh2NnRVUWdwaGtZVk4zLXctMzFCSUxHeHdFenJYV2hydERK?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Czech billionaire proposes €30bn buyout of Ray-Ban family's holding company",
+      "summary": "A Czech billionaire has made a €30bn acquisition proposal for the holding company of the family behind Ray-Ban, according to Japanese M&A reporting. No further terms, timeline or counterparty names were disclosed in the report.",
+      "why_it_matters": "A proposal of this size for a family holding structure tied to a major eyewear brand would rank among the largest European buyout approaches disclosed this year, if confirmed and taken forward. It also underscores the scale of capital Central European billionaires are now willing to deploy outside their home markets.",
+      "summary_ja": "日系M&A報道によると、チェコの富豪がレイバンを傘下に持つ一族の持株会社に対し、300億ユーロでの買収提案を行った。提案の詳細な条件や相手方の名称、スケジュールは報道では明らかにされていない。",
+      "why_it_matters_ja": "大手アイウェアブランドに連なる一族の持株会社に対するこの規模の提案は、確認され実際に進めば、今年開示された欧州の買収提案の中でも最大級となる。中欧の富豪層が自国市場の外でこれだけの規模の資本を投じる姿勢を持っていることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "czech-billionaire-rayban-holding-bid",
+      "ids": [
+        "42c8ddd51961d2"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxNcW9mZ3ZjU19rMU8wdkh5SVdINGt4cjRhblJwNW0yeDJxbjNtS1NXSFZvS21GT3FvMjd2dlZ0aFM1ZkxydU1lTUZkck05QVp4Um4yU3g2RTRyU0RHYjhHSjRGZmFHbEZGNUZSbWRtQk9oSnEzUllxcVNQUlgtX2RDUWE5dXk2aDdSdkxhVXdkNG9jSEdfVmliNUxCbExSTUc3cHBiaTJJMmVrLUxwNE5VVWFneXl5UXRUc2Fldno4X2JsVG9mbnFtUlFwTld5QVloaVdKdjRXcEJucWtPZEFTNXdkNVJ2bzRuNkdIOFJVTW1RVm44RVRBRTFPMlFQU3ZTTm1sWlRBTmMzSzZUWnlQRjNWaWVIaFRmb1RDaW00bU5pcFpkajNGa013bTZBYUktS2doWm9BLXZLemJoWDNlX3N6RXRlb2NzQlJtdU9iOFpIcUlsaTJQZjRQWUR1SC1QbC1WUUFETlJNcnE3NTNBZTh6TjRMak5YczFjdXZ6eGJ5YkhlS0xtZ2ZSNHZkVTRncDYyaUVFM2d3d29WUUI3eFdSck5CM2hHMlViVW80ZFd6dw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Nvidia in talks to provide credit support for Nscale's AI deal with Anthropic, report says",
+      "summary": "Nvidia is in talks to provide credit support for Nscale's deal with Anthropic, The Information reported. No financial terms of the credit support were disclosed.",
+      "why_it_matters": "Chip-supplier-backed credit support for AI infrastructure deals would extend Nvidia's role from component supplier to financier, a structure drawing increasing scrutiny as questions mount over the sustainability of AI capital spending. Credit investors are watching closely for signs that such vendor-financing arrangements are becoming the norm across the AI buildout.",
+      "summary_ja": "The Informationの報道によると、エヌビディアがNscaleとAnthropicの提携に関して信用供与を行う方向で協議しているという。信用供与の具体的な条件は報道では示されていない。",
+      "why_it_matters_ja": "半導体供給元が自らAI基盤投資に信用を供与する構図は、エヌビディアの役割を部品供給者から金融的な支援者へと広げるものだ。AI投資の持続性への懸念が強まる中、こうした構造への監視は一段と厳しくなっている。クレジット投資家は、こうしたベンダーファイナンス型の取組がAI投資の拡大の中で標準的な手法となっていくかどうかを注視している。",
+      "status": "new",
+      "prev": null,
+      "key": "nvidia-nscale-anthropic-credit-support",
+      "ids": [
+        "8e16d29e8f097f"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/nvidia-in-talks-give-credit-support-nscales-deal-anthropic-information-reports-6505526"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Texas Community Bancshares to merge with Banc of San Jacinto County Bancshares",
+      "summary": "Texas Community Bancshares (Nasdaq: TCBS) and The Banc of San Jacinto County Bancshares, parent of the Bank of San Jacinto County in Coldspring, Texas, have entered into a definitive merger agreement. Financial terms were not disclosed in the companies' announcement.",
+      "why_it_matters": "The tie-up adds to a wave of small community-bank consolidation across Texas, as rising compliance costs and scale pressures push smaller lenders toward mergers. Deals of this size rarely move markets on their own, but their frequency is a useful gauge of stress in the community-banking sector.",
+      "summary_ja": "テキサス・コミュニティ・バンクシェアーズ（Nasdaq: TCBS）と、テキサス州コールドスプリングのバンク・オブ・サンハシント・カウンティを傘下に持つバンク・オブ・サンハシント・カウンティ・バンクシェアーズが、最終的な合併契約を締結した。両社の発表では財務条件は開示されていない。",
+      "why_it_matters_ja": "この合併は、テキサス州で続く小規模コミュニティ銀行の統合の流れに加わるものだ。コンプライアンスコストの上昇と規模追求の圧力が、小規模な銀行をM&Aへと向かわせている。この規模の案件単体で市場が動くことは少ないが、その発生頻度自体が地域銀行セクターの苦境を測る目安になる。",
+      "status": "new",
+      "prev": null,
+      "key": "texas-community-bancshares-san-jacinto-merger",
+      "ids": [
+        "edd3192caf31f3"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/texas-community-bancshares-inc-and-the-banc-of-san-jacinto-county-bancshares-inc-the-parent-of-the-bank-of-san-jacinto-county-coldspring-texas-announce-merger-agreement-302924337.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Tamura Seisakusho completes acquisition of Italy's EMG Power Electric",
+      "summary": "Tamura Seisakusho (6768) said it has completed its stock acquisition of EMG Power Electric S.r.l., making the Italian company a consolidated subsidiary.",
+      "why_it_matters": "Completion of the deal extends the Japanese electronics maker's manufacturing footprint in European power electronics, part of a broader pattern of mid-cap Japanese manufacturers using small bolt-on deals to build out overseas production.",
+      "summary_ja": "タムラ製作所（6768）は、イタリアのEMG Power Electric S.r.l.の株式取得が完了し、同社を連結子会社化したと発表した。",
+      "why_it_matters_ja": "この買収完了により、同社は欧州における電力電子機器の製造基盤を広げることになる。日本の中堅製造業各社が小型のボルトオン買収を通じて海外生産体制を積み上げる、より広い流れの一端でもある。",
+      "status": "new",
+      "prev": null,
+      "key": "tamura-seisakusho-emg-power-electric",
+      "ids": [
+        "55b50b07178fa6"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZNlhfR2x3bklvbExKUEJMbGh1MGtCUXB6ZjhkOF9Uc0VvS1pzNEdQeUk1WTRzTTc3ekZ6OEdOenBPNk9oVy1hOGRhQVlYQ0hhLWFmVVB0ZUs5QlV6Mm1hYTh3ckFsM1JXT1E?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "BMO closes sale of transportation and vendor finance units to Stonepeak",
+      "summary": "BMO Financial Group said it has closed the previously announced sale of its Transportation Finance and Vendor Finance businesses to Stonepeak. At closing, BMO transferred approximately 75% of the businesses to the alternative-investment firm.",
+      "why_it_matters": "The deal lets BMO recycle capital out of specialty-finance assets while giving Stonepeak a larger foothold in equipment and vendor-finance lending, an asset class increasingly attractive to credit-focused investors. Bank-to-sponsor transfers of this kind are becoming a routine way for lenders to free up balance-sheet capacity.",
+      "summary_ja": "BMOフィナンシャル・グループは、既に公表していたトランスポーテーション・ファイナンスおよびベンダー・ファイナンス事業のストーンピークへの売却が完了したと発表した。クローズ時点で、BMOは両事業の約75％をこの運用会社に譲渡した。",
+      "why_it_matters_ja": "この取引により、BMOはスペシャルティ・ファイナンス資産から資本を引き出すことができる一方、ストーンピークは設備・ベンダーファイナンス融資分野での足場を広げることになる。この資産クラスは、クレジット投資家にとって関心が高まっている分野だ。銀行から運用会社へのこうした資産移管は、銀行がバランスシートの余力を確保するための定型的な手法となりつつある。",
+      "status": "new",
+      "prev": null,
+      "key": "bmo-stonepeak-transportation-vendor-finance-sale",
+      "ids": [
+        "d8addc6e52ebb5"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/bmo-closes-sale-of-transportation-and-vendor-finance-businesses-302924335.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "NIIT Learning Systems acquires US training firm Bluewater Learning in full",
+      "summary": "NIIT Learning Systems (NSE, BSE: NIITMTS) said it has acquired 100% of Bluewater Learning to expand its AI-driven learning and talent-transformation offering. The deal adds HCM technology advisory, integration and managed-services capabilities to NIIT's portfolio.",
+      "why_it_matters": "The deal gives an India-listed managed-learning provider a direct US delivery platform for AI-enabled corporate training, a fast-growing niche within enterprise software. Bolt-on deals like this are becoming a common route for IT-services firms to add AI capability without building it in-house.",
+      "summary_ja": "NIITラーニング・システムズ（NSE、BSE：NIITMTS）は、Bluewater Learningの全株式を取得したと発表した。AI活用型の学習・人材育成サービスを強化する狙いがある。この買収により、HCM（人的資本管理）技術のアドバイザリー、導入支援、マネージドサービスの機能がNIITのポートフォリオに加わる。",
+      "why_it_matters_ja": "インド上場のマネージド・ラーニング大手が、AIを活用した企業研修分野で米国内の直接的な提供体制を手にする取引だ。この分野は企業向けソフトウェアの中でも急成長している領域にあたる。こうしたボルトオン型の買収は、ITサービス企業が自前開発に頼らずAI対応力を取り込む一般的な手段になりつつある。",
+      "status": "new",
+      "prev": null,
+      "key": "niit-learning-systems-bluewater-learning-acquisition",
+      "ids": [
+        "5d362b142ab28e",
+        "b7270ca337271b"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/bluewater-learning-acquired-by-niit-learning-systems-limited-to-power-ai-driven-learning-and-talent-transformation-302924057.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Perrigo agrees to divest infant formula business to MeridianMade",
+      "summary": "Perrigo announced an agreement to divest its infant formula business to MeridianMade. The company said the move advances the 'Streamline' pillar of its 'Three-S' plan and furthers its shift into a simpler, more focused consumer self-care business.",
+      "why_it_matters": "Perrigo said the divestiture is expected to enhance its margin profile and eliminate significant future capital expenditure, underscoring how portfolio pruning is becoming a core lever for consumer-health companies under margin pressure. Carve-outs like this also give buyers a chance to build scale in a single category rather than compete as part of a diversified conglomerate.",
+      "summary_ja": "ペリゴは、乳児用調製粉乳事業をメリディアンメイドに譲渡する契約を発表した。同社はこの措置が「スリー・エス」計画の「ストリームライン」の柱を推進し、よりシンプルで消費者セルフケアに特化した事業への転換を一段と進めるものだとしている。",
+      "why_it_matters_ja": "ペリゴは、この譲渡により利益率の改善と将来の大規模な資本支出の回避が見込めるとしている。これは、マージン圧力にさらされるコンシューマーヘルス企業にとって、事業の選別・絞り込みが収益戦略の中核的な手段になっていることを示す。こうしたカーブアウトは、買い手にとっても複合企業の一事業としてではなく、単一カテゴリーで規模を追求できる機会となる。",
+      "status": "new",
+      "prev": null,
+      "key": "perrigo-infant-formula-divestiture-meridianmade",
+      "ids": [
+        "1c428a98a5a832"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/perrigo-announces-agreement-to-divest-infant-formula-business-to-meridianmade-302923597.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "Tuas Power explores importing up to 500MW a year of Laos hydropower",
+      "summary": "Tuas Power is exploring a deal to import up to 500 megawatts a year of hydropower from Laos, in an arrangement that could run as long as 15 years. The proposal would include an option for renewable energy certificates.",
+      "why_it_matters": "A long-dated cross-border power-import deal would deepen Singapore's reliance on regional renewable supply as it works toward its grid-decarbonisation targets. The optional renewable energy certificates would also let Tuas Power's customers claim green attributes separately from the physical power flows.",
+      "summary_ja": "テュアス・パワーは、ラオスから年間最大500メガワットの水力電力を輸入する取引の検討を進めている。契約期間は最長15年に及ぶ可能性がある。提案には再生可能エネルギー証書（REC）の選択肢も含まれる。",
+      "why_it_matters_ja": "長期の国境を越えた電力輸入契約は、シンガポールが電力網の脱炭素化目標に向けて進む中、地域の再生可能エネルギー供給への依存を一段と深めるものだ。選択可能な再生可能エネルギー証書（REC）により、テュアス・パワーの顧客は実際の電力の流れとは別にグリーン価値を主張できるようになる。",
+      "status": "new",
+      "prev": null,
+      "key": "tuas-power-laos-hydropower-import",
+      "ids": [
+        "f2969b70b8622a"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/tuas-power-explore-importing-500-mw-year-hydropower-laos"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    }
+  ]
+}

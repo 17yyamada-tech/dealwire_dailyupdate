@@ -1,1166 +1,1177 @@
 {
- "editions": [
-  {
-   "id": "2026-10-30-0830",
-   "label": "30 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-30T00:36:49Z",
-   "items": 10,
-   "headlines": [
-    "DoorDash agrees to buy Instacart for $17bn, confirming deal flagged days earlier",
-    "Thrive Capital agrees to buy ADT for $7.6bn, sending shares up 34%",
-    "Salesforce agrees to buy defence-tech firm Rune, pushing into military software"
-   ]
-  },
-  {
-   "id": "2026-10-29-1530",
-   "label": "29 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-29T07:37:55Z",
-   "items": 6,
-   "headlines": [
-    "Shiga Bank and Ikeda Senshu HD reach basic agreement to merge, targeting April 2028",
-    "ANA agrees to take AirDo and Solaseed Air's parent as a wholly owned subsidiary by April 2027",
-    "Anthropic names its one-employee biotech buy as Mithril, applying Claude to rare-disease drug research"
-   ]
-  },
-  {
-   "id": "2026-10-29-1230",
-   "label": "29 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-29T04:39:10Z",
-   "items": 4,
-   "headlines": [
-    "NOK and Eagle Industry to merge into roughly ¥1tn auto-parts group, but shares stay soft on synergy doubts",
-    "Shiga Bank, Ikeda Senshu HD to formally announce Kansai bank merger plan on Oct 29",
-    "SIA agrees to buy up to 4,800 tonnes of sustainable aviation fuel from Aether's Singapore plant"
-   ]
-  },
-  {
-   "id": "2026-10-29-0830",
-   "label": "29 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-29T00:38:06Z",
-   "items": 10,
-   "headlines": [
-    "Trian-led group proposes to take Wendy's private for $1.4bn, at $7.35 a share",
-    "GE Vernova to acquire major transmission-equipment maker Trench for $9bn",
-    "Marvell reported in final talks to acquire optical-component maker Lumentum in large AI deal"
-   ]
-  },
-  {
-   "id": "2026-10-28-1530",
-   "label": "28 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-28T07:36:24Z",
-   "items": 8,
-   "headlines": [
-    "TPG nears $5bn deal to acquire UK data-centre operator Ark",
-    "Macquarie Asset Management to buy Gabia and KINX at over 10% premium to first tender offer",
-    "Fox's acquisition of Roku clears shareholder vote; platform neutrality remains open issue"
-   ]
-  },
-  {
-   "id": "2026-10-28-1230",
-   "label": "28 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-28T04:35:17Z",
-   "items": 10,
-   "headlines": [
-    "OpenAI in talks to purchase Google-designed AI chips, report says",
-    "onsemi in talks to acquire chip startup Felix for about $1bn",
-    "A. O. Smith sells 81% of its China business to CPE, keeps 19% stake and brand license"
-   ]
-  },
-  {
-   "id": "2026-10-28-0830",
-   "label": "28 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-28T00:37:05Z",
-   "items": 10,
-   "headlines": [
-    "US regulator approves Amazon Leo's $11.5bn acquisition of Globalstar",
-    "FTC moves to block Cintas's $5.5bn acquisition of UniFirst",
-    "Ares Capital agrees to acquire MidCap Financial for about $2.6bn"
-   ]
-  },
-  {
-   "id": "2026-10-27-1530",
-   "label": "27 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-27T07:37:50Z",
-   "items": 6,
-   "headlines": [
-    "Nvidia to invest $3bn in Meta, deepening AI partnership on Muse agent",
-    "Perfect completes founder-led take-private of YouCam Makeup operator, four years after listing",
-    "Truelink Capital agrees to acquire Johnson Controls' global intrusion products business"
-   ]
-  },
-  {
-   "id": "2026-10-27-1230",
-   "label": "27 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-27T04:36:53Z",
-   "items": 6,
-   "headlines": [
-    "Anthropic to raise $63bn in bank and Blackstone financing to fund AI-chip purchases",
-    "Universal Music Group in talks on a potential take-private, approached by a major US investment firm",
-    "ENEOS completes $758m acquisition of US chemicals maker TPC Holdings"
-   ]
-  },
-  {
-   "id": "2026-10-27-0830",
-   "label": "27 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-27T00:43:03Z",
-   "items": 10,
-   "headlines": [
-    "EQT agrees all-stock merger with Range Resources in deal valued above $50bn",
-    "DoorDash nears roughly $17bn deal to acquire Instacart, agreement possible within days",
-    "Surgery Partners agrees to go private in Bon Secours-linked deal worth about $5.7bn"
-   ]
-  },
-  {
-   "id": "2026-10-26-1530",
-   "label": "26 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-26T07:40:32Z",
-   "items": 7,
-   "headlines": [
-    "LINE Yahoo, Bain raise Kakaku.com tender offer price to ¥3,700 a share",
-    "Ikuyo launches ¥3,000-a-share tender offer for Muraki, to keep it listed",
-    "TPG-backed One Aged Care acquires Active Global"
-   ]
-  },
-  {
-   "id": "2026-10-26-1230",
-   "label": "26 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-26T04:36:50Z",
-   "items": 6,
-   "headlines": [
-    "Galderma to acquire ZO Skin Health for $1.5bn",
-    "EU clears Kimberly-Clark's $40bn Kenvue takeover on condition it sells three feminine-hygiene brands",
-    "Shiga Bank, Ikeda Senshu HD said to be in final-stage talks on Kansai bank merger"
-   ]
-  },
-  {
-   "id": "2026-10-26-0830",
-   "label": "26 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-26T00:36:56Z",
-   "items": 8,
-   "headlines": [
-    "Bon Secours to acquire Bain Capital-backed Surgery for $6bn, FT reports",
-    "SpaceX raises $40bn in debt to fund GPU buildout, Musk says",
-    "Tokyo Gas to take full ownership of Indonesia's AGPIU, expanding into LNG infrastructure"
-   ]
-  },
-  {
-   "id": "2026-10-25-1230",
-   "label": "25 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-25T04:34:37Z",
-   "items": 2,
-   "headlines": [
-    "Fireblocks to cut about 7% of staff as Visa acquisition speculation resurfaces",
-    "South Africa's IDC nears $610m deal for ArcelorMittal's distressed unit"
-   ]
-  },
-  {
-   "id": "2026-10-25-0830",
-   "label": "25 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-25T00:34:45Z",
-   "items": 6,
-   "headlines": [
-    "RedotPay acquires Japan's BTCBOX in bid to secure a crypto licence",
-    "Frasers Group acquires Hugo Boss as part of new luxury group plan",
-    "Stout acquires Flightline to bring AI due-diligence work in-house"
-   ]
-  },
-  {
-   "id": "2026-10-24-1530",
-   "label": "24 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-24T07:34:35Z",
-   "items": 3,
-   "headlines": [
-    "Instacart in talks with DoorDash and Uber over a potential sale",
-    "Shein agrees to pay $100m to settle US FTC probe, EU investigation continues",
-    "Indonesia cuts piped gas exports to Singapore by about 8% from Oct 24"
-   ]
-  },
-  {
-   "id": "2026-10-24-0830",
-   "label": "24 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-24T00:40:54Z",
-   "items": 10,
-   "headlines": [
-    "Shiga Bank, Ikeda Senshu HD coordinate merger to create Kansai's largest regional bank group, assets top ¥14tn",
-    "ENEOS to take NIPPO fully in-house, reversing re-listing plan for road-paving unit",
-    "Shanghai International offers $1.2bn for 51% stake in Haitong UniTrust"
-   ]
-  },
-  {
-   "id": "2026-10-23-1530",
-   "label": "23 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-23T07:35:00Z",
-   "items": 6,
-   "headlines": [
-    "Standard Chartered signs final agreement to acquire Zodia Custody, to fold in its custody business",
-    "Musk invests about ¥157bn in Skydance to help address debt from its Warner acquisition",
-    "Itochu to acquire Hitachi Construction Machinery's Taiwan sales unit, Nikkei reports"
-   ]
-  },
-  {
-   "id": "2026-10-23-1230",
-   "label": "23 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-23T04:37:00Z",
-   "items": 6,
-   "headlines": [
-    "OpenAI's valuation marked down to $1.25 trillion from $1.4 trillion ahead of funding close",
-    "SK Group's data-centre unit in talks to finance $350bn AI buildout, 15GW planned in South Korea by 2030",
-    "Nippon Steel to invest ¥470bn in US Steel hot-rolling upgrade, largest project under acquisition pledge"
-   ]
-  },
-  {
-   "id": "2026-10-23-0830",
-   "label": "23 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-23T00:35:00Z",
-   "items": 10,
-   "headlines": [
-    "EQT's Qiagen buyout now valued at €10.8bn, structured to limit dissenting shareholders",
-    "LSEG agrees $3.54bn cash deal for credit-data provider Octus, completion targeted for H1 2027",
-    "Hillhouse-linked Singapore fund launches ¥2,020-a-share tender for Japan's Circlace, to delist it"
-   ]
-  },
-  {
-   "id": "2026-10-22-1530",
-   "label": "22 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-22T07:33:00Z",
-   "items": 5,
-   "headlines": [
-    "EQT agrees to acquire Qiagen for €9.6bn, confirming earlier buyout talks",
-    "Axel Springer proposes acquiring TikTok's European operations, FT reports",
-    "China's Midea completes acquisition of Italian diagnostic-imaging maker Esaote"
-   ]
-  },
-  {
-   "id": "2026-10-22-1230",
-   "label": "22 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-22T04:35:00Z",
-   "items": 10,
-   "headlines": [
-    "CIMB denies plan to take Indonesia's CIMB Niaga private",
-    "DeepSeek raises $15bn in challenge to leading US AI labs",
-    "Legendary makes buyout proposal for Lionsgate Studios"
-   ]
-  },
-  {
-   "id": "2026-10-22-0830",
-   "label": "22 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-22T00:38:33Z",
-   "items": 10,
-   "headlines": [
-    "Cencora agrees to acquire American Oncology Network for $2.4bn",
-    "Taiwan blocks Grab's $600m foodpanda Taiwan acquisition for a second time",
-    "Labcorp-OPKO BioReference asset sale priced at $722m or more"
-   ]
-  },
-  {
-   "id": "2026-10-21-1530",
-   "label": "21 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-21T07:37:05Z",
-   "items": 5,
-   "headlines": [
-    "Fortrea completes acquisition of early-stage clinical services unit from Worldwide Clinical Trials",
-    "DayOne weighs delaying or shrinking US IPO after data-centre stock rout",
-    "OrbiMed secures over $1bn for sixth Asia healthcare fund"
-   ]
-  },
-  {
-   "id": "2026-10-21-1230",
-   "label": "21 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-21T04:39:31Z",
-   "items": 5,
-   "headlines": [
-    "Progress Software completes acquisition of Domo's AI and data-platform business",
-    "CVC Capital Partners in talks to acquire a stake in Thai soy milk maker Tofusan",
-    "Nvidia in talks to raise its investment in AI cloud firm Firmus after its IPO flop"
-   ]
-  },
-  {
-   "id": "2026-10-21-0830",
-   "label": "21 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-21T00:39:53Z",
-   "items": 10,
-   "headlines": [
-    "Musk says Tesla and SpaceX have formed special committees to explore a merger",
-    "Salesforce to acquire Braze for $5.66bn in all-cash deal at $47.50 a share",
-    "CBRE to acquire London-based network infrastructure firm Onnec for up to $1bn, WSJ reports"
-   ]
-  },
-  {
-   "id": "2026-10-20-1530",
-   "label": "20 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-20T07:33:00Z",
-   "items": 4,
-   "headlines": [
-    "EU accuses KKR of misleading regulators in Telecom Italia network deal, weighs fine",
-    "GCash parent Mynt raises ~$967m in Southeast Asia's top 2026 IPO, shares rise in debut",
-    "Seoul data-centre infrastructure firm Elice plunges 33% in debut after raising Won201bn IPO"
-   ]
-  },
-  {
-   "id": "2026-10-20-1230",
-   "label": "20 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-20T04:35:00Z",
-   "items": 10,
-   "headlines": [
-    "Kimberly-Clark lines up $4.9bn bond sale to help fund $40bn Kenvue takeover",
-    "Maximus agrees to acquire Agile Defense for $660m",
-    "China's Neolix raises nearly $400m in Series E for robovan delivery business"
-   ]
-  },
-  {
-   "id": "2026-10-20-0830",
-   "label": "20 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-20T00:41:02Z",
-   "items": 10,
-   "headlines": [
-    "Silgan, American Industrial Partners to buy Trivium Packaging for $3.4bn",
-    "Tradeweb to acquire bond-trading platform Trumid for $1.97bn; shares fall 11%",
-    "Merck KGaA to acquire Silence Therapeutics for $1.3bn to build siRNA pipeline"
-   ]
-  },
-  {
-   "id": "2026-10-19-1230",
-   "label": "19 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-19T04:39:06Z",
-   "items": 6,
-   "headlines": [
-    "Fairfax revives India bank privatisation with $5.6bn bid for IDBI",
-    "SG Fleet agrees to buy Australia's FleetPartners for A$1.13bn, sending both shares to highs",
-    "IFC weighs $400m loan to Malaysia's Affin Bank as Thailand's Muangthai Capital secures $60m from FinDev Canada"
-   ]
-  },
-  {
-   "id": "2026-10-19-0830",
-   "label": "19 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-19T00:36:10Z",
-   "items": 10,
-   "headlines": [
-    "EQT agrees to acquire Australia's Cleanaway in $6.5bn deal",
-    "Daiichi Life unit tables A$7.94bn takeover bid for Australia's Challenger, valued at about ¥700bn",
-    "Accenture looks to sell Chinese operations for up to $1.5bn, FT reports"
-   ]
-  },
-  {
-   "id": "2026-10-18-1530",
-   "label": "18 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-18T07:38:17Z",
-   "items": 4,
-   "headlines": [
-    "CCC Intelligent Solutions agrees to $6.1bn take-private buyout by GTCR and Elliott",
-    "AI-debt jitters spread beyond CoreWeave to Oracle and SoftBank as data-centre delays mount",
-    "Doubts over AI infrastructure financing cool rally in Asia's 'picks-and-shovels' stocks"
-   ]
-  },
-  {
-   "id": "2026-10-17-1530",
-   "label": "17 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-17T07:40:45Z",
-   "items": 4,
-   "headlines": [
-    "Proofpoint lines up $1.25bn in financing for $6.3bn Varonis takeover",
-    "Parkview Health agrees to acquire shared-services provider Ovation Healthcare",
-    "Allstate's Arity unit signs definitive agreement to acquire mobility-data firm INRIX"
-   ]
-  },
-  {
-   "id": "2026-10-17-1230",
-   "label": "17 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-17T04:37:00Z",
-   "items": 4,
-   "headlines": [
-    "Anthropic offers Blackstone double-digit yield in AI chip-financing deal",
-    "Panzani and Cerealis to merge into European food group with €1bn in combined revenue",
-    "Klook Technology withdraws US listing filing, had applied for IPO last November"
-   ]
-  },
-  {
-   "id": "2026-10-17-0830",
-   "label": "17 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-17T00:35:00Z",
-   "items": 9,
-   "headlines": [
-    "SoftBank Group weighs Allied Universal buyout at up to $30bn including debt",
-    "AkzoNobel and Axalta offer EU remedies to clear $25bn tie-up",
-    "CoreWeave bonds and shares head for steep weekly losses as AI debt concerns mount"
-   ]
-  },
-  {
-   "id": "2026-10-16-1530",
-   "label": "16 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-16T07:40:00Z",
-   "items": 9,
-   "headlines": [
-    "South Korea's NongHyup to channel Won2.6 trillion to MBK Partners over 10 years amid Korea Zinc, Homeplus funding dispute",
-    "CJ Group teams with Daou Kiwoom for JoongAng Ilbo takeover bid ahead of Oct 19 final round",
-    "AIIB commits $100m to TPG Rise Climate's emerging markets fund"
-   ]
-  },
-  {
-   "id": "2026-10-16-1230",
-   "label": "16 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-16T04:40:00Z",
-   "items": 6,
-   "headlines": [
-    "MSCI proposes downgrading Indonesia to standalone status; Jakarta shares drop as much as 11%",
-    "JPMorgan and Goldman raise yield on Volta AI loan to clear investor demand",
-    "Investors pare back Anthropic IPO valuation expectations as revenue growth slows"
-   ]
-  },
-  {
-   "id": "2026-10-16-0830",
-   "label": "16 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-16T00:42:53Z",
-   "items": 10,
-   "headlines": [
-    "Thoma Bravo's Proofpoint to acquire Varonis Systems for $6.3bn in cash",
-    "Penske Automotive to go private in deal with Penske Corp and Mitsui at $212 a share",
-    "Richemont and Signet in talks to join consortium bidding for De Beers"
-   ]
-  },
-  {
-   "id": "2026-10-15-1530",
-   "label": "15 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-15T07:37:22Z",
-   "items": 5,
-   "headlines": [
-    "EQT to acquire Stockbridge, a US real estate manager with $16.5bn in fee-paying AUM",
-    "Oasis, Kobayashi Pharmaceutical's top shareholder, demands a competitive process for go-private",
-    "Kikkoman emerges as bidder in unusual contest for sesame-oil maker Kadoya"
-   ]
-  },
-  {
-   "id": "2026-10-15-1230",
-   "label": "15 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-15T04:36:25Z",
-   "items": 4,
-   "headlines": [
-    "ByteDance nears chip-supply deal with MediaTek for AI data centres, Bloomberg reports",
-    "Nippon Seiki completes buyout of remaining Toyo Denso shares, making it wholly owned",
-    "Polygon completes acquisition of CoinMe, gaining money-transmission compliance across 48 US states"
-   ]
-  },
-  {
-   "id": "2026-10-15-0830",
-   "label": "15 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-15T00:37:55Z",
-   "items": 10,
-   "headlines": [
-    "Clear Channel Outdoor completes buyout by Abu Dhabi's Mubadala Capital",
-    "3C merges with Datalec to form US$400m-plus liquid-cooling and data-centre services group",
-    "Aurora Cannabis rejects Curaleaf's revised hostile takeover bid"
-   ]
-  },
-  {
-   "id": "2026-10-14-1530",
-   "label": "14 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-14T07:32:12Z",
-   "items": 6,
-   "headlines": [
-    "Singapore's Princeton Digital Group seeks up to US$1.2bn loan for Johor data centre",
-    "Japan's World and TSI Holdings agree to merge under new holding company Infinity United",
-    "Singapore's Nanyang Biologics eyes Nasdaq listing at US$1.5bn valuation"
-   ]
-  },
-  {
-   "id": "2026-10-14-1230",
-   "label": "14 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-14T04:39:00Z",
-   "items": 8,
-   "headlines": [
-    "LSEG in talks to acquire financial-data provider Octus for about $3.5bn",
-    "SK Group chairman Chey sells SK Corp stake to Dell-family office fund for $406mn",
-    "Kachitas launches ¥2,000-a-share tender offer for Tobu Jyuhan, aiming to delist it"
-   ]
-  },
-  {
-   "id": "2026-10-14-0830",
-   "label": "14 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-14T00:40:00Z",
-   "items": 8,
-   "headlines": [
-    "Kimberly-Clark wins conditional EU approval for $40bn Kenvue takeover, advances note exchange",
-    "AT&T agrees to sell AT&T Mexico to Grupo Televisa and Fintech Holdings",
-    "Bumble agrees to $1.3bn take-private deal with Ithaca Holdings at $6.05 a share"
-   ]
-  },
-  {
-   "id": "2026-10-13-1530",
-   "label": "13 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-13T07:41:00Z",
-   "items": 4,
-   "headlines": [
-    "Visa cleared to run domestic clearing network in China after years-long wait, tapping US$144tn payments market",
-    "Character.AI files for bankruptcy, sells some assets to Disney for $20mn",
-    "Freshworks signs final agreement to acquire Torii, folding AI spend-management tool into Freshservice"
-   ]
-  },
-  {
-   "id": "2026-10-13-1230",
-   "label": "13 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-13T04:36:26Z",
-   "items": 7,
-   "headlines": [
-    "NTT Data in final talks to build Anthropic's first data centre in Japan",
-    "Starbucks denies plan to acquire Chipotle after FT report, shares fall 3.8%",
-    "Tencent markets dollar and dim sum bonds in four tranches, advancing $5bn AI-funding plan"
-   ]
-  },
-  {
-   "id": "2026-10-13-0830",
-   "label": "13 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-13T00:36:55Z",
-   "items": 10,
-   "headlines": [
-    "Omron to acquire US industrial-PC maker OnLogic and parent Interlogic for ¥104.6bn",
-    "IonQ to acquire cybersecurity firm Elisity for up to $1.3bn in all-stock deal",
-    "Bumble in advanced talks to go private at $1bn valuation, shares jump"
-   ]
-  },
-  {
-   "id": "2026-10-12-1530",
-   "label": "12 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-12T07:37:48Z",
-   "items": 6,
-   "headlines": [
-    "SpaceX's spectrum deal with Grain Management for Starlink Mobile valued at about $8bn",
-    "1MDB settles US$1.1bn Deutsche Bank lawsuit over alleged fund siphoning",
-    "Moonshot AI executives negotiate shareholder settlement ahead of Hong Kong IPO"
-   ]
-  },
-  {
-   "id": "2026-10-12-1230",
-   "label": "12 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-12T04:36:36Z",
-   "items": 5,
-   "headlines": [
-    "Kim Dong-sun launches KRW128.5bn tender offer for Hanwha M&S to secure control, shares surge",
-    "Samsung SDS buys domestic air-cargo carrier Woojung Air to build out logistics arm",
-    "Gunma Bank and Daishi Hokuetsu Financial Group to merge management next April"
-   ]
-  },
-  {
-   "id": "2026-10-12-0830",
-   "label": "12 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-12T00:38:15Z",
-   "items": 8,
-   "headlines": [
-    "Nvidia has already put $800m into Reflection AI, now valued at $25bn, as buyout talks continue",
-    "Amazon discussing roughly $7bn deal to acquire AI startup Decart, WSJ reports",
-    "Masan Group to invest more than VND10 trillion in acquisition deal tied to consumer unit MCH"
-   ]
-  },
-  {
-   "id": "2026-10-11-0830",
-   "label": "11 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-11T00:36:13Z",
-   "items": 4,
-   "headlines": [
-    "China's Focus Media wins conditional approval for RMB8.3bn buyout of elevator-ad rival Xinchao Media",
-    "Nvidia in talks to acquire or boost stake in AI startup Reflection AI, FT reports",
-    "Cloudflare acquires Deno to strengthen Workers programming model"
-   ]
-  },
-  {
-   "id": "2026-10-10-1530",
-   "label": "10 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-10T07:41:13Z",
-   "items": 7,
-   "headlines": [
-    "Evernorth completes XRP-treasury SPAC merger with Armada II, lists on Nasdaq October 12",
-    "Midea completes controlling-stake acquisition of Italian medical-imaging maker Esaote",
-    "Alimentation Couche-Tard signs deal to buy Irving Oil retail assets in Québec and Ontario"
-   ]
-  },
-  {
-   "id": "2026-10-10-1230",
-   "label": "10 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-10T04:36:35Z",
-   "items": 3,
-   "headlines": [
-    "Investment fund's tender offer for Sapporo medical-records developer CEHD succeeds, delisting set for January 2027",
-    "Sequoia-backed chip startup Nuvacore in talks to raise funding at about $2.5bn valuation",
-    "Biren Technology relaunches HK$4bn share placement, stock drops nearly 12%"
-   ]
-  },
-  {
-   "id": "2026-10-10-0830",
-   "label": "10 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-10T00:39:31Z",
-   "items": 10,
-   "headlines": [
-    "KKR affiliate delays Taiyo Holdings tender offer to late November",
-    "Toho Holdings abandons plan to acquire PHC Holdings",
-    "GTCR and Elliott in advanced talks to acquire CCC Intelligent Solutions, Bloomberg reports"
-   ]
-  },
-  {
-   "id": "2026-10-09-1530",
-   "label": "9 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-09T07:35:51Z",
-   "items": 6,
-   "headlines": [
-    "PAG in exclusive talks to acquire majority stake in China Evergrande subsidiary",
-    "SoftBank seeks up to $100bn from Gulf investors to fund AI push, FT reports",
-    "Nuveen secures $698.6m first close of Australian real estate debt fund with Temasek as investor"
-   ]
-  },
-  {
-   "id": "2026-10-09-1230",
-   "label": "9 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-09T04:36:52Z",
-   "items": 6,
-   "headlines": [
-    "Nippon Express Holdings completes acquisition of Canada's Metro Supply Chain Group",
-    "Vietnam wins its first investment-grade sovereign credit rating",
-    "Sekisui Jushi acquires traffic-safety business Hi-Q in South Korea and Vietnam"
-   ]
-  },
-  {
-   "id": "2026-10-09-0830",
-   "label": "9 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-09T00:39:26Z",
-   "items": 9,
-   "headlines": [
-    "Starbucks weighed buyout of Chipotle at about ¥6.5 trillion market value, FT reports",
-    "SpaceX agrees to buy Grain Management's nationwide 800MHz spectrum for Starlink Mobile",
-    "Viatris to acquire Pacira BioSciences for $1.65bn, expanding non-opioid pain portfolio"
-   ]
-  },
-  {
-   "id": "2026-10-08-1530",
-   "label": "8 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-08T07:37:35Z",
-   "items": 5,
-   "headlines": [
-    "OUE Reit confirms IOI Properties, CapitaLand in exclusive talks for One Raffles Place",
-    "Taxi startup newmo signs deal for Hokkaido's Ebetsu Hire, launches Sapporo service",
-    "Stripe agrees to acquire Parafin"
-   ]
-  },
-  {
-   "id": "2026-10-08-1230",
-   "label": "8 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-08T04:36:15Z",
-   "items": 5,
-   "headlines": [
-    "Ellison family's stake in Paramount Skydance's Warner Bros Discovery deal disclosed at about ¥2.7 trillion",
-    "SK Hynix's Solidigm picks Goldman Sachs, Morgan Stanley for ~$10bn 2027 US IPO",
-    "Crypto platforms Orca and Loopscale merge to form Formation, target AI-era capital markets"
-   ]
-  },
-  {
-   "id": "2026-10-08-0830",
-   "label": "8 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-08T00:40:00Z",
-   "items": 10,
-   "headlines": [
-    "Activist investor Oasis urges Nidec to start going-private review",
-    "Hikari Tsushin launches ¥267.6 billion tender offer for Leopalace21, success in doubt",
-    "ANTA Sports completes purchase of 29.06% Puma stake, becomes top shareholder"
-   ]
-  },
-  {
-   "id": "2026-10-07-1530",
-   "label": "7 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-07T07:36:00Z",
-   "items": 6,
-   "headlines": [
-    "AirTrunk commits $1bn to new Japan data centre campus",
-    "Teijin Frontier and Asahi Kasei Advance combine to form TA Frontier",
-    "Dai-ichi Life passes on Prudential's Latin America business for now"
-   ]
-  },
-  {
-   "id": "2026-10-07-1230",
-   "label": "7 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-07T04:36:00Z",
-   "items": 6,
-   "headlines": [
-    "Brookfield denies cutting Soilbuild out of Mapletree-linked property bid",
-    "Harbor Health acquires 27 Village Medical clinics in Houston",
-    "Cainz to acquire building-materials wholesaler Sonitech outright"
-   ]
-  },
-  {
-   "id": "2026-10-07-0830",
-   "label": "7 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-07T00:35:00Z",
-   "items": 10,
-   "headlines": [
-    "Paramount Skydance completes $110bn Warner Bros Discovery merger, forms Hollywood giant",
-    "SpaceX seeks to raise $40bn to fund Nvidia chip purchases, FT reports",
-    "Bain Capital, GIC weigh IPO or sale of Japan's WHI at about $3.2bn valuation"
-   ]
-  },
-  {
-   "id": "2026-10-06-1530",
-   "label": "6 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-06T07:43:16Z",
-   "items": 10,
-   "headlines": [
-    "DeepSeek raising at least $12bn in Tencent-backed round ahead of market debut",
-    "NextEra's $67bn Dominion Energy deal hits political pushback in Virginia",
-    "Informa agrees to buy Clarion Events for £2.24bn, weighs Taylor & Francis split"
-   ]
-  },
-  {
-   "id": "2026-10-06-1230",
-   "label": "6 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-06T04:35:48Z",
-   "items": 6,
-   "headlines": [
-    "Moonshot AI weighs Hong Kong IPO in early 2027 after valuation hits $50 billion",
-    "KKR agrees to buy fund administrator Gen II Fund Services for $5.1 billion",
-    "DayOne Data Centers could seek up to $5 billion in US IPO at $20 billion valuation"
-   ]
-  },
-  {
-   "id": "2026-10-06-0830",
-   "label": "6 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-06T00:36:19Z",
-   "items": 10,
-   "headlines": [
-    "C.H. Robinson agrees to acquire rival freight broker RXO, shares jump",
-    "Mitsubishi Electric weighs ¥880bn bid for German elevator maker's Europe business",
-    "OpenAI's $30bn funding round draws UAE funds and BlackRock as investors"
-   ]
-  },
-  {
-   "id": "2026-10-05-1530",
-   "label": "5 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-05T07:32:56Z",
-   "items": 4,
-   "headlines": [
-    "Schneider Electric confirms $22.6bn deal to buy PTC, up from reported $20bn",
-    "BT agrees near-£400m rescue takeover of TalkTalk, pending regulatory approval",
-    "Shionogi to buy US biopharma IntraBio for ¥315.5bn to bolster neurological drug pipeline"
-   ]
-  },
-  {
-   "id": "2026-10-05-1230",
-   "label": "5 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-05T04:38:37Z",
-   "items": 5,
-   "headlines": [
-    "Schneider Electric nears $20bn deal to buy US software maker PTC",
-    "Firmus to allocate half its IPO shares to existing investors, letting Nvidia and Blackstone raise stakes",
-    "BASE backs SBI's tender offer, signs capital alliance with SBI Holdings"
-   ]
-  },
-  {
-   "id": "2026-10-05-0830",
-   "label": "5 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-05T00:36:27Z",
-   "items": 7,
-   "headlines": [
-    "Intesa Sanpaolo threatens to pull Monte dei Paschi offer as top shareholder Delfin tenders full 17.6% stake",
-    "Collapsed NGK Spark Plug-Denso deal was worth ¥180 billion, reports say",
-    "SBS Holdings to acquire India business of China's SF Group"
-   ]
-  },
-  {
-   "id": "2026-10-04-1530",
-   "label": "4 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-04T07:34:53Z",
-   "items": 4,
-   "headlines": [
-    "Hong Kong share sales hit record US$47.5 billion in Q3 as AI deal frenzy drives Asia-Pacific issuance past US$120 billion",
-    "Yagi Tsusho to acquire all shares of Sojitz Fashion, making it a wholly owned subsidiary",
-    "Thakral weighs lifestyle unit spinoff listing and India expansion after 18% H1 revenue growth"
-   ]
-  },
-  {
-   "id": "2026-10-04-0830",
-   "label": "4 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-04T00:33:50Z",
-   "items": 7,
-   "headlines": [
-    "Broadcom lines up $60 billion debt package to fund AI chips for Anthropic",
-    "Paramount Skydance's Warner Bros Discovery acquisition to close October 6, company renamed 'Skydance'",
-    "Intesa Sanpaolo sweetens Monte dei Paschi takeover bid with extra €800 million in cash"
-   ]
-  },
-  {
-   "id": "2026-10-03-1230",
-   "label": "3 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-03T04:38:01Z",
-   "items": 4,
-   "headlines": [
-    "Iwate, Akita and Aomori Michinoku banks to form new joint holding company, keep April 2028 integration target",
-    "SK Group chairman Chey to sell $700 million stake in SK Corp after divorce ruling",
-    "Nippon Seiki to acquire Toyo Denso for ¥49.9 billion, making it a wholly owned subsidiary"
-   ]
-  },
-  {
-   "id": "2026-10-03-0830",
-   "label": "3 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-03T00:39:00Z",
-   "items": 9,
-   "headlines": [
-    "Paramount Skydance confirms combined company will be renamed simply 'Skydance' as Warner Bros Discovery deal nears close",
-    "Bain Capital explores investment in Hong Kong developer New World Development",
-    "Infroneia Holdings to raise up to ¥147.2 billion to repay debt from Water ing and other acquisitions"
-   ]
-  },
-  {
-   "id": "2026-10-02-1530",
-   "label": "2 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-02T07:40:57Z",
-   "items": 5,
-   "headlines": [
-    "ProCrea, Iwate Bank and Akita Bank confirm merger talks, target April 2028 integration",
-    "GCash parent Mynt prices $845 million IPO on Philippine Stock Exchange",
-    "Evernorth's XRP treasury vehicle raises over $1 billion as shareholders approve SPAC merger with Armada II"
-   ]
-  },
-  {
-   "id": "2026-10-02-1230",
-   "label": "2 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-02T04:53:46Z",
-   "items": 8,
-   "headlines": [
-    "Anthropic said to target IPO before Thanksgiving at $1.8 trillion-$2 trillion valuation",
-    "Mattel shares jump 18% on report of $6bn-plus takeover approach from Authentic Brands Group",
-    "Crystal Jade holding companies in Singapore and Hong Kong placed under receivership"
-   ]
-  },
-  {
-   "id": "2026-10-02-0830",
-   "label": "2 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-02T00:35:50Z",
-   "items": 10,
-   "headlines": [
-    "ProCrea, Iwate Bank and Akita Bank weigh merger that would create Japan's largest regional banking group with ¥13 trillion in assets",
-    "Nuveen completes acquisition of Schroders, creating $2.6 trillion asset and wealth manager",
-    "ON Semiconductor revises Synaptics acquisition to roughly ¥901 billion all-cash deal"
-   ]
-  },
-  {
-   "id": "2026-10-01-1530",
-   "label": "1 Oct 2026 · 15:30 SGT",
-   "generated_at": "2026-10-01T07:36:01Z",
-   "items": 10,
-   "headlines": [
-    "Paramount Skydance's $110 billion Warner Bros Discovery deal gets antitrust approval, on track to close October 6",
-    "PHC Holdings confirms Toho's buyout proposal, shares hit near four-year high",
-    "Suncorp denies takeover talks with Tokio Marine, shares drop"
-   ]
-  },
-  {
-   "id": "2026-10-01-1230",
-   "label": "1 Oct 2026 · 12:30 SGT",
-   "generated_at": "2026-10-01T04:38:03Z",
-   "items": 7,
-   "headlines": [
-    "Toho Holdings submits non-binding proposal to acquire PHC Holdings",
-    "Paramount Skydance secures $52 billion in financing for Warner Bros Discovery deal",
-    "Kadoya Seiyu shares jump as J-Oil and others weigh rival moves to its go-private deal"
-   ]
-  },
-  {
-   "id": "2026-10-01-0830",
-   "label": "1 Oct 2026 · 08:30 SGT",
-   "generated_at": "2026-10-01T00:35:25Z",
-   "items": 10,
-   "headlines": [
-    "Hikari Tsushin signals ¥267.6 billion tender offer intent for Leopalace21",
-    "Toho Holdings in talks to acquire PHC Holdings for more than ¥200 billion",
-    "Polaris Capital moves to acquire tutoring group Try for about ¥140 billion"
-   ]
-  },
-  {
-   "id": "2026-09-30-1530",
-   "label": "30 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-30T07:36:34Z",
-   "items": 5,
-   "headlines": [
-    "Mitsubishi Kakoki, Tsukishima Holdings to merge under new holding company by April 2027",
-    "OPmobility to buy Hyundai Mobis' lighting unit for $443 million",
-    "KV Asia exits Indonesia's Victoria Care after five-year investment"
-   ]
-  },
-  {
-   "id": "2026-09-30-1230",
-   "label": "30 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-30T04:40:00Z",
-   "items": 10,
-   "headlines": [
-    "Nidec weighs selling electronic-components unit Nidec Components to Carlyle for about ¥100 billion",
-    "KKR exits Japan and Korea tank-storage businesses after five years, sells Korean unit CTK to Bain Capital",
-    "Evonik rejects BASF's €10.3 billion takeover offer"
-   ]
-  },
-  {
-   "id": "2026-09-30-0830",
-   "label": "30 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-30T00:35:23Z",
-   "items": 10,
-   "headlines": [
-    "OpenAI in talks for $30 billion funding round at $1.4 trillion valuation",
-    "PPIH's Don Quijote to acquire Toys 'R' Us Japan operations for about ¥10 billion",
-    "BASF offers €10.3 billion to acquire Evonik"
-   ]
-  },
-  {
-   "id": "2026-09-29-1530",
-   "label": "29 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-29T07:37:07Z",
-   "items": 8,
-   "headlines": [
-    "Kanadevia and Nippon Steel Engineering end merger integration talks",
-    "UniCredit could complete Commerzbank takeover as early as January, FT reports",
-    "Tokio Marine reportedly narrows acquisition focus to Australia's Suncorp"
-   ]
-  },
-  {
-   "id": "2026-09-29-1230",
-   "label": "29 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-29T04:36:10Z",
-   "items": 7,
-   "headlines": [
-    "Nvidia approves additional ¥23 trillion buyback, described as largest in market history",
-    "Samsung and affiliates to invest $1 billion in KKR-backed Helix Digital AI infrastructure buildout",
-    "Megaport signs US$687 million of AI infrastructure deals, lifts FY2027 earnings forecast"
-   ]
-  },
-  {
-   "id": "2026-09-29-0830",
-   "label": "29 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-29T00:38:34Z",
-   "items": 10,
-   "headlines": [
-    "AMD to acquire Fei-Fei Li's 'physical AI' startup World Labs for $8.2 billion",
-    "SBS Holdings to acquire Mitsubishi Chemical's logistics unit for ¥19.35 billion",
-    "TechnoPro's TX1 launches ¥2,200-a-share tender offer for Project Holdings, which agrees to go private"
-   ]
-  },
-  {
-   "id": "2026-09-28-1530",
-   "label": "28 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-28T07:37:44Z",
-   "items": 6,
-   "headlines": [
-    "Paramount to raise $7.5bn more debt to fund Warner Bros deal",
-    "Geely to take 30% of Nio Power, valuing unit at 16 billion yuan",
-    "Temasek buys 9% stake in Italy's FSI, commits capital to future funds"
-   ]
-  },
-  {
-   "id": "2026-09-28-1230",
-   "label": "28 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-28T04:35:44Z",
-   "items": 7,
-   "headlines": [
-    "City Developments to invest S$5 billion, target S$6 billion of divestments in strategy reset; shares fall 6%",
-    "Warburg Pincus raises takeover offer for Ingenia Communities to A$2.14 billion",
-    "City Index Fifth launches ¥125,000-per-unit tender offer for Sankei Real Estate, aiming to delist J-REIT"
-   ]
-  },
-  {
-   "id": "2026-09-28-0830",
-   "label": "28 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-28T00:36:30Z",
-   "items": 7,
-   "headlines": [
-    "Nippon Sheet Glass to delist from Tokyo Stock Exchange Prime market as it joins Apollo Global Management",
-    "Nubank in talks to acquire Monzo for up to $13 billion, reports say",
-    "At least eight foreign banks have signalled UBS merger interest, Swiss newspaper reports"
-   ]
-  },
-  {
-   "id": "2026-09-27-1530",
-   "label": "27 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-27T07:34:11Z",
-   "items": 2,
-   "headlines": [
-    "Stripe acquires AI model-routing startup OpenRouter",
-    "A24 and Sony emerge as bidders for Japanese movie-review platform"
-   ]
-  },
-  {
-   "id": "2026-09-27-0830",
-   "label": "27 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-27T00:34:18Z",
-   "items": 5,
-   "headlines": [
-    "Rocket Lab's $8b Iridium acquisition hinges on Neutron rocket's maiden flight",
-    "BASF explores multi-billion-euro takeover of Evonik",
-    "PayPal jumps 5% on all-stock takeover report, Meta buyout proposal also surfaces"
-   ]
-  },
-  {
-   "id": "2026-09-26-1530",
-   "label": "26 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-26T07:34:08Z",
-   "items": 3,
-   "headlines": [
-    "Kadoya Seiyu, Japan's top sesame oil maker, backs tender offer from investment fund",
-    "KYCOM Holdings acquires software developer Union Joho Kikaku as subsidiary",
-    "Valtes Holdings acquires IT staffing firm Optim as subsidiary"
-   ]
-  },
-  {
-   "id": "2026-09-26-1230",
-   "label": "26 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-26T04:33:16Z",
-   "items": 2,
-   "headlines": [
-    "Sabre Financial Borrower reports early tender results for cash tender offer and consent solicitation",
-    "Sunwest Bank acquires failed Nano Banc in FDIC-assisted transaction"
-   ]
-  },
-  {
-   "id": "2026-09-26-0830",
-   "label": "26 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-26T00:35:20Z",
-   "items": 7,
-   "headlines": [
-    "SK Hynix weighs listing for Solidigm at valuation of up to $150 billion",
-    "Rexel agrees to acquire US specialty wire and cable distributor GCG",
-    "Inpex to acquire JERA's stake in Ichthys LNG project via pre-emptive rights"
-   ]
-  },
-  {
-   "id": "2026-09-25-1530",
-   "label": "25 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-25T07:31:44Z",
-   "items": 4,
-   "headlines": [
-    "Judge casts doubt on Radiant World's claimed US$1b in receivables as KPMG named restructuring executive",
-    "SMBC in talks to raise stake in Vietnam's VPBank, sources say",
-    "Goldman Sachs named lead buyer for GSR Ventures's US$350m fund"
-   ]
-  },
-  {
-   "id": "2026-09-25-1230",
-   "label": "25 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-25T04:33:21Z",
-   "items": 2,
-   "headlines": [
-    "Far East Orchard buys London site for US$79.3m student housing project",
-    "Addvalue shareholders approve spinoff of unit for separate Nasdaq listing"
-   ]
-  },
-  {
-   "id": "2026-09-25-0830",
-   "label": "25 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-25T00:35:00Z",
-   "items": 9,
-   "headlines": [
-    "Akamai signs US$11.6bn cloud deal with Anthropic, grants warrant for up to 5% stake",
-    "BlackRock, IFM close in on $25bn Stack data center deal, Bloomberg reports",
-    "SoftBank prices US$11.1bn bond, the largest high-yield corporate sale on record"
-   ]
-  },
-  {
-   "id": "2026-09-24-1530",
-   "label": "24 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-24T07:33:34Z",
-   "items": 6,
-   "headlines": [
-    "Thai private equity firm Lakeshore Capital closes third fund above target at $305m",
-    "ESR acquires full ownership of Singapore-headquartered Aquila Clean Energy",
-    "IFC likely to invest $70m as cornerstone investor in GCash's IPO"
-   ]
-  },
-  {
-   "id": "2026-09-24-1230",
-   "label": "24 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-24T04:35:35Z",
-   "items": 4,
-   "headlines": [
-    "US's Elmet Group agrees to buy 5% of Masan High-Tech Materials, valuing it at $2.5bn",
-    "Aurora Cannabis challenges Curaleaf's takeover circular at Alberta securities regulator",
-    "Blackstone's Copeland completes purchase of May River-backed Dickson"
-   ]
-  },
-  {
-   "id": "2026-09-24-0830",
-   "label": "24 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-24T00:38:52Z",
-   "items": 10,
-   "headlines": [
-    "Hellman & Friedman explores sale of Applied Systems at up to $10bn",
-    "StarHub, Keppel confirm advanced talks over M1 deal",
-    "People Incorporated withdraws bid to take MGM Resorts private"
-   ]
-  },
-  {
-   "id": "2026-09-23-1530",
-   "label": "23 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-23T07:33:23Z",
-   "items": 3,
-   "headlines": [
-    "Huspy invests $86m in Italy, acquires Integra Finance to enter market",
-    "Incredible Holdings files for judicial management after CAD/MAS probe disclosure",
-    "EQT opens Abu Dhabi office to launch dedicated Middle East platform"
-   ]
-  },
-  {
-   "id": "2026-09-23-1230",
-   "label": "23 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-23T04:33:54Z",
-   "items": 4,
-   "headlines": [
-    "Apollo again limits withdrawals from private credit fund as 14.7% of investors seek to exit",
-    "Alibaba to build data centres in Europe and Middle East, escalating cloud rivalry with AWS, Google",
-    "Australian healthtech Heidi raises $100m in Series C round"
-   ]
-  },
-  {
-   "id": "2026-09-23-0830",
-   "label": "23 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-23T00:32:59Z",
-   "items": 7,
-   "headlines": [
-    "Blackstone and EQT complete $6.6bn purchase of Platinum Equity's Urbaser",
-    "Persistent's tender offer for Nagarro succeeds with 83.25% acceptance",
-    "AI infrastructure firm Accelevation targets $5.4bn valuation in US IPO"
-   ]
-  },
-  {
-   "id": "2026-09-22-1530",
-   "label": "22 Sep 2026 · 15:30 SGT",
-   "generated_at": "2026-09-22T07:31:00Z",
-   "items": 4,
-   "headlines": [
-    "Philippines taps India's GMR Group for $11 billion Manila airport project",
-    "MAS financial stability review flags AI-pullback and global-shock risks, says Singapore well-buffered",
-    "PhonePe secures initial UAE central bank approval for payment licence"
-   ]
-  },
-  {
-   "id": "2026-09-22-1230",
-   "label": "22 Sep 2026 · 12:30 SGT",
-   "generated_at": "2026-09-22T04:33:16Z",
-   "items": 6,
-   "headlines": [
-    "Singapore's BDx breaks ground on 640MW AI data centre in Indonesia, backed by $320m loan",
-    "Korean wealth fund weighs sale of more than $1 billion of PE stakes, report says",
-    "Australian regulator warns private credit sector of more enforcement after Bathla's A$3.4bn collapse"
-   ]
-  },
-  {
-   "id": "2026-09-22-0830",
-   "label": "22 Sep 2026 · 08:30 SGT",
-   "generated_at": "2026-09-22T00:40:00Z",
-   "items": 10,
-   "headlines": [
-    "Paramount clears final hurdles for $110bn Warner Bros merger after state, union settlements",
-    "Titan International to sell ITM business to USCO S.p.A. for up to $285 million",
-    "Vanguard Renewables and Pinta Energy split Generate Capital's 12-site RNG platform"
-   ]
-  },
-  {
-   "id": "2026-09-21-2100",
-   "label": "21 Sep 2026 · 21:00 SGT",
-   "generated_at": "2026-09-21T13:02:19Z",
-   "items": 10,
-   "headlines": [
-    "SoftBank launches bond sale of over US$10 billion to fund OpenAI investment",
-    "New World Development wins Shanghai nod for US$570 million REIT listing",
-    "Singapore earmarks S$3.7 billion of green-bond proceeds for rail expansion"
-   ]
-  }
- ]
+  "editions": [
+    {
+      "id": "2026-10-30-1230",
+      "label": "30 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-30T04:35:14Z",
+      "items": 10,
+      "headlines": [
+        "Binance halts withdrawals after suspected hack hits $6.3bn, vows to cover all losses",
+        "PAG to acquire 51% of China Evergrande's property unit for HK$4.03bn, triggering mandatory offer",
+        "Czech billionaire proposes €30bn buyout of Ray-Ban family's holding company"
+      ]
+    },
+    {
+      "id": "2026-10-30-0830",
+      "label": "30 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-30T00:36:49Z",
+      "items": 10,
+      "headlines": [
+        "DoorDash agrees to buy Instacart for $17bn, confirming deal flagged days earlier",
+        "Thrive Capital agrees to buy ADT for $7.6bn, sending shares up 34%",
+        "Salesforce agrees to buy defence-tech firm Rune, pushing into military software"
+      ]
+    },
+    {
+      "id": "2026-10-29-1530",
+      "label": "29 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-29T07:37:55Z",
+      "items": 6,
+      "headlines": [
+        "Shiga Bank and Ikeda Senshu HD reach basic agreement to merge, targeting April 2028",
+        "ANA agrees to take AirDo and Solaseed Air's parent as a wholly owned subsidiary by April 2027",
+        "Anthropic names its one-employee biotech buy as Mithril, applying Claude to rare-disease drug research"
+      ]
+    },
+    {
+      "id": "2026-10-29-1230",
+      "label": "29 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-29T04:39:10Z",
+      "items": 4,
+      "headlines": [
+        "NOK and Eagle Industry to merge into roughly ¥1tn auto-parts group, but shares stay soft on synergy doubts",
+        "Shiga Bank, Ikeda Senshu HD to formally announce Kansai bank merger plan on Oct 29",
+        "SIA agrees to buy up to 4,800 tonnes of sustainable aviation fuel from Aether's Singapore plant"
+      ]
+    },
+    {
+      "id": "2026-10-29-0830",
+      "label": "29 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-29T00:38:06Z",
+      "items": 10,
+      "headlines": [
+        "Trian-led group proposes to take Wendy's private for $1.4bn, at $7.35 a share",
+        "GE Vernova to acquire major transmission-equipment maker Trench for $9bn",
+        "Marvell reported in final talks to acquire optical-component maker Lumentum in large AI deal"
+      ]
+    },
+    {
+      "id": "2026-10-28-1530",
+      "label": "28 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-28T07:36:24Z",
+      "items": 8,
+      "headlines": [
+        "TPG nears $5bn deal to acquire UK data-centre operator Ark",
+        "Macquarie Asset Management to buy Gabia and KINX at over 10% premium to first tender offer",
+        "Fox's acquisition of Roku clears shareholder vote; platform neutrality remains open issue"
+      ]
+    },
+    {
+      "id": "2026-10-28-1230",
+      "label": "28 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-28T04:35:17Z",
+      "items": 10,
+      "headlines": [
+        "OpenAI in talks to purchase Google-designed AI chips, report says",
+        "onsemi in talks to acquire chip startup Felix for about $1bn",
+        "A. O. Smith sells 81% of its China business to CPE, keeps 19% stake and brand license"
+      ]
+    },
+    {
+      "id": "2026-10-28-0830",
+      "label": "28 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-28T00:37:05Z",
+      "items": 10,
+      "headlines": [
+        "US regulator approves Amazon Leo's $11.5bn acquisition of Globalstar",
+        "FTC moves to block Cintas's $5.5bn acquisition of UniFirst",
+        "Ares Capital agrees to acquire MidCap Financial for about $2.6bn"
+      ]
+    },
+    {
+      "id": "2026-10-27-1530",
+      "label": "27 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-27T07:37:50Z",
+      "items": 6,
+      "headlines": [
+        "Nvidia to invest $3bn in Meta, deepening AI partnership on Muse agent",
+        "Perfect completes founder-led take-private of YouCam Makeup operator, four years after listing",
+        "Truelink Capital agrees to acquire Johnson Controls' global intrusion products business"
+      ]
+    },
+    {
+      "id": "2026-10-27-1230",
+      "label": "27 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-27T04:36:53Z",
+      "items": 6,
+      "headlines": [
+        "Anthropic to raise $63bn in bank and Blackstone financing to fund AI-chip purchases",
+        "Universal Music Group in talks on a potential take-private, approached by a major US investment firm",
+        "ENEOS completes $758m acquisition of US chemicals maker TPC Holdings"
+      ]
+    },
+    {
+      "id": "2026-10-27-0830",
+      "label": "27 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-27T00:43:03Z",
+      "items": 10,
+      "headlines": [
+        "EQT agrees all-stock merger with Range Resources in deal valued above $50bn",
+        "DoorDash nears roughly $17bn deal to acquire Instacart, agreement possible within days",
+        "Surgery Partners agrees to go private in Bon Secours-linked deal worth about $5.7bn"
+      ]
+    },
+    {
+      "id": "2026-10-26-1530",
+      "label": "26 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-26T07:40:32Z",
+      "items": 7,
+      "headlines": [
+        "LINE Yahoo, Bain raise Kakaku.com tender offer price to ¥3,700 a share",
+        "Ikuyo launches ¥3,000-a-share tender offer for Muraki, to keep it listed",
+        "TPG-backed One Aged Care acquires Active Global"
+      ]
+    },
+    {
+      "id": "2026-10-26-1230",
+      "label": "26 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-26T04:36:50Z",
+      "items": 6,
+      "headlines": [
+        "Galderma to acquire ZO Skin Health for $1.5bn",
+        "EU clears Kimberly-Clark's $40bn Kenvue takeover on condition it sells three feminine-hygiene brands",
+        "Shiga Bank, Ikeda Senshu HD said to be in final-stage talks on Kansai bank merger"
+      ]
+    },
+    {
+      "id": "2026-10-26-0830",
+      "label": "26 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-26T00:36:56Z",
+      "items": 8,
+      "headlines": [
+        "Bon Secours to acquire Bain Capital-backed Surgery for $6bn, FT reports",
+        "SpaceX raises $40bn in debt to fund GPU buildout, Musk says",
+        "Tokyo Gas to take full ownership of Indonesia's AGPIU, expanding into LNG infrastructure"
+      ]
+    },
+    {
+      "id": "2026-10-25-1230",
+      "label": "25 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-25T04:34:37Z",
+      "items": 2,
+      "headlines": [
+        "Fireblocks to cut about 7% of staff as Visa acquisition speculation resurfaces",
+        "South Africa's IDC nears $610m deal for ArcelorMittal's distressed unit"
+      ]
+    },
+    {
+      "id": "2026-10-25-0830",
+      "label": "25 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-25T00:34:45Z",
+      "items": 6,
+      "headlines": [
+        "RedotPay acquires Japan's BTCBOX in bid to secure a crypto licence",
+        "Frasers Group acquires Hugo Boss as part of new luxury group plan",
+        "Stout acquires Flightline to bring AI due-diligence work in-house"
+      ]
+    },
+    {
+      "id": "2026-10-24-1530",
+      "label": "24 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-24T07:34:35Z",
+      "items": 3,
+      "headlines": [
+        "Instacart in talks with DoorDash and Uber over a potential sale",
+        "Shein agrees to pay $100m to settle US FTC probe, EU investigation continues",
+        "Indonesia cuts piped gas exports to Singapore by about 8% from Oct 24"
+      ]
+    },
+    {
+      "id": "2026-10-24-0830",
+      "label": "24 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-24T00:40:54Z",
+      "items": 10,
+      "headlines": [
+        "Shiga Bank, Ikeda Senshu HD coordinate merger to create Kansai's largest regional bank group, assets top ¥14tn",
+        "ENEOS to take NIPPO fully in-house, reversing re-listing plan for road-paving unit",
+        "Shanghai International offers $1.2bn for 51% stake in Haitong UniTrust"
+      ]
+    },
+    {
+      "id": "2026-10-23-1530",
+      "label": "23 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-23T07:35:00Z",
+      "items": 6,
+      "headlines": [
+        "Standard Chartered signs final agreement to acquire Zodia Custody, to fold in its custody business",
+        "Musk invests about ¥157bn in Skydance to help address debt from its Warner acquisition",
+        "Itochu to acquire Hitachi Construction Machinery's Taiwan sales unit, Nikkei reports"
+      ]
+    },
+    {
+      "id": "2026-10-23-1230",
+      "label": "23 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-23T04:37:00Z",
+      "items": 6,
+      "headlines": [
+        "OpenAI's valuation marked down to $1.25 trillion from $1.4 trillion ahead of funding close",
+        "SK Group's data-centre unit in talks to finance $350bn AI buildout, 15GW planned in South Korea by 2030",
+        "Nippon Steel to invest ¥470bn in US Steel hot-rolling upgrade, largest project under acquisition pledge"
+      ]
+    },
+    {
+      "id": "2026-10-23-0830",
+      "label": "23 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-23T00:35:00Z",
+      "items": 10,
+      "headlines": [
+        "EQT's Qiagen buyout now valued at €10.8bn, structured to limit dissenting shareholders",
+        "LSEG agrees $3.54bn cash deal for credit-data provider Octus, completion targeted for H1 2027",
+        "Hillhouse-linked Singapore fund launches ¥2,020-a-share tender for Japan's Circlace, to delist it"
+      ]
+    },
+    {
+      "id": "2026-10-22-1530",
+      "label": "22 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-22T07:33:00Z",
+      "items": 5,
+      "headlines": [
+        "EQT agrees to acquire Qiagen for €9.6bn, confirming earlier buyout talks",
+        "Axel Springer proposes acquiring TikTok's European operations, FT reports",
+        "China's Midea completes acquisition of Italian diagnostic-imaging maker Esaote"
+      ]
+    },
+    {
+      "id": "2026-10-22-1230",
+      "label": "22 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-22T04:35:00Z",
+      "items": 10,
+      "headlines": [
+        "CIMB denies plan to take Indonesia's CIMB Niaga private",
+        "DeepSeek raises $15bn in challenge to leading US AI labs",
+        "Legendary makes buyout proposal for Lionsgate Studios"
+      ]
+    },
+    {
+      "id": "2026-10-22-0830",
+      "label": "22 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-22T00:38:33Z",
+      "items": 10,
+      "headlines": [
+        "Cencora agrees to acquire American Oncology Network for $2.4bn",
+        "Taiwan blocks Grab's $600m foodpanda Taiwan acquisition for a second time",
+        "Labcorp-OPKO BioReference asset sale priced at $722m or more"
+      ]
+    },
+    {
+      "id": "2026-10-21-1530",
+      "label": "21 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-21T07:37:05Z",
+      "items": 5,
+      "headlines": [
+        "Fortrea completes acquisition of early-stage clinical services unit from Worldwide Clinical Trials",
+        "DayOne weighs delaying or shrinking US IPO after data-centre stock rout",
+        "OrbiMed secures over $1bn for sixth Asia healthcare fund"
+      ]
+    },
+    {
+      "id": "2026-10-21-1230",
+      "label": "21 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-21T04:39:31Z",
+      "items": 5,
+      "headlines": [
+        "Progress Software completes acquisition of Domo's AI and data-platform business",
+        "CVC Capital Partners in talks to acquire a stake in Thai soy milk maker Tofusan",
+        "Nvidia in talks to raise its investment in AI cloud firm Firmus after its IPO flop"
+      ]
+    },
+    {
+      "id": "2026-10-21-0830",
+      "label": "21 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-21T00:39:53Z",
+      "items": 10,
+      "headlines": [
+        "Musk says Tesla and SpaceX have formed special committees to explore a merger",
+        "Salesforce to acquire Braze for $5.66bn in all-cash deal at $47.50 a share",
+        "CBRE to acquire London-based network infrastructure firm Onnec for up to $1bn, WSJ reports"
+      ]
+    },
+    {
+      "id": "2026-10-20-1530",
+      "label": "20 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-20T07:33:00Z",
+      "items": 4,
+      "headlines": [
+        "EU accuses KKR of misleading regulators in Telecom Italia network deal, weighs fine",
+        "GCash parent Mynt raises ~$967m in Southeast Asia's top 2026 IPO, shares rise in debut",
+        "Seoul data-centre infrastructure firm Elice plunges 33% in debut after raising Won201bn IPO"
+      ]
+    },
+    {
+      "id": "2026-10-20-1230",
+      "label": "20 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-20T04:35:00Z",
+      "items": 10,
+      "headlines": [
+        "Kimberly-Clark lines up $4.9bn bond sale to help fund $40bn Kenvue takeover",
+        "Maximus agrees to acquire Agile Defense for $660m",
+        "China's Neolix raises nearly $400m in Series E for robovan delivery business"
+      ]
+    },
+    {
+      "id": "2026-10-20-0830",
+      "label": "20 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-20T00:41:02Z",
+      "items": 10,
+      "headlines": [
+        "Silgan, American Industrial Partners to buy Trivium Packaging for $3.4bn",
+        "Tradeweb to acquire bond-trading platform Trumid for $1.97bn; shares fall 11%",
+        "Merck KGaA to acquire Silence Therapeutics for $1.3bn to build siRNA pipeline"
+      ]
+    },
+    {
+      "id": "2026-10-19-1230",
+      "label": "19 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-19T04:39:06Z",
+      "items": 6,
+      "headlines": [
+        "Fairfax revives India bank privatisation with $5.6bn bid for IDBI",
+        "SG Fleet agrees to buy Australia's FleetPartners for A$1.13bn, sending both shares to highs",
+        "IFC weighs $400m loan to Malaysia's Affin Bank as Thailand's Muangthai Capital secures $60m from FinDev Canada"
+      ]
+    },
+    {
+      "id": "2026-10-19-0830",
+      "label": "19 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-19T00:36:10Z",
+      "items": 10,
+      "headlines": [
+        "EQT agrees to acquire Australia's Cleanaway in $6.5bn deal",
+        "Daiichi Life unit tables A$7.94bn takeover bid for Australia's Challenger, valued at about ¥700bn",
+        "Accenture looks to sell Chinese operations for up to $1.5bn, FT reports"
+      ]
+    },
+    {
+      "id": "2026-10-18-1530",
+      "label": "18 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-18T07:38:17Z",
+      "items": 4,
+      "headlines": [
+        "CCC Intelligent Solutions agrees to $6.1bn take-private buyout by GTCR and Elliott",
+        "AI-debt jitters spread beyond CoreWeave to Oracle and SoftBank as data-centre delays mount",
+        "Doubts over AI infrastructure financing cool rally in Asia's 'picks-and-shovels' stocks"
+      ]
+    },
+    {
+      "id": "2026-10-17-1530",
+      "label": "17 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-17T07:40:45Z",
+      "items": 4,
+      "headlines": [
+        "Proofpoint lines up $1.25bn in financing for $6.3bn Varonis takeover",
+        "Parkview Health agrees to acquire shared-services provider Ovation Healthcare",
+        "Allstate's Arity unit signs definitive agreement to acquire mobility-data firm INRIX"
+      ]
+    },
+    {
+      "id": "2026-10-17-1230",
+      "label": "17 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-17T04:37:00Z",
+      "items": 4,
+      "headlines": [
+        "Anthropic offers Blackstone double-digit yield in AI chip-financing deal",
+        "Panzani and Cerealis to merge into European food group with €1bn in combined revenue",
+        "Klook Technology withdraws US listing filing, had applied for IPO last November"
+      ]
+    },
+    {
+      "id": "2026-10-17-0830",
+      "label": "17 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-17T00:35:00Z",
+      "items": 9,
+      "headlines": [
+        "SoftBank Group weighs Allied Universal buyout at up to $30bn including debt",
+        "AkzoNobel and Axalta offer EU remedies to clear $25bn tie-up",
+        "CoreWeave bonds and shares head for steep weekly losses as AI debt concerns mount"
+      ]
+    },
+    {
+      "id": "2026-10-16-1530",
+      "label": "16 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-16T07:40:00Z",
+      "items": 9,
+      "headlines": [
+        "South Korea's NongHyup to channel Won2.6 trillion to MBK Partners over 10 years amid Korea Zinc, Homeplus funding dispute",
+        "CJ Group teams with Daou Kiwoom for JoongAng Ilbo takeover bid ahead of Oct 19 final round",
+        "AIIB commits $100m to TPG Rise Climate's emerging markets fund"
+      ]
+    },
+    {
+      "id": "2026-10-16-1230",
+      "label": "16 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-16T04:40:00Z",
+      "items": 6,
+      "headlines": [
+        "MSCI proposes downgrading Indonesia to standalone status; Jakarta shares drop as much as 11%",
+        "JPMorgan and Goldman raise yield on Volta AI loan to clear investor demand",
+        "Investors pare back Anthropic IPO valuation expectations as revenue growth slows"
+      ]
+    },
+    {
+      "id": "2026-10-16-0830",
+      "label": "16 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-16T00:42:53Z",
+      "items": 10,
+      "headlines": [
+        "Thoma Bravo's Proofpoint to acquire Varonis Systems for $6.3bn in cash",
+        "Penske Automotive to go private in deal with Penske Corp and Mitsui at $212 a share",
+        "Richemont and Signet in talks to join consortium bidding for De Beers"
+      ]
+    },
+    {
+      "id": "2026-10-15-1530",
+      "label": "15 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-15T07:37:22Z",
+      "items": 5,
+      "headlines": [
+        "EQT to acquire Stockbridge, a US real estate manager with $16.5bn in fee-paying AUM",
+        "Oasis, Kobayashi Pharmaceutical's top shareholder, demands a competitive process for go-private",
+        "Kikkoman emerges as bidder in unusual contest for sesame-oil maker Kadoya"
+      ]
+    },
+    {
+      "id": "2026-10-15-1230",
+      "label": "15 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-15T04:36:25Z",
+      "items": 4,
+      "headlines": [
+        "ByteDance nears chip-supply deal with MediaTek for AI data centres, Bloomberg reports",
+        "Nippon Seiki completes buyout of remaining Toyo Denso shares, making it wholly owned",
+        "Polygon completes acquisition of CoinMe, gaining money-transmission compliance across 48 US states"
+      ]
+    },
+    {
+      "id": "2026-10-15-0830",
+      "label": "15 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-15T00:37:55Z",
+      "items": 10,
+      "headlines": [
+        "Clear Channel Outdoor completes buyout by Abu Dhabi's Mubadala Capital",
+        "3C merges with Datalec to form US$400m-plus liquid-cooling and data-centre services group",
+        "Aurora Cannabis rejects Curaleaf's revised hostile takeover bid"
+      ]
+    },
+    {
+      "id": "2026-10-14-1530",
+      "label": "14 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-14T07:32:12Z",
+      "items": 6,
+      "headlines": [
+        "Singapore's Princeton Digital Group seeks up to US$1.2bn loan for Johor data centre",
+        "Japan's World and TSI Holdings agree to merge under new holding company Infinity United",
+        "Singapore's Nanyang Biologics eyes Nasdaq listing at US$1.5bn valuation"
+      ]
+    },
+    {
+      "id": "2026-10-14-1230",
+      "label": "14 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-14T04:39:00Z",
+      "items": 8,
+      "headlines": [
+        "LSEG in talks to acquire financial-data provider Octus for about $3.5bn",
+        "SK Group chairman Chey sells SK Corp stake to Dell-family office fund for $406mn",
+        "Kachitas launches ¥2,000-a-share tender offer for Tobu Jyuhan, aiming to delist it"
+      ]
+    },
+    {
+      "id": "2026-10-14-0830",
+      "label": "14 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-14T00:40:00Z",
+      "items": 8,
+      "headlines": [
+        "Kimberly-Clark wins conditional EU approval for $40bn Kenvue takeover, advances note exchange",
+        "AT&T agrees to sell AT&T Mexico to Grupo Televisa and Fintech Holdings",
+        "Bumble agrees to $1.3bn take-private deal with Ithaca Holdings at $6.05 a share"
+      ]
+    },
+    {
+      "id": "2026-10-13-1530",
+      "label": "13 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-13T07:41:00Z",
+      "items": 4,
+      "headlines": [
+        "Visa cleared to run domestic clearing network in China after years-long wait, tapping US$144tn payments market",
+        "Character.AI files for bankruptcy, sells some assets to Disney for $20mn",
+        "Freshworks signs final agreement to acquire Torii, folding AI spend-management tool into Freshservice"
+      ]
+    },
+    {
+      "id": "2026-10-13-1230",
+      "label": "13 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-13T04:36:26Z",
+      "items": 7,
+      "headlines": [
+        "NTT Data in final talks to build Anthropic's first data centre in Japan",
+        "Starbucks denies plan to acquire Chipotle after FT report, shares fall 3.8%",
+        "Tencent markets dollar and dim sum bonds in four tranches, advancing $5bn AI-funding plan"
+      ]
+    },
+    {
+      "id": "2026-10-13-0830",
+      "label": "13 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-13T00:36:55Z",
+      "items": 10,
+      "headlines": [
+        "Omron to acquire US industrial-PC maker OnLogic and parent Interlogic for ¥104.6bn",
+        "IonQ to acquire cybersecurity firm Elisity for up to $1.3bn in all-stock deal",
+        "Bumble in advanced talks to go private at $1bn valuation, shares jump"
+      ]
+    },
+    {
+      "id": "2026-10-12-1530",
+      "label": "12 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-12T07:37:48Z",
+      "items": 6,
+      "headlines": [
+        "SpaceX's spectrum deal with Grain Management for Starlink Mobile valued at about $8bn",
+        "1MDB settles US$1.1bn Deutsche Bank lawsuit over alleged fund siphoning",
+        "Moonshot AI executives negotiate shareholder settlement ahead of Hong Kong IPO"
+      ]
+    },
+    {
+      "id": "2026-10-12-1230",
+      "label": "12 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-12T04:36:36Z",
+      "items": 5,
+      "headlines": [
+        "Kim Dong-sun launches KRW128.5bn tender offer for Hanwha M&S to secure control, shares surge",
+        "Samsung SDS buys domestic air-cargo carrier Woojung Air to build out logistics arm",
+        "Gunma Bank and Daishi Hokuetsu Financial Group to merge management next April"
+      ]
+    },
+    {
+      "id": "2026-10-12-0830",
+      "label": "12 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-12T00:38:15Z",
+      "items": 8,
+      "headlines": [
+        "Nvidia has already put $800m into Reflection AI, now valued at $25bn, as buyout talks continue",
+        "Amazon discussing roughly $7bn deal to acquire AI startup Decart, WSJ reports",
+        "Masan Group to invest more than VND10 trillion in acquisition deal tied to consumer unit MCH"
+      ]
+    },
+    {
+      "id": "2026-10-11-0830",
+      "label": "11 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-11T00:36:13Z",
+      "items": 4,
+      "headlines": [
+        "China's Focus Media wins conditional approval for RMB8.3bn buyout of elevator-ad rival Xinchao Media",
+        "Nvidia in talks to acquire or boost stake in AI startup Reflection AI, FT reports",
+        "Cloudflare acquires Deno to strengthen Workers programming model"
+      ]
+    },
+    {
+      "id": "2026-10-10-1530",
+      "label": "10 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-10T07:41:13Z",
+      "items": 7,
+      "headlines": [
+        "Evernorth completes XRP-treasury SPAC merger with Armada II, lists on Nasdaq October 12",
+        "Midea completes controlling-stake acquisition of Italian medical-imaging maker Esaote",
+        "Alimentation Couche-Tard signs deal to buy Irving Oil retail assets in Québec and Ontario"
+      ]
+    },
+    {
+      "id": "2026-10-10-1230",
+      "label": "10 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-10T04:36:35Z",
+      "items": 3,
+      "headlines": [
+        "Investment fund's tender offer for Sapporo medical-records developer CEHD succeeds, delisting set for January 2027",
+        "Sequoia-backed chip startup Nuvacore in talks to raise funding at about $2.5bn valuation",
+        "Biren Technology relaunches HK$4bn share placement, stock drops nearly 12%"
+      ]
+    },
+    {
+      "id": "2026-10-10-0830",
+      "label": "10 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-10T00:39:31Z",
+      "items": 10,
+      "headlines": [
+        "KKR affiliate delays Taiyo Holdings tender offer to late November",
+        "Toho Holdings abandons plan to acquire PHC Holdings",
+        "GTCR and Elliott in advanced talks to acquire CCC Intelligent Solutions, Bloomberg reports"
+      ]
+    },
+    {
+      "id": "2026-10-09-1530",
+      "label": "9 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-09T07:35:51Z",
+      "items": 6,
+      "headlines": [
+        "PAG in exclusive talks to acquire majority stake in China Evergrande subsidiary",
+        "SoftBank seeks up to $100bn from Gulf investors to fund AI push, FT reports",
+        "Nuveen secures $698.6m first close of Australian real estate debt fund with Temasek as investor"
+      ]
+    },
+    {
+      "id": "2026-10-09-1230",
+      "label": "9 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-09T04:36:52Z",
+      "items": 6,
+      "headlines": [
+        "Nippon Express Holdings completes acquisition of Canada's Metro Supply Chain Group",
+        "Vietnam wins its first investment-grade sovereign credit rating",
+        "Sekisui Jushi acquires traffic-safety business Hi-Q in South Korea and Vietnam"
+      ]
+    },
+    {
+      "id": "2026-10-09-0830",
+      "label": "9 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-09T00:39:26Z",
+      "items": 9,
+      "headlines": [
+        "Starbucks weighed buyout of Chipotle at about ¥6.5 trillion market value, FT reports",
+        "SpaceX agrees to buy Grain Management's nationwide 800MHz spectrum for Starlink Mobile",
+        "Viatris to acquire Pacira BioSciences for $1.65bn, expanding non-opioid pain portfolio"
+      ]
+    },
+    {
+      "id": "2026-10-08-1530",
+      "label": "8 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-08T07:37:35Z",
+      "items": 5,
+      "headlines": [
+        "OUE Reit confirms IOI Properties, CapitaLand in exclusive talks for One Raffles Place",
+        "Taxi startup newmo signs deal for Hokkaido's Ebetsu Hire, launches Sapporo service",
+        "Stripe agrees to acquire Parafin"
+      ]
+    },
+    {
+      "id": "2026-10-08-1230",
+      "label": "8 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-08T04:36:15Z",
+      "items": 5,
+      "headlines": [
+        "Ellison family's stake in Paramount Skydance's Warner Bros Discovery deal disclosed at about ¥2.7 trillion",
+        "SK Hynix's Solidigm picks Goldman Sachs, Morgan Stanley for ~$10bn 2027 US IPO",
+        "Crypto platforms Orca and Loopscale merge to form Formation, target AI-era capital markets"
+      ]
+    },
+    {
+      "id": "2026-10-08-0830",
+      "label": "8 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-08T00:40:00Z",
+      "items": 10,
+      "headlines": [
+        "Activist investor Oasis urges Nidec to start going-private review",
+        "Hikari Tsushin launches ¥267.6 billion tender offer for Leopalace21, success in doubt",
+        "ANTA Sports completes purchase of 29.06% Puma stake, becomes top shareholder"
+      ]
+    },
+    {
+      "id": "2026-10-07-1530",
+      "label": "7 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-07T07:36:00Z",
+      "items": 6,
+      "headlines": [
+        "AirTrunk commits $1bn to new Japan data centre campus",
+        "Teijin Frontier and Asahi Kasei Advance combine to form TA Frontier",
+        "Dai-ichi Life passes on Prudential's Latin America business for now"
+      ]
+    },
+    {
+      "id": "2026-10-07-1230",
+      "label": "7 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-07T04:36:00Z",
+      "items": 6,
+      "headlines": [
+        "Brookfield denies cutting Soilbuild out of Mapletree-linked property bid",
+        "Harbor Health acquires 27 Village Medical clinics in Houston",
+        "Cainz to acquire building-materials wholesaler Sonitech outright"
+      ]
+    },
+    {
+      "id": "2026-10-07-0830",
+      "label": "7 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-07T00:35:00Z",
+      "items": 10,
+      "headlines": [
+        "Paramount Skydance completes $110bn Warner Bros Discovery merger, forms Hollywood giant",
+        "SpaceX seeks to raise $40bn to fund Nvidia chip purchases, FT reports",
+        "Bain Capital, GIC weigh IPO or sale of Japan's WHI at about $3.2bn valuation"
+      ]
+    },
+    {
+      "id": "2026-10-06-1530",
+      "label": "6 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-06T07:43:16Z",
+      "items": 10,
+      "headlines": [
+        "DeepSeek raising at least $12bn in Tencent-backed round ahead of market debut",
+        "NextEra's $67bn Dominion Energy deal hits political pushback in Virginia",
+        "Informa agrees to buy Clarion Events for £2.24bn, weighs Taylor & Francis split"
+      ]
+    },
+    {
+      "id": "2026-10-06-1230",
+      "label": "6 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-06T04:35:48Z",
+      "items": 6,
+      "headlines": [
+        "Moonshot AI weighs Hong Kong IPO in early 2027 after valuation hits $50 billion",
+        "KKR agrees to buy fund administrator Gen II Fund Services for $5.1 billion",
+        "DayOne Data Centers could seek up to $5 billion in US IPO at $20 billion valuation"
+      ]
+    },
+    {
+      "id": "2026-10-06-0830",
+      "label": "6 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-06T00:36:19Z",
+      "items": 10,
+      "headlines": [
+        "C.H. Robinson agrees to acquire rival freight broker RXO, shares jump",
+        "Mitsubishi Electric weighs ¥880bn bid for German elevator maker's Europe business",
+        "OpenAI's $30bn funding round draws UAE funds and BlackRock as investors"
+      ]
+    },
+    {
+      "id": "2026-10-05-1530",
+      "label": "5 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-05T07:32:56Z",
+      "items": 4,
+      "headlines": [
+        "Schneider Electric confirms $22.6bn deal to buy PTC, up from reported $20bn",
+        "BT agrees near-£400m rescue takeover of TalkTalk, pending regulatory approval",
+        "Shionogi to buy US biopharma IntraBio for ¥315.5bn to bolster neurological drug pipeline"
+      ]
+    },
+    {
+      "id": "2026-10-05-1230",
+      "label": "5 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-05T04:38:37Z",
+      "items": 5,
+      "headlines": [
+        "Schneider Electric nears $20bn deal to buy US software maker PTC",
+        "Firmus to allocate half its IPO shares to existing investors, letting Nvidia and Blackstone raise stakes",
+        "BASE backs SBI's tender offer, signs capital alliance with SBI Holdings"
+      ]
+    },
+    {
+      "id": "2026-10-05-0830",
+      "label": "5 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-05T00:36:27Z",
+      "items": 7,
+      "headlines": [
+        "Intesa Sanpaolo threatens to pull Monte dei Paschi offer as top shareholder Delfin tenders full 17.6% stake",
+        "Collapsed NGK Spark Plug-Denso deal was worth ¥180 billion, reports say",
+        "SBS Holdings to acquire India business of China's SF Group"
+      ]
+    },
+    {
+      "id": "2026-10-04-1530",
+      "label": "4 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-04T07:34:53Z",
+      "items": 4,
+      "headlines": [
+        "Hong Kong share sales hit record US$47.5 billion in Q3 as AI deal frenzy drives Asia-Pacific issuance past US$120 billion",
+        "Yagi Tsusho to acquire all shares of Sojitz Fashion, making it a wholly owned subsidiary",
+        "Thakral weighs lifestyle unit spinoff listing and India expansion after 18% H1 revenue growth"
+      ]
+    },
+    {
+      "id": "2026-10-04-0830",
+      "label": "4 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-04T00:33:50Z",
+      "items": 7,
+      "headlines": [
+        "Broadcom lines up $60 billion debt package to fund AI chips for Anthropic",
+        "Paramount Skydance's Warner Bros Discovery acquisition to close October 6, company renamed 'Skydance'",
+        "Intesa Sanpaolo sweetens Monte dei Paschi takeover bid with extra €800 million in cash"
+      ]
+    },
+    {
+      "id": "2026-10-03-1230",
+      "label": "3 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-03T04:38:01Z",
+      "items": 4,
+      "headlines": [
+        "Iwate, Akita and Aomori Michinoku banks to form new joint holding company, keep April 2028 integration target",
+        "SK Group chairman Chey to sell $700 million stake in SK Corp after divorce ruling",
+        "Nippon Seiki to acquire Toyo Denso for ¥49.9 billion, making it a wholly owned subsidiary"
+      ]
+    },
+    {
+      "id": "2026-10-03-0830",
+      "label": "3 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-03T00:39:00Z",
+      "items": 9,
+      "headlines": [
+        "Paramount Skydance confirms combined company will be renamed simply 'Skydance' as Warner Bros Discovery deal nears close",
+        "Bain Capital explores investment in Hong Kong developer New World Development",
+        "Infroneia Holdings to raise up to ¥147.2 billion to repay debt from Water ing and other acquisitions"
+      ]
+    },
+    {
+      "id": "2026-10-02-1530",
+      "label": "2 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-02T07:40:57Z",
+      "items": 5,
+      "headlines": [
+        "ProCrea, Iwate Bank and Akita Bank confirm merger talks, target April 2028 integration",
+        "GCash parent Mynt prices $845 million IPO on Philippine Stock Exchange",
+        "Evernorth's XRP treasury vehicle raises over $1 billion as shareholders approve SPAC merger with Armada II"
+      ]
+    },
+    {
+      "id": "2026-10-02-1230",
+      "label": "2 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-02T04:53:46Z",
+      "items": 8,
+      "headlines": [
+        "Anthropic said to target IPO before Thanksgiving at $1.8 trillion-$2 trillion valuation",
+        "Mattel shares jump 18% on report of $6bn-plus takeover approach from Authentic Brands Group",
+        "Crystal Jade holding companies in Singapore and Hong Kong placed under receivership"
+      ]
+    },
+    {
+      "id": "2026-10-02-0830",
+      "label": "2 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-02T00:35:50Z",
+      "items": 10,
+      "headlines": [
+        "ProCrea, Iwate Bank and Akita Bank weigh merger that would create Japan's largest regional banking group with ¥13 trillion in assets",
+        "Nuveen completes acquisition of Schroders, creating $2.6 trillion asset and wealth manager",
+        "ON Semiconductor revises Synaptics acquisition to roughly ¥901 billion all-cash deal"
+      ]
+    },
+    {
+      "id": "2026-10-01-1530",
+      "label": "1 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-01T07:36:01Z",
+      "items": 10,
+      "headlines": [
+        "Paramount Skydance's $110 billion Warner Bros Discovery deal gets antitrust approval, on track to close October 6",
+        "PHC Holdings confirms Toho's buyout proposal, shares hit near four-year high",
+        "Suncorp denies takeover talks with Tokio Marine, shares drop"
+      ]
+    },
+    {
+      "id": "2026-10-01-1230",
+      "label": "1 Oct 2026 · 12:30 SGT",
+      "generated_at": "2026-10-01T04:38:03Z",
+      "items": 7,
+      "headlines": [
+        "Toho Holdings submits non-binding proposal to acquire PHC Holdings",
+        "Paramount Skydance secures $52 billion in financing for Warner Bros Discovery deal",
+        "Kadoya Seiyu shares jump as J-Oil and others weigh rival moves to its go-private deal"
+      ]
+    },
+    {
+      "id": "2026-10-01-0830",
+      "label": "1 Oct 2026 · 08:30 SGT",
+      "generated_at": "2026-10-01T00:35:25Z",
+      "items": 10,
+      "headlines": [
+        "Hikari Tsushin signals ¥267.6 billion tender offer intent for Leopalace21",
+        "Toho Holdings in talks to acquire PHC Holdings for more than ¥200 billion",
+        "Polaris Capital moves to acquire tutoring group Try for about ¥140 billion"
+      ]
+    },
+    {
+      "id": "2026-09-30-1530",
+      "label": "30 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-30T07:36:34Z",
+      "items": 5,
+      "headlines": [
+        "Mitsubishi Kakoki, Tsukishima Holdings to merge under new holding company by April 2027",
+        "OPmobility to buy Hyundai Mobis' lighting unit for $443 million",
+        "KV Asia exits Indonesia's Victoria Care after five-year investment"
+      ]
+    },
+    {
+      "id": "2026-09-30-1230",
+      "label": "30 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-30T04:40:00Z",
+      "items": 10,
+      "headlines": [
+        "Nidec weighs selling electronic-components unit Nidec Components to Carlyle for about ¥100 billion",
+        "KKR exits Japan and Korea tank-storage businesses after five years, sells Korean unit CTK to Bain Capital",
+        "Evonik rejects BASF's €10.3 billion takeover offer"
+      ]
+    },
+    {
+      "id": "2026-09-30-0830",
+      "label": "30 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-30T00:35:23Z",
+      "items": 10,
+      "headlines": [
+        "OpenAI in talks for $30 billion funding round at $1.4 trillion valuation",
+        "PPIH's Don Quijote to acquire Toys 'R' Us Japan operations for about ¥10 billion",
+        "BASF offers €10.3 billion to acquire Evonik"
+      ]
+    },
+    {
+      "id": "2026-09-29-1530",
+      "label": "29 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-29T07:37:07Z",
+      "items": 8,
+      "headlines": [
+        "Kanadevia and Nippon Steel Engineering end merger integration talks",
+        "UniCredit could complete Commerzbank takeover as early as January, FT reports",
+        "Tokio Marine reportedly narrows acquisition focus to Australia's Suncorp"
+      ]
+    },
+    {
+      "id": "2026-09-29-1230",
+      "label": "29 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-29T04:36:10Z",
+      "items": 7,
+      "headlines": [
+        "Nvidia approves additional ¥23 trillion buyback, described as largest in market history",
+        "Samsung and affiliates to invest $1 billion in KKR-backed Helix Digital AI infrastructure buildout",
+        "Megaport signs US$687 million of AI infrastructure deals, lifts FY2027 earnings forecast"
+      ]
+    },
+    {
+      "id": "2026-09-29-0830",
+      "label": "29 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-29T00:38:34Z",
+      "items": 10,
+      "headlines": [
+        "AMD to acquire Fei-Fei Li's 'physical AI' startup World Labs for $8.2 billion",
+        "SBS Holdings to acquire Mitsubishi Chemical's logistics unit for ¥19.35 billion",
+        "TechnoPro's TX1 launches ¥2,200-a-share tender offer for Project Holdings, which agrees to go private"
+      ]
+    },
+    {
+      "id": "2026-09-28-1530",
+      "label": "28 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-28T07:37:44Z",
+      "items": 6,
+      "headlines": [
+        "Paramount to raise $7.5bn more debt to fund Warner Bros deal",
+        "Geely to take 30% of Nio Power, valuing unit at 16 billion yuan",
+        "Temasek buys 9% stake in Italy's FSI, commits capital to future funds"
+      ]
+    },
+    {
+      "id": "2026-09-28-1230",
+      "label": "28 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-28T04:35:44Z",
+      "items": 7,
+      "headlines": [
+        "City Developments to invest S$5 billion, target S$6 billion of divestments in strategy reset; shares fall 6%",
+        "Warburg Pincus raises takeover offer for Ingenia Communities to A$2.14 billion",
+        "City Index Fifth launches ¥125,000-per-unit tender offer for Sankei Real Estate, aiming to delist J-REIT"
+      ]
+    },
+    {
+      "id": "2026-09-28-0830",
+      "label": "28 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-28T00:36:30Z",
+      "items": 7,
+      "headlines": [
+        "Nippon Sheet Glass to delist from Tokyo Stock Exchange Prime market as it joins Apollo Global Management",
+        "Nubank in talks to acquire Monzo for up to $13 billion, reports say",
+        "At least eight foreign banks have signalled UBS merger interest, Swiss newspaper reports"
+      ]
+    },
+    {
+      "id": "2026-09-27-1530",
+      "label": "27 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-27T07:34:11Z",
+      "items": 2,
+      "headlines": [
+        "Stripe acquires AI model-routing startup OpenRouter",
+        "A24 and Sony emerge as bidders for Japanese movie-review platform"
+      ]
+    },
+    {
+      "id": "2026-09-27-0830",
+      "label": "27 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-27T00:34:18Z",
+      "items": 5,
+      "headlines": [
+        "Rocket Lab's $8b Iridium acquisition hinges on Neutron rocket's maiden flight",
+        "BASF explores multi-billion-euro takeover of Evonik",
+        "PayPal jumps 5% on all-stock takeover report, Meta buyout proposal also surfaces"
+      ]
+    },
+    {
+      "id": "2026-09-26-1530",
+      "label": "26 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-26T07:34:08Z",
+      "items": 3,
+      "headlines": [
+        "Kadoya Seiyu, Japan's top sesame oil maker, backs tender offer from investment fund",
+        "KYCOM Holdings acquires software developer Union Joho Kikaku as subsidiary",
+        "Valtes Holdings acquires IT staffing firm Optim as subsidiary"
+      ]
+    },
+    {
+      "id": "2026-09-26-1230",
+      "label": "26 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-26T04:33:16Z",
+      "items": 2,
+      "headlines": [
+        "Sabre Financial Borrower reports early tender results for cash tender offer and consent solicitation",
+        "Sunwest Bank acquires failed Nano Banc in FDIC-assisted transaction"
+      ]
+    },
+    {
+      "id": "2026-09-26-0830",
+      "label": "26 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-26T00:35:20Z",
+      "items": 7,
+      "headlines": [
+        "SK Hynix weighs listing for Solidigm at valuation of up to $150 billion",
+        "Rexel agrees to acquire US specialty wire and cable distributor GCG",
+        "Inpex to acquire JERA's stake in Ichthys LNG project via pre-emptive rights"
+      ]
+    },
+    {
+      "id": "2026-09-25-1530",
+      "label": "25 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-25T07:31:44Z",
+      "items": 4,
+      "headlines": [
+        "Judge casts doubt on Radiant World's claimed US$1b in receivables as KPMG named restructuring executive",
+        "SMBC in talks to raise stake in Vietnam's VPBank, sources say",
+        "Goldman Sachs named lead buyer for GSR Ventures's US$350m fund"
+      ]
+    },
+    {
+      "id": "2026-09-25-1230",
+      "label": "25 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-25T04:33:21Z",
+      "items": 2,
+      "headlines": [
+        "Far East Orchard buys London site for US$79.3m student housing project",
+        "Addvalue shareholders approve spinoff of unit for separate Nasdaq listing"
+      ]
+    },
+    {
+      "id": "2026-09-25-0830",
+      "label": "25 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-25T00:35:00Z",
+      "items": 9,
+      "headlines": [
+        "Akamai signs US$11.6bn cloud deal with Anthropic, grants warrant for up to 5% stake",
+        "BlackRock, IFM close in on $25bn Stack data center deal, Bloomberg reports",
+        "SoftBank prices US$11.1bn bond, the largest high-yield corporate sale on record"
+      ]
+    },
+    {
+      "id": "2026-09-24-1530",
+      "label": "24 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-24T07:33:34Z",
+      "items": 6,
+      "headlines": [
+        "Thai private equity firm Lakeshore Capital closes third fund above target at $305m",
+        "ESR acquires full ownership of Singapore-headquartered Aquila Clean Energy",
+        "IFC likely to invest $70m as cornerstone investor in GCash's IPO"
+      ]
+    },
+    {
+      "id": "2026-09-24-1230",
+      "label": "24 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-24T04:35:35Z",
+      "items": 4,
+      "headlines": [
+        "US's Elmet Group agrees to buy 5% of Masan High-Tech Materials, valuing it at $2.5bn",
+        "Aurora Cannabis challenges Curaleaf's takeover circular at Alberta securities regulator",
+        "Blackstone's Copeland completes purchase of May River-backed Dickson"
+      ]
+    },
+    {
+      "id": "2026-09-24-0830",
+      "label": "24 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-24T00:38:52Z",
+      "items": 10,
+      "headlines": [
+        "Hellman & Friedman explores sale of Applied Systems at up to $10bn",
+        "StarHub, Keppel confirm advanced talks over M1 deal",
+        "People Incorporated withdraws bid to take MGM Resorts private"
+      ]
+    },
+    {
+      "id": "2026-09-23-1530",
+      "label": "23 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-23T07:33:23Z",
+      "items": 3,
+      "headlines": [
+        "Huspy invests $86m in Italy, acquires Integra Finance to enter market",
+        "Incredible Holdings files for judicial management after CAD/MAS probe disclosure",
+        "EQT opens Abu Dhabi office to launch dedicated Middle East platform"
+      ]
+    },
+    {
+      "id": "2026-09-23-1230",
+      "label": "23 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-23T04:33:54Z",
+      "items": 4,
+      "headlines": [
+        "Apollo again limits withdrawals from private credit fund as 14.7% of investors seek to exit",
+        "Alibaba to build data centres in Europe and Middle East, escalating cloud rivalry with AWS, Google",
+        "Australian healthtech Heidi raises $100m in Series C round"
+      ]
+    },
+    {
+      "id": "2026-09-23-0830",
+      "label": "23 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-23T00:32:59Z",
+      "items": 7,
+      "headlines": [
+        "Blackstone and EQT complete $6.6bn purchase of Platinum Equity's Urbaser",
+        "Persistent's tender offer for Nagarro succeeds with 83.25% acceptance",
+        "AI infrastructure firm Accelevation targets $5.4bn valuation in US IPO"
+      ]
+    },
+    {
+      "id": "2026-09-22-1530",
+      "label": "22 Sep 2026 · 15:30 SGT",
+      "generated_at": "2026-09-22T07:31:00Z",
+      "items": 4,
+      "headlines": [
+        "Philippines taps India's GMR Group for $11 billion Manila airport project",
+        "MAS financial stability review flags AI-pullback and global-shock risks, says Singapore well-buffered",
+        "PhonePe secures initial UAE central bank approval for payment licence"
+      ]
+    },
+    {
+      "id": "2026-09-22-1230",
+      "label": "22 Sep 2026 · 12:30 SGT",
+      "generated_at": "2026-09-22T04:33:16Z",
+      "items": 6,
+      "headlines": [
+        "Singapore's BDx breaks ground on 640MW AI data centre in Indonesia, backed by $320m loan",
+        "Korean wealth fund weighs sale of more than $1 billion of PE stakes, report says",
+        "Australian regulator warns private credit sector of more enforcement after Bathla's A$3.4bn collapse"
+      ]
+    },
+    {
+      "id": "2026-09-22-0830",
+      "label": "22 Sep 2026 · 08:30 SGT",
+      "generated_at": "2026-09-22T00:40:00Z",
+      "items": 10,
+      "headlines": [
+        "Paramount clears final hurdles for $110bn Warner Bros merger after state, union settlements",
+        "Titan International to sell ITM business to USCO S.p.A. for up to $285 million",
+        "Vanguard Renewables and Pinta Energy split Generate Capital's 12-site RNG platform"
+      ]
+    },
+    {
+      "id": "2026-09-21-2100",
+      "label": "21 Sep 2026 · 21:00 SGT",
+      "generated_at": "2026-09-21T13:02:19Z",
+      "items": 10,
+      "headlines": [
+        "SoftBank launches bond sale of over US$10 billion to fund OpenAI investment",
+        "New World Development wins Shanghai nod for US$570 million REIT listing",
+        "Singapore earmarks S$3.7 billion of green-bond proceeds for rail expansion"
+      ]
+    }
+  ]
 }
