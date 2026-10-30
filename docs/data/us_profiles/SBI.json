@@ -1,1 +1,1 @@
-{"market":"US","ticker":"SBI","tv_symbol":"NYSE:SBI","sector":"","fin":null,"holders":null,"defense":null,"cik":882300,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"SBI","tv_symbol":"NYSE:SBI","sector":"","fin":null,"holders":null,"defense":null,"cik":882300,"detail":"pending","price":{"kind":"us_float","public_float":null,"as_of":null,"tv_symbol":"NYSE:SBI","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882300&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

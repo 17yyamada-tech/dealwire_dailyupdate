@@ -1,1 +1,1 @@
-{"market":"US","ticker":"NCOOW","tv_symbol":"NASDAQ:NCOOW","sector":"","fin":null,"holders":null,"defense":null,"cik":2116230,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"NCOOW","tv_symbol":"NASDAQ:NCOOW","sector":"","fin":null,"holders":null,"defense":null,"cik":2116230,"detail":"pending","price":{"kind":"us_float","public_float":null,"as_of":null,"tv_symbol":"NASDAQ:NCOOW","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002116230&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

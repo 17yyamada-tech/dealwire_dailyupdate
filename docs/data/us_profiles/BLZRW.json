@@ -1,1 +1,1 @@
-{"market":"US","ticker":"BLZRW","tv_symbol":"NASDAQ:BLZRW","sector":"","fin":null,"holders":null,"defense":null,"cik":2075310,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"BLZRW","tv_symbol":"NASDAQ:BLZRW","sector":"","fin":null,"holders":null,"defense":null,"cik":2075310,"detail":"pending","price":{"kind":"us_float","public_float":275275000,"as_of":"2025-12-31","tv_symbol":"NASDAQ:BLZRW","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002075310&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

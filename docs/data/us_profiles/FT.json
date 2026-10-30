@@ -1,1 +1,1 @@
-{"market":"US","ticker":"FT","tv_symbol":"NYSE:FT","sector":"","fin":null,"holders":null,"defense":null,"cik":833040,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"FT","tv_symbol":"NYSE:FT","sector":"","fin":null,"holders":null,"defense":null,"cik":833040,"detail":"pending","price":{"kind":"us_float","public_float":null,"as_of":null,"tv_symbol":"NYSE:FT","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833040&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

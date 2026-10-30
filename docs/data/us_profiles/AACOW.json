@@ -1,1 +1,1 @@
-{"market":"US","ticker":"AACOW","tv_symbol":"NASDAQ:AACOW","sector":"","fin":null,"holders":null,"defense":null,"cik":2099906,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"AACOW","tv_symbol":"NASDAQ:AACOW","sector":"","fin":null,"holders":null,"defense":null,"cik":2099906,"detail":"pending","price":{"kind":"us_float","public_float":null,"as_of":null,"tv_symbol":"NASDAQ:AACOW","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002099906&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

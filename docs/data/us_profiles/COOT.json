@@ -1,1 +1,1 @@
-{"market":"US","ticker":"COOT","tv_symbol":"NASDAQ:COOT","sector":"","fin":null,"holders":null,"defense":null,"cik":1959994,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"COOT","tv_symbol":"NASDAQ:COOT","sector":"","fin":null,"holders":null,"defense":null,"cik":1959994,"detail":"pending","price":{"kind":"us_float","public_float":22132569,"as_of":"2024-12-03","tv_symbol":"NASDAQ:COOT","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001959994&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

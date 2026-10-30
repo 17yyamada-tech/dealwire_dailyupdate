@@ -1,1 +1,1 @@
-{"market":"US","ticker":"SOCAW","tv_symbol":"NASDAQ:SOCAW","sector":"","fin":null,"holders":null,"defense":null,"cik":2065948,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"SOCAW","tv_symbol":"NASDAQ:SOCAW","sector":"","fin":null,"holders":null,"defense":null,"cik":2065948,"detail":"pending","price":{"kind":"us_float","public_float":177885000,"as_of":"2025-06-30","tv_symbol":"NASDAQ:SOCAW","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002065948&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

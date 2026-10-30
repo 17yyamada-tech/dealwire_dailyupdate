@@ -1,1 +1,1 @@
-{"market":"US","ticker":"FETH","tv_symbol":"CBOE:FETH","sector":"","fin":null,"holders":null,"defense":null,"cik":2000046,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"FETH","tv_symbol":"CBOE:FETH","sector":"","fin":null,"holders":null,"defense":null,"cik":2000046,"detail":"pending","price":{"kind":"us_float","public_float":1253466000,"as_of":"2025-06-30","tv_symbol":"CBOE:FETH","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002000046&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

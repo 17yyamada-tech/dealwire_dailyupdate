@@ -1,1 +1,1 @@
-{"market":"US","ticker":"VII","tv_symbol":"NYSE:VII","sector":"","fin":null,"holders":null,"defense":null,"cik":2139246,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"VII","tv_symbol":"NYSE:VII","sector":"","fin":null,"holders":null,"defense":null,"cik":2139246,"detail":"pending","price":{"kind":"us_float","public_float":null,"as_of":null,"tv_symbol":"NYSE:VII","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002139246&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

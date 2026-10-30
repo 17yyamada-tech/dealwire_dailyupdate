@@ -1,1 +1,1 @@
-{"market":"US","ticker":"HYPG","tv_symbol":"NASDAQ:HYPG","sector":"","fin":null,"holders":null,"defense":null,"cik":2107730,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"HYPG","tv_symbol":"NASDAQ:HYPG","sector":"","fin":null,"holders":null,"defense":null,"cik":2107730,"detail":"pending","price":{"kind":"us_float","public_float":null,"as_of":null,"tv_symbol":"NASDAQ:HYPG","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107730&type=10-K"},"updated":"2026-10-30T06:03:26Z"}

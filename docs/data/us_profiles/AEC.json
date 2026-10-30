@@ -1,1 +1,1 @@
-{"market":"US","ticker":"AEC","tv_symbol":"NASDAQ:AEC","sector":"","fin":null,"holders":null,"defense":null,"cik":1519469,"detail":"pending","updated":"2026-10-29T11:11:53Z"}
+{"market":"US","ticker":"AEC","tv_symbol":"NASDAQ:AEC","sector":"","fin":null,"holders":null,"defense":null,"cik":1519469,"detail":"pending","price":{"kind":"us_float","public_float":null,"as_of":null,"tv_symbol":"NASDAQ:AEC","source":"SEC","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001519469&type=10-K"},"updated":"2026-10-30T06:03:26Z"}
