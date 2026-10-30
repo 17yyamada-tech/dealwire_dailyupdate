@@ -48,6 +48,7 @@ BUDGET_S = int(os.environ.get("JP_BUDGET_MIN", "42") or "42") * 60
 PAUSE_S = 0.4
 ONLY = [t for t in os.environ.get("JP_TICKERS", "").split(",") if t]
 DEBUG = os.environ.get("JP_DEBUG") == "1"
+PRICE_V = 2    # bump to read the filings again: 2 = high/low rows cut apart by a search (dashes, footnote marks, 6 columns)
 DRY = os.environ.get("JP_DRY") == "1"       # print the price block, write nothing
 csv.field_size_limit(1 << 28)
 
@@ -301,12 +302,18 @@ def split_events(text: str):
     for sent in re.split(r"(?<=。)", text):
         if "株式分割" not in sent:
             continue
-        m = re.search(r"1株につき(\d+)株の割合", sent) or re.search(r"1株を(\d+)株に", sent)
+        m = re.search(r"1株につき(\d+)株", sent) or re.search(r"1株を(\d+)株", sent)
         if not m:
             continue
         d = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日", sent)
-        ev.append({"ratio": int(m.group(1)),
-                   "date": f"{d.group(1)}-{int(d.group(2)):02d}-{int(d.group(3)):02d}" if d else ""})
+        rw = re.search(r"令和(\d{1,2}|元)年(\d{1,2})月(\d{1,2})日", sent)
+        if d:
+            date = f"{d.group(1)}-{int(d.group(2)):02d}-{int(d.group(3)):02d}"
+        elif rw:
+            date = f"{2018 + (1 if rw.group(1) == '元' else int(rw.group(1)))}-{int(rw.group(2)):02d}-{int(rw.group(3)):02d}"
+        else:
+            date = ""
+        ev.append({"ratio": int(m.group(1)), "date": date})
     out, seen = [], set()
     for e in ev:
         if (e["ratio"], e["date"]) not in seen and e["ratio"] > 1:
@@ -402,6 +409,11 @@ def price_block(rows, end, url):
             y["bad"] = True
         else:
             resolved[y["k"]] = sc
+    if not resolved and any(y.get("bad") for y in years):
+        # nothing fits: PER x EPS itself is probably on a different basis, so the filing's own high/low are kept as printed
+        for y in years:
+            y.pop("bad", None)
+        notes.append("High/low are as printed in the filing; they could not be checked against PER x EPS.")
     adj = False
     for y in years:
         if y["k"] in resolved:
@@ -431,12 +443,22 @@ def price_block(rows, end, url):
     tsr_i = get("tsr_idx", 0, ("n", "c"))
     out_years = [{f: y[f] for f in ("fy_end", "high", "low", "eps", "bps", "per", "est_close")} for y in years
                  if any(y[f] is not None for f in ("high", "low", "eps", "bps", "per", "est_close"))]
-    return {"kind": "jp_fy", "as_of": end, "basis": basis, "currency": "JPY", "est_price": est_price, "est_mcap": est_mcap,
+    return {"kind": "jp_fy", "v": PRICE_V, "as_of": end, "basis": basis, "currency": "JPY", "est_price": est_price, "est_mcap": est_mcap,
             "per": cur["per"], "pbr": pbr, "bps": cur["bps"], "eps": cur["eps"],
             "tsr": round(tsr * 100, 1) if tsr is not None else None,
             "tsr_index": round(tsr_i * 100, 1) if tsr_i is not None else None,
             "shares_issued": issued, "shares_treasury": treas, "shares_out": shares_out,
             "years": out_years, "notes": notes, "source": "EDINET", "url": url}
+
+
+def needs_price(pr) -> bool:
+    """No price block yet, or one made by an older reading that left high/low holes or gave up on them."""
+    if not isinstance(pr, dict):
+        return True
+    if pr.get("v") == PRICE_V:
+        return False
+    ys = pr.get("years") or []
+    return not ys or any(y.get("high") is None for y in ys)         or any("did not fit" in n or "could not" in n for n in pr.get("notes", []))
 
 
 def build(tk: str, hit: dict, sector: str) -> dict:
@@ -509,7 +531,7 @@ def main() -> int:
             have, old_price = old.get("doc_id"), old.get("price")
         except Exception:  # noqa: BLE001
             have, old_price = None, None
-        if have != hit["doc_id"] or not isinstance(old_price, dict) or DRY:
+        if have != hit["doc_id"] or needs_price(old_price) or DRY:
             todo.append((tk, hit))
     print(f"{len(index)} companies in the index, {len(todo)} to read")
     start, done, failed = time.time(), 0, 0
