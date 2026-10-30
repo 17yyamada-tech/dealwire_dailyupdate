@@ -1,0 +1,328 @@
+{
+ "edition": "2026-10-30-0830",
+ "edition_label": "30 Oct 2026 · 08:30 SGT",
+ "date": "2026-10-30",
+ "generated_at": "2026-10-30T00:36:49Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "DoorDash agrees to buy Instacart for $17bn, confirming deal flagged days earlier",
+   "summary": "DoorDash has agreed to acquire Instacart in a deal valued at about $17bn, according to the companies and SEC filings, confirming the agreement that had been reported as imminent earlier in the week. The combined platform will let Instacart shoppers buy from roughly 150,000 stores, up from the 100,000 currently available.",
+   "why_it_matters": "The deal consolidates two of the largest US food-delivery platforms into a single operator just as Amazon pushes harder into grocery delivery, and it closes out a sale process that had also drawn interest from Uber. A tie-up of this scale between overlapping delivery networks is likely to draw close antitrust attention before it can close.",
+   "summary_ja": "ドアダッシュは、インスタカートを約170億ドルで買収することで合意したと両社やSEC提出資料が明らかにした。週初に報じられていた合意がここで確定した形となる。統合後のプラットフォームでは、インスタカートの利用者が現在の約10万店舗から約15万店舗まで利用可能になる見込み。",
+   "why_it_matters_ja": "米フードデリバリー大手2社が1社に統合されることになり、アマゾンが食品宅配分野への攻勢を強める中での動きとなる。ウーバーも関心を示していた売却プロセスが、これで決着する。重複する配送網を持つ両社のこの規模の統合は、成立前に厳しい独禁審査を受ける可能性が高い。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-10-27-0830",
+    "index": 1
+   },
+   "key": "instacart-doordash-uber-sale-talks",
+   "ids": [
+    "fe386347ae59eb",
+    "c4fce81b0eb8fb",
+    "444c1193930cc2"
+   ],
+   "links": [
+    {
+     "source": "SEC EDGAR 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/1792789/000114036126041111/0001140361-26-041111-index.htm"
+    },
+    {
+     "source": "SEC EDGAR 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/1579091/000119312526437075/0001193125-26-437075-index.htm"
+    },
+    {
+     "source": "BBC Business",
+     "url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Thrive Capital agrees to buy ADT for $7.6bn, sending shares up 34%",
+   "summary": "Josh Kushner's Thrive Capital has agreed to acquire home-security company ADT for about $7.6bn, according to an ADT securities filing and market reports. ADT shares jumped 34% on the news.",
+   "why_it_matters": "A venture firm best known for tech bets taking a long-established security operator private signals how much capital is chasing recurring-revenue consumer businesses outside traditional buyout targets. The scale of the share-price jump also shows how far the market had been discounting ADT ahead of a deal.",
+   "summary_ja": "ジョシュ・クシュナー氏のスライブ・キャピタルは、ホームセキュリティー大手ADTを約76億ドルで買収することに合意したと、ADTの開示資料や市場報道が伝えた。ADT株はこの発表を受けて34%急騰した。",
+   "why_it_matters_ja": "テック投資で知られるベンチャーファンドが老舗セキュリティー企業を非公開化する動きは、従来型バイアウトの対象外だった継続収益型の消費者向け事業にも資金が集まっていることを示している。株価の急騰幅の大きさは、買収発表前の市場がADTをどれだけ割安に評価していたかも物語る。",
+   "status": "new",
+   "prev": null,
+   "key": "thrive-adt-acquisition",
+   "ids": [
+    "14396312abb1d1",
+    "99de42d191ce60",
+    "d8ddc2ef548e19"
+   ],
+   "links": [
+    {
+     "source": "SEC EDGAR 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/1703056/000119312526437964/0001193125-26-437964-index.htm"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BQ2JqRG5heFRYNVYtZzB6eU5jMzU2dFNGbjZpbjhDTlpMUXl5Mlc0SUhSdnppLUduRG1jVzl2YVR0NUJxaEZMRzNQWU9lbWcyMTRZdWRBUzhSZXpKaGhoR0xHNjZKZFhjMGZxeURLTC0?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBdDJXQm94Rk1jY3FLaXhFVTdpaGZwSGc2MkljZ09WcWhMeWhvU2ttSjAwc2h3aDNzMTFXR3Z4NTNyN0VOMEhlUC1ibHREeFNKRGc5Rk9za003R3dsdW16N3ppVktGcEdmdG4wcUVRUndmOXZR?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Salesforce agrees to buy defence-tech firm Rune, pushing into military software",
+   "summary": "Salesforce has agreed to acquire defence technology company Rune as it pushes into the military business, according to CNA. Terms were not disclosed.",
+   "why_it_matters": "The deal extends Salesforce's enterprise-software platform into defence and government customers, a segment increasingly courted by US tech vendors. Government contracts typically carry long sales cycles and strict compliance demands, so the move also signals Salesforce's intent to build specialised go-to-market capability rather than rely solely on its existing enterprise sales teams.",
+   "summary_ja": "セールスフォースは、国防関連テクノロジー企業ルーンを買収することで合意し、軍需分野への進出を進めるとCNAが報じた。条件は開示されていない。",
+   "why_it_matters_ja": "この買収により、セールスフォースのエンタープライズソフトウェア基盤が国防・政府顧客にまで広がる。米テック企業がこの分野の顧客を取り込む動きが強まっている。政府関連の契約は販売サイクルが長くコンプライアンス要件も厳しいため、既存の営業体制だけに頼らず専門的な販売体制を自前で築く狙いもうかがえる。",
+   "status": "new",
+   "prev": null,
+   "key": "salesforce-rune-acquisition",
+   "ids": [
+    "ba9c118419d7ac"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/salesforce-buy-defense-tech-firm-rune-in-military-business-push-6504876"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "TMT",
+    "Industrials"
+   ]
+  },
+  {
+   "headline": "Oak Hill Capital to buy majority stake in fibre provider Wyyerd from Carlyle",
+   "summary": "Middle-market private equity firm Oak Hill Capital has agreed to acquire a majority stake in fibre-broadband provider Wyyerd from Carlyle. Oak Hill said it would use its experience scaling fibre businesses to accelerate Wyyerd's network expansion across Arizona and Southern California.",
+   "why_it_matters": "The deal is a sponsor-to-sponsor handover in US fibre infrastructure, a sector still attracting PE capital even as broader take-private volumes have cooled. It also suggests sponsors see further room to back fibre overbuilders in secondary US markets rather than only the largest metro networks.",
+   "summary_ja": "ミドルマーケット向けプライベートエクイティのオーク・ヒル・キャピタルは、ファイバーブロードバンド事業者ワイヤードの過半数株式をカーライルから取得することで合意した。オーク・ヒルは、ファイバー事業の拡大で培った経験を活かし、アリゾナ州と南カリフォルニアでのワイヤードのネットワーク拡張を加速させるとしている。",
+   "why_it_matters_ja": "米ファイバーインフラにおけるスポンサー間の引き継ぎであり、全体の非公開化件数が鈍化する中でも、同分野には依然としてPE資金が集まっていることを示す。大都市圏だけでなく、地方都市のファイバー事業者にもスポンサーが投資余地を見出していることもうかがえる。",
+   "status": "new",
+   "prev": null,
+   "key": "oakhill-wyyerd-carlyle",
+   "ids": [
+    "64933d535445ad"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/oak-hill-capital-to-acquire-majority-stake-in-wyyerd-from-carlyle-302923593.html"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE",
+    "Infra"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Infrastructure"
+   ]
+  },
+  {
+   "headline": "Broadmedia board accepts NSSK-EPSILON1's ¥2,500-a-share tender offer, to go private",
+   "summary": "Japanese investment firm NSSK-EPSILON1 launched a tender offer for Tokyo-listed Broadmedia at ¥2,500 a share, and Broadmedia's board has accepted the offer, taking the company private.",
+   "why_it_matters": "It is another Japanese sponsor-led take-private of a listed operating company, part of a wave of similar deals this year as boards face pressure to address low valuations. A quick board acceptance, rather than resistance, also points to Japanese management increasingly treating a clean sponsor exit as preferable to a prolonged standalone turnaround.",
+   "summary_ja": "日本の投資会社NSSK-EPSILON1は、東証上場のブロードメディアに対し1株2500円でTOBを実施し、ブロードメディアの取締役会はこの提案を受け入れ、株式を非公開化することとなった。",
+   "why_it_matters_ja": "上場事業会社を対象とした日本のスポンサー主導の非公開化案件がまた一件増えたことになり、取締役会が低バリュエーションへの対応を迫られる中、今年続いている同様の動きの一つとなる。取締役会が速やかに受け入れたことも、単独での再建より、スポンサーへの円滑な売却を選ぶ日本企業の経営判断の変化を示している。",
+   "status": "new",
+   "prev": null,
+   "key": "nssk-broadmedia-tob",
+   "ids": [
+    "3700dd528e9880",
+    "ed14b92f0f4195"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcUs4dENWM05wUXBudUdJOGlIejEzdXgxMkxkWkJINmQzU1JNYkhnclNHRmlMVXYtZXpBSlV2YTJtaXl5TlBvYkNhY3pXMm1XTWNNNllqLUQ2WDVGR2lvMW0xQVhPWXd5UWlCMjllRXFLQzk3Snp5Zmc1aDV0ckg2T0o2MTdsY1E?oc=5"
+    },
+    {
+     "source": "Japan PE & activists",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQzVOeU9UNVZkc2JMT05XWVpQeDZjTWRNODFOcnFndkxlSWg3ZEY0dmd1VVpndnlUaVY0cl9JTmZpNXlEZXZ2QjM3U29vOWY3cDdyT0F4OFhtYXdyc08ySUZPNWJrUzYyNS1jWjNQMkNwcFFXZDVNZ20wbzdWZ0hlbWNn0gGHAUFVX3lxTE9pcWNBVDBfSmF1MFFXS3BiWVFTalQwSm5wQUdjaWtCSkNhVHQweEhEdFA4dkFWTGZzdXNiQlY1TEgyaXVfRC0xanBVNktnNGNJM2c1MkdQejRrbXpGaEJjYTNfX3lhUWVxNUg1Qm1GZUtEeUlmV3k1UEZBeGctVjFxUkIwQ00tWQ?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Integral extends Kadoya Seiyu tender offer to Nov 13 as rival bid continues",
+   "summary": "Integral has extended the deadline for its tender offer for sesame-oil maker Kadoya Seiyu to Nov 13, as the contested bid for the company continues alongside a rival offer from Advantage Partners.",
+   "why_it_matters": "The extension buys time for Kadoya's board and shareholders in an increasingly rare Japanese bidding war. A longer clock could let either sponsor sweeten its terms further, or let a third party weigh in before the contest is decided.",
+   "summary_ja": "インテグラルは、ごま油メーカーかどや製油に対するTOBの期限を11月13日まで延長した。アドバンテッジパートナーズによる対抗提案と並行して争奪戦が続いている。",
+   "why_it_matters_ja": "期限延長により、かどやの取締役会と株主には判断の時間的余裕が生まれる。日本では珍しいこの争奪戦で、期間が延びればいずれのスポンサーも条件をさらに引き上げる余地が出てくるほか、第三者が新たに参戦する余地も生まれる。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-10-29-0830",
+    "index": 5
+   },
+   "key": "advantage-kadoya-seiyu-bidding-war",
+   "ids": [
+    "8edfe1b65e64fd"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pSDlMb3VRSTJXQlJ5cms1RTM5Y1Q1M1hTanBpT3k0dlhDbzZGWTYyWEkxNGp5cVdUQkpseklTdkprcFd6dlZiUkUzaDNsbk5ZNFFxallSMWt1dFVGQkxHS2R6R19JVEtnSjROWg?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "HSG completes roughly 80% majority investment in China's PeierTech",
+   "summary": "China-based investment firm HSG has completed a majority investment in PeierTech, acquiring approximately 80% of the Jiangyin-based maker of medical-grade nitinol materials and precision components. Existing management keeps an ownership stake and continues to lead operations.",
+   "why_it_matters": "The deal shows a major China-focused investor still committing capital to niche industrial-healthcare manufacturers, even as broader China dealmaking stays muted. Keeping the existing management team in place also suggests the buyer is betting on operational continuity rather than a turnaround that requires new leadership.",
+   "summary_ja": "中国の投資会社HSGは、江陰拠点の医療用ニチノール材料・精密部品メーカー、ペイアーテックに対する過半数投資を完了し、約80%の株式を取得した。既存の経営陣は出資を維持し、引き続き経営を担う。",
+   "why_it_matters_ja": "中国ディール全体が低調な中でも、中国関連の大手投資会社がニッチな産業・ヘルスケア系メーカーへの出資を続けていることを示す一例となる。既存経営陣をそのまま起用する点からは、新たな経営体制による再建ではなく、事業運営の継続性に賭ける買い手の意図も読み取れる。",
+   "status": "new",
+   "prev": null,
+   "key": "peiertech-hsg-investment",
+   "ids": [
+    "27251b5fb92222"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/peiertech-announces-completion-of-majority-investment-by-hsg-302924096.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "HK/CN"
+   ],
+   "sectors": [
+    "Healthcare",
+    "Industrials"
+   ]
+  },
+  {
+   "headline": "Malaysia's Big Caring to buy Singapore's YMS ahead of planned IPO",
+   "summary": "Malaysian pharmacy group Big Caring is set to acquire Singapore medical retailer YMS, extending its reach into Singapore ahead of a planned initial public offering.",
+   "why_it_matters": "The buyout gives a Southeast Asian healthcare-retail consolidator a Singapore foothold just as it prepares to tap public markets, a combination regional investors will watch closely. A pre-IPO acquisition also gives prospective investors a cross-border growth story to point to once the listing comes to market.",
+   "summary_ja": "マレーシアの薬局グループ、ビッグ・ケアリングは、シンガポールの医療品小売会社YMSを買収する方針で、新規株式公開（IPO）を見据えてシンガポール事業を拡大する。",
+   "why_it_matters_ja": "東南アジアのヘルスケア流通統合プレーヤーが上場準備を進める中でシンガポールに足場を築く動きとなり、地域の投資家が注視する組み合わせとなる。IPO前のこの買収により、上場時には投資家に示せる国境を越えた成長ストーリーも一つ加わることになる。",
+   "status": "new",
+   "prev": null,
+   "key": "big-caring-yms-singapore",
+   "ids": [
+    "cb85ba447140f7"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/asean/malaysias-big-caring-eyes-singapore-expansion-yms-buyout-ahead-ipo"
+    }
+   ],
+   "categories": [
+    "PE"
+   ],
+   "countries": [
+    "SEA",
+    "SG"
+   ],
+   "sectors": [
+    "Healthcare",
+    "Consumer"
+   ]
+  },
+  {
+   "headline": "Microsoft expects to raise $25bn in US bond sale",
+   "summary": "Microsoft is planning to raise about $25bn in a US bond sale, according to a source cited by CNA.",
+   "why_it_matters": "A debt raise of this size from a top-rated technology issuer underscores how much capital large tech companies are now tapping from credit markets. It is likely to run alongside continued equity-funded investment to help cover data-centre and AI infrastructure spending.",
+   "summary_ja": "マイクロソフトは米国で約250億ドル規模の債券発行を計画しているとCNAが関係者の話として報じた。",
+   "why_it_matters_ja": "トップクラスの格付けを持つテック企業がこの規模の起債を行うことは、データセンターやAI関連投資への資金需要の大きさを示す。増資による資金調達と並行して、こうした投資を支えるための起債が続くとみられる。",
+   "status": "new",
+   "prev": null,
+   "key": "microsoft-us-bond-sale",
+   "ids": [
+    "1230dab0686746"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/microsoft-expects-raise-25-billion-in-us-bond-sale-source-says-6504501"
+    }
+   ],
+   "categories": [
+    "Credit"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "JYP denies receiving takeover approach, says investor group's email went to spam",
+   "summary": "JYP Entertainment said an email sent by Japanese investor group Nexrock was classified as spam, and that it has not received any acquisition proposal, pushing back on the narrative around the tender-offer plan.",
+   "why_it_matters": "The denial adds friction to a Japanese investor group's push for JYP, a situation already complicated by a South Korean regulatory probe and questions over the top shareholder's ability to mount a takeover defence. It also raises the question of how the investor group will substantiate that an approach was actually delivered if it intends to keep pressing its plan.",
+   "summary_ja": "JYPエンターテインメントは、日本の投資家グループ「ネクスロック」が送信したメールが迷惑メールに分類されていたとし、買収提案を受け取っていないと説明し、公開買付け計画を巡る見方に反論した。",
+   "why_it_matters_ja": "この否定により、日本の投資家グループによるJYPへの接近は一段と難航する。韓国当局による調査や、筆頭株主の買収防衛力を巡る疑問も既に重なっている状況だ。計画を推し進める意思があるなら、投資家グループは提案が実際に伝わっていたことをどう立証するかという課題も残る。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-10-29-1230",
+    "index": 3
+   },
+   "key": "japan-investors-jyp-tender-offer",
+   "ids": [
+    "dab834973b3524"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HTDlzN05fWUQ1cV9lR0ZYSmluT3dFNmp2Y2RaTkw5TlFaYUFYT0NSMTlKOVFWWHpjVnNUNmVwblZvcVFVUDZyY2RwRVd2R2R6TVZ1ejlRRFBTOW0tYktTeTR3US0yRThzbzN1SEZjTEVseGFpbnVQUi16cXZsekU?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  }
+ ]
+}
