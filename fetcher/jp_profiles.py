@@ -26,6 +26,7 @@ import csv
 import datetime as dt
 import io
 import json
+import math
 import os
 import re
 import sys
@@ -178,44 +179,121 @@ def nfkc(t: str) -> str:
     return unicodedata.normalize("NFKC", t)
 
 
-def split_tokens(seg: str):
-    """'2,475(12,375)2,2833,8913,8244,000' -> [2475, 2283, 3891, 3824, 4000]. The text keeps no cell borders,
-    so numbers are cut by thousands groups; decimals (0 to 2 places) are tried one fixed width at a time."""
+DASHES = "―－-–—ー"
+MARKS = "※■□▲△◆◇●○*＊†‡"
+NUM_RE = re.compile(r"^(?!0\d)(?:\d{1,3}(?:,\d{3})+|\d{1,4})(?:\.\d{1,2})?$")
+HI_LABEL = re.compile(r"最高(?:株価|価格)?\s*(?:[(（]\s*(?:円|ドル)\s*[)）]|円|〃)?\s*(?=[\d" + re.escape(DASHES + MARKS) + r"(（])")
+LO_LABEL = re.compile(r"最低(?:株価|価格)?\s*(?:[(（]\s*(?:円|ドル)\s*[)）]|円|〃)?\s*(?=[\d" + re.escape(DASHES + MARKS) + r"(（])")
+
+
+def _clean_segment(seg: str) -> str:
+    """Keep what is left of a price row once the row label is gone: digits, commas, points, dashes (no price
+    that year) and the footnote marks that sit next to a restated figure. Brackets hold the figure as first
+    reported (before a split) and are dropped."""
     seg = nfkc(seg)
-    seg = re.sub(r"\([^)]*\)", "", seg)                 # (pre-split figure) in brackets
-    seg = re.sub(r"^[\s円〃ドル]+", "", seg)
-    cut = re.match(r"^[\d,.\s]*", seg).group(0).replace(" ", "")
-    if not cut:
-        return None
-    for d in (0, 1, 2):
-        pat = re.compile(r"\d{1,3}(?:,\d{3})*" + (r"\.\d{%d}" % d if d else ""))
-        pos, out = 0, []
-        while pos < len(cut):
-            m = pat.match(cut, pos)
-            if not m:
-                out = None
-                break
-            out.append(float(m.group(0).replace(",", "")))
-            pos = m.end()
-        if out:
-            return out
-    return None
+    cut = len(seg)
+    for m in ("(注", "注)", "（注", "(※注", "【注"):
+        i = seg.find(m)
+        if 0 <= i < cut:
+            cut = i
+    seg = seg[:cut]
+    seg = re.sub(r"\([^)]*\)", "", seg)
+    seg = re.sub(r"\s+", "", seg)
+    m = re.match(r"^[\d,." + re.escape(DASHES + MARKS) + r"]*", seg)
+    return m.group(0)
 
 
-def high_low(rows):
-    """(highs, lows, text) from the plain text of the company-only key figures table, newest last."""
+def decompose(seg: str, n_slots: int, cap: int = 3000):
+    """All ways to read the glued text as n_slots columns (a number or None for a dash). A footnote mark drops
+    the figure just before it (that figure is the unrestated value of the column that follows)."""
+    out = []
+
+    def rec(i, vals):
+        if len(out) >= cap:
+            return
+        live = [v for v in vals if not v[1]]
+        if len(live) > n_slots:
+            return
+        if i == len(seg):
+            if len(live) == n_slots:
+                out.append([v[0] for v in live])
+            return
+        ch = seg[i]
+        if ch in DASHES:
+            rec(i + 1, vals + [(None, False)])
+        elif ch in MARKS:
+            if vals and vals[-1][0] is not None and not vals[-1][1]:
+                rec(i + 1, vals[:-1] + [(vals[-1][0], True)])
+            else:
+                rec(i + 1, vals)
+        elif ch.isdigit():
+            for j in range(i + 1, min(len(seg), i + 11) + 1):
+                sub = seg[i:j]
+                if NUM_RE.match(sub) and float(sub.replace(",", "")) > 0:
+                    rec(j, vals + [(float(sub.replace(",", "")), False)])
+        elif ch in ",.":
+            return
+
+    rec(0, [])
+    return out
+
+
+def hl_candidates(rows):
+    """({n_columns: (readings of the high row, readings of the low row)}, text). The high / low rows exist only
+    as text inside the company-only key figures block, so the number cells are glued together and have to be
+    cut apart; the reading is chosen later (smooth over the years, and against PER x EPS)."""
     for r in rows:
-        if r[0].endswith("BusinessResultsOfReportingCompanyTextBlock") and "最高株価" in r[8]:
-            t = nfkc(r[8])
-            i, j = t.index("最高株価"), t.find("最低株価")
-            if j < i:
-                continue
-            hi = split_tokens(t[i + 4:j])
-            rest = t[j + 4:]
-            end = min([x for x in (rest.find("(注"), rest.find("注)")) if x >= 0] or [len(rest)])
-            lo = split_tokens(rest[:min(end, 160)])
-            return hi, lo, t
-    return None, None, ""
+        if not (r[0].endswith("TextBlock") and "最高" in r[8] and "最低" in r[8]):
+            continue
+        t = nfkc(r[8])
+        hm = HI_LABEL.search(t)
+        lm = LO_LABEL.search(t, hm.end()) if hm else None
+        if not lm:
+            continue
+        hs, ls = _clean_segment(t[hm.end():lm.start()]), _clean_segment(t[lm.end():])
+        if not hs or not ls:
+            continue
+        out = {}
+        for n_slots in (5, 6, 4, 3, 2, 1):
+            his, los = decompose(hs, n_slots), decompose(ls, n_slots)
+            if his and los:
+                out[n_slots] = (his, los)
+        return out, t
+    return {}, ""
+
+
+def _rough(v):
+    """How jumpy a row of prices is: adjacent years rarely differ by a factor of ten, a wrong cut does."""
+    xs = [x for x in v if x]
+    return sum(abs(math.log(a / b)) for a, b in zip(xs, xs[1:]))
+
+
+def pick_reading(cands_by_n, est_by_k, ratios):
+    """Best (n, hi, lo): columns whose range holds the PER x EPS price (after a split ratio) score, a low above
+    its high is rejected, and among equal readings the smoothest wins; five columns win ties."""
+    scales = sorted({1, *ratios, *[x * y for x in ratios for y in ratios]})
+    best, best_s = None, -1e9
+    for n, (his, los) in cands_by_n.items():
+        est = [est_by_k.get(n - 1 - j) for j in range(n)]
+        for h in sorted(his, key=_rough)[:40]:
+            for l in sorted(los, key=_rough)[:40]:
+                s = -3 * _rough(h) - 3 * _rough(l) - (0 if n == 5 else 12)
+                for j in range(n):
+                    a, b = h[j], l[j]
+                    if a is None or b is None:
+                        if (a is None) != (b is None):
+                            s -= 20
+                        continue
+                    if b > a:
+                        s -= 50
+                        continue
+                    s -= math.log(a / b)
+                    e = est[j]
+                    if e is not None and any(b / c * 0.88 <= e <= a / c * 1.12 for c in scales):
+                        s += 10
+                if s > best_s:
+                    best, best_s = (n, h, l), s
+    return best
 
 
 def split_events(text: str):
@@ -294,11 +372,18 @@ def price_block(rows, end, url):
                 return vals[(kind, s_, k)]
         return None
 
-    hi, lo, text = high_low(rows)
-    n = len(hi) if hi and lo and len(hi) == len(lo) and 1 <= len(hi) <= 5 else 0
+    cbn, text = hl_candidates(rows)
     events = split_events(text)
     ratios = [e["ratio"] for e in events]
-    cands = sorted({1, *ratios, *[a * b for a in ratios for b in ratios]})
+    cands = sorted({1, *ratios, *[x * y for x in ratios for y in ratios]})
+    est_by_k = {}
+    for k in range(5):
+        e_, p_ = get("eps", k), get("per", k)
+        est_by_k[k] = e_ * p_ if e_ and p_ and e_ > 0 and p_ > 0 else None
+    hi = lo = None
+    n = 0
+    if cbn:
+        n, hi, lo = pick_reading(cbn, est_by_k, ratios)
     notes, years = [], []
     for k in range(4, -1, -1):
         eps, per, bps = get("eps", k), get("per", k), get("bps", k)
@@ -306,7 +391,7 @@ def price_block(rows, end, url):
         h = l = None
         if n and k < n:
             h, l = hi[n - 1 - k], lo[n - 1 - k]
-        years.append({"k": k, "fy_end": str(int(end[:4]) - k) + end[4:], "high": h, "low": l, "eps": eps, "bps": bps,
+    years.append({"k": k, "fy_end": str(int(end[:4]) - k) + end[4:], "high": h, "low": l, "eps": eps, "bps": bps,
                       "per": per, "est_close": est, "scale": 1})
     resolved = {}
     for y in years:
