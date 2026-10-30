@@ -10,7 +10,7 @@
  *   doPost  action=sync          -> stores one browser's followed stories and companies
  *   doGet   action=follows       -> every followed story, no viewer ids (read by the fetch job)
  *   doGet   action=companies     -> one browser's companies with their latest headlines (private)
- *   doGet   action=approve|decline (id, k) -> owner only; the signed link in the owner email
+ *   doGet   action=approve|decline (id, k) -> owner only; shows a confirm page, the button POSTs the same to doPost
  *   doGet   action=confirm       -> marks the address "active"
  *   doGet   action=unsubscribe   -> marks the address "unsubscribed" (link in every email)
  *   sendNewEdition (time trigger, every 10 min; create it with setupMailTrigger()) -> if a new edition
@@ -481,6 +481,7 @@ function doPost(e) {
   if (p.action === 'subscribe') return text_(subscribe_(String(p.email || '').trim().toLowerCase()));
   if (p.action === 'contact') return text_(contact_(p));
   if (p.action === 'sync') return text_(sync_(p));
+  if (p.action === 'approve' || p.action === 'decline') return page_(ownerDecision_(p.action, p.id, p.k));   // button on the confirmation page
   return text_('unknown action');
 }
 
@@ -488,7 +489,7 @@ function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'follows') return json_(follows_(), p.callback);
   if (p.action === 'companies') return json_(companiesFor_(p.vid), p.callback);
-  if (p.action === 'approve' || p.action === 'decline') return page_(ownerDecision_(p.action, p.id, p.k));
+  if (p.action === 'approve' || p.action === 'decline') return ownerConfirmPage_(p.id, p.k);   // asks first; nothing changes on GET
   if (p.action === 'confirm') return page_(setStatusByToken_(p.t, 'active')
     ? ['You are subscribed', 'Deal Wire will arrive at 08:30, 12:30 and 15:30 SGT.']
     : ['Link not valid', 'This confirmation link has expired or was already used.']);
@@ -559,13 +560,42 @@ function askOwner_(email, token) {
   const html = shell_(
     '<p style="margin:0 0 16px;font:15px/1.55 Arial,sans-serif;color:#1b1f24"><b>' + esc_(email) + '</b> asked to receive the Deal Wire digest by email.</p>' +
     button_(yes, 'Approve') + '&nbsp;&nbsp;' + button_(no, 'Decline') +
-    '<p style="margin:18px 0 0;font:12px/1.5 Arial,sans-serif;color:#6b7280">These links work for you only. Approving sends them a confirmation email; the digest starts once they confirm. Access to the site itself is separate (Cloudflare Access).</p>', '');
+    '<p style="margin:18px 0 0;font:12px/1.5 Arial,sans-serif;color:#6b7280">These links work for you only; each opens a page where you press the button. Approving sends them a confirmation email; the digest starts once they confirm. Access to the site itself is separate (Cloudflare Access).</p>', '');
   MailApp.sendEmail({ to: owner, subject: 'Deal Wire · approve ' + email + '?', name: CONFIG.SENDER_NAME, htmlBody: html,
     body: email + ' asked to receive the Deal Wire digest.\nApprove: ' + yes + '\nDecline: ' + no + '\n' });
   return true;
 }
 
-// Checks the signed owner link and applies it. Only rows waiting for the owner can be changed.
+// What the link in the owner email opens: a question with two buttons. Nothing changes until a button
+// is pressed, so a mail scanner that opens the link cannot approve anyone. Each button posts its own
+// signed id (approve and decline have different signatures) back to doPost.
+function ownerConfirmPage_(id, k) {
+  const bad = ['Link not valid', 'This link is not valid or was already used.'];
+  if (!id) return page_(bad);
+  const okSig = String(k) === ownerSig_('approve', String(id)) || String(k) === ownerSig_('decline', String(id));
+  if (!okSig) return page_(bad);
+  const rows = sheet_().getDataRange().getValues();
+  let email = '';
+  for (let r = 1; r < rows.length; r++) {
+    if (rows[r][2] === id && rows[r][1] === 'awaiting_owner') { email = rows[r][0]; break; }
+  }
+  if (!email) return page_(['Already handled', 'This request was already approved or declined.']);
+  const url = ScriptApp.getService().getUrl();
+  function form(action, label, color) {
+    return '<form method="post" action="' + esc_(url) + '" target="_top" style="display:inline-block;margin:0 10px 0 0">' +
+      '<input type="hidden" name="action" value="' + action + '"><input type="hidden" name="id" value="' + esc_(id) + '">' +
+      '<input type="hidden" name="k" value="' + ownerSig_(action, String(id)) + '">' +
+      '<button type="submit" style="background:' + color + ';color:#000;border:0;border-radius:3px;font:bold 13px Arial,sans-serif;letter-spacing:.06em;padding:12px 18px;cursor:pointer">' + label + '</button></form>';
+  }
+  return HtmlService.createHtmlOutput(
+    '<div style="font-family:Arial,sans-serif;max-width:520px;margin:60px auto;padding:0 16px">' +
+    '<p style="font:bold 14px Consolas,monospace;letter-spacing:.14em;color:#c98a00">DEAL WIRE</p>' +
+    '<h1 style="font-size:22px">Approve this subscription?</h1>' +
+    '<p style="color:#374151"><b>' + esc_(email) + '</b> asked to receive the Deal Wire digest by email. Approving sends them a confirmation email.</p>' +
+    form('approve', 'APPROVE', '#ffbf3c') + form('decline', 'DECLINE', '#e5e7eb') + '</div>').setTitle('Deal Wire');
+}
+
+// Checks the signed owner request (from the confirmation page) and applies it. Only rows waiting for the owner can be changed.
 function ownerDecision_(action, id, k) {
   const bad = ['Link not valid', 'This link is not valid or was already used.'];
   if (!id || !k || String(k) !== ownerSig_(action, String(id))) return bad;
