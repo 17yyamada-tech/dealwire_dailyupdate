@@ -11,6 +11,13 @@ Element names were checked against real reports (see edinet_probe_yuho.py):
                company has consolidated statements)
   shareholders jpcrp_cor:NameMajorShareholders / ShareholdingRatio in CurrentYearInstant_No{n}MajorShareholdersMember
   control      jpcrp_cor:BasicPolicyRegardingControlOfCompanyTextBlock (+ the governance overview)
+  price        the "key figures" table (SummaryOfBusinessResults): BasicEarningsLossPerShare*, PriceEarningsRatio*,
+               NetAssetsPerShare* (or a per-share equity line by label), TotalShareholderReturn and
+               TotalReturnOnSharePriceIndex (company-only context), five years each (Prior4Year..CurrentYear).
+               High / low share price are NOT tagged separately: they only exist as plain text inside
+               BusinessResultsOfReportingCompanyTextBlock, so they are read from that text and checked against
+               PER x EPS. Shares: NumberOfIssuedSharesAsOfFiscalYearEnd* minus the treasury rows of
+               NumberOfSharesIssuedSharesVotingRights.
 The defence flag is a wording match, not a legal reading; the note says so.
 
 Needs the repository secret EDINET_API_KEY. Standard library only.
@@ -23,6 +30,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 import zipfile
@@ -39,6 +47,7 @@ BUDGET_S = int(os.environ.get("JP_BUDGET_MIN", "42") or "42") * 60
 PAUSE_S = 0.4
 ONLY = [t for t in os.environ.get("JP_TICKERS", "").split(",") if t]
 DEBUG = os.environ.get("JP_DEBUG") == "1"
+DRY = os.environ.get("JP_DRY") == "1"       # print the price block, write nothing
 csv.field_size_limit(1 << 28)
 
 REVENUE = ["jppfs_cor:NetSales", "jpigp_cor:RevenueIFRS", "jpigp_cor:Revenue2IFRS", "jppfs_cor:OperatingRevenue1",
@@ -156,6 +165,195 @@ def defense(rows, end, url):
     return {"flag": d[0], "note": d[1] + MACHINE, "as_of": end, "source": "EDINET", "url": url}
 
 
+# ---------------------------------------------------------------- price block (estimated from the filing)
+
+CTX = re.compile(r"^(CurrentYear|Prior([1-4])Year)(Duration|Instant)(_NonConsolidatedMember)?$")
+EPS_EL = re.compile(r"BasicEarningsLossPerShare(IFRS|USGAAP)?SummaryOfBusinessResults")
+PER_EL = re.compile(r"PriceEarningsRatio(IFRS|USGAAP)?SummaryOfBusinessResults")
+BPS_EL = re.compile(r"NetAssetsPerShare(IFRS|USGAAP)?SummaryOfBusinessResults")
+BPS_LABEL = re.compile(r"^1株当たり[^、]{0,12}(純資産|持分|資本)")
+
+
+def nfkc(t: str) -> str:
+    return unicodedata.normalize("NFKC", t)
+
+
+def split_tokens(seg: str):
+    """'2,475(12,375)2,2833,8913,8244,000' -> [2475, 2283, 3891, 3824, 4000]. The text keeps no cell borders,
+    so numbers are cut by thousands groups; decimals (0 to 2 places) are tried one fixed width at a time."""
+    seg = nfkc(seg)
+    seg = re.sub(r"\([^)]*\)", "", seg)                 # (pre-split figure) in brackets
+    seg = re.sub(r"^[\s円〃ドル]+", "", seg)
+    cut = re.match(r"^[\d,.\s]*", seg).group(0).replace(" ", "")
+    if not cut:
+        return None
+    for d in (0, 1, 2):
+        pat = re.compile(r"\d{1,3}(?:,\d{3})*" + (r"\.\d{%d}" % d if d else ""))
+        pos, out = 0, []
+        while pos < len(cut):
+            m = pat.match(cut, pos)
+            if not m:
+                out = None
+                break
+            out.append(float(m.group(0).replace(",", "")))
+            pos = m.end()
+        if out:
+            return out
+    return None
+
+
+def high_low(rows):
+    """(highs, lows, text) from the plain text of the company-only key figures table, newest last."""
+    for r in rows:
+        if r[0].endswith("BusinessResultsOfReportingCompanyTextBlock") and "最高株価" in r[8]:
+            t = nfkc(r[8])
+            i, j = t.index("最高株価"), t.find("最低株価")
+            if j < i:
+                continue
+            hi = split_tokens(t[i + 4:j])
+            rest = t[j + 4:]
+            end = min([x for x in (rest.find("(注"), rest.find("注)")) if x >= 0] or [len(rest)])
+            lo = split_tokens(rest[:min(end, 160)])
+            return hi, lo, t
+    return None, None, ""
+
+
+def split_events(text: str):
+    ev = []
+    for sent in re.split(r"(?<=。)", text):
+        if "株式分割" not in sent:
+            continue
+        m = re.search(r"1株につき(\d+)株の割合", sent) or re.search(r"1株を(\d+)株に", sent)
+        if not m:
+            continue
+        d = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日", sent)
+        ev.append({"ratio": int(m.group(1)),
+                   "date": f"{d.group(1)}-{int(d.group(2)):02d}-{int(d.group(3)):02d}" if d else ""})
+    out, seen = [], set()
+    for e in ev:
+        if (e["ratio"], e["date"]) not in seen and e["ratio"] > 1:
+            seen.add((e["ratio"], e["date"]))
+            out.append(e)
+    return out
+
+
+def share_counts(rows):
+    issued = None
+    for r in rows:
+        v = num(r[8])
+        if v is not None and r[0].endswith(":NumberOfIssuedSharesAsOfFiscalYearEndIssuedSharesTotalNumberOfSharesEtc") \
+                and r[2] in ("FilingDateInstant_OrdinaryShareMember", "FilingDateInstant"):
+            issued = int(v)
+            break
+    if issued is None:
+        for r in rows:
+            v = num(r[8])
+            if v is not None and r[0].endswith(":NumberOfSharesIssuedSharesVotingRights") and r[2] == "CurrentYearInstant":
+                issued = int(v)
+                break
+    tre, found = 0, False
+    for r in rows:
+        v = num(r[8])
+        if v is not None and r[0].endswith(":NumberOfSharesIssuedSharesVotingRights") and r[2].startswith("CurrentYearInstant_") \
+                and "Treasury" in r[2] and not re.search(r"Restricted|NoVoting|LessThanOneUnit", r[2]):
+            tre += int(v)
+            found = True
+    return issued, (tre if found else None)
+
+
+def price_block(rows, end, url):
+    vals = {}
+    for r in rows:
+        m = CTX.match(r[2])
+        if not m:
+            continue
+        v = num(r[8])
+        if v is None:
+            continue
+        k, scope = int(m.group(2) or 0), "n" if m.group(4) else "c"
+        el = r[0].split(":")[-1]
+        kind = None
+        if EPS_EL.fullmatch(el):
+            kind = "eps"
+        elif PER_EL.fullmatch(el):
+            kind = "per"
+        elif el == "TotalShareholderReturn":
+            kind = "tsr"
+        elif el == "TotalReturnOnSharePriceIndex":
+            kind = "tsr_idx"
+        elif m.group(3) == "Instant" and "SummaryOfBusinessResults" in el and (BPS_EL.fullmatch(el) or BPS_LABEL.match(nfkc(r[1]))):
+            kind = "bps"
+        if kind:
+            vals.setdefault((kind, scope, k), v)
+    basis = "consolidated" if any(key[0] in ("eps", "per") and key[1] == "c" for key in vals) else "standalone"
+    order = ("c", "n") if basis == "consolidated" else ("n", "c")
+
+    def get(kind, k, sc=None):
+        for s_ in (sc or order):
+            if (kind, s_, k) in vals:
+                return vals[(kind, s_, k)]
+        return None
+
+    hi, lo, text = high_low(rows)
+    n = len(hi) if hi and lo and len(hi) == len(lo) and 1 <= len(hi) <= 5 else 0
+    events = split_events(text)
+    ratios = [e["ratio"] for e in events]
+    cands = sorted({1, *ratios, *[a * b for a in ratios for b in ratios]})
+    notes, years = [], []
+    for k in range(4, -1, -1):
+        eps, per, bps = get("eps", k), get("per", k), get("bps", k)
+        est = round(eps * per, 1) if eps and per and eps > 0 and per > 0 else None
+        h = l = None
+        if n and k < n:
+            h, l = hi[n - 1 - k], lo[n - 1 - k]
+        years.append({"k": k, "fy_end": str(int(end[:4]) - k) + end[4:], "high": h, "low": l, "eps": eps, "bps": bps,
+                      "per": per, "est_close": est, "scale": 1})
+    resolved = {}
+    for y in years:
+        if y["high"] is None or y["low"] is None or y["est_close"] is None:
+            continue
+        sc = next((s_ for s_ in cands if y["low"] / s_ * 0.88 <= y["est_close"] <= y["high"] / s_ * 1.12), None)
+        if sc is None:
+            y["bad"] = True
+        else:
+            resolved[y["k"]] = sc
+    adj = False
+    for y in years:
+        if y["k"] in resolved:
+            y["scale"] = resolved[y["k"]]
+        elif y["high"] is not None and not y.get("bad") and resolved:
+            y["scale"] = resolved[min(resolved, key=lambda kk: abs(kk - y["k"]))]
+        if y.get("bad"):
+            y["high"] = y["low"] = None
+            notes.append(f"High/low for FY{y['fy_end'][:4]} in the filing text did not fit PER x EPS, so they are left out.")
+        elif y["high"] is not None and y["scale"] != 1:
+            y["high"], y["low"] = round(y["high"] / y["scale"], 2), round(y["low"] / y["scale"], 2)
+            adj = True
+    for e in events:
+        notes.append(f"Stock split {e['ratio']}-for-1" + (f" effective {e['date']}" if e["date"] else "") +
+                     (": high/low before it are divided to match the restated EPS." if adj else " noted in the filing."))
+    if not n:
+        notes.append("High/low share prices could not be read from the filing text.")
+    cur = years[-1]
+    est_price = cur["est_close"]
+    if est_price is None:
+        notes.append("Year-end price not estimated (no PER, or a loss year).")
+    issued, treas = share_counts(rows)
+    shares_out = (issued - (treas or 0)) if issued else None
+    est_mcap = int(est_price * shares_out) if est_price and shares_out else None
+    pbr = round(est_price / cur["bps"], 2) if est_price and cur["bps"] and cur["bps"] > 0 else None
+    tsr = get("tsr", 0, ("n", "c"))
+    tsr_i = get("tsr_idx", 0, ("n", "c"))
+    out_years = [{f: y[f] for f in ("fy_end", "high", "low", "eps", "bps", "per", "est_close")} for y in years
+                 if any(y[f] is not None for f in ("high", "low", "eps", "bps", "per", "est_close"))]
+    return {"kind": "jp_fy", "as_of": end, "basis": basis, "currency": "JPY", "est_price": est_price, "est_mcap": est_mcap,
+            "per": cur["per"], "pbr": pbr, "bps": cur["bps"], "eps": cur["eps"],
+            "tsr": round(tsr * 100, 1) if tsr is not None else None,
+            "tsr_index": round(tsr_i * 100, 1) if tsr_i is not None else None,
+            "shares_issued": issued, "shares_treasury": treas, "shares_out": shares_out,
+            "years": out_years, "notes": notes, "source": "EDINET", "url": url}
+
+
 def build(tk: str, hit: dict, sector: str) -> dict:
     url = PDF.format(hit["doc_id"])
     end = hit["period_end"]
@@ -190,8 +388,14 @@ def build(tk: str, hit: dict, sector: str) -> dict:
                 e["pct"] = round(v * 100 if v <= 1 else v, 2)
     lst = [by_no[k] for k in sorted(by_no) if by_no[k]["name"]][:10]
     holders = {"kind": "top10", "as_of": end, "list": lst, "source": "EDINET", "url": url} if lst else None
+    try:
+        price = price_block(rows, end, url)
+    except Exception as e:  # noqa: BLE001 - the rest of the profile is still worth keeping
+        price = {"kind": "jp_fy", "as_of": end, "years": [], "notes": [f"Price block failed: {str(e)[:80]}"], "source": "EDINET", "url": url}
+    if DRY:
+        print(f"PRICE {tk} " + json.dumps(price, ensure_ascii=False))
     return {"market": "JP", "ticker": tk, "tv_symbol": "TSE:" + tk, "sector": sector, "fin": fin, "holders": holders,
-            "defense": defense(rows, end, url), "doc_id": hit["doc_id"], "period_end": end, "filer": hit.get("filer", ""),
+            "defense": defense(rows, end, url), "price": price, "doc_id": hit["doc_id"], "period_end": end, "filer": hit.get("filer", ""),
             "updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
 
 
@@ -208,10 +412,11 @@ def main() -> int:
             continue
         f = OUT / f"{tk}.json"
         try:
-            have = json.loads(f.read_text(encoding="utf-8")).get("doc_id")
+            old = json.loads(f.read_text(encoding="utf-8"))
+            have, old_price = old.get("doc_id"), old.get("price")
         except Exception:  # noqa: BLE001
-            have = None
-        if have != hit["doc_id"]:
+            have, old_price = None, None
+        if have != hit["doc_id"] or not isinstance(old_price, dict):
             todo.append((tk, hit))
     print(f"{len(index)} companies in the index, {len(todo)} to read")
     start, done, failed = time.time(), 0, 0
@@ -221,6 +426,10 @@ def main() -> int:
             break
         try:
             prof = build(tk, hit, sectors.get(tk, ""))
+            if DRY:
+                done += 1
+                time.sleep(PAUSE_S)
+                continue
             (OUT / f"{tk}.json").write_text(json.dumps(prof, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
             done += 1
         except Exception as e:  # noqa: BLE001 - retried next run

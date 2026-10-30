@@ -12,6 +12,12 @@ on:
       debug:
         description: "1 = print revenue-like element names"
         default: ""
+      dry:
+        description: "1 = print the price block for the tickers and write nothing"
+        default: ""
+      budget:
+        description: minutes of reading per run (default 42)
+        default: "42"
 permissions:
   contents: write
 concurrency:
@@ -31,6 +37,8 @@ jobs:
           EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
           JP_TICKERS: ${{ inputs.tickers }}
           JP_DEBUG: ${{ inputs.debug }}
+          JP_DRY: ${{ inputs.dry }}
+          JP_BUDGET_MIN: ${{ inputs.budget }}
         run: python fetcher/jp_profiles.py
       - name: Commit data
         run: |
