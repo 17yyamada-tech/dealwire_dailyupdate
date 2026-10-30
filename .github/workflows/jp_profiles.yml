@@ -15,6 +15,9 @@ on:
       dry:
         description: "1 = print the price block for the tickers and write nothing"
         default: ""
+      hldebug:
+        description: "1 = with dry, print the text around 最高 when high/low are unreadable"
+        default: ""
       budget:
         description: minutes of reading per run (default 42)
         default: "42"
@@ -38,6 +41,7 @@ jobs:
           JP_TICKERS: ${{ inputs.tickers }}
           JP_DEBUG: ${{ inputs.debug }}
           JP_DRY: ${{ inputs.dry }}
+          JP_HLDEBUG: ${{ inputs.hldebug }}
           JP_BUDGET_MIN: ${{ inputs.budget }}
         run: python fetcher/jp_profiles.py
       - name: Commit data

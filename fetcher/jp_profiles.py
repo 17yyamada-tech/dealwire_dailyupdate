@@ -394,6 +394,14 @@ def build(tk: str, hit: dict, sector: str) -> dict:
         price = {"kind": "jp_fy", "as_of": end, "years": [], "notes": [f"Price block failed: {str(e)[:80]}"], "source": "EDINET", "url": url}
     if DRY:
         print(f"PRICE {tk} " + json.dumps(price, ensure_ascii=False))
+        if os.environ.get("JP_HLDEBUG") == "1" and not any(y.get("high") for y in price.get("years", [])):
+            for r in rows:
+                if "最高" in r[8] and len(r[8]) > 40:
+                    i = r[8].index("最高")
+                    print(f"HLDBG {tk} {r[0].split(':')[-1]} {nfkc(r[8][max(0, i - 60):i + 330])!r}")
+                    break
+            else:
+                print(f"HLDBG {tk} no text with 最高; text blocks: " + ",".join(sorted({r[0].split(':')[-1] for r in rows if 'BusinessResults' in r[0] and 'TextBlock' in r[0]})))
     return {"market": "JP", "ticker": tk, "tv_symbol": "TSE:" + tk, "sector": sector, "fin": fin, "holders": holders,
             "defense": defense(rows, end, url), "price": price, "doc_id": hit["doc_id"], "period_end": end, "filer": hit.get("filer", ""),
             "updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
