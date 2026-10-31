@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261031-1600";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261031-1800";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1311,12 +1311,12 @@
       }
       const det = document.createElement("tr"); det.className = "pf-detail"; det.hidden = !pfOpen.has(key);
       const dtd = document.createElement("td"); dtd.colSpan = 8; det.append(dtd);
-      if (pfOpen.has(key)) fillDetail(dtd, p);
+      if (pfOpen.has(key)) fillDetail(dtd, p, c);
       const toggle = () => {
         const open = !pfOpen.has(key);
         open ? pfOpen.add(key) : pfOpen.delete(key);
         tr.classList.toggle("open", open); nb.setAttribute("aria-expanded", String(open)); det.hidden = !open;
-        if (open && !dtd.firstChild) fillDetail(dtd, p);
+        if (open && !dtd.firstChild) fillDetail(dtd, p, c);
       };
       tr.addEventListener("click", ev => { if (ev.target.closest("a")) return; toggle(); });
       tb.append(tr, det);
@@ -1556,56 +1556,223 @@
     if (url) { q.append(" "); q.append(srcLink(label || "Source", url)); }
     box.append(q); return q;
   }
-  function fillDetail(td, p) {
+  /* ---------------- Profile detail: fixed sections ----------------
+     Overview, Price, Financials, Ownership, Takeover defense, Sources, always in this order. Each section has one
+     heading style, label/value lists for text, and one last line saying where the numbers come from and as of when. */
+  const HK_LABEL = { custody: "Custody / trust banks", fund: "Funds & investors", bank: "Banks & insurers", plan: "Employee & partner plans", corp: "Corporates", other: "Individuals & other" };
+  const HK_ORDER = ["custody", "fund", "bank", "plan", "corp", "other"];
+  const HK_RX = {
+    custody: /日本マスタートラスト|日本カストディ|マスタートラスト|カストディ|信託口|custody|master trust|state street|bank of new york|bny |jpmorgan|j\.p\. morgan|ステート.?ストリート|ジェーピー.?モルガン|バンク.?オブ.?ニューヨーク|デポジタリ|nominee|natscumco|secs lending|chase manhattan/i,
+    plan: /持株会|持ち株会|employee (stock|share)|stock ownership plan|esop/i,
+    fund: /fund|capital|partners|investment|investor|\blp\b|l\.p\.|asset management|vanguard|blackrock|fidelity|invesco|ファンド|投資事業|投資組合|キャピタル|パートナーズ|インベストメント|アセット.?マネジメント|運用|ブラックロック|バンガード/i,
+    bank: /銀行|信用金庫|信用組合|生命|保険|証券|共済|信託|bank|insurance|assurance|securities|mutual/i,
+    corp: /株式会社|\(株\)|有限会社|合同会社|財団|社団|学校法人|\binc\b|corp|ltd|\bco\.|company|holdings|gmbh|\bplc\b|\bllc\b|s\.a\.|n\.v\./i,
+  };
+  const HK_GENERIC = new Set(["日本", "ジャパン", "ザ", "the", "グローバル", "インターナショナル", "ユナイテッド", "アメリカ", "トラスト"]);
+  function holderKind(name) {
+    const n = tidyHolder(name).name, flat = n.replace(/[\s・]/g, "");
+    if (HK_RX.custody.test(n) || HK_RX.custody.test(flat)) return "custody";
+    if (HK_RX.plan.test(n)) return "plan";
+    if (HK_RX.fund.test(n) || HK_RX.fund.test(flat) || (sponsorWords || []).some(w => wordHit(n, w))) return "fund";
+    if (HK_RX.bank.test(n) || HK_RX.bank.test(flat)) return "bank";
+    if (HK_RX.corp.test(n) || HK_RX.corp.test(flat)) return "corp";
+    return "other";
+  }
+  // Japan only, funds only: two or more funds whose names start with the same word (Japanese names carry no spaces, so the
+  // shared start of the name must be at least 4 characters and not a generic word). Conservative: nothing else is bundled.
+  function holderGroups(rows) {
+    const nm = (r) => r.name.replace(/\s+/g, " ");
+    const lcp = (a, b) => { let i = 0; while (i < a.length && i < b.length && a[i].toLowerCase() === b[i].toLowerCase()) i++; return a.slice(0, i); };
+    const ok = (t) => t.length >= 4 && ![...HK_GENERIC].some(g => t.toLowerCase().startsWith(g)) && (!/^[ -~]+$/.test(t) || /\s/.test(t) || t.length >= 6);
+    const funds = rows.filter(r => r.kind === "fund");
+    const parent = new Map(funds.map(r => [r, r]));
+    const find = (r) => { while (parent.get(r) !== r) r = parent.get(r); return r; };
+    const lead = new Map(funds.map(r => [r, null]));
+    for (let i = 0; i < funds.length; i++) for (let j = i + 1; j < funds.length; j++) {
+      let t = lcp(nm(funds[i]), nm(funds[j]));
+      if (/^[ -~]+$/.test(t)) t = t.replace(/\s+\S*$/, "");   // Latin names: whole first word(s) only
+      if (!ok(t.trim())) continue;
+      parent.set(find(funds[i]), find(funds[j]));
+      [funds[i], funds[j]].forEach(r => { const cur = lead.get(r); lead.set(r, cur == null || t.length < cur.length ? t.trim() : cur); });
+    }
+    const groups = new Map();
+    funds.forEach(r => { if (lead.get(r) != null) { const g = groups.get(find(r)) || { members: [], name: lead.get(r) }; g.members.push(r); if (lead.get(r).length < g.name.length) g.name = lead.get(r); groups.set(find(r), g); } });
+    groups.forEach(g => { const sum = g.members.reduce((a, r) => a + (r.pct || 0), 0); g.members.forEach(r => { r.group = { name: g.name, sum }; }); });
+  }
+  const pct1 = (v) => (Math.round(v * 100) / 100).toString() + "%";
+  function dl(pairs) {
+    const d = hEl("dl", "pf-dl");
+    pairs.forEach(([k, v, cls]) => {
+      if (v == null || v === "") return;
+      d.append(hEl("dt", null, k));
+      const dd = hEl("dd", cls || null);
+      if (v instanceof Node) dd.append(v); else dd.textContent = v;
+      d.append(dd);
+    });
+    return d;
+  }
+  function pfSection(title) { const s = hEl("section", "pf-sec-box"); s.append(hEl("h4", "pf-sec-h", title)); return s; }
+  function pfFoot(sec, asOf, source, url, extra) {
+    const f = hEl("p", "pf-foot");
+    f.append((asOf ? "As of " + asOf : "Date not stated") + (source ? " · " + source : "") + (extra ? " · " + extra : "") + " ");
+    if (url) f.append(srcLink("Filing", url));
+    sec.append(f);
+  }
+  function monthName(iso) { const m = /^\d{4}-(\d{2})/.exec(iso || ""); return m ? ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][+m[1] - 1] : ""; }
+  function legendKeys(items, cls) {
+    const lg = hEl("p", "px-legend pf-keys");
+    items.forEach(([k, label, extra]) => { const i = hEl("span", "pf-key " + cls + k); lg.append(i, " " + label + (extra ? " " + extra : "") + "   "); });
+    return lg;
+  }
+  function ownersBand(o) {
+    const wrap = hEl("div", "ow-wrap");
+    const band = (cats, thin) => {
+      const b = hEl("div", "ow-band" + (thin ? " thin" : ""));
+      cats.forEach(c => { const s = hEl("span", "ow-seg ow-" + c.key); s.style.flexGrow = c.pct; s.title = c.label_en + " " + pct1(c.pct); b.append(s); });
+      return b;
+    };
+    wrap.append(hEl("p", "pf-sub", "Shareholding by holder category, % of shares"), band(o.cats, false), legendKeys(o.cats.map(c => [c.key, c.label_en, pct1(c.pct)]), "ow-"));
+    if (o.prior && o.prior.cats && o.prior.cats.length) {
+      wrap.append(hEl("p", "pf-sub", "A year earlier (" + o.prior.as_of + ")"), band(o.prior.cats, true));
+    }
+    return wrap;
+  }
+  function holderBars(hs, market) {
+    const wrap = hEl("div", "hk-wrap");
+    const rows = hs.list.map(x => { const tn = tidyHolder(x.name); return { name: tn.name, agent: tn.agent, raw: x.name, pct: x.pct, kind: holderKind(x.name), x }; });
+    if (market === "JP") holderGroups(rows);
+    const total = rows.reduce((a, r) => a + (r.pct || 0), 0), top = Math.max(...rows.map(r => r.pct || 0), 1e-9);
+    const lead = market === "JP" ? "Top " + rows.length + " hold " : "5% holders hold ";
+    wrap.append(hEl("p", "pf-sub", lead + pct1(total) + " of the shares"));
+    const stack = hEl("div", "hk-stack");
+    rows.filter(r => r.pct > 0).forEach(r => { const s = hEl("span", "hk-seg hk-" + r.kind); s.style.flexGrow = r.pct; s.title = r.name + " " + pct1(r.pct); stack.append(s); });
+    const rest = hEl("span", "hk-seg hk-rest"); rest.style.flexGrow = Math.max(100 - total, 0); rest.title = "All other holders"; stack.append(rest);
+    wrap.append(stack);
+    const kinds = HK_ORDER.filter(k => rows.some(r => r.kind === k));
+    wrap.append(legendKeys([...kinds.map(k => [k, HK_LABEL[k]]), ["rest", "Everyone else"]], "hk-"));
+    const list = hEl("div", "hk-rows");
+    rows.forEach(r => {
+      const row = hEl("div", "hk-row");
+      const nm = hEl("span", "hk-name", r.name); nm.title = r.raw;
+      if (r.agent) nm.append(hEl("small", "pf-agent", "  (常任代理人 " + r.agent + ")"));
+      const track = hEl("span", "hk-track"), bar = hEl("span", "hk-bar hk-" + r.kind); bar.style.width = ((r.pct || 0) / top * 100).toFixed(1) + "%"; track.append(bar);
+      const val = hEl("span", "hk-val", r.pct != null ? pct1(r.pct) : "n/a");
+      const ch = hEl("span", "hk-chg");
+      const x = r.x;
+      if ("prev_pct" in x) {
+        if (x.prev_pct == null) { ch.textContent = "New"; ch.classList.add("new"); ch.title = "Not among last year's top ten (" + (hs.prev_as_of || "prior report") + ")"; }
+        else if (r.pct != null) {
+          const d = Math.round((r.pct - x.prev_pct) * 10) / 10;
+          ch.title = "Was " + pct1(x.prev_pct) + (x.prev_date ? " (" + x.prev_date + ")" : hs.prev_as_of ? " (" + hs.prev_as_of + ")" : "");
+          if (d > 0) { ch.textContent = "▲" + d.toFixed(1) + "pt"; ch.classList.add("up"); }
+          else if (d < 0) { ch.textContent = "▼" + Math.abs(d).toFixed(1) + "pt"; ch.classList.add("down"); }
+          else { ch.textContent = "±0.0pt"; ch.classList.add("flat"); }
+        }
+      }
+      row.append(nm, track, val, ch);
+      if (r.group) { const g = hEl("small", "hk-group", "(" + r.group.name + " group " + pct1(r.group.sum) + ")"); g.title = "Funds whose names start with the same word; shown together, not merged"; nm.append(g); }
+      list.append(row);
+    });
+    wrap.append(list);
+    if (hs.dropped && hs.dropped.length) {
+      wrap.append(hEl("p", "pf-note2", "Left the top 10: " + hs.dropped.map(d => tidyHolder(d.name).name + (d.prev_pct != null ? " (" + pct1(d.prev_pct) + ")" : "")).join("; ")));
+    }
+    return wrap;
+  }
+  function finTable(f) {
+    const per = finPeriods(f);
+    const t = hEl("table", "fin-table"), hd = hEl("tr");
+    hd.append(hEl("th", null, ""));
+    per.forEach(p => hd.append(hEl("th", "num", "FY" + p.end.slice(0, 4))));
+    const th = hEl("thead"); th.append(hd); t.append(th);
+    const tb = hEl("tbody");
+    [["Revenue", "revenue"], ["Op. income", "op"], ["Net income", "ni"]].forEach(([lab, k]) => {
+      if (!per.some(p => p[k] != null)) return;
+      const tr = hEl("tr"); tr.append(hEl("th", null, lab));
+      per.forEach(p => { const td = hEl("td", "num", p[k] == null ? "n/a" : fmtAmt(f.currency, p[k])); if (p[k] == null) td.classList.add("pf-na"); td.title = "Year ended " + p.end; tr.append(td); });
+      tb.append(tr);
+    });
+    t.append(tb);
+    return t;
+  }
+  function fillDetail(td, p, c) {
     if (!p) { td.textContent = "Profile pending"; return; }
-    if (p.market === "JP") {
-      // TradingView's embeds do not show Tokyo-listed stocks: link out instead
-      const T = encodeURIComponent(p.ticker || "");
-      const mb = pfBox("Market data");
-      const q = document.createElement("p"); q.className = "co-links";
-      [["TradingView", `https://www.tradingview.com/symbols/TSE-${T}/`], ["株探", `https://kabutan.jp/stock/?code=${T}`],
-       ["Yahoo!ファイナンス", `https://finance.yahoo.co.jp/quote/${T}.T`]].forEach(([l, u], i) => { if (i) q.append("  "); q.append(srcLink(l, u)); });
-      mb.append(q);
-      pfLine(mb, "Prices for Tokyo-listed stocks are not shown here; open a link.");
-      td.append(mb);
+    if (sponsorWords === null) { loadSponsors().then(() => fillDetail(td, p, c)); return; }   // the fund list decides some holder types
+    c = c || {};
+    const mk = p.market || c.market, tk = p.ticker || c.ticker, f = p.fin;
+    const root = hEl("div", "pf-detail-in");
+    // 1 Overview
+    const ov = pfSection("Overview");
+    const fye = p.period_end || (f && f.revenue && f.revenue[0] && f.revenue[0].end) || "";
+    const links = listingLinks({ ...c, ticker: tk, market: mk, cik: c.cik || p.cik });
+    ov.append(dl([["Company", (c.name || p.filer || "").split(/[,、]/)[0].trim()], ["Ticker", tk ? tk + (mk ? " · " + mk : "") : ""],
+      ["Sector", p.sector || c.sector || ""], ["Fiscal year end", fye ? monthName(fye) + " (latest year ended " + fye + ")" : ""], ["Links", links]]));
+    root.append(ov);
+    // 2 Price
+    const pr = pfSection("Price");
+    if (mk === "JP") {
+      pr.append(dl([["Chart", "Not shown here: TradingView's embeds do not cover Tokyo-listed stocks. Open a link above."]]));
+      pr.append(hEl("p", "pf-foot", "Estimated year-end prices from the annual report are on the Price tab."));
     } else if (p.tv_symbol) {
-      const tvBox = document.createElement("div"); tvBox.className = "pf-box";
-      const h = document.createElement("h4"); h.textContent = "Market data (TradingView, delayed)"; h.append(conf("vendor")); tvBox.append(h);
-      const w1 = document.createElement("div"), w2 = document.createElement("div"); w1.className = w2.className = "pf-tv"; tvBox.append(w1, w2);
+      const w1 = hEl("div", "pf-tv"), w2 = hEl("div", "pf-tv"), box = hEl("div", "pf-tvbox"); box.append(w1, w2); pr.append(box);
       const theme = isDarkPage() ? "dark" : "light";
       tvWidget(w1, "symbol-info", { symbol: p.tv_symbol, width: "100%", locale: "en", colorTheme: theme, isTransparent: true });
       tvWidget(w2, "mini-symbol-overview", { symbol: p.tv_symbol, width: "100%", height: 220, locale: "en", dateRange: "12M", colorTheme: theme, isTransparent: true, autosize: false, chartOnly: false });
-      td.append(tvBox);
-    }
-    const info = document.createElement("div"); info.className = "pf-grid";
+      const ft = hEl("p", "pf-foot"); ft.append("Delayed quotes · TradingView (vendor data, not stored here) ", conf("vendor")); pr.append(ft);
+    } else pr.append(dl([["Chart", "No exchange mapped for this ticker."]]));
+    root.append(pr);
+    // 3 Financials
+    const fs = pfSection("Financials");
+    if (f) {
+      const fc = finChart(f);
+      const body = hEl("div", fc ? "fin-body" : "fin-plain");
+      if (fc) body.append(fc);
+      const side = hEl("div", "fin-lines");
+      side.append(finTable(f));
+      body.append(side); fs.append(body);
+      const last = (f.revenue && f.revenue[0]) || (f.net_income && f.net_income[0]);
+      pfFoot(fs, last ? "FY" + last.end.slice(0, 4) + " (year ended " + last.end + ")" : "", f.source, f.url, f.basis + " basis");
+    } else { fs.append(hEl("p", "pf-na2", "Not available yet.")); }
+    root.append(fs);
+    // 4 Ownership
+    const os = pfSection("Ownership");
     const hs = p.holders;
-    const hb = pfBox(hs ? (hs.kind === "5pct" ? "Holders of 5% or more" : "Largest shareholders") : "Shareholders");
+    if (p.owners && p.owners.cats && p.owners.cats.length) { os.append(ownersBand(p.owners)); }
     if (hs && hs.list && hs.list.length) {
-      const ul = document.createElement("ul");
+      os.append(hEl("h5", "pf-sub-h", hs.kind === "5pct" ? "Holders of 5% or more" : "Largest shareholders"));
+      os.append(holderBars(hs, mk));
+      const det = hEl("details", "hk-text"); det.append(hEl("summary", null, "Holders as text"));
+      const ul = hEl("ul");
       hs.list.forEach(x => {
-        const tn = tidyHolder(x.name), li = document.createElement("li"); li.textContent = tn.name + (x.pct != null ? "  " + x.pct + "%" : "");
-        if (tn.agent) { const sm = document.createElement("small"); sm.className = "pf-agent"; sm.textContent = "  (常任代理人 " + tn.agent + ")"; li.append(sm); }
+        const tn = tidyHolder(x.name), li = hEl("li", null, tn.name + (x.pct != null ? "  " + x.pct + "%" : ""));
+        if (tn.agent) li.append(hEl("small", "pf-agent", "  (常任代理人 " + tn.agent + ")"));
         ul.append(li);
       });
-      hb.append(ul);
-      pfLine(hb, "As of " + hs.as_of + " · " + hs.source, hs.url, "Filing");
-    } else pfLine(hb, "Not available yet.");
-    const db = pfBox("Takeover defense");
-    if (p.defense) {
-      pfLine(db, (p.defense.flag === "none_found" ? "none found" : p.defense.flag) + (p.defense.note ? ": " + p.defense.note : ""));
-      pfLine(db, "As of " + p.defense.as_of + " · " + p.defense.source + " · read by software", p.defense.url, "Filing");
-    } else pfLine(db, "Not available yet.");
-    const fb = pfBox("Financials");
-    const f = p.fin;
-    if (f) {
-      const fc = finChart(f), body = fc ? hEl("div", "fin-body") : fb, lines = fc ? hEl("div", "fin-lines") : fb;
-      if (fc) { fb.classList.add("pf-box-fin"); body.append(fc, lines); fb.append(body); }
-      const row = (lab, arr) => (arr || []).forEach(x => pfLine(lines, lab + " FY" + x.end.slice(0, 4) + " (year ended " + x.end + "): " + fmtAmt(f.currency, x.val)));
-      row("Revenue", f.revenue); row("Op. income", f.operating_income); row("Net income", f.net_income);
-      pfLine(lines, "Basis: " + f.basis + " · " + f.source, f.url, "Filing");
-    } else pfLine(fb, "Not available yet.");
-    info.append(hb, db, fb); td.append(info);
-    if (p.status === "pending" || p.status === "error") pfLine(td, p.status_note || p.status);
+      det.append(ul); os.append(det);
+    } else os.append(hEl("p", "pf-na2", "Holder list not available yet."));
+    if (hs || p.owners) pfFoot(os, (hs && hs.as_of) || (p.owners && p.owners.as_of), (hs && hs.source) || (p.owners && p.owners.source), (hs && hs.url) || (p.owners && p.owners.url), hs && hs.prev_as_of ? "changes vs " + hs.prev_as_of : "");
+    root.append(os);
+    // 5 Takeover defense
+    const ds = pfSection("Takeover defense");
+    const df = p.defense;
+    if (df) {
+      const badge = hEl("span", "pf-def-badge " + (df.flag === "none_found" ? "none" : "alert"), df.flag === "none_found" ? "None found" : df.flag === "possible" ? "Possibly in place" : df.flag === "yes" ? "In place" : String(df.flag || "Unknown"));
+      ds.append(dl([["Status", badge], ["What was checked", df.note || ""]]));
+      pfFoot(ds, df.as_of, df.source, df.url, "read by software");
+    } else ds.append(hEl("p", "pf-na2", "Not available yet."));
+    root.append(ds);
+    // 6 Sources
+    const so = pfSection("Sources");
+    const src = [];
+    if (f && f.url) src.push(["Financials", srcLink((f.source || "Filing") + " filing", f.url)]);
+    if (hs && hs.url) src.push(["Holders", srcLink((hs.source || "Filing") + " filing", hs.url)]);
+    else if (p.owners && p.owners.url) src.push(["Holders", srcLink("EDINET filing", p.owners.url)]);
+    if (df && df.url) src.push(["Takeover defense", srcLink((df.source || "Filing") + " filing", df.url)]);
+    so.append(src.length ? dl(src) : hEl("p", "pf-na2", "No filing linked yet."));
+    so.append(hEl("p", "pf-foot", "Figures are read from the filings by software; check the filing before relying on one."));
+    root.append(so);
+    td.append(root);
+    if (p.status === "pending" || p.status === "error") td.append(hEl("p", "pf-foot", p.status_note || p.status));
   }
   function isDarkPage() {
     const m = (getComputedStyle(document.body).backgroundColor || "").match(/\d+(\.\d+)?/g);

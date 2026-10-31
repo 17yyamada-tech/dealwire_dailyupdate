@@ -167,6 +167,24 @@ built before the index was complete (`fin_hd` false), is read again, 42 minutes 
 (workflow_dispatch) a few times first to finish the walk back; then `jp-profiles`. With `tickers=` set, those
 companies are always rebuilt, and `debug=1` prints the `FIN` line (figures and how many older reports were read).
 
+### Companies > Profile detail (six fixed sections)
+Opening a Profile row shows, always in this order: Overview (name, ticker, sector, fiscal year end, links), Price, Financials,
+Ownership, Takeover defense, Sources. Text is label / value lists; each section ends in one line with its "As of", source and
+Filing link. No tinted bands or side bars. Colours: holder types (`hk-*`: custody, funds, banks and insurers, employee plans,
+corporates, individuals and other) and holder categories (`ow-*`, one olive ramp) are separate palettes; changes use sky blue
+for up and red for down (`--chg-up`, `--chg-down`).
+
+**Ownership.** `owners` (Japan only) = `{as_of, cats:[{key,label_en,pct}], prior:{as_of,cats}, source, url}` from the
+`PercentageOfShareholdings*` elements of the 所有者別状況 table (ordinary-share context, sum must be 95 to 101.5% or it is null;
+an unknown element name also gives null). Treasury shares sit inside "Individuals & other" in that table. The largest holders are
+drawn as horizontal bars with a stacked bar above (type colours, the rest grey). The type is decided in the browser by wording
+rules (`holderKind()` in `docs/app.js`) and the fund list in `data/sponsors.json`; there is no AI. Funds in Japan whose names share
+the same first 4 or more characters are shown with a "(name group x%)" total but stay separate bars; US holders are not grouped.
+Change vs last year: Japan `holders.list[].prev_pct` (null = New), `holders.dropped`, `holders.prev_as_of`, from the one-year-earlier
+annual report in the index (names compared after NFKC, without the standing-proxy bracket); US `prev_pct` / `prev_date` from the
+same filer's one-earlier 13D/13G (`ANALYSE_V` in `us_profiles.py` re-analyses every company once). Takeover defense: grey tag for
+none found, amber tag otherwise, the note text stays below.
+
 ### Companies > Price (no price feed is bought)
 The third Companies view, Price, shows a card per linked company. Nothing here is a market quote.
 

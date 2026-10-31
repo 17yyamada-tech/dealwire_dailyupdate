@@ -383,9 +383,36 @@ h4 .pf-conf { display: inline-block; margin-left: 6px; }
 .px-links a { color: var(--ink); }
 .px-tv { min-height: 220px; }
 .px-tv iframe { color-scheme: normal; }   /* a dark page would otherwise paint the transparent embed white */
-/* Financials: five-year chart (same hand-made SVG as the price chart). One colour = one measure. */
-.pf-box-fin { grid-column: 1 / -1; --px-accent: var(--amber, var(--gold, var(--accent, var(--ink)))); --px-line: var(--line, var(--rule, var(--edge))); --px-bg: var(--panel, var(--surface, var(--bg, var(--bg-1, transparent)))); --fin-op: var(--t-pe, var(--deal, var(--ink-2))); --fin-ni: var(--amber, var(--gold, var(--ink-2))); }
+/* Profile detail: six fixed sections (Overview, Price, Financials, Ownership, Takeover defense, Sources).
+   No tinted bands or side bars; one colour = one meaning:
+   holder types (hk-*) and holder categories (ow-*) are separate palettes, up/down changes have their own pair. */
+.pf-detail-in { --px-accent: var(--amber, var(--gold, var(--accent, var(--ink)))); --px-line: var(--line, var(--rule, var(--edge))); --px-bg: var(--panel, var(--surface, var(--bg, var(--bg-1, transparent))));
+  --fin-op: var(--t-pe, var(--deal, var(--ink-2))); --fin-ni: var(--amber, var(--gold, var(--ink-2)));
+  --hk-custody: #4c78c9; --hk-fund: #d08a2e; --hk-bank: #8a63c7; --hk-plan: #2f9d8a; --hk-corp: #8c9aa8; --hk-other: #c25b82; --hk-rest: color-mix(in srgb, var(--ink-3) 28%, transparent);
+  --chg-up: #1fb6d6; --chg-down: #e5484d; display: grid; gap: 18px; }
+.pf-sec-box { min-width: 0; border-top: 1px solid var(--px-line); padding-top: 8px; }
+.pf-sec-h { margin: 0 0 8px; font-size: 11.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
+.pf-sub-h, .pf-sub { margin: 10px 0 4px; font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.pf-dl { display: grid; grid-template-columns: minmax(110px, 160px) minmax(0, 1fr); gap: 4px 14px; margin: 0; font-size: 12.5px; }
+.pf-dl dt { color: var(--ink-3); font-size: 11px; letter-spacing: .04em; padding-top: 1px; }
+.pf-dl dd { margin: 0; min-width: 0; color: var(--ink-2); overflow-wrap: anywhere; }
+.pf-dl dd .co-links { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.pf-foot { margin: 8px 0 0; font-size: 10.5px; line-height: 1.5; color: var(--ink-3); }
+.pf-foot a, .pf-dl a { color: var(--ink); }
+.pf-na2 { margin: 0; font-size: 12px; color: var(--ink-3); }
+.pf-note2 { margin: 6px 0 0; font-size: 10.5px; line-height: 1.5; color: var(--ink-3); }
+.pf-tvbox .pf-tv { min-height: 60px; } .pf-tvbox .pf-tv + .pf-tv { margin-top: 8px; }
+.pf-def-badge { display: inline-block; padding: 1px 8px; border: 1px solid currentColor; border-radius: 2px; font: 700 10.5px/1.6 var(--mono, monospace); letter-spacing: .06em; text-transform: uppercase; }
+.pf-def-badge.none { color: var(--ink-3); }
+.pf-def-badge.alert { color: #e0913a; }
+/* Financials: five-year chart (same hand-made SVG as the price chart) */
 .fin-body { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px 28px; }
+.fin-plain { display: block; }
+.fin-table { width: 100%; border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
+.fin-table th, .fin-table td { padding: 3px 6px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--px-line); color: var(--ink-2); }
+.fin-table th:first-child { text-align: left; color: var(--ink-3); font-weight: 600; padding-left: 0; }
+.fin-table thead th { font: 700 10px var(--mono, monospace); color: var(--ink-3); letter-spacing: .04em; }
+.fin-table td.pf-na { color: var(--ink-3); }
 .fin-chart { flex: 1 1 360px; min-width: 0; max-width: 580px; }
 .fin-lines { flex: 1 1 280px; min-width: 0; }
 .fin-svg { max-width: 580px; }
@@ -468,3 +495,31 @@ h4 .pf-conf { display: inline-block; margin-left: 6px; }
   .fx-detail td { display: block; padding: 0 10px 12px; }
   .fx-detail .fx-figs-all { grid-template-columns: minmax(0, 1fr); gap: 0; } .fx-detail .fx-figs-all dd { margin-bottom: 6px; }
 }
+
+/* Ownership: holder categories (ow-*, one olive ramp) and the largest holders (hk-*, one colour per holder type) */
+.ow-wrap { margin-bottom: 4px; }
+.ow-band { display: flex; gap: 2px; height: 18px; }
+.ow-band.thin { height: 8px; }
+.ow-seg { min-width: 2px; }
+.ow-gov { background: hsl(72, 42%, 26%); } .ow-financial { background: hsl(72, 42%, 36%); } .ow-broker { background: hsl(72, 42%, 46%); }
+.ow-corporate { background: hsl(72, 42%, 56%); } .ow-foreign { background: hsl(72, 42%, 66%); } .ow-individual { background: hsl(72, 42%, 76%); } .ow-treasury { background: hsl(72, 20%, 62%); }
+.pf-key { display: inline-block; width: 10px; height: 10px; vertical-align: -1px; border-radius: 1px; }
+.pf-keys { margin: 4px 0 0; line-height: 1.8; }
+.hk-custody { background: var(--hk-custody); } .hk-fund { background: var(--hk-fund); } .hk-bank { background: var(--hk-bank); }
+.hk-plan { background: var(--hk-plan); } .hk-corp { background: var(--hk-corp); } .hk-other { background: var(--hk-other); } .hk-rest { background: var(--hk-rest); }
+.hk-stack { display: flex; gap: 2px; height: 14px; }
+.hk-seg { min-width: 2px; }
+.hk-rows { margin-top: 8px; display: grid; gap: 3px; }
+.hk-row { display: grid; grid-template-columns: minmax(120px, 34%) minmax(80px, 1fr) 58px 70px; align-items: center; gap: 4px 10px; font-size: 12.5px; }
+.hk-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-2); line-height: 1.35; }
+.hk-track { display: block; height: 10px; }
+.hk-bar { display: block; height: 100%; min-width: 2px; }
+.hk-val { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink); }
+.hk-chg { font: 700 10.5px var(--mono, monospace); white-space: nowrap; color: var(--ink-3); }
+.hk-chg.up { color: var(--chg-up); } .hk-chg.down { color: var(--chg-down); } .hk-chg.new { color: var(--ink); }
+.hk-group { display: block; font-size: 10.5px; line-height: 1.3; color: var(--ink-3); }
+.hk-text { margin-top: 8px; font-size: 12px; color: var(--ink-3); }
+.hk-text summary { cursor: pointer; font-size: 10.5px; letter-spacing: .04em; }
+.hk-text ul { margin: 4px 0 0; padding: 0; list-style: none; }
+.hk-text li { margin: 1px 0; color: var(--ink-2); }
+@media (max-width: 700px) { .pf-dl { grid-template-columns: minmax(0, 1fr); } .hk-row { grid-template-columns: minmax(0, 1fr) 58px 70px; } .hk-track { grid-column: 1 / -1; grid-row: 2; } }

@@ -49,7 +49,7 @@ BUDGET_S = int(os.environ.get("JP_BUDGET_MIN", "42") or "42") * 60
 PAUSE_S = 0.4
 ONLY = [t for t in os.environ.get("JP_TICKERS", "").split(",") if t]
 DEBUG = os.environ.get("JP_DEBUG") == "1"
-FIN_V = 2      # bump to read the financials again: 2 = five years (summary table + older reports for operating profit)
+FIN_V = 3      # bump to read the financials again: 2 = five years (summary table + older reports for operating profit), 3 = + owners (holder categories) and prior-year holder changes
 FIN_YEARS = 5
 FIN_SPAN_DAYS = 45   # an older report counts as the same fiscal year if its year end is this close
 MAX_OLD_READS = 3
@@ -534,9 +534,9 @@ def hkey(name: str) -> str:
 
 # the holder-category table (所有者別状況): PercentageOfShareholdings* in the plain ordinary-share context, fractions of 1
 OWN_KEYS = [("gov", "Government & municipalities"), ("financial", "Financial institutions"), ("broker", "Securities firms"),
-            ("corporate", "Other corporations"), ("foreign", "Foreign investors"), ("individual", "Individuals & other"),
+            ("corporate", "Other corporations"), ("foreign", "Foreign investors"), ("individual", "Individuals & other (incl. treasury shares)"),
             ("treasury", "Treasury shares")]
-OWN_RULES = [("treasury", re.compile(r"Treasury")), ("foreign", re.compile(r"Foreign")), ("broker", re.compile(r"FinancialInstrument|Securities|Broker")),
+OWN_RULES = [("treasury", re.compile(r"Treasury")), ("foreign", re.compile(r"Foreign")), ("broker", re.compile(r"FinancialInstrument|FinancialService|Securities|Broker")),
              ("financial", re.compile(r"FinancialInstitution")), ("individual", re.compile(r"IndividualsAndOthers")),
              ("gov", re.compile(r"Government|LocalPublic|PublicBod|Municipal")), ("corporate", re.compile(r"Corporation"))]
 
