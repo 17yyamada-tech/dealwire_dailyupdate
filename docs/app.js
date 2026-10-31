@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261031-1900";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261031-2000";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1138,6 +1138,7 @@
       const list = mine.map(c => { const r = autoListing(c); if (r) { changed = true; return { ...c, ...pickFields(r) }; } return c; });
       if (changed) { store.set("companies", list); queueSync(0); return renderCompanies(); }
     } else loadCompanyIndex().then(() => { if (state.view === "companies") renderCompanies(); });
+    if (sponsorWords === null && sub !== "news") loadSponsors().then(() => { if (state.view === "companies") renderCompanies(); });   // Fund or Corporate needs the sponsor list
     if (sub === "profile") { renderProfile(mine, remote); return; }
     if (sub === "price") { renderPrice(mine, remote); return; }
     mine.forEach((c, i) => {
@@ -1267,7 +1268,7 @@
     const tb = document.createElement("tbody");
     mine.forEach(c => {
       const key = coKey(c), r = remote.get(key), p = profileOf(c, r), f = p && p.fin;
-      const tr = document.createElement("tr"); tr.className = "pf-row" + (pfOpen.has(key) ? " open" : "");
+      const tr = document.createElement("tr"); tr.className = "pf-row kind-" + kindOf(c, r && r.searched) + (pfOpen.has(key) ? " open" : "");
       const n = cell(tr);
       const nb = document.createElement("button"); nb.type = "button"; nb.className = "pf-name";
       const nm = c.name.split(/[,、]/)[0].trim(), nt = document.createElement("span"); nt.className = "pf-nt"; nt.textContent = nm; nb.title = nm; nb.append(nt);
@@ -1453,7 +1454,7 @@
     mine.forEach(c => {
       const r = remote.get(coKey(c)), p = profileOf(c, r), mk = (p && p.market) || c.market, tk = (p && p.ticker) || c.ticker;
       if (!mk || !tk) { skipped.push(c.name.split(/[,、]/)[0].trim()); return; }
-      const card = hEl("article", "px-card"); card.append(pxHead(c, p));
+      const card = hEl("article", "px-card kind-" + kindOf(c, (remote.get(coKey(c)) || {}).searched)); card.append(pxHead(c, p));
       const body = hEl("div", "px-body"); body.append(hEl("p", "px-note", "Loading…")); card.append(body);
       grid.append(card);
       pxLoad(c, p).then(px => {

@@ -172,7 +172,7 @@ Opening a Profile row shows, always in this order: Overview (name, ticker, secto
 Ownership, Takeover defense, Sources. Text is label / value lists; each section ends in one line with its "As of", source and
 Filing link. No tinted bands or side bars. Colours: holder types (`hk-*`: custody, funds, banks and insurers, employee plans,
 corporates, individuals and other) and holder categories (`ow-*`, one olive ramp) are separate palettes; changes use sky blue
-for up and red for down (`--chg-up`, `--chg-down`).
+for up (plain ink) and red for down (`--chg-up`, `--chg-down`); no blue or green anywhere in the detail (those mean Fund and Corporate on the list rows).
 
 **Ownership.** `owners` (Japan only) = `{as_of, cats:[{key,label_en,pct}], prior:{as_of,cats}, source, url}` from the
 `PercentageOfShareholdings*` elements of the 所有者別状況 table (ordinary-share context, sum must be 95 to 101.5% or it is null;
