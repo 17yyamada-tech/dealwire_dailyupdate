@@ -1,0 +1,304 @@
+{
+ "edition": "2026-10-31-0830",
+ "edition_label": "31 Oct 2026 · 08:30 SGT",
+ "date": "2026-10-31",
+ "generated_at": "2026-10-31T00:40:00Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "CD&R and GTCR weigh roughly $40bn take-private of Global Payments, shares jump 12%",
+   "summary": "Private equity firm Clayton, Dubilier & Rice is in talks to take U.S. payments processor Global Payments private, with reports pointing to a deal size of about $40bn; GTCR is also said to be considering joining the buyout. Global Payments shares jumped as much as 12% on the reports.",
+   "why_it_matters": "A deal of this size would rank among the largest sponsor take-privates of the year and tests how much leverage financing markets can support for a payments-processing target. Two large buyout firms reportedly circling the same company also points to renewed sponsor appetite for scaled, cash-generative fintech infrastructure.",
+   "summary_ja": "CD&R（クレイトン・ダブリエ・アンド・ライス）は米決済処理会社グローバル・ペイメンツの非公開化に向けた買収交渉を進めている。報道によれば取引規模は約400億ドルで、GTCRも買収への参加を検討していると伝えられている。この報道を受けグローバル・ペイメンツ株は一時12%急騰した。",
+   "why_it_matters_ja": "この規模の買収が成立すれば今年最大級のスポンサーによる非公開化案件となり、決済処理事業に対してどこまでレバレッジ調達が可能かが問われる。大手バイアウトファンド2社が同一の買収対象を追う構図は、スケールと安定したキャッシュ創出力を持つフィンテック基盤資産へのスポンサーの関心が再び高まっていることを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "cdr-gtcr-global-payments-buyout",
+   "ids": [
+    "2e20d983679033",
+    "65bd5a3f4b0e57",
+    "355f4b49715fd7"
+   ],
+   "links": [
+    {
+     "source": "Japan PE & activists",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13RFdqaF9rWWZqTkhVQ1M2YkdLbmZDVktHbFQ4VjBwNWt6WEJlUkR4a2ZaUnByVkNoOUE5WEFoal9xekZ3aGxCaGxKdTlqN2FDRXdmUGtaMlFmelZzLVN5Z3VMN19WYjlTUmF0YTdGV0V1UVFaejJN?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11VWtBalc4MDJJclpnYUhDMnJhOUpNZ3c0NDNZeXZGaU84UlIxVll2dFE2blotQnlwVXNfTVRubFJjX3pOQkpfYk1ZVHp5YUg4Q0lCM3BRUmxFNWpOaXFhSUtHUGhfSnlCeFkxQWFlUDk?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90ajlfd2JHZXpHRDlOWEFCb0s0ekNDTFozalRWWkhhblZZc3JfRlZoQVNGclM4TnJyRk8tM256OFU2cVJmSXJJckMxcjZYeG5taHA2aGg4VFhkM1ktYVVuWkRwOVZ4eFdWQ0k1YllUdzR6Y3g5?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Accenture to take Japan's Global Security Expert private via tender offer",
+   "summary": "Accenture decided to launch a tender offer aimed at making Tokyo-listed cybersecurity firm Global Security Expert (ticker 4417) a wholly owned subsidiary, and Global Security Expert's board has since accepted the offer, agreeing to take the company private.",
+   "why_it_matters": "The deal gives Accenture a Japan-based cybersecurity platform at a time when global consultancies are racing to add security capabilities for AI-related client work. A quick board acceptance also points to the company's leadership favouring a clean strategic exit over remaining listed.",
+   "summary_ja": "アクセンチュアは東証上場のサイバーセキュリティー企業グローバルセキュリティエキスパート（証券コード4417）を完全子会社化する方針でTOB（公開買付け）の実施を決定し、同社の取締役会はその後この提案を受け入れ、株式を非公開化することに同意した。",
+   "why_it_matters_ja": "この買収によりアクセンチュアは日本拠点のサイバーセキュリティー基盤を獲得する。AI関連業務の拡大に伴い、大手コンサルティング各社がセキュリティー能力の強化を急いでいる局面でのディールとなる。取締役会が速やかに受け入れたことは、経営陣が上場維持より戦略的買い手への売却を選んだことも示している。",
+   "status": "new",
+   "prev": null,
+   "key": "accenture-global-security-expert-tob",
+   "ids": [
+    "d0c362b0fee3ac",
+    "3be7141f046e1c"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcEx1MjQ4S1J5M1U5NEhuWlh2NUV1bXV1dHotYmRHQlJMbDBGdEt3QUtvMWZqZWx2aFAyMzJYVEtWbXJxcll2RUdTRVNpYmxFX3FHTDd3R05fR3hUN0xmWjlJMjdzTXk1N1V3WVFCaUFCTVEydXpDQnhyTnliOHpDRXRZUVRaSUY1OEhoVEVqUDB4clV2QUlKajVZZjlyc3p4TXBDanZn?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONU1Wa3ppZnM0SHdtT3UzeFZVclA2TXYtV05FWmx4QlpoblRrU3lvcThaSFFxbUYxQVc5SkpSWDdiVC1aWjU3akR1Y0paejZZOWdTRmxlaDZBNlJUeWt6d04yYkptQmpRaGdxTlV1TVZDcGF1cWFfZ0Z5RFd2dnRPVFNn0gGHAUFVX3lxTFBOdXo4bFNyZG5WaThYV2VhcHNxT3RCSkVHX29rRmJrbkRuaVl2RHJ5NjJqRTJjeWlqVmlpVDdWcF9reDJCdVEtR1ZoYkVONEoySmIyN193a09EWnh5cnM3OXFXa2JDbkJjYUZJb013TWNtcUxSamFvS0R2Z2Vwd05INGduSG9PTQ?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Salesforce's Rune Technologies buyout priced at $375m in cash and stock",
+   "summary": "Salesforce's agreed acquisition of defence-tech startup Rune Technologies is valued at about $375m (roughly ¥59bn), to be paid in a mix of cash and stock, according to Japanese-language reports. The deal had been announced without disclosed terms a day earlier.",
+   "why_it_matters": "Naming a price turns what was a vague strategic announcement into a transaction investors can actually size, and a sub-$400m deal signals Salesforce is buying early-stage defence-software capability rather than scale. It also reinforces how enterprise software vendors are willing to pay up for footholds in government and defence accounts.",
+   "summary_ja": "セールスフォースによる防衛テック新興企業Rune Technologiesの買収は約3.75億ドル（約590億円）規模とされ、現金と株式を組み合わせて支払われる見通しだと日本語報道が伝えた。この買収は前日、条件非開示の形で発表されていた。",
+   "why_it_matters_ja": "価格が明らかになったことで、これまで漠然とした戦略発表に過ぎなかった案件が投資家にとって規模を測れる取引となった。4億ドルに満たない規模であることから、セールスフォースは事業規模の獲得ではなく初期段階の防衛関連ソフトウェア技術の取り込みを狙っていることがうかがえる。エンタープライズソフトウェア各社が政府・国防関連顧客への足掛かりに資金を投じる姿勢も改めて示された。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-10-30-0830",
+    "index": 2
+   },
+   "key": "salesforce-rune-acquisition",
+   "ids": [
+    "e733c5502f7dd5"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0yQ3BDTlh6WWY1SEYxR1VnQ2hFeVNiR3Rjb0QtUFl0R3NSOHkxb2xrMWtsMEpWcW4zTEpsS3BXdW5VZ3V5MXJYNU5TYU9Ud0hVWDA5Ny1BWEZuMklyWUlIWWEwRUY4VUxKOElEbDVUcjFJeUg0?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Daiwa House Logistics Trust to swap Sendai port asset for ¥8.2bn Hiroshima facility",
+   "summary": "Daiwa House Logistics Trust has proposed divesting its DPL Sendai Port property and acquiring a Hiroshima logistics facility, DPL Hiroshima Itsukaichi Port, for about ¥8.2bn.",
+   "why_it_matters": "The swap shows a Singapore-listed Japan logistics REIT actively recycling its portfolio rather than simply adding assets, trading a port-adjacent property for one it evidently rates more highly. Continued activity in Japan logistics real estate also points to steady investor demand for the sector even as broader dealmaking slows.",
+   "summary_ja": "ダイワハウス・ロジスティクス・トラストは、保有するDPL仙台港物件を売却し、代わりに広島の物流施設DPL広島五日市港を約82億円で取得する提案を行った。",
+   "why_it_matters_ja": "シンガポール上場の日本物流REITが、単純な資産積み増しではなく、より評価の高い物件への入れ替えを積極的に進めていることを示す。日本の物流不動産では、全体のディール活動が鈍る中でも投資家需要が底堅く続いていることもうかがえる。",
+   "status": "new",
+   "prev": null,
+   "key": "daiwa-house-logistics-trust-hiroshima-swap",
+   "ids": [
+    "bdb8c5cbfa6073"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/daiwa-house-logistics-trust-proposes-divest-dpl-sendai-port-buy-hiroshima-facility"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "Infra"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Industrials",
+    "Infrastructure"
+   ]
+  },
+  {
+   "headline": "Temasek's Mapletree Investments lines up bankers for 2027 SGX listing",
+   "summary": "Temasek-backed Mapletree Investments is preparing for an initial public offering on the Singapore Exchange in 2027, and has begun appointing bankers and legal advisers for the listing, according to sources.",
+   "why_it_matters": "An SGX listing of this scale would be a rare large new issuance for the exchange and a notable liquidity event for one of Temasek's flagship real estate platforms. It also signals Temasek's willingness to use public markets, rather than a trade sale, to realise value from a mature asset manager.",
+   "summary_ja": "テマセク傘下のマップルツリー・インベストメンツは、2027年のシンガポール証券取引所（SGX）上場に向けて準備を進めており、関係者によれば上場に向けた銀行団や法律顧問の選定を既に開始している。",
+   "why_it_matters_ja": "この規模の上場が実現すればSGXにとって久々の大型新規上場となり、テマセクの主力不動産運用プラットフォームにとっても重要な資金回収の機会となる。事業売却ではなく株式公開という手段を選んだことは、テマセクが成熟した資産運用会社の価値実現に公開市場の活用も厭わない姿勢を示すものでもある。",
+   "status": "new",
+   "prev": null,
+   "key": "mapletree-investments-sgx-ipo",
+   "ids": [
+    "4dd961f8115b9b"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/property/temaseks-mapletree-investments-headed-sgx-ipo-2027-sources"
+    }
+   ],
+   "categories": [
+    "PE"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Apple's purchase of AI data-engineering startup Ascend.io surfaces in EU filing",
+   "summary": "Apple has acquired Ascend.io, a startup building AI agentic data-engineering tools, according to Japanese-language reports citing an EU regulatory disclosure. Terms were not disclosed.",
+   "why_it_matters": "The deal adds AI-agent data-pipeline technology to Apple's stack at a time when rivals are racing to automate enterprise data workflows with AI agents. That the acquisition surfaced only through a regulatory filing, rather than an announcement, is consistent with Apple's usual preference for quiet tuck-in deals.",
+   "summary_ja": "アップルはAIエージェント型のデータエンジニアリング技術を手がける新興企業Ascend.ioを買収したと、EUの開示資料を引用した日本語報道が伝えた。条件は開示されていない。",
+   "why_it_matters_ja": "この買収により、アップルはAIエージェントによるデータパイプライン技術を取り込むことになる。競合各社がAIエージェントを使った企業データ処理の自動化を競う局面での動きだ。正式発表ではなく規制当局への開示を通じて買収が判明した点も、アップルが小規模な技術獲得案件を静かに進める従来の姿勢と一致する。",
+   "status": "new",
+   "prev": null,
+   "key": "apple-ascend-io-acquisition",
+   "ids": [
+    "15354d392cc4d9"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWUlN2ZDJRSFUxZHZLTm9oR2llejFYWElqYV9NZGVOU3pjWUtZYjdXU1RtcFc4UjQwd1pnb1JuenVVYmZVTXRGU0ttSXJxaGpWb0tjVl9YbVVWRkMxS21JendDSUNwUWo3aGw1TWlkZ2xwdGls?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "AI & Semis",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Viatris launches tender offer to acquire Pacira BioSciences",
+   "summary": "Viatris has commenced a tender offer, through its wholly owned subsidiary Peach Purchaser Sub, to purchase all outstanding shares of Pacira BioSciences.",
+   "why_it_matters": "Moving to a tender offer rather than only a signed agreement puts the transaction into execution, and tender offers typically close faster than a shareholder-vote process. A global healthcare company the size of Viatris adding another bolt-on this way points to continued consolidation appetite among large pharma players even as broader M&A activity has been uneven.",
+   "summary_ja": "バイアトリスは完全子会社ピーチ・パーチェイサー・サブを通じて、パシラ・バイオサイエンシズの発行済み全株式を取得するためのTOB（公開買付け）を開始した。",
+   "why_it_matters_ja": "正式な買収契約だけでなくTOBという手段に移行したことで取引は実行段階に入り、株主総会決議を経るプロセスより早期の完了が見込める。バイアトリスのようなグローバルヘルスケア企業がこの形でボルトオン買収を進めることは、M&A全体の動きが一様でない中でも、大手製薬各社の統合意欲が続いていることを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "viatris-pacira-biosciences-tender-offer",
+   "ids": [
+    "966e6514acfd9e"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/viatris-announces-commencement-of-tender-offer-to-acquire-pacira-biosciences-inc-302924916.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Healthcare"
+   ]
+  },
+  {
+   "headline": "Vistra completes Cogentrix Energy deal, adding 5,500MW of gas capacity",
+   "summary": "Vistra Corp has completed its acquisition of Cogentrix Energy, adding approximately 5,500 megawatts of natural gas generation capacity across several markets, which Vistra said would enhance its ability to meet customer needs.",
+   "why_it_matters": "The deal strengthens Vistra's gas fleet just as power demand from AI data centres is pushing US utilities and generators to lock in dispatchable capacity. Buying operating gas plants, rather than building new ones, lets Vistra add capacity faster than a greenfield build would allow.",
+   "summary_ja": "ヴィストラ・コープは、コジェントリックス・エナジーの買収を完了し、複数の市場で約5,500メガワットの天然ガス発電容量を新たに取得した。同社はこれにより顧客需要への対応力が高まるとしている。",
+   "why_it_matters_ja": "AIデータセンター需要の高まりを受け米国の電力会社・発電事業者が即時供給可能な電源の確保を急ぐ中、このディールはヴィストラのガス発電フリートを強化するものとなる。新設ではなく稼働中のガス発電所を取得することで、ヴィストラはグリーンフィールド開発よりも短期間で発電容量を積み上げられる。",
+   "status": "new",
+   "prev": null,
+   "key": "vistra-cogentrix-energy-acquisition",
+   "ids": [
+    "32e782b09aebf5"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/vistra-completes-acquisition-of-cogentrix-energy-expanding-diverse-generation-fleet-302925088.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Energy"
+   ]
+  },
+  {
+   "headline": "Japan's Mediagene and Infobahn announce management buyouts",
+   "summary": "Japanese media companies Mediagene and Infobahn jointly announced that each company's management is separately carrying out a management buyout (MBO), according to Japanese-language reports citing a single joint disclosure from the two companies.",
+   "why_it_matters": "Two separate MBOs disclosed together add to a steady run of Japanese companies choosing management-led buyouts to exit public markets, a route that lets existing management retain control while avoiding a competitive sale process.",
+   "summary_ja": "日本のメディアジーンとインフォバーンは、両社による共同の発表として、それぞれの経営陣が個別にマネジメント・バイアウト（MBO）を実施すると明らかにした。",
+   "why_it_matters_ja": "同時に発表された2件のMBOは、競争的な売却プロセスを避けつつ経営陣が支配権を維持できる手段として、日本企業が経営陣主導の買収を選び続ける流れの一例となる。",
+   "status": "new",
+   "prev": null,
+   "key": "mediagene-infobahn-mbo",
+   "ids": [
+    "a167a81b3d4eae"
+   ],
+   "links": [
+    {
+     "source": "Japan PE & activists",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3VlpvS3Q4dzRoRHphN3FHRWZ5MUxOUlVWUkNvZmZBRWw3VFprM3Rwd2RiRkMyUXB5a0JWUVNkX2xGNVRrRDNuS3U2M2ZrTi1EUzlrN0haNkJFaFpEZnZiZ1dwWU0zdWJOY0E?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Abu Dhabi's Falcon Capital takes strategic stake in London energy investor Pont Capital",
+   "summary": "Falcon Capital Investments, part of the Falcon Family Office Group, is investing in Pont Capital and will become a strategic shareholder in the London-based firm, which the companies described as a leading energy and natural resources investor.",
+   "why_it_matters": "The investment gives a Gulf family office a direct stake in a specialist Western energy and natural resources investment platform, adding to a broader pattern of Middle East capital taking strategic positions in asset managers rather than only backing individual deals.",
+   "summary_ja": "ファルコン・キャピタル・インベストメンツ（ファルコン・ファミリー・オフィス・グループの一員）はポント・キャピタルに出資し、ロンドンを拠点とする同社の戦略的株主となる。両社はポント・キャピタルをエネルギー・資源分野の有力投資会社と説明している。",
+   "why_it_matters_ja": "この出資により、湾岸の同族経営グループは欧米の専門エネルギー・資源投資プラットフォームに直接出資する形となる。個別ディールへの参加だけでなく、資産運用会社そのものに戦略的な出資を行う中東資本の広がりを示す一例となる。",
+   "status": "new",
+   "prev": null,
+   "key": "falcon-capital-pont-capital-stake",
+   "ids": [
+    "c32a842cb559cb"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/falcon-capital-takes-a-strategic-stake-in-the-leading-energy-investor-pont-capital-302924808.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Real Estate",
+    "Energy"
+   ]
+  }
+ ]
+}
