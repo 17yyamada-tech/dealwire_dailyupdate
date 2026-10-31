@@ -104,6 +104,7 @@ mark { background: var(--amber); color: #000; padding: 0 1px; }
 
 /* digest */
 .p-digest .panel-head { border-top: 3px solid var(--amber); }
+.p-deals .panel-head { border-top: 3px solid transparent; }   /* same box as the digest head, whose top line is amber */
 .digest-list li { padding: 14px 14px; border-bottom: 1px solid var(--line); }
 .digest-list li:last-child { border-bottom: 0; }
 .d-num { font: 700 22px/1 var(--mono); color: var(--amber); }

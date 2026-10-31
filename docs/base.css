@@ -73,6 +73,15 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
 .panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .panel-head h2 { margin: 0; display: flex; align-items: center; gap: 8px; }
 .panel-head-right { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; justify-content: flex-end; }
+/* Side by side (Live deal board | Today's Digest): the two heads and the two second rows share one fixed height, so the
+   lines under them meet across the gap. Fixed height + border-box absorbs border and padding differences between skins.
+   Under 1280px the right-hand controls wrap to two lines, so the rows are taller there. Navy stacks the panels, so it keeps its own. */
+:root { --hd-h: 48px; --sub-h: 48px; }
+@media (max-width: 1279px) { :root { --hd-h: 76px; --sub-h: 68px; } }
+@media (min-width: 1000px) {
+  :root:not([data-skin="navy"]) .p-deals .panel-head, :root:not([data-skin="navy"]) .p-digest .panel-head { box-sizing: border-box; height: var(--hd-h); align-items: center; margin-top: 0; margin-bottom: 0; }
+  :root:not([data-skin="navy"]) .p-deals .board-cols, :root:not([data-skin="navy"]) .p-digest .edition-bar { box-sizing: border-box; height: var(--sub-h); align-items: center; margin-top: 0; margin-bottom: 0; }
+}
 
 /* rows: one template for deals, stories, search results and saved */
 .rows, .digest-list { list-style: none; margin: 0; padding: 0; }

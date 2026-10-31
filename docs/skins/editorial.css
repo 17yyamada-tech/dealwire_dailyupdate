@@ -136,3 +136,9 @@ dialog::backdrop { background: rgba(0,0,0,.4); }
 
 /* page tabs in the header */
 .vtab { font: 600 14px/1 var(--sans); }
+
+/* the digest card starts 18px lower (4px top line + 14px padding); the deal board head starts at the same height, and both heads end in the same rule */
+@media (min-width: 1000px) {
+  :root:not([data-skin="navy"]) .p-deals .panel-head { margin-top: 18px; }
+  .p-digest .panel-head { border-bottom: 2px solid var(--ink); }
+}
