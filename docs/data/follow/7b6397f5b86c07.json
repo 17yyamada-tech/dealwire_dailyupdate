@@ -4,11 +4,11 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-10-31T00:50:04Z",
+ "checked_at": "2026-10-31T04:52:20Z",
  "status": {
   "as_of": "2026-10-31",
-  "text": "BOJ held at 1.25% (8-1 vote) Oct 30, signaling more hikes as inflation hit 2% target; yen near 157/dollar. Coalition talks drag on after Oct 27 Israeli vote; Netanyahu's Likud calls result 'stolen'.",
-  "text_ja": "日銀は10月30日、政策金利を1.25%で8対1で維持、2%目標達成で追加利上げを示唆、円は157円近辺。イスラエルは選挙後も連立協議継続、リクードは結果を「盗まれた」と主張。",
+  "text": "BOJ held at 1.25% (8-1) Oct 30, signaling more hikes; yen near 157. Israel's Oct 27 result certified Oct 30: Netanyahu 53, Eisenkot 48, no majority. Brent near $117.56, up ~15% on Hormuz attacks.",
+  "text_ja": "日銀は10月30日、政策金利を1.25%で維持し追加利上げを示唆、円は157円近辺。イスラエル選挙は確定も過半数届かず連立協議継続。原油はホルムズ攻撃で続伸、117ドル台。",
   "refs": [
    {
     "list": "since",
@@ -16,7 +16,11 @@
    },
    {
     "list": "since",
-    "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html"
+    "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
+   },
+   {
+    "list": "since",
+    "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
    }
   ]
  },
@@ -87,6 +91,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-10-30",
+   "headline": "Brent rises 2.4% to about $117.56, WTI to $104.17, on track for fourth straight monthly gain near 15% after new Hormuz tanker strike",
+   "summary": "Brent crude rose about 2.4% to roughly $117.56 a barrel and WTI gained about 2.1% to roughly $104.17 on October 30, 2026, putting Brent on track for a roughly 15% monthly gain, its fourth consecutive monthly rise, after a tanker was struck in the Strait of Hormuz and the US repeated it could resume strikes on Iran.",
+   "summary_ja": "2026年10月30日、ブレント原油は約2.4%高の1バレル117.56ドル前後、WTIも約2.1%高の104.17ドル前後となった。ホルムズ海峡で新たなタンカー攻撃が発生し、米国がイランへの攻撃再開の可能性を改めて示したことが背景。ブレントは月間で約15%の上昇となり4カ月連続の上昇となる見通し。",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Israel's Central Elections Committee certifies final Oct 27 result: Netanyahu bloc 53 seats, Eisenkot bloc 48, Arab parties 19",
+   "summary": "Israel's Central Elections Committee published the final certified count from the October 27 election in the early hours of October 30, 2026, confirming Prime Minister Netanyahu's bloc at 53 seats and the opposition bloc led by Gadi Eisenkot at 48, with Arab-led parties at 19 combined; all blocs remain short of the 61-seat majority needed to govern.",
+   "summary_ja": "イスラエル中央選挙管理委員会は2026年10月30日未明、10月27日総選挙の最終確定結果を発表した。ネタニヤフ首相派ブロックが53議席、ガディ・アイゼンコット氏率いる野党ブロックが48議席、アラブ系政党が合計19議席となった。いずれのブロックも政権樹立に必要な過半数61議席には届いていない。",
+   "source": "NBC News",
+   "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
+  },
   {
    "date": "2026-10-30",
    "headline": "BOJ holds rate at 1.25% in 8-1 vote, says inflation hit 2% target and signals more hikes; yen firms to around 157/dollar",
@@ -310,22 +330,6 @@
    "summary_ja": "アルジャジーラの報道によると、週末にイランがコンテナ船を攻撃した後、米国とイランはそれぞれホルムズ海峡の管理権を主張した。イランは先月の暫定和平合意に基づき通航を管理し通行料を課す権利があるとし、トランプ大統領は米国がイランに対する海峡封鎖を再開し、船舶にも安全通航料を課すと述べた。この対立は、戦争終結に向けた恒久的合意を協議するとされた60日間の交渉期間のおおむね中間時点で起きた。",
    "source": "Al Jazeera",
    "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels"
-  },
-  {
-   "date": "2026-10-16",
-   "headline": "Iran's navy says it detected a burning tanker in a restricted zone east of the Strait of Hormuz, vessel unidentified",
-   "summary": "Iran's navy said on Friday, October 16, 2026 that it detected a tanker on fire inside a zone it designates prohibited east of the Strait of Hormuz, without naming the vessel, its flag or the cause of the fire, and without reporting casualties; the claim was not independently verified.",
-   "summary_ja": "イラン海軍は2026年10月16日(金)、ホルムズ海峡東方に自ら設定した禁止区域内で炎上中のタンカー1隻を検知したと発表した。船名や船籍、出火原因は明らかにされておらず、死傷者の報告もない。この発表は独立した形では確認されていない。",
-   "source": "Yeni Şafak",
-   "url": "https://en.yenisafak.com/world/iranian-navy-reports-tanker-fire-in-gulf-of-oman-3724518"
-  },
-  {
-   "date": "2026-10-16",
-   "headline": "UKMTO logs 12 attacks on Gulf shipping in week to October 16, rates threat to Hormuz shipping 'severe'",
-   "summary": "UKMTO recorded 12 attacks on commercial shipping in the week ending October 16 - 10 in the Strait of Hormuz, one in the Persian Gulf and one in the Gulf of Oman - with one vessel lost, two disabled and three outcomes unconfirmed, and said it believes the true number is higher since most targeted vessels decline to report; the agency rated the threat to Hormuz shipping 'severe' and said further attacks were 'highly likely'.",
-   "summary_ja": "UKMTO(英海事貿易活動局)は10月16日までの1週間に商船への攻撃を12件記録したと発表した。ホルムズ海峡内が10件、ペルシャ湾が1件、オマーン湾が1件で、船舶1隻が失われ、2隻が航行不能、3件は結果不明という。攻撃を受けた船舶の多くが報告を避けるため実際の件数はさらに多いとみられるとした。同局はホルムズ海峡の船舶航行への脅威を「深刻」と評価し、さらなる攻撃の可能性が「非常に高い」と警告した。",
-   "source": "gCaptain",
-   "url": "https://gcaptain.com/fog-of-war-deepens-in-hormuz-as-ukmto-says-most-ship-attacks-go-unreported/"
   }
  ]
 }
