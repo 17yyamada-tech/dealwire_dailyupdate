@@ -36,6 +36,7 @@ ONLY = [t for t in os.environ.get("US_TICKERS", "").split(",") if t]
 GAP_S = 0.16                      # about 6 requests a second
 REANALYSE_DAYS = 60
 FIN_YEARS = 5
+ANALYSE_V = 2       # bump to analyse every company's holders again (2 = prev_pct / prev_date)
 TV = {"Nasdaq": "NASDAQ", "NYSE": "NYSE", "NYSE American": "AMEX", "NYSE MKT": "AMEX", "NYSE Arca": "NYSEARCA", "CBOE": "CBOE"}
 REVENUE_TAGS = ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet",
                 "RevenuesNetOfInterestExpense", "TotalRevenuesAndOtherIncome"]
@@ -177,12 +178,14 @@ def analyse(cik: int, sub: dict) -> tuple:
         k = holder_key(name) if name else ""
         if k and k not in by_holder:           # newest filing of a holder wins
             by_holder[k] = {"name": name[:80], "pct": pct, "date": x["date"]}
+        elif k and "prev" not in by_holder[k] and pct is not None:   # the same filer's one-earlier filing
+            by_holder[k]["prev"] = (pct, x["date"])
     lst = sorted((h for h in by_holder.values() if h["pct"] is None or h["pct"] >= 5), key=lambda h: -(h["pct"] or 0))[:10]
     pad = f"{cik:010d}"
     holders = None
     if by_holder:
         holders = {"kind": "5pct", "as_of": max([h["date"] for h in lst] or [rows[0]["date"]]),
-                   "list": [{"name": h["name"], "pct": h["pct"]} for h in lst], "source": "SEC",
+                   "list": [{"name": h["name"], "pct": h["pct"], **({"prev_pct": h["prev"][0], "prev_date": h["prev"][1]} if "prev" in h else {})} for h in lst], "source": "SEC",
                    "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={pad}&type=SC+13&dateb=&owner=include&count=40"}
     found = None
     cands = [r for r in rows if re.match(r"^8-A12[BG]", r["form"]) or (r["form"].startswith("8-K") and "3.03" in r["items"].split(","))]
@@ -261,9 +264,9 @@ def main() -> int:
                     prof["sector"] = sub.get("sicDescription") or prof["sector"]
                     rel = relevant_latest(sub)
                     stale = (dt.date.today() - dt.date.fromisoformat(st.get("analysed", "2000-01-01"))).days >= REANALYSE_DAYS
-                    if prof["detail"] != "done" or rel != st.get("rel") or stale:
+                    if prof["detail"] != "done" or rel != st.get("rel") or stale or st.get("v") != ANALYSE_V:
                         prof["holders"], prof["defense"] = analyse(cik, sub)
-                        prof["detail"], st["rel"], st["analysed"] = "done", rel, today
+                        prof["detail"], st["rel"], st["analysed"], st["v"] = "done", rel, today, ANALYSE_V
                         analysed += 1
                     else:
                         skipped += 1

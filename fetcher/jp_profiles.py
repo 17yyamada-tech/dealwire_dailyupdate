@@ -497,6 +497,74 @@ def needs_price(pr) -> bool:
     return not ys or any(y.get("high") is None for y in ys)         or any("did not fit" in n or "could not" in n for n in pr.get("notes", []))
 
 
+_RC = {}
+
+
+def cached_rows(doc_id: str) -> list:
+    """A report is downloaded once per company build, even if both the financials and the prior-year holders need it."""
+    if doc_id not in _RC:
+        _RC[doc_id] = edinet_rows(doc_id)
+    return _RC[doc_id]
+
+
+def top_holders(rows) -> list:
+    by_no = {}
+    for r in rows:
+        m = re.fullmatch(r"CurrentYearInstant_No(\d+)MajorShareholdersMember", r[2])
+        if not m:
+            continue
+        e = by_no.setdefault(int(m.group(1)), {"name": "", "pct": None})
+        if r[0].endswith(":NameMajorShareholders"):
+            e["name"] = re.sub(r"\s+", " ", r[8]).strip()[:80]
+        elif r[0].endswith(":ShareholdingRatio"):
+            v = num(r[8])
+            if v is not None:
+                e["pct"] = round(v * 100 if v <= 1 else v, 2)
+    return [by_no[k] for k in sorted(by_no) if by_no[k]["name"]][:10]
+
+
+def hkey(name: str) -> str:
+    """Same holder across two years: NFKC, no standing-proxy bracket, no spaces."""
+    t = unicodedata.normalize("NFKC", name or "")
+    i = t.find("(常任代理人")
+    if i >= 0:
+        t = t[:i]
+    return re.sub(r"\s+", "", t).lower()
+
+
+# the holder-category table (所有者別状況): PercentageOfShareholdings* in the plain ordinary-share context, fractions of 1
+OWN_KEYS = [("gov", "Government & municipalities"), ("financial", "Financial institutions"), ("broker", "Securities firms"),
+            ("corporate", "Other corporations"), ("foreign", "Foreign investors"), ("individual", "Individuals & other"),
+            ("treasury", "Treasury shares")]
+OWN_RULES = [("treasury", re.compile(r"Treasury")), ("foreign", re.compile(r"Foreign")), ("broker", re.compile(r"FinancialInstrument|Securities|Broker")),
+             ("financial", re.compile(r"FinancialInstitution")), ("individual", re.compile(r"IndividualsAndOthers")),
+             ("gov", re.compile(r"Government|LocalPublic|PublicBod|Municipal")), ("corporate", re.compile(r"Corporation"))]
+
+
+def owners_block(rows, as_of: str, url: str):
+    """Shareholding by holder category, or None when the table is not readable (nothing is guessed)."""
+    by_ctx = {}
+    for r in rows:
+        if not re.fullmatch(r"CurrentYearInstant(_OrdinaryShareMember)?", r[2]):
+            continue
+        name = r[0].split(":")[-1]
+        if not name.startswith("PercentageOfShareholdings"):
+            continue
+        v = num(r[8])
+        if v is None:
+            continue
+        key = next((k for k, rx in OWN_RULES if rx.search(name[len("PercentageOfShareholdings"):])), None)
+        if key is None:
+            return None                    # an element we do not know: better no band than a wrong one
+        d = by_ctx.setdefault(r[2], {})
+        d[key] = d.get(key, 0) + v * 100
+    best = max(by_ctx.values(), key=lambda d: sum(d.values()), default=None)
+    if not best or not 95 <= sum(best.values()) <= 101.5:
+        return None
+    cats = [{"key": k, "label_en": lab, "pct": round(best[k], 2)} for k, lab in OWN_KEYS if best.get(k, 0) > 0]
+    return {"as_of": as_of, "cats": cats, "source": "EDINET", "url": url}
+
+
 def fam(element: str) -> str:
     """The figure an element stands for, whether it is the statement line or its summary-table twin."""
     return element.split(":")[-1].replace("SummaryOfBusinessResults", "")
@@ -536,7 +604,7 @@ def financials(tk: str, hit: dict, rows, end: str, url: str):
         done_docs.add(pick[0])
         reads += 1
         try:
-            old_rows = edinet_rows(pick[0])
+            old_rows = cached_rows(pick[0])
         except Exception as e:  # noqa: BLE001 - an older report that cannot be read just leaves gaps
             notes.append(f"{pick[1][:4]} report unreadable: {str(e)[:40]}")
             continue
@@ -574,9 +642,11 @@ def build(tk: str, hit: dict, sector: str, hist_done: bool = False) -> dict:
                     and "TextBlock" not in r[0] and r[0] not in seen:
                 seen.add(r[0])
                 print(f"      {tk} {r[0][:80]:<80} {r[4]} {r[8][:16]}")
+    _RC.clear()
+    _RC[hit["doc_id"]] = rows
     fin, fin_info = financials(tk, hit, rows, end, url)
     if OWNDEBUG:
-        pat = re.compile(r"Category|Distribution|Ownership|GovernmentAndLocal|FinancialInstitution|ForeignCorporation|IndividualsAndOther|所有者|金融機関|外国法人")
+        pat = re.compile(r"PercentageOfShareholdings|ShareholderCategory")
         n = 0
         for r in rows:
             if pat.search(r[0]) or pat.search(r[2]) or pat.search(r[1]):
@@ -584,20 +654,26 @@ def build(tk: str, hit: dict, sector: str, hist_done: bool = False) -> dict:
                 if n <= 70:
                     print(f"OWN {tk} {r[0].split(':')[-1][:70]} | {r[1][:24]} | {r[2][:60]} | {r[8][:60]!r}")
         print(f"OWN {tk} matching rows {n} of {len(rows)}")
-    by_no = {}
-    for r in rows:
-        m = re.fullmatch(r"CurrentYearInstant_No(\d+)MajorShareholdersMember", r[2])
-        if not m:
-            continue
-        e = by_no.setdefault(int(m.group(1)), {"name": "", "pct": None})
-        if r[0].endswith(":NameMajorShareholders"):
-            e["name"] = re.sub(r"\s+", " ", r[8]).strip()[:80]
-        elif r[0].endswith(":ShareholdingRatio"):
-            v = num(r[8])
-            if v is not None:
-                e["pct"] = round(v * 100 if v <= 1 else v, 2)
-    lst = [by_no[k] for k in sorted(by_no) if by_no[k]["name"]][:10]
+    lst = top_holders(rows)
     holders = {"kind": "top10", "as_of": end, "list": lst, "source": "EDINET", "url": url} if lst else None
+    owners = owners_block(rows, end, url)
+    prev_hit = next((h for h in hit.get("hist", []) if h[0] != hit["doc_id"] and days_apart(h[1], shift_end(end, 1)) <= FIN_SPAN_DAYS), None)
+    if prev_hit and (holders or owners):
+        try:
+            prows = cached_rows(prev_hit[0])
+            plst = top_holders(prows)
+            if holders and plst:
+                pm = {hkey(x["name"]): x["pct"] for x in plst}
+                cur_keys = {hkey(x["name"]) for x in lst}
+                for x in lst:
+                    x["prev_pct"] = pm.get(hkey(x["name"]))      # null = not in last year's top ten (New)
+                holders["prev_as_of"] = prev_hit[1]
+                holders["dropped"] = [{"name": x["name"], "prev_pct": x["pct"]} for x in plst if hkey(x["name"]) not in cur_keys]
+            po = owners_block(prows, prev_hit[1], PDF.format(prev_hit[0]))
+            if owners and po:
+                owners["prior"] = {"as_of": po["as_of"], "cats": po["cats"], "url": po["url"]}
+        except Exception as e:  # noqa: BLE001 - last year's report is a bonus
+            print(f"  {tk} prior-year report: {str(e)[:60]}")
     try:
         price = price_block(rows, end, url)
     except Exception as e:  # noqa: BLE001 - the rest of the profile is still worth keeping
@@ -613,7 +689,7 @@ def build(tk: str, hit: dict, sector: str, hist_done: bool = False) -> dict:
             else:
                 print(f"HLDBG {tk} no text with 最高; text blocks: " + ",".join(sorted({r[0].split(':')[-1] for r in rows if 'BusinessResults' in r[0] and 'TextBlock' in r[0]})))
     return {"market": "JP", "ticker": tk, "tv_symbol": "TSE:" + tk, "sector": sector, "fin": fin, "holders": holders,
-            "defense": defense(rows, end, url), "price": price, "fin_v": FIN_V, "fin_hd": bool(hist_done), "fin_info": fin_info, "doc_id": hit["doc_id"], "period_end": end, "filer": hit.get("filer", ""),
+            "defense": defense(rows, end, url), "price": price, "owners": owners, "fin_v": FIN_V, "fin_hd": bool(hist_done), "fin_info": fin_info, "doc_id": hit["doc_id"], "period_end": end, "filer": hit.get("filer", ""),
             "updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
 
 
@@ -649,6 +725,8 @@ def main() -> int:
             prof = build(tk, hit, sectors.get(tk, ""), hist_done)
             if DRY or DEBUG:
                 print(f"FIN {tk} {prof.get('fin_info')} " + json.dumps(prof.get("fin"), ensure_ascii=False))
+                print(f"OWNERS {tk} " + json.dumps(prof.get("owners"), ensure_ascii=False))
+                print(f"HOLDERS {tk} " + json.dumps(prof.get("holders"), ensure_ascii=False))
             if DRY:
                 done += 1
                 time.sleep(PAUSE_S)
