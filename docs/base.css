@@ -374,6 +374,21 @@ h4 .pf-conf { display: inline-block; margin-left: 6px; }
 .px-links a { color: var(--ink); }
 .px-tv { min-height: 220px; }
 .px-tv iframe { color-scheme: normal; }   /* a dark page would otherwise paint the transparent embed white */
+/* Financials: five-year chart (same hand-made SVG as the price chart). One colour = one measure. */
+.pf-box-fin { grid-column: 1 / -1; --px-accent: var(--amber, var(--gold, var(--accent, var(--ink)))); --px-line: var(--line, var(--rule, var(--edge))); --px-bg: var(--panel, var(--surface, var(--bg, var(--bg-1, transparent)))); --fin-op: var(--t-pe, var(--deal, var(--ink-2))); --fin-ni: var(--amber, var(--gold, var(--ink-2))); }
+.fin-body { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px 28px; }
+.fin-chart { flex: 1 1 360px; min-width: 0; max-width: 580px; }
+.fin-lines { flex: 1 1 280px; min-width: 0; }
+.fin-svg { max-width: 580px; }
+.fin-cap { fill: var(--ink-3); font: 700 9.5px var(--mono, monospace); letter-spacing: .06em; text-transform: uppercase; }
+.fin-zero { stroke: var(--ink-3); }
+.fin-bar-rev { fill: color-mix(in srgb, var(--ink-3) 34%, transparent); stroke: var(--ink-3); stroke-width: 1; }
+.fin-bar-op { fill: var(--fin-op); }
+.fin-bar-ni { fill: var(--fin-ni); }
+.fin-key { width: 9px; height: 10px; margin-left: 6px; box-sizing: border-box; }
+.fin-key.fin-bar-rev { margin-left: 0; background: color-mix(in srgb, var(--ink-3) 34%, transparent); border: 1px solid var(--ink-3); }
+.fin-key.fin-bar-op { background: var(--fin-op); }
+.fin-key.fin-bar-ni { background: var(--fin-ni); }
 .px-skip { margin: 10px 0 0; font-size: 11px; color: var(--ink-3); }
 @media (max-width: 700px) { .px-grid { grid-template-columns: minmax(0, 1fr); } .px-cells { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 

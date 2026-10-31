@@ -2,7 +2,7 @@
 
 For every ticker in docs/data/edinet_yuho.json this opens the report's CSV (EDINET type=5) and
 writes docs/data/jp_profiles/<ticker>.json: revenue / operating profit / net profit for the
-last two years, the ten largest shareholders, and a hint on whether a takeover defence plan
+last five years (operating profit also from older reports), the ten largest shareholders, and a hint on whether a takeover defence plan
 is in place. A company is read again only when its report id changes, so after the first fill
 each run handles just the new reports. The first fill is spread over several runs by a time budget.
 
@@ -22,6 +22,7 @@ The defence flag is a wording match, not a legal reading; the note says so.
 
 Needs the repository secret EDINET_API_KEY. Standard library only.
 """
+import calendar
 import csv
 import datetime as dt
 import io
@@ -48,6 +49,10 @@ BUDGET_S = int(os.environ.get("JP_BUDGET_MIN", "42") or "42") * 60
 PAUSE_S = 0.4
 ONLY = [t for t in os.environ.get("JP_TICKERS", "").split(",") if t]
 DEBUG = os.environ.get("JP_DEBUG") == "1"
+FIN_V = 2      # bump to read the financials again: 2 = five years (summary table + older reports for operating profit)
+FIN_YEARS = 5
+FIN_SPAN_DAYS = 45   # an older report counts as the same fiscal year if its year end is this close
+MAX_OLD_READS = 3
 PRICE_V = 2    # bump to read the filings again: 2 = high/low rows cut apart by a search (dashes, footnote marks, 6 columns)
 DRY = os.environ.get("JP_DRY") == "1"       # print the price block, write nothing
 csv.field_size_limit(1 << 28)
@@ -102,29 +107,59 @@ def num(s: str):
     return float(t) if re.fullmatch(r"-?\d+(\.\d+)?", t) else None
 
 
-def measure(rows, names, fuzzy, end, last=()):
-    cur, prev, basis = {}, {}, {}
+REL = {"CurrentYearDuration": 0, "Prior1YearDuration": 1, "Prior2YearDuration": 2, "Prior3YearDuration": 3, "Prior4YearDuration": 4}
+OPERATING_RE = re.compile(r"^(OperatingIncomeLoss|OperatingIncome|OperatingProfitLoss)(IFRS|USGAAP)?SummaryOfBusinessResults$")
+
+
+def shift_end(end: str, k: int) -> str:
+    """The same fiscal year end k years earlier; a month-end stays a month-end (29 Feb to 28 Feb)."""
+    y0, m, d = int(end[:4]), int(end[5:7]), int(end[8:10])
+    y = y0 - k
+    last = calendar.monthrange(y, m)[1]
+    return f"{y:04d}-{m:02d}-{(last if d == calendar.monthrange(y0, m)[1] else min(d, last)):02d}"
+
+
+def days_apart(a: str, b: str) -> int:
+    return abs((dt.date.fromisoformat(a) - dt.date.fromisoformat(b)).days)
+
+
+def by_rel(rows) -> dict:
+    """element id -> {relative year (0 = current): (value, 連結/個別)}; the first row of a slot wins, plain contexts only."""
+    out = {}
     for r in rows:
-        slot = cur if r[2] == "CurrentYearDuration" else prev if r[2] == "Prior1YearDuration" else None
-        if slot is None or r[0] in slot:
+        rel = REL.get(r[2])
+        if rel is None:
             continue
         v = num(r[8])
-        if v is None:
-            continue
-        slot[r[0]] = v
-        if r[2] == "CurrentYearDuration":
-            basis[r[0]] = r[4]
-    eid = next((n for n in names if n in cur), None)
-    if not eid and fuzzy:
-        eid = next((k for k in cur if fuzzy.match(k.split(":")[-1])), None)
-    if not eid:
-        eid = next((n for n in last if n in cur), None)
-    if not eid:
+        if v is not None:
+            out.setdefault(r[0], {}).setdefault(rel, (v, r[4]))
+    return out
+
+
+def measure(rows, names, fuzzy, end, last=(), em=None):
+    """One figure over up to five years: {relative year: value}, with the basis and element used.
+    The first element found for the current year is the base (statements first, then the
+    five-year summary table); later elements only fill years the base lacks, and only when they
+    agree with the base for the current year (same figure, different table)."""
+    em = em if em is not None else by_rel(rows)
+    pool = [n for n in names if 0 in em.get(n, {})]
+    if fuzzy:
+        pool += [k for k in em if 0 in em[k] and fuzzy.match(k.split(":")[-1]) and k not in pool]
+    if not pool:
+        pool = [n for n in last if 0 in em.get(n, {})]
+    if not pool:
         return None
-    series = [{"end": end, "val": int(cur[eid])}]
-    if eid in prev:
-        series.append({"end": str(int(end[:4]) - 1) + end[4:], "val": int(prev[eid])})
-    return {"series": series, "basis": basis[eid], "element": eid}
+    base = pool[0]
+    vals = {rel: v for rel, (v, bs) in em[base].items() if bs == em[base][0][1]}
+    basis = em[base][0][1]
+    for other in pool[1:]:
+        o = em[other]
+        if o[0][1] != basis or abs(o[0][0] - vals[0]) > 0.01 * max(abs(vals[0]), 1):
+            continue
+        for rel, (v, bs) in o.items():
+            if rel not in vals and bs == basis:
+                vals[rel] = v
+    return {"vals": {k: int(v) for k, v in vals.items()}, "basis": basis, "element": base}
 
 
 def sentences(t: str):
@@ -461,7 +496,73 @@ def needs_price(pr) -> bool:
     return not ys or any(y.get("high") is None for y in ys)         or any("did not fit" in n or "could not" in n for n in pr.get("notes", []))
 
 
-def build(tk: str, hit: dict, sector: str) -> dict:
+def fam(element: str) -> str:
+    """The figure an element stands for, whether it is the statement line or its summary-table twin."""
+    return element.split(":")[-1].replace("SummaryOfBusinessResults", "")
+
+
+def financials(tk: str, hit: dict, rows, end: str, url: str):
+    """fin block with up to FIN_YEARS years, newest first. Revenue and net profit come from the latest
+    report (statements, then the five-year summary table). Operating profit is rarely in that table, so the
+    statements of older reports (hit["hist"], from the index) fill the years it lacks. A year already
+    filled by a newer report is never replaced by an older one."""
+    em = by_rel(rows)
+    metrics = {"revenue": measure(rows, REVENUE, REVENUE_RE, end, REVENUE_LAST, em),
+               "operating_income": measure(rows, OPERATING, OPERATING_RE, end, (), em),
+               "net_income": measure(rows, NET, None, end, (), em)}
+    metrics = {k: v for k, v in metrics.items() if v}
+    if not metrics:
+        return None, "no figures"
+    hist = [h for h in hit.get("hist", []) if h[0] != hit["doc_id"] and h[1] < end]
+    # the year ends: the latest report's, then one year back at a time; where an older report in the index
+    # has a year end close to it, that report's real date is used (29 Feb, a changed fiscal year end)
+    targets = []
+    for k in range(FIN_YEARS):
+        t = shift_end(end, k)
+        near = [h[1] for h in hist if days_apart(h[1], t) <= FIN_SPAN_DAYS]
+        targets.append(t if k == 0 else (min(near, key=lambda x: days_apart(x, t)) if near else t))
+    def slot(e):
+        return next((t for t in targets if days_apart(t, e) <= FIN_SPAN_DAYS), None)
+    got = {m: {targets[rel]: v for rel, v in x["vals"].items() if rel < FIN_YEARS} for m, x in metrics.items()}
+    basis = {m: x["basis"] for m, x in metrics.items()}
+    first = next(iter(metrics.values()))
+    reads, done_docs, notes = 0, set(), []
+    while reads < MAX_OLD_READS:
+        miss = [t for t in targets if any(t not in got[m] for m in got)]
+        pick = next((h for t in miss for h in hist if h[0] not in done_docs and days_apart(h[1], t) <= FIN_SPAN_DAYS), None)
+        if not pick:
+            break
+        done_docs.add(pick[0])
+        reads += 1
+        try:
+            old_rows = edinet_rows(pick[0])
+        except Exception as e:  # noqa: BLE001 - an older report that cannot be read just leaves gaps
+            notes.append(f"{pick[1][:4]} report unreadable: {str(e)[:40]}")
+            continue
+        oem = by_rel(old_rows)
+        for m, names, fuzzy, last in (("revenue", REVENUE, REVENUE_RE, REVENUE_LAST), ("operating_income", OPERATING, OPERATING_RE, ()),
+                                      ("net_income", NET, None, ())):
+            if m not in got:
+                continue
+            x = measure(old_rows, names, fuzzy, pick[1], last, oem)
+            if not x or x["basis"] != basis[m] or fam(x["element"]) != fam(metrics[m]["element"]):
+                continue
+            for rel, v in x["vals"].items():
+                if rel > 1:
+                    continue
+                t = slot(shift_end(pick[1], rel))
+                if t and t not in got[m]:
+                    got[m][t] = v
+        time.sleep(PAUSE_S)
+    fin = {"currency": "JPY", "basis": "standalone" if first["basis"] == "個別" else "consolidated"}
+    for m in ("revenue", "operating_income", "net_income"):
+        fin[m] = [{"end": t, "val": got[m][t]} for t in sorted(got.get(m, {}), reverse=True)][:FIN_YEARS]
+    fin["source"], fin["url"] = "EDINET", url
+    info = f"older reports read {reads}" + ("; " + "; ".join(notes) if notes else "")
+    return fin, info
+
+
+def build(tk: str, hit: dict, sector: str, hist_done: bool = False) -> dict:
     url = PDF.format(hit["doc_id"])
     end = hit["period_end"]
     rows = edinet_rows(hit["doc_id"])
@@ -472,15 +573,7 @@ def build(tk: str, hit: dict, sector: str) -> dict:
                     and "TextBlock" not in r[0] and r[0] not in seen:
                 seen.add(r[0])
                 print(f"      {tk} {r[0][:80]:<80} {r[4]} {r[8][:16]}")
-    rev = measure(rows, REVENUE, REVENUE_RE, end, REVENUE_LAST)
-    op = measure(rows, OPERATING, None, end)
-    ni = measure(rows, NET, None, end)
-    fin = None
-    if rev or op or ni:
-        first = rev or op or ni
-        fin = {"currency": "JPY", "basis": "standalone" if first["basis"] == "個別" else "consolidated",
-               "revenue": rev["series"] if rev else [], "operating_income": op["series"] if op else [],
-               "net_income": ni["series"] if ni else [], "source": "EDINET", "url": url}
+    fin, fin_info = financials(tk, hit, rows, end, url)
     by_no = {}
     for r in rows:
         m = re.fullmatch(r"CurrentYearInstant_No(\d+)MajorShareholdersMember", r[2])
@@ -510,7 +603,7 @@ def build(tk: str, hit: dict, sector: str) -> dict:
             else:
                 print(f"HLDBG {tk} no text with 最高; text blocks: " + ",".join(sorted({r[0].split(':')[-1] for r in rows if 'BusinessResults' in r[0] and 'TextBlock' in r[0]})))
     return {"market": "JP", "ticker": tk, "tv_symbol": "TSE:" + tk, "sector": sector, "fin": fin, "holders": holders,
-            "defense": defense(rows, end, url), "price": price, "doc_id": hit["doc_id"], "period_end": end, "filer": hit.get("filer", ""),
+            "defense": defense(rows, end, url), "price": price, "fin_v": FIN_V, "fin_hd": bool(hist_done), "fin_info": fin_info, "doc_id": hit["doc_id"], "period_end": end, "filer": hit.get("filer", ""),
             "updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
 
 
@@ -518,7 +611,8 @@ def main() -> int:
     if not KEY:
         print("EDINET_API_KEY is not set; nothing written")
         return 1
-    index = json.loads((DATA / "edinet_yuho.json").read_text(encoding="utf-8"))["by_ticker"]
+    idx = json.loads((DATA / "edinet_yuho.json").read_text(encoding="utf-8"))
+    index, hist_done = idx["by_ticker"], bool(idx.get("hist_done"))
     sectors = {r["t"]: r.get("s", "") for r in json.loads((DATA / "company_index.json").read_text(encoding="utf-8"))["rows"] if r["m"] == "JP"}
     OUT.mkdir(parents=True, exist_ok=True)
     todo = []
@@ -529,9 +623,11 @@ def main() -> int:
         try:
             old = json.loads(f.read_text(encoding="utf-8"))
             have, old_price = old.get("doc_id"), old.get("price")
+            # the five-year financials are redone once the index holds the older reports (hist_done)
+            old_fin = old.get("fin_v") != FIN_V or (hist_done and not old.get("fin_hd"))
         except Exception:  # noqa: BLE001
-            have, old_price = None, None
-        if have != hit["doc_id"] or needs_price(old_price) or DRY:
+            have, old_price, old_fin = None, None, False
+        if have != hit["doc_id"] or needs_price(old_price) or DRY or bool(ONLY) or (hist_done and old_fin):
             todo.append((tk, hit))
     print(f"{len(index)} companies in the index, {len(todo)} to read")
     start, done, failed = time.time(), 0, 0
@@ -540,7 +636,9 @@ def main() -> int:
             print("time budget reached; the next run continues")
             break
         try:
-            prof = build(tk, hit, sectors.get(tk, ""))
+            prof = build(tk, hit, sectors.get(tk, ""), hist_done)
+            if DRY or DEBUG:
+                print(f"FIN {tk} {prof.get('fin_info')} " + json.dumps(prof.get("fin"), ensure_ascii=False))
             if DRY:
                 done += 1
                 time.sleep(PAUSE_S)

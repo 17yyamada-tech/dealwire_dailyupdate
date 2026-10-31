@@ -1,7 +1,7 @@
 """Profile data for US listed companies, from the SEC.
 
 Writes docs/data/us_profiles/<ticker>.json for every US ticker in docs/data/company_index.json:
-  fin      revenue / operating income / net income, last two fiscal years. Taken from the XBRL
+  fin      revenue / operating income / net income, last five fiscal years. Taken from the XBRL
            "frames" API, which returns one value per company for a whole period in a single request,
            so all ~7,700 companies need a few dozen requests, not thousands.
   holders  holders of 5% or more, from Schedule 13D / 13G filings of the last three years
@@ -35,6 +35,7 @@ BUDGET_S = int(os.environ.get("US_BUDGET_MIN", "40") or "40") * 60
 ONLY = [t for t in os.environ.get("US_TICKERS", "").split(",") if t]
 GAP_S = 0.16                      # about 6 requests a second
 REANALYSE_DAYS = 60
+FIN_YEARS = 5
 TV = {"Nasdaq": "NASDAQ", "NYSE": "NYSE", "NYSE American": "AMEX", "NYSE MKT": "AMEX", "NYSE Arca": "NYSEARCA", "CBOE": "CBOE"}
 REVENUE_TAGS = ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet",
                 "RevenuesNetOfInterestExpense", "TotalRevenuesAndOtherIncome"]
@@ -87,7 +88,7 @@ def holder_key(name: str) -> str:
 # ---------------------------------------------------------------- financials from frames
 
 def fiscal_series(frames: dict) -> dict:
-    """cik -> list of {end, val}, newest first, at most two. A frame for a calendar year holds each
+    """cik -> list of {end, val}, newest first, at most FIN_YEARS (five). A frame for a calendar year holds each
     company's fiscal year that falls mostly inside it, so a September year end shows up under the
     calendar year it ends in; the entry's own end date is what is reported."""
     out = {}
@@ -95,13 +96,13 @@ def fiscal_series(frames: dict) -> dict:
         byend = {}
         for r in rows:
             byend.setdefault(r["end"], r["val"])
-        out[cik] = [{"end": e, "val": byend[e]} for e in sorted(byend, reverse=True)][:2]
+        out[cik] = [{"end": e, "val": byend[e]} for e in sorted(byend, reverse=True)][:FIN_YEARS]
     return out
 
 
 def load_financials() -> dict:
     year = dt.date.today().year
-    years = [year, year - 1, year - 2, year - 3]
+    years = [year - i for i in range(FIN_YEARS + 1)]   # one extra: a year end that falls in an early month shows under the previous calendar year
     per_tag = {}
     for tag in REVENUE_TAGS + ["OperatingIncomeLoss", "NetIncomeLoss"]:
         rows_by_cik = {}

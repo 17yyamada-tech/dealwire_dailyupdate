@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261030-2100";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261031-1400";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1467,6 +1467,89 @@
   }
 
   function srcLink(label, url) { const a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener"; a.textContent = label; return a; }
+  /* Five-year financials chart for the Financials box: same hand-made SVG as the price chart above.
+     Top panel = revenue bars with the change on the year before; bottom panel = operating income and net
+     income side by side (a loss hangs below the zero line). A year with no value has no bar. */
+  function finPeriods(f) {
+    const ends = [...new Set(["revenue", "operating_income", "net_income"].flatMap(k => (f[k] || []).map(x => x.end)))].sort();
+    const groups = [];
+    ends.forEach(e => {                      // the same fiscal year can carry end dates a few days apart
+      const g = groups[groups.length - 1];
+      if (g && (new Date(e) - new Date(g[g.length - 1])) / 864e5 <= 20) g.push(e); else groups.push([e]);
+    });
+    const get = (k, g) => { const x = (f[k] || []).find(y => g.includes(y.end)); return x && x.val != null ? x.val : null; };
+    return groups.slice(-5).map(g => ({ end: g[g.length - 1], revenue: get("revenue", g), op: get("operating_income", g), ni: get("net_income", g) }));
+  }
+  function signedTicks(lo, hi, n) {
+    const t = niceAxis(0, Math.max(hi, -lo, 1e-9), n), step = t[1] - t[0], out = [];
+    for (let v = Math.floor(lo / step) * step; v <= Math.ceil(hi / step) * step + step / 2; v += step) out.push(Math.round(v / step) * step);
+    return out;
+  }
+  function finChart(f) {
+    const per = finPeriods(f), n = per.length;
+    if (!f || n < 2) return null;
+    const hasRev = per.some(p => p.revenue != null), hasOp = per.some(p => p.op != null), hasNi = per.some(p => p.ni != null);
+    if (!hasRev && !hasOp && !hasNi) return null;
+    const cur = f.currency, W = 480, L = 62, R = 10, slot = (W - L - R) / n, cx = (i) => L + slot * (i + 0.5);
+    const panels = (hasRev ? 1 : 0) + (hasOp || hasNi ? 1 : 0), PH = 96, GAP = 38, T0 = 24, H = T0 + panels * PH + (panels - 1) * GAP + 40;
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, class: "px-svg fin-svg", role: "img", preserveAspectRatio: "xMidYMid meet" });
+    svg.setAttribute("aria-label", "Revenue, operating income and net income over the last " + n + " fiscal years");
+    let top = T0;
+    const fy = (e) => "FY" + e.slice(0, 4);
+    const axis = (ticks, yv) => ticks.forEach(t => {
+      svg.append(svgEl("line", { x1: L, x2: W - R, y1: yv(t), y2: yv(t), class: t === 0 ? "px-grid-line fin-zero" : "px-grid-line" }));
+      svg.append(svgEl("text", { x: L - 6, y: yv(t) + 3.5, "text-anchor": "end", class: "px-axis" }, t === 0 ? "0" : fmtAmt(cur, t)));
+    });
+    const bar = (x, w, v, yv, cls, label) => {
+      const y0 = yv(0), y1 = yv(v), r = svgEl("rect", { x, y: Math.min(y0, y1), width: w, height: Math.max(Math.abs(y1 - y0), 1), class: cls });
+      r.append(svgEl("title", {}, label)); svg.append(r);
+    };
+    if (hasRev) {
+      const vals = per.map(p => p.revenue).filter(v => v != null), ticks = niceAxis(0, Math.max(...vals) * 1.02, 3), hi = ticks[ticks.length - 1];
+      const yv = (v) => top + PH * (1 - v / hi), bw = Math.min(34, slot * 0.5);
+      svg.append(svgEl("text", { x: L, y: top - 12, class: "fin-cap" }, "Revenue and change on the year before"));
+      axis(ticks, yv);
+      per.forEach((p, i) => {
+        if (p.revenue == null) return;
+        bar(cx(i) - bw / 2, bw, p.revenue, yv, "fin-bar fin-bar-rev", fy(p.end) + " revenue " + fmtAmt(cur, p.revenue));
+        const q = per[i - 1], gap = q ? (new Date(p.end) - new Date(q.end)) / 864e5 : 0;
+        if (q && q.revenue > 0 && gap > 300 && gap < 430) {
+          const g = (p.revenue / q.revenue - 1) * 100, a = Math.abs(g);
+          svg.append(svgEl("text", { x: cx(i), y: yv(p.revenue) - 5, "text-anchor": "middle", class: "px-val" }, (g >= 0 ? "+" : "−") + a.toFixed(a < 10 ? 1 : 0) + "%"));
+        }
+      });
+      top += PH + GAP;
+    }
+    if (hasOp || hasNi) {
+      const vals = per.flatMap(p => [p.op, p.ni]).filter(v => v != null), lo = Math.min(0, ...vals), hiV = Math.max(0, ...vals);
+      const ticks = signedTicks(lo * 1.02, hiV * 1.02, 3), tlo = ticks[0], thi = ticks[ticks.length - 1];
+      const yv = (v) => top + PH * (1 - (v - tlo) / (thi - tlo)), two = hasOp && hasNi, bw = two ? Math.min(20, slot * 0.34) : Math.min(34, slot * 0.5);
+      svg.append(svgEl("text", { x: L, y: top - 12, class: "fin-cap" }, hasOp && hasNi ? "Operating income and net income" : hasOp ? "Operating income" : "Net income"));
+      axis(ticks, yv);
+      per.forEach((p, i) => {
+        const kinds = [["op", p.op, "fin-bar-op", "operating income"], ["ni", p.ni, "fin-bar-ni", "net income"]].filter(k => k[0] === "op" ? hasOp : hasNi);
+        kinds.forEach((k, j) => {
+          if (k[1] == null) return;
+          const x = two ? cx(i) - bw - 0.5 + j * (bw + 1) : cx(i) - bw / 2;
+          bar(x, bw, k[1], yv, "fin-bar " + k[2], fy(p.end) + " " + k[3] + " " + fmtAmt(cur, k[1]));
+        });
+      });
+      top += PH;
+    }
+    per.forEach((p, i) => {
+      const mo = MON[+p.end.slice(5, 7) - 1];
+      svg.append(svgEl("text", { x: cx(i), y: top + 16, "text-anchor": "middle", class: "px-axis px-axis-x" }, fy(p.end)));
+      svg.append(svgEl("text", { x: cx(i), y: top + 28, "text-anchor": "middle", class: "px-axis px-axis-m" }, "year to " + mo));
+    });
+    const box = hEl("div", "fin-chart"); box.append(svg);
+    const lg = hEl("p", "px-legend");
+    const key = (cls, txt) => { lg.append(hEl("span", "px-key fin-key " + cls), " " + txt + "   "); };
+    if (hasRev) key("fin-bar-rev", "Revenue");
+    if (hasOp) key("fin-bar-op", "Operating income");
+    if (hasNi) key("fin-bar-ni", "Net income");
+    box.append(lg);
+    return box;
+  }
   function pfBox(title) { const b = document.createElement("div"); b.className = "pf-box"; const h = document.createElement("h4"); h.textContent = title; b.append(h); return b; }
   function pfLine(box, text, url, label) {
     const q = document.createElement("p"); q.textContent = text;
@@ -1515,9 +1598,11 @@
     const fb = pfBox("Financials");
     const f = p.fin;
     if (f) {
-      const row = (lab, arr) => (arr || []).forEach(x => pfLine(fb, lab + " FY" + x.end.slice(0, 4) + " (year ended " + x.end + "): " + fmtAmt(f.currency, x.val)));
+      const fc = finChart(f), body = fc ? hEl("div", "fin-body") : fb, lines = fc ? hEl("div", "fin-lines") : fb;
+      if (fc) { fb.classList.add("pf-box-fin"); body.append(fc, lines); fb.append(body); }
+      const row = (lab, arr) => (arr || []).forEach(x => pfLine(lines, lab + " FY" + x.end.slice(0, 4) + " (year ended " + x.end + "): " + fmtAmt(f.currency, x.val)));
       row("Revenue", f.revenue); row("Op. income", f.operating_income); row("Net income", f.net_income);
-      pfLine(fb, "Basis: " + f.basis + " · " + f.source, f.url, "Filing");
+      pfLine(lines, "Basis: " + f.basis + " · " + f.source, f.url, "Filing");
     } else pfLine(fb, "Not available yet.");
     info.append(hb, db, fb); td.append(info);
     if (p.status === "pending" || p.status === "error") pfLine(td, p.status_note || p.status);

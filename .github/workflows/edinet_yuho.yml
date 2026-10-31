@@ -1,6 +1,6 @@
 name: edinet-yuho-index
-# Keeps docs/data/edinet_yuho.json (each listed company's latest annual report id). The first
-# run walks back about 400 days; after that it only looks at the last few days.
+# Keeps docs/data/edinet_yuho.json (each listed company's latest annual report id plus its older ones in "hist"). The first
+# runs walk back about 1,900 days (resumable); after that it only looks at the last few days.
 on:
   schedule:
     - cron: "40 1,10 * * 1-5"   # 10:40 and 19:40 JST on weekdays

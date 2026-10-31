@@ -143,8 +143,29 @@ company from the EDINET code list (securities code, name, sector) and every NYSE
 ticker from the SEC. The Companies boxes suggest from it as you type a name or a ticker; a picked company
 carries its market, ticker and (US) CIK, and its card shows the ticker, the sector and links to IR BANK,
 Kabutan, Yahoo and TradingView (Japan) or Yahoo, SEC filings and TradingView (US). For a US company the
-Apps Script adds the last two fiscal years' revenue, operating and net income exactly as filed in the 10-K
-(SEC XBRL), weekly. No market prices are collected; the Price view below estimates them from filings.
+`fetcher/us_profiles.py` writes the last five fiscal years' revenue, operating and net income exactly as filed in the 10-K
+(SEC XBRL frames, six calendar years read, five fiscal years kept per company). No market prices are collected; the Price view below estimates them from filings.
+
+### Companies > Profile > Financials (five years)
+Opening a Profile row shows a chart of the last five fiscal years above the list of figures: revenue bars with the change
+on the year before, and operating income and net income side by side (a loss hangs below zero). It is drawn in
+`finChart()` in `docs/app.js` (hand-made SVG like the price chart; no library). A year with no value has no bar; a
+company with no operating income (banks, insurers, investment firms) shows net income only; with one year or none, only
+the text list. Data is `fin.revenue / operating_income / net_income`: `[{end, val}]`, newest first, at most five.
+
+**US.** `us_profiles.py` reads the frames for six calendar years and keeps five fiscal years per company.
+
+**Japan.** Revenue and net profit come from the latest report's key-figures table (`SummaryOfBusinessResults`,
+Prior4Year to Current). Operating profit is rarely in that table, so `edinet_yuho.py` also keeps each ticker's older
+annual reports (`by_ticker[t].hist`, `[doc_id, period_end, submitted]`, newest first, about six years; `hist_done` turns
+true once the walk back of 1,900 days has finished) and `jp_profiles.py` reads up to three of them, only for the years
+still empty, taking operating profit from their statements. A year already filled by a newer report is never replaced,
+and an older report is used only if it has the same consolidated/stand-alone basis and the same kind of line
+(`fam()`). Fiscal years are matched by year end within 45 days. The file carries `fin_v` (`FIN_V` in `jp_profiles.py`):
+raise it to read every company again; once the index is complete (`hist_done`) a file whose `fin_v` differs, or that was
+built before the index was complete (`fin_hd` false), is read again, 42 minutes per run. Run `edinet-yuho-index`
+(workflow_dispatch) a few times first to finish the walk back; then `jp-profiles`. With `tickers=` set, those
+companies are always rebuilt, and `debug=1` prints the `FIN` line (figures and how many older reports were read).
 
 ### Companies > Price (no price feed is bought)
 The third Companies view, Price, shows a card per linked company. Nothing here is a market quote.

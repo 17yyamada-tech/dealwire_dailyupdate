@@ -1,5 +1,5 @@
 name: jp-profiles
-# Reads each listed company's latest annual report into docs/data/jp_profiles/<ticker>.json.
+# Reads each listed company's latest annual report (and, for five-year operating profit, up to two older ones) into docs/data/jp_profiles/<ticker>.json.
 # Only companies whose report changed are read again; the first fill takes several runs.
 on:
   schedule:
