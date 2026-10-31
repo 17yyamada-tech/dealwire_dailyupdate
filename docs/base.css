@@ -76,11 +76,14 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
 /* Side by side (Live deal board | Today's Digest): the two heads and the two second rows share one fixed height, so the
    lines under them meet across the gap. Fixed height + border-box absorbs border and padding differences between skins.
    Under 1280px the right-hand controls wrap to two lines, so the rows are taller there. Navy stacks the panels, so it keeps its own. */
-:root { --hd-h: 48px; --sub-h: 48px; }
-@media (max-width: 1279px) { :root { --hd-h: 76px; --sub-h: 68px; } }
+:root { --hd-h: 46px; --sub-h: 40px; }
 @media (min-width: 1000px) {
   :root:not([data-skin="navy"]) .p-deals .panel-head, :root:not([data-skin="navy"]) .p-digest .panel-head { box-sizing: border-box; height: var(--hd-h); align-items: center; margin-top: 0; margin-bottom: 0; }
   :root:not([data-skin="navy"]) .p-deals .board-cols, :root:not([data-skin="navy"]) .p-digest .edition-bar { box-sizing: border-box; height: var(--sub-h); align-items: center; margin-top: 0; margin-bottom: 0; }
+  :root:not([data-skin="navy"]) .p-digest .edition-bar { flex-wrap: nowrap; gap: 6px; padding-top: 0; padding-bottom: 0; }
+  :root:not([data-skin="navy"]) .p-digest .edition-tabs { flex-wrap: nowrap; gap: 4px; }
+  :root:not([data-skin="navy"]) .p-digest .ed-tab { padding-top: 5px; padding-bottom: 5px; }
+  :root:not([data-skin="navy"]) .p-digest .edition-bar .link-btn { white-space: nowrap; }
 }
 
 /* rows: one template for deals, stories, search results and saved */
