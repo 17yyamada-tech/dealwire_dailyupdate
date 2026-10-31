@@ -15,9 +15,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <!-- ?v= makes browsers fetch the new file after a change; bump it together with ASSET_V in app.js -->
-<link rel="stylesheet" href="base.css?v=20261031-2200">
+<link rel="stylesheet" href="base.css?v=20261031-2330">
 <!-- The whole look lives in one skin file. Default = data-skin above; viewers can switch in Settings; ?skin=editorial also works. -->
-<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20261031-2200">
+<link rel="stylesheet" id="skin-css" href="skins/board.css?v=20261031-2330">
 </head>
 <body data-view="home">
 <!-- Region flags, drawn inline so they render the same everywhere. Windows has no flag-emoji
@@ -297,6 +297,7 @@
     <label class="field"><span>Look</span>
       <select id="skin-select"></select>
     </label>
+    <p class="panel-meta" id="acct-line" hidden></p>
     <div class="profile" id="profile-view"></div>
     <div class="row-btns">
       <button type="button" id="reset-profile" class="chip ghost">Reset learning</button>
@@ -351,6 +352,6 @@
   </li>
 </template>
 
-<script src="app.js?v=20261031-2200"></script>
+<script src="app.js?v=20261031-2330"></script>
 </body>
 </html>

@@ -50,3 +50,48 @@
 - 返信用のアドレスが入力されていれば Reply-To に入ります
 - 1日40通を上限にしています（`CONTACT_MAX_PER_DAY`）
 - 画面に見えない `website` 欄はボット除けで、埋まっていたら送信しません
+
+## アカウント同期を有効にする（同じメールでログインした端末どうしで☆・企業・×を共有）
+
+PC と iPad など、同じメールアドレスで Cloudflare Access にログインしている端末の間で、☆（フォロー）、Companies の企業リスト（キーワードと Fund / Corporate の切り替えを含む）、× で消した記事が共有されます。表示や言語・絞り込み・学習・既読・メール設定は端末ごとのままです。
+設定が済むまでは今までどおり（端末ごとの登録）で動くので、順番どおりに進めれば途中で壊れることはありません。
+
+### 0. SYNC_SECRET を作る
+PowerShell で次の1行を実行し、出た64文字（英数字）をコピーしておきます。これを手順2と手順3の2か所に同じ値で登録します。他人に見せたり、チャットやファイルに書いたりしないでください。
+```
+$b = New-Object byte[] 32; [Security.Cryptography.RandomNumberGenerator]::Create().GetBytes($b); ($b | ForEach-Object { $_.ToString('x2') }) -join ''
+```
+
+### 1. Code.gs を貼り替えて新バージョンを公開する
+1. https://script.google.com で `Deal Wire mailer` を開き、エディタの `コード.gs` を全部消して、このフォルダの `Code.gs` を丸ごと貼り付けて保存（Ctrl+S）
+2. 右上の「デプロイ」→「デプロイを管理」→ 鉛筆アイコン →「バージョン」を「新バージョン」にして「デプロイ」（/exec の URL は変わりません）
+
+### 2. Apps Script のスクリプトプロパティに SYNC_SECRET を入れる
+1. 左の歯車「プロジェクトの設定」→ 下の「スクリプト プロパティ」→「スクリプト プロパティを追加」
+2. プロパティ `SYNC_SECRET`、値は手順0で作った文字列。「スクリプト プロパティを保存」
+
+### 3. Cloudflare Pages に4つの値を登録する
+1. Cloudflare ダッシュボード →「Workers & Pages」→ `dealwire` →「Settings」→「Variables and Secrets」→「Add」
+2. 次の4つを、**Production と Preview の両方**に登録します（画面の切り替えで2回ずつ）
+
+| 名前 | 種類 | 値 |
+|---|---|---|
+| `CF_ACCESS_TEAM_DOMAIN` | Text | チーム名。Access のログイン画面の URL `https://○○○.cloudflareaccess.com/...` の `○○○` の部分（`○○○.cloudflareaccess.com` と書いても通ります） |
+| `CF_ACCESS_AUD` | Text | Zero Trust →「Access」→「Applications」で `dealwire.pages.dev` のアプリを開き、「Additional settings」付近（または Overview）にある「Application Audience (AUD) Tag」。**`*.dealwire.pages.dev`（プレビュー）のアプリにも別の AUD があるので、2つをカンマで区切って**入れる（例 `aaaa...,bbbb...`）。どちらか1つだけでも本番は動きます |
+| `APPS_SCRIPT_URL` | Text | Apps Script の `/exec` で終わる URL（`app.js` の `MAIL_ENDPOINT` と同じもの） |
+| `SYNC_SECRET` | Secret | 手順0で作った文字列（手順2と同じ値） |
+
+### 4. Pages を再デプロイする
+環境変数は「次のデプロイから」反映されます。「Deployments」→ 一番上のデプロイの「…」→「Retry deployment」を押します（効かない場合は Claude に「何か1つ commit して push して」と頼めば再デプロイされます）。`functions/` の中継プログラムは、このリポジトリを push した時点で一緒にデプロイされています。
+
+### 5. 動作確認
+1. ブラウザで `https://dealwire.pages.dev/api/me` を開く（ログイン済みの状態で）。`{"ok":true,"email":"あなたのアドレス","sync":true}` と出れば成功。`not_configured`（503）なら手順3・4が未完了、`bad_aud` なら AUD の値の取り違えです
+2. サイトの右上 ⚙（Settings）に `Synced as あなたのアドレス` と1行出ることを確認
+3. PC で好きな記事に ☆ を付け、iPad でサイトを開く（または開いたままタブに戻る）。数秒以内に iPad の Deals に同じ記事が出れば共有されています。PC で☆を外すと iPad からも消え、他の端末の古いリストから復活することはありません
+4. 初めて同じアカウントで入った端末は、その端末にあった☆と企業がアカウント側のものと合わさります（重複は除かれ、☆20件・企業15社を超える分は新しいものが優先）
+
+### うまくいかないとき
+- Settings に `Synced as` が出ない → `/api/me` の応答を確認（上の1）。サイト自体は端末ごとの登録のまま動き続けます
+- `(offline, will retry)` と出る → Apps Script への中継に失敗しています。`SYNC_SECRET` の値が手順2と手順3で一致しているか、Code.gs を「新バージョン」で公開したかを確認
+- スプレッドシートに `Accounts` シートが自動で作られ、1アカウント1行で保存されます（同期の履歴確認に使えます）
+

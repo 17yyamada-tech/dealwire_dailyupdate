@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261031-2200";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261031-2330";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -804,10 +804,14 @@
     if (s[it.id]) { delete s[it.id]; btn.classList.remove("on"); btn.textContent = "☆"; }
     else { s[it.id] = { ...it, since: new Date().toISOString() }; btn.classList.add("on"); btn.textContent = "★"; logEvent("save", it); }
     store.set("saved", s);
+    acctQueue([{ k: "saved", key: it.id, t: Date.now(), v: s[it.id] || null }]);
     updateCounts(); queueSync();
     if (state.view === "follow") renderFollow();
   }
-  function hide(it) { const h = store.get("hidden", {}); h[it.id] = Date.now(); store.set("hidden", prune(h)); logEvent("hide", it); }
+  function hide(it) {
+    const h = store.get("hidden", {}); h[it.id] = Date.now(); store.set("hidden", prune(h)); logEvent("hide", it);
+    acctQueue([{ k: "hidden", key: it.id, t: h[it.id], v: 1 }]);
+  }
   function prune(obj) { const c = Date.now() - 120 * 864e5; return Object.fromEntries(Object.entries(obj).filter(([, t]) => t >= c)); }
 
   /* ---------------- following and companies ----------------
@@ -828,9 +832,172 @@
     .sort((a, b) => String(b.since || b.published).localeCompare(String(a.since || a.published)));
   const companies = () => store.get("companies", []);
 
+  /* ---------------- shared account ----------------
+     Behind Cloudflare Access the page asks /api/me who is logged in (the Pages Function in
+     functions/api verifies the Access token; the page never says who it is). When that answers,
+     the ☆ stories, the companies and the × hidden stories follow the email across devices:
+     every change is an operation {k, key, t, v} (v null = deleted) that the server merges per key,
+     newest t wins, and the reply is the whole state, which becomes the local copy. Anything else
+     (localhost, the Function not deployed, not configured, offline) leaves acct null and the
+     browser-id sync above runs exactly as before. */
+  // ACCT-LWW-BEGIN
+  // recs: { saved: {key: {t, v}}, companies: {key: {t, v, o}}, hidden: {key: {t, v}} }; v === null is a deletion.
+  function lwwPut(recs, k, key, t, v, o) {
+    if (!recs[k]) return false;
+    const cur = recs[k][key];
+    if (cur && (cur.t > t || (cur.t === t && (cur.v === null || v !== null)))) return false;   // newer wins; a tie goes to deletion
+    recs[k][key] = k === "companies" ? { t, v, o: o || (cur && cur.o) || t } : { t, v };
+    return true;
+  }
+  function lwwApply(recs, ops) { ops.forEach(op => lwwPut(recs, op.k, op.key, op.t, op.v, op.o)); return recs; }
+  // The three lists the page works with, from records.
+  function lwwView(recs) {
+    const saved = {}, hidden = {};
+    for (const [k, r] of Object.entries(recs.saved)) if (r.v !== null) saved[k] = r.v;
+    for (const [k, r] of Object.entries(recs.hidden)) if (r.v !== null) hidden[k] = r.t;
+    const companies = Object.entries(recs.companies).filter(([, r]) => r.v !== null)
+      .sort((a, b) => (b[1].o || 0) - (a[1].o || 0)).map(([, r]) => ({ ...r.v, added: r.o }));
+    return { saved, hidden, companies };
+  }
+  const emptyRecs = () => ({ saved: {}, companies: {}, hidden: {} });
+  const coStrip = (c) => { const { added, ...rest } = c; return rest; };
+  // Operations that turn the list `before` into `after` (both arrays of companies, newest first).
+  function diffCompanies(before, after, now) {
+    const was = new Map(before.map(c => [coKey(c), c])), is = new Map(after.map(c => [coKey(c), c])), ops = [];
+    for (const [key, c] of is) {
+      const old = was.get(key);
+      if (!old) ops.push({ k: "companies", key, t: c.added || now, o: c.added || now, v: coStrip(c) });
+      else if (JSON.stringify(coStrip(old)) !== JSON.stringify(coStrip(c))) ops.push({ k: "companies", key, t: now, o: c.added || old.added || now, v: coStrip(c) });
+    }
+    for (const key of was.keys()) if (!is.has(key)) ops.push({ k: "companies", key, t: now, v: null });
+    return ops;
+  }
+  // Operations that turn the saved/hidden views `before` into `after`.
+  function diffViews(before, after, now) {
+    const ops = [];
+    for (const [id, it] of Object.entries(after.saved)) {
+      if (!before.saved[id]) ops.push({ k: "saved", key: id, t: Date.parse(it.since) || 1, v: it });
+      else if (JSON.stringify(before.saved[id]) !== JSON.stringify(it)) ops.push({ k: "saved", key: id, t: now, v: it });
+    }
+    for (const id of Object.keys(before.saved)) if (!after.saved[id]) ops.push({ k: "saved", key: id, t: now, v: null });
+    for (const [id, t] of Object.entries(after.hidden)) if (!before.hidden[id]) ops.push({ k: "hidden", key: id, t: +t || 1, v: 1 });
+    return ops;
+  }
+  // ACCT-LWW-END
+  // Companies get a creation stamp that fixes their order on every device (newest first).
+  function ensureAdded(list) {
+    const base = Date.now();
+    list.forEach((c, i) => { if (!c.added) c.added = base - i * 1000; });
+    return list;
+  }
+  function setCompanies(list) {
+    ensureAdded(list);
+    const before = companies();
+    store.set("companies", list);
+    acctQueue(diffCompanies(before, list, Date.now()));
+  }
+
+  let acct = null;                                     // { email } while the account is in use
+  let acctBusy = false, acctAgain = false, acctOffline = false, acctTimer = null, acctReadyRes = null;
+  const acctReady = new Promise(r => { acctReadyRes = r; });
+  const acctSaved = () => store.get("acct", null);     // { email, recs }: the server's records as last received
+  const opId = (o) => o.k + "|" + o.key + "|" + o.t;
+
+  function acctLine() {
+    const el = $("#acct-line");
+    if (!el) return;
+    el.hidden = !acct;
+    el.textContent = acct ? "Synced as " + acct.email + (acctOffline ? " (offline, will retry)" : "") : "";
+  }
+  // Queue operations (coalesced per key, kept in localStorage until the server has them).
+  function acctQueue(ops, quiet) {
+    if (!acct || !ops.length) return;
+    const q = store.get("acctOps", []).filter(x => !ops.some(o => o.k === x.k && o.key === x.key));
+    store.set("acctOps", q.concat(ops));
+    if (!quiet) acctFlushSoon(500);
+  }
+  function acctFlushSoon(ms) { clearTimeout(acctTimer); acctTimer = setTimeout(acctSync, ms); }
+
+  // Local lists = server records + operations the server has not acknowledged yet.
+  function acctApplyLocal() {
+    const st = acctSaved();
+    if (!st) return false;
+    const v = lwwView(lwwApply(JSON.parse(JSON.stringify(st.recs)), store.get("acctOps", [])));
+    let changed = false;
+    [["saved", v.saved, {}], ["hidden", v.hidden, {}], ["companies", v.companies, []]].forEach(([key, val, d]) => {
+      if (JSON.stringify(store.get(key, d)) !== JSON.stringify(val)) { store.set(key, val); changed = true; }
+    });
+    return changed;
+  }
+  // Changes made on this browser that the records do not show yet (before the account answered,
+  // or the first time this email is used here: then everything on this browser is offered).
+  function acctReconcile() {
+    let st = acctSaved();
+    if (!st || st.email !== acct.email) { st = { email: acct.email, recs: emptyRecs() }; store.set("acct", st); store.set("acctOps", []); }
+    store.set("companies", ensureAdded(companies()));
+    const expected = lwwView(lwwApply(JSON.parse(JSON.stringify(st.recs)), store.get("acctOps", [])));
+    const local = { saved: store.get("saved", {}), hidden: store.get("hidden", {}) }, now = Date.now();
+    acctQueue([...diffViews(expected, local, now), ...diffCompanies(expected.companies, companies(), now)], true);
+  }
+  async function acctApi(path, init = {}, timeout = 15000) {
+    const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), timeout);
+    try {
+      const res = await fetch(path, { credentials: "same-origin", cache: "no-store", signal: ctl.signal, ...init });
+      const type = res.headers.get("Content-Type") || "";
+      if (!res.ok || !/json/i.test(type)) { const e = new Error("http " + res.status); e.status = res.status; throw e; }
+      return await res.json();
+    } finally { clearTimeout(timer); }
+  }
+  function acctChanged() {
+    updateCounts();
+    loadFollow().catch(() => {}).then(() => { renderAll(); });
+    if (coData) loadCompanies();
+  }
+  async function acctSync() {
+    if (!acct) return;
+    if (acctBusy) { acctAgain = true; return; }
+    acctBusy = true;
+    const sent = store.get("acctOps", []).slice(0, 200);
+    try {
+      const vid = store.get("vid", "");
+      const body = sent.length
+        ? await acctApi("/api/ops", { method: "POST", headers: { "Content-Type": "application/json", "X-DW-Sync": "1" }, body: JSON.stringify({ ops: sent, vid }) })
+        : await acctApi("/api/state" + (vid ? "?vid=" + vid : ""));
+      if (!body || !body.recs || !body.recs.saved) throw new Error("bad reply");
+      const done = new Set(sent.map(opId));
+      store.set("acctOps", store.get("acctOps", []).filter(o => !done.has(opId(o))));
+      store.set("acct", { email: acct.email, recs: body.recs });
+      acctOffline = false;
+      if (acctApplyLocal()) acctChanged();
+    } catch (e) {
+      acctOffline = true;
+      // a request the server rejects as malformed would be rejected again: drop it instead of retrying forever
+      if (e && (e.status === 400 || e.status === 413) && sent.length) {
+        const done = new Set(sent.map(opId));
+        store.set("acctOps", store.get("acctOps", []).filter(o => !done.has(opId(o))));
+      }
+    } finally {
+      acctBusy = false; acctLine();
+      if (acctAgain || (!acctOffline && store.get("acctOps", []).length)) { acctAgain = false; acctFlushSoon(acctOffline ? 30000 : 300); }
+    }
+  }
+  async function acctStart() {
+    const local = /^(localhost|127\.|\[::1\])/.test(location.hostname) || !/^https?:$/.test(location.protocol);
+    if (!local) {
+      try {
+        const me = await acctApi("/api/me", {}, 6000);
+        if (me && me.ok && typeof me.email === "string" && me.email) acct = { email: me.email.toLowerCase() };
+      } catch { /* no account sync here: keep the browser-id sync */ }
+    }
+    acctReadyRes();
+    if (!acct) return;
+    acctReconcile(); acctLine();
+    await acctSync();
+  }
+
   let syncTimer = null;
   function queueSync(delay = 1200) {
-    if (!MAIL_ENDPOINT) return;
+    if (!MAIL_ENDPOINT || acct) return;
     clearTimeout(syncTimer);
     syncTimer = setTimeout(() => {
       const follows = followed().map(it => ({ id: it.id, title: it.title, link: it.link, source: it.source, published: it.published, since: it.since || it.published }));
@@ -974,7 +1141,12 @@
   async function loadCompanies() {
     if (!MAIL_ENDPOINT || coLoading) return;
     coLoading = true;
-    try { coData = await jsonp({ action: "companies", vid: viewerId() }); $("#co-status").textContent = ""; }
+    try {
+      await acctReady;
+      // logged in: the Function reads this email's companies; otherwise the browser id does
+      coData = acct ? await acctApi("/api/companies") : await jsonp({ action: "companies", vid: viewerId() });
+      $("#co-status").textContent = "";
+    }
     catch { $("#co-status").textContent = "Could not reach the news service. Showing what this browser remembers."; }
     finally { coLoading = false; }
     if (state.view === "companies") renderCompanies();
@@ -1118,7 +1290,7 @@
   }
   function setListing(i, r) {
     const list = companies(); list[i] = { ...list[i], ...pickFields(r) };
-    store.set("companies", list); renderCompanies(); queueSync(0);
+    setCompanies(list); renderCompanies(); queueSync(0);
     if (r.m === "US") { setTimeout(loadCompanies, 8000); setTimeout(loadCompanies, 25000); }
   }
 
@@ -1136,7 +1308,7 @@
     if (coIndex) {
       let changed = false;
       const list = mine.map(c => { const r = autoListing(c); if (r) { changed = true; return { ...c, ...pickFields(r) }; } return c; });
-      if (changed) { store.set("companies", list); queueSync(0); return renderCompanies(); }
+      if (changed) { setCompanies(list); queueSync(0); return renderCompanies(); }
     } else loadCompanyIndex().then(() => { if (state.view === "companies") renderCompanies(); });
     if (sponsorWords === null && sub !== "news") loadSponsors().then(() => { if (state.view === "companies") renderCompanies(); });   // Fund or Corporate needs the sponsor list
     if (sub === "profile") { renderProfile(mine, remote); return; }
@@ -1191,11 +1363,11 @@
       kb.textContent = kind === "fund" ? "Mark as corporate" : "Mark as fund";
       kb.addEventListener("click", () => {
         const list = companies(); list[i] = { ...list[i], kind: kind === "fund" ? "corp" : "fund" };
-        store.set("companies", list); renderCompanies();
+        setCompanies(list); renderCompanies();
       });
       const rm = document.createElement("button"); rm.className = "link-btn"; rm.type = "button"; rm.textContent = "Remove";
       rm.addEventListener("click", () => {
-        store.set("companies", companies().filter((_, j) => j !== i)); updateCounts(); renderCompanies(); queueSync(200);
+        setCompanies(companies().filter((_, j) => j !== i)); updateCounts(); renderCompanies(); queueSync(200);
       });
       acts.append(kb, rm);
       card.append(h, meta, facts);
@@ -1796,7 +1968,7 @@
     const list = companies(), c = list[i];
     if (list.some((o, j) => j !== i && coKey(o) === coKey({ name: c.name, keywords }))) return "The same company with these keywords is already on the list.";
     list[i] = { ...c, keywords };
-    store.set("companies", list);
+    setCompanies(list);
     renderCompanies();
     queueSync(0);
     setTimeout(loadCompanies, 6000); setTimeout(loadCompanies, 20000);
@@ -1812,7 +1984,7 @@
     if (list.some(c => coKey(c) === coKey({ name, keywords }))) return "Already on the list.";
     const listing = pick || autoListing({ name });
     list.unshift({ name, keywords, ...(listing ? pickFields(listing) : {}) });
-    store.set("companies", list);
+    setCompanies(list);
     updateCounts();
     if (state.view === "companies") renderCompanies();
     queueSync(0);
@@ -2103,7 +2275,8 @@
     setupContact();
     setupCompanies();
     updateCounts();
-    queueSync(3000);   // keeps this browser's follows counted (a browser unseen for 60 days drops out)
+    // keeps this browser's follows counted (a browser unseen for 60 days drops out); an account has its own record
+    acctStart().then(() => { if (!acct) queueSync(3000); });
     setView("home");
     const qp = new URLSearchParams(location.search);
     if (qp.get("e")) {
@@ -2116,7 +2289,8 @@
     } else load();
     setInterval(load, REFRESH_MS);
     checkVersion(); setInterval(checkVersion, REFRESH_MS);
-    document.addEventListener("visibilitychange", () => { if (!document.hidden) { load(); checkVersion(); } });
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) { load(); checkVersion(); if (acct) acctFlushSoon(0); } });
+    setInterval(() => { if (acct && !document.hidden) acctFlushSoon(0); }, REFRESH_MS);
   }
   init();
 })();

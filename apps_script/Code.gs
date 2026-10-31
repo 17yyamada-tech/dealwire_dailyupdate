@@ -14,6 +14,7 @@
  *   doPost  action=subscribe     -> approved readers only: adds the address as "pending" and sends a confirmation email
  *   doPost  action=contact       -> emails the site owner what a reader typed in the Contact box
  *   doPost  action=sync          -> stores one browser's followed stories and companies
+ *   doPost  JSON {action:'acct'} -> account sync from the Cloudflare Pages Function (needs SYNC_SECRET): stars, companies, hidden
  *   doGet   action=follows       -> every followed story, no viewer ids (read by the fetch job)
  *   doGet   action=companies     -> one browser's companies with their latest headlines (private)
  *   doGet   action=confirm       -> marks the address "active"
@@ -192,7 +193,12 @@ function sync_(p) {
     while (r < rows.length && rows[r][0] !== vid) r++;
     if (r < rows.length) sh.getRange(r + 1, 1, 1, 4).setValues([row]); else sh.appendRow(row);
   } finally { lock.releaseLock(); }
-  // A company added just now gets its first headlines at once instead of at the next refresh.
+  kickCompanies_(companies);
+  return 'ok';
+}
+
+// A company added just now gets its first headlines at once instead of at the next refresh.
+function kickCompanies_(companies) {
   const tab = newsTab_(), known = {};
   tab.getDataRange().getValues().slice(1).forEach(function (r) { known[r[0]] = true; });
   companies.filter(function (c) { return !known[companyKey_(c)]; }).slice(0, 3)
@@ -201,13 +207,20 @@ function sync_(p) {
   const have = profilesByKey_();
   companies.filter(function (c) { return profileKey_(c) && !have[profileKey_(c)]; }).slice(0, 1)
     .forEach(function (c) { try { refreshProfile_(c); } catch (e) { Logger.log('profile at sync failed: ' + e); } });
-  return 'ok';
 }
 
+// Browsers that sent a sync, plus accounts (rows of Accounts, shaped like a browser). A browser that
+// has since logged in to an account is skipped: its stars and companies live in the account now.
 function activeViewers_() {
   const cutoff = Date.now() - FOLLOW.ACTIVE_DAYS * 864e5;
-  return viewersTab_().getDataRange().getValues().slice(1)
-    .filter(function (r) { return r[0] && new Date(r[3]).getTime() >= cutoff; });
+  const accounts = accountsTab_().getDataRange().getValues().slice(1).filter(function (r) { return r[0]; });
+  const moved = {};
+  accounts.forEach(function (r) { parseList_(r[6]).forEach(function (v) { moved[v] = true; }); });
+  const rows = viewersTab_().getDataRange().getValues().slice(1)
+    .filter(function (r) { return r[0] && !moved[r[0]] && new Date(r[3]).getTime() >= cutoff; });
+  accounts.filter(function (r) { return new Date(r[5]).getTime() >= cutoff; })
+    .forEach(function (r) { rows.push(acctViewerRow_(r)); });
+  return rows;
 }
 
 // Every followed story, most followed first, then the most recently followed.
@@ -229,13 +242,18 @@ function follows_() {
 function companiesFor_(vid) {
   if (!/^[a-f0-9]{24,40}$/.test(String(vid || ''))) return { companies: [] };
   const mine = viewersTab_().getDataRange().getValues().slice(1).filter(function (r) { return r[0] === vid; })[0];
+  return companiesView_(mine ? mine[2] : '[]');
+}
+
+// A reader's companies (raw JSON list) with their headlines and profiles.
+function companiesView_(rawCompanies) {
   const news = {};
   newsTab_().getDataRange().getValues().slice(1).forEach(function (r) {
     news[r[0]] = { names: parseList_(r[1]), news: parseList_(r[3]), updated: r[4] ? new Date(r[4]).toISOString() : '' };
   });
   const profiles = profilesByKey_();
   return {
-    companies: (mine ? cleanCompanies_(mine[2]) : []).map(function (c) {
+    companies: cleanCompanies_(rawCompanies).map(function (c) {
       const n = news[companyKey_(c)] || { names: c.names, news: [], updated: '' };
       return { name: c.names.join(', '), keywords: c.keywords, searched: n.names, news: n.news, updated: n.updated,
         facts: null, profile: profileFor_(c, profiles) };
@@ -487,9 +505,183 @@ function kickFetch_() {
   Logger.log(code === 204 ? 'fetch.yml started' : 'fetch.yml did not start: ' + code + ' ' + res.getContentText().slice(0, 200));
 }
 
+/* ---------------- accounts: the same stars, companies and hidden stories on every device ----------------
+ *
+ * The Cloudflare Pages Function (functions/api/*) proves who is asking from the Cloudflare Access
+ * login and calls doPost with {action:'acct', secret, email, op, ops, vid}. The secret is the script
+ * property SYNC_SECRET; a call without it is refused. The browser never names its own email.
+ *
+ * Each account is one row of the sheet Accounts. The three shared lists are stored as records
+ * {t, v}: v is the value, or null once deleted (a "tombstone"), t the time of the last change.
+ * A change is an operation {k, key, t, v}; the newer t wins per key, so a deletion is not undone by
+ * another device that still has the old item, and two devices changing different things both keep
+ * their changes. Tombstones are kept 90 days.
+ *
+ * Followed stories and companies of an account feed the same jobs as before (follows_,
+ * refreshCompanies_) through activeViewers_. The vids a browser used before it logged in are
+ * recorded here so that its old Viewers row is not counted twice.
+ */
+// ACCT-CORE-BEGIN
+const ACCT = {
+  TAB: 'Accounts',
+  MAX_SAVED: 20, MAX_COMPANIES: 15, MAX_HIDDEN: 600,
+  TOMB_DAYS: 90, TOMB_MAX: 100, HIDDEN_DAYS: 120,
+  MAX_OPS: 200, FUTURE_MS: 5 * 60 * 1000, MAX_VIDS: 10,
+};
+
+function acctStr_(s, n) { return String(s == null ? '' : s).trim().slice(0, n); }
+function acctStrs_(a, n, m) { return (Array.isArray(a) ? a : []).slice(0, m).map(function (x) { return acctStr_(x, n); }).filter(String); }
+function acctId_(s) { return acctStr_(s, 40).replace(/[^A-Za-z0-9_-]/g, ''); }
+
+function acctCleanSaved_(v) {
+  if (!v || typeof v !== 'object') return null;
+  const o = {
+    id: acctId_(v.id), title: acctStr_(v.title, 300), link: acctStr_(v.link, 600), source: acctStr_(v.source, 80),
+    source_id: acctStr_(v.source_id, 40), published: acctStr_(v.published, 30), fetched: acctStr_(v.fetched, 30),
+    since: acctStr_(v.since, 30), snippet: acctStr_(v.snippet, 300),
+    categories: acctStrs_(v.categories, 30, 8), countries: acctStrs_(v.countries, 30, 8), sectors: acctStrs_(v.sectors, 30, 8),
+    is_deal: v.is_deal === true, has_amount: v.has_amount === true, actor: acctStr_(v.actor, 20),
+  };
+  if (!o.id || !o.title || !/^https?:\/\//.test(o.link)) return null;
+  if (JSON.stringify(o).length > 1800) o.snippet = '';
+  return o;
+}
+
+function acctCleanCompany_(v) {
+  if (!v || typeof v !== 'object') return null;
+  const o = {
+    name: acctStr_(v.name, 240), keywords: acctStrs_(v.keywords, 40, 8),
+    market: v.market === 'JP' || v.market === 'US' ? v.market : '',
+    ticker: /^[A-Za-z0-9.\-]{1,10}$/.test(String(v.ticker || '')) ? String(v.ticker).toUpperCase() : '',
+    cik: /^\d{1,10}$/.test(String(v.cik || '')) ? String(v.cik) : '',
+    exchange: acctStr_(v.exchange, 12), sector: acctStr_(v.sector, 40),
+    kind: v.kind === 'fund' || v.kind === 'corp' ? v.kind : '',
+  };
+  return o.name ? o : null;
+}
+
+// Applies operations to state ({saved:{}, companies:{}, hidden:{}}) in place. Returns the live
+// company values that arrived in this call (so their first headlines can be fetched).
+function acctApply_(state, ops, nowMs) {
+  const arrived = [];
+  (Array.isArray(ops) ? ops : []).slice(0, ACCT.MAX_OPS).forEach(function (op) {
+    if (!op || (op.k !== 'saved' && op.k !== 'companies' && op.k !== 'hidden')) return;
+    const key = op.k === 'companies' ? acctStr_(op.key, 300) : acctId_(op.key);
+    if (!key) return;
+    let t = Math.floor(Number(op.t));
+    if (!(t > 0)) t = nowMs;
+    if (t > nowMs + ACCT.FUTURE_MS) t = nowMs;
+    let v = null;
+    if (op.v != null) {
+      v = op.k === 'saved' ? acctCleanSaved_(op.v) : op.k === 'companies' ? acctCleanCompany_(op.v) : 1;
+      if (v === null) return;                       // an invalid value is dropped, not read as a deletion
+      if (op.k === 'saved' && v.id !== key) return;
+    }
+    const cur = state[op.k][key];
+    if (cur && (cur.t > t || (cur.t === t && (cur.v === null || v !== null)))) return;   // the newer wins; a tie goes to deletion
+    const rec = { t: t, v: v };
+    if (op.k === 'companies') {
+      let o = Math.floor(Number(op.o));
+      if (!(o > 0) || o > nowMs) o = cur && cur.o ? cur.o : t;
+      rec.o = o;
+      if (v !== null) arrived.push(v);
+    }
+    state[op.k][key] = rec;
+  });
+  acctEnforce_(state, nowMs);
+  return { companies: arrived };
+}
+
+function acctLiveKeys_(recs) { return Object.keys(recs).filter(function (k) { return recs[k].v !== null; }); }
+
+// Caps (20 stars, 15 companies), the 120-day memory of hidden stories and the 90-day tombstones.
+function acctEnforce_(state, nowMs) {
+  function tomb(recs, k) { recs[k] = { t: recs[k].t + 1, v: null, o: recs[k].o }; }
+  const bySince = acctLiveKeys_(state.saved).sort(function (a, b) {
+    const x = state.saved[a], y = state.saved[b];
+    return String(y.v.since).localeCompare(String(x.v.since)) || y.t - x.t;
+  });
+  bySince.slice(ACCT.MAX_SAVED).forEach(function (k) { tomb(state.saved, k); });
+  const byAdded = acctLiveKeys_(state.companies).sort(function (a, b) { return (state.companies[b].o || 0) - (state.companies[a].o || 0); });
+  byAdded.slice(ACCT.MAX_COMPANIES).forEach(function (k) { tomb(state.companies, k); });
+  const hid = acctLiveKeys_(state.hidden).sort(function (a, b) { return state.hidden[b].t - state.hidden[a].t; });
+  hid.forEach(function (k, i) { if (i >= ACCT.MAX_HIDDEN || state.hidden[k].t < nowMs - ACCT.HIDDEN_DAYS * 864e5) delete state.hidden[k]; });
+  ['saved', 'companies', 'hidden'].forEach(function (kind) {
+    const recs = state[kind];
+    const dead = Object.keys(recs).filter(function (k) { return recs[k].v === null; })
+      .sort(function (a, b) { return recs[b].t - recs[a].t; });
+    dead.forEach(function (k, i) { if (i >= ACCT.TOMB_MAX || recs[k].t < nowMs - ACCT.TOMB_DAYS * 864e5) delete recs[k]; });
+  });
+}
+// ACCT-CORE-END
+
+function accountsTab_() { return tab_(ACCT.TAB, ['email', 'saved', 'companies', 'hidden', 'updated', 'seen', 'vids']); }
+function acctObj_(raw) { try { const o = JSON.parse(raw || '{}'); return o && typeof o === 'object' && !Array.isArray(o) ? o : {}; } catch (e) { return {}; } }
+function acctSame_(a, b) {
+  if (a.length !== b.length) return false;
+  let d = 0; for (let i = 0; i < a.length; i++) d |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return d === 0;
+}
+function acctRowState_(row) { return { saved: acctObj_(row[1]), companies: acctObj_(row[2]), hidden: acctObj_(row[3]) }; }
+
+// A company in the shape the page sends (and cleanCompanies_ reads).
+function acctCompanyStored_(c) { return { name: c.name, keywords: c.keywords, market: c.market, ticker: c.ticker, cik: c.cik }; }
+function acctLive_(recs, sortBy) {
+  return acctLiveKeys_(recs).sort(function (a, b) { return sortBy(recs[b]) - sortBy(recs[a]); }).map(function (k) { return recs[k].v; });
+}
+// An account as a Viewers-style row [id, follows json, companies json, seen], so follows_ and
+// refreshCompanies_ treat it like any other reader.
+function acctViewerRow_(row) {
+  const st = acctRowState_(row);
+  const follows = acctLive_(st.saved, function (r) { return Date.parse(r.v.since) || r.t; });
+  const companies = acctLive_(st.companies, function (r) { return r.o || 0; }).map(acctCompanyStored_);
+  return ['acct:' + row[0], JSON.stringify(follows), JSON.stringify(companies), row[5]];
+}
+
+function acct_(b) {
+  const secret = PropertiesService.getScriptProperties().getProperty('SYNC_SECRET');
+  if (!secret || !acctSame_(String(b.secret || ''), secret)) return { error: 'forbidden' };
+  const email = String(b.email || '').trim().toLowerCase();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 200) return { error: 'bad email' };
+  const vid = /^[a-f0-9]{24,40}$/.test(String(b.vid || '')) ? String(b.vid) : '';
+  if (b.op === 'companies') {
+    const mine = accountsTab_().getDataRange().getValues().slice(1).filter(function (r) { return String(r[0]).toLowerCase() === email; })[0];
+    return companiesView_(mine ? acctViewerRow_(mine)[2] : '[]');
+  }
+  if (b.op !== 'state' && b.op !== 'ops') return { error: 'bad op' };
+  let state, arrived = [];
+  const lock = LockService.getScriptLock(); lock.waitLock(20000);
+  try {
+    const sh = accountsTab_(), rows = sh.getDataRange().getValues(), now = Date.now();
+    let r = 1;
+    while (r < rows.length && String(rows[r][0]).toLowerCase() !== email) r++;
+    const found = r < rows.length, row = found ? rows[r] : [email, '{}', '{}', '{}', '', '', '[]'];
+    state = acctRowState_(row);
+    const vids = parseList_(row[6]).filter(String);
+    let dirty = !found;
+    if (b.op === 'ops' && Array.isArray(b.ops) && b.ops.length) { arrived = acctApply_(state, b.ops, now).companies; dirty = true; }
+    if (vid && vids.indexOf(vid) < 0) { vids.push(vid); while (vids.length > ACCT.MAX_VIDS) vids.shift(); dirty = true; }
+    const seen = row[5] ? new Date(row[5]).getTime() : 0;
+    if (dirty || now - seen > 3600e3) {
+      const out = [email, JSON.stringify(state.saved), JSON.stringify(state.companies), JSON.stringify(state.hidden),
+        dirty ? new Date(now) : row[4], new Date(now), JSON.stringify(vids)];
+      if (found) sh.getRange(r + 1, 1, 1, 7).setValues([out]); else sh.appendRow(out);
+    }
+  } finally { lock.releaseLock(); }
+  // a company added just now gets its first headlines at once
+  if (arrived.length) kickCompanies_(cleanCompanies_(JSON.stringify(arrived.map(acctCompanyStored_))));
+  return { recs: state, now: Date.now() };
+}
+
 /* ---------------- web endpoints ---------------- */
 
 function doPost(e) {
+  // the Pages Function sends JSON (account sync); the page itself posts forms
+  if (e && e.postData && /json|text\/plain/.test(String(e.postData.type))) {
+    let b = null;
+    try { b = JSON.parse(e.postData.contents); } catch (err) { b = null; }
+    if (b && b.action === 'acct') return json_(acct_(b));
+  }
   const p = (e && e.parameter) || {};
   if (p.action === 'subscribe') return text_(subscribe_(String(p.email || '').trim().toLowerCase()));
   if (p.action === 'contact') return text_(contact_(p));

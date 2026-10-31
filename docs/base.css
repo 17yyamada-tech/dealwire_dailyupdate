@@ -271,6 +271,7 @@ body[data-view="follow"] .filters, body[data-view="companies"] .filters, body[da
 dialog { padding: 0; width: min(520px, calc(100vw - 32px)); }
 .settings { padding: 20px; display: flex; flex-direction: column; gap: 14px; }
 .settings h2 { margin: 0; }
+#acct-line { margin: 0; text-transform: none; overflow-wrap: anywhere; }
 .field { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .profile .bar { display: inline-block; height: 6px; vertical-align: middle; margin-left: 6px; }
 .row-btns { display: flex; justify-content: space-between; }
