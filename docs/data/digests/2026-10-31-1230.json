@@ -1,0 +1,126 @@
+{
+ "edition": "2026-10-31-1230",
+ "edition_label": "31 Oct 2026 · 12:30 SGT",
+ "date": "2026-10-31",
+ "generated_at": "2026-10-31T04:35:00Z",
+ "reading_minutes": 2,
+ "items": [
+  {
+   "headline": "Mirae Asset to take full control of Japan's Sanko Securities via a US subsidiary",
+   "summary": "Mirae Asset Securities of South Korea is acquiring 100% of Japan's Sanko Securities, with the deal to be carried out through Mirae Asset's US subsidiary, according to a Korean media report. The move follows Mirae Asset's roughly ¥5bn agreement to buy Sanko Securities disclosed two days earlier.",
+   "why_it_matters": "Routing the purchase through a US subsidiary, and taking the whole company rather than a partial stake, points to a cross-border entry structured for full management control rather than a passive investment. It also shows how quickly a foreign broker can move once it has picked a target in Japan's consolidating securities industry.",
+   "summary_ja": "韓国の未来アセット証券は、日本の三晶証券を米国子会社を通じて全株取得する方針だと韓国メディアが報じた。これは2日前に明らかになった、約50億円での三晶証券買収合意に続く動きである。",
+   "why_it_matters_ja": "米国子会社を経由する買収形態と、一部出資ではなく全株取得という選択は、受け身の投資ではなく経営権を完全に握る形で日本市場に参入する狙いを示す。日本の証券業界で統合が進むなか、海外証券会社が買収対象を決めてからの動きの速さも改めて浮き立たせる。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-10-29-0830",
+    "index": 4
+   },
+   "key": "mirae-asset-japan-securities-acquisition",
+   "ids": [
+    "c79c752b2b6316",
+    "99e5672400e04b"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iSmhTQzFwMF9uVnpuSmI0OU42QTVpTXd5dE4xZ1FDdk0xa2ZVZklfOG1rLWhCYUN0d2hsVVQ3QnM0TUJjaTA5Y182V21Iazkxb2h0b2tEZjAwX0RmNUR2LVZsY2gtcW5TT3Y0OGkzMXFDSlU3eE1leWVocUJQTEE?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1ZGdDOENOd19lNTBJUE9zdWRERWw4bTZEREl2Y2d6TmYzTjZpRVRqdGVhNzFXemRSRVBnYi1Ma25Oc2Jqem5Pai1GYXdXdFZ6SmRHT1RhX1I1VnhT?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US",
+    "JP"
+   ],
+   "sectors": [
+    "Financials"
+   ]
+  },
+  {
+   "headline": "Nireco to take semiconductor wafer-inspection equipment maker YGK as a subsidiary",
+   "summary": "Japan's Nireco Corporation is making YGK, a maker of semiconductor wafer-inspection equipment, a wholly owned subsidiary, according to a Japanese-language report. Terms of the transaction were not disclosed.",
+   "why_it_matters": "The deal gives Nireco in-house exposure to wafer-inspection tools as semiconductor capital-equipment demand is pulled along by the broader AI buildout, though the small, undisclosed size of the transaction limits its weight on its own.",
+   "summary_ja": "日本のニレコは、半導体ウエハー検査装置を手がけるYGKを完全子会社化すると、日本語報道が伝えた。取引条件は開示されていない。",
+   "why_it_matters_ja": "AI関連投資の拡大を背景に半導体製造装置需要が押し上げられるなか、ニレコはウエハー検査装置分野を自社内に取り込むことになる。ただし取引規模が小さく条件も非公開であるため、単独での影響は限定的である。",
+   "status": "new",
+   "prev": null,
+   "key": "nireco-ygk-semiconductor-wafer-inspection",
+   "ids": [
+    "2665504bdba618"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qWnJWSURIZzI3dDF3TkJEYjZmSi1OeFZGTzdIS0FIaldDT2xCckthcHFIRG9oZlVndHZrNjE0Vkc0SmNJU2h2UnV4ZS1iLVVac3lGbTJmR01YOGE1d2xV?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "AI & Semis"
+   ]
+  },
+  {
+   "headline": "Hanwha wins 360bn-won US Navy medium landing ship order two years after Philly Shipyard buy",
+   "summary": "South Korea's Hanwha has won a contract worth about 360bn won to build a medium landing ship for the US Navy, according to a Japanese-language report, which frames the win as a result materialising in the second year since Hanwha's acquisition of Philly Shipyard.",
+   "why_it_matters": "A US Navy shipbuilding contract landing two years after the Philly Shipyard purchase gives Hanwha a concrete data point on that acquisition's payback, at a time when Washington is pushing to expand domestic naval shipbuilding capacity with allied partners.",
+   "summary_ja": "韓国のHanwha（ハンファ）は、米海軍向け中型揃陸艦の建造で約3,600億ウォン規模の受注を獲得したと日本語報道が伝えた。同報道はこれを、フィリー造船所買収から2年目に表れた成果と位置づけている。",
+   "why_it_matters_ja": "フィリー造船所買収から2年で米海軍の受注を得たことは、この買収の投資回収を測る具体的な材料となる。米国が同盟国の力も借りて国内の艦艇建造能力を拡大しようとする局面での受注でもある。",
+   "status": "new",
+   "prev": null,
+   "key": "hanwha-philly-shipyard-navy-order",
+   "ids": [
+    "0c926017491faf"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsTmRVWUxicGNmTkItTkh5Tm9zaWd6WGRSQW5yYjZCOGZ4TXh1dUlpeXhKaVk1ekw2dXIyMXJZRWZwc185MlRsLW14UURQck9reUtBQVYxWnhEYXhMdVBqMHZBcml4MmtzVHBUM3RRMERPaTN5?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Fabrica Holdings takes vehicle-transport matching platform Tores as a subsidiary",
+   "summary": "Japan's Fabrica Holdings is making Tores, an operator of a vehicle land-transport matching platform, a subsidiary, according to a Japanese-language report. Terms were not disclosed.",
+   "why_it_matters": "The deal adds a digital matching platform for vehicle logistics to Fabrica Holdings' portfolio, fitting a broader pattern of Japanese strategics buying smaller platform businesses for their technology rather than for scale.",
+   "summary_ja": "日本のファブリカホールディングスは、車両陸送マッチングプラットフォームを運営するトレスを子会社化すると、日本語報道が伝えた。取引条件は開示されていない。",
+   "why_it_matters_ja": "この買収により、ファブリカホールディングスは車両物流向けのデジタルマッチングプラットフォームを傘下に取り込む。日本の事業会社が規模拡大ではなく技術獲得を目的に小規模なプラットフォーム企業を買収する流れの一例となる。",
+   "status": "new",
+   "prev": null,
+   "key": "fabrica-tores-subsidiary",
+   "ids": [
+    "7b07704ba6bfdd"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4UFVuWHgzb2ZMc0FwaVhWRHBodXh0LVFIMTFhUGY2ZEVIQzlNdVpHOFNpRGY3XzdjMm13dkxSNEVIVjcxb2tCaXdoQ3hYZUFVWGJoV2JHazZHTjQwdGN3?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  }
+ ]
+}
