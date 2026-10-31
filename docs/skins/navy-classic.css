@@ -33,7 +33,3 @@ select.active { background-color: transparent; color: var(--gold); border-color:
 .panel-meta.pad { padding: 8px 0 0; }
 .empty { padding: 20px 0; }
 .tab, .tab.active { border-radius: 2px; }
-
-/* the serif headline wraps to two lines on the narrow board column, so the shared head row is taller */
-:root { --hd-h: 76px; }
-@media (min-width: 1280px) { :root { --hd-h: 64px; } }

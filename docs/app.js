@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261031-2000";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261031-2100";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1565,7 +1565,7 @@
   const HK_RX = {
     custody: /日本マスタートラスト|日本カストディ|マスタートラスト|カストディ|信託口|custody|master trust|state street|bank of new york|bny |jpmorgan|j\.p\. morgan|ステート.?ストリート|ジェーピー.?モルガン|バンク.?オブ.?ニューヨーク|デポジタリ|nominee|natscumco|secs lending|chase manhattan/i,
     plan: /持株会|持ち株会|employee (stock|share)|stock ownership plan|esop/i,
-    fund: /fund|capital|partners|investment|investor|\blp\b|l\.p\.|asset management|vanguard|blackrock|fidelity|invesco|ファンド|投資事業|投資組合|キャピタル|パートナーズ|インベストメント|アセット.?マネジメント|運用|ブラックロック|バンガード/i,
+    fund: /government of|政府|sovereign|norges bank|gic|temasek|年金積立金|pension|fund|capital|partners|investment|investor|\blp\b|l\.p\.|asset management|vanguard|blackrock|fidelity|invesco|ファンド|投資事業|投資組合|キャピタル|パートナーズ|インベストメント|アセット.?マネジメント|運用|ブラックロック|バンガード/i,
     bank: /銀行|信用金庫|信用組合|生命|保険|証券|共済|信託|bank|insurance|assurance|securities|mutual/i,
     corp: /株式会社|\(株\)|有限会社|合同会社|財団|社団|学校法人|\binc\b|corp|ltd|\bco\.|company|holdings|gmbh|\bplc\b|\bllc\b|s\.a\.|n\.v\./i,
   };
@@ -1667,7 +1667,7 @@
           ch.title = "Was " + pct1(x.prev_pct) + (x.prev_date ? " (" + x.prev_date + ")" : hs.prev_as_of ? " (" + hs.prev_as_of + ")" : "");
           if (d > 0) { ch.textContent = "▲" + d.toFixed(1) + "pt"; ch.classList.add("up"); }
           else if (d < 0) { ch.textContent = "▼" + Math.abs(d).toFixed(1) + "pt"; ch.classList.add("down"); }
-          else { ch.textContent = "±0.0pt"; ch.classList.add("flat"); }
+          
         }
       }
       row.append(nm, track, val, ch);

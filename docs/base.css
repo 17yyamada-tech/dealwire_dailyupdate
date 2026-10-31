@@ -84,6 +84,16 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
   :root:not([data-skin="navy"]) .p-digest .edition-tabs { flex-wrap: nowrap; gap: 4px; }
   :root:not([data-skin="navy"]) .p-digest .ed-tab { padding-top: 5px; padding-bottom: 5px; }
   :root:not([data-skin="navy"]) .p-digest .edition-bar .link-btn { white-space: nowrap; }
+  /* one line each: the title and the controls (with the count at their right end) never wrap */
+  :root:not([data-skin="navy"]) .p-deals .panel-head h2 { white-space: nowrap; }
+  :root:not([data-skin="navy"]) .p-deals .panel-head-right { flex-wrap: nowrap; white-space: nowrap; gap: 12px; }
+  :root:not([data-skin="navy"]) .p-deals .panel-head-right .link-btn, :root:not([data-skin="navy"]) .p-deals .panel-head-right .panel-meta { white-space: nowrap; }
+}
+@media (min-width: 1000px) and (max-width: 1279px) {
+  :root:not([data-skin="navy"]) .p-deals .panel-head { gap: 8px; }
+  :root:not([data-skin="navy"]) .p-deals .panel-head h2 { letter-spacing: .06em; font-size: 12px; gap: 6px; }
+  :root:not([data-skin="navy"]) .p-deals .panel-head-right { gap: 8px; }
+  :root:not([data-skin="navy"]) .p-deals .panel-head-right .link-btn, :root:not([data-skin="navy"]) .p-deals .panel-head-right .panel-meta { font-size: 10px; letter-spacing: .02em; }
 }
 
 /* rows: one template for deals, stories, search results and saved */
