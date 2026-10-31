@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-10-31-1530",
+      "label": "31 Oct 2026 · 15:30 SGT",
+      "generated_at": "2026-10-31T07:36:00Z",
+      "items": 4,
+      "headlines": [
+        "Reports raise Thrive's ADT buyout price tag to $15.3bn, tie deal to OpenAI-backed holding vehicle",
+        "Hong Kong telecom operator agrees to halt US operations following FCC pressure",
+        "Cross Marketing Group takes website-development firm Chotto as a subsidiary"
+      ]
+    },
+    {
       "id": "2026-10-31-1230",
       "label": "31 Oct 2026 · 12:30 SGT",
       "generated_at": "2026-10-31T04:35:00Z",

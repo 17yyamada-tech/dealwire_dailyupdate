@@ -1,0 +1,125 @@
+{
+ "edition": "2026-10-31-1530",
+ "edition_label": "31 Oct 2026 · 15:30 SGT",
+ "date": "2026-10-31",
+ "generated_at": "2026-10-31T07:36:00Z",
+ "reading_minutes": 2,
+ "items": [
+  {
+   "headline": "Reports raise Thrive's ADT buyout price tag to $15.3bn, tie deal to OpenAI-backed holding vehicle",
+   "summary": "New reports put the price tag on Thrive's acquisition of ADT at $15.3bn, roughly double the $7.6bn figure given when the deal was first disclosed. The reports describe the acquiring entity as Thrive Holdings, a vehicle backed by OpenAI, and frame the deal as a bid to bring AI into ADT's century-old security network.",
+   "why_it_matters": "The sharply higher price and the OpenAI-linked holding structure suggest the transaction is more than a straight private-equity buyout, raising questions about how directly AI capital is now flowing into a legacy physical-security business. Investors who anchored on the earlier $7.6bn figure will want to know which number reflects the actual deal terms.",
+   "summary_ja": "スライブによるADT買収について、買収額を153億ドルとする新たな報道が出た。取引が最初に明らかになった際の76億ドルからおよそ倍増した水準である。報道はこの買収主体をOpenAIが出資するThrive Holdingsとし、老舗の警備網にAIを取り込む狙いの取引と位置付けている。",
+   "why_it_matters_ja": "買収額の大幅な上振れとOpenAIが絡む持株会社の構図は、この取引が単純なプライベートエクイティ型バイアウトではない可能性を示す。AI資金が老舗の物理セキュリティー事業にどこまで直接流れ込んでいるかが問われる局面であり、当初の76億ドルという数字を前提にしていた投資家は、どちらが実際の取引条件かを見極める必要がある。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-10-30-0830",
+    "index": 1
+   },
+   "key": "thrive-adt-acquisition",
+   "ids": [
+    "ea6f4c26825199",
+    "d1a8debcb85b75"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTTh4eXBaSFFrYmV2ZTVack1HcDJrMjR5NnFaRWpFUG1EMjFMc3pPU0NQbTkwZGZLTy1DWF8tQVVwaGxSMG5BbmcxeWxCYVlIM3BN?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kbTJGVjNSZ1d0RGxVcGtWYXU3a3BNU3RlUEJ1S3RpSl9RaEpoMkR2emEyN1I2LWFJTVpiNmdCeXdDbm82OHNDUDNPX20zdVg0VzR3NFpKWGI4Tnc4YmlNRlNoOGVNUy1yeGdTeEoxTV85ZlIxU01lQUU5X25NOFk?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "AI & Semis",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Hong Kong telecom operator agrees to halt US operations following FCC pressure",
+   "summary": "A Hong Kong-based telecommunications company has agreed to stop operating in the United States, CNA reported, after coming under pressure from US regulators. The FCC had previously barred China Mobile, China Telecom and China Unicom from providing international telecom services into the US, citing national-security concerns.",
+   "why_it_matters": "The move extends a multi-year US campaign to strip Chinese-linked telecom operators of American market access beyond the three carriers already barred. For HK/CN telecom and tech groups, it adds another US-market-access risk to price into cross-border strategy.",
+   "summary_ja": "香港を拠点とする電気通信会社が、米当局からの圧力を受けて米国事業を停止することに合意したと、CNAが報じた。米連邦通信委員会(FCC)はこれまでに、国家安全保障上の懸念を理由として、チャイナモバイル、チャイナテレコム、チャイナユニコムの3社に米国向け国際通信サービスの提供を禁止していた。",
+   "why_it_matters_ja": "今回の対応は、既に排除された中国系通信大手3社にとどまらず、米国が中国系通信事業者の市場アクセスを狙う動きを一段と広げたことを示す。香港・中国系の通信・テック企業にとっては、クロスボーダー戦略に組み込むべき米国市場アクセスリスクがまた一つ増えたことになる。",
+   "status": "new",
+   "prev": null,
+   "key": "hk-telecom-us-halt",
+   "ids": [
+    "b0f7886fab9dbb"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/hong-kong-telecom-company-agrees-halt-us-operations-under-pressure-6507926"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "US",
+    "HK/CN"
+   ],
+   "sectors": [
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Cross Marketing Group takes website-development firm Chotto as a subsidiary",
+   "summary": "Cross Marketing Group has made Chotto, a company that supports website development, a subsidiary, Japan M&A reporting said. Financial terms were not disclosed.",
+   "why_it_matters": "The deal brings web-development capability in-house for Cross Marketing's survey and marketing-research business, part of a broader pattern of Japanese mid-caps bolting on small digital-services targets rather than building the capability themselves.",
+   "summary_ja": "クロス・マーケティンググループが、ウェブサイト開発を支援する「ちょっと」を子会社化したと、日本のM&A関連報道が伝えた。買収金額などの条件は開示されていない。",
+   "why_it_matters_ja": "同社の調査・マーケティングリサーチ事業にウェブ開発機能を取り込む動きであり、日本の中堅企業が自前での機能構築よりも小規模なデジタルサービス企業の買収を選ぶ傾向の一例といえる。",
+   "status": "new",
+   "prev": null,
+   "key": "cross-marketing-chotto-subsidiary",
+   "ids": [
+    "91edfb086c081d"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LVW9qMnlKTHg4WGJySVZmcTF2b184NHUzRm1wNkhESzFjYkdFb3k0RmhYcmFYWkR3UUNMNVNDS29EZnNXMERKaW9jRFdhLXk2a2pYejhjZ0Y0SlhGZG5v?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Startia Holdings takes office-equipment dealer Hanamaki Jimuki as a subsidiary",
+   "summary": "Startia Holdings has made Hanamaki Jimuki, a dealer of office-automation equipment, a subsidiary, Japan M&A reporting said. Financial terms were not disclosed.",
+   "why_it_matters": "The acquisition extends Startia's office-equipment distribution network at a time when Japanese resellers in the segment are consolidating as demand shifts toward IT and cloud services alongside traditional hardware sales.",
+   "summary_ja": "スターティアホールディングスが、OA機器販売を手掛ける花巻事務機を子会社化したと、日本のM&A関連報道が伝えた。買収金額などの条件は開示されていない。",
+   "why_it_matters_ja": "今回の買収により、スターティアのOA機器販売網が拡大する。従来型のハードウェア販売に加えIT・クラウドサービスへの需要シフトが進む中、同分野の日本の販売代理店では再編が広がっている。",
+   "status": "new",
+   "prev": null,
+   "key": "startia-hanamaki-subsidiary",
+   "ids": [
+    "99b2b22421af98"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qWDBMOE4tOXVfUkZabUw1ZFV5U2g3ZF9pZndSVUd6V1lqMW1FSmdfTS12TWVva1FuNTQ0MDFUVjVubGVodHduNmt2Tktha0otTHRLLXoyZzNQdXc0V1hV?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  }
+ ]
+}
