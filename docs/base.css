@@ -91,7 +91,7 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
 }
 @media (min-width: 1000px) and (max-width: 1279px) {
   :root:not([data-skin="navy"]) .p-deals .panel-head { gap: 8px; }
-  :root:not([data-skin="navy"]) .p-deals .panel-head h2 { letter-spacing: .06em; font-size: 12px; gap: 6px; }
+  :root[data-skin="board"] .p-deals .panel-head h2, :root[data-skin="board"] .p-digest .panel-head h2 { letter-spacing: .06em; font-size: 12px; gap: 6px; }   /* both heads alike */
   :root:not([data-skin="navy"]) .p-deals .panel-head-right { gap: 8px; }
   :root:not([data-skin="navy"]) .p-deals .panel-head-right .link-btn, :root:not([data-skin="navy"]) .p-deals .panel-head-right .panel-meta { font-size: 10px; letter-spacing: .02em; }
 }
