@@ -54,6 +54,7 @@ FIN_YEARS = 5
 FIN_SPAN_DAYS = 45   # an older report counts as the same fiscal year if its year end is this close
 MAX_OLD_READS = 3
 PRICE_V = 2    # bump to read the filings again: 2 = high/low rows cut apart by a search (dashes, footnote marks, 6 columns)
+OWNDEBUG = os.environ.get("JP_OWNDEBUG") == "1"   # print the rows that look like the holder-category table
 DRY = os.environ.get("JP_DRY") == "1"       # print the price block, write nothing
 csv.field_size_limit(1 << 28)
 
@@ -574,6 +575,15 @@ def build(tk: str, hit: dict, sector: str, hist_done: bool = False) -> dict:
                 seen.add(r[0])
                 print(f"      {tk} {r[0][:80]:<80} {r[4]} {r[8][:16]}")
     fin, fin_info = financials(tk, hit, rows, end, url)
+    if OWNDEBUG:
+        pat = re.compile(r"Category|Distribution|Ownership|GovernmentAndLocal|FinancialInstitution|ForeignCorporation|IndividualsAndOther|所有者|金融機関|外国法人")
+        n = 0
+        for r in rows:
+            if pat.search(r[0]) or pat.search(r[2]) or pat.search(r[1]):
+                n += 1
+                if n <= 70:
+                    print(f"OWN {tk} {r[0].split(':')[-1][:70]} | {r[1][:24]} | {r[2][:60]} | {r[8][:60]!r}")
+        print(f"OWN {tk} matching rows {n} of {len(rows)}")
     by_no = {}
     for r in rows:
         m = re.fullmatch(r"CurrentYearInstant_No(\d+)MajorShareholdersMember", r[2])
