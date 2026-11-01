@@ -70,6 +70,10 @@ Three pages, in the header line on wide screens and in the bottom tab bar on pho
   language when only one is given (LanguageApp), keeps 45 days, and returns the list only to the
   browser that registered it. This stays private because a company someone is watching can itself be
   sensitive.
+  Profile and Price list only companies tied to a listing (ticker): an unlisted fund, a hedge fund, or a name not picked from
+  the search list appears on News only (one line under the list says how many are left out; with none left, a short message).
+  `inListings()` in `docs/app.js` is the one place that decides; its `HIDE_FUND_LISTINGS` switch (false) would also hide listed
+  companies judged a Fund (KKR etc.).
   The page has two views, News (the headlines above) and Profile (a table, one row per company: sector,
   revenue, operating and net income for the latest year, revenue growth, the top three shareholders and whether a
   takeover defence was found). Opening a row loads TradingView's embedded widgets for US stocks (market cap, P/E, price and

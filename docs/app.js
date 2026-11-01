@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261031-2330";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261101-2000";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1430,8 +1430,22 @@
   }
   const NOTE_SHORT = { "Pick the company from the search list to get its profile": "Not linked · pick from list" };
   const cell = (tr, cls) => { const td = document.createElement("td"); if (cls) td.className = cls; tr.append(td); return td; };
-  function renderProfile(mine, remote) {
+  /* Profile and Price are for listed companies only: a name with no ticker (an unlisted fund, a hedge
+     fund, a company not picked from the search list) shows on News only. This is the one place that
+     decides. Set HIDE_FUND_LISTINGS to true to hide every company judged a Fund here as well,
+     listed fund managers such as KKR included. */
+  const HIDE_FUND_LISTINGS = false;
+  function inListings(c, r) {
+    const p = profileOf(c, r), mk = (p && p.market) || c.market, tk = (p && p.ticker) || c.ticker;
+    if (!mk || !tk) return false;
+    return !(HIDE_FUND_LISTINGS && kindOf(c, r && r.searched) === "fund");
+  }
+  const NEWS_ONLY_EMPTY = "Funds and other unlisted names appear on the News tab only.";
+  const newsOnlyNote = (n) => hEl("p", "px-skip", n + (n === 1 ? " company is" : " companies are") + " not listed here (funds and unlisted names: News tab only).");
+  function renderProfile(allMine, remote) {
     const wrap = $("#co-profile"); wrap.textContent = "";
+    const mine = allMine.filter(c => inListings(c, remote.get(coKey(c))));
+    if (!mine.length) { wrap.append(hEl("p", "px-note", NEWS_ONLY_EMPTY)); return; }
     const t = document.createElement("table"); t.className = "pf-table";
     t.innerHTML = "<thead><tr><th>Company</th><th>Sector</th><th class='num'>Revenue</th><th class='num'>Op. income</th><th class='num'>Net income</th><th class='num'>Rev. growth</th><th>Top holders</th><th>Takeover defense</th></tr></thead>";
     const cg = document.createElement("colgroup");
@@ -1495,6 +1509,7 @@
       tb.append(tr, det);
     });
     t.append(tb); wrap.append(t);
+    if (mine.length < allMine.length) wrap.append(newsOnlyNote(allMine.length - mine.length));
   }
   /* ---------------- Companies > Price ----------------
      One card per linked company. Tokyo-listed: a range chart drawn here from the annual report
@@ -1620,12 +1635,13 @@
     if (px.url) { ln.append("   Filing: "); ln.append(srcLink("SEC", px.url)); }
     card.append(ln);
   }
-  function renderPrice(mine, remote) {
+  function renderPrice(allMine, remote) {
     const wrap = $("#co-price"); wrap.textContent = "";
-    const grid = hEl("div", "px-grid"), skipped = [];
+    const mine = allMine.filter(c => inListings(c, remote.get(coKey(c))));
+    if (!mine.length) { wrap.append(hEl("p", "px-note", NEWS_ONLY_EMPTY)); return; }
+    const grid = hEl("div", "px-grid");
     mine.forEach(c => {
-      const r = remote.get(coKey(c)), p = profileOf(c, r), mk = (p && p.market) || c.market, tk = (p && p.ticker) || c.ticker;
-      if (!mk || !tk) { skipped.push(c.name.split(/[,、]/)[0].trim()); return; }
+      const r = remote.get(coKey(c)), p = profileOf(c, r), mk = (p && p.market) || c.market;
       const card = hEl("article", "px-card kind-" + kindOf(c, (remote.get(coKey(c)) || {}).searched)); card.append(pxHead(c, p));
       const body = hEl("div", "px-body"); body.append(hEl("p", "px-note", "Loading…")); card.append(body);
       grid.append(card);
@@ -1636,7 +1652,7 @@
       });
     });
     wrap.append(grid);
-    if (skipped.length) wrap.append(hEl("p", "px-skip", "Not linked to a listing, so no price: " + skipped.join(", ") + ". Pick the company from the search list to link it."));
+    if (mine.length < allMine.length) wrap.append(newsOnlyNote(allMine.length - mine.length));
   }
 
   function srcLink(label, url) { const a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener"; a.textContent = label; return a; }
