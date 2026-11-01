@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261101-2000";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261101-2100";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -908,6 +908,8 @@
     if (!el) return;
     el.hidden = !acct;
     el.textContent = acct ? "Synced as " + acct.email + (acctOffline ? " (offline, will retry)" : "") : "";
+    const cm = $("#co-meta");
+    if (cm) cm.textContent = acct ? "Private to your account · headlines refresh every 30 minutes" : "Private to this browser · headlines refresh every 30 minutes";
   }
   // Queue operations (coalesced per key, kept in localStorage until the server has them).
   function acctQueue(ops, quiet) {
@@ -1440,8 +1442,9 @@
     if (!mk || !tk) return false;
     return !(HIDE_FUND_LISTINGS && kindOf(c, r && r.searched) === "fund");
   }
-  const NEWS_ONLY_EMPTY = "Funds and other unlisted names appear on the News tab only.";
-  const newsOnlyNote = (n) => hEl("p", "px-skip", n + (n === 1 ? " company is" : " companies are") + " not listed here (funds and unlisted names: News tab only).");
+  const RELINK = "To show a listed company here, remove it and add it again from the search suggestions.";
+  const NEWS_ONLY_EMPTY = "Funds and other unlisted names appear on the News tab only. " + RELINK;
+  const newsOnlyNote = (n) => hEl("p", "px-skip", n + (n === 1 ? " company is" : " companies are") + " not listed here (funds and unlisted names: News tab only). " + RELINK);
   function renderProfile(allMine, remote) {
     const wrap = $("#co-profile"); wrap.textContent = "";
     const mine = allMine.filter(c => inListings(c, remote.get(coKey(c))));
