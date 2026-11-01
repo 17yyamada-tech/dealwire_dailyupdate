@@ -1,0 +1,64 @@
+{
+  "edition": "2026-11-01-0830",
+  "edition_label": "1 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T00:34:00Z",
+  "reading_minutes": 1,
+  "items": [
+    {
+      "headline": "OpenAI cuts new funding round target by $10bn as investors face Friday deadline",
+      "summary": "OpenAI has lowered the target size of its latest funding round by US$10 billion amid a broader tech-stock selloff, the Financial Times reported. The company has set investors a deadline of Friday to commit to the round.",
+      "why_it_matters": "The cut follows last week's markdown of OpenAI's valuation to $1.25 trillion from $1.4 trillion, adding to signs that investors are growing more selective on AI financing even for the sector's biggest name.",
+      "summary_ja": "OpenAIは、ハイテク株安を背景に進行中の新たな資金調達ラウンドの目標額を100億ドル引き下げた。英フィナンシャル・タイムズが報じた。投資家には金曜日までの出資確約の期限が設定されている。",
+      "why_it_matters_ja": "今回の目標額縮小は、先週報じられた評価額の1兆4000億ドルから1兆2500億ドルへの引き下げに続くもので、AI業界最大手でさえ資金調達条件への投資家の選別が強まっていることを示す。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-23-1230",
+        "index": 0
+      },
+      "key": "openai-valuation-cut-funding-round",
+      "ids": [
+        "6e98b07db06b01"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/openai-slashes-funding-target-us10-billion-amid-tech-rout-ft"
+        }
+      ],
+      "categories": [],
+      "countries": ["SG", "SEA"],
+      "sectors": ["AI & Semis"]
+    },
+    {
+      "headline": "Binance says it has covered 90% of $6.3bn hack losses as FBI blames North Korea's TraderTraitor",
+      "summary": "Binance said it has used company funds to replace 90% of the US$6.3 billion in crypto assets stolen in last week's hack, and that user withdrawals remain on track to resume Sunday. The FBI said on Saturday that the North Korean state-sponsored unit known as TraderTraitor was responsible for the attack.",
+      "why_it_matters": "The near-complete reimbursement and a fixed resumption date are the first clear sign that Binance's loss-coverage pledge is holding, while the FBI's attribution adds to a string of state-linked exchange hacks in the sector.",
+      "summary_ja": "バイナンスは、先週発生したハッキングで流出した63億ドル相当の暗号資産のうち90%を自己資金で補填したと発表した。ユーザーの出金再開は日曜日を予定通り目指すとしている。FBIは土曜日、北朝鮮の国家支援ハッカー集団「トレーダートレイター」が攻撃の実行主体だと発表した。",
+      "why_it_matters_ja": "ほぼ全額に近い補填と具体的な再開日の提示は、バイナンスの損失補償の公約が実際に機能している最初の明確な証拠だ。FBIによる攻撃主体の特定は、国家の関与が疑われる取引所ハッキングが相次いでいる実態を改めて示す。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-30-1230",
+        "index": 0
+      },
+      "key": "binance-hack-withdrawal-halt",
+      "ids": [
+        "c9534311c275f7",
+        "c34e05ed50f010"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/binance-says-has-covered-90-us63-billion-hack-losses-6510271"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/binance-covers-90-cent-losses-6510271"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": ["Other"]
+    }
+  ]
+}
