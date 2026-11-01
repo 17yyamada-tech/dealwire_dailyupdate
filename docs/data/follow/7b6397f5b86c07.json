@@ -1,335 +1,335 @@
 {
- "id": "7b6397f5b86c07",
- "title": "US dollar dips as oil eases, yen jumps on Japan remarks",
- "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
- "source": "The Business Times",
- "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-01T04:48:04Z",
- "status": {
-  "as_of": "2026-10-31",
-  "text": "BOJ held at 1.25% (8-1) Oct 30, signaling more hikes; yen near 157. Israel's Oct 27 result certified Oct 30: Netanyahu 53, Eisenkot 48, no majority. Brent near $117.56, up ~15% on Hormuz attacks.",
-  "text_ja": "日銀は10月30日、政策金利を1.25%で維持し追加利上げを示唆、円は157円近辺。イスラエル選挙は確定も過半数届かず連立協議継続。原油はホルムズ攻撃で続伸、117ドル台。",
-  "refs": [
-   {
-    "list": "since",
-    "url": "https://www.tokenpost.com/news/regulation/44257"
-   },
-   {
-    "list": "since",
-    "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
-   },
-   {
-    "list": "since",
-    "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
-   }
+  "id": "7b6397f5b86c07",
+  "title": "US dollar dips as oil eases, yen jumps on Japan remarks",
+  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
+  "source": "The Business Times",
+  "published": "2026-09-27T13:31:03Z",
+  "checked_at": "2026-11-01T07:48:06Z",
+  "status": {
+    "as_of": "2026-10-31",
+    "text": "BOJ held at 1.25% (8-1) Oct 30, signaling more hikes; yen near 157. Israel's Oct 27 result certified Oct 30: Netanyahu 53, Eisenkot 48, no majority. Brent near $117.56, up ~15% on Hormuz attacks.",
+    "text_ja": "日銀は10月30日、政策金利を1.25%で維持し追加利上げを示唆、円は157円近辺。イスラエル選挙は確定も過半数届かず連立協議継続。原油はホルムズ攻撃で続伸、117ドル台。",
+    "refs": [
+      {
+        "list": "since",
+        "url": "https://www.tokenpost.com/news/regulation/44257"
+      },
+      {
+        "list": "since",
+        "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
+      },
+      {
+        "list": "since",
+        "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
+      }
+    ]
+  },
+  "background": [
+    {
+      "date": "2026-09-26",
+      "headline": "Trump rejects Iran's conditional ceasefire proposal for Hormuz as Saudi coalition intercepts projectiles",
+      "summary": "CNBC reported, citing the Wall Street Journal, that President Trump rejected Iran's conditional ceasefire proposal tied to the Strait of Hormuz, while a Saudi-led coalition intercepted incoming projectiles, keeping Middle East war-risk elevated heading into the weekend.",
+      "summary_ja": "CNBCがウォール・ストリート・ジャーナルの報道として伝えたところによると、トランプ大統領はホルムズ海峡を巡るイランの条件付き停戦案を拒否し、サウジ主導の連合軍は飛来物を迎撃した。週末を前に中東の地政学リスクは高止まりした。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/26/trump-rejects-irans-conditional-ceasefire-proposal-wsj-reports.html"
+    },
+    {
+      "date": "2026-09-25",
+      "headline": "Katayama and Takaichi remarks send yen to best day in two weeks near 157/dollar as oil eases 2% on Iran truce hopes",
+      "summary": "Japanese Finance Minister Satsuki Katayama said Tokyo \"won't hesitate to take bold action\" on the yen and Prime Minister Sanae Takaichi said she had told President Trump an undervalued yen was \"problematic,\" sending the yen up as much as 0.6-1% to around 157 per dollar for its best day in over two weeks, while the dollar dipped and oil eased roughly 2% on hopes for a US-Iran truce.",
+      "summary_ja": "片山さつき財務相が円について「大胆な行動を取ることも辞さない」と述べ、高市早苗首相もトランプ大統領に「円安は問題だ」と伝えたと明かしたことで、円は対ドルで一時0.6~1%上昇し1ドル=157円前後まで買われ、2週間超ぶりの大幅高となった。同日、ドルは下落し、米イラン停戦への期待から原油も約2%下落した。",
+      "source": "Yahoo Finance (Bloomberg)",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/yen-heads-best-day-two-064223233.html"
+    },
+    {
+      "date": "2026-09-24",
+      "headline": "Katayama says principles behind July's Japan-US joint yen intervention 'remain alive'",
+      "summary": "Katayama said the principles underpinning July's coordinated Japan-US yen-buying intervention \"remain alive,\" signalling Tokyo's readiness to intervene jointly again if renewed yen weakness warrants it.",
+      "summary_ja": "片山財務相は7月の日米協調円買い介入を支える原則は「生きている」と述べ、円安が再燃すれば再び協調介入も辞さない姿勢を示した。",
+      "source": "Investing.com (Reuters)",
+      "url": "https://www.investing.com/news/economy-news/japans-katayama-says-principles-of-japanus-fx-intervention-remain-in-place-4914402"
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "BOJ hikes policy rate 25bp to 1.25%, highest since 1995, in split 7-2 vote",
+      "summary": "The Bank of Japan raised its policy rate by 25 basis points to 1.25% in a 7-2 vote at its September meeting, the highest level since 1995, with two reflationist board members appointed by PM Takaichi dissenting.",
+      "summary_ja": "日銀は9月の金融政策決定会合で政策金利を0.25%引き上げ1.25%とすることを7対2の賛成多数で決定した。1995年以来の高水準で、高市首相が任命したリフレ派の審議委員2人が反対した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Fed raises rates 25bp to 3.75%-4.00%, first hike since 2023, dot plot flags more increases",
+      "summary": "The US Federal Reserve raised the federal funds rate by 25 basis points to a 3.75%-4.00% range, its first hike since 2023, with the updated dot plot signalling further increases could follow.",
+      "summary_ja": "米連邦準備制度理事会(FRB)はフェデラルファンド金利を0.25%引き上げ3.75~4.00%のレンジとした。2023年以来の利上げで、更新されたドットプロットは追加利上げの可能性を示唆した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "OPEC+ core members hold October output flat after September's 188,000 bpd increase",
+      "summary": "OPEC+'s core eight members agreed to hold October production at September's level, pausing further increases after having raised output by 188,000 barrels per day in September.",
+      "summary_ja": "OPECプラスの主要8カ国は10月の生産量を9月と同水準に据え置くことで合意した。9月に日量18万8000バレルの増産を実施した後、増産ペースを一旦停止する形となった。",
+      "source": "Energy Connects",
+      "url": "https://www.energyconnects.com/news/oil/2026/september/opecplus-keeps-output-policy-unchanged-for-october"
+    },
+    {
+      "date": "2026-08-03",
+      "headline": "Japan, US confirm rare July 31 coordinated yen-buying intervention, Bessent vows readiness for more",
+      "summary": "Japan and the US confirmed a rare coordinated yen-buying intervention conducted on July 31, with US Treasury Secretary Scott Bessent saying Washington \"will not hesitate to participate in further joint intervention\" if disorderly currency moves resume.",
+      "summary_ja": "日本と米国は7月31日に実施した異例の協調円買い介入を確認した。ベッセント米財務長官は、無秩序な相場変動が再発すれば「さらなる協調介入への参加もためらわない」と述べた。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/03/yen-intervention-us-japan-trump-bessent-katayama.html"
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "BOJ holds rate at 1%, warns on inflation, same day as Japan-US joint yen intervention",
+      "summary": "The Bank of Japan held its policy rate at 1% while warning that core inflation could exceed its 2% target, the same day Tokyo and Washington carried out their joint yen-buying intervention.",
+      "summary_ja": "日銀は政策金利を1%に据え置く一方、コアインフレ率が2%目標を上回る可能性があると警告した。同日、日米は協調円買い介入を実施した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html"
+    }
+  ],
+  "since": [
+    {
+      "date": "2026-10-30",
+      "headline": "Brent rises 2.4% to about $117.56, WTI to $104.17, on track for fourth straight monthly gain near 15% after new Hormuz tanker strike",
+      "summary": "Brent crude rose about 2.4% to roughly $117.56 a barrel and WTI gained about 2.1% to roughly $104.17 on October 30, 2026, putting Brent on track for a roughly 15% monthly gain, its fourth consecutive monthly rise, after a tanker was struck in the Strait of Hormuz and the US repeated it could resume strikes on Iran.",
+      "summary_ja": "2026年10月30日、ブレント原油は約2.4%高の1バレル117.56ドル前後、WTIも約2.1%高の104.17ドル前後となった。ホルムズ海峡で新たなタンカー攻撃が発生し、米国がイランへの攻撃再開の可能性を改めて示したことが背景。ブレントは月間で約15%の上昇となり4カ月連続の上昇となる見通し。",
+      "source": "The National",
+      "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "Israel's Central Elections Committee certifies final Oct 27 result: Netanyahu bloc 53 seats, Eisenkot bloc 48, Arab parties 19",
+      "summary": "Israel's Central Elections Committee published the final certified count from the October 27 election in the early hours of October 30, 2026, confirming Prime Minister Netanyahu's bloc at 53 seats and the opposition bloc led by Gadi Eisenkot at 48, with Arab-led parties at 19 combined; all blocs remain short of the 61-seat majority needed to govern.",
+      "summary_ja": "イスラエル中央選挙管理委員会は2026年10月30日未明、10月27日総選挙の最終確定結果を発表した。ネタニヤフ首相派ブロックが53議席、ガディ・アイゼンコット氏率いる野党ブロックが48議席、アラブ系政党が合計19議席となった。いずれのブロックも政権樹立に必要な過半数61議席には届いていない。",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "BOJ holds rate at 1.25% in 8-1 vote, says inflation hit 2% target and signals more hikes; yen firms to around 157/dollar",
+      "summary": "The Bank of Japan held its policy rate at 1.25% in an 8-1 vote on October 30, 2026, with board member Hajime Takata dissenting in favor of a hike; the bank said underlying inflation had reached its 2% target and signaled it would keep raising rates based on economic, price and financial conditions. The yen firmed roughly 0.4% to around 157 per dollar after the decision.",
+      "summary_ja": "日銀は2026年10月30日の金融政策決定会合で、政策金利を1.25%に据え置くことを8対1の賛成多数で決定した。高田創審議委員は利上げを主張し反対した。日銀は基調的インフレが2%目標に達したとし、経済・物価・金融情勢を踏まえ利上げを続ける方針を示した。決定後、円は対ドルで約0.4%上昇し157円近辺となった。",
+      "source": "TokenPost",
+      "url": "https://www.tokenpost.com/news/regulation/44257"
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "Netanyahu's Likud calls Israel's Oct 27 election result 'stolen' as coalition talks drag on with neither bloc near a majority",
+      "summary": "Days after the Oct 27 vote, coalition talks continued with neither Prime Minister Netanyahu's bloc nor Gadi Eisenkot's opposition bloc close to the 61-seat majority, and Netanyahu's Likud party said the election had been stolen.",
+      "summary_ja": "10月27日の選挙後、ネタニヤフ首相派とアイゼンコット氏の野党連合のいずれも過半数61議席に届かないまま連立協議が続き、ネタニヤフ氏のリクードは選挙結果を「盗まれた」と主張した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html"
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "Brent eases toward $114.50 as Saudi-mediated Iran diplomacy offsets US strike warnings",
+      "summary": "Brent crude slipped to around $114.50 a barrel in early October 29 trading as Saudi, Turkish and Pakistani mediation with Iran raised hopes of de-escalation, even as Washington reportedly warned Gulf allies to prepare for possible renewed strikes on Iran after the November 3 US midterms.",
+      "summary_ja": "10月29日、サウジ・トルコ・パキスタンによるイラン調停への期待から、ブレント原油は1バレル114.5ドル前後まで下落した。一方、米国は中間選挙後のイラン攻撃再開に備えるよう湾岸諸国に警告したと報じられた。",
+      "source": "The National",
+      "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "Yen weakens toward 158/dollar as Fed hold and fading safe-haven demand lift the dollar ahead of BOJ decision",
+      "summary": "USD/JPY rose back toward 158 in Asian trading on October 29 as the dollar firmed after the Fed's rate hold and safe-haven flows into the yen faded, with the Bank of Japan's own policy decision due October 30 and markets widely expecting it to hold its rate at 1.25%.",
+      "summary_ja": "10月29日、FOMCの金利維持を受けドルが堅調となり円の逃避需要も後退し、ドル円は158円台まで戻した。日銀は30日に政策決定予定で、市場は1.25%での維持を見込む。",
+      "source": "FXStreet",
+      "url": "https://www.fxstreet.com/news/japanese-yen-declines-due-to-stronger-us-dollar-safe-haven-outflows-202610290103"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Fed holds rates at 3.75%-4% in 10-2 vote, two dissenters favored a hike",
+      "summary": "The Federal Reserve held its benchmark rate range at 3.75%-4% on October 28 in a 10-2 vote, with Governor Lisa Cook and Cleveland Fed President Beth Hammack dissenting in favor of a quarter-point increase; Chair Kevin Warsh denied the midterm elections influenced the decision.",
+      "summary_ja": "FRBは10月28日、政策金利を3.75~4%で維持することを10対2の賛成多数で決定した。クック理事とクリーブランド連銀ハマック総裁は0.25%の利上げを求め反対した。ウォーシュ議長は中間選挙の影響を否定した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Brent settles above $115, up 1.3%, as US reportedly readies post-midterm Iran strikes",
+      "summary": "Brent crude futures rose 1.3% to settle at $115.32 a barrel on October 28, after reports that the United States is preparing to resume strikes against Iran once the November 3 midterm elections pass.",
+      "summary_ja": "10月28日、米国が中間選挙後にイラン攻撃を再開する準備を進めているとの報道を受け、ブレント原油先物は1.3%高の1バレル115.32ドルで引けた。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Shekel and Israeli stocks slide as election leaves neither Netanyahu nor Eisenkot bloc with a majority",
+      "summary": "Israel's shekel fell roughly 1%-2% and Tel Aviv stock indexes dropped about 2.3%-3% on October 28 after the October 27 election left neither Netanyahu's nor Eisenkot's bloc with the 61 seats needed for a majority; President Herzog said he would consult party leaders before assigning the mandate to form a government, with final results due November 4.",
+      "summary_ja": "10月27日の選挙でネタニヤフ陣営もアイゼンコット陣営も過半数61議席に届かず、28日にシェケルは1~2%、テルアビブ株も2.3~3%下落した。ヘルツォーク大統領は各党と協議後に組閣委任する考えで、確定結果は11月4日見込み。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Israel's Oct 27 election leaves Netanyahu's bloc 8 seats short of a majority at 53-48, coalition talks uncertain",
+      "summary": "With about 93% of polling stations and 85.6% of votes counted after Israel's October 27, 2026 Knesset election, Prime Minister Benjamin Netanyahu's right-wing and religious bloc stood at a projected 53 seats, eight short of the 61 needed to govern, while the opposition bloc led by former military chief Gadi Eisenkot held 48, with Arab parties projected to win a combined 19; Eisenkot has ruled out serving under Netanyahu, including in a rotation government, complicating coalition talks, and remaining ballots could still shift the count.",
+      "summary_ja": "2026年10月27日のイスラエル総選挙を受け、開票率約93%(得票ベースで85.6%)の時点で、ネタニヤフ首相率いる右派・宗教政党ブロックは53議席となり、政権樹立に必要な61議席に8議席届かない見通しとなった。元軍参謀総長ガディ・アイゼンコット氏率いる野党ブロックは48議席、アラブ系政党は合計19議席を得る見通しとなっている。アイゼンコット氏はローテーション制を含めネタニヤフ氏の下での入閣を拒否しており、連立協議は不透明さを増している。残る票の集計で結果が変わる可能性もある。",
+      "source": "The Jerusalem Post",
+      "url": "https://www.jpost.com/israel-election-2026/article-913122"
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "Israel goes to the polls October 27 in tight Knesset race pitting Netanyahu's Likud against Eisenkot's Yashar, neither bloc assured of a majority",
+      "summary": "Israel's 120-seat Knesset election was set for October 27, 2026, in a closely contested race between Prime Minister Benjamin Netanyahu's Likud party and former military chief Gadi Eisenkot's Yashar party, with CNN reporting ahead of the vote that neither bloc was clearly positioned to secure the 61 seats needed for a governing majority.",
+      "summary_ja": "イスラエルの定数120の国会(クネセト)選挙は2026年10月27日に予定されていた。CNNは投票前の報道で、ネタニヤフ首相率いるリクードと、元軍参謀総長ガディ・アイゼンコット氏の新党ヤシャールとの接戦になっており、過半数となる61議席の確保を確実にしているブロックはどちらも存在しないと伝えた。",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/10/25/middleeast/israel-election-2026-whats-at-stake-intl"
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "Gulf News: Brent and WTI ease as Gulf attacks persist, but UAE's Murban crude jumps 3% to $118",
+      "summary": "Gulf News reported that Brent and WTI crude eased on Monday, October 26, 2026 as continuing attacks in the Gulf rattled markets, even as the UAE's Murban benchmark defied the move, jumping 3% to $118 a barrel.",
+      "summary_ja": "ガルフ・ニュースの報道によると、2026年10月26日(月)、湾岸地域での攻撃が続く中で相場が揺さぶられ、ブレント原油とWTI原油は値を下げた一方、UAEのムルバン原油は流れに逆らって3%上昇し1バレル118ドルとなった。",
+      "source": "Gulf News",
+      "url": "https://gulfnews.com/business/energy/crude-oils-weird-monday-brent-wti-slip-as-attacks-rattle-markets-murban-jumps-3-to-118-1.500723522"
+    },
+    {
+      "date": "2026-10-25",
+      "headline": "Gulf News: new LPG tanker attack near Oman; JMIC rates Strait of Hormuz threat 'severe', about 500 vessels waiting outside",
+      "summary": "Gulf News reported a new attack on a liquefied petroleum gas tanker near Oman, with the Joint Maritime Information Center rating the threat level in the Strait of Hormuz as severe; the report said nearly 500 vessels were waiting outside the strait amid the ongoing disruption.",
+      "summary_ja": "ガルフ・ニュースは、オマーン沖でLPG(液化石油ガス)タンカーが新たに攻撃を受けたと報じた。統合海事情報センター(JMIC)はホルムズ海峡の脅威レベルを「深刻」と評価しているという。同紙によると、海峡の混乱が続く中、約500隻の船舶が海峡外で待機している。",
+      "source": "Gulf News",
+      "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
+    },
+    {
+      "date": "2026-10-24",
+      "headline": "Trump weighs resuming Iran strikes as Pentagon reinforces Gulf with more warships and Marines ahead of US and Israeli elections",
+      "summary": "Reports on October 24, 2026 said the Trump administration is weighing renewed military strikes against Iran and preparing to escalate once the November 3 US midterm elections and Israel's October 27 election have passed, as the Pentagon continued sending additional warships and Marines to the Middle East.",
+      "summary_ja": "2026年10月24日の報道によると、トランプ政権はイランへの新たな軍事攻撃を検討しており、11月3日の米中間選挙とイスラエルの10月27日選挙が終わった後にエスカレーションに踏み切る準備を進めているという。国防総省は中東への艦艇・海兵隊の増派を続けている。",
+      "source": "The Spokesman-Review",
+      "url": "https://spokesman.com/stories/2026/oct/24/trump-prepares-for-iran-escalation-after-us-israel"
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "Brent settles at $116.72, highest close since April, logging third straight weekly gain of 6.2%",
+      "summary": "Brent crude futures rose 3.1% to settle at $116.72 a barrel on October 23, 2026, their highest close since April 29, while WTI added 3.8% to settle at $103.27; Brent gained 6.2% for the week, its third consecutive weekly increase, as Middle East tensions including the Strait of Hormuz standoff continued to support prices.",
+      "summary_ja": "2026年10月23日、ブレント原油先物は3.1%高の1バレル116.72ドルで引け、4月29日以来の高値を付けた。WTIも3.8%高の103.27ドルで終えた。ブレントは週間で6.2%上昇し3週連続の上昇となった。ホルムズ海峡を巡る対立を含む中東情勢の緊張が原油価格を支えている。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "WTI crude tops $100/barrel, up more than 10% over three weeks on Hormuz supply fears",
+      "summary": "WTI crude futures rose above $100 a barrel, putting the US benchmark on track for a gain of more than 10% over three weeks, as fears of supply disruption from the Strait of Hormuz conflict persisted.",
+      "summary_ja": "WTI原油先物が1バレル100ドルを超え、過去3週間で10%超の上昇となる見通しとなった。ホルムズ海峡の紛争による供給混乱への懸念が続いていることが背景にある。",
+      "source": "FXStreet",
+      "url": "https://www.fxstreet.com/news/wti-oil-rises-beyond-100-amid-fresh-concerns-of-supply-disruptions-202610230716"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Trump accuses Iran of staging fake tanker attacks to inflate oil prices before US midterms",
+      "summary": "President Trump said Iran is fabricating reports of tanker attacks and mine strikes in the Strait of Hormuz to drive up oil prices ahead of the November 3 US midterm elections, while the White House repeated that it will not strike Iran before the vote. A CENTCOM spokesperson separately called Iran's mine-strike claims incorrect.",
+      "summary_ja": "トランプ大統領は、イランがホルムズ海峡でのタンカー攻撃や機雷被害の報告を捏造し、11月3日の米中間選挙前に原油価格を押し上げようとしていると非難した。ホワイトハウスは中間選挙前にイランを攻撃しない方針を改めて示し、CENTCOM報道官もイランの機雷被害の主張は不正確だと述べた。",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Lloyd's List: Hormuz-area ship attacks hit record 28 in October, most since war began",
+      "summary": "Lloyd's List Intelligence data cited by NBC News showed 28 attacks on vessels in and around the Strait of Hormuz so far in October, the highest monthly total since the US-Iran war began on February 28. Tankers continue to transit the strait under US naval escort despite the surge in attacks.",
+      "summary_ja": "NBCニュースが引用したロイズ・リスト・インテリジェンスのデータによると、10月のホルムズ海峡周辺での船舶攻撃件数は28件に達し、2月28日の米イラン開戦以降で最多となった。攻撃の増加にもかかわらず、タンカーは米海軍の護衛下で海峡の航行を続けている。",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/world/iran/iran-strikes-strait-hormuz-shipping-trump-oil-prices-midterms-rcna603670"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Iran claims 7 tankers hit overnight in Strait of Hormuz, largest single-day toll of the war if confirmed, as Saudi coalition intercepts drones",
+      "summary": "Iranian state media and the Revolutionary Guard Corps said seven oil tankers were struck in the Strait of Hormuz overnight into October 22, 2026 - four hit while transferring oil and three hit naval mines - which, if confirmed, would be the largest single-day toll in the waterway since the war began on February 28; the claims were not independently verified. The same day, a Saudi-led coalition intercepted drones in its airspace.",
+      "summary_ja": "イラン国営メディアと革命防衛隊(IRGC)は、2026年10月22日未明までにホルムズ海峡で原油タンカー7隻が被弾したと発表した。4隻は原油の移送中に攻撃を受け、3隻は機雷に接触したとされる。事実であれば2月28日の開戦以来最大の単日被害となるが、独立した形での確認はされていない。同日、サウジ主導の連合軍は自国領空で無人機を迎撃した。",
+      "source": "CBC News",
+      "url": "https://www.cbc.ca/news/world/mideast-hormuz-saudi-arabia-attacks-9.7391297"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Brent crude tops $112 a barrel, highest since May, as Hormuz attacks and Houthi strikes on Saudi infrastructure intensify",
+      "summary": "Brent crude rose to around $112.41 a barrel, its highest level since May, while WTI traded near $99.95, as renewed attacks on shipping around the Strait of Hormuz and Houthi strikes on Saudi infrastructure added to supply concerns; gold and silver were pressured on the day despite lower bond yields.",
+      "summary_ja": "ホルムズ海峡周辺での船舶攻撃激化とサウジの石油関連インフラへのフーシ派攻撃を背景に、ブレント原油は1バレル112.41ドル前後まで上昇し5月以来の高値となった。WTIは99.95ドル前後で推移した。利回り低下にもかかわらず金・銀相場は値を下げた。",
+      "source": "Kitco News",
+      "url": "https://kitco.com/news/article/2026-10-22/gold-silver-pressured-despite-lower-yields-hormuz-attacks-send-crude-higher"
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Netanyahu tells election rally that toppling Iran's regime is the \"only way\" to end its threat, orders military and Mossad to pursue it",
+      "summary": "At an election rally in Dimona on October 21, 2026, Israeli Prime Minister Benjamin Netanyahu said removing the threat posed by Iran required toppling its government, stating \"there is only one way to end this: by toppling this regime,\" and said he had instructed Israel's military and Mossad to pursue the regime's overthrow, days ahead of Israel's October 27 election.",
+      "summary_ja": "イスラエルのネタニヤフ首相は2026年10月21日、ディモナでの選挙集会で、イランの脅威を取り除くには同国政権を打倒する必要があると述べ、「この脅威を終わらせる方法は、この政権を打倒することしかない」と表明した。軍とモサドに政権打倒の追求を指示したとも明らかにした。10月27日のイスラエル総選挙を数日後に控えての発言である。",
+      "source": "Arab News (via Reuters)",
+      "url": "https://www.arabnews.pk/middle-east/netanyahu-says-toppling-iran-government-only-way-to-end-threat-3004856"
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "FT: Netanyahu had ordered multi-day bombing campaign against Iran for Oct 10 weekend, but Trump blocked it over US midterms",
+      "summary": "The Financial Times reported, citing three people familiar with the matter, that Prime Minister Benjamin Netanyahu had ordered Israel's military to prepare a multi-day bombing campaign against Iranian nuclear, regime and infrastructure targets for the weekend of October 10, 2026, but that President Trump opposed restarting the war before the November 3 US midterm elections, so the strikes were not carried out; the White House said the US has no plans to attack Iran before the midterms.",
+      "summary_ja": "フィナンシャル・タイムズは事情に詳しい関係者3人の情報として、ネタニヤフ首相がイランの核・政権・インフラ関連の標的に対する複数日間の爆撃作戦を2026年10月10日の週末に向けて準備するよう軍に指示していたが、トランプ大統領が11月3日の米中間選挙前の戦争再開に反対したため攻撃は実行されなかったと報じた。ホワイトハウスは中間選挙前にイランを攻撃する計画はないとしている。",
+      "source": "The Times of Israel (citing Financial Times)",
+      "url": "https://www.timesofisrael.com/netanyahu-planned-attack-on-iran-earlier-this-month-but-trump-opposed-it-report/"
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Kpler: at least 18 vessel attacks logged over two weeks as strikes spread from Hormuz into Gulf of Oman",
+      "summary": "Maritime risk tracker Kpler recorded at least 18 attacks on vessels in the Strait of Hormuz area over the preceding two weeks, and LSEG analysts said the geographic scope of the attacks had expanded into the Gulf of Oman, Al Arabiya English reported.",
+      "summary_ja": "海事リスク調査会社Kplerは、過去2週間でホルムズ海峡周辺の船舶攻撃が少なくとも18件発生したと集計した。LSEGのアナリストは、攻撃の地理的範囲がオマーン湾にも拡大していると指摘したと、アルアラビーヤ英語版が報じた。",
+      "source": "Al Arabiya English",
+      "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "UKMTO: projectile strikes tanker 11 nautical miles west of Oman's Bukha near Strait of Hormuz; fire doused, crew safe",
+      "summary": "The UK Maritime Trade Operations agency said a tanker was struck by an unidentified projectile about 11 nautical miles west of Bukha, Oman, overlooking the Strait of Hormuz; the resulting fire was extinguished, the vessel remained at anchor and all crew were reported safe, with the projectile's origin not identified.",
+      "summary_ja": "英海事貿易活動機関(UKMTO)は、ホルムズ海峡を望むオマーンのブハ西方約11海里の海域で、タンカー1隻が不明の飛来物による攻撃を受けたと発表した。発生した火災は鎮火し、同船は錨泊した状態を維持しており、乗組員全員の安全が確認されている。飛来物の発生源は特定されていない。",
+      "source": "Al Arabiya English",
+      "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "UKMTO reports tanker's ‘interaction’ with military forces off Oman, identity undisclosed",
+      "summary": "The UK Maritime Trade Operations agency said a tanker was involved in an incident with military forces about 121 nautical miles east of Duqm, Oman, and that authorities were investigating; it gave no further detail on the vessel's identity or nationality.",
+      "summary_ja": "英国海事貿易活動機関(UKMTO)は、オマーリンのドゥクム東方約121海里の海域で、タンカー1隻が軍事勢力との「接触」事案に遭ったと発表した。當局が調査中であり、船名や船籍など詳細は明らかにしていない。",
+      "source": "Iran International",
+      "url": "https://www.iranintl.com/en/202610203250"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "IRGC claims naval mines disabled two tankers on US-backed Hormuz route; vessels unidentified, unconfirmed by CENTCOM/UKMTO",
+      "summary": "Iran's Revolutionary Guard Corps said naval mines halted two tankers transiting the Strait of Hormuz via a southern route backed by the US that Iran does not recognize, without identifying either vessel, its flag or extent of damage; CENTCOM and UKMTO had not confirmed the claim.",
+      "summary_ja": "イラン革命防衛隊(IRGC)は、米国が支援しイランが認めていないホルムズ海峡南側の航路を通過していたタンカー2隻が機雷により航行不能になったと主張した。船名や船籍、被害の程度は明らかにされていない。米中央軍(CENTCOM)と英海事当局UKMTOはこの主張を確認していない。",
+      "source": "Al Arabiya English",
+      "url": "https://english.alarabiya.net/News/middle-east/2026/10/20/iran-s-irgc-says-mines-halted-two-tankers-crossing-strait-of-hormuz"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "Iran claims it downed a US MQ-9 Reaper drone over the Strait of Hormuz; CENTCOM has not commented",
+      "summary": "Iran said its forces shot down a US MQ-9 Reaper drone over the Strait of Hormuz; US Central Command had not commented on the claim.",
+      "summary_ja": "イランは、米軍のMQ-9リーパー無人機1機をホルムズ海峡上空で撃墜したと主張した。米中央軍(CENTCOM)はこの主張についてコメントしていない。",
+      "source": "HNGN",
+      "url": "https://www.hngn.com/articles/273540/20261020/iran-says-two-supertankers-hit-mines-hormuz.htm"
+    },
+    {
+      "date": "2026-10-19",
+      "headline": "IRGC says another tanker catches fire after mine strike in Hormuz, alleges unauthorized southern route",
+      "summary": "Reuters reported, via The Korea Times, that Iran's Revolutionary Guards Navy said on Monday, October 19, 2026 that another oil tanker caught fire after hitting a naval mine in the Strait of Hormuz, alleging the vessel had used an unauthorized southern route and disabled its positioning and navigation systems; the claim was not independently verified.",
+      "summary_ja": "ロイターがコリア・タイムズ経由で報じたところによると、イラン革命防衛隊海軍は2026年10月19日(月)、ホルムズ海峡で別のタンカーが機雷に接触し出火したと発表した。同船は無許可の南側航路を使用し、測位・航行システムを無効化していたと主張しているが、独立した形での確認はされていない。",
+      "source": "Reuters (via The Korea Times)",
+      "url": "https://www.koreatimes.co.kr/world/20261019/oil-tanker-on-fire-after-hitting-mine-in-hormuz"
+    },
+    {
+      "date": "2026-10-18",
+      "headline": "Tugboat hit by two unidentified projectiles northeast of UAE's Khor Fakkan, one crew member injured",
+      "summary": "UKMTO reported that a southbound tugboat was struck by two unidentified projectiles northeast of Khor Fakkan, a UAE port on the Gulf of Oman near the Strait of Hormuz, on Sunday, October 18, 2026; one crew member sustained minor injuries and the vessel was able to continue its journey.",
+      "summary_ja": "英海事当局UKMTOの報告によると、2026年10月18日(日)、ホルムズ海峡に近いUAEのガルフ・オブ・オマーン沿岸の港ホルファッカン北東方で、南行きのタグボート1隻が不明の飛来物2発を受けた。乗組員1人が軽傷を負ったが、同船は航行を継続できたという。",
+      "source": "Greek Reporter (via UKMTO)",
+      "url": "https://greekreporter.com/2026/10/18/tugboat-hit-off-uae/"
+    },
+    {
+      "date": "2026-10-17",
+      "headline": "US and Iran each claim control of Strait of Hormuz after weekend container-ship attack; Trump says US reinstating blockade and fee for safe passage",
+      "summary": "Al Jazeera reported that the US and Iran each asserted control of the Strait of Hormuz after a weekend Iranian attack on a container ship, with Iran citing a right under last month's interim peace deal to manage transit and potentially charge fees, while President Trump said the US was reinstating a blockade on Iran in the strait and would also charge ships for safe passage; the dispute came roughly halfway through the 60-day window set for talks on a permanent end to the war.",
+      "summary_ja": "アルジャジーラの報道によると、週末にイランがコンテナ船を攻撃した後、米国とイランはそれぞれホルムズ海峡の管理権を主張した。イランは先月の暫定和平合意に基づき通航を管理し通行料を課す権利があるとし、トランプ大統領は米国がイランに対する海峡封鎖を再開し、船舶にも安全通航料を課すと述べた。この対立は、戦争終結に向けた恒久的合意を協議するとされた60日間の交渉期間のおおむね中間時点で起きた。",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels"
+    }
   ]
- },
- "background": [
-  {
-   "date": "2026-09-26",
-   "headline": "Trump rejects Iran's conditional ceasefire proposal for Hormuz as Saudi coalition intercepts projectiles",
-   "summary": "CNBC reported, citing the Wall Street Journal, that President Trump rejected Iran's conditional ceasefire proposal tied to the Strait of Hormuz, while a Saudi-led coalition intercepted incoming projectiles, keeping Middle East war-risk elevated heading into the weekend.",
-   "summary_ja": "CNBCがウォール・ストリート・ジャーナルの報道として伝えたところによると、トランプ大統領はホルムズ海峡を巡るイランの条件付き停戦案を拒否し、サウジ主導の連合軍は飛来物を迎撃した。週末を前に中東の地政学リスクは高止まりした。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/26/trump-rejects-irans-conditional-ceasefire-proposal-wsj-reports.html"
-  },
-  {
-   "date": "2026-09-25",
-   "headline": "Katayama and Takaichi remarks send yen to best day in two weeks near 157/dollar as oil eases 2% on Iran truce hopes",
-   "summary": "Japanese Finance Minister Satsuki Katayama said Tokyo \"won't hesitate to take bold action\" on the yen and Prime Minister Sanae Takaichi said she had told President Trump an undervalued yen was \"problematic,\" sending the yen up as much as 0.6-1% to around 157 per dollar for its best day in over two weeks, while the dollar dipped and oil eased roughly 2% on hopes for a US-Iran truce.",
-   "summary_ja": "片山さつき財務相が円について「大胆な行動を取ることも辞さない」と述べ、高市早苗首相もトランプ大統領に「円安は問題だ」と伝えたと明かしたことで、円は対ドルで一時0.6~1%上昇し1ドル=157円前後まで買われ、2週間超ぶりの大幅高となった。同日、ドルは下落し、米イラン停戦への期待から原油も約2%下落した。",
-   "source": "Yahoo Finance (Bloomberg)",
-   "url": "https://finance.yahoo.com/markets/currencies/articles/yen-heads-best-day-two-064223233.html"
-  },
-  {
-   "date": "2026-09-24",
-   "headline": "Katayama says principles behind July's Japan-US joint yen intervention 'remain alive'",
-   "summary": "Katayama said the principles underpinning July's coordinated Japan-US yen-buying intervention \"remain alive,\" signalling Tokyo's readiness to intervene jointly again if renewed yen weakness warrants it.",
-   "summary_ja": "片山財務相は7月の日米協調円買い介入を支える原則は「生きている」と述べ、円安が再燃すれば再び協調介入も辞さない姿勢を示した。",
-   "source": "Investing.com (Reuters)",
-   "url": "https://www.investing.com/news/economy-news/japans-katayama-says-principles-of-japanus-fx-intervention-remain-in-place-4914402"
-  },
-  {
-   "date": "2026-09-18",
-   "headline": "BOJ hikes policy rate 25bp to 1.25%, highest since 1995, in split 7-2 vote",
-   "summary": "The Bank of Japan raised its policy rate by 25 basis points to 1.25% in a 7-2 vote at its September meeting, the highest level since 1995, with two reflationist board members appointed by PM Takaichi dissenting.",
-   "summary_ja": "日銀は9月の金融政策決定会合で政策金利を0.25%引き上げ1.25%とすることを7対2の賛成多数で決定した。1995年以来の高水準で、高市首相が任命したリフレ派の審議委員2人が反対した。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
-  },
-  {
-   "date": "2026-09-16",
-   "headline": "Fed raises rates 25bp to 3.75%-4.00%, first hike since 2023, dot plot flags more increases",
-   "summary": "The US Federal Reserve raised the federal funds rate by 25 basis points to a 3.75%-4.00% range, its first hike since 2023, with the updated dot plot signalling further increases could follow.",
-   "summary_ja": "米連邦準備制度理事会(FRB)はフェデラルファンド金利を0.25%引き上げ3.75~4.00%のレンジとした。2023年以来の利上げで、更新されたドットプロットは追加利上げの可能性を示唆した。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
-  },
-  {
-   "date": "2026-09-06",
-   "headline": "OPEC+ core members hold October output flat after September's 188,000 bpd increase",
-   "summary": "OPEC+'s core eight members agreed to hold October production at September's level, pausing further increases after having raised output by 188,000 barrels per day in September.",
-   "summary_ja": "OPECプラスの主要8カ国は10月の生産量を9月と同水準に据え置くことで合意した。9月に日量18万8000バレルの増産を実施した後、増産ペースを一旦停止する形となった。",
-   "source": "Energy Connects",
-   "url": "https://www.energyconnects.com/news/oil/2026/september/opecplus-keeps-output-policy-unchanged-for-october"
-  },
-  {
-   "date": "2026-08-03",
-   "headline": "Japan, US confirm rare July 31 coordinated yen-buying intervention, Bessent vows readiness for more",
-   "summary": "Japan and the US confirmed a rare coordinated yen-buying intervention conducted on July 31, with US Treasury Secretary Scott Bessent saying Washington \"will not hesitate to participate in further joint intervention\" if disorderly currency moves resume.",
-   "summary_ja": "日本と米国は7月31日に実施した異例の協調円買い介入を確認した。ベッセント米財務長官は、無秩序な相場変動が再発すれば「さらなる協調介入への参加もためらわない」と述べた。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/03/yen-intervention-us-japan-trump-bessent-katayama.html"
-  },
-  {
-   "date": "2026-07-31",
-   "headline": "BOJ holds rate at 1%, warns on inflation, same day as Japan-US joint yen intervention",
-   "summary": "The Bank of Japan held its policy rate at 1% while warning that core inflation could exceed its 2% target, the same day Tokyo and Washington carried out their joint yen-buying intervention.",
-   "summary_ja": "日銀は政策金利を1%に据え置く一方、コアインフレ率が2%目標を上回る可能性があると警告した。同日、日米は協調円買い介入を実施した。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html"
-  }
- ],
- "since": [
-  {
-   "date": "2026-10-30",
-   "headline": "Brent rises 2.4% to about $117.56, WTI to $104.17, on track for fourth straight monthly gain near 15% after new Hormuz tanker strike",
-   "summary": "Brent crude rose about 2.4% to roughly $117.56 a barrel and WTI gained about 2.1% to roughly $104.17 on October 30, 2026, putting Brent on track for a roughly 15% monthly gain, its fourth consecutive monthly rise, after a tanker was struck in the Strait of Hormuz and the US repeated it could resume strikes on Iran.",
-   "summary_ja": "2026年10月30日、ブレント原油は約2.4%高の1バレル117.56ドル前後、WTIも約2.1%高の104.17ドル前後となった。ホルムズ海峡で新たなタンカー攻撃が発生し、米国がイランへの攻撃再開の可能性を改めて示したことが背景。ブレントは月間で約15%の上昇となり4カ月連続の上昇となる見通し。",
-   "source": "The National",
-   "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Israel's Central Elections Committee certifies final Oct 27 result: Netanyahu bloc 53 seats, Eisenkot bloc 48, Arab parties 19",
-   "summary": "Israel's Central Elections Committee published the final certified count from the October 27 election in the early hours of October 30, 2026, confirming Prime Minister Netanyahu's bloc at 53 seats and the opposition bloc led by Gadi Eisenkot at 48, with Arab-led parties at 19 combined; all blocs remain short of the 61-seat majority needed to govern.",
-   "summary_ja": "イスラエル中央選挙管理委員会は2026年10月30日未明、10月27日総選挙の最終確定結果を発表した。ネタニヤフ首相派ブロックが53議席、ガディ・アイゼンコット氏率いる野党ブロックが48議席、アラブ系政党が合計19議席となった。いずれのブロックも政権樹立に必要な過半数61議席には届いていない。",
-   "source": "NBC News",
-   "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "BOJ holds rate at 1.25% in 8-1 vote, says inflation hit 2% target and signals more hikes; yen firms to around 157/dollar",
-   "summary": "The Bank of Japan held its policy rate at 1.25% in an 8-1 vote on October 30, 2026, with board member Hajime Takata dissenting in favor of a hike; the bank said underlying inflation had reached its 2% target and signaled it would keep raising rates based on economic, price and financial conditions. The yen firmed roughly 0.4% to around 157 per dollar after the decision.",
-   "summary_ja": "日銀は2026年10月30日の金融政策決定会合で、政策金利を1.25%に据え置くことを8対1の賛成多数で決定した。高田創審議委員は利上げを主張し反対した。日銀は基調的インフレが2%目標に達したとし、経済・物価・金融情勢を踏まえ利上げを続ける方針を示した。決定後、円は対ドルで約0.4%上昇し157円近辺となった。",
-   "source": "TokenPost",
-   "url": "https://www.tokenpost.com/news/regulation/44257"
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Netanyahu's Likud calls Israel's Oct 27 election result 'stolen' as coalition talks drag on with neither bloc near a majority",
-   "summary": "Days after the Oct 27 vote, coalition talks continued with neither Prime Minister Netanyahu's bloc nor Gadi Eisenkot's opposition bloc close to the 61-seat majority, and Netanyahu's Likud party said the election had been stolen.",
-   "summary_ja": "10月27日の選挙後、ネタニヤフ首相派とアイゼンコット氏の野党連合のいずれも過半数61議席に届かないまま連立協議が続き、ネタニヤフ氏のリクードは選挙結果を「盗まれた」と主張した。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html"
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Brent eases toward $114.50 as Saudi-mediated Iran diplomacy offsets US strike warnings",
-   "summary": "Brent crude slipped to around $114.50 a barrel in early October 29 trading as Saudi, Turkish and Pakistani mediation with Iran raised hopes of de-escalation, even as Washington reportedly warned Gulf allies to prepare for possible renewed strikes on Iran after the November 3 US midterms.",
-   "summary_ja": "10月29日、サウジ・トルコ・パキスタンによるイラン調停への期待から、ブレント原油は1バレル114.5ドル前後まで下落した。一方、米国は中間選挙後のイラン攻撃再開に備えるよう湾岸諸国に警告したと報じられた。",
-   "source": "The National",
-   "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Yen weakens toward 158/dollar as Fed hold and fading safe-haven demand lift the dollar ahead of BOJ decision",
-   "summary": "USD/JPY rose back toward 158 in Asian trading on October 29 as the dollar firmed after the Fed's rate hold and safe-haven flows into the yen faded, with the Bank of Japan's own policy decision due October 30 and markets widely expecting it to hold its rate at 1.25%.",
-   "summary_ja": "10月29日、FOMCの金利維持を受けドルが堅調となり円の逃避需要も後退し、ドル円は158円台まで戻した。日銀は30日に政策決定予定で、市場は1.25%での維持を見込む。",
-   "source": "FXStreet",
-   "url": "https://www.fxstreet.com/news/japanese-yen-declines-due-to-stronger-us-dollar-safe-haven-outflows-202610290103"
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Fed holds rates at 3.75%-4% in 10-2 vote, two dissenters favored a hike",
-   "summary": "The Federal Reserve held its benchmark rate range at 3.75%-4% on October 28 in a 10-2 vote, with Governor Lisa Cook and Cleveland Fed President Beth Hammack dissenting in favor of a quarter-point increase; Chair Kevin Warsh denied the midterm elections influenced the decision.",
-   "summary_ja": "FRBは10月28日、政策金利を3.75~4%で維持することを10対2の賛成多数で決定した。クック理事とクリーブランド連銀ハマック総裁は0.25%の利上げを求め反対した。ウォーシュ議長は中間選挙の影響を否定した。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Brent settles above $115, up 1.3%, as US reportedly readies post-midterm Iran strikes",
-   "summary": "Brent crude futures rose 1.3% to settle at $115.32 a barrel on October 28, after reports that the United States is preparing to resume strikes against Iran once the November 3 midterm elections pass.",
-   "summary_ja": "10月28日、米国が中間選挙後にイラン攻撃を再開する準備を進めているとの報道を受け、ブレント原油先物は1.3%高の1バレル115.32ドルで引けた。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Shekel and Israeli stocks slide as election leaves neither Netanyahu nor Eisenkot bloc with a majority",
-   "summary": "Israel's shekel fell roughly 1%-2% and Tel Aviv stock indexes dropped about 2.3%-3% on October 28 after the October 27 election left neither Netanyahu's nor Eisenkot's bloc with the 61 seats needed for a majority; President Herzog said he would consult party leaders before assigning the mandate to form a government, with final results due November 4.",
-   "summary_ja": "10月27日の選挙でネタニヤフ陣営もアイゼンコット陣営も過半数61議席に届かず、28日にシェケルは1~2%、テルアビブ株も2.3~3%下落した。ヘルツォーク大統領は各党と協議後に組閣委任する考えで、確定結果は11月4日見込み。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html"
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Israel's Oct 27 election leaves Netanyahu's bloc 8 seats short of a majority at 53-48, coalition talks uncertain",
-   "summary": "With about 93% of polling stations and 85.6% of votes counted after Israel's October 27, 2026 Knesset election, Prime Minister Benjamin Netanyahu's right-wing and religious bloc stood at a projected 53 seats, eight short of the 61 needed to govern, while the opposition bloc led by former military chief Gadi Eisenkot held 48, with Arab parties projected to win a combined 19; Eisenkot has ruled out serving under Netanyahu, including in a rotation government, complicating coalition talks, and remaining ballots could still shift the count.",
-   "summary_ja": "2026年10月27日のイスラエル総選挙を受け、開票率約93%(得票ベースで85.6%)の時点で、ネタニヤフ首相率いる右派・宗教政党ブロックは53議席となり、政権樹立に必要な61議席に8議席届かない見通しとなった。元軍参謀総長ガディ・アイゼンコット氏率いる野党ブロックは48議席、アラブ系政党は合計19議席を得る見通しとなっている。アイゼンコット氏はローテーション制を含めネタニヤフ氏の下での入閣を拒否しており、連立協議は不透明さを増している。残る票の集計で結果が変わる可能性もある。",
-   "source": "The Jerusalem Post",
-   "url": "https://www.jpost.com/israel-election-2026/article-913122"
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Israel goes to the polls October 27 in tight Knesset race pitting Netanyahu's Likud against Eisenkot's Yashar, neither bloc assured of a majority",
-   "summary": "Israel's 120-seat Knesset election was set for October 27, 2026, in a closely contested race between Prime Minister Benjamin Netanyahu's Likud party and former military chief Gadi Eisenkot's Yashar party, with CNN reporting ahead of the vote that neither bloc was clearly positioned to secure the 61 seats needed for a governing majority.",
-   "summary_ja": "イスラエルの定数120の国会(クネセト)選挙は2026年10月27日に予定されていた。CNNは投票前の報道で、ネタニヤフ首相率いるリクードと、元軍参謀総長ガディ・アイゼンコット氏の新党ヤシャールとの接戦になっており、過半数となる61議席の確保を確実にしているブロックはどちらも存在しないと伝えた。",
-   "source": "CNN",
-   "url": "https://www.cnn.com/2026/10/25/middleeast/israel-election-2026-whats-at-stake-intl"
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "Gulf News: Brent and WTI ease as Gulf attacks persist, but UAE's Murban crude jumps 3% to $118",
-   "summary": "Gulf News reported that Brent and WTI crude eased on Monday, October 26, 2026 as continuing attacks in the Gulf rattled markets, even as the UAE's Murban benchmark defied the move, jumping 3% to $118 a barrel.",
-   "summary_ja": "ガルフ・ニュースの報道によると、2026年10月26日(月)、湾岸地域での攻撃が続く中で相場が揺さぶられ、ブレント原油とWTI原油は値を下げた一方、UAEのムルバン原油は流れに逆らって3%上昇し1バレル118ドルとなった。",
-   "source": "Gulf News",
-   "url": "https://gulfnews.com/business/energy/crude-oils-weird-monday-brent-wti-slip-as-attacks-rattle-markets-murban-jumps-3-to-118-1.500723522"
-  },
-  {
-   "date": "2026-10-25",
-   "headline": "Gulf News: new LPG tanker attack near Oman; JMIC rates Strait of Hormuz threat 'severe', about 500 vessels waiting outside",
-   "summary": "Gulf News reported a new attack on a liquefied petroleum gas tanker near Oman, with the Joint Maritime Information Center rating the threat level in the Strait of Hormuz as severe; the report said nearly 500 vessels were waiting outside the strait amid the ongoing disruption.",
-   "summary_ja": "ガルフ・ニュースは、オマーン沖でLPG(液化石油ガス)タンカーが新たに攻撃を受けたと報じた。統合海事情報センター(JMIC)はホルムズ海峡の脅威レベルを「深刻」と評価しているという。同紙によると、海峡の混乱が続く中、約500隻の船舶が海峡外で待機している。",
-   "source": "Gulf News",
-   "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
-  },
-  {
-   "date": "2026-10-24",
-   "headline": "Trump weighs resuming Iran strikes as Pentagon reinforces Gulf with more warships and Marines ahead of US and Israeli elections",
-   "summary": "Reports on October 24, 2026 said the Trump administration is weighing renewed military strikes against Iran and preparing to escalate once the November 3 US midterm elections and Israel's October 27 election have passed, as the Pentagon continued sending additional warships and Marines to the Middle East.",
-   "summary_ja": "2026年10月24日の報道によると、トランプ政権はイランへの新たな軍事攻撃を検討しており、11月3日の米中間選挙とイスラエルの10月27日選挙が終わった後にエスカレーションに踏み切る準備を進めているという。国防総省は中東への艦艇・海兵隊の増派を続けている。",
-   "source": "The Spokesman-Review",
-   "url": "https://spokesman.com/stories/2026/oct/24/trump-prepares-for-iran-escalation-after-us-israel"
-  },
-  {
-   "date": "2026-10-23",
-   "headline": "Brent settles at $116.72, highest close since April, logging third straight weekly gain of 6.2%",
-   "summary": "Brent crude futures rose 3.1% to settle at $116.72 a barrel on October 23, 2026, their highest close since April 29, while WTI added 3.8% to settle at $103.27; Brent gained 6.2% for the week, its third consecutive weekly increase, as Middle East tensions including the Strait of Hormuz standoff continued to support prices.",
-   "summary_ja": "2026年10月23日、ブレント原油先物は3.1%高の1バレル116.72ドルで引け、4月29日以来の高値を付けた。WTIも3.8%高の103.27ドルで終えた。ブレントは週間で6.2%上昇し3週連続の上昇となった。ホルムズ海峡を巡る対立を含む中東情勢の緊張が原油価格を支えている。",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
-  },
-  {
-   "date": "2026-10-23",
-   "headline": "WTI crude tops $100/barrel, up more than 10% over three weeks on Hormuz supply fears",
-   "summary": "WTI crude futures rose above $100 a barrel, putting the US benchmark on track for a gain of more than 10% over three weeks, as fears of supply disruption from the Strait of Hormuz conflict persisted.",
-   "summary_ja": "WTI原油先物が1バレル100ドルを超え、過去3週間で10%超の上昇となる見通しとなった。ホルムズ海峡の紛争による供給混乱への懸念が続いていることが背景にある。",
-   "source": "FXStreet",
-   "url": "https://www.fxstreet.com/news/wti-oil-rises-beyond-100-amid-fresh-concerns-of-supply-disruptions-202610230716"
-  },
-  {
-   "date": "2026-10-22",
-   "headline": "Trump accuses Iran of staging fake tanker attacks to inflate oil prices before US midterms",
-   "summary": "President Trump said Iran is fabricating reports of tanker attacks and mine strikes in the Strait of Hormuz to drive up oil prices ahead of the November 3 US midterm elections, while the White House repeated that it will not strike Iran before the vote. A CENTCOM spokesperson separately called Iran's mine-strike claims incorrect.",
-   "summary_ja": "トランプ大統領は、イランがホルムズ海峡でのタンカー攻撃や機雷被害の報告を捏造し、11月3日の米中間選挙前に原油価格を押し上げようとしていると非難した。ホワイトハウスは中間選挙前にイランを攻撃しない方針を改めて示し、CENTCOM報道官もイランの機雷被害の主張は不正確だと述べた。",
-   "source": "CBS News",
-   "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
-  },
-  {
-   "date": "2026-10-22",
-   "headline": "Lloyd's List: Hormuz-area ship attacks hit record 28 in October, most since war began",
-   "summary": "Lloyd's List Intelligence data cited by NBC News showed 28 attacks on vessels in and around the Strait of Hormuz so far in October, the highest monthly total since the US-Iran war began on February 28. Tankers continue to transit the strait under US naval escort despite the surge in attacks.",
-   "summary_ja": "NBCニュースが引用したロイズ・リスト・インテリジェンスのデータによると、10月のホルムズ海峡周辺での船舶攻撃件数は28件に達し、2月28日の米イラン開戦以降で最多となった。攻撃の増加にもかかわらず、タンカーは米海軍の護衛下で海峡の航行を続けている。",
-   "source": "NBC News",
-   "url": "https://www.nbcnews.com/world/iran/iran-strikes-strait-hormuz-shipping-trump-oil-prices-midterms-rcna603670"
-  },
-  {
-   "date": "2026-10-22",
-   "headline": "Iran claims 7 tankers hit overnight in Strait of Hormuz, largest single-day toll of the war if confirmed, as Saudi coalition intercepts drones",
-   "summary": "Iranian state media and the Revolutionary Guard Corps said seven oil tankers were struck in the Strait of Hormuz overnight into October 22, 2026 - four hit while transferring oil and three hit naval mines - which, if confirmed, would be the largest single-day toll in the waterway since the war began on February 28; the claims were not independently verified. The same day, a Saudi-led coalition intercepted drones in its airspace.",
-   "summary_ja": "イラン国営メディアと革命防衛隊(IRGC)は、2026年10月22日未明までにホルムズ海峡で原油タンカー7隻が被弾したと発表した。4隻は原油の移送中に攻撃を受け、3隻は機雷に接触したとされる。事実であれば2月28日の開戦以来最大の単日被害となるが、独立した形での確認はされていない。同日、サウジ主導の連合軍は自国領空で無人機を迎撃した。",
-   "source": "CBC News",
-   "url": "https://www.cbc.ca/news/world/mideast-hormuz-saudi-arabia-attacks-9.7391297"
-  },
-  {
-   "date": "2026-10-22",
-   "headline": "Brent crude tops $112 a barrel, highest since May, as Hormuz attacks and Houthi strikes on Saudi infrastructure intensify",
-   "summary": "Brent crude rose to around $112.41 a barrel, its highest level since May, while WTI traded near $99.95, as renewed attacks on shipping around the Strait of Hormuz and Houthi strikes on Saudi infrastructure added to supply concerns; gold and silver were pressured on the day despite lower bond yields.",
-   "summary_ja": "ホルムズ海峡周辺での船舶攻撃激化とサウジの石油関連インフラへのフーシ派攻撃を背景に、ブレント原油は1バレル112.41ドル前後まで上昇し5月以来の高値となった。WTIは99.95ドル前後で推移した。利回り低下にもかかわらず金・銀相場は値を下げた。",
-   "source": "Kitco News",
-   "url": "https://kitco.com/news/article/2026-10-22/gold-silver-pressured-despite-lower-yields-hormuz-attacks-send-crude-higher"
-  },
-  {
-   "date": "2026-10-21",
-   "headline": "Netanyahu tells election rally that toppling Iran's regime is the \"only way\" to end its threat, orders military and Mossad to pursue it",
-   "summary": "At an election rally in Dimona on October 21, 2026, Israeli Prime Minister Benjamin Netanyahu said removing the threat posed by Iran required toppling its government, stating \"there is only one way to end this: by toppling this regime,\" and said he had instructed Israel's military and Mossad to pursue the regime's overthrow, days ahead of Israel's October 27 election.",
-   "summary_ja": "イスラエルのネタニヤフ首相は2026年10月21日、ディモナでの選挙集会で、イランの脅威を取り除くには同国政権を打倒する必要があると述べ、「この脅威を終わらせる方法は、この政権を打倒することしかない」と表明した。軍とモサドに政権打倒の追求を指示したとも明らかにした。10月27日のイスラエル総選挙を数日後に控えての発言である。",
-   "source": "Arab News (via Reuters)",
-   "url": "https://www.arabnews.pk/middle-east/netanyahu-says-toppling-iran-government-only-way-to-end-threat-3004856"
-  },
-  {
-   "date": "2026-10-21",
-   "headline": "FT: Netanyahu had ordered multi-day bombing campaign against Iran for Oct 10 weekend, but Trump blocked it over US midterms",
-   "summary": "The Financial Times reported, citing three people familiar with the matter, that Prime Minister Benjamin Netanyahu had ordered Israel's military to prepare a multi-day bombing campaign against Iranian nuclear, regime and infrastructure targets for the weekend of October 10, 2026, but that President Trump opposed restarting the war before the November 3 US midterm elections, so the strikes were not carried out; the White House said the US has no plans to attack Iran before the midterms.",
-   "summary_ja": "フィナンシャル・タイムズは事情に詳しい関係者3人の情報として、ネタニヤフ首相がイランの核・政権・インフラ関連の標的に対する複数日間の爆撃作戦を2026年10月10日の週末に向けて準備するよう軍に指示していたが、トランプ大統領が11月3日の米中間選挙前の戦争再開に反対したため攻撃は実行されなかったと報じた。ホワイトハウスは中間選挙前にイランを攻撃する計画はないとしている。",
-   "source": "The Times of Israel (citing Financial Times)",
-   "url": "https://www.timesofisrael.com/netanyahu-planned-attack-on-iran-earlier-this-month-but-trump-opposed-it-report/"
-  },
-  {
-   "date": "2026-10-21",
-   "headline": "Kpler: at least 18 vessel attacks logged over two weeks as strikes spread from Hormuz into Gulf of Oman",
-   "summary": "Maritime risk tracker Kpler recorded at least 18 attacks on vessels in the Strait of Hormuz area over the preceding two weeks, and LSEG analysts said the geographic scope of the attacks had expanded into the Gulf of Oman, Al Arabiya English reported.",
-   "summary_ja": "海事リスク調査会社Kplerは、過去2週間でホルムズ海峡周辺の船舶攻撃が少なくとも18件発生したと集計した。LSEGのアナリストは、攻撃の地理的範囲がオマーン湾にも拡大していると指摘したと、アルアラビーヤ英語版が報じた。",
-   "source": "Al Arabiya English",
-   "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
-  },
-  {
-   "date": "2026-10-21",
-   "headline": "UKMTO: projectile strikes tanker 11 nautical miles west of Oman's Bukha near Strait of Hormuz; fire doused, crew safe",
-   "summary": "The UK Maritime Trade Operations agency said a tanker was struck by an unidentified projectile about 11 nautical miles west of Bukha, Oman, overlooking the Strait of Hormuz; the resulting fire was extinguished, the vessel remained at anchor and all crew were reported safe, with the projectile's origin not identified.",
-   "summary_ja": "英海事貿易活動機関(UKMTO)は、ホルムズ海峡を望むオマーンのブハ西方約11海里の海域で、タンカー1隻が不明の飛来物による攻撃を受けたと発表した。発生した火災は鎮火し、同船は錨泊した状態を維持しており、乗組員全員の安全が確認されている。飛来物の発生源は特定されていない。",
-   "source": "Al Arabiya English",
-   "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
-  },
-  {
-   "date": "2026-10-20",
-   "headline": "UKMTO reports tanker's ‘interaction’ with military forces off Oman, identity undisclosed",
-   "summary": "The UK Maritime Trade Operations agency said a tanker was involved in an incident with military forces about 121 nautical miles east of Duqm, Oman, and that authorities were investigating; it gave no further detail on the vessel's identity or nationality.",
-   "summary_ja": "英国海事貿易活動機関(UKMTO)は、オマーリンのドゥクム東方約121海里の海域で、タンカー1隻が軍事勢力との「接触」事案に遭ったと発表した。當局が調査中であり、船名や船籍など詳細は明らかにしていない。",
-   "source": "Iran International",
-   "url": "https://www.iranintl.com/en/202610203250"
-  },
-  {
-   "date": "2026-10-20",
-   "headline": "IRGC claims naval mines disabled two tankers on US-backed Hormuz route; vessels unidentified, unconfirmed by CENTCOM/UKMTO",
-   "summary": "Iran's Revolutionary Guard Corps said naval mines halted two tankers transiting the Strait of Hormuz via a southern route backed by the US that Iran does not recognize, without identifying either vessel, its flag or extent of damage; CENTCOM and UKMTO had not confirmed the claim.",
-   "summary_ja": "イラン革命防衛隊(IRGC)は、米国が支援しイランが認めていないホルムズ海峡南側の航路を通過していたタンカー2隻が機雷により航行不能になったと主張した。船名や船籍、被害の程度は明らかにされていない。米中央軍(CENTCOM)と英海事当局UKMTOはこの主張を確認していない。",
-   "source": "Al Arabiya English",
-   "url": "https://english.alarabiya.net/News/middle-east/2026/10/20/iran-s-irgc-says-mines-halted-two-tankers-crossing-strait-of-hormuz"
-  },
-  {
-   "date": "2026-10-20",
-   "headline": "Iran claims it downed a US MQ-9 Reaper drone over the Strait of Hormuz; CENTCOM has not commented",
-   "summary": "Iran said its forces shot down a US MQ-9 Reaper drone over the Strait of Hormuz; US Central Command had not commented on the claim.",
-   "summary_ja": "イランは、米軍のMQ-9リーパー無人機1機をホルムズ海峡上空で撃墜したと主張した。米中央軍(CENTCOM)はこの主張についてコメントしていない。",
-   "source": "HNGN",
-   "url": "https://www.hngn.com/articles/273540/20261020/iran-says-two-supertankers-hit-mines-hormuz.htm"
-  },
-  {
-   "date": "2026-10-19",
-   "headline": "IRGC says another tanker catches fire after mine strike in Hormuz, alleges unauthorized southern route",
-   "summary": "Reuters reported, via The Korea Times, that Iran's Revolutionary Guards Navy said on Monday, October 19, 2026 that another oil tanker caught fire after hitting a naval mine in the Strait of Hormuz, alleging the vessel had used an unauthorized southern route and disabled its positioning and navigation systems; the claim was not independently verified.",
-   "summary_ja": "ロイターがコリア・タイムズ経由で報じたところによると、イラン革命防衛隊海軍は2026年10月19日(月)、ホルムズ海峡で別のタンカーが機雷に接触し出火したと発表した。同船は無許可の南側航路を使用し、測位・航行システムを無効化していたと主張しているが、独立した形での確認はされていない。",
-   "source": "Reuters (via The Korea Times)",
-   "url": "https://www.koreatimes.co.kr/world/20261019/oil-tanker-on-fire-after-hitting-mine-in-hormuz"
-  },
-  {
-   "date": "2026-10-18",
-   "headline": "Tugboat hit by two unidentified projectiles northeast of UAE's Khor Fakkan, one crew member injured",
-   "summary": "UKMTO reported that a southbound tugboat was struck by two unidentified projectiles northeast of Khor Fakkan, a UAE port on the Gulf of Oman near the Strait of Hormuz, on Sunday, October 18, 2026; one crew member sustained minor injuries and the vessel was able to continue its journey.",
-   "summary_ja": "英海事当局UKMTOの報告によると、2026年10月18日(日)、ホルムズ海峡に近いUAEのガルフ・オブ・オマーン沿岸の港ホルファッカン北東方で、南行きのタグボート1隻が不明の飛来物2発を受けた。乗組員1人が軽傷を負ったが、同船は航行を継続できたという。",
-   "source": "Greek Reporter (via UKMTO)",
-   "url": "https://greekreporter.com/2026/10/18/tugboat-hit-off-uae/"
-  },
-  {
-   "date": "2026-10-17",
-   "headline": "US and Iran each claim control of Strait of Hormuz after weekend container-ship attack; Trump says US reinstating blockade and fee for safe passage",
-   "summary": "Al Jazeera reported that the US and Iran each asserted control of the Strait of Hormuz after a weekend Iranian attack on a container ship, with Iran citing a right under last month's interim peace deal to manage transit and potentially charge fees, while President Trump said the US was reinstating a blockade on Iran in the strait and would also charge ships for safe passage; the dispute came roughly halfway through the 60-day window set for talks on a permanent end to the war.",
-   "summary_ja": "アルジャジーラの報道によると、週末にイランがコンテナ船を攻撃した後、米国とイランはそれぞれホルムズ海峡の管理権を主張した。イランは先月の暫定和平合意に基づき通航を管理し通行料を課す権利があるとし、トランプ大統領は米国がイランに対する海峡封鎖を再開し、船舶にも安全通航料を課すと述べた。この対立は、戦争終結に向けた恒久的合意を協議するとされた60日間の交渉期間のおおむね中間時点で起きた。",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels"
-  }
- ]
 }
