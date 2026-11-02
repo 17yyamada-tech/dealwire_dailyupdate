@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-02-0830",
+      "label": "2 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-02T00:40:00Z",
+      "items": 8,
+      "headlines": [
+        "Accenture sets ¥8,500-a-share tender offer price for Japan's Global Security Expert, teeing up delisting",
+        "Czech billionaire's €30bn Ray-Ban holding-company bid rejected by half-siblings",
+        "Mitsubishi Warehouse to acquire Hankyu Hanshin Express for ¥121.3bn"
+      ]
+    },
+    {
       "id": "2026-11-01-0830",
       "label": "1 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-01T00:34:00Z",
