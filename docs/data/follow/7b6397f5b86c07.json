@@ -4,19 +4,19 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-02T04:50:29Z",
+  "checked_at": "2026-11-02T07:50:04Z",
   "status": {
-    "as_of": "2026-10-31",
-    "text": "BOJ held at 1.25% (8-1) Oct 30, signaling more hikes; yen near 157. Israel's Oct 27 result certified Oct 30: Netanyahu 53, Eisenkot 48, no majority. Brent near $117.56, up ~15% on Hormuz attacks.",
-    "text_ja": "日銀は10月30日、政策金利を1.25%で維持し追加利上げを示唆、円は157円近辺。イスラエル選挙は確定も過半数届かず連立協議継続。原油はホルムズ攻撃で続伸、117ドル台。",
+    "as_of": "2026-11-02",
+    "text": "BOJ held at 1.25% (8-1) Oct 30, yen near 157. Herzog opened consultations Oct 31 on forming Israel's government; Oct 27 vote gave no bloc a majority. Brent near $117.56, up ~15% on Hormuz attacks.",
+    "text_ja": "日銀は10月30日、政策金利を1.25%で維持。円は157円近辺。ヘルツォークは31日に組閣協議開始、27日選挙は過半数未達。原油はホルムズ攻撃で117ドル台に上昇。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.tokenpost.com/news/regulation/44257"
+        "url": "https://www.haaretz.com/israel-news/elections/2026-10-31/ty-article/.premium/president-herzog-to-begin-talks-with-parties-on-forming-next-israeli-government/000001a1-92f2-d125-a3b1-f7f602840000"
       },
       {
         "list": "since",
-        "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
+        "url": "https://www.tokenpost.com/news/regulation/44257"
       },
       {
         "list": "since",
@@ -91,6 +91,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-10-31",
+      "headline": "President Herzog opens formal consultations with party representatives on who should be tasked with forming Israel's next government",
+      "summary": "Haaretz reported that President Isaac Herzog began formal consultations with representatives of Knesset parties on October 31, 2026 to determine who should be given the mandate to form Israel's next government, after the October 27 election left neither Prime Minister Netanyahu's bloc nor the opposition bloc led by Gadi Eisenkot with the 61 seats needed for a majority.",
+      "summary_ja": "ハアレツの報道によると、ヘルツォーク大統領は2026年10月31日、次期政権の組閣を誰に委ねるか決めるため、国会各党代表との正式協議を開始した。10月27日の選挙ではネタニヤフ首相派もアイゼンコット氏率いる野党ブロックも過半数61議席に届かなかった。",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/elections/2026-10-31/ty-article/.premium/president-herzog-to-begin-talks-with-parties-on-forming-next-israeli-government/000001a1-92f2-d125-a3b1-f7f602840000"
+    },
     {
       "date": "2026-10-30",
       "headline": "Brent rises 2.4% to about $117.56, WTI to $104.17, on track for fourth straight monthly gain near 15% after new Hormuz tanker strike",
@@ -322,14 +330,6 @@
       "summary_ja": "英海事当局UKMTOの報告によると、2026年10月18日(日)、ホルムズ海峡に近いUAEのガルフ・オブ・オマーン沿岸の港ホルファッカン北東方で、南行きのタグボート1隻が不明の飛来物2発を受けた。乗組員1人が軽傷を負ったが、同船は航行を継続できたという。",
       "source": "Greek Reporter (via UKMTO)",
       "url": "https://greekreporter.com/2026/10/18/tugboat-hit-off-uae/"
-    },
-    {
-      "date": "2026-10-17",
-      "headline": "US and Iran each claim control of Strait of Hormuz after weekend container-ship attack; Trump says US reinstating blockade and fee for safe passage",
-      "summary": "Al Jazeera reported that the US and Iran each asserted control of the Strait of Hormuz after a weekend Iranian attack on a container ship, with Iran citing a right under last month's interim peace deal to manage transit and potentially charge fees, while President Trump said the US was reinstating a blockade on Iran in the strait and would also charge ships for safe passage; the dispute came roughly halfway through the 60-day window set for talks on a permanent end to the war.",
-      "summary_ja": "アルジャジーラの報道によると、週末にイランがコンテナ船を攻撃した後、米国とイランはそれぞれホルムズ海峡の管理権を主張した。イランは先月の暫定和平合意に基づき通航を管理し通行料を課す権利があるとし、トランプ大統領は米国がイランに対する海峡封鎖を再開し、船舶にも安全通航料を課すと述べた。この対立は、戦争終結に向けた恒久的合意を協議するとされた60日間の交渉期間のおおむね中間時点で起きた。",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels"
     }
   ]
 }
