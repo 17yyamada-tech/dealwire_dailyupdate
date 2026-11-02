@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-02-1530",
+      "label": "2 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-02T07:38:42Z",
+      "items": 6,
+      "headlines": [
+        "Anthropic to sell $3.5bn of shares to Japan investors ahead of IPO",
+        "Singapore's STT GDC seeks $2.4bn loan to fund data-centre assets",
+        "TotalEnergies to buy 30% stake in two Malaysian offshore gas fields"
+      ]
+    },
+    {
       "id": "2026-11-02-1230",
       "label": "2 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-02T04:37:00Z",

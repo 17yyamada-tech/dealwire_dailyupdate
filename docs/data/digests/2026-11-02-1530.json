@@ -1,0 +1,181 @@
+{
+  "edition": "2026-11-02-1530",
+  "edition_label": "2 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:38:42Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Anthropic to sell $3.5bn of shares to Japan investors ahead of IPO",
+      "summary": "Anthropic plans to sell US$3.5 billion of shares to Japan-based investors as part of an initial public offering, according to a regulatory filing. The AI company said proceeds will go toward working capital and funding operating expenses and capital expenditure.",
+      "why_it_matters": "A Japan-targeted share sale of this size would rank among the largest AI-sector capital raises aimed at the market, underscoring how deeply Japanese investors are now underwriting the global AI buildout.",
+      "summary_ja": "Anthropicは、IPO(新規株式公開)に向けて日本の投資家に35億米ドル相当の株式を売却する計画である。同社によれば、調達資金は運転資金および事業運営費、資本支出に充てられる。",
+      "why_it_matters_ja": "この規模の対日株式売却が実現すれば、AI企業による対日資金調達として最大級の案件となり、日本の投資家がグローバルなAI投資の拡大をどこまで支えているかを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "anthropic-ipo-japan-share-sale",
+      "ids": [
+        "025f70075a2681",
+        "a4aa76955fb571"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/anthropic-plans-sell-us3-5-billion-shares-japan-investors-ipo"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/anthropic-plans-sell-35-billion-shares-japan-investors-in-ipo-filing-shows-6512356"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "Singapore's STT GDC seeks $2.4bn loan to fund data-centre assets",
+      "summary": "Singapore-based data-centre operator STT GDC is seeking a US$2.4 billion loan, with proceeds used to finance its data-centre assets. The facility adds to a broader binge of debt raised by AI infrastructure operators.",
+      "why_it_matters": "The loan size shows how much capital Southeast Asian data-centre operators now need to keep pace with AI demand, adding to the fast-growing pile of debt backing the region's AI buildout.",
+      "summary_ja": "シンガポールのデータセンター運営会社STT GDCが24億米ドルの融資を調達しようとしている。調達資金は同社のデータセンター資産の整備に充てられる。",
+      "why_it_matters_ja": "この融資規模は、AI需要に対応するために東南アジアのデータセンター事業者がどれほどの資金を必要としているかを示しており、同地域のAIインフラを支える債務が急速に積み上がっていることを浮き立たせる。",
+      "status": "new",
+      "prev": null,
+      "key": "stt-gdc-loan",
+      "ids": [
+        "773f3f3989ac0c"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/singapores-data-centre-operator-stt-gdc-eyes-us2-4-billion-loan-adds-ai-debt-binge"
+        }
+      ],
+      "categories": [
+        "Credit",
+        "Infra"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "TotalEnergies to buy 30% stake in two Malaysian offshore gas fields",
+      "summary": "TotalEnergies has agreed to acquire a 30% stake in two offshore gas fields in Malaysia.",
+      "why_it_matters": "The deal extends TotalEnergies' upstream gas position in Southeast Asia at a time when regional governments are courting foreign capital for energy and LNG infrastructure.",
+      "summary_ja": "トタルエナジーズが、マレーシアの沖合ガス田2件について30%の権益を取得することで合意した。",
+      "why_it_matters_ja": "東南アジア各国政府がエネルギー・LNGインフラへの外資誘致に動く中、この買収はトタルエナジーズの同地域における上流ガス権益を拡大するものである。",
+      "status": "new",
+      "prev": null,
+      "key": "totalenergies-malaysia-gas-stake",
+      "ids": [
+        "cd90ceb4904af6"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/totalenergies-buy-30-stake-in-two-malaysian-offshore-gas-fields-6512391"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Lazard completes Campbell Lutyens purchase, launches Lazard CL private-capital unit",
+      "summary": "Lazard has completed its acquisition of private capital advisory firm Campbell Lutyens, a deal first announced on April 30, 2026, and has launched a new unit, Lazard CL, built around the combined business.",
+      "why_it_matters": "The deal significantly expands Lazard's private capital advisory franchise just as placement agents and secondaries advisers see record demand from GPs and LPs navigating a tougher fundraising market.",
+      "summary_ja": "Lazardは、プライベートキャピタル・アドバイザリー会社Campbell Lutyensの買収手続きを完了した。この買収は2026年4月30日に最初に発表されたもので、Lazardは両社を統合した新部門「Lazard CL」を立ち上げた。",
+      "why_it_matters_ja": "資金調達環境が厳しくなる中、GPやLPからのセカンダリー・プレースメント需要が強まっており、この買収はLazardのプライベートキャピタル・アドバイザリー事業を大きく拡大させるものである。",
+      "status": "new",
+      "prev": null,
+      "key": "lazard-campbell-lutyens-close",
+      "ids": [
+        "e8a43a21644041"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/lazard-completes-its-acquisition-of-campbell-lutyens-and-launches-lazard-cl-the-global-leader-for-the-next-era-of-private-capital-302925935.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "China's Empyrean Technology to acquire chip-design firm Qijie Technology",
+      "summary": "China's EDA (electronic design automation) major Empyrean Technology is to acquire Qijie Technology, according to Japanese-language trade reporting.",
+      "why_it_matters": "A deal would extend Empyrean's push to consolidate China's chip-design tool industry as Beijing pursues semiconductor self-sufficiency.",
+      "summary_ja": "中国のEDA(電子設計自動化)大手である華大九天(Empyrean Technology)が、奇捷科技(Qijie Technology)を買収する方向にある。",
+      "why_it_matters_ja": "中国政府が半導体の自立を進める中、この買収は華大九天による国内チップ設計ツール業界の統合をさらに進めるものとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "empyrean-qijie-technology-acquisition",
+      "ids": [
+        "5cabf1e5925ea2"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XQWZ1NkVyNFNtYzJhWU84b3o1bmJyYnpXRU9LU2RFRzl1aGNPTkstXzh5ZTBOZmdiUDBoOXhPSEwwSTdPdV8yMFdPNm1ubW83SjBVVDU1cGtWNGtGRS1CLThxYWRJOV9P?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Hexagon completes acquisition of Waygate Technologies from Baker Hughes",
+      "summary": "Hexagon has completed its previously announced acquisition of Waygate Technologies, a global non-destructive testing (NDT) business, from Baker Hughes.",
+      "why_it_matters": "The deal hands Hexagon a leading NDT franchise as industrial clients raise inspection spending on ageing infrastructure and energy assets, reinforcing a measurement-technology arm that already spans metrology and quality-control software.",
+      "summary_ja": "Hexagonは、非破壊検査(NDT)の世界大手であるWaygate TechnologiesのBaker Hughesからの買収手続きを完了した。",
+      "why_it_matters_ja": "老朽化したインフラやエネルギー資産への検査投資が産業各社で増える中、この買収によりHexagonは計測技術・品質管理ソフトウェア事業に強力なNDT事業を加えることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "hexagon-waygate-technologies-close",
+      "ids": [
+        "62fed4d34c72ad"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/hexagon-completes-acquisition-of-waygate-technologies-302926094.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
