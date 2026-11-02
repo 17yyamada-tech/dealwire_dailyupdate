@@ -1,0 +1,148 @@
+{
+  "edition": "2026-11-02-1230",
+  "edition_label": "2 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T04:37:00Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "Lockheed Martin closes $3.45bn purchase of Ultra Maritime",
+      "summary": "Lockheed Martin has completed its acquisition of Ultra Maritime for $3.45bn, according to Japanese M&A reporting. The deal brings Ultra Maritime fully under Lockheed's ownership.",
+      "why_it_matters": "A deal of this size by one of the world's largest defence primes points to continued consolidation among specialist maritime and defence suppliers, as large contractors choose to buy capability rather than compete for it.",
+      "summary_ja": "ロッキード・マーティンは、Ultra Maritimeの買収を34億5000万米ドルで完了した。日本のM&A報道が伝えた。これにより、Ultra Maritimeはロッキード・マーティンの完全な傘下に入る。",
+      "why_it_matters_ja": "世界最大級の防衛大手によるこの規模の買収は、大手コントラクターが能力を自前で買い取る動きを強めていることを示し、艦艇・海洋防衛関連の専門サプライヤー間で統合が続いていることを裏付ける。",
+      "status": "new",
+      "prev": null,
+      "key": "lockheed-martin-ultra-maritime-acquisition",
+      "ids": [
+        "9b1964a9995706"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Cdm5VU1lXeVJJZzY1c0trVTdOaEdzM19yOG5zWlN1eE1YUXE1dzMzWElKVEMxcGNkWF9rUDMxTWs0WWpaUDY4UlYxa0RheE10bjM4RXJ2TUg3YWFHeWp1NEkxdEVHNW14LTR4aWlWMWsyOFgt?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Leopalace21 tender offer succeeds, clearing path to delisting",
+      "summary": "The tender offer for Tokyo-listed housing group Leopalace21 has succeeded, according to Japanese M&A reporting. The company is now moving toward delisting as it goes private.",
+      "why_it_matters": "A successful tender offer for a mid-cap, Tokyo-listed housing operator adds to a steady run of Japanese take-private deals this year, as acquirers take advantage of still-depressed valuations among smaller listed companies.",
+      "summary_ja": "東証上場の住宅関連企業レオパレス21に対するTOBが成立した。日本のM&A報道が伝えた。同社は今後、上場廃止に向けて非公開化を進める。",
+      "why_it_matters_ja": "中堅の東証上場住宅企業に対するTOBが成立したことは、割安なままの中小型上場企業を狙った日本の非公開化の流れが今年も続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "leopalace21-tob-success",
+      "ids": [
+        "4c85ca6675ec21"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4UWIwdmRyWV9nTmJDZGdoVVBaME1HRGlkSV82LUtETnN1RzF1Tl9XNEYwbVprTjY2Z0VRcjBiZDhhUUM5ZGYyMWxET3VVVHZr?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Peltz's Trian renews $1.4bn Wendy's take-private push as China expansion plan clouds",
+      "summary": "Nelson Peltz's Trian-led group is advancing its proposal to take Wendy's private for $1.4bn, according to Japan PE & activists reporting. The same report says the take-private push has now cast doubt over Wendy's plan to open 1,000 stores in China.",
+      "why_it_matters": "Clouding the China store-opening plan ties the fast-food chain's take-private economics to its international growth story, raising the stakes for Trian to show the buyout can still support expansion rather than freeze it.",
+      "summary_ja": "ネルソン・ペルツ氏率いるトライアン主導のグループは、ウェンディーズを14億米ドルで非公開化する提案を進めている。日本のPE・アクティビスト報道によると、同報道はこの非公開化の動きがウェンディーズの中国における1,000店舗展開計画に疑問を投げかけているとも伝えている。",
+      "why_it_matters_ja": "中国での店舗展開計画に疑問符がついたことで、このファストフードチェーンの非公開化の経済性は海外成長戦略と直結することになり、トライアンにとって買収が拡大を止めるのではなく支えられることを示す必要性が高まる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-29-0830",
+        "index": 0
+      },
+      "key": "wendys-trian-takeprivate-proposal",
+      "ids": [
+        "1717ed8af0f0f3"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CQmttSzlub0hIZHVILUZ6Y2FfU2FCOFRSUVE5SVVvVlNmRHVFZnN6bTYtWXBfbFdkS1RvWWlLLTBENE9VZ3F6R05kMUQzMkxPQ3Qxb2RiYTNySWpSbWIxeE4xcEh0clowUEwzMnVQSHZZeVJ3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "ANA HD moves toward full ownership of AirDo-Solaseed parent, weighs brand merger",
+      "summary": "ANA Holdings is moving to make the parent company of AirDo and Solaseed Air a wholly owned subsidiary, according to Japanese M&A reporting. The airline group is also now considering integrating the two regional carriers' brands.",
+      "why_it_matters": "A brand integration on top of full ownership would be a deeper step than the subsidiary deal alone, suggesting ANA wants to simplify its portfolio of regional carriers rather than run them as separate labels.",
+      "summary_ja": "ANAホールディングスは、AirDoとソラシドエアの親会社を完全子会社化する方向で動いている。日本のM&A報道が伝えた。同グループは、両地域航空会社のブランド統合も検討している。",
+      "why_it_matters_ja": "完全子会社化に加えてブランド統合まで踏み込むのであれば、単なる資本関係の見直しよりも一段深い動きとなり、ANAが地域航空各社を別ブランドのまま維持するのではなく、ポートフォリオの簡素化を目指していることがうかがえる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-29-1530",
+        "index": 1
+      },
+      "key": "ana-airdo-solaseed-subsidiary",
+      "ids": [
+        "764ee56e9b8559"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yRU90NnEwU184cTBNNjY3enM5N0syUnBqRXA4a2dxTVE0V29POUZja0JJMWZwS1Vmc3kwVTlzX1FGMzhCbko5ZllwWjJLQXgyQkhSUg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "KISCO Holdings launches tender offer for South Korean steelmaker",
+      "summary": "KISCO Holdings has launched a tender offer for a South Korean steel company, according to Japanese M&A reporting, with the aim of taking it private.",
+      "why_it_matters": "A steel-sector take-private in South Korea adds to a wave of consolidation among Asian materials producers facing overcapacity and soft pricing.",
+      "summary_ja": "KISCOホールディングスは、韓国の鉄鋼会社に対してTOBを実施した。日本のM&A報道が伝えた。狙いは同社の非公開化だ。",
+      "why_it_matters_ja": "韓国の鉄鋼セクターでの非公開化は、過剰生産能力と値下がり圧力に直面するアジアの素材メーカー間で統合が進んでいることを示す一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "kisco-holdings-korea-steel-tob",
+      "ids": [
+        "dc8db49a536174"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc3RXN2hVaTYtMFBlYzd2d09EYTc2LTgydHY4QWxyV2ZEbW0tSDBCblotYllFX1ZNclpuQk9pNmszLUtLMXh3cTQzeGVGZDdGVkdESkg5Y0w4LWRpY3dHalY1aGQtVjJEeHJfSm9wSjZ3aWQyalJQTUdYTmJBRXlkc9IBlAFBVV95cUxQcW0zZ0V6RTJwTVZVMmZxZ05MZFRoWWIwSmM0VHF3bUdQa2tCN21IWEdDVmhSY1pmOFk0OXRJa0x2bjlDY2t0NGpoTnlVaFVMSW0tekpXSlMwLW41WF9xWFB5M0VDVFlQVTR5dVdpajFXVWJoZmZwNnVKNktfTEYxY1lsR1BGMzF1T1RQWVBwTTM5bFNv?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Materials"
+      ]
+    }
+  ]
+}

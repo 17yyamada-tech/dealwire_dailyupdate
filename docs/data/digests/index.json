@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-02-1230",
+      "label": "2 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-02T04:37:00Z",
+      "items": 5,
+      "headlines": [
+        "Lockheed Martin closes $3.45bn purchase of Ultra Maritime",
+        "Leopalace21 tender offer succeeds, clearing path to delisting",
+        "Peltz's Trian renews $1.4bn Wendy's take-private push as China expansion plan clouds"
+      ]
+    },
+    {
       "id": "2026-11-02-0830",
       "label": "2 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-02T00:40:00Z",
