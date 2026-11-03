@@ -4,15 +4,15 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-02T07:50:04Z",
+  "checked_at": "2026-11-03T00:50:21Z",
   "status": {
-    "as_of": "2026-11-02",
-    "text": "BOJ held at 1.25% (8-1) Oct 30, yen near 157. Herzog opened consultations Oct 31 on forming Israel's government; Oct 27 vote gave no bloc a majority. Brent near $117.56, up ~15% on Hormuz attacks.",
-    "text_ja": "日銀は10月30日、政策金利を1.25%で維持。円は157円近辺。ヘルツォークは31日に組閣協議開始、27日選挙は過半数未達。原油はホルムズ攻撃で117ドル台に上昇。",
+    "as_of": "2026-11-03",
+    "text": "BOJ held at 1.25% (8-1) Oct 30, yen near 157. Arab parties offered Eisenkot outside support, not coalition entry, Nov 2. Brent near $117.56, up ~15% on Hormuz attacks.",
+    "text_ja": "日銀は10月30日1.25%維持(8対1)、円157円近辺。アラブ系政党は11月2日、連立入りせずアイゼンコット氏を院外支援。原油はホルムズ攻撃で117ドル台。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.haaretz.com/israel-news/elections/2026-10-31/ty-article/.premium/president-herzog-to-begin-talks-with-parties-on-forming-next-israeli-government/000001a1-92f2-d125-a3b1-f7f602840000"
+        "url": "https://www.aljazeera.com/news/2026/11/2/arab-parties-back-eisenkot-whats-the-latest-in-israels-coalition-talks"
       },
       {
         "list": "since",
@@ -91,6 +91,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-02",
+      "headline": "Arab-led parties offer only outside support to oust Netanyahu as Eisenkot sets coalition terms seen as hard to meet",
+      "summary": "Al Jazeera reported that Israel's Arab-led Joint List and Ra'am parties said they would help remove Prime Minister Netanyahu by backing Gadi Eisenkot's opposition bloc from outside government rather than committing to join a coalition, while Eisenkot set conditions for coalition partners that analysts said were strict enough to make a formal alliance unlikely; Ra'am leader Mansour Abbas said he would join an Eisenkot-led government if given the internal security portfolio. Eisenkot's 48 seats and the Arab parties' 19 combined would exceed the 61-seat majority needed, but no coalition deal has been reached.",
+      "summary_ja": "アルジャジーラによると、アラブ系のジョイントリストとラアムは、政権入りを確約せず院外からアイゼンコット氏の野党ブロックを支え、ネタニヤフ首相の退陣を後押しする方針を示した。アイゼンコット氏は連立参加に厳しい条件を課しており、分析者は正式な連携は難しいとみる。ラアムのアッバス党首は、内務治安分野の閣僚ポストを得られればアイゼンコット政権に参加すると述べた。アイゼンコット陣営(48議席)とアラブ系政党(19議席)を合わせれば過半数61議席を超えるが、連立合意には至っていない。",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/2/arab-parties-back-eisenkot-whats-the-latest-in-israels-coalition-talks"
+    },
     {
       "date": "2026-10-31",
       "headline": "President Herzog opens formal consultations with party representatives on who should be tasked with forming Israel's next government",
@@ -322,14 +330,6 @@
       "summary_ja": "ロイターがコリア・タイムズ経由で報じたところによると、イラン革命防衛隊海軍は2026年10月19日(月)、ホルムズ海峡で別のタンカーが機雷に接触し出火したと発表した。同船は無許可の南側航路を使用し、測位・航行システムを無効化していたと主張しているが、独立した形での確認はされていない。",
       "source": "Reuters (via The Korea Times)",
       "url": "https://www.koreatimes.co.kr/world/20261019/oil-tanker-on-fire-after-hitting-mine-in-hormuz"
-    },
-    {
-      "date": "2026-10-18",
-      "headline": "Tugboat hit by two unidentified projectiles northeast of UAE's Khor Fakkan, one crew member injured",
-      "summary": "UKMTO reported that a southbound tugboat was struck by two unidentified projectiles northeast of Khor Fakkan, a UAE port on the Gulf of Oman near the Strait of Hormuz, on Sunday, October 18, 2026; one crew member sustained minor injuries and the vessel was able to continue its journey.",
-      "summary_ja": "英海事当局UKMTOの報告によると、2026年10月18日(日)、ホルムズ海峡に近いUAEのガルフ・オブ・オマーン沿岸の港ホルファッカン北東方で、南行きのタグボート1隻が不明の飛来物2発を受けた。乗組員1人が軽傷を負ったが、同船は航行を継続できたという。",
-      "source": "Greek Reporter (via UKMTO)",
-      "url": "https://greekreporter.com/2026/10/18/tugboat-hit-off-uae/"
     }
   ]
 }
