@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-03-1230",
+      "label": "3 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-03T04:35:57Z",
+      "items": 7,
+      "headlines": [
+        "Oracle to raise $20bn in bonds and stock sales to fund AI expansion",
+        "Salesforce agrees to acquire voice-AI startup Cresta",
+        "Fox's roughly $22bn Roku buyout nears US antitrust clearance under DOJ consent decree"
+      ]
+    },
+    {
       "id": "2026-11-03-0830",
       "label": "3 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-03T00:36:26Z",

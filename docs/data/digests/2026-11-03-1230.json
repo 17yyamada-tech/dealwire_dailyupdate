@@ -1,0 +1,229 @@
+{
+  "edition": "2026-11-03-1230",
+  "edition_label": "3 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T04:35:57Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Oracle to raise $20bn in bonds and stock sales to fund AI expansion",
+      "summary": "Oracle is tapping investors for $20 billion, including a $10 billion bond offering, to finance its AI expansion. The company is aiming to more than triple its revenue by fiscal 2030.",
+      "why_it_matters": "The raise underscores how capital-intensive the AI infrastructure race has become, with even well-capitalised cloud providers turning to debt and equity markets to fund growth targets.",
+      "summary_ja": "オラクルは、AI事業拡大の資金を調達するため、100億ドル規模の債券発行を含め総額200億ドルを投資家から調達する。同社は2030会計年度までに売上高を3倍超に伸ばす目標を掲げている。",
+      "why_it_matters_ja": "この調達は、資本力のある大手クラウド事業者さえ債券・株式市場に頼らざるを得ないほど、AIインフラ投資の資金負担が重くなっていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "oracle-ai-20bn-raise",
+      "ids": [
+        "c2dd543bdee301",
+        "f4640ea0d357a1",
+        "24515d10f4b33d"
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SEA",
+        "SG"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "Other",
+        "Public / Macro",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/oracle-taps-investors-us20-billion-finance-ai-expansion"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/oracle-offer-10-billion-in-bonds-6513341"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/oracle-plans-raise-20-billion-through-bonds-and-stock-sales-6513341"
+        }
+      ]
+    },
+    {
+      "headline": "Salesforce agrees to acquire voice-AI startup Cresta",
+      "summary": "Salesforce has agreed to acquire voice-AI company Cresta, according to a Japanese-language report. The deal follows a run of recent acquisitions by Salesforce and extends its push into AI-driven phone customer-service tools.",
+      "why_it_matters": "The purchase adds voice-based customer interactions to Salesforce's AI stack just after its Rune Technologies defence-software buyout, pointing to a strategy of bolting on specialised AI capabilities through acquisitions rather than building them in-house.",
+      "summary_ja": "セールスフォースは音声AI企業Crestaの買収に合意したと、日本語メディアが報じた。同社による一連の買収の流れに続くもので、電話による顧客対応へのAI活用を強化する。",
+      "why_it_matters_ja": "この買収により、国防関連ソフト企業Rune Technologiesの買収に続き、音声による顧客対応がセールスフォースのAI機能に加わる。自社開発ではなく買収による特化AI機能の取り込みという戦略が改めて示された。",
+      "status": "new",
+      "prev": null,
+      "key": "salesforce-cresta-acquisition",
+      "ids": [
+        "6c5aa5ada8dcb6"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92Skd3d2tDQkg5TkRVcmRGUW5vcHVLbGY2anNVVm1WMzlnNTdROTFPcV9zZjVjUmZvMXVBZXZleVJBQWF6cV9nUHhOQ01HUEdyZmxV?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Fox's roughly $22bn Roku buyout nears US antitrust clearance under DOJ consent decree",
+      "summary": "Fox Corporation's roughly $22 billion acquisition of Roku is reported to be nearing approval from US antitrust authorities under a Justice Department consent decree. The development follows the deal's earlier shareholder approval, with platform neutrality the remaining open issue at that time.",
+      "why_it_matters": "Antitrust clearance under a consent decree would remove the last major regulatory hurdle for Fox's push into streaming distribution, though the decree's terms could still constrain how the combined platform operates.",
+      "summary_ja": "フォックス・コーポレーションによる約220億ドル規模のロク買収が、司法省の同意命令下での米独禁法審査の承認に近づいていると報じられた。同取引は既に株主承認を通過しており、その時点での残る焦点はプラットフォームの中立性だった。",
+      "why_it_matters_ja": "同意命令下での独禁法承認が実現すれば、フォックスのストリーミング配信事業進出における最後の主要な規制上の関門が取り除かれる一方、同意命令の条件が統合後のプラットフォーム運営を制約する可能性もある。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-28-1530",
+        "index": 2
+      },
+      "key": "fox-roku-shareholder-approval",
+      "ids": [
+        "06868e9dcb2a2d",
+        "c174b71a422ebe"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5COGppbFppMlgxNU9XeDlneWhCX0Z4VWZ4dmZlUkJkM2JjYkFleVJpM0J4NEhLUUxKeHBHekJnNXFZNjVWa2MxbGgxa25DcXlyTFRhQ0wzR2JPemRKbnA3OUNBVWFhVG41SlZ5Q28zWkozbEs3?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xU2hMTGN6RkhlYWNDZmFWSmNCcHVTTjlhelZySUd1eTVMR09qY2tYbEozcE5JSXNFMlZxbHlzQlVtS1RpQjVXdmYzYWFROTZ1MDJfWFREdG1aR05OTE5oNXJKZEtQcWNITU12VExaX1o?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic adds Australian investors to pre-IPO share-sale plans",
+      "summary": "Anthropic plans to extend its pre-IPO share offer to Australian investors, according to CommSec, after already lining up a $3.5 billion sale to Japan-based investors. The addition broadens the geographic reach of the AI company's pre-listing capital raising.",
+      "why_it_matters": "Opening the pre-IPO sale to a second country signals investor appetite beyond Japan and suggests Anthropic may be looking to maximise the capital it raises before any public listing.",
+      "summary_ja": "Anthropicは、日本の投資家向けに35億ドル規模の株式売却を計画済みであるのに続き、オーストラリアの投資家にもIPO前の株式売却を広げる計画だと、CommSecが明らかにした。",
+      "why_it_matters_ja": "対象国を日本に続いて2カ国目に広げたことは、日本以外にも投資家の需要が強いことを示し、Anthropicが上場前にできるだけ多くの資金を調達しようとしている可能性を示唆する。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-02-1530",
+        "index": 0
+      },
+      "key": "anthropic-ipo-japan-share-sale",
+      "ids": [
+        "db8164cf7171c1"
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "AI & Semis"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/anthropic-plans-australian-share-offer-in-ipo-commsec-says-6514811"
+        }
+      ]
+    },
+    {
+      "headline": "Singapore's NeoSci Ventures raises S$70m ($53m first close) for debut biotech fund",
+      "summary": "Venture builder NeoSci Ventures (NSV) has raised S$70 million, marking the first close of its debut biotech fund at $53 million. The firm plans to back up to 12 biotech companies, pairing investment with hands-on operational support.",
+      "why_it_matters": "The fund adds to Singapore's push to build a biotech venture ecosystem, offering an operationally involved alternative to passive LP capital for early-stage life-sciences companies in the region.",
+      "summary_ja": "シンガポールのベンチャービルダーNeoSci Ventures（NSV）は、創設バイオテックファンドの第一次クローズで5,300万ドル（シンガポールドル7,000万ドル）を調達した。同社は最大12社のバイオテック企業に投資し、運営支援も併せて提供する計画である。",
+      "why_it_matters_ja": "同ファンドは、シンガポールがバイオテック系ベンチャーの生態系構築を進める動きに加わるもので、地域の初期段階のライフサイエンス企業にとって、受動的なLP資金とは異なる、運営に深く関与する資金源となる。",
+      "status": "new",
+      "prev": null,
+      "key": "neosci-ventures-biotech-fund",
+      "ids": [
+        "d992411cba7c23",
+        "d20568e3a31450"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "SEA",
+        "SG"
+      ],
+      "sectors": [
+        "Healthcare"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/consumer-healthcare/venture-builder-neosci-ventures-raises-s70-million-inaugural-biotech-fund"
+        },
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iakdtSFp0bXJwUE1GN1REOThJNDdaX3FidW02YUtMNjJPODlhR2lfWjJYMklWVWo4ejhyeE5JVVFaOHNia3QzcDRaTWFQT2ZFYXp1V0ZETHlHQ3FLSHJabWhIcWc1bjhTd3MwMXpjMTlEWGYtc1N3dQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Malaysia's IOI Properties taps $1.9bn portfolio to fund growth after Reit listing",
+      "summary": "Malaysia's IOI Properties is using its Reit listing as a springboard for further growth, tapping a US$1.9 billion portfolio to fund local projects. The company will retain a 60% stake in the trust.",
+      "why_it_matters": "Retaining a majority stake while monetising part of its portfolio lets IOI Properties recycle capital into new developments without ceding control, a model other Southeast Asian developers are increasingly following.",
+      "summary_ja": "マレーシアのIOI Propertiesは、リート上場を今後の成長の足がかりとし、19億米ドル規模のポートフォリオを活用して現地プロジェクトの資金を調達する。同社はこのリートにおいて60%の株式を維持する。",
+      "why_it_matters_ja": "ポートフォリオの一部を現金化しつつ過半の株式を維持することで、IOI Propertiesは経営権を手放さずに資金を新規開発に再投入できる。この手法は東南アジアの他の不動産デベロッパーにも広がりつつある。",
+      "status": "new",
+      "prev": null,
+      "key": "ioi-properties-reit-springboard",
+      "ids": [
+        "f2cad9072258f0"
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/asean/malaysias-ioi-properties-makes-reit-listing-springboard-next-wave-growth"
+        }
+      ]
+    },
+    {
+      "headline": "Jiji Press among new investors in Mediagene-Infobahn management buyouts",
+      "summary": "Jiji Press and other investors are taking capital stakes as part of the management buyouts taking Japanese media companies Mediagene and Infobahn private, according to a Japanese-language report. The buyouts were jointly announced by the two companies' management teams.",
+      "why_it_matters": "Bringing in a news agency as an investor alongside the MBOs adds a strategic media backer to the newly private companies, beyond the straightforward management-led buyout structure first disclosed.",
+      "summary_ja": "日本のメディアジーンとインフォバーンを非公開化するマネジメント・バイアウト（MBO）に、時事通信社を含む投資家が資本参加すると、日本語メディアが報じた。両MBOは両社の経営陣によって共同で発表されていた。",
+      "why_it_matters_ja": "通信社が出資者として加わることで、当初発表された経営陣主導の買収という枠組みを超えて、非公開化後の両社に戦略的なメディア系株主が加わることになる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-31-0830",
+        "index": 8
+      },
+      "key": "mediagene-infobahn-mbo",
+      "ids": [
+        "ded1045a2ee9d6"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yeXo2R0VESGZ5Sm93QmUxQmlHTjRGdzZrX2ppcWJvcHJXbVJBNjB0Nk1uT3lmYWM4aG8yUGhBZlVhVlJ2emlhQk5jc25yZw?oc=5"
+        }
+      ]
+    }
+  ]
+}
