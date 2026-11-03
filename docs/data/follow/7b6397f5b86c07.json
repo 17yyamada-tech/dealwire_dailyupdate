@@ -4,19 +4,19 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-03T04:47:09Z",
+  "checked_at": "2026-11-03T08:00:00Z",
   "status": {
     "as_of": "2026-11-03",
-    "text": "BOJ held at 1.25% Oct 30; Eisenkot's bloc still short of a majority as of Nov 2. Brent plunged ~7% to ~$105 on Nov 2 on Hormuz reopening hopes, reversing its October rally.",
-    "text_ja": "日銀は10月30日に1.25%維持。アイゼンコット氏陣営は11月2日時点も過半数未達。原油は同日、ホルムズ再開期待で急落し105ドル前後へ反転下落した。",
+    "text": "BOJ held at 1.25% Oct 30; Brent fell ~7% to ~$105 on Nov 2 on Hormuz hopes. Eisenkot's opposition bloc, united behind him for PM, could reach 67 seats with Arab-party backing, topping Netanyahu's 53.",
+    "text_ja": "日銀は10月30日1.25%維持、原油は2日ホルムズ再開期待で急落し105ドル前後。アイゼンコット陣営は2日結集、アラブ系と合わせ67議席でネタニヤフ53議席を超える見通し。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.euronews.com/2026/11/02/oil-slides-on-hormuz-deal-hopes-but-trump-keeps-iran-strikes-on-the-table"
+        "url": "https://www.japantimes.co.jp/news/2026/11/03/world/politics/israel-opposition-eisenkot-netanyahu/"
       },
       {
         "list": "since",
-        "url": "https://www.aljazeera.com/news/2026/11/2/arab-parties-back-eisenkot-whats-the-latest-in-israels-coalition-talks"
+        "url": "https://www.euronews.com/2026/11/02/oil-slides-on-hormuz-deal-hopes-but-trump-keeps-iran-strikes-on-the-table"
       },
       {
         "list": "since",
@@ -91,6 +91,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-03",
+      "headline": "Eisenkot's full opposition bloc unites behind him for PM, positioning for 67 seats with Arab-party backing as Netanyahu presses his own bid",
+      "summary": "The Japan Times reported that all party leaders in Gadi Eisenkot's opposition bloc said on November 2 they would back him to form Israel's next government, with the bloc heads meeting in Herzliya on November 3 as Prime Minister Netanyahu kept pressing for his own broad government backed by far-right allies and Shas; Eisenkot's 48 seats plus expected backing from the two Arab-led lists could lift his support to 67 of 120 seats, versus Netanyahu's 53. Israel's KAN broadcaster reported Monday that Eisenkot said he would not sit in a government led by Netanyahu even if President Trump asked him to, with Avigdor Liberman's refusal to rely on Arab-party support remaining the main obstacle to a deal.",
+      "summary_ja": "ジャパンタイムズによると、アイゼンコット氏の野党ブロック各党代表は11月2日、同氏を次期政権樹立で支持すると表明し、3日にヘルツリヤで会合した。一方ネタニヤフ首相は極右勢力とシャスの支持を得て自らの広範な政権樹立を追求している。アイゼンコット氏の48議席にアラブ系2政党の支持を加えれば120議席中67議席となり、ネタニヤフ氏の53議席を上回る。イスラエルのKANは2日、アイゼンコット氏がトランプ氏の要請でもネタニヤフ政権には加わらないと述べたと報じ、リーバーマン氏がアラブ政党への依存を拒否していることが連立合意の最大の障害となっている。",
+      "source": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/03/world/politics/israel-opposition-eisenkot-netanyahu/"
+    },
     {
       "date": "2026-11-02",
       "headline": "Brent and WTI plunge about 7% as Qatar-mediated talks raise hopes for a Hormuz reopening deal, Trump doubts resuming Iran strikes",
@@ -322,14 +330,6 @@
       "summary_ja": "イラン革命防衛隊(IRGC)は、米国が支援しイランが認めていないホルムズ海峡南側の航路を通過していたタンカー2隻が機雷により航行不能になったと主張した。船名や船籍、被害の程度は明らかにされていない。米中央軍(CENTCOM)と英海事当局UKMTOはこの主張を確認していない。",
       "source": "Al Arabiya English",
       "url": "https://english.alarabiya.net/News/middle-east/2026/10/20/iran-s-irgc-says-mines-halted-two-tankers-crossing-strait-of-hormuz"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Iran claims it downed a US MQ-9 Reaper drone over the Strait of Hormuz; CENTCOM has not commented",
-      "summary": "Iran said its forces shot down a US MQ-9 Reaper drone over the Strait of Hormuz; US Central Command had not commented on the claim.",
-      "summary_ja": "イランは、米軍のMQ-9リーパー無人機1機をホルムズ海峡上空で撃墜したと主張した。米中央軍(CENTCOM)はこの主張についてコメントしていない。",
-      "source": "HNGN",
-      "url": "https://www.hngn.com/articles/273540/20261020/iran-says-two-supertankers-hit-mines-hormuz.htm"
     }
   ]
 }

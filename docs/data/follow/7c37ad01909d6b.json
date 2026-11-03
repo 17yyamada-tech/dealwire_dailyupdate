@@ -1,0 +1,77 @@
+{
+  "id": "7c37ad01909d6b",
+  "title": "Salesforce、音声主導のカスタマーサービスAIを手がけるCrestaの買収に合意",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTVWUG5WaVZhekdvRmkydVZ1NWEtd1R3c3ZpMXRjT1Ywc0NBaEJ4Q0pMLXNJVEZvMDloTmcxak9TTU1KSThJRzJ0WFZHVGEtdkVqV2JraF9FYUpQX21hVE5oNkdkZUVFa056QnFIa1h6Z3dkSXlGa2VhS3JrQnVSR3hDLW04aS1tRDZyVkRsM0psRlNC?oc=5",
+  "source": "Japan M&A",
+  "published": "2026-11-03T01:33:04Z",
+  "checked_at": "2026-11-03T07:50:00Z",
+  "status": {
+    "as_of": "2026-11-03",
+    "text": "Agreed 2 Nov 2026: Salesforce to acquire voice-AI firm Cresta, serving Marriott, Comcast and Alaska Airlines. Price undisclosed; The Information reports about $2.7bn. Close expected Salesforce fiscal Q1 2028.",
+    "text_ja": "セールスフォースが11月2日、音声AI企業クレスタ買収で合意と発表。価格は非公開、The Informationは約27億ドルと報道。完了は28年度第1四半期の見込み。",
+    "refs": [
+      {"list": "since", "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"},
+      {"list": "since", "url": "https://runtimewire.com/article/salesforce-acquire-cresta-2-7-billion-voice-agents-service-cloud"}
+    ]
+  },
+  "background": [
+    {
+      "date": "2026-10-20",
+      "headline": "Salesforce agrees to buy marketing platform Braze for about $5.66bn",
+      "summary": "Salesforce agreed to acquire customer engagement platform Braze for approximately $5.66 billion, with the deal expected to close in its fiscal 2028, subject to Braze shareholder and regulatory approval, continuing Salesforce's string of customer-experience acquisitions ahead of the Cresta deal.",
+      "summary_ja": "セールスフォースは顧客エンゲージメント基盤のBrazeを約56.6億ドルで買収すると発表した。完了は2028年度を見込み、株主・規制当局の承認が条件。クレスタ買収に先立つ一連のCX関連買収の一つ。",
+      "source": "The Star",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/salesforce-to-acquire-braze-in-a-566-billion-deal"
+    },
+    {
+      "date": "2026-06-15",
+      "headline": "Salesforce signs deal to acquire Fin (formerly Intercom) for about $3.6bn to expand AI customer-service agents",
+      "summary": "Salesforce agreed to buy Fin, the AI customer-service agent company formerly known as Intercom, for approximately $3.6 billion to fold into Agentforce; Fin brings a customer base of more than 30,000 companies and the deal was expected to close in Salesforce's fiscal Q4 2027.",
+      "summary_ja": "セールスフォースは旧Intercomのカスタマーサービス向けAIエージェント企業Finを約36億ドルで買収する契約に合意した。Finの顧客は3万社超で、Agentforceに統合予定。完了は2027年度第4四半期を見込むとされた。",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/salesforce-snaps-up-customer-service-software-giant-fin-for-usd3-6bn"
+    },
+    {
+      "date": "2026-04-30",
+      "headline": "Cresta reaches $100 million in annual recurring revenue, Axios reports",
+      "summary": "Axios reported that Cresta, the a16z- and Sequoia-backed contact-center AI startup, had reached $100 million in annual recurring revenue, underscoring its scale shortly before the Salesforce talks.",
+      "summary_ja": "Axiosの報道によると、a16zやセコイアが出資する企業向けAIのクレスタは年間継続収益(ARR)で1億ドルを達成した。セールスフォースとの交渉に先立つ同社の事業規模を示す。",
+      "source": "Axios",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/04/30/a16z-sequoia-ai-startup-cresta-100-million-arr"
+    },
+    {
+      "date": "2025-12-17",
+      "headline": "Salesforce signs deal to acquire agentic-marketing platform Qualified",
+      "summary": "Salesforce agreed to acquire Qualified, an agentic AI marketing and website-engagement platform, to extend Agentforce into go-to-market functions; terms were not disclosed and the deal was expected to close around Salesforce's fiscal Q1 2027.",
+      "summary_ja": "セールスフォースはエージェント型AIマーケティング基盤Qualifiedの買収契約に合意した。Agentforceの営業・マーケティング領域への拡張が目的。条件は非公開で、完了は2027年度第1四半期前後を見込むとされた。",
+      "source": "CX Today",
+      "url": "https://www.cxtoday.com/marketing-sales-technology/salesforce-acquires-qualified-to-expand-its-ai-automation-vision-in-service-teams/"
+    },
+    {
+      "date": "2025-11-09",
+      "headline": "Salesforce announces deal to acquire agentic-analytics startup Spindle AI",
+      "summary": "Salesforce said it had agreed to acquire Spindle AI, an agentic analytics startup, as part of its continuing run of AI acquisitions; the deal was expected to close around Salesforce's fiscal Q4 2026.",
+      "summary_ja": "セールスフォースはエージェント型分析スタートアップのSpindle AIを買収すると発表した。同社が続けるAI関連買収の一環で、完了は2026年度第4四半期前後を見込むとされた。",
+      "source": "Salesforce Ben",
+      "url": "https://salesforceben.com/salesforce-acquires-spindle-ai-as-acquisition-spree-continues/"
+    }
+  ],
+  "since": [
+    {
+      "date": "2026-11-02",
+      "headline": "Salesforce confirms Cresta acquisition, names Marriott, Comcast and Alaska Airlines as customers",
+      "summary": "Salesforce said it signed a definitive agreement to acquire Cresta, which it described as a voice-first operating system for customer experience whose agents resolve customer calls end to end and coach human reps in real time; it named Marriott, Comcast and Alaska Airlines as customers and said Cresta will keep supporting telephony platforms including Five9, NICE, Genesys, Avaya and Cisco, with the deal expected to close in Salesforce's fiscal Q1 2028.",
+      "summary_ja": "セールスフォースは音声AI企業クレスタの買収契約に合意したと発表した。クレスタの音声エージェントは顧客対応を完結させ、担当者をリアルタイムでコーチングするとされる。顧客にはマリオット、コムキャスト、アラスカ航空が含まれ、Five9やNICE、Genesysなど既存の電話基盤との連携も継続する。完了は2028年度第1四半期の見込み。",
+      "source": "Salesforce Newsroom",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "The Information pegs Cresta deal value at about $2.7bn, unconfirmed by Salesforce",
+      "summary": "The Information reported the value of Salesforce's agreement to acquire Cresta at approximately $2.7 billion; Salesforce itself has not disclosed the purchase price or other financial terms.",
+      "summary_ja": "The Informationは、セールスフォースによるクレスタ買収の金額を約27億ドルと報じた。セールスフォース自身は買収価格などの条件を公表していない。",
+      "source": "Runtime Wire (citing The Information)",
+      "url": "https://runtimewire.com/article/salesforce-acquire-cresta-2-7-billion-voice-agents-service-cloud"
+    }
+  ]
+}
