@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261103-1500";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261103-1700";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1973,7 +1973,7 @@
   function jpChartLinks(T) {
     const row = hEl("div", "tv-ranges tv-links");
     row.append(hEl("span", "tv-label", "Recent price chart (1W to 1Y):"));
-    [["Kabutan", `https://kabutan.jp/stock/chart?code=${T}`], ["Yahoo! Finance Japan", `https://finance.yahoo.co.jp/quote/${T}.T/chart`], ["TradingView", `https://www.tradingview.com/symbols/TSE-${T}/`]]
+    [["Kabutan", `https://kabutan.jp/stock/chart?code=${T}`], ["Yahoo! JP", `https://finance.yahoo.co.jp/quote/${T}.T/chart`], ["TradingView", `https://www.tradingview.com/symbols/TSE-${T}/`]]
       .forEach(([l, u]) => { const a = srcLink(l, u); a.className = "chip"; row.append(a); });
     return row;
   }
