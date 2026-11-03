@@ -395,7 +395,15 @@ h4 .pf-conf { display: inline-block; margin-left: 6px; }
 .px-note { margin: 6px 0 0; font-size: 10.5px; line-height: 1.4; color: var(--ink-3); }
 .px-links { margin: 8px 0 0; font-size: 10.5px; line-height: 1.5; color: var(--ink-3); }
 .px-links a { color: var(--ink); }
-.px-tv { min-height: 220px; }
+.px-tv { min-height: 260px; }
+.tv-ranges { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 6px; }
+.tv-chart { min-height: 240px; }
+.tv-ranges { align-items: center; }
+.tv-links { margin: 8px 0 0; }
+.tv-label { font-size: 11px; color: var(--ink-3); margin-right: 2px; }
+@media (max-width: 560px) { .tv-label { flex: 0 0 100%; } }
+.tv-ranges a.chip { text-decoration: none; cursor: pointer; }
+.tv-ranges .chip { cursor: pointer; }
 .px-tv iframe { color-scheme: normal; }   /* a dark page would otherwise paint the transparent embed white */
 /* Profile detail: six fixed sections (Overview, Price, Financials, Ownership, Takeover defense, Sources).
    No tinted bands or side bars; one colour = one meaning:

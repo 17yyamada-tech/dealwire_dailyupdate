@@ -77,7 +77,7 @@ Three pages, in the header line on wide screens and in the bottom tab bar on pho
   The page has two views, News (the headlines above) and Profile (a table, one row per company: sector,
   revenue, operating and net income for the latest year, revenue growth, the top three shareholders and whether a
   takeover defence was found). Opening a row loads TradingView's embedded widgets for US stocks (market cap, P/E, price and
-  volume, delayed; shown by TradingView, not stored here); Tokyo-listed stocks get links to TradingView, Kabutan and Yahoo! Finance Japan instead, because the embeds do not show them and the full holder list, defence note and financials,
+  volume, delayed; shown by TradingView, not stored here); the chart has range chips 1W / 1M / 6M / 1Y (TradingView `symbol-overview`, one entry in `dateRanges`: `5d|30`, `1m|60`, `6m|1D`, `12m|1D`; `hideDateRanges` hides its own tabs; 1W is the last five sessions because there is no `1w` span; the choice is kept in localStorage `dw.tvRange`, default 1Y, and only the chart widget is rebuilt). Tokyo-listed stocks get a row "Recent price chart (1W to 1Y)" with chips that open the chart page of Kabutan, Yahoo! Finance Japan and TradingView in a new tab, because the embeds do not show them; the full holder list, defence note and financials,
   each with its filing link. Figures come from EDINET (Japan) and SEC (US) through the Apps Script's `profile`
   field; a company without one shows "Profile pending". Each value carries its reliability (Official, Machine,
   Vendor; see the Sources page). Up to 15 companies per browser.
@@ -225,8 +225,7 @@ back are read and each company keeps its newest value.
 
 **Page.** The cards read `data/jp_profiles` and `data/us_profiles` straight from this site (the Apps Script's copy
 is only a fallback, so the Apps Script needs no change). Japan: a self-drawn SVG, one bar per year from low to
-high, the estimated year-end price as a line, and the estimates below with their date. US: TradingView's one-year
-chart, loaded only when the card scrolls into view, and the public float below it.
+high, the estimated year-end price as a line, and the estimates below with their date. US: TradingView's chart with the same 1W / 1M / 6M / 1Y chips (default 1Y), loaded only when the card scrolls into view, and the public float below it.
 
 ## 5% stake reports
 `edinet.py` opens every 5% report once (about 200 a business day, remembered in `docs/data/edinet_seen.json`,

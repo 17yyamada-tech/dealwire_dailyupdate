@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261101-2100";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261103-1500";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -1612,18 +1612,16 @@
     card.append(g);
     (px.notes || []).forEach(t => card.append(hEl("p", "px-note", t)));
     const T = encodeURIComponent((p && p.ticker) || c.ticker);
-    const ln = hEl("p", "px-links", "Today's price: ");
-    [["株探", `https://kabutan.jp/stock/?code=${T}`], ["Yahoo!ファイナンス", `https://finance.yahoo.co.jp/quote/${T}.T`], ["TradingView", `https://www.tradingview.com/symbols/TSE-${T}/`]]
-      .forEach(([l, u], i) => { if (i) ln.append("  "); ln.append(srcLink(l, u)); });
-    if (px.url) { ln.append("   Filing: "); ln.append(srcLink("EDINET", px.url)); }
-    card.append(ln);
+    card.append(jpChartLinks(T));
+    const ln = hEl("p", "px-links");
+    if (px.url) { ln.append("Filing: "); ln.append(srcLink("EDINET", px.url)); card.append(ln); }
   }
   function pxFillUS(card, c, p, px) {
     const sym = px.tv_symbol || (p && p.tv_symbol) || "";
     const host = hEl("div", "px-tv");
     if (sym) {
       card.append(host);
-      const go = () => tvWidget(host, "mini-symbol-overview", { symbol: sym, width: "100%", height: 220, locale: "en", dateRange: "12M", colorTheme: isDarkPage() ? "dark" : "light", isTransparent: true, autosize: false, chartOnly: false });
+      const go = () => usChart(host, sym, isDarkPage() ? "dark" : "light");
       if ("IntersectionObserver" in window) {
         const io = new IntersectionObserver((es) => { if (es.some(e => e.isIntersecting)) { io.disconnect(); go(); } }, { rootMargin: "200px" });
         io.observe(host);
@@ -1903,13 +1901,13 @@
     // 2 Price
     const pr = pfSection("Price");
     if (mk === "JP") {
-      pr.append(dl([["Chart", "Not shown here: TradingView's embeds do not cover Tokyo-listed stocks. Open a link above."]]));
+      pr.append(jpChartLinks(encodeURIComponent(tk)));
       pr.append(hEl("p", "pf-foot", "Estimated year-end prices from the annual report are on the Price tab."));
     } else if (p.tv_symbol) {
       const w1 = hEl("div", "pf-tv"), w2 = hEl("div", "pf-tv"), box = hEl("div", "pf-tvbox"); box.append(w1, w2); pr.append(box);
       const theme = isDarkPage() ? "dark" : "light";
       tvWidget(w1, "symbol-info", { symbol: p.tv_symbol, width: "100%", locale: "en", colorTheme: theme, isTransparent: true });
-      tvWidget(w2, "mini-symbol-overview", { symbol: p.tv_symbol, width: "100%", height: 220, locale: "en", dateRange: "12M", colorTheme: theme, isTransparent: true, autosize: false, chartOnly: false });
+      usChart(w2, p.tv_symbol, theme);
       const ft = hEl("p", "pf-foot"); ft.append("Delayed quotes · TradingView (vendor data, not stored here) ", conf("vendor")); pr.append(ft);
     } else pr.append(dl([["Chart", "No exchange mapped for this ticker."]]));
     root.append(pr);
@@ -1970,6 +1968,42 @@
     const m = (getComputedStyle(document.body).backgroundColor || "").match(/\d+(\.\d+)?/g);
     if (!m || m.length < 3) return true;
     return (0.2126 * m[0] + 0.7152 * m[1] + 0.0722 * m[2]) < 140;
+  }
+  // Tokyo-listed stocks: the chart cannot be embedded, so one row of chips opens each site's own chart page (1W to 1Y are on the page).
+  function jpChartLinks(T) {
+    const row = hEl("div", "tv-ranges tv-links");
+    row.append(hEl("span", "tv-label", "Recent price chart (1W to 1Y):"));
+    [["Kabutan", `https://kabutan.jp/stock/chart?code=${T}`], ["Yahoo! Finance Japan", `https://finance.yahoo.co.jp/quote/${T}.T/chart`], ["TradingView", `https://www.tradingview.com/symbols/TSE-${T}/`]]
+      .forEach(([l, u]) => { const a = srcLink(l, u); a.className = "chip"; row.append(a); });
+    return row;
+  }
+  // US price chart with a range switch: chips above the chart, only the chart widget is rebuilt on a click.
+  // TradingView symbol-overview: the range is the single entry of dateRanges ("<span>|<bar interval>"); its own tabs are
+  // hidden (hideDateRanges) and ours replace them. It has no "1w" span, so 1W is "5d" (the last five sessions).
+  const TV_RANGES = [["1W", "5d|30"], ["1M", "1m|60"], ["6M", "6m|1D"], ["1Y", "12m|1D"]];
+  function usChart(host, sym, theme) {
+    let cur = store.get("tvRange", "12m|1D");
+    if (!TV_RANGES.some(r => r[1] === cur)) cur = "12m|1D";
+    const bar = hEl("div", "tv-ranges"), chart = hEl("div", "tv-chart");
+    bar.setAttribute("role", "group"); bar.setAttribute("aria-label", "Chart range");
+    const draw = () => {
+      chart.textContent = "";
+      tvWidget(chart, "symbol-overview", { symbols: [[sym, sym]], dateRanges: [cur], chartOnly: false, width: "100%", height: 240, locale: "en", colorTheme: theme,
+        autosize: false, showVolume: false, showMA: false, hideDateRanges: true, hideMarketStatus: true, hideSymbolLogo: true,
+        scalePosition: "right", scaleMode: "Normal", noTimeScale: false, valuesTracking: "1", changeMode: "price-and-percent", chartType: "area", isTransparent: true });
+    };
+    TV_RANGES.forEach(([label, k]) => {
+      const b = hEl("button", "chip", label); b.type = "button"; b.dataset.range = k; b.setAttribute("aria-pressed", String(k === cur));
+      b.addEventListener("click", () => {
+        if (k === cur) return;
+        cur = k; store.set("tvRange", k);
+        // every chip row on the page follows the choice, so a chart opened later starts from it too
+        $$(".tv-ranges .chip").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.range === k)));
+        draw();
+      });
+      bar.append(b);
+    });
+    host.append(bar, chart); draw();
   }
   // TradingView's own embed script, one per widget; if it cannot load the rest of the row still shows.
   function tvWidget(host, name, cfg) {
