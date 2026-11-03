@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-03-1530",
+      "label": "3 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-03T07:34:56Z",
+      "items": 7,
+      "headlines": [
+        "ACG Metals to acquire Blue Moon Norway and its Nussir copper mine for $220m in stock",
+        "Windward acquires maritime-surveillance startup Azimut.ai to track vessels that go dark",
+        "Lonza agrees to acquire five US manufacturing sites from Merck & Co"
+      ]
+    },
+    {
       "id": "2026-11-03-1230",
       "label": "3 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-03T04:35:57Z",

@@ -1,0 +1,129 @@
+{
+  "edition": "2026-11-03-1530",
+  "edition_label": "3 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T07:34:56Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "ACG Metals to acquire Blue Moon Norway and its Nussir copper mine for $220m in stock",
+      "summary": "London-listed ACG Metals has agreed to acquire 100% of Blue Moon Norway AS, including its 94.52% stake in the construction-stage Nussir copper mine and other Norwegian assets, from Blue Moon Metals. The deal is valued at $220 million in ACG Metals equity consideration, and Blue Moon said it will use the move to focus on its US critical-metals assets.",
+      "why_it_matters": "Carving the asset out to a dedicated buyer builds a more focused European copper player around Nussir just as Western governments push to secure non-China critical-minerals supply chains, while letting Blue Moon concentrate on its US portfolio.",
+      "summary_ja": "ロンドン上場のACGメタルズは、ブルームーン・メタルズから建設段階にあるヌシル銅鉱山の94.52%権益を含むブルームーン・ノルウェーの全株式を取得することで合意した。取引額はACGメタルズ株式220百万ドル相当で、ブルームーンは売却を機に米国の重要鉱物資産へ経営資源を集中させる方針。",
+      "why_it_matters_ja": "専業の買収主へ資産を切り出すことで、西側諸国が脱中国の重要鉱物サプライチェーン構築を急ぐ中、ヌシル鉱山を核とする欧州の銅専業企業が生まれる一方、ブルームーンは米国資産への集中が可能になる。",
+      "status": "new",
+      "prev": null,
+      "key": "acg-blue-moon-norway-nussir-copper",
+      "ids": ["8253b6ef8f9083", "a94e35a820dc7b"],
+      "links": [
+        {"source": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/acg-to-acquire-100-of-blue-moon-norway-including-the-construction-stage-nussir-copper-mine-to-create-a-high-growth-european-copper-company-302927155.html"},
+        {"source": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/blue-moon-announces-sale-of-blue-moon-norway-to-acg-metals-limited-302927302.html"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["Industrials", "Materials"]
+    },
+    {
+      "headline": "Windward acquires maritime-surveillance startup Azimut.ai to track vessels that go dark",
+      "summary": "Maritime AI company Windward has acquired Azimut.ai, adding a sensing layer that identifies and fingerprints vessels in real time at maritime chokepoints and ports. The technology is designed to keep tracking vessels even when they switch off their own positioning systems to evade detection.",
+      "why_it_matters": "Sanctions evasion by \"dark fleet\" shipping has become a major compliance and intelligence problem for governments, insurers and commodity traders, and the deal strengthens Windward's position supplying tools to detect it.",
+      "summary_ja": "海事AI企業ウィンドワードはAzimut.aiを買収した。同社の技術は、海上の要衝や港湾で船舶をリアルタイムに識別・特定するセンシング層を追加するもので、追跡装置を切って検知を逃れようとする船舶の動きも捕捉できるよう設計されている。",
+      "why_it_matters_ja": "制裁回避を目的とした「ダークフリート」船舶の動きは各国政府や保険会社、商品トレーダーにとって重大なコンプライアンス・インテリジェンス課題となっており、本買収はそれを検知する技術領域でのウィンドワードの地位を強化するものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "windward-azimutai-acquisition",
+      "ids": ["63614b4ac93651"],
+      "links": [
+        {"source": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/windward-expands-into-maritime-visual-intelligence-with-acquisition-of-azimutai-302927533.html"}
+      ],
+      "categories": ["M&A", "Infra"],
+      "countries": ["US"],
+      "sectors": ["AI & Semis", "TMT", "Infrastructure"]
+    },
+    {
+      "headline": "Lonza agrees to acquire five US manufacturing sites from Merck & Co",
+      "summary": "Swiss contract manufacturer Lonza has agreed to acquire five manufacturing sites in the US from Merck & Co, according to Japanese M&A reporting. Price and site locations were not disclosed in available reporting.",
+      "why_it_matters": "The deal would add significant US manufacturing capacity to Lonza's contract-development-and-manufacturing network at a time when pharmaceutical supply chains face pressure to localise production onshore.",
+      "summary_ja": "スイスの受託製造大手ロンザは、メルク・アンド・カンパニーから米国内の製造拠点5カ所を買収することで合意した。現時点の報道では価格や拠点の所在地は明らかになっていない。",
+      "why_it_matters_ja": "医薬品サプライチェーンの米国内生産移管圧力が高まる中、本件はロンザの受託製造(CDMO)網に米国内の大規模な製造能力を加えるものとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "lonza-merck-us-manufacturing-sites",
+      "ids": ["e29ddafb88f7d6"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMSlFyTWJwYzQyRXZMUHE4Q3JCUXhBN1g3S2pjOG5yY3MtOGNPZ01ZOTJleWdmTWR2Rk9LR3h3cGxibUNSTEpycVBUZ29UbWhHVmU4cGRZbXNWcXNjTnlSRDVpT0RCODdnMEd1WGpyQ1U?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["Industrials"]
+    },
+    {
+      "headline": "Broadmedia board formally backs NSSK tender offer, sets plan to focus on education and tech",
+      "summary": "Broadmedia's board has formally expressed its support for NSSK's tender offer, confirming the Tokyo-listed company will go private. The company said it plans to concentrate on its education and technology businesses after delisting.",
+      "why_it_matters": "The stated post-buyout focus gives the market its first look at NSSK's plan for Broadmedia, signalling the sponsor intends to streamline the portfolio around core segments rather than run it as a diversified holding company.",
+      "summary_ja": "ブロードメディアの取締役会はNSSKによるTOBへの賛同を正式に表明し、東証上場の同社が非公開化されることが確定した。同社は上場廃止後、教育・技術事業に経営資源を集中させる方針を示した。",
+      "why_it_matters_ja": "買収後の事業方針が示されたことで、NSSKがブロードメディアを多角化した持株会社としてではなく、中核事業に絞り込む形で運営する意向であることが初めて明らかになった。",
+      "status": "update",
+      "prev": {"edition": "2026-10-30-0830", "index": 4},
+      "key": "nssk-broadmedia-tob",
+      "ids": ["dce6667f5bd97d"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jWnB4NHJlWXdxbnhBSVBqUWJTTGhXRmEyd0VfNnNWRDBSNWJ6dzdrZ04wOFFOQXJ6d1REaUE5V0x4eEMwS1FBVlFyN3BNRVhLSFFqTkk3a2lIN3V4azJBLXRUaUwzcjdnd3E0X2RB?oc=5"}
+      ],
+      "categories": ["M&A", "PE"],
+      "countries": ["JP"],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "Krungsri Finnovate invests in Thai messaging-platform Amity's $100m-plus Series D extension",
+      "summary": "Thailand's Krungsri Finnovate has invested in a Series D extension round for Amity that has raised more than $100 million in total. Further terms were not disclosed in available reporting.",
+      "why_it_matters": "A bank-backed venture arm anchoring a nine-figure late-stage round signals continued institutional appetite for Southeast Asian tech even as broader venture funding in the region slows.",
+      "summary_ja": "タイのクルンシィ・フィノベートは、Amityのシリーズ Dエクステンションラウンドに出資した。同ラウンドの累計調達額は1億ドルを超えるが、その他の条件は現時点で明らかになっていない。",
+      "why_it_matters_ja": "銀行系ベンチャー部門が1億ドル超の大型レイトステージラウンドに出資したことは、東南アジア全体のベンチャー資金調達が減速する中でも、同地域のテック企業への機関投資家の関心が続いていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "krungsri-finnovate-amity-series-d",
+      "ids": ["52cbd6beb351bf"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zWHpUWFdLMUllZ05lMXNZZXZ6cXE1MFgzZGtjVmctYm5sS2p6SExHSzdlWVV3X21yMFBscWthcExSMHU5ZWVhWUkwVVE1UU5aMHNyQlFRbThGZlJvM0x0U2hMSGplNV9yZnF0ZXJBamFEM2lvWTRLRkRR?oc=5"}
+      ],
+      "categories": [],
+      "countries": ["SEA"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Vynn Capital leads extension round for Malaysian battery recycler Econili",
+      "summary": "Vynn Capital has led an extension round for Econili, a Malaysia-based battery recycling company. Terms of the round were not disclosed in available reporting.",
+      "why_it_matters": "The deal adds to a build-out of Southeast Asia's battery-recycling and critical-minerals-recovery capacity, a sector drawing PE and VC interest as EV adoption raises supply-chain and ESG pressure on battery materials.",
+      "summary_ja": "ヴィン・キャピタルは、マレーシアの電池リサイクル企業Econiliのエクステンションラウンドを主導した。ラウンドの条件は現時点で明らかになっていない。",
+      "why_it_matters_ja": "EV普及に伴いバッテリー素材のサプライチェーンやESGへの圧力が高まる中、本件は東南アジアにおける電池リサイクル・重要鉱物回収能力の拡充につながるものであり、PEおよびVCの関心を集めている分野だ。",
+      "status": "new",
+      "prev": null,
+      "key": "vynn-capital-econili-extension",
+      "ids": ["b473f0a133adb4"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JVGdSdFlrRUZLX1c0VUptWDc1N3NlWFlod0JuOEVRS0RyMXJOb1lDc0tNUXplRW95b0VtU1hQck5La0NKMFM1MjhMOVQyZHlGWHMyaTV3dDFHY2djNGd3TVRLS3pKd0JfWGxFd3g2MEpfWjRI?oc=5"}
+      ],
+      "categories": [],
+      "countries": ["SEA"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Cars24 and Alba Cars combine UAE used-car operations, together retailing 1,000+ vehicles a month",
+      "summary": "Used-car platform Cars24 and Alba Cars are combining their UAE operations, together retailing more than 1,000 vehicles a month and forming one of the country's largest used-vehicle retail businesses. The companies said the deal pairs Cars24's automotive technology with Alba Cars' retail expertise and customer base.",
+      "why_it_matters": "The tie-up consolidates a fragmented UAE used-car market around a single platform, echoing consolidation already seen in used-vehicle retail in other markets as scale becomes a competitive advantage.",
+      "summary_ja": "中古車プラットフォームのCars24とAlba Carsは、UAE事業を統合し、両社合わせて月間1,000台超を販売する同国最大級の中古車小売事業者の一つとなる。両社は、Cars24の自動車関連技術とAlba Carsの小売ノウハウおよび顧客基盤を組み合わせる取引だとしている。",
+      "why_it_matters_ja": "本件は、分散していたUAEの中古車市場を単一のプラットフォームに統合するものであり、規模が競争優位となる中古車小売業において他市場でも見られてきた再編の流れを映している。",
+      "status": "new",
+      "prev": null,
+      "key": "cars24-alba-cars-uae",
+      "ids": ["b07444be2703e0"],
+      "links": [
+        {"source": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/cars24-and-alba-cars-join-forces-to-accelerate-growth-in-the-uae-automotive-market-302926619.html"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["TMT", "Consumer", "Industrials"]
+    }
+  ]
+}
