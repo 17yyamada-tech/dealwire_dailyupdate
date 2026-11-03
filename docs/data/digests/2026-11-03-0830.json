@@ -1,0 +1,337 @@
+{
+  "edition": "2026-11-03-0830",
+  "edition_label": "3 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T00:36:26Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Marvell signs $115bn all-stock deal to buy Lumentum, setting up direct fight with Broadcom in optics",
+      "summary": "Marvell Technology has signed a definitive agreement to acquire optical-component maker Lumentum in an all-stock transaction valued at about $115bn, Lumentum's 8-K filing confirms. Lumentum shareholders will hold roughly 33% of the combined company, and the deal puts Marvell in direct competition with Broadcom in optical networking for AI data centres.",
+      "why_it_matters": "The deal converts October's reported talks into a signed contract, making Marvell's optical bet for AI infrastructure official and forcing fellow chipmakers to decide whether to build or buy their own interconnect capacity. A 33% stake for Lumentum holders, well above a typical premium, is already prompting debate over whether Marvell overpaid, and the all-stock structure means Lumentum holders are now exposed to Marvell's own share-price swings rather than a clean cash exit.",
+      "summary_ja": "マーベル・テクノロジーは、光学部品メーカーのルメンタムを総額約1,150億ドルの全株式交換で買収する最終契約を締結した。ルメンタムの8-K開示によれば、ルメンタム株主は統合後の会社の株式の約33%を保有する。この買収により、マーベルはAIデータセンター向け光通信分野でブロードコムと正面から競合する立場となる。",
+      "why_it_matters_ja": "10月に報じられた協議が正式契約に至り、マーベルのAI向け光学戦略が確定したことで、他の半導体企業も自社でインターコネクトを内製するか買収するかの判断を迫られる。ルメンタム株主への33%という高い持ち分比率は、通常の買収プレミアムを上回り、マーベルが過大な対価を払った可能性への議論を呼んでいる。全株式交換という構造により、ルメンタム株主は現金での確実な売却ではなく、マーベル株自体の変動にさらされることになる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-29-0830",
+        "index": 2
+      },
+      "key": "marvell-lumentum-acquisition-talks",
+      "ids": [
+        "6aa6245773b00a",
+        "d78075b9373a79",
+        "184fd7d7f33f66"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526442758/0001193125-26-442758-index.htm"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43S3gwSGVaOUFfMWo4MXhsSngzY292dUI5cWdoTFp0X3FZZjY2dlR1Mjg3dnVYbzRYdUVFRmVpVndBQWwtd1ZzTEhRbHNDakt0TE1waXpvRW5mLUI4cGFuOUZoRlVfcVk0ZndTUHFXWWxXVFdX?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tdk5JZndjZWJKUWpDRDItcnFybnNUTVhOQVNlMW9hbVVqcjBwa0lqSWhPNE5PdjNjT2ZZRmtqMHViZW13RWZqLW5ZWnhVTFFKbGFDaU1vVGFuX19RTVJaWEdIcklwaGF4bjgtNTQ4a3NTYnI3UFgzTU5qbWY?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Kimberly-Clark closes roughly $49bn Kenvue acquisition, folding in Tylenol",
+      "summary": "Kimberly-Clark has completed its acquisition of Kenvue, a deal reported at about $49bn, bringing Tylenol and Kenvue's wider consumer-health portfolio under its ownership, according to Kimberly-Clark's announcement and SEC filings from both companies. The combined group is pitched as a global consumer health and wellness leader uniting ten billion-dollar brands.",
+      "why_it_matters": "Closing follows the EU's conditional clearance in October, so the deal has now cleared its last major hurdle; investors will watch how quickly Kimberly-Clark integrates Kenvue's brands and whether the required divestitures proceed on schedule. The transaction also marks one of the largest consumer-health combinations to reach completion this year, a test case for how far scale can go in offsetting integration costs.",
+      "summary_ja": "キンバリー・クラークは、ケンビューの買収を完了した。報じられている取引規模は約490億ドルで、タイレノールを含むケンビューの消費者向けヘルスケア事業を傘下に収めた。両社の発表とSEC開示によれば、統合後は10のビリオンダラーブランドを束ねる消費者向けヘルスケア・ウェルネス企業を目指すとされている。",
+      "why_it_matters_ja": "今回のクローズは10月の欧州委員会による条件付き承認を経たものであり、取引は最後の大きな関門を通過したことになる。投資家は、キンバリー・クラークがケンビューのブランドをどれだけ迅速に統合できるか、また求められているブランド売却が計画通り進むかを注視するだろう。この取引は今年完了した消費者向けヘルスケア分野で最大級の統合案件でもあり、規模の拡大が統合コストをどこまで相殺できるかを試す事例となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-26-1230",
+        "index": 1
+      },
+      "key": "kimberly-clark-kenvue-eu-approval",
+      "ids": [
+        "33056ac332dde6",
+        "f40ffb1337b06d",
+        "05e42be6f98c04"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Consumer",
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/kimberly-clark-completes-acquisition-of-kenvue-creating-the-preeminent-global-consumer-health-and-wellness-leader-302926494.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Uc1dSSmtKejA3RHU1LXZoY1ltVGVjUVZWUExBdFh0RVU3UmViaGI2NUZEbkhfbHdOOUFtS3JscmpLRGs5NzlzbWwxNG5ObkVNUUt1dElCOWtEQy1TSy1YTVhTRlJpckNRelZNQ3ZpQUMwWmJv?oc=5"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1944048/000095015726001147/0000950157-26-001147-index.htm"
+        }
+      ]
+    },
+    {
+      "headline": "SpaceX in talks to buy EchoStar's Boost Mobile or lease its network, Washington Post reports",
+      "summary": "SpaceX is in discussions to acquire Boost Mobile, the prepaid wireless carrier owned by EchoStar, or alternatively to use its network, the Washington Post reported. EchoStar shares rose on the report.",
+      "why_it_matters": "A deal would give SpaceX's Starlink a direct retail wireless foothold and spectrum access in the US, extending Musk's push from satellite broadband into mobile connectivity; EchoStar's rally shows the market sees a sale as the more likely outcome of the two options floated. Either path would deepen the convergence between satellite and terrestrial carriers that regulators have been watching closely.",
+      "summary_ja": "スペースXは、エコスターが保有する格安携帯キャリア「ブースト・モバイル」の買収、またはそのネットワークの利用について協議していると、ワシントン・ポストが報じた。この報道を受け、エコスター株は上昇した。",
+      "why_it_matters_ja": "実現すればスペースXのスターリンクは米国内で携帯通信の小売拠点とスペクトラムを直接手にすることになり、衛星ブロードバンドから携帯通信へとマスク氏の事業展開がさらに広がる。エコスター株の上昇は、市場が買収の方をより有力な選択肢とみていることを示す。いずれの道筋をたどっても、規制当局が注視してきた衛星通信事業者と地上系通信事業者の融合が一段と進むことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "spacex-boost-mobile-talks",
+      "ids": [
+        "a522a2ea8c5390",
+        "49c43f47640eb3"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/spacex-in-talks-buy-boost-mobile-or-use-its-network-washington-post-reports-6512836"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3eE9ObFdGc3VocVlvZmtuQlQyN3htREcwNGh3RmxUbW1ocWV3YTduS2NaaDZ5cmVnYzVvbDAzbW1uaGY3TEF0NkVYRFNyVFhlTnVEV2NmRUhxckdkSkoxOXViTC1lZS1mUzlLZkZ1a0c?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "PSP Investments sells FirstLight's US power fleet to Hull Street Energy, spins off Canadian arm as Caelo Energy",
+      "summary": "PSP Investments has completed the sale of FirstLight's US generation portfolio to Hull Street Energy, a US power-focused investment firm, according to announcements from both companies. FirstLight's Canadian business stays with PSP Investments and becomes Caelo Energy, with Patrick Gut named as its new CEO.",
+      "why_it_matters": "The split lets PSP Investments crystallise value from part of a cross-border power platform while retaining and rebranding the Canadian assets under new leadership, and hands Hull Street Energy a US generation fleet to build on as sponsor-to-sponsor power deals keep moving infrastructure between institutional owners. The rebrand and new CEO appointment also signal PSP is treating the Canadian remainder as a standalone platform rather than a leftover to be sold later.",
+      "summary_ja": "PSPインベストメンツは、米国の発電専業投資会社ハル・ストリート・エナジーに対し、ファーストライトの米国事業ポートフォリオの売却を完了したと、両社が発表した。ファーストライトのカナダ事業はPSPインベストメンツの傘下に残り、「Caelo Energy」に改称され、新CEOにはパトリック・グート氏が就任する。",
+      "why_it_matters_ja": "この分割により、PSPインベストメンツは国境を越えた発電プラットフォームの一部から価値を実現しつつ、カナダ資産については新たな経営体制のもとで保有・改称を続けることができる。ハル・ストリート・エナジーは米国の発電フリートを獲得し、スポンサー間での電力資産の移転が続いていることを示している。改称と新CEOの起用は、PSPがカナダ側の残存事業を後で売却する残余資産としてではなく、独立したプラットフォームとして位置づけていることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "psp-investments-firstlight-us-sale-hull-street",
+      "ids": [
+        "fbd1e78e995df2",
+        "8beeebca345c4c"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/hull-street-energy-completes-acquisition-of-firstlights-us-generation-fleet-302925892.html"
+        },
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/psp-investments-completes-sale-of-firstlight-s-u-s-portfolio-and-appoints-patrick-gut-ceo-of-caelo-energy-845517841.html"
+        }
+      ]
+    },
+    {
+      "headline": "Nihon Shokubai to acquire Kogo Chemical for ¥20bn, vertically integrating semiconductor-materials supply",
+      "summary": "Nihon Shokubai has agreed to acquire specialty chemicals maker Kogo Chemical Industry for about ¥20bn, making it a wholly owned subsidiary and vertically integrating its semiconductor-materials supply chain.",
+      "why_it_matters": "The deal lets Nihon Shokubai secure upstream chemical supply for semiconductor materials at a time when chipmakers are racing to lock down input availability, and adds to a wave of Japanese industrial consolidation in specialty materials. Full ownership, rather than a minority stake or supply contract, gives Nihon Shokubai direct control over Kogo's production decisions.",
+      "summary_ja": "日本触媒は、特殊化学品メーカーの互応化学工業を約200億円で買収し完全子会社化することで合意した。半導体材料の供給網の垂直統合を進める。",
+      "why_it_matters_ja": "この買収により日本触媒は半導体材料向けの上流化学品の供給を確保できる。半導体メーカー各社が原材料の確保を急ぐ中での動きであり、特殊材料分野における日本の産業再編の流れの一つでもある。少数株式の取得や供給契約ではなく完全子会社化という形を取ることで、日本触媒は互応化学工業の生産判断そのものを直接管理できるようになる。",
+      "status": "new",
+      "prev": null,
+      "key": "nihon-shokubai-kogo-chemical",
+      "ids": [
+        "47672cadfd8570",
+        "fd0d019d672d1b",
+        "6d71675c057e61"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "Materials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kNnNIRFBnNHJaQ3BDaWg1ODYyaE9HcmstZlRLN2hyTW1laktmVG90a21lVjR6MjhoYTd1UlF4dUZpVUhTdURRZ2l3U2ZqcjdPbEcyY3ZNbzk1Z0o2cFNrXzR4dTJmdXVRajJGaTJOZjlMTHp5?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4RmhaSW9NbUlGUTRPUTlqYnZkV2VLNmNDS09nYnFoc24tMlJjVkxCSVZWaDFBNWlhbVFKcjdrN1FHVlU3X0xDN0JEaUpfMll5U1NfTWFodTNpdHVtMF9xM2dCQU1vdWpiUnZJSQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1uaWNJdHNMZFFpSUwwamZvVE5WcVpLR3gwcnJ1ODlJTGR2NmUtcVAyZkxjQzBFMS11RUkwX3R3ekVxQmZrVTJ0Y1VB?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Mitsubishi Electric completes ¥220bn acquisition of US energy-software firm PCI Energy Solutions",
+      "summary": "Mitsubishi Electric has completed its acquisition of PCI Energy Solutions, a US energy-sector software company, for about ¥220bn, making it a wholly owned subsidiary, the company announced.",
+      "why_it_matters": "Closing the deal gives Mitsubishi Electric's energy business a US software platform, adding digital tools to its hardware-heavy grid and power-management offering as utilities invest in modernising networks. Taking PCI Energy Solutions fully in-house, rather than partnering with it, points to Mitsubishi Electric wanting the software roadmap under its own control as it competes with other grid-equipment suppliers.",
+      "summary_ja": "三菱電機は、米国のエネルギー関連ソフトウェア会社PCI Energy Solutionsの買収を完了し、約2,200億円で完全子会社化したと発表した。",
+      "why_it_matters_ja": "買収完了により、三菱電機のエネルギー事業は米国のソフトウェア基盤を獲得し、ハードウェア中心だった電力網・電力管理事業にデジタルツールを加えることになる。電力会社各社が送電網の高度化に投資を進める中での動きだ。提携ではなく完全子会社化という形を選んだことは、三菱電機が他の電力機器サプライヤーと競う中で、ソフトウェアの開発方針を自社でコントロールしたい意向の表れとも言える。",
+      "status": "new",
+      "prev": null,
+      "key": "mitsubishi-electric-pci-energy-solutions",
+      "ids": [
+        "23c30d26fe2103",
+        "b092472c9e1dea"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Energy",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40VHI4NkZNUGxRX0lSSHRDRWQzaGpYd181dlpvSU9lT202NGRBOFY5bU1VTTUxWVlSUVJEc0pMTFl2Slp1bEtpalRwQmVJTGppVURxdUNIc0RmLS10NmhFbjkxd0VKaTFCQXpJ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUDBFa3hUcEtHWGtUV1JLM3VNZGswajN5dEhnSEpjNzlXMko1azA3SlJkbF9KbmxnSFhHQnhZY0JVMWdJWThoVGZMUHNXQlU0ZVItMVVoRml3TjlQbmdOR21BR3pTY2RibnpxRmlfbnJSdlNaNGJZV3R5UTd2eVQzT2tXQXgycFE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Farallon takes 5.02% stake in Yamato Holdings, calls for chairman Nagao to leave the board",
+      "summary": "US activist investor Farallon Capital has acquired a 5.02% stake in Yamato Holdings and is demanding that chairman Nagao step down from the board, according to a report.",
+      "why_it_matters": "The intervention adds Yamato Holdings to the list of established Japanese companies facing activist pressure on governance, a trend reshaping board dynamics across corporate Japan. A direct demand for a sitting chairman's removal, rather than a broader push for buybacks or disclosure, signals Farallon wants a leadership change, not just incremental concessions.",
+      "summary_ja": "米アクティビスト投資家のファラロン・キャピタルは、ヤマトホールディングス株式の5.02％を取得し、長尾会長の取締役退任を求めていると報じられている。",
+      "why_it_matters_ja": "今回の介入により、ヤマトホールディングスも、ガバナンスを巡ってアクティビストの圧力を受ける日本企業の一社に加わった。これは日本企業の取締役会の在り方を変えつつある流れである。買収防衛策や情報開示の拡充といった緩やかな要求ではなく、現職会長の退任そのものを直接求めている点は、ファラロンが小幅な譲歩ではなく経営陣の交代を狙っていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "farallon-yamato-holdings-stake",
+      "ids": [
+        "4cc3e8df935a98"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0tLXBsR3hmYWY4OEFNdHFaX3VrYS1hTGZadDk4aXFJQWxkM2ZpZ2VUaV9haW5FMEl4N3RpY25fLWl1REFWNmplbjk4aw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bain Capital raises over $1.8bn for third Asia special situations fund",
+      "summary": "Bain Capital has raised more than $1.8bn for its third Asia special situations fund, according to DealStreetAsia.",
+      "why_it_matters": "The raise shows continued investor appetite for distressed and opportunistic credit strategies in Asia, giving Bain more dry powder to deploy into stressed situations across the region. Reaching a third vintage of the strategy also suggests limited partners remain comfortable backing Bain's approach to special situations rather than treating it as a one-off.",
+      "summary_ja": "ベイン・キャピタルは、第3号となるアジア・スペシャルシチュエーションズ・ファンドで18億ドルを超える資金を調達したと、DealStreetAsiaが報じた。",
+      "why_it_matters_ja": "今回の調達は、アジアにおけるディストレスト・オポチュニスティック系クレジット戦略への投資家の意欲が続いていることを示し、ベインは同地域のストレス局面に投じる資金をさらに確保した。このシリーズが3号ファンドまで続いていることは、出資者がベインのスペシャルシチュエーションズ戦略を一回限りの取り組みとしてではなく、継続的に支援していることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "bain-capital-asia-special-situations-fund-iii",
+      "ids": [
+        "d93662d9012e9a"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYVlYWWJvWDhXZXJPRjU3bXV5Y3FDanlzdVIwdUNEeWtHemlZNnpsYnA1RHp1a2dKeHF1b2ZBY19VR1lnenY1ODRIQXRQY0FUSkcyRHZQZFRNMGNsbFZtVW1uSjdKNHdwT2taY2FtRkc4aFBIMTQ0dUZ3VXZ0dG9vNC1fMGJ2b0xT?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "EVgo receives $2-a-share take-private proposal from LS Power",
+      "summary": "EV-charging network operator EVgo has received an acquisition proposal from LS Power at $2 per share, according to a report.",
+      "why_it_matters": "An all-cash proposal at a fixed $2-a-share price gives EVgo's board and shareholders a concrete number to weigh against staying public, in a sector where investors have been pushing EV-infrastructure operators to prove out their economics. How EVgo's stock trades relative to that $2 level will be an early signal of whether the market sees the offer as a floor or a ceiling.",
+      "summary_ja": "EV充電ネットワーク運営会社のEVgoは、LS Powerから1株2ドルでの買収提案を受けたと報じられている。",
+      "why_it_matters_ja": "1株2ドルという固定価格での現金提案により、EVgoの取締会と株主は、上場を続ける場合との比較材料となる具体的な数字を手にすることになる。EV充電インフラ各社の収益性に投資家の視線が集まる中での動きだ。EVgo株がこの2ドルという水準に対してどう推移するかは、市場がこの提案を下限と見るか上限と見るかを示す初期のシグナルとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "evgo-ls-power-buyout-proposal",
+      "ids": [
+        "461671805f6f32"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Energy"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KWVUyUENsbmR2VVhGQTc5NUFHaHN5TWxxZXp6eWlpUFNfeWhTTnpzRGhybzQtYnl4RVktQUE0eWZ6UE9YVW54X2FYWmVPSk41OTVXc2tDbnBqXzVld1RpdXJvVkg1Um9FTFBsM3RHUmE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Hong Kong Gold Industry Group's 20% stake purchase in Guixi Baojia collapses, partnership dissolved",
+      "summary": "Hong Kong Gold Industry Group's planned acquisition of a 20% stake in Guixi Baojia has fallen through, and the related partnership entity has been dissolved at the same time, according to a report.",
+      "why_it_matters": "The collapse is a reminder that not every announced stake deal in China's gold sector closes, and the simultaneous dissolution of the partnership vehicle suggests the parties could not resolve their disagreement short of unwinding the structure entirely. For a sector that has drawn heavy dealmaking interest, the episode is a caution against treating stake announcements as closed transactions.",
+      "summary_ja": "香港黄金産業集団による貴渓鮑家の株式20％取得計画が破談となり、関連する合夥企業（パートナーシップ）も同時に解散したと報じられている。",
+      "why_it_matters_ja": "この破談は、中国の金事業における発表済みの株式取得案件がすべて成立するわけではないことを示す一例であり、合夥企業というスキーム自体を同時に解散させたことは、当事者間の対立がスキームの一部修正では解消できなかったことを示唆している。買収案件への関心が高まっている業界だけに、この一件は株式取得の発表を成約済みの取引と見なすべきではないという戒めにもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "hk-gold-industry-guixi-baojia-stake-collapse",
+      "ids": [
+        "9ac7e39c6a8429"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNSWplS29aVmlqaEI4aEs3eE1fQUYxR2JyUHBkM1JUQ3NXdm9JeXByb2w3bUtOeTVNTFVJeHNOdUxHcU81QnBicXBBT1E2YmRiZkwxNGhtMEJ5SGtKVUk2R3RERmdJOVpPbk1sS2JhdnJaOW42?oc=5"
+        }
+      ]
+    }
+  ]
+}

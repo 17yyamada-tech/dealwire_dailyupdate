@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-03-0830",
+      "label": "3 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-03T00:36:26Z",
+      "items": 10,
+      "headlines": [
+        "Marvell signs $115bn all-stock deal to buy Lumentum, setting up direct fight with Broadcom in optics",
+        "Kimberly-Clark closes roughly $49bn Kenvue acquisition, folding in Tylenol",
+        "SpaceX in talks to buy EchoStar's Boost Mobile or lease its network, Washington Post reports"
+      ]
+    },
+    {
       "id": "2026-11-02-1530",
       "label": "2 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-02T07:38:42Z",
