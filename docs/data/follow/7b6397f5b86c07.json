@@ -4,12 +4,16 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-03T00:50:21Z",
+  "checked_at": "2026-11-03T04:47:09Z",
   "status": {
     "as_of": "2026-11-03",
-    "text": "BOJ held at 1.25% (8-1) Oct 30, yen near 157. Arab parties offered Eisenkot outside support, not coalition entry, Nov 2. Brent near $117.56, up ~15% on Hormuz attacks.",
-    "text_ja": "日銀は10月30日1.25%維持(8対1)、円157円近辺。アラブ系政党は11月2日、連立入りせずアイゼンコット氏を院外支援。原油はホルムズ攻撃で117ドル台。",
+    "text": "BOJ held at 1.25% Oct 30; Eisenkot's bloc still short of a majority as of Nov 2. Brent plunged ~7% to ~$105 on Nov 2 on Hormuz reopening hopes, reversing its October rally.",
+    "text_ja": "日銀は10月30日に1.25%維持。アイゼンコット氏陣営は11月2日時点も過半数未達。原油は同日、ホルムズ再開期待で急落し105ドル前後へ反転下落した。",
     "refs": [
+      {
+        "list": "since",
+        "url": "https://www.euronews.com/2026/11/02/oil-slides-on-hormuz-deal-hopes-but-trump-keeps-iran-strikes-on-the-table"
+      },
       {
         "list": "since",
         "url": "https://www.aljazeera.com/news/2026/11/2/arab-parties-back-eisenkot-whats-the-latest-in-israels-coalition-talks"
@@ -17,10 +21,6 @@
       {
         "list": "since",
         "url": "https://www.tokenpost.com/news/regulation/44257"
-      },
-      {
-        "list": "since",
-        "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
       }
     ]
   },
@@ -91,6 +91,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-02",
+      "headline": "Brent and WTI plunge about 7% as Qatar-mediated talks raise hopes for a Hormuz reopening deal, Trump doubts resuming Iran strikes",
+      "summary": "Euronews and other outlets reported that Brent crude fell roughly 7% to about $105 a barrel and WTI dropped about 7.3% to roughly $96.50 on November 2, 2026, as Iranian negotiators in Doha discussed a Qatari-mediated proposal that Foreign Minister Abbas Araghchi said could reopen the Strait of Hormuz within two days if Washington met Tehran's conditions; the talks ended without a breakthrough, and President Trump raised doubts about following through on a threatened resumption of strikes on Iran. The UK Maritime Trade Operations agency said Iran struck two more tankers in the strait on Sunday, November 1.",
+      "summary_ja": "ユーロニュースなどの報道によると、2026年11月2日、ホルムズ海峡再開案を協議するカタール仲介の交渉を背景にブレント原油は約7%下落し1バレル105ドル前後、WTIも約7.3%下落し96.50ドル前後となった。イランのアラグチ外相は米国が条件を満たせば海峡は2日以内に再開可能と述べたが、交渉は突破口なく終わった。トランプ大統領はイランへの攻撃再開を実行するかどうか明言を避けた。英海事当局UKMTOによると、イランは11月1日(日)にも海峡でタンカー2隻を攻撃した。",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2026/11/02/oil-slides-on-hormuz-deal-hopes-but-trump-keeps-iran-strikes-on-the-table"
+    },
     {
       "date": "2026-11-02",
       "headline": "Arab-led parties offer only outside support to oust Netanyahu as Eisenkot sets coalition terms seen as hard to meet",
@@ -322,14 +330,6 @@
       "summary_ja": "イランは、米軍のMQ-9リーパー無人機1機をホルムズ海峡上空で撃墜したと主張した。米中央軍(CENTCOM)はこの主張についてコメントしていない。",
       "source": "HNGN",
       "url": "https://www.hngn.com/articles/273540/20261020/iran-says-two-supertankers-hit-mines-hormuz.htm"
-    },
-    {
-      "date": "2026-10-19",
-      "headline": "IRGC says another tanker catches fire after mine strike in Hormuz, alleges unauthorized southern route",
-      "summary": "Reuters reported, via The Korea Times, that Iran's Revolutionary Guards Navy said on Monday, October 19, 2026 that another oil tanker caught fire after hitting a naval mine in the Strait of Hormuz, alleging the vessel had used an unauthorized southern route and disabled its positioning and navigation systems; the claim was not independently verified.",
-      "summary_ja": "ロイターがコリア・タイムズ経由で報じたところによると、イラン革命防衛隊海軍は2026年10月19日(月)、ホルムズ海峡で別のタンカーが機雷に接触し出火したと発表した。同船は無許可の南側航路を使用し、測位・航行システムを無効化していたと主張しているが、独立した形での確認はされていない。",
-      "source": "Reuters (via The Korea Times)",
-      "url": "https://www.koreatimes.co.kr/world/20261019/oil-tanker-on-fire-after-hitting-mine-in-hormuz"
     }
   ]
 }
