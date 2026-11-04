@@ -1,0 +1,320 @@
+{
+  "edition": "2026-11-04-0830",
+  "edition_label": "4 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T00:36:08Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "CVR Energy to buy two Marathon Petroleum refineries for $4.2bn, launches $750m equity raise",
+      "summary": "CVR Energy has agreed to acquire two refineries from Marathon Petroleum for about $4.2 billion. CVR has launched a $750 million stock offering to help fund the deal and disclosed the agreement in an SEC filing.",
+      "why_it_matters": "The purchase would meaningfully expand CVR's refining footprint at a time when US refiners are consolidating existing capacity rather than building new plants, and the equity raise shows CVR is willing to dilute shareholders for the scale. The pace of the follow-on offering also suggests CVR wants to close quickly rather than carry the acquisition on debt alone.",
+      "summary_ja": "CVRエナジーはマラソン・ペトロリアムから製油所2基を約42億ドルで買収することに合意した。買収資金の一部を調達するため7億5000万ドルの株式公募を開始し、SEC提出資料でも合意内容を開示した。",
+      "why_it_matters_ja": "米国の製油業界が新設ではなく既存設備の統合に向かう中、本件はCVRの製油事業の規模を大きく拡大する取引であり、増資による希薄化を受け入れてでも規模を確保する姿勢を示す。増資のスピードから、CVRが買収資金を債務だけに依存せず早期の取引完了を目指していることもうかがえる。",
+      "status": "new",
+      "prev": null,
+      "key": "cvr-energy-marathon-refineries",
+      "ids": [
+        "f19bc60644122c",
+        "c8d88f997b9e1d",
+        "7c01ac733dfc5a"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VS3p5TmhWazBiVnd6ODlwdlh3VmdaX3JQelN0aTlhVGZGODgzcnk2bWdaSllsemJUVnRfXzh5bllNSmRycmVqSmFKRkVQMVZUTnRGVzdfWm56LU5BVGxkNmswS2NhZ2lVSDRLWHpmTkRvWm9x?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RLXFRb0NwcUlQRnZFQm1PMHJSM3c3bEtGOS1CZ0lDRWFMUkhRelZIdmg2eW9ncERZSFI2T3YtNllSOER3aXZiQVNTamo4TkQ4TllMa0Z4d1ctMTJMcy0wTDhXTU56eWFVTkl2SkZWZEg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "JD.com wins conditional EU approval for $2.5bn Ceconomy acquisition",
+      "summary": "The European Commission has conditionally approved JD.com's roughly $2.5 billion acquisition of Ceconomy, the parent company of electronics retailers MediaMarkt and Saturn.",
+      "why_it_matters": "Clearance removes the main regulatory obstacle to one of the largest Chinese tech acquisitions of a European retailer, advancing JD.com's push into omnichannel electronics retail outside China. It also shows Brussels is willing to clear a Chinese-owned buyer for a consumer-facing European brand, at least when conditions are attached.",
+      "summary_ja": "欧州委員会は、JD.comによるメディアマークトおよびザトゥルンの親会社ケコノミーの約25億ドルの買収を条件付きで承認した。",
+      "why_it_matters_ja": "これにより、中国テック企業による欧州小売企業買収として最大級の案件の主な規制上の障壁が取り除かれ、JD.comは中国国外でのオムニチャネル家電小売事業の拡大を前進させる。条件付きとはいえ、欧州委員会が消費者向けの欧州ブランドについて中国系買収企業を承認した点も見逃せない。",
+      "status": "new",
+      "prev": null,
+      "key": "jd-com-ceconomy-eu-approval",
+      "ids": [
+        "0ef7f521010723",
+        "da2bf033a6d53b"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/jdcom-wins-eu-approval-acquisition-ceconomy-6516611"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mSklFOGE5azJKV2JRVjRkc1dkd2djMk5QcHU4WVdGWWxhTFNvZEl6aV9fZWpyZEY3SmRzVkJINGVVN2d2MndIUFlQejh4SEJicG5VSWlhb0tvNkNjSEdZYUE5czFYd2FfTnliNXlTZVVrZmtG?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Shell to sell $1.5bn stake in Australian LNG plant to Adnoc's XRG",
+      "summary": "Shell has agreed to sell a $1.5 billion stake in an Australian LNG plant to XRG, the energy investment arm of Adnoc. XRG has been seeking supply deals worldwide as it aims to rank among the world's top five LNG suppliers.",
+      "why_it_matters": "The sale lets Shell recycle capital out of a mature LNG asset while XRG buys its way toward global top-five LNG status, extending Gulf sovereign investors' push into Western energy supply chains. It is also a lower-risk entry point for XRG than backing a greenfield project, since the plant is already producing.",
+      "summary_ja": "シェルは、豪州のLNGプラントの15億ドル相当の権益をアブダビ国営石油(ADNOC)の投資子会社XRGに売却することに合意した。XRGは世界トップ5のLNG供給企業入りを目指し、世界各地で調達案件を探索してきた。",
+      "why_it_matters_ja": "シェルは成熟したLNG資産から資金を回収する一方、XRGは買収により世界トップ5のLNG供給企業の地位を狙っており、湾岸の政府系投資家による西側エネルギー供給網への進出が一段と進む。既に生産中の設備であるため、グリーンフィールド投資に比べてXRGにとってリスクの低い参入方法でもある。",
+      "status": "new",
+      "prev": null,
+      "key": "shell-adnoc-xrg-australian-lng",
+      "ids": [
+        "70f3aaac22061e"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/shell-sell-us1-5-billion-stake-australian-lng-plant-adnoc-energy-investment-arm"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Organigram agrees C$561m deal for Aurora Cannabis, topping rival Curaleaf bid",
+      "summary": "Organigram has agreed to acquire Aurora Cannabis for about C$561 million, outbidding a competing proposal from Curaleaf and sending Aurora's shares sharply higher. Curaleaf has since issued a statement acknowledging Aurora's announcement and addressing its own alternative proposal.",
+      "why_it_matters": "A bidding contest for Aurora Cannabis points to consolidation pressure in the cannabis sector, where scale and balance-sheet strength are increasingly deciding which operators survive prolonged weakness in wholesale pricing. How Curaleaf responds next will show whether it is willing to raise its own offer to keep the target.",
+      "summary_ja": "オルガニグラムは、約5.61億カナダドルでオーロラ・カナビスを買収することに合意し、キュラリーフの対抗提案を上回った。これを受けてACB株は急騰した。キュラリーフはその後、オーロラの発表と自社の対抗提案について声明を発表した。",
+      "why_it_matters_ja": "オーロラ・カナビスを巡る争奪戦は大麻業界の再編圧力を示しており、卸売価格の低迷が長引く中、規模とバランスシートの強さが生き残る事業者を左右する構図が強まっている。キュラリーフが対抗して提示額を引き上げるかどうかが、次の注目点となる。",
+      "status": "new",
+      "prev": null,
+      "key": "organigram-aurora-cannabis-bidding-war",
+      "ids": [
+        "2a661082d254ba",
+        "28cb000b1fa4a3"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80cGNjRXMxNFBwR0NiU3ZCTXNnRV9vaWhkZzNmai1ZVjNkV1NyOXZ5cUNxZ3dMZkQwRzVtYzlJZm55MFR6Q1JYMVVQeUV5aGJvQ1VUX3F5SFVNVUh2VUJIV1huM3hTVnlQQ0ZyT1RfQ2dTQkRN?oc=5"
+        },
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/curaleaf-issues-statement-regarding-alternative-proposal-for-aurora-cannabis-302928528.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "CrowdStrike agrees to buy AI-monitoring startups Fiddler and Dreadnode for about ¥78bn combined",
+      "summary": "CrowdStrike has agreed to acquire Fiddler, an AI-agent observability startup, and Dreadnode, an AI security-testing company, in a combined deal worth about ¥78 billion. CrowdStrike says the acquisitions add a \"kill switch\" capability for stopping AI agents that behave unexpectedly.",
+      "why_it_matters": "The twin deals push CrowdStrike beyond endpoint security into monitoring and testing the AI agents enterprises are now deploying, a category security vendors are racing to own before a high-profile incident forces the issue.",
+      "summary_ja": "クラウドストライクは、AIエージェント観測企業のFiddlerとAIセキュリティテスト企業のDreadnodeを、合計約780億円で買収することに合意した。同社は、暴走するAIエージェントを停止させる「キルスイッチ」機能が今回の買収に含まれるとしている。",
+      "why_it_matters_ja": "この2件の買収により、クラウドストライクはエンドポイントセキュリティの枠を超え、企業が導入を進めるAIエージェントの監視・検証という領域に踏み出す。大きな事故が起きて対応を迫られる前に、セキュリティ各社がこの領域を押さえようと競っている。",
+      "status": "new",
+      "prev": null,
+      "key": "crowdstrike-fiddler-dreadnode",
+      "ids": [
+        "1c721554065afc",
+        "bcee574c73057c",
+        "8f27ce8215893b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yQ1hPb0YySzU2VjNVdG5GSUVkdzFrWV8zSVdjTnFRNDIwZDNJeXhQQVRmaUZfZUsyT25YSUpCczJiQWt1MzhwamZaLW1jU3U3Qk5zWDk1MVAwQ0VTQU5KZ29CUEVCVVJXUU1mQ1JLdUc?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RLXFRb0NwcUlQRnZFQm1PMHJSM3c3bEtGOS1CZ0lDRWFMUkhRelZIdmg2eW9ncERZSFI2T3YtNllSOER3aXZiQVNTamo4TkQ4TllMa0Z4d1ctMTJMcy0wTDhXTU56eWFVTkl2SkZWZEg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KNDlabTNybXI3REtRMXhwNW10elc0LVFGTlhuZUotMEN2ZU9sNUNvM21XUmhlX0tZckd0NkhQX2J6UDFKcWNiOUtqTXlXbW9zaHhfMml5aWJ6UERCS1BXOXJtMDRLN1F6N0x5R0Z1UDBiZi1B?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Shiga Bank and Ikeda Senshu HD to merge via Kyoto-bypass structure, forming Japan's top Kansai regional lender",
+      "summary": "Shiga Bank and Ikeda Senshu Holdings are moving toward a management integration using what Japanese reporting calls a 'Kyoto-bypass' structure, following the basic merger agreement the two lenders reached in late October. The combination is set to create the largest regional bank group in the Kansai region.",
+      "why_it_matters": "The specific integration structure announced now, rather than just the earlier merger headline, will shape how quickly the two lenders can cut costs and consolidate branch networks in an already crowded regional banking market.",
+      "summary_ja": "滋賀銀行と池田泉州ホールディングスは、10月下旬に基本合意した経営統合について、日本の報道が「京都飛ばし」と呼ぶ枠組みでの統合に向けて動いている。この統合により、関西地銀グループで最大規模の銀行グループが誕生する見通しだ。",
+      "why_it_matters_ja": "先の統合合意の見出しだけでなく、今回明らかになった統合の具体的な枠組みが、すでに競争の激しい地銀業界においてコスト削減や店舗網統合をどの程度のスピードで進められるかを左右する。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-10-29-1530",
+        "index": 0
+      },
+      "key": "shiga-bank-ikeda-senshu-merger",
+      "ids": [
+        "464fb7cf542dd3"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TbjIxZ2pRdklUODJMMHNJcmt2UDRfYnl0enlvbVlXcHNvbllHZFN4QmppVWhqSXROYzZ6Z2FuM0pmYW9WZllFdVhCcDVmWnJpNWhnTm9meno0WGhfdkt1TXNJeWl1UzQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Hong Kong's Link Reit in talks to buy about 50% of Eastpoint Mall from Income Insurance",
+      "summary": "Link Reit is in talks to acquire roughly a 50% stake in Income Insurance's Eastpoint Mall. The mall sits on a 99-year leasehold that began in 1993, leaving about 66 years remaining on the site.",
+      "why_it_matters": "A purchase would add a Singapore retail asset to Hong Kong's largest Reit at a time when Asian Reits are hunting for yield outside home markets where rents are under pressure. The long remaining lease term also matters for a Reit buyer, which needs decades of cash flow to justify the price.",
+      "summary_ja": "リンク・リート(Link Reit)は、インカム・インシュランスが保有するイーストポイント・モールの株式約50%の取得に向けて協議している。同モールは1993年に始まった99年のリースホールド契約の土地にあり、残存期間は約66年となっている。",
+      "why_it_matters_ja": "買収が実現すれば、香港最大のリートがシンガポールの小売資産を取り込むことになり、本国市場で賃料が伸び悩む中、アジア各国のリートが利回りを求めて海外に向かう流れを映す。残存リース期間の長さも、数十年分の収益を前提に価格を正当化する必要があるリート買収にとって重要な要素となる。",
+      "status": "new",
+      "prev": null,
+      "key": "link-reit-eastpoint-mall",
+      "ids": [
+        "721ec385ced7a2"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/property/hong-kongs-link-reit-talks-acquire-around-50-stake-income-insurances-eastpoint-mall"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Financials",
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "EQT-backed SatPort Infrastructure completes purchase of Speedcast's teleport business",
+      "summary": "SatPort Infrastructure, backed by EQT, has completed its acquisition of Speedcast's teleport business, adding 12 teleports across five continents. The deal makes SatPort a carrier-neutral ground-infrastructure platform serving satellite operators, governments and enterprise customers.",
+      "why_it_matters": "The deal extends private equity's build-out of satellite ground infrastructure, a capital-intensive layer investors are consolidating as low-earth-orbit constellations multiply demand for teleport capacity.",
+      "summary_ja": "EQTが支援するサットポート・インフラストラクチャー(SatPort Infrastructure)は、スピードキャスト(Speedcast)のテレポート事業の買収を完了し、5大陸にまたがる12のテレポートを獲得した。これにより、サットポートは衛星事業者や政府機関、企業顧客向けにキャリアニュートラルな地上インフラ基盤を提供する企業となる。",
+      "why_it_matters_ja": "この買収は、プライベートエクイティによる衛星地上インフラ整備の流れを一段と進めるものであり、低軌道衛星群の増加でテレポート需要が拡大する中、資本集約的なこの領域の再編が加速していることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "satport-speedcast-teleport",
+      "ids": [
+        "5ab48e8991cbbf"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/eqt-backed-satport-infrastructure-completes-acquisition-of-teleport-business-from-speedcast-to-expand-its-satellite-ground-infrastructure-platform-globally-302927816.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Meta raises $15bn in five-part bond sale to fund AI expansion",
+      "summary": "Meta has raised $15 billion through a five-part US bond sale. Meta said the proceeds will help fund its AI expansion.",
+      "why_it_matters": "The raise adds Meta to the list of hyperscalers tapping debt markets rather than cash flow alone to cover AI capital spending, underlining how far AI infrastructure budgets now outrun even the largest tech balance sheets.",
+      "summary_ja": "メタは5本立ての米国債券発行により150億ドルを調達した。メタは、調達資金をAI事業の拡大に充てるとしている。",
+      "why_it_matters_ja": "この起債により、メタもまたキャッシュフローだけでなく債務市場に依存してAI関連の資本支出を調達するハイパースケーラーの一社となった。これは、最大手のテック企業であってもAIインフラへの投資規模が自己資金の範囲を大きく超えつつあることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "meta-15bn-bond-sale-ai",
+      "ids": [
+        "b49be52d530fe8"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/meta-raises-15-billion-in-five-part-us-bond-sale-fund-ai-expansion-6518121"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Peak XV-backed Neo Alternative raises $654m for second private credit fund",
+      "summary": "Neo Alternative, backed by Peak XV Partners, has raised $654 million for its second private credit fund.",
+      "why_it_matters": "The raise adds to a wave of Asia-focused private credit vehicles capturing demand from borrowers that banks and public markets are pricing out, and Peak XV's backing signals venture-style sponsors are moving deeper into credit.",
+      "summary_ja": "ピークXVパートナーズが支援するネオ・オルタナティブ(Neo Alternative)は、第2号プライベートクレジットファンドで6億5400万ドルを調達した。",
+      "why_it_matters_ja": "本件は、銀行や公開市場から排除された借り手の需要を取り込むアジア系プライベートクレジットファンドの潮流に加わるものであり、ピークXVの出資は、ベンチャー型のスポンサーがクレジット分野へさらに踏み込んでいることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "neo-alternative-private-credit-fund-ii",
+      "ids": [
+        "dc5c868eddbd19"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMHo5MzVpSU1IYVVRa0p5VkFqVlBEYVNRRmFkeVZ0ODVjVmJDWlYwdGExZDVUQUhudmVhRGN0YjJBY09Vck83OHEwUm0xRUpVVlR0dGllV1ZwN1E2QnpLZGtmZHlQUmN6dFpJTzZmZWg4UnJmb1B6VzRvUnE5NkNkM3cwcFJxVUM1UGdzZFdoRGlRa3c?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    }
+  ]
+}

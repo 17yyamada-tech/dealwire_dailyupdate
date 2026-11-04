@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-04-0830",
+      "label": "4 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-04T00:36:08Z",
+      "items": 10,
+      "headlines": [
+        "CVR Energy to buy two Marathon Petroleum refineries for $4.2bn, launches $750m equity raise",
+        "JD.com wins conditional EU approval for $2.5bn Ceconomy acquisition",
+        "Shell to sell $1.5bn stake in Australian LNG plant to Adnoc's XRG"
+      ]
+    },
+    {
       "id": "2026-11-03-1530",
       "label": "3 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-03T07:34:56Z",
