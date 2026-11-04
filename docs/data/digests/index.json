@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-04-1230",
+      "label": "4 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-04T04:36:57Z",
+      "items": 7,
+      "headlines": [
+        "Japan's state fund JIC to sell JSR to Mitsui Chemicals for over ¥1.3tn in one of chemicals' largest reshuffles",
+        "Lonza's US manufacturing network reaches nine sites after fresh CDMO-site purchase",
+        "Leopalace21 tender offer succeeds, clearing way for delisting under Hikari Tsushin unit"
+      ]
+    },
+    {
       "id": "2026-11-04-0830",
       "label": "4 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-04T00:36:08Z",

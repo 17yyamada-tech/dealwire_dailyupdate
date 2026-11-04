@@ -1,0 +1,212 @@
+{
+  "edition": "2026-11-04-1230",
+  "edition_label": "4 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T04:36:57Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Japan's state fund JIC to sell JSR to Mitsui Chemicals for over ¥1.3tn in one of chemicals' largest reshuffles",
+      "summary": "Japan Investment Corporation, the government-backed fund, plans to sell semiconductor-materials maker JSR to Mitsui Chemicals for more than ¥1.3 trillion, Japanese reporting says, citing sources. The deal is being described as one of the largest reorganizations in Japan's chemicals industry. Mitsui Chemicals shares posted their steepest one-day fall in 15 years as investors weighed the financial burden of the purchase.",
+      "why_it_matters": "A purchase price above ¥1.3 trillion would make Mitsui Chemicals one of the largest buyers tied to AI-driven chip-materials demand, but the scale of the share-price drop shows the market is pricing financing risk well ahead of any signed agreement.",
+      "summary_ja": "政府系ファンドのJICは、半導体材料大手JSRを三井化学に1.3兆円超で売却する計画だと関係者の話として報じられた。同取引は化学業界で最大級の再編の一つとされる。三井化学株は買収に伴う資金負担への懸念から15年ぶりの下落率を記録した。",
+      "why_it_matters_ja": "買収額が1.3兆円を超えれば、三井化学はAI主導の半導体材料需要を取り込む最大級の買い手となるが、株価下落の大きさは、合意成立前から市場が資金調達リスクを織り込んでいることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "jic-jsr-mitsui-chemicals",
+      "ids": [
+        "d5cc84c123a68b",
+        "6ddeba3847bc4a",
+        "b435208e542b75"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hYkJRY3NVTEswYlhNRS1NZk5EOHI1TE1WaFc0UF9JeGJvTkNYZW1NNkEzTUx5VFFiMVE2UEI3QjRMQ1RrY01CTFY4MmVZRE44VzJLU002QnN2eFBzelFOY3E1bzFERElVUTdlNg?oc=5"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/exclusive-japan-fund-jic-plans-sell-jsr-mitsui-chemicals-sources-say-6518476"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xYnRaVk1nZXRXeUhXV0hBbU5abDhnSG1QdlNQZWRjX2VHZUIwQlhrRzNWZHotaGx3RWFIV1VidVcyNDRpT3JhcTdSNEg4NUl2WUk1ZEg2ZTFWeWlrTTZvU1pZQ0lHRFMyOHo2SU1PS0oxSkUzUDZF?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "Materials",
+        "Public / Macro"
+      ]
+    },
+    {
+      "headline": "Lonza's US manufacturing network reaches nine sites after fresh CDMO-site purchase",
+      "summary": "Lonza has agreed to acquire another US contract-development-and-manufacturing (CDMO) site, taking its American network to nine plants, according to Japanese M&A reporting. The new report names the seller as Merck KGaA, a day after separate Japanese reporting said Lonza was buying five US sites from Merck & Co; the reports have not reconciled which Merck entity is involved. Financial terms were not disclosed.",
+      "why_it_matters": "Whichever Merck entity is the counterparty, Lonza is visibly accelerating its US manufacturing footprint as pharma supply chains localise, and deal professionals should watch for a cleaner confirmation given the conflicting seller names across Japanese reporting so far.",
+      "summary_ja": "ロンザは米国内で新たにCDMO（医薬品受託製造）拠点を買収することで合意し、米国内の製造網を9拠点に拡大すると日本のM&A関連報道が伝えた。今回の報道は売却元をメルクKGaAとしているが、前日の別の日本の報道ではメルク・アンド・カンパニーから米国5拠点を買収するとされており、両報道でどちらのメルクが当事者かは整合していない。金額などの条件は開示されていない。",
+      "why_it_matters_ja": "どちらのメルクが相手であっても、ロンザが医薬品サプライチェーンの国内生産移転の中で米国内の生産拠点を急速に積み上げていることに変わりはない。日本の報道間で売却元の名前が一致していないため、取引関係者はより明確な確認情報を待つ必要がある。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-03-1530",
+        "index": 2
+      },
+      "key": "lonza-merck-us-manufacturing-sites",
+      "ids": [
+        "c4d2b371458eb1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qNDhMSjZqVXZDRzJzVnhuWVc2dXRwT19DS0QzQWpGVWwwaTRUMlBqc0JxelBqQXdpMzFOcG1UWjd3dWtMWllVUklJREc4el95NHRIWG14UDlHam5UdzloZTdlZlplUUt1XzNadUtCZzRXNlBf?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Leopalace21 tender offer succeeds, clearing way for delisting under Hikari Tsushin unit",
+      "summary": "Leopalace21's tender offer has succeeded, Japanese reporting says, clearing the way for the leasing and construction company to be taken private under a subsidiary of Hikari Tsushin. The report frames the move as part of a management overhaul with implications for Leopalace21's rental-management business.",
+      "why_it_matters": "Delisting hands Hikari Tsushin direct control over Leopalace21's rental-management operations at a moment Japanese reporting flags as a management overhaul, removing quarterly public-market scrutiny while that overhaul plays out.",
+      "summary_ja": "レオパレス21へのTOB（株式公開買付け）が成立し、光通信傘下での非公開化に向けた道筋が整ったと日本の報道が伝えた。同報道は、この動きをレオパレス21の賃貸管理事業に影響を及ぼす経営刷新の一環と位置づけている。",
+      "why_it_matters_ja": "非公開化により、光通信はレオパレス21の賃貸管理事業を直接的に統制下におくことになる。日本の報道が経営刷新と位置づけるこの過程が進む一方で、四半期ごとの市場からの監視は外れることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "leopalace21-hikari-tsushin-tob",
+      "ids": [
+        "8877d57d5d805d"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSbXp6eEpBelJMYWUzdnlhazJ4LXJvNGtNZWsyaXZ3Zld5WW9Ed05xZks2NHpWcjg1WU1nbUhmcjJfcjBreGpWZ0NzNFJ1NFM0Vmc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Chord acquires AI analytics firm Zenlytic, adding Verizon, J.Crew, Domino's and Stanley Black & Decker as customers",
+      "summary": "Chord has acquired Zenlytic as part of its expansion into enterprise AI, according to a corrected PR Newswire release. The release says the deal adds Verizon, J.Crew, Domino's and Stanley Black & Decker as customers.",
+      "why_it_matters": "The buyer gains a ready-made roster of large enterprise logos rather than building an enterprise-AI pipeline from scratch, a shortcut that lets sellers command a premium while big corporates are still testing which AI vendors to commit to.",
+      "summary_ja": "Chordは、エンタープライズAI事業への拡大の一環としてZenlyticを買収したと、訂正版のPR Newswireリリースが伝えた。同リリースによれば、今回の買収によりベライゾン、J.Crew、ドミノ・ピザ、スタンレー・ブラック・アンド・デッカーが顧客に加わった。",
+      "why_it_matters_ja": "買収企業は、自前でエンタープライズAI向けの顧客基盤を築く代わりに、大手企業の顧客群をそのまま取り込める。大企業がどのAIベンダーに本格的に委ねるかをまだ見極めている段階だからこそ、売り手はこうした顧客基盤に高い対価を求められる。",
+      "status": "new",
+      "prev": null,
+      "key": "chord-zenlytic-enterprise-ai",
+      "ids": [
+        "e4bcbe032f8d53"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/chord-expands-into-enterprise-ai-with-zenlytic-acquisition-adding-verizon-jcrew-dominos-and-stanley-black--decker-as-customers-302926600.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Umios to buy major North American seafood processor for about ¥89bn",
+      "summary": "Umios has agreed to acquire a major seafood-processing company in North America for about ¥89 billion, Japanese M&A reporting says. The deal is described as strengthening Umios's downstream operations.",
+      "why_it_matters": "A roughly ¥89 billion outbound purchase is a sizeable commitment for a Japanese seafood player, and moving into downstream processing gives it more control over margins closer to the consumer as protein supply chains consolidate.",
+      "summary_ja": "Umiosは、北米の大手水産加工会社を約890億円で買収することで合意したと日本のM&A報道が伝えた。同報道は、この買収がUmiosの川下事業の強化につながるとしている。",
+      "why_it_matters_ja": "約890億円規模の海外買収は日本の水産企業として大きな投資であり、川下の加工事業に進出することで、たんぱく質のサプライチェーン再編が進む中、消費者に近い工程での利益を確保しやすくなる。",
+      "status": "new",
+      "prev": null,
+      "key": "umios-north-america-seafood-processor",
+      "ids": [
+        "f540f94f9dfafe"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TN2VWaVBjV0hNX2h0NXlmZFZnZkE1ejRqeU9KWWVsMnd6ZS1CMk8yRkxUNHE1SXNGTk1sRnp6ekpHa2V0and6amR1bHhYTm4xTHRJeWpKUVdZS0JRWDh1SjhR?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "DeepSeek-backer Monolith seeks $561m for third USD venture fund",
+      "summary": "Monolith, a backer of DeepSeek, is seeking $561 million for its third USD-denominated venture fund, according to an SEC filing cited by DealStreetAsia.",
+      "why_it_matters": "Raising a new dollar fund despite tighter VC fundraising conditions suggests Monolith's AI-sector credibility, built partly on its DeepSeek backing, is still enough to draw LP commitments.",
+      "summary_ja": "DeepSeekの出資者であるMonolithは、第3号の米ドル建てベンチャーファンドで5億6100万ドルの調達を目指していると、SEC提出資料を基にDealStreetAsiaが報じた。",
+      "why_it_matters_ja": "VCの資金調達環境が厳しい中でも新たにドル建てファンドの設立を進めていることは、DeepSeekへの出資で得たAI分野での信用力が、出資者からのコミットメントを引き続き集めるのに十分であることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "monolith-third-venture-fund",
+      "ids": [
+        "481c0d27f5b38d"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS3hCNHN0NEJyd3JrS1NadndZTkhMQlQ2YkgtdW1kUDF2OW5rRWJmSTh5N1hYal8yZWZIOWk1NkdseWw3NnlBc1p0VmlYX09NR3lhbGZkN2lvNVVFR0VuUXprWmNZeGNpNk94UDBycEFoNkpMcDFCbUhRdzA5a0J6WlRNQnREUQ?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "IFC proposes $40m investment in Singapore's Perennial Healthcare",
+      "summary": "The International Finance Corporation has proposed a $40 million investment in Singapore's Perennial Healthcare, according to DealStreetAsia reporting.",
+      "why_it_matters": "A development-finance institution backing the platform lends it a multilateral stamp of approval that can help Perennial Healthcare line up further institutional capital for expansion.",
+      "summary_ja": "国際金融公社（IFC）は、シンガポールのPerennial Healthcareに4000万ドルを投資する案を提示したと、DealStreetAsiaが報じた。",
+      "why_it_matters_ja": "開発金融機関の関与は、同プラットフォームに多国間機関としてのお墨付きを与えるものであり、Perennial Healthcareが事業拡大に向けてさらに機関投資家の資金を呼び込む上で役立ち得る。",
+      "status": "new",
+      "prev": null,
+      "key": "ifc-perennial-healthcare-investment",
+      "ids": [
+        "4aacac208518af"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uX2tFS25zblpFbDg1amtjYURZODUyNEJFY1BleDFmV0NJVmkxM3N6RlpsR19KdzFRbU1rVE92ZW1UM3pYUmJTNXdjdFV0NEN4UFFGLWQ4NjJ2OHNmTWwzcmVqNXJtdjM5VGprMkVzOHI2UmRwTUlGQ2dadw?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Healthcare"
+      ]
+    }
+  ]
+}
