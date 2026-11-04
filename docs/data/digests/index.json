@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-04-1530",
+      "label": "4 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-04T07:37:59Z",
+      "items": 6,
+      "headlines": [
+        "Mitsui Chemicals confirms JSR review is real as Tokyo exchange flags unclear information",
+        "Oracle scraps $7bn chip-leasing deal with Tencent after US pressure, FT reports",
+        "AMD takes $1bn charge tied to OpenAI, Meta chip agreements"
+      ]
+    },
+    {
       "id": "2026-11-04-1230",
       "label": "4 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-04T04:36:57Z",

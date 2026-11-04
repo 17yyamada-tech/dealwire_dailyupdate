@@ -1,0 +1,114 @@
+{
+  "edition": "2026-11-04-1530",
+  "edition_label": "4 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T07:37:59Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Mitsui Chemicals confirms JSR review is real as Tokyo exchange flags unclear information",
+      "summary": "Mitsui Chemicals confirmed on Wednesday that its review of a possible JSR acquisition is genuine, after earlier reports said it had agreed to buy the chemicals maker from state-backed JIC for more than ¥1.3 trillion. The Tokyo Stock Exchange separately issued a market alert on Mitsui Chemicals shares, citing unclear information surrounding the deal.",
+      "why_it_matters": "The exchange's alert shows how unsettled the reporting still is on what would be one of Japan's largest chemicals-industry reshuffles, leaving the ¥1.3 trillion price tag reported earlier unconfirmed.",
+      "summary_ja": "三井化学は4日、JSR買収を検討しているとの報道について、検討自体は事実であると認めた。これに先立ち、政府系ファンドのJICからJSRを1.3兆円超で買収することで合意したとの報道が出ていた。東京証券取引所は三井化学株について、買収をめぐる情報が不明確であるとして注意喚起を行った。",
+      "why_it_matters_ja": "東証による注意喚起は、化学業界で最大級となりうるこの再編について報道内容がなお固まっていないことを示しており、先に報じられた1.3兆円超という価格も未確定のまま残る。",
+      "status": "update",
+      "prev": {"edition": "2026-11-04-1230", "index": 0},
+      "key": "jic-jsr-mitsui-chemicals",
+      "ids": ["c5382f4757c65d", "4f373e4e9f9a21", "77882c10184f33"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRHZ2anppQVFNZDBkOXB4LUZlRkY1Q2diZGtHV19RcV9uSk1FbFhadVl3V2tiZW5zbDRmZldwVFBDZnJjc2tnWGxSZkY1YnlrS04xZmRwbmxiU1QzX0h2bzhlbkJqOTJHbUwwaGNlbFlqbHAxUy1QdGNEQTg4MGlJN0VDajAwd2s?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOem45bHZkVlVZQkNOV1otOWFXa25wQ3BQQ2dyRk9DZHdlNURiVnQ0ajdmRFNpVWtUZGlzRWk3OGRjNkdYdU5hNXlkSE5UTWFrblhJOUFnR1ZOMlZpdGlubUxCcGZHaEI5ak9NVFBQWlNudkZ5V3VYZmlydENkamkzV2lYUGdKRmM?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44REJpZGpqT1NVYjQ1ZnFYc3pmamdLRUg4T1dqZ2ctUTE3QlRpalVPWExPMzR4R1hUQVgyUGRoVTEyMTlxT0VBSXRSdjM0cHpIYk1qd1A1VHpWQzBCUGc?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["TMT", "Materials"]
+    },
+    {
+      "headline": "Oracle scraps $7bn chip-leasing deal with Tencent after US pressure, FT reports",
+      "summary": "Oracle has abandoned a planned $7 billion deal to lease computing chips to Tencent, the Financial Times reported, after US officials raised concerns about the arrangement. The FT said officials tied to the Trump administration approached Oracle directly to object to the deal.",
+      "why_it_matters": "The collapse shows Washington is prepared to intervene directly in commercial AI-chip contracts with Chinese buyers, adding a new layer of political risk for US tech suppliers courting Chinese AI customers.",
+      "summary_ja": "オラクルは、テンセントにコンピューティング用チップをリースする計画だった70億ドル規模の契約を撤回した。フィナンシャル・タイムズ(FT)によると、米当局者がこの契約に懸念を示したことが背景にある。FTは、トランプ政権関係者がオラクルに直接接触し、契約に異議を示したと報じた。",
+      "why_it_matters_ja": "この契約破棄は、米政権が中国の買い手とのAI向けチップの商業契約に直接介入しうることを示しており、中国のAI顧客を取り込もうとする米テック企業にとって新たな政治リスクとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "oracle-tencent-chip-lease-scrapped",
+      "ids": ["7a03c7276df655"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/oracle-scraps-us7-billion-deal-lease-chips-tencent-under-trump-pressure-ft-reports"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US", "HK/CN"],
+      "sectors": ["TMT", "AI & Semis"]
+    },
+    {
+      "headline": "AMD takes $1bn charge tied to OpenAI, Meta chip agreements",
+      "summary": "AMD recorded a $1 billion charge in its latest quarter tied to its chip-supply agreements with OpenAI and Meta. The company linked the one-off cost directly to those two AI partnerships.",
+      "why_it_matters": "The charge is an early sign that even AMD's marquee AI chip deals carry real near-term costs, a data point investors will weigh as they price the broader AI capex build-out.",
+      "summary_ja": "AMDは直近四半期において、OpenAIおよびメタとのチップ供給契約に関連して10億ドルの一時的な費用を計上した。同社はこの一時費用を両社とのAI関連契約に直接結び付けている。",
+      "why_it_matters_ja": "この費用計上は、AMDの主力AIチップ契約であっても短期的に実際のコストを伴うことを示す初期の兆候であり、投資家がAI関連資本支出の広がりを評価する際の材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "amd-openai-meta-chip-charge",
+      "ids": ["907f81b63917f3"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/amds-openai-meta-chip-deals-trigger-1-billion-quarterly-charge-6519501"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["AI & Semis", "TMT"]
+    },
+    {
+      "headline": "Toyota-affiliated Tokai Kogyo to acquire Nissan-linked parts maker Kinugawa Rubber",
+      "summary": "Tokai Kogyo, a Toyota group supplier, is acquiring Kinugawa Rubber Industry, an auto-parts maker long affiliated with Nissan. Reports described the deal as a rare reorganisation that crosses Japan's traditional keiretsu supplier groupings, driven by intensifying competition from Chinese EV makers.",
+      "why_it_matters": "Cross-keiretsu consolidation among Japanese auto suppliers suggests competitive pressure from Chinese EV makers is now strong enough to override decades-old supplier loyalties.",
+      "summary_ja": "トヨタ系サプライヤーの東海興業が、日産系の部品メーカーである鬼怒川ゴム工業を買収する。報道では、この買収は中国メーカーによるEV競争の激化を背景に、従来のケイレツという枠を超えた再編だと位置づけられている。",
+      "why_it_matters_ja": "ケイレツを超えた部品メーカーの再編は、中国メーカーによる競争圧力が、数十年続いた系列のしがらみを上回る水準に達していることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "tokai-kogyo-kinugawa-rubber-acquisition",
+      "ids": ["8fa652f68d92c5"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hRVVDM2FQaFVEamxod3hyLTR2aEhpV2xmNlB1NU9ySFljZVZhRXZVRXZ5YzhlWTAyeE9FU0g2cUdPUm9zRTI0VWIwYnlQQWluQ0k5LVFkM2VvUWhtbWZCRmFienJkNk1FTEY5bg?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Industrials"]
+    },
+    {
+      "headline": "Itochu to become Adways' top shareholder via capital tie-up, share allotment",
+      "summary": "Itochu Corporation is entering a capital and business alliance with Tokyo-listed digital marketing firm Adways, taking shares through a third-party allotment and a disposal of treasury stock. The move will make Itochu the company's largest shareholder, Adways disclosed.",
+      "why_it_matters": "The deal gives one of Japan's trading houses another foothold in digital advertising, continuing a trend of general trading companies pushing into tech-adjacent services.",
+      "summary_ja": "伊藤忠商事は、東証上場のデジタルマーケティング企業アドウェイズと資本業務提携を結び、第三者割当増資および自己株式の処分により株式を取得する。アドウェイズの開示によれば、この提携により伊藤忠が同社の筆頭株主となる。",
+      "why_it_matters_ja": "この提携は、日本の総合商社がデジタル広告分野に新たな足場を得たことを示し、商社がテック関連サービスへ進出する流れを継続するものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "itochu-adways-capital-alliance",
+      "ids": ["b22a32f80d6e94"],
+      "links": [
+        {"source": "Japan disclosures", "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhamJsOWtWT0lGVG9WLWVnWXJWT2x0NjRHR0ttazd2S2NzNGxzX0dCZFE1OXVPazlpR2VjSjRPNnc4eWJfbVFMV1hBcEZmQVZLWjl4dHRmT2R3Wndfd0NqTk1BT0gwODdxMVE?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "Nippon Steel lifts voting stake in unit Osaka Steel to 51% via buyback tender",
+      "summary": "Nippon Steel tendered shares into a self-tender buyback launched by its listed subsidiary Osaka Steel, lifting its voting stake in the unit to 51%. Reuters reported the move followed Osaka Steel's tender offer for its own shares.",
+      "why_it_matters": "The step reflects a broader push by Japanese parent companies to tighten control of listed subsidiaries as governance reforms discourage cross-shareholdings and partial listings.",
+      "summary_ja": "日本製鉄は、上場子会社である大阪製鉄が実施した自社株買いのTOBに応募し、同社に対する議決権比率を51%に高めた。ロイターの報道によれば、この動きは大阪製鉄自身による自己株式の公開買付けを受けたものだ。",
+      "why_it_matters_ja": "この動きは、ガバナンス改革が持ち合いや部分的な上場を敬遠させる中、日本の親会社が上場子会社への支配を強めようとする広い流れを反映している。",
+      "status": "new",
+      "prev": null,
+      "key": "nippon-steel-osaka-steel-buyback-tob",
+      "ids": ["d9ba6079cdb446", "65207cab4edd90"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcE9QQWJkTXFPYjFMRUw0QkFIekV2Z01hRVZWMHRpSVlqN2tiYkJ4VzdCZGtUYW9PYkxvMzJRaDY0bUV0em52dWFnM0ZFT3c3Xy1vTTRvT010OVVkcUJfV1A1UEpsR1ZJdmdTUnRIZWJkZTJwbTF2WEFKNzg1NENkNm9XVU05aFE?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4RmRfRmJTWEVCa1VWZ0RRdmozUkc5bnpEbEE5a1ZhTjh0WEs5UHIwSFh0bmVoWW1vSU9pMHJSdTlLX3ptZnc3ZlFhb1dwbnc5RklZMDZVMlpNcHp5bHR1emN2dXdvYmVmSjF3dDhnZjJHNW5fSk0wOFE5NVF6Zw?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Materials"]
+    }
+  ]
+}
