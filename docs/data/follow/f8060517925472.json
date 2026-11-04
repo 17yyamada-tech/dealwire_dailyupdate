@@ -4,15 +4,19 @@
   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Z0l0NUVOS3EwenkxTGhOUVhDeEFCMlVoME5Vem9iNVdTOXVLdGd4UnNiOXBVNXU3NjhDMktRTU1DSmNzbkFnUUkwa3BxREFob1d5OVBXY1BhT1NrSmptZmhiRdIBaEFVX3lxTE1NVjBaT3NpTEhuR3VLa1lsT1N4SjFYbWpxNnh2ODRWQ0FadXlVRDJxN2xneS1pYlV5Vnd1MTlzOTR5SWFubHl6NGRpcEtOeVYySlhZVDhuM1ktVk8yZng5aDAxOHhSX0Vt?oc=5",
   "source": "Japan M&A",
   "published": "2026-11-03T01:15:28Z",
-  "checked_at": "2026-11-04T00:53:38Z",
+  "checked_at": "2026-11-04T04:53:36Z",
   "status": {
-    "as_of": "2026-11-03",
-    "text": "Marvell and Lumentum signed a definitive all-stock merger agreement on 2 Nov 2026, valuing Lumentum at about $115 billion enterprise value with a roughly 24% premium; deal awaits shareholder and US/China regulatory approval.",
-    "text_ja": "マーベルは2026年11月2日、ルメンタムを全株式で買収する契約を締結した。企業価値は約1150億ドル、交換比率4.5株、プレミアムは約24%。米中の規制当局の承認が今後の焦点。",
+    "as_of": "2026-11-04",
+    "text": "Marvell and Lumentum signed a definitive all-stock merger valuing Lumentum at about $115 billion on 2 Nov 2026; the deal is expected to close in the first half of 2028, pending shareholder and regulatory approval.",
+    "text_ja": "マーベルとルメンタムは11月2日、企業価値約1150億ドルの全株式買収契約を締結した。買収完了は2028年前半を見込み、株主総会と規制当局の承認が前提となる。",
     "refs": [
       {
         "list": "since",
         "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526442714/d81187dex991.htm"
+      },
+      {
+        "list": "since",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526443841/d136689d425.htm"
       }
     ]
   },
@@ -66,6 +70,14 @@
       "summary_ja": "マーベル・テクノロジーとルメンタム・ホールディングスは、ルメンタム1株をマーベル株4.5株に交換する全株式での買収契約を締結した。企業価値は約1150億ドル(1株あたり約1132ドル)、プレミアムは非公表前終値に対し約23.9%。買収完了後はマーベル株主が約67%、ルメンタム株主が約33%を保有する見通し。両社は合計市場規模約5500億ドル、年間コスト相乗効果10億ドル超を見込むとしている。取引は株主承認および米中の規制当局の承認を前提とする。",
       "source": "Marvell Technology / Lumentum Holdings (SEC filing)",
       "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526442714/d81187dex991.htm"
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Marvell discloses 12-18 month closing timeline and post-merger board composition for Lumentum deal",
+      "summary": "In SEC Form 425 filings and a joint call with customers and employees on 2 November 2026, Marvell and Lumentum said the merger is expected to close in approximately 12 to 18 months (a separate Marvell communication cited the first half of calendar 2028), subject to Lumentum and Marvell shareholder votes and required regulatory approvals; Matt Murphy will remain Chairman and CEO of the combined company, and three Lumentum directors, including CEO Michael Hurlston, will join Marvell's then seven-member board.",
+      "summary_ja": "マーベルとルメンタムは11月2日、顧客・従業員向けの説明会やSECへのForm 425提出資料で、買収完了は概ね12~18カ月後を見込むと説明した(別の資料では2028年前半という表現もある)。両社の株主承認と必要な規制当局の承認が前提となる。買収完了後もマット・マーフィーが統合会社の会長兼CEOを続け、ルメンタムのマイケル・ハールストンCEOを含む取締役3人が、現在7人のマーベル取締役会に加わる予定。",
+      "source": "Marvell Technology / Lumentum Holdings (SEC Form 425 filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526443841/d136689d425.htm"
     }
   ]
 }

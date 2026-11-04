@@ -4,19 +4,15 @@
   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZajFrNjFTM2VzOERuV2VuRi1hMk42NklGQUlaZjRrM3VkVmJTc3RjSTlOYUJwVFRwYXNJaHZfU1lxZVh0MVBST1RxTmxuY3c?oc=5",
   "source": "Japan M&A",
   "published": "2026-11-03T02:33:54Z",
-  "checked_at": "2026-11-04T00:53:38Z",
+  "checked_at": "2026-11-04T04:53:36Z",
   "status": {
-    "as_of": "2026-11-03",
-    "text": "Japan's revised tender-offer rules, cutting the mandatory-bid threshold to 30%, took effect 1 May 2026; a Justice Ministry panel continued a related shareholder-protection review in June. No developments reported since 3 Nov 2026.",
-    "text_ja": "改正TOB制度は義務的買付けの基準を30%に下げ、5月1日に施行された。法制審議会会社法制部会は6月、関連する少数株主保護の検討を続けた。11月3日までに新たな報道はない。",
+    "as_of": "2026-11-04",
+    "text": "Japan's revised TOB threshold (cut to 30%) took effect 1 May 2026; the Justice Ministry's company-law panel discussed a first outline draft at its 19th session on 28 Oct 2026, continuing a parallel minority-shareholder review.",
+    "text_ja": "改正TOB制度は義務的買付け基準を30%に下げ5月1日施行。法制審議会会社法制部会は10月28日の第19回会議で要綱案のたたき台を議論、少数株主保護の検討を継続中。",
     "refs": [
       {
-        "list": "background",
-        "url": "https://www.dir.co.jp/report/research/law-research/securities/20260302_025607.html"
-      },
-      {
-        "list": "background",
-        "url": "https://tkc.jp/consolidate/tkc_express/2026/06/202606_13908"
+        "list": "since",
+        "url": "https://www.moj.go.jp/shingi1/shingi04900001_00343.html"
       }
     ]
   },
@@ -86,5 +82,14 @@
       "url": "https://www.fsa.go.jp/singi/singi_kinyu/tosin/20231225/01.pdf"
     }
   ],
-  "since": []
+  "since": [
+    {
+      "date": "2026-10-28",
+      "headline": "Justice Ministry company-law panel discusses first draft outline at 19th session on rules tied to minority-shareholder review",
+      "summary": "Japan's Legislative Council subcommittee on company law held its 19th session on 28 October 2026, discussing supplementary points on shareholder-proposal rights and a first draft of the outline (\"youkouan no tatakidai\") covering revisions to share-issuance and shareholder-meeting rules; the Ministry of Justice published the session's materials on 29 October 2026, continuing the broader Companies Act review that runs alongside the tender-offer reform.",
+      "summary_ja": "法制審議会会社法制(株式・株主総会等関係)部会は10月28日に第19回会議を開き、株主提案権に関する補充的な検討と、株式発行・株主総会ルールの見直しを含む要綱案のたたき台を議論した。法務省は10月29日に会議資料を公表した。TOB制度改革と並行する会社法見直しの一環である。",
+      "source": "Ministry of Justice (Legislative Council)",
+      "url": "https://www.moj.go.jp/shingi1/shingi04900001_00343.html"
+    }
+  ]
 }

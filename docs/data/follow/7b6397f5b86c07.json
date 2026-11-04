@@ -4,19 +4,19 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-04T00:53:38Z",
+  "checked_at": "2026-11-04T02:47:53Z",
   "status": {
-    "as_of": "2026-11-03",
-    "text": "BOJ held at 1.25% Oct 30; Brent fell ~7% to ~$105 on Nov 2 on Hormuz hopes. Eisenkot's opposition bloc, united behind him for PM, could reach 67 seats with Arab-party backing, topping Netanyahu's 53.",
-    "text_ja": "日銀は10月30日1.25%維持、原油は2日ホルムズ再開期待で急落し105ドル前後。アイゼンコット陣営は2日結集、アラブ系と合わせ67議席でネタニヤフ53議席を超える見通し。",
+    "as_of": "2026-11-04",
+    "text": "BOJ holds at 1.25%; Brent rebounded to ~$105 Nov 3 after a reported US strike on Iran's Qeshm Island. Opposition formally recommended Eisenkot to Herzog Nov 3; consultations run Nov 4-5 before a mandate decision.",
+    "text_ja": "日銀は1.25%維持。原油は3日、イランのケシム島への米攻撃報道で105ドル前後に反発。野党はアイゼンコット氏をヘルツォーク大統領に正式推薦、4~5日に各党協議で組閣委任者を決定。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.japantimes.co.jp/news/2026/11/03/world/politics/israel-opposition-eisenkot-netanyahu/"
+        "url": "https://www.aa.com.tr/en/middle-east/israeli-opposition-leaders-recommend-eisenkot-for-prime-minister-vow-to-form-national-emergency-government-/4110078"
       },
       {
         "list": "since",
-        "url": "https://www.euronews.com/2026/11/02/oil-slides-on-hormuz-deal-hopes-but-trump-keeps-iran-strikes-on-the-table"
+        "url": "https://www.cnbc.com/2026/11/03/oil-rises-after-report-of-us-strike-on-irans-qeshm-island.html"
       },
       {
         "list": "since",
@@ -91,6 +91,22 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-03",
+      "headline": "Oil rebounds to ~$105 as reported US strike on Iran's Qeshm Island follows Monday's 7.6% Hormuz-hope plunge",
+      "summary": "CNBC reported that Brent crude rose about 0.3% to roughly $105.10 a barrel on November 3, 2026, after US forces reportedly struck Iran's Qeshm Island near the Strait of Hormuz, which officials described as a defensive action to protect commercial shipping; the move followed Monday's (November 2) roughly 7.6% plunge that had left Brent settling at $104.77.",
+      "summary_ja": "CNBCによると、2026年11月3日、ホルムズ海峡に近いイランのケシム島を米軍が攻撃したと報じられ、当局は商船保護を目的とした防御的措置と説明した。これを受けブレント原油は約0.3%高の1バレル105.10ドル前後まで上昇した。前日2日は、ホルムズ再開期待から約7.6%急落し104.77ドルで引けていた。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/oil-rises-after-report-of-us-strike-on-irans-qeshm-island.html"
+    },
+    {
+      "date": "2026-11-03",
+      "headline": "Opposition formally recommends Eisenkot to Herzog for PM, president sets Nov 4-5 party consultations with Likud last",
+      "summary": "Anadolu Agency reported that leaders of Gadi Eisenkot's opposition bloc, including Naftali Bennett's Together, Avigdor Liberman's Yisrael Beytenu and Yair Golan's Democrats, formally recommended Eisenkot to President Isaac Herzog on November 3, 2026 to form the next government and vowed to build a \"national emergency government\"; Herzog's office said it would consult party representatives starting November 4 in ascending order of Knesset strength, meeting Likud last on November 5 before deciding whom to task with forming a government.",
+      "summary_ja": "アナドル通信によると、2026年11月3日、ベネット氏の「トゥギャザー」、リーバーマン氏の「イスラエル・ベイテヌ」、ゴラン氏の「民主党」を含むアイゼンコット氏の野党ブロック各党代表は、ヘルツォーク大統領に同氏を次期政権樹立候補として正式に推薦し、「国家緊急政権」樹立を表明した。大統領府は11月4日から議席数の少ない順に各党と協議し、5日に最後にリクードと会談した上で組閣委任者を決めるとした。",
+      "source": "Anadolu Agency",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-opposition-leaders-recommend-eisenkot-for-prime-minister-vow-to-form-national-emergency-government-/4110078"
+    },
     {
       "date": "2026-11-03",
       "headline": "Eisenkot's full opposition bloc unites behind him for PM, positioning for 67 seats with Arab-party backing as Netanyahu presses his own bid",
@@ -314,22 +330,6 @@
       "summary_ja": "英海事貿易活動機関(UKMTO)は、ホルムズ海峡を望むオマーンのブハ西方約11海里の海域で、タンカー1隻が不明の飛来物による攻撃を受けたと発表した。発生した火災は鎮火し、同船は錨泊した状態を維持しており、乗組員全員の安全が確認されている。飛来物の発生源は特定されていない。",
       "source": "Al Arabiya English",
       "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "UKMTO reports tanker's ‘interaction’ with military forces off Oman, identity undisclosed",
-      "summary": "The UK Maritime Trade Operations agency said a tanker was involved in an incident with military forces about 121 nautical miles east of Duqm, Oman, and that authorities were investigating; it gave no further detail on the vessel's identity or nationality.",
-      "summary_ja": "英国海事貿易活動機関(UKMTO)は、オマーリンのドゥクム東方約121海里の海域で、タンカー1隻が軍事勢力との「接触」事案に遭ったと発表した。當局が調査中であり、船名や船籍など詳細は明らかにしていない。",
-      "source": "Iran International",
-      "url": "https://www.iranintl.com/en/202610203250"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "IRGC claims naval mines disabled two tankers on US-backed Hormuz route; vessels unidentified, unconfirmed by CENTCOM/UKMTO",
-      "summary": "Iran's Revolutionary Guard Corps said naval mines halted two tankers transiting the Strait of Hormuz via a southern route backed by the US that Iran does not recognize, without identifying either vessel, its flag or extent of damage; CENTCOM and UKMTO had not confirmed the claim.",
-      "summary_ja": "イラン革命防衛隊(IRGC)は、米国が支援しイランが認めていないホルムズ海峡南側の航路を通過していたタンカー2隻が機雷により航行不能になったと主張した。船名や船籍、被害の程度は明らかにされていない。米中央軍(CENTCOM)と英海事当局UKMTOはこの主張を確認していない。",
-      "source": "Al Arabiya English",
-      "url": "https://english.alarabiya.net/News/middle-east/2026/10/20/iran-s-irgc-says-mines-halted-two-tankers-crossing-strait-of-hormuz"
     }
   ]
 }
