@@ -4,7 +4,7 @@
   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Z0l0NUVOS3EwenkxTGhOUVhDeEFCMlVoME5Vem9iNVdTOXVLdGd4UnNiOXBVNXU3NjhDMktRTU1DSmNzbkFnUUkwa3BxREFob1d5OVBXY1BhT1NrSmptZmhiRdIBaEFVX3lxTE1NVjBaT3NpTEhuR3VLa1lsT1N4SjFYbWpxNnh2ODRWQ0FadXlVRDJxN2xneS1pYlV5Vnd1MTlzOTR5SWFubHl6NGRpcEtOeVYySlhZVDhuM1ktVk8yZng5aDAxOHhSX0Vt?oc=5",
   "source": "Japan M&A",
   "published": "2026-11-03T01:15:28Z",
-  "checked_at": "2026-11-04T04:53:36Z",
+  "checked_at": "2026-11-04T07:50:23Z",
   "status": {
     "as_of": "2026-11-04",
     "text": "Marvell and Lumentum signed a definitive all-stock merger valuing Lumentum at about $115 billion on 2 Nov 2026; the deal is expected to close in the first half of 2028, pending shareholder and regulatory approval.",
@@ -78,6 +78,14 @@
       "summary_ja": "マーベルとルメンタムは11月2日、顧客・従業員向けの説明会やSECへのForm 425提出資料で、買収完了は概ね12~18カ月後を見込むと説明した(別の資料では2028年前半という表現もある)。両社の株主承認と必要な規制当局の承認が前提となる。買収完了後もマット・マーフィーが統合会社の会長兼CEOを続け、ルメンタムのマイケル・ハールストンCEOを含む取締役3人が、現在7人のマーベル取締役会に加わる予定。",
       "source": "Marvell Technology / Lumentum Holdings (SEC Form 425 filing)",
       "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526443841/d136689d425.htm"
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Lumentum 8-K discloses up to $5.8bn and $3.2bn termination fees tied to Marvell merger agreement",
+      "summary": "Lumentum's Form 8-K on the Marvell merger disclosed termination fees including a $5.8 billion fee and a reciprocal $2.9 billion fee tied to competing-transaction scenarios, plus a separate $3.2 billion fee payable by Marvell to Lumentum if the deal fails over a final Hart-Scott-Rodino-related antitrust restraint or a denied required regulatory approval; closing is conditioned on expiration of the HSR waiting period among other approvals.",
+      "summary_ja": "ルメンタムが提出したマーベル買収に関する8-K開示によれば、競合取引が絡む解除事由では58億ドル、ルメンタム側の対応する解約金は29億ドルとされる。また、ハート・スコット・ロディノ法に基づく独禁法上の障害や必要な規制承認が得られず取引が不成立となった場合には、マーベルがルメンタムに別途32億ドルの解約金を支払うと定められている。買収完了にはHSR待機期間の終了などが条件となる。",
+      "source": "Lumentum Holdings (SEC Form 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169d8k.htm"
     }
   ]
 }
