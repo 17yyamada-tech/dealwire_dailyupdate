@@ -1,0 +1,42 @@
+{
+  "id": "d27b49c202dc08",
+  "title": "국내 대표적인 국산 사모펀드(PEF) 운용사인 IMM프라이빗에쿼티(PE)가 최근 국내 1위의 다이아몬드 공구업체인 이화다이아몬드공업을 인수하며, 종래와는 다른 구조를 짰다. 전체 자금의 ..",
+  "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BQUx1dnp5MnZZcnpUSUVMQkNneWhZOUlNSVF5OEhJaEh1WUlMSGFrYU1wSl9oalQ2NVJLdTFkUmcyN3FZclhkYXZkYWdmZUk?oc=5",
+  "source": "Japan M&A",
+  "published": "2026-11-03T08:34:51Z",
+  "checked_at": "2026-11-04T00:53:38Z",
+  "status": {
+    "as_of": "2026-11-04",
+    "text": "IMM PE's May 2026 SPA for 65% of Ehwa Diamond (~KRW400bn) is reportedly being funded mainly with equity via its Rose Gold V blind fund plus a co-investment vehicle, with no acquisition debt.",
+    "text_ja": "IMMは2026年5月、創業家からイファダイヤモンド工業の65%を約4000億ウォンで買収する契約を締結。借入を使わずローズゴールド5号など自己資金中心で調達する方針。",
+    "refs": [
+      {
+        "list": "background",
+        "url": "https://www.sedaily.com/article/20043225"
+      },
+      {
+        "list": "background",
+        "url": "https://www.paulhastings.com/news/paul-hastings-advises-selling-shareholders-in-ehwa-diamond-industrials-acquisition-by-imm-private-equity"
+      }
+    ]
+  },
+  "background": [
+    {
+      "date": "2026-08-10",
+      "headline": "Paul Hastings advises Ehwa Diamond founder's family on sale of controlling stake to IMM PE",
+      "summary": "Paul Hastings announced it advised the selling shareholders — founder Kim Su-kwang and members of his family — on their sale of a controlling stake in Ehwa Diamond Industrial to IMM Private Equity.",
+      "summary_ja": "法律事務所ポール・ヘイスティングスは、創業者キム・スグァン氏とその家族である売却株主に対し、イファダイヤモンド工業の経営権株式をIMMプライベートエクイティへ売却する取引で助言したと発表した。",
+      "source": "Paul Hastings",
+      "url": "https://www.paulhastings.com/news/paul-hastings-advises-selling-shareholders-in-ehwa-diamond-industrials-acquisition-by-imm-private-equity"
+    },
+    {
+      "date": "2026-05-12",
+      "headline": "IMM PE signs SPA for 65% stake in Ehwa Diamond Industrial worth about KRW 400 billion",
+      "summary": "IMM Private Equity signed a share purchase agreement with the founder's side to acquire a 65% controlling stake in Ehwa Diamond Industrial, Korea's No.1 and world's No.3 diamond tool maker, in a deal valued at roughly KRW 400 billion; the company's 2025 revenue was reported at about KRW 370 billion with operating profit of about KRW 33 billion, and its clients include Bosch, Hyundai Motor, Samsung Electronics and TSMC.",
+      "summary_ja": "IMMプライベートエクイティは創業家側とイファダイヤモンド工業の株式買収契約(SPA)を締結した。対象は経営権を含む65%の株式で、金額は約4000億ウォン。同社は国内1位・世界3位のダイヤモンド工具メーカーで、2025年の売上高は約3700億ウォン、営業利益は約330億ウォンと報じられ、顧客にはボッシュ、現代自動車、サムスン電子、TSMCが含まれる。",
+      "source": "Sedaily (Signal)",
+      "url": "https://www.sedaily.com/article/20043225"
+    }
+  ],
+  "since": []
+}

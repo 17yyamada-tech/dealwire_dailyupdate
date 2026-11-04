@@ -4,14 +4,20 @@
   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZajFrNjFTM2VzOERuV2VuRi1hMk42NklGQUlaZjRrM3VkVmJTc3RjSTlOYUJwVFRwYXNJaHZfU1lxZVh0MVBST1RxTmxuY3c?oc=5",
   "source": "Japan M&A",
   "published": "2026-11-03T02:33:54Z",
-  "checked_at": "2026-11-03T07:58:00Z",
+  "checked_at": "2026-11-04T00:53:38Z",
   "status": {
     "as_of": "2026-11-03",
     "text": "Japan's revised tender-offer rules, cutting the mandatory-bid threshold to 30%, took effect 1 May 2026; a Justice Ministry panel continued a related shareholder-protection review in June. No developments reported since 3 Nov 2026.",
     "text_ja": "改正TOB制度は義務的買付けの基準を30%に下げ、5月1日に施行された。法制審議会会社法制部会は6月、関連する少数株主保護の検討を続けた。11月3日までに新たな報道はない。",
     "refs": [
-      {"list": "background", "url": "https://www.dir.co.jp/report/research/law-research/securities/20260302_025607.html"},
-      {"list": "background", "url": "https://tkc.jp/consolidate/tkc_express/2026/06/202606_13908"}
+      {
+        "list": "background",
+        "url": "https://www.dir.co.jp/report/research/law-research/securities/20260302_025607.html"
+      },
+      {
+        "list": "background",
+        "url": "https://tkc.jp/consolidate/tkc_express/2026/06/202606_13908"
+      }
     ]
   },
   "background": [

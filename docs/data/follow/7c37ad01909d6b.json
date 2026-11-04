@@ -4,14 +4,20 @@
   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTVWUG5WaVZhekdvRmkydVZ1NWEtd1R3c3ZpMXRjT1Ywc0NBaEJ4Q0pMLXNJVEZvMDloTmcxak9TTU1KSThJRzJ0WFZHVGEtdkVqV2JraF9FYUpQX21hVE5oNkdkZUVFa056QnFIa1h6Z3dkSXlGa2VhS3JrQnVSR3hDLW04aS1tRDZyVkRsM0psRlNC?oc=5",
   "source": "Japan M&A",
   "published": "2026-11-03T01:33:04Z",
-  "checked_at": "2026-11-03T07:50:00Z",
+  "checked_at": "2026-11-04T00:53:38Z",
   "status": {
     "as_of": "2026-11-03",
     "text": "Agreed 2 Nov 2026: Salesforce to acquire voice-AI firm Cresta, serving Marriott, Comcast and Alaska Airlines. Price undisclosed; The Information reports about $2.7bn. Close expected Salesforce fiscal Q1 2028.",
     "text_ja": "セールスフォースが11月2日、音声AI企業クレスタ買収で合意と発表。価格は非公開、The Informationは約27億ドルと報道。完了は28年度第1四半期の見込み。",
     "refs": [
-      {"list": "since", "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"},
-      {"list": "since", "url": "https://runtimewire.com/article/salesforce-acquire-cresta-2-7-billion-voice-agents-service-cloud"}
+      {
+        "list": "since",
+        "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
+      },
+      {
+        "list": "since",
+        "url": "https://runtimewire.com/article/salesforce-acquire-cresta-2-7-billion-voice-agents-service-cloud"
+      }
     ]
   },
   "background": [

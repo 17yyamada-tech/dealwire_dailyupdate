@@ -4,23 +4,19 @@
   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
   "source": "Japan M&A",
   "published": "2026-09-26T18:17:00Z",
-  "checked_at": "2026-11-03T07:52:29Z",
+  "checked_at": "2026-11-04T00:53:38Z",
   "status": {
-    "as_of": "2026-10-29",
-    "text": "Pending FCC review: Iridium holders approved Rocket Lab's ~$8bn ($54/share) buyout Sept 24; FCC's opposition-reply deadline is Oct 30, replies Nov 9. Neutron's debut slipped to 2027; close still expected mid-2027.",
-    "text_ja": "イリジウム株主は9月24日、ロケットラボの約80億ドル買収案を承認した。FCC異議期限は10/30、再答弁11/9。ニュートロン初飛行は27年に延期、完了は27年半ば予定。",
+    "as_of": "2026-11-04",
+    "text": "FCC reply deadline is Nov 9; Rocket Lab and Iridium urged fast approval in an Oct 30 filing. Globalstar raised supplier-relationship concerns Nov 3 but did not oppose the deal; close still targeted mid-2027.",
+    "text_ja": "FCC再答弁期限は11月9日。両社は10月30日に迅速承認を要請。グローバルスターは11月3日、サプライヤー関係への懸念を提起したが反対はせず、完了は27年半ば目標のまま。",
     "refs": [
       {
         "list": "since",
-        "url": "https://docs.fcc.gov/public/attachments/DA-26-985A1.pdf"
+        "url": "https://www.tradingview.com/news/stocktwits:411a13f44094b:0-rklb-s-iridium-deal-draws-heat-as-globalstar-echoes-spacex-concerns-rocket-lab-seeks-fast-fcc-approval/"
       },
       {
         "list": "since",
-        "url": "https://lightreading.com/satellite/rocket-lab-s-first-neutron-rocket-launch-delayed-to-2027"
-      },
-      {
-        "list": "since",
-        "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab"
+        "url": "https://www.satellitetoday.com/connectivity/2026/11/03/globalstar-questions-supplier-relationship-with-rocket-lab-when-iridium-acquisition-closes/"
       }
     ]
   },
@@ -75,6 +71,22 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-03",
+      "headline": "Globalstar asks FCC to scrutinize its Rocket Lab supplier relationship ahead of Iridium deal close, stops short of opposing merger",
+      "summary": "Globalstar filed with the FCC asking regulators to examine how its supplier relationship with Rocket Lab could be affected once Rocket Lab completes its acquisition of competitor Iridium, arguing Rocket Lab could gain insight into a future rival's operations; Globalstar did not formally oppose the merger.",
+      "summary_ja": "グローバルスターは米連邦通信委員会(FCC)に書面を提出し、ロケットラボが競合イリジウムの買収を完了した後、サプライヤーであるロケットラボとの関係がどう影響を受けるか審査するよう求めた。ロケットラボが将来の競合企業の内情を知り得ると主張する一方、買収自体への正式な反対はしなかった。",
+      "source": "Via Satellite",
+      "url": "https://www.satellitetoday.com/connectivity/2026/11/03/globalstar-questions-supplier-relationship-with-rocket-lab-when-iridium-acquisition-closes/"
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "Rocket Lab and Iridium file joint FCC response urging fast approval, say SpaceX and Ligado complaints belong in separate proceedings",
+      "summary": "Rocket Lab and Iridium made a joint filing with the FCC on October 30 responding to opposition comments, describing next-generation Iridium satellites with 20 times more beams per satellite than the current constellation and urging the agency to speed up approval of the license transfer; the companies argued that SpaceX's and Ligado's anticompetitive-conduct complaints predate the merger and should be handled in separate proceedings.",
+      "summary_ja": "ロケットラボとイリジウムは10月30日、FCCへの異議に対応する共同書面を提出した。次世代イリジウム衛星は現行機より搭載ビーム数が20倍になるとし、免許移転の早期承認を求めた。SpaceXとLigadoの反競争的行為を巡る主張は買収とは別の手続きで扱うべきだと反論した。",
+      "source": "TradingView (citing company FCC filing)",
+      "url": "https://www.tradingview.com/news/stocktwits:411a13f44094b:0-rklb-s-iridium-deal-draws-heat-as-globalstar-echoes-spacex-concerns-rocket-lab-seeks-fast-fcc-approval/"
+    },
     {
       "date": "2026-10-20",
       "headline": "Iridium Q3 2026 revenue rises 8% to $245.7 million; company reaffirms mid-2027 target to close Rocket Lab deal",
