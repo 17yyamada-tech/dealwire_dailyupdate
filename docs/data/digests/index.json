@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-05-0830",
+      "label": "5 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-05T00:35:00Z",
+      "items": 8,
+      "headlines": [
+        "Goldman Sachs and Apollo seek buyers for $40bn SpaceX AI-chip financing deal",
+        "AstraZeneca offers about $10bn for Rhythm Pharmaceuticals, shares jump 28%",
+        "Samsung transfers 10.16% TCL CSOT stake from its display unit, deepening tie-up"
+      ]
+    },
+    {
       "id": "2026-11-04-1530",
       "label": "4 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-04T07:37:59Z",
