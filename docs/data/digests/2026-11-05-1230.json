@@ -1,0 +1,182 @@
+{
+  "edition": "2026-11-05-1230",
+  "edition_label": "5 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T04:40:00Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "China blocks SoftBank's $5.4bn bid for ABB's robotics division, FT reports",
+      "summary": "China has not approved SoftBank Group's roughly $5.4bn acquisition of ABB's robotics division, the Financial Times reported, according to Japanese wire coverage citing the FT. Further detail on the grounds for the decision or next steps was not given in the available reporting.",
+      "why_it_matters": "A Chinese regulatory block on a Japanese buyer's purchase of a Swiss robotics unit underlines how exposed cross-border industrial-tech M&A has become to Beijing's approval process amid wider US-China friction over advanced hardware.",
+      "summary_ja": "中国政府がソフトバンクグループによるABBロボティクス部門の約54億ドルの買収を承認しなかったと、英フィナンシャル・タイムズが報じた。日本の報道各社もFT報道を引用して同内容を伝えている。承認見送りの理由や今後の対応については、入手できた報道の範囲では明らかになっていない。",
+      "why_it_matters_ja": "日本企業によるクロスボーダーのロボティクス買収が中国の審査で止まった事例であり、米中対立下で先端ハードウエア分野のM&Aが北京の承認プロセスにいかに左右されやすいかを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "softbank-abb-robotics-china-block",
+      "ids": [
+        "846f05e4d7fcab",
+        "93c575c644da70",
+        "2c3dea16bb90db"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SWXdqNlJ6SlBQeUtQd3hjejYzNjRnODljTG1ZMVIwbUxNTmxEMklrWnNQQmUzNXJBZE96Q0NqNDZTZkxJd1NpZzRxYVFpeXpuQ2xuaDNjUFhTVWhCUXhRbmU1aWZ2bkgtMjRBQkZ3NnE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XMjJwcHg5RGVVdnR0czgxcThtWmdmOWxjX0xDNFM1YmFiY2NNZnFCVm15UGl2a1ZHQlJ6NFlrYzVqQ2laazZxdmU5QkEwLWp2TlB2LVFaeW9YZ2YtR1Nxd3YwVXFULUlpS0RkQTVocm1NdVlkRy02T3Yxbw?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lUnc2d2R5ODZ2b2t0b1RNcFRoNVMtLTBXdnNNMlBBMFRUSHF0LUVIV3FPNjY4UmZPQnNXaTNpZEtNWUgzcWNJaWNQQ09pT1V2My02VUlrQWF3VmkyamVYc3U3YkU5NlpCX19fVFFxZHNpSzhJcW12cmVFN2Zqa0U?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Meta acquires AI coding startup Conductor to build out agentic development tools",
+      "summary": "Meta has acquired Conductor, an AI coding startup, according to Japanese M&A reporting. The deal is described as securing a development environment for an \"army of agents,\" with financial terms not disclosed.",
+      "why_it_matters": "It is another Big Tech move to buy rather than build agentic coding infrastructure, placing Meta alongside OpenAI, which was separately reported this morning buying Pierre Computer for a similar purpose.",
+      "summary_ja": "メタがAIコーディングスタートアップのConductorを買収したと、日本のM&A報道が伝えた。買収は「エージェント軍団」の開発環境を確保するためとされ、買収金額は明らかになっていない。",
+      "why_it_matters_ja": "大手テック企業がAIエージェント向け開発基盤を自社開発ではなく買収で獲得する動きの一つであり、同日報じられたOpenAIによるPierre Computer買収と同じ潮流にある。",
+      "status": "new",
+      "prev": null,
+      "key": "meta-conductor-acquisition",
+      "ids": [
+        "87a0bc8fdd5411"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fNW43LTF1UThfeUZfdGlBRjVJRDR4WlROV0RpYUtTazZJWDZXeDhLNXdiM24wOHl6XzVoZnc2U2JMVEFqOGw0aVhWTDlNdmhSaDVaNWdtMVJOaEhEWWIxT1Zfc2NVaE5VWF9JNFBrN1ppT1FL?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Guidewire acquires AI underwriting platform hyperexponential",
+      "summary": "Guidewire, which supplies cloud software to property-and-casualty insurers, has acquired hyperexponential, a provider of an AI-based insurance underwriting platform, according to Japanese M&A reporting. Terms were not disclosed.",
+      "why_it_matters": "A core policy-admin software vendor buying AI underwriting capability, rather than building it, points to continued bolt-on consolidation in insurtech as incumbents race to add AI tools.",
+      "summary_ja": "損害保険会社向けのクラウドプラットフォームを提供するGuidewireが、AI保険引受プラットフォームを手掛けるhyperexponentialを買収したと、日本のM&A報道が伝えた。買収条件は明らかになっていない。",
+      "why_it_matters_ja": "基幹の保険管理システムベンダーが自社開発ではなく買収でAI引受機能を取り込む動きであり、インシュアテック分野でのボルトオン型M&Aが続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "guidewire-hyperexponential-acquisition",
+      "ids": [
+        "82d30fc969b1f5"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LV25hUlFpbGlJNDc5dGFkXzg2eFF0aVU0cnpTUjdBdTRMR2hqWjhWVHJkLXF0SXk3emdJakhRd1FNTnpJN2gtTE1GSXA0dXM?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Nippon Steel Trading buys Slovak steel service centre to expand in Europe",
+      "summary": "Nippon Steel Trading has acquired a steel service centre in Slovakia as it builds out its European operations, according to Japanese M&A reporting. Financial terms were not disclosed.",
+      "why_it_matters": "It is a further step by a Japanese trading house to secure downstream steel-processing and distribution capacity in Europe, part of a broader pattern of Japanese industrial players building out regional service infrastructure.",
+      "summary_ja": "日鉄物産がスロバキアの鋼材サービスセンターを買収し、欧州事業を強化すると、日本のM&A報道が伝えた。買収金額は明らかになっていない。",
+      "why_it_matters_ja": "日本の商社系企業が欧州での鋼材加工・流通拠点を広げる動きの一例であり、日本の産業系プレーヤーが地域サービス網を拡充する流れを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "nippon-steel-trading-slovakia-acquisition",
+      "ids": [
+        "950e5a4a0582ec"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xc2VFN3dkTWpwcDc0ZXlxMTJRcmhRT1RnUkFoZlc0UllzeGFBQlBBY3paUkNtYXhnWkExVXBpXzhWMUpaRWFLWXJxYUh3dE84b09wMWJIRTNtWTExMlJr?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "FMO leads $172m syndicated loan for Mongolia's Khan Bank",
+      "summary": "Dutch development bank FMO has led a $172m syndicated loan for Khan Bank, Mongolia's largest lender, according to DealStreetAsia. Co-lenders were not identified in the available reporting.",
+      "why_it_matters": "Development-finance institutions remain a key source of dollar funding for frontier-market banks; a syndication of this size is a read on continued lender appetite for Mongolian bank credit.",
+      "summary_ja": "オランダの開発金融機関FMOが、モンゴル最大手銀行のカーン銀行向けに1億7200万ドルのシンジケートローンを主導したと、DealStreetAsiaが報じた。協調融資に参加した他の貸し手については、入手できた報道の範囲では明らかになっていない。",
+      "why_it_matters_ja": "開発金融機関がフロンティア市場の銀行にとって依然重要なドル資金の出し手であることを示し、モンゴルの銀行向け与信に対する貸し手の意欲が続いていることを示す指標となる。",
+      "status": "new",
+      "prev": null,
+      "key": "fmo-khan-bank-syndicated-loan",
+      "ids": [
+        "9463ae69a4cc15"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XTXBoY29aZG9ZRkgyaDR4XzVtb1RxWFpjaFEwSjZ1UWNiRDdjZ2NNclhmRTFYQ3N1ZDdJVTRHVlM2MjY2dHVGbmdBZFlKb0tpRkxudjZpVkdlYXNlMm9McTR1X3RpbjZNY240?oc=5"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Pentagreen and Candi Solar sign $50m India solar financing deal",
+      "summary": "Pentagreen Capital and Candi Solar have signed a $50m financing deal for solar projects in India, according to DealStreetAsia.",
+      "why_it_matters": "The deal adds to the flow of blended and climate finance into India's distributed solar sector, relevant for infrastructure and credit investors tracking renewable financing structures in South Asia.",
+      "summary_ja": "Pentagreen CapitalとCandi Solarが、インドの太陽光発電事業向けに5000万ドルの資金調達契約を結んだと、DealStreetAsiaが報じた。",
+      "why_it_matters_ja": "インドの分散型太陽光発電セクターへのブレンデッド・気候関連資金の流入が続いていることを示し、南アジアの再エネ資金調達構造を追うインフラ・クレジット投資家にとって参考になる。",
+      "status": "new",
+      "prev": null,
+      "key": "pentagreen-candi-solar-india-financing",
+      "ids": [
+        "d75b5351bafa70"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oaldxQnJWSEwyX2JGNFdlbWM3Z3NadGFKWWdaNE1qMG9EaG5GNlVNWDBHX3lUeDZsTjg2ejZUVEVLQVB2ZkQ3NkxXYVh3cDdDMFBZOGQwSUlfOWJtdkZSUUZGVFpwSEZvZmUtTGxMWGJKVTd6LURDSmhwUGgxdkE?oc=5"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Energy"
+      ]
+    }
+  ]
+}

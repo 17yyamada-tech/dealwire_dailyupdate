@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-05-1230",
+      "label": "5 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-05T04:40:00Z",
+      "items": 6,
+      "headlines": [
+        "China blocks SoftBank's $5.4bn bid for ABB's robotics division, FT reports",
+        "Meta acquires AI coding startup Conductor to build out agentic development tools",
+        "Guidewire acquires AI underwriting platform hyperexponential"
+      ]
+    },
+    {
       "id": "2026-11-05-0830",
       "label": "5 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-05T00:35:00Z",
