@@ -4,15 +4,15 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-04T07:50:32Z",
+  "checked_at": "2026-11-05T00:00:00Z",
   "status": {
-    "as_of": "2026-11-04",
-    "text": "BOJ holds at 1.25%; Brent rebounded to ~$105 Nov 3 after a reported US strike on Iran's Qeshm Island. Opposition formally recommended Eisenkot to Herzog Nov 3; consultations run Nov 4-5 before a mandate decision.",
-    "text_ja": "日銀は1.25%維持。原油は3日、イランのケシム島への米攻撃報道で105ドル前後に反発。野党はアイゼンコット氏をヘルツォーク大統領に正式推薦、4~5日に各党協議で組閣委任者を決定。",
+    "as_of": "2026-11-05",
+    "text": "BOJ holds at 1.25%; Brent near $105 after Nov 3 Iran strike reports. Herzog accepted Oct 27 election results Nov 4 and began mandate consultations, meeting Netanyahu's Likud and Eisenkot's Yashar last, on Nov 5.",
+    "text_ja": "日銀は1.25%で維持。ブレント原油は11月3日のイラン攻撃報道後105ドル近辺。ヘルツォーク大統領は11月4日に選挙結果を受理、組閣協議開始。ネタニヤフ氏とは11月5日に会談。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.aa.com.tr/en/middle-east/israeli-opposition-leaders-recommend-eisenkot-for-prime-minister-vow-to-form-national-emergency-government-/4110078"
+        "url": "https://www.pbs.org/newshour/world/israels-president-takes-first-steps-on-building-new-government-after-accepting-election-results"
       },
       {
         "list": "since",
@@ -91,6 +91,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-04",
+      "headline": "Herzog accepts certified Oct 27 election result, opens mandate consultations with Likud meeting him last on Nov 5",
+      "summary": "President Isaac Herzog formally accepted Israel's certified October 27 election results on November 4, 2026, after the Central Elections Committee rejected Likud's fraud allegations as baseless, and began mandate consultations with Knesset party representatives, meeting smaller factions first and scheduling Gadi Eisenkot's Yashar and Benjamin Netanyahu's Likud to meet him last, on November 5.",
+      "summary_ja": "ヘルツォーク大統領は2026年11月4日、中央選挙管理委員会がリクードの不正主張を根拠なしと退けたことを受け、10月27日総選挙の確定結果を正式に受理し、国会各党代表との組閣委任協議を開始した。小規模政党から順に面談し、アイゼンコット氏のヤシャールとネタニヤフ氏のリクードとの会談は11月5日に最後に設定された。",
+      "source": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/israels-president-takes-first-steps-on-building-new-government-after-accepting-election-results"
+    },
     {
       "date": "2026-11-03",
       "headline": "Oil rebounds to ~$105 as reported US strike on Iran's Qeshm Island follows Monday's 7.6% Hormuz-hope plunge",
@@ -320,14 +328,6 @@
       "headline": "Kpler: at least 18 vessel attacks logged over two weeks as strikes spread from Hormuz into Gulf of Oman",
       "summary": "Maritime risk tracker Kpler recorded at least 18 attacks on vessels in the Strait of Hormuz area over the preceding two weeks, and LSEG analysts said the geographic scope of the attacks had expanded into the Gulf of Oman, Al Arabiya English reported.",
       "summary_ja": "海事リスク調査会社Kplerは、過去2週間でホルムズ海峡周辺の船舶攻撃が少なくとも18件発生したと集計した。LSEGのアナリストは、攻撃の地理的範囲がオマーン湾にも拡大していると指摘したと、アルアラビーヤ英語版が報じた。",
-      "source": "Al Arabiya English",
-      "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "UKMTO: projectile strikes tanker 11 nautical miles west of Oman's Bukha near Strait of Hormuz; fire doused, crew safe",
-      "summary": "The UK Maritime Trade Operations agency said a tanker was struck by an unidentified projectile about 11 nautical miles west of Bukha, Oman, overlooking the Strait of Hormuz; the resulting fire was extinguished, the vessel remained at anchor and all crew were reported safe, with the projectile's origin not identified.",
-      "summary_ja": "英海事貿易活動機関(UKMTO)は、ホルムズ海峡を望むオマーンのブハ西方約11海里の海域で、タンカー1隻が不明の飛来物による攻撃を受けたと発表した。発生した火災は鎮火し、同船は錨泊した状態を維持しており、乗組員全員の安全が確認されている。飛来物の発生源は特定されていない。",
       "source": "Al Arabiya English",
       "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
     }
