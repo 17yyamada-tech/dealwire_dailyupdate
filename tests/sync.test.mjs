@@ -196,7 +196,7 @@ await test("client: pending operations are shown on top of the server records, a
   acctApply_(server, pending, now);
   assert.deepEqual(lwwView(server).companies.map((c) => c.name), ["Beta", "Alpha"]);
 });
-await test("client: diffCompanies yields add, change and delete, and ignores the 'added' stamp", () => {
+await test("client: diffCompanies yields add, change and delete, and a new place is an op that keeps the value", () => {
   const a = { name: "A", keywords: [], added: 10 }, b = { name: "B", keywords: ["m&a"], added: 20 };
   const ops = diffCompanies([a, b], [{ ...a, added: 99 }, { ...b, kind: "fund" }, { name: "C", keywords: [], added: 30 }].slice(1), 5000);
   const by = Object.fromEntries(ops.map((o) => [o.key, o]));
@@ -204,7 +204,91 @@ await test("client: diffCompanies yields add, change and delete, and ignores the
   assert.equal(by[coKey(b)].v.kind, "fund");                          // B changed
   assert.equal(by[coKey({ name: "C", keywords: [] })].v.name, "C");   // C added
   assert.equal(ops.length, 3);
-  assert.equal(diffCompanies([a], [{ ...a, added: 99 }], 5000).length, 0);
+  // moving a company is a change of its place (o) only; its birthday `c` alone is not a change
+  const moved = diffCompanies([a], [{ ...a, added: 99 }], 5000);
+  assert.equal(moved.length, 1);
+  assert.equal(moved[0].o, 99);
+  assert.equal(moved[0].v.name, "A");
+  assert.equal(diffCompanies([a], [{ ...a, c: 7 }], 5000).length, 0);
+});
+
+/* ---------- reordering and Reset to newest first ---------- */
+const { diffViews } = page.api;
+const cmove = (c, o, t) => ({ k: "companies", key: coKey(c), t: T0 + t, o: T0 + o, v: c });
+const names = (recs) => lwwView(recs).companies.map((c) => c.name);
+await test("companies: a drag is an o re-assignment that every device resolves to the same order", () => {
+  const A = co("A"), B = co("B"), C = co("C");
+  const s = fresh();
+  acctApply_(s, [cput(A, 1000), cput(B, 2000), cput(C, 3000)], now);
+  assert.deepEqual(names(s), ["C", "B", "A"]);
+  // device 1 drags A to the top (A takes C's value, C and B shift down); device 2 resets later
+  const drag = [cmove(A, 3000, 5000), cmove(C, 2000, 5000), cmove(B, 1000, 5000)];
+  acctApply_(s, drag, now);
+  assert.deepEqual(names(s), ["A", "C", "B"]);
+  const reset = [cmove(C, 3000, 6000), cmove(B, 2000, 6000), cmove(A, 1000, 6000)];   // back to the order of c (when added)
+  acctApply_(s, reset, now);
+  assert.deepEqual(names(s), ["C", "B", "A"]);
+  // a late arrival of the older drag does not undo the newer reset, in either order
+  const s2 = fresh();
+  acctApply_(s2, [cput(A, 1000), cput(B, 2000), cput(C, 3000)], now);
+  acctApply_(s2, reset, now); acctApply_(s2, drag, now);
+  assert.deepEqual(s2, s);
+});
+await test("companies: two devices dragging at once end up with one order, and equal values break the tie by key", () => {
+  const A = co("A"), B = co("B");
+  const s1 = fresh(), s2 = fresh();
+  const base = [cput(A, 1000), cput(B, 2000)];
+  [s1, s2].forEach((s) => acctApply_(s, base, now));
+  const d1 = [cmove(A, 2000, 5000), cmove(B, 1000, 5000)], d2 = [cmove(A, 2000, 5100)];   // d2 leaves A and B with the same value
+  acctApply_(s1, d1, now); acctApply_(s1, d2, now);
+  acctApply_(s2, d2, now); acctApply_(s2, d1, now);
+  assert.deepEqual(s1, s2);
+  assert.deepEqual(names(s1), names(s2));
+  assert.equal(names(s1).length, 2);
+});
+await test("companies: a reorder, a Fund/Corporate switch or a birthday only change nothing to fetch; a new company or a new search does", () => {
+  const s = fresh();
+  assert.equal(acctApply_(s, [cput(co("Alpha", ["m&a"]), 1000)], now).companies.length, 1);              // new
+  assert.equal(acctApply_(s, [cmove(co("Alpha", ["m&a"]), 500, 2000)], now).companies.length, 0);        // moved
+  assert.equal(acctApply_(s, [{ ...cput(co("Alpha", ["m&a"]), 3000), v: { ...co("Alpha", ["m&a"]), kind: "fund" } }], now).companies.length, 0);   // kind
+  assert.equal(acctApply_(s, [{ ...cput(co("Alpha", ["m&a"]), 4000), v: { ...co("Alpha", ["m&a"]), c: T0 + 1 } }], now).companies.length, 0);        // birthday
+  assert.equal(s.companies[coKey(co("Alpha", ["m&a"]))].v.c, T0 + 1, "the birthday is kept");
+  assert.equal(acctApply_(s, [{ ...cput(co("Alpha"), 5000), key: coKey(co("Alpha", ["m&a"])), v: co("Alpha", ["ipo"]) }], now).companies.length, 1);    // keywords changed
+  assert.equal(acctApply_(s, [{ ...cput(co("Alpha"), 6000), key: coKey(co("Alpha", ["m&a"])), v: { ...co("Alpha", ["ipo"]), market: "US", ticker: "ALP" } }], now).companies.length, 1);   // got a listing
+  acctApply_(s, [del("companies", coKey(co("Alpha", ["m&a"])), 7000)], now);
+  assert.equal(acctApply_(s, [cput(co("Alpha", ["ipo"]), 8000)], now).companies.length, 1);              // removed, then added again
+});
+await test("deals: the manual order (pos) is kept per story, never touches since, and Reset removes it", () => {
+  const s = fresh();
+  acctApply_(s, [put("a", 1000), put("b", 2000), put("c", 3000)], now);
+  const withPos = (id, t, pos) => ({ k: "saved", key: id, t: T0 + t, v: { ...story(id, iso(+id.charCodeAt(0) - 96)), since: iso(({ a: 1, b: 2, c: 3 })[id]), pos: T0 + pos } });
+  acctApply_(s, [withPos("a", 5000, 9000), withPos("c", 5000, 8000), withPos("b", 5000, 7000)], now);
+  assert.equal(s.saved.a.v.pos, T0 + 9000);
+  assert.equal(s.saved.a.v.since, iso(1), "since is still the day it was followed");
+  const order = (recs) => Object.values(recs.saved).filter((r) => r.v).sort((x, y) => (y.v.pos || Date.parse(y.v.since)) - (x.v.pos || Date.parse(x.v.since))).map((r) => r.v.id);
+  assert.deepEqual(order(s), ["a", "c", "b"]);
+  // invalid pos is dropped, not stored
+  acctApply_(s, [{ k: "saved", key: "b", t: T0 + 5500, v: { ...story("b", iso(2)), pos: "x" } }], now);
+  assert.equal("pos" in s.saved.b.v, false);
+  // Reset: the same stories without pos
+  acctApply_(s, [put("a", 6000), put("b", 6000), put("c", 6000)].map((o, i) => ({ ...o, v: story("abc"[i], iso(i + 1)) })), now);
+  assert.deepEqual(order(s), ["c", "b", "a"]);
+  assert.ok(Object.values(s.saved).every((r) => !("pos" in r.v)));
+});
+await test("deals: the 20-star cap still goes by since, not by the manual order", () => {
+  const s = fresh();
+  acctApply_(s, Array.from({ length: 21 }, (_, i) => put("s" + i, 1000 + i)), now);
+  acctApply_(s, [{ k: "saved", key: "s0", t: T0 + 9000, v: { ...story("s0", iso(1000)), pos: T0 + 999999 } }], now);   // dragged to the very top
+  assert.equal(live(s.saved).length, 20);
+  assert.ok(!live(s.saved).includes("s0"), "the oldest followed story is still the one dropped");
+});
+await test("client: diffViews sends a story whose pos changed, and ignores pos while the server does not keep it", () => {
+  const a = story("a", iso(1)), b = story("b", iso(2));
+  const before = { saved: { a, b }, hidden: {} }, after = { saved: { a: { ...a, pos: T0 + 5 }, b }, hidden: {} };
+  const ops = diffViews(before, after, 9000);
+  assert.equal(ops.length, 1);
+  assert.equal(ops[0].v.pos, T0 + 5);
+  assert.equal(diffViews(before, after, 9000, true).length, 0);
 });
 
 console.log(`\n${passed} passed` + (process.exitCode ? ", some FAILED" : ""));

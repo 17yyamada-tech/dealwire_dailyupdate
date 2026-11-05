@@ -181,6 +181,7 @@ function sync_(p) {
   const vid = String(p.vid || '');
   if (!/^[a-f0-9]{24,40}$/.test(vid)) return 'bad viewer';
   const follows = cleanFollows_(p.follows), companies = cleanCompanies_(p.companies);
+  let fresh = [];
   const lock = LockService.getScriptLock(); lock.waitLock(10000);
   try {
     const sh = viewersTab_(), rows = sh.getDataRange().getValues(), now = new Date();
@@ -191,9 +192,13 @@ function sync_(p) {
     const row = [vid, JSON.stringify(follows), JSON.stringify(stored), now];
     let r = 1;
     while (r < rows.length && rows[r][0] !== vid) r++;
+    // companies this browser already had are not looked up again: only new ones and ones whose search changed
+    const had = {};
+    if (r < rows.length) cleanCompanies_(rows[r][2]).forEach(function (c) { had[companyKey_(c) + '|' + profileKey_(c)] = true; });
+    fresh = companies.filter(function (c) { return !had[companyKey_(c) + '|' + profileKey_(c)]; });
     if (r < rows.length) sh.getRange(r + 1, 1, 1, 4).setValues([row]); else sh.appendRow(row);
   } finally { lock.releaseLock(); }
-  kickCompanies_(companies);
+  if (fresh.length) kickCompanies_(fresh);
   return 'ok';
 }
 
@@ -544,7 +549,16 @@ function acctCleanSaved_(v) {
   };
   if (!o.id || !o.title || !/^https?:\/\//.test(o.link)) return null;
   if (JSON.stringify(o).length > 1800) o.snippet = '';
+  const pos = Math.floor(Number(v.pos));                    // the reader's own place on the Deals page (a time-like number); never `since`
+  if (pos > 0 && pos < 4e12) o.pos = pos;
   return o;
+}
+
+// What the headline and profile lookups depend on. A change of place (`o`), kind or birthday does not change it.
+function acctSearchKey_(v) {
+  const names = String(v.name || '').split(/[,\u3001]/).map(function (s) { return s.trim().toLowerCase(); }).filter(String).join(',');
+  const kws = (v.keywords || []).map(function (s) { return String(s).toLowerCase(); }).sort().join('|');
+  return [names, kws, v.market || '', v.ticker || '', v.cik || ''].join('#');
 }
 
 function acctCleanCompany_(v) {
@@ -557,6 +571,8 @@ function acctCleanCompany_(v) {
     exchange: acctStr_(v.exchange, 12), sector: acctStr_(v.sector, 40),
     kind: v.kind === 'fund' || v.kind === 'corp' ? v.kind : '',
   };
+  const made = Math.floor(Number(v.c));                     // when it was added: what "Reset to newest first" goes back to
+  if (made > 0 && made < 4e12) o.c = made;
   return o.name ? o : null;
 }
 
@@ -584,7 +600,9 @@ function acctApply_(state, ops, nowMs) {
       let o = Math.floor(Number(op.o));
       if (!(o > 0) || o > nowMs) o = cur && cur.o ? cur.o : t;
       rec.o = o;
-      if (v !== null) arrived.push(v);
+      // only a company that is new, or whose search changed, needs its headlines fetched now
+      // (a reorder or a Fund / Corporate switch arrives here too and must not trigger a fetch)
+      if (v !== null && !(cur && cur.v !== null && acctSearchKey_(cur.v) === acctSearchKey_(v))) arrived.push(v);
     }
     state[op.k][key] = rec;
   });
@@ -670,7 +688,7 @@ function acct_(b) {
   } finally { lock.releaseLock(); }
   // a company added just now gets its first headlines at once
   if (arrived.length) kickCompanies_(cleanCompanies_(JSON.stringify(arrived.map(acctCompanyStored_))));
-  return { recs: state, now: Date.now() };
+  return { recs: state, now: Date.now(), ord: 1 };     // ord: this script keeps the Deals order (saved.pos) and company birthdays
 }
 
 /* ---------------- web endpoints ---------------- */

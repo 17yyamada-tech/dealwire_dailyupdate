@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261103-1700";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261105-1200";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -801,7 +801,7 @@
   function toggleSave(it, btn) {
     const s = store.get("saved", {});
     // ☆ = follow: the story joins the Deals page and the follow-up research
-    if (s[it.id]) { delete s[it.id]; btn.classList.remove("on"); btn.textContent = "☆"; }
+    if (s[it.id]) { delete s[it.id]; btn.classList.remove("on"); btn.textContent = "☆"; const dp = store.get("dealPos", {}); if (dp[it.id]) { delete dp[it.id]; store.set("dealPos", dp); } }
     else { s[it.id] = { ...it, since: new Date().toISOString() }; btn.classList.add("on"); btn.textContent = "★"; logEvent("save", it); }
     store.set("saved", s);
     acctQueue([{ k: "saved", key: it.id, t: Date.now(), v: s[it.id] || null }]);
@@ -828,8 +828,14 @@
     }
     return v;
   }
-  const followed = () => Object.values(store.get("saved", {}))
-    .sort((a, b) => String(b.since || b.published).localeCompare(String(a.since || a.published)));
+  // Deals order: newest first by the day it was followed, unless the reader dragged it (then `pos`,
+  // a time-like number, decides; a story followed later has a later `since` and lands on top).
+  const sinceMs = (it) => Date.parse(it.since || it.published) || 0;
+  const posOf = (it) => Number.isFinite(it.pos) && it.pos > 0 ? it.pos : sinceMs(it);
+  const byNewest = (a, b) => sinceMs(b) - sinceMs(a) || String(b.id).localeCompare(String(a.id));
+  const byPos = (a, b) => posOf(b) - posOf(a) || String(b.id).localeCompare(String(a.id));
+  const followed = () => Object.values(store.get("saved", {})).sort(byPos);
+  const dealsManual = () => { const l = Object.values(store.get("saved", {})); return l.slice().sort(byPos).map(x => x.id).join() !== l.slice().sort(byNewest).map(x => x.id).join(); };
   const companies = () => store.get("companies", []);
 
   /* ---------------- shared account ----------------
@@ -856,28 +862,30 @@
     for (const [k, r] of Object.entries(recs.saved)) if (r.v !== null) saved[k] = r.v;
     for (const [k, r] of Object.entries(recs.hidden)) if (r.v !== null) hidden[k] = r.t;
     const companies = Object.entries(recs.companies).filter(([, r]) => r.v !== null)
-      .sort((a, b) => (b[1].o || 0) - (a[1].o || 0)).map(([, r]) => ({ ...r.v, added: r.o }));
+      .sort((a, b) => (b[1].o || 0) - (a[1].o || 0) || (a[0] < b[0] ? -1 : 1)).map(([, r]) => ({ ...r.v, added: r.o }));
     return { saved, hidden, companies };
   }
   const emptyRecs = () => ({ saved: {}, companies: {}, hidden: {} });
   const coStrip = (c) => { const { added, ...rest } = c; return rest; };
+  const coCmp = (c) => { const { added, c: made, ...rest } = c; return rest; };   // what a change of the company itself means (not its place or birthday)
   // Operations that turn the list `before` into `after` (both arrays of companies, newest first).
   function diffCompanies(before, after, now) {
     const was = new Map(before.map(c => [coKey(c), c])), is = new Map(after.map(c => [coKey(c), c])), ops = [];
     for (const [key, c] of is) {
       const old = was.get(key);
       if (!old) ops.push({ k: "companies", key, t: c.added || now, o: c.added || now, v: coStrip(c) });
-      else if (JSON.stringify(coStrip(old)) !== JSON.stringify(coStrip(c))) ops.push({ k: "companies", key, t: now, o: c.added || old.added || now, v: coStrip(c) });
+      else if (JSON.stringify(coCmp(old)) !== JSON.stringify(coCmp(c)) || (c.added && c.added !== old.added)) ops.push({ k: "companies", key, t: now, o: c.added || old.added || now, v: coStrip(c) });
     }
     for (const key of was.keys()) if (!is.has(key)) ops.push({ k: "companies", key, t: now, v: null });
     return ops;
   }
   // Operations that turn the saved/hidden views `before` into `after`.
-  function diffViews(before, after, now) {
-    const ops = [];
+  // ignorePos: the server does not keep a manual order yet, so a difference in `pos` alone is not a change.
+  function diffViews(before, after, now, ignorePos) {
+    const ops = [], flat = (it) => { if (!ignorePos) return JSON.stringify(it); const { pos, ...rest } = it; return JSON.stringify(rest); };
     for (const [id, it] of Object.entries(after.saved)) {
       if (!before.saved[id]) ops.push({ k: "saved", key: id, t: Date.parse(it.since) || 1, v: it });
-      else if (JSON.stringify(before.saved[id]) !== JSON.stringify(it)) ops.push({ k: "saved", key: id, t: now, v: it });
+      else if (flat(before.saved[id]) !== flat(it)) ops.push({ k: "saved", key: id, t: now, v: it });
     }
     for (const id of Object.keys(before.saved)) if (!after.saved[id]) ops.push({ k: "saved", key: id, t: now, v: null });
     for (const [id, t] of Object.entries(after.hidden)) if (!before.hidden[id]) ops.push({ k: "hidden", key: id, t: +t || 1, v: 1 });
@@ -886,10 +894,17 @@
   // ACCT-LWW-END
   // Companies get a creation stamp that fixes their order on every device (newest first).
   function ensureAdded(list) {
-    const base = Date.now();
+    const base = Date.now(), made = store.get("coMade", {});
     list.forEach((c, i) => { if (!c.added) c.added = base - i * 1000; });
+    // `c` = when the company was added, kept apart from `added` (its place in the list) so that
+    // "Reset to newest first" can bring the order back. This browser also remembers it (coMade) in
+    // case the server has not learned the field yet.
+    let dirty = false;
+    list.forEach(c => { const k = coKey(c); if (!c.c) c.c = made[k] || c.added; if (made[k] !== c.c) { made[k] = c.c; dirty = true; } });
+    if (dirty) store.set("coMade", made);
     return list;
   }
+  const coMade = (c) => c.c || store.get("coMade", {})[coKey(c)] || c.added || 0;
   function setCompanies(list) {
     ensureAdded(list);
     const before = companies();
@@ -925,6 +940,10 @@
     const st = acctSaved();
     if (!st) return false;
     const v = lwwView(lwwApply(JSON.parse(JSON.stringify(st.recs)), store.get("acctOps", [])));
+    if (!store.get("ordSrv", false)) {     // the server does not keep a manual Deals order yet: this browser keeps its own
+      const dp = store.get("dealPos", {});
+      for (const id of Object.keys(v.saved)) if (Number.isFinite(dp[id])) v.saved[id] = { ...v.saved[id], pos: dp[id] };
+    }
     let changed = false;
     [["saved", v.saved, {}], ["hidden", v.hidden, {}], ["companies", v.companies, []]].forEach(([key, val, d]) => {
       if (JSON.stringify(store.get(key, d)) !== JSON.stringify(val)) { store.set(key, val); changed = true; }
@@ -939,7 +958,7 @@
     store.set("companies", ensureAdded(companies()));
     const expected = lwwView(lwwApply(JSON.parse(JSON.stringify(st.recs)), store.get("acctOps", [])));
     const local = { saved: store.get("saved", {}), hidden: store.get("hidden", {}) }, now = Date.now();
-    acctQueue([...diffViews(expected, local, now), ...diffCompanies(expected.companies, companies(), now)], true);
+    acctQueue([...diffViews(expected, local, now, !store.get("ordSrv", false)), ...diffCompanies(expected.companies, companies(), now)], true);
   }
   async function acctApi(path, init = {}, timeout = 15000) {
     const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), timeout);
@@ -968,6 +987,13 @@
       if (!body || !body.recs || !body.recs.saved) throw new Error("bad reply");
       const done = new Set(sent.map(opId));
       store.set("acctOps", store.get("acctOps", []).filter(o => !done.has(opId(o))));
+      if (body.ord && !store.get("ordSrv", false)) {      // the server now keeps the Deals order: hand over what this browser held alone
+        store.set("ordSrv", true);
+        const dp = store.get("dealPos", {}), sv = store.get("saved", {}), t = Date.now();
+        const hand = Object.keys(dp).filter(id => sv[id] && Number.isFinite(dp[id])).map(id => ({ k: "saved", key: id, t, v: { ...sv[id], pos: dp[id] } }));
+        store.set("dealPos", {});
+        if (hand.length) acctQueue(hand, true);
+      }
       store.set("acct", { email: acct.email, recs: body.recs });
       acctOffline = false;
       if (acctApplyLocal()) acctChanged();
@@ -1118,12 +1144,14 @@
     return b;
   }
   function renderFollow() {
+    if (dragging) { renderAfterDrag = true; return; }
     const ol = $("#follow-list"); ol.textContent = "";
     const list = followed();
+    updateSortBars();
     if (!list.length) { ol.append(empty("Nothing followed yet. Tap ☆ on any story and its background and follow-ups will build up here.")); return; }
     const pick = (x) => ({ date: x.date, title: x.headline || x.title, url: x.url, source: x.source, summary: dtext(x, "summary") });
     list.forEach(it => {
-      const li = document.createElement("li"); li.className = "fl-row";
+      const li = document.createElement("li"); li.className = "fl-row"; li.dataset.sk = it.id;
       const story = document.createElement("div"); story.className = "fl-story";
       const rows = document.createElement("ol"); rows.className = "rows"; rows.append(rowNode(it));
       story.append(rows);
@@ -1135,6 +1163,92 @@
         arrow(),
         flColumn("Since then", d ? (d.since || []).map(pick) : null, d ? "No developments yet. Checked " + agoText(d.checked_at) + "." : wait));
       ol.append(li);
+    });
+  }
+
+  /* ---------------- drag to reorder (Deals and Companies > News) ----------------
+     Press and hold a card (about 350 ms, mouse or finger), then drag. A normal scroll or tap never
+     starts a drag: moving before the hold is over cancels it, and links, buttons and inputs are
+     excluded. Deals: each story keeps a `pos` (a time-like number; absent = by the day it was followed).
+     Companies: the order is the `added` value that was already synced; Profile and Price read the
+     same list. Both are handed to the account sync like any other change. */
+  let dragging = false, renderAfterDrag = false, sortLoad = null;
+  const strictDesc = (vals) => { const o = vals.slice().sort((a, b) => b - a); for (let i = 1; i < o.length; i++) if (o[i] >= o[i - 1]) o[i] = o[i - 1] - 1; return o; };
+  function reorderDeals(ids) {
+    const s = store.get("saved", {}), cur = Object.values(s).sort(byPos), map = store.get("dealPos", {}), now = Date.now(), ops = [];
+    const order = ids.filter(id => s[id]).concat(cur.map(x => x.id).filter(id => !ids.includes(id)));
+    const vals = strictDesc(cur.map(posOf));
+    order.forEach((id, i) => {
+      if (posOf(s[id]) === vals[i]) return;
+      s[id] = { ...s[id], pos: vals[i] }; map[id] = vals[i];
+      ops.push({ k: "saved", key: id, t: now, v: s[id] });
+    });
+    store.set("saved", s); store.set("dealPos", map); acctQueue(ops);
+  }
+  function resetDeals() {
+    const s = store.get("saved", {}), now = Date.now(), ops = [];
+    for (const id of Object.keys(s)) if ("pos" in s[id]) { const { pos, ...rest } = s[id]; s[id] = rest; ops.push({ k: "saved", key: id, t: now, v: s[id] }); }
+    store.set("saved", s); store.set("dealPos", {}); acctQueue(ops);
+  }
+  function reorderCompanies(keys) {
+    const list = ensureAdded(companies()), by = new Map(list.map(c => [coKey(c), c]));
+    const vals = strictDesc(list.map(c => c.added));
+    const next = keys.map(k => by.get(k)).filter(Boolean).concat(list.filter(c => !keys.includes(coKey(c))));
+    next.forEach((c, i) => { c.added = vals[i]; });
+    setCompanies(next);
+  }
+  const coByMade = (a, b) => coMade(b) - coMade(a) || (coKey(a) < coKey(b) ? -1 : 1);
+  function resetCompanies() {
+    const list = ensureAdded(companies()).sort(coByMade), vals = strictDesc(list.map(coMade));
+    list.forEach((c, i) => { c.added = vals[i]; });
+    setCompanies(list);
+  }
+  const companiesManual = () => { const l = ensureAdded(companies()); return l.slice().sort((a, b) => b.added - a.added).map(coKey).join() !== l.slice().sort(coByMade).map(coKey).join(); };
+  function updateSortBars() {
+    const nd = Object.keys(store.get("saved", {})).length, nc = companies().length;
+    const sv = store.get("coSub", "news"), onNews = !(sv === "profile" || sv === "price"), cm = nc > 1 && companiesManual();
+    $("#follow-sortbar").hidden = nd < 2;
+    $("#follow-reset").hidden = nd < 2 || !dealsManual();
+    $("#co-sortbar").hidden = nc < 2 || (!onNews && !cm);
+    $("#co-sorthint").hidden = !onNews;
+    $("#co-reset").hidden = !cm;
+  }
+  function loadSortable() {
+    if (window.Sortable) return Promise.resolve(true);
+    if (!sortLoad) sortLoad = new Promise(res => {
+      const sc = document.createElement("script");
+      sc.src = "https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.6/Sortable.min.js";
+      sc.integrity = "sha512-csIng5zcB+XpulRUa+ev1zKo7zRNGpEaVfNB9On1no9KYTEY/rLGAEEpvgdw6nim1WdTuihZY1eqZ31K7/fZjw==";
+      sc.crossOrigin = "anonymous"; sc.referrerPolicy = "no-referrer";
+      sc.onload = () => res(!!window.Sortable); sc.onerror = () => res(false);
+      document.head.append(sc);
+    });
+    return sortLoad;
+  }
+  function makeSortable(el, onDrop) {
+    if (!el || el._sortable || !window.Sortable) return;
+    el._sortable = window.Sortable.create(el, {
+      draggable: ".fl-row[data-sk]", delay: 350, delayOnTouchOnly: false, touchStartThreshold: 8,
+      forceFallback: true, fallbackTolerance: 3, animation: 160, scroll: true, bubbleScroll: true,
+      filter: "a, button, input, textarea, select, label, form", preventOnFilter: false,
+      ghostClass: "sort-ghost", chosenClass: "sort-chosen", fallbackClass: "sort-fallback",
+      onChoose: () => document.body.classList.add("sorting"),
+      onUnchoose: () => { if (!dragging) document.body.classList.remove("sorting"); },
+      onStart: () => { dragging = true; },
+      onEnd: (ev) => {
+        dragging = false; document.body.classList.remove("sorting"); renderAfterDrag = false;
+        if (ev.oldIndex !== ev.newIndex) onDrop([...el.children].map(x => x.dataset.sk).filter(Boolean));
+        el === $("#follow-list") ? renderFollow() : renderCompanies();
+      },
+    });
+  }
+  function initSort() {
+    $("#follow-reset").addEventListener("click", () => { resetDeals(); renderFollow(); });
+    $("#co-reset").addEventListener("click", () => { resetCompanies(); renderCompanies(); });
+    loadSortable().then(ok => {
+      if (!ok) return;
+      makeSortable($("#follow-list"), reorderDeals);
+      makeSortable($("#co-list"), reorderCompanies);
     });
   }
 
@@ -1297,9 +1411,11 @@
   }
 
   function renderCompanies() {
+    if (dragging) { renderAfterDrag = true; return; }
     const ol = $("#co-list"); ol.textContent = "";
     const mine = companies();
     const sv = store.get("coSub", "news"), sub = sv === "profile" || sv === "price" ? sv : "news";
+    updateSortBars();
     $$(".co-sub .chip").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.sub === sub)));
     ol.hidden = sub !== "news" && mine.length > 0;
     $("#co-profile").hidden = !(sub === "profile" && mine.length > 0);
@@ -1318,7 +1434,7 @@
     mine.forEach((c, i) => {
       const r = remote.get(coKey(c));
       const kind = kindOf(c, r && r.searched);
-      const li = document.createElement("li"); li.className = "fl-row co-row kind-" + kind;
+      const li = document.createElement("li"); li.className = "fl-row co-row kind-" + kind; li.dataset.sk = coKey(c);
       const card = document.createElement("div"); card.className = "co-card";
       const h = document.createElement("h3"); h.className = "co-name"; h.textContent = c.name.split(/[,、]/)[0].trim();
       if (c.market) { const t = document.createElement("span"); t.className = "co-ticker"; t.textContent = listingLabel(c); h.append(t); }
@@ -2277,6 +2393,7 @@
     let rt;
     window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(syncDigestHeight, 150); });
     applyLang(state.lang);
+    initSort();
     $("#btn-lang").addEventListener("click", () => { applyLang(state.lang === "ja" ? "en" : "ja"); renderAll(); });
     // One measurement after render is not enough: the web fonts land later and re-wrap both
     // columns, and an edition arrives after its own fetch. Watch instead of guessing.

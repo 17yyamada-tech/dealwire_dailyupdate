@@ -153,6 +153,14 @@ body[data-view="sources"] .p-deals, body[data-view="sources"] .p-digest, body[da
   border-left: 3px solid var(--kind);
   background: color-mix(in srgb, var(--kind) 9%, transparent); box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink-3) 18%, transparent); }
 .fl-list > li.empty { display: block; }
+/* press-and-hold reordering (Deals, Companies > News): a lifted card, and a line where it will land */
+.sort-bar { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 0; padding: 8px 14px 0; }
+.fl-row[data-sk] { -webkit-touch-callout: none; }
+.sort-chosen { cursor: grabbing; }
+body.sorting, body.sorting .fl-row { -webkit-user-select: none; user-select: none; }
+.sort-fallback { background: linear-gradient(color-mix(in srgb, var(--kind) 9%, transparent), color-mix(in srgb, var(--kind) 9%, transparent)), var(--panel, var(--surface, var(--bg-2, Canvas))) !important; opacity: .97 !important; scale: 1.012; cursor: grabbing; box-shadow: 0 10px 26px rgba(0, 0, 0, .35) !important; z-index: 60; }
+.sort-ghost { background: none !important; border-color: transparent !important; box-shadow: inset 0 3px 0 var(--ink, currentColor) !important; }
+.sort-ghost > * { visibility: hidden; }
 .fl-story, .co-card { min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
 /* the followed story keeps its board row, stacked the way phones show it: tags above the headline */
 .fl-story .row { padding: 0; border: 0; background: none; grid-template-columns: auto auto auto minmax(0, 1fr) auto;
