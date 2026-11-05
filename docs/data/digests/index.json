@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-05-1530",
+      "label": "5 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-05T07:36:00Z",
+      "items": 5,
+      "headlines": [
+        "Toyota raises buyback ceiling to ¥1.3tn, launches first-ever tender-offer buyback worth ¥300bn",
+        "Rival PE fund raises counter-bid by over 5% in fight to take Sankei Building-linked REIT private",
+        "onsemi lifts 2030 AI-datacentre revenue target above $3bn after Ferric acquisition, cites 175% sales growth"
+      ]
+    },
+    {
       "id": "2026-11-05-1230",
       "label": "5 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-05T04:40:00Z",

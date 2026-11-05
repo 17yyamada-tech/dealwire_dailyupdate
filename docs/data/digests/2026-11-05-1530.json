@@ -1,0 +1,151 @@
+{
+  "edition": "2026-11-05-1530",
+  "edition_label": "5 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T07:36:00Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Toyota raises buyback ceiling to ¥1.3tn, launches first-ever tender-offer buyback worth ¥300bn",
+      "summary": "Toyota Motor has expanded its share buyback authorisation to ¥1.3tn and plans to acquire about ¥300bn of shares through a tender offer, its first-ever buyback structured this way, according to Japan M&A reporting. Further structuring detail was not disclosed in the available reporting.",
+      "why_it_matters": "A first-ever tender-offer buyback from one of Japan's largest companies by market value shows Tokyo Stock Exchange pressure for capital efficiency is now reaching even blue-chip issuers that have long relied on open-market repurchases.",
+      "summary_ja": "トヨタ自動車が自社株買いの上限を1.3兆円に拡大し、初めてTOB方式による自己株買いで約3000億円を取得する計画だと、Japan M&Aが報じた。具体的な手法の詳細は現時点で明らかにされていない。",
+      "why_it_matters_ja": "時価総額で日本最大級の企業が初のTOB型自己株買いに踏み込むことは、東証が求める資本効率改善への圧力が、従来の市場内買いに依存してきた優良企業にも及んでいることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "toyota-buyback-tender-offer-expansion",
+      "ids": [
+        "a9085f54263a46"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0Z0NFQVh6OGhNUjJEaGxaNFRDaGF0dV9hM0pSOFI0SkJWTGtoTktmRUVGQVlUUmpfSVMzeVQxZlFJZ1FRcGJzSW9HWDIzdy03Y01HY3YxSU5iS3dTX2lVZ1phc2h0SHJNbkk2ang0NGFTaldR?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Rival PE fund raises counter-bid by over 5% in fight to take Sankei Building-linked REIT private",
+      "summary": "A private equity fund has submitted a counter-proposal raising its offer price by more than 5% in a contest to take a Sankei Building-affiliated real estate investment trust private, according to Japan PE & activists reporting. Further detail on the bidders and timeline was not disclosed in the available reporting.",
+      "why_it_matters": "A competing sponsor pushing up the price in a Japanese REIT go-private process shows PE funds are now bidding against each other for listed real-estate vehicles, not only negotiating against the original sponsor's opening offer.",
+      "summary_ja": "サンケイビル系REITの非公開化を巡り、別のPEファンドが価格を5%以上引き上げた対抗案を提示したと、Japan PE & activistsが報じた。入札者や今後のスケジュールの詳細は明らかになっていない。",
+      "why_it_matters_ja": "日本のREIT非公開化で競合するPEファンドが価格を引き上げてくる構図は、PEファンドが当初の提示価格だけでなく互いとも対抗する局面に入ったことを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "sankei-building-reit-pe-rival-bid",
+      "ids": [
+        "47e4d649e0403e"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVGVrRDg2UXhaVklsWnpqeHVTUTU2ZjBCM1VVR2hrOFNjelJVMHVReDNuMmJHNEFndUVsck9qcFJKSTE5Y2lnU0Y5T2tPdjc2YjNRRVg1bnlVSVJiWkRGMk9Tb2FTM2RLTF9IeA?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "onsemi lifts 2030 AI-datacentre revenue target above $3bn after Ferric acquisition, cites 175% sales growth",
+      "summary": "onsemi raised its 2030 revenue target for AI data-centre products to more than $3bn, citing its pending acquisition of power-chip startup Ferric, and said AI data-centre sales grew 175% year-on-year, according to Japan M&A reporting. The update follows onsemi's agreement to buy Ferric for up to $775m.",
+      "why_it_matters": "Attaching a concrete, raised long-term revenue target to the Ferric deal gives investors a yardstick for judging whether the acquisition pays off, beyond the headline purchase price.",
+      "summary_ja": "オンセミがFerric買収を踏まえ、2030年のAIデータセンター向け売上目標を30億ドル超に引き上げ、AIデータセンター向け売上は前年比175%増えたと明らかにしたと、Japan M&Aが報じた。この発表は、オンセミが最大7.75億ドルでFerricを買収することで合意した件に続くものである。",
+      "why_it_matters_ja": "Ferric買収に具体的かつ上方修正された長期売上目標を結びつけたことで、投資家は買収価格だけでなく、その成果を測る基準を手にする。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-05-0830",
+        "index": 3
+      },
+      "key": "onsemi-ferric-acquisition",
+      "ids": [
+        "b800a11267bd43"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBPY3VlYmI2bWwzWVplWlBnWm1MZS04cHIwWmpXT1dUTFA3dHBPdXQ4aF9IUENIclRfZTlxenFkNGVvUlNJ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "JLL acquires data-centre-focused consulting firm to expand advisory services",
+      "summary": "JLL (Jones Lang LaSalle) has acquired a consulting firm specialised in data centres, aiming to broaden its advisory services in that sector, according to Japan M&A reporting. Financial terms and the target's name were not disclosed in the available reporting.",
+      "why_it_matters": "Real-estate services firms are moving to capture advisory fees from the data-centre buildout directly, rather than relying only on brokering the underlying property transactions.",
+      "summary_ja": "JLL(ジョーンズ・ラング・ラサール)がデータセンターに特化したコンサルティング会社を買収し、同分野でのアドバイザリー業務を拡充すると、Japan M&Aが報じた。資金条件や買収先企業名は明らかにされていない。",
+      "why_it_matters_ja": "不動産サービス企業が、不動産取引の仲介だけでなく、データセンター需要に紐づくアドバイス業務自体から直接収益を取り込みにいく動きが進んでいる。",
+      "status": "new",
+      "prev": null,
+      "key": "jll-data-centre-consulting-acquisition",
+      "ids": [
+        "ae0d850e88f8ec"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHV6QVRLZC1VdUpsNGU0eE82emhoUDJJbnFnaDBUcjdYbnJWajZfd1cyZklRVUlaME9acGNna3VneWMtUEhFVkdXbU84SWtvS1I3ajZQdERiSzFlUG9PeGxwckZVRE52MFRKbE1LZXJhT0FzeUR6Rlg0anZ4RW00UmxTTlFqYnhGUTlVOUMtSXdFQ2h6bDdwOFJXVlprMTA2VXc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Tokai Kogyo and Kinugawa Rubber holding companies agree to formal management integration",
+      "summary": "Tokai Kogyo Holdings and Kinugawa Rubber Industry Holdings have agreed to a management integration, formalising the cross-keiretsu acquisition reported earlier this week, according to Japan M&A reporting. Further structuring and timeline detail was not disclosed in the available reporting.",
+      "why_it_matters": "Converting an earlier-reported approach into a signed holding-company integration confirms that cross-keiretsu consolidation among Japanese auto suppliers is advancing rather than stalling.",
+      "summary_ja": "東海興業ホールディングスと鬼怒川ゴム工業ホールディングスが経営統合に合意し、今週報じられていたケイレツを超えた買収を正式なものにしたと、Japan M&Aが報じた。統合のスキームや日程の詳細は明らかにされていない。",
+      "why_it_matters_ja": "先に報じられていた提携構想が持株会社同士の正式な経営統合に発展したことは、日本の自動車部品業界におけるケイレツを超えた再編が足踏みせず前進していることを確認するものである。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-04-1530",
+        "index": 3
+      },
+      "key": "tokai-kogyo-kinugawa-rubber-acquisition",
+      "ids": [
+        "700eb43d1236e1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CQ1YtS1F1S2Q3NEFpRDd1NTR4SHg2VTRzR2RwY093VUUzZVIybndVbFZoejZTMFZydkRyel9WcnA4MkhmcGt6YUNvb1liRjQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
