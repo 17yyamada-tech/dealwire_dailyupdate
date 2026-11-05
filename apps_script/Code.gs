@@ -587,6 +587,25 @@ function acctApply_(state, ops, nowMs) {
     let t = Math.floor(Number(op.t));
     if (!(t > 0)) t = nowMs;
     if (t > nowMs + ACCT.FUTURE_MS) t = nowMs;
+    if (op.only === 'pos' && op.k !== 'hidden') {
+      // a reorder (or Reset) changes the place only: it never creates, revives or deletes a record, and keeps its t
+      const cu = state[op.k][key];
+      if (!cu || cu.v === null || t < (cu.pt || 0)) return;
+      if (op.k === 'saved') {
+        const pos = Math.floor(Number(op.v && op.v.pos));
+        const nv = {}; Object.keys(cu.v).forEach(function (f) { if (f !== 'pos') nv[f] = cu.v[f]; });
+        if (pos > 0 && pos < 4e12) nv.pos = pos;
+        cu.v = nv;
+      } else {
+        const o2 = Math.floor(Number(op.o));
+        if (!(o2 > 0) || o2 > nowMs) return;
+        cu.o = o2;
+        const made = Math.floor(Number(op.v && op.v.c));          // the birthday may be filled in once, never changed
+        if (!cu.v.c && made > 0 && made < 4e12) { const nv = {}; Object.keys(cu.v).forEach(function (f) { nv[f] = cu.v[f]; }); nv.c = made; cu.v = nv; }
+      }
+      cu.pt = t;
+      return;
+    }
     let v = null;
     if (op.v != null) {
       v = op.k === 'saved' ? acctCleanSaved_(op.v) : op.k === 'companies' ? acctCleanCompany_(op.v) : 1;

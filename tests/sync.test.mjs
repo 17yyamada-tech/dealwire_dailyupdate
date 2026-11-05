@@ -291,4 +291,58 @@ await test("client: diffViews sends a story whose pos changed, and ignores pos w
   assert.equal(diffViews(before, after, 9000, true).length, 0);
 });
 
+/* ---------- a reorder never undoes a deletion ---------- */
+const { lwwPut } = page.api;
+await test("a stale device's reorder does not bring back a story unstarred elsewhere (server and client agree)", () => {
+  const s = fresh();
+  acctApply_(s, [put("a", 1000), put("b", 2000)], now);
+  acctApply_(s, [del("saved", "a", 5000)], now);                                   // device A unstars a
+  const reorder = [{ k: "saved", key: "a", t: T0 + 9000, only: "pos", v: { ...story("a", iso(1)), pos: T0 + 7 } }];   // device B, not synced yet, reorders later
+  acctApply_(s, reorder, now);
+  assert.deepEqual(live(s.saved), ["b"]);
+  assert.equal(s.saved.a.v, null);
+  assert.equal(s.saved.a.t, T0 + 5000, "the deletion keeps its time");
+  const c = JSON.parse(JSON.stringify(fresh()));
+  lwwApply(c, [put("a", 1000), put("b", 2000), del("saved", "a", 5000), ...reorder]);
+  assert.deepEqual(Object.keys(lwwView(c).saved), ["b"]);
+  // and a reorder of a story the server has never seen creates nothing
+  acctApply_(s, [{ k: "saved", key: "zz", t: T0 + 9500, only: "pos", v: { ...story("zz", iso(3)), pos: T0 + 1 } }], now);
+  assert.ok(!s.saved.zz);
+});
+await test("a reorder of a live story changes only pos, keeps its content and time, and a later delete still wins", () => {
+  const s = fresh();
+  acctApply_(s, [put("a", 1000)], now);
+  acctApply_(s, [{ k: "saved", key: "a", t: T0 + 4000, only: "pos", v: { ...story("a", iso(1)), title: "SNEAKY", pos: T0 + 77 } }], now);
+  assert.equal(s.saved.a.v.pos, T0 + 77);
+  assert.equal(s.saved.a.v.title, "Story a");
+  assert.equal(s.saved.a.t, T0 + 1000);
+  acctApply_(s, [del("saved", "a", 3000)], now);                                    // the delete (older than the reorder) is not blocked by it
+  assert.deepEqual(live(s.saved), []);
+  acctApply_(s, [{ k: "saved", key: "a", t: T0 + 9000, only: "pos" }], now);      // Reset (no pos) on a deleted story: ignored
+  assert.deepEqual(live(s.saved), []);
+});
+await test("companies: a stale reorder does not bring back a removed company, and moving a live one keeps its kind", () => {
+  const A = co("A"), B = co("B");
+  const s = fresh();
+  acctApply_(s, [cput(A, 1000), cput(B, 2000)], now);
+  acctApply_(s, [del("companies", coKey(A), 5000)], now);
+  const stale = [{ ...cmove(A, 8000, 9000), only: "pos" }, { ...cmove(B, 500, 9000), only: "pos", v: { ...B, kind: "fund" } }];
+  const r = acctApply_(s, stale, now);
+  assert.deepEqual(live(s.companies), [coKey(B)]);
+  assert.equal(s.companies[coKey(A)].v, null);
+  assert.equal(s.companies[coKey(B)].o, T0 + 500);
+  assert.equal(s.companies[coKey(B)].v.kind, "", "a reorder carries no other change");
+  assert.equal(r.companies.length, 0);
+  const c = fresh();
+  lwwApply(c, [cput(A, 1000), cput(B, 2000), del("companies", coKey(A), 5000), ...stale]);
+  assert.deepEqual(names(c), ["B"]);
+});
+await test("client: diffCompanies marks a pure move as pos-only, and diffViews a pure pos change", () => {
+  const a = { name: "A", keywords: [], added: 10 };
+  assert.equal(diffCompanies([a], [{ ...a, added: 99 }], 5000)[0].only, "pos");
+  assert.equal(diffCompanies([a], [{ ...a, added: 99, kind: "fund" }], 5000)[0].only, undefined);
+  const x = story("a", iso(1));
+  assert.equal(diffViews({ saved: { a: x }, hidden: {} }, { saved: { a: { ...x, pos: T0 + 3 } }, hidden: {} }, 9000)[0].only, "pos");
+});
+
 console.log(`\n${passed} passed` + (process.exitCode ? ", some FAILED" : ""));

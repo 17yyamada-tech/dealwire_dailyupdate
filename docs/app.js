@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261105-1200";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261105-1500";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -848,14 +848,21 @@
      browser-id sync above runs exactly as before. */
   // ACCT-LWW-BEGIN
   // recs: { saved: {key: {t, v}}, companies: {key: {t, v, o}}, hidden: {key: {t, v}} }; v === null is a deletion.
-  function lwwPut(recs, k, key, t, v, o) {
+  function lwwPut(recs, k, key, t, v, o, only) {
     if (!recs[k]) return false;
     const cur = recs[k][key];
+    if (only === "pos" && k !== "hidden") {       // a reorder never creates, revives or deletes: it moves a live record only
+      if (!cur || cur.v === null || t < (cur.pt || 0)) return false;
+      if (k === "saved") { const { pos, ...rest } = cur.v; cur.v = v && Number.isFinite(v.pos) && v.pos > 0 ? { ...rest, pos: v.pos } : rest; }
+      else if (o > 0) { cur.o = o; if (!cur.v.c && v && v.c > 0) cur.v = { ...cur.v, c: v.c }; } else return false;
+      cur.pt = t;
+      return true;
+    }
     if (cur && (cur.t > t || (cur.t === t && (cur.v === null || v !== null)))) return false;   // newer wins; a tie goes to deletion
     recs[k][key] = k === "companies" ? { t, v, o: o || (cur && cur.o) || t } : { t, v };
     return true;
   }
-  function lwwApply(recs, ops) { ops.forEach(op => lwwPut(recs, op.k, op.key, op.t, op.v, op.o)); return recs; }
+  function lwwApply(recs, ops) { ops.forEach(op => lwwPut(recs, op.k, op.key, op.t, op.v, op.o, op.only)); return recs; }
   // The three lists the page works with, from records.
   function lwwView(recs) {
     const saved = {}, hidden = {};
@@ -874,7 +881,8 @@
     for (const [key, c] of is) {
       const old = was.get(key);
       if (!old) ops.push({ k: "companies", key, t: c.added || now, o: c.added || now, v: coStrip(c) });
-      else if (JSON.stringify(coCmp(old)) !== JSON.stringify(coCmp(c)) || (c.added && c.added !== old.added)) ops.push({ k: "companies", key, t: now, o: c.added || old.added || now, v: coStrip(c) });
+      else if (JSON.stringify(coCmp(old)) !== JSON.stringify(coCmp(c))) ops.push({ k: "companies", key, t: now, o: c.added || old.added || now, v: coStrip(c) });
+      else if (c.added && c.added !== old.added) ops.push({ k: "companies", key, t: now, o: c.added, only: "pos", v: coStrip(c) });
     }
     for (const key of was.keys()) if (!is.has(key)) ops.push({ k: "companies", key, t: now, v: null });
     return ops;
@@ -882,10 +890,11 @@
   // Operations that turn the saved/hidden views `before` into `after`.
   // ignorePos: the server does not keep a manual order yet, so a difference in `pos` alone is not a change.
   function diffViews(before, after, now, ignorePos) {
-    const ops = [], flat = (it) => { if (!ignorePos) return JSON.stringify(it); const { pos, ...rest } = it; return JSON.stringify(rest); };
+    const ops = [], flat = (it) => { const { pos, ...rest } = it; return JSON.stringify(rest); };
     for (const [id, it] of Object.entries(after.saved)) {
       if (!before.saved[id]) ops.push({ k: "saved", key: id, t: Date.parse(it.since) || 1, v: it });
       else if (flat(before.saved[id]) !== flat(it)) ops.push({ k: "saved", key: id, t: now, v: it });
+      else if (!ignorePos && JSON.stringify(before.saved[id]) !== JSON.stringify(it)) ops.push({ k: "saved", key: id, t: now, only: "pos", v: it });
     }
     for (const id of Object.keys(before.saved)) if (!after.saved[id]) ops.push({ k: "saved", key: id, t: now, v: null });
     for (const [id, t] of Object.entries(after.hidden)) if (!before.hidden[id]) ops.push({ k: "hidden", key: id, t: +t || 1, v: 1 });
@@ -929,8 +938,20 @@
   // Queue operations (coalesced per key, kept in localStorage until the server has them).
   function acctQueue(ops, quiet) {
     if (!acct || !ops.length) return;
-    const q = store.get("acctOps", []).filter(x => !ops.some(o => o.k === x.k && o.key === x.key));
-    store.set("acctOps", q.concat(ops));
+    // coalesced per key; a reorder queued over a pending real change is folded into it (never replaces it)
+    let q = store.get("acctOps", []);
+    const add = [];
+    for (const o of ops) {
+      const i = q.findIndex(x => x.k === o.k && x.key === o.key);
+      if (i >= 0 && o.only === "pos") {
+        const x = q[i];
+        if (x.v === null) continue;                    // pending deletion: the reorder is moot
+        if (x.only === "pos") q = q.filter((_, j) => j !== i);
+        else { q = q.map((y, j) => j !== i ? y : o.k === "saved" ? { ...y, v: o.v && Number.isFinite(o.v.pos) ? { ...y.v, pos: o.v.pos } : (({ pos, ...r }) => r)(y.v) } : { ...y, o: o.o }); continue; }
+      } else if (i >= 0) q = q.filter((_, j) => j !== i);
+      add.push(o);
+    }
+    store.set("acctOps", q.concat(add));
     if (!quiet) acctFlushSoon(500);
   }
   function acctFlushSoon(ms) { clearTimeout(acctTimer); acctTimer = setTimeout(acctSync, ms); }
@@ -990,7 +1011,7 @@
       if (body.ord && !store.get("ordSrv", false)) {      // the server now keeps the Deals order: hand over what this browser held alone
         store.set("ordSrv", true);
         const dp = store.get("dealPos", {}), sv = store.get("saved", {}), t = Date.now();
-        const hand = Object.keys(dp).filter(id => sv[id] && Number.isFinite(dp[id])).map(id => ({ k: "saved", key: id, t, v: { ...sv[id], pos: dp[id] } }));
+        const hand = Object.keys(dp).filter(id => sv[id] && Number.isFinite(dp[id])).map(id => ({ k: "saved", key: id, t, only: "pos", v: { ...sv[id], pos: dp[id] } }));
         store.set("dealPos", {});
         if (hand.length) acctQueue(hand, true);
       }
@@ -1181,13 +1202,13 @@
     order.forEach((id, i) => {
       if (posOf(s[id]) === vals[i]) return;
       s[id] = { ...s[id], pos: vals[i] }; map[id] = vals[i];
-      ops.push({ k: "saved", key: id, t: now, v: s[id] });
+      ops.push({ k: "saved", key: id, t: now, only: "pos", v: s[id] });
     });
     store.set("saved", s); store.set("dealPos", map); acctQueue(ops);
   }
   function resetDeals() {
     const s = store.get("saved", {}), now = Date.now(), ops = [];
-    for (const id of Object.keys(s)) if ("pos" in s[id]) { const { pos, ...rest } = s[id]; s[id] = rest; ops.push({ k: "saved", key: id, t: now, v: s[id] }); }
+    for (const id of Object.keys(s)) if ("pos" in s[id]) { const { pos, ...rest } = s[id]; s[id] = rest; ops.push({ k: "saved", key: id, t: now, only: "pos", v: s[id] }); }
     store.set("saved", s); store.set("dealPos", {}); acctQueue(ops);
   }
   function reorderCompanies(keys) {
