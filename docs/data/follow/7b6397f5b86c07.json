@@ -4,23 +4,19 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-05T04:53:00Z",
+  "checked_at": "2026-11-05T07:52:00Z",
   "status": {
     "as_of": "2026-11-05",
-    "text": "BOJ holds at 1.25%; Brent near $105 after Nov 3 Iran strike reports. Herzog accepted Oct 27 election results Nov 4 and began mandate consultations, meeting Netanyahu's Likud and Eisenkot's Yashar last, on Nov 5.",
-    "text_ja": "日銀は1.25%で維持。ブレント原油は11月3日のイラン攻撃報道後105ドル近辺。ヘルツォーク大統領は11月4日に選挙結果を受理、組閣協議開始。ネタニヤフ氏とは11月5日に会談。",
+    "text": "Oil crashed 8.7% to $94.62/barrel (Brent) on Nov 4 after Democrats won Congress and VP Vance blamed the Iran war for the loss; Israel's mandate to form a government remains unassigned.",
+    "text_ja": "ブレント原油は11月4日に8.7%急落し94.62ドル。民主党が議会を制し、バンス副大統領はイラン戦争を敗因と発言。イスラエルの組閣委任者は未定のまま。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.pbs.org/newshour/world/israels-president-takes-first-steps-on-building-new-government-after-accepting-election-results"
+        "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
       },
       {
         "list": "since",
-        "url": "https://www.cnbc.com/2026/11/03/oil-rises-after-report-of-us-strike-on-irans-qeshm-island.html"
-      },
-      {
-        "list": "since",
-        "url": "https://www.tokenpost.com/news/regulation/44257"
+        "url": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763"
       }
     ]
   },
@@ -91,6 +87,22 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-04",
+      "headline": "Oil crashes 8-9% as Vance blames Iran war for midterm defeat, WTI falls to $88.12, Brent to $94.62",
+      "summary": "CNBC reported that US crude oil prices fell sharply on November 4, 2026, with WTI closing down 8.3% at $88.12 a barrel and Brent down 8.7% at $94.62, after Democrats won control of Congress in the November 3 midterms and Vice President JD Vance wrote on social media that \"the reason we lost is the war\"; analysts said Democratic control of Congress could constrain US military spending in the Middle East and raise the odds of a settlement with Iran.",
+      "summary_ja": "CNBCによると、2026年11月4日、米原油価格は大幅に下落し、WTIは8.3%安の1バレル88.12ドル、ブレントは8.7%安の94.62ドルで終えた。前日11月3日の中間選挙で民主党が上下両院を制し、JD・バンス副大統領が自身のSNSで「敗因は戦争だ」と投稿したことが背景。アナリストは、議会を民主党が握ることで中東での軍事費が制約され、イランとの和解の可能性が高まるとの見方を示した。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "Democrats win control of both US House and Senate in Nov 3 midterms",
+      "summary": "The Associated Press called control of the Senate and House for Democrats following the November 3, 2026 midterms; Democrats held 54 Senate seats to the Republicans' 44 with Alaska and Mississippi still being counted, after flipping seats including Kansas, Iowa, Texas, Ohio, Maine, North Carolina and South Carolina, and held at least 218 confirmed House seats, with Hakeem Jeffries expected to become House speaker.",
+      "summary_ja": "米国では2026年11月3日の中間選挙を受け、AP通信が上下両院で民主党の過半数確保を伝えた。上院は民主党54席・共和党44席(アラスカ、ミシシッピは集計中)で、カンザス、アイオワ、テキサス、オハイオ、メイン、ノースカロライナ、サウスカロライナの各州で議席を奪取した。下院も確定218議席を獲得し過半数に達し、ハキーム・ジェフリーズ氏が下院議長に就任する見通し。",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763"
+    },
     {
       "date": "2026-11-04",
       "headline": "Herzog accepts certified Oct 27 election result, opens mandate consultations with Likud meeting him last on Nov 5",
