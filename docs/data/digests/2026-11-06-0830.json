@@ -1,0 +1,316 @@
+{
+  "edition": "2026-11-06-0830",
+  "edition_label": "6 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T00:36:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Wendy's board rejects Trian's $1.4bn, $7.35-a-share buyout bid, adopts poison pill",
+      "summary": "Wendy's board unanimously rejected Nelson Peltz's Trian Partners' renewed $1.4bn take-private proposal, worth $7.35 a share, and adopted a shareholder rights plan (poison pill) to block a hostile approach. The company said it will fix its same-store sales decline, now in a seventh straight quarter, on its own rather than sell.",
+      "why_it_matters": "The rejection and poison pill signal Wendy's board is digging in against Trian just as the chain's underlying sales trend keeps worsening, setting up a longer activist fight rather than a quick deal. Betting on a menu-led turnaround rather than a sale raises the stakes for management: another weak quarter would hand Trian a stronger argument the next time it comes back.",
+      "summary_ja": "ウェンディーズの取締役会は、ネルソン・ペルツ氏のトライアン・パートナーズが再提示した1株7.35ドル、総額14億ドルの非公開化提案を全会一致で拒否し、敵対的買収を阻止するためポイズンピル(株主権利プラン)を導入した。同社は既存店売上高が7四半期連続で減少する中、売却ではなく自力での業績回復を目指すとしている。",
+      "why_it_matters_ja": "拒否とポイズンピル導入は、既存店売上の悪化が続くなかでもウェンディーズ取締役会がトライアンに対して徹底抗戦する姿勢を示すもので、早期の売却ではなく長期化するアクティビスト対立の構図を描く。売却ではなくメニュー改善による立て直しに賭けることは経営陣にとって賭けでもあり、次の四半期も弱ければトライアンが再び迫る際の論拠を強めてしまう。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-02-1230",
+        "index": 2
+      },
+      "key": "wendys-trian-takeprivate-proposal",
+      "ids": [
+        "a856e8fb8e7f04",
+        "94abd65c39e2be",
+        "82bb6842f78790"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hZC1MYnVQMFM1djl4b1QxWkduTWJnbXZHbC1HWGk2STR2MW1EbllTMVEwSl9tanQxV3hOOC1NeUdicnUySzVad0dwMlNudzl6ZDRlczlpNmZGN1BiNjVwQ2ZBeVBkNGRHSk52S2Q3Y3A5eVVF?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBUThLZ2t3U3kzWHBuYnZaZURGT05LR0FlckdIU29rTFBHVXBvVDFoMGNvbHdBR09nb1BZOW10UXR6MDg4QWl5Tm5NVlNMUW1MSVlwbnJfejk3ZDVtR1EzNFJPTHAwUVhISXUxdXJxRUU?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uTjYzZnNmanRYMWNuUU9ubzNEZFVUT0NLQ0xrWWxFTE1mOW1xTlZhOGdmS0l1VW5ac0ljbHptRU9Wb3VMMTZHTHJDTVpUZGxmRHVMT3JlYVNVaXZfU0Y5Sk5nV1BGNU53NGtQeWg0SmZrYTFD?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Shield AI to buy radar maker Echodyne for $5.3bn, raises $2.5bn at $28.8bn valuation",
+      "summary": "Shield AI agreed to acquire radar company Echodyne Corp in a transaction valued at $5.3bn, extending its Mission Systems business into radar and counter-drone systems. The defense-AI company is simultaneously raising $2.5bn at a $28.8bn valuation.",
+      "why_it_matters": "The deal and raise underline how fast private capital is flowing into defense-AI platforms, with Shield AI using its own soaring valuation as acquisition currency to build out a vertically integrated counter-drone stack. Doing the acquisition and the raise together also means dilution and integration risk land on investors at the same moment the company is trying to prove the combined platform works.",
+      "summary_ja": "防衛AI企業シールドAIは、レーダー企業エコダイン(Echodyne)を53億ドルで買収することに合意し、ミッションシステム事業をレーダー・対ドローン分野へ拡大する。同社はこれと同時に評価額288億ドルで25億ドルの資金調達も進めている。",
+      "why_it_matters_ja": "買収と調達を同時に進める動きは防衛AI分野への民間資金の流入の速さを示しており、シールドAIは急騰した自社評価額を買収の原資として使い、対ドローン事業を垂直統合で築こうとしている。買収と資金調達を同時に行うことで、統合プラットフォームの実力を証明する前から、出資者は希薄化と統合リスクを同時に負うことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "shield-echodyne-acquisition",
+      "ids": [
+        "8b64ed22fa0df8"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/shield-to-acquire-echodyne-in-a-transaction-valued-at-5-3-billion-and-raise-2-5-billion-at-a-28-8-billion-valuation-302930012.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Dropbox to buy Tigris Data for ¥53bn in its largest-ever acquisition, targeting AI-agent storage",
+      "summary": "Dropbox agreed to acquire Tigris Data for about ¥53bn, the largest acquisition in the file-sharing company's history, aimed at building data-storage infrastructure for AI agents.",
+      "why_it_matters": "Dropbox is using its biggest-ever deal to reposition from consumer file storage toward the data layer that AI agents need, a bet that its legacy business alone cannot fund the pivot. Spending that much signals management sees agent-era data infrastructure as existential, not incremental, for a company whose core product has been maturing for years.",
+      "summary_ja": "ドロップボックスは、約530億円でティグリス・データ(Tigris Data)を買収することに合意した。ファイル共有大手としては過去最大の買収で、AIエージェント向けのデータ保管基盤の構築を狙う。",
+      "why_it_matters_ja": "過去最大の買収に踏み切ったことは、ドロップボックスが個人向けファイル保管から、AIエージェントが必要とするデータ基盤へと軸足を移そうとしていることを示し、既存事業だけでは転換資金を確保できないという賭けでもある。これだけの金額を投じることは、成熟期に入った既存事業にとって、エージェント時代のデータ基盤が付加的な取り組みではなく、存続を左右する課題だと経営陣が見ている証でもある。",
+      "status": "new",
+      "prev": null,
+      "key": "dropbox-tigris-data-acquisition",
+      "ids": [
+        "467b29989ac8c9",
+        "acbced10e52fae"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PSlU4aFRhdzNoa25kSnZ4Y2ZWXzJ6bWY4cXdMWUZyRjhsOUVVc2dWRUxDMlk5VW40VGVlcUtjNFVEeFJndkxaR1c5N2k4R2pLeG5r?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTTXdtUDhRRnNOTFd5ZWZxTjdLTWtqOGM0OFZxbGZ1aWZOWFlzZ3dOZXk0TlE2Y3VPRl9GVy00UF82MDhlRDBhMmxFUDVLRmlaMTZEa1NCNjdxRXREN0JjVnpBZTFpWmkxR2VLWEZ4VmpjMXBr?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Silver Lake, PIF held talks to buy Unity Software, Reuters reports; shares jump on report and earnings",
+      "summary": "Silver Lake and Saudi Arabia's Public Investment Fund have held recent talks to buy gaming-software provider Unity, Reuters reported, citing sources. Unity shares jumped in after-hours trading on the buyout report combined with better-than-expected quarterly earnings.",
+      "why_it_matters": "A PIF-backed take-private of Unity would be one of the largest sponsor buyouts of a public gaming-software company this year, and the earnings beat gives a buyer less room to argue for a depressed price. Talks surfacing right alongside stronger results also hands Unity's board leverage: it can now negotiate from a position where staying independent looks more credible.",
+      "summary_ja": "ロイター通信は複数の関係者の話として、シルバーレイクとサウジアラビア政府系ファンドPIFが、ゲーム向けソフトウェア大手ユニティ(Unity)の買収について最近協議していたと報じた。買収報道と四半期決算が市場予想を上回ったことが重なり、ユニティ株は時間外取引で急騰した。",
+      "why_it_matters_ja": "PIFが絡むユニティの非公開化が実現すれば、今年最大級の上場ゲームソフト企業のスポンサー・バイアウトとなり、好決算により買い手側が低い価格を主張しにくくなる。好決算と買収報道が同時に表面化したことで、ユニティ取締役会は独立路線を選ぶ選択肢の説得力も増し、交渉で有利な立場に立てる。",
+      "status": "new",
+      "prev": null,
+      "key": "unity-silverlake-pif-buyout-talks",
+      "ids": [
+        "599b8736c79657",
+        "c59474f0e21fb3"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/exclusive-silver-lake-pif-have-held-recent-talks-buy-gaming-software-provider-unity-sources-say-6529221"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QdXhZMEd4SjRGMTRlQ21tRFlHMzR3aFpOSC10YWQxNG9KYVBENFhOUU9pYmtZeTQ3cFU4c0puWGR4WmE4NEp0d1IzNm04TTJMSWhvZ2dMYnRZWjJvUm5JY2VvTE1ldTlRVy1hcFVRT1RvYmxkTjl3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "TPG moves to buy out all remaining shares of Lotte Rental, pushing toward a delisting",
+      "summary": "Private equity firm TPG is moving to acquire all outstanding shares of Lotte Rental, pushing the company toward a delisting.",
+      "why_it_matters": "A full buyout rather than a partial stake would give TPG unchecked control to restructure Lotte Rental away from public-market scrutiny. Pushing all the way to a delisting, rather than stopping at a controlling stake, suggests TPG wants to run the turnaround without quarterly market pressure.",
+      "summary_ja": "プライベートエクイティのTPGは、ロッテレンタルの全株式取得に向けて動いており、同社の上場廃止につながる可能性がある。",
+      "why_it_matters_ja": "一部出資ではなく全株取得となれば、TPGは株式市場の監視を離れた形でロッテレンタルの事業再編を自由に進められる支配力を得ることになる。支配株取得で止めず上場廃止まで進める構えは、TPGが四半期ごとの市場の目を気にせず経営改善を進めたい狙いを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "tpg-lotte-rental-takeprivate",
+      "ids": [
+        "b84f57301be969"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNS3BWd0RjOG8taGR3VW9YdGJiQUpKb0VTV1VKeVdhUkVzRVFET2pyakVCekZKNzA0QlZjZWkwR2tPa0lDeGJKZGw3YkpHRmVaWXlaUzNpN1NYTjhsWlJpNE41X1pnXzFTaHMtS2d4VkNkbGxuX2ZDa1FUSnJ5bzB4STB30gGWAUFVX3lxTE8tUVRxbU5KRGFZVnJJZk9qZjhEUEQ4TFhFRlZEVV9iZ1pieE5yM3pSTG54cUxHYXNtRTh0Mm5HalZZLVIzYW9RTUlLSlZPcHBnSXVTOGRqdXFfNGRDUUtpWEJ3RXY0TGxfNW9TMUE5VG05SmJsZzQ0QmhRS3pJSDY1T2d4MU1paU9PLXlvZzFFd3VEM2Q2QQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Fujikura, Mitsui Kinzoku sell power-cable maker Nishinihon Densen to PE firm Aspalant Group",
+      "summary": "Fujikura and Mitsui Kinzoku are selling their stakes in power-cable manufacturer and distributor Nishinihon Densen to private equity firm Aspalant Group.",
+      "why_it_matters": "The sale lets Fujikura shed a non-core cable business as it focuses capital elsewhere, while Aspalant adds an established Japanese industrial manufacturer to its portfolio. Two strategic sellers exiting together also makes clear this was a carve-out both parent companies wanted, not a contested or opportunistic sale.",
+      "summary_ja": "フジクラと三井金属は、電力用ケーブルの製造・販売を手がける西日本電線の株式を、プライベートエクイティのアスパラントグループに譲渡する。",
+      "why_it_matters_ja": "フジクラにとっては非中核のケーブル事業を切り出し他分野に資本を振り向ける動きであり、アスパラント側は実績のある国内製造業をポートフォリオに加えることになる。2社の出資企業がそろって手放す形であることは、対立的・機会的な売却ではなく、両社が望んだ切り出しであることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "fujikura-aspalant-nishinihon-densen",
+      "ids": [
+        "c04bef64d7305d",
+        "e70b312505c0ba"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xbTA0MUU0bVpRNW9rUUpFRzJRS2FfTDZVajNwRjlWbXcyN2pSYlBzOWMxZHotUkk4MmNlRkhtckszOGh0azNqQ21md29zMEMtN0VHckZ0WE1uN1lkck1HU3RXMWRGT0hiWXNHUg?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa0lPQ0FrVGNKLVJnVVpZRHliOWdTWUN3Unc1ZElIMmJXQ2cwSS1LNTJ3YWtnWjBDOFhoV3c1RnZpLTdwWlBwYnA0T1I3R2hCeFdkR2ZTb25LbU1scjZNWi1pbVdlZnM4cTJ6LVBjNVdRT3FvUDBoWXBMa3lBOG1lYmo5ZGx4RGhjZHk4aTd2LUduYmJv0gGHAUFVX3lxTE94aktEQ3Vta211dnVoNGp3cHNXb1lIMFR3U1hsTGFSTEEtQnMxU2dEdXI0Q1JFV2RTRUJvUDI1QWFBb3RvbDdqc19VbzN4bnNtV0tSekZKZEtIMElCOEhrMlNZdmpWYWdxSVRSQlZDQmZyOWxpeXJKVnZiMURIYWN5amhibmpNQQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other",
+        "Energy",
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "PPIH (Don Quijote) acquires Toys\"R\"Us Japan, targeting 30m potential toy customers",
+      "summary": "Don Quijote operator PPIH has acquired Toys\"R\"Us Japan, with the deal raising questions over whether the Toys\"R\"Us name will remain in the country. PPIH is targeting a potential customer base of 30 million for toys.",
+      "why_it_matters": "Folding a well-known specialty toy chain into Don Quijote's discount format gives PPIH a direct push into a category it can cross-sell alongside its existing variety-store traffic. Whether the Toys\"R\"Us brand survives the integration will say a lot about how much PPIH values the name itself versus the stores and customer base behind it.",
+      "summary_ja": "ドン・キホーテを運営するPPIHは、トイザらス・ジャパンを買収した。買収後も「トイザらス」の名称が日本に残るかが注目されており、PPIHはおもちゃ市場で3000万人規模の潜在顧客を見込んでいる。",
+      "why_it_matters_ja": "知名度の高い玩具専門店をドン・キホーテの業態に取り込むことで、PPIHは既存の来店客数を活かしながら玩具分野への直接進出を図ることができる。「トイザらス」の名称が統合後も残るかどうかは、PPIHが店舗網や顧客基盤に加え、ブランド名そのものにどれだけ価値を置いているかを測る材料になる。",
+      "status": "new",
+      "prev": null,
+      "key": "ppih-toys-r-us-japan-acquisition",
+      "ids": [
+        "474d1a9cd3fd16"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaU1QzdkZkdGVjRG1kbEtGak5EZjFaQXB0anl4SFJiNTltaXQ1RDRCVXRqSjhWVEU4QzZHMEVGM3ZfVEs2Qy1LMkZlbGJ4RFBfclZ1bVhpQ3FnN1hRS3pPN1RqbEQ3RlFHaDVidTJLOFpJZXpmR2I3dVFNVVY2QQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "LINE Yahoo raises Kakaku.com buyout price to ¥730bn, citing synergies",
+      "summary": "LINE Yahoo has raised the total price of its planned acquisition of price-comparison site operator Kakaku.com to ¥730bn, citing synergies between the businesses.",
+      "why_it_matters": "Paying up for Kakaku.com shows LINE Yahoo is prioritizing control of Japan's leading price-comparison and reviews platform over near-term deal economics. Framing the increase around synergies rather than a competing bidder also suggests the higher price was LINE Yahoo's own choice to secure the deal, not a response to being outbid.",
+      "summary_ja": "LINEヤフーは、価格比較サイトを運営するカカクコムの買収総額を7300億円に上方修正した。両社間のシナジーを理由としている。",
+      "why_it_matters_ja": "買収額を上乗せしてでも進める姿勢は、LINEヤフーが目先の取得コストよりも、日本最大級の価格比較・口コミサイトの支配権確保を優先していることを示す。対抗する買い手ではなくシナジーを理由に挙げていることから、今回の上乗せは競り負けへの対応ではなく、LINEヤフー自身が買収を確実にするために選んだ判断とみられる。",
+      "status": "new",
+      "prev": null,
+      "key": "line-yahoo-kakaku-com-price-increase",
+      "ids": [
+        "7696d2629cae4f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HaWV2MkVNLUhmLXRjaHZEME42emdFdTlyVTRodTg1S0k4YTIyOWRjUkJRVXhXdGQxQmpHNnpKMm5fWG8weUtEMVdkQ25ZQTFUOHpROXpmYlJycEpZQ0F1Y1AyaVJtcTRzeFUySQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Ascendas Firstspace, CapitaLand-Firstspace Realty JV, weighs $500m India IPO",
+      "summary": "Ascendas Firstspace, a joint venture between CapitaLand's Ascendas unit and Firstspace Realty, is considering a roughly $500m IPO in India and has held preliminary talks with investment banks. The JV is also consolidating its corporate structure ahead of a potential share sale.",
+      "why_it_matters": "A $500m India listing would let CapitaLand crystallise value from its industrial and logistics JV while tapping India's deep appetite for real-asset IPOs. The corporate restructuring ahead of any bank mandate shows the JV is still at an early, preparatory stage rather than close to launching a deal.",
+      "summary_ja": "キャピタランドのアセンダス事業とファーストスペース・リアルティの合弁会社アセンダス・ファーストスペースは、インドでの約5億ドル規模のIPOを検討しており、投資銀行との初期協議も行っている。株式売却をにらみ、会社組織の統合も進めている。",
+      "why_it_matters_ja": "5億ドル規模のインド上場が実現すれば、キャピタランドは物流・産業用不動産の合弁事業から価値を実現でき、実物資産IPOへの需要が強いインド市場を活用する機会となる。投資銀行への正式な起用に先立って組織統合を進めている段階であることは、上場計画がまだ準備段階にあり、実行間近ではないことを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "ascendas-firstspace-india-ipo",
+      "ids": [
+        "720723cf1c47b9",
+        "0d773043bc1479"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/ascendas-firstspace-said-consider-us500-million-india-ipo"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/ascendas-firstspace-considering-us500-million-india-ipo-sources"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Palo Alto Networks in talks to buy AI-identity startup Clutch Security for $500m",
+      "summary": "Palo Alto Networks is in talks to acquire Clutch Security, a startup that secures credentials for AI agents and other non-human identities, in a deal valued at about $500m.",
+      "why_it_matters": "The move would let Palo Alto fold machine-identity security, a fast-growing gap as enterprises deploy more AI agents, directly into its platform rather than ceding the category to a standalone startup. It also shows large cybersecurity vendors racing to consolidate AI-agent security before the market fragments further.",
+      "summary_ja": "パロアルト・ネットワークスは、AIエージェントなど非人間のID認証情報を保護するスタートアップ、Clutch Securityの買収を検討しており、買収額は約5億ドルとされる。",
+      "why_it_matters_ja": "実現すれば、企業がAIエージェントの導入を進める中で急速に重要性が高まる機械ID認証の分野を、独立系スタートアップに委ねず自社プラットフォームに取り込むことになる。大手サイバーセキュリティ企業がAIエージェント向けセキュリティ市場の分散が進む前に統合を急いでいる動きとも言える。",
+      "status": "new",
+      "prev": null,
+      "key": "paloalto-clutch-security-acquisition",
+      "ids": [
+        "bd32fad7d6aaec"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vZlJqbmw2SThDQlhfbTc2amV5UndFNXRhSzdjSUlNanVMWjJZRTBHUTU2RVI2LXc3YVFfRWJITUtNeTFvNWg3VlVyLXlwZHlqLUx6Q2FqTVVySnRMak9WRnoyUVJTeXBBbDNEMHRwV3U4enBM?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    }
+  ]
+}

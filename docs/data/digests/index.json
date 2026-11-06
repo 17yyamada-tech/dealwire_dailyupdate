@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-06-0830",
+      "label": "6 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-06T00:36:00Z",
+      "items": 10,
+      "headlines": [
+        "Wendy's board rejects Trian's $1.4bn, $7.35-a-share buyout bid, adopts poison pill",
+        "Shield AI to buy radar maker Echodyne for $5.3bn, raises $2.5bn at $28.8bn valuation",
+        "Dropbox to buy Tigris Data for ¥53bn in its largest-ever acquisition, targeting AI-agent storage"
+      ]
+    },
+    {
       "id": "2026-11-05-1530",
       "label": "5 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-05T07:36:00Z",
