@@ -23,6 +23,8 @@ jobs:
     timeout-minutes: 25   # every new 5% report is opened once (about 200 a business day)
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -39,5 +41,15 @@ jobs:
           git add docs/data/edinet.json docs/data/edinet_seen.json fetcher/edinet_codes.json
           git diff --cached --quiet && exit 0
           git commit -m "edinet: $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase --autostash
-          git push
+          # Other workflows push to main every few minutes; a push that lands between our pull and
+          # push is rejected. Only this workflow writes these files, so pulling again and retrying is enough.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash && git push; then
+              exit 0
+            fi
+            echo "push/rebase failed (attempt $attempt)"
+            git rebase --abort || true
+            sleep $((attempt * 10))
+          done
+          echo "giving up after 3 attempts"
+          exit 1
