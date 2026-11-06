@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-06-1230",
+      "label": "6 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-06T04:35:43Z",
+      "items": 10,
+      "headlines": [
+        "Adani buys Dutch liquid-storage major for ¥210bn (~$1.4bn), pushing further into Europe",
+        "Oasis raises Nidec stake to 9%, pushes scandal-hit motor maker to weigh going private",
+        "China formally notifies SoftBank of prohibition on $5.4bn ABB robotics deal"
+      ]
+    },
+    {
       "id": "2026-11-06-0830",
       "label": "6 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-06T00:36:00Z",

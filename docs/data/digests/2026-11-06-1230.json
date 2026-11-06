@@ -1,0 +1,290 @@
+{
+  "edition": "2026-11-06-1230",
+  "edition_label": "6 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T04:35:43Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Adani buys Dutch liquid-storage major for ¥210bn (~$1.4bn), pushing further into Europe",
+      "summary": "Adani Group has agreed to acquire a major Dutch liquid-storage company for about ¥210bn, marking a full-scale push into Europe, according to Japan M&A reporting. The target's name and the deal structure were not disclosed in the available reporting.",
+      "why_it_matters": "The deal extends Adani's reach beyond South Asian infrastructure into European energy-logistics assets, giving the group a storage foothold it can use to compete for European terminal and bunkering business. It also fits Adani's broader pattern of diversifying outside India into developed-market infrastructure and logistics.",
+      "summary_ja": "アダニ・グループは、オランダの大手液体貯蔵会社を約2100億円で買収することで合意し、欧州市場への本格進出を図ると日本のM&A報道が伝えた。対象企業名や買収の取引構造については、現時点の報道では明らかになっていない。",
+      "why_it_matters_ja": "この買収により、アダニは南アジア中心のインフラ事業から欧州のエネルギー物流資産へ展開範囲を広げ、欧州のターミナルやバンカリング事業で競争力を持つ足場を得る。インドにとどまらず先進国のインフラ・物流分野へ多角化を進める同社の一貫した方針にも合致する。",
+      "status": "new",
+      "prev": null,
+      "key": "adani-dutch-liquid-storage-acquisition",
+      "ids": [
+        "1031a86668e9b9"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vbGl4czR4bjZrdE9uSjVFZHJHS3RBZ1FxV283LWY3MTFGYzhmUHRVQzVFQUktMkRJZXlyM2xpOEVyREpUcWIwUmNTc3ZoQ1ByMXMwN3pQd013UXZQajVRUnZlVlkwd1pSdnQ0SA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Oasis raises Nidec stake to 9%, pushes scandal-hit motor maker to weigh going private",
+      "summary": "Activist investor Oasis Management has raised its stake in Nidec, the Japanese motor maker embroiled in an accounting scandal, to 9% and is demanding the company consider going private, according to an October 2026 large shareholding report cited by Japan PE & activists reporting.",
+      "why_it_matters": "A 9% stake from an activist known for pushing governance change raises the odds of a formal go-private review at Nidec, adding pressure on a board already under scrutiny over its accounting issues.",
+      "summary_ja": "アクティビスト投資家オアシス・マネジメントは、会計不正問題を抱える日本のモーター大手ニデックへの保有比率を9%に引き上げ、非公開化の検討を求めていることが、2026年10月の大量保有報告書を引用した日本のPE・アクティビスト関連報道で明らかになった。",
+      "why_it_matters_ja": "企業統治改革を迫ることで知られるアクティビストが保有比率を9%まで高めたことで、ニデックが非公開化の正式な検討に動く可能性が高まり、会計問題で既に注目を集めている取締役会への圧力が一段と強まる。",
+      "status": "new",
+      "prev": null,
+      "key": "nidec-oasis-stake-going-private",
+      "ids": [
+        "2280dc0be3007d"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ROEtsenYySWhCdXBKWGNwNWtNMXkycVc3cjBEcThIaHBpclFPRWRsSjVsTXN2Z01tQVZZeTVpU3RLaC1EQWRhcXFKM1NDUm16aVkteVpkRzFOeEMtY1laa2hmY19tQjhLUnctU1N3?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "China formally notifies SoftBank of prohibition on $5.4bn ABB robotics deal",
+      "summary": "China's authorities have formally notified SoftBank Group of a prohibition on its roughly $5.4bn acquisition of ABB's robotics division, which SoftBank has confirmed, according to Japan M&A reporting. The notification follows the Financial Times report earlier this week that China had not approved the deal.",
+      "why_it_matters": "The formal block converts what had been press-reported uncertainty into a confirmed regulatory rejection, closing off SoftBank's robotics ambitions via ABB and underscoring how exposed cross-border industrial deals involving China remain to geopolitical review. SoftBank now has to decide whether to appeal, restructure the deal, or walk away entirely.",
+      "summary_ja": "中国当局がソフトバンクグループに対し、ABBのロボット事業の買収(約54億ドル)を禁止する旨を正式に通知し、ソフトバンク側もこれを確認したと日本のM&A報道が伝えた。今週報じられた、中国がこの買収を承認していないとするフィナンシャル・タイムズの報道に続く動きとなる。",
+      "why_it_matters_ja": "正式な禁止通知により、これまで報道段階だった不確実性が確定的な規制上の拒否に変わり、ソフトバンクのABB経由でのロボット事業拡大構想は閉ざされた。中国が絡む国境を越えた産業買収が、地政学的審査にいかに左右されやすいかを改めて示す。ソフトバンクは今後、異議申し立て、取引の再構築、あるいは撤退のいずれかを選ばざるを得ない。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-05-1230",
+        "index": 0
+      },
+      "key": "softbank-abb-robotics-china-block",
+      "ids": [
+        "e1f0c9dd1a900e",
+        "86bd00716b1a81"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSURQTWR6T1ozS3NEMXNWelozZVNRWVNmcEdUSGYwVnRGYVhPYnFfVVpvbXVaVUpiYjNSeGM1MW5aSEpfV1BCTWh3SGNKMmZreldpZGZpblBjaGJuQkZSZy0wbUJOTEh1blNGTWhFVDlmcV9xZGI4VGZHazZteXhjNnNYUVdjcWJpR3FndlZ2dEw0d0RyRG1pTU5rTDZ1ZHBvaURmbmlSUUMzcWJDWWlmeVN3?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZEc1dEZwLWNET0ZzRE1GSGY2dDJmUVNyb3kyUVVFdzdCejdQbzZwSVpxVHA4QWl2dWdkOE1XLXZ6MnJleldtMWNWUkVUcVlBQ2pfcU16RENzSF9rbFZfR3huM0tRWG1fMVpCOGpUZGo5Zm5JSjFEdlNRbV9JdUF6ZnRxMjFrbnc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Unity buyout talks valued at about $25bn, report says, as Saudi PIF-backed funds circle",
+      "summary": "Talks for a buyout of Unity Software by Saudi-backed funds are being discussed at a valuation of roughly ¥3.8tn (about $25bn), according to Japan M&A reporting, which also noted PIF-linked investors bought Electronic Arts for more than ¥8tn in August 2026. The report follows earlier Reuters coverage of Silver Lake and PIF holding buyout talks with Unity.",
+      "why_it_matters": "A $25bn price tag would make this one of the largest sponsor-led take-privates of the year and shows PIF-backed capital continuing to concentrate in gaming and interactive software after the EA deal, rather than pausing after that transaction.",
+      "summary_ja": "ユニティ・ソフトウェアの買収交渉は、サウジ系ファンドの支援を受けた投資家グループとの間で、評価額およそ3.8兆円(約250億ドル)で進められていると日本のM&A報道が伝えた。同報道は、PIF系の投資家が2026年8月にエレクトロニック・アーツを8兆円超で買収したことにも言及している。これは、シルバーレイクとPIFがユニティの買収について協議していたとするロイターの報道に続くもの。",
+      "why_it_matters_ja": "250億ドルという価格は今年最大級のスポンサー主導の非公開化取引になり得る規模であり、PIF系資金がEA買収後も一服せず、ゲーム・インタラクティブソフト分野への投資を続けていることを示す。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-06-0830",
+        "index": 3
+      },
+      "key": "unity-silverlake-pif-buyout-talks",
+      "ids": [
+        "ea9018faab9263"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Public / Macro"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aUlhOWTRrSEZxLWJmNVYzVHJzVFY1MzczZjBiby13SzA1YjRIczZEMkxuOC1scVpKaVlXMlYxNXhiN2VFZnQzenotbzBLU3VJVWVGZDQ4WnF4ZDNham5ETGtXekNJdw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "PAI Partners buys L'Occitane's British skincare unit Elemis",
+      "summary": "Private equity firm PAI Partners has acquired Elemis, the British skincare brand owned by L'Occitane, according to Japan M&A reporting citing FASHIONSNAP. Financial terms were not disclosed in the available reporting.",
+      "why_it_matters": "The sale lets L'Occitane shed a non-core beauty asset and hands PAI another premium skincare name for its consumer portfolio, at a time when strategics are pruning smaller brands to focus capital on their core lines.",
+      "summary_ja": "プライベートエクイティ(PE)のPAIパートナーズが、ロクシタン傘下の英スキンケアブランド「エレミス」を買収したと、FASHIONSNAPを引用した日本のM&A報道が伝えた。買収金額など取引条件は、現時点の報道では明らかになっていない。",
+      "why_it_matters_ja": "この売却により、ロクシタンは中核事業ではない美容資産を整理でき、PAIは高級スキンケアブランドをポートフォリオに加える。事業会社が中核ブランドへの資本集中を進める中、小規模ブランドを切り出す動きの一例といえる。",
+      "status": "new",
+      "prev": null,
+      "key": "pai-partners-elemis-acquisition",
+      "ids": [
+        "bbbc7f407bea29"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZUHFGQklHMi1oM00tNWI3S05WMU5TOVBTM3ZOZ3lrRXZ0UVR4enZoWXBuN3VhNmZvT19xU3NCbHk3eVl1TEE2VVY1Vmd5LWxhLWlpcmMycEE2X3huWGptTmt1UGY4NlNSRU4za2pJdU9nTE5MRWdhaFZfV0dxR00?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Toyota to buy back policy shares directly, widening use of treasury-stock tender offers",
+      "summary": "Toyota Motor plans to buy back cross-held 'policy' shares directly as it expands its use of tender-offer-based treasury-stock purchases, with the structuring aimed at being mindful of its share price, according to Japan M&A reporting. This follows Toyota's move to raise its buyback ceiling to ¥1.3tn and launch a ¥300bn tender-offer buyback.",
+      "why_it_matters": "Buying policy shares directly via tender offer gives Toyota a price-sensitive way to unwind cross-shareholdings without flooding the open market, adding detail to how it plans to execute the ¥1.3tn buyback it announced only a day earlier.",
+      "summary_ja": "トヨタ自動車は、自己株式のTOB(公開買付け)活用を広げる中で、政策保有株(持ち合い株)を直接買い取る方針だと日本のM&A報道が伝えた。株価への配慮もその構造の狙いとされる。これは、トヨタが買収枠を1.3兆円に拡大し、3000億円規模のTOBによる自己株買いを発表した動きに続くものである。",
+      "why_it_matters_ja": "政策保有株をTOBで直接買い取る手法は、市場で一気に売却して株価に影響を与えずに持ち合い株を解消できる、価格に配慮した手段となる。わずか1日前に発表した1.3兆円規模の買収枠をどのように実行するのか、その詳細を補うものだ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-05-1530",
+        "index": 0
+      },
+      "key": "toyota-buyback-tender-offer-expansion",
+      "ids": [
+        "cb236d2cd8963a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM0dLc2U3WGtta2gzZll0UGJmWHJneFBBYmZIZWJTaFcxNk8tN3h1TThJaW5Db0xfa1VPNUNnNi1sUVRXMGhxSGhyY1pWakt5WUktcXctUXN3SUFwNzZaVHZrUnloRXpraWJNN0pjekNPUHlVYVhLc1RCY1VGbEROOHRtZEh6Y2dKNU0xT19n?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rival PE funds wage 'unusual' bidding war for sesame-oil maker Kadoya Seiyu",
+      "summary": "Private equity funds are competing in what is described as an unusual tender-offer bidding war for Kadoya Seiyu, the sesame-oil maker, driven by its perceived growth potential and the intentions of its largest shareholder, according to Japan M&A reporting. Bidders, prices and terms were not disclosed in the available reporting.",
+      "why_it_matters": "A multi-bidder fight over a niche, family-linked Japanese consumer-goods maker signals how much competitive tension sponsors are now willing to accept for smaller take-private targets, likely pushing the eventual price well above an initial offer.",
+      "summary_ja": "日本のM&A報道によると、複数のプライベートエクイティ(PE)ファンドが、ゴマ油メーカーのかどや製油をめぐり、「異例」とされるTOB(公開買付け)の争奪戦を繰り広げている。背景には同社の成長余地への評価と大株主の意向があるとされる。買い手や提示価格などの詳細は、現時点の報道では明らかになっていない。",
+      "why_it_matters_ja": "同族色の強いニッチな日本の消費財メーカーを複数のファンドが争う構図は、PEファンドが小規模な非公開化案件でもどれほど競争を厭わなくなっているかを示しており、最終的な買収価格は当初提示額を大きく上回る可能性が高い。",
+      "status": "new",
+      "prev": null,
+      "key": "kadoya-seiyu-tob-bidding-war",
+      "ids": [
+        "6439784b56fe2e"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hb2o0MVNGc05CaDZtdVBuZG96R0hBRUE0T20wQWhwU0lRR0RMZjJyeGhjNnVSNVEyb0xyQmxFREZaRGNDNzU1ZHl6MkEwaDJoN1k4emlJYXhRNWpySHRn?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "SingPost's H1 net profit jumps 183.7% to S$55.9m on HDB shophouse sale-and-leaseback",
+      "summary": "SingPost's first-half net profit rose 183.7% to S$55.9m, boosted by a sale-and-leaseback of an HDB shophouse, according to CNA Business. Excluding one-off gains, underlying net profit more than doubled to S$11.5m even as revenue declined.",
+      "why_it_matters": "The jump is driven by a one-off property transaction rather than core operations, where revenue is falling, a reminder for credit and equity investors to look past the headline profit growth at SingPost's underlying logistics performance.",
+      "summary_ja": "CNAビジネスによると、シンガポールポスト(SingPost)の上半期純利益は183.7%増の5590万シンガポールドルとなり、HDB(住宅開発庁)所有のショップハウスのセール・アンド・リースバックが押し上げ要因となった。一時的な利得を除くと、実質純利益は1150万シンガポールドルと2倍以上に増えたが、売上高は減少した。",
+      "why_it_matters_ja": "増益は本業ではなく一時的な不動産取引によるものであり、本業の売上高は減少している。クレジットや株式投資家にとっては、見出しの増益率だけでなく、シンガポールポストの物流事業の実質的な業績を見極める必要があることを示す材料だ。",
+      "status": "new",
+      "prev": null,
+      "key": "singpost-hdb-shophouse-sale-leaseback",
+      "ids": [
+        "c82141b930e82e"
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/singapore/singpost-results-net-profit-h1-fy2026-2027-6529541"
+        }
+      ]
+    },
+    {
+      "headline": "ALTA Performance Materials signs agreement to acquire BASF's Palatal resins business",
+      "summary": "ALTA Performance Materials has signed an agreement to acquire BASF's Palatal resins business, according to Japan M&A reporting. Financial terms and the scope of the business were not disclosed in the available reporting.",
+      "why_it_matters": "The deal gives ALTA an established, branded specialty-resins line while letting BASF narrow its focus to higher-priority chemical businesses, a trade now common among European chemicals majors shedding smaller units.",
+      "summary_ja": "ALTAパフォーマンス・マテリアルズは、BASFのパラタル樹脂事業を買収する契約を締結したと日本のM&A報道が伝えた。買収金額や事業の詳細については、現時点の報道では明らかになっていない。",
+      "why_it_matters_ja": "この買収により、ALTAは確立されたブランド力を持つ特殊樹脂事業を獲得する一方、BASFはより優先度の高い化学事業へ経営資源を集中できる。欧州の大手化学メーカーが小規模事業を売却する動きの一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "alta-basf-palatal-resins-acquisition",
+      "ids": [
+        "2c38580c942184"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DbmJ6Q2hyRnlQU2pPNUt3aXlWY3ZkMy1GTlRTYnh4eWlnNUVkVExqeUp5YUd0TmZhMzNCM1JLOW01VFFtZjhJZF9MbWVNckxXUG5iS00zZF80VjQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Mitsubishi Corp unveils up to ¥1tn buyback on record-profit forecast",
+      "summary": "Mitsubishi Corp has announced a share buyback of up to ¥1tn, citing a forecast for record-high annual profit, according to Japan disclosures reporting. The market responded positively to the announcement.",
+      "why_it_matters": "A ¥1tn buyback is among the largest capital-return programmes announced by a Japanese trading house this year, signalling confidence in earnings durability and adding to the wave of large-scale buybacks already under way at peers such as Toyota.",
+      "summary_ja": "三菱商事は、過去最高益を見込む業績予想を背景に、上限1兆円の自己株式買いを発表したと日本の開示情報報道が伝えた。市場はこの発表を好感した。",
+      "why_it_matters_ja": "1兆円規模の自己株買いは、今年の日本の総合商社による資本還元策としては最大級であり、収益の持続性への自信を示すとともに、トヨタなど同業他社で既に進む大型自己株買いの流れに加わるものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "mitsubishi-corp-buyback-record-profit",
+      "ids": [
+        "0d1d99d7e0fbb7"
+      ],
+      "categories": [],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzYndMTHgzM0dmQTVUM2Roa1k4SlFHaEVHVnZPc2xwSTNIQ0xrMGN4TVVTeE9GRUNYbF9pXy00N08ya3UxU1I3eXJDa2JvYWl4SWI0?oc=5"
+        }
+      ]
+    }
+  ]
+}
