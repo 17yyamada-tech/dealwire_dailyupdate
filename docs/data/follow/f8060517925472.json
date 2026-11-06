@@ -4,19 +4,19 @@
   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Z0l0NUVOS3EwenkxTGhOUVhDeEFCMlVoME5Vem9iNVdTOXVLdGd4UnNiOXBVNXU3NjhDMktRTU1DSmNzbkFnUUkwa3BxREFob1d5OVBXY1BhT1NrSmptZmhiRdIBaEFVX3lxTE1NVjBaT3NpTEhuR3VLa1lsT1N4SjFYbWpxNnh2ODRWQ0FadXlVRDJxN2xneS1pYlV5Vnd1MTlzOTR5SWFubHl6NGRpcEtOeVYySlhZVDhuM1ktVk8yZng5aDAxOHhSX0Vt?oc=5",
   "source": "Japan M&A",
   "published": "2026-11-03T01:15:28Z",
-  "checked_at": "2026-11-05T07:52:00Z",
+  "checked_at": "2026-11-06T00:49:46Z",
   "status": {
-    "as_of": "2026-11-04",
-    "text": "Marvell and Lumentum signed a definitive all-stock merger valuing Lumentum at about $115 billion on 2 Nov 2026; the deal is expected to close in the first half of 2028, pending shareholder and regulatory approval.",
-    "text_ja": "マーベルとルメンタムは11月2日、企業価値約1150億ドルの全株式買収契約を締結した。買収完了は2028年前半を見込み、株主総会と規制当局の承認が前提となる。",
+    "as_of": "2026-11-06",
+    "text": "Marvell's $115bn all-stock deal for Lumentum awaits shareholder and regulatory approval, targeted to close in H1 2028. Lumentum's Nov 5 Q1 FY2027 results showed revenue more than doubled to $1.26bn, reinforcing the AI-optics rationale.",
+    "text_ja": "マーベルのルメンタム買収(1150億ドル、全株式)は株主・規制承認待ちで28年前半完了予定。ルメンタムは11月5日、売上高が前年同期比倍増の12.6億ドルと発表。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526442714/d81187dex991.htm"
+        "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
       },
       {
         "list": "since",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526443841/d136689d425.htm"
+        "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526442714/d81187dex991.htm"
       }
     ]
   },
@@ -63,6 +63,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-05",
+      "headline": "Lumentum posts Q1 FY2027 revenue of $1.26 billion, more than double year-ago quarter, and guides Q2 above $1.57 billion",
+      "summary": "Lumentum reported fiscal first-quarter 2027 (ended 26 September 2026) net revenue of $1.26 billion versus $533.8 million a year earlier, with GAAP net income of $360.3 million ($3.54/share) and non-GAAP net income of $461.1 million ($4.57/share); it guided second-quarter revenue to $1.575-$1.625 billion and said it secured a second major optical-switch (NPO/CPO) customer backed by purchase commitments exceeding $5 billion.",
+      "summary_ja": "ルメンタムは2027会計年度第1四半期(9月26日締め)の売上高が12.6億ドルとなり、前年同期の5.338億ドルから倍増したと発表した。GAAP純利益は3.603億ドル(1株3.54ドル)、非GAAP純利益は4.611億ドル(1株4.57ドル)。第2四半期の売上高は15.75億~16.25億ドルを見込むとし、購入コミットメント50億ドル超を伴う光スイッチ(NPO/CPO)の大口顧客を新たに獲得したと説明した。",
+      "source": "Lumentum Holdings (press release)",
+      "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+    },
     {
       "date": "2026-11-02",
       "headline": "Marvell and Lumentum confirm definitive all-stock merger; implied enterprise value about $115 billion",

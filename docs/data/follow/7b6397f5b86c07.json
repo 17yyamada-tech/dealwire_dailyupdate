@@ -4,19 +4,19 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-05T07:52:00Z",
+  "checked_at": "2026-11-06T08:15:00Z",
   "status": {
-    "as_of": "2026-11-05",
-    "text": "Oil crashed 8.7% to $94.62/barrel (Brent) on Nov 4 after Democrats won Congress and VP Vance blamed the Iran war for the loss; Israel's mandate to form a government remains unassigned.",
-    "text_ja": "ブレント原油は11月4日に8.7%急落し94.62ドル。民主党が議会を制し、バンス副大統領はイラン戦争を敗因と発言。イスラエルの組閣委任者は未定のまま。",
+    "as_of": "2026-11-06",
+    "text": "Oil crashed 8.7% to $94.62/barrel (Brent) on Nov 4 on US election results; Eisenkot secured 67-of-120 MK recommendations on Nov 5, with Herzog to name Israel's mandate holder on Nov 8.",
+    "text_ja": "ブレント原油は11月4日に8.7%急落し94.62ドル(米中間選挙結果受け)。アイゼンコット氏は5日に67議席の推薦を得て優勢、ヘルツォーク大統領は8日に組閣委任者を発表予定。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/"
       },
       {
         "list": "since",
-        "url": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763"
+        "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
       }
     ]
   },
@@ -87,6 +87,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-05",
+      "headline": "Eisenkot secures 67-of-120 MK recommendations versus Netanyahu's 46; Herzog to name mandate holder Nov 8",
+      "summary": "The Times of Israel reported that President Isaac Herzog received the results of formal party consultations on November 5, 2026, with Gadi Eisenkot recommended by 67 of the Knesset's 120 members (including Yisrael Beytenu, Together, the Democrats, Ra'am and the Joint List) against 46 for Benjamin Netanyahu (Likud, Religious Zionism, Otzma Yehudit, Shas and Zehut), with United Torah Judaism abstaining; Herzog said he would announce on Sunday, November 8, who would be tasked with forming the next government, while cautioning that Eisenkot's majority of recommendations did not guarantee he could actually build a coalition given the parties' mutual refusals to cooperate.",
+      "summary_ja": "タイムズ・オブ・イスラエルによると、ヘルツォーク大統領は2026年11月5日、各党との正式協議の結果を受理した。アイゼンコット氏はイスラエル・ベイテヌ、トゥギャザー、民主党、ラアム、ジョイントリストを含む120議席中67議席の推薦を得て、ネタニヤフ氏(リクード、宗教的シオニズム、オツマ・イェフディト、シャス、ゼフート)の46議席を上回った。統一トーラー・ユダヤ主義党は推薦を見送った。ヘルツォーク大統領は11月8日(日)に組閣委任者を発表すると述べたが、アイゼンコット氏が過半数の推薦を得たことは、各党が互いに協力を拒んでいる中で実際に政権を樹立できることを保証するものではないと注意を促した。",
+      "source": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/"
+    },
     {
       "date": "2026-11-04",
       "headline": "Oil crashes 8-9% as Vance blames Iran war for midterm defeat, WTI falls to $88.12, Brent to $94.62",
