@@ -182,3 +182,4 @@ dialog::backdrop { background: rgba(0,0,0,.6); }
 
 /* page tabs in the header */
 .vtab { font: 700 12.5px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; }
+.d-share.on { color: var(--amber); opacity: 1; }

@@ -18,7 +18,7 @@
   };
   // Google Apps Script web app that stores subscribers and sends the emails (apps_script/Code.gs). Empty = feature hidden.
   const MAIL_ENDPOINT = "https://script.google.com/macros/s/AKfycbwkLZNyFOe8UkUWMeIw-8PDnhCLW9DsDW_llufj2kGfZwWMaAw7HSTsIHoSmvpjU6DqTw/exec";
-  const ASSET_V = "20261105-1500";   // same stamp as the ?v= on base.css and app.js in index.html
+  const ASSET_V = "20261106-1409";   // same stamp as the ?v= on base.css and app.js in index.html
   const SKINS = { board: "Departure board", navy: "Navy glass", "navy-classic": "Navy classic", editorial: "Editorial" };
   const SECTORS = ["AI & Semis", "TMT", "Financials", "Real Estate", "Energy", "Healthcare", "Consumer", "Industrials", "Infrastructure", "Materials", "Public / Macro"];
   const FOCUS = ["Sponsor", "Strategic"];   // who is on the deal; narrows the deal board only
@@ -263,6 +263,7 @@
     const open = () => { markRead(it); n.classList.add("read"); };
     a.addEventListener("click", open);
     a.addEventListener("auxclick", open);
+    sb.dataset.id = it.id;
     sb.addEventListener("click", () => toggleSave(it, sb));
     $(".co", n).addEventListener("click", () => openCompanyDialog(it));
     $(".hide", n).addEventListener("click", () => { hide(it); n.remove(); });
@@ -653,7 +654,7 @@
     }
   }
 
-  function digestItemNode(x, n, eid, displayNo) {
+  function digestItemNode(x, n, eid, displayNo, generatedAt) {
     const li = document.createElement("li");
     li.dataset.n = n; li.id = `d-${n}`;
     const num = document.createElement("span"); num.className = "d-num"; num.textContent = String(displayNo).padStart(2, "0");
@@ -682,6 +683,8 @@
       setTimeout(() => { share.textContent = "copy link"; }, 1500);
     });
     links.append(" · ", share);
+    const fit = followItemFor(x, generatedAt);
+    if (fit.link) links.append(" · ", followBtn(fit));
     body.append(h, p, why, links); li.append(num, body);
     return li;
   }
@@ -703,7 +706,7 @@
       rows.sort((a, b) => b.s - a.s);
       if (personal) rows = rows.filter(r => !anyFilter() || passes(r.x));
       meta.textContent = `${d.reading_minutes || 5} min read · ${fmtDate(d.generated_at)} SGT`;
-      rows.forEach((r, k) => list.append(digestItemNode(r.x, r.n, eid, k + 1)));
+      rows.forEach((r, k) => list.append(digestItemNode(r.x, r.n, eid, k + 1, d.generated_at)));
       if (!rows.length) list.append(empty("None of this edition's stories match these filters."));
       return;
     }
@@ -720,6 +723,7 @@
       h.append(a);
       const p = document.createElement("p"); p.className = "d-sum"; p.textContent = it.snippet || "";
       const l = document.createElement("p"); l.className = "d-links"; l.textContent = it.source + " · " + fmtAgo(it.published) + " ago";
+      l.append(" · ", followBtn(it));
       body.append(h, p, l); li.append(num, body); list.append(li);
     });
     if (!top.length) list.append(empty("No stories in the last 24 hours."));
@@ -806,7 +810,38 @@
     store.set("saved", s);
     acctQueue([{ k: "saved", key: it.id, t: Date.now(), v: s[it.id] || null }]);
     updateCounts(); queueSync();
+    syncSaveButtons(it.id);
     if (state.view === "follow") renderFollow();
+  }
+  // the same story can show a ☆ on the board and in the digest: keep every button for one id in step
+  function syncSaveButtons(id) {
+    const on = !!store.get("saved", {})[id];
+    document.querySelectorAll("button[data-id]").forEach(b => {
+      if (b.dataset.id !== id) return;
+      b.classList.toggle("on", on);
+      if (b.classList.contains("d-follow")) b.textContent = on ? "★ Following" : "☆ Follow";
+      else b.textContent = on ? "★" : "☆";
+    });
+  }
+  // The object a digest story is followed as: the board's own item when it is still on the board
+  // (same id as the board's ☆), otherwise built from the digest entry.
+  function followItemFor(x, generatedAt) {
+    for (const id of (x.ids || [])) { const hit = state.items.find(i => i.id === id); if (hit) return hit; }
+    const l0 = (x.links && x.links[0]) || {};
+    const id = (x.ids && x.ids[0]) || ("d_" + String(x.key || x.headline || "").replace(/[^A-Za-z0-9_-]/g, "").slice(0, 36));
+    return { id, title: x.headline, link: l0.url || "", source: l0.source || "Digest", source_id: "digest",
+      published: generatedAt || new Date().toISOString(), fetched: generatedAt || new Date().toISOString(),
+      snippet: x.summary || "", categories: x.categories || [], countries: x.countries || [], sectors: x.sectors || [],
+      is_deal: (x.categories || []).some(c => c === "M&A" || c === "PE" || c === "Deal"), has_amount: false, actor: "" };
+  }
+  function followBtn(it) {
+    const b = document.createElement("button"); b.type = "button"; b.className = "d-share d-follow"; b.dataset.id = it.id;
+    b.title = "Follow this story: it joins the Deals page and the follow-up research";
+    const on = !!store.get("saved", {})[it.id];
+    if (on) b.classList.add("on");
+    b.textContent = on ? "★ Following" : "☆ Follow";
+    b.addEventListener("click", () => toggleSave(it, b));
+    return b;
   }
   function hide(it) {
     const h = store.get("hidden", {}); h[it.id] = Date.now(); store.set("hidden", prune(h)); logEvent("hide", it);

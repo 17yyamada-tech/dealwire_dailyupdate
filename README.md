@@ -62,6 +62,7 @@ Open http://127.0.0.1:8765/
 ## Pages
 Three pages, in the header line on wide screens and in the bottom tab bar on phones.
 - **Home**: the deal board, the digest, Japan filings and the contact box. Phones show the digest with the board below it.
+  A story can be followed (☆) from the board row or from the digest ("☆ Follow" beside "copy link"); both are the same follow, and the two buttons stay in step.
 - **Deals**: every story this browser follows (☆). One row each, left to right: the story, its
   background (up to 12 months before) and what has happened since. Rows share one height and each
   column scrolls inside it. Under each story a speech bubble, "Where it stands", gives an AI-written
