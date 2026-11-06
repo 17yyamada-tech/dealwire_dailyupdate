@@ -1,0 +1,54 @@
+{
+  "edition": "2026-11-06-1530",
+  "edition_label": "6 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T07:35:39Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "PE fund formally declares intent to take Sankei Real Estate Investment Corp private",
+      "summary": "A private equity fund has formally declared its intent to take Sankei Real Estate Investment Corp private, according to Japan PE & activists reporting, following an earlier counter-proposal that raised its offer price by more than 5%. The move advances the fund's challenge to the REIT's existing go-private process.",
+      "why_it_matters": "A formal declaration of intent turns what had been a competing counter-offer into a concrete rival bid, sharpening the contest for control of a Japanese REIT and testing how sponsors compete over listed real-estate vehicles.",
+      "summary_ja": "PEファンドがサンケイリアルエステート投資法人の非公開化に関し正式に意向表明を行った。Japan PE & activistsの報道によると、同ファンドは先の対抗提案で買付価格を5%超上乗せしていた。今回の表明により、既存の非公開化プロセスに対する同ファンドの対抗姿勢がより具体的な段階に進んだ。",
+      "why_it_matters_ja": "対抗提案だったものが正式な意向表明に進んだことで、日本のREITの支配権を巡る争いが一段と鮮明になり、上場不動産ビークルを巡るスポンサー間の競争の実態を問うことになる。",
+      "status": "update",
+      "prev": {"edition": "2026-11-05-1530", "index": 1},
+      "key": "sankei-building-reit-pe-rival-bid",
+      "ids": ["cf2e45d2f4d9fe"],
+      "links": [{"source": "Japan PE & activists", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOTBsLUd0MFZVVzRoUjNLdHZJaTZ6a25kOWVscWdnZVJLYUJ4Y1U3SVBOZ1FYd2MwYTNHZTRiZUFscGZRZFVwcTBjRDBQNlR1MnI4ZThGWE5EcFg5amxoMVJIQXVjSXlWc3AtWGN1dFl4aURUQ0RUNk1tWFVmamJPQm5UQzBhMGs?oc=5"}],
+      "categories": ["M&A", "PE"],
+      "countries": ["JP"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "IFC weighs $300m debt investment in India's Hexa Climate renewable energy projects",
+      "summary": "The International Finance Corporation is weighing a $300m debt investment in renewable energy projects run by India's Hexa Climate, according to DealStreetAsia. The financing would support Hexa Climate's renewable energy project portfolio in India.",
+      "why_it_matters": "A $300m IFC debt commitment would rank among the larger renewable-energy financings in India this year, underscoring continued DFI appetite for emerging-market clean-energy credit even as broader risk sentiment sours.",
+      "summary_ja": "国際金融公社(IFC)がインドのHexa Climateが手掛ける再生可能エネルギープロジェクトに対し、3億ドルのデット投資を検討している。DealStreetAsiaの報道による。この資金はHexa Climateのインドにおける再生可能エネルギー事業の拡大を支える見込みだ。",
+      "why_it_matters_ja": "IFCによる3億ドルのデットコミットメントが実現すれば、今年インドで実行される再生可能エネルギー関連の融資としては大型の一つとなる。市場全体のリスク選好が後退する中でも、開発金融機関が新興国のクリーンエネルギー向けクレジットへの意欲を維持していることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "ifc-hexa-climate-renewable-debt",
+      "ids": ["dc5eca62789f94"],
+      "links": [{"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM3A5Z1FJdThaY1k5Y0VmRlVLMlBKVUpsVkRjZE9DQTFmcFdCWHRnYlQ2N1NZT2lNbUFxZk00d0hDQ0tRblg5czZFbFh3emtjczFGOVZJbmJPMXdZenRRNDB2a1Z2ODJoX0hNckkxZklTMWZ0Z1NyQTRSTXdnc0MtSnlxTDF2QQ?oc=5"}],
+      "categories": ["Credit", "Infra"],
+      "countries": [],
+      "sectors": ["Energy"]
+    },
+    {
+      "headline": "China Investment Corp and PGIM put 50% stake in Singapore's Nex mall up for sale at about S$1.2bn",
+      "summary": "China Investment Corp and PGIM are seeking a buyer for their 50% stake in Singapore's Nex mall, asking about S$1.2bn, according to The Business Times. Frasers Centrepoint Trust, which owns the remaining 50%, holds a right of first refusal on the stake.",
+      "why_it_matters": "Frasers Centrepoint Trust's right of first refusal makes it the natural buyer, turning the sale into a test of the REIT's capacity and appetite to fund a S$1.2bn-scale purchase of a mall it already half-owns.",
+      "summary_ja": "中国投資有限責任公司(CIC)とPGIMが、シンガポールのNexモールに保有する50%株式の買い手を探しており、売却希望価格は約12億シンガポールドルとみられる。The Business Timesの報道による。残り50%を保有するFrasers Centrepoint Trustは、この株式について優先買収権を有している。",
+      "why_it_matters_ja": "Frasers Centrepoint Trustが優先買収権を持つことで同REITが最も自然な買い手となり、すでに半分を保有するモールを12億シンガポールドル規模で買収する資金力と意欲が問われることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "cic-pgim-nex-mall-stake-sale",
+      "ids": ["08cff7198d01f3"],
+      "links": [{"source": "The Business Times", "url": "https://www.businesstimes.com.sg/property/china-investment-corp-pgims-50-stake-nex-mall-sale-asking-about-s1-2-billion"}],
+      "categories": ["M&A"],
+      "countries": ["SG", "HK/CN", "SEA"],
+      "sectors": ["Real Estate"]
+    }
+  ]
+}

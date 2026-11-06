@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-06-1530",
+      "label": "6 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-06T07:35:39Z",
+      "items": 3,
+      "headlines": [
+        "PE fund formally declares intent to take Sankei Real Estate Investment Corp private",
+        "IFC weighs $300m debt investment in India's Hexa Climate renewable energy projects",
+        "China Investment Corp and PGIM put 50% stake in Singapore's Nex mall up for sale at about S$1.2bn"
+      ]
+    },
+    {
       "id": "2026-11-06-1230",
       "label": "6 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-06T04:35:43Z",
