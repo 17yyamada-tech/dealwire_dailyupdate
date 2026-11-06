@@ -1,0 +1,55 @@
+{
+  "id": "16be785c07184c",
+  "title": "Goldman, Apollo seek buyers for $40 billion SpaceX AI chip deal, Bloomberg News reports",
+  "link": "https://www.channelnewsasia.com/business/goldman-apollo-seek-buyers-40-billion-spacex-ai-chip-deal-bloomberg-news-reports-6525526",
+  "source": "CNA Business",
+  "published": "2026-11-04T21:54:23Z",
+  "checked_at": "2026-11-06T08:00:00Z",
+  "status": {
+    "as_of": "2026-11-06",
+    "text": "Goldman and Apollo began syndicating pieces of SpaceX's ~$40bn Nvidia chip financing to investors on Nov 4; shares fell 6.8% and debt-insurance costs rose on Nov 5.",
+    "text_ja": "ゴールドマンとアポロは11月4日、スペースXの約400億ドルのAIチップ融資の売却を投資家に呼びかけ開始。5日に株価は6.8%下落し、債務保証コストも上昇した。",
+    "refs": [
+      {
+        "list": "since",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-falls-banks-test-175943061.html"
+      }
+    ]
+  },
+  "background": [
+    {
+      "date": "2026-10-26",
+      "headline": "SpaceX discloses binding ~$40bn lease commitment with Apollo-managed entity for Nvidia Vera Rubin chips",
+      "summary": "SpaceX disclosed in a regulatory filing that it had reached a binding commitment for an approximately $40 billion master finance lease with an Apollo-managed entity covering Nvidia's Vera Rubin AI chips and related equipment, aiming to finalize the deal by year-end; Elon Musk separately wrote on X that SpaceX had \"closed\" $40 billion of debt for GPUs, though people familiar with the talks said pricing was still under discussion.",
+      "summary_ja": "スペースXは規制当局への提出書類で、アポロが運用する事業体との間でエヌビディアの「ヴェラ・ルービン」AIチップなどを対象とする約400億ドルのマスターファイナンスリースについて拘束力ある合意に達したと開示し、年内の最終合意を目指すとした。イーロン・マスク氏はXで400億ドルの債務調達を「完了した」と投稿したが、関係者によると価格条件は依然協議中だった。",
+      "source": "The Star (Reuters)",
+      "url": "https://www.thestar.com.my/business/business-news/2026/10/27/musks-spacex-closes-us40bil-deal-in-ai-push"
+    },
+    {
+      "date": "2026-10-06",
+      "headline": "FT first reports SpaceX seeking $40bn Apollo-led financing for Nvidia chips, split $10bn loans and $30bn bonds",
+      "summary": "The Financial Times first reported that SpaceX was seeking to raise about $40 billion in financing led by Apollo Global Management to buy Nvidia chips, structured as roughly $10 billion in bank loans and $30 billion in investment-grade debt, with bond manager Pimco among a small group of lenders in talks and the transaction then expected to close in 2027.",
+      "summary_ja": "フィナンシャル・タイムズは、スペースXがエヌビディア製チップ購入のため、アポロ・グローバル・マネジメント主導で約400億ドル(銀行融資約100億ドル、投資適格債約300億ドル)の資金調達を検討していると初めて報じた。PIMCOが融資協議に加わる少数の貸し手の一つとされ、当時の報道では成約は2027年を見込んでいた。",
+      "source": "The Star (Financial Times)",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/07/spacex-seeks-40-billion-to-buy-nvidia-chips-ft-reports"
+    },
+    {
+      "date": "2026-08-10",
+      "headline": "Nvidia partners with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR on AI financing platforms targeting over $500bn",
+      "summary": "Nvidia announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish AI compute infrastructure financing platforms aimed at mobilizing more than $500 billion of third-party capital for AI customers, with the arrangements described as memorandums of understanding subject to final agreements and no individual firm commitments disclosed.",
+      "summary_ja": "エヌビディアは、アポロ、ブラックロック、ブラックストーン、ブルックフィールド、ゴールドマン・サックス、KKRと提携し、AI向け顧客に対し5000億ドル超の第三者資本を動員するAI計算基盤の資金調達プラットフォームを設立すると発表した。これらは基本合意(MOU)段階で最終契約を要するとされ、各社の個別出資額は公表されなかった。",
+      "source": "Nvidia Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+    }
+  ],
+  "since": [
+    {
+      "date": "2026-11-05",
+      "headline": "SpaceX shares fall 6.8%, debt-insurance costs rise after Goldman-Apollo syndication report",
+      "summary": "Yahoo Finance reported that SpaceX's Nasdaq-listed shares (SPCX) fell about 6.8% in morning trading on November 5, 2026, after Bloomberg reported that Goldman Sachs and Apollo Global Management were in talks with Wall Street investors to sell pieces of the roughly $40 billion chip financing, and that the cost of insuring SpaceX's debt rose the same day.",
+      "summary_ja": "ヤフー・ファイナンスによると、2026年11月5日、ブルームバーグがゴールドマン・サックスとアポロ・グローバル・マネジメントが約400億ドルのチップ融資の一部売却に向け投資家と協議していると報じたことを受け、スペースXのナスダック上場株(SPCX)は朝方の取引で約6.8%下落し、同日中に同社債務の保証コストも上昇した。",
+      "source": "Yahoo Finance (Reuters)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-falls-banks-test-175943061.html"
+    }
+  ]
+}
