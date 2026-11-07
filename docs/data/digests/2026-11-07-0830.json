@@ -1,0 +1,305 @@
+{
+  "edition": "2026-11-07-0830",
+  "edition_label": "7 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T00:35:23Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "Fox completes $22bn Roku acquisition, delisting streaming platform from Nasdaq",
+      "summary": "Fox Corporation has completed its roughly $22bn acquisition of Roku, days after the deal cleared US antitrust review under a Department of Justice consent decree. Roku shares will be delisted from Nasdaq as the company joins Fox, which said it is now among the leading US streaming businesses, combining Roku's platform—serving more than 100 million households worldwide, with access to thousands of apps and channels—with Tubi and Fox One.",
+      "why_it_matters": "Closing the deal hands Fox direct control of a leading smart-TV operating system just as traditional broadcasters race to secure distribution for their own streaming apps, sharpening competition with Big Tech platforms for the living-room screen. It also removes one of the few large, independent streaming-platform targets left for rival media groups to pursue.",
+      "summary_ja": "フォックス・コーポレーションは、米司法省の同意命令下での独禁法審査を通過した数日後、約220億ドルでのロク買収を完了した。ロク株式はナスダックから上場廃止となり、同社はフォックス傘下に入る。フォックスは、世界で1億世帯超にサービスを提供し、数千のアプリやチャンネルにアクセスできるロクのプラットフォームにテュービーおよびフォックス・ワンを組み合わせ、米国有数のストリーミング事業者になったとしている。",
+      "why_it_matters_ja": "買収完了により、フォックスはスマートTVの基幹プラットフォームを直接手に入れることになり、従来型放送局が自社ストリーミングアプリの配信網確保を競う中、巨大テック企業とのリビングルーム争奪戦が一段と激化する。同時に、他のメディア企業が狙えた数少ない大規模な独立系ストリーミングプラットフォームの一つが市場から消えることになる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-03-1230",
+        "index": 2
+      },
+      "key": "fox-roku-shareholder-approval",
+      "ids": [
+        "605cfc788d9e17",
+        "8d88917109544c"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/fox-corporation-completes-acquisition-of-roku-302932088.html"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/fox-completes-22-billion-roku-deal-expand-digital-reach-6531686"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "OpenAI closes funding round, raising $11bn at $1.25 trillion valuation",
+      "summary": "OpenAI has secured $11bn in new funding at a $1.25 trillion valuation, Bloomberg News reported, closing a round whose target the company had cut by $10bn weeks earlier amid a broader tech-stock selloff. The valuation matches the level OpenAI's backers had already marked the company down to from $1.4 trillion.",
+      "why_it_matters": "Closing the round at the lowered $1.25 trillion mark, rather than walking away from it, signals investors are still willing to back OpenAI at scale even after trimming their expectations, a test case for AI financing appetite more broadly.",
+      "summary_ja": "OpenAIは1.25兆ドルの評価額で110億ドルの新規資金調達を確保したと、ブルームバーグ・ニュースが報じた。数週間前のハイテク株安を受けて目標額を100億ドル引き下げていたラウンドが、これで完了した形となる。評価額は、既に1.4兆ドルから引き下げられていた1.25兆ドルの水準と一致する。",
+      "why_it_matters_ja": "目標を下げたラウンドを撤回せず1.25兆ドルの水準で完了させたことは、期待値を下方修正した後もなお投資家がOpenAIに大規模な資金を投じる意思があることを示し、AI分野への資金供給意欲全般を測る試金石となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-01-0830",
+        "index": 0
+      },
+      "key": "openai-valuation-cut-funding-round",
+      "ids": [
+        "f33a62568325e5"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-6532301"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "American Water and Essential Utilities win Illinois approval for merger",
+      "summary": "American Water Works and Essential Utilities said the Illinois Commerce Commission has approved their proposed merger, advancing a tie-up between the two US water and gas utility holding companies. The order clears one of the regulatory conditions needed to close the deal.",
+      "why_it_matters": "State-by-state utility approvals are often the pacing item for US infrastructure mergers, since regulated water and gas holding companies typically need separate sign-off in each state they operate; the Illinois clearance removes one such hurdle for a deal combining two sizeable regulated networks.",
+      "summary_ja": "アメリカン・ウォーター・ワークスとエッセンシャル・ユーティリティーズは、イリノイ州商業委員会が両社の合併提案を承認したと発表した。米国の水道・ガス事業を手掛ける両持株会社の統合が前進した。この承認により、取引完了に必要な規制上の条件の一つが解消された。",
+      "why_it_matters_ja": "規制対象の水道・ガス持株会社は、事業を行う州ごとに個別の承認を得る必要があることが多く、米国のユーティリティ合併では州ごとの承認がペースを左右しがちである。イリノイ州の承認は、相当規模の規制対象網を統合する取引のそうしたハードルを一つ取り除いた。",
+      "status": "new",
+      "prev": null,
+      "key": "american-water-essential-utilities-merger",
+      "ids": [
+        "0bbecb4bb30ca9"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/american-water-and-essential-utilities-proposed-merger-progresses-with-approval-from-the-illinois-commerce-commission-302932211.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Barnhardt completes roughly $1bn acquisition of Bowman Consulting",
+      "summary": "Barnhardt has completed its acquisition of Bowman Consulting Group for about $1bn, according to Japan M&A reporting via Investing.com, with the close also confirmed in a Bowman Consulting SEC filing disclosing completion of an acquisition.",
+      "why_it_matters": "A roughly $1bn deal for a US engineering and infrastructure-consulting firm points to continued consolidation among mid-sized professional-services providers tied to infrastructure spending.",
+      "summary_ja": "バーンハードは、ボウマン・コンサルティング・グループを約10億ドルで買収完了したと、Investing.com経由のJapan M&Aの報道が伝えた。この取引完了は、ボウマン・コンサルティングが米SECに提出した開示資料でも、買収完了として確認されている。",
+      "why_it_matters_ja": "米国のインフラ関連エンジニアリング・コンサルティング会社に対する約10億ドル規模の買収は、インフラ投資に紐づく中堅プロフェッショナルサービス企業の統合が続いていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "barnhardt-bowman-consulting-acquisition",
+      "ids": [
+        "4f1c04af9e585c",
+        "11843c246e86af"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vbW9ocHRjZGU1V3JHZ2tQR19sMjBNOEQ1bXB0XzhRUXQzdDFVdUJYYWQ0ZVZDbnBxaEFqMkFlQms0NzNHWkVQalRrM1BuYWdUdW1oRThWMU54ME1qQ2RHNEN4RGdpZnpNSmR5Q3RHdDI?oc=5"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1847590/000114036126042465/0001140361-26-042465-index.htm"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Ship Healthcare launches ¥45.4bn tender offer to take Charm Care private",
+      "summary": "Ship Healthcare Holdings has launched a tender offer worth ¥45.4bn (454億円) for Charm Care at ¥1,970 a share, aiming to make the nursing-care operator a wholly owned subsidiary, according to Japan M&A reporting.",
+      "why_it_matters": "The deal extends a Japanese healthcare distributor's push into elder-care operations, adding a captive nursing-home platform as Japan's aging population continues to expand demand for long-term care.",
+      "summary_ja": "シップヘルスケアホールディングスは、チャーム・ケアに対し1株1970円、総額454億円のTOBを実施すると発表した。同社を完全子会社化することを目指す。Japan M&Aの報道による。",
+      "why_it_matters_ja": "この買収は、日本のヘルスケア商社が介護事業へ進出する動きを拡大するもので、高齢化が進む中で長期介護需要の拡大を受け、自社傘下に介護施設運営基盤を取り込む形となる。",
+      "status": "new",
+      "prev": null,
+      "key": "ship-healthcare-charm-care-tob",
+      "ids": [
+        "337b0fff176094"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2TW9TS1JJUXQ4bXRyd09qYTdKaUJiZllVWFpVNURIYmd4UU8yVFhLTVg1X1JJdTFGbkg3MFUyOGJ6MVU3MzliYU83NEJjYmVEaTUxcmhyUXBVaWtnOFZETmFvc2hQVm1hZXFVTXowUDlRNVhz?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Kokuyo completes purchase of 46.82% stake in Vietnam's Thien Long Group",
+      "summary": "Kokuyo has completed its acquisition of a 46.82% stake in Vietnam's Thien Long Group, according to Japan M&A reporting, with the stationery maker's founding Cô Gia Thọ family stepping down from the board as part of the deal.",
+      "why_it_matters": "The deal gives Japan's Kokuyo a controlling-sized stake in one of Vietnam's largest stationery makers, extending a Japanese consumer-goods company's push into Southeast Asia as founding-family control exits.",
+      "summary_ja": "コクヨは、ベトナムのティエンロン・グループ株式46.82%の取得を完了したと、Japan M&Aが報じた。取引に伴い、創業家のコー・ジア・トー家は取締役会から退任する。",
+      "why_it_matters_ja": "この取引により、日本のコクヨはベトナム最大級の文具メーカーの一角で支配的規模の株式を握ることになり、創業家が経営から退く中、日本の消費財企業による東南アジア展開が一段と進むことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "kokuyo-thien-long-stake-acquisition",
+      "ids": [
+        "3153f66690555b",
+        "8901b45cc88a27"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZV1BzdmYxaE5VVVNJSWhtdHhfZG9ZbEstMlN1dDVCTjhjVFdMdjA0ZkxoNXNvQUFsM1RuWUF1dURMdnJCTjlOSi11aEdNa0ZZSWJZSjdZdFROX0pPSDBVbnREcG1oelc0cjdfdTY1RGUyd3ho?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObm9pUVgwYUpLSG1RRWRTeXJVYmlsZjlwY1hJTEpBdHVWZTR1UGYyX2E1V2lqcDA0cW1WbmZhNUZwVEJIRndZQWR3UTNrU0hxaHhVYVlIRmlsY1VNM0tnTkpibEh2c2IyZG40dTVwWk1ac2tTOWp1Rnk3RXRNVXFlUW01c3ZjLXhhODJmeF9FLXlpTVI2YWNwQVI3TVdaN0VkTmdnQVF2aDZmTDNi?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "HSBC raises maximum tender amount for $3bn AT1 securities buyback",
+      "summary": "HSBC Holdings has increased the maximum tender amount for its offer to purchase, for cash, its outstanding $3,000,000,000 6.000% Perpetual Subordinated Contingent Convertible Securities, according to a company announcement, expanding a buyback it had launched a day earlier.",
+      "why_it_matters": "Raising the ceiling on an AT1 buyback lets HSBC retire more of a relatively high-coupon capital instrument, a routine but closely watched test of bank appetite to manage capital-stack costs as rates shift. The upsized offer also signals management sees enough excess capital to fund a larger buyback than first planned.",
+      "summary_ja": "HSBCホールディングスは、発行済みの30億ドル規模、利率6.000%の永久劣後偶発転換条項付証券(AT1)を現金で買い付ける公開買付けについて、その上限買付額を増額したと発表した。前日に開始した買付けの規模を拡大する形となる。",
+      "why_it_matters_ja": "AT1買付けの上限を引き上げることで、HSBCは比較的高クーポンの資本性証券をより多く償還できるようになる。これは金利環境の変化の中で銀行が資本調達コストを管理する意欲を測る、地味だが注目される指標となる。上限の拡大は、経営陣が当初計画より大きな買付けを実行できるだけの余剰資本があると見ていることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "hsbc-at1-tender-offer-increase",
+      "ids": [
+        "19de513ab12475"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/hsbc-holdings-plc-announces-increase-of-the-maximum-tender-amount-of-its-tender-offer-for-one-series-of-securities-302931934.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Dana launches tender offers for all outstanding 2030 and 2032 senior notes",
+      "summary": "Dana Incorporated has launched tender offers to purchase for cash any and all of its outstanding 4.250% senior notes due 2030 and 4.500% senior notes due 2032, the company said. The offers cover the full amount of both note series still outstanding.",
+      "why_it_matters": "Buying back higher-coupon debt ahead of maturity lets Dana manage its balance sheet proactively, a liability-management move credit investors will watch for clues on the auto-parts supplier's refinancing plans.",
+      "summary_ja": "デイナ・インコーポレーテッドは、発行済みの利率4.250%の2030年満期シニアノートおよび利率4.500%の2032年満期シニアノートについて、現金による公開買付けを開始したと発表した。買付けは両シリーズの発行済み残高全額を対象とする。",
+      "why_it_matters_ja": "満期前に高クーポン債務を買い戻すことで、デイナはバランスシートを前倒しで調整できる。これはクレジット投資家が同社の借り換え計画を読み解く手掛かりとなる、負債管理上の動きである。",
+      "status": "new",
+      "prev": null,
+      "key": "dana-senior-notes-tender-offer",
+      "ids": [
+        "c092ae70be0ca2"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/dana-announces-launch-of-tender-offers-for-any-and-all-of-its-outstanding-4-250-senior-notes-due-2030-and-4-500-senior-notes-due-2032--302932049.html"
+        }
+      ],
+      "categories": [
+        "Credit",
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Google buys Wyoming data-centre site from AI infrastructure firm Crusoe",
+      "summary": "Google has acquired a data-centre site in Wyoming from Crusoe, an AI infrastructure firm, according to CNA Business. The purchase adds a physical site to Google's AI data-centre footprint in the US.",
+      "why_it_matters": "Hyperscalers buying sites directly from AI-infrastructure developers like Crusoe shows how tight capacity has become, as cloud providers compete to lock down land and power for data-centre expansion.",
+      "summary_ja": "グーグルは、AIインフラ企業クルーソーからワイオミング州のデータセンター用地を取得したと、CNA Businessが報じた。この取得により、グーグルは米国内のAI向けデータセンター用地を一つ追加した形となる。",
+      "why_it_matters_ja": "クルーソーのようなAIインフラ開発企業から大手クラウド事業者が用地を直接買い取る動きは、データセンター拡張に向けた土地と電力の確保競争がいかに激しくなっているかを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "google-crusoe-wyoming-datacenter",
+      "ids": [
+        "ed2a4ebee6c870"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/google-acquires-wyoming-data-center-site-ai-infrastructure-firm-crusoe-6532241"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Dai Nippon Toryo to fold in Shinto Toryo via share exchange from February",
+      "summary": "Dai Nippon Toryo will make Shinto Toryo a wholly owned subsidiary through a share exchange effective in February, according to Jiji Press, completing a full takeover of the smaller paint maker.",
+      "why_it_matters": "The share-exchange structure lets Dai Nippon Toryo absorb a smaller domestic rival without a cash outlay, extending consolidation among Japan's mid-sized industrial-coatings makers.",
+      "summary_ja": "大日本塗料は、株式交換により神東塗料を来年2月付けで完全子会社化すると、時事通信が報じた。これにより、規模の小さな同業者に対する完全な買収が完了する形となる。",
+      "why_it_matters_ja": "株式交換という手法により、大日本塗料は現金を使わずに国内の小規模な同業他社を取り込むことができ、日本の中堅工業用塗料メーカーの統合がさらに進むことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "dai-nippon-toryo-shinto-toryo-share-exchange",
+      "ids": [
+        "6cc907f9516404"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUkUteE9nNGlKNllUX0Viak5FMmdJNm0tWlBFWWVWcHF1WWRaa0pWdFRvczM0VUF4LWFzaHY3Qm1UZl9OdU1ZcDlPc3l3TUw5OW4zdGZXVV9fbkN1cFJjVVVvUEZ0b044TGluakRPOUpabUZmLVhJaVd5VkFKb0xPV0oxbWF1OVk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "TMT"
+      ]
+    }
+  ]
+}

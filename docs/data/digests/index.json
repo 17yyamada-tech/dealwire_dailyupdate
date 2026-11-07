@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-07-0830",
+      "label": "7 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-07T00:35:23Z",
+      "items": 10,
+      "headlines": [
+        "Fox completes $22bn Roku acquisition, delisting streaming platform from Nasdaq",
+        "OpenAI closes funding round, raising $11bn at $1.25 trillion valuation",
+        "American Water and Essential Utilities win Illinois approval for merger"
+      ]
+    },
+    {
       "id": "2026-11-06-1530",
       "label": "6 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-06T07:35:39Z",
