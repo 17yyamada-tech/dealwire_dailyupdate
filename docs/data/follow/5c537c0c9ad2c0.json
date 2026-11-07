@@ -4,19 +4,19 @@
   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEeG1kZ2FnVEJkLWtYN0pwUTZSMllHODVINHpBSlQzUmxDRWlRRHpNM0M5SDVnTFZlNy1VWlFlVGhhTWNtSHlmS3Vobjl0TnFJelpv?oc=5",
   "source": "Japan M&A",
   "published": "2026-11-03T09:14:00Z",
-  "checked_at": "2026-11-07T04:50:00Z",
+  "checked_at": "2026-11-07T15:50:00Z",
   "status": {
-    "as_of": "2026-11-04",
-    "text": "Agreed 3 Nov 2026: CrowdStrike to acquire Fiddler AI, becoming Falcon Observe (GA fiscal Q4 2027). Price undisclosed; reports put Fiddler plus Dreadnode near $495-500m combined. Deal awaits close.",
-    "text_ja": "クラウドストライクは11月3日、Fiddler AI買収に合意。Falcon Observeとなり27年度Q4に提供予定。価格は非公表、完了待ち。",
+    "as_of": "2026-11-07",
+    "text": "Agreed 3 Nov 2026: CrowdStrike to acquire Fiddler AI (Falcon Observe) and Dreadnode, GA targeted fiscal Q4 2027. WSJ reports ~$400m for Fiddler, ~$95m for Dreadnode, mostly cash; price unconfirmed.",
+    "text_ja": "クラウドストライクは11月3日、Fiddler AIとDreadnodeの買収に合意。WSJは各約4億ドル、約9500万ドルと報道、支払いは主に現金で価格は非公表。",
     "refs": [
       {
         "list": "since",
-        "url": "https://stockhouse.com/news/press-releases/2026/11/03/crowdstrike-to-acquire-fiddler-to-deliver-agent-observability-for-ai-trust"
+        "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/"
       },
       {
         "list": "since",
-        "url": "https://www.techbuzz.ai/articles/crowdstrike-drops-500m-on-ai-security-duo-as-agent-market-explodes"
+        "url": "https://stockhouse.com/news/press-releases/2026/11/03/crowdstrike-to-acquire-fiddler-to-deliver-agent-observability-for-ai-trust"
       }
     ]
   },
@@ -55,6 +55,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-04",
+      "headline": "WSJ: CrowdStrike paying about $400m for Fiddler AI, $95m for Dreadnode, mostly in cash",
+      "summary": "The Wall Street Journal reported CrowdStrike is paying about $400 million for Fiddler AI and about $95 million for Dreadnode, breaking down the previously reported $495 million combined figure; the payments are mostly cash, with a portion in stock subject to vesting conditions. CrowdStrike has not confirmed the price.",
+      "summary_ja": "ウォール・ストリート・ジャーナルの報道によると、クラウドストライクはFiddler AIに約4億ドル、Dreadnodeに約9500万ドルを支払う。既報の合計約4億9500万ドルの内訳とされ、支払いは大半が現金で一部は権利確定条件付きの株式。同社はこの金額を確認していない。",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/"
+    },
     {
       "date": "2026-11-03",
       "headline": "CrowdStrike signs deal to acquire Fiddler AI, framing it as the answer when boards or regulators ask what an AI agent did",

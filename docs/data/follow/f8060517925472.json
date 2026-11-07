@@ -4,19 +4,19 @@
   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Z0l0NUVOS3EwenkxTGhOUVhDeEFCMlVoME5Vem9iNVdTOXVLdGd4UnNiOXBVNXU3NjhDMktRTU1DSmNzbkFnUUkwa3BxREFob1d5OVBXY1BhT1NrSmptZmhiRdIBaEFVX3lxTE1NVjBaT3NpTEhuR3VLa1lsT1N4SjFYbWpxNnh2ODRWQ0FadXlVRDJxN2xneS1pYlV5Vnd1MTlzOTR5SWFubHl6NGRpcEtOeVYySlhZVDhuM1ktVk8yZng5aDAxOHhSX0Vt?oc=5",
   "source": "Japan M&A",
   "published": "2026-11-03T01:15:28Z",
-  "checked_at": "2026-11-07T04:50:00Z",
+  "checked_at": "2026-11-07T15:50:00Z",
   "status": {
-    "as_of": "2026-11-06",
-    "text": "Marvell's $115bn all-stock deal for Lumentum awaits shareholder and regulatory approval, targeted to close in H1 2028. Lumentum's Nov 5 Q1 FY2027 results showed revenue more than doubled to $1.26bn, reinforcing the AI-optics rationale.",
-    "text_ja": "マーベルのルメンタム買収(1150億ドル、全株式)は株主・規制承認待ちで28年前半完了予定。ルメンタムは11月5日、売上高が前年同期比倍増の12.6億ドルと発表。",
+    "as_of": "2026-11-07",
+    "text": "Marvell's $115bn all-stock Lumentum deal awaits shareholder and regulatory approval, due to close H1 2028. TD Cowen and BofA downgraded Marvell Nov 3 on dilution risk; Lumentum's Nov 5 results beat estimates.",
+    "text_ja": "マーベルの1150億ドルのルメンタム買収は承認待ちで28年前半完了予定。TDコーウェンとBofAは3日、希薄化懸念で格下げ。ルメンタムの5日決算は市場予想を上回った。",
     "refs": [
       {
         "list": "since",
-        "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+        "url": "https://stocktwits.com/news-articles/markets/equity/mrvl-stock-price-target-slashed-in-half-material-headwinds-after-lumentum-deal-td-cowen-says-in-downgrade/cNGXRDdR95k"
       },
       {
         "list": "since",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526442714/d81187dex991.htm"
+        "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
       }
     ]
   },
@@ -70,6 +70,14 @@
       "summary_ja": "ルメンタムは2027会計年度第1四半期(9月26日締め)の売上高が12.6億ドルとなり、前年同期の5.338億ドルから倍増したと発表した。GAAP純利益は3.603億ドル(1株3.54ドル)、非GAAP純利益は4.611億ドル(1株4.57ドル)。第2四半期の売上高は15.75億~16.25億ドルを見込むとし、購入コミットメント50億ドル超を伴う光スイッチ(NPO/CPO)の大口顧客を新たに獲得したと説明した。",
       "source": "Lumentum Holdings (press release)",
       "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+    },
+    {
+      "date": "2026-11-03",
+      "headline": "TD Cowen and BofA downgrade Marvell on Lumentum-deal dilution, slash price targets",
+      "summary": "TD Cowen downgraded Marvell to Hold from Buy and cut its price target to $175 from $350, citing mid-single-digit EPS dilution expected in 2028 and concern the deal may be timed near the peak of the AI optical-component cycle; Bank of America downgraded Marvell to Neutral from Buy and cut its target to $225 from $400, saying Marvell's $1 billion in planned cost savings looks insufficient to offset roughly 50% share-count dilution from the all-stock Lumentum deal.",
+      "summary_ja": "TDコーウェンはマーベルを「買い」から「中立」に格下げし目標株価を350ドルから175ドルに引き下げた。2028年に一桁台半ばのEPS希薄化が生じ、AI向け光部品サイクルのピーク近くでの買収になるとの懸念を理由とした。バンク・オブ・アメリカも「買い」から「中立」へ格下げし目標株価を400ドルから225ドルに引き下げ、約10億ドルのコスト削減計画は約50%の株式数希薄化を相殺するには不十分と指摘した。",
+      "source": "Stocktwits (The Fly)",
+      "url": "https://stocktwits.com/news-articles/markets/equity/mrvl-stock-price-target-slashed-in-half-material-headwinds-after-lumentum-deal-td-cowen-says-in-downgrade/cNGXRDdR95k"
     },
     {
       "date": "2026-11-02",
