@@ -1,0 +1,64 @@
+{
+  "edition": "2026-11-07-1230",
+  "edition_label": "7 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T04:33:45Z",
+  "reading_minutes": 1,
+  "items": [
+    {
+      "headline": "Intel discloses terms of Classiq acquisition: $1.9bn plus up to $350m earn-out",
+      "summary": "Intel has disclosed the terms of its acquisition of Classiq, according to Japan M&A reporting: a $1.9bn base payment with up to $350m of additional contingent consideration. Further detail on the deal structure or timeline was not disclosed in the available reporting.",
+      "why_it_matters": "The earn-out component ties part of the price to future performance, giving the market a clearer read on how Intel is valuing the business beyond the headline figure.",
+      "summary_ja": "インテルはClassiq買収の条件を開示した。Japan M&Aの報道によると、基本対価19億ドルに加え、最大3.5億ドルの追加対価(アーンアウト)が設定されている。取引の構成や時期についての詳細は、報道では明らかになっていない。",
+      "why_it_matters_ja": "アーンアウトの設定により、買収対価の一部が将来の業績達成に連動する形となり、表面上の金額だけでは見えないインテルによる事業評価の実態が市場に示される。",
+      "status": "new",
+      "prev": null,
+      "key": "intel-classiq-acquisition-terms",
+      "ids": [
+        "98f886c5c40885"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5enJGVlRIaTZRV0xTSGZqcW9LNEh6c2dudkRoTkxsMnZXcHdFMzdla0lrNTIyNnV4LVdVXzJnRHVON24wbHphaTVLeEg1QXplcThNX1prN3IwZEZhc2Rjd3RodnpxNFc0NHUzSl9pTFpTTjB1?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Kokuyo to take full control of Thien Long shareholder TLAT, subsidiary from January 2027",
+      "summary": "Kokuyo has agreed to acquire all shares of TLAT, a major shareholder of Vietnam's Thien Long Group, according to Japan M&A reporting, with TLAT set to become a Kokuyo subsidiary from January 2027. The move follows Kokuyo's completed purchase of a 46.82% direct stake in Thien Long reported earlier this month.",
+      "why_it_matters": "Taking full control of a key Thien Long shareholder gives Kokuyo a deeper layer of control over the Vietnamese stationery maker beyond its direct stake, reinforcing the scale of its push into Southeast Asia.",
+      "summary_ja": "コクヨは、ベトナムのティエンロン・グループの主要株主であるTLATの全株式を取得することで合意した。Japan M&Aの報道によると、TLATは2027年1月からコクヨの子会社となる予定。これは、今月既に報じられたコクヨによるティエンロン株46.82%の直接取得に続く動きとなる。",
+      "why_it_matters_ja": "ティエンロンの主要株主を完全子会社化することで、コクヨは直接保有する持分に加えてもう一段の支配力を得ることになり、東南アジアへの展開の規模を一段と押し広げる形となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-07-0830",
+        "index": 5
+      },
+      "key": "kokuyo-thien-long-stake-acquisition",
+      "ids": [
+        "ce181fece4b58d"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzbDF2MTExbUNzTG44RU52ZG50dzBMZW1QNjJKQlhSOTMxX3JKTlFzdUdtZ20yS3lmeUM5ejN2LUZhSGhHaFlFZDVkRnhSZGljdVlOYnVjaUhua001allEdzl4Yw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
