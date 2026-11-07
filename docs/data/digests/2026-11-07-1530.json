@@ -1,0 +1,211 @@
+{
+  "edition": "2026-11-07-1530",
+  "edition_label": "7 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T07:37:03Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Alphabet takes $548m stake in Qualcomm to deepen AI data-centre partnership",
+      "summary": "Alphabet has acquired a $548 million stake in Qualcomm, its data-centre chip partner, according to CNA Business. The investment comes as hyperscalers increasingly take direct equity positions in suppliers to help secure AI infrastructure capacity.",
+      "why_it_matters": "Taking an equity stake in a key supplier gives Alphabet more say over capacity allocation as competition for AI chips and data-centre hardware intensifies among the hyperscalers.",
+      "summary_ja": "アルファベットは、データセンター向けチップで提携するクアルコムに5億4800万ドルを出資した。CNAビジネスが報じた。ハイパースケーラー各社がAIインフラの確保を狙い、サプライヤーへの直接出資を増やす動きの一環である。",
+      "why_it_matters_ja": "主要サプライヤーへの出資は、AIチップとデータセンター設備をめぐる争奪戦が激しくなる中、供給能力の配分に対するアルファベットの発言力を高める。",
+      "status": "new",
+      "prev": null,
+      "key": "alphabet-qualcomm-stake",
+      "ids": [
+        "76da3fba532f24"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/alphabet-takes-548-million-stake-in-partner-qualcomm-in-data-center-push-6530931"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Mitsui Chemicals set to formally announce ¥1.3tn JSR acquisition as soon as next week",
+      "summary": "Mitsui Chemicals is expected to formally announce its acquisition of JSR, previously flagged as a roughly ¥1.3 trillion purchase from state fund JIC, as soon as next week, a Japan M&A report said. How Mitsui Chemicals will finance the large purchase remains the key outstanding question.",
+      "why_it_matters": "A formal announcement would confirm one of the largest chemicals-sector M&A deals in Japan this year and put a spotlight on Mitsui Chemicals' funding plan for the acquisition.",
+      "summary_ja": "三井化学は、国家ファンドJICから約1.3兆円規模とされてきたJSRの買収について、早ければ来週にも正式発表する見通しだと報じられた。巨額の買収資金をどう調達するかが焦点として残っている。",
+      "why_it_matters_ja": "正式発表となれば今年の国内化学業界最大級のM&Aが確定し、三井化学の資金調達計画に注目が集まる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-04-1230",
+        "index": 0
+      },
+      "key": "jic-jsr-mitsui-chemicals",
+      "ids": [
+        "56f267a09ca316"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ab3VUQWdxQmF3UU8ySzlpNi1GSkxXaktsajdXM0dqRGJjeVZzVGE3Zk1KR2JzTTI3NE93ejRhSHl1LUhsSm5KdnN5cFUwREZTUzZYaTVEU2RkMGlkVmJxSlln?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Materials"
+      ]
+    },
+    {
+      "headline": "Canadian billionaire agrees to buy UK drugstore chain Boots for £6.7bn",
+      "summary": "A Canadian billionaire has agreed to acquire Boots, the long-running UK drugstore chain, for £6.7 billion, according to a Japan M&A report. The buyer was not named and further deal terms were not disclosed.",
+      "why_it_matters": "A £6.7bn price tag for one of Britain's best-known retail chains shows ultra-wealthy individual buyers continuing to compete for large consumer assets alongside traditional sponsors.",
+      "summary_ja": "英国の老舗ドラッグストア「ブーツ」をカナダの富豪が67億ポンドで買収することで合意した。日本のM&A関連報道が伝えた。買い手の氏名や他の取引条件は明らかにされていない。",
+      "why_it_matters_ja": "英国を代表する小売チェーンに67億ポンドの値が付いたことは、伝統的なスポンサーに加え富裕な個人投資家が大型消費財資産を奪い合う構図が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "boots-uk-canadian-billionaire-acquisition",
+      "ids": [
+        "fc47d9c27cec5b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92aUJ3cTlXNmw3U2xONkpLLXg3ZEsxYWVvbmFkTDJXRmZjWDZ4WGpmbG9hRnBzUjltQ3R6QlN0Q2xqSE5qdDlDUkxfY2xuR0ZkZ0RzVWFpWC1DczF5Q01qQmFKbDdaMHNKQnc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "AMTD IDEA and AMTD Digital inject four premium hotel assets into TGE",
+      "summary": "AMTD IDEA Group and AMTD Digital have jointly announced the injection of four premium hotel assets into TGE, according to a PR Newswire release. Both AMTD entities are dual- or cross-listed companies under AMTD Group, with operations spanning the US, Singapore and wider Southeast Asia.",
+      "why_it_matters": "Folding hotel assets into TGE signals continued consolidation of AMTD Group's real-estate holdings into a single platform, a structure sponsors and strategics are increasingly using to crystallise asset value.",
+      "summary_ja": "AMTD IDEAグループとAMTDデジタルは、4件の優良ホテル資産をTGEへ注入すると共同で発表した。PRニュースワイヤーが伝えた。両社はAMTDグループ傘下で複数市場に上場する企業で、事業は米国、シンガポール、東南アジア全域に広がる。",
+      "why_it_matters_ja": "ホテル資産をTGEに集約する動きは、AMTDグループが不動産保有を単一プラットフォームに統合し資産価値を顕在化させようとする流れを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "amtd-tge-hotel-assets-injection",
+      "ids": [
+        "a6b04bd6d55897"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/amtd-idea-amtd-digital-and-tge-jointly-announce-the-injection-of-four-premium-hotel-assets-into-tge-302932384.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US",
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "Cognizant completes acquisition of AI-native engineering firm Wizeline",
+      "summary": "Cognizant has completed its acquisition of Wizeline, a global AI-native digital engineering and product development services firm, the company said. The deal expands Cognizant's digital engineering and product development capabilities for enterprise clients.",
+      "why_it_matters": "Buying an AI-native engineering shop lets Cognizant offer enterprise clients more AI-built software development services as IT-services firms race to embed AI tooling into their delivery models.",
+      "summary_ja": "コグニザントは、世界展開するAIネイティブのデジタルエンジニアリング・製品開発企業ワイズラインの買収を完了したと発表した。これにより大企業顧客向けのデジタルエンジニアリングおよび製品開発力を強化する。",
+      "why_it_matters_ja": "AIネイティブのエンジニアリング企業を取得したことで、ITサービス各社がAIツールを提供体制に組み込む競争が激化する中、コグニザントは大企業向けにAIを活用したソフトウェア開発サービスを拡充できる。",
+      "status": "new",
+      "prev": null,
+      "key": "cognizant-wizeline-acquisition",
+      "ids": [
+        "0b58101bc5ac31",
+        "fe62f79b014868"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/cognizant-completes-acquisition-of-wizeline-302932412.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yTUxvdnJXalp4Z2E2a2hzZmRhMk9MSnMtV1loQVFoRElpXzNvSnVQNUdTSU9FYzdnRmx1NFloY1F4OTBIMWxBc0pEcndEYzZVLUt1c3JLQm54M1FwZnRJeXFMd0hvRUFfd29NVUJNZlk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Dragonpass acquires iCoupon to build international loyalty-as-a-service platform",
+      "summary": "Dragonpass has acquired iCoupon, a global voucher redemption network, to build an international loyalty-as-a-service platform, according to a PR Newswire release. Dragonpass' loyalty infrastructure powers 35 of the world's 50 largest banks, while iCoupon's vouchering technology supports more than one billion passengers.",
+      "why_it_matters": "Combining bank-loyalty infrastructure with a passenger-scale voucher network gives Dragonpass an immediate boost in dining and retail redemption capabilities, positioning it to compete more broadly in loyalty-and-rewards infrastructure.",
+      "summary_ja": "ドラゴンパスは、グローバルなバウチャー精算ネットワークのiCouponを買収し、国際的なロイヤルティ・アズ・ア・サービス基盤を構築する。PRニュースワイヤーが伝えた。ドラゴンパスのロイヤルティ基盤は世界の大手銀行50行中35行で稼働しており、iCouponのバウチャー技術は10億人超の旅客を支えている。",
+      "why_it_matters_ja": "銀行向けロイヤルティ基盤と旅客規模のバウチャー網を組み合わせることで、ドラゴンパスは飲食・小売分野の精算能力を即座に強化し、ロイヤルティ・リワード基盤分野での競争力を広げることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "dragonpass-icoupon-acquisition",
+      "ids": [
+        "fe7f7ae44bbd99"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/dragonpass-acquires-icoupon-the-leading-global-voucher-redemption-network-to-build-international-loyalty-as-a-service-platform-302932143.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT",
+        "Financials",
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "Canadian minister asks competition bureau to review Cleveland-Cliffs' Stelco acquisition",
+      "summary": "Canada's industry minister has asked the Competition Bureau to investigate Cleveland-Cliffs' acquisition of Stelco, according to a Japan M&A report. No further detail on the scope or timing of the review was given.",
+      "why_it_matters": "A ministerial request for antitrust scrutiny adds a new layer of regulatory risk to the deal and signals heightened political sensitivity around foreign ownership of Canadian steelmaking assets.",
+      "summary_ja": "カナダの産業相は、クリーブランド・クリフスによるステルコ買収について競争局に調査を要請した。日本のM&A関連報道が伝えた。調査の範囲や時期についての詳細は明らかにされていない。",
+      "why_it_matters_ja": "大臣による独禁審査の要請は、同取引に新たな規制リスクをもたらすとともに、カナダの製鉄資産の外資保有をめぐる政治的な敏感さの高まりを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "cleveland-cliffs-stelco-competition-review",
+      "ids": [
+        "dd27616f1064a1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE42Y21wc19CV1FGOVNxbVZqWF9FYnN3N3praFhXOE1yVEdZVTNTZFo1R0xfbm5pSmpySzF2eDFBM2FyeUhQTExpOWJRc3Mya20yYkx2YmRnLWR5LWQ2UU8yeXhLRmg0aUJEcjhycDVhcFFjZkFV?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

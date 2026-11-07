@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-07-1530",
+      "label": "7 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-07T07:37:03Z",
+      "items": 7,
+      "headlines": [
+        "Alphabet takes $548m stake in Qualcomm to deepen AI data-centre partnership",
+        "Mitsui Chemicals set to formally announce ¥1.3tn JSR acquisition as soon as next week",
+        "Canadian billionaire agrees to buy UK drugstore chain Boots for £6.7bn"
+      ]
+    },
+    {
       "id": "2026-11-07-1230",
       "label": "7 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-07T04:33:45Z",
