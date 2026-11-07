@@ -4,19 +4,19 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-06T08:00:00Z",
+  "checked_at": "2026-11-07T06:00:00Z",
   "status": {
-    "as_of": "2026-11-06",
-    "text": "Oil crashed 8.7% to $94.62/barrel (Brent) on Nov 4 on US election results; Eisenkot secured 67-of-120 MK recommendations on Nov 5, with Herzog to name Israel's mandate holder on Nov 8.",
-    "text_ja": "ブレント原油は11月4日に8.7%急落し94.62ドル(米中間選挙結果受け)。アイゼンコット氏は5日に67議席の推薦を得て優勢、ヘルツォーク大統領は8日に組閣委任者を発表予定。",
+    "as_of": "2026-11-07",
+    "text": "Oil rebounded above $99/barrel (Brent) on Nov 6 but still tracked an ~11% weekly loss on Mideast de-escalation hopes; Herzog due to name Israel's mandate holder on Nov 8.",
+    "text_ja": "ブレント原油は11月6日に99ドル台へ戻したが週間では11%超安の見通し。中東情勢の緩和期待が背景。ヘルツォーク大統領は8日に組閣委任者を発表予定。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/"
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
       },
       {
         "list": "since",
-        "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/"
       }
     ]
   },
@@ -87,6 +87,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-06",
+      "headline": "Brent rises above $99 on Friday but still tracks ~11% weekly loss amid Mideast de-escalation hopes after US midterms",
+      "summary": "Trading Economics reported that Brent crude rose above $99 a barrel on Friday, November 6, 2026, but remained on track to post a weekly loss of more than 11%, which it tied to hopes for a quicker end to the Middle East conflict following the US midterm elections.",
+      "summary_ja": "トレーディング・エコノミクスによると、2026年11月6日(金)、ブレント原油は1バレル99ドル台まで持ち直したが、週間では11%超の下落となる見通し。米中間選挙後、中東紛争の早期終結への期待が背景とされた。",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
     {
       "date": "2026-11-05",
       "headline": "Eisenkot secures 67-of-120 MK recommendations versus Netanyahu's 46; Herzog to name mandate holder Nov 8",
