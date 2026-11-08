@@ -1,0 +1,181 @@
+{
+  "edition": "2026-11-08-0830",
+  "edition_label": "8 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T00:36:18Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "SoftBank and ABB weigh splitting off China unit to salvage $5.4bn robotics deal",
+      "summary": "SoftBank Group and ABB are exploring separating ABB's China robotics business in an attempt to rescue their roughly $5.4bn robotics-unit acquisition, Japan M&A wire reports say. The move follows China's formal notification earlier this week prohibiting the deal as originally structured.",
+      "why_it_matters": "A carve-out would be an unusual route around a Chinese merger-control block, and whether it works will be watched by other cross-border buyers facing similar vetoes in sensitive tech sectors.",
+      "summary_ja": "ソフトバンクグループとABBは、約54億ドル規模のロボティクス事業買収を救済するため、ABBの中国ロボティクス事業を分離する案を検討している。中国当局が今週、当初の枠組みでの買収を禁止すると正式通知したことを受けた動き。",
+      "why_it_matters_ja": "事業の切り出しによる規制回避は異例の手法であり、この試みが成功するか否かは、同様の中国当局による審査リスクを抱える他のクロスボーダー買収案件にも参考材料となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-06-1230",
+        "index": 2
+      },
+      "key": "softbank-abb-robotics-china-block",
+      "ids": [
+        "6f4762b15d500e",
+        "8cba775dc218a8"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3RXpEVUNpQnFQQ3FJbmxyN3g4ZERpYTJrTldHcjgwSTA0UXJ6SkpqLWtnOW0wbGpnSmRtYzJrT2NzYlNoMDVsUmtRMGdYR19zQUFLUkNzZ0xjal9HWlp2WEpSc1hMMTFzQ2c?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mU29iOGpieHp5RGpNeE9rcGxVTTVPZk9Jb0gwSzBQVlVobDBPUnF5ODJ1Vm91OWhtZTNSWmlpYlhlX1VzblVxalF2eUQ0OUE5ZXJaQnVBZGJuRkg1SDI5UGRGOGV1UDdXeERLeTJTdEs1S2Uw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Aave Labs buys fixed-rate protocol Avon, pushing network deposits above $33bn",
+      "summary": "Aave Labs has acquired fixed-rate lending startup Avon, taking total deposits across its network above $33bn, according to Japan M&A reporting. No terms of the transaction were disclosed.",
+      "why_it_matters": "The deal signals consolidation among DeFi lending protocols, with incumbents buying up niche rate products rather than building them in-house, a pattern credit investors in the space are tracking closely.",
+      "summary_ja": "Aave Labsは固定金利プロトコルのAvonを買収し、ネットワーク全体の預入総額は330億ドルを超えた。買収条件は開示されていない。",
+      "why_it_matters_ja": "DeFiレンディング分野では大手が独自のニッチ金利商品を自前開発するのではなく買収で取り込む動きが進んでおり、本件はその統合トレンドを象徴する。",
+      "status": "new",
+      "prev": null,
+      "key": "aave-labs-avon-acquisition",
+      "ids": [
+        "6ea25a0f648078"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NQ1VVVTBiNFc1cFlwM0tiWmxtZHdIbWp3TWtnVGhfb0lZWlE2WDlZVGFMdTdhZHZIZmFMSVdLd0hNR1BQa3JLaVE0QXhVdUFxaThHUHh2VVdMUWNRWXZLSnpKNkxJcElnTGNTeC1QdkEyOXZn?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Shobunsha Holdings to go private via management buyout",
+      "summary": "Shobunsha Holdings, the Japanese map and guidebook publisher, is taking its shares private through a management buyout, according to Japan PE & activists reporting. No price or financing terms were disclosed.",
+      "why_it_matters": "The deal adds to a steady run of Japanese MBOs this year, as founder-aligned management teams use buyouts to exit public markets rather than face activist pressure.",
+      "summary_ja": "地図・ガイドブック出版の昭文社ホールディングスは、MBO（経営陣による買収）で株式を非公開化する。価格や資金調達の詳細は開示されていない。",
+      "why_it_matters_ja": "創業家・経営陣主導のMBOは今年の日本市場で続いており、物言う株主からの圧力を避けて上場を維持するより非公開化を選ぶ動きの一例といえる。",
+      "status": "new",
+      "prev": null,
+      "key": "shobunsha-mbo-going-private",
+      "ids": [
+        "a893c770856af1"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TRUJ3UGY0LXE4dDFETXEzSTFoZDN3S1oxNHQ4bXFsRFd2RG5NNnM0akR5LW14cndIUVNkaDVMbUVMb1pTWElVeVVGcFF1c3NEZHlpZlV1VmxDdU42R0g4?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Comsys Holdings to make telecom contractor Ainet a subsidiary",
+      "summary": "Comsys Holdings is taking control of Ainet, an electrical and telecommunications infrastructure contractor, making it a subsidiary, according to Japan M&A reporting. No transaction value was disclosed.",
+      "why_it_matters": "The bolt-on extends Comsys's telecom-infrastructure construction base at a time of heavy capital spending on data-centre and network buildout in Japan.",
+      "summary_ja": "コムシスホールディングスは、電気・通信インフラ工事を手がけるアイネットを子会社化する。買収金額は開示されていない。",
+      "why_it_matters_ja": "データセンターや通信網への投資が日本国内で拡大するなか、コムシスは通信インフラ工事の事業基盤を積み増す形となる。",
+      "status": "new",
+      "prev": null,
+      "key": "comsys-ainet-subsidiary",
+      "ids": [
+        "a7867f6f114087"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16Wm1iWG5NaENRbHRBdTF3YnNRV0FWZGdxX0RoR1F0ZTdlLVAtVk84ckxUcjhFamFPZmdJekpFVGRmd3RlSm5xMmN6NURvQi12aEVkckdKT2VyNnp2LUJB?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Optim to acquire medical-imaging platform MediTech as subsidiary",
+      "summary": "Optim is making MediTech, which operates a medical-image sharing service, a subsidiary, according to Japan M&A reporting. No price was disclosed.",
+      "why_it_matters": "The deal adds healthcare-data infrastructure to Optim's AI and IoT business, part of a broader push by Japanese tech firms into medical software.",
+      "summary_ja": "オプティムは、医用画像共有サービスを運営するMediTechを子会社化する。買収金額は開示されていない。",
+      "why_it_matters_ja": "AI・IoT事業を展開するオプティムにとって、医療データ基盤の取り込みは日本のテック企業による医療ソフトウェア参入の流れの一つとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "optim-meditech-subsidiary",
+      "ids": [
+        "f38cc0efd4413b"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wRmxCclBvaTZiOHJHTU5rQnlvVjhnMnBJOEdYbzZnQ2IwRmZORnZQSDhENkthVDFIU0NxLUJMSUVoV09tMW5pcUVscXFibVFJUWdHY21hTGxocVNIZk1Z?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Hobe to go private via management buyout",
+      "summary": "Hobe is taking its shares private through a management buyout, according to Japan PE & activists reporting. No price or terms were disclosed.",
+      "why_it_matters": "The buyout adds another small-cap Japanese company exiting public markets, a trend linked to rising listing-maintenance costs and governance pressure on thinly traded shares.",
+      "summary_ja": "ホーブは、MBOで株式を非公開化する。価格や条件は開示されていない。",
+      "why_it_matters_ja": "上場維持コストの上昇や、売買の薄い銘柄に対するガバナンス圧力を背景に、中小型の日本企業が非公開化を選ぶ流れの一つ。",
+      "status": "new",
+      "prev": null,
+      "key": "hobe-mbo-going-private",
+      "ids": [
+        "1602ec988cb1f6"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kVHNMZkRfa1c4MGQzVDN2R1BFc3FVTDZTZVZXaGVFQ1pnYlRlSkp5eVZHWHp6Q3N3QzVZdUlaQUhvWWhqai1xNVdNNF94Q2VINTR2SWx6UnFrb2dLaTlJ?oc=5"
+        }
+      ]
+    }
+  ]
+}

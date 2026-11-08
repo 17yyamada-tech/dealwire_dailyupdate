@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-08-0830",
+      "label": "8 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-08T00:36:18Z",
+      "items": 6,
+      "headlines": [
+        "SoftBank and ABB weigh splitting off China unit to salvage $5.4bn robotics deal",
+        "Aave Labs buys fixed-rate protocol Avon, pushing network deposits above $33bn",
+        "Shobunsha Holdings to go private via management buyout"
+      ]
+    },
+    {
       "id": "2026-11-07-1530",
       "label": "7 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-07T07:37:03Z",
