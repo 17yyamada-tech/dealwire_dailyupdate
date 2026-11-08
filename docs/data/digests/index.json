@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-08-1230",
+      "label": "8 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-08T04:37:46Z",
+      "items": 3,
+      "headlines": [
+        "Berkshire Hathaway buys back record $9.6bn of stock in first full quarter under CEO Greg Abel",
+        "BabyCalendar takes Orange Page private as wholly owned subsidiary, buying out JR East's stake",
+        "Schroders taps Knight Frank, Savills to sell Singapore's Wisteria Mall for about S$220m"
+      ]
+    },
+    {
       "id": "2026-11-08-0830",
       "label": "8 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-08T00:36:18Z",
