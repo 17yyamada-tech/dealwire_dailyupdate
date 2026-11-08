@@ -4,12 +4,16 @@
   "link": "https://www.channelnewsasia.com/business/goldman-apollo-seek-buyers-40-billion-spacex-ai-chip-deal-bloomberg-news-reports-6525526",
   "source": "CNA Business",
   "published": "2026-11-04T21:54:23Z",
-  "checked_at": "2026-11-08T00:47:34Z",
+  "checked_at": "2026-11-08T04:49:59Z",
   "status": {
-    "as_of": "2026-11-06",
-    "text": "Goldman and Apollo began syndicating pieces of SpaceX's ~$40bn Nvidia chip financing to investors on Nov 4; shares fell 6.8% and debt-insurance costs rose on Nov 5.",
-    "text_ja": "ゴールドマンとアポロは11月4日、スペースXの約400億ドルのAIチップ融資の売却を投資家に呼びかけ開始。5日に株価は6.8%下落し、債務保証コストも上昇した。",
+    "as_of": "2026-11-08",
+    "text": "Goldman is leading the loan tranche and Apollo the bond tranche of SpaceX's ~$40bn Nvidia chip financing; by Nov 6 investors were offered slices up to $500m ahead of formal syndication.",
+    "text_ja": "ゴールドマンが融資、アポロが債券を主導するスペースXの約400億ドルのAIチップ融資。11月6日時点、一部投資家に最大5億ドルの出資枠が提示されている。",
     "refs": [
+      {
+        "list": "since",
+        "url": "https://www.thestar.com.my/business/business-news/2026/11/06/goldman-apollo-in-talks-to-sell-spacexs-ai-deal"
+      },
       {
         "list": "since",
         "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-falls-banks-test-175943061.html"
@@ -43,6 +47,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-06",
+      "headline": "Goldman leads loan tranche, Apollo leads bond tranche as SpaceX chip-lease financing heads to syndication with slices up to $500m",
+      "summary": "Bloomberg reported that Goldman Sachs is leading the loan portion and Apollo Global Management is the principal investor in the bond tranche of SpaceX's roughly $40 billion Nvidia chip financing, with investors in some cases asked to buy slices of up to $500 million before formal syndication begins; the leases are reported to run a little over five years from equipment delivery, expected in the first half of 2027.",
+      "summary_ja": "ブルームバーグによると、スペースXの約400億ドルのエヌビディア製チップ向け融資で、ゴールドマン・サックスが融資(ローン)部分を主導し、アポロ・グローバル・マネジメントが債券部分の主要投資家となっている。正式シンジケーション開始前に、一部投資家には最大5億ドルの出資が求められており、リース期間は機材納入(2027年上期予定)から5年強とされる。",
+      "source": "The Star (Bloomberg)",
+      "url": "https://www.thestar.com.my/business/business-news/2026/11/06/goldman-apollo-in-talks-to-sell-spacexs-ai-deal"
+    },
     {
       "date": "2026-11-05",
       "headline": "SpaceX shares fall 6.8%, debt-insurance costs rise after Goldman-Apollo syndication report",
