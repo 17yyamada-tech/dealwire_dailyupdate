@@ -4,15 +4,15 @@
   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYmEyNFJpamQ1WXZaRmhwMl90ZXNVZ093MkFyRk5tdTR6U2ZYblN0aUVlV3RGZzBQSE5vNF9UYjdBTENlbnRWUFVSUGMtM3NEdGhpTUNyWmd2bzFxbU95SGVtUGxCSDdjZlhQVUNNNDFkQ1JfdVdLZHdFVlNCeFk?oc=5",
   "source": "Japan M&A",
   "published": "2026-09-27T05:00:00Z",
-  "checked_at": "2026-11-08T04:49:59Z",
+  "checked_at": "2026-11-08T07:55:00Z",
   "status": {
-    "as_of": "2026-10-29",
-    "text": "Unresolved: Tiny's Letterboxd sale, run by LionTree, remains open. The New York Times is seen as frontrunner against A24, a Pritzker-led consortium and others. Value expected above $300m; no winner reported since Oct 8.",
-    "text_ja": "LionTree主導のLetterboxd売却は未決着。NYTが本命視され、A24やプリツカー氏系連合などと競合。想定額は3億ドル超。10月8日以降新たな決着はない。",
+    "as_of": "2026-11-08",
+    "text": "In exclusive talks: NYT Company is reportedly negotiating to buy Letterboxd for about $330m, edging out A24; unsigned as of Nov 5, deal could still collapse. Founders expected to stay; site to remain standalone.",
+    "text_ja": "NYT社がLetterboxd買収で独占交渉入り。額は約3.3億ドル、A24は外れた形。11月5日時点で未締結、破談の可能性も残る。創業者は経営継続、独立運営維持の見通し。",
     "refs": [
       {
         "list": "since",
-        "url": "https://www.thewrap.com/industry-news/business/letterboxd-sale-gigi-pritzker-investor-consortium-acquisition/"
+        "url": "https://deadline.com/2026/11/new-york-times-company-exclusive-talks-letterboxd-1237215118/"
       }
     ]
   },
@@ -59,6 +59,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-05",
+      "headline": "New York Times Company enters exclusive talks to buy Letterboxd for about $330 million",
+      "summary": "Deadline and other outlets reported The New York Times Company is in exclusive negotiations to acquire Letterboxd for a reported $330 million, with rival bidder A24 no longer in the running; the agreement is not yet signed and could still fall through, with co-founders Matthew Buchanan and Karl von Randow expected to remain in charge and the platform to keep operating as a standalone site.",
+      "summary_ja": "ニューヨーク・タイムズ社がLetterboxd買収で独占交渉に入ったと複数媒体が報じた。買収額は約3.3億ドルとされ、競合していたA24は交渉から外れた形。契約はまだ未締結で破談の可能性も残る。共同創業者のマシュー・ブキャナン氏とカール・フォン・ランドー氏は経営を続ける見通しで、サイトは独立運営を維持するとみられる。",
+      "source": "Deadline",
+      "url": "https://deadline.com/2026/11/new-york-times-company-exclusive-talks-letterboxd-1237215118/"
+    },
     {
       "date": "2026-10-08",
       "headline": "Gigi Pritzker-led investor group joins Letterboxd bidding as NYT seen as frontrunner; membership nears 35 million",
