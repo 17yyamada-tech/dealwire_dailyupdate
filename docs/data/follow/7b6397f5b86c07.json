@@ -4,19 +4,19 @@
   "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
   "source": "The Business Times",
   "published": "2026-09-27T13:31:03Z",
-  "checked_at": "2026-11-07T15:50:00Z",
+  "checked_at": "2026-11-08T00:49:52Z",
   "status": {
-    "as_of": "2026-11-07",
-    "text": "Oil rebounded above $99/barrel (Brent) on Nov 6 but still tracked an ~11% weekly loss on Mideast de-escalation hopes; Herzog due to name Israel's mandate holder on Nov 8.",
-    "text_ja": "ブレント原油は11月6日に99ドル台へ戻したが週間では11%超安の見通し。中東情勢の緩和期待が背景。ヘルツォーク大統領は8日に組閣委任者を発表予定。",
+    "as_of": "2026-11-08",
+    "text": "Herzog handed Gadi Eisenkot the mandate to form Israel's next government on Nov 8, sidelining Netanyahu; Brent held near $99/bbl on Nov 6, down about 11% on the week.",
+    "text_ja": "ヘルツォーク大統領は11月8日、アイゼンコット氏に次期政権樹立の委任を与え、ネタニヤフ氏は見送られた。ブレント原油は6日時点で99ドル台、週間では11%前後安。",
     "refs": [
       {
         "list": "since",
-        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
       },
       {
         "list": "since",
-        "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/"
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
       }
     ]
   },
@@ -87,6 +87,14 @@
     }
   ],
   "since": [
+    {
+      "date": "2026-11-08",
+      "headline": "Herzog formally hands Eisenkot the mandate to form Israel's next government, passing over Netanyahu",
+      "summary": "President Isaac Herzog formally tasked Gadi Eisenkot with forming Israel's next government at a ceremony on November 8, 2026, after Eisenkot secured 67 of 120 Knesset recommendations against Benjamin Netanyahu's 46. He has 28 days, extendable by 14, to build a coalition; Likud is pressing for a unity government that Eisenkot's camp has resisted.",
+      "summary_ja": "ヘルツォーク大統領は2026年11月8日の式典で、アイゼンコット氏に次期政権樹立を正式に委任した。同氏は120議席中67議席の推薦を得てネタニヤフ氏の46議席を上回っており、連立樹立の期限は28日間(最大14日間延長可)。リクードは統一政権を求めているが、アイゼンコット陣営はこれに抵抗している。",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+    },
     {
       "date": "2026-11-06",
       "headline": "Brent rises above $99 on Friday but still tracks ~11% weekly loss amid Mideast de-escalation hopes after US midterms",
