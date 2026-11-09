@@ -1,95 +1,95 @@
 {
-  "id": "a6e92353ffc324",
-  "title": "上場企業の経営権が変更される場合、小口株主も大株主と同じ価格で株式を売ることができるようにする義務公開買収制度をめぐって補完が必要だという声が出ている。 国会で推進中の改正案どおりなら、買収者が大株主...",
-  "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZajFrNjFTM2VzOERuV2VuRi1hMk42NklGQUlaZjRrM3VkVmJTc3RjSTlOYUJwVFRwYXNJaHZfU1lxZVh0MVBST1RxTmxuY3c?oc=5",
-  "source": "Japan M&A",
-  "published": "2026-11-03T02:33:54Z",
-  "checked_at": "2026-11-09T04:49:01Z",
-  "status": {
-    "as_of": "2026-11-04",
-    "text": "Japan's revised TOB threshold (cut to 30%) took effect 1 May 2026; the Justice Ministry's company-law panel discussed a first outline draft at its 19th session on 28 Oct 2026, continuing a parallel minority-shareholder review.",
-    "text_ja": "改正TOB制度は義務的買付け基準を30%に下げ5月1日施行。法制審議会会社法制部会は10月28日の第19回会議で要綱案のたたき台を議論、少数株主保護の検討を継続中。",
-    "refs": [
-      {
-        "list": "since",
-        "url": "https://www.moj.go.jp/shingi1/shingi04900001_00343.html"
-      }
-    ]
-  },
-  "background": [
-    {
-      "date": "2026-06-24",
-      "headline": "Justice Ministry company-law panel advances draft outline on shareholder rights",
-      "summary": "Japan's Legislative Council subcommittee on company law (shares and shareholder meetings) held its 15th session on 24 June 2026, working toward finalizing a draft outline of further Companies Act revisions, part of the parallel review of minority-shareholder protection alongside the tender-offer reform.",
-      "summary_ja": "法制審議会会社法制(株式・株主総会等関係)部会は6月24日に第15回会議を開き、会社法改正要綱案の取りまとめに向けた検討を進めた。TOB制度改革と並行する少数株主保護の論点の一つである。",
-      "source": "TKC Express",
-      "url": "https://tkc.jp/consolidate/tkc_express/2026/06/202606_13908"
-    },
-    {
-      "date": "2026-05-01",
-      "headline": "Japan's revised tender-offer and large-shareholding rules take effect",
-      "summary": "The mandatory tender offer and large shareholding reporting rules revised by the 2024 FIEA amendment took effect on 1 May 2026, cutting the ownership threshold that triggers a mandatory tender offer from one-third to 30% of voting rights and, for the first time, bringing on-market share purchases within the TOB rules.",
-      "summary_ja": "2024年の金商法改正に基づく新TOB・大量保有報告制度が5月1日に施行され、義務的公開買付けの基準が議決権の3分の1から30%に下がり、立会内取引も新たに規制対象に加わった。",
-      "source": "Daiwa Institute of Research",
-      "url": "https://www.dir.co.jp/report/research/law-research/securities/20260302_025607.html"
-    },
-    {
-      "date": "2026-03-02",
-      "headline": "Toyota camp raises Toyota Industries buyout price again, to ¥20,600 a share",
-      "summary": "The Toyota group raised its tender offer price for Toyota Industries a second time, to ¥20,600 from ¥18,800 per share, after continued criticism from minority and foreign investors that the offer undervalued the company.",
-      "summary_ja": "トヨタ陣営は豊田自動織機のTOB価格を1万8800円から2万600円へ再び引き上げた。少数株主や海外投資家による価格への不満が背景にある。",
-      "source": "Kyodo News",
-      "url": "https://www.oanda.jp/lab-education/market_news/kn_2026030201000986/"
-    },
-    {
-      "date": "2026-01-14",
-      "headline": "Toyota group lifts Toyota Industries tender offer price 15% to ¥18,800",
-      "summary": "Facing criticism from minority and overseas shareholders that its go-private bid undervalued Toyota Industries, the Toyota group raised the tender offer price about 15% to ¥18,800 a share from ¥16,300 and launched the offer on 15 January 2026.",
-      "summary_ja": "トヨタ陣営は豊田自動織機非公開化のTOB価格を1万6300円から1万8800円へ約15%引き上げ、1月15日に買付けを開始した。少数株主からの価格への批判が背景にある。",
-      "source": "Kabutan",
-      "url": "https://s.kabutan.jp/news/n202601150835/"
-    },
-    {
-      "date": "2025-12-26",
-      "headline": "FSA advisory report proposes widening insider-trading rules around tender offers",
-      "summary": "The Financial Services Agency's Market System Working Group published a report on 26 December 2025 proposing to widen insider-trading rules to cover parties negotiating with tender-offer targets, alongside changes to administrative fines and investigative powers; the proposals were reflected in the bill submitted to the Diet in April 2026.",
-      "summary_ja": "金融庁の金融審議会市場制度ワーキング・グループは12月26日、公開買付けに絡むインサイダー規制の対象拡大などを盛り込んだ報告を公表し、2026年4月提出の法案に反映された。",
-      "source": "Financial Services Agency",
-      "url": "https://www.fsa.go.jp/singi/singi_kinyu/tosin/20251226-2/01.pdf"
-    },
-    {
-      "date": "2025-07-04",
-      "headline": "FSA publishes cabinet and ministerial orders detailing TOB exemption scope",
-      "summary": "Japan's Financial Services Agency promulgated cabinet and Cabinet Office orders on 4 July 2025 setting out the detailed scope of share purchases exempted from the revised mandatory tender offer requirement, ahead of the rule's 1 May 2026 effective date.",
-      "summary_ja": "金融庁は7月4日、改正TOB制度の適用除外となる買付けの範囲などを定めた政令・内閣府令を公布した。2026年5月1日の施行に向けた措置である。",
-      "source": "Daiwa Institute of Research",
-      "url": "https://www.dir.co.jp/report/research/law-research/securities/20250715_025206.html"
-    },
-    {
-      "date": "2024-05-15",
-      "headline": "Diet passes FIEA amendment cutting mandatory tender offer threshold to 30%",
-      "summary": "Japan's House of Councillors passed the FIEA amendment on 15 May 2024, lowering the ownership threshold that triggers a mandatory tender offer from one-third to 30% of voting rights and extending the TOB rules to on-market share purchases, the biggest overhaul of the system since 2006.",
-      "summary_ja": "参議院は5月15日、義務的公開買付けの基準を3分の1から30%に下げ、立会内取引も対象に加える金商法改正案を可決・成立させた。2006年以来の大幅な見直しとされる。",
-      "source": "Nomura Research Institute",
-      "url": "https://www.nri.com/jp/media/column/osaki/20240522.html"
-    },
-    {
-      "date": "2023-12-25",
-      "headline": "FSA advisory council recommends lowering Japan's mandatory tender offer threshold",
-      "summary": "The Financial Services Agency's advisory working group on the tender offer and large shareholding reporting systems recommended on 25 December 2023 cutting the mandatory tender offer threshold from one-third to 30% of voting rights and bringing on-market purchases within the rule, setting the stage for the 2024 legislation.",
-      "summary_ja": "金融庁の金融審議会ワーキング・グループは12月25日、義務的公開買付けの基準を30%に下げ、立会内取引も対象とするよう提言し、2024年の法改正につながった。",
-      "source": "Financial Services Agency",
-      "url": "https://www.fsa.go.jp/singi/singi_kinyu/tosin/20231225/01.pdf"
-    }
-  ],
-  "since": [
-    {
-      "date": "2026-10-28",
-      "headline": "Justice Ministry company-law panel discusses first draft outline at 19th session on rules tied to minority-shareholder review",
-      "summary": "Japan's Legislative Council subcommittee on company law held its 19th session on 28 October 2026, discussing supplementary points on shareholder-proposal rights and a first draft of the outline (\"youkouan no tatakidai\") covering revisions to share-issuance and shareholder-meeting rules; the Ministry of Justice published the session's materials on 29 October 2026, continuing the broader Companies Act review that runs alongside the tender-offer reform.",
-      "summary_ja": "法制審議会会社法制(株式・株主総会等関係)部会は10月28日に第19回会議を開き、株主提案権に関する補充的な検討と、株式発行・株主総会ルールの見直しを含む要綱案のたたき台を議論した。法務省は10月29日に会議資料を公表した。TOB制度改革と並行する会社法見直しの一環である。",
-      "source": "Ministry of Justice (Legislative Council)",
-      "url": "https://www.moj.go.jp/shingi1/shingi04900001_00343.html"
-    }
+ "id": "a6e92353ffc324",
+ "title": "上場企業の経営権が変更される場合、小口株主も大株主と同じ価格で株式を売ることができるようにする義務公開買収制度をめぐって補完が必要だという声が出ている。 国会で推進中の改正案どおりなら、買収者が大株主...",
+ "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZajFrNjFTM2VzOERuV2VuRi1hMk42NklGQUlaZjRrM3VkVmJTc3RjSTlOYUJwVFRwYXNJaHZfU1lxZVh0MVBST1RxTmxuY3c?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-11-03T02:33:54Z",
+ "checked_at": "2026-11-09T07:49:10Z",
+ "status": {
+  "as_of": "2026-11-04",
+  "text": "Japan's revised TOB threshold (cut to 30%) took effect 1 May 2026; the Justice Ministry's company-law panel discussed a first outline draft at its 19th session on 28 Oct 2026, continuing a parallel minority-shareholder review.",
+  "text_ja": "改正TOB制度は義務的買付け基準を30%に下げ5月1日施行。法制審議会会社法制部会は10月28日の第19回会議で要綱案のたたき台を議論、少数株主保護の検討を継続中。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.moj.go.jp/shingi1/shingi04900001_00343.html"
+   }
   ]
+ },
+ "background": [
+  {
+   "date": "2026-06-24",
+   "headline": "Justice Ministry company-law panel advances draft outline on shareholder rights",
+   "summary": "Japan's Legislative Council subcommittee on company law (shares and shareholder meetings) held its 15th session on 24 June 2026, working toward finalizing a draft outline of further Companies Act revisions, part of the parallel review of minority-shareholder protection alongside the tender-offer reform.",
+   "summary_ja": "法制審議会会社法制(株式・株主総会等関係)部会は6月24日に第15回会議を開き、会社法改正要綱案の取りまとめに向けた検討を進めた。TOB制度改革と並行する少数株主保護の論点の一つである。",
+   "source": "TKC Express",
+   "url": "https://tkc.jp/consolidate/tkc_express/2026/06/202606_13908"
+  },
+  {
+   "date": "2026-05-01",
+   "headline": "Japan's revised tender-offer and large-shareholding rules take effect",
+   "summary": "The mandatory tender offer and large shareholding reporting rules revised by the 2024 FIEA amendment took effect on 1 May 2026, cutting the ownership threshold that triggers a mandatory tender offer from one-third to 30% of voting rights and, for the first time, bringing on-market share purchases within the TOB rules.",
+   "summary_ja": "2024年の金商法改正に基づく新TOB・大量保有報告制度が5月1日に施行され、義務的公開買付けの基準が議決権の3分の1から30%に下がり、立会内取引も新たに規制対象に加わった。",
+   "source": "Daiwa Institute of Research",
+   "url": "https://www.dir.co.jp/report/research/law-research/securities/20260302_025607.html"
+  },
+  {
+   "date": "2026-03-02",
+   "headline": "Toyota camp raises Toyota Industries buyout price again, to ¥20,600 a share",
+   "summary": "The Toyota group raised its tender offer price for Toyota Industries a second time, to ¥20,600 from ¥18,800 per share, after continued criticism from minority and foreign investors that the offer undervalued the company.",
+   "summary_ja": "トヨタ陣営は豊田自動織機のTOB価格を1万8800円から2万600円へ再び引き上げた。少数株主や海外投資家による価格への不満が背景にある。",
+   "source": "Kyodo News",
+   "url": "https://www.oanda.jp/lab-education/market_news/kn_2026030201000986/"
+  },
+  {
+   "date": "2026-01-14",
+   "headline": "Toyota group lifts Toyota Industries tender offer price 15% to ¥18,800",
+   "summary": "Facing criticism from minority and overseas shareholders that its go-private bid undervalued Toyota Industries, the Toyota group raised the tender offer price about 15% to ¥18,800 a share from ¥16,300 and launched the offer on 15 January 2026.",
+   "summary_ja": "トヨタ陣営は豊田自動織機非公開化のTOB価格を1万6300円から1万8800円へ約15%引き上げ、1月15日に買付けを開始した。少数株主からの価格への批判が背景にある。",
+   "source": "Kabutan",
+   "url": "https://s.kabutan.jp/news/n202601150835/"
+  },
+  {
+   "date": "2025-12-26",
+   "headline": "FSA advisory report proposes widening insider-trading rules around tender offers",
+   "summary": "The Financial Services Agency's Market System Working Group published a report on 26 December 2025 proposing to widen insider-trading rules to cover parties negotiating with tender-offer targets, alongside changes to administrative fines and investigative powers; the proposals were reflected in the bill submitted to the Diet in April 2026.",
+   "summary_ja": "金融庁の金融審議会市場制度ワーキング・グループは12月26日、公開買付けに絡むインサイダー規制の対象拡大などを盛り込んだ報告を公表し、2026年4月提出の法案に反映された。",
+   "source": "Financial Services Agency",
+   "url": "https://www.fsa.go.jp/singi/singi_kinyu/tosin/20251226-2/01.pdf"
+  },
+  {
+   "date": "2025-07-04",
+   "headline": "FSA publishes cabinet and ministerial orders detailing TOB exemption scope",
+   "summary": "Japan's Financial Services Agency promulgated cabinet and Cabinet Office orders on 4 July 2025 setting out the detailed scope of share purchases exempted from the revised mandatory tender offer requirement, ahead of the rule's 1 May 2026 effective date.",
+   "summary_ja": "金融庁は7月4日、改正TOB制度の適用除外となる買付けの範囲などを定めた政令・内閣府令を公布した。2026年5月1日の施行に向けた措置である。",
+   "source": "Daiwa Institute of Research",
+   "url": "https://www.dir.co.jp/report/research/law-research/securities/20250715_025206.html"
+  },
+  {
+   "date": "2024-05-15",
+   "headline": "Diet passes FIEA amendment cutting mandatory tender offer threshold to 30%",
+   "summary": "Japan's House of Councillors passed the FIEA amendment on 15 May 2024, lowering the ownership threshold that triggers a mandatory tender offer from one-third to 30% of voting rights and extending the TOB rules to on-market share purchases, the biggest overhaul of the system since 2006.",
+   "summary_ja": "参議院は5月15日、義務的公開買付けの基準を3分の1から30%に下げ、立会内取引も対象に加える金商法改正案を可決・成立させた。2006年以来の大幅な見直しとされる。",
+   "source": "Nomura Research Institute",
+   "url": "https://www.nri.com/jp/media/column/osaki/20240522.html"
+  },
+  {
+   "date": "2023-12-25",
+   "headline": "FSA advisory council recommends lowering Japan's mandatory tender offer threshold",
+   "summary": "The Financial Services Agency's advisory working group on the tender offer and large shareholding reporting systems recommended on 25 December 2023 cutting the mandatory tender offer threshold from one-third to 30% of voting rights and bringing on-market purchases within the rule, setting the stage for the 2024 legislation.",
+   "summary_ja": "金融庁の金融審議会ワーキング・グループは12月25日、義務的公開買付けの基準を30%に下げ、立会内取引も対象とするよう提言し、2024年の法改正につながった。",
+   "source": "Financial Services Agency",
+   "url": "https://www.fsa.go.jp/singi/singi_kinyu/tosin/20231225/01.pdf"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-10-28",
+   "headline": "Justice Ministry company-law panel discusses first draft outline at 19th session on rules tied to minority-shareholder review",
+   "summary": "Japan's Legislative Council subcommittee on company law held its 19th session on 28 October 2026, discussing supplementary points on shareholder-proposal rights and a first draft of the outline (\"youkouan no tatakidai\") covering revisions to share-issuance and shareholder-meeting rules; the Ministry of Justice published the session's materials on 29 October 2026, continuing the broader Companies Act review that runs alongside the tender-offer reform.",
+   "summary_ja": "法制審議会会社法制(株式・株主総会等関係)部会は10月28日に第19回会議を開き、株主提案権に関する補充的な検討と、株式発行・株主総会ルールの見直しを含む要綱案のたたき台を議論した。法務省は10月29日に会議資料を公表した。TOB制度改革と並行する会社法見直しの一環である。",
+   "source": "Ministry of Justice (Legislative Council)",
+   "url": "https://www.moj.go.jp/shingi1/shingi04900001_00343.html"
+  }
+ ]
 }

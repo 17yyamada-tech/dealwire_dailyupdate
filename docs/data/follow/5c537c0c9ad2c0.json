@@ -1,83 +1,83 @@
 {
-  "id": "5c537c0c9ad2c0",
-  "title": "規制当局に「AIは何をした」と問われたら クラウドストライクがFiddler AIを買収",
-  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEeG1kZ2FnVEJkLWtYN0pwUTZSMllHODVINHpBSlQzUmxDRWlRRHpNM0M5SDVnTFZlNy1VWlFlVGhhTWNtSHlmS3Vobjl0TnFJelpv?oc=5",
-  "source": "Japan M&A",
-  "published": "2026-11-03T09:14:00Z",
-  "checked_at": "2026-11-09T04:49:01Z",
-  "status": {
-    "as_of": "2026-11-07",
-    "text": "Agreed 3 Nov 2026: CrowdStrike to acquire Fiddler AI (Falcon Observe) and Dreadnode, GA targeted fiscal Q4 2027. WSJ reports ~$400m for Fiddler, ~$95m for Dreadnode, mostly cash; price unconfirmed.",
-    "text_ja": "クラウドストライクは11月3日、Fiddler AIとDreadnodeの買収に合意。WSJは各約4億ドル、約9500万ドルと報道、支払いは主に現金で価格は非公表。",
-    "refs": [
-      {
-        "list": "since",
-        "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/"
-      },
-      {
-        "list": "since",
-        "url": "https://stockhouse.com/news/press-releases/2026/11/03/crowdstrike-to-acquire-fiddler-to-deliver-agent-observability-for-ai-trust"
-      }
-    ]
-  },
-  "background": [
-    {
-      "date": "2026-04",
-      "headline": "Fiddler AI acquires AI-security startup Lumeus.ai to extend its agent control plane into policy enforcement",
-      "summary": "Fiddler AI, later acquired by CrowdStrike, acquired Lumeus.ai, a cloud security startup focused on data governance and zero-trust visibility, to extend Fiddler's AI control plane into policy enforcement and compliance auditing across machine-learning teams; financial terms were not disclosed.",
-      "summary_ja": "後にクラウドストライクに買収されるFiddler AIは、データガバナンスとゼロトラスト可視化を手がけるクラウドセキュリティ企業Lumeus.aiを買収した。Fiddlerのコントロールプレーンをポリシー実施やMLチーム間のコンプライアンス監査に広げる狙いで、金額は非公表。",
-      "source": "Pulse",
-      "url": "https://www.pulse.bot/ma/news/fiddler-ai-acquires-lumeusai-to-boost-ai-security-and-governance-37511936-c7d3-4bf3-8a85-1f289aa18fc2/"
-    },
-    {
-      "date": "2026-01-27",
-      "headline": "Fiddler AI raises $30 million Series C led by RPS Ventures for its AI agent control plane",
-      "summary": "Fiddler AI announced a $30 million Series C funding round led by RPS Ventures to build what it called the first control plane for autonomous AI agents, ahead of its later acquisition by CrowdStrike.",
-      "summary_ja": "Fiddler AIはRPS Ventures主導のシリーズCで3000万ドルを調達すると発表した。自律型AIエージェント向けの「コントロールプレーン」構築が目的で、後のクラウドストライクによる買収に先立つ資金調達だった。",
-      "source": "TechIntelPro",
-      "url": "https://techintelpro.com/news/ai/agentic-ai/fiddler-ai-raises-30m-series-c-for-ai-agent-control-plane"
-    },
-    {
-      "date": "2026-01-13",
-      "headline": "CrowdStrike agrees to acquire browser-security startup Seraphic Security to extend Falcon into the browser",
-      "summary": "CrowdStrike signed a definitive agreement to acquire Seraphic Security, days after the SGNL deal, to extend its Falcon platform's runtime protection into the browser; press reports put the price at about $420 million, though CrowdStrike did not disclose official terms.",
-      "summary_ja": "クラウドストライクはSGNL買収発表の数日後、ブラウザセキュリティ企業Seraphic Securityの買収で最終契約を締結した。Falcon基盤のランタイム保護をブラウザに拡張する狙い。報道では金額を約4億2000万ドルとしたが、同社は公式には開示していない。",
-      "source": "Built In",
-      "url": "https://builtin.com/articles/crowdstrike-seraphic-security-acquisition-20260113"
-    },
-    {
-      "date": "2026-01-07",
-      "headline": "CrowdStrike agrees to acquire SGNL for about $740 million to build continuous identity security for AI agents",
-      "summary": "CrowdStrike signed a definitive agreement to acquire SGNL, a continuous-identity company providing runtime access enforcement between identity providers and the resources that people, non-human identities and AI agents access, for a reported $740 million; the deal closed on February 20, 2026.",
-      "summary_ja": "クラウドストライクはSGNLの買収で最終契約を締結した。SGNLは、ID基盤とリソースの間でランタイムのアクセス制御を担う「継続的アイデンティティ」企業で、人間だけでなくAIエージェントも対象とする。報道額は約7億4000万ドルで、買収は2026年2月20日に完了した。",
-      "source": "Business Wire",
-      "url": "https://www.businesswire.com/news/home/20260107999523/en/CrowdStrike-to-Acquire-SGNL-to-Transform-Identity-Security-for-the-AI-Era/"
-    }
-  ],
-  "since": [
-    {
-      "date": "2026-11-04",
-      "headline": "WSJ: CrowdStrike paying about $400m for Fiddler AI, $95m for Dreadnode, mostly in cash",
-      "summary": "The Wall Street Journal reported CrowdStrike is paying about $400 million for Fiddler AI and about $95 million for Dreadnode, breaking down the previously reported $495 million combined figure; the payments are mostly cash, with a portion in stock subject to vesting conditions. CrowdStrike has not confirmed the price.",
-      "summary_ja": "ウォール・ストリート・ジャーナルの報道によると、クラウドストライクはFiddler AIに約4億ドル、Dreadnodeに約9500万ドルを支払う。既報の合計約4億9500万ドルの内訳とされ、支払いは大半が現金で一部は権利確定条件付きの株式。同社はこの金額を確認していない。",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/"
-    },
-    {
-      "date": "2026-11-03",
-      "headline": "CrowdStrike signs deal to acquire Fiddler AI, framing it as the answer when boards or regulators ask what an AI agent did",
-      "summary": "CrowdStrike announced at its Fal.Con Europe conference in Barcelona that it signed a definitive agreement to acquire Fiddler AI, a company specializing in AI agent observability and explainability; CEO George Kurtz said that telling a regulator or board 'the model did it' is not an acceptable answer. Fiddler's technology will be folded into the Falcon platform as Falcon Observe, tracing agent decisions and reasoning paths and detecting behavioral drift and hallucinations in production, with general availability planned for CrowdStrike's fiscal fourth quarter of 2027. Financial terms were not disclosed. CrowdStrike separately signed a definitive agreement to acquire Dreadnode, an AI security testing company, at the same event.",
-      "summary_ja": "クラウドストライクはバルセロナのFal.Con Europeで、AIエージェントの観測性・説明可能性を手がけるFiddler AIの買収で最終契約を締結したと発表した。カーツCEOは、規制当局や取締役会に「モデルがやった」では済まないと述べた。Fiddlerの技術はFalcon基盤に統合され「Falcon Observe」としてエージェントの判断過程を追跡し、本番環境での挙動の逸脱や幻覚を検知する。一般提供は2027会計年度第4四半期を予定。金額は非公開。同イベントでAIセキュリティ検査企業Dreadnodeの買収契約も別途発表された。",
-      "source": "CrowdStrike (press release)",
-      "url": "https://stockhouse.com/news/press-releases/2026/11/03/crowdstrike-to-acquire-fiddler-to-deliver-agent-observability-for-ai-trust"
-    },
-    {
-      "date": "2026-11-03",
-      "headline": "Unconfirmed reports put combined Fiddler and Dreadnode deal value near $495-500 million",
-      "summary": "CyberScoop reported that CrowdStrike did not disclose what it paid for Fiddler AI or Dreadnode, while other outlets citing unnamed sources estimated the combined value of the two acquisitions at close to $495 million to $500 million; CrowdStrike has not confirmed any price.",
-      "summary_ja": "サイバースクープによると、クラウドストライクはFiddler AIとDreadnodeの買収額を公表していない。一方、匿名の関係者を引用した他媒体は両社合計で約4億9500万~5億ドル規模と報じたが、同社はこの金額を確認していない。",
-      "source": "TechBuzz",
-      "url": "https://www.techbuzz.ai/articles/crowdstrike-drops-500m-on-ai-security-duo-as-agent-market-explodes"
-    }
+ "id": "5c537c0c9ad2c0",
+ "title": "規制当局に「AIは何をした」と問われたら クラウドストライクがFiddler AIを買収",
+ "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEeG1kZ2FnVEJkLWtYN0pwUTZSMllHODVINHpBSlQzUmxDRWlRRHpNM0M5SDVnTFZlNy1VWlFlVGhhTWNtSHlmS3Vobjl0TnFJelpv?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-11-03T09:14:00Z",
+ "checked_at": "2026-11-09T07:49:10Z",
+ "status": {
+  "as_of": "2026-11-07",
+  "text": "Agreed 3 Nov 2026: CrowdStrike to acquire Fiddler AI (Falcon Observe) and Dreadnode, GA targeted fiscal Q4 2027. WSJ reports ~$400m for Fiddler, ~$95m for Dreadnode, mostly cash; price unconfirmed.",
+  "text_ja": "クラウドストライクは11月3日、Fiddler AIとDreadnodeの買収に合意。WSJは各約4億ドル、約9500万ドルと報道、支払いは主に現金で価格は非公表。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/"
+   },
+   {
+    "list": "since",
+    "url": "https://stockhouse.com/news/press-releases/2026/11/03/crowdstrike-to-acquire-fiddler-to-deliver-agent-observability-for-ai-trust"
+   }
   ]
+ },
+ "background": [
+  {
+   "date": "2026-04",
+   "headline": "Fiddler AI acquires AI-security startup Lumeus.ai to extend its agent control plane into policy enforcement",
+   "summary": "Fiddler AI, later acquired by CrowdStrike, acquired Lumeus.ai, a cloud security startup focused on data governance and zero-trust visibility, to extend Fiddler's AI control plane into policy enforcement and compliance auditing across machine-learning teams; financial terms were not disclosed.",
+   "summary_ja": "後にクラウドストライクに買収されるFiddler AIは、データガバナンスとゼロトラスト可視化を手がけるクラウドセキュリティ企業Lumeus.aiを買収した。Fiddlerのコントロールプレーンをポリシー実施やMLチーム間のコンプライアンス監査に広げる狙いで、金額は非公表。",
+   "source": "Pulse",
+   "url": "https://www.pulse.bot/ma/news/fiddler-ai-acquires-lumeusai-to-boost-ai-security-and-governance-37511936-c7d3-4bf3-8a85-1f289aa18fc2/"
+  },
+  {
+   "date": "2026-01-27",
+   "headline": "Fiddler AI raises $30 million Series C led by RPS Ventures for its AI agent control plane",
+   "summary": "Fiddler AI announced a $30 million Series C funding round led by RPS Ventures to build what it called the first control plane for autonomous AI agents, ahead of its later acquisition by CrowdStrike.",
+   "summary_ja": "Fiddler AIはRPS Ventures主導のシリーズCで3000万ドルを調達すると発表した。自律型AIエージェント向けの「コントロールプレーン」構築が目的で、後のクラウドストライクによる買収に先立つ資金調達だった。",
+   "source": "TechIntelPro",
+   "url": "https://techintelpro.com/news/ai/agentic-ai/fiddler-ai-raises-30m-series-c-for-ai-agent-control-plane"
+  },
+  {
+   "date": "2026-01-13",
+   "headline": "CrowdStrike agrees to acquire browser-security startup Seraphic Security to extend Falcon into the browser",
+   "summary": "CrowdStrike signed a definitive agreement to acquire Seraphic Security, days after the SGNL deal, to extend its Falcon platform's runtime protection into the browser; press reports put the price at about $420 million, though CrowdStrike did not disclose official terms.",
+   "summary_ja": "クラウドストライクはSGNL買収発表の数日後、ブラウザセキュリティ企業Seraphic Securityの買収で最終契約を締結した。Falcon基盤のランタイム保護をブラウザに拡張する狙い。報道では金額を約4億2000万ドルとしたが、同社は公式には開示していない。",
+   "source": "Built In",
+   "url": "https://builtin.com/articles/crowdstrike-seraphic-security-acquisition-20260113"
+  },
+  {
+   "date": "2026-01-07",
+   "headline": "CrowdStrike agrees to acquire SGNL for about $740 million to build continuous identity security for AI agents",
+   "summary": "CrowdStrike signed a definitive agreement to acquire SGNL, a continuous-identity company providing runtime access enforcement between identity providers and the resources that people, non-human identities and AI agents access, for a reported $740 million; the deal closed on February 20, 2026.",
+   "summary_ja": "クラウドストライクはSGNLの買収で最終契約を締結した。SGNLは、ID基盤とリソースの間でランタイムのアクセス制御を担う「継続的アイデンティティ」企業で、人間だけでなくAIエージェントも対象とする。報道額は約7億4000万ドルで、買収は2026年2月20日に完了した。",
+   "source": "Business Wire",
+   "url": "https://www.businesswire.com/news/home/20260107999523/en/CrowdStrike-to-Acquire-SGNL-to-Transform-Identity-Security-for-the-AI-Era/"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-04",
+   "headline": "WSJ: CrowdStrike paying about $400m for Fiddler AI, $95m for Dreadnode, mostly in cash",
+   "summary": "The Wall Street Journal reported CrowdStrike is paying about $400 million for Fiddler AI and about $95 million for Dreadnode, breaking down the previously reported $495 million combined figure; the payments are mostly cash, with a portion in stock subject to vesting conditions. CrowdStrike has not confirmed the price.",
+   "summary_ja": "ウォール・ストリート・ジャーナルの報道によると、クラウドストライクはFiddler AIに約4億ドル、Dreadnodeに約9500万ドルを支払う。既報の合計約4億9500万ドルの内訳とされ、支払いは大半が現金で一部は権利確定条件付きの株式。同社はこの金額を確認していない。",
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/"
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "CrowdStrike signs deal to acquire Fiddler AI, framing it as the answer when boards or regulators ask what an AI agent did",
+   "summary": "CrowdStrike announced at its Fal.Con Europe conference in Barcelona that it signed a definitive agreement to acquire Fiddler AI, a company specializing in AI agent observability and explainability; CEO George Kurtz said that telling a regulator or board 'the model did it' is not an acceptable answer. Fiddler's technology will be folded into the Falcon platform as Falcon Observe, tracing agent decisions and reasoning paths and detecting behavioral drift and hallucinations in production, with general availability planned for CrowdStrike's fiscal fourth quarter of 2027. Financial terms were not disclosed. CrowdStrike separately signed a definitive agreement to acquire Dreadnode, an AI security testing company, at the same event.",
+   "summary_ja": "クラウドストライクはバルセロナのFal.Con Europeで、AIエージェントの観測性・説明可能性を手がけるFiddler AIの買収で最終契約を締結したと発表した。カーツCEOは、規制当局や取締役会に「モデルがやった」では済まないと述べた。Fiddlerの技術はFalcon基盤に統合され「Falcon Observe」としてエージェントの判断過程を追跡し、本番環境での挙動の逸脱や幻覚を検知する。一般提供は2027会計年度第4四半期を予定。金額は非公開。同イベントでAIセキュリティ検査企業Dreadnodeの買収契約も別途発表された。",
+   "source": "CrowdStrike (press release)",
+   "url": "https://stockhouse.com/news/press-releases/2026/11/03/crowdstrike-to-acquire-fiddler-to-deliver-agent-observability-for-ai-trust"
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Unconfirmed reports put combined Fiddler and Dreadnode deal value near $495-500 million",
+   "summary": "CyberScoop reported that CrowdStrike did not disclose what it paid for Fiddler AI or Dreadnode, while other outlets citing unnamed sources estimated the combined value of the two acquisitions at close to $495 million to $500 million; CrowdStrike has not confirmed any price.",
+   "summary_ja": "サイバースクープによると、クラウドストライクはFiddler AIとDreadnodeの買収額を公表していない。一方、匿名の関係者を引用した他媒体は両社合計で約4億9500万~5億ドル規模と報じたが、同社はこの金額を確認していない。",
+   "source": "TechBuzz",
+   "url": "https://www.techbuzz.ai/articles/crowdstrike-drops-500m-on-ai-security-duo-as-agent-market-explodes"
+  }
+ ]
 }

@@ -1,147 +1,147 @@
 {
-  "id": "58eec020384e13",
-  "title": "ロケットラボ、80億ドルでイリジウムを買収 垂直統合の完成には「ニュートロン」の初飛行が最後の鍵",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
-  "source": "Japan M&A",
-  "published": "2026-09-26T18:17:00Z",
-  "checked_at": "2026-11-09T04:49:01Z",
-  "status": {
-    "as_of": "2026-11-04",
-    "text": "FCC reply deadline is Nov 9; Rocket Lab and Iridium urged fast approval in an Oct 30 filing. Globalstar raised supplier-relationship concerns Nov 3 but did not oppose the deal; close still targeted mid-2027.",
-    "text_ja": "FCC再答弁期限は11月9日。両社は10月30日に迅速承認を要請。グローバルスターは11月3日、サプライヤー関係への懸念を提起したが反対はせず、完了は27年半ば目標のまま。",
-    "refs": [
-      {
-        "list": "since",
-        "url": "https://www.tradingview.com/news/stocktwits:411a13f44094b:0-rklb-s-iridium-deal-draws-heat-as-globalstar-echoes-spacex-concerns-rocket-lab-seeks-fast-fcc-approval/"
-      },
-      {
-        "list": "since",
-        "url": "https://www.satellitetoday.com/connectivity/2026/11/03/globalstar-questions-supplier-relationship-with-rocket-lab-when-iridium-acquisition-closes/"
-      }
-    ]
-  },
-  "background": [
-    {
-      "date": "2026-09-24",
-      "headline": "Iridium stockholders approve Rocket Lab merger with 99.6% of votes cast",
-      "summary": "Iridium stockholders voted at a special meeting on September 24, 2026 to approve the merger agreement with Rocket Lab, with about 99.6% of votes cast in favor, representing roughly 81% of outstanding shares.",
-      "summary_ja": "イリジウムの株主は2026年9月24日の特別株主総会でロケットラボとの合併契約を承認した。投票総数の約99.6%が賛成票で、これは発行済み株式の約81%に相当する。",
-      "source": "Rocket Lab",
-      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab"
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "FCC accepts Rocket Lab-Iridium license-transfer applications, opens public comment period",
-      "summary": "The Federal Communications Commission accepted for filing the applications from Rocket Lab and Iridium to transfer Iridium's satellite and spectrum licenses, opening a public-comment period; the acceptance is a procedural step, not an approval of the deal.",
-      "summary_ja": "米連邦通信委員会（FCC）はロケットラボとイリジウムが提出したライセンス移転申請を受理し、パブリックコメント期間を開始した。これは手続き上の一段階であり、買収そのものの承認ではない。",
-      "source": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/09/17/rocket-lab-jumps-6-as-fcc-clears-first-hurdle-on-iridium-deal-iridium-communications-barely-budges/"
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "Rocket Lab completes $1.94bn share sale, cancels $3.6bn bridge loan to fully finance Iridium deal",
-      "summary": "Rocket Lab completed a $1.944 billion at-the-market equity offering and canceled its $3.6 billion senior secured bridge facility, while Iridium amended its $1.775 billion term loan to permit the transaction, fully financing the pending acquisition without bridge debt.",
-      "summary_ja": "ロケットラボは19.44億ドルのATM増資を完了し、36億ドルのブリッジローンを解約した。イリジウムも17.75億ドルのターム・ローンを買収実施を認める内容に改定し、ブリッジ融資なしで買収資金を全額確保した。",
-      "source": "Rocket Lab",
-      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-fully-funds-iridium-acquisition-including-completion"
-    },
-    {
-      "date": "2026-08-13",
-      "headline": "Rocket Lab clears HSR antitrust waiting period, files Form S-4 and FCC applications for Iridium deal",
-      "summary": "Rocket Lab announced that the Hart-Scott-Rodino antitrust waiting period for the Iridium acquisition had lapsed, that it filed a Form S-4 registration statement with the SEC, and that Rocket Lab and Iridium filed applications with the FCC to transfer Iridium's licenses.",
-      "summary_ja": "ロケットラボは、イリジウム買収に関するハート・スコット・ロディノ法の待機期間が満了したこと、SECにフォームS-4を提出したこと、両社がFCCにイリジウムの免許移転申請を提出したことを発表した。",
-      "source": "Rocket Lab",
-      "url": "https://www.globenewswire.com/news-release/2026/08/13/3344359/0/en/rocket-lab-corporation-announces-progress-on-iridium-acquisition-hsr-period-lapses-form-s-4-filed-fcc-applications-filed-capital-strategy-underway.html"
-    },
-    {
-      "date": "2026-06-29",
-      "headline": "Rocket Lab agrees to acquire Iridium for $54/share in cash-and-stock deal valuing it at about $8bn",
-      "summary": "Rocket Lab and Iridium announced a definitive agreement under which Rocket Lab will acquire all outstanding Iridium shares for $54 per share, comprising $27 in cash plus Rocket Lab stock, valuing Iridium at an enterprise value of about $8.0 billion; Rocket Lab secured a $3.6 billion bridge loan commitment from Deutsche Bank and Wells Fargo to fund the cash portion.",
-      "summary_ja": "ロケットラボとイリジウムは最終合意を発表し、ロケットラボがイリジウムの発行済み株式全てを1株54ドル（現金27ドルとロケットラボ株式の組み合わせ）で取得する。企業価値は約80億ドル。ロケットラボはドイチェ・バンクとウェルズ・ファーゴから現金部分の資金として36億ドルのブリッジローンのコミットメントを確保した。",
-      "source": "Rocket Lab",
-      "url": "https://rocketlabcorp.com/updates/rocket-lab-to-acquire-iridium-in-historic-deal-creating-a-fully-vertically-integrated-space-powerhouse-primed-for-growth/"
-    },
-    {
-      "date": "2025-11-11",
-      "headline": "Rocket Lab delays Neutron rocket's debut launch to 2026 after tank test failure",
-      "summary": "Rocket Lab postponed the first launch of its Neutron rocket to 2026, following a stage-1 fuel tank test failure; the company had previously targeted 2024 and then 2025 for the debut.",
-      "summary_ja": "ロケットラボは第1段燃料タンクの試験失敗を受け、ニュートロンロケットの初打ち上げを2026年に延期した。同社は以前、打ち上げ目標を2024年、その後2025年としていた。",
-      "source": "SpaceNews",
-      "url": "https://spacenews.com/rocket-lab-delays-first-neutron-launch-to-2026/"
-    }
-  ],
-  "since": [
-    {
-      "date": "2026-11-03",
-      "headline": "Globalstar asks FCC to scrutinize its Rocket Lab supplier relationship ahead of Iridium deal close, stops short of opposing merger",
-      "summary": "Globalstar filed with the FCC asking regulators to examine how its supplier relationship with Rocket Lab could be affected once Rocket Lab completes its acquisition of competitor Iridium, arguing Rocket Lab could gain insight into a future rival's operations; Globalstar did not formally oppose the merger.",
-      "summary_ja": "グローバルスターは米連邦通信委員会(FCC)に書面を提出し、ロケットラボが競合イリジウムの買収を完了した後、サプライヤーであるロケットラボとの関係がどう影響を受けるか審査するよう求めた。ロケットラボが将来の競合企業の内情を知り得ると主張する一方、買収自体への正式な反対はしなかった。",
-      "source": "Via Satellite",
-      "url": "https://www.satellitetoday.com/connectivity/2026/11/03/globalstar-questions-supplier-relationship-with-rocket-lab-when-iridium-acquisition-closes/"
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "Rocket Lab and Iridium file joint FCC response urging fast approval, say SpaceX and Ligado complaints belong in separate proceedings",
-      "summary": "Rocket Lab and Iridium made a joint filing with the FCC on October 30 responding to opposition comments, describing next-generation Iridium satellites with 20 times more beams per satellite than the current constellation and urging the agency to speed up approval of the license transfer; the companies argued that SpaceX's and Ligado's anticompetitive-conduct complaints predate the merger and should be handled in separate proceedings.",
-      "summary_ja": "ロケットラボとイリジウムは10月30日、FCCへの異議に対応する共同書面を提出した。次世代イリジウム衛星は現行機より搭載ビーム数が20倍になるとし、免許移転の早期承認を求めた。SpaceXとLigadoの反競争的行為を巡る主張は買収とは別の手続きで扱うべきだと反論した。",
-      "source": "TradingView (citing company FCC filing)",
-      "url": "https://www.tradingview.com/news/stocktwits:411a13f44094b:0-rklb-s-iridium-deal-draws-heat-as-globalstar-echoes-spacex-concerns-rocket-lab-seeks-fast-fcc-approval/"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Iridium Q3 2026 revenue rises 8% to $245.7 million; company reaffirms mid-2027 target to close Rocket Lab deal",
-      "summary": "Iridium Communications reported Q3 2026 total revenue of $245.7 million, up 8% year-over-year, and net income of $106.9 million including a $103.9 million gain from its earlier Aireon acquisition; billable subscribers rose to 2,696,000 from 2,542,000 a year earlier. The company said the Rocket Lab merger, already approved by Iridium stockholders, is still expected to close by mid-2027 pending remaining regulatory approvals.",
-      "summary_ja": "イリジウム・コミュニケーションズの2026年第3四半期決算は、総収入が前年比8%増の2億4570万ドルとなった。純利益は、エアリオン買収に伴う1億390万ドルの一時的利益を含め1億690万ドル。課金加入者数は前年の254万2000人から269万6000人に増加した。ロケットラボとの合併は株主承認済みで、残る規制当局の承認を前提に2027年半ばの完了を目指すとの見通しを改めて示した。",
-      "source": "Iridium Communications (SEC Form 8-K / press release)",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001418819/000141881926000053/pressreleaseq32026.htm"
-    },
-    {
-      "date": "2026-10-19",
-      "headline": "Ligado tells FCC to weigh Iridium's use of spectrum petitions against rivals before clearing Rocket Lab deal",
-      "summary": "Ligado Networks, a spectrum partner of AST SpaceMobile, filed FCC comments on the Rocket Lab-Iridium license transfer arguing Iridium has used procedural petitions to obstruct competing satellite services, citing SpaceX's earlier filing that Iridium lodged more than 50 petitions to deny over an eight-month period; SpaceX has said it does not oppose the transaction itself.",
-      "summary_ja": "AST SpaceMobileの周波数提携先であるLigado Networksは、ロケットラボによるイリジウム買収の免許移転審査についてFCCにコメントを提出した。イリジウムが競合する衛星サービスを妨げる目的で手続き上の申立てを利用してきたと主張し、SpaceXが以前の申請で指摘した「8か月間で50件超の拒否申立て」を引用した。なお、SpaceX自身は買収そのものには反対していないとしている。",
-      "source": "TradingView (Stocktwits)",
-      "url": "https://www.tradingview.com/news/stocktwits:a51d2b9dd094b:0-rklb-stock-suffers-worst-week-ever-ast-spacemobile-partner-challenges-iridium-deal-claims-rival-uses-fcc-to-block-competitors/"
-    },
-    {
-      "date": "2026-10-19",
-      "headline": "FCC sets Oct 30 opposition and Nov 9 reply deadlines on Rocket Lab-Iridium license-transfer applications",
-      "summary": "The FCC's public notice (DA 26-985, GN Docket 26-257) on the Rocket Lab-Iridium license transfer set October 30, 2026 as the deadline for responses to comments and oppositions to petitions, and November 9, 2026 as the deadline for replies, after the October 15 deadline for initial comments and petitions had already passed.",
-      "summary_ja": "ロケットラボによるイリジウムの免許移転申請に関するFCCの公示(DA 26-985、GNドケット26-257)は、10月15日の意見・申立て提出期限に続き、意見への回答・申立てへの異議申立ての期限を2026年10月30日、再答弁の期限を同年11月9日と定めた。",
-      "source": "Federal Communications Commission",
-      "url": "https://docs.fcc.gov/public/attachments/DA-26-985A1.pdf"
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Rocket Lab delays Neutron rocket's debut launch from Q4 2026 to 2027 over carbon-composite structural concerns",
-      "summary": "Rocket Lab said on October 14, 2026 that the first launch of its Neutron rocket would slip from the fourth quarter of 2026 to sometime in 2027, citing carbon-composite issues found during inspections that could have compromised the vehicle's structural strength, which the company said it has since resolved; the Iridium deal's vertical-integration rationale depends on Neutron reaching orbit.",
-      "summary_ja": "ロケットラボは2026年10月14日、ニュートロン・ロケットの初打ち上げを2026年第4四半期から2027年中に延期すると発表した。検査で炭素複合材に強度上の懸念が見つかったことが理由とされ、同社はこの問題は既に解決したとしている。イリジウム買収が目指す垂直統合の完成は、ニュートロンの軌道到達が前提となっている。",
-      "source": "Light Reading",
-      "url": "https://lightreading.com/satellite/rocket-lab-s-first-neutron-rocket-launch-delayed-to-2027"
-    },
-    {
-      "date": "2026-10-07",
-      "headline": "Astronomy groups urge FCC to bind Rocket Lab to Iridium's interference-avoidance obligations before clearing license transfer",
-      "summary": "Law360 reported that astronomy groups told the FCC that Rocket Lab must be held to Iridium's existing obligations to avoid harmful interference with radio astronomy observations before the agency approves the transfer of Iridium's satellite and spectrum licenses in the pending $8 billion acquisition.",
-      "summary_ja": "Law360の報道によると、天文学関連団体は米連邦通信委員会(FCC)に対し、約80億ドルの買収案に伴うイリジウムの衛星・周波数免許のロケットラボへの移転を承認する前に、電波天文観測への有害な干渉を避けるイリジウムの既存の義務をロケットラボにも確実に継承させるよう求めた。",
-      "source": "Law360",
-      "url": "https://www.law360.com/mergersacquisitions/articles/2535084"
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "Rocket Lab-Iridium deal expected to close by mid-2027 after shareholder approval, follow-up coverage says",
-      "summary": "Coverage following Iridium shareholders' September 24 approval reiterated the deal terms (Rocket Lab paying $27 in cash plus stock per share, a $54 notional value) and said the roughly $8 billion transaction is expected to close by mid-2027, pending remaining regulatory approvals.",
-      "summary_ja": "9月24日のイリジウム株主による承認を受けた続報は、取引条件(ロケットラボが1株当たり現金27ドルと株式を組み合わせ、想定価値54ドル)を改めて示すとともに、残る規制当局の承認を経て総額約80億ドルの本件取引は2027年半ばまでに完了する見通しだと伝えた。",
-      "source": "The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/09/26/major-milestone-passed-in-iridium-rocket-lab-tie-up/"
-    },
-    {
-      "date": "2026-09-24",
-      "headline": "Iridium stockholders approve Rocket Lab merger with 99.6% of votes cast, about 81% of shares outstanding, in favor",
-      "summary": "At a special meeting, Iridium stockholders adopted the merger agreement under which Rocket Lab will acquire Iridium, with approximately 99.6% of votes cast in favor, representing about 81.0% of Iridium's outstanding shares entitled to vote.",
-      "summary_ja": "イリジウムは臨時株主総会で、ロケットラボによる買収に関する合併契約を承認した。投じられた票の約99.6%が賛成票で、これはイリジウムの投票権を有する発行済み株式の約81.0%に相当する。",
-      "source": "Rocket Lab (investor relations release)",
-      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab"
-    }
+ "id": "58eec020384e13",
+ "title": "ロケットラボ、80億ドルでイリジウムを買収 垂直統合の完成には「ニュートロン」の初飛行が最後の鍵",
+ "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-09-26T18:17:00Z",
+ "checked_at": "2026-11-09T07:49:10Z",
+ "status": {
+  "as_of": "2026-11-04",
+  "text": "FCC reply deadline is Nov 9; Rocket Lab and Iridium urged fast approval in an Oct 30 filing. Globalstar raised supplier-relationship concerns Nov 3 but did not oppose the deal; close still targeted mid-2027.",
+  "text_ja": "FCC再答弁期限は11月9日。両社は10月30日に迅速承認を要請。グローバルスターは11月3日、サプライヤー関係への懸念を提起したが反対はせず、完了は27年半ば目標のまま。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.tradingview.com/news/stocktwits:411a13f44094b:0-rklb-s-iridium-deal-draws-heat-as-globalstar-echoes-spacex-concerns-rocket-lab-seeks-fast-fcc-approval/"
+   },
+   {
+    "list": "since",
+    "url": "https://www.satellitetoday.com/connectivity/2026/11/03/globalstar-questions-supplier-relationship-with-rocket-lab-when-iridium-acquisition-closes/"
+   }
   ]
+ },
+ "background": [
+  {
+   "date": "2026-09-24",
+   "headline": "Iridium stockholders approve Rocket Lab merger with 99.6% of votes cast",
+   "summary": "Iridium stockholders voted at a special meeting on September 24, 2026 to approve the merger agreement with Rocket Lab, with about 99.6% of votes cast in favor, representing roughly 81% of outstanding shares.",
+   "summary_ja": "イリジウムの株主は2026年9月24日の特別株主総会でロケットラボとの合併契約を承認した。投票総数の約99.6%が賛成票で、これは発行済み株式の約81%に相当する。",
+   "source": "Rocket Lab",
+   "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab"
+  },
+  {
+   "date": "2026-09-17",
+   "headline": "FCC accepts Rocket Lab-Iridium license-transfer applications, opens public comment period",
+   "summary": "The Federal Communications Commission accepted for filing the applications from Rocket Lab and Iridium to transfer Iridium's satellite and spectrum licenses, opening a public-comment period; the acceptance is a procedural step, not an approval of the deal.",
+   "summary_ja": "米連邦通信委員会（FCC）はロケットラボとイリジウムが提出したライセンス移転申請を受理し、パブリックコメント期間を開始した。これは手続き上の一段階であり、買収そのものの承認ではない。",
+   "source": "24/7 Wall St.",
+   "url": "https://247wallst.com/investing/2026/09/17/rocket-lab-jumps-6-as-fcc-clears-first-hurdle-on-iridium-deal-iridium-communications-barely-budges/"
+  },
+  {
+   "date": "2026-09-15",
+   "headline": "Rocket Lab completes $1.94bn share sale, cancels $3.6bn bridge loan to fully finance Iridium deal",
+   "summary": "Rocket Lab completed a $1.944 billion at-the-market equity offering and canceled its $3.6 billion senior secured bridge facility, while Iridium amended its $1.775 billion term loan to permit the transaction, fully financing the pending acquisition without bridge debt.",
+   "summary_ja": "ロケットラボは19.44億ドルのATM増資を完了し、36億ドルのブリッジローンを解約した。イリジウムも17.75億ドルのターム・ローンを買収実施を認める内容に改定し、ブリッジ融資なしで買収資金を全額確保した。",
+   "source": "Rocket Lab",
+   "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-fully-funds-iridium-acquisition-including-completion"
+  },
+  {
+   "date": "2026-08-13",
+   "headline": "Rocket Lab clears HSR antitrust waiting period, files Form S-4 and FCC applications for Iridium deal",
+   "summary": "Rocket Lab announced that the Hart-Scott-Rodino antitrust waiting period for the Iridium acquisition had lapsed, that it filed a Form S-4 registration statement with the SEC, and that Rocket Lab and Iridium filed applications with the FCC to transfer Iridium's licenses.",
+   "summary_ja": "ロケットラボは、イリジウム買収に関するハート・スコット・ロディノ法の待機期間が満了したこと、SECにフォームS-4を提出したこと、両社がFCCにイリジウムの免許移転申請を提出したことを発表した。",
+   "source": "Rocket Lab",
+   "url": "https://www.globenewswire.com/news-release/2026/08/13/3344359/0/en/rocket-lab-corporation-announces-progress-on-iridium-acquisition-hsr-period-lapses-form-s-4-filed-fcc-applications-filed-capital-strategy-underway.html"
+  },
+  {
+   "date": "2026-06-29",
+   "headline": "Rocket Lab agrees to acquire Iridium for $54/share in cash-and-stock deal valuing it at about $8bn",
+   "summary": "Rocket Lab and Iridium announced a definitive agreement under which Rocket Lab will acquire all outstanding Iridium shares for $54 per share, comprising $27 in cash plus Rocket Lab stock, valuing Iridium at an enterprise value of about $8.0 billion; Rocket Lab secured a $3.6 billion bridge loan commitment from Deutsche Bank and Wells Fargo to fund the cash portion.",
+   "summary_ja": "ロケットラボとイリジウムは最終合意を発表し、ロケットラボがイリジウムの発行済み株式全てを1株54ドル（現金27ドルとロケットラボ株式の組み合わせ）で取得する。企業価値は約80億ドル。ロケットラボはドイチェ・バンクとウェルズ・ファーゴから現金部分の資金として36億ドルのブリッジローンのコミットメントを確保した。",
+   "source": "Rocket Lab",
+   "url": "https://rocketlabcorp.com/updates/rocket-lab-to-acquire-iridium-in-historic-deal-creating-a-fully-vertically-integrated-space-powerhouse-primed-for-growth/"
+  },
+  {
+   "date": "2025-11-11",
+   "headline": "Rocket Lab delays Neutron rocket's debut launch to 2026 after tank test failure",
+   "summary": "Rocket Lab postponed the first launch of its Neutron rocket to 2026, following a stage-1 fuel tank test failure; the company had previously targeted 2024 and then 2025 for the debut.",
+   "summary_ja": "ロケットラボは第1段燃料タンクの試験失敗を受け、ニュートロンロケットの初打ち上げを2026年に延期した。同社は以前、打ち上げ目標を2024年、その後2025年としていた。",
+   "source": "SpaceNews",
+   "url": "https://spacenews.com/rocket-lab-delays-first-neutron-launch-to-2026/"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-03",
+   "headline": "Globalstar asks FCC to scrutinize its Rocket Lab supplier relationship ahead of Iridium deal close, stops short of opposing merger",
+   "summary": "Globalstar filed with the FCC asking regulators to examine how its supplier relationship with Rocket Lab could be affected once Rocket Lab completes its acquisition of competitor Iridium, arguing Rocket Lab could gain insight into a future rival's operations; Globalstar did not formally oppose the merger.",
+   "summary_ja": "グローバルスターは米連邦通信委員会(FCC)に書面を提出し、ロケットラボが競合イリジウムの買収を完了した後、サプライヤーであるロケットラボとの関係がどう影響を受けるか審査するよう求めた。ロケットラボが将来の競合企業の内情を知り得ると主張する一方、買収自体への正式な反対はしなかった。",
+   "source": "Via Satellite",
+   "url": "https://www.satellitetoday.com/connectivity/2026/11/03/globalstar-questions-supplier-relationship-with-rocket-lab-when-iridium-acquisition-closes/"
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Rocket Lab and Iridium file joint FCC response urging fast approval, say SpaceX and Ligado complaints belong in separate proceedings",
+   "summary": "Rocket Lab and Iridium made a joint filing with the FCC on October 30 responding to opposition comments, describing next-generation Iridium satellites with 20 times more beams per satellite than the current constellation and urging the agency to speed up approval of the license transfer; the companies argued that SpaceX's and Ligado's anticompetitive-conduct complaints predate the merger and should be handled in separate proceedings.",
+   "summary_ja": "ロケットラボとイリジウムは10月30日、FCCへの異議に対応する共同書面を提出した。次世代イリジウム衛星は現行機より搭載ビーム数が20倍になるとし、免許移転の早期承認を求めた。SpaceXとLigadoの反競争的行為を巡る主張は買収とは別の手続きで扱うべきだと反論した。",
+   "source": "TradingView (citing company FCC filing)",
+   "url": "https://www.tradingview.com/news/stocktwits:411a13f44094b:0-rklb-s-iridium-deal-draws-heat-as-globalstar-echoes-spacex-concerns-rocket-lab-seeks-fast-fcc-approval/"
+  },
+  {
+   "date": "2026-10-20",
+   "headline": "Iridium Q3 2026 revenue rises 8% to $245.7 million; company reaffirms mid-2027 target to close Rocket Lab deal",
+   "summary": "Iridium Communications reported Q3 2026 total revenue of $245.7 million, up 8% year-over-year, and net income of $106.9 million including a $103.9 million gain from its earlier Aireon acquisition; billable subscribers rose to 2,696,000 from 2,542,000 a year earlier. The company said the Rocket Lab merger, already approved by Iridium stockholders, is still expected to close by mid-2027 pending remaining regulatory approvals.",
+   "summary_ja": "イリジウム・コミュニケーションズの2026年第3四半期決算は、総収入が前年比8%増の2億4570万ドルとなった。純利益は、エアリオン買収に伴う1億390万ドルの一時的利益を含め1億690万ドル。課金加入者数は前年の254万2000人から269万6000人に増加した。ロケットラボとの合併は株主承認済みで、残る規制当局の承認を前提に2027年半ばの完了を目指すとの見通しを改めて示した。",
+   "source": "Iridium Communications (SEC Form 8-K / press release)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001418819/000141881926000053/pressreleaseq32026.htm"
+  },
+  {
+   "date": "2026-10-19",
+   "headline": "Ligado tells FCC to weigh Iridium's use of spectrum petitions against rivals before clearing Rocket Lab deal",
+   "summary": "Ligado Networks, a spectrum partner of AST SpaceMobile, filed FCC comments on the Rocket Lab-Iridium license transfer arguing Iridium has used procedural petitions to obstruct competing satellite services, citing SpaceX's earlier filing that Iridium lodged more than 50 petitions to deny over an eight-month period; SpaceX has said it does not oppose the transaction itself.",
+   "summary_ja": "AST SpaceMobileの周波数提携先であるLigado Networksは、ロケットラボによるイリジウム買収の免許移転審査についてFCCにコメントを提出した。イリジウムが競合する衛星サービスを妨げる目的で手続き上の申立てを利用してきたと主張し、SpaceXが以前の申請で指摘した「8か月間で50件超の拒否申立て」を引用した。なお、SpaceX自身は買収そのものには反対していないとしている。",
+   "source": "TradingView (Stocktwits)",
+   "url": "https://www.tradingview.com/news/stocktwits:a51d2b9dd094b:0-rklb-stock-suffers-worst-week-ever-ast-spacemobile-partner-challenges-iridium-deal-claims-rival-uses-fcc-to-block-competitors/"
+  },
+  {
+   "date": "2026-10-19",
+   "headline": "FCC sets Oct 30 opposition and Nov 9 reply deadlines on Rocket Lab-Iridium license-transfer applications",
+   "summary": "The FCC's public notice (DA 26-985, GN Docket 26-257) on the Rocket Lab-Iridium license transfer set October 30, 2026 as the deadline for responses to comments and oppositions to petitions, and November 9, 2026 as the deadline for replies, after the October 15 deadline for initial comments and petitions had already passed.",
+   "summary_ja": "ロケットラボによるイリジウムの免許移転申請に関するFCCの公示(DA 26-985、GNドケット26-257)は、10月15日の意見・申立て提出期限に続き、意見への回答・申立てへの異議申立ての期限を2026年10月30日、再答弁の期限を同年11月9日と定めた。",
+   "source": "Federal Communications Commission",
+   "url": "https://docs.fcc.gov/public/attachments/DA-26-985A1.pdf"
+  },
+  {
+   "date": "2026-10-14",
+   "headline": "Rocket Lab delays Neutron rocket's debut launch from Q4 2026 to 2027 over carbon-composite structural concerns",
+   "summary": "Rocket Lab said on October 14, 2026 that the first launch of its Neutron rocket would slip from the fourth quarter of 2026 to sometime in 2027, citing carbon-composite issues found during inspections that could have compromised the vehicle's structural strength, which the company said it has since resolved; the Iridium deal's vertical-integration rationale depends on Neutron reaching orbit.",
+   "summary_ja": "ロケットラボは2026年10月14日、ニュートロン・ロケットの初打ち上げを2026年第4四半期から2027年中に延期すると発表した。検査で炭素複合材に強度上の懸念が見つかったことが理由とされ、同社はこの問題は既に解決したとしている。イリジウム買収が目指す垂直統合の完成は、ニュートロンの軌道到達が前提となっている。",
+   "source": "Light Reading",
+   "url": "https://lightreading.com/satellite/rocket-lab-s-first-neutron-rocket-launch-delayed-to-2027"
+  },
+  {
+   "date": "2026-10-07",
+   "headline": "Astronomy groups urge FCC to bind Rocket Lab to Iridium's interference-avoidance obligations before clearing license transfer",
+   "summary": "Law360 reported that astronomy groups told the FCC that Rocket Lab must be held to Iridium's existing obligations to avoid harmful interference with radio astronomy observations before the agency approves the transfer of Iridium's satellite and spectrum licenses in the pending $8 billion acquisition.",
+   "summary_ja": "Law360の報道によると、天文学関連団体は米連邦通信委員会(FCC)に対し、約80億ドルの買収案に伴うイリジウムの衛星・周波数免許のロケットラボへの移転を承認する前に、電波天文観測への有害な干渉を避けるイリジウムの既存の義務をロケットラボにも確実に継承させるよう求めた。",
+   "source": "Law360",
+   "url": "https://www.law360.com/mergersacquisitions/articles/2535084"
+  },
+  {
+   "date": "2026-09-26",
+   "headline": "Rocket Lab-Iridium deal expected to close by mid-2027 after shareholder approval, follow-up coverage says",
+   "summary": "Coverage following Iridium shareholders' September 24 approval reiterated the deal terms (Rocket Lab paying $27 in cash plus stock per share, a $54 notional value) and said the roughly $8 billion transaction is expected to close by mid-2027, pending remaining regulatory approvals.",
+   "summary_ja": "9月24日のイリジウム株主による承認を受けた続報は、取引条件(ロケットラボが1株当たり現金27ドルと株式を組み合わせ、想定価値54ドル)を改めて示すとともに、残る規制当局の承認を経て総額約80億ドルの本件取引は2027年半ばまでに完了する見通しだと伝えた。",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/investing/2026/09/26/major-milestone-passed-in-iridium-rocket-lab-tie-up/"
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "Iridium stockholders approve Rocket Lab merger with 99.6% of votes cast, about 81% of shares outstanding, in favor",
+   "summary": "At a special meeting, Iridium stockholders adopted the merger agreement under which Rocket Lab will acquire Iridium, with approximately 99.6% of votes cast in favor, representing about 81.0% of Iridium's outstanding shares entitled to vote.",
+   "summary_ja": "イリジウムは臨時株主総会で、ロケットラボによる買収に関する合併契約を承認した。投じられた票の約99.6%が賛成票で、これはイリジウムの投票権を有する発行済み株式の約81.0%に相当する。",
+   "source": "Rocket Lab (investor relations release)",
+   "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab"
+  }
+ ]
 }

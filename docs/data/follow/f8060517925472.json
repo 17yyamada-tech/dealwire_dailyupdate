@@ -1,107 +1,107 @@
 {
-  "id": "f8060517925472",
-  "title": "米マーベル、光部品大手ルメンタムを18.2兆円で買収 AIデータセンター高速接続を強化",
-  "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Z0l0NUVOS3EwenkxTGhOUVhDeEFCMlVoME5Vem9iNVdTOXVLdGd4UnNiOXBVNXU3NjhDMktRTU1DSmNzbkFnUUkwa3BxREFob1d5OVBXY1BhT1NrSmptZmhiRdIBaEFVX3lxTE1NVjBaT3NpTEhuR3VLa1lsT1N4SjFYbWpxNnh2ODRWQ0FadXlVRDJxN2xneS1pYlV5Vnd1MTlzOTR5SWFubHl6NGRpcEtOeVYySlhZVDhuM1ktVk8yZng5aDAxOHhSX0Vt?oc=5",
-  "source": "Japan M&A",
-  "published": "2026-11-03T01:15:28Z",
-  "checked_at": "2026-11-09T04:49:01Z",
-  "status": {
-    "as_of": "2026-11-07",
-    "text": "Marvell's $115bn all-stock Lumentum deal awaits shareholder and regulatory approval, due to close H1 2028. TD Cowen and BofA downgraded Marvell Nov 3 on dilution risk; Lumentum's Nov 5 results beat estimates.",
-    "text_ja": "マーベルの1150億ドルのルメンタム買収は承認待ちで28年前半完了予定。TDコーウェンとBofAは3日、希薄化懸念で格下げ。ルメンタムの5日決算は市場予想を上回った。",
-    "refs": [
-      {
-        "list": "since",
-        "url": "https://stocktwits.com/news-articles/markets/equity/mrvl-stock-price-target-slashed-in-half-material-headwinds-after-lumentum-deal-td-cowen-says-in-downgrade/cNGXRDdR95k"
-      },
-      {
-        "list": "since",
-        "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
-      }
-    ]
-  },
-  "background": [
-    {
-      "date": "2026-10-29",
-      "headline": "Marvell shares fall about 13% to $218.34 while Lumentum rises on report of advanced acquisition talks",
-      "summary": "A day after Bloomberg's report of advanced Marvell-Lumentum talks, Marvell closed down roughly 13% at $218.34 while Lumentum gained about 5.5%; the move was attributed to investor concern over dilution from a likely all-stock deal, given Marvell's roughly $3.9 billion cash versus Lumentum's roughly $83 billion market value.",
-      "summary_ja": "ブルームバーグが両社の買収交渉を報じた翌日、マーベル株は約13%下落し218.34ドルで終えた一方、ルメンタム株は約5.5%上昇した。マーベルの手元資金約39億ドルに対しルメンタムの市場価値は約830億ドルと大きく、全株式での買収になればマーベル株主の希薄化が避けられないとの懸念が背景にあるとされる。",
-      "source": "The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/10/29/why-marvell-stock-is-down-today/"
-    },
-    {
-      "date": "2026-10-28",
-      "headline": "Bloomberg: Marvell in advanced talks to acquire Lumentum, deal could be announced within a week",
-      "summary": "Bloomberg reported Marvell Technology was in advanced talks to acquire optics maker Lumentum Holdings in an all-stock transaction, with an announcement possible as soon as the following week; no final agreement, price or exchange ratio had been reached at that point.",
-      "summary_ja": "ブルームバーグは、マーベル・テクノロジーが光学部品メーカーのルメンタム・ホールディングスを全株式交換方式で買収する交渉を進めており、早ければ翌週にも発表される可能性があると報じた。この時点では最終合意や価格、交換比率は確定していなかった。",
-      "source": "Bloomberg (via The Next Web)",
-      "url": "https://thenextweb.com/news/marvell-lumentum-deal-talks-bloomberg"
-    },
-    {
-      "date": "2026-10",
-      "headline": "Lumentum CEO says AI optical components sold out through early 2029, pushing back prior 2028 timeline",
-      "summary": "Lumentum CEO Michael Hurlston told Bloomberg Television that the company's AI optical components are effectively sold out through early 2029, later than a 2028 sell-out horizon he had cited roughly six months earlier, citing new laser capacity taking about three years to come online.",
-      "summary_ja": "ルメンタムのマイケル・ハールストンCEOはブルームバーグTVに対し、AI向け光学部品の受注が2029年初頭まで実質的に埋まっていると述べた。約半年前に言及していた2028年完売という見通しから後退した形で、新規レーザー生産能力の立ち上げには約3年かかることが理由とされる。",
-      "source": "Bloomberg TV (via TIKR)",
-      "url": "https://www.tikr.com/blog/lumentum-stock-jumps-ai-optical-components-sold-out-2029"
-    },
-    {
-      "date": "2026-03-02",
-      "headline": "Nvidia invests $2 billion in Lumentum with multiyear optics supply agreement",
-      "summary": "Nvidia announced a $2 billion investment in Lumentum alongside multiyear purchase and capacity-access agreements for advanced laser and optical components, with proceeds supporting Lumentum's R&D and new US manufacturing capacity to meet AI data-center demand.",
-      "summary_ja": "エヌビディアはルメンタムに20億ドルを出資すると発表した。先進的なレーザー・光学部品について複数年の購買契約と生産能力確保の取り決めも結ばれ、資金はルメンタムの研究開発と米国内での新規生産能力の増強に使われる。AIデータセンター向け需要への対応が狙いとされる。",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/nvidia-pumps-2bn-into-optical-developer-lumentum/"
-    },
-    {
-      "date": "2025-12-02",
-      "headline": "Marvell agrees to acquire optical-interconnect startup Celestial AI for up to $5.5 billion",
-      "summary": "Marvell agreed to acquire Celestial AI, maker of the optical 'Photonic Fabric' interconnect for AI racks, for about $3.25 billion upfront ($1 billion cash plus roughly 27.2 million Marvell shares), rising to as much as $5.5 billion if revenue milestones through fiscal 2029 are met; the deal was described as building Marvell's optical scale-up connectivity roadmap ahead of its later move on Lumentum.",
-      "summary_ja": "マーベルは、AIラック向け光インターコネクト「フォトニック・ファブリック」を手掛けるセレスティアルAIを、現金10億ドルと株式約2720万株を合わせた当初約32.5億ドルで買収することに合意した。2029会計年度までの収益目標達成時には最大55億ドルに達する可能性がある。マーベルの光学「スケールアップ」接続戦略の一環とされ、後のルメンタム買収につながる布石と位置付けられる。",
-      "source": "Nasdaq (RTTNews)",
-      "url": "https://www.nasdaq.com/articles/marvell-acquire-celestial-ai-325-bln-deal"
-    }
-  ],
-  "since": [
-    {
-      "date": "2026-11-05",
-      "headline": "Lumentum posts Q1 FY2027 revenue of $1.26 billion, more than double year-ago quarter, and guides Q2 above $1.57 billion",
-      "summary": "Lumentum reported fiscal first-quarter 2027 (ended 26 September 2026) net revenue of $1.26 billion versus $533.8 million a year earlier, with GAAP net income of $360.3 million ($3.54/share) and non-GAAP net income of $461.1 million ($4.57/share); it guided second-quarter revenue to $1.575-$1.625 billion and said it secured a second major optical-switch (NPO/CPO) customer backed by purchase commitments exceeding $5 billion.",
-      "summary_ja": "ルメンタムは2027会計年度第1四半期(9月26日締め)の売上高が12.6億ドルとなり、前年同期の5.338億ドルから倍増したと発表した。GAAP純利益は3.603億ドル(1株3.54ドル)、非GAAP純利益は4.611億ドル(1株4.57ドル)。第2四半期の売上高は15.75億~16.25億ドルを見込むとし、購入コミットメント50億ドル超を伴う光スイッチ(NPO/CPO)の大口顧客を新たに獲得したと説明した。",
-      "source": "Lumentum Holdings (press release)",
-      "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
-    },
-    {
-      "date": "2026-11-03",
-      "headline": "TD Cowen and BofA downgrade Marvell on Lumentum-deal dilution, slash price targets",
-      "summary": "TD Cowen downgraded Marvell to Hold from Buy and cut its price target to $175 from $350, citing mid-single-digit EPS dilution expected in 2028 and concern the deal may be timed near the peak of the AI optical-component cycle; Bank of America downgraded Marvell to Neutral from Buy and cut its target to $225 from $400, saying Marvell's $1 billion in planned cost savings looks insufficient to offset roughly 50% share-count dilution from the all-stock Lumentum deal.",
-      "summary_ja": "TDコーウェンはマーベルを「買い」から「中立」に格下げし目標株価を350ドルから175ドルに引き下げた。2028年に一桁台半ばのEPS希薄化が生じ、AI向け光部品サイクルのピーク近くでの買収になるとの懸念を理由とした。バンク・オブ・アメリカも「買い」から「中立」へ格下げし目標株価を400ドルから225ドルに引き下げ、約10億ドルのコスト削減計画は約50%の株式数希薄化を相殺するには不十分と指摘した。",
-      "source": "Stocktwits (The Fly)",
-      "url": "https://stocktwits.com/news-articles/markets/equity/mrvl-stock-price-target-slashed-in-half-material-headwinds-after-lumentum-deal-td-cowen-says-in-downgrade/cNGXRDdR95k"
-    },
-    {
-      "date": "2026-11-02",
-      "headline": "Marvell and Lumentum confirm definitive all-stock merger; implied enterprise value about $115 billion",
-      "summary": "Marvell Technology and Lumentum Holdings signed a definitive merger agreement under which each Lumentum share converts into 4.5 Marvell shares, an all-stock deal with an implied enterprise value of about $115 billion for Lumentum (about $1,132 per share) and a premium of roughly 23.9% to Lumentum's unaffected price; Marvell shareholders would hold about 67% and Lumentum shareholders about 33% of the combined company, which the companies said would address a combined addressable market of about $550 billion with over $1 billion in annual run-rate cost synergies. The deal remains subject to shareholder votes and US and Chinese regulatory approval.",
-      "summary_ja": "マーベル・テクノロジーとルメンタム・ホールディングスは、ルメンタム1株をマーベル株4.5株に交換する全株式での買収契約を締結した。企業価値は約1150億ドル(1株あたり約1132ドル)、プレミアムは非公表前終値に対し約23.9%。買収完了後はマーベル株主が約67%、ルメンタム株主が約33%を保有する見通し。両社は合計市場規模約5500億ドル、年間コスト相乗効果10億ドル超を見込むとしている。取引は株主承認および米中の規制当局の承認を前提とする。",
-      "source": "Marvell Technology / Lumentum Holdings (SEC filing)",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526442714/d81187dex991.htm"
-    },
-    {
-      "date": "2026-11-02",
-      "headline": "Marvell discloses 12-18 month closing timeline and post-merger board composition for Lumentum deal",
-      "summary": "In SEC Form 425 filings and a joint call with customers and employees on 2 November 2026, Marvell and Lumentum said the merger is expected to close in approximately 12 to 18 months (a separate Marvell communication cited the first half of calendar 2028), subject to Lumentum and Marvell shareholder votes and required regulatory approvals; Matt Murphy will remain Chairman and CEO of the combined company, and three Lumentum directors, including CEO Michael Hurlston, will join Marvell's then seven-member board.",
-      "summary_ja": "マーベルとルメンタムは11月2日、顧客・従業員向けの説明会やSECへのForm 425提出資料で、買収完了は概ね12~18カ月後を見込むと説明した(別の資料では2028年前半という表現もある)。両社の株主承認と必要な規制当局の承認が前提となる。買収完了後もマット・マーフィーが統合会社の会長兼CEOを続け、ルメンタムのマイケル・ハールストンCEOを含む取締役3人が、現在7人のマーベル取締役会に加わる予定。",
-      "source": "Marvell Technology / Lumentum Holdings (SEC Form 425 filing)",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526443841/d136689d425.htm"
-    },
-    {
-      "date": "2026-11-02",
-      "headline": "Lumentum 8-K discloses up to $5.8bn and $3.2bn termination fees tied to Marvell merger agreement",
-      "summary": "Lumentum's Form 8-K on the Marvell merger disclosed termination fees including a $5.8 billion fee and a reciprocal $2.9 billion fee tied to competing-transaction scenarios, plus a separate $3.2 billion fee payable by Marvell to Lumentum if the deal fails over a final Hart-Scott-Rodino-related antitrust restraint or a denied required regulatory approval; closing is conditioned on expiration of the HSR waiting period among other approvals.",
-      "summary_ja": "ルメンタムが提出したマーベル買収に関する8-K開示によれば、競合取引が絡む解除事由では58億ドル、ルメンタム側の対応する解約金は29億ドルとされる。また、ハート・スコット・ロディノ法に基づく独禁法上の障害や必要な規制承認が得られず取引が不成立となった場合には、マーベルがルメンタムに別途32億ドルの解約金を支払うと定められている。買収完了にはHSR待機期間の終了などが条件となる。",
-      "source": "Lumentum Holdings (SEC Form 8-K)",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169d8k.htm"
-    }
+ "id": "f8060517925472",
+ "title": "米マーベル、光部品大手ルメンタムを18.2兆円で買収 AIデータセンター高速接続を強化",
+ "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Z0l0NUVOS3EwenkxTGhOUVhDeEFCMlVoME5Vem9iNVdTOXVLdGd4UnNiOXBVNXU3NjhDMktRTU1DSmNzbkFnUUkwa3BxREFob1d5OVBXY1BhT1NrSmptZmhiRdIBaEFVX3lxTE1NVjBaT3NpTEhuR3VLa1lsT1N4SjFYbWpxNnh2ODRWQ0FadXlVRDJxN2xneS1pYlV5Vnd1MTlzOTR5SWFubHl6NGRpcEtOeVYySlhZVDhuM1ktVk8yZng5aDAxOHhSX0Vt?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-11-03T01:15:28Z",
+ "checked_at": "2026-11-09T07:49:10Z",
+ "status": {
+  "as_of": "2026-11-07",
+  "text": "Marvell's $115bn all-stock Lumentum deal awaits shareholder and regulatory approval, due to close H1 2028. TD Cowen and BofA downgraded Marvell Nov 3 on dilution risk; Lumentum's Nov 5 results beat estimates.",
+  "text_ja": "マーベルの1150億ドルのルメンタム買収は承認待ちで28年前半完了予定。TDコーウェンとBofAは3日、希薄化懸念で格下げ。ルメンタムの5日決算は市場予想を上回った。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://stocktwits.com/news-articles/markets/equity/mrvl-stock-price-target-slashed-in-half-material-headwinds-after-lumentum-deal-td-cowen-says-in-downgrade/cNGXRDdR95k"
+   },
+   {
+    "list": "since",
+    "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+   }
   ]
+ },
+ "background": [
+  {
+   "date": "2026-10-29",
+   "headline": "Marvell shares fall about 13% to $218.34 while Lumentum rises on report of advanced acquisition talks",
+   "summary": "A day after Bloomberg's report of advanced Marvell-Lumentum talks, Marvell closed down roughly 13% at $218.34 while Lumentum gained about 5.5%; the move was attributed to investor concern over dilution from a likely all-stock deal, given Marvell's roughly $3.9 billion cash versus Lumentum's roughly $83 billion market value.",
+   "summary_ja": "ブルームバーグが両社の買収交渉を報じた翌日、マーベル株は約13%下落し218.34ドルで終えた一方、ルメンタム株は約5.5%上昇した。マーベルの手元資金約39億ドルに対しルメンタムの市場価値は約830億ドルと大きく、全株式での買収になればマーベル株主の希薄化が避けられないとの懸念が背景にあるとされる。",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/investing/2026/10/29/why-marvell-stock-is-down-today/"
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Bloomberg: Marvell in advanced talks to acquire Lumentum, deal could be announced within a week",
+   "summary": "Bloomberg reported Marvell Technology was in advanced talks to acquire optics maker Lumentum Holdings in an all-stock transaction, with an announcement possible as soon as the following week; no final agreement, price or exchange ratio had been reached at that point.",
+   "summary_ja": "ブルームバーグは、マーベル・テクノロジーが光学部品メーカーのルメンタム・ホールディングスを全株式交換方式で買収する交渉を進めており、早ければ翌週にも発表される可能性があると報じた。この時点では最終合意や価格、交換比率は確定していなかった。",
+   "source": "Bloomberg (via The Next Web)",
+   "url": "https://thenextweb.com/news/marvell-lumentum-deal-talks-bloomberg"
+  },
+  {
+   "date": "2026-10",
+   "headline": "Lumentum CEO says AI optical components sold out through early 2029, pushing back prior 2028 timeline",
+   "summary": "Lumentum CEO Michael Hurlston told Bloomberg Television that the company's AI optical components are effectively sold out through early 2029, later than a 2028 sell-out horizon he had cited roughly six months earlier, citing new laser capacity taking about three years to come online.",
+   "summary_ja": "ルメンタムのマイケル・ハールストンCEOはブルームバーグTVに対し、AI向け光学部品の受注が2029年初頭まで実質的に埋まっていると述べた。約半年前に言及していた2028年完売という見通しから後退した形で、新規レーザー生産能力の立ち上げには約3年かかることが理由とされる。",
+   "source": "Bloomberg TV (via TIKR)",
+   "url": "https://www.tikr.com/blog/lumentum-stock-jumps-ai-optical-components-sold-out-2029"
+  },
+  {
+   "date": "2026-03-02",
+   "headline": "Nvidia invests $2 billion in Lumentum with multiyear optics supply agreement",
+   "summary": "Nvidia announced a $2 billion investment in Lumentum alongside multiyear purchase and capacity-access agreements for advanced laser and optical components, with proceeds supporting Lumentum's R&D and new US manufacturing capacity to meet AI data-center demand.",
+   "summary_ja": "エヌビディアはルメンタムに20億ドルを出資すると発表した。先進的なレーザー・光学部品について複数年の購買契約と生産能力確保の取り決めも結ばれ、資金はルメンタムの研究開発と米国内での新規生産能力の増強に使われる。AIデータセンター向け需要への対応が狙いとされる。",
+   "source": "Data Center Dynamics",
+   "url": "https://www.datacenterdynamics.com/en/news/nvidia-pumps-2bn-into-optical-developer-lumentum/"
+  },
+  {
+   "date": "2025-12-02",
+   "headline": "Marvell agrees to acquire optical-interconnect startup Celestial AI for up to $5.5 billion",
+   "summary": "Marvell agreed to acquire Celestial AI, maker of the optical 'Photonic Fabric' interconnect for AI racks, for about $3.25 billion upfront ($1 billion cash plus roughly 27.2 million Marvell shares), rising to as much as $5.5 billion if revenue milestones through fiscal 2029 are met; the deal was described as building Marvell's optical scale-up connectivity roadmap ahead of its later move on Lumentum.",
+   "summary_ja": "マーベルは、AIラック向け光インターコネクト「フォトニック・ファブリック」を手掛けるセレスティアルAIを、現金10億ドルと株式約2720万株を合わせた当初約32.5億ドルで買収することに合意した。2029会計年度までの収益目標達成時には最大55億ドルに達する可能性がある。マーベルの光学「スケールアップ」接続戦略の一環とされ、後のルメンタム買収につながる布石と位置付けられる。",
+   "source": "Nasdaq (RTTNews)",
+   "url": "https://www.nasdaq.com/articles/marvell-acquire-celestial-ai-325-bln-deal"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-05",
+   "headline": "Lumentum posts Q1 FY2027 revenue of $1.26 billion, more than double year-ago quarter, and guides Q2 above $1.57 billion",
+   "summary": "Lumentum reported fiscal first-quarter 2027 (ended 26 September 2026) net revenue of $1.26 billion versus $533.8 million a year earlier, with GAAP net income of $360.3 million ($3.54/share) and non-GAAP net income of $461.1 million ($4.57/share); it guided second-quarter revenue to $1.575-$1.625 billion and said it secured a second major optical-switch (NPO/CPO) customer backed by purchase commitments exceeding $5 billion.",
+   "summary_ja": "ルメンタムは2027会計年度第1四半期(9月26日締め)の売上高が12.6億ドルとなり、前年同期の5.338億ドルから倍増したと発表した。GAAP純利益は3.603億ドル(1株3.54ドル)、非GAAP純利益は4.611億ドル(1株4.57ドル)。第2四半期の売上高は15.75億~16.25億ドルを見込むとし、購入コミットメント50億ドル超を伴う光スイッチ(NPO/CPO)の大口顧客を新たに獲得したと説明した。",
+   "source": "Lumentum Holdings (press release)",
+   "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "TD Cowen and BofA downgrade Marvell on Lumentum-deal dilution, slash price targets",
+   "summary": "TD Cowen downgraded Marvell to Hold from Buy and cut its price target to $175 from $350, citing mid-single-digit EPS dilution expected in 2028 and concern the deal may be timed near the peak of the AI optical-component cycle; Bank of America downgraded Marvell to Neutral from Buy and cut its target to $225 from $400, saying Marvell's $1 billion in planned cost savings looks insufficient to offset roughly 50% share-count dilution from the all-stock Lumentum deal.",
+   "summary_ja": "TDコーウェンはマーベルを「買い」から「中立」に格下げし目標株価を350ドルから175ドルに引き下げた。2028年に一桁台半ばのEPS希薄化が生じ、AI向け光部品サイクルのピーク近くでの買収になるとの懸念を理由とした。バンク・オブ・アメリカも「買い」から「中立」へ格下げし目標株価を400ドルから225ドルに引き下げ、約10億ドルのコスト削減計画は約50%の株式数希薄化を相殺するには不十分と指摘した。",
+   "source": "Stocktwits (The Fly)",
+   "url": "https://stocktwits.com/news-articles/markets/equity/mrvl-stock-price-target-slashed-in-half-material-headwinds-after-lumentum-deal-td-cowen-says-in-downgrade/cNGXRDdR95k"
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Marvell and Lumentum confirm definitive all-stock merger; implied enterprise value about $115 billion",
+   "summary": "Marvell Technology and Lumentum Holdings signed a definitive merger agreement under which each Lumentum share converts into 4.5 Marvell shares, an all-stock deal with an implied enterprise value of about $115 billion for Lumentum (about $1,132 per share) and a premium of roughly 23.9% to Lumentum's unaffected price; Marvell shareholders would hold about 67% and Lumentum shareholders about 33% of the combined company, which the companies said would address a combined addressable market of about $550 billion with over $1 billion in annual run-rate cost synergies. The deal remains subject to shareholder votes and US and Chinese regulatory approval.",
+   "summary_ja": "マーベル・テクノロジーとルメンタム・ホールディングスは、ルメンタム1株をマーベル株4.5株に交換する全株式での買収契約を締結した。企業価値は約1150億ドル(1株あたり約1132ドル)、プレミアムは非公表前終値に対し約23.9%。買収完了後はマーベル株主が約67%、ルメンタム株主が約33%を保有する見通し。両社は合計市場規模約5500億ドル、年間コスト相乗効果10億ドル超を見込むとしている。取引は株主承認および米中の規制当局の承認を前提とする。",
+   "source": "Marvell Technology / Lumentum Holdings (SEC filing)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526442714/d81187dex991.htm"
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Marvell discloses 12-18 month closing timeline and post-merger board composition for Lumentum deal",
+   "summary": "In SEC Form 425 filings and a joint call with customers and employees on 2 November 2026, Marvell and Lumentum said the merger is expected to close in approximately 12 to 18 months (a separate Marvell communication cited the first half of calendar 2028), subject to Lumentum and Marvell shareholder votes and required regulatory approvals; Matt Murphy will remain Chairman and CEO of the combined company, and three Lumentum directors, including CEO Michael Hurlston, will join Marvell's then seven-member board.",
+   "summary_ja": "マーベルとルメンタムは11月2日、顧客・従業員向けの説明会やSECへのForm 425提出資料で、買収完了は概ね12~18カ月後を見込むと説明した(別の資料では2028年前半という表現もある)。両社の株主承認と必要な規制当局の承認が前提となる。買収完了後もマット・マーフィーが統合会社の会長兼CEOを続け、ルメンタムのマイケル・ハールストンCEOを含む取締役3人が、現在7人のマーベル取締役会に加わる予定。",
+   "source": "Marvell Technology / Lumentum Holdings (SEC Form 425 filing)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526443841/d136689d425.htm"
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Lumentum 8-K discloses up to $5.8bn and $3.2bn termination fees tied to Marvell merger agreement",
+   "summary": "Lumentum's Form 8-K on the Marvell merger disclosed termination fees including a $5.8 billion fee and a reciprocal $2.9 billion fee tied to competing-transaction scenarios, plus a separate $3.2 billion fee payable by Marvell to Lumentum if the deal fails over a final Hart-Scott-Rodino-related antitrust restraint or a denied required regulatory approval; closing is conditioned on expiration of the HSR waiting period among other approvals.",
+   "summary_ja": "ルメンタムが提出したマーベル買収に関する8-K開示によれば、競合取引が絡む解除事由では58億ドル、ルメンタム側の対応する解約金は29億ドルとされる。また、ハート・スコット・ロディノ法に基づく独禁法上の障害や必要な規制承認が得られず取引が不成立となった場合には、マーベルがルメンタムに別途32億ドルの解約金を支払うと定められている。買収完了にはHSR待機期間の終了などが条件となる。",
+   "source": "Lumentum Holdings (SEC Form 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169d8k.htm"
+  }
+ ]
 }
