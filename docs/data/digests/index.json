@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-09-1530",
+      "label": "9 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-09T07:37:23Z",
+      "items": 5,
+      "headlines": [
+        "Strathcona Resources agrees to acquire Greenfire Resources for about $2bn, consolidating Canadian oil sands",
+        "Kobe Steel subsidiary to acquire CNH Industrial's construction-machinery business",
+        "JX Metals and crystal-materials maker Oxide sign capital and business alliance"
+      ]
+    },
+    {
       "id": "2026-11-09-1230",
       "label": "9 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-09T04:35:08Z",
