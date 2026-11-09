@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-09-1230",
+      "label": "9 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-09T04:35:08Z",
+      "items": 6,
+      "headlines": [
+        "Mitsui Chemicals formally announces ¥1.84tn ($11.6bn) JSR buyout, backed by DBJ bridge loan",
+        "China's Huaxin to buy Brazil's No. 2 cement producer, investing ¥260bn in South America push",
+        "Japan's newmo raises ¥20.8bn Series B led by KDDI for taxi and autonomous-driving business"
+      ]
+    },
+    {
       "id": "2026-11-09-0830",
       "label": "9 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-09T00:35:14Z",

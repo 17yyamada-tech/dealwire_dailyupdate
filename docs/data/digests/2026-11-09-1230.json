@@ -1,0 +1,179 @@
+{
+  "edition": "2026-11-09-1230",
+  "edition_label": "9 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T04:35:08Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Mitsui Chemicals formally announces ¥1.84tn ($11.6bn) JSR buyout, backed by DBJ bridge loan",
+      "summary": "Mitsui Chemicals has formally announced the acquisition of JSR for ¥1.84 trillion ($11.6 billion), described as the largest deal in Japan's chemicals industry, with the Development Bank of Japan providing joint backing. The purchase is being funded in part through a ¥1.64 trillion bridge loan, and Mitsui Chemicals shares fell to a fresh year-to-date low on the news.",
+      "why_it_matters": "The signed agreement turns months of reported talks into Japan's largest-ever chemicals deal and one of the biggest bets yet on AI-driven demand for semiconductor materials, though the scale of the bridge financing underscores the balance-sheet strain the acquirer is taking on to get there.",
+      "summary_ja": "三井化学は、JSRの買収を正式に発表した。買収額は1兆8400億円（116億ドル）で、日本の化学業界で過去最大の取引とされる。日本政策投資銀行（DBJ）が共同で支援する。資金の一部は1兆6400億円のブリッジローンで調達し、発表を受けて三井化学株は年初来安値を更新した。",
+      "why_it_matters_ja": "正式契約により、数カ月続いた報道段階の交渉が日本の化学業界史上最大の買収へと結実し、AI主導の半導体材料需要に対する最大級の賭けとなった。一方でブリッジローンの規模の大きさは、買収実現のために買い手が抱える財務負担の重さを浮き彫りにしている。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-07-1530",
+        "index": 1
+      },
+      "key": "jic-jsr-mitsui-chemicals",
+      "ids": [
+        "d2aa3573422a8d",
+        "c52313f10b93be",
+        "46d26442f475cb"
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "Materials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeEo3VGo0VUx2M2dMMDdpbmZUd1Z6V2VnSnFicHFqc0o4MjVjSWtoTG5oWS1nRllSa2dBNWdKb2QwNklDRWJjSTdiek1PTXNlcU45c3ZuYnFGc0lkTGtybWU3cDJhWEExaHY5YnVJaFJHUXVjVWRIbjBKRnFRTmVnUkdmV2lfLWNJZlVfMnlB?oc=5"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/mitsui-chemicals-and-dbj-buy-jsr-116-billion-filing-shows-6535076"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91aUJpekJEb0NSSFlDblJOZWp3cVgwTkY2TWcyaGVveFgyMjBuWmtCYk4ta2Y5cG1wVkswQ0ZTc3RKVGVHUFdkMjZPOW5xLXM?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "China's Huaxin to buy Brazil's No. 2 cement producer, investing ¥260bn in South America push",
+      "summary": "China's Huaxin is acquiring Brazil's second-largest cement producer, investing ¥260 billion as it expands into South America, according to Japan M&A reporting.",
+      "why_it_matters": "The purchase extends Chinese building-materials groups' push into Latin America as they look for growth outside a slowing domestic construction market, giving Huaxin an established platform in one of the region's largest cement markets.",
+      "summary_ja": "中国の華新建材は、ブラジルで業界2位のセメント会社を買収する。南米事業の拡大に向けて2600億円を投じる。日本のM&A報道が伝えた。",
+      "why_it_matters_ja": "この買収は、国内の建設需要が鈍る中で成長機会を求める中国の建材企業によるラテンアメリカ進出の動きを広げるものであり、華新は南米最大級のセメント市場の一つで既存の事業基盤を手に入れる。",
+      "status": "new",
+      "prev": null,
+      "key": "huaxin-brazil-cement-acquisition",
+      "ids": [
+        "30623ae87ec89a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xNXFOV19naFJpT0w2M1B6VzBjLWhmZ3FpVDNfTUVtRFZLblhBWG1kc054ZHh3QzBiOW1PVTRQQ3VZcTg5YndZQW8wZ3JlcE1EQWIwQTRFeTJNSEFxZGNyTmVVeEVxZWhB?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Japan's newmo raises ¥20.8bn Series B led by KDDI for taxi and autonomous-driving business",
+      "summary": "Newmo, a Japanese taxi and autonomous-driving operator, has raised ¥20.8 billion in a Series B round led by telecoms group KDDI, according to a Japan disclosure.",
+      "why_it_matters": "KDDI's lead role shows one of Japan's largest telecom operators moving to anchor a position in mobility and autonomous-driving infrastructure, a capital-intensive bet that individual taxi operators have struggled to fund alone.",
+      "summary_ja": "タクシー事業と自動運転事業を手がける日本のnewmoは、通信大手KDDIをリード投資家とするシリーズBで208億円を調達した。日本の開示情報が伝えた。",
+      "why_it_matters_ja": "KDDIが主導する形となったことは、日本の大手通信会社がモビリティと自動運転インフラの領域で足場を築きにかかっていることを示す。個々のタクシー事業者だけでは資金を出しにくい、資本集約的な賭けである。",
+      "status": "new",
+      "prev": null,
+      "key": "newmo-series-b-kddi",
+      "ids": [
+        "6c40ef23f917e1"
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkV2Vma3AzLVdHRXJfZFNtVWFKdF9Hdk9zNkNkX2FQNTZPY3pYaWZwaWpBMElWS0Z2S3hPVEg1YU5nUDdWcFowRzZJYWxKbmNGaFZ0RXloY0FWMm1kM0VLSnM4QTBZUGRWZUM3WTNMSTZUdzVFaVlxRDNub2Q?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Hapsoro-owned RAJA acquires Kapalindo Nusantara after securing bank financing",
+      "summary": "RAJA, a company owned by Hapsoro, has acquired Kapalindo Nusantara after securing bank financing to fund the deal, according to Japan M&A reporting.",
+      "why_it_matters": "The deal shows an Indonesian group turning to bank debt rather than equity to fund expansion, a financing choice credit investors will track given how exposed Indonesian corporate borrowers are to interest-rate swings.",
+      "summary_ja": "Hapsoro氏が保有するRAJAは、買収資金となる銀行融資を確保した上でKapalindo Nusantaraを買収した。日本のM&A報道が伝えた。",
+      "why_it_matters_ja": "株式ではなく銀行融資で買収資金を調達した点は、インドネシアの企業グループの資金調達姿勢を示すものであり、金利動向への感応度が高いインドネシア企業の債務について、クレジット投資家が注視すべき材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "raja-hapsoro-kapalindo-nusantara",
+      "ids": [
+        "ba45049fb35f19"
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2tTaTRYY0h5LWJxSWxKTW9IR3VlUXVHSmVrb1JnU1RqalFLMWRxRWJtSXdzbG44MWRaWnAwWlhObms4LXRyMUZnZ3lyQU96d2M4Z0tBd1Jwb09vRldUZUhFQzFtSk5OcF9kQW0tTzl1WnBXVEJIQ1JnSXc3VTI1RGF6VGVMbmRKUWxwTWxqNl9JOFhJQml0YzBDd0VsdWozVWkzNw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Up Garage Group launches ¥1,197-a-share buyback tender as top shareholder plans exit",
+      "summary": "Up Garage Group has launched a self-tender offer for its own shares at ¥1,197 apiece after its largest shareholder signaled plans to sell its stake, according to Traders Web reporting carried by Japan M&A.",
+      "why_it_matters": "The buyback offers the top shareholder an exit while letting Up Garage Group manage the resulting share overhang itself, rather than risk the stake landing with an unwanted outside buyer in the open market.",
+      "summary_ja": "アップガレージグループは、筆頭株主が株式売却の意向を示したことを受け、1株1197円で自己株TOBを実施する。トレーダーズ・ウェブの報道を日本のM&Aが伝えた。",
+      "why_it_matters_ja": "自己株TOBにより、筆頭株主は売却の出口を確保しつつ、アップガレージグループは市場で望まない買い手に株式が渡るリスクを避け、株式の供給過剰を自ら管理できるようになる。",
+      "status": "new",
+      "prev": null,
+      "key": "upgarage-self-tender-buyback",
+      "ids": [
+        "69a4a98e797e1c"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZG5DbGZISWJHeTJ0YjJJQjY2YUpsdUtmYm1uYURteVc0X2dlZHMzM2tsWnV0ekFvSm94bjB6M3VBU2ZhY1lzUEtzUVhRVUhqbXJCXzdPUzdkalFyY3BwdkIzMTU0amlHQ29EQy1JdWVBZFBtaVljaWFDamhlVldRS3VTR2hDV3M?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Pierre Fabre targets €60m annual investment, eyes Malaysia expansion to double Asia revenue",
+      "summary": "French cosmetics and pharmaceuticals maker Pierre Fabre is pursuing an 'Asia-first' strategy aimed at doubling its regional revenue, targeting about €60 million in annual investment as it considers expansion in Malaysia, according to The Business Times.",
+      "why_it_matters": "The plan adds a European consumer-health group to the list of multinationals treating Southeast Asia as a primary growth engine rather than a secondary market, with Malaysia positioned as a potential new manufacturing or distribution base.",
+      "summary_ja": "フランスの化粧品・製薬大手ピエール・ファーブルは、アジア事業の売上倍増を目指す「アジア・ファースト」戦略を進めており、年間約6000万ユーロの投資とマレーシアでの事業拡大を検討している。ビジネス・タイムズが報じた。",
+      "why_it_matters_ja": "この投資計画は、東南アジアを二次的な市場ではなく成長の主軸と位置付ける欧州の消費者向けヘルスケア企業の一例であり、マレーシアは同社にとって新たな製造・販売拠点となる可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "pierre-fabre-asia-first-strategy",
+      "ids": [
+        "8811864bf7ec10"
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Healthcare"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/consumer-healthcare/asia-first-strategy-cosmetics-and-pharma-maker-pierre-fabre-seeks-double-regional-revenue"
+        }
+      ]
+    }
+  ]
+}
