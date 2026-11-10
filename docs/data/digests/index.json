@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-10-0830",
+      "label": "10 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-10T00:31:00Z",
+      "items": 10,
+      "headlines": [
+        "argenx shares jump as it agrees to buy Un-Natural Products for about $1.15bn, including $550m upfront, betting on oral peptide drugs",
+        "LS Power to buy 4.9GW of NRG Energy gas-fired power plants across three US grid regions",
+        "Royal Bank of Canada agrees to acquire Australian asset manager Yarra Capital Management"
+      ]
+    },
+    {
       "id": "2026-11-09-1530",
       "label": "9 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-09T07:37:23Z",
