@@ -4,19 +4,15 @@
  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d0podHFDaFcydVBiWUt1c0FiektXWWYxdVJaZ244cjNsVDhRT3o3aFlmcWN1QUVKUUhKRUNjVUVXYjdQbTJITlVsZVNScGF1NDN0Si1yWWxMUmplN3NTY0toNVphNGsyYjdDVHd1TFVHcVhV?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-26T18:17:00Z",
- "checked_at": "2026-11-09T07:49:10Z",
+ "checked_at": "2026-11-10T00:55:36Z",
  "status": {
-  "as_of": "2026-11-04",
-  "text": "FCC reply deadline is Nov 9; Rocket Lab and Iridium urged fast approval in an Oct 30 filing. Globalstar raised supplier-relationship concerns Nov 3 but did not oppose the deal; close still targeted mid-2027.",
-  "text_ja": "FCC再答弁期限は11月9日。両社は10月30日に迅速承認を要請。グローバルスターは11月3日、サプライヤー関係への懸念を提起したが反対はせず、完了は27年半ば目標のまま。",
+  "as_of": "2026-11-10",
+  "text": "FCC reply deadline passed Nov 9 with no ruling yet; Rocket Lab's Q3 earnings reaffirmed the Iridium deal is fully funded and on track for a mid-2027 close.",
+  "text_ja": "FCCの返答期限は11月9日に過ぎたが裁定は未出。ロケットラボの第3四半期決算で、イリジウム買収資金は全額確保済み、2027年半ば完了目標も維持と確認された。",
   "refs": [
    {
     "list": "since",
-    "url": "https://www.tradingview.com/news/stocktwits:411a13f44094b:0-rklb-s-iridium-deal-draws-heat-as-globalstar-echoes-spacex-concerns-rocket-lab-seeks-fast-fcc-approval/"
-   },
-   {
-    "list": "since",
-    "url": "https://www.satellitetoday.com/connectivity/2026/11/03/globalstar-questions-supplier-relationship-with-rocket-lab-when-iridium-acquisition-closes/"
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
    }
   ]
  },
@@ -71,6 +67,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-09",
+   "headline": "Rocket Lab Q3 revenue jumps 73% to $268 million; reaffirms Iridium deal fully funded for mid-2027 close",
+   "summary": "Rocket Lab reported record Q3 2026 revenue of $268 million, up 73% year-over-year, with backlog reaching approximately $3.6 billion. The company said its pending Iridium acquisition remains fully funded via its completed $1.94 billion ATM equity offering and is still targeted to close by mid-2027.",
+   "summary_ja": "ロケットラボの2026年第3四半期売上高は前年比73%増の2億6800万ドルと過去最高を記録し、受注残高も約36億ドルに達した。同社は完了済みの19.4億ドルのATM増資によりイリジウム買収の資金は全額確保されており、2027年半ばの完了目標も維持されると表明した。",
+   "source": "SEC filing (Rocket Lab 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+  },
   {
    "date": "2026-11-03",
    "headline": "Globalstar asks FCC to scrutinize its Rocket Lab supplier relationship ahead of Iridium deal close, stops short of opposing merger",

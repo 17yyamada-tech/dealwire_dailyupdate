@@ -4,19 +4,15 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-09T07:49:10Z",
+ "checked_at": "2026-11-10T00:55:36Z",
  "status": {
-  "as_of": "2026-11-08",
-  "text": "Herzog handed Gadi Eisenkot the mandate to form Israel's next government on Nov 8, sidelining Netanyahu; Brent held near $99/bbl on Nov 6, down about 11% on the week.",
-  "text_ja": "ヘルツォーク大統領は11月8日、アイゼンコット氏に次期政権樹立の委任を与え、ネタニヤフ氏は見送られた。ブレント原油は6日時点で99ドル台、週間では11%前後安。",
+  "as_of": "2026-11-10",
+  "text": "Eisenkot holds the mandate to form a government, granted Nov 8 with a Dec 6 deadline; Israel's 26th Knesset convened for its inaugural session Nov 10 as coalition talks continue.",
+  "text_ja": "エイゼンコットは11月8日に政権樹立の委任を受け、期限は12月6日。新第26期国会は11月10日に開会式を迎え、連立協議が続く。",
   "refs": [
    {
     "list": "since",
-    "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
-   },
-   {
-    "list": "since",
-    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    "url": "https://www.jns.org/news/israel-news/israels-26th-knesset-set-to-be-inaugurated-nov-10"
    }
   ]
  },
@@ -87,6 +83,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-10",
+   "headline": "Israel's newly elected 26th Knesset convenes for inaugural swearing-in session",
+   "summary": "Israel's 26th Knesset was scheduled to hold its inaugural session on Nov 10 at 4pm, with all 120 lawmakers sworn in and President Herzog attending, as no party bloc holds an outright majority and Eisenkot's coalition talks continue under his mandate.",
+   "summary_ja": "イスラエル新第26期国会は11月10日午後4時に開会式を迎える予定で、120人の議員全員が宣誓し、ヘルツォグ大統領も出席する。いずれの陣営も単独過半数に至らず、エイゼンコットの連立協議は政権樹立の委任のもと継続している。",
+   "source": "JNS (Jewish News Syndicate)",
+   "url": "https://www.jns.org/news/israel-news/israels-26th-knesset-set-to-be-inaugurated-nov-10"
+  },
   {
    "date": "2026-11-08",
    "headline": "Herzog formally hands Eisenkot the mandate to form Israel's next government, passing over Netanyahu",

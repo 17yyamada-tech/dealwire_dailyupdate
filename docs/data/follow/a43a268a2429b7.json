@@ -1,0 +1,79 @@
+{
+ "id": "a43a268a2429b7",
+ "title": "ソフトバンク孫正義のフィジカルAI戦略に急ブレーキ、中国が巨額買収を不許可",
+ "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaSy1VM0VSb294R1hJdzJuczROQ1ROdFV2UHp0bndhd2xkYm55c1BZTFhkRDdKWlJLaDk3NXU1ZFE3b3lPMXJVYVRKbmtSRG90VVdVVnp4MW1FMHVvVnB3V0dGOGsxMzlTS1Z4aS1TaEpCdVNFd2Q4czZSXzlPNVU?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-11-08T00:30:00Z",
+ "checked_at": "2026-11-10T00:55:36Z",
+ "status": {
+  "as_of": "2026-11-10",
+  "text": "China blocked SoftBank's $5.375bn ABB Robotics acquisition on Nov 5, 2026; the companies are now exploring carving out the China unit (about 30% of the business) to salvage the deal.",
+  "text_ja": "中国は2026年11月5日、ソフトバンクによるABBロボティクス事業買収(53.75億ドル)を不許可とした。両社は中国事業(約3割)切り出し案を軸に取引継続へ協議中。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.japantimes.co.jp/business/2026/11/08/companies/softbank-abb-china-carve-out/"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-11-07",
+   "headline": "Citigroup: China veto roughly halves ABB's available M&A firepower to about $5bn",
+   "summary": "Citigroup analyst Martin Wilkie said Beijing's block on the ABB-SoftBank robotics sale roughly halves ABB's dealmaking capacity, to around $5 billion.",
+   "summary_ja": "シティグループのマーティン・ウィルキー氏は、中国によるABB・ソフトバンク案件の不許可でABBのM&A余力は約50億ドルとほぼ半減したと指摘した。",
+   "source": "Forbes",
+   "url": "https://www.forbes.com/sites/iansayson/2026/11/07/china-blocks-54-billion-abb-robotics-deal-with-billionaire-masayoshi-sons-softbank/"
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "China's security review office prohibits SoftBank's purchase of ABB Robotics' China business",
+   "summary": "ABB confirmed China's foreign investment security review office (named as the NDRC by some outlets) blocked SoftBank's planned purchase of ABB Robotics' operations in China; SoftBank shares fell roughly 5-7% in Tokyo trading afterward.",
+   "summary_ja": "ABBは、中国の外資安全審査当局(一部報道はNDRCと表記)がソフトバンクによるABBロボティクス中国事業の買収を不許可としたと確認した。発表後、ソフトバンク株は東京市場で約5~7%下落した。",
+   "source": "SCMP",
+   "url": "https://www.scmp.com/business/china-business/article/3373415/china-blocks-softbanks-us54-billion-takeover-abbs-robotics-division"
+  },
+  {
+   "date": "2026-10",
+   "headline": "US antitrust clearance for SoftBank's ABB Robotics purchase still pending in late October 2026",
+   "summary": "As of late October 2026, US regulatory approval for SoftBank's acquisition of ABB's robotics division remained outstanding, even though the deal had already cleared EU and Chinese competition reviews.",
+   "summary_ja": "2026年10月下旬時点で、ソフトバンクによるABBロボティクス事業買収の米国での規制承認は未了だった。EUと中国の競争法審査は既に通過していた。",
+   "source": "MLex",
+   "url": "https://www.mlex.com/mlex/articles/2547150"
+  },
+  {
+   "date": "2026-04-27",
+   "headline": "China orders Meta to unwind $2bn Manus AI acquisition, a precedent later cited in the ABB case",
+   "summary": "China's NDRC ordered Meta to unwind its roughly $2 billion acquisition of AI startup Manus, requiring Meta to cancel the deal; commentary on the later SoftBank-ABB block calls it the first of two major deals China blocked in 2026.",
+   "summary_ja": "中国国家発展改革委員会(NDRC)は4月、米メタによる約20億ドルのAIスタートアップManus買収の取り消しを命じた。後のソフトバンク・ABB案件の不許可は、2026年に中国が阻止した2件目の大型案件とされる。",
+   "source": "The Irish Times",
+   "url": "https://www.irishtimes.com/business/2026/04/27/china-blocks-metas-2bn-purchase-of-ai-group-manus/"
+  },
+  {
+   "date": "2026-03-12",
+   "headline": "EU Commission unconditionally clears SoftBank's acquisition of ABB Robotics",
+   "summary": "The European Commission approved SoftBank Group's acquisition of sole control of ABB Robotics Holdco 1 Ltd under the EU Merger Regulation via the simplified procedure, citing no competition concerns.",
+   "summary_ja": "欧州委員会は3月12日、ソフトバンクグループによるABBロボティクスHoldco 1社の単独支配権取得をEU合併規則に基づき、簡易手続きで無条件承認した。",
+   "source": "European Commission",
+   "url": "https://ieu-monitoring.com/editorial/eu-commission-clears-acquisition-of-abb-robotics-by-softbank/895117/"
+  },
+  {
+   "date": "2025-10-08",
+   "headline": "SoftBank agrees to buy ABB's robotics division for $5.375bn, scrapping ABB's planned spin-off",
+   "summary": "SoftBank Group signed a definitive agreement on October 8, 2025 to acquire 100% of ABB's robotics business for a total purchase price of $5.375 billion, abandoning ABB's earlier plan for a separate stock-market listing of the unit; the deal needed EU, China and US approvals and was expected to close in mid-to-late 2026.",
+   "summary_ja": "ソフトバンクグループは2025年10月8日、ABBのロボティクス事業を53.75億ドルで買収する最終契約を締結した。ABBが計画していた同事業の新規上場案は撤回され、取引はEU・中国・米国の承認を経て2026年半ば~後半の完了を見込んでいた。",
+   "source": "SoftBank Group",
+   "url": "https://group.softbank/en/news/press/20251008"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-08",
+   "headline": "SoftBank and ABB explore splitting off China unit to salvage blocked $5.375bn robotics deal",
+   "summary": "SoftBank and ABB are studying carving out ABB Robotics' China operations, roughly 30% of the unit's business, as one option to save the deal after Beijing's block; alternatives under consideration include finding another buyer for the China business or reviving a separate listing.",
+   "summary_ja": "ソフトバンクとABBは、中国当局の不許可を受け、ABBロボティクスの中国事業(全体の約3割)を切り離す案を軸に取引継続を検討している。中国事業の別買い手探しや再上場案も選択肢とされる。",
+   "source": "Japan Times (citing Bloomberg)",
+   "url": "https://www.japantimes.co.jp/business/2026/11/08/companies/softbank-abb-china-carve-out/"
+  }
+ ]
+}

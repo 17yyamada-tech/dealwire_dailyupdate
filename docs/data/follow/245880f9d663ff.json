@@ -1,0 +1,39 @@
+{
+ "id": "245880f9d663ff",
+ "title": "神戸製鋼所[5406]：当社子会社によるCNH Industrial N.V.の建設機械事業の譲受けに伴う株式取得（子会社化）に関するお知らせ 2026年11月9日(適時開示) ：日経会社情報DIGITAL",
+ "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcnlDSkwtY3YzNGxhaW1ZWnE0ZE5rQ0VoV2EycVBETHJOQVVQakJtT252WWhHLTBkWnhxczV4a29Bd0d1XzloTXN0bE8yQWtvcTZUZlZCdnJ3TkpGRFJMVHJTSHhQeFBlTXZBLTNBNXBCcHNmdE85aElmcnoxY1hSZlg3OXI3bkhJZjFOTm1KVWNmQmxuZmRJZkg2M1J1OTlWbndySFlxV194dndxSERjX0Y4cWJFV3VKaHVKWHdKZEtMcjFQVUNtM2h2eHM?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-11-09T06:30:00Z",
+ "checked_at": "2026-11-10T00:55:36Z",
+ "status": {
+  "as_of": "2026-11-10",
+  "text": "Kobe Steel subsidiary Kobelco Construction Machinery agreed Nov 9, 2026 to buy 70% of CNH Industrial's Construction Equipment business, valuing it at $1bn enterprise value; CNH gets $700m cash, keeps 30%; closing expected by end-2027.",
+  "text_ja": "神戸製鋼子会社コベルコ建機は11月9日、CNH建設機械事業の70%を企業価値10億ドルで取得へ合意。CNHは現金7億ドルを得て30%を保持、完了は27年末予定。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://investors.cnh.com/news/news-details/2026/CNH-Announces-Agreement-to-Form-a-Joint-Venture-by-Selling-a-70-Interest-in-its-Construction-Equipment-Business-to-Kobelco-Construction-Machinery/default.aspx"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-02-17",
+   "headline": "CNH Industrial CEO says talks with potential partners for Construction Equipment unit have restarted",
+   "summary": "On CNH Industrial's Q4 2025 earnings call, CEO Gerrit Marx confirmed the company had restarted discussions with potential partners for its Construction Equipment business, while saying there was no immediate pressure to close a deal.",
+   "summary_ja": "CNHインダストリアルは2025年第4四半期決算説明会で、建設機械事業の提携先候補との協議を再開したとCEOのゲリット・マルクス氏が明らかにした。ただし早期の合意を急ぐ必要はないとも述べた。",
+   "source": "CNH Industrial (Q4 2025 earnings call)",
+   "url": "https://finance.yahoo.com/news/cnh-industrial-n-v-q4-213208296.html"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-09",
+   "headline": "CNH Industrial confirms sale of 70% of its Construction Equipment unit to Kobelco at $1bn enterprise value",
+   "summary": "CNH Industrial announced it will sell a 70% stake in its Construction Equipment business to Kobelco Construction Machinery, a Kobe Steel subsidiary, forming a new joint venture; CNH will receive about $700 million in cash and retain a 30% interest, with closing expected by end-2027 subject to customary and regulatory approvals.",
+   "summary_ja": "CNHインダストリアルは、建設機械事業の70%を神戸製鋼子会社のコベルコ建機に合弁会社として売却すると発表した。企業価値は10億ドルで、CNHは現金約7億ドルを受け取り30%の権益を保持する。完了は通常の手続きおよび規制当局の承認を前提に2027年末を予定。",
+   "source": "CNH Industrial",
+   "url": "https://investors.cnh.com/news/news-details/2026/CNH-Announces-Agreement-to-Form-a-Joint-Venture-by-Selling-a-70-Interest-in-its-Construction-Equipment-Business-to-Kobelco-Construction-Machinery/default.aspx"
+  }
+ ]
+}

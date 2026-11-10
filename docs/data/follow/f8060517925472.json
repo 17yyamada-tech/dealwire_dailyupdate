@@ -4,19 +4,15 @@
  "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Z0l0NUVOS3EwenkxTGhOUVhDeEFCMlVoME5Vem9iNVdTOXVLdGd4UnNiOXBVNXU3NjhDMktRTU1DSmNzbkFnUUkwa3BxREFob1d5OVBXY1BhT1NrSmptZmhiRdIBaEFVX3lxTE1NVjBaT3NpTEhuR3VLa1lsT1N4SjFYbWpxNnh2ODRWQ0FadXlVRDJxN2xneS1pYlV5Vnd1MTlzOTR5SWFubHl6NGRpcEtOeVYySlhZVDhuM1ktVk8yZng5aDAxOHhSX0Vt?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-03T01:15:28Z",
- "checked_at": "2026-11-09T07:49:10Z",
+ "checked_at": "2026-11-10T00:55:36Z",
  "status": {
-  "as_of": "2026-11-07",
-  "text": "Marvell's $115bn all-stock Lumentum deal awaits shareholder and regulatory approval, due to close H1 2028. TD Cowen and BofA downgraded Marvell Nov 3 on dilution risk; Lumentum's Nov 5 results beat estimates.",
-  "text_ja": "マーベルの1150億ドルのルメンタム買収は承認待ちで28年前半完了予定。TDコーウェンとBofAは3日、希薄化懸念で格下げ。ルメンタムの5日決算は市場予想を上回った。",
+  "as_of": "2026-11-10",
+  "text": "Lumentum CEO Hurlston told CNBC (Nov 6, disclosed via SEC filing Nov 9) the deal's long-term logic is sound but timing was poor, as the stock-for-stock structure ties Lumentum's value to Marvell's sliding shares.",
+  "text_ja": "ルメンタムのハールストンCEOは11月6日、合併の長期的意義は評価するがタイミングは悪かったとCNBCで述べた。全株式交換のため企業価値はマーベル株価の下落に連動している。",
   "refs": [
    {
     "list": "since",
-    "url": "https://stocktwits.com/news-articles/markets/equity/mrvl-stock-price-target-slashed-in-half-material-headwinds-after-lumentum-deal-td-cowen-says-in-downgrade/cNGXRDdR95k"
-   },
-   {
-    "list": "since",
-    "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+    "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526453776/d180680d425.htm"
    }
   ]
  },
@@ -63,6 +59,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-09",
+   "headline": "Lumentum CEO Hurlston calls Marvell deal timing 'bad' in CNBC interview disclosed via SEC filing",
+   "summary": "In a CNBC interview recorded Nov 6 and filed with the SEC on Nov 9 (Form 425), Lumentum CEO Michael Hurlston said the long-term outlook for the combined Marvell-Lumentum company is excellent but that the timing of the all-stock deal's announcement was bad, since the fixed 4.5-share exchange ratio ties Lumentum's deal value to Marvell's falling stock price. He said Lumentum favored taking Marvell stock in part because it saw upside in Marvell's shares.",
+   "summary_ja": "11月6日録取のCNBCインタビューが11月9日付でSECにフォーム425として提出され、ルメンタムのマイケル・ハールストンCEOは合併の長期展望は良好だが発表のタイミングは悪かったと述べた。固定交換比率4.5株のため取引価値はマーベル株価の下落に連動しており、マーベル株の上昇余地を評価してストック対価を選んだとも説明した。",
+   "source": "SEC EDGAR (Lumentum Holdings Form 425, CNBC interview transcript)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526453776/d180680d425.htm"
+  },
   {
    "date": "2026-11-05",
    "headline": "Lumentum posts Q1 FY2027 revenue of $1.26 billion, more than double year-ago quarter, and guides Q2 above $1.57 billion",
