@@ -1,0 +1,304 @@
+{
+  "edition": "2026-11-10-1230",
+  "edition_label": "10 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T04:35:00Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Anthropic eyes up to $69.3bn IPO after filing details were briefly sent to banks, then retracted",
+      "summary": "Anthropic is seeking to raise as much as $69.3 billion in what would be a blockbuster initial public offering, people familiar with the matter said. Details of the IPO filing were briefly circulated to banks and then retracted, with emails showing the company pulled the information back shortly after sending it.",
+      "why_it_matters": "A raise of this size would rank among the largest tech IPOs on record and would test investor appetite for AI-lab valuations at a moment when the sector's spending and governance are under scrutiny. The retraction adds uncertainty about the IPO's timing and the figures that will ultimately be disclosed.",
+      "summary_ja": "アンソロピックは最大693億ドルの大型IPOでの資金調達を目指していると関係者が明らかにした。IPO関連文書は一時的に銀行側に送付されたものの、その後撤回されたことがメールで確認された。",
+      "why_it_matters_ja": "この規模の調達が実現すればテック企業IPOとして史上最大級となり、AI分野の支出や統治体制に懐疑的な視線が向く中で投資家のAIラボ評価への受容度を試す場となる。撤回は上場の時期や最終的に開示される数字への不透明感を強める。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-03-1230",
+        "index": 3
+      },
+      "key": "anthropic-ipo-japan-share-sale",
+      "ids": [
+        "4a6626cbe00e61",
+        "0457a068ff88d8",
+        "66e15d6fa7244e"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/exclusive-anthropic-aims-raise-up-693-billion-in-blockbuster-ipo-6537751"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/exclusive-anthropic-sends-out-then-retracts-details-ipo-filing-emails-show-6537751"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/exclusive-anthropics-nearly-70-billion-ipo-plan-briefly-circulated-banks-then-retracted-6537751"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "EU set to unconditionally approve UniCredit's bid for Commerzbank, decision due by Nov 16",
+      "summary": "The European Commission is moving toward unconditionally approving UniCredit's takeover bid for Commerzbank, with a decision due by November 16, Reuters reported.",
+      "why_it_matters": "Clearance would remove a major regulatory hurdle from one of Europe's largest pending bank mergers, intensifying pressure on Commerzbank's board and German policymakers to respond to UniCredit's approach.",
+      "summary_ja": "欧州委員会はウニクレディトによるコメルツ銀行買収を無条件で承認する方向で調整しており、11月16日までに判断を下す見通しだとロイターが報じた。",
+      "why_it_matters_ja": "承認が下れば欧州最大級の銀行統合案件から大きな規制上の障壁が取り除かれ、コメルツ銀行の取締会やドイツの政策当局はウニクレディトの提案への対応をより強く迫られる。",
+      "status": "new",
+      "prev": null,
+      "key": "unicredit-commerzbank-eu-approval",
+      "ids": [
+        "6d6119bef2497a"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYXVXTXhXYVpmVmhXWFJyLTN3R0Y4czJmYjhVYWplcUxLb0F2LVZEOEs0eHIzbkFRQnl0R2w2RHEyR21zcjdGZHhxUjF5S1lPMFBiRTJBUnhyWEF2Wk8wUVpMdU9LWVh6aUFPWV8ydGR3MFhJODlucGxpempCZVhpdXk2SVlRcVE?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Market skepticism grows over Marvell's Lumentum deal, with completion odds seen near 50%",
+      "summary": "Market skepticism is growing over whether Marvell's agreement to acquire Lumentum will close, with trading activity implying only about a 50% probability of completion, a Japanese-language report said.",
+      "why_it_matters": "Pricing in roughly coin-flip odds of completion signals real doubt about financing or antitrust clearance, and could weigh on both stocks until the outlook becomes clearer.",
+      "summary_ja": "マーベルによるルメンタム買収が完了するかどうかについて市場の懐疑論が強まっており、取引動向からは成立確率は約50%程度にすぎないと日本語報道が伝えた。",
+      "why_it_matters_ja": "成立確率がほぼ五分五分に留まっているという価格付けは、資金調達面や独占禁止法上の承認に実際の疑念があることを示し、見通しが明確になるまで両社の株価に重荷となり得る。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-03-0830",
+        "index": 0
+      },
+      "key": "marvell-lumentum-acquisition-talks",
+      "ids": [
+        "956c7162b7f6a6"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNHc5QVp4SURBR1VtVVRLUFN0NEhiY3RDQ1ZvVkxqbDJjc2ZGRm5rVmZtQnRRS1BnM1hqdVdWRm5LWm9FYlJVOVRzOWFZMDBtZ24xZ1g4V1F5NjFFYVh1dGJILTc1WV9reVBmcE5mOW4zVGJ5M0U2S3FPQ3RmOEFhTVUyaVFldDl5akVBTm53?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "Samsung Fire & Marine to buy 80.6% of Canopius, with KKR and KIC also in the deal",
+      "summary": "Samsung Fire & Marine Insurance has agreed to acquire an 80.6% stake in Canopius, with KKR and KIC also participating in the transaction.",
+      "why_it_matters": "Pulling two large institutional investors alongside a strategic insurer into the same deal points to continued sponsor and institutional appetite for insurance-sector consolidation.",
+      "summary_ja": "三星火災海上保険はカノピウスの株式80.6%を取得することで合意し、KKRとKICも今回の取引に関与する。",
+      "why_it_matters_ja": "大手戦略保険会社に加え二つの大型機関投資家が参画する点は、金融スポンサーに支えられた保険セクターの再編意欲が続いていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "samsung-fire-marine-canopius-kkr",
+      "ids": [
+        "3779d838e18334",
+        "10f3bed8901e77"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTFNyWEd4V0FUZzNCYzVXOTQ2UWdPWUNKQ1VzY2JjdzZiQ3h6RmNMM1diVVRKOEhaUkREb3VXaVY1SzZRTEJXYkNlSUhSOVZDMkdHZzBFY2FtN3h6eHJrNGEwVE1Ecm5ham5RZnJzUlFHbmJCSmt6ZV9nbnhEbU1OZU9OZTNkNktrcWc?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mVmZuZ3dValBORFR3Qjk2TDR1eVVmN2ItZ3V1Q3VvQWxyUnV0bDhzZGpyVXU1dFdnQWV6T1R4bjliODRNbEtSZ2pMQngzR1BDdW16ZjdmWXJOQkdHOG15SWdBM2cyQXY2T0VIVlEwMWo?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "GFL Environmental rejects $22bn private equity buyout proposal",
+      "summary": "GFL Environmental has rejected a $22 billion buyout proposal from private equity funds, according to a Japanese-language report citing Investing.com.",
+      "why_it_matters": "Turning down a buyout of this size signals the board sees more value in staying public, and sets up a test of whether the sponsors return with a higher offer or walk away.",
+      "summary_ja": "GFLエンバイロメンタルはプライベートエクイティ・ファンドからの220億ドルの買収提案を拒否したと、Investing.comを引用する日本語報道が伝えた。",
+      "why_it_matters_ja": "この規模の買収提案を拒んだことは取締会が上場維持により大きな価値を見込んでいることを示し、スポンサー側がより高い条件を提示するか撤退するかが今後の焦点となる。",
+      "status": "new",
+      "prev": null,
+      "key": "gfl-environmental-pe-buyout-rejection",
+      "ids": [
+        "87a33e809a08c8"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sYU1ReG1ST3QxNnpld0lwbmRkbzd1UWg1aEpDbnRaNkZ5NHVfZ0UzcU5pWmpybVJLSTVCV0RMX2VlSVlySmxpYlJYT0ZpWENRb3NfMEtqQloyTGtrZ21vbzMteU1XaXM1NEJSNzN0bzFmWkxUTkVj?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "SoftBank and Grab plan $1.85bn investment in Malaysia AI infrastructure",
+      "summary": "SoftBank and Grab are planning a $1.85 billion investment in AI infrastructure in Malaysia, DealStreetAsia reported.",
+      "why_it_matters": "The commitment extends the regional race to build AI data-centre capacity into Southeast Asia's fastest-growing digital economy, with Grab's super-app distribution giving SoftBank a direct channel into regional AI deployment.",
+      "summary_ja": "ソフトバンクとグラブはマレーシアのAIインフラに18.5億ドルを投資する計画だとディールストリート・アジアが報じた。",
+      "why_it_matters_ja": "この投資は東南アジアで最も成長が速いデジタル経済の一つであるマレーシアにAIデータセンター拡充の競争を広げるものであり、グラブのスーパーアプリ基盤はソフトバンクに地域でのAI展開への直接的な経路を与える。",
+      "status": "new",
+      "prev": null,
+      "key": "softbank-grab-malaysia-ai-infrastructure",
+      "ids": [
+        "875f95a3badc86"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPREl5VEh3X29fbS0yNGdQWG41cXlRaTFMN0FiYlJmUEtWdHN2YlFWdU82VjMxSWNrUE1WcVdUNnpiTzVNNXQybzhuZmpnMFJLZkNrUWdXVDctZFlhRENuTFJIQzV5dUJxdlpXT3FoWGdPN0VEX092bmYtNFl1LWxkVDRfNA?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SEA",
+        "SG"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Cloud Software Group completes tender offer for up to $2.0bn of 2029 secured notes",
+      "summary": "Cloud Software Group announced the expiration and final results of its cash tender offer to purchase up to $2.0 billion in aggregate principal amount of its 9.00% Senior Secured Second Lien Notes due 2029.",
+      "why_it_matters": "Retiring a chunk of high-coupon secured debt at this scale reduces interest expense and signals active balance-sheet management by a heavily levered credit.",
+      "summary_ja": "クラウド・ソフトウェア・グループは、2029年満期の9.00%シニア・セキュアード・セカンドリーン・ノートについて、最大20億ドルの現金による買付けオファーの満了と最終結果を発表した。",
+      "why_it_matters_ja": "この規模の高利回り担保付債務を償還することは利払い負担を軽減し、負債比率の高いクレジットがバランスシート管理に積極的に取り組んでいることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "cloud-software-group-notes-tender-final-results",
+      "ids": [
+        "cbe5c75c37fb49"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/cloud-software-group-announces-final-results-of-offer-to-purchase-for-cash-up-to-2-0-billion-aggregate-principal-amount-of-its-9-00-senior-secured-second-lien-notes-due-2029--302934081.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    },
+    {
+      "headline": "NEC launches ¥3,462-a-share buyback tender, with NTT to tender its stake",
+      "summary": "NEC has launched a tender offer to buy back its own shares at ¥3,462 apiece, with top shareholder NTT planning to tender its stake. NEC shares fell on the news.",
+      "why_it_matters": "A large buyback paired with a major shareholder's exit unwinds part of a long-standing cross-shareholding, a pattern regulators and investors have pushed Japanese corporates to reduce.",
+      "summary_ja": "NECは1株3462円で自己株式の公開買付けを実施し、大株主のNTTが応募する予定だと報じられた。NEC株は発表を受けて下落した。",
+      "why_it_matters_ja": "大規模な自己株買いと主要株主の売却が同時に行われることは、長年続く株式持ち合いの一部を解消するものであり、規制当局や投資家が日本企業に求めてきた流れに沿う。",
+      "status": "new",
+      "prev": null,
+      "key": "nec-self-tender-buyback-ntt",
+      "ids": [
+        "5c6fa16ccc0323",
+        "524695fe0fcdfc"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNd2psUXZzUlMwNmdPSTV2Q2JHZFhHLTF3SXU0cHdKSmNYbTFYd1BYQ1ViZEJpbkMxaWI4Q05paVB0bEZTVFlYWFpWUE5iVXRZTXYzZl9UUkdlcTBXRVY2U21sM3pNcEg4WDdqMlIzUDZFTWEzTWUzWTNsbExmSnlCY2R3S3g1c00?oc=5"
+        },
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdDZucHpJM0ZaeGU3dG80Ykl5SHg1emZ5b2pFYVVGTW8tR1BldFNZcGRjaEZxaV9ERWV2c3lfNEZWQzJMNnVFV1psemdVclB3Z3RjSFQydEt3a3c5YWRGTHRZT0tNTUdRY3Z0eHh5M1ZTb3hEZG9RTFM2WVpaTFRPUGpBMnpXYWo4TWVyVmFkczNZTnEzY3QtbG5xOF9LSTk3RGd1S0wtMmJWYlhCa0h4WW01dDdGU2hUUllpMnJfYVFHNkc1NjZzX0Nkai0?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Bi'an Holdings shares jump 70% as Hong Kong Lap Yip's stake buy triggers mandatory offer",
+      "summary": "Shares in Hong Kong-listed Bi'an Holdings jumped 70% after trading resumed, following Hong Kong Lap Yip's acquisition of a 70% stake at a 26.75% discount, which triggers a mandatory general offer obligation.",
+      "why_it_matters": "A mandatory offer obligation forces the new controlling shareholder to bid for the remaining stock, giving minority holders an exit path, with the discount-priced stake purchase setting the reference point for that offer price.",
+      "summary_ja": "香港上場の彼岸控股は取引再開後に株価が70%急騰した。香港立業が26.75%のディスカウントで70%の株式を取得したことで、全面買収義務が発生したことを受けたもの。",
+      "why_it_matters_ja": "全面買収義務が生じることで新たな支配株主は残りの株式についても買付けを行う必要があり、少数株主に売却の機会を与えるとともに、ディスカウント価格での株式取得が買付価格の基準となる。",
+      "status": "new",
+      "prev": null,
+      "key": "bian-holdings-hk-lapyip-mandatory-offer",
+      "ids": [
+        "cc5dbfc8e777a0"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DajBmRE1RY19LMURqc0FnREJaQ2RYZVdQS1dGTWVDOS1pQlJJRUszTnduQ0tLNUl4MUlJbm5qbXhPTFRadUZtdktuZEZWRjhfY0FuaXcwd2xSNlJGYldNc3YwRHd5ZU5QblBmQXVqMjdUc09s?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Ardian raises $1.1bn for new semiconductor-focused private equity strategy",
+      "summary": "Ardian has raised $1.1 billion for a private equity strategy dedicated to the semiconductor sector.",
+      "why_it_matters": "A dedicated semiconductor PE pool gives Ardian dry powder to back chip-sector buyouts and carve-outs just as strategic and sponsor competition for AI-exposed assets intensifies.",
+      "summary_ja": "アルディアンは半導体セクターに特化したプライベートエクイティ戦略のために11億ドルを調達した。",
+      "why_it_matters_ja": "半導体専門のPEファンドを持つことで、AI関連資産を巡る戦略的買収者とスポンサー間の競争が激化する中、アルディアンは半導体分野での買収や事業切り出しに投じる資金を確保できる。",
+      "status": "new",
+      "prev": null,
+      "key": "ardian-semiconductor-pe-fundraise",
+      "ids": [
+        "cef91495346210"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLTlRM0xkQUJSSWkxYXlXbXZXbjFzQ1cxaV9XcXl4dk4zV09RbjB4RWw5bEZ1emFyZHJicElCTmk0R0d4aWtHSlNzdU5SQks5RjZTcjJMTmhRR2FIdWc1RlpoOFNlak95TXFxZmFkVkU3OFl4ZU5LakFrZmRpemp5Snhad1pwYWhL?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    }
+  ]
+}
