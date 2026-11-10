@@ -1,0 +1,63 @@
+{
+ "id": "f03ac8571eea3c",
+ "title": "かどや製油のTOB、インテグラルが提案額引き上げ 対抗案を1円超え",
+ "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tXzM0a0JmZHp6NWIwR202UTJHUl9jVnRXMTFsd2JtNWxwMXlxdllaQU5yZkd4NFpPXzNYYktRam5xbFJMbkU3dHBMY3JpM3NQdWx6dmthMHMwUzFqX0VoZlphd3Jad3dTRDdPRQ?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-11-09T13:24:04Z",
+ "checked_at": "2026-11-10T04:55:00Z",
+ "status": {
+  "as_of": "2026-11-10",
+  "text": "Takeover battle: Integral raised its tender offer for Kadoya Seiyu to ¥2,655/share on Nov 9, 2026, topping rival bidder Advantage Partners' ¥2,654 proposal by ¥1 as the fight for control continues.",
+  "text_ja": "インテグラルは2026年11月9日、かどや製油のTOB価格を1株2,655円に引き上げ、対抗するアドバンテッジパートナーズの2,654円案を1円上回った。買収合戦は続いている。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.nikkei.com/article/DGXZQOUC09A100Z01C26A1000000/"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-10-29",
+   "headline": "Kadoya Seiyu shares hit 10-year high of ¥3,110 as market prices in a rival bid",
+   "summary": "Nikkei reported that Kadoya Seiyu shares rose to ¥3,110, a 10-year high, on October 29, 2026, as the market anticipated a competing proposal to Integral's tender offer.",
+   "summary_ja": "日本経済新聞によると、かどや製油の株価は2026年10月29日に10年来高値の3,110円まで上昇した。市場がインテグラルのTOBに対する対抗提案を期待したことが背景とされる。",
+   "source": "Nikkei",
+   "url": "https://www.nikkei.com/article/DGKKZO99058640R01C26A0DTB000/"
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Advantage Partners reported to have proposed a rival acquisition of Kadoya Seiyu",
+   "summary": "Nikkei reported on the night of October 27, 2026 that Advantage Partners had proposed an acquisition of Kadoya Seiyu competing with Integral's tender offer; Integral's ¥2,514 offer price could rise to ¥2,760 if top shareholders Mitsubishi Corp and Mitsui & Co agree, and Advantage's rival price could exceed that level depending on conditions.",
+   "summary_ja": "日本経済新聞は2026年10月27日夜、投資ファンドのアドバンテッジパートナーズがかどや製油に対しインテグラルのTOBに対抗する買収を提案したと報じた。インテグラルの買付価格2,514円は大株主の三菱商事・三井物産の同意を前提に2,760円まで上がる可能性があり、アドバンテッジの対抗価格は条件次第でそれを上回るとされる。",
+   "source": "Traders Web (citing Nikkei)",
+   "url": "https://www.traders.co.jp/news/article/1_2210346"
+  },
+  {
+   "date": "2026-10",
+   "headline": "Kadoya Seiyu extends Integral's tender-offer deadline to Nov 13",
+   "summary": "Kadoya Seiyu announced it was extending the deadline for Integral's tender offer to November 13, 2026, as the original October 30 deadline approached amid the emerging bidding war.",
+   "summary_ja": "かどや製油は、インテグラルによるTOBの期限を2026年11月13日まで延長すると発表した。当初の10月30日の期限を控え、買収合戦が激化する中での対応だった。",
+   "source": "Nikkei",
+   "url": "https://www.nikkei.com/article/DGXZQOUC29AG50Z21C26A0000000/"
+  },
+  {
+   "date": "2026-09-14",
+   "headline": "Integral launches ¥2,514/share tender offer for Kadoya Seiyu with founding family",
+   "summary": "Integral, via its ITG-G Holdings vehicle, announced a tender offer for Kadoya Seiyu at ¥2,514 per share, running September 15 to October 30, 2026, in partnership with the founding family, which would not tender its roughly 16.5% stake and would hold about 25% after delisting; Kadoya Seiyu's board recommended shareholders accept.",
+   "summary_ja": "インテグラルは傘下のITG-Gホールディングスを通じ、かどや製油に対し1株2,514円でのTOBを発表した。期間は2026年9月15日から10月30日。創業家と組み、創業家は約16.5%の株式を応募せず非公開化後も約25%を保有する。かどや製油の取締役会は応募を推奨した。",
+   "source": "Nihon M&A",
+   "url": "https://www.nihon-ma.co.jp/news/20260914_2612-5/"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-09",
+   "headline": "Integral raises Kadoya Seiyu tender offer to ¥2,655/share, topping rival Advantage Partners' ¥2,654 bid by ¥1",
+   "summary": "Nikkei reported that Integral raised its tender-offer price for Kadoya Seiyu to ¥2,655 per share, exceeding rival bidder Advantage Partners' competing proposal of ¥2,654 per share by ¥1, as the two funds continue to compete for control of the company.",
+   "summary_ja": "日本経済新聞によると、インテグラルはかどや製油へのTOB価格を1株2,655円に引き上げ、対抗するアドバンテッジパートナーズの2,654円案を1円上回った。両ファンドによる買収合戦は続いている。",
+   "source": "Nikkei",
+   "url": "https://www.nikkei.com/article/DGXZQOUC09A100Z01C26A1000000/"
+  }
+ ]
+}
