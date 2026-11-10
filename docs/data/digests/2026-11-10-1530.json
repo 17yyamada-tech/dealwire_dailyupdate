@@ -1,0 +1,130 @@
+{
+  "edition": "2026-11-10-1530",
+  "edition_label": "10 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T07:35:16Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Resona Holdings signs capital alliance with M&A Capital Partners, buys shares in tender-like market purchase",
+      "summary": "Resona Holdings agreed a capital and business alliance with listed M&A advisory firm M&A Capital Partners, and will acquire its shares through an open-market purchase that Japanese rules treat as equivalent to a tender offer. The companies did not disclose the stake size or purchase amount.",
+      "why_it_matters": "The tie-up pairs a megabank's balance sheet and client base with a specialist M&A brokerage, pointing to banks pushing further into advisory fees as Japan's succession-driven deal market keeps expanding.",
+      "summary_ja": "りそなホールディングスはM&Aキャピタルパートナーズと資本業務提携を締結し、同社株式を公開買付けに準ずる行為とされる買い集めの形で取得する。出資比率や取得額は両社とも開示していない。",
+      "why_it_matters_ja": "大手銀行の資金力と顧客基盤に、M&A仲介専門会社の機能を組み合わせる動きで、事業承継を背景に拡大が続く日本のM&A市場で、銀行が助言収益の取り込みを一段と強める姿勢を示す。",
+      "status": "new",
+      "prev": null,
+      "key": "resona-ma-capital-partners-alliance",
+      "ids": ["4ad13db9c04247"],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aQ0tLSFNnekh5ekNsdUI1MUc5dkxtdWI5cWZDczBqX1N2X3RxbW9nYVNJMkd4RU43MDZPUk5qc0h5OXNUZlhMSElXU1YwMXFORE5UbGZURE1sN3JYRWd2MXdZRnlESUh4TFE?oc=5"}
+      ]
+    },
+    {
+      "headline": "SoftBank Group posts $7bn quarterly net loss on hit from US data-centre investments",
+      "summary": "SoftBank Group reported a $7 billion net loss for the quarter, swinging from a profit, after taking a hit tied to its US data-centre investments, CNA reported. The size of the data-centre-related charge was not broken out.",
+      "why_it_matters": "The loss underscores the financial strain from SoftBank's aggressive build-out of AI infrastructure, raising questions over how much more capital it can keep committing to OpenAI and other AI bets.",
+      "summary_ja": "ソフトバンクグループは米データセンター投資に絡む損失が響き、四半期として70億ドルの純損失を計上し、前年同期の黒字から赤字に転じたとCNAが報じた。データセンター関連の損失額自体は明らかにされていない。",
+      "why_it_matters_ja": "AI基盤への積極投資が業績を圧迫している実態を映す内容であり、OpenAIなどへの投資を今後どこまで積み増せるかという資金力への疑問を強める。",
+      "status": "new",
+      "prev": null,
+      "key": "softbank-q2-loss-data-centre",
+      "ids": ["9d98f3651ba457", "e12b4a0e5f7a03"],
+      "categories": ["Infra"],
+      "countries": ["US"],
+      "sectors": ["TMT", "Other"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/softbank-books-us7-billion-quarterly-loss-us-data-centre-hit-6538511"},
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/softbank-swings-7-billion-net-loss-in-second-quarter-6538511"}
+      ]
+    },
+    {
+      "headline": "Morita Holdings buys German fire-engine maker for about ¥11.5bn to expand overseas",
+      "summary": "Morita Holdings agreed to acquire a German fire-engine manufacturer for about ¥11.5 billion, according to Japan M&A reporting, as part of a push to expand its overseas business. The report did not name the German target or disclose further deal terms.",
+      "why_it_matters": "The purchase gives the Japanese fire-truck and emergency-vehicle maker a direct manufacturing foothold in Europe, extending its reach beyond a shrinking domestic municipal-procurement market.",
+      "summary_ja": "モリタホールディングスはドイツの消防車メーカーを約115億円で買収すると日本のM&A報道が伝えた。海外事業拡大の一環だが、買収先の企業名や詳細な契約条件は明らかにされていない。",
+      "why_it_matters_ja": "縮小が続く国内の自治体向け需要に代わり、欧州に直接の製造拠点を持つことになる案件で、消防車・緊急車両メーカーとしての海外展開を一歩進める。",
+      "status": "new",
+      "prev": null,
+      "key": "morita-german-fire-engine-acquisition",
+      "ids": ["df4c7deab625a2"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPTFhCb21BTU5JZmRIcWVjXzVORklKck5VSHlrV1JFUzU5aDhqMXFKVTQ5RTFrMkpZLUxfd05GT1RtdWhxMkdhal94c05vOUlOMWhvdW5OdkJYanI1TmlRR2E5TEc2ZzZlSHhwaQ?oc=5"}
+      ]
+    },
+    {
+      "headline": "Watahan Holdings takes full ownership of home-centre chain Tomato, absorbing its repair network",
+      "summary": "Watahan Holdings made Nagano-based home-improvement chain Tomato a wholly owned subsidiary, according to Japan M&A reporting, folding in Tomato's farm-equipment repair and corporate-sales operations. Financial terms were not disclosed.",
+      "why_it_matters": "The deal adds scale and service capability to Watahan's home-centre business as regional retailers keep consolidating to offset a shrinking rural customer base.",
+      "summary_ja": "綿半ホールディングスは長野を拠点とするホームセンター「トマト」を完全子会社化したと日本のM&A報道が伝えた。トマトが持つ農機修理機能や法人営業部門も取り込む。取得額などの財務条件は開示されていない。",
+      "why_it_matters_ja": "地方の顧客基盤縮小を背景に地域ホームセンター各社の統合が続くなか、綿半は修理機能やサービス機能を取り込み規模と機能の両面を強化する。",
+      "status": "new",
+      "prev": null,
+      "key": "watahan-tomato-home-centre-subsidiary",
+      "ids": ["50d504450d5d2c", "0b952230adfacb"],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtV0k4b2pVdUpYSWkxRE5vaFBNWUpMVVNGQmFDTkd4S0tLaC14WnNNWWFfWDUxQ3dfN3RDY0dJbmNWcXdXd3l6azJfc0ExSHlqMEFPbw?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wc3hDQ0dDZmdja2NNMWhMUUkycjgzQ0p2dlcwNk9VWHlvWEpNZEZhek1KRUJacUpGNTJSSk4xYjUyelZYN2tiN3VfTmp5aDdSRzA4UUVGTEF3ZzlvcUpR?oc=5"}
+      ]
+    },
+    {
+      "headline": "Manulife and UBS team up for Japan private-equity co-investments",
+      "summary": "Manulife and UBS agreed to jointly pursue private-equity co-investment opportunities in Japan, DealStreetAsia reported. No financial details or target sectors were disclosed.",
+      "why_it_matters": "The tie-up adds two large global asset managers to the queue of foreign capital chasing Japan's expanding buyout market, as domestic PE deal volumes keep climbing.",
+      "summary_ja": "マニュライフとUBSは日本におけるプライベートエクイティの共同投資機会を追求する提携を結んだと、DealStreetAsiaが報じた。金額や対象分野などの詳細は明らかにされていない。",
+      "why_it_matters_ja": "拡大が続く日本のバイアウト市場を狙う海外資本の列に、大手グローバル運用会社2社が新たに加わる動きであり、国内PE案件の増加傾向を裏付ける。",
+      "status": "new",
+      "prev": null,
+      "key": "manulife-ubs-japan-pe-coinvestment",
+      "ids": ["a67cb674906de9"],
+      "categories": ["PE"],
+      "countries": ["JP"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONXpscWZtX09OcWN2WjhENEx1OUNOYlIxM3dPUXBtTWhlSk5QNWt4aXFScUo0dDBLRk5JRUd1VU8tOXhnY0tlMzVIRjdHYzBKTVRta1FMRFpRNjRSaE1ZZHRtbTlrcGZZVkJSWFdVN1FqOGFhZnBpZm1zTThkR0JzWFRpZ0RGR0c0U3hIdlM2a3ZTS2RIS3ZVeA?oc=5"}
+      ]
+    },
+    {
+      "headline": "Kaji Tech shares trade bid-only as CSRI launches tender offer to take pump maker private",
+      "summary": "Shares in Kaji Tech resumed trading with buy orders only after CSRI launched a tender offer to take the pump manufacturer private, according to Japan M&A reporting. The offer price and stake sought were not specified in the report.",
+      "why_it_matters": "The deal adds to a steady stream of small-cap Japanese manufacturers being taken private by buyout sponsors targeting companies trading below book value.",
+      "summary_ja": "加地テックの株式はCSRIが同社の非公開化を目指すTOBを実施したことを受け、売買再開後は買い気配のみとなったと日本のM&A報道が伝えた。買付価格や取得比率は報道内で明らかにされていない。",
+      "why_it_matters_ja": "株価が解散価値を下回る中小型の上場企業を対象にした買収ファンドによる非公開化の流れが、本件でも続いている形だ。",
+      "status": "new",
+      "prev": null,
+      "key": "kaji-tech-csri-tob-going-private",
+      "ids": ["be98515cf6bcb8"],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE12Z1RZV2JOdmdrY2NsaHZWTGdVaEgtb013ZDBhSTdiZUJ3MzdDOUtJblZnR3ZJd0JEbWhobVpPdzA5eWV4MDhsNw?oc=5"}
+      ]
+    },
+    {
+      "headline": "Shionogi draws bridge loan to help fund IntraBio acquisition",
+      "summary": "Shionogi disclosed that it drew a bridge loan to help finance its acquisition of US biotech IntraBio, according to Japan M&A reporting. The loan amount was not disclosed.",
+      "why_it_matters": "The financing shows Japanese drugmakers increasingly turning to bridge loans to fund US biotech bolt-ons as they build out rare-disease pipelines.",
+      "summary_ja": "塩野義製薬は、米バイオ企業IntraBioの買収資金の一部をブリッジローンで調達したと開示したと、日本のM&A報道が伝えた。借入額は明らかにされていない。",
+      "why_it_matters_ja": "希少疾患領域のパイプライン拡充を狙う日本の製薬各社が、米バイオ企業の買収資金をブリッジローンで調達する動きが広がっていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "shionogi-intrabio-bridge-loan",
+      "ids": ["261a39d9fadeb8"],
+      "categories": ["M&A", "Credit"],
+      "countries": ["JP"],
+      "sectors": ["Healthcare"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYmV1WGxGRlIwRVc5MzY4djJyUnREMlFqdXJUa2ZMV2EzZlJVNnU5akxPbWtGSjZTUFVyaVlBZWRWVFVDQVpGVWpud09VU3Y4ZVBKTHJpaWFvdlpwSG42anUwYzBXenlFcGFNbldUaWduM0V0Rm9BY1hjYlQwWFRoamxDdjA5eko0X2F3d3NmSWNZUElBeHlHV1RqbmRoeTlKWE1femhQSldXWkpmbXI0NmJHS1hsZlJSckFKT0FJUEZFQ3lYQ29zVVJabFU?oc=5"}
+      ]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-10-1530",
+      "label": "10 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-10T07:35:16Z",
+      "items": 7,
+      "headlines": [
+        "Resona Holdings signs capital alliance with M&A Capital Partners, buys shares in tender-like market purchase",
+        "SoftBank Group posts $7bn quarterly net loss on hit from US data-centre investments",
+        "Morita Holdings buys German fire-engine maker for about ¥11.5bn to expand overseas"
+      ]
+    },
+    {
       "id": "2026-11-10-1230",
       "label": "10 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-10T04:35:00Z",
