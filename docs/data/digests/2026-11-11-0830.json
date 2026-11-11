@@ -1,0 +1,267 @@
+{
+ "edition": "2026-11-11-0830",
+ "edition_label": "11 Nov 2026 · 08:30 SGT",
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T00:38:47Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "Bain Capital launches ¥32.8bn tender offer for Hokuriku Denki Kogyo at ¥4,180 a share",
+   "summary": "Bain Capital affiliate BCJ-116 is launching a tender offer for Japanese electronic-components maker Hokuriku Denki Kogyo at ¥4,180 a share, valuing the deal at about ¥32.8 billion. Hokuriku Denki's board has accepted the offer, which aims to delist the company and take it private under the US fund.",
+   "why_it_matters": "The deal adds another Tokyo-listed component maker to Bain Capital's Japan buyout roster this year and signals continued sponsor appetite for small-cap names trading below strategic value. A successful tender would remove another name from the exchange as governance-driven take-privates keep reshaping Japan's small-cap universe.",
+   "summary_ja": "ベインキャピタル系のBCJ-116が、電子部品メーカーの北陸電気工業に対し1株4,180円でTOBを実施する。買収総額は約328億円。北陸電気工業の取締役会は提案に賛同しており、同社は米系ファンド傘下での非公開化・上場廃止を目指す。",
+   "why_it_matters_ja": "東証上場の部品メーカーがまた一社、ベインキャピタルの日本における買収リストに加わる形で、戦略的価値を下回る水準で取引される小型株へのスポンサーの需要が続いていることを示す。TOBが成立すればガバナンス起点の非公開化の流れが続き、取引所から名前が一つ消えることになる。",
+   "status": "new",
+   "prev": null,
+   "key": "hokuriku-denki-bain-tob",
+   "ids": [
+    "eca097daadc75e",
+    "b36f2ec7affc78",
+    "2b99a0b6e4adde"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBmd1RsMjJaWVdHNERGTE5xVmF5X0RNajhjWjlRcXh0Y0NsU08yUlRTZzB6aWlPbzlzcmlPMFpvN1FoOFlub3AzREJ0UQ?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYnVGMkVIT0E3eWpPalp5Zi1sdExBMDZteDRIVW5VOVhKWmJreU1YWGtfX3BCUmZ5aTI0ZWVNb1NzNTIycWlOY1ExYzEzTGtHc2ZVVVlPcWhxSE1lc1ZObk1PVUwwVVNOS09lUHN4QXdwWlg5Mmd4SnFFcmtHSHBfOTVxa0FBN3M?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoTzlPZHZRLVAzUVpuQXFmUjdCYzJxbTZBYnNrN20taDgzcUdmSXdWRFVjdWV3T1ZHQ1pJV0U0UGtUeDZmSlRsanI4RE10YmU5MlFTVzBMaThjQi1lbjRBZXhHLXdheVpkNzF1eTZPOHJ2Nm5z?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Anthropic's draft IPO prospectus points to a $64.4bn raise, shares to price at $70-$78",
+   "summary": "A new draft prospectus shows Anthropic seeking to raise as much as $64.4 billion in its IPO, with shares expected to price between $70 and $78 each, Reuters and the BBC reported. The figure is below the up-to-$69.3 billion the AI company was said to be eyeing earlier this month, when filing details were briefly sent to banks and then retracted.",
+   "why_it_matters": "A firm price range moves Anthropic's listing from speculation toward an actual roadshow, giving the market its first concrete read on how AI-lab valuations are being priced for public investors. The lower figure also tests whether banks are trimming expectations even as they prepare one of the largest tech IPOs on record.",
+   "summary_ja": "新たな目論見書案によれば、アンソロピックは最大644億ドルの資金調達を目指しており、1株あたり70～78ドルで価格づけされる見通しだとロイターとBBCが報じた。これは、今月初めにIPO関連文書が一時的に銀行側に送付され撤回された際に報じられていた最大693億ドルから下方修正された数字となる。",
+   "why_it_matters_ja": "具体的な価格帯が示されたことで、アンソロピックの上場は憶測の段階から実際のロードショーへと移り、AIラボの評価が公開市場でどう価格づけされるかを見る初めての具体的な材料となる。史上最大級のテックIPOの一つを準備する中で、引き受け銀行側が期待値を下方修正している可能性も示す。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-10-1230",
+    "index": 0
+   },
+   "key": "anthropic-ipo-japan-share-sale",
+   "ids": [
+    "a3cbd1485f45a6",
+    "51987c55570e42"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/exclusive-anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-6539066"
+    },
+    {
+     "source": "BBC Business",
+     "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "categories": [],
+   "countries": [],
+   "sectors": [
+    "AI & Semis",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "OpenAI acquires AI travel agent Odessia, Expedia and Booking shares fall",
+   "summary": "OpenAI has acquired Odessia, an AI travel-agent startup, with shares of online travel platforms including Expedia and Booking Holdings falling on the news. Reports said the deal folds an AI-native trip-planning tool into OpenAI's consumer offering.",
+   "why_it_matters": "The deal extends OpenAI's pattern of small tuck-in acquisitions to build vertical consumer applications on top of its models, rather than one large platform bet. The share-price reaction shows how directly investors are now pricing AI-agent competition into incumbent online-travel stocks.",
+   "summary_ja": "オープンAIがAI旅行エージェントのスタートアップ、Odessiaを買収した。これを受け、エクスペディアやブッキング・ホールディングスなどオンライン旅行各社の株価が下落した。報道によれば、AIネイティブの旅行計画ツールをオープンAIの消費者向けサービスに組み込む狙いがある。",
+   "why_it_matters_ja": "この買収は、オープンAIが大型のプラットフォーム戦略ではなく、自社モデルの上に消費者向け機能を積み上げる小型買収を重ねるパターンの延長線上にある。株価の反応は、投資家がAIエージェントとの競合をオンライン旅行株の評価に直接織り込み始めていることを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "openai-odessia-travel-acquisition",
+   "ids": [
+    "cf1f9830837e4b",
+    "9dcd31c7ffa355",
+    "1bcc9c254577d6"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR2RfcVhlZnNuRXhTQ1YzZC12dVFvSTNlWXRFb2RGSllqdkxQamh5TVlrcFhSVnBIbVBwZWtRWHRZMmhub1BIc2wtUTBKREx3RUU3NkNhMzlKQmpTSFNxZzktSGRCcW5VMFpPUVdzYUM?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2el9SNHJiVFJyZTBGU2hLNXV3YzZyajhaUVpaMXJoaXMxWVFvQzRBX1lLcWswQ0lQME5qaERJN1JaN0I4dWt1UDNudGttemd4VkRxOUhmcXJsNV9ySk9vY2J2X0FkQXpqUUZMLUtPTFhPMFVidFBF?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hTXZGX25aR2dmNXFwUi1ZZlhNVnVCMDZIZHZQcTlYMGplckNWZllsMjd5SUhMOGM5dUZHNW9CelBTck9XX2VpNFRZM0ZMeUVBQy1GUW5DUmVudnR4QzA4RVlXWUhjZWI3N3JyWkdxb0c0UHBD?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "AI & Semis",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Link Reit confirms S$239.5m deal for 50.1% of Singapore's Eastpoint Mall",
+   "summary": "Link Reit has confirmed its acquisition of a 50.1% stake in Singapore's Eastpoint Mall for S$239.5 million, with seller Income Insurance retaining the remaining 49.9% interest. Both parties plan to carry out refurbishment works at the mall.",
+   "why_it_matters": "The signed deal firms up the stake size and price after talks were first reported last week, confirming Hong Kong's largest Reit is following through on diversifying into Singapore retail. The joint refurbishment commitment suggests both owners are betting on repositioning the asset rather than taking a pure yield play.",
+   "summary_ja": "リンク・リート(Link Reit)は、シンガポールのイーストポイント・モールの50.1%の株式をシンガポールドル2億3,950万ドルで取得することを確定した。売却元のインカム・インシュランスは残り49.9%の権益を保有し続ける。両者は同モールの改修工事を共同で実施する計画。",
+   "why_it_matters_ja": "先週報じられた協議から一歩進み、取得株式比率と価格が確定したことで、香港最大のリートがシンガポールの小売資産への多角化を実行に移していることが裏付けられた。共同での改修コミットメントは、両者が単なる利回り目的ではなく、資産の再構築に賭けていることを示す。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-04-0830",
+    "index": 6
+   },
+   "key": "link-reit-eastpoint-mall",
+   "ids": [
+    "c5252e3c151a25"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/property/link-reit-confirms-s239-5-million-acquisition-50-1-stake-eastpoint-mall"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Financials",
+    "Real Estate"
+   ]
+  },
+  {
+   "headline": "Marsh agrees to buy investment consultancy Wilshire from CC Capital and Motive Partners",
+   "summary": "Marsh has reached an agreement to acquire Wilshire, the investment consulting and advisory firm, from private equity owners CC Capital and Motive Partners. CC Capital said the sale reflects the realisation of its plan to accelerate Wilshire's growth and position the business for its next phase.",
+   "why_it_matters": "The sale gives CC Capital and Motive Partners an exit from a financial-services buy-and-build, while Marsh adds investment-consulting capabilities alongside its insurance-broking and advisory business. It also points to continued consolidation among independent investment consultants as larger brokers compete for institutional mandates.",
+   "summary_ja": "マーシュは、投資コンサルティング・アドバイザリー会社のウィルシャーを、プライベートエクイティのCCキャピタルとモーティブ・パートナーズから買収することで合意した。CCキャピタルは、この売却がウィルシャーの成長加速と次の段階への位置づけという構想の実現を反映したものだとしている。",
+   "why_it_matters_ja": "この売却により、CCキャピタルとモーティブ・パートナーズは金融サービス分野のバイ・アンド・ビルド投資からの出口を得る一方、マーシュは保険ブローキング・アドバイザリー事業に投資コンサルティング機能を追加する。大手ブローカーが機関投資家向け業務を競って取り込む中、独立系投資コンサルタント業界で統合が続いていることも示す。",
+   "status": "new",
+   "prev": null,
+   "key": "marsh-wilshire-acquisition",
+   "ids": [
+    "306dccd030db80",
+    "74537a70b2167a"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/cc-capital-and-motive-partners-reach-agreement-to-sell-wilshire-to-marsh-302935572.html"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkVHB6ODgxVjdQTlJvaFB0M1AxMEJDSGhPeVRzS0MwZV9PRDVxcG55QmxzM0l6UVFYZzZGQTQtemZ6LXlTOXZKdmxjOFY3RW9JWV9rX2pWRk10eVRiVWpiZlNBeWRkcFNJWERKTzI4SzU?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Siemens to acquire semiconductor verification-tool maker Lauterbach",
+   "summary": "Siemens plans to acquire Lauterbach, adding hardware-assisted verification and embedded software debug-and-trace technology to its semiconductor design and verification portfolio. The deal lets Siemens combine hardware and software debugging into a single workflow for chip customers; financial terms were not disclosed.",
+   "why_it_matters": "The tuck-in deepens Siemens' push into chip-design tooling as verification software becomes more valuable amid the AI-chip buildout. Bundling hardware and software debug under one roof could help Siemens compete more directly with larger EDA incumbents for engineering-productivity budgets.",
+   "summary_ja": "シーメンスは、ハードウェア支援検証機能と組み込みソフトウェアのデバッグ・トレース技術を半導体設計・検証ポートフォリオに加えるため、Lauterbachの買収を計画している。これにより、チップ顧客向けにハードウェアとソフトウェアのデバッグを単一のワークフローに統合できるようになる。買収金額は開示されていない。",
+   "why_it_matters_ja": "AI向け半導体の需要拡大で検証ソフトウェアの価値が高まる中、この小型買収はシーメンスのチップ設計ツール事業への注力を一段と深めるものだ。ハードウェアとソフトウェアのデバッグを一体化することで、エンジニアリング生産性向けの予算を巡り、大手EDAベンダーとより直接的に競合できる可能性がある。",
+   "status": "new",
+   "prev": null,
+   "key": "siemens-lauterbach-acquisition",
+   "ids": [
+    "3bbe3aa74e3a9e"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/siemens-to-expand-portfolio-for-semiconductor-design-and-verification-with-the-planned-acquisition-of-lauterbach-302934669.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "AI & Semis",
+    "TMT",
+    "Industrials"
+   ]
+  },
+  {
+   "headline": "Nvidia-backed Nscale weighs delaying its $35bn listing, Telegraph reports",
+   "summary": "Nvidia-backed AI cloud firm Nscale is considering delaying its planned $35 billion listing, the Telegraph reported, citing people familiar with the matter. No new timeline was given for the IPO.",
+   "why_it_matters": "A delay from a Nvidia-linked AI infrastructure name would add to questions about near-term appetite for AI-data-centre listings, coming alongside wobbles in other AI-adjacent IPO plans this week. It is also a read-through for the broader AI capex cycle that SoftBank, Anthropic and others are relying on to fund their own data-centre bets.",
+   "summary_ja": "エヌビディアが支援するAIクラウド企業Nscaleが、計画していた350億ドル規模の上場を延期する可能性を検討していると、事情に詳しい関係者の話として英テレグラフが報じた。新たなスケジュールは示されていない。",
+   "why_it_matters_ja": "エヌビディア系のAIインフラ企業による上場延期は、他のAI関連IPO計画が今週揺れていることと合わせ、AIデータセンター関連の新規上場への当面の需要に疑問を投げかける材料となる。ソフトバンクやアンソロピックなど、自社のデータセンター投資の原資をAI投資サイクルに依存する企業群にとっても注視すべき動きだ。",
+   "status": "new",
+   "prev": null,
+   "key": "nscale-ipo-delay-report",
+   "ids": [
+    "7120f7828498a6"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/nvidia-backed-ai-cloud-firm-nscale-considers-delaying-35-billion-listing-telegraph-reports-6540571"
+    }
+   ],
+   "categories": [],
+   "countries": [],
+   "sectors": [
+    "AI & Semis",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Taiwan's Hong Rong Technology buys 50.09% of Singapore's SAM for NT$1.38bn",
+   "summary": "Taiwan-listed Hong Rong Technology has acquired a 50.09% stake in Singapore-based SAM for NT$1.38 billion, giving it majority control of the company.",
+   "why_it_matters": "The deal adds to a steady flow of Taiwan-to-Southeast-Asia acquisitions this year, with the majority stake giving Hong Rong operating control of SAM rather than a passive financial stake.",
+   "summary_ja": "台湾上場の禾榮科(ホンロン・テクノロジー)は、シンガポールを拠点とするSAMの株式50.09%を13.8億台湾ドルで取得し、同社の過半数を支配することになった。",
+   "why_it_matters_ja": "この買収は、台湾企業による東南アジア企業買収が今年続いていることを示す一例であり、過半数株式の取得により禾榮科はSAMに対し単なる財務的な出資ではなく、経営の支配権を得る形となる。",
+   "status": "new",
+   "prev": null,
+   "key": "hongrong-sam-acquisition",
+   "ids": [
+    "c080adb7869a80"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FeHd0V0Y0VVhfazVTX0hTMFdLYU9iZVAyRFBBTG9YSGtGVExISlJiT2FxZUNkeFhUZVhNSUJxZTZEQk5XSVl4VkZPQzNGcENGSy0zcWdZVEltTElOUWFmUmM3Y0pGVzg1d2lweGVtakwzaXh2?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  }
+ ]
+}
