@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T00:57:51.060Z",
+ "updated": "2026-11-11T02:27:58.789Z",
  "stories": [
   {
    "id": "7b6397f5b86c07",
@@ -63,6 +63,24 @@
    "published": "2026-11-04T21:54:23Z",
    "since": "2026-11-06T06:10:44.956Z",
    "followers": 6
+  },
+  {
+   "id": "3bbe3aa74e3a9e",
+   "title": "Siemens to expand portfolio for semiconductor design and verification with the planned acquisition of Lauterbach",
+   "link": "https://www.prnewswire.com/news-releases/siemens-to-expand-portfolio-for-semiconductor-design-and-verification-with-the-planned-acquisition-of-lauterbach-302934669.html",
+   "source": "PR Newswire M&A",
+   "published": "2026-11-10T09:30:00Z",
+   "since": "2026-11-11T02:16:05.227Z",
+   "followers": 1
+  },
+  {
+   "id": "cf1f9830837e4b",
+   "title": "OpenAIがAI旅行プラットフォームを買収、エクスペディアやブッキングなど下落 - Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR2RfcVhlZnNuRXhTQ1YzZC12dVFvSTNlWXRFb2RGSllqdkxQamh5TVlrcFhSVnBIbVBwZWtRWHRZMmhub1BIc2wtUTBKREx3RUU3NkNhMzlKQmpTSFNxZzktSGRCcW5VMFpPUVdzYUM?oc=5",
+   "source": "Japan M&A",
+   "published": "2026-11-10T19:10:00Z",
+   "since": "2026-11-11T02:02:24.660Z",
+   "followers": 1
   },
   {
    "id": "f03ac8571eea3c",
