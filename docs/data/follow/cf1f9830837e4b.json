@@ -4,14 +4,20 @@
  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR2RfcVhlZnNuRXhTQ1YzZC12dVFvSTNlWXRFb2RGSllqdkxQamh5TVlrcFhSVnBIbVBwZWtRWHRZMmhub1BIc2wtUTBKREx3RUU3NkNhMzlKQmpTSFNxZzktSGRCcW5VMFpPUVdzYUM?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-10T19:10:00Z",
- "checked_at": "2026-11-11T04:55:19Z",
+ "checked_at": "2026-11-11T07:51:20Z",
  "status": {
   "as_of": "2026-11-11",
   "text": "OpenAI's acquisition of AI travel-planning startup Odessia, confirmed 10 Nov 2026 with undisclosed terms, sent Expedia, Booking Holdings and Airbnb shares down intraday, Expedia touching $245.31 versus a $259.16 open.",
   "text_ja": "OpenAIが旅行AIスタートアップOdessiaを条件非公開で買収と10日確認。エクスペディア等OTA株が急落、エクスペディアは一時245.31ドルまで下げた。",
   "refs": [
-   {"list": "since", "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai/"},
-   {"list": "since", "url": "https://www.investing.com/news/stock-market-news/expedia-booking-and-airbnb-fall-as-openai-reportedly-buys-ai-travel-platform-5016603"}
+   {
+    "list": "since",
+    "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai/"
+   },
+   {
+    "list": "since",
+    "url": "https://www.investing.com/news/stock-market-news/expedia-booking-and-airbnb-fall-as-openai-reportedly-buys-ai-travel-platform-5016603"
+   }
   ]
  },
  "background": [
