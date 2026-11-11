@@ -1,0 +1,52 @@
+{
+ "id": "3bbe3aa74e3a9e",
+ "title": "Siemens to expand portfolio for semiconductor design and verification with the planned acquisition of Lauterbach",
+ "link": "https://www.prnewswire.com/news-releases/siemens-to-expand-portfolio-for-semiconductor-design-and-verification-with-the-planned-acquisition-of-lauterbach-302934669.html",
+ "source": "PR Newswire M&A",
+ "published": "2026-11-10T09:30:00Z",
+ "checked_at": "2026-11-11T05:00:00Z",
+ "status": {
+  "as_of": "2026-11-11",
+  "text": "Siemens agreed on 10 Nov 2026 to acquire German debug-tool maker Lauterbach; the deal, expected to close in H1 2027, adds hardware debug and trace tools to Siemens' chip design and verification portfolio.",
+  "text_ja": "シーメンスは2026年11月10日、独ローターバッハの買収で合意。チップ設計・検証向けデバッグ技術の拡充が目的で、完了は2027年上半期の見込み。",
+  "refs": [
+   {"list": "since", "url": "https://www.marketscreener.com/news/siemens-to-acquire-embedded-software-tools-maker-lauterbach-ce785edada89fe22"}
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-07-21",
+   "headline": "Siemens agrees to buy Defacto Technologies to add automated SoC design tools",
+   "summary": "Siemens signed an agreement to acquire Defacto Technologies, a privately held French EDA company active in RTL design and automated SoC design creation and integration; financial terms were not disclosed.",
+   "summary_ja": "シーメンスは仏EDA企業デファクト・テクノロジーズの買収で合意した。RTL設計やSoCの自動設計・統合技術を手がける非公開企業で、買収金額は非公開。",
+   "source": "Siemens (company blog)",
+   "url": "https://blogs.sw.siemens.com/digital-design-creation-platform/2026/07/21/siemens-acquires-defacto-technologies-transforming-soc-design-with-powerful-re-use-and-assembly-automation-technology/"
+  },
+  {
+   "date": "2026-07-20",
+   "headline": "Siemens agrees to buy Precision Innovations for AI-driven chip-planning tools",
+   "summary": "Siemens signed an agreement to acquire Precision Innovations, a San Diego-based EDA company whose software is built on the open-source OpenROAD framework, to expand AI-powered chip-planning and design-exploration tools; terms were not disclosed.",
+   "summary_ja": "シーメンスは米EDA企業プレシジョン・イノベーションズの買収で合意した。オープンソースOpenROADを基盤とするAI活用のチップ計画・設計検討ツールを取得する狙いで、条件は非公開。",
+   "source": "HPCwire (Siemens press release)",
+   "url": "https://www.hpcwire.com/off-the-wire/siemens-to-acquire-precision-innovations-for-ai-powered-chip-planning/"
+  },
+  {
+   "date": "2026-02-04",
+   "headline": "Siemens buys AI metrology firm Canopus AI for its Calibre EDA portfolio",
+   "summary": "Siemens Digital Industries Software acquired Canopus AI, a Grenoble-based company whose AI software analyzes wafer and mask metrology and inspection data, adding computational metrology to Siemens' Calibre EDA portfolio; the price was not disclosed.",
+   "summary_ja": "シーメンス・デジタル・インダストリーズ・ソフトウェアは仏グルノーブルのカノーパスAIを買収した。ウエハー・マスクのメトロロジー・検査向けAI技術をCalibre EDA製品群に取り込む狙いで、価格は非公開。",
+   "source": "Siemens Calibre blog",
+   "url": "https://blogs.sw.siemens.com/calibre/2026/02/04/siemens-acquires-canopusai/"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-10",
+   "headline": "Siemens targets first-half 2027 close for Lauterbach deal, founder to stay on",
+   "summary": "Siemens said the planned Lauterbach acquisition is expected to close in the first half of 2027 subject to customary approvals; Lauterbach generated about EUR60 million in revenue in 2025 and serves over 1,200 clients, and co-founder Stephan Lauterbach and executive Thomas Ullmann are set to remain with the company.",
+   "summary_ja": "シーメンスは、計画中のローターバッハ買収は通常の承認を前提に2027年上半期の完了を見込むとした。ローターバッハの2025年売上高は約6000万ユーロ、顧客は1200社超で、共同創業者シュテファン・ローターバッハ氏と幹部トーマス・ウルマン氏は買収後も残留する。",
+   "source": "MarketScreener",
+   "url": "https://www.marketscreener.com/news/siemens-to-acquire-embedded-software-tools-maker-lauterbach-ce785edada89fe22"
+  }
+ ]
+}
