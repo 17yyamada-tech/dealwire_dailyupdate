@@ -1,0 +1,85 @@
+{
+ "id": "cf1f9830837e4b",
+ "title": "OpenAI acquires AI travel platform, Expedia and Booking shares fall - Investing.com",
+ "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR2RfcVhlZnNuRXhTQ1YzZC12dVFvSTNlWXRFb2RGSllqdkxQamh5TVlrcFhSVnBIbVBwZWtRWHRZMmhub1BIc2wtUTBKREx3RUU3NkNhMzlKQmpTSFNxZzktSGRCcW5VMFpPUVdzYUM?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-11-10T19:10:00Z",
+ "checked_at": "2026-11-11T04:55:19Z",
+ "status": {
+  "as_of": "2026-11-11",
+  "text": "OpenAI's acquisition of AI travel-planning startup Odessia, confirmed 10 Nov 2026 with undisclosed terms, sent Expedia, Booking Holdings and Airbnb shares down intraday, Expedia touching $245.31 versus a $259.16 open.",
+  "text_ja": "OpenAIが旅行AIスタートアップOdessiaを条件非公開で買収と10日確認。エクスペディア等OTA株が急落、エクスペディアは一時245.31ドルまで下げた。",
+  "refs": [
+   {"list": "since", "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai/"},
+   {"list": "since", "url": "https://www.investing.com/news/stock-market-news/expedia-booking-and-airbnb-fall-as-openai-reportedly-buys-ai-travel-platform-5016603"}
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-06-02",
+   "headline": "Sonder founder Francis Davidson launches AI travel agent Odessia with $6M Sequoia-led seed",
+   "summary": "Francis Davidson, the former co-founder and CEO of Sonder, launched the AI travel-planning startup Odessia in June 2026 after raising about $6 million in seed funding led by Sequoia Capital.",
+   "summary_ja": "ソンダーの共同創業者で元CEOのフランシス・デビッドソン氏は2026年6月、AI旅行代理サービス「Odessia」を立ち上げ、セコイア・キャピタル主導で約600万ドルのシード資金を調達した。",
+   "source": "Skift",
+   "url": "https://skift.com/2026/06/02/after-sonders-collapse-francis-davidson-returns-with-an-ai-travel-agent/"
+  },
+  {
+   "date": "2026-05-11",
+   "headline": "OpenAI buys AI consultancy Tomoro to anchor new $4bn deployment business",
+   "summary": "OpenAI acquired Tomoro, an AI consulting and engineering firm whose roughly 150 staff had built Virgin Atlantic's AI concierge, to anchor a new AI deployment business backed by more than $4 billion.",
+   "summary_ja": "オープンAIはAIコンサルティング企業Tomoroを買収した。同社の約150人の人員はバージン・アトランティック航空のAIコンシェルジュを手がけており、40億ドル超を投じる新たなAI導入事業の中核を担う。",
+   "source": "Skift",
+   "url": "https://skift.com/2026/05/11/openai-ai-deployment-company-tomoro-virgin-atlantic/"
+  },
+  {
+   "date": "2026-03-05",
+   "headline": "OpenAI scales back ChatGPT in-app checkout plans, Expedia and Booking shares jump",
+   "summary": "A report said OpenAI was scaling back plans to let users complete travel purchases directly inside ChatGPT, directing checkout to partner apps instead; Expedia and Booking Holdings shares rose sharply on the news.",
+   "summary_ja": "OpenAIがChatGPT内での直接決済機能の計画を縮小し、決済は提携アプリ側に委ねる方針だと報じられ、エクスペディアとブッキング・ホールディングスの株価が急伸した。",
+   "source": "Skift",
+   "url": "https://skift.com/2026/03/05/openai-chatgpt-checkout-walkback/"
+  },
+  {
+   "date": "2025-11-10",
+   "headline": "Sonder files for Chapter 7 bankruptcy after Marriott ends licensing deal",
+   "summary": "Sonder, the short-term rental company Francis Davidson co-founded, shut down operations and moved to file for Chapter 7 bankruptcy after Marriott terminated their licensing agreement, citing Sonder's default.",
+   "summary_ja": "フランシス・デビッドソン氏が共同創業した短期賃貸企業ソンダーは、マリオットがライセンス契約を解除したのを受けて事業を停止し、連邦破産法7条の適用を申請する方針を示した。",
+   "source": "The Real Deal",
+   "url": "https://therealdeal.com/national/2025/11/10/sonder-to-file-for-chapter-7-bankruptcy-liquidation"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-10",
+   "headline": "OpenAI confirms Odessia acquisition; founder Francis Davidson joins to work on travel",
+   "summary": "OpenAI acquired AI travel-planning startup Odessia and brought on its founder, Francis Davidson, to work on travel at OpenAI; the companies did not disclose financial terms, and Odessia's standalone service was discontinued.",
+   "summary_ja": "OpenAIはAI旅行計画スタートアップのOdessiaを買収し、創業者のフランシス・デビッドソン氏がOpenAIで旅行分野を担当することになった。両社は財務条件を公表せず、Odessiaの単独サービスは終了した。",
+   "source": "Skift",
+   "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai/"
+  },
+  {
+   "date": "2026-11-10",
+   "headline": "Expedia, Booking Holdings and Airbnb shares fall intraday on OpenAI's Odessia purchase",
+   "summary": "Shares of Expedia, Booking Holdings and Airbnb fell intraday after reports that OpenAI had bought Odessia, with Expedia trading as low as $245.31 versus a $259.16 open on the day.",
+   "summary_ja": "OpenAIによるOdessia買収報道を受け、エクスペディア、ブッキング・ホールディングス、エアビーアンドビーの株価が日中に下落した。エクスペディア株は同日の始値259.16ドルに対し一時245.31ドルまで下げた。",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/expedia-booking-and-airbnb-fall-as-openai-reportedly-buys-ai-travel-platform-5016603"
+  },
+  {
+   "date": "2026-11-10",
+   "headline": "Odessia deal described as acqui-hire of nine-person team five months after Sequoia-backed seed",
+   "summary": "Coverage characterized OpenAI's purchase of Odessia as an acqui-hire of its roughly nine-person team, coming about five months after Sequoia Capital backed the startup's seed round.",
+   "summary_ja": "OpenAIによるOdessia買収は、セコイア・キャピタルがシード資金を支援してから約5か月後に行われた、約9人規模のチームの実質的な引き抜きだと報じられている。",
+   "source": "Runtimewire",
+   "url": "https://runtimewire.com/article/openai-acquires-odessia-francis-davidson"
+  },
+  {
+   "date": "2026-11-10",
+   "headline": "Report ties part of Expedia's drop to analyst price-target cuts and a weak broader market",
+   "summary": "Investing.com reported that Expedia's decline that day reflected both the OpenAI-Odessia news and a separate round of analyst price-target cuts, on a day the Nasdaq also fell more than 1% after a higher-than-expected inflation reading.",
+   "summary_ja": "Investing.comによると、同日のエクスペディア株下落はOpenAIによるOdessia買収報道に加え、別のアナリストによる目標株価引き下げも一因で、ナスダック総合指数も予想を上回るインフレ指標を受けて1%超下落していた。",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-expedia-stock-sliding-today-93CH-5016617"
+  }
+ ]
+}
