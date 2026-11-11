@@ -1,0 +1,215 @@
+{
+ "edition": "2026-11-11-1230",
+ "edition_label": "11 Nov 2026 · 12:30 SGT",
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T04:35:40Z",
+ "reading_minutes": 4,
+ "items": [
+  {
+   "headline": "Hokuriku Denki Kogyo's board backs Bain Capital's ¥32.8bn tender offer, clearing path to go private",
+   "summary": "Hokuriku Denki Kogyo has formally recommended Bain Capital's ¥32.8bn tender offer at ¥4,180 a share, with the Toyama-based electronic-components maker set to become a wholly owned subsidiary of the US fund. Shares hit their daily limit-up, converging on the tender price.",
+   "why_it_matters": "The board's endorsement all but secures the take-private after this morning's launch, adding another small-cap name to the wave of governance-driven delistings reshaping Japan's component-supplier base. Bain gains full control to pursue cost and overseas-growth initiatives without public-market scrutiny.",
+   "summary_ja": "北陸電気工業は、ベインキャピタルによる1株4,180円・総額約328億円のTOBに対し取締役会として賛同する方針を正式に示し、同社は米系ファンドの完全子会社となる見通しとなった。株価はTOB価格に収れんする形でストップ高となった。",
+   "why_it_matters_ja": "取締役会の賛同により、今朝発表されたTOBの成立はほぼ確実となり、ガバナンス起点の非公開化が日本の部品メーカー業界で続く流れに新たな一社が加わる。ベインは上場企業としての監視を受けずにコスト改善や海外展開を進める完全な裁量を得る。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-11-0830",
+    "index": 0
+   },
+   "key": "hokuriku-denki-bain-tob",
+   "ids": [
+    "e9a4e2f3bac107",
+    "46179236771fa5",
+    "83a027532ae74f"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoM2VralJUaE1Jc1JFSkFqdWY5N2daYWZRdjQ4S1RXNDAxVWQ2TWJCb0NtUDlRLUg0SUgzV25Edi1OS29HLWFUalpQLVlHN3lqSkE2dm1Ic0ZPcXJRTkYyMU8yWlliZw?oc=5"
+    },
+    {
+     "source": "Japan PE & activists",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HQUs4RDZnVDFDV3hHR0JGMmJVcTR1R1BfcDZvX3doR1dzQ253THJpRTctRWFGSUFmaGM3amQ5eWhKQm56VzduUWNuZ1BMcHRyc3RwWnhPcXZYdw?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QalZPVk1mMmk0ckRqb20xb2VaU0dKZk1EYXNVVXVuN09panhYU3BuX1Bta0JadHMyUmsxVEFGX0JRb0RySzBGMnU1MXBSaGVEQ3VWeG81UzhhUlZJZmVUdQ?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Industrials",
+    "Other"
+   ]
+  },
+  {
+   "headline": "European logistics developer CTP agrees $500m acquisition in Vietnam to expand in Asia",
+   "summary": "CTP, the European industrial and logistics property developer, has agreed a $500m acquisition in Vietnam as part of a push to expand its business across Asia.",
+   "why_it_matters": "The deal adds to a run of foreign real estate investment into Vietnam's logistics sector, which has drawn capital as manufacturers shift supply chains out of China. It underscores Southeast Asia's continuing pull for industrial and logistics property sponsors.",
+   "summary_ja": "欧州の産業・物流不動産デベロッパーであるCTPが、アジア事業拡大の一環としてベトナムで5億ドル規模の買収に合意した。",
+   "why_it_matters_ja": "製造業のサプライチェーンが中国から移転する中で資金を集めているベトナムの物流セクターへの海外不動産投資の流れに、新たな一件が加わる。東南アジアが物流・産業用不動産のスポンサーを引き続き引き寄せていることを裏付ける。",
+   "status": "new",
+   "prev": null,
+   "key": "ctp-vietnam-acquisition",
+   "ids": [
+    "22871bbdd76796"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBTTVJtTEJzdld5TVBKNXFHcVg0d2Y2VldjYTROOFE4ZWV5dkhmZmdlVU1Pb0YwTHlIa2E3TDZLY3p3VmxGTW1id29B?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "CDL Hospitality Trusts raises about S$148.5m via preferential offering to fund Moxy Singapore hotel buy",
+   "summary": "CDL Hospitality Trusts has launched a preferential offering of 231 million stapled securities at S$0.643 apiece, raising about S$148.5m. Proceeds will help fund its acquisition of the Moxy Singapore Clarke Quay hotel.",
+   "why_it_matters": "The equity raise shows Singapore hospitality REITs can still tap unitholders for growth capital even as rates stay high, and confirms the Moxy Clarke Quay deal is moving toward completion. It adds another hotel to CDLHT's Singapore portfolio at a time of selective REIT acquisition activity in the city-state.",
+   "summary_ja": "CDLホスピタリティ・トラストは、1単位あたりS$0.643で2.31億単位のステープル証券を発行する優先募集を実施し、約S$1.485億を調達する。調達資金はホテル「モクシー・シンガポール・クラークキー」の買収資金に充てられる。",
+   "why_it_matters_ja": "金利が高止まりする中でもシンガポールのホスピタリティREITが増資によって成長資金を調達できることを示すとともに、モクシー・クラークキーの買収が完了に向けて進んでいることを裏付ける。同国内でREITによる選別的な買収が続く中、CDLHTのシンガポール内ホテル資産に新たな一件が加わる。",
+   "status": "new",
+   "prev": null,
+   "key": "cdlht-moxy-clarke-quay-offering",
+   "ids": [
+    "155c602dd90bcf"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/cdlht-launches-preferential-offering-231-million-stapled-securities-s0-643-apiece"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Real Estate"
+   ]
+  },
+  {
+   "headline": "Indonesia's sovereign fund INA invests in GIP-backed Vena's renewable projects across Indonesia and the Philippines",
+   "summary": "Indonesia Investment Authority (INA) has taken a stake in renewable energy projects run by Vena, a platform backed by Global Infrastructure Partners, spanning assets in Indonesia and the Philippines. No investment size was disclosed.",
+   "why_it_matters": "The deal extends INA's push into clean-energy infrastructure and gives Vena a sovereign-fund partner as it builds out a regional renewables platform. It highlights continued institutional capital flowing into Southeast Asian power assets.",
+   "summary_ja": "インドネシア投資庁(INA)は、グローバル・インフラストラクチャー・パートナーズ(GIP)が支援する再生可能エネルギー事業者Venaが手がける、インドネシアとフィリピンの発電資産に出資した。出資額は明らかにされていない。",
+   "why_it_matters_ja": "INAによるクリーンエネルギー・インフラへの取り組みが一段と進み、Venaは地域の再エネプラットフォーム構築にあたり新たな政府系ファンドを株主に得る。東南アジアの電力資産に機関投資家の資金が流入し続けていることを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "ina-vena-renewables-indonesia-ph",
+   "ids": [
+    "b0e090f0fef2a5"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY0x3cFBBaVAwMi0weVNMcWVESExsN3Ixd1gxbTNCVFB3YjgwVXNRU3luQ2tJNnJDbGFuOU1JZWludkJESVJaakM1b1pJWjV2c1JaSks1OF9MSHdaUXJlcGhBd0pGTmtaMGpvYlZLMWFabkI1NTh5a19BZkR1VUpkbG5CdEJKd2dPdVEyaEs3ZmVsdw?oc=5"
+    }
+   ],
+   "categories": [
+    "Infra"
+   ],
+   "countries": [
+    "SEA"
+   ],
+   "sectors": [
+    "Energy"
+   ]
+  },
+  {
+   "headline": "Samsung Biologics' 2.7tn-won rights issue draws 96.8% take-up, nearing final stage of PolyPeptide buyout financing",
+   "summary": "Samsung Biologics' 2.7 trillion won (~$1.8bn) rights issue was subscribed at a 96.8% take-up rate, pushing the financing behind its planned acquisition of PolyPeptide into its final stage.",
+   "why_it_matters": "Near-full subscription removes a key funding risk for one of the larger pending deals in contract biomanufacturing, as Samsung Biologics builds out capacity to compete with established CDMOs. It shows investor appetite holding up for large Asian biopharma financings even in a cautious capital-markets environment.",
+   "summary_ja": "三星バイオロジクスが実施した2.7兆ウォン(約18億ドル)規模の増資は引受率96.8%となり、計画しているポリペプチド(PolyPeptide)買収の資金調達は最終段階に入った。",
+   "why_it_matters_ja": "ほぼ満額の引受けにより、受託生産(CDMO)分野で最大級となる買収案件の一つから資金面のリスクが取り除かれた形となり、三星バイオロジクスは既存大手CDMOと競うための生産能力拡大を進める。資本市場が総じて慎重な中でも、アジアの大型バイオ医薬品関連の資金調達に投資家の需要が根強いことを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "samsung-biologics-polypeptide-financing",
+   "ids": [
+    "5d734ac723a043"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fTFF0NmZQWFMyMjdIY1l6S2pMY2Q0ckNmQ2RWcnhvMWV0cVNzWVBidXo3NGZvZGo4bGFXZVM0dnM4ZUxZZGh5ejh3LWJiYjhMNmFQRDNXNDFnU1lXdWFWd0NjbnVKTXlKdUxnWFRYQU01TTMz?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Minority shareholders rally against Hyundai Mobis's lamp-unit sale as 230bn-won appraisal rights loom",
+   "summary": "Minority shareholders are organizing opposition to Hyundai Mobis's sale of its lamp business, with potential appraisal-rights claims tied to the deal estimated at 230 billion won. The opposition adds uncertainty to a divestiture Hyundai Mobis has already agreed.",
+   "why_it_matters": "A shareholder revolt over appraisal rights could raise the cost of, or complicate completion of, the carve-out, a test case for governance pushback at Korean conglomerate affiliates. It is a reminder that minority-investor resistance is an increasingly live risk for intra-group restructurings in the region.",
+   "summary_ja": "現代モービスによるランプ事業売却に対し、少数株主が反対の動きを強めている。この売却に絡む買収請求権(アプレイザル・ライト)の規模は2300億ウォンと見積もられている。",
+   "why_it_matters_ja": "買収請求権をめぐる株主の反発が強まれば、現代モービスが既に合意済みのこの事業売却のコストが膨らんだり、完了が複雑になったりする可能性がある。韓国系財閥の関連会社におけるガバナンスを巡る反発の試金石であり、グループ内再編に対する少数株主の抵抗が同地域で現実のリスクとして高まっていることを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "hyundai-mobis-lamp-sale-shareholder-opposition",
+   "ids": [
+    "8cfc58611e5659"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XNHE2VklrVXlMMHpMMlhfWE9YNlVNWlFIcXNuN09fNm5aak9yMXlSNGdBWUJBZml6eTN3WXhDUU43ZG51Rk9fR19oSVoxU3BMV2lldVNLMjRjSFkzaVBYdUcxN094ZXVBaUZEY1I2QVZJRmRk?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "German strategic bidder advances in race for CVC's stake in Indonesia's Samator Indo Gas",
+   "summary": "A German strategic player has advanced in the bidding process for CVC Capital Partners' stake in Samator Indo Gas, the Indonesian industrial-gas producer. No bid price or timeline was disclosed.",
+   "why_it_matters": "A strategic buyer emerging as a frontrunner would mark a shift from an auction dominated by financial sponsors, pointing to a trade exit for CVC's stake. It adds to a steady flow of sponsor-exit processes testing buyer appetite for Southeast Asian industrial assets.",
+   "summary_ja": "CVCキャピタル・パートナーズが保有するインドネシアの産業用ガス会社サマトール・インド・ガス(Samator Indo Gas)の株式売却プロセスで、ドイツの事業会社が優位に立ったとみられている。買収価格や時期は明らかにされていない。",
+   "why_it_matters_ja": "事業会社が売却プロセスの最有力候補として浮上したことは、金融系スポンサーが中心だった入札プロセスからの変化を示し、CVCにとって事業会社への売却(トレードセール)という出口となる可能性を示す。東南アジアの産業アセットに対する買い手の需要を試す、スポンサーのエグジットプロセスが引き続き相次いでいることを裏付ける。",
+   "status": "new",
+   "prev": null,
+   "key": "cvc-samator-indo-gas-stake-sale",
+   "ids": [
+    "ce75427c89d5b5"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNMFlJdld4ZnF5SVdtWEdOMHVaeENGX0JyLWZNd1J4WUdpTElTR3NhXy1vRWdDQ25EWHk5Vl9WY24xZUFSRlVoaENxZEFKZnE2OFZ6WWVfdThBYnp6cEZhMzdoVU9NV0QzOEV3MFIyYUdSWVkzNWdGNFFuUFY?oc=5"
+    }
+   ],
+   "categories": [
+    "PE"
+   ],
+   "countries": [
+    "SEA"
+   ],
+   "sectors": [
+    "Energy"
+   ]
+  }
+ ]
+}
