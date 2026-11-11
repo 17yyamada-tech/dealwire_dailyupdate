@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-11-11-1530",
+   "label": "11 Nov 2026 · 15:30 SGT",
+   "generated_at": "2026-11-11T07:35:00Z",
+   "items": 5,
+   "headlines": [
+    "Kobelco Construction Machinery weighs ¥110bn ($730m) purchase of a UK business",
+    "Western Union terminates deal to acquire money-transfer rival Intermex",
+    "Cathay Pacific orders 14 Airbus jets worth $5.1bn, mixing widebody and narrowbody types"
+   ]
+  },
+  {
    "id": "2026-11-11-1230",
    "label": "11 Nov 2026 · 12:30 SGT",
    "generated_at": "2026-11-11T04:35:40Z",

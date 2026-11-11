@@ -1,0 +1,153 @@
+{
+ "edition": "2026-11-11-1530",
+ "edition_label": "11 Nov 2026 · 15:30 SGT",
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T07:35:00Z",
+ "reading_minutes": 3,
+ "items": [
+  {
+   "headline": "Kobelco Construction Machinery weighs ¥110bn ($730m) purchase of a UK business",
+   "summary": "Kobelco Construction Machinery is moving to acquire a UK company's business for about ¥110bn ($730m), according to a Japanese report that did not name the target. The report described the move as an early-stage aim rather than a signed agreement.",
+   "why_it_matters": "A deal of that size would be one of the larger outbound moves yet by a Japanese construction-equipment maker, signalling continued appetite for overseas growth even as the domestic machinery market softens. Japanese industrial groups have stepped up acquisitions of European and UK engineering assets this year as they look to diversify revenue away from a shrinking home market.",
+   "summary_ja": "コベルコ建機は、英国企業の事業を約1100億円(7億3000万ドル)で買収する方向で動いていると日本メディアが報じた。買収対象企業名は明らかにされておらず、正式な契約締結ではなく初期段階の意向にとどまる。",
+   "why_it_matters_ja": "この規模の買収は日本の建機メーカーによる海外展開としては大型案件であり、国内市場の縮小が続く中でも海外成長への意欲が強いことを示す。日本の産業企業は今年、国内市場の縮小から収益源を多様化するため、欧州・英国のエンジニアリング資産の買収を増やしている。",
+   "status": "new",
+   "prev": null,
+   "key": "kobelco-uk-acquisition",
+   "ids": [
+    "3c4f80f5cdf598"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8xRUxPNEVCd0RBbXVMclQ1WUkxX0hmeXU1QzZmTXEyUVF5cEdpQ0tmTkl1S0JSNlVoNEowUjB1a3VvUQ?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Industrials"
+   ]
+  },
+  {
+   "headline": "Western Union terminates deal to acquire money-transfer rival Intermex",
+   "summary": "Western Union has ended its agreement to acquire Intermex, a rival money-transfer operator, according to a report. The report did not disclose a reason for the termination or any break fee.",
+   "why_it_matters": "The collapse removes one of the larger consolidation moves in US remittances, a business facing margin pressure from digital-first competitors and regulatory scrutiny of cross-border payments. It leaves Intermex as a standalone takeover target again, and raises questions over whether the two sides disagreed on price, financing or regulatory conditions.",
+   "summary_ja": "ウエスタンユニオンは、同業のインターメックス買収契約を終了したと報じられた。報道では終了の理由や解約金の有無は明らかにされていない。",
+   "why_it_matters_ja": "米国の送金業界における大型統合案件の一つが消滅したことになり、同業界はデジタル専業の競合による利益率低下や国境を越える決済への規制強化にさらされている。これにより、インターメックスは再び単独での買収候補に戻るほか、両社が価格・資金調達・規制条件のいずれで折り合えなかったのかという疑問が残る。",
+   "status": "new",
+   "prev": null,
+   "key": "western-union-intermex-termination",
+   "ids": [
+    "9ae3e009fd2908"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OZnQ2c0l2bExNVmZQVVNnVmpaVDNzN3JQQ1VZZDU0ampvb21xSEp6Wk5HcFZHVEstOEV0VmtQeTFZN0xYVWtjMGp6ZDlkRXZWWG1Ydmo4UG44YS0yLW5pcXp6WTZ5aWU1dXBpLXUyRkc?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Financials"
+   ]
+  },
+  {
+   "headline": "Cathay Pacific orders 14 Airbus jets worth $5.1bn, mixing widebody and narrowbody types",
+   "summary": "Cathay Pacific has agreed to buy 14 Airbus aircraft for US$5.1bn: 11 A330-900 widebody jets and three A321neo narrowbody jets, to expand its fleet.",
+   "why_it_matters": "The order is a vote of confidence in long-haul and regional travel demand out of Hong Kong, and extends Airbus's lead over Boeing in the widebody segment. It also comes as Asian carriers rebuild capacity after years of supply-chain-driven delivery delays across the industry.",
+   "summary_ja": "キャセイパシフィック航空は、エアバス機14機を51億米ドルで購入する契約を結んだ。広胴機A330-900を11機、狭胴機A321neoを3機導入し、機材を拡充する。",
+   "why_it_matters_ja": "この発注は香港発の長距離・近距離路線の需要に対する自信の表れであり、広胴機分野でのエアバスのボーイングに対する優位をさらに広げる。供給網の混乱による納入遅延が業界全体で続く中、アジアの航空会社が機材能力を再構築している動きの一環でもある。",
+   "status": "new",
+   "prev": null,
+   "key": "cathay-pacific-airbus-order",
+   "ids": [
+    "edb81cf95d36c2",
+    "e4643427257f6b"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/cathay-pacific-buy-airbus-aircraft-6542041"
+    },
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/transport-logistics/cathay-pacific-orders-14-airbus-aircraft-expand-its-fleet"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "HK/CN"
+   ],
+   "sectors": [
+    "Industrials"
+   ]
+  },
+  {
+   "headline": "Blackstone raises buyout proposal for IDP Education, shares jump",
+   "summary": "Blackstone has raised its buyout proposal for IDP Education, the international-student-testing and placement group, sending its shares sharply higher, according to a report. The size of the increase was not disclosed.",
+   "why_it_matters": "A higher bid signals Blackstone still sees value in IDP's testing and placement franchise despite volatile overseas-student flows into core markets, and raises the bar for any rival suitor. Sponsors have circled international-education assets as a structurally growing, asset-light business even as individual countries' visa policies swing year to year.",
+   "summary_ja": "ブラックストーンは、国際教育・留学試験サービス大手IDPエデュケーションに対する買収提案額を引き上げたと報じられ、同社株価は急騰した。引き上げの具体的な金額は明らかになっていない。",
+   "why_it_matters_ja": "買収価格の引き上げは、留学生の流入が主要市場で変動している中でも、ブラックストーンがIDPの試験・留学支援事業に価値を見出し続けていることを示し、対抗買収者が現れた場合の基準値を引き上げる。PEファンドは、各国のビザ政策が年ごとに変動する中でも、国際教育関連資産を構造的に成長するアセットライトな事業として注目してきた。",
+   "status": "new",
+   "prev": null,
+   "key": "blackstone-idp-education-raise",
+   "ids": [
+    "7d232ad9e626b2"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yb1JHT1FOQ3A5S1hfY1NWdXlOaTZyQnM4WVBvQ1ZCd3pINmlid0tXNldkeWo3SWxha0o3U0JNcEx5elFxLVJ0dHl1S2toZUR0UmhVSEZsblZCcTI0MEFxdjktZ1IyZElaMHBwX1Jxdk1KQkd2ODlR?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Life Corp completes ¥22.8bn tender offer for Toyama supermarket chain Albis",
+   "summary": "Japanese supermarket operator Life Corp's tender offer for regional chain Albis has succeeded, with total purchase value of about ¥22.8bn ($150m), making Albis a consolidated subsidiary.",
+   "why_it_matters": "The deal adds to a wave of consolidation among Japan's regional supermarket chains, as larger operators absorb smaller rivals facing rising costs and succession pressure. Toyama's ageing, shrinking population makes scale increasingly necessary for grocers to sustain store networks there.",
+   "summary_ja": "日本のスーパーマーケット大手ライフコーポレーションによる富山の地域スーパー、アルビスへのTOBが成立した。買い付け総額は約228億円(1億5000万ドル)で、アルビスは連結子会社となる。",
+   "why_it_matters_ja": "この買収は、人件費など費用上昇や事業承継の課題を抱える地域スーパーを大手が取り込む、日本の地域スーパー業界における統合の流れを象徴する一件だ。富山県は人口減少・高齢化が進んでおり、スーパー各社にとって店舗網を維持するための規模の確保がより重要になっている。",
+   "status": "new",
+   "prev": null,
+   "key": "life-corp-albis-tob-completion",
+   "ids": [
+    "5caad520f8833b"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52a1VsVWp5VENKNExzSUM1RkVEb0R4dWxRWG8tdk1nbUpWZWlvdTBDLW8zNmxVNndhbG9ISThHYUU4MHZ4OUc5WHlTdHRxX0FSb1dIajNRNy1nZw?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Consumer"
+   ]
+  }
+ ]
+}
