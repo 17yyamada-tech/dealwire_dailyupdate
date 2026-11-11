@@ -4,15 +4,23 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-10T07:50:00Z",
+ "checked_at": "2026-11-11T01:00:00Z",
  "status": {
-  "as_of": "2026-11-10",
-  "text": "Eisenkot holds the mandate to form a government, granted Nov 8 with a Dec 6 deadline; Israel's 26th Knesset convened for its inaugural session Nov 10 as coalition talks continue.",
-  "text_ja": "エイゼンコットは11月8日に政権樹立の委任を受け、期限は12月6日。新第26期国会は11月10日に開会式を迎え、連立協議が続く。",
+  "as_of": "2026-11-11",
+  "text": "Eisenkot holds the mandate to form a government (deadline Dec 6). The 26th Knesset convened Nov 10, when his bloc moved to replace Speaker Amir Ohana; no coalition deal signed yet.",
+  "text_ja": "アイゼンコットは政権樹立の委任を保持し、期限は12月6日。第26期国会は11月10日に開会し、同氏の陣営はオハナ国会議長の交代も図った。連立合意は未締結。",
   "refs": [
    {
     "list": "since",
+    "url": "https://www.ynetnews.com/article/bjunej5agg"
+   },
+   {
+    "list": "since",
     "url": "https://www.jns.org/news/israel-news/israels-26th-knesset-set-to-be-inaugurated-nov-10"
+   },
+   {
+    "list": "since",
+    "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
    }
   ]
  },
@@ -83,6 +91,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-10",
+   "headline": "Eisenkot's bloc moves to oust Knesset Speaker Amir Ohana on the 26th Knesset's opening day",
+   "summary": "Ynetnews reported that lawmakers aligned with Gadi Eisenkot moved to replace Knesset Speaker Amir Ohana, a Likud ally, on November 10 as the newly elected Knesset opened; Ohana said he would hold an early vote on his own replacement only if at least 61 MKs signed a request for it.",
+   "summary_ja": "Ynetnewsによると、11月10日の新国会開会に合わせ、アイゼンコット派の議員らはリクード系のアミール・オハナ国会議長の交代を求めて動いた。オハナ議長は、61人以上の議員の署名があった場合のみ自身の交代を問う早期投票を行うとした。",
+   "source": "Ynetnews",
+   "url": "https://www.ynetnews.com/article/bjunej5agg"
+  },
   {
    "date": "2026-11-10",
    "headline": "Israel's newly elected 26th Knesset convenes for inaugural swearing-in session",
@@ -314,62 +330,6 @@
    "summary_ja": "WTI原油先物が1バレル100ドルを超え、過去3週間で10%超の上昇となる見通しとなった。ホルムズ海峡の紛争による供給混乱への懸念が続いていることが背景にある。",
    "source": "FXStreet",
    "url": "https://www.fxstreet.com/news/wti-oil-rises-beyond-100-amid-fresh-concerns-of-supply-disruptions-202610230716"
-  },
-  {
-   "date": "2026-10-22",
-   "headline": "Trump accuses Iran of staging fake tanker attacks to inflate oil prices before US midterms",
-   "summary": "President Trump said Iran is fabricating reports of tanker attacks and mine strikes in the Strait of Hormuz to drive up oil prices ahead of the November 3 US midterm elections, while the White House repeated that it will not strike Iran before the vote. A CENTCOM spokesperson separately called Iran's mine-strike claims incorrect.",
-   "summary_ja": "トランプ大統領は、イランがホルムズ海峡でのタンカー攻撃や機雷被害の報告を捏造し、11月3日の米中間選挙前に原油価格を押し上げようとしていると非難した。ホワイトハウスは中間選挙前にイランを攻撃しない方針を改めて示し、CENTCOM報道官もイランの機雷被害の主張は不正確だと述べた。",
-   "source": "CBS News",
-   "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
-  },
-  {
-   "date": "2026-10-22",
-   "headline": "Lloyd's List: Hormuz-area ship attacks hit record 28 in October, most since war began",
-   "summary": "Lloyd's List Intelligence data cited by NBC News showed 28 attacks on vessels in and around the Strait of Hormuz so far in October, the highest monthly total since the US-Iran war began on February 28. Tankers continue to transit the strait under US naval escort despite the surge in attacks.",
-   "summary_ja": "NBCニュースが引用したロイズ・リスト・インテリジェンスのデータによると、10月のホルムズ海峡周辺での船舶攻撃件数は28件に達し、2月28日の米イラン開戦以降で最多となった。攻撃の増加にもかかわらず、タンカーは米海軍の護衛下で海峡の航行を続けている。",
-   "source": "NBC News",
-   "url": "https://www.nbcnews.com/world/iran/iran-strikes-strait-hormuz-shipping-trump-oil-prices-midterms-rcna603670"
-  },
-  {
-   "date": "2026-10-22",
-   "headline": "Iran claims 7 tankers hit overnight in Strait of Hormuz, largest single-day toll of the war if confirmed, as Saudi coalition intercepts drones",
-   "summary": "Iranian state media and the Revolutionary Guard Corps said seven oil tankers were struck in the Strait of Hormuz overnight into October 22, 2026 - four hit while transferring oil and three hit naval mines - which, if confirmed, would be the largest single-day toll in the waterway since the war began on February 28; the claims were not independently verified. The same day, a Saudi-led coalition intercepted drones in its airspace.",
-   "summary_ja": "イラン国営メディアと革命防衛隊(IRGC)は、2026年10月22日未明までにホルムズ海峡で原油タンカー7隻が被弾したと発表した。4隻は原油の移送中に攻撃を受け、3隻は機雷に接触したとされる。事実であれば2月28日の開戦以来最大の単日被害となるが、独立した形での確認はされていない。同日、サウジ主導の連合軍は自国領空で無人機を迎撃した。",
-   "source": "CBC News",
-   "url": "https://www.cbc.ca/news/world/mideast-hormuz-saudi-arabia-attacks-9.7391297"
-  },
-  {
-   "date": "2026-10-22",
-   "headline": "Brent crude tops $112 a barrel, highest since May, as Hormuz attacks and Houthi strikes on Saudi infrastructure intensify",
-   "summary": "Brent crude rose to around $112.41 a barrel, its highest level since May, while WTI traded near $99.95, as renewed attacks on shipping around the Strait of Hormuz and Houthi strikes on Saudi infrastructure added to supply concerns; gold and silver were pressured on the day despite lower bond yields.",
-   "summary_ja": "ホルムズ海峡周辺での船舶攻撃激化とサウジの石油関連インフラへのフーシ派攻撃を背景に、ブレント原油は1バレル112.41ドル前後まで上昇し5月以来の高値となった。WTIは99.95ドル前後で推移した。利回り低下にもかかわらず金・銀相場は値を下げた。",
-   "source": "Kitco News",
-   "url": "https://kitco.com/news/article/2026-10-22/gold-silver-pressured-despite-lower-yields-hormuz-attacks-send-crude-higher"
-  },
-  {
-   "date": "2026-10-21",
-   "headline": "Netanyahu tells election rally that toppling Iran's regime is the \"only way\" to end its threat, orders military and Mossad to pursue it",
-   "summary": "At an election rally in Dimona on October 21, 2026, Israeli Prime Minister Benjamin Netanyahu said removing the threat posed by Iran required toppling its government, stating \"there is only one way to end this: by toppling this regime,\" and said he had instructed Israel's military and Mossad to pursue the regime's overthrow, days ahead of Israel's October 27 election.",
-   "summary_ja": "イスラエルのネタニヤフ首相は2026年10月21日、ディモナでの選挙集会で、イランの脅威を取り除くには同国政権を打倒する必要があると述べ、「この脅威を終わらせる方法は、この政権を打倒することしかない」と表明した。軍とモサドに政権打倒の追求を指示したとも明らかにした。10月27日のイスラエル総選挙を数日後に控えての発言である。",
-   "source": "Arab News (via Reuters)",
-   "url": "https://www.arabnews.pk/middle-east/netanyahu-says-toppling-iran-government-only-way-to-end-threat-3004856"
-  },
-  {
-   "date": "2026-10-21",
-   "headline": "FT: Netanyahu had ordered multi-day bombing campaign against Iran for Oct 10 weekend, but Trump blocked it over US midterms",
-   "summary": "The Financial Times reported, citing three people familiar with the matter, that Prime Minister Benjamin Netanyahu had ordered Israel's military to prepare a multi-day bombing campaign against Iranian nuclear, regime and infrastructure targets for the weekend of October 10, 2026, but that President Trump opposed restarting the war before the November 3 US midterm elections, so the strikes were not carried out; the White House said the US has no plans to attack Iran before the midterms.",
-   "summary_ja": "フィナンシャル・タイムズは事情に詳しい関係者3人の情報として、ネタニヤフ首相がイランの核・政権・インフラ関連の標的に対する複数日間の爆撃作戦を2026年10月10日の週末に向けて準備するよう軍に指示していたが、トランプ大統領が11月3日の米中間選挙前の戦争再開に反対したため攻撃は実行されなかったと報じた。ホワイトハウスは中間選挙前にイランを攻撃する計画はないとしている。",
-   "source": "The Times of Israel (citing Financial Times)",
-   "url": "https://www.timesofisrael.com/netanyahu-planned-attack-on-iran-earlier-this-month-but-trump-opposed-it-report/"
-  },
-  {
-   "date": "2026-10-21",
-   "headline": "Kpler: at least 18 vessel attacks logged over two weeks as strikes spread from Hormuz into Gulf of Oman",
-   "summary": "Maritime risk tracker Kpler recorded at least 18 attacks on vessels in the Strait of Hormuz area over the preceding two weeks, and LSEG analysts said the geographic scope of the attacks had expanded into the Gulf of Oman, Al Arabiya English reported.",
-   "summary_ja": "海事リスク調査会社Kplerは、過去2週間でホルムズ海峡周辺の船舶攻撃が少なくとも18件発生したと集計した。LSEGのアナリストは、攻撃の地理的範囲がオマーン湾にも拡大していると指摘したと、アルアラビーヤ英語版が報じた。",
-   "source": "Al Arabiya English",
-   "url": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
   }
  ]
 }
