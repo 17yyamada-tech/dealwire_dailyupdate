@@ -1,0 +1,291 @@
+{
+ "edition": "2026-11-12-0830",
+ "edition_label": "12 Nov 2026 · 08:30 SGT",
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T00:31:00Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "Nvidia board said to be preparing to replace CEO Jensen Huang after report of relationship with subordinate executive",
+   "summary": "The Wall Street Journal reported that Nvidia's board is preparing to oust chief executive Jensen Huang. The New York Times separately reported that Huang had a romantic relationship with an executive who reported to him.",
+   "why_it_matters": "Huang has been the public face and chief architect of Nvidia's dominance in AI chips, so any move to replace him would reach into every AI-capex-linked financing and equity story Deal Wire tracks, from chip supply deals to data-centre debt. Markets have already shown how sensitive AI-linked equities are to leadership and governance headlines this year, and Nvidia sits at the centre of that trade.",
+   "summary_ja": "ウォール・ストリート・ジャーナルは、エヌビディア取締役会がジェンセン・フアンCEOの解任を準備していると報じた。ニューヨーク・タイムズは別途、フアン氏が部下の幹部と交際関係にあったと報じている。",
+   "why_it_matters_ja": "フアン氏はエヌビディアによるAIチップ支配を体現する存在であり、同氏が交代すればチップ供給契約やデータセンター向け債務など、AI投資に紐づくあらゆる取引・資金調達の構図に影響が及ぶ。今年はAI関連株が経営・ガバナンス面のニュースに敏感に反応してきており、エヌビディアはその中心に位置する。",
+   "status": "new",
+   "prev": null,
+   "key": "nvidia-jensen-huang-ouster-report",
+   "ids": [
+    "5a560d475f27d7",
+    "3e1a5a1932f775",
+    "f4a7c163edc31d"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/world/nvidia-jensen-huang-oust-ceo-6544031"
+    },
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/nvidia-ceo-huang-had-relationship-executive-who-reported-him-nyt-reports-6544021"
+    },
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/instant-view-nvidia-preparing-oust-ceo-jensen-huang-wsj-reports-6544111"
+    }
+   ],
+   "categories": [],
+   "countries": [],
+   "sectors": [
+    "AI & Semis"
+   ]
+  },
+  {
+   "headline": "EQT matches rival bid, raising Kakaku.com tender offer to ¥3,700 a share and extending deadline to Nov 26",
+   "summary": "EQT raised its tender offer price for Kakaku.com to ¥3,700 a share, matching the level that rival bidders LINE Yahoo and Bain Capital had already set, and extended its own offer period to Nov 26. The move keeps EQT in a head-to-head bidding contest for control of the Japanese price-comparison site.",
+   "why_it_matters": "A rare three-way Tokyo-listed takeover fight is now priced at parity, meaning the outcome for Kakaku.com's board and shareholders will likely hinge on deal structure and certainty of closing rather than price alone. Bidders rarely match each other's price point-for-point in Japan, making the next move on financing or break fees the one to watch.",
+   "summary_ja": "EQTはカカクコムに対するTOB価格を1株3700円に引き上げ、ライバルのLINEヤフー・ベインキャピタル連合が既に設定していた水準に合わせた。あわせて買付期間を11月26日まで延長し、カカクコム争奪戦を続ける構えを示した。",
+   "why_it_matters_ja": "東証上場企業をめぐる三者間の争奪戦が価格面で拮抗したことで、取締役会と株主の判断は価格そのものより買収スキームや成立確実性に左右される展開になりそうだ。日本でここまで価格を一致させてくる陣営は稀であり、次に注目されるのは資金調達条件や違約金といった点になる。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-06-0830",
+    "index": 7
+   },
+   "key": "line-yahoo-kakaku-com-price-increase",
+   "ids": [
+    "26e8d4c4456702",
+    "306fd150bd2628",
+    "1db0d0ae3314ef"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvZE90REYzV25tTUg1X2g5bnBub0ZkNHE3bDJaRURXM2VZS2ZDWHFOVWJ3bnZ0T3RVOVZpdzBzNk9IdzllSjRBQXlzQ0hWeUQ5RlhhRHEyV2pVc0Y2TloxOW1FRUxzMnA1LUM4Uw?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRDZFTDdodTQ4UHVQSFVmTnJpLTRrSWFSSlZYTm5PLXRsV3N1cl9FVnNWWlZsSDZYUHQwbVFJdndNRURKTElpeldrcmw1Vi1vOG9URWpfV1RmU2w5QUF1aWM5VUVCMy1ma1ZqTVVxMjNSTTRDMGNBWHNVeDlMWk1relpZWkotN2M?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTFJKeHBtaDR4UEV1d2loTGJtX3dnVjd4TUtJWXI2RV9XYkdUbW1IZWNmbHRuVDc3U1Q2TUpKcXdSUThDU0wxQ3JWQnFzLVhfQXgtS21sUEpnSmNKOUFWOUNaSDhfTllRTjFjRl9qTjctenNQd2c5NVFiY2VWR0Vrc2lVSW9HQQ?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Orix launches tender offer at ¥1,490 a share to take system-monitoring firm IBC fully private",
+   "summary": "Orix is taking IBC, a Tokyo-listed system-monitoring software company, fully private through a tender offer priced at ¥1,490 a share. IBC is expected to be delisted once the offer succeeds.",
+   "why_it_matters": "The deal adds to a steady run of small-cap Japanese take-privates this year, as acquirers use tender offers to fold in niche software and monitoring businesses away from public-market scrutiny. It also shows Orix continuing to deploy capital into bolt-on take-privates even as larger buyout targets dominate headlines.",
+   "summary_ja": "オリックスは、東証上場のシステム監視ソフト会社アイビーシーを完全子会社化するため、1株1490円でTOBを開始した。買付成立後は上場廃止となる見通し。",
+   "why_it_matters_ja": "今年続く日本の中小型非公開化の流れに連なる案件で、買収企業がTOBを使い、監視・ニッチソフト企業を市場の目から外す動きが続いている。大型買収が話題を集める中でも、オリックスが小粒の非公開化案件に資金を投じ続けていることも示している。",
+   "status": "new",
+   "prev": null,
+   "key": "orix-ibc-tob-privatization",
+   "ids": [
+    "717c60d6b03f44",
+    "9ed8468a182be9",
+    "32e28751f929c4"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IWEU1NXU1Y3BRVUNNMTlkUzRZWlBENm9iQXV3XzV3bEZRRHU5OF82Q0VOREZFZ0ctN0RpdUJqcWJIbGU0MTJSYlpSU2MxMDVxcGxxdExmRFlrMklLOHJWUU1NTFZNZHJleGRtMA?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02eW1jV2Ziem9mRHpqOE1jemNWZTdwbkVoY2pkTmlnc2dOczRFamltSVZ3cUwxVkctaHpLVk5IdzRXWjZwNzlibzh5RzdDcDQtWTVSUzFpS3BNeEVPT2RnQw?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMnhOOW9wb0drX2ktS1lWUjVPTVlPbnY4bmotZGZOVlYxc2phaDBkMmw3NFN4ZzY2SERyNkZET3NXT0c3MGZ1SHQzMjNWQVpVQnlwS1BWOVd4cVNITzlkd0V4Y0ExREc3T2ZDc3Q5b0F4Smd1VDc3Vlp5VjBzM0NUNXB0WnEtZm8?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Integral extends Kadoya Seiyu tender offer to Nov 26 as bidding war with Kikkoman intensifies",
+   "summary": "Integral extended the deadline for its tender offer for sesame-oil maker Kadoya Seiyu to Nov 26, as its bidding contest with rival suitor Kikkoman escalates. Integral had already raised its offer price past Kikkoman's bid earlier this month.",
+   "why_it_matters": "The extension signals neither side is ready to concede in one of the more unusual contested-bid situations in the Tokyo market this year, and could trigger another round of price increases before the new deadline.",
+   "summary_ja": "インテグラルは、ごま油大手かどや製油へのTOB期限を11月26日まで延長した。ライバルであるキッコーマンとの争奪戦が激化する中での対応で、インテグラルは今月すでにキッコーマンの提示額を上回る価格を示していた。",
+   "why_it_matters_ja": "今回の延長は双方がまだ譲歩する構えがないことを示しており、新たな期限までにもう一段の価格引き上げ合戦が起きる可能性がある。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-10-0830",
+    "index": 8
+   },
+   "key": "kadoya-seiyu-tob-bidding-war",
+   "ids": [
+    "c2d47960821a4d"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iWGh1cjhOZ3NrdnhLM2NVOVR4MXRWLUdmWHdpcEtob2N1eEoyTkRlSVNPMUF1V0FUenZFcmJkUEVPZGdlWWc0VVhoRVJfclFJYmFPZDZkUm9RaDg4c2E4dXpabTdCYnZOWXVBZw?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "EasyJet shareholders approve Apollo's roughly £5.7bn take-private bid, clearing key hurdle",
+   "summary": "EasyJet shareholders approved Apollo's buyout offer, valued at about £5.7bn (roughly ¥1.2tn), clearing a major hurdle toward taking the UK airline private. The deal is expected to complete in the first quarter of 2027.",
+   "why_it_matters": "Shareholder approval removes the biggest uncertainty in one of Europe's largest airline buyouts this year, leaving regulatory sign-off as the main remaining condition before Apollo can close. A successful close would also rank among the largest airline take-privates led by a US sponsor in Europe since the pandemic.",
+   "summary_ja": "イージージェットの株主は、アポロによる約57億ポンド（約1.2兆円）の買収案を承認し、非公開化に向けた大きな関門を通過した。買収は2027年第1四半期の完了が見込まれている。",
+   "why_it_matters_ja": "株主承認により、今年の欧州航空業界で最大級となる買収案件の最大の不確実要因が取り除かれ、残る条件は規制当局の承認が中心となる。成立すれば、パンデミック以降で米系スポンサーが主導した欧州の航空会社買収としても最大級の一つとなる。",
+   "status": "new",
+   "prev": null,
+   "key": "apollo-easyjet-buyout-shareholder-approval",
+   "ids": [
+    "40b851f1412221",
+    "1ba1152031011d"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNYVJXN190R3h6ek54N0hXbWtJQVoyQXpkZVc2a29VaUx1bU5qYjM1cXByUmZvNDdnWE84RXlhZXd2eXVRd2s5aUVCdl92TVpRQi1uQUtObHRIcTBkUjl5U0hxM1RaTXhHcHdwdkRHY2FJcXl5?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pNVd1ek5kaWtNaFhZbXJZcmVFdUswb1JmOWJwdjZ2Y2JJdjVTYTNxRm5EUUFnSUVTeU5LOEZVc1hDOS11ZllCc0dVZG5pSkFidTgwdU1jX0d2bEpVSUc4bENtODZ5b3ZtdUlEbzhmdXI?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "8M Real Estate in talks to buy about 50 Singapore shophouses for roughly S$500m",
+   "summary": "8M Real Estate is said to be buying a portfolio of about 50 shophouses in Singapore for around S$500m. The portfolio is being sold by entities linked to veteran property investor Tony Chen.",
+   "why_it_matters": "A deal of this size would be one of the larger shophouse portfolio trades in Singapore this year, underscoring continued investor appetite for the asset class even as broader office and retail markets stay patchy.",
+   "summary_ja": "8Mリアルエステートは、シンガポールのショップハウス約50棟を総額約5億シンガポールドルで取得する交渉を進めているとされる。売却対象の物件群は、ベテラン不動産投資家トニー・チェン氏に関連する法人が保有している。",
+   "why_it_matters_ja": "この規模の取引が成立すれば、今年シンガポールで成立したショップハウス・ポートフォリオ取引の中でも大型の一つとなり、オフィスやリテール市場が軟調な中でもこの資産クラスへの投資家の意欲が続いていることを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "8m-realestate-singapore-shophouses",
+   "ids": [
+    "5cdd00641a8bb5"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/property/8m-real-estate-said-be-buying-about-50-shophouses-around-s500-million"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Real Estate"
+   ]
+  },
+  {
+   "headline": "UK-backed AI chip startup Fractile reaches $7bn valuation in new funding round",
+   "summary": "Fractile, a UK-backed AI chip startup, raised a new funding round that values the company at $7bn.",
+   "why_it_matters": "The valuation shows investor appetite for AI-chip challengers remains intense even as an incumbent like Nvidia faces fresh uncertainty, underscoring how much capital is still chasing the inference-hardware race. It also keeps the UK in the conversation as a hub for AI-hardware funding, alongside the US and China.",
+   "summary_ja": "英国を拠点とするAIチップ新興企業フラクタイル（Fractile）は、新たな資金調達ラウンドで企業価値70億ドルの評価を得た。",
+   "why_it_matters_ja": "エヌビディアのような既存大手が新たな不確実性に直面する中でも、AIチップ新興企業への投資家の意欲は依然強く、推論向け半導体をめぐる資金の争奪戦の激しさを映している。米国や中国と並び、英国もAIハードウェア資金調達の拠点としての存在感を維持していることも示している。",
+   "status": "new",
+   "prev": null,
+   "key": "fractile-ai-chip-funding-round",
+   "ids": [
+    "4ca271561aaf43"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/uk-backed-ai-chip-startup-fractile-hits-7-billion-valuation-in-funding-round-6543451"
+    }
+   ],
+   "categories": [],
+   "countries": [],
+   "sectors": [
+    "AI & Semis",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Waud Capital sells PromptCare Infusion to AOM Infusion, creating one of the largest independent US infusion platforms",
+   "summary": "Waud Capital Partners completed the sale of PromptCare Infusion to AOM Infusion. The combination creates one of the largest independent home and alternate-site infusion and specialty pharmacy platforms in the country, the firms said.",
+   "why_it_matters": "The deal marks a clean sponsor exit in the fragmented home-infusion space and signals more consolidation ahead as specialty pharmacy platforms seek scale to compete with larger national players.",
+   "summary_ja": "ウォード・キャピタル・パートナーズは、プロンプトケア・インフュージョンをAOMインフュージョンに売却した。両社によると、この統合により米国で最大級の独立系在宅・代替拠点輸液および専門薬局プラットフォームが生まれるという。",
+   "why_it_matters_ja": "断片化が進む在宅輸液分野におけるスポンサーの明確なエグジットであり、専門薬局プラットフォームが大手全国企業と競うため規模を追求する中、今後も業界の統合が進む可能性を示している。",
+   "status": "new",
+   "prev": null,
+   "key": "waud-capital-promptcare-infusion-sale",
+   "ids": [
+    "c66184990d0b22"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/waud-capital-partners-completes-sale-of-promptcare-infusion-to-aom-infusion-302935169.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "China's Fangsheng Pharmaceutical drops plan to acquire stake in Oula Pharmaceutical, takes rights to two drugs instead",
+   "summary": "Fangsheng Pharmaceutical abandoned its plan to acquire a stake in Oula Pharmaceutical. Instead, Fangsheng will take over marketing rights for two of Oula's pharmaceutical products.",
+   "why_it_matters": "The swap from an equity deal to a licensing arrangement suggests the two sides could not agree on valuation or structure, a pattern increasingly common among Chinese pharma dealmakers this year. Such swaps let the strategic buyer still capture near-term product rights without taking on full integration risk.",
+   "summary_ja": "中国の方盛製薬は、欧拉医薬の株式取得計画を断念した。代わりに、欧拉医薬の医薬品2品目について上市（販売）許可を譲り受けることになった。",
+   "why_it_matters_ja": "株式取得から品目ライセンス契約への切り替えは、両社がバリュエーションやスキームで折り合えなかったことを示唆しており、今年の中国製薬業界のM&Aでこうした展開が増えている。このような切り替えにより、戦略的買い手は統合リスクを負わずに目先の製品権益を確保できる。",
+   "status": "new",
+   "prev": null,
+   "key": "fangsheng-oula-pharma-stake-abandonment",
+   "ids": [
+    "cab9dd79103222"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5SNlJqZElWQmFRaHlWOGkwOFVYWW95V2U3Q25WN21oSXlJS05wTnNjd3F5VWNFVmFyNTdsS3hTUnpHY3FCNVBpZFYyX0RHWllVTUY2dkVLNHB0a1cwOTFyR0JyTHdBeWdxbThaRHZFZHVZa29v?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "HK/CN",
+    "JP"
+   ],
+   "sectors": [
+    "Healthcare"
+   ]
+  }
+ ]
+}

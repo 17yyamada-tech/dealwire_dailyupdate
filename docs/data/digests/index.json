@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-11-12-0830",
+   "label": "12 Nov 2026 · 08:30 SGT",
+   "generated_at": "2026-11-12T00:31:00Z",
+   "items": 9,
+   "headlines": [
+    "Nvidia board said to be preparing to replace CEO Jensen Huang after report of relationship with subordinate executive",
+    "EQT matches rival bid, raising Kakaku.com tender offer to ¥3,700 a share and extending deadline to Nov 26",
+    "Orix launches tender offer at ¥1,490 a share to take system-monitoring firm IBC fully private"
+   ]
+  },
+  {
    "id": "2026-11-11-1530",
    "label": "11 Nov 2026 · 15:30 SGT",
    "generated_at": "2026-11-11T07:35:00Z",
