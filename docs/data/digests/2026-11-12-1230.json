@@ -1,0 +1,244 @@
+{
+ "edition": "2026-11-12-1230",
+ "edition_label": "12 Nov 2026 · 12:30 SGT",
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T04:31:00Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "Nvidia board meets on Huang's future as company works with outside firm to find CEO candidates",
+   "summary": "Nvidia's board met to decide chief executive Jensen Huang's future as the leadership crisis around him deepened, and the company is now working with an outside search firm to identify candidates who could replace him.",
+   "why_it_matters": "The shift from reports of board deliberation to an active external CEO search marks a concrete escalation, signalling Nvidia's board now treats Huang's removal as a live scenario rather than a one-off leak. Given Nvidia's weight in every AI-capex-linked financing and equity story, a confirmed search for his successor would ripple through chip supply deals and data-centre debt markets.",
+   "summary_ja": "エヌビディアの取締役会は、ジェンセン・フアンCEOの進退をめぐる危機が深まる中で同氏の去就を決めるため会合を開いた。同社は現在、外部の人材紹介会社と協力してフアン氏の後任候補の選定を進めている。",
+   "why_it_matters_ja": "取締役会での協議という報道から、外部機関を使った後任探しという実務的な動きへの移行は、取締役会がフアン氏の退任を単なる噂ではなく現実的な選択肢として扱っていることを示す。エヌビディアはAI投資に紐づく資金調達や株式関連の取引で中心的な存在であり、後任探しが確認されればチップ供給契約やデータセンター向け債務市場にも影響が及ぶ。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-12-0830",
+    "index": 0
+   },
+   "key": "nvidia-jensen-huang-ouster-report",
+   "ids": [
+    "a902cc551f9a47",
+    "eadd6d7a981b1b"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/world/nvidia-ceo-jensen-huang-oust-board-affair-6544031"
+    },
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/nvidia-working-outside-firm-identify-ceo-candidates"
+    }
+   ],
+   "categories": [],
+   "countries": [],
+   "sectors": [
+    "AI & Semis"
+   ]
+  },
+  {
+   "headline": "Alibaba's AI chip unit T-Head files for Hong Kong IPO",
+   "summary": "Alibaba's chip-design unit T-Head has filed for an initial public offering in Hong Kong.",
+   "why_it_matters": "A listing would let Alibaba crystallise value in its in-house AI silicon business and hand Hong Kong's IPO pipeline another high-profile AI-chip candidate, just as investors are already reassessing AI-hardware risk following the turmoil over Nvidia's leadership.",
+   "summary_ja": "アリババの半導体設計部門である平頭哥（T-Head）が、香港での新規株式公開（IPO）を申請した。",
+   "why_it_matters_ja": "上場が実現すれば、アリババは自社開発のAI半導体事業の価値を顕在化させることができ、香港のIPO市場にもAI半導体関連の有力な上場候補が加わることになる。エヌビディアの経営混乱を受けて投資家がAIハードウェアのリスクを見直している最中のタイミングでもある。",
+   "status": "new",
+   "prev": null,
+   "key": "alibaba-thead-hongkong-ipo-filing",
+   "ids": [
+    "eec7b544ce9116"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/alibaba-chip-unit-thead-files-hong-kong-ipo-6544301"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "HK/CN"
+   ],
+   "sectors": [
+    "AI & Semis",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Skylark Holdings buys Hakata ramen chain Shin-Shin to build out its budget dining line-up",
+   "summary": "Skylark Holdings is acquiring Yugen Kaisha Shin-Shin, operator of the Hakata-born ramen chain of the same name, making it a subsidiary. The Japanese restaurant group said the deal reinforces its low-price dining segment and supports plans to expand the chain's store network.",
+   "why_it_matters": "The purchase folds a recognised regional ramen brand into Japan's largest family-restaurant operator, fitting a broader pattern of domestic restaurant groups consolidating budget dining concepts to defend volumes as consumers stay price-sensitive.",
+   "summary_ja": "すかいらーくホールディングスは、博多発祥のラーメンチェーン「Shin-Shin」を運営する有限会社Shin-Shinの株式を取得し、子会社化する。同社は、この買収が低価格帯の外食事業を強化し、同チェーンの店舗網拡大を後押しするとしている。",
+   "why_it_matters_ja": "この買収により、知名度のある地方発のラーメンブランドが国内最大級のファミリーレストラン運営会社の傘下に入ることになる。消費者の価格志向が続く中、国内外食企業が低価格帯のブランドを取り込み規模を確保しようとする動きの一例といえる。",
+   "status": "new",
+   "prev": null,
+   "key": "skylark-shin-shin-ramen-acquisition",
+   "ids": [
+    "40738c150fa528",
+    "41eb588df52f50",
+    "3041c132b06de5"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A (Nikkei disclosure)",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81Nl9HMS12dlQyVlZnZk4xc09aVFpIZHdib0E1QVI2emR6SGJncXBhWFV6UGVlTDRWUGoyVjVkY1o5dW5tc2RvUmY0ZHZGRG5jVkhMNnFDcnJXTzFsWjVtOWV4Z1VVZ0JKZEE?oc=5"
+    },
+    {
+     "source": "Japan M&A (Reuters)",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94NFdfVkhCS1V2clJyNWExaGJUb1libFNjZjZJdl9uOU9OSkI3NUx5Zm5fQm9BQ3RGWnd5VEw1aU5ONExxX0ppQW5xM3dBajNjN3pUc0tpM0NYbFAyeTQtN245aWJjTm5CSm10WmFETXZ3bmRFcG1EZkREMkhEVFU?oc=5"
+    },
+    {
+     "source": "Japan M&A (Yomiuri)",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nOVhNSGtFX1ZNbk5IUFF4MlRTVDlhZVFuVTNnVXI5bUowbmdLN3otbjZkV1ZMMEhqZmFSRE1YWmk5aFRqc19ObWhqNkR6OElaZ1QtMUNRdG52RndkTVNfTmhxSjJ2Vm96Znc2d3N5aUtsamZ2TEhCWHFJT1FTN1k?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Advent's sale of Singapore tuition chain draws private equity buyers",
+   "summary": "Advent International is running a sale process for a Singapore tuition chain that has attracted interest from private equity buyers.",
+   "why_it_matters": "Education remains one of the steadier consumer verticals for PE sponsors in Singapore, and competing bids would test how much buyers are willing to pay for a scaled tuition-centre network in a market increasingly dominated by a handful of chains.",
+   "summary_ja": "アドベント・インターナショナルは、シンガポールの学習塾チェーンの売却プロセスを進めており、プライベートエクイティ系の買い手の関心を集めている。",
+   "why_it_matters_ja": "教育分野はシンガポールのPEスポンサーにとって比較的安定した消費者向け事業であり続けており、競合する買収案が出てくれば、少数のチェーンが市場を占める中で大規模な学習塾網にどこまでの価格がつくかを見極める試金石になる。",
+   "status": "new",
+   "prev": null,
+   "key": "advent-singapore-tuition-chain-sale",
+   "ids": [
+    "4564e3dd813bd1"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVHhfY2tmYXM2MFNxU3lWS09xN3g5YnNWbUNDdkdaUXFHQ1MycHNRcjlZRURUVVBzS0tMdGRiVTBpbXFOVGZkTnZBVHphWF9HeGpxNW5kUjUyYWFRNEdnTkZKQzFqSDF1bF96TDRYSkNoM3U4dDZuSFluejZxZnVIc2xsSQ?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Thailand's Horizon Group raises $12.5m from Vertex Ventures SEA & India",
+   "summary": "Thailand's Horizon Group raised $12.5m in a funding round led by Vertex Ventures SEA & India.",
+   "why_it_matters": "The round keeps Vertex Ventures active as one of the more prolific early-to-growth-stage investors in Southeast Asia, at a time when regional venture funding has been running well below its 2021 peak.",
+   "summary_ja": "タイのホライゾン・グループは、ベルテックス・ベンチャーズSEA＆インディアからの資金調達ラウンドで1250万ドルを獲得した。",
+   "why_it_matters_ja": "東南アジアのベンチャー資金調達額が2021年のピークを大きく下回る水準で推移する中、ベルテックス・ベンチャーズは依然として同地域で積極的に動く初期・成長段階の投資家であり続けていることを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "horizon-group-thailand-vertex-funding",
+   "ids": [
+    "5a8ad305813e49"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ0NneVdDVG53bWptZ0xtZkdIMXZMUWpKRWV3LWF1U0tYR1pmVGFyc3JpNDl1U0tWcl9VTTJHWGpnVEhON1VHdnJjUUpHNFJ0UkthSGxPTGhmakZGREZHMUtuMWkyakw3c0tjSVdMYmRwVnplcVVHUmhhSkJJR3o4T2ZKamRtaDRvWHpRUEZpak8?oc=5"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "SEA"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "South Korea's Estec jumps 20% on tender offer and delisting move by Foster Electric subsidiary",
+   "summary": "Shares in South Korea's Estec surged 20% after a subsidiary of Japan's Foster Electric moved toward a tender offer and delisting of the company.",
+   "why_it_matters": "A Japanese-linked buyer taking a Korean supplier private would be a notable cross-border move in the electronics supply chain, and the scale of the share jump signals the market reads the offer as a clear premium to the prior price.",
+   "summary_ja": "韓国のエステックの株価は、日本のフォスター電機の子会社が同社に対する公開買付けと上場廃止に向けた動きを進めていることを受け、20%急騰した。",
+   "why_it_matters_ja": "日本系企業が韓国の取引先企業を非公開化する動きは、電子部品のサプライチェーンにおける注目すべきクロスボーダー案件であり、株価急騰の規模は市場が買付価格を従来の株価に対する明確なプレミアムと受け止めていることを示している。",
+   "status": "new",
+   "prev": null,
+   "key": "estec-foster-electric-subsidiary-tob",
+   "ids": [
+    "be84f4968d6820"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mMENIX1NqTlJ0THhtYTZBQnNXQTRIek15MkRXeDE1dF9pdldDRkJpNmppWEdrZWtzak90VTlXOXdhazNwOTZWYmxQaWFaNUFYWVh2M2JSd3FJNDJBTEpoX0Vpa2EwZ0dLTHF0VVN4RlAyY05i?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Ii-seikatsu to issue new shares and sell treasury stock in tie-up expected to change its controlling shareholder",
+   "summary": "Tokyo-listed ii-seikatsu announced a business and capital tie-up involving a third-party allotment of new shares and a disposal of treasury stock, saying the transaction is expected to change both its largest shareholder and its controlling shareholder.",
+   "why_it_matters": "A change of control executed through a share allotment rather than a tender offer is a structure worth tracking in Japan, where reform and activist pressure have pushed more small-caps toward negotiated ownership changes outside the formal TOB process.",
+   "summary_ja": "東証上場のいい生活は、第三者割当による新株発行と自己株式の処分を伴う業務資本提携を発表し、この取引により主要株主および筆頭株主（支配株主）が変更される見込みであるとした。",
+   "why_it_matters_ja": "TOBではなく株式割当を通じた支配権の変更は、日本において注目すべきスキームであり、企業統治改革やアクティビストの圧力を背景に、より多くの中小型株がTOBを経ない形での交渉による資本関係の変更に向かっていることを示している。",
+   "status": "new",
+   "prev": null,
+   "key": "ii-seikatsu-capital-tieup-control-change",
+   "ids": [
+    "527fd9694fb486"
+   ],
+   "links": [
+    {
+     "source": "Japan disclosures",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBad1pFM3pLVlMzQXp0UXhacXVjR1QxZHQ1VFlmM09EUjdUSW5iWjVXSWg4RDZYM2F4akZUU1FKbTVOLWcwS19tOWJYQWM5YXRHdEUtQkw1M3hsY0VDOWdJQ3ZoQWJxaGN4Q0E?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "SEIMAH delays H1 earnings report, launches probe into doubts over an acquisition's rationale",
+   "summary": "SEIMAH postponed its April-to-September earnings announcement and is investigating doubts that have been raised over the rationale of an acquisition it made.",
+   "why_it_matters": "An earnings delay tied to questions over a deal's rationale is a governance red flag that deal professionals will want to track, particularly if it points to impairment risk or disclosure problems tied to the underlying transaction.",
+   "summary_ja": "ＳＥＩＭＡＨは4〜9月期決算発表を延期し、自社が行った買収の合理性について提起された疑義を調査している。",
+   "why_it_matters_ja": "買収の合理性に関する疑義を理由とした決算発表の延期は、ガバナンス上の懸念材料であり、当該取引に関連する減損リスクや開示上の問題を示唆するものであれば、取引関係者にとって注視すべき点となる。",
+   "status": "new",
+   "prev": null,
+   "key": "seimah-earnings-delay-acquisition-probe",
+   "ids": [
+    "cdbcf1ce95c5a8"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GeVBNdnhFclNMeElXU0J0Z19SQ2hzbmNnY3VuYWU2RjE3cGZRWFFnVEkwQUdaek5Zc3hta3Z5Z0JYMHIwY25KelQtWDZ6bnFlcTdyRmdfZ3U5Y2w5?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  }
+ ]
+}

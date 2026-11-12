@@ -1,6 +1,17 @@
 {
  "editions": [
   {
+   "id": "2026-11-12-1230",
+   "label": "12 Nov 2026 · 12:30 SGT",
+   "generated_at": "2026-11-12T04:31:00Z",
+   "items": 8,
+   "headlines": [
+    "Nvidia board meets on Huang's future as company works with outside firm to find CEO candidates",
+    "Alibaba's AI chip unit T-Head files for Hong Kong IPO",
+    "Skylark Holdings buys Hakata ramen chain Shin-Shin to build out its budget dining line-up"
+   ]
+  },
+  {
    "id": "2026-11-12-0830",
    "label": "12 Nov 2026 · 08:30 SGT",
    "generated_at": "2026-11-12T00:31:00Z",
