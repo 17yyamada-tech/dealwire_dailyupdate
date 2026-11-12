@@ -4,23 +4,19 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-11T07:51:20Z",
+ "checked_at": "2026-11-12T00:57:24Z",
  "status": {
-  "as_of": "2026-11-11",
-  "text": "Yen traded near 158/dollar on Nov 2 despite Katayama's warning Tokyo would act against disorderly moves. BOJ held at 1.25% (Oct 30); Fed held at 3.75-4.00% (Oct 28). No new intervention reported.",
-  "text_ja": "円は11月2日に158円近辺。片山財務相の警告も効果薄い。日銀は10月30日、FRBも10月28日に金利維持。新たな為替介入なし。",
+  "as_of": "2026-11-12",
+  "text": "MOF disclosed Nov 9 that it spent a record ¥7.98trn buying yen on July 30, above the April 30 record. Yen traded near 157-159/dollar through early November; Katayama's last FX warning was Nov 2.",
+  "text_ja": "財務省は11月9日、7月30日の円買い介入が過去最大の7入88〉9756億円だったと公表。円は11月上旬157～159円帯で推移。片山財務相の最新の為替警戒発言は11月2日。",
   "refs": [
    {
     "list": "since",
+    "url": "https://www.newsweekjapan.jp/articles/-/339419"
+   },
+   {
+    "list": "since",
     "url": "https://investinglive.com/forex/japan-s-katayama-says-us-japan-fx-statement-alive-warns-on-disorderly-yen-moves/"
-   },
-   {
-    "list": "since",
-    "url": "https://actionforex.com/live-comments/659210-boj-holds-at-1-25-as-underlying-inflation-reaches-target-further-hikes-ahead"
-   },
-   {
-    "list": "since",
-    "url": "https://investinglive.com/central-banks/recap-fed-holds-at-3-75-4-in-10-2-vote-as-cook-dissents-for-a-hike-december-move-in-focus/"
    }
   ]
  },
@@ -91,6 +87,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-09",
+   "headline": "Japan's MOF discloses record ¥7.98trn single-day yen-buying intervention on July 30",
+   "summary": "Japan's Ministry of Finance disclosed on Nov 9 that it spent a record ¥7.9756 trillion buying yen on July 30, surpassing the prior single-day record of ¥6.2787 trillion set April 30. The same data showed ¥5.5523 trillion spent in the Jul 31 joint intervention with the US Treasury and ¥1.8714 trillion on Aug 3.",
+   "summary_ja": "財務省は11月9日、7月30日の円買い介入が過去最大の7入88〉5756億円だったと公表し、4月30日の6入82〉7787億円を超えた。同日の資料では、7月31日の日米協調介入が5入55〉5523億円、8月3日が1入87〉1714億円だったことも示された。",
+   "source": "Reuters (via Newsweek Japan)",
+   "url": "https://www.newsweekjapan.jp/articles/-/339419"
+  },
   {
    "date": "2026-11-02",
    "headline": "Katayama says Japan-US joint FX statement 'remains alive', warns against disorderly yen moves as yen slips toward 158",

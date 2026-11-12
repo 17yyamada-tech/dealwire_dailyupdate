@@ -4,11 +4,11 @@
  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR2RfcVhlZnNuRXhTQ1YzZC12dVFvSTNlWXRFb2RGSllqdkxQamh5TVlrcFhSVnBIbVBwZWtRWHRZMmhub1BIc2wtUTBKREx3RUU3NkNhMzlKQmpTSFNxZzktSGRCcW5VMFpPUVdzYUM?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-10T19:10:00Z",
- "checked_at": "2026-11-11T07:51:20Z",
+ "checked_at": "2026-11-12T00:57:24Z",
  "status": {
-  "as_of": "2026-11-11",
-  "text": "OpenAI's acquisition of AI travel-planning startup Odessia, confirmed 10 Nov 2026 with undisclosed terms, sent Expedia, Booking Holdings and Airbnb shares down intraday, Expedia touching $245.31 versus a $259.16 open.",
-  "text_ja": "OpenAIが旅行AIスタートアップOdessiaを条件非公開で買収と10日確認。エクスペディア等OTA株が急落、エクスペディアは一時245.31ドルまで下げた。",
+  "as_of": "2026-11-12",
+  "text": "OpenAI's Nov 10 acquisition of Odessia, terms undisclosed, folded in founder Francis Davidson; the standalone travel app has since closed to new users, with existing-booking customers redirected to email support.",
+  "text_ja": "OpenAIは11月10日、オデッシアを条件非公開で買収、創業者デビッドソン氏も合流。単体アプリは新規受付を停止し、既存利用者はメール窓口へ案内されている。",
   "refs": [
    {
     "list": "since",
@@ -16,7 +16,7 @@
    },
    {
     "list": "since",
-    "url": "https://www.investing.com/news/stock-market-news/expedia-booking-and-airbnb-fall-as-openai-reportedly-buys-ai-travel-platform-5016603"
+    "url": "https://www.phocuswire.com/news/startups/openai-acquires-ai-travel-agent-odessia"
    }
   ]
  },
@@ -55,6 +55,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-10",
+   "headline": "Odessia's standalone travel app closes to new users after OpenAI deal, existing bookings routed to support",
+   "summary": "Following OpenAI's acquisition announcement, Odessia stopped offering its AI trip-planning app to new users and directed customers with existing bookings or saved plans to email support for help, consistent with the deal being described as an acqui-hire of the team rather than a continuation of the standalone product.",
+   "summary_ja": "OpenAIによる買収発表を受け、オデッシアは単体サービスとしての新規受付を停止し、既存の予約や旅行計画がある利用者にはスポート宛への桥対応を案内した。単独事業の繼続ではなく、チームの引き纙が目的であることを示す動きとなった。",
+   "source": "PhocusWire",
+   "url": "https://www.phocuswire.com/news/startups/openai-acquires-ai-travel-agent-odessia"
+  },
   {
    "date": "2026-11-10",
    "headline": "OpenAI confirms Odessia acquisition; founder Francis Davidson joins to work on travel",
