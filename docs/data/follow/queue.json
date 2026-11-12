@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T02:27:58.789Z",
+ "updated": "2026-11-12T12:19:43.665Z",
  "stories": [
   {
    "id": "7b6397f5b86c07",
@@ -63,6 +63,15 @@
    "published": "2026-11-04T21:54:23Z",
    "since": "2026-11-06T06:10:44.956Z",
    "followers": 6
+  },
+  {
+   "id": "eec7b544ce9116",
+   "title": "Alibaba AI chip unit T-Head files for Hong Kong IPO",
+   "link": "https://www.channelnewsasia.com/business/alibaba-chip-unit-thead-files-hong-kong-ipo-6544301",
+   "source": "CNA Business",
+   "published": "2026-11-12T00:39:40Z",
+   "since": "2026-11-12T07:10:45.191Z",
+   "followers": 1
   },
   {
    "id": "3bbe3aa74e3a9e",
