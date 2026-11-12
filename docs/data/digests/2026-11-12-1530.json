@@ -1,0 +1,79 @@
+{
+ "edition": "2026-11-12-1530",
+ "edition_label": "12 Nov 2026 · 15:30 SGT",
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T07:39:00Z",
+ "reading_minutes": 3,
+ "items": [
+  {
+   "headline": "Nvidia board said to favour CFO Kress, data-centre chief Buck as successors to Huang",
+   "summary": "Nvidia's board is now said to be favouring two internal candidates to succeed Jensen Huang as chief executive: Ian Buck, who runs the company's data-centre client business, and chief financial officer Colette Kress. That follows earlier reports that the board had engaged an outside search firm after disclosures of a relationship between Huang and a subordinate executive. Bloomberg Intelligence said Nvidia now carries more risk from an unsettled succession and a slower deal pace than from Huang's potential exit itself.",
+   "why_it_matters": "Naming specific internal front-runners moves the succession question from speculation toward a shortlist, a shift that counterparties across AI-chip supply and financing deals will watch closely given how much of the sector's dealmaking runs through Nvidia. Whether the board ultimately picks the CFO or the engineering chief will also shape how the market reads Nvidia's near-term priorities: continuity versus a product-first pivot.",
+   "summary_ja": "エヌビディア取締役会は、ジェンセン・フアンCEOの後任候補として、データセンター事業を統括するイアン・バック氏とCFOのコレット・クレス氏の2名を有力視していると報じられた。取締役会が外部の人材紹介会社と協力して後任探しを進めているとの先の報道に続くもので、フアン氏と部下との関係が明らかになったことが背景にある。ブルームバーグ・インテリジェンスは、フアン氏の退任そのものよりも、後継体制の不透明感と案件ペースの鈍化の方がエヌビディアにとってリスクが大きいと指摘した。",
+   "why_it_matters_ja": "具体的な内部候補の名前が挙がったことで、後継問題は憶測の段階から絞り込みの段階に移った。AIチップの供給や資金調達に関わる取引の多くがエヌビディアを軸に動くだけに、取引相手はこの動きを注視するだろう。CFOと技術責任者のどちらが選ばれるかによって、継続性重視か製品戦略重視かという市場の見方も変わってくる。",
+   "status": "update",
+   "prev": {"edition": "2026-11-12-1230", "index": 0},
+   "key": "nvidia-jensen-huang-ouster-report",
+   "ids": ["6e73d1d6157ce7", "7bf15fbd7fbb1e"],
+   "links": [
+    {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/nvidia-next-ceo-candidates-engineer-cfo-6544986"},
+    {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/nvidia-faces-more-risks-deal-pace-jensen-huang-exit-bloomberg-intelligence"}
+   ],
+   "categories": ["Infra"],
+   "countries": ["SG", "SEA"],
+   "sectors": ["AI & Semis", "TMT"]
+  },
+  {
+   "headline": "Mitsubishi Warehouse to buy Hankyu Hanshin Express for ¥120bn, becoming Japan's No. 4 logistics group",
+   "summary": "Mitsubishi Warehouse (Mitsubishi Soko) is moving to acquire freight-forwarding group Hankyu Hanshin Express for about ¥120bn, saying the deal would expand its air-cargo network. The combination would place the group fourth among Japan's logistics companies, behind Nippon Express, NYK's Yusen Logistics and Kintetsu World Express.",
+   "why_it_matters": "A ¥120bn logistics tie-up is a sizeable deal for Japan's freight-forwarding sector and signals continued consolidation, as mid-sized players combine to compete with the market's three largest groups on scale and network reach.",
+   "summary_ja": "三菱倉庫は、貨物輸送大手の阪急阪神エクスプレスを約1200億円で買収する方向で動いており、航空貨物網の拡充につながるとしている。実現すれば、日本通運、郵船ロジスティクス、近鉄エクスプレスに次ぐ国内4位の物流グループとなる。",
+   "why_it_matters_ja": "1200億円規模の物流統合は日本の貨物輸送業界では大型の案件であり、中堅各社が上位3社に規模とネットワークで対抗するため統合を進める流れを示している。",
+   "status": "new",
+   "prev": null,
+   "key": "mitsubishi-soko-hankyu-hanshin-express-acquisition",
+   "ids": ["b849070fa4baf5", "46b19b7b5e4cf1"],
+   "links": [
+    {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1hVVljaUtyWTNlT240SWhJNkNsWjd3VE5HT0xtYzJPNjV3NDFBMXhNTlVyMm5ES29BNEQxTEt5cTN5eDl5S3QybDA0MU4?oc=5"},
+    {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MbVQ5eEYtXzlCZGY1U3EyUEVSQnd1dDc5dUlZVUxYMEZiXzJyaEtUZHZ4NGdnUXZKMHhQeF9xU3hma1FReWo1aWg3Q3VxUjN4RDJn?oc=5"}
+   ],
+   "categories": ["M&A"],
+   "countries": [],
+   "sectors": ["Other"]
+  },
+  {
+   "headline": "Alphabet sets initial price guidance for Hong Kong, Singapore dollar bond sales",
+   "summary": "Alphabet has set initial price guidance for bond sales denominated in Hong Kong and Singapore dollars, according to a term sheet. HSBC and JPMorgan are acting as joint global coordinators on the offering.",
+   "why_it_matters": "A dual Hong Kong- and Singapore-dollar bond sale would be an unusual tranche for a US tech giant in Asian local-currency credit markets, giving regional fixed-income investors direct exposure to Alphabet's balance sheet and setting a reference point for other large-cap issuers weighing local-currency funding in the region.",
+   "summary_ja": "アルファベットが香港ドルおよびシンガポールドル建て債券の発行について初期プライシング・ガイダンスを示したことが、タームシートで判明した。HSBCとJPモルガンが共同グローバル・コーディネーターを務める。",
+   "why_it_matters_ja": "香港ドルとシンガポールドルの両建てでの米テック大手の起債は、アジアの現地通貨クレジット市場では珍しい案件であり、地域の債券投資家にアルファベットの信用に直接アクセスする機会を与えるとともに、他の大型発行体が現地通貨での資金調達を検討する際の指標にもなる。",
+   "status": "new",
+   "prev": null,
+   "key": "alphabet-hk-sg-bond-guidance",
+   "ids": ["1e0e12e496b89d"],
+   "links": [
+    {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/alphabet-sets-initial-price-guidance-hong-kong-singapore-bond-sales-term-sheet-shows"}
+   ],
+   "categories": ["Credit"],
+   "countries": ["SG", "HK/CN", "SEA"],
+   "sectors": ["Other"]
+  },
+  {
+   "headline": "CrowdStrike to acquire Dreadnode, adding automated security testing for AI systems",
+   "summary": "CrowdStrike has agreed to acquire Dreadnode, a startup that provides automated security testing for AI systems.",
+   "why_it_matters": "Buying an AI-focused security-testing specialist extends CrowdStrike's push to secure AI deployments for enterprise customers, a fast-growing niche as companies scale generative-AI systems and face new categories of AI-specific attack surface.",
+   "summary_ja": "クラウドストライクは、AIシステム向けに自動セキュリティテストを提供するスタートアップのDreadnodeを買収することで合意した。",
+   "why_it_matters_ja": "AIに特化したセキュリティテスト企業の買収は、企業が生成AIシステムの展開を広げる中でクラウドストライクがAIセキュリティ領域への対応を強化する動きであり、AI特有の攻撃対象が増える急成長分野への布石となる。",
+   "status": "new",
+   "prev": null,
+   "key": "crowdstrike-dreadnode-acquisition",
+   "ids": ["d2e1d5bc879aa5"],
+   "links": [
+    {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vd2tQOWoySDU2ZElZUndmNXNMTTBhejczSXBXSWJiSWNuSklscWxTbEF3WGQ4dk1aa1JsZmdyZGpVaEtBUlQ1QXAzNUZ0YnRXd2dPNjJR?oc=5"}
+   ],
+   "categories": ["M&A"],
+   "countries": [],
+   "sectors": ["AI & Semis", "TMT"]
+  }
+ ]
+}
