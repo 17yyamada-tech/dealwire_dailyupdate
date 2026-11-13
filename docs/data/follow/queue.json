@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T23:27:52.910Z",
+ "updated": "2026-11-13T01:27:58.461Z",
  "stories": [
   {
    "id": "7b6397f5b86c07",
@@ -63,6 +63,24 @@
    "published": "2026-11-04T21:54:23Z",
    "since": "2026-11-06T06:10:44.956Z",
    "followers": 6
+  },
+  {
+   "id": "9d7867a8cbf19e",
+   "title": "Samsung in talks to buy data center cooling firm Modine, Bloomberg News reports",
+   "link": "https://www.channelnewsasia.com/business/samsung-in-talks-buy-data-center-cooling-firm-modine-bloomberg-news-reports-6547876",
+   "source": "CNA Business",
+   "published": "2026-11-13T00:12:27Z",
+   "since": "2026-11-13T01:27:06.647Z",
+   "followers": 1
+  },
+  {
+   "id": "3a41baaa69b77d",
+   "title": "SpaceX, Tesla merger talks progress, Bloomberg News reports",
+   "link": "https://www.channelnewsasia.com/business/spacex-tesla-merger-talks-progress-bloomberg-news-reports-6547466",
+   "source": "CNA Business",
+   "published": "2026-11-12T20:42:41Z",
+   "since": "2026-11-13T01:27:02.984Z",
+   "followers": 1
   },
   {
    "id": "1e0e12e496b89d",
