@@ -1,0 +1,79 @@
+{
+ "id": "1e0e12e496b89d",
+ "title": "Alphabet sets initial price guidance for Hong Kong, Singapore bond sales, term sheet shows",
+ "link": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/alphabet-sets-initial-price-guidance-hong-kong-singapore-bond-sales-term-sheet-shows",
+ "source": "The Business Times",
+ "published": "2026-11-12T05:10:05Z",
+ "checked_at": "2026-11-13T00:55:00Z",
+ "status": {
+  "as_of": "2026-11-13",
+  "text": "Pricing in progress: Alphabet opened debut HK dollar and Singapore dollar bonds Nov 12 with initial guidance up to 5.50%/4.00%; early orders near $5bn (HK$39bn), settlement set for Nov 19.",
+  "text_ja": "アルファベットは11月12日、香港ドルとシンガポールドル建て債券の発行を開始した。初期ガイダンスは最大5.50%、早期注文は約50億ドル相当、決済は11月19日の予定。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.investing.com/news/stock-market-news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-5020243"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-10-28",
+   "headline": "Alphabet holds 2026 capex guidance at $195bn-$205bn, flags steeper 2027 AI spending",
+   "summary": "On its Q3 2026 earnings call on Oct 28, Alphabet kept its full-year 2026 capital-expenditure guidance at $195 billion to $205 billion and said it expects capex to increase significantly in 2027; the quarter's capex was $51.4 billion and free cash flow was negative by roughly $9.1 billion.",
+   "summary_ja": "アルファベットは10月28日の2026年第3四半期決算発表で、年間設備投資見通しを1950億~2050億ドルで維持し、2027年には投資がさらに大きく増えると述べた。同四半期の設備投資は514億ドル、フリーキャッシュフローは約91億ドルの赤字だった。",
+   "source": "w.media",
+   "url": "https://w.media/ai-infrastructure-demand-pushes-alphabets-2026-capex-guidance-to-us-205-billion/"
+  },
+  {
+   "date": "2026-08-19",
+   "headline": "Alphabet raises A$5.5bn in debut Australian-dollar bond, largest-ever corporate bond sale in Australia",
+   "summary": "Alphabet sold its first Australian-dollar bonds across 3-, 5-, 10- and 20-year tranches on Aug 19, raising A$5.5 billion (about $3.9 billion) and drawing more than A$18 billion in demand; Reuters reported the 20-year tranche priced with a 6.9% coupon, the largest-ever corporate bond deal in the Australian market.",
+   "summary_ja": "アルファベットは8月19日、豪州ドル建て債券を3年・5年・10年・20年の4トランシェで初めて発行し、55億豪ドル(約39億ドル)を調達した。需要は180億豪ドル超に達し、20年債のクーポンは6.9%とロイターが報じた。豪州市場での企業債発行として過去最大規模だった。",
+   "source": "Reuters (via TheNextWeb)",
+   "url": "https://thenextweb.com/news/alphabet-australian-dollar-bond-record-kangaroo"
+  },
+  {
+   "date": "2026-08",
+   "headline": "Alphabet sells $25bn of US dollar bonds in 10 tranches, drawing about $115bn of demand",
+   "summary": "Earlier in August, Alphabet issued $25 billion of US dollar bonds across 10 tranches with maturities from two to 40 years; demand reached about $115 billion, more than four times the targeted size, around the same period Alphabet raised 2026 capex guidance to $195-205 billion and reported its first-ever negative free cash flow.",
+   "summary_ja": "8月上旬、アルファベットは2年~40年の10トランシェで総額250億ドルの米ドル建て債券を発行した。需要は目標額の4倍超となる約1150億ドルに達し、同時期に2026年設備投資見通しを1950億~2050億ドルへ上方修正、初のフリーキャッシュフロー赤字も公表した。",
+   "source": "Bloomberg (via AIWeekly)",
+   "url": "https://aiweekly.co/alerts/alphabet-sells-25b-in-bonds-as-ai-order-book-tops-115b"
+  },
+  {
+   "date": "2026-05-15",
+   "headline": "Alphabet sells ¥576.5bn in yen bonds, the largest yen deal ever by a non-Japanese issuer",
+   "summary": "Alphabet priced a yen-denominated bond on May 15 across eight tranches with maturities from 3 to 40 years and coupons of 1.965% to 4.599%, raising ¥576.5 billion (about $3.6 billion); Bloomberg said it was the largest yen bond ever sold by a foreign company, surpassing Berkshire Hathaway's ¥430 billion 2019 deal, with Mizuho Securities underwriting to fund AI infrastructure spending.",
+   "summary_ja": "アルファベットは5月15日、3年~40年の8トランシェ、クーポン1.965%~4.599%で円建て債券5765億円(約36億ドル)を発行した。ブルームバーグによれば、外国企業による円債として過去最大で、2019年のバークシャー・ハサウェイの4300億円を上回った。みずほ証券が主幹事を務め、AI基盤投資の資金に充てられる。",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-05-15/alphabet-sells-3-6-billion-of-yen-bonds"
+  },
+  {
+   "date": "2026-05-05",
+   "headline": "Alphabet opens second 2026 euro bond sale, a six-tranche 'AI megabond' deal",
+   "summary": "Alphabet launched a second euro-denominated bond sale of 2026 on May 5, a six-tranche offering with the longest maturity in 2063; Bloomberg-sourced reporting put the size at roughly €9 billion (about $10.1 billion), though other outlets cited smaller figures and the exact size was not confirmed.",
+   "summary_ja": "アルファベットは5月5日、2026年2回目のユーロ建て債券を発行した。6トランシェで最長債は2063年満期。ブルームバーグ系の報道は規模を約90億ユーロ(約101億ドル)としたが、他媒体はより小さい額を報じ、正確な規模は確認されていない。",
+   "source": "Bloomberg (via Treasury & Risk)",
+   "url": "https://www.treasuryandrisk.com/amp/2026/05/05/alphabet-returns-to-euro-debt-market-for-latest-ai-megabond-deal/"
+  },
+  {
+   "date": "2026-02-09",
+   "headline": "Alphabet launches multi-tranche dollar bond, including first 100-year tech bond since 1997, demand tops $100bn",
+   "summary": "Alphabet launched a multi-tranche US dollar bond offering on Feb 9 with maturities from 3 to 100 years, including its first-ever Swiss franc and UK sterling tranches and a rare 100-year tranche; the deal was initially reported at $15 billion and later reported upsized to about $20 billion, with demand exceeding $100 billion, following Q4 2025 earnings guidance for 2026 capex of $175-185 billion.",
+   "summary_ja": "アルファベットは2月9日、3年~100年の複数トランシェで米ドル建て債券を発行した。初のスイスフラン債・英ポンド債を含み、100年債という異例のトランシェもあった。当初150億ドルと報じられたが後に約200億ドルに増額、需要は1000億ドル超に達した。2025年第4四半期決算で示した2026年設備投資見通し(1750億~1850億ドル)を受けたものだった。",
+   "source": "Bloomberg (via Techloy)",
+   "url": "https://www.techloy.com/alphabet-raises-20-billion-in-bond-sale-launches-first-tech-100-year-bond-since-1997/"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-12",
+   "headline": "Alphabet opens debut Hong Kong and Singapore dollar bonds, early orders near $5bn",
+   "summary": "Alphabet opened its first-ever Hong Kong-dollar and Singapore-dollar bond sale on Nov 12; a term sheet showed initial price guidance of about 4.60% (2028), 5.00% (2031) and 5.50% (2036) on the HKD notes and 2.75% (2028), 3.25% (2031), 3.65% (2036) and 4.00% (2056) on the SGD notes, with combined early orders of about $5 billion (HK$39bn). HSBC and JPMorgan are joint global coordinators; the bonds are expected to be rated Aa2/AA+ with settlement set for Nov 19.",
+   "summary_ja": "アルファベットは11月12日、初の香港ドル・シンガポールドル建て債券の発行を開始した。タームシートによると、香港ドル債の初期ガイダンスは2028年債が約4.60%、2031年債が5.00%、2036年債が5.50%、シンガポールドル債は2028年債2.75%、2031年債3.25%、2036年債3.65%、2056年債4.00%。早期の注文総額は香港ドル390億(約50億ドル)に達した。HSBCとJPモルガンが共同主幹事を務め、格付けはAa2/AA+見込み、決済は11月19日予定。",
+   "source": "Reuters (via Investing.com)",
+   "url": "https://www.investing.com/news/stock-market-news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-5020243"
+  }
+ ]
+}

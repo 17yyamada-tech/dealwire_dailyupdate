@@ -1,0 +1,62 @@
+{
+ "id": "eec7b544ce9116",
+ "title": "Alibaba AI chip unit T-Head files for Hong Kong IPO",
+ "link": "https://www.channelnewsasia.com/business/alibaba-chip-unit-thead-files-hong-kong-ipo-6544301",
+ "source": "CNA Business",
+ "published": "2026-11-12T00:39:40Z",
+ "checked_at": "2026-11-13T00:55:00Z",
+ "status": {
+  "as_of": "2026-11-13",
+  "text": "Pre-IPO: T-Head confidentially filed for a Hong Kong listing around Sep 11, 2026, disclosed by Alibaba around Nov 10; still pending Listing Committee and CSRC approval, with no size, valuation or underwriters yet disclosed.",
+  "text_ja": "T-Headは2026年9月11日に香港上場を非公開で申請し、11月10日にアリババが開示した。規模・評価額・引受先は未公表で、上場委員会と証監会の承認待ち。",
+  "refs": [
+   {
+    "list": "background",
+    "url": "https://seekingalpha.com/news/4541413-alibaba-mulls-ipo-for-ai-chipmaking-unit-t-head"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-09-22",
+   "headline": "T-Head unveils Zhenwu V900 AI chip, claims triple the performance of predecessor",
+   "summary": "Alibaba's T-Head unit unveiled the Zhenwu V900 AI training-and-inference chip at Alibaba's Apsara Conference on Sep 22, with 216GB of memory and 1,200GB/s inter-chip bandwidth; T-Head said performance is three times that of its prior M890 chip, with mass production targeted for Q1 2027.",
+   "summary_ja": "アリババ傘下の平頭哥(T-Head)は9月22日、雲栖大会でAI学習・推論向けチップ「震無V900」を発表した。メモリは216GB、チップ間帯域幅は1,200GB/秒で、前世代のM890比で性能が3倍になるとした。量産は2027年第1四半期を目標とする。",
+   "source": "TechNode",
+   "url": "https://technode.com/2026/09/22/t-head-unveils-zhenwu-v900-ai-chip-in-alibabas-push-to-expand-its-ai-infrastructure-stack/"
+  },
+  {
+   "date": "2026-08-20",
+   "headline": "Alibaba says it has already spent about half of its 2026-29 AI infrastructure budget",
+   "summary": "Alibaba's Q1 FY2027 results, reported Aug 20, showed revenue up 9% year-on-year but adjusted profit missed estimates due to heavy AI spending; coverage said the company had already spent roughly half of its approximately 380 billion yuan (about $56.4 billion) AI infrastructure investment plan for 2026-29.",
+   "summary_ja": "アリババの2027年度第1四半期決算(8月20日発表)は、売上高が前年比9%増となったが、AI投資の重さから調整後利益は予想を下回った。報道によれば、2026~29年のAI基盤投資計画(総額約3800億元、約564億ドル)のうち、既に約半分を支出済みとされる。",
+   "source": "BNN Bloomberg",
+   "url": "https://www.bnnbloomberg.ca/business/company-news/2026/08/20/alibabas-quarterly-revenue-up-9-misses-adjusted-profit-due-to-heavy-ai-spend/"
+  },
+  {
+   "date": "2026-05-14",
+   "headline": "US approves Nvidia H200 export licenses for Alibaba and other Chinese buyers, but shipments stall",
+   "summary": "The US approved export licenses allowing Alibaba and roughly 10 Chinese companies, including Tencent, ByteDance and JD.com, to buy Nvidia H200 chips, with Alibaba's license reportedly covering up to 75,000 units; Reuters later reported no chips had actually shipped, as Chinese buyers held back amid Beijing's concerns about the US routing/revenue-share arrangement and protecting domestic chipmakers.",
+   "summary_ja": "米国はアリババやテンセント、バイトダンス、京東など中国企業約10社に対しエヌビディアのH200チップの輸出許可を承認した。アリババの許可枠は最大7万5000個とされる。ロイターによると、米側の仲介・収益分配の仕組みや国産チップ保護への北京側の懸念から、中国側の買い手が受け取りを控え、実際の出荷は行われていないという。",
+   "source": "Reuters (via AIWeekly)",
+   "url": "https://aiweekly.co/alerts/nvidia-h200-licenses-granted-to-alibaba-tencent-bytedance"
+  },
+  {
+   "date": "2026-01-22",
+   "headline": "Bloomberg: Alibaba plans to restructure T-Head into an employee-owned business ahead of a possible IPO",
+   "summary": "Bloomberg reported, citing people familiar with the matter, that Alibaba's first step toward a possible T-Head IPO would be restructuring the chip unit into a business partly owned by employees, with no valuation or timeline set; Alibaba's US-listed shares rose about 4.6% premarket on the report.",
+   "summary_ja": "ブルームバーグは関係者の話として、アリババがT-Headの上場を見据えた第一歩として、まず同事業を従業員が一部保有する形に再編する計画だと報じた。評価額や時期は未定。この報道を受け、アリババの米国上場株はプレマーケットで約4.6%上昇した。",
+   "source": "Bloomberg (via Seeking Alpha)",
+   "url": "https://seekingalpha.com/news/4541413-alibaba-mulls-ipo-for-ai-chipmaking-unit-t-head"
+  },
+  {
+   "date": "2026-01-02",
+   "headline": "Rival Baidu's chip unit Kunlunxin confidentially files for Hong Kong listing, a precedent for T-Head",
+   "summary": "Baidu disclosed that its AI-chip unit Kunlunxin confidentially filed a Hong Kong listing application on Jan 1, 2026, with Baidu expected to retain a controlling stake of about 59% after any spin-off; a prior funding round had valued Kunlunxin at about 21 billion yuan (about $3 billion).",
+   "summary_ja": "百度(バイドゥ)は、AIチップ子会社Kunlunxinが2026年1月1日付で香港上場を非公開で申請したと明らかにした。分離後もバイドゥが約59%の支配株を維持する見通し。過去の資金調達では同社の評価額は約210億元(約30億ドル)とされていた。",
+   "source": "Reuters (via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/news/baidu-kunlunxin-files-confidentially-hong-134449745.html"
+  }
+ ],
+ "since": []
+}
