@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-13-1230",
+      "label": "13 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-13T04:37:34Z",
+      "items": 7,
+      "headlines": [
+        "ByteDance plans share buyback that would value TikTok owner at $400bn",
+        "New World Development weighs rights issue of up to $3.2bn, Bloomberg reports",
+        "JD.com completes €1.3bn Ceconomy acquisition after EU's conditional approval, taking 59.8% stake"
+      ]
+    },
+    {
       "id": "2026-11-13-0830",
       "label": "13 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-13T00:35:00Z",
