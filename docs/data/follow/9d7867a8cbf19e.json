@@ -1,0 +1,46 @@
+{
+ "id": "9d7867a8cbf19e",
+ "title": "Samsung in talks to buy data center cooling firm Modine, Bloomberg News reports",
+ "link": "https://www.channelnewsasia.com/business/samsung-in-talks-buy-data-center-cooling-firm-modine-bloomberg-news-reports-6547876",
+ "source": "CNA Business",
+ "published": "2026-11-13T00:12:27Z",
+ "checked_at": "2026-11-13T04:49:52Z",
+ "status": {
+  "as_of": "2026-11-13",
+  "text": "In talks: Bloomberg reported Nov 12 Samsung is in talks to acquire Modine, valued at $5.6bn; shares surged 29% after-hours. No agreement reached; talks could still collapse or another bidder emerge.",
+  "text_ja": "サムスンが11月12日、データセンター冷却大手モダインの買収交渉中とブルームバーグが報道。株価は時間外で29%急騰。合意未了で交渉は破談や対抗提案の可能性も残る。",
+  "refs": [
+   {
+    "list": "background",
+    "url": "https://news.samsung.com/global/samsung-electronics-completes-acquisition-of-hvac-company-flaktgroup"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-08-19",
+   "headline": "Samsung and FläktGroup Korea agree ₩240bn Gwangju plant to build AI data-center cooling units",
+   "summary": "Samsung Electronics, FläktGroup Korea and the Gwangju city government signed an agreement on Aug 19, 2026 to invest about 240 billion won (roughly $158-170 million) in a new HVAC production line at Samsung's Gwangju complex to make cooling distribution units for AI data centers; the plant broke ground Sept 21 and is due to start production in 2028.",
+   "summary_ja": "サムスン電子とフレクトグループ・コリア、光州市は2026年8月19日、光州工場内に約2400億ウォン(約1.6億~1.7億ドル)を投じ、AIデータセンター向け冷却分配装置を生産する新HVAC生産ラインを建設する協定に署名した。着工は9月21日で、2028年の量産開始を予定する。",
+   "source": "The Korea Times",
+   "url": "https://koreatimes.co.kr/business/companies/20260819/samsung-to-invest-170-mil-for-hvac-manufacturing-facility-in-gwangju"
+  },
+  {
+   "date": "2026-05-26",
+   "headline": "Modine signs $4bn Airedale capacity agreement with unnamed hyperscale customer, takes $165m upfront payment",
+   "summary": "On May 26, 2026, Modine Manufacturing said it had entered a long-term agreement guaranteeing capacity to supply more than $4 billion of its Airedale data-center cooling products to an unnamed strategic customer from 2027 through 2029, receiving a $165 million upfront cash payment to fund capacity expansion; shares rose 22% that day.",
+   "summary_ja": "モダイン・マニュファクチャリングは2026年5月26日、2027~29年にかけて非公開の大手顧客に対しエアデール製データセンター冷却製品を40億ドル超供給することを保証する長期契約を発表した。生産能力拡張のため前払い金1億6500万ドルを受領し、同日株価は22%上昇した。",
+   "source": "Barchart (PR Newswire)",
+   "url": "https://www.barchart.com/story/news/2125847/modine-announces-landmark-4-billion-long-term-capacity-agreement-through-2029-with-strategic-data-center-customer-for-airedale-by-modine-cooling-solutions"
+  },
+  {
+   "date": "2025-11-06",
+   "headline": "Samsung completes €1.5bn acquisition of Europe's largest HVAC maker FläktGroup, entering cooling systems market",
+   "summary": "Samsung Electronics said on Nov 6, 2025 that it had completed its acquisition of Germany-based FläktGroup, Europe's largest HVAC company, under an agreement signed in June 2025 with seller Triton for about €1.5 billion; FläktGroup and its Woods Air Movement and SEMCO units continue operating under their own management inside Samsung's DX Division.",
+   "summary_ja": "サムスン電子は2025年11月6日、欧州最大のHVAC企業である独フレクトグループの買収を完了したと発表した。2025年6月に売り手トライトンとの間で約15億ユーロで合意していたもの。傘下のウッズ・エア・ムーブメントとSEMCOは、サムスンのDX部門内で独自の経営体制を維持する。",
+   "source": "Samsung Newsroom",
+   "url": "https://news.samsung.com/global/samsung-electronics-completes-acquisition-of-hvac-company-flaktgroup"
+  }
+ ],
+ "since": []
+}

@@ -1,0 +1,62 @@
+{
+ "id": "3a41baaa69b77d",
+ "title": "SpaceX, Tesla merger talks progress, Bloomberg News reports",
+ "link": "https://www.channelnewsasia.com/business/spacex-tesla-merger-talks-progress-bloomberg-news-reports-6547466",
+ "source": "CNA Business",
+ "published": "2026-11-12T20:42:41Z",
+ "checked_at": "2026-11-13T04:49:52Z",
+ "status": {
+  "as_of": "2026-11-13",
+  "text": "Talks advancing: Bloomberg reported Nov 12 that SpaceX-Tesla merger talks are progressing, with a possible announcement as soon as December 2026 or slipping to early 2027; both firms' special committees have not agreed terms.",
+  "text_ja": "ブルームバーグは11月12日、スペースXとテスラの合併協議が進展し、早ければ12月に発表、遅くとも27年初めになり得ると報道。両社の特別委員会は条件に未合意。",
+  "refs": [
+   {
+    "list": "background",
+    "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-10-20",
+   "headline": "SpaceX, Tesla boards form independent special committees to study a possible merger; Musk recuses",
+   "summary": "On SpaceX's Q3 earnings call on Oct 20, 2026, Elon Musk said the boards of SpaceX and Tesla had each formed special committees of independent directors, at shareholders' request, to study a potential merger; Musk said he had recused himself from the committees' deliberations as a conflicted party and that no deal was guaranteed.",
+   "summary_ja": "イーロン・マスク氏は2026年10月20日のスペースX第3四半期決算説明会で、株主の要請を受け両社の取締役会がそれぞれ独立社外取締役による特別委員会を設置し、合併の可能性を検討していると述べた。マスク氏は利害関係者として委員会の協議から外れているとし、合併成立は確約されていないとも述べた。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+  },
+  {
+   "date": "2026-05-27",
+   "headline": "Musk says SpaceX-Tesla merger is 'a good idea' as SpaceX nears Nasdaq debut; report says insiders rattled",
+   "summary": "Around May 27, 2026, as SpaceX prepared for its Nasdaq listing, Elon Musk said a SpaceX-Tesla merger was 'a good idea' though no deal had been agreed; Reuters reported that Musk's public backing for the idea unsettled some insiders at both companies.",
+   "summary_ja": "2026年5月27日前後、スペースXのナスダック上場を控える中、イーロン・マスク氏はスペースXとテスラの合併は「良い考えだ」と述べたが、合意には至っていないとした。ロイターは、マスク氏が合併案を公に支持したことで両社の関係者の一部に動揺が広がったと報じた。",
+   "source": "Reuters (via TheNextWeb)",
+   "url": "https://thenextweb.com/news/spacex-tesla-merger-musk-insiders-reuters"
+  },
+  {
+   "date": "2026-02-02",
+   "headline": "SpaceX acquires xAI for $250bn in all-stock deal, creating $1.25tn combined group",
+   "summary": "SpaceX announced on Feb 2, 2026 that it would acquire Elon Musk's AI startup xAI in an all-stock deal valuing xAI at $250 billion and the combined SpaceX-xAI group at about $1.25 trillion; xAI investors received 0.1433 SpaceX shares per xAI share, with some executives able to take cash instead.",
+   "summary_ja": "スペースXは2026年2月2日、イーロン・マスク氏のAI企業xAIを全株式交換方式で買収すると発表した。xAIの評価額は2500億ドル、合併後のスペースX・xAI連合の評価額は約1.25兆ドルとされた。xAI株1株につきスペースX株0.1433株が割り当てられ、一部幹部は現金での受領も選べるとされた。",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/news/elon-musk-merges-spacex-artificial-233427458.html"
+  },
+  {
+   "date": "2026-01-29",
+   "headline": "Bloomberg first reports SpaceX considering merger with Tesla or xAI",
+   "summary": "Bloomberg reported on Jan 29, 2026 that Elon Musk's SpaceX was considering a merger with either Tesla or xAI, the first report of merger discussions involving the three companies; no decision had been made at the time.",
+   "summary_ja": "ブルームバーグは2026年1月29日、イーロン・マスク氏のスペースXがテスラまたはxAIとの合併を検討していると報じた。3社を巡る合併協議についての最初の報道で、当時は決定には至っていなかった。",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-01-29/elon-musk-s-spacex-is-said-to-consider-merger-with-tesla-or-xai"
+  },
+  {
+   "date": "2026-01-16",
+   "headline": "Tesla agrees to invest about $2bn in xAI's Series E preferred stock",
+   "summary": "Tesla disclosed in its Q4 2025 shareholder letter that it entered an agreement on Jan 16, 2026 to invest approximately $2 billion in xAI's Series E preferred stock, about 10% of xAI's $20 billion funding round that valued the AI startup at roughly $230 billion; the investment was expected to close in the first quarter.",
+   "summary_ja": "テスラは2025年第4四半期の株主向け書簡で、2026年1月16日にxAIのシリーズE優先株へ約20億ドルを投資する契約を結んだと開示した。これはxAIが実施した200億ドルの資金調達ラウンド(企業価値約2300億ドル)の約10%に相当し、投資は第1四半期中の完了が見込まれていた。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/01/28/tesla-invested-2b-in-elon-musks-xai"
+  }
+ ],
+ "since": []
+}
