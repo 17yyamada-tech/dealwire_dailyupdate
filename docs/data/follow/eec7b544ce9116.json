@@ -4,15 +4,15 @@
  "link": "https://www.channelnewsasia.com/business/alibaba-chip-unit-thead-files-hong-kong-ipo-6544301",
  "source": "CNA Business",
  "published": "2026-11-12T00:39:40Z",
- "checked_at": "2026-11-14T04:46:51Z",
+ "checked_at": "2026-11-14T04:53:30Z",
  "status": {
-  "as_of": "2026-11-13",
-  "text": "Pre-IPO: T-Head confidentially filed for a Hong Kong listing around Sep 11, 2026, disclosed by Alibaba around Nov 10; still pending Listing Committee and CSRC approval, with no size, valuation or underwriters yet disclosed.",
-  "text_ja": "T-Headは2026年9月11日に香港上場を非公開で申請し、11月10日にアリババが開示した。規模・評価額・引受先は未公表で、上場委員会と証監会の承認待ち。",
+  "as_of": "2026-11-14",
+  "text": "Pre-IPO: T-Head confidentially filed for a Hong Kong listing around Sep 11, 2026; IFR reports it now targets a 2027 listing raising roughly $2bn-$3bn, still pending Listing Committee and CSRC approval.",
+  "text_ja": "T-Headは2026年9月11日頃に香港上場を非公開で申請。IFRによれば2027年上場で約20億~30億ドルの調達を目指す。上場委員会と証監会の承認待ち。",
   "refs": [
    {
-    "list": "background",
-    "url": "https://seekingalpha.com/news/4541413-alibaba-mulls-ipo-for-ai-chipmaking-unit-t-head"
+    "list": "since",
+    "url": "https://www.thestandard.com.hk/finance/article/347954/Alibaba-plans-to-spin-off-chip-unit-T-Head-for-separate-Hong-Kong-listing"
    }
   ]
  },
@@ -58,5 +58,14 @@
    "url": "https://finance.yahoo.com/news/baidu-kunlunxin-files-confidentially-hong-134449745.html"
   }
  ],
- "since": []
+ "since": [
+  {
+   "date": "2026-11-10",
+   "headline": "IFR: T-Head targets 2027 Hong Kong IPO raising roughly $2bn-$3bn",
+   "summary": "International Financing Review, cited by The Standard, reported that Alibaba's chip unit T-Head is planning a Hong Kong IPO next year targeting roughly $2 billion to $3 billion; Alibaba's own stock-exchange filing disclosed no offering size or date, and the spin-off listing still requires approval from the Hong Kong Exchanges and Clearing Listing Committee and China's securities regulator.",
+   "summary_ja": "インターナショナル・ファイナンシング・レビュー(IFR)の報道をザ・スタンダードが引用したところによると、アリババのチップ事業T-Headは2027年の香港上場で約20億~30億ドルの調達を目指しているという。アリババ自身の取引所向け開示では規模や時期は示されておらず、上場には香港取引所上場委員会と中国証券当局の承認が依然必要となる。",
+   "source": "The Standard (citing International Financing Review)",
+   "url": "https://www.thestandard.com.hk/finance/article/347954/Alibaba-plans-to-spin-off-chip-unit-T-Head-for-separate-Hong-Kong-listing"
+  }
+ ]
 }
