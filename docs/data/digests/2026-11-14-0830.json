@@ -1,0 +1,331 @@
+{
+  "edition": "2026-11-14-0830",
+  "edition_label": "14 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T00:35:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Watami launches ¥32bn MBO tender offer at ¥1,284 a share, founder Watanabe's holding company to take it private",
+      "summary": "Watami formally opened a tender offer through Wisdom, the asset-holding company of founder and chairman Miki Watanabe, pricing the buyout at ¥1,284 a share for a deal of roughly ¥32bn. The izakaya chain expects to delist, while major shareholder Suntory will keep its capital relationship with Watami intact.",
+      "why_it_matters": "The MBO turns earlier talk of a go-private plan into a priced, formal tender offer, giving the market the numbers needed to assess the deal. Going private hands Watanabe's holding company full control to accelerate the chain's move away from its izakaya-heavy format without the pressure of quarterly public-market scrutiny, while Suntory's continued stake shows the drinks group is not using the buyout to exit. The deal is also one of the larger restaurant-sector MBOs in Japan this year, at a time when several izakaya operators are rethinking their format amid falling alcohol demand.",
+      "summary_ja": "ワタミは創業者である渡辺美樹会長の資産管理会社Wisdomを通じて、正式にTOBを開始した。買付価格は1株1284円、買収総額は約320億円規模。上場廃止を見込む一方、大株主サントリーとの資本関係は維持される。",
+      "why_it_matters_ja": "非公開化の検討段階から、価格と総額が確定した正式なTOBへ進んだことで、市場は条件を具体的に評価できるようになった。非公開化により渡辺氏の資産管理会社が経営権を完全に握り、四半期ごとの情報開示という制約を受けずに、居酒屋依存からの業態転換を加速できるようになる。サントリーが出資を維持することから、同社が今回の買収を機にワタミから離れる意向ではないこともわかる。酒類離れで各社が居酒屋業態の見直しを迫られる中、外食業界で今年最大級のMBOの一つとなる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-13-0830",
+        "index": 1
+      },
+      "key": "watami-mbo-watanabe",
+      "ids": [
+        "e20b9dabcb605e",
+        "af5270787126b6",
+        "b2cd89d1aecc38"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wbnlQaXdHam93ckZ4MGU3blg0Vjhkd3ZLV2huZW9SSTJXbzNaWG9XcEMwcVJ6RGlLQ1ZRMzBhVmxJM1hyeFhwOEdLSFBQc2ZJRXRCSmxGeFVjN1hTUVV5OFdETlI1LVlmcmc?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoYjRBXzMzMGl5TjlLNUVROFliZ2dVYWFVN3BNclJwOE54cjR3Vmp6OU9CWFFXX0ZGRjZlNHQ3NjAyeDdBUG05dEZNRmRCUmJlS1BqM3g0YkZBSHpRRjUxOUc3eGpLa1JRSmx3YWJHX3dDRUYw?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KV1ZJb2lNQ2YyakJycTRVX2t4aXNWb19lYzlrTGdYVmxOVzEtN3BrdnJTTEs5OUZGcER1RnVGWHZOdkluRllBRFd6N3NpQXpmZkh6RzNBZ2xrYUxKZUk4X2tVSjdRM2pPNXZmMg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Modine shares jump 29% after-hours on report Samsung is in talks to buy the data-centre cooling maker",
+      "summary": "Modine Manufacturing's stock surged 29% in after-hours trading after a fresh report that Samsung Electronics is in talks to acquire the US data-centre cooling specialist. Reports describe Samsung's interest as aimed at building out cooling capacity across both Europe and North America as it seeks to diversify beyond its memory-chip business. The move follows an earlier Bloomberg report that first flagged the talks without giving a price.",
+      "why_it_matters": "The sharp after-hours move shows investors now treat the talks as credible rather than speculative, and a deal would hand Samsung a direct supply line into the AI data-centre cooling market it currently buys from. It would also mark one of Samsung's largest moves yet into physical AI-infrastructure hardware, a category so far dominated by Western and Taiwanese suppliers.",
+      "summary_ja": "データセンター冷却機器を手がける米Modineの株価が、サムスン電子による買収協議の報道を受けて、時間外取引で29%急騰した。報道によれば、サムスンは欧州と北米の両方で冷却能力を確保する狙いがあるとされる。以前のBloomberg報道では価格に言及せず、協議の存在のみが伝えられていた。",
+      "why_it_matters_ja": "時間外での急騰は、市場が今回の協議を単なる噂ではなく実現性のある話として受け止め始めたことを示す。実現すればサムスンはメモリ依存からの多角化と、AIデータセンター冷却の直接供給網を同時に得ることになる。それは、これまで欧米や台湾勢が押さえてきたAIインフラ向けハードウエア領域で、サムスンが打つ最大級の一手となる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-13-0830",
+        "index": 5
+      },
+      "key": "samsung-modine-cooling-talks",
+      "ids": [
+        "baab741fa95954",
+        "76c07da23cb4f6",
+        "6f8fa84044b35d"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iQXB1bnppUWRObGNYemNVbUljeV9ZWWFkY0Q2bGhad1JoTkJGLVVXbHZNZndDWUk3d21EVjlGN3R3clFVVVVwc3RvczVvakR3eHhGOXA5ZXlDQ0dTcjZvdWQxZ9IBaEFVX3lxTE1OZk9FeVJPWnNDVURPWTA4ZzkybmJjNnBveERvRE5GdkFSbE9WUlNHdTNGSk85ZWpod0VZTlZsR1c2Zl9JRW5lN3lRbkJaVkRSMjZiQlNmZnV4dVNUcl84ZVZ2ZnY1NTR5?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04RGJPdzNyMjJZOVE5UTJsalFHYzBkUDIyY2tVQmNncThHekxzWFhGSzRLclpkRy1DdUVaY1RlZkpXeG1hcmRjVUQyNGdLaTVfVGxueG5XbHpYZEI0U2lpczItY3JWdE1mTFVZUjVRbVNpekZy?oc=5"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/samsung-talks-acquire-data-centre-cooling-firm-modine"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other",
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Yamaha to buy UK stage-visuals specialist Disguise Technologies for ¥46.1bn, taking stake from Carlyle",
+      "summary": "Yamaha will acquire full ownership of Disguise Technologies, a UK maker of show-control and visual technology for live events, via its holding company Butterfly Topco for ¥46.1bn. Carlyle currently holds a majority stake in Disguise and is exiting as part of the deal. Yamaha expects to complete the purchase next month and has framed the move as strengthening its entertainment and live-experience businesses.",
+      "why_it_matters": "The deal gives Yamaha a foothold in live-entertainment production technology beyond its core instruments and audio business, pairing its hardware with the software and show-control systems that run concerts and large events. It is also a sizeable private-equity exit for Carlyle, crystallising a return on a UK media-technology asset.",
+      "summary_ja": "ヤマハはライブ演出用の映像・制御技術を手がける英Disguise Technologiesを、持株会社Butterfly Topco経由で461億円で完全子会社化する。現在同社の過半を握るカーライルは本件でエグジットする。買収完了は来月を予定し、ヤマハはエンターテインメント・ライブ体験事業の強化につながると説明している。",
+      "why_it_matters_ja": "楽器・音響事業の外側にあるライブエンターテインメント制作技術を取り込む動きであり、自社のハードウエアとイベント演出を支えるソフトウエア・制御システムを組み合わせる狙いだ。カーライルにとっても規模の大きいイグジットとなり、英国のメディア技術投資からの回収を確定させる。",
+      "status": "new",
+      "prev": null,
+      "key": "yamaha-disguise-technologies-acquisition",
+      "ids": [
+        "6d1cc75b7cdce6",
+        "aeafd0d9d618eb",
+        "da5baaf1ab346b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQUZfYzF3TGVJcDhoalZNTnhVd1Y3akxOcUJxMDJiaGZoNHpFMXEwRXVVZG45eF9KMk0zR1lCRmdXb1RRMWZvZGluRk9lTkMweVcyeWxZdzB5SzFaeFNnSDRsWEZlbHNncTQzaGticHQ3SlVJREQtMDZQLW9SYm00OEEwM1daZy1jU1JDdktYQmZoN2RwQ1BxM1MyZl82VTVGQlZDQlpEZ3ZTWGlUaWZOX3NtOXpHeW5fWXdkM3ZYVWlGOHJleGV2V3VyOFo?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYUnpBWHUtZndncS1IR3NOVWlaRFlIbUwxMGtPWkpTOS1LcnRDSWl5NmI4eWdNQnBMa0d3UGtIWWl4MzZ6REJTZWJEaVpFcU1aRmxlZ2F2bVVNZ3pQQ21HOURQUE83ek1QRlR5SkUwa3FldmtCNHFUU1pxaUtkYUU?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HTFNzSHhDV2QtRnVKbU4zOFhpQkdfaWFPakZkUW1mbDc4Y0JZWGtnRnppaXMzWDB3TGVPMDVKZTBFRUJkN3FVN053T3lXYnZFX0t3NEk1ZWdSRFJQQWNrTGw1SElmVmowcTIwalZDSGtxczhXMGVTLUFSM1lOeU0?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Sekisui House launches ¥7.2bn tender offer to take landscaping firm Gifuzoen fully private",
+      "summary": "Sekisui House is making a tender offer worth ¥7.2bn for Gifuzoen, a Japanese landscaping and gardening contractor, to bring it in as a wholly owned subsidiary.",
+      "why_it_matters": "The bolt-on gives Japan's largest homebuilder in-house landscaping capacity to bundle with its housing developments, part of a broader trend of Japanese housing groups buying up smaller specialist trades to shore up subcontractor supply as the construction workforce shrinks.",
+      "summary_ja": "積水ハウスは造園業の岐阜造園に対し、72億円規模のTOBを実施し、完全子会社化する。",
+      "why_it_matters_ja": "住宅開発と造園機能を一体化できることは、国内最大手のハウスメーカーにとって付帯サービスの強化につながる。建設職人の減少を背景に、住宅大手が専門業種の小企業を傘下に取り込んで外注先の確保を固める動きの一環である。",
+      "status": "new",
+      "prev": null,
+      "key": "sekisui-house-gifuzoen-tob",
+      "ids": [
+        "7b7b6889883b03",
+        "fef9b08288263c",
+        "12161db1f12249"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mQ3lYcUJwbDJNMk9NSDNHSVFaLV9SY2NGZkx2R0ZDY1U5VFJZNy1iNmgza2t2XzgzbW5ULWRieXh2Y0ZfZldkcTdGZF9nZ0M1LTAzN2ZNMDVnSXozSzZUVWFGYnE4UkpvNjNJRg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1pazBHbVZLRHZ6SkpwX3lPT3ZiWWhqM0UwMTVNaDhFcVZMeXB4b2JEa2JsQkhyeWp5OS1Ec2ppZGV6ak0?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wQ0JmWjRXWXZPbEVWd18ySXp2QWdxeDhObW9YLTB1UHg4aGxzN0Z5bTRIVFBLckQzZ29fRThsdUladGp6RXRZeWNwVTFURTQyNm02d25R?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Komatsu to buy Astec Industries' road-construction machinery business for ¥12bn",
+      "summary": "Komatsu agreed to acquire the road-construction machinery division of US manufacturer Astec Industries for ¥12bn.",
+      "why_it_matters": "The purchase adds paving and road-building equipment to Komatsu's construction-machinery line-up and extends its US manufacturing footprint, a bolt-on route Japanese machinery makers are increasingly favouring over organic capacity build-outs as they chase product breadth in the US market.",
+      "summary_ja": "コマツは米アステック・インダストリーズの道路建設機械事業を120億円で買収することで合意した。",
+      "why_it_matters_ja": "舗装・道路建設機械がラインナップに加わることで、コマツの建設機械事業と米国内の生産体制が拡充する。米市場で製品幅を広げる手段として、自前での能力構築より買収を選ぶこの手法は、日本の建設機械メーカーの間で広がりつつある。",
+      "status": "new",
+      "prev": null,
+      "key": "komatsu-astec-road-machinery-acquisition",
+      "ids": [
+        "43522fb6587d3b",
+        "b920074ecb361e"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PSm5pSzR3Rm82bnFKeVViYy1fWW1YUjZxcEpIUG5OQWVfRlBvdnE4Mm0zRGpoRjBzVll6SmpNdEt3UjhrdEF4SUNpWERVQlJvdHE3MU1UcGVNSWI3SXZQYm1oWHZPN1AzeFNndg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUVdZOWZPbENJanBwSzZEUm1pdk9ESjRsQWFMZFVjYnlkVks5MllYOExyWVpLaTJFQXBfYTNSdTdBeDQ5cXk2RTM3cnpGTnhMbDk2ZXJrSTItZjl2eHdKVWR2NUhsZXE3R2pRSUVEMWpGTXZ4c09qc0dsemtmdUo4SDU5YTN0OGxjVUljdXVXbXFkV1dPcUMtV0Jn?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Hancock Whitney to buy Trustmark for $3.2bn in all-stock deal, shares fall 10%",
+      "summary": "Hancock Whitney agreed to acquire Trustmark in an all-stock transaction valued at about $3.2bn (roughly ¥510bn). Hancock Whitney shares dropped 10% following the announcement, a sharp move for an all-stock regional-bank tie-up.",
+      "why_it_matters": "The sell-off suggests investors see the deal as dilutive or expensive for Hancock Whitney shareholders, a reaction other regional-bank acquirers will be watching closely as further US bank consolidation is weighed amid higher funding costs and scale pressure.",
+      "summary_ja": "米ハンコック・ホイットニーはトラストマークを全株式交換方式で約32億ドル（約5100億円）で買収することで合意した。発表を受けハンコック・ホイットニー株は10%下落した。全株式交換の地域銀行再編としては大きな下振れである。",
+      "why_it_matters_ja": "株価の下落は、市場がこの買収をハンコック・ホイットニー株主にとって希薄化的あるいは高値つかみと見ている可能性を示す。資金コストの上昇と規模拡大への圧力が強まる中、他の米地域銀行もこの反応を注視している。",
+      "status": "new",
+      "prev": null,
+      "key": "hancock-whitney-trustmark-merger",
+      "ids": [
+        "d1f4bb13b4c98d",
+        "97de7c3444e0d8"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qcTJyMEYzdnhReEVFejVCZ1dJVUVRT1VMS1B0NUc0Y0dCN2FvSkNtWEdzVjRFTHlDeEt5VXBKX19WVlo0dW1mTDFLTmVHV3BPVVhzZ1o4LXRJMXdsdGZVZ1BlZGZHdWpTZTBOSGpPcUtWLTZv?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1MnJqLW5JZXp5UDM0RjR1ZW9fT1g1dHc4TTdPeHB6aFotWEw3Y1hnZWRRLUVhd0FRTGtEZ1Z1c24tZzQtY21DTjFHcDFoOW9ScXpoci1LSDRLQVhKRUE1dXdFZ0Z3S3Z6aE5nUUNKREhaWVctNHdN?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "BCP Investment Corp to acquire Investcorp Credit Management BDC at 90% of NAV",
+      "summary": "BCP Investment Corp agreed to acquire Investcorp Credit Management BDC, pricing the deal at 90% of the target's net asset value. Both companies disclosed the agreement in separate SEC 8-K filings.",
+      "why_it_matters": "The deal is another step in the consolidation of smaller listed business-development companies, as sponsors combine BDC platforms to gain scale in private credit at a time when fundraising for new, stand-alone vehicles has become harder.",
+      "summary_ja": "米BCP Investment Corpは、インベストコープ・クレジット・マネジメントBDCをNAVの90%で買収することで合意した。両社はそれぞれ別々にSECへの8-K開示でこれを公表した。",
+      "why_it_matters_ja": "規模の小さい上場BDC同士の統合が進んでいることを示す一例であり、新規の単体ファンド調達が難しくなる中、プライベートクレジット分野でのスケール確保を図るスポンサーの動きを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "bcp-investcorp-bdc-acquisition",
+      "ids": [
+        "545f14dc19cc46",
+        "1db397b0e28308",
+        "d6d2e8dd8db0c1"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YZFNiSnZZRFZLRTBZZF9mQmxNU1QzUE9hMUxNOElpUHBpYm80Vk1TWnJCVkRCdjVwMkpJYTVUaklIclc5ODBxLUJUYTBVWm1BRzY0QU92Ry0tbTU1c2tWb3FiTXZULUM0NVphVkhxZXN4ME5P?oc=5"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1372807/000119312526457103/0001193125-26-457103-index.htm"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1578348/000119312526457105/0001193125-26-457105-index.htm"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Chinese AI server maker xFusion clears review for $1.2bn Shenzhen IPO",
+      "summary": "xFusion, a Chinese maker of AI servers, has cleared regulatory review for an IPO on the Shenzhen exchange that is expected to raise $1.2bn.",
+      "why_it_matters": "The listing would be one of the larger AI-hardware IPOs out of China this year, at a time when Beijing is pushing domestic chip and server supply chains and investors are hunting for ways to play China's AI-infrastructure build-out outside the big cloud operators.",
+      "summary_ja": "中国のAIサーバーメーカーxFusionは、深セン証券取引所への上場に向けた当局の審査を通過した。調達額は12億ドル規模を見込む。",
+      "why_it_matters_ja": "中国発のAIハードウエア関連IPOとしては今年最大級となる見通しで、中国が国内のチップ・サーバー供給網強化を図る流れを映す。大手クラウド事業者以外の形で中国のAI基盤投資に触れたい投資家にとって、選択肢の一つとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "xfusion-shenzhen-ipo",
+      "ids": [
+        "ce6e8770a845ca"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/chinese-ai-server-maker-xfusion-clears-review-12-billion-shenzhen-ipo-6548701"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Q&M Dental completes $29.3m purchase of 51% stake in Thai clinic chain Deezy",
+      "summary": "Singapore-listed Q&M Dental completed its acquisition of a 51% stake in Deezy, the operator of 33 dental clinics in Bangkok, for US$29.3m.",
+      "why_it_matters": "The deal gives Q&M a controlling platform in Thailand's dental market with an established, multi-clinic network already in place, and signals continued Singapore-led consolidation of Southeast Asian healthcare chains as operators look beyond their home market for growth.",
+      "summary_ja": "シンガポール上場のQ&Mデンタルは、バンコクで33クリニックを運営するDeezyの株式51%を2930万米ドルで取得し、買収を完了した。",
+      "why_it_matters_ja": "Q&Mはタイの歯科市場で、既に複数クリニックを抱える基盤を持つ支配株主の地位を得ることになる。自国市場の外に成長を求める動きとして、シンガポール企業主導による東南アジアのヘルスケア再編が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "qm-dental-deezy-thailand-acquisition",
+      "ids": [
+        "c85728be526a04"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/qm-dental-completes-thailand-acquisition-51-stake-bangkok-clinic-chain-deezy"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA",
+        "SG"
+      ],
+      "sectors": [
+        "Healthcare"
+      ]
+    }
+  ]
+}

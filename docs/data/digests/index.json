@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-14-0830",
+      "label": "14 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-14T00:35:00Z",
+      "items": 9,
+      "headlines": [
+        "Watami launches ¥32bn MBO tender offer at ¥1,284 a share, founder Watanabe's holding company to take it private",
+        "Modine shares jump 29% after-hours on report Samsung is in talks to buy the data-centre cooling maker",
+        "Yamaha to buy UK stage-visuals specialist Disguise Technologies for ¥46.1bn, taking stake from Carlyle"
+      ]
+    },
+    {
       "id": "2026-11-13-1230",
       "label": "13 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-13T04:37:34Z",
