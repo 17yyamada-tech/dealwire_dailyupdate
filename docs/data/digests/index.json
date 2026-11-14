@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-14-1230",
+      "label": "14 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-14T04:35:00Z",
+      "items": 4,
+      "headlines": [
+        "Bain Capital closes third Asia special situations fund at $1.81bn",
+        "Birch Hill Equity Partners acquires US lawn-care company TruGreen",
+        "Ex-Murakami fund affiliate takes 3% stake in Chugoku Electric Power, becomes utility's No.2 activist holder"
+      ]
+    },
+    {
       "id": "2026-11-14-0830",
       "label": "14 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-14T00:35:00Z",

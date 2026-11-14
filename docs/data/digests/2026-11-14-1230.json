@@ -1,0 +1,78 @@
+{
+  "edition": "2026-11-14-1230",
+  "edition_label": "14 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T04:35:00Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Bain Capital closes third Asia special situations fund at $1.81bn",
+      "summary": "Bain Capital closed Special Sits Asia III, the third vintage of its Asia-focused special situations fund, at $1.81bn, according to PEI Private Credit. The vehicle is the latest in Bain's dedicated Asia special situations series.",
+      "why_it_matters": "The close points to continued investor appetite for Asia-focused special situations and opportunistic credit strategies, a segment where sponsors have been raising dedicated capital as corporate stress and refinancing needs persist across the region.",
+      "summary_ja": "ベインキャピタルは、アジア特化型のスペシャルシチュエーションファンドの第3号「Special Sits Asia III」を18.1億ドルでクローズしたと、PEI Private Creditが報じた。同ファンドはベインのアジア専門スペシャルシチュエーションシリーズの最新号となる。",
+      "why_it_matters_ja": "今回のクローズは、アジア域内のスペシャルシチュエーション・オポチュニスティック戦略に対する投資家需要が続いていることを示す。地域内で企業のストレスやリファイナンス需要が続く中、スポンサー各社がこの分野に専用資金を集めている動きの一端である。",
+      "status": "new",
+      "prev": null,
+      "key": "bain-capital-special-sits-asia-iii",
+      "ids": ["b246a89eabb0b8"],
+      "links": [
+        {"source": "PEI Private Credit", "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQY3IxdmZpVUdkYmpMV3RZZEhsNjh2aXdKeVRVMGpvN3BDNkl4OGE0YkJfUGFXS2x4SkE1aXQ2cHRXblFhdlFZM0JORGs4N0hjRE9GSWlhV292cjBCaU82SGJ6SzdJbDhLRWhKQUtWRUZZN1JzMm9CQnV1RW9keDF6dUVFYnpZRmNMajlGcE5MWQ?oc=5"}
+      ],
+      "categories": ["Credit"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Birch Hill Equity Partners acquires US lawn-care company TruGreen",
+      "summary": "TruGreen, which calls itself the US's leading lawn-care company, said it has been acquired by Birch Hill Equity Partners, a Canadian private equity firm. The companies did not disclose the purchase price.",
+      "why_it_matters": "The deal hands a Canadian buyout firm control of a large, branded US consumer-services operator, extending PE's run of interest in subscription-like, recurring-revenue home-services businesses.",
+      "summary_ja": "米国最大手の芝生管理会社と自称するTruGreenは、カナダのプライベートエクイティ企業バーチヒル・エクイティ・パートナーズに買収されたと発表した。買収金額は非公表。",
+      "why_it_matters_ja": "カナダ系PEファンドが、ブランド力のある米国の大手コンシューマーサービス事業者の経営権を握ることになる。定期契約に近い安定収益を持つホームサービス業への、PEからの関心の高まりを映す一例である。",
+      "status": "new",
+      "prev": null,
+      "key": "trugreen-birch-hill-acquisition",
+      "ids": ["d0d5c7450147d9"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/trugreen-announces-acquisition-by-birch-hill-equity-partners-302939072.html"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Ex-Murakami fund affiliate takes 3% stake in Chugoku Electric Power, becomes utility's No.2 activist holder",
+      "summary": "A fund affiliated with the former Murakami group acquired a 3% stake in Chugoku Electric Power, the Chugoku Shimbun reported. The paper said the holding makes the fund the utility's second-largest activist shareholder and could affect management.",
+      "why_it_matters": "Chugoku Electric Power joins a growing list of Japanese regional utilities facing activist pressure, as reform-minded funds push for capital-efficiency and governance changes while broadening their targets beyond industrials and consumer names.",
+      "summary_ja": "旧村上ファンド系の投資ファンドが中国電力の株式3%を取得したと、中国新聞が報じた。同紙によれば、この保有により同ファンドは中国電力の「物言う株主」として実質2位の株主となり、経営に影響を与える可能性があるという。",
+      "why_it_matters_ja": "中国電力も、アクティビストの圧力を受ける日本の地域電力会社のリストに加わる形となった。改革志向のファンドが対象を製造業や消費財企業の外へ広げる中、資本効率やガバナンス改善を求める動きが電力セクターにも及んでいる。",
+      "status": "new",
+      "prev": null,
+      "key": "chugoku-electric-power-activist-stake",
+      "ids": ["090b42d19310ea", "6f5b1a68ea33a1"],
+      "links": [
+        {"source": "Japan PE & activists", "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xMWlGYzNXc2ZTeDdRLWp4Z0JoTmszbVhCVW5pNW9GZ0hMVjd1S1JrS2NEanlrSkxXRkNhbllHUXE0eER6YVItbFcycF9CbEZ0Z0U4eU1rSEFQdVJPc2JWYzBCbnh2b2xoU0JoR1N6eGJ4WnlJcFQ3TTMtb2xsc28?oc=5"},
+        {"source": "Japan PE & activists", "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfcEV4elNjdHJhQWRTMDN3WFFhOGpRZEFaYlJUeFRGZkpJS1kwd1UyQU9FcWxQTFBZVWRtQjBDY2Z2c3ZnYVJWOFJoOFJGNGl4WEdBaXJyUjV2QQ?oc=5"}
+      ],
+      "categories": ["PE"],
+      "countries": ["JP"],
+      "sectors": ["Energy"]
+    },
+    {
+      "headline": "Activist investor Nomura Aya raises stake in Hankyu Hanshin Holdings to 1.47%",
+      "summary": "Activist investor Nomura Aya increased her holding in Hankyu Hanshin Holdings to 1.47%, according to a disclosure reported Friday, expanding her exposure to the Kansai-region private railway operator.",
+      "why_it_matters": "The stake build extends a run of activist investors targeting Japanese transport and real-estate conglomerates, where sum-of-the-parts holding structures have drawn pressure to unlock value.",
+      "summary_ja": "物言う株主の野村絢氏が阪急阪神ホールディングスへの出資比率を1.47%に引き上げたことが、報道で明らかになった。関西地盤の私鉄運営会社への投資を拡大した。",
+      "why_it_matters_ja": "運輸・不動産を抱えるコングロマリット型の保有構造を持つ日本企業が、サムオブザパーツでの価値引き出しを求めるアクティビストの標的となる流れが続いていることを示す一例である。",
+      "status": "new",
+      "prev": null,
+      "key": "nomura-aya-hankyu-hanshin-stake",
+      "ids": ["5424a9325d981c"],
+      "links": [
+        {"source": "Japan PE & activists", "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfOUJBY2lEalVzOHV4NkowaXdMZVBwR2hLNjFqSzNHYUJhdGhvTVk5QzMwbUZhX2c0bGNmWUlheVh1NmtMSlFxS0Y0UVVOMThJLWRF?oc=5"}
+      ],
+      "categories": ["PE"],
+      "countries": ["JP"],
+      "sectors": ["Other"]
+    }
+  ]
+}
