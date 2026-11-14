@@ -4,12 +4,16 @@
  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tXzM0a0JmZHp6NWIwR202UTJHUl9jVnRXMTFsd2JtNWxwMXlxdllaQU5yZkd4NFpPXzNYYktRam5xbFJMbkU3dHBMY3JpM3NQdWx6dmthMHMwUzFqX0VoZlphd3Jad3dTRDdPRQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-09T13:24:04Z",
- "checked_at": "2026-11-13T07:50:31Z",
+ "checked_at": "2026-11-14T00:48:03Z",
  "status": {
-  "as_of": "2026-11-10",
-  "text": "Takeover battle: Integral raised its tender offer for Kadoya Seiyu to ¥2,655/share on Nov 9, 2026, topping rival bidder Advantage Partners' ¥2,654 proposal by ¥1 as the fight for control continues.",
-  "text_ja": "インテグラルは2026年11月9日、かどや製油のTOB価格を1株2,655円に引き上げ、対抗するアドバンテッジパートナーズの2,654円案を1円上回った。買収合戦は続いている。",
+  "as_of": "2026-11-14",
+  "text": "Takeover battle continues: Integral extended its Kadoya Seiyu tender deadline to Nov 26, 2026, after lifting its price to ¥2,655/share on Nov 9, ¥1 above rival Advantage Partners' ¥2,654 bid.",
+  "text_ja": "インテグラルは11月9日、かどや製油TOB価格を2,655円に引き上げ、アドバンテッジの2,654円を1円上回った。TOB期限は11月26日まで再延長された。",
   "refs": [
+   {
+    "list": "since",
+    "url": "https://www.nikkei.com/article/DGXZQOUC11CBE0R11C26A1000000/"
+   },
    {
     "list": "since",
     "url": "https://www.nikkei.com/article/DGXZQOUC09A100Z01C26A1000000/"
@@ -51,6 +55,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-11",
+   "headline": "Integral extends Kadoya Seiyu tender offer deadline again, to Nov 26, as bidding war continues",
+   "summary": "Kadoya Seiyu disclosed that Integral's ITG-G Holdings tender offer, previously extended to November 13, was extended a second time to November 26, 2026 (47 business days in total) following a corrected offer-document filing, as the takeover contest with Advantage Partners continued.",
+   "summary_ja": "かどや製油は、インテグラル傘下ITG-GホールディングスによるTOB期間が訂正届出書の提出に伴い再延長され、11月13日までだった期限が2026年11月26日まで(通算47営業日)に延びたと開示した。アドバンテッジパートナーズとの買収合戦は続いている。",
+   "source": "Nikkei",
+   "url": "https://www.nikkei.com/article/DGXZQOUC11CBE0R11C26A1000000/"
+  },
   {
    "date": "2026-11-09",
    "headline": "Integral raises Kadoya Seiyu tender offer to ¥2,655/share, topping rival Advantage Partners' ¥2,654 bid by ¥1",

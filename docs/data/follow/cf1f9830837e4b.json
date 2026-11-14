@@ -4,15 +4,19 @@
  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR2RfcVhlZnNuRXhTQ1YzZC12dVFvSTNlWXRFb2RGSllqdkxQamh5TVlrcFhSVnBIbVBwZWtRWHRZMmhub1BIc2wtUTBKREx3RUU3NkNhMzlKQmpTSFNxZzktSGRCcW5VMFpPUVdzYUM?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-10T19:10:00Z",
- "checked_at": "2026-11-13T07:50:31Z",
+ "checked_at": "2026-11-14T00:48:03Z",
  "status": {
-  "as_of": "2026-11-12",
-  "text": "OpenAI's Nov 10 acquisition of Odessia, terms undisclosed, folded in founder Francis Davidson; the standalone travel app has since closed to new users, with existing-booking customers redirected to email support.",
-  "text_ja": "OpenAIは11月10日、オデッシアを条件非公開で買収、創業者デビッドソン氏も合流。単体アプリは新規受付を停止し、既存利用者はメール窓口へ案内されている。",
+  "as_of": "2026-11-14",
+  "text": "OpenAI acquired AI travel startup Odessia on Nov 10, 2026, terms undisclosed; OpenAI itself still has not publicly confirmed the deal, which founder Francis Davidson announced, and Odessia's standalone app has closed to new users.",
+  "text_ja": "OpenAIは11月10日、旅行AIスタートアップのOdessiaを条件非公開で買収。自社では未確認で、発表は創業者デビッドソン氏による。単体アプリは新規受付を停止。",
   "refs": [
    {
     "list": "since",
     "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai/"
+   },
+   {
+    "list": "since",
+    "url": "https://betakit.com/?p=412064"
    },
    {
     "list": "since",
@@ -55,6 +59,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-10",
+   "headline": "OpenAI itself has not confirmed the Odessia acquisition; BetaKit and TechCrunch say it did not respond to requests for comment",
+   "summary": "BetaKit and TechCrunch reported that OpenAI had not announced or confirmed the Odessia acquisition when asked, with news of the deal coming only from founder Francis Davidson's social-media post and a notice on Odessia's own website.",
+   "summary_ja": "BetaKitとTechCrunchの報道によると、OpenAIはOdessia買収を自ら発表しておらず、取材にも応じていない。買収の公表は創業者デビッドソン氏のSNS投稿とOdessia自身のサイト告知にとどまっている。",
+   "source": "BetaKit",
+   "url": "https://betakit.com/?p=412064"
+  },
   {
    "date": "2026-11-10",
    "headline": "Odessia's standalone travel app closes to new users after OpenAI deal, existing bookings routed to support",

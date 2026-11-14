@@ -4,11 +4,11 @@
  "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Z0l0NUVOS3EwenkxTGhOUVhDeEFCMlVoME5Vem9iNVdTOXVLdGd4UnNiOXBVNXU3NjhDMktRTU1DSmNzbkFnUUkwa3BxREFob1d5OVBXY1BhT1NrSmptZmhiRdIBaEFVX3lxTE1NVjBaT3NpTEhuR3VLa1lsT1N4SjFYbWpxNnh2ODRWQ0FadXlVRDJxN2xneS1pYlV5Vnd1MTlzOTR5SWFubHl6NGRpcEtOeVYySlhZVDhuM1ktVk8yZng5aDAxOHhSX0Vt?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-03T01:15:28Z",
- "checked_at": "2026-11-13T07:50:31Z",
+ "checked_at": "2026-11-14T00:48:03Z",
  "status": {
-  "as_of": "2026-11-11",
-  "text": "Marvell and Lumentum agreed an all-stock, $115bn merger on Nov 2, 2026; by Nov 10, merger-arbitrage specialists put the deal's closing probability at around 50% as Marvell's stock slide widened the spread, Bloomberg Law reported.",
-  "text_ja": "マーベルとルメンタムは11月2日、全株式交換で企業価値1150億ドルの統合に合意。マーベル株安でスプレッド拡大、10日時点で成立確率は五分五分程度とブルームバーグ・ローが報じた。",
+  "as_of": "2026-11-14",
+  "text": "Marvell-Lumentum's $115bn all-stock merger has roughly 50% odds of closing, merger-arbitrage specialists said Nov 10, 2026, as Marvell's stock slide widens the spread; CEO Matt Murphy addressed the volatility in a staff memo.",
+  "text_ja": "マーベル・ルメンタムの1150億ドル統合は、マーベル株安でスプレッド拡大。専門家は11月10日時点で成立確率を五分五分とみる。マーフィーCEOは同日、社内向けに説明メモを送った。",
   "refs": [
    {
     "list": "since",
@@ -16,7 +16,7 @@
    },
    {
     "list": "since",
-    "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526453776/d180680d425.htm"
+    "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526455400/d180177d425.htm"
    }
   ]
  },
@@ -63,6 +63,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-10",
+   "headline": "Marvell CEO Matt Murphy sends internal memo addressing stock volatility after Lumentum deal",
+   "summary": "In an internal memo to Marvell employees disclosed in an SEC Form 425 filing, CEO Matt Murphy said the company could control its execution but not its share price, attributing the stock's recent swings to investor questions about the pace of AI infrastructure spending rather than to the Lumentum deal's merits.",
+   "summary_ja": "マーベルがSECにForm 425として開示した社内向けメモで、マット・マーフィーCEOは株価そのものは制御できないが実行力は制御できると述べ、最近の株価変動の背景はルメンタム買収の是非ではなくAI基盤投資の持続性に対する投資家の疑問にあるとした。",
+   "source": "Marvell Technology (SEC Form 425 filing)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526455400/d180177d425.htm"
+  },
   {
    "date": "2026-11-10",
    "headline": "Merger-arbitrage specialists put Marvell-Lumentum deal odds near 50%, Bloomberg Law reports",
