@@ -4,19 +4,19 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-13T07:51:00Z",
+ "checked_at": "2026-11-14T00:48:28Z",
  "status": {
-  "as_of": "2026-11-12",
-  "text": "MOF disclosed Nov 9 that it spent a record ¥7.98trn buying yen on July 30, above the April 30 record. Yen traded near 157-159/dollar through early November; Katayama's last FX warning was Nov 2.",
-  "text_ja": "財務省は11月9日、7月30日の円買い介入が過去最大の7入88〉9756億円だったと公表。円は11月上旬157～159円帯で推移。片山財務相の最新の為替警戒発言は11月2日。",
+  "as_of": "2026-11-14",
+  "text": "MOF disclosed Nov 9 a record ¥7.98trn yen-buying intervention on July 30. Yen neared 160/dollar again on Nov 12, prompting Vice Finance Minister Mimura's warning that moves were 'too rapid.'",
+  "text_ja": "財務省は11月9日、7月30日の円買い介入が過去最大の7兆9756億円だったと公表。円は11月12日に再び160円に迫り、三村財務官は相場の動きが急速すぎると警告した。",
   "refs": [
    {
     "list": "since",
-    "url": "https://www.newsweekjapan.jp/articles/-/339419"
+    "url": "https://investinglive.com/forex/japan-s-mimura-warns-yen-moves-are-too-rapid-as-usd-jpy-pushes-back-toward-160/"
    },
    {
     "list": "since",
-    "url": "https://investinglive.com/forex/japan-s-katayama-says-us-japan-fx-statement-alive-warns-on-disorderly-yen-moves/"
+    "url": "https://www.newsweekjapan.jp/articles/-/339419"
    }
   ]
  },
@@ -87,6 +87,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-12",
+   "headline": "Japan's vice finance minister Mimura warns of 'too rapid' yen moves as dollar nears ¥160 again",
+   "summary": "Japan's Vice Finance Minister for International Affairs Atsushi Mimura said on Nov 12 that recent yen moves were too rapid and that markets should not forget the summer's intervention, as USD/JPY pushed back toward 160, a level it had not tested since early September.",
+   "summary_ja": "日本の三村財務官は11月12日、円相場の動きが行き過ぎだと警告し、夏の協調介入を市場は忘れるべきではないと述べた。ドル円は9月初旬以来初めて160円に迫った。",
+   "source": "InvestingLive",
+   "url": "https://investinglive.com/forex/japan-s-mimura-warns-yen-moves-are-too-rapid-as-usd-jpy-pushes-back-toward-160/"
+  },
   {
    "date": "2026-11-09",
    "headline": "Japan's MOF discloses record ¥7.98trn single-day yen-buying intervention on July 30",

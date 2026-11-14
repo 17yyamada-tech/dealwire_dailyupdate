@@ -4,9 +4,9 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T10:00:23Z",
- "checked_at": "2026-11-13T07:51:00Z",
+ "checked_at": "2026-11-14T00:48:28Z",
  "status": {
-  "as_of": "2026-10-29",
+  "as_of": "2026-11-14",
   "text": "Agreed, pending close: on Oct 14 Payward signed to buy Lithuania-licensed Saldo Bank, its first EU banking license, with Nordic/EU passporting. Price undisclosed; close expected in 2027, subject to regulatory approval.",
   "text_ja": "Paywardは10月14日、リトアニア免許のSaldo Bank買収契約に署名した。初のEU銀行免許でパスポート権も得る。価格非公表、27年中完了を規制当局承認を前提に見込む。",
   "refs": [
@@ -59,6 +59,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-13",
+   "headline": "Payward posts Q3 2026 adjusted EBITDA of $60 million, down 67% year-on-year, names AI a fifth business pillar",
+   "summary": "Payward, Kraken's parent, reported Q3 2026 adjusted EBITDA of $60 million, down 67% from a year earlier but up 163% from Q2, as platform trading volume fell about 30% to $353 billion; the company described AI as a fifth business pillar alongside trading, banking, asset management and Payward Services.",
+   "summary_ja": "クラーケン親会社Paywardは2026年第3四半期の調整後EBITDAが6000万ドルだったと発表した。前年同期比では67%減だが前四半期比では163%増となり、取扱高は約30%減の3530億ドルだった。同社はトレーディング、銀行業務、資産運用、Payward Servicesに加え、AIを第5の事業の柱に位置付けた。",
+   "source": "Invezz",
+   "url": "https://invezz.com/news/2026/11/13/kraken-payward-q3-2026-results/"
+  },
   {
    "date": "2026-10-26",
    "headline": "Payward plans CFTC-regulated perpetual futures market on Hyperliquid via subsidiary Bitnomial",
