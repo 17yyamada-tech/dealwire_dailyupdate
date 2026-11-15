@@ -1,0 +1,63 @@
+{
+  "edition": "2026-11-15-0830",
+  "edition_label": "15 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T00:34:46Z",
+  "reading_minutes": 1,
+  "items": [
+    {
+      "headline": "Japan's Chuo Group to draw M&A attention as four units in rehabilitation ready stakeholder briefings",
+      "summary": "Four companies within Japan's Chuo Group that are in court-led rehabilitation proceedings have completed submission of investigation reports and are preparing briefings for creditors and other stakeholders. A Japanese M&A trade report says market attention is expected to turn to the group's for-sale businesses next week.",
+      "why_it_matters": "A completed investigation report is a formal step in Japan's civil rehabilitation process that typically precedes a sponsor search or asset sale, so buy-side interest in the distressed group's assets should sharpen once terms become clearer.",
+      "summary_ja": "再生手続き中の中央グループ傘下4社が調査報告書の提出を完了し、債権者など関係者向けの説明会準備に入った。日本のM&A専門メディアの報道によれば、来週には同グループの売却対象事業にM&A市場の注目が集まる見通しだ。",
+      "why_it_matters_ja": "調査報告書の提出完了は日本の民事再生手続きにおいてスポンサー選定や資産売却プロセスに先行する節目であり、条件が明確になるにつれディストレスト資産への買い手側の関心が強まるとみられる。",
+      "status": "new",
+      "prev": null,
+      "key": "chuo-group-rehabilitation-asset-sale",
+      "ids": [
+        "21b1720286603d"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqZXdNYjdvdGFZc3BFdDJQV1hnM0VtMGxkNlZFRTNDZUVzWlhYSmVUSDczRXJqSU81ck9sMEc3V1ZmWEJQcklySFE5WUIwNG8?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Advanta agreed in August to acquire Egypt's Misr Hytech from Helios Investment Partners",
+      "summary": "Advanta entered into an agreement on August 15, 2026 to acquire Hytech Egypt USA LLC, the holding company of Misr Hytech Seed International, from sponsor Helios Investment Partners. The deal is framed as part of a push to strengthen Advanta's market presence in Africa.",
+      "why_it_matters": "The transaction is a sponsor exit for Helios Investment Partners from an Egyptian seed business and extends Advanta's footprint in African agricultural inputs, a sector drawing growing strategic interest amid food-security concerns.",
+      "summary_ja": "アドヴァンタ（Advanta）は8月15日、ヘリオス・インベストメント・パートナーズ（Helios Investment Partners）からエジプトのミスル・ハイテック種子事業（Misr Hytech Seed International）の持株会社ハイテック・エジプトUSAを買収する契約を締結した。本件はアフリカでの市場プレゼンス強化策の一環と位置付けられている。",
+      "why_it_matters_ja": "本件はヘリオスにとってエジプトの種子事業からのエグジットであり、アドヴァンタはアフリカの農業資材事業における足場を広げる。食料安全保障への関心の高まりを背景に、同分野への戦略的関心は強まっている。",
+      "status": "new",
+      "prev": null,
+      "key": "advanta-misr-hytech-acquisition",
+      "ids": [
+        "55ac63aaa26f98"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/advanta-to-strengthen-market-presence-in-africa-with-strategic-acquisition-of-hytech-302939525.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
