@@ -1,0 +1,70 @@
+{
+  "edition": "2026-11-15-1230",
+  "edition_label": "15 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T04:36:38Z",
+  "reading_minutes": 1,
+  "items": [
+    {
+      "headline": "Nvidia approaches Arm's Rene Haas for CEO race as Musk warns of lost deals without Huang",
+      "summary": "Nvidia has approached Arm chief executive Rene Haas as a possible successor to Jensen Huang, reports say, as some Nvidia employees push for Huang's reinstatement; the company's board says it has not formally engaged any candidate. Elon Musk separately said Nvidia will lose \"critical\" deals without Huang at the helm.",
+      "why_it_matters": "Floating a sitting CEO from a key supplier widens the succession contest beyond the internal names already floated, while the board's denial of formal talks shows the process remains unsettled — a prolonged vacancy raises uncertainty for Nvidia's counterparties across the AI supply chain.",
+      "summary_ja": "報道によれば、エヌビディアは後継CEO候補としてアームのレネ・ハース最高経営責任者に接触した。同社の一部社員がフアン氏の復帰を求める中での動きで、取締役会はいずれの候補者とも正式な協議は行っていないとしている。イーロン・マスク氏は別途、フアン氏なしではエヌビディアが「重要な」取引を失うと述べた。",
+      "why_it_matters_ja": "主要サプライヤーの現職CEOを後継候補として浮上させたことで、後継選びの範囲は既に名前が挙がっていた社内候補を超えて広がった。取締役会が正式協議を否定していることは選定プロセスが依然固まっていないことを示し、CEO空席の長期化はAIサプライチェーン全体の取引先にとって不確実性を高める。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-12-1530",
+        "index": 0
+      },
+      "key": "nvidia-jensen-huang-ouster-report",
+      "ids": [
+        "1c667d37e65400",
+        "f9963400ef9778"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/global/nvidia-approaches-arm-ceo-rene-haas-employees-seek-huangs-return-reports-say"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/musk-says-nvidia-will-lose-critical-deals-without-jensen-huang-6551936"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "ServiceNow to cut jobs in US, UK and India while booking $211m to retain acquired talent",
+      "summary": "ServiceNow is cutting jobs in the US, UK and India while setting aside $211m to retain staff who joined the company through acquisitions.",
+      "why_it_matters": "Ring-fencing retention money for acquired talent while cutting headcount elsewhere signals ServiceNow still prizes the capabilities it has bought even as it tightens its broader cost base, a split increasingly common among enterprise software acquirers integrating AI-related deals.",
+      "summary_ja": "サーヴィスナウは米国・英国・インドで人員削減を進める一方、買収によって加わった人材の確保に2.11億ドルを計上した。",
+      "why_it_matters_ja": "他部門で人員削減を進めながら買収人材の確保費用を別枠で確保したことは、サーヴィスナウがAI関連の買収で獲得した人材の価値を引き続き重視している姿勢を示す。コストを絞りつつ買収人材だけ手厚く遇する構図は、エンタープライズソフトウェア各社によるAI買収の統合でも共通して見られる。",
+      "status": "new",
+      "prev": null,
+      "key": "servicenow-layoffs-acquisition-retention",
+      "ids": [
+        "c7bd8731cf323c"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlOEt5MUh4QWx1U1MybjhzSGNBUUJyQ3RmQTZjZkh6M000SW1hWF96MEVMMExxTzI4Sks3dnRPczhqSWJlN2JxUW5aVVM4dDhsLTVBeGpacGx5czhrZlNLcHV6TTJ6TzVuWTY2cWM1Q3B2N2Nn?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
