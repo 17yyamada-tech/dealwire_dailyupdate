@@ -4,12 +4,16 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/alphabet-sets-initial-price-guidance-hong-kong-singapore-bond-sales-term-sheet-shows",
  "source": "The Business Times",
  "published": "2026-11-12T05:10:05Z",
- "checked_at": "2026-11-15T04:51:00Z",
+ "checked_at": "2026-11-15T09:15:00Z",
  "status": {
-  "as_of": "2026-11-13",
-  "text": "Pricing in progress: Alphabet opened debut HK dollar and Singapore dollar bonds Nov 12 with initial guidance up to 5.50%/4.00%; early orders near $5bn (HK$39bn), settlement set for Nov 19.",
-  "text_ja": "アルファベットは11月12日、香港ドルとシンガポールドル建て債券の発行を開始した。初期ガイダンスは最大5.50%、早期注文は約50億ドル相当、決済は11月19日の予定。",
+  "as_of": "2026-11-15",
+  "text": "Priced: Alphabet's debut HK dollar/Singapore dollar bonds raised $3.8bn on Nov 12 (upsized from $3bn) after $7bn+ orders; final yields tightened 20-30bp from guidance; settlement due Nov 19.",
+  "text_ja": "アルファベットは11月12日、香港ドル・シンガポールドル債で38億ドルを調達、目標30億ドルから増額。注文70億ドル超、利回りはガイダンスから低下。決済は11月19日予定。",
   "refs": [
+   {
+    "list": "since",
+    "url": "https://finance.biggo.com/news/951230a7-5814-469b-9792-c2e66ba60b8f"
+   },
    {
     "list": "since",
     "url": "https://www.investing.com/news/stock-market-news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-5020243"
@@ -67,6 +71,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-12",
+   "headline": "Alphabet prices $3.8bn debut HK/SGD bonds after $7bn+ order book, upsized from $3bn target",
+   "summary": "Alphabet priced its debut Hong Kong-dollar and Singapore-dollar bonds on Nov 12, raising a combined roughly $3.8 billion after orders topped $7 billion, allowing it to upsize from an initial roughly $3 billion target. Final yields tightened from initial guidance to about 4.35%, 4.70% and 5.20% on the HKD tranches and 2.50%, 3.00%, 3.40% and 3.80% on the SGD tranches, with settlement due Nov 19.",
+   "summary_ja": "アルファベットは11月12日、初の香港ドル・シンガポールドル建て債券の価格を決定し、注文総額70億ドル超を受けて目標の約30億ドルから増額し、合計約38億ドルを調達した。最終利回りは初期ガイダンスから低下し、香港ドル債が約4.35%・4.70%・5.20%、シンガポールドル債が2.50%・3.00%・3.40%・3.80%となり、決済は11月19日の予定。",
+   "source": "Bloomberg (via BigGo Finance)",
+   "url": "https://finance.biggo.com/news/951230a7-5814-469b-9792-c2e66ba60b8f"
+  },
   {
    "date": "2026-11-12",
    "headline": "Alphabet opens debut Hong Kong and Singapore dollar bonds, early orders near $5bn",
