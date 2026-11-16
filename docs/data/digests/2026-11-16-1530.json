@@ -1,0 +1,227 @@
+{
+  "edition": "2026-11-16-1530",
+  "edition_label": "16 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T07:39:59Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "Sun Pharma seeks $4bn syndicated loan to refinance Organon acquisition",
+      "summary": "Sun Pharma is seeking a $4bn syndicated loan to refinance debt taken on for its acquisition of Organon. The size of the financing effort underscores the scale of the earlier deal.",
+      "why_it_matters": "A loan of this size signals how much leverage Sun Pharma took on for the Organon purchase, and whether it can refinance on reasonable terms will test lender appetite for large emerging-market pharma credits.",
+      "summary_ja": "サン・ファーマがオルガノン買収に伴う債務のリファイナンスのため、40億ドル規模の協調融資を模索している。この資金調達の規模が、先の買収の大きさを物語る。",
+      "why_it_matters_ja": "この規模の融資は、サン・ファーマがオルガノン買収でどれだけのレバレッジを負ったかを示すものであり、好条件でのリファイナンスが成立するかは、大型新興国製薬クレジットに対する貸し手の意欲を測る試金石となる。",
+      "status": "new",
+      "prev": null,
+      "key": "sun-pharma-organon-refinancing",
+      "ids": [
+        "4ee235c5583106"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00b1lzclplRFZqN19JeVN3aUhKZ1dJcV9PMVkwNHMySWUwWl9UUmcxWEtxUlFNT3M3emVUcmlTQTZQME5hR0U4VG9qM3Y3OHVNYnh3UXhoMHZ6M0xWN3M4RXRrWmN2bTdSVDdaQUVBTkFaUE1LWnVR?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "J&J reportedly in talks to buy ophthalmic-drug developer Ollin for about $3.4bn",
+      "summary": "Johnson & Johnson is reported to be in talks to acquire Ollin, a developer of ophthalmic therapies, in a deal valued at roughly $3.4bn. The reported interest centres on Ollin's investigational treatment OLN324.",
+      "why_it_matters": "A deal would hand J&J a late-stage ophthalmology candidate at a time when large pharma groups are competing hard for differentiated eye-disease pipelines.",
+      "summary_ja": "ジョンソン・エンド・ジョンソンが眼科領域の治療薬開発会社Ollinを約34億ドルで買収する交渉に入ったと報じられた。関心の焦点はOllinの開発中の薬剤OLN324にあるという。",
+      "why_it_matters_ja": "実現すれば、眼科領域の差別化された開発パイプラインを巡って大手製薬各社が競り合う中、J&Jは後期段階の眼科候補薬を手に入れることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "jnj-ollin-acquisition-talks",
+      "ids": [
+        "b3b0637234b4b5"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LY19UR3RjZzVkVWd6amgxaFljejlwb3A5cHBnb0Q0bzhwa3ZzdWMySU5mek5XcmZoTUdOTW1BX1o2UG5Jd2Qtc0lxTGcwRlFWSmhfVnJjU2dPYUo0aUlFcXc4eURnTFVVUDdGVXI1MTNydUJ5?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Stripe completes OpenRouter acquisition to sharpen AI usage cost and revenue optimisation",
+      "summary": "Stripe has completed its acquisition of OpenRouter, a platform for routing AI model traffic. The deal is framed around helping businesses optimise the revenue and costs tied to running AI applications.",
+      "why_it_matters": "The purchase gives Stripe a direct foothold in AI infrastructure just as enterprises look for ways to control ballooning model-usage costs, extending its push beyond payments into the AI stack.",
+      "summary_ja": "ストライプがAIモデルのルーティング基盤であるOpenRouterの買収を完了した。AIアプリケーション運用に伴う収益とコストの最適化を支援することが狙いとされる。",
+      "why_it_matters_ja": "決済事業を超えてAIスタックへの進出を進めるストライプにとって、AI利用コストの肥大化に悩む企業向けの足掛かりを得る動きとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "stripe-openrouter-acquisition-completion",
+      "ids": [
+        "8449379c43734a"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mOHlpYV9PWXR6Ym44dzBCVDRZdDNuUlZUdHdJcDZQdmlIcVZGbDhPdm5BNXNvTW9yckNydnhmbWdQUWJFOVJyOWltam1YcF85RTllV21LOHJzVmJsRG5xMEJhZlM3T011Mnc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Nvidia CEO search draws criticism as Bessent calls for a 'shakeup', faults Commerce Department",
+      "summary": "US Treasury Secretary Bessent has publicly criticised Nvidia's handling of its CEO succession process, calling for a 'shakeup'. He has also faulted the Commerce Department for failing to adequately enforce US export controls.",
+      "why_it_matters": "A sitting Treasury Secretary weighing in publicly adds political pressure to Nvidia's board at a sensitive moment in the succession process, and ties the CEO question directly to the unresolved debate over chip export controls.",
+      "summary_ja": "米財務長官ベセントがエヌビディアのCEO選定プロセスへの対応を公然と批判し、「刷新」を求めた。さらに、米国の輸出管理の運用が不十分だとして商務省も批判している。",
+      "why_it_matters_ja": "現職の財務長官が公然と関与することは、後継者選びという機微な局面にあるエヌビディア取締会への政治的圧力を強め、CEO人事の問題を半導体輸出管理を巡る未解決の論争と直接結び付けるものだ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-15-1230",
+        "index": 0
+      },
+      "key": "nvidia-jensen-huang-ouster-report",
+      "ids": [
+        "dd84c5d5fd05e7"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/nvidias-ceo-search-draws-fire-bessents-shakeup-call"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "Korea's VIG Partners completes Yulkok acquisition at ₩450bn (~$320m) enterprise value",
+      "summary": "Korean private equity firm VIG has completed its acquisition of Yulkok, with the deal valuing the company at an enterprise value of about ₩450bn, or roughly $320m.",
+      "why_it_matters": "The deal adds to VIG's run of completed buyouts in Korea's mid-market and signals continued appetite among domestic PE sponsors even as broader dealmaking stays cautious.",
+      "summary_ja": "韓国のPEファンド、VIGパートナーズがYULKOKの買収を完了した。企業価値は約4500億ウォン（約3.2億ドル）相当とされる。",
+      "why_it_matters_ja": "この買収完了は韓国ミッドマーケットにおけるVIGの一連のバイアウトの積み重ねとなり、慎重なディール環境が続く中でも国内PEスポンサーの投資意欲が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "vig-yulkok-acquisition-completion",
+      "ids": [
+        "f37f128491f578"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQemdZWEJpMUt2YmhJcjcxODN5XzRTVnhfN0V0Q25sMkwtZVA2clhUbzlUUTJuZXpFZ3RIQjExX1Z5VmxqREZpMzFCc2g1c1RnUUE0QnRSRlNvdE8xNTFfaGZrUDkwaWQ0T2pHOEtCNjhidTJ4aGJsTEpsWDJxZHl1c9IBlAFBVV95cUxPVjFLdW5OTzlSemcta2VEUEpmRjhkMEw5M2g2Qlp5YzM2RU9GMDJYYzVxa21IUkFUZjFDQjZMQVJKOUg2QmVmdm9hMWFTZ3loYWZCbTFZWVM2cF9jSEgxUlFzWnBUdHMyOHNHX1dsdHZNbUwzSFNaY0xjaEJxU2pQeHoyOFhBV2lXMjJiYURrTFNvcGlV?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Malaysia's Kenanga, China's Huatai partner on cross-border capital-market deals",
+      "summary": "Malaysian brokerage Kenanga has formed a partnership with China's Huatai Securities to pursue cross-border capital-market deals between the two markets.",
+      "why_it_matters": "The tie-up gives Kenanga a channel into mainland Chinese capital and deal flow, part of a broader pattern of Southeast Asian brokerages seeking Chinese partners as cross-border dealmaking activity picks up.",
+      "summary_ja": "マレーシアの証券会社ケナンガが、中国の華泰証券（Huatai）と提携し、両市場間のクロスボーダー資本市場取引に取り組む。",
+      "why_it_matters_ja": "この提携により、ケナンガは中国本土の資金やディールフローへの経路を得る。クロスボーダーのディール活動が活発化する中、東南アジアの証券会社が中国本土の提携先を求める流れの一環と言える。",
+      "status": "new",
+      "prev": null,
+      "key": "kenanga-huatai-cross-border-partnership",
+      "ids": [
+        "1e8c695c4ba473"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5KblNSd3hoTE5JVjZZWmNWLXl4aHZOaHVISzMySzFtQ2Z5aW5LRGpOZ2w5RjdRSEdyam1zeUphb3JrY1l5cXlLejF6aE1zMExUVjFsaGpxSy1Vak9iYmJURG9IVDRud19va01yTWZROWRKeHN2c2NEVQ?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SEA",
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Japan's Pigeon to acquire Eleeo Brands LLC and make it a subsidiary",
+      "summary": "Pigeon has disclosed plans to acquire an equity stake in US-based Eleeo Brands LLC and make it a subsidiary, triggering a related change in its specified-subsidiary status under Tokyo Stock Exchange disclosure rules.",
+      "why_it_matters": "The move adds a new overseas subsidiary to Pigeon's portfolio, continuing the group's pattern of bolt-on acquisitions, though no financial terms were disclosed.",
+      "summary_ja": "ピジョンがEleeo Brands LLCの株式を取得して子会社化する方針を開示した。これに伴い、東京証券取引所の開示規則上の特定子会社の異動も生じる。",
+      "why_it_matters_ja": "ピジョンの傘下に新たな海外子会社が加わる動きであり、財務条件は開示されていないものの、同社が続けてきたボルトオン型買収の一環と位置付けられる。",
+      "status": "new",
+      "prev": null,
+      "key": "pigeon-eleeo-brands-acquisition",
+      "ids": [
+        "39c7d8094b9fd6"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mMmU3ZmdWYUR6TEg4NWFwYnFodXdFWEx3bmZjNWpIWVdXUWNmaEQzaExJS19tWTQxckI2SGx0VV92SUpIdG1FM1FYMzdOaXFYYjBMX0J5RGd3emF3eURZTzFueHdqQml0RkE?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Japan's MIRAINI Holdings to raise stake in Indian subsidiary toward full ownership",
+      "summary": "MIRAINI Holdings plans to acquire additional shares in its Indian subsidiary, moving the unit toward effectively full ownership.",
+      "why_it_matters": "The increased stake tightens MIRAINI's control over its India unit, a modest but telling sign of Japanese mid-caps consolidating stakes in overseas subsidiaries rather than divesting them.",
+      "summary_ja": "MIRAINIホールディングスはインド子会社の株式を追加取得し、実質的に完全子会社化する方針だ。",
+      "why_it_matters_ja": "この追加出資により、MIRAINIのインド子会社への支配力が一段と強まる。規模は小さいものの、日本の中堅企業が海外子会社の株式を手放すのではなく買い増して統合を進める傾向を示す一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "miraini-india-subsidiary-stake-increase",
+      "ids": [
+        "45fd0a4434739e"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQkNoODVDaFJhM0I3a2hXWEhXc3ZNUjdnZG84MGZhQjU4MFRRTjRSc2x0VkxDX1pGblZvVWlVNGhyQ2Z0N3Z0eE54Sk1BTUs5LW41bHljZHFiRGQxYmdFMWFxQ0x1dWxYVm5qOW9GblNLNVN1NFJEc19IejJGVUEwMUNWeVR5cjg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
