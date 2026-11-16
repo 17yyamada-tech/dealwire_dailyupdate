@@ -1,0 +1,58 @@
+{
+ "id": "ad8292a433a780",
+ "title": "日韓M＆Aが急増中、14年ぶり10件超え｜韓国企業が岡三と東海東京の傘下証券を買収へ",
+ "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TZEhESzdKX2cyRUdZUGlTM3l0eHU1dHFCTjRjQm1rRUR2R2gyV3FnR1JPM252TFFYVmFxUVk5anlWSmJfMmRvN3J4OFNTSFlVMUQ3MnVmX3lueF9iSTdUeXZKdlNNeDRaX0dJa29R?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-11-15T21:30:00Z",
+ "checked_at": "2026-11-16T04:52:04Z",
+ "status": {
+  "as_of": "2026-11-16",
+  "text": "Trend report (Nov 15): Korean buyers struck Japanese brokerage deals in Oct 2026 — Mirae Asset/Sanko Securities ($35.6m) and Toss/CHEER Securities (~¥4bn). No reported developments since.",
+  "text_ja": "11月15日時点、韓国勢が10月に岡三傘下サンコー証券（3560万ドル）と東海東京傘下CHEER証券（約40億円）を買収。新規報道なし。",
+  "refs": [
+   {
+    "list": "background",
+    "url": "https://www.koreaherald.com/article/10919255"
+   },
+   {
+    "list": "background",
+    "url": "https://maonline.jp/news/20261030a"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-10-30",
+   "headline": "Tokai Tokyo agrees to sell mobile brokerage CHEER Securities to Korea's Viva Republica (Toss) for about ¥4 billion",
+   "summary": "Tokai Tokyo Financial Holdings decided to transfer all shares of its smartphone-only brokerage CHEER Securities to Toss Global Pte Ltd, the Singapore subsidiary of Viva Republica (Toss); Nikkei put the price at roughly ¥4 billion, the companies did not disclose the figure, and completion is targeted within fiscal 2026.",
+   "summary_ja": "東海東京フィナンシャル・ホールディングスは、スマホ専業証券CHEER証券の全株式を、韓国Viva Republica（トス）傘下のシンガポール法人Toss Globalに譲渡する方針を決定した。日経は譲渡額を約40億円と報道したが両社は公式には未公表で、2026年度中の完了を目指す。",
+   "source": "M&A Online (maonline.jp)",
+   "url": "https://maonline.jp/news/20261030a"
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Mirae Asset board approves ~$35.6m deal to buy Okasan unit Sanko Securities",
+   "summary": "Mirae Asset Securities' board approved acquiring 100% of Sanko Securities, a proprietary-trading brokerage owned by Okasan Securities Group, through its US subsidiary Mirae Asset Securities Holdings for an estimated W47.6 billion (about $35.6 million), marking Mirae's return to the Japanese market.",
+   "summary_ja": "未来アセット証券の取締役会は、岡三証券グループ傘下で自己売買を手がけるサンコー証券の全株式を、米国子会社Mirae Asset Securities Holdings経由で取得する計画を承認した。買収額は約476億ウォン（約3560万ドル）とされ、同社の日本再進出となる。",
+   "source": "The Korea Herald",
+   "url": "https://www.koreaherald.com/article/10919255"
+  },
+  {
+   "date": "2026-10-12",
+   "headline": "Hanwha Investment & Securities signs deal for stake in GI Capital Management's Japan securities arm",
+   "summary": "Hanwha Investment & Securities signed a share purchase agreement to acquire shares in the securities unit of Japanese financial firm GI Capital Management, giving Hanwha a local foothold in Japan alongside its existing operations in Vietnam, Singapore and Indonesia; it was the third Korean brokerage deal targeting a Japanese firm announced that month.",
+   "summary_ja": "ハンファ投資証券は、日本のGI Capital Management証券部門の株式を取得する株式譲渡契約を締結した。ベトナム、シンガポール、インドネシアに続き日本でも拠点を確保する。韓国勢による日本証券会社買収案件としては同月3件目となる。",
+   "source": "Herald Business",
+   "url": "https://mbiz.heraldcorp.com/article/10899265"
+  },
+  {
+   "date": "2026-08-27",
+   "headline": "Mirae Asset confirms it is reviewing a Japanese brokerage acquisition, separately from Toss reports",
+   "summary": "Mirae Asset Securities said it was independently reviewing the acquisition of a Japanese brokerage after reports that it and Toss Securities were both preparing bids for Japanese brokers; no target company or terms were disclosed at the time.",
+   "summary_ja": "未来アセット証券は、トス証券とともに日本の証券会社買収を検討しているとの報道を受け、トスとは別に自社単独で日本証券会社買収を独自に検討していると説明した。対象企業や条件は明らかにしていない。",
+   "source": "fnnews.com",
+   "url": "https://en.fnnews.com/news/202608271356029029"
+  }
+ ],
+ "since": []
+}
