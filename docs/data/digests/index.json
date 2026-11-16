@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-16-0830",
+      "label": "16 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-16T00:33:00Z",
+      "items": 8,
+      "headlines": [
+        "New World Development formally proposes $3.2bn rights issue",
+        "Diamondback Energy nears roughly $5bn deal for Double Eagle V in the Permian Basin",
+        "Samsung Biologics' public offering draws record 11.4tn-won in subscription deposits"
+      ]
+    },
+    {
       "id": "2026-11-15-1230",
       "label": "15 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-15T04:36:38Z",

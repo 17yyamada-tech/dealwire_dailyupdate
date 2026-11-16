@@ -1,0 +1,251 @@
+{
+  "edition": "2026-11-16-0830",
+  "edition_label": "16 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T00:33:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "New World Development formally proposes $3.2bn rights issue",
+      "summary": "New World Development has formally proposed the $3.2bn rights issue that Bloomberg had reported it was weighing earlier this month, turning the considered option into a firm capital-raising plan.",
+      "why_it_matters": "Moving from a floated idea to a formal proposal removes uncertainty over timing for what would be one of the largest follow-on equity raises by a Hong Kong developer this year. The focus now shifts to how much appetite shareholders have for more property-sector equity as the city's real estate downturn drags on.",
+      "summary_ja": "香港のニューワールド・ディベロップメントが、今月すでに検討中と報じられていた32億ドル規模のライツイシューを正式に提案した。増資計画は検討段階から確定した計画へ移った。",
+      "why_it_matters_ja": "検討段階から正式提案への移行により、今年の香港デベロッパーによる増資としては最大級となる調達の実施時期をめぐる不透明感は後退した。香港の不動産市況の低迷が続く中、焦点は投資家がどこまで応募するかに移る。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-13-1230",
+        "index": 1
+      },
+      "key": "new-world-development-rights-issue",
+      "ids": [
+        "0f7676599e4e4f"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/new-world-development-proposes-32-billion-rights-issue-6553051"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "Diamondback Energy nears roughly $5bn deal for Double Eagle V in the Permian Basin",
+      "summary": "Diamondback Energy is reported to be nearing an agreement to acquire Double Eagle V for about $5bn, a deal aimed at consolidating its position in the Permian Basin.",
+      "why_it_matters": "A deal at this size would be one of the larger US shale-consolidation moves of the year. It adds to a wave of Permian dealmaking as operators chase scale and lower per-barrel costs to defend margins against softer oil prices.",
+      "summary_ja": "ダイヤモンドバック・エナジーは、パーミアン盆地での地盤を固める目的で、ダブルイーグルVを約50億ドルで買収する契約締結に近づいていると報じられている。",
+      "why_it_matters_ja": "この規模の買収が成立すれば、今年の米シェール業界再編の中でも大型案件の一つとなる。オペレーターが規模の確保とバレル当たりコストの低減を競うパーミアン盆地でのM&A加速を一段と示すことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "diamondback-double-eagle-acquisition",
+      "ids": [
+        "11ee1af600c9df",
+        "2230459b87a005"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPTllmbmwxQmhlQ0VMUXFoNFJyNnZiaEhQbExrWUNDQzliSE9hbldxeXZXMHZOMzdPSllkYTVsekVUQ2ZZdEo5Mk5kemNxZmFTc09VdUlLWTRNeGNYQmViblVrLWE1blh6QlB6bjBzcnk?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LRm5MOGRFYkQ2Y0pSMWhxT2hhM0N0RWRzNkJKOXY1OVFQdndlNUxzX0JvNWRGaXE5THlaaXpGM2gzRzkxTmptYVR6M0VsOTNraXowR2dEalFLMzhqM0pUb3YtMmJaQWRXTUxBWkpFMDNXSjlP?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Samsung Biologics' public offering draws record 11.4tn-won in subscription deposits",
+      "summary": "Samsung Biologics' general public tranche of its 2.7 trillion won rights issue drew 11.4 trillion won in subscription deposits, the largest such demand on record. That follows last week's near-full institutional take-up, pushing the financing behind its planned PolyPeptide acquisition further toward completion.",
+      "why_it_matters": "Record retail demand on top of near-full institutional subscription signals that funding risk for the PolyPeptide deal has largely cleared. It also reinforces that investor appetite for large Asian biopharma capital raises remains strong even in a cautious market.",
+      "summary_ja": "三星バイオロジクスが実施している2.7兆ウォン規模の増資のうち、一般公募分の申込証拠金が11.4兆ウォンに達し、過去最大の需要となった。先週報じられた機関投資家向けのほぼ満額の引受けに続くもので、ポリペプチド買収に向けた資金調達は一段と完了に近づいている。",
+      "why_it_matters_ja": "機関投資家向けのほぼ満額の引受けに続き個人投資家からも記録的な需要が集まったことで、ポリペプチド買収の資金面のリスクはほぼ解消したと言える。資本市場が総じて慎重な中でも、アジアの大型バイオ医薬品関連の資金調達に対する投資家の需要の強さを改めて示した。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-11-1230",
+        "index": 4
+      },
+      "key": "samsung-biologics-polypeptide-financing",
+      "ids": [
+        "cee8a1220c1e47",
+        "f3833b2a24679f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaENQMXUyREhpYkF4M1VCRjlDV2FGZUg2Z3dmeUx3OFZrOGdRVEtzT09EZWlKUVI3ZkNuNG5nZHJmN0hXWXIxMXBfdTZsd2xBZEhVN011Tlh4RnlyLXFwbEZ6RDQ2UDBCQXhOa0U0TmV1YlRTdDdld3g0WkxfN3MxMNIBlAFBVV95cUxQVWw4bGZ2dUlPOGxsem8yblVyOVdsZlliYWVGcS01QlcwR19Ec3BUaWFFU1Z5NUdCRFY3dExhRWFfRkg5ajBqU1ZWcjMtRlNhWkQ3ZmJKLVBmWGhMOGRlWllUNEcyaDZ0M1dUS21BRWNxaGk4eUF5d3c3cUFwVG1HenJyVktGNU1NaUlmZ3pRT19oeVps?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4ydV9GcVRJNGhwYzhIeUV1b1VDTi1jNko2SE5faHR6YUdvd3ozR0xMdU1hNFRnbHhpNEI2ak5uWFpEMDYzclFRWEM1ckJuT1JKUmY0bU1HU3YwM3JEVU4zLVVVOUhKRUZBOXl6NHhJS3V1czNR?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Korean buyer moves to acquire Okasan and Tokai Tokyo brokerage units amid Japan-Korea M&A surge",
+      "summary": "A Korean company is moving to acquire brokerage units affiliated with Japan's Okasan Securities and Tokai Tokyo, part of a surge in Japan-Korea M&A that has passed 10 deals for the first time in 14 years.",
+      "why_it_matters": "Cross-border buyers targeting Japanese brokerage subsidiaries point to consolidation pressure building among the country's smaller securities houses. It also underscores Korean acquirers' growing appetite for Japanese financial-services assets as dealmaking ties between the two markets deepen.",
+      "summary_ja": "韓国企業が、日本の岡三証券と東海東京フィナンシャル・ホールディングス系の証券子会社の買収に動いている。日韓間のM&Aは件数が14年ぶりに10件を超えるなど増加している。",
+      "why_it_matters_ja": "海外企業が日本の証券子会社を買収対象とする動きは、国内の中小証券会社に再編圧力がかかっていることを示す。韓国勢による日本の金融関連資産への関心の高まりも浮き立たせ、両市場のM&Aでのつながりが一段と深まっていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "korea-japan-brokerage-acquisition",
+      "ids": [
+        "ad8292a433a780"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TZEhESzdKX2cyRUdZUGlTM3l0eHU1dHFCTjRjQm1rRUR2R2gyV3FnR1JPM252TFFYVmFxUVk5anlWSmJfMmRvN3J4OFNTSFlVMUQ3MnVmX3lueF9iSTdUeXZKdlNNeDRaX0dJa29R?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "US-affiliated AG&P to acquire Cai Mep LNG port in Vietnam within the year",
+      "summary": "AG&P, a US-affiliated energy infrastructure group, is set to acquire Vietnam's Cai Mep LNG import terminal before the end of the year.",
+      "why_it_matters": "Handing a foreign operator control of one of Vietnam's LNG import gateways comes just as the country ramps up gas-fired power capacity. It underscores foreign investors' growing role in Southeast Asia's energy-infrastructure build-out.",
+      "summary_ja": "米系のエネルギーインフラ企業AG&Pが、年内にベトナムのカイメップLNG輸入ターミナルを買収する見通しとなった。",
+      "why_it_matters_ja": "この買収が実現すれば、ベトナムのLNG輸入拠点の一つが外資系事業者の手に入ることになる。同国がガス火力発電の増強を進める中、東南アジアのエネルギーインフラ整備における海外投資家の存在感の高まりを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "agp-cai-mep-lng-acquisition",
+      "ids": [
+        "9e500c75260eae"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1HQTlDVkNSeWNOT1JGbTdMeGJsdHdDaU1xVzhKNzdBb0lSTm5oVzJMOVU5R1o3R3EwTXN3a2NFQ2pVRUY5VXc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Infrastructure",
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Centurion to acquire Kim Chuan Lane industrial property for S$61m via joint venture",
+      "summary": "Centurion is acquiring an industrial property on Kim Chuan Lane for S$61m through a joint venture, with plans to redevelop it into purpose-built worker accommodation.",
+      "why_it_matters": "The deal adds to Centurion's purpose-built worker accommodation pipeline in Singapore. That sub-sector has drawn steady investor interest as demand for migrant-worker housing stays tight.",
+      "summary_ja": "センチュリオンは、ジョイントベンチャーを通じてキムチュアン・レーンの産業用物件をS$6,100万で取得する。今後、外国人労働者向けの専用宿舎として再開発する計画。",
+      "why_it_matters_ja": "この買収により、センチュリオンのシンガポールにおける外国人労働者向け宿舎のパイプラインが拡大する。移民労働者向け住宅需要の高止まりを背景に、同分野は投資家から着実な関心を集めてきた。",
+      "status": "new",
+      "prev": null,
+      "key": "centurion-kim-chuan-lane-acquisition",
+      "ids": [
+        "aee1a789f9018d"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/centurion-acquire-kim-chuan-lane-industrial-property-s61-million-through-joint-venture"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Berry Street acquires AI clinical-assistant startup MyScribe, hires its founder",
+      "summary": "Berry Street, a US metabolic-health and nutrition-therapy company, has acquired AI clinical-assistant startup MyScribe, with MyScribe founder Dr. Wasif Bokhari joining Berry Street as Lead AI Engineer.",
+      "why_it_matters": "The deal shows digital-health companies continuing to buy small AI documentation tools rather than build them in-house. Folding in the founder as a hire is also a reminder that acqui-hire structures remain common for pricing early-stage AI deals when terms are not disclosed.",
+      "summary_ja": "米国の代謝疾患・栄養療法企業ベリー・ストリートが、AI臨床アシスタントのスタートアップ、マイスクライブを買収した。マイスクライブの創業者ワシフ・ボハリ博士はベリー・ストリートにリード・AIエンジニアとして加わる。",
+      "why_it_matters_ja": "この買収は、デジタルヘルス企業が診療記録向けの小規模なAIツールを自社開発するのではなく買収で取り込む動きを続けていることを示す。買収条件が非公開のまま創業者を社員として迎える手法は、初期段階のAI企業の値付けによく使われる手法であることも改めて示している。",
+      "status": "new",
+      "prev": null,
+      "key": "berry-street-myscribe-acquisition",
+      "ids": [
+        "67693b888d463a"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/berry-street-welcomes-myscribe-founder-dr-wasif-bokhari-to-its-ai-team-and-acquires-myscribe-302939778.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Former buyout executives launch Asia-focused secondaries firm Noveon Capital",
+      "summary": "A group of former buyout executives has launched Noveon Capital, a new secondaries firm focused on Asia.",
+      "why_it_matters": "Another dedicated Asia secondaries entrant points to growing demand for liquidity solutions among the region's PE LPs and GPs as fundraising for new primary vehicles stays slow. It adds to a still-developing but increasingly crowded field for Asian secondaries capital.",
+      "summary_ja": "バイアウト業界出身の幹部らが、アジアに特化した新たなセカンダリー専業ファーム、ノビオン・キャピタルを立ち上げた。",
+      "why_it_matters_ja": "アジア専業のセカンダリー運用会社が新たに加わったことは、新規プライマリーファンドの組成が鈍る中、同地域のPEのLPやGPの間で流動性ニーズが高まっていることを示す。アジアのセカンダリー市場はまだ発展途上ながら、競争が一段と激しくなっていることも浮き立たせる。",
+      "status": "new",
+      "prev": null,
+      "key": "noveon-capital-asia-secondaries-launch",
+      "ids": [
+        "03aea934a0c583"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZHF1ZlJhZzF6UEZFWllEcmRCZWYtVktuTmVNOEFkTDJaUE44aFJsT0ducFp3anRqRXF5NzNxUXlKOWw1d2ZiUmU2VTNFX0lKTm9kRllWZ1poM19ZTnJRN2kzN25qQklmcXNFWEVMaXhSME5tYlBjZXFaalFuamdKYWxCbHNhT1dhZnc?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
