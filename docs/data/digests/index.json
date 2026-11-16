@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-16-1230",
+      "label": "16 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-16T04:38:42Z",
+      "items": 7,
+      "headlines": [
+        "China's DCP Capital lines up roughly $2bn deal for meat producer Jinluo",
+        "IDP Education rejects Blackstone's A$833.7m buyout proposal for a third time",
+        "Warburg Pincus agrees to buy 38.51% stake in India's Pricol Autotech"
+      ]
+    },
+    {
       "id": "2026-11-16-0830",
       "label": "16 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-16T00:33:00Z",
