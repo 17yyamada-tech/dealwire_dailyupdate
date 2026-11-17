@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T02:27:55.862Z",
+ "updated": "2026-11-17T01:58:07.089Z",
  "stories": [
   {
    "id": "7b6397f5b86c07",
@@ -63,6 +63,15 @@
    "published": "2026-11-04T21:54:23Z",
    "since": "2026-11-06T06:10:44.956Z",
    "followers": 6
+  },
+  {
+   "id": "c92f1c7a065ded",
+   "title": "Blackstone Reit buys Amazon data centres in US$5 billion deal",
+   "link": "https://www.businesstimes.com.sg/companies-markets/blackstone-reit-buys-amazon-data-centres-us5-billion-deal",
+   "source": "The Business Times",
+   "published": "2026-11-16T13:11:42Z",
+   "since": "2026-11-17T01:39:47.139Z",
+   "followers": 1
   },
   {
    "id": "ad8292a433a780",
