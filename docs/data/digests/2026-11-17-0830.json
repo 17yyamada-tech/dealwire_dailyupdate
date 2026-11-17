@@ -1,0 +1,335 @@
+{
+  "edition": "2026-11-17-0830",
+  "edition_label": "17 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T00:40:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Quebecor proposes $31bn takeover of Telus at 60% premium, stock jumps 29%",
+      "summary": "Quebecor has proposed a strategic combination with Telus, offering shareholders a 60% premium and a substantial stake in the combined company, which Quebecor says has significant growth potential based on its own management track record, while preserving Canadian control of the group. Telus confirmed it received the unsolicited approach, and its shares jumped as much as 29% on the news; one report put the proposal's value at about $31bn and flagged regulatory hurdles ahead.",
+      "why_it_matters": "A hostile-style approach between two of Canada's largest telecom groups would reshape the country's telecom landscape and test Ottawa's rules on domestic control of the sector.",
+      "summary_ja": "ケベコールがテラスに対して戦略的統合を提案した。テラス株主に60%のプレミアムと、統合後の会社における大きな持分を提示し、自社の経営実績を踏まえれば高い成長余地があると説明する一方、カナダ資本による経営維持も掲げている。テラスは未承諾の提案を受けたことを確認し、株価は最大29%急伸した。提案額は約310億ドルとの報道もあり、規制上の壁に直面するとの指摘も出ている。",
+      "why_it_matters_ja": "カナダ最大級の通信会社同士による敵対的ともいえる統合提案は、国内通信業界の構図を一変させる可能性があり、カナダ資本による経営維持を求める規制の行方が試される局面となる。",
+      "status": "new",
+      "prev": null,
+      "key": "quebecor-telus-takeover-proposal",
+      "ids": [
+        "58c1a1d66983d8",
+        "e03a04bc5ca955",
+        "8d3a71595269d4"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/quebecor-inc-announces-proposal-to-telus-for-a-strategic-combination-302939925.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxTWpsWlJpUW1UUW9NeXU3aGk0eS15Uy1nN0lPWnduVWpuWVcyYVFGbGdySF95S3cweDNBTDV1SFVrNXRXdHhkckdNX1NSaEdIX3I2VUlGN2RqZ3V5NkhjVHFjYlFKeVBZdXhqTllTZXYwbGhI?oc=5"
+        },
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/canadas-telecom-map-could-be-redrawn-as-a-takeover-approach-goes-public-302941182.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other",
+        "Public / Macro",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "EU clears UniCredit's takeover of Commerzbank unconditionally",
+      "summary": "The European Commission has unconditionally approved UniCredit's acquisition of Commerzbank, confirming the decision that had been expected by Nov 16. The ruling removes the last major regulatory hurdle flagged for the deal.",
+      "why_it_matters": "Unconditional clearance lets one of Europe's largest cross-border banking mergers proceed without divestitures, a boost to UniCredit's push to build a pan-European banking group and a signal Brussels sees limited competition risk in the tie-up.",
+      "summary_ja": "欧州委員会がウニクレディトによるコメルツバンク買収を無条件で承認した。11月16日までに判断が下される見通しだった通り、懸念されていた規制上の最大の関門が取り除かれた。",
+      "why_it_matters_ja": "条件や資産売却を伴わない無条件承認により、欧州における大型のクロスボーダー銀行統合が前進する。ウニクレディトが目指す欧州規模の銀行グループ構築にとって大きな一歩であり、欧州委員会が今回の統合による競争上の懸念を限定的とみなしたことを示す。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-10-1230",
+        "index": 1
+      },
+      "key": "unicredit-commerzbank-eu-approval",
+      "ids": [
+        "a3926e923d4946",
+        "b31acfd5d38f88"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mMldHdGs4RDBYdlJnYmR5b1ZtZmJkWmtaM2JHUXdvd2xlcHNCV0Q4ejBTeC1oWTl5R2w5SS1EYjRnU0pMNHNmRjBKUE1IanRxd1lwcEdyZW9JTFNVcG1GSHNleEJLVHhiekdKZ0JoNmtLWjBt?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNTZ1d0hQbEhDTUM1S1dhM0JKLUx6ek02eWxSc3ZVb1J2QWplLUNQMTNIcDJodGFtc09lU0s3Ujd6S3RIdi15RDZaMWhjOEVwLWJQOHhpenZmMm9COGx0SlNoNDFZYlBSTnBCMnhGMG56cllMcHp1Rm5VOERRNElrclpUb3QwdXg2VVdGNWNR0gGTAUFVX3lxTE1JRU52QzZwdG1RVlFjeUJuYVo0YndXdE5kQXFOWHJNSUE5bm1va2xDRXE0WGdyTm02S1RQQVBKRHVmSml0a0lqSWNNbEJXQ0dSRThPT0JaR2RJb2IwVXFNM0YzTDkzdXRsMGxEaWVBYUpHd2NsdmQzMHk3cVRLbnZVdUVOWF8tRzB4bkVFcUxLV0Flcw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Aon completes $17bn acquisition of USI, forming its US middle-market insurance platform",
+      "summary": "Aon has completed its acquisition of USI, valued at about $17bn, saying the deal substantially enhances its presence in the large and growing US middle-market segment. USI will be integrated under Mike Sicard, President of Aon and global CEO of its middle-market business.",
+      "why_it_matters": "The deal materially expands Aon's reach into mid-sized US clients, a scale play that puts pressure on rival brokers such as Marsh and Willis to pursue their own consolidation in the middle market.",
+      "summary_ja": "Aonが米保険サービス会社USIの買収を完了し、約170億ドル規模のディールとなった。拡大が続く米国のミドルマーケット分野での存在感を大きく高めると位置づけており、USIはAonのミドルマーケット部門グローバルCEOであるマイク・シカード氏の下で統合される。",
+      "why_it_matters_ja": "米国の中堅企業向け保険市場での規模拡大を狙った動きであり、マーシュやウィリスといった競合ブローカー各社にも、ミドルマーケット分野での同様の統合戦略を促す可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "aon-usi-acquisition-completion",
+      "ids": [
+        "abb51f0c4f25aa",
+        "cc3ef7cde97c73"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/aon-completes-acquisition-of-usi-to-establish-the-premier-us-middle-market-platform-302940834.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBvQmM4NmlhRF90WEhtY2QzWkNwM0FybUxHNklHWGlFOExNdTc5VjZFV3VPdi1hLUt6ZkUwSlJEYjFXN0RMYl9aczF0NFNzNEl0QlFzU2hjeDVzNC04RlBJWHc0dGY3NEpKdVN5Mi11cHg3RGI3bkln?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "AMD completes $8.2bn acquisition of Fei-Fei Li's World Labs, names her chief scientist",
+      "summary": "AMD has completed its acquisition of World Labs, the AI startup co-founded by Fei-Fei Li, in a deal valued at $8.2bn. Li becomes AMD's chief scientist, reporting directly to chief executive Lisa Su.",
+      "why_it_matters": "The deal gives AMD a marquee AI research figure as it competes with Nvidia for credibility in AI compute and models, and shows acqui-hire price tags climbing among chipmakers racing to build their own AI research and software credentials.",
+      "summary_ja": "AMDがFei-Fei Li氏が共同創業したAIスタートアップ、World Labsの買収を82億ドルで完了した。Li氏はAMDの最高科学責任者に就任し、CEOのリサ・スー氏に直接報告する体制となる。",
+      "why_it_matters_ja": "AI研究を代表する人材を取り込んだことで、Nvidiaに対抗する上でのAMDの存在感を高める一手となる。自社のAI研究・ソフトウェア基盤の強化を競う半導体メーカー間で、AI人材・技術買収の金額水準がさらに上がっていることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "amd-world-labs-acquisition",
+      "ids": [
+        "86fa5f6d43df31",
+        "f316382dadbadf"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUm5TRzQ0eXpCVHlZbU12TVh4LVl5cldRejRDQ05PSFpHU1NnZzJhSWVyd3FJRUkyUDcyb0ItX1JWQ0NLM2JtVHZHWFhSd0xNbTNkMlpIWWtKaDQzM253djAwQTJENWhUOTlJNDdtX3Y5ZDNxbXlnT1VLU0ZDcmFyY3czS096Q0lTQzhqMDVzSDVldjFibEZCRk9GVQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJQjk2dlBRc0VaZVI5enBJblRVdDlXbDRPclUzUmdTSXhNU3RVaGFFTDVpekg1cHMxdXNjTVNpSG5TbjlZMWV1eFpGeGk3Wjg0eHYyMTk4cU1hN1czUG42M0tIM3pEUU1WR2xLNXZPM1h4dTNJ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "Blackstone's digital-infrastructure REIT buys majority stake in Amazon data-centre JVs for $5bn",
+      "summary": "Blackstone Digital Infrastructure Trust has acquired a majority interest in two joint ventures with Amazon Web Services in a deal worth about $5bn, according to the Business Times and a related SEC filing disclosing the material agreement.",
+      "why_it_matters": "The deal shows Blackstone continuing to channel AI-driven data-centre demand into its non-traded REIT vehicle, deepening private capital's exposure to hyperscaler infrastructure and giving AWS a funding partner for further build-out.",
+      "summary_ja": "ブラックストーンのデジタルインフラ特化REIT、Blackstone Digital Infrastructure Trustが、アマゾン・ウェブ・サービスとの2件の合弁事業の過半権益を約50億ドルで取得した。SEC提出資料でも重要な契約の締結として開示されている。",
+      "why_it_matters_ja": "AI需要を背景とするデータセンター投資をブラックストーンの非上場REITに取り込む動きであり、ハイパースケーラーのインフラに対するプライベート資本の関与がさらに深まる。AWSにとっても追加投資の資金調達手段となる。",
+      "status": "new",
+      "prev": null,
+      "key": "blackstone-amazon-data-centres",
+      "ids": [
+        "c92f1c7a065ded",
+        "33116841d67fd5"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/blackstone-reit-buys-amazon-data-centres-us5-billion-deal"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/2100161/000119312526461954/0001193125-26-461954-index.htm"
+        }
+      ],
+      "categories": [
+        "Infra",
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "SEA",
+        "SG",
+        "US"
+      ],
+      "sectors": [
+        "Infrastructure",
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "J&J moves to buy ophthalmic drugmaker Olin Biosciences for $2.2bn, below earlier $3.4bn report",
+      "summary": "Johnson & Johnson is moving to acquire ophthalmic-drug developer Olin Biosciences for about $2.2bn, Investing.com reported, below the roughly $3.4bn price floated in talks reported earlier the same day. The earlier report had centred on Olin's ophthalmic drug candidate OLN324.",
+      "why_it_matters": "A lower confirmed price than the original talk figure suggests J&J negotiated down from its initial interest, while the deal still adds a late-stage ophthalmic asset to its pharma pipeline at a time when large-cap drugmakers are hunting for bolt-on specialty deals.",
+      "summary_ja": "ジョンソン・エンド・ジョンソンが眼科薬開発のオリン・バイオサイエンスを約22億ドルで買収する方向で動いている。同日早朝に伝えられていた約34億ドルという交渉段階の報道からは下方修正された形だ。以前の報道では同社の眼科薬候補OLN324が注目されていた。",
+      "why_it_matters_ja": "当初の交渉段階より低い価格で決着しつつある点は、JNJが買収価格を引き下げて合意した可能性を示唆する。大手製薬各社が専門領域のボルトオン買収を競う中、眼科領域の後期開発品をパイプラインに加える動きとなる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-16-1530",
+        "index": 1
+      },
+      "key": "jnj-ollin-acquisition-talks",
+      "ids": [
+        "7cf2c2da4cfc16",
+        "b3b0637234b4b5"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xdEh5eEZSQTNhTEdxUjVJNG0tWW9DTFpNdERGRGJBSENvdUhSSTBFUWc1RmpOSjQtQkRBbmVsYmU5ZTZfWklNaGlBaHFzQ0RzeU5hdm9XZ19aSlFUbTlQOFBnYzJ6eGQyYmwwMGVxOEQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LY19UR3RjZzVkVWd6amgxaFljejlwb3A5cHBnb0Q0bzhwa3ZzdWMySU5mek5XcmZoTUdOTW1BX1o2UG5Jd2Qtc0lxTGcwRlFWSmhfVnJjU2dPYUo0aUlFcXc4eURnTFVVUDdGVXI1MTNydUJ5?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Healthcare",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Diamondback signs $2.15bn cash-and-stock deal for Double Eagle's Permian Basin assets",
+      "summary": "Diamondback Energy has agreed to acquire Double Eagle's Permian Basin assets for about $2.15bn in cash and stock. The signed price is well below the roughly $5bn figure reported last week when the companies were said to be nearing a deal for Double Eagle V.",
+      "why_it_matters": "The lower, specific price suggests the final transaction covers a narrower set of assets than first discussed, continuing Diamondback's run of bolt-on Permian acquisitions and its preference for mixed cash-and-stock consideration.",
+      "summary_ja": "ダイヤモンドバック・エナジーがダブルイーグルのパーミアン盆地資産を現金と株式で約21.5億ドルで取得することに合意した。先週時点ではダブルイーグルV全体で約50億ドル規模の取引に近づいているとされていたが、最終契約額はそれより大幅に低い水準となった。",
+      "why_it_matters_ja": "確定した金額が当初報じられた規模より小さいことから、最終的な対象資産が当初の交渉より絞られた可能性がある。ダイヤモンドバックによるパーミアン盆地での買収積み重ね戦略と、現金と株式を組み合わせる対価方式がここでも続いている。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-16-0830",
+        "index": 1
+      },
+      "key": "diamondback-double-eagle-acquisition",
+      "ids": [
+        "664b5991509b4e"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5yUW1PU2ZhWHo3amVLYjRQRDFqRHZ2UGQxU1FPVldqRlRrODRBUU9jTXY1Rm5lR0k5ZTVzTnJUYTI5dHc5SElCWnRpVkJUMUhPYlU5cDUzU3hWdG5QNjdVaU9GSmZXMU10NTlDZGN6YXlhNlFq?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "ElevenLabs acquires Japan's Kotoba Technologies to push anime localisation",
+      "summary": "US voice-AI company ElevenLabs has acquired Japan's Kotoba Technologies, a deal aimed at supporting the overseas expansion of anime content. Financial terms were not disclosed.",
+      "why_it_matters": "The deal adds Japanese-language voice technology to ElevenLabs' stack, positioning it to capture localisation demand as anime's global audience keeps growing, and marks a Western AI firm buying directly into Japan's content-tech supply chain.",
+      "summary_ja": "音声AIを手掛ける米イレブンラボが日本のコトバテクノロジーズを買収した。アニメ作品の海外展開を後押しする狙いがあり、買収金額は明らかにされていない。",
+      "why_it_matters_ja": "日本語の音声技術を取り込むことで、拡大が続くアニメの海外需要に対応する体制を強化する動きとなる。欧米のAI企業が日本のコンテンツ関連技術を直接取り込む事例としても注目される。",
+      "status": "new",
+      "prev": null,
+      "key": "elevenlabs-kotoba-technologies",
+      "ids": [
+        "2b61a42bcdb048"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wX3M1MGRiLTV5SWxXRGRGc0hpbkJ2VG5FVHFtdC1NaG9vSDJfOEY0MERkNkphc2tobllDQmFpYWJkVXpiSUM0WlZtMUluTFFtNVhIVWl6aVdtY1dpdU55bGdJTEs2amFqcTVVOQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Olam's $175m sale of Arise P&L stake collapses, hunts for new buyer",
+      "summary": "Olam's agreement to sell its stake in Arise P&L for $175m has been terminated. The company said it has started identifying new investors for the stake, without specifying why the original buyer withdrew.",
+      "why_it_matters": "The collapse leaves Olam holding an asset it had already lined up to exit, and will put a spotlight on why the original buyer walked away and how quickly a fresh sale process can be run.",
+      "summary_ja": "オラムによるアライズP&L株式の1億7,500万ドルでの売却契約が解消された。同社は新たな投資家の選定に着手したとしているが、当初の買い手がなぜ撤退したかは明らかにしていない。",
+      "why_it_matters_ja": "売却予定だった資産を手放せなかったことで、当初の買い手が離脱した経緯に関心が集まる。オラムにとっては資産売却計画の立て直しと、新たな買い手探しのスピードが問われる格好だ。",
+      "status": "new",
+      "prev": null,
+      "key": "olam-arise-pl-stake-sale",
+      "ids": [
+        "79904a3de12610"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/olams-agreement-us175-million-sale-arise-pl-stake-terminated"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA",
+        "SG"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Kansai Electric Power takes stake in US battery-storage platform Prospect Power",
+      "summary": "Elevate and ArcLight have announced a strategic investment by Kansai Electric Power in Prospect Power, which operates PJM Interconnection's largest standalone battery-storage facility, a 150MW/600MWh plant. The investment is aimed at supporting grid reliability amid rapidly growing electricity demand across Virginia and the broader PJM region.",
+      "why_it_matters": "The deal gives a Japanese utility direct exposure to US grid-scale battery storage just as data-centre demand strains the PJM market, and points to more Japanese capital flowing into American power infrastructure.",
+      "summary_ja": "Elevateとアークライトが、関西電力によるプロスペクト・パワーへの戦略出資を発表した。同社はPJMインターコネクション管内で最大規模の単独稼働バッテリー蓄電施設(150MW/600MWh)を運営する。バージニア州を中心に電力需要が急増する中、系統の信頼性確保を後押しする狙いがある。",
+      "why_it_matters_ja": "日本の電力会社が米国の系統用蓄電池事業に直接出資する形となり、データセンター需要でPJM市場の需給が引き締まる中での動きとなる。日本資本が米国の電力インフラへ流入する流れを示す一例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "kansai-electric-prospect-power-investment",
+      "ids": [
+        "5f24d1e330ab81"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/elevate-and-arclight-announce-strategic-investment-by-kansai-electric-power-in-prospect-power-302940094.html"
+        }
+      ],
+      "categories": [
+        "Infra",
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Energy",
+        "Infrastructure"
+      ]
+    }
+  ]
+}
