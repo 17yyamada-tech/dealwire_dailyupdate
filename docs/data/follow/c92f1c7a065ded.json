@@ -1,0 +1,71 @@
+{
+ "id": "c92f1c7a065ded",
+ "title": "Blackstone Reit buys Amazon data centres in US$5 billion deal",
+ "link": "https://www.businesstimes.com.sg/companies-markets/blackstone-reit-buys-amazon-data-centres-us5-billion-deal",
+ "source": "The Business Times",
+ "published": "2026-11-16T13:11:42Z",
+ "checked_at": "2026-11-17T04:52:13Z",
+ "status": {
+  "as_of": "2026-11-17",
+  "text": "Blackstone Digital Infrastructure Trust agreed Nov 16 to buy a 75% stake in two AWS data-centre joint ventures for about $5bn at a 7.0% cap rate; AWS keeps 25% and leases back the 13 buildings.",
+  "text_ja": "BXDCは11月16日、AWSとの2合弁の75%権益を約50億ドル(初期キャップレート7.0%)で取得合意。AWSは25%を保有し13棟をリースバック。",
+  "refs": [
+   {
+    "list": "since",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002100161/000119312526461954/d115778dex991.htm"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-10-02",
+   "headline": "Amazon reportedly weighs ~$8bn sale-leaseback of AI chips via a special-purpose vehicle",
+   "summary": "The Financial Times reported, via SiliconANGLE, that Amazon was in talks to move about $8 billion of Nvidia AI chips into a special-purpose vehicle that would issue debt and sell a 10% equity stake to outside investors, with Amazon continuing to use the chips under lease so the hardware stays off its balance sheet.",
+   "summary_ja": "フィナンシャル・タイムズ報道(SiliconANGLE経由)によれば、アマゾンはエヌビディア製AIチップ約80億ドル分を特別目的会社(SPV)に移管し、同SPVが債券発行と外部投資家への10%出資売却を行う計画を協議していた。アマゾンはリースにより同チップを継続使用し、バランスシートから除外する狙いとされる。",
+   "source": "SiliconANGLE (Financial Times)",
+   "url": "https://siliconangle.com/2026/10/02/report-amazon-to-offload-8b-worth-of-ai-chips-lease-them-back/"
+  },
+  {
+   "date": "2026-06-30",
+   "headline": "Digital Realty to buy back Blackstone's stakes in three Northern Virginia data centres for $3.5bn",
+   "summary": "Digital Realty agreed to acquire Blackstone-managed funds' ownership interests in three fully leased Northern Virginia data centres, including an 80% interest in two 96-megawatt facilities in Manassas and a 50% interest in a 96-megawatt facility in Sterling, for about $3.5 billion.",
+   "summary_ja": "デジタル・リアルティは、ブラックストーン運用ファンドが保有する北バージニア州の3か所のデータセンター権益(マナサスの96MW施設2棟の80%権益とスターリングの96MW施設の50%権益を含む)を約35億ドルで買い戻す契約を結んだ。",
+   "source": "The Real Deal (Bloomberg)",
+   "url": "https://therealdeal.com/national/washington-dc/2026/06/30/digital-realty-buys-stakes-in-three-nova-data-centers/"
+  },
+  {
+   "date": "2026-05-18",
+   "headline": "Blackstone commits $5bn equity to new TPU cloud joint venture with Google",
+   "summary": "Blackstone and Google announced a joint venture to build a new AI cloud business powered by Google's custom TPUs, with Blackstone committing an initial $5 billion in equity to fund roughly 500 megawatts of data-centre capacity targeted to come online in 2027.",
+   "summary_ja": "ブラックストーンとグーグルは、グーグル独自のTPUを活用する新たなAIクラウド事業の合弁会社設立を発表した。ブラックストーンは初期出資として50億ドルの株式資本を投じ、2027年稼働目標の約500MW分のデータセンター容量を整備する。",
+   "source": "Built In (Blackstone)",
+   "url": "https://builtin.com/articles/blackstone-5b-google-joint-venture-20260519"
+  },
+  {
+   "date": "2026-05-14",
+   "headline": "Blackstone Digital Infrastructure Trust (BXDC) completes $1.75bn IPO, lists on NYSE",
+   "summary": "Blackstone's newly formed data-centre REIT, Blackstone Digital Infrastructure Trust, completed its initial public offering, selling 87.5 million shares at $20 each to raise about $1.75 billion, and began trading on the NYSE under the ticker BXDC on May 14, 2026, with a strategy of buying newly built, stabilized data centres leased to investment-grade hyperscale tenants.",
+   "summary_ja": "ブラックストーンが新設したデータセンターREIT、ブラックストーン・デジタル・インフラストラクチャー・トラストはIPOを完了し、1株20ドルで8750万株を売却して約17.5億ドルを調達、2026年5月14日にティッカー「BXDC」でニューヨーク証券取引所に上場した。投資適格のハイパースケーラーにリースされた新築の安定稼働データセンターへの投資を戦略とする。",
+   "source": "Simpson Thacher & Bartlett",
+   "url": "https://www.stblaw.com/about-us/news/view/2026/05/15/blackstone-digital-infrastructure-trust-completes-initial-public-offering"
+  },
+  {
+   "date": "2026-04-07",
+   "headline": "Blackstone agrees to buy 49% stake in AWS-tenant data-centre developer Rowan Digital Infrastructure at $3.8bn valuation",
+   "summary": "Blackstone agreed to acquire a 49% stake in Rowan Digital Infrastructure, a Denver-based data-centre developer whose tenants include Amazon Web Services, in a deal valuing the company at roughly $3.8 billion excluding debt, with Quinbrook Infrastructure Partners retaining operational control.",
+   "summary_ja": "ブラックストーンは、AWSを入居テナントに含むデンバー拠点のデータセンター開発会社ローワン・デジタル・インフラストラクチャーの49%株式を、債務を除く企業価値約38億ドルで取得する契約を結んだ。クインブルック・インフラストラクチャー・パートナーズが経営権を維持する。",
+   "source": "IREI",
+   "url": "https://irei.com/news/blackstone-acquires-49-stake-in-rowan-digital-infrastructure/"
+  }
+ ],
+ "since": [
+  {
+   "date": "2026-11-16",
+   "headline": "Blackstone's BXDC agrees to buy 75% stake in two AWS data-centre joint ventures for about $5bn at 7.0% cap rate",
+   "summary": "Blackstone Digital Infrastructure Trust (BXDC), the Blackstone-sponsored data-centre REIT that listed on the NYSE in May 2026, signed a definitive agreement with Amazon Web Services to acquire a 75% interest in two joint ventures holding 13 newly built powered shells across campuses in northern Indiana and Mississippi, in a transaction valued at about $5 billion at an initial 7.0% capitalization rate. AWS retains the remaining 25% stake and will lease back the entire portfolio for 12 years with options to extend to 32 years, with a debt commitment covering about half the purchase price and closing expected by the end of 2026.",
+   "summary_ja": "ブラックストーンが運用するデータセンターREIT、ブラックストーン・デジタル・インフラストラクチャー・トラスト(BXDC、2026年5月にNYSE上場)は、アマゾン・ウェブ・サービス(AWS)との間で、インディアナ州北部とミシシッピ州の両キャンパスにある新築パワードシェル13棟を保有する2つの合弁事業の75%権益を取得する確定契約を締結した。取引価額は約50億ドルで、初期キャップレートは7.0%。AWSは残り25%を保有し、12年間(最長32年まで延長可能)のリースバックを行う。購入価格の約半分は債務で調達し、2026年中の完了を見込む。",
+   "source": "Blackstone Digital Infrastructure Trust (SEC Form 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0002100161/000119312526461954/d115778dex991.htm"
+  }
+ ]
+}
