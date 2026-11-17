@@ -1,0 +1,302 @@
+{
+  "edition": "2026-11-17-1530",
+  "edition_label": "17 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T07:35:00Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "KKR wins preferred negotiating rights for Ichibanya, operator of CoCo Ichibanya curry chain",
+      "summary": "Ichibanya, which operates Japan's \"CoCo Ichibanya\" curry restaurant chain, is in sale talks that have given KKR preferred negotiating rights, according to people familiar with the matter. Financial terms of the potential deal were not disclosed.",
+      "why_it_matters": "A take-private of one of Japan's best-known casual-dining chains by a global sponsor would extend this year's run of private-equity interest in Japanese restaurant groups eyeing overseas growth, following similar deals in the ramen sector.",
+      "summary_ja": "カレーチェーン「CoCo壱番屋」を運営する壱番屋の売却交渉で、KKRが優先交渉権を得たと関係者が明らかにした。想定される取引の金額など条件は明らかにされていない。",
+      "why_it_matters_ja": "日本を代表する大衆向け外食チェーンの一つが海外スポンサーの手で非公開化されれば、ラーメン業界で続いた同種の買収に続き、海外展開を狙う日本の外食グループへのPEファンドの関心の高まりをさらに裏付けることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "ichibanya-kkr-sale-talks",
+      "ids": [
+        "1f9f69abfc2ba6"
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRFBoc09GaFI2TnJDT3lNX3pIS1RuejlkeUpCN3JJQjY1b0VKeHZkbGZqYnViRk15SEExRG5hT054S2hRNXBnM0E3bXVLaWdBWWFibzBSaXFwTXBwMThtR2ZxN2tmdHd1dzNzNU9zSE9ZYk15U3EwVDdYWTl2bUlQVFUwR1luUlkySG91TlJn?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Chevron nears $5bn deal for stake in Beacon Offshore Energy",
+      "summary": "Chevron is nearing an agreement worth about $5bn to acquire a stake in Beacon Offshore Energy, a wire report said. Terms beyond the headline value were not disclosed.",
+      "why_it_matters": "A deal of this size would add deepwater production capacity for Chevron and points to continued consolidation among independent oil and gas producers in the Gulf of Mexico.",
+      "summary_ja": "シェブロンが、ビーコン・オフショア・エナジーの株式取得に向けて約50億ドル規模の合意に近づいていると報じられた。金額以外の具体的な条件は明らかにされていない。",
+      "why_it_matters_ja": "この規模の取引が成立すれば、シェブロンにとって深海開発の生産能力が積み上がることになり、メキシコ湾における独立系石油・ガス生産会社間の統合が続いている実情を示す。",
+      "status": "new",
+      "prev": null,
+      "key": "chevron-beacon-offshore-energy",
+      "ids": [
+        "e5cd8b16621b48"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3VXJuQm1GMTB4YXNOazJTWTBwUWRnaDVkUTJaSXNyR2NDQXRZZGExb1RRXzNaQkVMZHphNVZlUkZ2UnFhSG1XekhsNk5KN1U5c0pDOVpxckhBLTUzV3MyLXdGY2JHbHpuRldUZmFtc1A?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "ElevenLabs' first Japan acquisition, Kotoba Technologies, priced at about ¥15.9bn",
+      "summary": "ElevenLabs' acquisition of Japanese voice-AI startup Kotoba Technologies, previously reported as a push into anime localisation, is now valued at about ¥15.9bn, new reports said. Kotoba has around 15 employees and builds voice technology that underpins phone-based AI systems for large companies, and the purchase is ElevenLabs' first acquisition in Japan.",
+      "why_it_matters": "The disclosed price and added detail on Kotoba's enterprise phone-AI work show ElevenLabs is buying more than anime-dubbing capability, deepening its bet on Japan's voice-AI market beyond the content use case first reported.",
+      "summary_ja": "イレブンラボによる日本の音声AIスタートアップ、コトバテクノロジーズの買収について、これまでアニメの海外展開向けと報じられていたが、新たな報道で買収額が約159億円であることが明らかになった。コトバは従業員約15人で、大手企業の電話対応AIを支える音声技術を手掛けており、今回の買収はイレブンラボにとって日本初の買収となる。",
+      "why_it_matters_ja": "買収額に加え、コトバが大手企業の電話AI向け技術を手掛けている点が明らかになったことで、イレブンラボがアニメの吹き替え用途以上の価値を見込んで買収していることが分かり、当初報じられていたコンテンツ用途を超えて日本の音声AI市場への賭けを強めていることを示す。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-17-0830",
+        "index": 7
+      },
+      "key": "elevenlabs-kotoba-technologies",
+      "ids": [
+        "89f128e56b7ec2",
+        "23ce3a86484ed6",
+        "899a182080a090"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUmlOSllqOEo1UjN0Sl9EWS12cHp5OUhLMDRYcmc1cEU1djFxZGU1TWhodEMyOV9FeWxra1VsTU9vTEU0ZGxFanJZc2RBNmt4VkFTbVFpTS1OT2VWbzlVeUFwREl5emtTbnJCM2xpS3JpVW5vUjBEVUhkTWY1b09ieVV5Mk9DWlJuSDJYbg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RZVRwckY5ZDFzMHphMmNfRG9XaUVkT3hScFRGRV9rY2NCNTZGbkNxWVdiU01xck5aX3BPbm42YlhMWHNpZUc0X0dVODQzeFFWeHdV?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GRmdkWGhkUVd0OXZTYVdQLVBWaUN6bm8zWDRGVmp5OWlWRFgyajFmUldyVF9tOThZY0g1N016Rm1ZR3JKdGJnZFlZeGdnUGhtYndLaWF5Mk9tdDEybVA2QU1Telhick9lUlplWGVKd2NaM0dC?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "OpenAI's $5bn-plus bid for Goodfire collapses; it sends researchers to inspect the startup's models instead",
+      "summary": "OpenAI's offer of more than $5bn to acquire AI-interpretability startup Goodfire did not go through, a wire report said. OpenAI has since sent researchers to examine Goodfire's models rather than pursue a takeover.",
+      "why_it_matters": "A failed acquisition that still produces a technical tie-up shows how closely OpenAI is tracking interpretability research even where it could not agree deal terms.",
+      "summary_ja": "OpenAIがAI解釈可能性（インタープリタビリティー）のスタートアップ、Goodfireに50億ドル超の買収を提案したが成立しなかったと報じられた。OpenAIはその後、買収ではなく研究者を派遣してGoodfireのモデルを検査する形をとっている。",
+      "why_it_matters_ja": "買収自体は不成立に終わったものの技術的な連携に発展したことは、取引条件で合意できない場合でもOpenAIが解釈可能性研究の分野を注視していることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "openai-goodfire-bid-collapse",
+      "ids": [
+        "a967933e49452a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nZzM4X0h6c3RiTG9sS2k5b1FrOVl2YXo0bkhvVU1Bb3ZObmJycHZKcmxNNGVXMW4yS2xhVk5ldGM4bjBJY2Z0WXlGQzc2ZFdGY0txeTZOWEFzVm1ZT2JmcmE1bS15WEFoVS0xczVpYXpZbTIz?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "China's Novosense buys mmWave radar firm Gekong Zhineng for Rmb487m at a 268% premium",
+      "summary": "China's Novosense has agreed to acquire Gekong Zhineng for about Rmb487m, a 268% premium, as it builds out a millimetre-wave radar business, a wire report said.",
+      "why_it_matters": "The steep premium underscores how hard Chinese chip and sensor makers are competing for radar and sensing technology as demand grows from autonomous-driving and smart-device applications.",
+      "summary_ja": "中国のノボセンス（Novosense）が、ミリ波レーダー事業の強化を狙って隔空智能を約4.87億元で買収することで合意したと報じられた。買収額は268％のプレミアムに相当する。",
+      "why_it_matters_ja": "大幅なプレミアムは、自動運転やスマート機器向けの需要拡大を背景に、中国の半導体・センサー各社がレーダー・センシング技術の獲得を激しく競っている実情を浮き立たせている。",
+      "status": "new",
+      "prev": null,
+      "key": "novosense-gekong-zhineng-acquisition",
+      "ids": [
+        "2a66b4507e6534"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aLVdKS0FLcnNrMjR1S1VVWEVpeWduVTl4OEhUaVFORUZ2azVIMnJVajV6VHVaMnNLSjVOd3AtVXJsLVVvYU53Zll4WUxLQlpBTGdjQXkwV0NUUGoxNGNxNmNaZFVuNjQ4UGo1LTBrM2JoTXRz?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Republic Brands Group buys New York's Rebecca Minkoff, outlines global expansion plan",
+      "summary": "Republic Brands Group has acquired New York fashion label Rebecca Minkoff and announced plans for ambitious global expansion, wire reports said. Financial terms of the acquisition were not disclosed.",
+      "why_it_matters": "The deal adds a recognised US accessories and apparel name to Republic Brands' portfolio as the group builds scale for an international push.",
+      "summary_ja": "リパブリック・ブランズ・グループが、ニューヨーク発のファッションブランド「レベッカ ミンコフ」を買収し、野心的なグローバル拡大計画を発表したと報じられた。買収金額は明らかにされていない。",
+      "why_it_matters_ja": "知名度のある米アクセサリー・アパレルブランドを取り込むことで、リパブリック・ブランズは海外展開に向けた事業規模の拡大を進める。",
+      "status": "new",
+      "prev": null,
+      "key": "republic-brands-rebecca-minkoff-acquisition",
+      "ids": [
+        "544511dc7a7e32",
+        "3e565354ed404a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kWHVnY1pZNEl6QmxWQkwzZV90SHJFdFY0UGhiaE9Rams1RWNfYkd0dUh5NGRJMUw3M2d6M1EzZ21Nc2o1Z0dNaWpyeVBjLV9TUFpjNzJDdnBrZ3A0b0R2QjVMNDhiTlBvZ1pMUHBaaDQ0aE1kTzg5SXBha2NKNDg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxOamhCRDRBbjl1WFlxM0VGQlhyZHdVcTBodzFnblU2eFZhclJSZ2pxeEsxV1hjdE5CaktxZEpPYVNhUVVPcW0xODYyZWU3VkRIV0ExaFZZNmRxZGFvTkdOSGQ5aWI3UlNzVzVMdWItMnRWR3BJTnpBTExqcTVLQXRMWDlYbnhpczZmV2xjS0pLQ2dmb21fNDF5Q0phY05PaXZ1NFJ2bUwyWkdCNnA1dzNBTllUVjZyV19keVVKWTg4OXQ2RlV5ZXdBQWtxWEFJUzh3MldpcjhLNnBSX0FtWTdwMzAxdWlKeW1vVTZXV2FyNnRkclU0NE1kVXROVTZBZWhiaTZjVEREcmUzR0xuekNBZjJZRlVnUnhYaDU1REtoZFU3cmo0QTZFbGczUGxKRTNZRERaZTNNeEFnVV9lQzJ5OUxZcFJPdW93RVRmVVVmNDJ2ckkzSkpCSWVUaXI2TElfajFIYUJFZE9Ud1NRVFIxS25zSGpHTzNyRnhacEpINGtFX1ZvY2dmWWVySkUxRWFWeEtDOGhLVUxEZzRfUkNYak9Oa290X3V0WU5OSXJVZGUyVUFBMW9vVmFOU2FFUUF1YjlMel92U2xmajhtSGU0dVA2ZXl3QlhXcmlVWlFKQmkyNTYwMDVOV0NKcmhZU01lQkVlTEZWMzlnZnFHUGEzNmZqdU1uU1R1UXZQMmpBLUppNlAxOE5ZVXJqWktlaVlnc1JYeGxIWXV1ZjJ5RjRNUUxDWXhNb2lVcE5Na1dCamZWMkpHQ21sa2EzdTFfVlUyS1oxamRWbXhJZw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Furniture retailer HomesToLife debuts flat at S$1.15 on SGX mainboard after raising S$8.6m",
+      "summary": "Singapore furniture retailer HomesToLife's shares opened flat at S$1.15 on its SGX mainboard debut. The company raised S$8.6m from a placement of 7.5m new shares.",
+      "why_it_matters": "A flat debut for a small-cap consumer listing points to a cautious investor reception as Singapore's mainboard IPO pipeline tests appetite beyond larger names.",
+      "summary_ja": "シンガポールの家具小売企業ホームズトゥライフが、SGXメインボードへの上場初日に株価が前日終値から変わらずのS$1.15で始まった。同社は750万株の新株発行により860万シンガポールドルを調達した。",
+      "why_it_matters_ja": "小型の消費関連銘柄が初日に変わらずで終えたことは、シンガポールのメインボードIPO市場で大型銘柄以外への投資家の食欲が試されている中、慎重な受け止めを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "homestolife-sgx-debut",
+      "ids": [
+        "17fc347bfb4d78"
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Consumer"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/furniture-retailer-homestolife-shares-open-flat-s1-15-sgx-mainboard-debut"
+        }
+      ]
+    },
+    {
+      "headline": "Konoike Transport buys Nagasaki's Hamaoka Kogyo, a thermal-plant environmental equipment maintenance firm",
+      "summary": "Konoike Transport has acquired Hamaoka Kogyo, a Nagasaki-based company that handles maintenance of environmental equipment at thermal power plants, making it a subsidiary, wire reports said.",
+      "why_it_matters": "The deal extends Konoike's push into power-plant maintenance services, adding recurring infrastructure-services revenue alongside its core logistics business.",
+      "summary_ja": "鴻池運輸が、火力発電所の環境設備の保守・メンテナンスを手掛ける長崎の浜岡工業を買収し、子会社化したと報じられた。",
+      "why_it_matters_ja": "発電所メンテナンス事業への参入を広げる動きで、主力の物流事業に加えて継続的なインフラサービス収益を積み上げることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "konoike-hamaoka-kogyo-acquisition",
+      "ids": [
+        "83c27d3433a175",
+        "ecf94ca8d14ce2"
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUdzBOT0ExSHI2V0ZfS09TWFFfWHpFZ1FpQVc2NFZSeEk1dDdoejJLUUFJV3JqSFVpYTF6UzJ3a3B2amY4aVVSbQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoSDBhUF9YODlDR0RsMkRfaFUzbXNqMXR4VmtfNDQ5cTFjZWd1SVdRV1hlelBnc1pfT25HN1JZQUM4aWVldW5ILWhlVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Onward Holdings buys Sekimiki Group, operator of apparel brand Gradivrillian",
+      "summary": "Onward Holdings has acquired Sekimiki Group, which operates apparel brand Gradivrillian among others, a wire report said. Financial terms were not disclosed.",
+      "why_it_matters": "The purchase adds another contemporary apparel label to Onward's brand portfolio as Japan's clothing groups keep consolidating smaller, niche-brand operators.",
+      "summary_ja": "オンワードホールディングスが、「グレディブリリアン」などのブランドを運営するセキミキ・グループを買収したと報じられた。買収金額は明らかにされていない。",
+      "why_it_matters_ja": "日本のアパレル各社が小規模なニッチブランド運営企業の統合を進める中、オンワードにとってはブランドポートフォリオに新たな現代的アパレル銘柄を加える動きとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "onward-sekimiki-group-acquisition",
+      "ids": [
+        "92fe3da6854702"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zWWpHRXdpOEp3TjJucW5hT0NEMVNUelhScGkyVVpMbGFzZkNVZ2tpUDZkYWRWQ3Y5MlhDaWpfU0J3ZVQ1YmxCUUkydW04aF82Rng1MjU3R2o3eS1ueXcycVlzeTB6ZDljRHZTR2ZYVmJCdnVuOU00allXc3c?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Nihon Shokubai takes Goo Chemical as a subsidiary to build semiconductor-materials synergies",
+      "summary": "Nihon Shokubai has made Goo Chemical a subsidiary, aiming to create synergies in semiconductor and other advanced materials, a wire report said. Financial terms were not disclosed.",
+      "why_it_matters": "The deal gives Nihon Shokubai a fuller materials line-up for semiconductor manufacturing, as Japanese chemicals groups consolidate to compete for chip-supply-chain business.",
+      "summary_ja": "日本触媒が互応化学を子会社化し、半導体材料など先端材料分野でのシナジー創出を目指すと報じられた。買収金額は明らかにされていない。",
+      "why_it_matters_ja": "日本の化学各社が半導体サプライチェーン関連事業を競う中、今回の買収は日本触媒にとって半導体製造向け材料のラインアップを拡充する動きとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "nihon-shokubai-goo-chemical-subsidiary",
+      "ids": [
+        "00fc3469457394"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "Materials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBNczV6NzYzUG9md19tdThCcm1PMllZUS1UeUVsUzdIYmRsNUVUdk5VZ0tPNHUtYVV5TS11dDlZaG0yZkFIZW96UVNsbTdkZw?oc=5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-17-1530",
+      "label": "17 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-17T07:35:00Z",
+      "items": 10,
+      "headlines": [
+        "KKR wins preferred negotiating rights for Ichibanya, operator of CoCo Ichibanya curry chain",
+        "Chevron nears $5bn deal for stake in Beacon Offshore Energy",
+        "ElevenLabs' first Japan acquisition, Kotoba Technologies, priced at about ¥15.9bn"
+      ]
+    },
+    {
       "id": "2026-11-17-1230",
       "label": "17 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-17T04:36:16Z",
