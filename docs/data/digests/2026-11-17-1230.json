@@ -1,0 +1,202 @@
+{
+  "edition": "2026-11-17-1230",
+  "edition_label": "17 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T04:36:16Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "UniCredit's Commerzbank takeover clears European Commission and US Federal Reserve approval",
+      "summary": "The US Federal Reserve has also approved UniCredit's takeover of Commerzbank, following the European Commission's unconditional clearance confirmed earlier Tuesday. The Fed sign-off adds a US regulatory approval alongside the EU clearance already secured.",
+      "why_it_matters": "Fed approval closes out a further flagged regulatory gate alongside Brussels' clearance, leaving UniCredit with a clearer run to complete one of Europe's largest cross-border bank mergers.",
+      "summary_ja": "ウニクレディトによるコメルツバンク買収について、同日先に欧州委員会が無条件で承認したのに続き、米連邦準備制度理事会（FRB）も承認した。FRBの承認により、すでに得ていたEUの承認に加えて米国側の規制承認も確保した形となる。",
+      "why_it_matters_ja": "欧州委員会の承認に続きFRBの承認も得たことで、指摘されていた規制上の関門がさらに取り除かれ、ウニクレディトは欧州最大級のクロスボーダー銀行統合の完了に向けて進めやすくなる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-17-0830",
+        "index": 1
+      },
+      "key": "unicredit-commerzbank-eu-approval",
+      "ids": [
+        "b62eb5298ec673",
+        "f87447005f5eeb"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWM3BVb0twalBjZUV0YTZ3eFdfbW1MUWJrQm1pNS0xbVB0enMwM191clNXLVZYWXBVaTFsZ3g2WmZUSmhDSGFROE02bmdreTJlbVB2TTNOVW9meFNPNmFqanh0cTAxcldBaHNWMUdVQUlyUDZJTjdTMWxFZlBEZUk?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbFdxVFMxRUVrZzdDTWhrcUExNko3QjdOSGJwX20tU2p5amZnTVJPWFRkbGF1bmg5MXBLbUZ5b1FwQ19UVFV2TnRLUTd3ejhUTC1ndGx5d1Y2ZHRpSnpzN0VJOF9rdUY3S1ZOMFBva2xaekx3R1pIcmdPVm1xMWdXLUI0MndxQXdqalJzX0JPcHh6Zw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "J&J agrees to buy ophthalmic drugmaker Ollin for $3.33bn, above earlier $2.2bn report",
+      "summary": "Johnson & Johnson has agreed to acquire ophthalmic-drug developer Ollin for about $3.33bn, according to a new report. The figure is above the roughly $2.2bn price floated in an earlier report the same morning, though below the initial $3.4bn talk figure.",
+      "why_it_matters": "A signed agreement, even amid conflicting price reports, confirms J&J is securing a late-stage ophthalmology asset as large pharma groups compete for differentiated eye-disease pipelines.",
+      "summary_ja": "ジョンソン・エンド・ジョンソンが眼科薬開発のオリンを約33.3億ドルで買収することで合意したと新たに報じられた。この金額は同日朝に伝えられた約22億ドルという価格を上回る一方、当初の交渉段階で報じられた34億ドルよりは低い。",
+      "why_it_matters_ja": "価格の報道が食い違う中でも買収合意が成立したことで、大手製薬各社が差別化された眼科パイプラインを競り合う中、J&Jが後期段階の眼科資産を確保する流れが確定した。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-17-0830",
+        "index": 5
+      },
+      "key": "jnj-ollin-acquisition-talks",
+      "ids": [
+        "be3235a9665bce",
+        "7cf2c2da4cfc16"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Healthcare"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNVNKa19oR3ZTNVhXaG1HRGJnREUtbnJjQ2s5Z3JJdDhKVUZsS0FkUmZkUWl3d1RhWkZ0UXhINlRGdTQtUU1saWlSNWIyblV3T19DUXBMb3dhWmlMb2ppLVNrN2paRTZoSXRwakM1bnp1WHp0RHNPYm5xaWUwT2pnM0JqTzNXZDBKOEhKcDhqX0lkMzdR?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xdEh5eEZSQTNhTEdxUjVJNG0tWW9DTFpNdERGRGJBSENvdUhSSTBFUWc1RmpOSjQtQkRBbmVsYmU5ZTZfWklNaGlBaHFzQ0RzeU5hdm9XZ19aSlFUbTlQOFBnYzJ6eGQyYmwwMGVxOEQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "US DOJ opens antitrust review of DoorDash's $17bn Instacart acquisition",
+      "summary": "The US Department of Justice has opened a review of DoorDash's agreed $17bn acquisition of Instacart, Japanese-language wire reports said.",
+      "why_it_matters": "A DOJ look at a deal of this size adds execution risk to one of this year's largest US consumer-tech mergers and could shape how regulators treat further consolidation in grocery delivery.",
+      "summary_ja": "米司法省がドアダッシュによる170億ドル規模のインスタカート買収について審査を開始したと日本語の配信記事が伝えた。",
+      "why_it_matters_ja": "この規模の買収に司法省の審査が入ることで、今年最大級の米消費者向けテック統合の一つに実行リスクが加わり、食料品宅配分野における今後の業界再編に対する規制当局の姿勢を示す材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "doordash-instacart-doj-review",
+      "ids": [
+        "ec5721c55c7c22",
+        "765266bb686118"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Eb0NkaVUzaXhZbnAxS3JKSk1VdVREUTZpQ1hiOHJlWHNvSWdYUF80Y2NWZHZ0LUtMUXM5YUlYVWtVWjZfS0Z3Qm1NcDFTM0xrU2RZaUpqQl9Dd0xqTlNFbkhYazc2Q2JuZUNTX2dwS1VEb3RE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ueXQ1TVRxRXYtbE9yUEV2Q1NwMzF2bWNHRS0zcWdNNzZ2eHRudW1VVmRDdHp4bnl0RmRaMzdiT0hTSVltQkV4NUg5XzlKYUhQV09HZ2JfTER5WFMtOUZfRGs2Umt6eV9yOERWODdrOXM?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Pigeon's Eleeo Brands acquisition priced at ¥61bn, shares extend rally",
+      "summary": "Pigeon's previously disclosed acquisition of US baby-products maker Eleeo Brands LLC, which carried no financial terms, is now valued at about ¥61bn, a new report said. Pigeon shares extended gains to a fresh year-to-date high for a second straight session.",
+      "why_it_matters": "The disclosed price turns a previously term-less bolt-on into a sizeable overseas push for Pigeon, underscoring investor appetite for the Japanese baby-care group's US expansion.",
+      "summary_ja": "ピジョンが条件非公表で開示していた米ベビー用品メーカーEleeo Brands LLCの買収について、新たな報道で買収額が約610億円であることが明らかになった。これを受け、ピジョン株は2営業日連続で年初来高値を更新した。",
+      "why_it_matters_ja": "買収額が明らかになったことで、これまで金額非公表だったボルトオン買収がピジョンにとって規模の大きな海外展開であることが判明し、同社の米国事業拡大に対する投資家の期待の高さを裏付けている。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-16-1530",
+        "index": 6
+      },
+      "key": "pigeon-eleeo-brands-acquisition",
+      "ids": [
+        "6557ce6fbce913",
+        "39c7d8094b9fd6"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPUDh1a1RNLUNBczRraFEwQjIxTGFwV3dLcHpRY3Ywdzk3OTBpTUlueTBzQXB1S3I2U2V6bGxBWVJRYVo0ZjRhSGtHU3l5X3ZxSGl1UENtamxLTUQ5WXFFYkM1RWZjTldGY1pOdA?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mMmU3ZmdWYUR6TEg4NWFwYnFodXdFWEx3bmZjNWpIWVdXUWNmaEQzaExJS19tWTQxckI2SGx0VV92SUpIdG1FM1FYMzdOaXFYYjBMX0J5RGd3emF3eURZTzFueHdqQml0RkE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Dassault acquires AI life-sciences firm Alis Global",
+      "summary": "Dassault has acquired Alis Global in a deal aimed at expanding its life-sciences business through AI integration, a Japanese-language report said. Financial terms were not disclosed.",
+      "why_it_matters": "The purchase extends Dassault's push to embed AI tools into life-sciences workflows, as software and industrial groups race to acquire specialised AI capability rather than build it in-house.",
+      "summary_ja": "ダッソーがアリスグローバルを買収したと日本語の報道が伝えた。AI統合によりライフサイエンス事業を拡大する狙いがあるとされ、買収金額は明らかにされていない。",
+      "why_it_matters_ja": "ソフトウエアや産業各社が専門的なAI機能を自社開発でなく買収で取り込む動きを競う中、今回の買収はダッソーがライフサイエンス業務にAIツールを組み込む取り組みを加速するものとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "dassault-alis-global-acquisition",
+      "ids": [
+        "a682a2fd971d67"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBLS1hLNERqZklGdUtfU1FhVDl5cWZ4ZVgzSndiUl9WWjRGWnBoMU1RSFFJekwxVnE0emtYb1ItQ2dDRGxxaVEwSExJREcwVHBaQTkzNU9Xc1EwUEN2YzVCSUVIamV0aGhiT3gwcXJ6ZDd4T1hsVkhMMm130gGOAUFVX3lxTE5GaVhfT2JOT21NY2ZhQUJPakNIamoza2JQVF82N2d3RG5GYThibC1FYzJQaGl6RkpFdmpiSlByNUp2THZyYUd6WE1PU1NXT0RKR3hHMUZCdkpPWHo0UTFLRGpIUkM5Zk5HNVJHOXk3MnFrYVJTcXdza3hsUmVXV21SWVVtTzk3TlRVcEN2U1E?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Tokyo investment fund buys Hakata ramen pioneer Ikkousha",
+      "summary": "A Tokyo-based investment fund has acquired Ikkousha, the ramen chain credited with originating Hakata-style tonkotsu broth, a flash report said. Financial terms were not disclosed.",
+      "why_it_matters": "The deal extends a wave of PE interest in Japan's ramen-chain sector, following Skylark's recent purchase of rival Shin-Shin, as sponsors look to consolidate and expand well-known noodle brands domestically and abroad.",
+      "summary_ja": "博多とんこつラーメンの元祖として知られる「一幸舎」を、東京の投資ファンドが買収したと速報が伝えた。買収金額は明らかにされていない。",
+      "why_it_matters_ja": "スカイラークによる競合「Shin-Shin」買収に続き、日本のラーメンチェーンに対するPEファンドの関心の高まりを示す動きであり、スポンサー各社が有名ラーメンブランドの国内外展開・統合を狙う流れを裏付けている。",
+      "status": "new",
+      "prev": null,
+      "key": "ikkousha-ramen-acquisition",
+      "ids": [
+        "011e9bd791a195"
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80OWNSSjNPOTZKTjQyVlVaUHRiWmFGaDR0c3JoWktzbGdNY0stdVJ1SW5jTE5LZWlkUXpYMXNZNjlmWkRHYUhrTF9VWlU4S19TVExWMUpR?oc=5"
+        }
+      ]
+    }
+  ]
+}

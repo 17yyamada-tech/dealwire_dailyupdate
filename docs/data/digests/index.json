@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-17-1230",
+      "label": "17 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-17T04:36:16Z",
+      "items": 6,
+      "headlines": [
+        "UniCredit's Commerzbank takeover clears European Commission and US Federal Reserve approval",
+        "J&J agrees to buy ophthalmic drugmaker Ollin for $3.33bn, above earlier $2.2bn report",
+        "US DOJ opens antitrust review of DoorDash's $17bn Instacart acquisition"
+      ]
+    },
+    {
       "id": "2026-11-17-0830",
       "label": "17 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-17T00:40:00Z",
