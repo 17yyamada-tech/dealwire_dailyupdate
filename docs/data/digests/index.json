@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-18-1230",
+      "label": "18 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-18T04:34:59Z",
+      "items": 7,
+      "headlines": [
+        "Orix agrees to buy Recruit's Studysapuri online-learning business for ¥60bn",
+        "AMPERA and Berto agree business combination valuing AMPERA at about $900m",
+        "Banks pause $480m chip-related loan tied to ByteDance after new US licensing rule"
+      ]
+    },
+    {
       "id": "2026-11-18-0830",
       "label": "18 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-18T00:36:49Z",

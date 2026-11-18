@@ -1,0 +1,226 @@
+{
+  "edition": "2026-11-18-1230",
+  "edition_label": "18 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T04:34:59Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Orix agrees to buy Recruit's Studysapuri online-learning business for ¥60bn",
+      "summary": "Orix has agreed to acquire Studysapuri, Recruit's online-learning business, for about ¥60bn. The deal brings a direct-to-consumer education platform into Orix's diversified holdings.",
+      "why_it_matters": "The purchase extends Orix's shift from leasing and financial services into consumer digital platforms, a category Japanese conglomerates have targeted for recurring subscription revenue.",
+      "summary_ja": "オリックスはリクルートの教育事業スタディサプリを約600億円で買収することで合意した。消費者向けオンライン教育プラットフォームがオリックスの多角化事業に加わる。",
+      "why_it_matters_ja": "リース・金融が中心だったオリックスの事業がコンシューマー向けデジタル事業へさらに広がることを示す動きであり、日本の大手企業がサブスクリプション型の継続収益を狙って教育分野に資本を投じる流れの一例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "orix-studysapuri",
+      "ids": [
+        "13c712b52b1060"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qbDNFcDR2MjZQRlJMVTNkdXhWa29yQXJVMXpQQW1EWW5TNFk2Y1NpVTA5NEtZb0xqS1JOLVVEeGhOTXZvemVVQ0x1bndJMTU1dFdqRTBXbWtpWV9QZHFxUTBTWXlYc3BtYXZoOA?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "AMPERA and Berto agree business combination valuing AMPERA at about $900m",
+      "summary": "AMPERA and Berto have announced a proposed business combination that values AMPERA at approximately $900m on a pre-money equity basis. The deal is expected to deliver up to about $357m in gross cash proceeds, including more than $30m from a PIPE financing, to fund AMPERA's advanced energy technology development.",
+      "why_it_matters": "The transaction gives AMPERA a public listing route and fresh capital at a time when energy-technology companies are competing hard for financing amid AI-driven power demand.",
+      "summary_ja": "AMPERAとBertoは事業統合を発表し、プレマネーの株式価値でAMPERAを約9億ドルと評価した。この取引により最大約3億5700万ドルの現金が調達される見込みで、このうち3000万ドル超はPIPE(非公開株式の公募前投資)による資金とされ、AMPERAの先進エネルギー技術開発に充てられる。",
+      "why_it_matters_ja": "この取引はAMPERAに上場への道筋と豊富な資金をもたらすものであり、AI主導の電力需要拡大を背景にエネルギー技術企業同士が資金調達を激しく競う局面を映している。",
+      "status": "new",
+      "prev": null,
+      "key": "ampera-berto-business-combination",
+      "ids": [
+        "2a4c86186e6124"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/ampera-and-berto-announce-proposed-business-combination-to-accelerate-advanced-energy-technology-development-and-commercialization-302942969.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT",
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Banks pause $480m chip-related loan tied to ByteDance after new US licensing rule",
+      "summary": "Banks have paused a US$480m loan tied to chip financing connected to China's ByteDance, after the US announced a rule requiring data-centre operators in countries including Singapore and Malaysia to obtain a license to buy advanced chips. The licensing requirement has introduced new uncertainty for lenders backing Southeast Asian AI infrastructure linked to Chinese technology firms.",
+      "why_it_matters": "The pause shows how new US export-control licensing is spilling over into bank underwriting decisions for regional data-centre financing, not just direct chip sales.",
+      "summary_ja": "米国が、シンガポールやマレーシアを含む国々のデータセンター事業者に対し先進的な半導体の購入にライセンス取得を義務付ける規則を発表したことを受け、銀行団は中国バイトダンスに絡む半導体関連融資4億8000万ドルを一時停止した。この許可要件により、中国系テック企業と結びつく東南アジアのAIインフラ向け融資に新たな不確実性が生じている。",
+      "why_it_matters_ja": "今回の動きは、米国の新たな輸出管理ライセンス制度が半導体の直接販売だけでなく、地域のデータセンター向け融資という銀行の引受判断にまで及んでいることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "bytedance-chip-loan-paused",
+      "ids": [
+        "d19404341aee37"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/banks-pause-us480-million-chip-loan-tied-chinas-bytedance"
+        }
+      ],
+      "categories": [
+        "Credit",
+        "Infra"
+      ],
+      "countries": [
+        "US",
+        "SEA",
+        "SG",
+        "HK/CN"
+      ],
+      "sectors": [
+        "TMT",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Shionogi completes acquisition of US biopharma IntraBio",
+      "summary": "Shionogi disclosed on November 18 that it has completed its acquisition of US biopharmaceutical company IntraBio. The timely disclosure filing confirms the deal has formally closed.",
+      "why_it_matters": "The close lets Shionogi move ahead with integrating the acquired business, one of several outbound purchases Japanese pharmaceutical companies have pursued this year to build out overseas drug pipelines.",
+      "summary_ja": "塩野義製薬は11月18日、米バイオ医薬品企業IntraBio社の買収を完了したと開示した。適時開示により、取引が正式に完了したことが確認された。",
+      "why_it_matters_ja": "買収完了により、塩野義製薬は取得した事業の統合を進められる。今年、日本の製薬企業が海外の開発パイプラインを強化するために相次いで実施した海外企業買収の一例である。",
+      "status": "new",
+      "prev": null,
+      "key": "shionogi-intrabio-completion",
+      "ids": [
+        "ffbfebba8df1e8",
+        "72b1207ef66174"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBLc2J6OUN2dTRDOU15aEo3VTV4VWo4aXBIMEhPSWE1ZG95RmRSVHVQNnlHM2dNY3JMU1ZmUnljQ2dSUHdLcFJDTg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JdEpwZFd0OC1tVzBIUTFQc2tSM1FqVVo3WjFlaC1ZU3JvakVOS1VaWV9rTDFURUNEMFBmWUlfZUgxclYwUGRVeXdBVWNqRGQyTU9FOUlkeUtZaS10OHJuX05RdVh6VXhzbGc?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other",
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Mitsui Soko to acquire DM Mitsui Sugar's Meito Soko warehousing unit, effective January 2027",
+      "summary": "Mitsui Soko Holdings has agreed to acquire Meito Soko, a food-logistics subsidiary of DM Mitsui Sugar, with the deal set to take effect on January 1, 2027. The move is aimed at strengthening Mitsui Soko's food-logistics expertise and scale.",
+      "why_it_matters": "The deal adds targeted warehousing capacity as Japanese logistics groups consolidate around specialized, higher-margin niches such as food storage rather than general freight.",
+      "summary_ja": "三井倉庫ホールディングスは、DM三井製糖グループの食品物流子会社である明糖倉庫を買収することで合意し、2027年1月1日付での実施を予定している。食品物流における専門性と総合力の強化を狙う。",
+      "why_it_matters_ja": "この買収は、日本の物流各社が一般貨物よりも利幅の大きい食品倉庫のような専門分野へ集約を進める中で、三井倉庫に的を絞った倉庫機能を追加するものである。",
+      "status": "new",
+      "prev": null,
+      "key": "mitsui-soko-meito-soko",
+      "ids": [
+        "c84f4cfe1b2567",
+        "826f2b0250b1de",
+        "807b9dc4b5f33b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJU3czLUdReFo4SmYwY0s1X1EzZUdoelBoLVpFSFlaQlRxQ3pPYzRsYU5ySnJfT2pnLVg2ZWc5OXh5V3EwTDV4TU5WNmFPYVJtOEt4bG5XY01jY01FVS1vc3g1aGRzZGphcm5CZw?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4ckh1ODlNamgtb0czaVlwOUJieGQwZndtSmdoeDJvSkMwdHcxRm04SkU5ajRlQjFFWTEzZFpGNmRQQnFmb2pLMXU0YlZMaXk1Rlc2eQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAyQUlZdGhjWWszbm0yTjNnNnJEaTB3M3hXbU1YQlhGb05aN3JtMG5YWjZXeVNWRU1uTy1tRTNYTDMzdEU3QkNJTHh3aw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Consumer",
+        "Industrials",
+        "Other"
+      ]
+    },
+    {
+      "headline": "3D Investment Partners becomes top shareholder of J. Front Retailing",
+      "summary": "3D Investment Partners, the Japan-focused activist fund, has become the largest shareholder of department-store operator J. Front Retailing, according to Japanese media reports. No stake size was disclosed.",
+      "why_it_matters": "3D Investment has a track record of pushing Japanese companies toward asset sales and capital-efficiency measures, making its emergence as J. Front's top holder a signal that the group's retail and real estate assets could face renewed activist pressure.",
+      "summary_ja": "日本の活動家ファンド、3Dインベストメント・パートナーズが百貨店運営会社J.フロント リテイリングの筆頭株主になったと日本メディアが報じた。保有比率は明らかになっていない。",
+      "why_it_matters_ja": "3Dインベストメントは資産売却や資本効率改善を日本企業に迫ってきた実績があり、同社がJ.フロントの筆頭株主に立ったことは、同社の小売・不動産資産に対してあらためて物言う株主の圧力が強まる可能性を示している。",
+      "status": "new",
+      "prev": null,
+      "key": "jfront-3d-investment-stake",
+      "ids": [
+        "8dc00c05da0a25",
+        "96be47837adcc0"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1CVDRLbDdXOWNLMW5qUVc1SEl3b1BNQTlXbENoeER1Mkt5UmZMbW54Uk5Ld0l1VnFQVk9GTmNPcVpDaXJDY2VYTDBfc1hKVTdGYkpHUFRuT3RUYUxHOUkzRzBPai11eVdtRXdzQVQ1Q2F5RURPNjRv?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yNXo1UXNWTUxWYmZqOTZDTjJzRld2eHU4WU9BcFpIZU9GZU9mZFB0MHJ6UnNVTmJpYW9pYWk4dXRSbHoyc2ZYNXdrTWdjT2VEaDI2Y0hnamtQTkUteG5BWlBVSmNSOTNiSjNXQWtqRjNzVEFoNHZQMmVzd0l4Y0U?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Osaka Gas Marketing to take full ownership of EV power-management firm Toratch",
+      "summary": "Osaka Gas Marketing plans to make Toratch a wholly owned subsidiary as it builds out capabilities to meet vehicle-to-home (V2H) power demand. No financial terms were disclosed.",
+      "why_it_matters": "The move gives the Osaka Gas group a direct foothold in V2H power management, a niche gaining attention in Japan as EV adoption and household grid-balancing needs grow.",
+      "summary_ja": "大阪ガスマーケティングは、V2H(車から家への給電)需要への対応を強化するため、トラーチを完全子会社化する計画である。金額などの条件は開示されていない。",
+      "why_it_matters_ja": "この買収により、大阪ガスグループはV2Hによる電力管理分野に直接足場を築く。EVの普及と家庭レベルでの電力需給調整の必要性が高まる中、日本で注目が集まる分野である。",
+      "status": "new",
+      "prev": null,
+      "key": "osaka-gas-marketing-toratch",
+      "ids": [
+        "ea7aba17f8ece6"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LWmduaW5hMl9rMENPV3gxTUtJclFGb0dKTzdhTWVwalFOR1p2QmZTYkxpRnVpLS1Rcm5ob1MwMGVDNHQwR2s1aFlxdEFOUWJCcHgzczNNWkJoWFRuOGdZ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    }
+  ]
+}
