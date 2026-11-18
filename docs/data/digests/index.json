@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-18-0830",
+      "label": "18 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-18T00:36:49Z",
+      "items": 10,
+      "headlines": [
+        "AES gets final FERC approval for take-private by GIP-EQT consortium, closing set for Dec 2",
+        "TPG nears take-private of Bill Holdings as talks reach final stage",
+        "AppLovin among bidders exploring Criteo takeover, Reuters reports"
+      ]
+    },
+    {
       "id": "2026-11-17-1530",
       "label": "17 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-17T07:35:00Z",

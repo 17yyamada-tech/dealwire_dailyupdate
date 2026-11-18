@@ -1,0 +1,317 @@
+{
+  "edition": "2026-11-18-0830",
+  "edition_label": "18 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T00:36:49Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "AES gets final FERC approval for take-private by GIP-EQT consortium, closing set for Dec 2",
+      "summary": "The AES Corporation said it has received a final order from the US Federal Energy Regulatory Commission approving its acquisition by a consortium led by Global Infrastructure Partners and EQT. AES said closing is expected on December 2, 2026.",
+      "why_it_matters": "FERC sign-off clears the last major regulatory hurdle for one of this cycle's larger US infrastructure take-privates, confirming GIP and EQT's deeper push into power and storage assets.",
+      "summary_ja": "米AESコーポレーションは、米連邦エネルギー規制委員会（FERC）からGlobal Infrastructure PartnersとEQTが主導するコンソーシアムによる買収を承認する最終命令を受けたと発表した。クローズは2026年12月2日を予定している。",
+      "why_it_matters_ja": "FERCの承認により、今サイクル最大級の米インフラ非公開化案件が最後の主要な規制上の障壁を越えた。GIPとEQTが米電力・蓄電資産への進出をさらに強めることが裏付けられた。",
+      "status": "new",
+      "prev": null,
+      "key": "aes-gip-eqt-takeprivate",
+      "ids": [
+        "504a688a24592c"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/aes-receives-final-regulatory-approval-for-acquisition-by-consortium-led-by-global-infrastructure-partners-and-eqt-closing-expected-december-2-2026-302942908.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy",
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "TPG nears take-private of Bill Holdings as talks reach final stage",
+      "summary": "Shares of US payments-automation company Bill Holdings jumped as much as 12% after a report that TPG's negotiations to take the company private have reached a final stage. Terms of a potential deal were not disclosed.",
+      "why_it_matters": "A take-private of a Nasdaq-listed payments platform would be one of the larger US sponsor buyouts reported this week and signals continued PE appetite for software and fintech names trading below their highs.",
+      "summary_ja": "米決済自動化企業ビル・ホールディングスの株価は、TPGによる非公開化交渉が最終段階に入ったとの報道を受けて最大12%急騰した。買収条件は明らかにされていない。",
+      "why_it_matters_ja": "ナスダック上場の決済プラットフォームの非公開化が実現すれば今週報じられた中でも大型の米スポンサー案件となり、高値から値を下げたソフトウェア・フィンテック企業へのPEファンドの関心の強さを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "bill-holdings-tpg-takeprivate",
+      "ids": [
+        "b45e003dfac597",
+        "1235a63e405e87"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CWjFlSnhNWTBrMlF6NWtrLXJIUmk1c3RQUF9NUDRaZ2VMZXRDNnpqVHJqVExwWTFfY2d2UUc5Y3FpM3NOazFzUGM4SHlFZ0ZWUEdKVzdRckY2Y0JYMVhRSVBISVJnUXdXcTRCMGk5T2I?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qdGgxZG82TEdjS1diT3pTZ3k3UFFvaElsUXpkb2Z2OHlveDhMaTJYb2ZoX1EwdjB0Mzdxa1ByckdFOUZ1T0x2ZW5PcWVJbTdYOGJvaHAwMXo5aWlVN2FHeHJPYXplVW1leFFHRXc3enBkSmdZ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "AppLovin among bidders exploring Criteo takeover, Reuters reports",
+      "summary": "AppLovin is among several companies in talks to acquire French ad-tech group Criteo, Reuters reported, citing sources. The report framed the talks as part of continued consolidation in the advertising-technology sector.",
+      "why_it_matters": "A Criteo deal would be one of the larger ad-tech combinations this year and, if it converts into a signed agreement, would give AppLovin more scale against Google and Meta in programmatic advertising.",
+      "summary_ja": "ロイターは関係者の話として、アップロビン（AppLovin）がフランスの広告技術企業クリテオの買収を検討する複数社の一社だと報じた。報道は広告技術業界での再編の一環としてこの交渉を位置づけている。",
+      "why_it_matters_ja": "クリテオの買収が成立すれば今年最大級の広告技術分野の統合案件となり、合意に至った場合はプログラマティック広告でグーグルやメタに対抗するアップロビンの規模をさらに拡大させる。",
+      "status": "new",
+      "prev": null,
+      "key": "criteo-applovin-talks",
+      "ids": [
+        "9f5b69cb0bdb10",
+        "83c6e1d9b72ae1"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/exclusive-applovin-among-firms-in-talks-acquire-criteo-sources-say-6560346"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lMnU5T3Q3NXd4LXNTUV9pUi1hT2R2T01ONG9nM2l5cEFQcHVKRng1WWlyc3JncnlMOFEtMVp4TjdwaFdhcE95SUtVdktEYmtNMzJaVGxRajJYblVxNkxWUVhpNVJjNlZRaUlra1ZrY0ZDSzds?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Hon Hai (Foxconn) to buy Sony Semiconductor's automotive camera module unit for ¥7.24bn",
+      "summary": "Hon Hai Precision Industry (Foxconn) has agreed to acquire the automotive camera module business of Sony Semiconductor Solutions for ¥7.24 billion, with the deal expected to close in April 2027. Foxconn is expanding beyond contract electronics manufacturing into automotive components.",
+      "why_it_matters": "The deal adds Foxconn's automotive supply-chain push to a string of recent divestitures by Sony as it reallocates capital toward image sensors and entertainment, underscoring the continued break-up of conglomerate auto-parts units in Japan.",
+      "summary_ja": "鴻海精密工業（フォックスコン）は、ソニーセミコンダクタソリューションズの車載カメラモジュール事業を72.4億円で買収することに合意した。交割は2027年4月を予定している。フォックスコンは受託製造から車載部品分野への拡大を進めている。",
+      "why_it_matters_ja": "この買収は、ソニーが画像センサーやエンタテインメント事業への資本配分を進める中での一連の事業売却に、フォックスコンの車載サプライチェーン強化が重なるものであり、日本の複合企業における車載部品事業の切り出しが続いていることを裏付ける。",
+      "status": "new",
+      "prev": null,
+      "key": "foxconn-sony-camera-module",
+      "ids": [
+        "97b40c7e935b3f",
+        "27473951556c17"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/foxconn-plans-acquire-sony-semiconductor-solutions-automotive-camera-module-business-6558961"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DZVB1c0tuUzh6RkhlZGxwZnJQMk5Gb0w2MFFERU9BSGRuNGVYMTZPRm9JTnpZR0hSWmlsZWMyZGxHMEFnLUl4UU1URmZ2SWh0dnBUb1VacS1FYmxGb1F0b2oxMTFHZ3d2cGR0SWRoWlM2cktu?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "KKR's planned buyout of CoCo Ichibanya operator Ichibanya pegged at ¥170bn-¥200bn",
+      "summary": "Reports on the sale of curry-chain operator Ichibanya put the price KKR is paying at roughly ¥170 billion to ¥200 billion, days after KKR was first reported to have won preferred negotiating rights with undisclosed terms. Ichibanya operates Japan's CoCo Ichibanya curry restaurant chain.",
+      "why_it_matters": "The emergence of pricing details moves this from a reported negotiation toward a more concrete take-private, reinforcing the wave of PE interest in Japanese casual-dining chains eyeing growth abroad.",
+      "summary_ja": "カレーチェーン「CoCo壱番屋」を運営する壱番屋の売却に関する報道で、KKRが支払う価格はおよそ1700億円から2000億円とされた。これはKKRが条件非公開のまま優先交渉権を得たと報じられてから数日後のことである。",
+      "why_it_matters_ja": "価格に関する情報が明らかになったことで、報道段階の交渉からより具体的な非公開化案件へと話が進んだことになり、海外展開を狙う日本の外食チェーンへのPEファンドの関心の高まりを改めて裏付ける。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-17-1530",
+        "index": 0
+      },
+      "key": "ichibanya-kkr-sale-talks",
+      "ids": [
+        "c682ca6cb456dc",
+        "4ba9c08beabaf2"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMl9JeFFmcDdmTXJkUC1XT3paMkpQN2FjYlp6OG5OV3hCS0pmSEtUd2JUYkcyNjd4MjM2Vi11T2lwSXFxU19UQjVSVXF1LWFqUXJSQ2hLR3pubmhzQ0JSQ0h4dVlIZTBnSVJMUUtVS1JXUXhGRHZwTTBOY3lsNTVhZDRsZFE2NjY2?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "EQT to acquire US battery storage developer Flatiron Energy",
+      "summary": "EQT has agreed to acquire Flatiron Energy, a developer and operator of utility-scale battery storage across the Eastern United States with a 24 GWh portfolio built up under previous backer Hull Street Energy. Flatiron points to rising electricity demand, retiring power plants and state-backed storage programmes as the drivers behind that growth.",
+      "why_it_matters": "The acquisition gives EQT a scaled, operating storage platform just as US grid operators scramble for flexible capacity to back up retiring thermal plants and growing data-centre demand.",
+      "summary_ja": "EQTは、米東部で稼働するユーティリティスケールの蓄電池事業を手がけるフラティロン・エナジーを買収することで合意した。フラティロン・エナジーはハル・ストリート・エナジーの支援のもとで24ギガワット時のポートフォリオを構築してきた。同社は電力需要の増加、火力発電所の退役、各州の蓄電支援プログラムをこうした成長の背景として挙げている。",
+      "why_it_matters_ja": "EQTはこの買収により、既に稼働する規模のある蓄電プラットフォームを獲得する。米国の系統運用者が、退役する火力発電所やデータセンター需要の拡大を補うための柔軟な供給力を求める中でのタイミングとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "eqt-flatiron-energy",
+      "ids": [
+        "67a2d6f1da831a"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/eqt-to-acquire-flatiron-energy-a-leading-developer-and-operator-of-battery-energy-storage-in-the-eastern-us-302942417.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE",
+        "Infra"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "CapitaLand-led consortium bids S$1.82bn for Jurong Lake District site",
+      "summary": "CapitaLand, Far East Organization and Sing Holdings have teamed up to bid S$1.82 billion, at S$910 per square foot per plot ratio, for a site carved out of the Jurong Lake District master-developer plot that went unawarded in 2024. The bid is one of two offers submitted for the site.",
+      "why_it_matters": "The size of the bid signals developer confidence in Singapore's push to build a second CBD around Jurong Lake District, and will test how the state prices land after an earlier tender drew no winning offer.",
+      "summary_ja": "キャピタランド、ファーイースト・オーガナイゼーション、シング・ホールディングスは共同で、ジュロン・レイク・ディストリクトのマスターデベロッパー用地から切り出された一区画に対し、1平方フィート当たり910シンガポールドル、総額18.2億シンガポールドルで入札した。この区画をめぐっては2024年に落札者が決まらなかった経緯があり、今回は2件の入札のうちの一つとなる。",
+      "why_it_matters_ja": "この入札額の大きさは、ジュロン・レイク・ディストリクトを中心にシンガポールが第二の中心業務地区を整備する構想に対するデベロッパーの自信を示すものであり、以前の入札で落札者が出なかった用地の価格形成を国がどう進めるかを試す機会となる。",
+      "status": "new",
+      "prev": null,
+      "key": "jurong-lake-district-bid",
+      "ids": [
+        "8af1ba4681f67f"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/property/capitaland-far-east-sing-holdings-team-s1-82-billion-bid-jurong-lake-district-site"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "Indonesia's Energi Mega Persada secures $220m loan to fund HighPeak investment",
+      "summary": "Indonesian energy company Energi Mega Persada has obtained a $220 million loan to finance an investment in HighPeak, DealStreetAsia reported.",
+      "why_it_matters": "The financing shows continued credit-market appetite for Southeast Asian energy players pursuing cross-border investment, even though few details of the underlying HighPeak transaction have been disclosed.",
+      "summary_ja": "DealStreetAsiaによると、インドネシアのエネルギー企業エネルギー・メガ・ペルサダ（Energi Mega Persada）はハイピーク（HighPeak）への投資資金として2.2億ドルの融資を確保した。",
+      "why_it_matters_ja": "この資金調達は、ハイピークに関する取引の詳細がほとんど明らかにされていない中でも、クロスボーダー投資を進める東南アジアのエネルギー企業に対し、クレジット市場が依然旺盛な需要を示していることを表している。",
+      "status": "new",
+      "prev": null,
+      "key": "energi-mega-persada-highpeak-loan",
+      "ids": [
+        "8a653acdc0d687"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rX2NmRzdNU1ZmYWwxbFk1NEhRUDhVd0F4elEyTVFhRkl0d3lwaE5fSC1nLVJuSGEyeExfaDNCOFJDWk9QLUZzQ1JuUWkzTGZvc1BnWWJweXVkN0N2MUdNc1JJcndwRlV1bnZpUktzQXNTLVJsXy1UUWFxanRXajA?oc=5"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Securitize completes acquisition of River One, entering $6 trillion asset-backed finance market",
+      "summary": "Securitize has completed its acquisition of River One, adding institutional credit origination, AI-powered underwriting and financing capabilities to its tokenization platform. The companies said the deal creates new ways to connect stablecoin capital with lending markets, an asset-backed finance segment they size at $6 trillion.",
+      "why_it_matters": "The deal is a concrete step in linking digital-asset capital pools to traditional private-credit origination, a convergence that credit investors will need to watch as stablecoin-funded lending scales.",
+      "summary_ja": "セキュリタイズ（Securitize）はリバー・ワン（River One）の買収を完了し、機関投資家向けのクレジット組成機能、AIを活用したアンダーライティング機能、ファイナンス機能を自社のトークン化プラットフォームに追加した。両社は、この買収によりステーブルコイン資本と貸付市場をつなぐ新たな機会が生まれるとしており、対象となるアセット・バックト・ファイナンス市場の規模を6兆ドルと見積もっている。",
+      "why_it_matters_ja": "この買収は、デジタル資産の資本プールを従来型のプライベートクレジット組成につなげる具体的な一歩であり、ステーブルコインを原資とする貸付が拡大するにつれ、クレジット投資家が注視すべき融合の動きである。",
+      "status": "new",
+      "prev": null,
+      "key": "securitize-river-one",
+      "ids": [
+        "f9f89037eca25e"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/securitize-completes-acquisition-of-river-one-expanding-into-6-trillion-asset-backed-finance-market-302941817.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Credit"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "AMD completes $2.9bn acquisition of Taalas, its second AI deal this week",
+      "summary": "AMD has completed a $2.9 billion acquisition of Taalas, marking the chipmaker's second AI-related deal this week. Terms beyond the price were not disclosed in the report.",
+      "why_it_matters": "Back-to-back AI acquisitions in a single week underline how aggressively AMD is moving to add capability against Nvidia, and will keep attention on what other AI infrastructure assets it may still be pursuing.",
+      "summary_ja": "AMDは29億ドルでTaalasの買収を完了し、今週2件目となるAI関連の買収案件となった。価格以外の取引条件は報道では明らかにされていない。",
+      "why_it_matters_ja": "1週間で2件連続のAI関連買収は、AMDがエヌビディアに対抗する能力を積極的に積み上げていることを示しており、同社が他にどのAIインフラ資産を追求しているかにも引き続き注目が集まる。",
+      "status": "new",
+      "prev": null,
+      "key": "amd-taalas-acquisition",
+      "ids": [
+        "2f7bd9d30b6e34"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MVk5GOHlXZTRfT19YbndHaVdkYl9Yb002WUM0cDRsYnRtdUR2VmprUWJUaEVfS0JiNDU2Rlo4MGdKQy11d29RMTNUMFBIdEhaVUhMajhHck9kRkViaU4wRlRWaGg0dVo3b2laT0QteFlBSEZz?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    }
+  ]
+}
