@@ -4,15 +4,15 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-17T07:48:12Z",
+ "checked_at": "2026-11-18T00:47:08Z",
  "status": {
-  "as_of": "2026-11-14",
-  "text": "MOF disclosed Nov 9 a record ¥7.98trn yen-buying intervention on July 30. Yen neared 160/dollar again on Nov 12, prompting Vice Finance Minister Mimura's warning that moves were 'too rapid.'",
-  "text_ja": "財務省は11月9日、7月30日の円買い介入が過去最大の7兆9756億円だったと公表。円は11月12日に再び160円に迫り、三村財務官は相場の動きが急速すぎると警告した。",
+  "as_of": "2026-11-18",
+  "text": "Yen weakness persists: USD/JPY crossed 160 on Nov 13, the first time since early September, prompting Katayama to call moves 'one-sided and rapid' and pledge continued coordination with the US Treasury.",
+  "text_ja": "ドル円は11月13日、9月初旬以来初めて160円を突破。片山財務相は相場の動きを「一方的で急速」と述べ、米財務省との連携継続を表明した。",
   "refs": [
    {
     "list": "since",
-    "url": "https://investinglive.com/forex/japan-s-mimura-warns-yen-moves-are-too-rapid-as-usd-jpy-pushes-back-toward-160/"
+    "url": "https://investinglive.com/news/japan-s-katayama-warns-of-one-sided-yen-moves-near-160-will-coordinate-with-us-treasury/"
    },
    {
     "list": "since",
@@ -87,6 +87,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-13",
+   "headline": "Katayama renews yen warning as USD/JPY crosses 160 for first time since early September, pledges Treasury coordination",
+   "summary": "Japan's Finance Minister Satsuki Katayama said on Nov 13 that recent FX moves had been 'one-sided and rapid' and that Tokyo would continue to work closely with the US Treasury and respond appropriately, after the yen briefly crossed 160 per dollar for the first time since early September.",
+   "summary_ja": "片山さつき財務相は11月13日、最近の外国為替相場の動きは「一方的で急速」だとして、米財務省と緊密に連携し適切に対応すると述べた。ドル円は9月初旬以来初めて1ドル=160円を一時的に超えた。",
+   "source": "InvestingLive",
+   "url": "https://investinglive.com/news/japan-s-katayama-warns-of-one-sided-yen-moves-near-160-will-coordinate-with-us-treasury/"
+  },
   {
    "date": "2026-11-12",
    "headline": "Japan's vice finance minister Mimura warns of 'too rapid' yen moves as dollar nears ¥160 again",
