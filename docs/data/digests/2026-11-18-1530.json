@@ -1,0 +1,264 @@
+{
+  "edition": "2026-11-18-1530",
+  "edition_label": "18 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T07:35:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Workday announces deal to acquire AI semantic-layer startup Honeydew",
+      "summary": "Workday said it has agreed to acquire Honeydew, a semantic-layer platform for AI and business intelligence, with financial terms undisclosed. The deal was announced at the Workday Rising EMEA conference in Barcelona. Workday said the acquisition will let it extend customers' business definitions to every AI agent, tool and model they use.",
+      "why_it_matters": "The deal extends Workday's push into agentic AI tooling, aiming to make its business-data definitions portable across third-party AI agents and models rather than locking customers into a single stack.",
+      "summary_ja": "ワークデイが、AIおよびBI向けのセマンティックレイヤーを手掛けるHoneydewの買収で合意したと発表した。金額などの条件は非公開。発表はバルセロナで開催中のWorkday Rising EMEAで行われ、同社はこの買収により顧客のビジネス定義をあらゆるAIエージェント、ツール、モデルに拡張できるとしている。",
+      "why_it_matters_ja": "今回の買収はワークデイのエージェンティックAI戦略の延長線上にあり、特定のAIスタックに顧客を縛り付けず、サードパーティのエージェントやモデルをまたいでビジネスデータの定義を持ち運び可能にする狙いがある。",
+      "status": "new",
+      "prev": null,
+      "key": "workday-honeydew-acquisition",
+      "ids": [
+        "60586811109a25"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/workday-announces-intent-to-acquire-honeydew-a-semantic-layer-for-ai-and-business-intelligence-302943208.html"
+        }
+      ]
+    },
+    {
+      "headline": "Japan's Logisteed moves to acquire US 3PL provider Neovia",
+      "summary": "Logisteed, the Japanese logistics group, is moving to acquire Neovia, a US-based third-party logistics (3PL) provider. Terms of the deal were not disclosed in the report.",
+      "why_it_matters": "A deal would give Logisteed a bigger US 3PL footprint, part of a broader push by Japanese logistics groups to expand overseas supply-chain capacity.",
+      "summary_ja": "日本の物流大手ロジスティードが、米国の3PL(サードパーティー・ロジスティクス)事業者ネオヴィアの買収に動いている。金額などの条件は報道では明らかにされていない。",
+      "why_it_matters_ja": "実現すれば日本の物流大手による米国3PL事業の拡大となり、海外サプライチェーン能力の強化を進める日本企業の動きを示す一例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "logisteed-neovia-acquisition",
+      "ids": [
+        "d0dd0668f5dc89"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ZVF9HSVRwQnV3bm1jXzNJZU9qWXgyZ1BtU1VNNHg4R2Q4ak9IWG1lTkMxOGwweWdhaG9jX3NFQUlpNVhfUzBkNFZUMA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Konoike Transport takes full control of NS Holdings, adding plant-maintenance firm Nissin Kiko",
+      "summary": "Konoike Transport is acquiring full ownership of NS Holdings, a move that will also bring NS Holdings' unit Nissin Kiko, which handles construction and plant-equipment maintenance, into the group as a third-tier subsidiary. No transaction value was disclosed.",
+      "why_it_matters": "The bolt-on deal extends Konoike's reach into plant and facility maintenance, part of a steady pattern of small acquisitions by Japanese logistics groups building out adjacent services.",
+      "summary_ja": "鴻池運輸がNSホールディングスの株式を取得し完全子会社化する。NSホールディングス傘下で建設・プラント設備メンテナンスを手掛ける日進機工も、鴻池運輸の孫会社となる。取得金額は開示されていない。",
+      "why_it_matters_ja": "このボルトオン型の買収により鴻池運輸は設備・プラントメンテナンス事業に拠点を広げることになり、日本の物流会社が隣接事業を積み上げていく動きの一例といえる。",
+      "status": "new",
+      "prev": null,
+      "key": "konoike-ns-holdings-nissin-kiko",
+      "ids": [
+        "8f59a670560ba8",
+        "1d748a802b60d6"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BQlc3NFpFZTdFZ0tnMDliZE9xajB3VXg1azg5RzFhdXluLUFudVJFdUE1N3ZPTVZTbC1CWVlLaXQ2eUVibVpxV1J6VXdlZVZRN0NES0xNQ2lmNmJoRzBXRHdhWTdXazg2Unc?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Od0tJOV9vbVJHdlR0dWlGVF81NGR0UDAwcVNReXI3Y0V4U1VyTk51ai1EWno1R2J5djZ6UF93cjhTRm9iTlVORjN1TQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "ADB commits $57.5m to BlackRock's Asia infrastructure credit fund",
+      "summary": "The Asian Development Bank is investing $57.5 million in an Asia-focused infrastructure credit fund managed by BlackRock, adding a multilateral development bank as a backer of the private-credit vehicle.",
+      "why_it_matters": "ADB's participation signals continued multilateral support for private infrastructure credit in Asia, a segment commercial banks have pulled back from as capital rules have tightened.",
+      "summary_ja": "アジア開発銀行(ADB)が、ブラックロックが運用するアジア向けインフラクレジットファンドに5750万ドルを投資する。同ファンドの出資者に多国間開発金融機関が加わることになる。",
+      "why_it_matters_ja": "ADBの参画は、資本規制の強化で商業銀行が及び腰になっているアジアのインフラ向けプライベートクレジットに対し、多国間開発金融機関が引き続き支援を続けていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "adb-blackrock-asia-infra-credit",
+      "ids": [
+        "c832e3a1dd1ed7"
+      ],
+      "categories": [
+        "Credit",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials",
+        "Infrastructure"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUXlqX2Z4UEc5MEVJWkVqZG1xRUNOVVRtV0JuR2ZLbzJfVzFhSzVVRUIxQ0EtVjNUNXRXdXJZbVQzazZYcjBHZUdZdUhTVVFWNmNVQ0Jna21pZi0tX19taHNENWphcHR5S2lrMDlaRUN0MjFJWFh0ZWVGbEhWZERBUHBSQnA0LUd3UXc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Singapore's Botsync raises $11m in round led by IvyCap Ventures",
+      "summary": "Singapore-based Botsync has raised $11 million in a funding round led by IvyCap Ventures.",
+      "why_it_matters": "The raise adds to a steady flow of early-stage venture funding into Singapore-headquartered startups even as broader regional venture activity stays selective.",
+      "summary_ja": "シンガポールのBotsyncが、IvyCap Venturesが主導する資金調達ラウンドで1100万ドルを調達した。",
+      "why_it_matters_ja": "広域の東南アジアでベンチャー投資が選別的な姿勢を続ける中、シンガポール拠点のスタートアップへの早期段階の資金流入が続いていることを示す一例である。",
+      "status": "new",
+      "prev": null,
+      "key": "botsync-funding-round",
+      "ids": [
+        "ef9580eb30eaa9"
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NeXh1Zm1sdFIyZGtuaWlSblkzUTByUzFMMWdITVZhMHJIU3NYWDJHZjlkUkpTbE5kMXNWTDJYSTBoVnZfRE5BT213OGR1MnlpUWR6TnBXLVYyWlZtTGtza3VvN3NpdVlHcldRbGp5WnFOM2pnQkdGTA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Germany moves to tighten takeover rules to curb low-ball bids",
+      "summary": "Germany is moving to tighten its takeover rules, aiming to curb bid proposals pitched at depressed share prices and strengthen protections for minority shareholders.",
+      "why_it_matters": "Stricter German takeover rules would raise the bar for opportunistic bidders in one of Europe's largest M&A markets, and dealmakers will watch for similar moves elsewhere in the EU.",
+      "summary_ja": "ドイツが買収ルールの厳格化に動いている。安値での買収提案を抑制し、少数株主の保護を強化することが狙い。",
+      "why_it_matters_ja": "ドイツの買収規制が厳格化されれば、欧州最大級のM&A市場の一つで機会主義的な買い手にとってハードルが上がることになり、EU内で同様の動きが広がるかどうかが注目点となる。",
+      "status": "new",
+      "prev": null,
+      "key": "germany-takeover-rules",
+      "ids": [
+        "da9966a6a5ae5b",
+        "f059b3cf6fd6ac"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83TkpaTXRhYkJBUklpMUwza001a0dQbmo1RFpEaUdvQnFGb3FBZlNGNVVJQXVGbUU0dlNaci1HclBkNFNHbi1XN3pTM2xzNngtU3dDLTVwRnJQZw?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQzVWV0c4ZVRZV1ZZLWk1MUppc0FzUVhLMTM2VldrZm1EX0dmWFpjeGZFcXI3cFc3Z082VmNYeUhFWEdlQ2lrRl9YU3RuYjhaclBwSVNBcXBxMjh1NFdTWURnRGVWeE40VVRQU3NqYlpTR01YSTh6U0RqRncxZGlGWElCTHMxZUU?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Malaysia's CoinGecko sells majority stake to Solana Foundation",
+      "summary": "Malaysia-based crypto data platform CoinGecko has sold a majority stake to the Solana Foundation. The transaction value was not disclosed.",
+      "why_it_matters": "The deal ties one of the region's best-known crypto-data providers more closely to the Solana ecosystem, part of a pattern of blockchain foundations backing the infrastructure layer around their own networks.",
+      "summary_ja": "マレーシアの暗号資産データプラットフォームCoinGeckoが、過半数株式をSolana Foundationに売却した。取引額は開示されていない。",
+      "why_it_matters_ja": "この取引により、同地域を代表する暗号資産データプロバイダーの一つがSolanaのエコシステムとの結びつきを強めることになり、ブロックチェーン財団が自らのネットワークを支えるインフラ層に出資する流れの一例となる。",
+      "status": "new",
+      "prev": null,
+      "key": "coingecko-solana-stake-sale",
+      "ids": [
+        "669092e2828bb1"
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kU3JITXRvOVJpQlZkTHhYUVVYd1RIeVVESm9KeE1nYUpHZmF4S2c5WmplbV9yT01nWG82ZnhqMDlfamFNV21xdGx6RkxMWVg5Ny1mR0Jfd2tVeTdQbVRwbmYyNVVjb2dleG1hYWExUFNyWC1QQUFnNzNxSVNnZw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "HYBE Japan to acquire talent agency KeyHolder, home to band Novelbright and actor Hiroshi Tamaki",
+      "summary": "HYBE Japan, the Japanese unit of South Korea's HYBE, is acquiring KeyHolder, a Japanese entertainment company whose roster includes the band Novelbright and actor Hiroshi Tamaki. Deal terms were not disclosed.",
+      "why_it_matters": "The purchase extends HYBE's push beyond K-pop into Japan's talent-management and content business, broadening its roster and distribution reach in one of its largest overseas markets.",
+      "summary_ja": "韓国HYBEの日本法人HYBE JAPANが、バンドのNovelbrightや俳優の玉木宏を擁する芸能事務所KeyHolderを買収する。取引条件は開示されていない。",
+      "why_it_matters_ja": "この買収はHYBEがK-POP以外の領域、すなわち日本のタレントマネジメントとコンテンツ事業に進出する動きを広げるものであり、海外最大市場の一つで保有タレントと配信網を拡大する。",
+      "status": "new",
+      "prev": null,
+      "key": "hybe-japan-keyholder-acquisition",
+      "ids": [
+        "6b6cf9c8d27b04"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zbWVYUkdmT1dNSUR0WHRoWXA3QmdOazBDbTBXX2hNbEpQQWtRdHZzRUl5VnZqWlpKNDQzRTRpa3pQeC1hYXNOUk9IRlkzZ2c?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "UPS acquires Australian medical-logistics firm to expand Asia-Pacific healthcare network",
+      "summary": "UPS has acquired an Australian medical-logistics company as part of a push to strengthen its Asia-Pacific operations. Deal terms were not disclosed in the report.",
+      "why_it_matters": "The purchase extends UPS's specialised healthcare-logistics footprint into Asia-Pacific, a segment where temperature-controlled and time-critical delivery is becoming a bigger differentiator for global logistics players.",
+      "summary_ja": "UPSがオーストラリアの医療物流企業を買収した。アジア太平洋地域での事業基盤強化の一環とされる。取引条件は報道では明らかにされていない。",
+      "why_it_matters_ja": "この買収によりUPSの医療物流に特化した事業網がアジア太平洋地域に広がることになり、温度管理や時間制約のある配送がグローバル物流企業の差別化要因として一段と重要になっていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "ups-australia-medical-logistics",
+      "ids": [
+        "0145f263053142"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Healthcare",
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0tR2JtRy1DM2VrQ0ZOV0NDendFUVFnMi1BNUhxT2xWYTRwUlJOd1ZCQ1F5UDAxRG5VMTFlTWItS3Z0MGFJczlWb0p3?oc=5"
+        }
+      ]
+    }
+  ]
+}
