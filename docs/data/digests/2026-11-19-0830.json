@@ -1,0 +1,242 @@
+{
+  "edition": "2026-11-19-0830",
+  "edition_label": "19 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T00:31:45Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Anthropic completes record US$81.3bn IPO, pricing shares at $83",
+      "summary": "Anthropic priced the largest IPO on record at US$81.3bn, selling 956.4 million company shares and 23.6 million co-founder shares at US$83 apiece.",
+      "why_it_matters": "The listing sets a new benchmark for AI-sector capital raises and will test public investors' appetite for frontier AI valuations at scale.",
+      "summary_ja": "Anthropicは株式を1株83ドルで売却し、総額813億ドルという過去最大規模のIPOを実現した。会社側が9億5640万株、共同創業者が2360万株を売却した。",
+      "why_it_matters_ja": "このIPOはAI分野における資金調達の新たな基準となり、巨額のフロンティアAI企業に対する公開市場投資家の評価姿勢を試す試金石となる。",
+      "status": "new",
+      "prev": null,
+      "key": "anthropic-record-ipo",
+      "ids": [
+        "a85f38b799f0ee"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/anthropic-clinches-biggest-ever-ipo-us81-3-billion-offering"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "Palo Alto Networks to acquire Applied Compute for $4.5bn in enterprise AI security push",
+      "summary": "Palo Alto Networks (NASDAQ: PANW) agreed to acquire AI startup Applied Compute for $4.5bn. The combination is aimed at helping enterprises securely train, adapt and deploy open-source and open-weight AI models across public and sovereign clouds.",
+      "why_it_matters": "The deal extends Palo Alto's push into AI infrastructure security, positioning it to capture enterprise demand for securing open-weight AI deployments as adoption accelerates.",
+      "summary_ja": "パロアルトネットワークス（NASDAQ: PANW）はAIスタートアップのApplied Computeを45億ドルで買収することに合意した。この統合により、企業がオープンソースおよびオープンウェイトのAIモデルをパブリッククラウドやソブリンクラウド上で安全に学習・適応・展開できるようにすることを目指す。",
+      "why_it_matters_ja": "この買収によりパロアルトはAIインフラのセキュリティ分野への展開を強化し、オープンウェイトAIの導入が広がる中で企業需要を取り込む体制を整える。",
+      "status": "new",
+      "prev": null,
+      "key": "paloalto-applied-compute-acquisition",
+      "ids": [
+        "590a5b9d429cd5",
+        "2c4a6a6da61814"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/palo-alto-buy-ai-startup-applied-compute-45-billion-6563836"
+        },
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302944421.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "UniCredit, German government agree on key terms for Commerzbank takeover",
+      "summary": "UniCredit and the German government have reached agreement on the main points of contention over UniCredit's takeover of Commerzbank, moving the deal closer to completion.",
+      "why_it_matters": "Resolving Berlin's objections removes one of the last political obstacles to the deal, bringing UniCredit closer to completing one of Europe's largest contested bank mergers.",
+      "summary_ja": "ウニクレディトとドイツ政府は、同社によるコメルツ銀行買収を巡る主要な争点について合意に達し、取引の完了に向けて前進した。",
+      "why_it_matters_ja": "ドイツ政府の反対が和らいだことで取引における最後の政治的な障壁の一つが取り除かれ、ウニクレディトは欧州最大級の対立含みの銀行統合の完了に近づく。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-17-1230",
+        "index": 0
+      },
+      "key": "unicredit-commerzbank-eu-approval",
+      "ids": [
+        "9c8bf0163e9aa5"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oU0YyX1FOb09TSWVpVEoyeklyemF2bV9nWUtHZW5pX0p3cWJCZ2ZTb0g0amctQ1pEZGw0bXIxMFV2cGpDdmI1Q1A4d1dmNEV2ZVU1MmdQZE1hUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Public / Macro"
+      ]
+    },
+    {
+      "headline": "HYBE Japan launches tender for KeyHolder at ¥1,200 a share, keeps it listed",
+      "summary": "HYBE Japan has launched its tender offer for KeyHolder at ¥1,200 a share. KeyHolder will remain listed after the deal, according to the tender terms.",
+      "why_it_matters": "The confirmed per-share price gives investors the first hard valuation benchmark for HYBE's push into Japan's talent-management business, while keeping KeyHolder listed signals the tender falls short of a full buyout.",
+      "summary_ja": "HYBE JAPANはKeyHolder株に対し1株1200円でTOBを開始した。買収後もKeyHolderの上場は維持される。",
+      "why_it_matters_ja": "株価の確定により、HYBEによる日本の芸能事業進出に対する初めての具体的なバリュエーション指標が示された。上場維持という条件は、完全子会社化ではなく一部株式の取得にとどまることを示唆する。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-18-1530",
+        "index": 7
+      },
+      "key": "hybe-japan-keyholder-acquisition",
+      "ids": [
+        "5614c07bc0e05e",
+        "6ef343f33bce44"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZUzlIaU9ZMzhTVk9TUnZfeUlvS0FncnVjUEZDRXljNDdqNWxKN2FpbWFTZDZfY1llTDZpV2EyLWpNYmlFMGFfZk1kckktSDBBQ2c?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcWVtQzI5QTRLdUxTSEIwN0NUNW81QllXdDZVOTRLTG1QMnh0NVdEMzVFc1ZGbDBNOXlBQ2xhUU1wRDdYRVluV3R3RF91aEFFcnhkOVZVaUUtdmhnUE9BcUNfRWthNFcxeU1GS3lMaGVyR3JGR1hENWRQZjBwNUNUOWdDTHdUMUk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Konoike Transport pays ¥17.5bn for Nissin Kiko in maintenance push",
+      "summary": "Konoike Transport is paying ¥17.5bn to acquire Nissin Kiko, the plant-maintenance firm that uses water-jet technology, as part of its broader purchase of parent NS Holdings.",
+      "why_it_matters": "Disclosure of the ¥17.5bn price gives the first firm valuation for a deal previously announced without terms, underscoring Konoike's continued bolt-on build-out of maintenance services.",
+      "summary_ja": "鴻池運輸は、ウオータージェット技術を用いるプラント設備メンテナンス会社の日進機工を175億円で買収する。この買収は親会社NSホールディングスの取得の一環である。",
+      "why_it_matters_ja": "175億円という買収価格が開示されたことで、これまで金額非公表だった取引に初めて具体的なバリュエーションが示され、鴻池運輸によるメンテナンス事業の積み上げ型買収の継続が改めて浮かび上がる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-18-1530",
+        "index": 2
+      },
+      "key": "konoike-ns-holdings-nissin-kiko",
+      "ids": [
+        "0e4befe5ba696b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NWkczbEs1QWJQUko1VV90UXBkSUNVUXI2WWRTNHdCWEh3Wk1oNFh6clEyS3RBRGQ3TTRCR0x4X2Nna3B1V1FYenMtU0FudTZKeW9KQ2lWUndwa1VLQ29WbHNFTjNfOW5vZ0dMN0IwMnFHVGp0?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Cintas CEO lobbies Trump to advance $5bn UniFirst acquisition",
+      "summary": "Cintas's chief executive met with President Trump in a push to advance the company's $5bn acquisition of rival uniform-services provider UniFirst.",
+      "why_it_matters": "Seeking direct White House engagement signals the deal still faces political or regulatory resistance, adding a new front to Cintas's effort to complete the UniFirst consolidation.",
+      "summary_ja": "シンタスの最高経営責任者（CEO）はトランプ大統領と会談し、同業のユニファースト買収（50億ドル規模）を前進させるべく働きかけた。",
+      "why_it_matters_ja": "ホワイトハウスへの直接的な働きかけは、この買収がなお政治的・規制的な抵抗に直面していることを示しており、シンタスによるユニファーストとの統合完了に向けた新たな局面が加わったことを意味する。",
+      "status": "new",
+      "prev": null,
+      "key": "cintas-unifirst-trump-meeting",
+      "ids": [
+        "2385e52a96fa10"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLeEJsZDdUZ256OVNrVnIxNUsyV1VTM2Y3a3BRaHBHLWMzWnU1UGpPX2JaeWVWTzctV21kTHFuOHRYVEJpUGliU0RfU0hpcDdZVlRPVEVfOFJpaUlIdnh2U1hNc0I0YlhTUEMyb2tOZEo0d05OYWtr?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Six Street invests $350m for minority stake in snack maker Chomps",
+      "summary": "Six Street has invested $350m to acquire a minority stake in Chomps, the meat-snack maker.",
+      "why_it_matters": "The structured minority investment gives Chomps growth capital without ceding control, reflecting credit-oriented sponsors' growing appetite for minority stakes in fast-growing consumer brands.",
+      "summary_ja": "シックス・ストリートは、ミートスナック大手チョンプスの少数株式を取得するため3億5000万ドルを投資した。",
+      "why_it_matters_ja": "少数株式への出資という形を取ることで、チョンプスは経営権を維持したまま成長資金を確保できる。これはクレジット系スポンサーが急成長する消費財ブランドの少数株取得に意欲を強めていることを映す。",
+      "status": "new",
+      "prev": null,
+      "key": "six-street-chomps-stake",
+      "ids": [
+        "6af333db750bf7"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRW9vUEJJa2tydkhNLWRrdjBnV21IRDlkeDQ5bm5tb0s2MExVZDhJRWRYbmNvR2g0SVI3aWdkclA5MmRDM01LZkdxcXU5TldJeEl2M3JWUndVVThKejRZdDhocDB3TUdSYXpRQ0tpeFRzeHVJeU1pVEsyN0VwdllUTjBLMk9OUHlPT1d5bFZGOW9hTjlnY2l3eFRR?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    {
+      "headline": "Octopus launches $600m Asia fund to plug infrastructure development funding gap",
+      "summary": "Octopus has launched a $600m Asia-focused fund aimed at filling what it calls a development-funding 'gap' for infrastructure projects in the region.",
+      "why_it_matters": "A dedicated development-stage vehicle addresses a financing gap that has slowed early-stage infrastructure projects across Asia, an area increasingly targeted by specialist credit and infra investors.",
+      "summary_ja": "オクトパスは、アジア地域のインフラ事業における開発資金の「ギャップ」を埋めることを目的とした6億ドル規模のアジア特化型ファンドを立ち上げた。",
+      "why_it_matters_ja": "開発段階に特化したファンドの設立は、アジア各地で早期段階のインフラ事業の進展を妨げてきた資金調達の間隙に対応するものであり、クレジットやインフラに特化した投資家がこの分野への関心を強めていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "octopus-asia-infra-fund",
+      "ids": [
+        "811d1a975d9db6"
+      ],
+      "links": [
+        {
+          "source": "Infrastructure Investor",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ25SODBSaXBvQ25FeHExM2Z4OEZBTzIwTl81VGt4Z3lqbnVNRk9pRkQ5RGN0MGlSbVkyd3hxRURua1hTTExaaVhvNkJVQVBwR0lWdEdFeWpwNVY2MTI3T2x0WEtrSjd4WW1BRWRJVE9VNXZWU3FYdzJZaU5aLVgtUWFES2lwQ1MwUlhsU05HRElsdklERUNkS003OGRReklQLUJkUTdfTnI?oc=5"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
