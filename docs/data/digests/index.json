@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-19-1230",
+      "label": "19 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-19T04:37:04Z",
+      "items": 6,
+      "headlines": [
+        "Bid for Sankei Building could reach up to ¥1.2tn as Fuji Media weighs sale",
+        "Dai-ichi Life's revised ¥700bn Challenger bid rejected again",
+        "KeyHolder's board accepts HYBE's ¥1,200-a-share tender offer"
+      ]
+    },
+    {
       "id": "2026-11-19-0830",
       "label": "19 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-19T00:31:45Z",

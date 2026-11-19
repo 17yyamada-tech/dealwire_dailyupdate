@@ -1,0 +1,185 @@
+{
+  "edition": "2026-11-19-1230",
+  "edition_label": "19 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T04:37:04Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Bid for Sankei Building could reach up to ¥1.2tn as Fuji Media weighs sale",
+      "summary": "A deal for Sankei Building could be valued at as much as ¥1.2 trillion, according to a Japanese M&A report. Fuji Media Holdings is considering selling the real-estate business, which it has described as a stable earnings source.",
+      "why_it_matters": "The potential disposal revives a decades-long dispute with activist investor Yoshiaki Murakami, who has pushed Fuji's group to unlock value from its property holdings for roughly 20 years.",
+      "summary_ja": "日本のM&A報道によると、サンケイビルの買収は最大1兆2000億円規模になる可能性がある。フジ・メディア・ホールディングスは「安定収益源」と位置づけるこの不動産事業の売却を検討している。",
+      "why_it_matters_ja": "この売却検討は、村上世彰氏との20年に及ぶ対立を再燃させるものであり、同氏はフジグループに不動産資産の価値解放を長年求めてきた。",
+      "status": "new",
+      "prev": null,
+      "key": "fuji-sankei-building-stake-sale",
+      "ids": [
+        "7ef1955ee47015"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Real Estate"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RTHhrbHdFYnZEbGgyX1hPV1RlVUFGRnlXWXpTRUpBMEh4WEZ2V3l1RmF3UXMzb0RvZHhrbmQxWkdlY3dodnAwX0N0UmNsSnJw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Dai-ichi Life's revised ¥700bn Challenger bid rejected again",
+      "summary": "Dai-ichi Life Insurance raised its takeover proposal for Australian financial group Challenger to about ¥700bn, but Challenger rejected the revised offer for a second time, saying the price still falls short. Challenger's shares fell after the rejection.",
+      "why_it_matters": "A second rejection leaves Dai-ichi Life's Australian push stalled, forcing the Japanese insurer to choose between raising its bid further or abandoning the pursuit.",
+      "summary_ja": "第一生命保険は豪州の金融グループ、チャレンジャーに対する買収提案を約7000億円に引き上げたが、チャレンジャーは提示額が依然不十分だとして2度目の拒否をした。拒否を受けチャレンジャーの株価は下落した。",
+      "why_it_matters_ja": "2度目の拒否により第一生命の豪州進出は停滞し、同社はさらに価格を引き上げるか撤退するかの選択を迫られる。",
+      "status": "new",
+      "prev": null,
+      "key": "daiichi-life-challenger-offer-rejected",
+      "ids": [
+        "b9d0f9703457e4",
+        "e65a204e921026"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFB6bmNCX2k2OV9UUlg1LXJLb0J0TThmclpaY0E2Ym9vNm1HUlVMUi1mYklEQ3dkdWVfcUtmNDhIMFlhU1BZcTk4NG5RbkZCX29YOW5sYUFkMmx3TmxvaDdsZWx0OG83ZWJUYzNnbllnZ3l1SVRidHdROEJmWGdJc1ozVjNEUFhhWlN6R2Rn?oc=5"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/challenger-says-revised-daiichi-life-takeover-offer-falls-short-shares-down-6564666"
+        }
+      ]
+    },
+    {
+      "headline": "KeyHolder's board accepts HYBE's ¥1,200-a-share tender offer",
+      "summary": "KeyHolder has accepted the ¥1,200-a-share tender offer from South Korea's HYBE, which launched the bid through its Japan unit. The talent agency will keep its listing after the deal.",
+      "why_it_matters": "Board acceptance clears the main hurdle to closing HYBE's push into Japan's entertainment market, while KeyHolder's continued listing suggests HYBE is building a public platform for further acquisitions rather than taking full control.",
+      "summary_ja": "KeyHolderは、韓国HYBEの日本法人が実施した1株1200円のTOBを受け入れた。買収後もKeyHolderの上場は維持される。",
+      "why_it_matters_ja": "取締役会の受け入れにより、HYBEの日本の芸能事業進出を完了させる主要な障壁が取り除かれた。一方、上場維持という選択は、HYBEが完全子会社化よりも追加買収のための上場プラットフォーム構築を志向していることを示す。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-19-0830",
+        "index": 3
+      },
+      "key": "hybe-japan-keyholder-acquisition",
+      "ids": [
+        "c3ae8682b7c72f"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94OHoyNlQ2Y0pYenZEYU1uU1NEQnpSSHBONEk3azlraDNMOWVJTW1XOWE0VHhTMXVQNV9YMXY2R3ZoLU5PQjV2S3VpRm52VC0zZm5wNHMwYkdENlRsNU9J?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Indonesia's INA explores sale of 27% stake in toll-road portfolio",
+      "summary": "Indonesia Investment Authority is exploring a sale of a 27% stake in its toll-road portfolio, DealStreetAsia reported.",
+      "why_it_matters": "A stake sale would let INA recycle capital from mature toll-road assets into new infrastructure commitments, a model sovereign funds are increasingly using to scale concession portfolios across the region.",
+      "summary_ja": "インドネシア投資庁（INA）は、高速道路ポートフォリオの27%株式の売却を検討していると、DealStreetAsiaが報じた。",
+      "why_it_matters_ja": "株式売却は、INAが成熟した高速道路資産から資金を回収し新たなインフラ投資に再配分することを可能にする。これは地域のソブリンファンドがコンセッション・ポートフォリオを拡大する手段として採用を増やしているモデルだ。",
+      "status": "new",
+      "prev": null,
+      "key": "ina-toll-road-stake-sale",
+      "ids": [
+        "d3151ec0d2e318"
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Infrastructure"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaDF6WEtiN0JLTWhEbjhXODVXck44aUNSRVNvdkEwcmZWUkl4eGd2d2MtNmYzeEJrRDBlZWFvWmQ5LXY1SFB1c01xamE5M0RsUnVka1ZKY2FTZV9qSUJIZWhzWnZVZW5rVXlfbWhtUnpYdFFrZXEwWGRuS1hIM3U3UE1ndkgzWUE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rockwell Automation to acquire AGILOX to strengthen material-handling business",
+      "summary": "US industrial group Rockwell Automation has agreed to acquire AGILOX, adding capability in material handling and transport, according to a Japanese M&A report.",
+      "why_it_matters": "The deal adds to Rockwell's automation portfolio as manufacturers invest in material-handling technology to address labour shortages in logistics and warehousing.",
+      "summary_ja": "日本のM&A報道によると、米ロックウェル・オートメーションはAGILOXを買収することで合意し、搬送・運搬分野での能力を強化する。",
+      "why_it_matters_ja": "この買収はロックウェルのオートメーション事業を拡充するものであり、物流・倉庫における人手不足への対応として搬送技術への投資を進めるメーカーの動きに沿う。",
+      "status": "new",
+      "prev": null,
+      "key": "rockwell-agilox-acquisition",
+      "ids": [
+        "99d91a95f73477"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5Mak0tUEl6NWxqUE9XUmhWOTB5dU5STGY0QVFWR2c1bEJzR2hKZzJnS0Z1aDZpQ3gzR05RZXBiYkQ4ZTJzQ2hzVEhR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Ain Holdings acquires lifestyle retailer Francfranc to speed retail growth",
+      "summary": "Drugstore operator Ain Holdings has acquired Francfranc, aiming to accelerate retail growth through synergies with its Tolpe business.",
+      "why_it_matters": "The deal lets a pharmacy-led group diversify into lifestyle retail, broadening its consumer offering beyond drugstores.",
+      "summary_ja": "ドラッグストアを展開するアインホールディングスはフランフランを買収し、傘下のトルペ事業とのシナジーを通じて小売事業の成長を加速させる。",
+      "why_it_matters_ja": "この買収により、薬局主体の企業がライフスタイル小売分野へ多角化し、ドラッグストア以外の消費者向け事業を拡大できる。",
+      "status": "new",
+      "prev": null,
+      "key": "ain-hd-francfranc-acquisition",
+      "ids": [
+        "3271d4b9b691db"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Consumer"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BRjNLOGpkb2tPdXFrSV9rdUN5bk5aWUJRdjB1U1JCcjFLRWF0cGxxQXROenNoTVNGNVp6WGlzUWhQUFNWSm9sSUxBa3VxYjZsdThvUVoxLTRYUVpPU1Q5VHh5MWs?oc=5"
+        }
+      ]
+    }
+  ]
+}
