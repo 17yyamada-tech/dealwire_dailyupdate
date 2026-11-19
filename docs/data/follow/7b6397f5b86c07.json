@@ -4,19 +4,19 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-18T07:47:15Z",
+ "checked_at": "2026-11-19T00:47:00Z",
  "status": {
-  "as_of": "2026-11-18",
-  "text": "Yen weakness persists: USD/JPY crossed 160 on Nov 13, the first time since early September, prompting Katayama to call moves 'one-sided and rapid' and pledge continued coordination with the US Treasury.",
-  "text_ja": "ドル円は11月13日、9月初旬以来初めて160円を突破。片山財務相は相場の動きを「一方的で急速」と述べ、米財務省との連携継続を表明した。",
+  "as_of": "2026-11-19",
+  "text": "Yen holds near 160 per dollar as Katayama warns of one-sided moves; BOJ's Ueda said Nov 18 the bank should keep raising rates despite accommodative conditions.",
+  "text_ja": "ドル円は160円近辺で推移。片山財務相は一方的な動きを警告し、日銀の植田総裁は11月18日、緩和的な環境下でも利上げを継続すべきと述べた。",
   "refs": [
    {
     "list": "since",
-    "url": "https://investinglive.com/news/japan-s-katayama-warns-of-one-sided-yen-moves-near-160-will-coordinate-with-us-treasury/"
+    "url": "https://www.vtmarkets.com/en-asia/live-updates/ueda-signals-further-boj-rate-rises-as-usd-jpy-nears-160-intervention-risk/"
    },
    {
     "list": "since",
-    "url": "https://www.newsweekjapan.jp/articles/-/339419"
+    "url": "https://www.fxstreet.com/analysis/usd-jpy-intervention-risk-comes-to-the-fore-202611170819"
    }
   ]
  },
@@ -87,6 +87,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-18",
+   "headline": "BOJ's Ueda signals readiness for more rate hikes as USD/JPY holds near 160",
+   "summary": "VT Markets reported that Bank of Japan Governor Kazuo Ueda told parliament on Nov 18 that the central bank should continue raising interest rates because financial conditions remain accommodative, as USD/JPY held near the 160 level seen as the threshold for possible intervention.",
+   "summary_ja": "VTマークスによると、日銀の植田和男総裁は11月18日、国会で金融環境は依然緩和的だとして追加利上げを継続すべきだと述べた。ドル円は介入の目安とされる160円近辺で推移した。",
+   "source": "VT Markets",
+   "url": "https://www.vtmarkets.com/en-asia/live-updates/ueda-signals-further-boj-rate-rises-as-usd-jpy-nears-160-intervention-risk/"
+  },
+  {
+   "date": "2026-11-17",
+   "headline": "USD/JPY pulls back to 159.45 as intervention risk resurfaces near 160",
+   "summary": "FXStreet reported USD/JPY fell to 159.45 on Nov 17 as traders grew wary of possible Japanese intervention near the 160 level, with the dollar's recent strength linked to growing bets on a Federal Reserve rate hike in December.",
+   "summary_ja": "FXStreetの報道によると、ドル円は11月17日に159.45円まで下落した。160円近辺での日本当局による介入への警戒が強まったためで、ドル高の背景には12月の米利上げ観測の高まりがあるとされた。",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/analysis/usd-jpy-intervention-risk-comes-to-the-fore-202611170819"
+  },
   {
    "date": "2026-11-13",
    "headline": "Katayama renews yen warning as USD/JPY crosses 160 for first time since early September, pledges Treasury coordination",

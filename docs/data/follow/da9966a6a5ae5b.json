@@ -1,0 +1,66 @@
+{
+ "id": "da9966a6a5ae5b",
+ "title": "独、買収ルール厳格化へ 安値での提案抑制し株主保護強化",
+ "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83TkpaTXRhYkJBUklpMUwza001a0dQbmo1RFpEaUdvQnFGb3FBZlNGNVVJQXVGbUU0dlNaci1HclBkNFNHbi1XN3pTM2xzNngtU3dDLTVwRnJQZw?oc=5",
+ "source": "Japan M&A",
+ "published": "2026-11-18T06:14:00Z",
+ "checked_at": "2026-11-19T00:47:00Z",
+ "status": {
+  "as_of": "2026-11-19",
+  "text": "Germany's finance ministry is reportedly weighing stricter takeover rules on derivative stake-building and low-ball bids, following the UniCredit-Commerzbank and Frasers-Hugo Boss cases; no draft bill has been published yet.",
+  "text_ja": "独財務省はユニクレディットのコメルツ銀行買収やフレーザーズのヒューゴボス買収を踏まえ、デリバティブを使った株式取得開示や安値買収への規制強化を検討中。法案はまだ公表されていない。",
+  "refs": [
+   {
+    "list": "background",
+    "url": "https://www.boersen-zeitung.de/konjunktur-politik/insider-finanzministerium-diskutiert-schaerfere-uebernahmeregeln"
+   },
+   {
+    "list": "background",
+    "url": "https://live.euronext.com/en/financial-news/commerzbank-chair-calls-review-german-takeover-rules-after-unicredit-bid"
+   }
+  ]
+ },
+ "background": [
+  {
+   "date": "2026-11",
+   "headline": "German finance ministry reportedly weighs tougher takeover rules after low-ball bid controversies",
+   "summary": "Reuters reported, via Börsen-Zeitung, that Germany's finance ministry is discussing stricter takeover rules, including tighter disclosure of derivative-based stake-building and a possible second mandatory-offer trigger above the existing 30% threshold, prompted by the UniCredit-Commerzbank and Frasers-Hugo Boss cases; insiders said the governing coalition aims to table a draft bill in 2026, with a Bundestag vote possible in the first half of 2027.",
+   "summary_ja": "ロイター報道(ベルゼン・ツァイトゥング経由)によると、独財務省はユニクレディットのコメルツ銀行買収やフレーザーズのヒューゴボス買収を踏まえ、デリバティブによる株式取得の開示強化や、既存の30%基準に加えた新たな義務的公開買付け基準の導入を検討している。関係者は、与党連合が2026年中の法案提出を目指し、連邦議会での審議は2027年前半になり得ると述べた。",
+   "source": "Börsen-Zeitung (Reuters)",
+   "url": "https://www.boersen-zeitung.de/konjunktur-politik/insider-finanzministerium-diskutiert-schaerfere-uebernahmeregeln"
+  },
+  {
+   "date": "2026-08-23",
+   "headline": "Commerzbank chair Weidmann calls for review of German takeover law after UniCredit bid",
+   "summary": "Reuters reported that Commerzbank supervisory board chairman Jens Weidmann said UniCredit had gained control of the bank without paying shareholders an adequate control premium, and suggested that German lawmakers examine the country's takeover law.",
+   "summary_ja": "ロイターによると、コメルツ銀行監査役会会長のヴァイトマン氏は、ユニクレディットが株主に相応の支配権プレミアムを払わずに同行の支配権を得たと述べ、独の立法者に買収法の見直し検討を促した。",
+   "source": "Reuters (via Euronext)",
+   "url": "https://live.euronext.com/en/financial-news/commerzbank-chair-calls-review-german-takeover-rules-after-unicredit-bid"
+  },
+  {
+   "date": "2026-08-18",
+   "headline": "BaFin's new administrative circular on German takeover law takes effect",
+   "summary": "BaFin's consolidated circular setting out its administrative practice on takeover law, including guidance on minimum-price and offer-consideration rules, took effect on 18 August 2026.",
+   "summary_ja": "独連邦金融監督庁(BaFin)が買収法に関する行政実務をまとめた新通達(最低価格規定などの指針を含む)を発行し、2026年8月18日に施行した。",
+   "source": "McDermott Will & Emery",
+   "url": "https://www.mcdermottlaw.com/news/bafin-consolidates-administrative-practice-on-takeover-law-in-new-circular/"
+  },
+  {
+   "date": "2026-06-10",
+   "headline": "Frasers Group launches €1.98bn takeover offer for Hugo Boss after passing 30% stake threshold",
+   "summary": "Frasers Group launched a voluntary public takeover offer for the remaining shares of Hugo Boss at €38 per share, valuing the German fashion group's offer at about €1.98 billion, after building its stake past the 30% mandatory-offer threshold partly through put options; Hugo Boss's management board urged shareholders to reject the offer as inadequate.",
+   "summary_ja": "フレーザーズ・グループは、プットオプションの行使などで保有比率を義務的公開買付けの基準である30%超に高めた後、ヒューゴボスの残り株式を対象に1株38ユーロ、総額約19.8億ユーロの公開買付けを実施した。ヒューゴボス経営陣は株主に買収提案の拒否を呼びかけた。",
+   "source": "AJ Bell",
+   "url": "https://www.ajbell.co.uk/news/articles/frasers-announces-eu198-billion-offer-remaining-hugo-boss-stake"
+  },
+  {
+   "date": "2026-05-05",
+   "headline": "UniCredit publishes formal takeover offer for Commerzbank after building 26.8% pre-offer stake",
+   "summary": "UniCredit published a voluntary takeover offer for all shares of Commerzbank on 5 May 2026, after already having built a stake of about 26.8% in the German lender, a structure that critics later said let UniCredit approach control without paying a full control premium.",
+   "summary_ja": "ユニクレディットは、事前に約26.8%の株式を取得したうえで、2026年5月5日にコメルツ銀行の全株式を対象とする公開買付けを発表した。この手法は、支配権プレミアムを十分に払わずに支配に近づいたと後に批判された。",
+   "source": "Rödl & Partner",
+   "url": "https://www.roedl.com/en/insights/who-owns-commerzbank-a-takeover-thriller-with-rules/"
+  }
+ ],
+ "since": []
+}
