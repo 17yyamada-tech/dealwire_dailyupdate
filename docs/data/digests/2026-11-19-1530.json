@@ -1,0 +1,253 @@
+{
+  "edition": "2026-11-19-1530",
+  "edition_label": "19 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T07:41:46Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "Anthropic valued at up to $1.5tn as shares begin trading",
+      "summary": "Anthropic is valued at up to $1.5tn ahead of its stock market debut, according to BBC. The company, which makes the Claude chatbot, started just five years ago and has grown into one of the biggest names in artificial intelligence, the report said.",
+      "why_it_matters": "The debut valuation signals investors expect further appreciation once trading opens, capping a record-setting run for what is already the AI sector's largest public listing and a benchmark for how markets are pricing frontier AI companies.",
+      "summary_ja": "BBCの報道によると、Anthropicは株式市場デビューを前に最大1.5兆ドルの企業価値と評価されている。Claudeを手がける同社は創業からわずか5年で、AI業界を代表する存在の一つに成長したという。",
+      "why_it_matters_ja": "この評価額は、取引開始後にさらなる上昇を市場が見込んでいることを示す。AI業界で過去最大規模となる上場の勢いを象徴し、フロンティアAI企業に対する市場の評価基準ともなる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-19-0830",
+        "index": 0
+      },
+      "key": "anthropic-record-ipo",
+      "ids": [
+        "1f55993e81a5f9"
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "BBC Business",
+          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Logisteed's Neovia acquisition priced at about ¥150bn",
+      "summary": "Logisteed's planned acquisition of US third-party logistics provider Neovia is valued at about ¥150bn, according to a Japanese M&A report. The price had not been disclosed when the deal was first reported, leaving the scale of the transaction unclear until now.",
+      "why_it_matters": "The disclosed price gives the clearest read yet on the scale of Logisteed's push into the US supply-chain market, marking one of the larger overseas bets so far by a Japanese logistics operator expanding beyond its home market.",
+      "summary_ja": "日本のM&A報道によると、ロジスティードが計画する米3PL事業者ネオヴィアの買収は、約1500億円規模になる見通しだ。買収が最初に報じられた際には金額が明らかにされておらず、規模はこれまで不明だった。",
+      "why_it_matters_ja": "金額の開示により、ロジスティードの米サプライチェーン市場への進出規模がより明確になった。自国市場を越えて事業を広げる日本の物流会社による海外投資としては、大型案件の一つだ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-18-1530",
+        "index": 1
+      },
+      "key": "logisteed-neovia-acquisition",
+      "ids": [
+        "d1e54474040a9a"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Industrials"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYZU91YXRJaTItUXgxRGZUOFIwR21YanhPV01qSkZUWHZ1cG4tem5EQVFZVzdnZ2hacnRzU0JiSnBpTGJGMjk1OEZRaVA4VEYzMXdWMGZYc2pGYWxoTm5mdXBvaElBM0tWdVkxMA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Adicon abandons $204m bid for Crown Bioscience",
+      "summary": "Chinese diagnostics group Adicon has called off its roughly $204m (about ¥33bn) cross-border acquisition of Crown Bioscience, according to a Japanese M&A report. No reason for the collapse was given in the report.",
+      "why_it_matters": "The collapse highlights the continuing difficulty Chinese acquirers face in closing outbound deals, as tighter scrutiny of cross-border capital flows and heightened regulatory sensitivity complicate even mid-sized transactions in the healthcare sector.",
+      "summary_ja": "日本のM&A報道によると、中国の検査機関「艾迪康」は冠科生物に対する約2.04億ドル（約330億円）規模のクロスボーダー買収を中止した。報道では破談の理由は明らかにされていない。",
+      "why_it_matters_ja": "この破談は、国境を越える資本移動への監視が強まる中、中国企業がヘルスケア分野での海外買収を完了させる難しさを改めて示す。規制面の警戒が中規模の案件にも影響を及ぼしている。",
+      "status": "new",
+      "prev": null,
+      "key": "adicon-crown-bioscience-deal-collapse",
+      "ids": [
+        "8bffbd615da656"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DZnJjMUpGRnBqcHRoRkZWWDQ2MHR5YWstVlZWZ3Y1Ti1FUC1wZU8tQ0NSTUdwQVV5N1FyYktWVmswbWxNTjBva2xyaXdRQUlackZvRFhQSmdUYnpCaGNyUnJmc0RSREViZ1dyLXhqUFdXbjVj?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "KKR buys into Gentari's India clean-energy platform",
+      "summary": "KKR has taken a stake in the India renewables platform of Gentari, the clean-energy unit of Malaysia's Petronas, according to DealStreetAsia. The size of the stake and financial terms were not specified in the report.",
+      "why_it_matters": "The investment gives KKR direct exposure to India's renewables build-out and extends its push into sponsor-backed infrastructure platforms across Southeast Asia, a region where global funds are competing harder for clean-energy assets.",
+      "summary_ja": "DealStreetAsiaによると、KKRはマレーシア・ペトロナス傘下のクリーンエネルギー事業者ジェンタリのインド再生可能エネルギー・プラットフォームに出資した。出資比率や金額などの条件は報道では明らかにされていない。",
+      "why_it_matters_ja": "この投資によりKKRはインドの再生可能エネルギー拡大に直接関与することになり、東南アジア全域でスポンサー主導のインフラ・プラットフォームへの布石を強化する。世界の投資ファンドがクリーンエネルギー資産を巡る競争を強めている地域だ。",
+      "status": "new",
+      "prev": null,
+      "key": "kkr-gentari-india-renewables-stake",
+      "ids": [
+        "1a12fd81c79ce9"
+      ],
+      "categories": [
+        "M&A",
+        "PE",
+        "Infra"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Energy"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTnZQbUx0T3owTUhaZkhKRW5qalhobnJNdW1XVUx4eHZyckxzMUtHejlCNmYySThnV09mMHVBdmVDVWdqZEptelNtWWFSVi00ODlDblEyQkZCd1VtdWE0M2VPbDQtUWRBNzE2OElfdll0R1FJTlB2R2M1TVI3Wk0ya282a3R3cFBYVEx6NjZ3?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Singapore court clears final hurdle to Frasers' S$391.9m Centrepoint sale",
+      "summary": "A Singapore court has cleared the way for Frasers' S$391.9 million en bloc sale of Centrepoint, after two objections that had held up the deal were withdrawn ahead of the hearing, according to The Business Times.",
+      "why_it_matters": "Removing the last procedural obstacle points to renewed momentum for collective sales in Singapore's property market, after a stretch in which objections and legal challenges have slowed several en bloc transactions.",
+      "summary_ja": "The Business Timesによると、シンガポールの裁判所はフレイザーズによるセントレポイントの一括売却（3億9190万シンガポールドル）について、審理前に2件の異議が取り下げられたことを受け、売却を進める道を開いた。",
+      "why_it_matters_ja": "最後の手続き上の障害が取り除かれたことは、シンガポールの不動産市場で一括売却の動きが再び勢いを増していることを示す。これまで異議や法的な争いが複数の一括売却案件を停滞させてきた。",
+      "status": "new",
+      "prev": null,
+      "key": "frasers-centrepoint-enbloc-court-clearance",
+      "ids": [
+        "17f49639d3777e"
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/property/court-clears-path-frasers-s391-9-million-centrepoint-en-bloc-deal"
+        }
+      ]
+    },
+    {
+      "headline": "Chinese robotics unicorn MegaRobo closes $200m round led by Oman's wealth fund",
+      "summary": "Chinese unicorn MegaRobo has raised $200m from Oman's sovereign wealth fund and other investors, according to DealStreetAsia. The report did not specify the company's new valuation or the full list of participants.",
+      "why_it_matters": "The round underscores Gulf sovereign funds' growing appetite for Chinese technology bets even as scrutiny of cross-border capital flows into Chinese tech companies increases among Western regulators.",
+      "summary_ja": "DealStreetAsiaによると、中国のユニコーン企業メガロボはオマーンの政府系ファンドなどから2億ドルを調達した。新たな企業価値や出資者の全容は報道では示されていない。",
+      "why_it_matters_ja": "この調達は、中国テック企業への資本流入に対する欧米の監視が強まる中でも、湾岸諸国の政府系ファンドが中国のテクノロジー投資への意欲を高めていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "megarobo-oman-wealth-fund-raise",
+      "ids": [
+        "9b5368f41126be"
+      ],
+      "categories": [],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Financials"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcnQwb0VBbGRSREFOSE9XRHN3eTJZWnRkcE9qSUdoUlJ4eWJnVnNNQkdEM01WNDk4SFFDUkdkVkJIdzZRUFFoUzFKUV8teDdSRUJGT0lFR2xkSTlNNjYxMEhTUHg5cHVSUjljU0tISUVsRjd1dlNNUEp1LVo3MlRGd2J3MkMzdF9BUVhham1sQUVJZ3BZ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Kraken parent Payward to acquire Tribe Capital, the VC its CEO co-founded",
+      "summary": "Kraken's parent company Payward is moving to acquire venture capital firm Tribe Capital, which was co-founded by Payward's chief executive, according to a Japanese M&A report. Deal terms were not disclosed.",
+      "why_it_matters": "A deal would hand Payward direct ownership of a VC platform tied to its own leadership, raising governance questions even as it extends the exchange parent's reach into venture investing beyond crypto.",
+      "summary_ja": "日本のM&A報道によると、クラーケンの親会社ペイワードは、同社CEOが共同創業した米ベンチャーキャピタル、トライブ・キャピタルの買収に動いている。買収条件は明らかにされていない。",
+      "why_it_matters_ja": "この買収が実現すれば、ペイワードは自社経営陣と結びついたVCプラットフォームを直接傘下に収めることになる。ガバナンス上の論点を生みつつ、暗号資産事業を超えてベンチャー投資へ事業領域を広げる動きとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "payward-tribe-capital-acquisition",
+      "ids": [
+        "267300149411a0"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRcG9DZ3JnTHBscXpXWjVyTGVudjFLeFVOZ1RnRGtBOXRyTzN0SW1na0JlUU5MQkEyVFFqRkJISUJGRkhWN2N4b1hTeGVUMzVYVnQwbkJUcWhtWUt4S1lNc2EzSm5zU25DRjU4YWpudmpxWnZVZjltemtnUHBMeU0?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Toyota Tsusho carves out vehicle-software unit, hands Denso 20% stake",
+      "summary": "Toyota Tsusho is spinning off its automotive software business to prepare for software-defined vehicles, with Denso taking a 20% stake in the new entity, according to a Japan disclosure filing.",
+      "why_it_matters": "The restructuring gives Denso a direct foothold in software development as automakers shift toward software-defined vehicles, tightening ties between two key suppliers within the Toyota group.",
+      "summary_ja": "日本の開示情報によると、豊田通商はソフトウェア・デファインド・ビークル（SDV）対応に向け車載ソフトウェア事業を分社化し、新会社にデンソーが20％出資する。",
+      "why_it_matters_ja": "この再編により、自動車メーカーがSDVへ移行する中でデンソーはソフトウェア開発への直接的な足場を得る。トヨタグループの主要サプライヤー2社の関係が一層強まる動きだ。",
+      "status": "new",
+      "prev": null,
+      "key": "toyota-tsusho-sdv-software-spinoff",
+      "ids": [
+        "064da55be74320"
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EVGVFdHR4OXBsMVB0bm9ZZG1LM0JZWHVVeTVqamNBcDlWcEVJMVBlOTZwSmtDdXE5X054YkF2M0U1NHRYMkZVRzZoXzQ4R25UMTItT3AxWHlSaVRReDNMOTkzZE01UTNjLXBsTHR2bw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "TaylorMade sale decision may slip to December as bidder Centroid stays silent on terms",
+      "summary": "The decision on TaylorMade's new owner may slip into December, according to a Japanese M&A report, with bidder Centroid yet to communicate acquisition terms to rival contender F&F.",
+      "why_it_matters": "The delay signals the sale process for the golf-equipment maker remains unsettled between competing bidders, leaving open how quickly a change of ownership could be completed.",
+      "summary_ja": "日本のM&A報道によると、ゴルフ用品メーカーのテーラーメイドの新オーナー決定は12月にずれ込む可能性がある。買い手候補のセントロイドは、競合するF&Fに買収条件をまだ通知していないという。",
+      "why_it_matters_ja": "この遅れは、同社の売却プロセスが複数の買い手候補の間で依然決着していないことを示し、オーナー交代がいつ実現するかは見通せない状況だ。",
+      "status": "new",
+      "prev": null,
+      "key": "taylormade-sale-decision-delay",
+      "ids": [
+        "7c445540f94cb5"
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjM0ZqYWM0TmxyeEcyUHFSN3N3bmNhb0pLSTFlRkxxSFVuRFJueHUwRHZ6ZEVKOHNkX3lZM1diT2ZGaklBMXlVWmFVX05KVlNubDdkZ2Q5cThqVm80WjlKd3BLNTZYYWJkNFJiQlZUZlotZy1R?oc=5"
+        }
+      ]
+    }
+  ]
+}
