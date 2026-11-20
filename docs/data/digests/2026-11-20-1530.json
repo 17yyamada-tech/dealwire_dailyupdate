@@ -1,0 +1,120 @@
+{
+  "edition": "2026-11-20-1530",
+  "edition_label": "20 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T07:35:39Z",
+  "reading_minutes": 1,
+  "items": [
+    {
+      "headline": "Jianye New Life Services' control in flux as 20% debt-to-equity swap completes, 33% in options could force full offer",
+      "summary": "Jianye New Life Services has completed a debt-to-equity conversion that handed creditors a 20% equity stake, unsettling the control structure of the Chinese property-services group. Separately, options covering about 33% of the stock could trigger a mandatory general offer for full control if exercised.",
+      "why_it_matters": "A triggered mandatory offer would reshape control of one of China's larger residential property-services groups at a time when balance sheets across the sector remain under strain.",
+      "summary_ja": "Jianye New Life Servicesで、債権の株式化により債権者に20%相当の株式が渡り、支配構造が揺らいでいる。これとは別に、株式の約33%に相当するオプションが行使されれば、全面的な買収(強制的な公開買付け)を誘発し得る状況にある。",
+      "why_it_matters_ja": "強制的な買収提案が発動されれば、財務が逼迫する中国の不動産サービス業界の中でも規模の大きい同社の支配構造が一変することになる。",
+      "status": "new",
+      "prev": null,
+      "key": "jianye-newlife-control-shakeup",
+      "ids": [
+        "8ea92fd62b4553"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mLXQ3RjYyQmpCOEhBMEFqZ2lXXzM0SFN0VDNMOE5XelFlZ212TmJ1cFJsUTJHYjR4VHJOOWZmZ3k5TEsxUzEwZVFleHhPR21lQ0lXZmFlR0F5bDM4T2dqWS0wNmh5VzliV1BwcGROVUFrMU1x?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Singapore's DayOne pauses US IPO plans amid data-centre valuation concerns",
+      "summary": "Singapore-based data-centre operator DayOne has paused plans for a US IPO, according to a report, after investors questioned the sustainability of frothy valuations in AI-driven digital infrastructure.",
+      "why_it_matters": "A stalled listing from one of the region's prominent data-centre platforms would be an early sign that public-market investors, not just private ones, are starting to scrutinise AI infrastructure valuations.",
+      "summary_ja": "シンガポール拠点のデータセンター事業者DayOneが、米国でのIPO計画を一時停止したと報じられた。AI主導のデジタルインフラの評価の持続可能性について、投資家が疑問を呈していることが背景にある。",
+      "why_it_matters_ja": "地域を代表するデータセンター事業者の上場計画が止まったとすれば、AIインフラの評価に対し、プライベート市場だけでなく公開市場の投資家も厳しい目を向け始めた兆しと言える。",
+      "status": "new",
+      "prev": null,
+      "key": "dayone-us-ipo-pause",
+      "ids": [
+        "9e2a5d58c55405"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/singapore-based-dayone-said-pause-us-ipo-plans-data-centre-market-concerns"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [
+        "US",
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Sompo approves ¥68bn buyback even as interim net profit falls about 40%",
+      "summary": "Japanese insurer Sompo has resolved to buy back ¥68bn of its own shares even as interim net profit fell roughly 40%. The company said adjusted profit nonetheless reached a record high for the period.",
+      "why_it_matters": "Returning capital despite a sharp headline profit decline signals management's confidence in underlying earnings quality, and adds to a wave of shareholder returns from Japanese insurers this year.",
+      "summary_ja": "日本の損害保険大手SOMPOが、中間期の純利益が約4割減少する中でも680億円の自己株式取得を決議した。同社によれば、調整後利益はこの期間で過去最高を記録したという。",
+      "why_it_matters_ja": "純利益が大きく落ち込む中での自社株買いの決定は、実質的な収益力に対する経営陣の自信の表れであり、今年の日本の保険各社による株主還元の流れをさらに後押しするものだ。",
+      "status": "new",
+      "prev": null,
+      "key": "sompo-68bn-buyback-profit-drop",
+      "ids": [
+        "40f65436da7a4d"
+      ],
+      "links": [
+        {
+          "source": "Japan disclosures",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00RXJiQXoxT2U4eHJkbUUybXBOS1kzSm00Q0Y3ejNwVUpob0FQU2NRcjlOdWFlb3F6ZVBiYjhpTXR2WFZmMlVqeFhYZndtSHZjQWRMYkFZVmFIOUR6bjAyV3NaN21lZC11UzZYWkJmMHF6Uk9Q?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Temasek-backed 65 Equity Partners tops $2bn in deployments, counting its Koenigsegg stake",
+      "summary": "65 Equity Partners, the Temasek-backed investment firm, has crossed $2bn in total deployments, with its stake in hypercar maker Koenigsegg counted toward the milestone.",
+      "why_it_matters": "The milestone underscores the pace at which Temasek-linked capital is being put to work across alternative and niche industrial assets in the region.",
+      "summary_ja": "テマセク系の投資会社65 Equity Partnersの累計投資額が20億ドルを超えた。ハイパーカーメーカーKoenigseggへの出資もこの節目の一部として数えられている。",
+      "why_it_matters_ja": "この節目は、テマセク系資本がオルタナティブ資産やニッチな工業資産への投資を進めるペースの速さを示すものだ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-20-0830",
+        "index": 7
+      },
+      "key": "temasek-65equity-koenigsegg-stake",
+      "ids": [
+        "9e1f9465a5fdf3"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa3F1c091MHpfOU5JZzVfZ1ZOM2FjTC1xQk92bGZsRnJNWWFQSmY4enhLZS1jQW1WeEIzODJLU3YtUVVVRmxxYTcwMzdFdzJ6YmczT25ycEVxbml6N2x5TVlUeHRDYmJ2RlpjX1VhYldtRFlGYlFaOGMzUFJKSVR1ZQ?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

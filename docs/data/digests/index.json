@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-20-1530",
+      "label": "20 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-20T07:35:39Z",
+      "items": 4,
+      "headlines": [
+        "Jianye New Life Services' control in flux as 20% debt-to-equity swap completes, 33% in options could force full offer",
+        "Singapore's DayOne pauses US IPO plans amid data-centre valuation concerns",
+        "Sompo approves ¥68bn buyback even as interim net profit falls about 40%"
+      ]
+    },
+    {
       "id": "2026-11-20-1230",
       "label": "20 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-20T04:36:19Z",
