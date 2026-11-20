@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-20-0830",
+      "label": "20 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-20T00:38:12Z",
+      "items": 10,
+      "headlines": [
+        "Anthropic's Nasdaq debut peaks near $2tn as Wall Street sells off",
+        "Intuit sells Mailchimp to Bending Spoons for $3.68bn, a third of 2021 price",
+        "TPG and Corpay agree ~$6bn take-private of Bill Holdings"
+      ]
+    },
+    {
       "id": "2026-11-19-1530",
       "label": "19 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-19T07:41:46Z",

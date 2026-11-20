@@ -1,0 +1,322 @@
+{
+ "edition": "2026-11-20-0830",
+ "edition_label": "20 Nov 2026 · 08:30 SGT",
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T00:38:12Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "Anthropic's Nasdaq debut peaks near $2tn as Wall Street sells off",
+   "summary": "Anthropic's shares hit a valuation of up to $2 trillion on their Nasdaq debut, surpassing SpaceX's June listing and making it one of the world's most valuable public companies, days after the AI company priced its $81.3bn IPO at $83 a share. The broader market did not follow: all three major US indexes fell at least 2% the same day as investors booked profits tied to financing raised around the listing.",
+   "why_it_matters": "A $2tn debut cements Anthropic as the AI sector's new valuation benchmark, but the sharp pullback in the wider market shows investors are starting to question how much further AI-linked equities can run.",
+   "summary_ja": "Anthropicの株式はナスダック上場で一時最大2兆ドルの評価額に達し、6月のスペースX上場を上回って世界で最も価値ある上場企業の一つとなった。これは同社が810億3000万ドルのIPOを1株83ドルで価格決定した数日後のことだ。市場全体はこの流れに乗らず、米国の主要3指数は同日2%以上下落した。上場に絡む資金調達を受けた利益確定売りが背景にある。",
+   "why_it_matters_ja": "2兆ドルでの上場はAnthropicをAI分野の新たな評価基準に据えるが、市場全体の急落は投資家がAI関連株の上昇余地に疑問を持ち始めている証拠でもある。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-19-1530",
+    "index": 0
+   },
+   "key": "anthropic-record-ipo",
+   "ids": [
+    "9b6dba88a538ba",
+    "6fc7a612858b63",
+    "9c5c5087206cb0"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/anthropic-hits-2-trillion-in-nasdaq-debut-tops-spacexs-june-listing-6565741"
+    },
+    {
+     "source": "BBC Business",
+     "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/wall-street-ends-sharply-lower-anthropics-debut-fails-revive-ai-fervour"
+    }
+   ],
+   "categories": [],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "AI & Semis",
+    "TMT"
+   ]
+  },
+  {
+   "headline": "Intuit sells Mailchimp to Bending Spoons for $3.68bn, a third of 2021 price",
+   "summary": "Intuit agreed to sell its Mailchimp email-marketing unit to Italy's Bending Spoons for $3.68bn, roughly a third of the price it paid for the business in 2021. Intuit's shares slumped on the news.",
+   "why_it_matters": "The steep discount underscores how far enterprise software valuations have fallen since the 2021 peak, and adds Mailchimp to Bending Spoons' fast-growing roll-up of consumer and SMB software brands.",
+   "summary_ja": "インテュイットはメール配信事業のメールチンプをイタリアのベンディング・スプーンズに36.8億ドルで売却することで合意した。これは2021年の買収価格の約3分の1にあたる。発表を受けてインテュイット株は下落した。",
+   "why_it_matters_ja": "大幅な値下がりは2021年のピークからエンタープライズソフトウェアの評価がどれほど下がったかを示し、メールチンプはベンディング・スプーンズが進める消費者・中小企業向けソフトウェアのロールアップに加わる。",
+   "status": "new",
+   "prev": null,
+   "key": "intuit-mailchimp-bendingspoons-sale",
+   "ids": [
+    "6bccbac7a9c799",
+    "871d9137ec5b0f"
+   ],
+   "links": [
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/intuit-sell-mailchimp-bending-spoons-368-billion-6567301"
+    },
+    {
+     "source": "CNA Business",
+     "url": "https://www.channelnewsasia.com/business/intuit-sell-mailchimp-about-third-its-2021-purchase-price-shares-slump-6567301"
+    }
+   ],
+   "categories": [],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "TPG and Corpay agree ~$6bn take-private of Bill Holdings",
+   "summary": "Bill Holdings agreed to a roughly $6bn take-private deal led by TPG and payments company Corpay, Investing.com reported, confirming the buyout that had been reported as nearing completion in previous days.",
+   "why_it_matters": "Corpay's addition as a co-sponsor turns what looked like a straight PE buyout into a strategic-plus-sponsor deal, and locks in one of the larger US fintech take-privates of the year.",
+   "summary_ja": "ビル・ホールディングスはTPGと決済会社コーペイが主導する約60億ドルの非公開化取引に合意した、とInvesting.comが報じた。これにより数日前から報じられていた最終段階の買収交渉が確定した。",
+   "why_it_matters_ja": "コーペイが共同スポンサーとして加わったことで、単純なPEバイアウトから戦略投資家とスポンサーが組む案件へと形を変え、今年の米フィンテック非公開化の中でも大型案件の一つが確定した。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-18-0830",
+    "index": 1
+   },
+   "key": "bill-holdings-tpg-takeprivate",
+   "ids": [
+    "4c4695799e1987"
+   ],
+   "links": [
+    {
+     "source": "Japan PE & activists",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFbVRKS25hdWt1SHhnYjBTbFJvVHp3c2J5UlRXOUlJTHptQTFzajA1Skc4enJjUVRsY25BaGRxM3lUcFF6VW1RQkg1QmlEdFl5YXh4Z1lnTWNZTjg4emE0NVJaeTJGWjN5b20xODRUaWg?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "BASF abandons Evonik takeover bid after two rejections",
+   "summary": "Germany's BASF has abandoned its pursuit of fellow chemicals maker Evonik after two acquisition proposals were rejected, Japan M&A newswire reported, with BASF unable to win agreement even after raising its offer price.",
+   "why_it_matters": "The collapse ends one of the chemicals sector's larger consolidation attempts and leaves Evonik to pursue its stand-alone strategy, a setback for BASF's push to add scale in specialty chemicals.",
+   "summary_ja": "独BASFは同業エボニックへの買収提案を断念した、とJapan M&Aが報じた。2度の提案がいずれも拒否され、提示価格を引き上げても合意を得られなかった。",
+   "why_it_matters_ja": "この破談は化学業界で進んでいた大型統合案件の一つに終止符を打ち、エボニックは単独路線を継続する。BASFにとっては特殊化学分野での規模拡大戦略の後退となる。",
+   "status": "new",
+   "prev": null,
+   "key": "basf-evonik-bid-collapse",
+   "ids": [
+    "900ca26db44f2d",
+    "a766b20f15965b"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82bTBhbkQ0SkFvLVNuS0kyaGZUbzIyT014ZVZ2WE9CZll6STJvWGxSM2hORjFfZXJtNVdZNWFkd2NkWGgxWHpYYkc1bUY0dkFDcU9Ld1A4SUd1dk82ZEJ0aGRZbGtyU2Vvc1NDWFFuRVM?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yX3VsbktvVHdyT05FaDdudEgycmRmSm5jalBZbDVRR09UQkZiai1ESFpDaXBmMU1INkE2Sk11aDQ1WjdOYlM0VEdMVF84Z213c19nZ01sS28tUWV1NkRmWVh3Y2NiNjU4LWcyVQ?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other",
+    "Materials"
+   ]
+  },
+  {
+   "headline": "Insmed shares jump 21% on report Sanofi is weighing acquisition",
+   "summary": "Shares of Insmed jumped as much as 21%, their biggest gain since August, after reports that Sanofi is weighing an acquisition of the US biopharma company, Japan M&A newswire said.",
+   "why_it_matters": "A Sanofi deal would be a notable bolt-on for its specialty pharma pipeline and signals continued large-cap pharma appetite for mid-cap biotech assets trading at a discount.",
+   "summary_ja": "Japan M&Aの報道によると、サノフィによる買収検討が報じられ、インスメッド株は最大21％上昇し8月以来最大の上げとなった。",
+   "why_it_matters_ja": "サノフィによる買収が実現すれば専門医薬品パイプラインの有力な補強となり、割安な中型バイオ企業への大手製薬の関心の強さを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "sanofi-insmed-acquisition-report",
+   "ids": [
+    "a47731bd963426",
+    "1557843ace96e6"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZUUtsYW12by1SYk5Vb1dlY1ZMWGR0MTRfQ1c0WElfXzdwbFhUUWJVaDhISF9HN0kwbmRKZHhILVdSak5EVXI1aWRORVZtdjhvTXFIclRhNmFTbk9WMG9SMDE4ZUQ0dXQ0WDZoTjdTU2U?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52eENtWkFoS0FhWC1QLTFHb09QaURzejlnbHhxdThtNVlQVHh6TXU0NTZQRVUyZkdWZmRVVW9ucWFNUnpwVHdsMzF4eHRZTmxZT0ZFc3lHSXZCM25qYU9GN3VRLW9EYkJxRGpUNElYbDFENGRH?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Gates to acquire Nitta's stake in Asia-Pacific joint venture, ending long partnership",
+   "summary": "Gates Industrial agreed to acquire Nitta's interests in their joint venture across five Asia-Pacific markets, ending a longstanding partnership and making Gates Unitta Asia a wholly owned subsidiary, according to Nitta's disclosure and a Gates statement. Terms were not disclosed.",
+   "why_it_matters": "Full ownership gives Gates direct control of power-transmission and fluid-power distribution across five APAC markets, while Nitta books a stake sale as it reshapes its portfolio of affiliates.",
+   "summary_ja": "ゲイツ・インダストリアルは、ニッタとの合弁事業に関する同社の持分を5つのアジア太平洋市場で取得することに合意し、長年続いたパートナーシップを終了してゲイツ・ユニッタ・アジアを完全子会社化する、とニッタの開示およびゲイツの発表が示した。取引条件は非公開。",
+   "why_it_matters_ja": "完全子会社化によりゲイツはアジア太平洋5市場での動力伝達・流体動力事業の販売網を直接管理できるようになり、ニッタは関連会社ポートフォリオの再編の一環として株式売却を計上する。",
+   "status": "new",
+   "prev": null,
+   "key": "gates-nitta-jv-acquisition",
+   "ids": [
+    "10d3b7d079ae1c",
+    "acf5792f6fd5e1"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/gates-to-acquire-nitta-interests-in-five-asia-pacific-markets-concluding-a-longstanding-joint-venture-302945257.html"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTVEpBSUQzM0wtck9DN1BvU2lrRDB5dXVNSzRSQUp4VUJYbFpuOHJoYlpNaklFM3VsTTBFc3QwN0lTWUZxSFFwMlRCemhyN3daMnd0dVlWNHZmNVY1ZWt4bDUzR0hrck12VEE?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "Infra"
+   ],
+   "countries": [
+    "US",
+    "JP"
+   ],
+   "sectors": [
+    "Energy",
+    "Industrials",
+    "Infrastructure",
+    "Other"
+   ]
+  },
+  {
+   "headline": "IFC proposes up to $300m loan package for Vietnam's VIB",
+   "summary": "IFC proposed a loan package of up to $300m for Vietnam's VIB, DealStreetAsia reported, as the World Bank's private-investment arm continues to back Southeast Asian lenders.",
+   "why_it_matters": "A loan of this size would strengthen VIB's capital base for on-lending in Vietnam and signals continued DFI appetite for mid-sized Southeast Asian banks even as broader credit markets stay selective.",
+   "summary_ja": "DealStreetAsiaの報道によると、IFCはベトナムのVIB銀行に対し最大3億ドルの融資パッケージを提案した。世界銀行傘下の民間投資機関は東南アジアの銀行支援を継続している。",
+   "why_it_matters_ja": "この規模の融資はVIBの資本基盤を強化し、ベトナムでの貸出余力を広げる。信用市場全体が選別的な中でも、中堅の東南アジア銀行に対する開発金融機関の関心の強さを示す。",
+   "status": "new",
+   "prev": null,
+   "key": "ifc-vib-vietnam-loan",
+   "ids": [
+    "618b65c10e6fac"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbGc0WGN1MDcyMWVyNnJXb2tISTZwOUxWQU5TdWlCQTd3WVZzNmxFcXhsRzQwZzNYWEluLVEtb1FkNTZGRGhmRTFsOW8xcmhFWnFCQXdQcl8xR1p0Mlp6YTlTUll3c1BhdWtORVlERThzdDFkUWVDV3prWkcwbUhtaTd2azFHQkd6RHNKaHlyVQ?oc=5"
+    }
+   ],
+   "categories": [
+    "Credit"
+   ],
+   "countries": [
+    "SEA"
+   ],
+   "sectors": [
+    "Financials"
+   ]
+  },
+  {
+   "headline": "Temasek-backed 65 Equity Partners takes stake in hypercar maker Koenigsegg",
+   "summary": "Temasek-backed 65 Equity Partners has taken a stake in Swedish hypercar maker Koenigsegg, with the investment earmarked to fund expansion and technology development and to strengthen Koenigsegg's systems, the Business Times reported.",
+   "why_it_matters": "The deal gives a Singapore-anchored sponsor direct exposure to a niche European performance-car maker, part of 65 Equity Partners' push into specialist industrial and consumer brands.",
+   "summary_ja": "ビジネスタイムズの報道によると、テマセク系の65エクイティ・パートナーズがスウェーデンのハイパーカーメーカー、ケーニグセグに出資した。資金は事業拡大と技術開発、システム強化に充てられる。",
+   "why_it_matters_ja": "この出資によりシンガポール系スポンサーが欧州の専門性能車メーカーに直接関与することになり、65エクイティ・パートナーズが進める専門工業・消費財ブランドへの投資戦略の一環となる。",
+   "status": "new",
+   "prev": null,
+   "key": "temasek-65equity-koenigsegg-stake",
+   "ids": [
+    "f35e95675525ab"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/temasek-backed-65-equity-partners-invests-swedish-hypercar-maker-koenigsegg"
+    }
+   ],
+   "categories": [
+    "PE"
+   ],
+   "countries": [
+    "SG",
+    "SEA"
+   ],
+   "sectors": [
+    "TMT"
+   ]
+  },
+  {
+   "headline": "BYD dealer-linked entity lifts stake in Katrina to 13.1%",
+   "summary": "A BYD dealer-linked entity raised its stake in Bali Thai operator Katrina to 13.1%, buying more than 21 million shares at S$0.0238 each in an off-market deal, the Business Times reported.",
+   "why_it_matters": "The stake build gives a BYD-linked investor a bigger foothold in a Singapore-listed F&B operator, a small but visible sign of Chinese EV-linked capital diversifying into regional consumer names.",
+   "summary_ja": "ビジネスタイムズの報道によると、BYDディーラー関連の事業体がバリタイを運営するケイトリーナへの出資比率を13.1％に引き上げた。相対取引で1株S$0.0238で2100万株超を買い付けた。",
+   "why_it_matters_ja": "この出資拡大は、BYD関連投資家がシンガポール上場の外食事業者への足場を広げていることを示す小さいながら目に見える動きで、中国EV関連資本が地域の消費関連銘柄へ分散している一端を表す。",
+   "status": "new",
+   "prev": null,
+   "key": "byd-katrina-stake-increase",
+   "ids": [
+    "cfdd5eb448845c"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/byd-dealer-linked-entity-raises-stake-bali-thai-operator-katrina-13-1"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "SEA",
+    "SG",
+    "HK/CN"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Energy Transfer completes $1.95bn acquisition of Vaquero Midstream",
+   "summary": "Energy Transfer completed its $1.95bn acquisition of Vaquero Midstream, Japan M&A newswire reported.",
+   "why_it_matters": "The deal adds gathering and processing capacity to Energy Transfer's midstream network, extending its consolidation of US shale infrastructure assets.",
+   "summary_ja": "Japan M&Aの報道によると、エナジー・トランスファーは19億5000万ドルのバケロ・ミッドストリーム買収を完了した。",
+   "why_it_matters_ja": "この買収によりエナジー・トランスファーの集荷・処理能力が拡大し、米国シェール関連インフラ資産の統合をさらに進めることになる。",
+   "status": "new",
+   "prev": null,
+   "key": "energy-transfer-vaquero-midstream-acquisition",
+   "ids": [
+    "e347a68e9bbfb4"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JcVRvZE1Mb0lDVnRkZlEwbWtremU1d1Y2OVBRTktQeDItOHUzd0dCVGNqU3EtSnZJQ29LS1VXTHZCckJVMWh5N3IwbTBNbi05aXBxTlQ3SHhsZEdnRzZLVW5qZDBfQkJURUE2N2FHMWI?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  }
+ ]
+}
