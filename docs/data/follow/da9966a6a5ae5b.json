@@ -4,19 +4,19 @@
  "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83TkpaTXRhYkJBUklpMUwza001a0dQbmo1RFpEaUdvQnFGb3FBZlNGNVVJQXVGbUU0dlNaci1HclBkNFNHbi1XN3pTM2xzNngtU3dDLTVwRnJQZw?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-18T06:14:00Z",
- "checked_at": "2026-11-20T00:50:47Z",
+ "checked_at": "2026-11-20T04:56:28Z",
  "status": {
-  "as_of": "2026-11-19",
-  "text": "Germany's finance ministry is reportedly weighing stricter takeover rules on derivative stake-building and low-ball bids, following the UniCredit-Commerzbank and Frasers-Hugo Boss cases; no draft bill has been published yet.",
-  "text_ja": "独財務省はユニクレディットのコメルツ銀行買収やフレーザーズのヒューゴボス買収を踏まえ、デリバティブを使った株式取得開示や安値買収への規制強化を検討中。法案はまだ公表されていない。",
+  "as_of": "2026-11-20",
+  "text": "Germany's draft takeover-law bill would add mandatory-offer thresholds at 35%, 40%, 45% and 50% atop the existing 30% level, targeting low-ball creeping bids; planned effective date is Q1 2027, excluding the ongoing UniCredit-Commerzbank deal.",
+  "text_ja": "独財務省案は30%に加え35~50%超でも公開買付けを義務付け、忍び寄り買収を抑制する。2027年第1四半期施行予定で、ユニクレディット・コメルツ銀行買収には適用しない。",
   "refs": [
    {
-    "list": "background",
-    "url": "https://www.boersen-zeitung.de/konjunktur-politik/insider-finanzministerium-diskutiert-schaerfere-uebernahmeregeln"
+    "list": "since",
+    "url": "https://live.euronext.com/en/financial-news/exclusive-germany-plans-takeover-law-overhaul-curb-low-ball-bids-draft-law-shows"
    },
    {
     "list": "background",
-    "url": "https://live.euronext.com/en/financial-news/commerzbank-chair-calls-review-german-takeover-rules-after-unicredit-bid"
+    "url": "https://www.boersen-zeitung.de/konjunktur-politik/insider-finanzministerium-diskutiert-schaerfere-uebernahmeregeln"
    }
   ]
  },
@@ -62,5 +62,14 @@
    "url": "https://www.roedl.com/en/insights/who-owns-commerzbank-a-takeover-thriller-with-rules/"
   }
  ],
- "since": []
+ "since": [
+  {
+   "date": "2026-11-17",
+   "headline": "Reuters: German draft takeover law would add mandatory-offer thresholds at 35%, 40%, 45% and 50%",
+   "summary": "Reuters reported that a draft bill from Germany's finance ministry would require a renewed mandatory offer when an acquirer's stake crosses 35%, 40%, 45% or 50%, on top of the existing 30% threshold, to curb step-by-step \"creeping\" stake-building. The reform is planned to take effect in the first quarter of 2027 and, per government sources, would not apply retroactively to UniCredit's Commerzbank bid or Frasers' completed Hugo Boss offer.",
+   "summary_ja": "ロイターの報道によると、独財務省の法案は既存の30%基準に加え、35%・40%・45%・50%を超えるたびに新たな義務的公開買付けを求め、段階的な「忍び寄り」買収を抑制する狙いだ。施行は2027年第1四半期を予定し、政府当局者によれば現行のユニクレディットによるコメルツ銀行買収やフレーザーズによるヒューゴボス買収には適用されないという。",
+   "source": "Reuters (via Euronext)",
+   "url": "https://live.euronext.com/en/financial-news/exclusive-germany-plans-takeover-law-overhaul-curb-low-ball-bids-draft-law-shows"
+  }
+ ]
 }

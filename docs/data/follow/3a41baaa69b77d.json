@@ -4,15 +4,15 @@
  "link": "https://www.channelnewsasia.com/business/spacex-tesla-merger-talks-progress-bloomberg-news-reports-6547466",
  "source": "CNA Business",
  "published": "2026-11-12T20:42:41Z",
- "checked_at": "2026-11-20T00:50:47Z",
+ "checked_at": "2026-11-20T04:56:28Z",
  "status": {
-  "as_of": "2026-11-13",
-  "text": "Talks advancing: Bloomberg reported Nov 12 that SpaceX-Tesla merger talks are progressing, with a possible announcement as soon as December 2026 or slipping to early 2027; both firms' special committees have not agreed terms.",
-  "text_ja": "ブルームバーグは11月12日、スペースXとテスラの合併協議が進展し、早ければ12月に発表、遅くとも27年初めになり得ると報道。両社の特別委員会は条件に未合意。",
+  "as_of": "2026-11-20",
+  "text": "Musk said Nov 19 a merger would probably make SpaceX and Tesla \"better together\" given growing convergence, but said the decision rests with shareholders, not him.",
+  "text_ja": "マスク氏は11月19日、両社の事業の重なりが増す中、合併すれば「より良い組み合わせ」になりそうだと述べたが、決定権は自分でなく株主にあるとした。",
   "refs": [
    {
-    "list": "background",
-    "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+    "list": "since",
+    "url": "https://247wallst.com/investing/2026/11/19/elon-musk-says-tesla-and-spacex-would-probably-be-better-together/"
    }
   ]
  },
@@ -58,5 +58,22 @@
    "url": "https://techcrunch.com/2026/01/28/tesla-invested-2b-in-elon-musks-xai"
   }
  ],
- "since": []
+ "since": [
+  {
+   "date": "2026-11-19",
+   "headline": "Musk says SpaceX-Tesla merger should not trigger extra pay for him",
+   "summary": "Benzinga reported on Nov 19, 2026 that Elon Musk said a potential SpaceX-Tesla merger should not entitle him to additional compensation beyond his existing Tesla pay package.",
+   "summary_ja": "ベンジンガは2026年11月19日、イーロン・マスク氏がスペースXとテスラの合併によって既存のテスラ報酬パッケージを超える追加の対価を得るべきではないと述べたと報じた。",
+   "source": "Benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63440349/tesla-spacex-merger-pay"
+  },
+  {
+   "date": "2026-11-19",
+   "headline": "Musk says SpaceX-Tesla merger would make companies 'better together,' but leaves decision to shareholders",
+   "summary": "On Nov 19, 2026, Elon Musk said a SpaceX-Tesla merger would probably make the companies \"better together\" given growing convergence between them, but said the ultimate decision rests with shareholders rather than with him.",
+   "summary_ja": "イーロン・マスク氏は2026年11月19日、両社の事業の重なりが増していることから合併すれば「より良い組み合わせ」になりそうだと述べたが、最終判断は自分ではなく株主に委ねられるとした。",
+   "source": "24/7 Wall St",
+   "url": "https://247wallst.com/investing/2026/11/19/elon-musk-says-tesla-and-spacex-would-probably-be-better-together/"
+  }
+ ]
 }

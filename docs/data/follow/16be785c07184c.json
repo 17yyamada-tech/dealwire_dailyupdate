@@ -4,19 +4,19 @@
  "link": "https://www.channelnewsasia.com/business/goldman-apollo-seek-buyers-40-billion-spacex-ai-chip-deal-bloomberg-news-reports-6525526",
  "source": "CNA Business",
  "published": "2026-11-04T21:54:23Z",
- "checked_at": "2026-11-20T00:50:47Z",
+ "checked_at": "2026-11-20T04:56:28Z",
  "status": {
-  "as_of": "2026-11-08",
-  "text": "Goldman is leading the loan tranche and Apollo the bond tranche of SpaceX's ~$40bn Nvidia chip financing; by Nov 6 investors were offered slices up to $500m ahead of formal syndication.",
-  "text_ja": "ゴールドマンが融資、アポロが債券を主導するスペースXの約400億ドルのAIチップ融資。11月6日時点、一部投資家に最大5億ドルの出資枠が提示されている。",
+  "as_of": "2026-11-20",
+  "text": "SpaceX's ~$40bn Nvidia chip financing advanced on Nov 19 as Goldman and Apollo managed a $32bn+ bond sale pricing above 8% yield, while lenders reportedly sought safeguards against the chips being sent into orbit.",
+  "text_ja": "スペースXの約400億ドルのAIチップ融資は11月19日に進展。ゴールドマンとアポロが320億ドルの債券売却を主導し利回りは8%超。貸し手は同チップの宇宙送付を防ぐ安全策も求めた。",
   "refs": [
    {
     "list": "since",
-    "url": "https://www.thestar.com.my/business/business-news/2026/11/06/goldman-apollo-in-talks-to-sell-spacexs-ai-deal"
+    "url": "https://www.bloomberg.com/news/articles/2026-11-19/spacex-eyes-at-least-32-billion-ai-chip-debt-sale-on-thursday"
    },
    {
     "list": "since",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-falls-banks-test-175943061.html"
+    "url": "https://finance.yahoo.com/technology/ai/articles/spacex-lenders-seek-safeguards-against-031830082.html"
    }
   ]
  },
@@ -47,6 +47,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-19",
+   "headline": "Bloomberg: SpaceX plans $32bn+ bond sale for Nvidia chips, yields reported above 8%",
+   "summary": "Bloomberg reported on Nov 19 that SpaceX planned to sell at least $32 billion of bonds that day to help fund its Nvidia chip purchases, with Goldman Sachs and Apollo Global Management managing the sale and yields on the debt reported above 8%; the bond tranche sits within the broader $40 billion-plus off-balance-sheet financing that also includes bank loans, with chips leased to SpaceX for about five years.",
+   "summary_ja": "ブルームバーグによると、スペースXは11月19日、エヌビディア製AIチップ購入資金に充てるため少なくとも320億ドルの債券売却を計画。ゴールドマン・サックスとアポロ・グローバル・マネジメントが売却を主導し、利回りは8%を超えると報じられた。この債券部分は、銀行融資も含む400億ドル超のオフバランス融資全体の一部で、チップは約5年間スペースXにリースされる。",
+   "source": "Bloomberg News",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-19/spacex-eyes-at-least-32-billion-ai-chip-debt-sale-on-thursday"
+  },
+  {
+   "date": "2026-11-19",
+   "headline": "FT: lenders seek safeguards against Musk sending debt-backed Nvidia chips into orbit",
+   "summary": "The Financial Times reported that lenders involved in SpaceX's Nvidia chip financing are seeking contractual safeguards to prevent Elon Musk from sending the chips backing the debt into space for orbital data centers.",
+   "summary_ja": "フィナンシャル・タイムズによると、スペースXのエヌビディア製AIチップ融資に関わる貸し手側が、イーロン・マスク氏が同チップを軌道上データセンター用に宇宙へ送ることを防ぐ契約上の安全策を求めている。",
+   "source": "Financial Times (via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/technology/ai/articles/spacex-lenders-seek-safeguards-against-031830082.html"
+  },
   {
    "date": "2026-11-06",
    "headline": "Goldman leads loan tranche, Apollo leads bond tranche as SpaceX chip-lease financing heads to syndication with slices up to $500m",
