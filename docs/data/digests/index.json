@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-20-1230",
+      "label": "20 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-20T04:36:19Z",
+      "items": 4,
+      "headlines": [
+        "NextEra's $66.8bn Dominion takeover clears US antitrust review",
+        "Kraken parent Payward reaches final agreement to acquire Tribe Capital",
+        "EQT agrees to buy Australian auction marketplace Pickles from Apax"
+      ]
+    },
+    {
       "id": "2026-11-20-0830",
       "label": "20 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-20T00:38:12Z",
