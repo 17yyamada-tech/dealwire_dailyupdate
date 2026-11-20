@@ -4,12 +4,16 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T10:00:23Z",
- "checked_at": "2026-11-20T04:56:28Z",
+ "checked_at": "2026-11-20T07:51:46Z",
  "status": {
-  "as_of": "2026-11-14",
-  "text": "Agreed, pending close: on Oct 14 Payward signed to buy Lithuania-licensed Saldo Bank, its first EU banking license, with Nordic/EU passporting. Price undisclosed; close expected in 2027, subject to regulatory approval.",
-  "text_ja": "Paywardは10月14日、リトアニア免許のSaldo Bank買収契約に署名した。初のEU銀行免許でパスポート権も得る。価格非公表、27年中完了を規制当局承認を前提に見込む。",
+  "as_of": "2026-11-20",
+  "text": "Agreed, pending close: Payward signed Oct 14 to buy Lithuania's Saldo Bank for an EU license, then agreed Nov 18 to buy co-CEO Sethi's Tribe Capital (~$2.6bn AUM); both close in 2027.",
+  "text_ja": "Paywardは10月14日Saldo Bank買収(EU免許)に合意し、11月18日にはTribe Capital(資産約26億ドル)買収にも合意。完了は27年中。",
   "refs": [
+   {
+    "list": "since",
+    "url": "https://primexbt.com/news/kraken-owner-payward-agrees-to-buy-ceo-arjun-sethis-venture-firm-tribe-capital/"
+   },
    {
     "list": "since",
     "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
@@ -59,6 +63,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-18",
+   "headline": "Payward agrees to buy co-CEO Arjun Sethi's venture firm Tribe Capital, worth about $2.6 billion in assets",
+   "summary": "Payward, Kraken's parent, agreed to acquire Tribe Capital Management, a venture and asset-management firm with roughly $2.6 billion in assets under management that was co-founded by Payward co-CEO Arjun Sethi, who remains its chairman; the price was not disclosed and the deal is expected to close in the first quarter of 2027 subject to customary approvals.",
+   "summary_ja": "クラーケン親会社Paywardは、運用資産約26億ドルのベンチャー・資産運用会社トライブ・キャピタル・マネジメントの買収に合意した。同社はPayward共同CEOのアルジュン・セティ氏が共同創業し会長を務めており、買収額は非公表。完了は通常の承認を前提に2027年第1四半期を見込む。",
+   "source": "PrimeXBT (citing CoinDesk)",
+   "url": "https://primexbt.com/news/kraken-owner-payward-agrees-to-buy-ceo-arjun-sethis-venture-firm-tribe-capital/"
+  },
   {
    "date": "2026-11-13",
    "headline": "Payward posts Q3 2026 adjusted EBITDA of $60 million, down 67% year-on-year, names AI a fifth business pillar",
