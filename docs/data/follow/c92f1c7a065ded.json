@@ -4,15 +4,19 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/blackstone-reit-buys-amazon-data-centres-us5-billion-deal",
  "source": "The Business Times",
  "published": "2026-11-16T13:11:42Z",
- "checked_at": "2026-11-21T00:49:40Z",
+ "checked_at": "2026-11-21T04:51:32Z",
  "status": {
-  "as_of": "2026-11-17",
-  "text": "Blackstone Digital Infrastructure Trust agreed Nov 16 to buy a 75% stake in two AWS data-centre joint ventures for about $5bn at a 7.0% cap rate; AWS keeps 25% and leases back the 13 buildings.",
-  "text_ja": "BXDCは11月16日、AWSとの2合弁の75%権益を約50億ドル(初期キャップレート7.0%)で取得合意。AWSは25%を保有し13棟をリースバック。",
+  "as_of": "2026-11-21",
+  "text": "Blackstone's BXDC agreed Nov 16 to buy 75.1% of two AWS data-centre joint ventures (647MW) for $5bn at a 7.0% cap rate; BXDC shares rose about 9% on the news, while Amazon fell 3%.",
+  "text_ja": "ブラックストーンのBXDCは11月16日、AWSとの2合弁(647MW)の75.1%権益を約50億ドルで買収合意。発表後BXDC株は9%上昇、アマゾン株は3%下落した。",
   "refs": [
    {
     "list": "since",
     "url": "https://www.sec.gov/Archives/edgar/data/0002100161/000119312526461954/d115778dex991.htm"
+   },
+   {
+    "list": "since",
+    "url": "https://blockonomi.com/blackstone-digital-infrastructure-trust-bxdc-stock-jumps-after-5-billion-deal-for-amazon-data-centers/"
    }
   ]
  },
@@ -59,6 +63,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-16",
+   "headline": "BXDC shares rise about 9%, Amazon shares fall about 3% after $5bn AWS data-centre deal is announced",
+   "summary": "BXDC's share price rose roughly 9% on Nov 16 after it announced the $5 billion AWS data-centre acquisition, while Amazon shares fell about 3% the same day; commentary flagged added tenant and asset concentration risk for BXDC from the deal.",
+   "summary_ja": "11月16日、BXDCがAWSとの50億ドルのデータセンター取得を発表した後、BXDC株は約9%上昇し、アマゾン株は約3%下落した。市場では、この取引によりBXDCのテナント・資産集中リスクが高まるとの指摘も出ている。",
+   "source": "Blockonomi",
+   "url": "https://blockonomi.com/blackstone-digital-infrastructure-trust-bxdc-stock-jumps-after-5-billion-deal-for-amazon-data-centers/"
+  },
   {
    "date": "2026-11-16",
    "headline": "Blackstone's BXDC agrees to buy 75% stake in two AWS data-centre joint ventures for about $5bn at 7.0% cap rate",

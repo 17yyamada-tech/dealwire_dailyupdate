@@ -4,19 +4,19 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-21T08:00:00Z",
+ "checked_at": "2026-11-21T04:50:47Z",
  "status": {
-  "as_of": "2026-11-19",
-  "text": "Yen holds near 160 per dollar as Katayama warns of one-sided moves; BOJ's Ueda said Nov 18 the bank should keep raising rates despite accommodative conditions.",
-  "text_ja": "ドル円は160円近辺で推移。片山財務相は一方的な動きを警告し、日銀の植田総裁は11月18日、緩和的な環境下でも利上げを継続すべきと述べた。",
+  "as_of": "2026-11-21",
+  "text": "Yen trades near 160/dollar as intervention risk persists; Fed minutes released Nov 18 show officials expect a December quarter-point hike, with CME FedWatch pricing a nearly 95% probability.",
+  "text_ja": "ドル円は160円近辺、介入警戒継続。11月18日のFOMC議事録で12月0.25%利上げ観測強まり、CME集計は確率95%近辺。",
   "refs": [
    {
     "list": "since",
-    "url": "https://www.vtmarkets.com/en-asia/live-updates/ueda-signals-further-boj-rate-rises-as-usd-jpy-nears-160-intervention-risk/"
+    "url": "https://www.adn.com/business-economy/2026/11/18/fed-minutes-higher-interest-rates-needed-in-december-as-inflation-worries-mount/"
    },
    {
     "list": "since",
-    "url": "https://www.fxstreet.com/analysis/usd-jpy-intervention-risk-comes-to-the-fore-202611170819"
+    "url": "https://www.vtmarkets.com/en-asia/live-updates/ueda-signals-further-boj-rate-rises-as-usd-jpy-nears-160-intervention-risk/"
    }
   ]
  },
@@ -87,6 +87,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-18",
+   "headline": "Fed minutes show officials favoring a December rate hike, pushing USD/JPY back toward 160",
+   "summary": "Minutes from the Federal Reserve's October 27-28 meeting, released Nov 18, showed nearly all officials expected a quarter-point rate hike in December, with CME FedWatch pricing the probability at nearly 95%; the hawkish tone lifted the dollar and pushed USD/JPY back toward the 160 level watched for possible Japanese intervention.",
+   "summary_ja": "FRBが11月18日に公表した10月27~28日分の会合議事録によると、大半の当局者が12月の0.25%利上げを予想しており、CMEフェドウォッチの確率は95%近辺とされた。この内容を受けドルが上昇し、ドル円は介入の目安とされる160円近辺まで戻した。",
+   "source": "Associated Press (via Anchorage Daily News)",
+   "url": "https://www.adn.com/business-economy/2026/11/18/fed-minutes-higher-interest-rates-needed-in-december-as-inflation-worries-mount/"
+  },
   {
    "date": "2026-11-18",
    "headline": "BOJ's Ueda signals readiness for more rate hikes as USD/JPY holds near 160",
