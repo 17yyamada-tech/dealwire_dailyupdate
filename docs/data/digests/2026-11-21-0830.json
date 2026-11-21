@@ -1,0 +1,334 @@
+{
+  "edition": "2026-11-21-0830",
+  "edition_label": "21 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T00:33:31Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "CrowdStrike in talks to acquire AI-security partner Zscaler in what could be cybersecurity's largest-ever deal",
+      "summary": "CrowdStrike is in talks to acquire Zscaler, an AI-security partner, according to people familiar with the matter. Reports describe the potential tie-up as one of the largest deals in cybersecurity history; no price or terms have been disclosed.",
+      "why_it_matters": "Combining two of the biggest platforms in endpoint and cloud security would reshape vendor consolidation just as enterprises scramble to secure fast-growing AI workloads. It would also be the clearest signal yet that cybersecurity dealmaking, long dominated by smaller tuck-in acquisitions, is entering an era of mega-mergers.",
+      "summary_ja": "複数の関係者によると、CrowdStrikeはAIセキュリティ分野のパートナーであるZscalerの買収に向けて協議中。買収額や条件は明らかになっていないが、報道はこれをサイバーセキュリティ業界史上最大級の取引になり得ると位置づけている。",
+      "why_it_matters_ja": "エンドポイントとクラウドセキュリティで最大手同士が統合すれば、企業がAIワークロードの保護を急ぐ中で業界再編の節目となる。サイバーセキュリティ業界のM&Aが小型の買収中心から大型統合の時代に入ったことを示す最も明確なシグナルとも言える。",
+      "status": "new",
+      "prev": null,
+      "key": "crowdstrike-zscaler-talks",
+      "ids": [
+        "e6703f333e4307",
+        "b8697a96920f92"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/crowdstrike-in-talks-acquire-zscaler-sources-say-6570666"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSFhNb0ZlYkFVQy1VOE9IUm9ydm5yU01MbEZ5THVsQm50S3RyQ1lWYlZNRF9XeEpGZWR2NW5vdXA5X3ZJRFgwbkpad0dWbU4teFhacHJiOHBQeG8tN2h0akxEWjdoczh0ak52Qzh6dWxQV1piZHN0a09sQ2dXTkJiZEtkMjJYXzFsUEkxTUtQQjB3S0cwOEE2ZjFqYw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other",
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "GTCR explores roughly $50bn takeover of Global Payments, shares jump over 10%",
+      "summary": "GTCR, Global Payments' top shareholder, is exploring a takeover of the payments company valued at around $50bn, according to people familiar with the matter. Global Payments shares jumped more than 10% on the report.",
+      "why_it_matters": "A deal at that size would rank among the largest take-privates in payments, testing private-equity appetite for leverage in a higher-rate environment. It would also mark one of the biggest sponsor-led buyouts of 2026, at a time when many large funds have struggled to put capital to work.",
+      "summary_ja": "関係者によると、グローバル・ペイメンツの大株主であるGTCRが、同社を約500億ドルで買収することを検討している。この報道を受けグローバル・ペイメンツの株価は10%超上昇した。",
+      "why_it_matters_ja": "この規模の買収が成立すれば決済業界で最大級のテイクプライベートとなり、高金利環境下でのPEファンドによるレバレッジ活用の試金石となる。多くの大型ファンドが資金の出し手に苦慮する中、2026年最大級のスポンサー主導型買収にもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "gtcr-global-payments-takeover-talks",
+      "ids": [
+        "8184f1377817ea",
+        "0b4ddbeaa29e16"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/gtcr-explores-potential-takeover-payments-firm-global-payments-6570801"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNazRXZ1RBWGptUW5mV1laSExFMjJDVVdCSnpnVHVJREZ3eVE1SlhXUXl3ZXU3MjBMVm1mVEg3Z0xEenYxeVJnTzNfVzRnNTZOV3otREVlcTNPRkh2U2h3TUc2VmRjbzB2LUUxOHdoTlB4c0Fk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Apollo and Goldman lead $44bn debt financing for SpaceX's GPU purchases",
+      "summary": "Apollo Global Management and Goldman Sachs are leading a $44bn debt financing package to fund SpaceX's purchases of GPUs, according to a report. The facility is structured as debt rather than new equity in the rocket and satellite company.",
+      "why_it_matters": "The financing adds to a mounting pile of debt being raised against AI compute demand, a structure that keeps GPU spending off equity investors' balance sheets but builds leverage risk if AI returns disappoint. It also underscores how central private credit has become to funding the AI infrastructure build-out, with banks and asset managers increasingly sharing the risk.",
+      "summary_ja": "報道によると、アポロ・グローバル・マネジメントとゴールドマン・サックスが、スペースXのGPU購入資金を調達するための440億ドル規模のデット・ファイナンスを主導している。同スキームはエクイティではなく負債として組成されている。",
+      "why_it_matters_ja": "AI需要を見込んだ負債調達が積み上がっており、資金はエクイティを希薄化させない一方、AI投資の回収が遅れればレバレッジリスクが高まる。銀行と資産運用会社がリスクを分担する形で、プライベートクレジットがAIインフラ投資の資金源として一層重要になっていることも示す。",
+      "status": "new",
+      "prev": null,
+      "key": "apollo-goldman-spacex-gpu-financing",
+      "ids": [
+        "3fbb14f2185cfb"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-6570241"
+        }
+      ],
+      "categories": [
+        "PE",
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "NSK and NTN to merge into holding company NTN Nissei, effective October 2027",
+      "summary": "Japanese bearing makers NSK (Nippon Seiko) and NTN announced a management integration effective October 1, 2027, under a new holding company to be named NTN Nissei (NTN日本精工). The companies set a share transfer ratio of 1-to-0.353, according to a Reuters report.",
+      "why_it_matters": "Combining two of Japan's largest bearing manufacturers consolidates a fragmented auto-parts supply chain at a moment when Japanese industrials are under pressure to scale through M&A rather than organic growth. The tie-up also reflects a broader wave of defensive consolidation among mid-cap Japanese manufacturers facing slowing domestic auto production.",
+      "summary_ja": "日本の軸受メーカー、日本精工とNTNは経営統合を発表し、2027年10月1日付で新たな持株会社「NTN日本精工」を設立する。ロイターの報道によると、株式移転比率は1対0.353で設定された。",
+      "why_it_matters_ja": "日本を代表する軸受メーカー同士の統合であり、自動車部品業界の再編が進む中、日本の産業各社が自律的な成長ではなくM&Aによる規模拡大を迫られていることを映す。国内自動車生産の鈍化に直面する中堅製造業の間で広がる防衛的な再編の流れも反映している。",
+      "status": "new",
+      "prev": null,
+      "key": "nsk-ntn-merger",
+      "ids": [
+        "3c49a5e639938b",
+        "d0585f46bf101b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45RWxjSVhTckNSa284ZldCelZMNm9fdnhmcVliYTBRRTJQWVd0M1JGMnpkc05mUHNOU0otX2s5NFNGVGVRSjl2VFNBc2FndHhBbWtDdExhXzhsa3U5UUMxb1g1QzFxY3JMZXhpQlN3RUhMeTlvNVZzLTA0RWZDRVE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQREg4b0poejU1SFozbWNWSlR1MjBLb3hIX3JxZHFsWTJqd0tkYXdPUDBuVmR5V0FOOWs1eGdtdHV5RUhVMUxWdE01S1hjLTVYVVB5SzhRc3RYVm83ZU5CUnZMNl96cERoVFdiVjB3eDdVOE1mLU9handlWWdweU9VZ0NUMG1tWWtiWFJjcWtR?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other",
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "KKR weighs $8bn-$10bn acquisition of data-centre operator EdgeCore, Bloomberg reports",
+      "summary": "KKR is considering an acquisition of EdgeCore valued at $8bn to $10bn, Bloomberg reported, citing people familiar with the matter. EdgeCore is a data-centre operator.",
+      "why_it_matters": "A deal of this size would be among the largest PE moves yet into data-centre infrastructure, reflecting sponsors' continued appetite to bet on AI-driven demand for compute capacity despite recent market jitters over AI valuations. It would also test how much private capital is still willing to flow into compute infrastructure after a volatile month for AI-related equities.",
+      "summary_ja": "ブルームバーグの報道によると、KKRはデータセンター運営会社EdgeCoreを80億～100億ドルで買収することを検討している。関係者の話として伝えられた。",
+      "why_it_matters_ja": "実現すればPEファンドによるデータセンター関連投資としては最大級となり、AI相場への懸念が広がる中でもAI需要を見込んだ投資意欲が続いていることを示す。AI関連株が不安定だったこの1カ月を経て、民間資本が計算インフラにどれだけ流入し続けるかを試す試金石にもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "kkr-edgecore-acquisition-talks",
+      "ids": [
+        "9c4987d10ff848"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HaDM3d2dDS19oS3NoRWtKUXN1eENnaHcwcGtvdndjc005cVI5SXBSNDJwMTRkZHN6M3VnYzN3N3R0c1pWWGpHSllWc3E1bmxSdTBJek5SUDdyMTh4ODdHc3ZaRDZmbjNiZjUtNGhiX00?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Wacom to go private via MBO backed by MBK Partners, deal size tops ¥90bn",
+      "summary": "Wacom plans to delist through a management buyout backed by Asian private-equity firm MBK Partners, in a deal valued at more than ¥90bn. Wacom's board has issued an opinion supporting the MBO and recommending shareholders tender into the upcoming offer, and a Samsung-affiliated shareholder is expected to reinvest in the company.",
+      "why_it_matters": "The reinvestment by Wacom's Samsung-linked shareholder suggests continuity in a key strategic relationship even as the pen-and-display maker exits public markets, a pattern increasingly common in Japan's wave of founder- and sponsor-backed delistings. It also signals that strategic shareholders are willing to stay on as minority partners under new ownership rather than cash out entirely.",
+      "summary_ja": "ワコムは、アジア系投資ファンドMBKパートナーズの支援を受けたMBO(経営陣による買収)を通じて非公開化する方針で、取引規模は900億円を超える。同社取締役会はMBOへの賛同意見を表明し、株主に応募を推奨した。サムスン系株主は再出資する見通し。",
+      "why_it_matters_ja": "サムスン系株主が再出資する構図は、ペン・ディスプレイ大手が株式市場を退出してもなお戦略的関係が継続することを示し、創業者やスポンサー主導の非公開化が相次ぐ日本市場の潮流を映す。戦略的株主が完全に資金を引き揚げず、新たな株主構成の下でも少数株主として残る意思があることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "wacom-mbo-mbk-partners",
+      "ids": [
+        "5dcea3d4453f49",
+        "a7141a45fdb227",
+        "ff16c2097629e1"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0ycW5SYkdZeFpITnp6aHZ1aFlFX0VIS3RkTE1YRmlyVEQwZlhqMG9KVmxtODFZWDlheGhod3h5T2g4eFIzVU5oYlZRMW1Ydm9uZ2N6LUtxanprTFlVQ0tic0FWU19KNkFWZDFBUg?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBIZ1lnSE9HRC1mb2YyTEhQZ0dvSXJoX1o1aS16eVI1am1qbTBfNHJ2QjV6amJPVWY3M01LM1p0TXhUQQ?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MRm9pcFIybHZ0WjNqbmdscHNHdE9HanhMdTQxWFhJUjFGcGFnTVoydzlYZGpfNUVPaHZJTHBDM1ZGa2lkMEYwaEVTWEd4VHYzclhXNkZ4YlYzWGxnWUI1VURqRmQ4eHpXd1E?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "I-ne founder launches MBO with Integral at ¥2,248 a share, ¥17.7bn tender offer",
+      "summary": "I-ne, the Japanese cosmetics company behind the Botanist brand, is going private via a management buyout led by founder-president Onishi, partnering with private-equity firm Integral Group. A special-purpose company will tender for shares at ¥2,248 apiece in a deal valued at about ¥17.7bn, and Onishi is expected to remain in charge to continue management reforms.",
+      "why_it_matters": "Keeping the founder in place through the buyout signals Integral is backing continuity in strategy rather than a management overhaul, a structure likely to be watched as a template for other founder-led Japanese consumer names going private. It also reflects the continuing wave of Tokyo-listed consumer and beauty companies opting for MBOs rather than strategic sales.",
+      "summary_ja": "化粧品ブランド「ボタニスト」を展開するI-neは、創業社長の大西氏が主導するMBOで非公開化する。PEファンドのインテグラル・グループと組み、買収目的会社が1株2,248円でTOBを実施、取引規模は約177億円。大西社長は経営改革を続けるため続投する見通し。",
+      "why_it_matters_ja": "買収後も創業社長が続投する構図は、インテグラルが経営体制の継続を重視していることを示し、創業者主導で非公開化する日本の消費財企業にとってのひな型となり得る。事業売却ではなくMBOを選ぶ東証上場の消費財・美容関連企業の潮流が続いていることも示す。",
+      "status": "new",
+      "prev": null,
+      "key": "i-ne-botanist-mbo-integral",
+      "ids": [
+        "12600558e3f946",
+        "3745b400fd8007",
+        "6babd325ca42d5"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HbWktTVN0blVmVFBRcDM0bmY5b2tLeWt2dDVxOXV0Nm84R0FIT3JkbDdwbU1LRlZGVFp4UWFwc0pTckpZMGdVSGRVYVFHOVNvQW5iQXpKV0h1NEdyOWxLQXJJcnpEVDlMZHJpVGkxc0c2YUNw?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQU1seUxTcWd3OWJ2OU1uUEtJakt5ZVc5OWdDMTg1bm9HLUpGUm85M0IyTUg5dTRyMVVhd2ZQWWp1WlJIVUNGVnZSZDlXWDJUQS04b0J0Ry1YT29qQ2V5UVgweFB0OV9tM0VLVVhYdGpReVItRmpqZkxyeEFmTTg5R0Vn0gGHAUFVX3lxTE51M1Z6S2kxanM0YzdHNHNHRS0tYU1NWDdlWmxyRVZEQkRibjExSzdiaWJBTmtUQXd0akhqX2ZsN2N5WEhLTnVfNkx3d0pTaFpXTzFFaXowWEt3OVFnTkp0bENLbFZaMlF0cEdlMG10MWtrUnhUNlRvRm1JLTZiUU8xVXNQZmxUbw?oc=5"
+        },
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DaEJHMDdyWFd6RnVJRWlhTWg1QURpOTQwYjdFZy1JOWNYdmE5RUdmQnVvU21JaFVCMTZJVllXVExMeFNHT0xpSjNURnIxdDFVRUF5NkhVamd0YWZFcFZZZENmSklWQXYxQWVCeXZFLTBnUXBMYjVyU3BxNFl3WFk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "SK Hynix to become Kioxia's top shareholder through bond conversion",
+      "summary": "SK Hynix is set to become the top shareholder in rival chipmaker Kioxia by converting bonds into common shares. The combined NAND flash-memory market share of SK Hynix and Kioxia now exceeds that of competitor Samsung, according to a report.",
+      "why_it_matters": "Deepening SK Hynix's financial stake in Kioxia strengthens a key rival bloc to Samsung in NAND memory just as AI-driven demand for storage tightens supply and pricing across the industry. It also leaves Kioxia more financially entangled with a chip-cycle rival rather than remaining a fully independent competitor.",
+      "summary_ja": "SKハイニックスは、社債を普通株式に転換することでライバルのキオクシアの筆頭株主になる見通し。報道によると、SKハイニックスとキオクシアを合わせたNAND型フラッシュメモリーの世界シェアは、競合サムスンを上回っている。",
+      "why_it_matters_ja": "SKハイニックスがキオクシアへの出資を深めることで、NANDメモリー市場におけるサムスン対抗陣営が強化され、AI需要の高まりでストレージの需給と価格が引き締まる局面での業界構図に影響する。キオクシアが完全に独立した競合ではなく、チップサイクルを共にするライバルとの結びつきを強めることにもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "sk-hynix-kioxia-top-shareholder",
+      "ids": [
+        "f102074b6671ac",
+        "eb70ecd0046a9e",
+        "d4f80cfb394769"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/sk-hynix-become-top-kioxia-shareholder-after-bond-conversion"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/sk-hynix-become-top-shareholder-in-rival-kioxia-after-bond-conversion-6569061"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tSTk2RWs3Y0NseUZmVzdOTng0eE1HSjJxemNpd3JvaEkxVndBS2IzNFRRb01jWUtXMld4ek40LTJ1ajRtRHBNMG5MUS1WelNpdzJxUkh3MGpmQ083WUtHTlphaF9XV2dIRHN4eg?oc=5"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Singapore's Tafa Education lodges offer document for Catalist IPO after 82% revenue growth",
+      "summary": "Singapore-based education enrichment firm Tafa has lodged its offer document for a listing on the Catalist board. The group posted first-half net profit of S$2m on revenue that grew 81.9% to S$9.5m.",
+      "why_it_matters": "The filing adds to a thin pipeline of Catalist listings this year and gives Singapore-focused investors a rare small-cap growth story in education services. The strong profit growth also offers an early read on appetite for smaller consumer-services listings even as larger regional IPOs stay cautious.",
+      "summary_ja": "シンガポールの教育関連企業Tafaは、カタリスト市場への上場に向けた募集目論見書を提出した。同社の上期純利益は200万シンガポールドル、売上高は81.9%増の950万シンガポールドルだった。",
+      "why_it_matters_ja": "カタリスト市場への新規上場が乏しい中での案件であり、シンガポールの投資家にとって教育サービス分野の希少な小型成長株となる。大型の域内IPOが慎重姿勢を続ける中、小型の消費者サービス関連上場への需要を測る早期の指標にもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "tafa-catalist-ipo-filing",
+      "ids": [
+        "c5bca71fa0d1e5"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/education-enrichment-firm-tafa-lodges-offer-document-catalist-ipo"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "MasTec shares fall as it agrees to buy Australia's Murphy for $1.25bn",
+      "summary": "US infrastructure contractor MasTec agreed to acquire Australian company Murphy for $1.25bn. MasTec shares fell on the announcement, according to a report.",
+      "why_it_matters": "The deal extends MasTec's infrastructure-services push into Australia, though the share-price drop suggests investors are weighing integration and price risk on the acquisition. It also shows US infrastructure contractors continuing to look abroad for growth even as valuations for such assets climb at home.",
+      "summary_ja": "米インフラ建設大手マステックは、豪マーフィーを12.5億ドルで買収することに合意した。この発表を受け、マステックの株価は下落したと報じられている。",
+      "why_it_matters_ja": "この買収はマステックのインフラサービス事業をオーストラリアに拡大するものだが、株価下落は投資家が統合リスクや買収価格を懸念していることを示す。国内でこうした資産の評価額が上昇する中でも、米インフラ業者が海外に成長機会を求め続けていることも示す。",
+      "status": "new",
+      "prev": null,
+      "key": "mastec-murphy-australia-acquisition",
+      "ids": [
+        "fc5afd7bf0e6ab"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZUFBUWx4NVNJWFViMVl1U1p6N0x6T3dNR1lFWEJvUS14WW44WVptazc2X1R1cDRZRWFJWmNuTFNmYW5GNlFZbW9aM2IxNTgteVcySGhmbjFoMGhzcWZZMUVERGxFcHBOdlFIY1ZRMTFPLXZfMkREWll2Qk01Slg0dFlJV0Z3YjA?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

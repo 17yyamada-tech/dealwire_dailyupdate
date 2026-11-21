@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-21-0830",
+      "label": "21 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-21T00:33:31Z",
+      "items": 10,
+      "headlines": [
+        "CrowdStrike in talks to acquire AI-security partner Zscaler in what could be cybersecurity's largest-ever deal",
+        "GTCR explores roughly $50bn takeover of Global Payments, shares jump over 10%",
+        "Apollo and Goldman lead $44bn debt financing for SpaceX's GPU purchases"
+      ]
+    },
+    {
       "id": "2026-11-20-1530",
       "label": "20 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-20T07:35:39Z",
