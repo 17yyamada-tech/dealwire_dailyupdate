@@ -1,0 +1,153 @@
+{
+  "edition": "2026-11-21-1530",
+  "edition_label": "21 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T07:40:00Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Advent-FedEx-PPF consortium completes €7.8bn buyout of InPost",
+      "summary": "A consortium of Advent International, FedEx, A&R and PPF has completed its acquisition of InPost in a deal valued at €7.8bn, according to a report. No further terms were disclosed.",
+      "why_it_matters": "Pairing a strategic buyer, FedEx, with financial sponsors Advent and PPF makes this one of the largest buyouts to close this week, a sign large-cap PE and logistics dealmaking in Europe is still moving despite choppier markets elsewhere. Closing, rather than merely agreeing, the deal also removes the usual regulatory and financing overhang that drags out consortium buyouts of this size.",
+      "summary_ja": "アドベント・インターナショナル、フェデックス、A&R、PPFによるコンソーシアムが、InPostの買収を完了したと報じられた。買収額は78億ユーロで、その他の条件は明らかになっていない。",
+      "why_it_matters_ja": "戦略的買い手であるフェデックスと財務的スポンサーのアドベント、PPFが連合を組んだ形で、今週完了した買収の中でも最大級の規模となった。他地域の市場が不安定な中でも、欧州における大型PE・物流案件の勢いが続いていることを示す。買収合意ではなく完了に至ったことで、同規模のコンソーシアム案件を長引かせがちな規制・資金調達面の不確実性も取り除かれた。",
+      "status": "new",
+      "prev": null,
+      "key": "inpost-advent-fedex-buyout-completion",
+      "ids": [
+        "6fd6ddf31ee676"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XbkVlcTRnTUhySWY2MzctQ0h4ZXl0YUhEak5rX2E5Z0tETElmY25ibUdfUlA2cWVlTnVVTWN0aGgzQnJHS1M2ZUdIUzF3NGxiVUZYemdvT1Z5YW1yV1N3N1Y5M28yTVYwM0F1ZVcwY3piR2Fo?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Nvidia in talks to buy AI startup Inception for more than $500m",
+      "summary": "Nvidia is in talks to acquire Inception, a startup working on diffusion-based large language model technology, in a deal that could exceed $500m, according to reports. Nvidia is said to be betting the technology can speed up AI inference and strengthen its Nemotron AI models.",
+      "why_it_matters": "A deal would hand Nvidia an alternative architecture for faster AI inference just as rivals race to cut compute costs, reinforcing its push to extend its grip on the AI stack beyond chips. It also shows Nvidia still has appetite for sub-$1bn tuck-ins even as investors question the sustainability of AI-infrastructure spending more broadly.",
+      "summary_ja": "報道によると、エヌビディアは拡散モデル型の大規模言語モデル技術を手がけるスタートアップInceptionの買収交渉を進めており、買収額は5億ドルを超える可能性がある。同技術でAI推論を高速化し、自社のNemotron AIモデルを強化する狙いとされる。",
+      "why_it_matters_ja": "実現すれば、競合各社が計算コスト削減を競う中、エヌビディアはAI推論を高速化する別のアーキテクチャを手にすることになり、半導体に加えてAIスタック全体への支配力を強める動きとなる。AIインフラ投資の持続性に市場が疑問を投げかける中でも、エヌビディアが10億ドル未満の小型買収にまだ意欲を持っていることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "nvidia-inception-acquisition-talks",
+      "ids": [
+        "b1902c76de5d13",
+        "a2b6cda9e806b9",
+        "c63736143b7867"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODJET2pBZGJENkVxZ1d6SFM5aXFuNW0xQTg5TC1MZjZBUEIzMk00SVVsb1J4QUNpTGIySm5SYXJYbjBRcXFXYXItMXB1TDRKR3FrVDZnRnlaQ2FaVmNQak9rNzN1V0lfVkI1LVlmMEs0SWJvVFB2dTJfeGY4NFNhU3h3cE5KckhnZjhiaDdB?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUT1pQRXBFUkpwS2l6c21ISE8za241MTFiNm1pampNckcwak1zeGpKN2NpZkJhSFhraHI4MW1CblpYbXpJd3lfY1U2cnV0MHQ2SFlJOER4dUZiRFBXb2NvT3NQdzl5ZUN6M2dZNGdxM3VjUy1u?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWHlyNXR5R3JfNzZQcGZtc0ZtYUF5S3AzQzI5S2w2ZVBfTjNJVkdEXzZ6Rmlhd1FxQkQ1MURoWWxWem1SV0dzNEhsVUNwcmtEY0tXTVpwVnk4ZElXZG91b25tV0hGeDJFeFlYeWdHSGVNWEFCcVdVNTZIY2lGS0FaQjh2TWpNRE56M3lZcnMtN3NQZVQ3MjlBQ3pubXpZSm1zM0RqYy1oajhnVlkxcE0ybHJJNkpWaGR6Y3p2SUR3?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Watami founder Miki Watanabe launches MBO to take restaurant chain private",
+      "summary": "Watami founder Miki Watanabe is pursuing a management buyout to take the Japanese restaurant operator private, buying back the company he founded, according to a report. Terms of the buyout were not disclosed.",
+      "why_it_matters": "A founder-led MBO would let Watami restructure away from public-market scrutiny, continuing a run of take-private deals among Japanese consumer and restaurant operators this year. It also underscores how founder-controlled firms are increasingly willing to use MBOs rather than activist pressure or a trade sale to regain control of strategy.",
+      "summary_ja": "報道によると、ワタミ創業者の渡辺美樹氏がMBOにより同社の非公開化を進めており、渡辺氏自身が自ら創業した会社を買い戻す形となる。買収条件は明らかになっていない。",
+      "why_it_matters_ja": "創業者主導のMBOにより、ワタミは株式市場の監視から離れて事業を再構築できるようになる。今年相次いだ日本の消費関連・外食企業の非公開化の流れに連なる動きだ。創業者が経営権を取り戻す手段として、アクティビストの圧力や事業売却ではなくMBOを選ぶ傾向が強まっていることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "watami-founder-mbo-takeprivate",
+      "ids": [
+        "171f33d479d518"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5GQ183eUU5TGNCOGNCLXFMUU4ySjZYVmRTaEY3Qm05dDVrdEJzTEljV1J5QU5ld0I0YnN0bFoyZkVMSmJwUzh2c3l6NkJhZmV6?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "Siemens buys two semiconductor-verification firms in US and Germany",
+      "summary": "Siemens has acquired two companies, one in the US and one in Germany, to strengthen its semiconductor verification capabilities, according to a report. The company said the move is aimed at improving chip-development efficiency for the AI era.",
+      "why_it_matters": "Bolt-on deals in chip-design tooling show established industrial and software players are still investing in the picks-and-shovels of AI infrastructure even as broader AI-stock sentiment wobbles. Two acquisitions in one move also signals Siemens is consolidating a fragmented verification-tools niche rather than building the capability organically.",
+      "summary_ja": "報道によると、シーメンスは半導体検証能力を強化するため、米国とドイツの企業2社を買収した。AI時代に対応した半導体開発の効率向上を狙うとしている。",
+      "why_it_matters_ja": "大手の総合電機・ソフトウェア企業が、AI関連株への市場センチメントが揺れる中でも、チップ設計ツールという「AIインフラの裏方」への投資を続けていることを示す。一度に2社を買収したことは、シーメンスが自社開発ではなく、分散した検証ツール分野の統合を進めていることも示している。",
+      "status": "new",
+      "prev": null,
+      "key": "siemens-semiconductor-verification-acquisitions",
+      "ids": [
+        "860e83f59835fd"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DYmRBQlZ6dGhrZ0lvZk9GdzdSbVYwNkZfU2h2MFE2R1RyWnNvd1lRNHJCaS1iQlY3QXFEOXJYT3ZoUkdaMElvWGxtdlNxNWxmT0JVYm5GNnNCWm5acmVKOTV5dw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "KKR moves to acquire Portugal's Logoplaste, Bloomberg reports",
+      "summary": "KKR is moving to acquire Logoplaste, a Portuguese packaging manufacturer, according to a Bloomberg report. No deal terms were disclosed.",
+      "why_it_matters": "The deal would add a European industrials asset to KKR's portfolio, as sponsors hunt for resilient, cash-generative manufacturing businesses outside the crowded AI-infrastructure trade. It also points to continued sponsor interest in packaging, a sector that has drawn repeat PE buyers for its steady, contract-backed cash flows.",
+      "summary_ja": "ブルームバーグの報道によると、KKRはポルトガルの包装メーカーLogoplasteの買収を進めている。買収条件は明らかになっていない。",
+      "why_it_matters_ja": "実現すれば、AI関連インフラへの投資が集中する中、安定したキャッシュを生む欧州の製造業資産がKKRのポートフォリオに一つ加わることになる。契約に基づく安定した現金収益を理由に、PEファンドが繰り返し買い手となってきた包装セクターへの関心が続いていることも示す。",
+      "status": "new",
+      "prev": null,
+      "key": "kkr-logoplaste-acquisition",
+      "ids": [
+        "ba36218186c6ae"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81N0tMajNjVjlYSjlFbXJBN282cGI2OVNzLTIxa0RtZEdHR1RzcTVERk50bTA2ai1xQ0VXek5PbGUzem52QWxta0RGSjVwdXJYcFFHeUtUTGxPZ1RPMUV2ZXZrcnNRRGdXN1k5cUFFZDM?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
