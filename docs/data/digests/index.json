@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-21-1230",
+      "label": "21 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-21T04:35:00Z",
+      "items": 5,
+      "headlines": [
+        "SoftBank confirms Son once explored $1tn SK Hynix buyout, not actively pursuing it now",
+        "LINE Yahoo makes formal takeover proposal for Tabelog as bidding contest heats up",
+        "Databricks in early talks to raise funding at $225bn valuation, WSJ reports"
+      ]
+    },
+    {
       "id": "2026-11-21-0830",
       "label": "21 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-21T00:33:31Z",

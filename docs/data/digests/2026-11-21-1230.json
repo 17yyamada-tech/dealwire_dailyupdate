@@ -1,0 +1,96 @@
+{
+  "edition": "2026-11-21-1230",
+  "edition_label": "21 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T04:35:00Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "SoftBank confirms Son once explored $1tn SK Hynix buyout, not actively pursuing it now",
+      "summary": "SoftBank founder Masayoshi Son previously explored a buyout of SK Hynix valued at roughly $1tn and reportedly approached Wall Street banks about financing it. SoftBank has confirmed it is not actively pursuing the deal at present, and SoftBank and SK Hynix did not immediately respond to requests for comment.",
+      "why_it_matters": "A buyout of that scale would dwarf any prior tech or chip acquisition and shows how aggressively Son is weighing bets on AI-critical memory supply. SoftBank's move to distance itself from an active pursuit suggests financing or strategic hurdles remain even for one of tech's boldest dealmakers.",
+      "summary_ja": "ソフトバンクの孫正義会長兼社長は、約1兆ドル規模のSKハイニックス買収をかつて構想し、資金調達についてウォール街に打診していたと報じられた。ソフトバンクは現時点でこの買収を積極的に推進していないと説明しており、ソフトバンクとSKハイニックスはいずれも取材に即答しなかった。",
+      "why_it_matters_ja": "この規模の買収が実現すれば過去のテック・半導体買収を大きく上回り、孫氏がAIに不可欠なメモリー供給にどれほど大胆な賭けを検討しているかを示す。ソフトバンクが積極推進を否定したことは、業界で最も攻めの姿勢を取るディールメーカーにとってもなお資金調達や戦略上のハードルが残ることを示唆する。",
+      "status": "new",
+      "prev": null,
+      "key": "softbank-son-sk-hynix-trillion-buyout",
+      "ids": ["233bdb546780ef", "89efbc93195f42", "b5f34e35825f25"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUSFo5Sml1Y2lqU0FTVThrS3pQNTUxMG5WQ2dscDdVQzRuSG5kSE5vVHdJbEJ1VS13Z0FmX0ktYUNyYmVKeW0tUGZTam9Da1ZpaGc4OTlMekE3OXNXLXgweFJENTl2bU10WGhHU3E2YmMyOUZF?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XNDFBSHppMVpXWTViMVJyZ3d2VVcyU0lBdWZqYmpDRTEwWGxfZjgzcHJiRGFpUHI2UDgyQzkyMUJxUWNoNG8xZHEyRFJfME5PcFZVWFgyc2dLQnlRZ0R0TmQyY3BPNlE1ZlYwUXhZWlQwREpm?oc=5"},
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/softbanks-son-explored-us1-trillion-buyout-sk-hynix-report"}
+      ],
+      "categories": ["M&A", "PE"],
+      "countries": ["US", "SG", "SEA"],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "LINE Yahoo makes formal takeover proposal for Tabelog as bidding contest heats up",
+      "summary": "LINE Yahoo has made a formal proposal to acquire Tabelog, Japan's leading restaurant-review platform, as a contest for control of the company intensifies, according to a Japanese M&A report. No financial terms were disclosed.",
+      "why_it_matters": "A win would give LINE Yahoo, already dominant in Japanese search and messaging, control of the country's leading restaurant-discovery platform and its consumer data. A contested process signals other bidders also see value in Tabelog, raising the odds of a higher final price.",
+      "summary_ja": "ラインヤフーが「食べログ」の買収を正式に提案したことが分かった。日本のM&A関連報道によると、食べログの買収を巡る争奪戦が本格化しているという。買収条件は明らかになっていない。",
+      "why_it_matters_ja": "ラインヤフーが買収に成功すれば、検索とメッセージングで既に優位に立つ同社が、国内最大級のレストラン検索プラットフォームと消費者データの支配権も握ることになる。争奪戦となっていること自体、他の買い手も食べログに十分な価値を見出していることを示し、最終的な買収価格が上振れする可能性を高める。",
+      "status": "new",
+      "prev": null,
+      "key": "line-yahoo-tabelog-bid",
+      "ids": ["63b6551ec7a6b4"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1LUXFpVU96R2M4TTlPcE5MSlo4UHNYc0pKSVpFZzlncE9CYWo3T0t1UTRvY1l6SFF5SmpNTV81YVlodHRORjJsbjlKRm95YzBTMW54SDh2UGQyQVp0SHNRSXlnU3ZyRDcxQ3hpVEhLY1ZrQQ?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Databricks in early talks to raise funding at $225bn valuation, WSJ reports",
+      "summary": "Databricks is in early talks to raise new funding at a valuation of about $225bn, the Wall Street Journal reported. Terms of the potential round were not detailed.",
+      "why_it_matters": "A valuation near $225bn would make Databricks one of the most valuable private companies in the world, extending the run of mega-valuations for AI infrastructure software even as public AI stocks have sold off sharply. It tests whether private investors will keep paying up for AI exposure while listed AI names are under pressure.",
+      "summary_ja": "データブリックスが、約2250億ドルの評価額で新たな資金調達に向けて初期段階の協議を進めていると、ウォール・ストリート・ジャーナルが報じた。調達条件の詳細は明らかになっていない。",
+      "why_it_matters_ja": "2250億ドル前後の評価額は、データブリックスを世界で最も高い評価額を持つ未上場企業の一社に位置づけ、上場AI株が大きく売られる中でもAI基盤ソフトウェア企業への超高評価が続いていることを示す。上場AI関連株が圧迫される局面でも、民間投資家がAI関連資産にどこまで高値を払う意欲を持つかを試す材料にもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "databricks-225bn-valuation-talks",
+      "ids": ["31c753b3a92e51"],
+      "links": [
+        {"source": "CNA Business", "url": "https://www.channelnewsasia.com/business/databricks-in-early-talks-raise-funds-225-billion-valuation-wsj-reports-6570836"}
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Wonder explores sale of delivery service Grubhub, bought for $150m in 2024",
+      "summary": "Wonder, the food platform started by e-commerce entrepreneur Marc Lore, is exploring a sale of delivery service Grubhub, according to a report. Wonder acquired Grubhub in 2024 for $150m.",
+      "why_it_matters": "A sale so soon after a $150m purchase would signal Wonder is reassessing Grubhub's fit within its wider food-delivery strategy, in a sector where scale and logistics costs have squeezed margins. It also tests buyer appetite for a delivery brand that has already changed hands once amid thin industry margins.",
+      "summary_ja": "eコマース起業家マーク・ロア氏が創業したフードプラットフォーム「Wonder」が、デリバリーサービスのGrubhubの売却を検討していると報じられた。WonderはGrubhubを2024年に1億5000万ドルで買収していた。",
+      "why_it_matters_ja": "買収から短期間での売却検討は、Wonderがフードデリバリー事業全体の戦略の中でGrubhubの位置づけを見直していることを示唆する。規模とロジスティクスコストが利益率を圧迫する業界において、一度売買された配送ブランドにどれだけの買い手需要があるかを試す動きでもある。",
+      "status": "new",
+      "prev": null,
+      "key": "wonder-grubhub-sale-exploration",
+      "ids": ["6076c7c8c7770a"],
+      "links": [
+        {"source": "The Business Times", "url": "https://www.businesstimes.com.sg/startups-tech/wonder-explores-sale-delivery-service-grubhub-report"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["TMT"]
+    },
+    {
+      "headline": "UL Solutions to acquire sustainability-data firm Worldly",
+      "summary": "Certification group UL Solutions has agreed to acquire Worldly, a sustainability-data company, according to a Japanese M&A report. Financial terms were not disclosed.",
+      "why_it_matters": "The deal would add supply-chain sustainability data to UL Solutions' testing and certification business, as corporate buyers face mounting pressure to verify environmental claims. It reflects consolidation among compliance and ESG-data providers, as larger certifiers buy in data capabilities rather than build them.",
+      "summary_ja": "認証大手ULソリューションズは、サステナビリティデータを手がけるワールドリー(Worldly)を買収することで合意したと、日本のM&A関連報道が伝えた。買収条件は明らかになっていない。",
+      "why_it_matters_ja": "この買収により、ULソリューションズの検査・認証事業にサプライチェーンのサステナビリティデータが加わり、企業が環境訴求の裏付けを求められる圧力が強まる中での対応力を強化する。大手認証機関が自前で構築するのではなく買収によってESGデータ機能を取り込む、業界の統合の流れも映している。",
+      "status": "new",
+      "prev": null,
+      "key": "ul-solutions-worldly-acquisition",
+      "ids": ["debae276c9eef5"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yRm1hR1JuX3BuaU4zcDhRbnhIUk5yc0l3em1zR2VyUFRnbHAtRFAzRzI3MGttUDhOUGEzZlZuTXBRYkI3RGNZbzhaN3VYeUdQU25OeWJQSTl4VWUybV9UM1lzdmxJQ3dERXBTR3hYMXVselRBMzNKMjNkdw?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    }
+  ]
+}
