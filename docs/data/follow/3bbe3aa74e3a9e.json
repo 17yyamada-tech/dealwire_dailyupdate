@@ -4,12 +4,16 @@
  "link": "https://www.prnewswire.com/news-releases/siemens-to-expand-portfolio-for-semiconductor-design-and-verification-with-the-planned-acquisition-of-lauterbach-302934669.html",
  "source": "PR Newswire M&A",
  "published": "2026-11-10T09:30:00Z",
- "checked_at": "2026-11-22T00:47:38Z",
+ "checked_at": "2026-11-22T04:52:21Z",
  "status": {
-  "as_of": "2026-11-11",
-  "text": "Siemens agreed on 10 Nov 2026 to acquire German debug-tool maker Lauterbach; the deal, expected to close in H1 2027, adds hardware debug and trace tools to Siemens' chip design and verification portfolio.",
-  "text_ja": "シーメンスは2026年11月10日、独ローターバッハの買収で合意。チップ設計・検証向けデバッグ技術の拡充が目的で、完了は2027年上半期の見込み。",
+  "as_of": "2026-11-22",
+  "text": "Siemens has agreed two EDA deals to broaden chip verification: Lauterbach (10 Nov, debug/trace) and Breker Verification Systems (17 Nov, SoC-level verification), the latter expected to close in December 2026; terms undisclosed.",
+  "text_ja": "シーメンスは半導体検証事業の拡充で2件買収に合意。ローターバッハ(11月10日)に続き、SoC検証のブレーカー社(11月17日、12月完了見込み)。条件は非公表。",
   "refs": [
+   {
+    "list": "since",
+    "url": "https://www.engineering.com/siemens-to-acquire-breker-for-expanded-soc-verification/"
+   },
    {
     "list": "since",
     "url": "https://www.marketscreener.com/news/siemens-to-acquire-embedded-software-tools-maker-lauterbach-ce785edada89fe22"
@@ -43,6 +47,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-17",
+   "headline": "Siemens agrees to acquire SoC verification firm Breker Verification Systems, close targeted for December 2026",
+   "summary": "Siemens said on Nov 17, 2026 it signed an agreement to acquire Breker Verification Systems, a San Jose-based maker of AI-driven system-on-chip verification and automatic test-generation tools, with the deal expected to close in December 2026 and financial terms undisclosed. Siemens linked the move to its pending Lauterbach acquisition as part of a strategy connecting chip design, verification and embedded software.",
+   "summary_ja": "シーメンスは2026年11月17日、米サンノゼのSoC検証企業ブレーカー・ベリフィケーション・システムズの買収契約締結を発表した。AI活用のテストケース自動生成技術などを持ち、完了は2026年12月を見込むが買収額は非公表で、設計・検証・組込みソフトを結ぶ戦略としてローターバッハ買収と並行して位置付けられている。",
+   "source": "Engineering.com",
+   "url": "https://www.engineering.com/siemens-to-acquire-breker-for-expanded-soc-verification/"
+  },
   {
    "date": "2026-11-10",
    "headline": "Siemens targets first-half 2027 close for Lauterbach deal, founder to stay on",
