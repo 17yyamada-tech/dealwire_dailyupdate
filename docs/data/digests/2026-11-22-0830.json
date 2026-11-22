@@ -1,0 +1,144 @@
+{
+  "edition": "2026-11-22-0830",
+  "edition_label": "22 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T00:40:00Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "MBK raises Wacom buyout to ¥136.6bn as Samsung commits to reinvest",
+      "summary": "MBK Partners has raised the value of its MBO for Wacom to as much as ¥136.6bn, up from the more-than-¥90bn deal disclosed earlier this week. A Samsung Electronics-affiliated shareholder has confirmed it will reinvest in the pen-and-display maker alongside the buyout.",
+      "why_it_matters": "The roughly 50% increase in deal size shows MBK sweetening terms to secure shareholder support, while Samsung's renewed commitment underlines how strategic investors are staying on as minority partners through Japan's wave of sponsor-backed delistings.",
+      "summary_ja": "MBKパートナーズは、ワコムに対するMBO(経営陣による買収)の規模を、今週前半に開示された900億円超から最大1,366億円に引き上げた。サムスン電子系の株主は、買収と並行して同社に再出資することを確認した。",
+      "why_it_matters_ja": "買収規模が約5割増えたことは、MBKが株主の支持を得るため条件を上乗せした表れであり、サムスンが再出資を続ける姿勢は、日本で相次ぐスポンサー主導の非公開化において戦略株主が少数株主として残る動きを裏付ける。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-21-0830",
+        "index": 5
+      },
+      "key": "wacom-mbo-mbk-partners",
+      "ids": [
+        "426023c9492c2b",
+        "8bf4e5f5c827ce",
+        "2f4f3a8bd11df7"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNVp1NUhOWkxpcnNndERRZmQ1cWExM3Rqbm9iaTdDZzlqTWpjRVlhUEJyRXB1WTJlR0lWcmp0cDJRclMtSm40QjRZS2ZDRU5wOFhsZnZMc2piVkFORElkLVR6UHF5ek9nWjhkOEw3NE1mTWdNYzF4b1lhbGFpXzlXTGd0aC1RcHYz0gGcAUFVX3lxTE5GWnF4MlNVaGM5UEFIZE9idGtWZUdCcElMR2FJWTRWNzVWRDBkX0tFZ1liNTJVV2F5T0NDOFVnNEtsYWxuRXd2dEprSm5VeHZHeWF0ejE1UU8wN2oyRGt5Y19KeWdqZVFOVEZlclFpZ0taQ2MzTUlsb3hQbG1MalBsN3c1cUJkNGl1STNVLUJMOVVsaWpiWVUwMzJMQQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tMTFHamJHYUNiRFYtZGRCaG83NU42Y2ktVG1HdUVTODFRbjdLTlBZLXV5SVliaDBYbFllXzc0N2xPTGd3aVRHWFZ3cEMtMlNNQVFEa1ZSZXdaazc4NVRJWDJQM3ZiT2ZhQzZmWlJaaFk1Njlh?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qMmFHU1A4UjNwejB0cVluMXNMMk9PYlB0dXE2UG0xUXFUMlRTZnd0OUFBVExCUV82Nk9BcGZkWi1hMU9BcVhLOExxZG1TUVU?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Reports put CrowdStrike's Zscaler approach at $32bn valuation",
+      "summary": "New reports value CrowdStrike's potential acquisition of Zscaler at about $32bn, the first price indication to emerge since talks were first reported. Commentary framed the deal as symbolic of AI-driven consolidation in cybersecurity.",
+      "why_it_matters": "A $32bn price tag would make this one of the largest-ever cybersecurity acquisitions, and the emerging price signals the talks are advancing beyond early-stage exploration.",
+      "summary_ja": "新たな報道によると、クラウドストライクによるゼットスケーラー買収協議は約320億ドルの評価額とされ、協議開始後初めて価格観が示された。論評はこの買収をAI主導のサイバーセキュリティ業界再編の象徴と位置づけている。",
+      "why_it_matters_ja": "320億ドルという価格観が示されたことは、史上最大規模のサイバーセキュリティ買収になり得ることを意味し、協議が初期段階を超えて進展していることを示唆する。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-21-0830",
+        "index": 0
+      },
+      "key": "crowdstrike-zscaler-talks",
+      "ids": [
+        "79756b8f40f4ca",
+        "269bef8669e067",
+        "2078bce4bb1842"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMFJOS2d4UjRFR2M5NXZuSlcxaVpxWFA0SEhDeXBwUzFyRUZjcnBtRmozWmw1TG03ZUU0enZQeExwNDhEZ29WRHI1OWd1LVFkbmhjNE1PRGRLVzBic05MWXVsWEdlXy03VTdacXdlR096Vkx6MFBLT0tBYXFoTWdBTkxuWjJVMDQ5d1lqN0dfTQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fRHAyRWhsdmh6NFpwSWhzT2VpYVdNeVdUaTlBTVpqWjFVMVoxVGdFVTJ3Qndab2dVRVdNMHU2cHpKekJLa0tGNUM5VEdPNmVtXzd5M1p4QUtQQzRTeDFUTld6SdIBaEFVX3lxTE5NMi1iVHVSWVhaUlhfM2txbC15bW9QVUxXM1hkcXRwR0lON090c3BZUURBSmZaZjY3MjdHS1hfTnc1bkFsUm55V3E3eFJ0ZjVoMDJLa3dCRVZMbmMtcDlwTC1MOExydjFZ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zWHJDYUFJVnpYNjJlbjk5TUItYmNtblFvazNPSC1ORksxbExFelpGUU8zQm5uZlZ5NEh1QURsWDRWWC1GdHRUQmR4ZG9Sa1hDRWdhT2hjOFA0ZDJuUXlLVjJsQXJEY2tkUTlRa0NfZjVZMFYxYnZZ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other",
+        "TMT",
+        "AI & Semis"
+      ]
+    },
+    {
+      "headline": "Satellite imaging group ICEYE proposes ~€2bn buyout of rocket maker Avio",
+      "summary": "ICEYE has proposed acquiring Italian rocket company Avio in a deal valued at about €2bn. The proposal was reported without further detail on structure or timeline.",
+      "why_it_matters": "A tie-up would pair ICEYE's satellite-imaging business with Avio's launch capability, extending the push by space-data companies to control more of the value chain from launch to data delivery.",
+      "summary_ja": "ICEYEは、イタリアのロケット企業Avioを約20億ユーロで買収する提案を行った。取引の形態や時期など詳細は明らかにされていない。",
+      "why_it_matters_ja": "実現すればICEYEの衛星画像事業とAvioの打ち上げ能力が結びつき、宇宙データ企業が打ち上げからデータ提供までの価値連鎖をより多く取り込もうとする動きを拡大させることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "iceye-avio-buyout-proposal",
+      "ids": [
+        "05fee18e31d6fc"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5na3daNjIzWlNtWk5tZ09iQVUtNndVYXFTc1d3X3BJQ2pLcUlVWkdZZ0NjaGVxZ0pVTElDUFZGSzhxaTFFVms0cHVlSjA?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Indonesia's regulator fines and sanctions firms over stock manipulation and disclosure failures",
+      "summary": "Indonesia's financial regulator has fined and sanctioned firms for stock manipulation and disclosure failures. The action follows earlier sanctions against three listed companies as part of the regulator's broader market-reform push.",
+      "why_it_matters": "The enforcement signals Jakarta's regulator is sustaining pressure on market-conduct violations, a relevant backdrop for investors assessing governance risk in Indonesian listings amid the country's active regional deal pipeline.",
+      "summary_ja": "インドネシアの金融当局は、株価操作や開示義務違反を理由に複数の企業に罰金と制裁を科した。これは、市場改革の一環として既に3社の上場企業を制裁した措置に続くものである。",
+      "why_it_matters_ja": "この執行措置は、ジャカルタの当局が市場行為違反への取り組みを継続していることを示し、インドネシアで活発な地域のディールパイプラインが続く中、投資家がガバナンスリスクを評価する際の背景材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "indonesia-regulator-stock-manipulation-fines",
+      "ids": [
+        "8a501df214e042"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/international/global/indonesia-regulator-fines-and-sanctions-firms-stock-manipulation-disclosure-failures"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-22-0830",
+      "label": "22 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-22T00:40:00Z",
+      "items": 4,
+      "headlines": [
+        "MBK raises Wacom buyout to ¥136.6bn as Samsung commits to reinvest",
+        "Reports put CrowdStrike's Zscaler approach at $32bn valuation",
+        "Satellite imaging group ICEYE proposes ~€2bn buyout of rocket maker Avio"
+      ]
+    },
+    {
       "id": "2026-11-21-1530",
       "label": "21 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-21T07:40:00Z",
