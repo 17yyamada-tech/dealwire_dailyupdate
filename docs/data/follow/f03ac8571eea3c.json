@@ -4,19 +4,19 @@
  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tXzM0a0JmZHp6NWIwR202UTJHUl9jVnRXMTFsd2JtNWxwMXlxdllaQU5yZkd4NFpPXzNYYktRam5xbFJMbkU3dHBMY3JpM3NQdWx6dmthMHMwUzFqX0VoZlphd3Jad3dTRDdPRQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-09T13:24:04Z",
- "checked_at": "2026-11-22T00:47:38Z",
+ "checked_at": "2026-11-22T04:53:17Z",
  "status": {
-  "as_of": "2026-11-14",
-  "text": "Takeover battle continues: Integral extended its Kadoya Seiyu tender deadline to Nov 26, 2026, after lifting its price to ¥2,655/share on Nov 9, ¥1 above rival Advantage Partners' ¥2,654 bid.",
-  "text_ja": "インテグラルは11月9日、かどや製油TOB価格を2,655円に引き上げ、アドバンテッジの2,654円を1円上回った。TOB期限は11月26日まで再延長された。",
+  "as_of": "2026-11-22",
+  "text": "A third bidder has emerged: J-Oil Mills, backed by shareholder Mitsui & Co. (21.92%), offered roughly ¥2,914-3,044/share on Nov 20, 2026, topping Integral's ¥2,655 TOB, which Kadoya's board still backs.",
+  "text_ja": "三井物産(21.92%)がJオイルミルズの買収案(1株2,914~3,044円)を支持し三つ巴に。かどや製油はインテグラルの2,655円TOBへの賛同を維持。",
   "refs": [
    {
     "list": "since",
-    "url": "https://www.nikkei.com/article/DGXZQOUC11CBE0R11C26A1000000/"
+    "url": "https://www.nikkei.com/article/DGXZQOUC20BFV0Q6A121C2000000/"
    },
    {
     "list": "since",
-    "url": "https://www.nikkei.com/article/DGXZQOUC09A100Z01C26A1000000/"
+    "url": "https://www.bloomberg.com/jp/news/articles/2026-11-16/TO9WFXT96OSG00"
    }
   ]
  },
@@ -55,6 +55,22 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-20",
+   "headline": "Mitsui & Co. to back J-Oil Mills' raised ¥2,914-3,044/share bid for Kadoya Seiyu if it tops rivals",
+   "summary": "Nikkei reported that Kadoya Seiyu's second-largest shareholder, Mitsui & Co. (a 21.92% stake), said it would support J-Oil Mills' revised takeover proposal, priced at roughly ¥2,914 to ¥3,044 per share, and sell its stake, provided the offer beats rival bids and satisfies financing conditions; Kadoya's board said it still backs Integral and that J-Oil's proposal does not qualify as a contractual competing offer.",
+   "summary_ja": "日本経済新聞によると、かどや製油の大株主である三井物産(出資比率21.92%)は、Jオイルミルズが引き上げた1株2,914~3,044円の買収案について、他候補を上回る価格と資金調達などの条件を満たせば支持し持株を売却する意向を示した。かどや製油の取締役会はインテグラルへの賛同を維持し、Jオイル案は契約上の対抗提案に該当しないとの立場を示している。",
+   "source": "Nikkei",
+   "url": "https://www.nikkei.com/article/DGXZQOUC20BFV0Q6A121C2000000/"
+  },
+  {
+   "date": "2026-11-16",
+   "headline": "Mitsui & Co. reported to back J-Oil Mills' emerging rival bid for Kadoya Seiyu, making it a three-way contest",
+   "summary": "Bloomberg reported that people familiar with the matter said Kadoya Seiyu shareholder Mitsui & Co. was backing a takeover proposal from J-Oil Mills, adding a third bidder alongside Integral's tender offer and Advantage Partners' earlier competing proposal.",
+   "summary_ja": "ブルームバーグは関係者の話として、かどや製油株主の三井物産がJオイルミルズによる買収提案を支持しているとの見方を報じ、インテグラルのTOBとアドバンテッジパートナーズの対抗提案に続く第三の買い手の登場で争奪戦が三つ巴になったことが明らかになった。",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/jp/news/articles/2026-11-16/TO9WFXT96OSG00"
+  },
   {
    "date": "2026-11-11",
    "headline": "Integral extends Kadoya Seiyu tender offer deadline again, to Nov 26, as bidding war continues",
