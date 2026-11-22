@@ -4,15 +4,15 @@
  "link": "https://www.channelnewsasia.com/business/goldman-apollo-seek-buyers-40-billion-spacex-ai-chip-deal-bloomberg-news-reports-6525526",
  "source": "CNA Business",
  "published": "2026-11-04T21:54:23Z",
- "checked_at": "2026-11-21T07:49:52Z",
+ "checked_at": "2026-11-22T00:47:38Z",
  "status": {
-  "as_of": "2026-11-20",
-  "text": "SpaceX's ~$40bn Nvidia chip financing advanced on Nov 19 as Goldman and Apollo managed a $32bn+ bond sale pricing above 8% yield, while lenders reportedly sought safeguards against the chips being sent into orbit.",
-  "text_ja": "スペースXの約400億ドルのAIチップ融資は11月19日に進展。ゴールドマンとアポロが320億ドルの債券売却を主導し利回りは8%超。貸し手は同チップの宇宙送付を防ぐ安全策も求めた。",
+  "as_of": "2026-11-22",
+  "text": "SpaceX's ~$40bn Nvidia chip financing priced Nov 19-20: the $32bn bond tranche via Saturn Funding Trust cleared at yields above 8% (largest tranche 8.259%), and SPCX shares fell about 6.6% in response.",
+  "text_ja": "スペースXの約400億ドル融資で、320億ドルの債券が利回り8%超(最大8.259%)で発行、SPCX株は約6.6%下落した。",
   "refs": [
    {
     "list": "since",
-    "url": "https://www.bloomberg.com/news/articles/2026-11-19/spacex-eyes-at-least-32-billion-ai-chip-debt-sale-on-thursday"
+    "url": "https://www.theedgesingapore.com/news/bonds-and-treasuries/spacex-sold-us32-bil-ai-chip-debt-yields-topping-8--bloomberg"
    },
    {
     "list": "since",
@@ -47,6 +47,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-20",
+   "headline": "SpaceX prices $32bn Nvidia chip bonds at yields topping 8%, largest tranche 8.259%; shares fall 6.57% premarket",
+   "summary": "SpaceX, through the Apollo-backed Saturn Funding Trust vehicle, priced about $32 billion of bonds in three tranches to fund its Nvidia GPU purchases, with the largest tranche yielding 8.259% versus roughly 5.95% for the average US investment-grade note; Goldman Sachs and Apollo Global Management led the sale, and SpaceX's Nasdaq-listed shares (SPCX) fell about 6.57% in premarket trading on Nov 20.",
+   "summary_ja": "スペースXは、アポロが関与する特別目的事業体サターン・ファンディング・トラストを通じ、エヌビディア製GPU購入資金として約320億ドルの債券を3トランシェで発行した。最大トランシェの利回りは8.259%で、米投資適格債の平均利回り約5.95%を上回った。ゴールドマン・サックスとアポロ・グローバル・マネジメントが売却を主導し、スペースXのナスダック上場株(SPCX)は11月20日のプレマーケット取引で約6.57%下落した。",
+   "source": "The Edge Singapore (Bloomberg)",
+   "url": "https://www.theedgesingapore.com/news/bonds-and-treasuries/spacex-sold-us32-bil-ai-chip-debt-yields-topping-8--bloomberg"
+  },
   {
    "date": "2026-11-19",
    "headline": "Bloomberg: SpaceX plans $32bn+ bond sale for Nvidia chips, yields reported above 8%",
