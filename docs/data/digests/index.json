@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-23-1230",
+      "label": "23 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-23T04:35:00Z",
+      "items": 7,
+      "headlines": [
+        "Clariant and CD&R said to be in talks to acquire Ashland",
+        "SoftBank Group targets 2026 completion of ABB robotics acquisition, weighs options if China blocks it",
+        "Tata Steel moves to take control of APL Apollo with $1.67bn stake buy and open offer"
+      ]
+    },
+    {
       "id": "2026-11-23-0830",
       "label": "23 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-23T00:40:00Z",
