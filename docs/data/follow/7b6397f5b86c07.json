@@ -4,12 +4,16 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-22T08:00:00Z",
+ "checked_at": "2026-11-23T00:46:38Z",
  "status": {
-  "as_of": "2026-11-21",
-  "text": "Yen trades near 160/dollar as intervention risk persists; Fed minutes released Nov 18 show officials expect a December quarter-point hike, with CME FedWatch pricing a nearly 95% probability.",
-  "text_ja": "ドル円は160円近辺、介入警戒継続。11月18日のFOMC議事録で12月0.25%利上げ観測強まり、CME集計は確率95%近辺。",
+  "as_of": "2026-11-23",
+  "text": "Yen holds near 160/dollar with intervention risk high; Oct National CPI rose to 2.3% YoY (Nov 20), keeping swaps-implied odds of a Dec 17-18 BOJ hike to 1.5% at about 80%.",
+  "text_ja": "ドル円は160円近辺で介入警戒が続く。10月の全国CPIは前年比2.3%に上昇(11月20日発表)、スワップ市場は12月17~18日の日銀利上げ(1.5%)の確率を約80%とみる。",
   "refs": [
+   {
+    "list": "since",
+    "url": "https://www.fxstreet.com/news/23-japans-national-cpi-climbs-in-october-202611192331"
+   },
    {
     "list": "since",
     "url": "https://www.adn.com/business-economy/2026/11/18/fed-minutes-higher-interest-rates-needed-in-december-as-inflation-worries-mount/"
@@ -87,6 +91,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-20",
+   "headline": "Japan's October national CPI rises to 2.3% YoY, core CPI eases to 2.2%, keeping BOJ on track for a December hike",
+   "summary": "Japan's Statistics Bureau reported on Nov 20 that National CPI rose 2.3% year-on-year in October, up from 2.1% in September, while core CPI excluding fresh food eased to 2.2% from 2.4%; USD/JPY traded near 159.70 after the release, with overnight swaps pricing roughly an 80% probability that the BOJ raises its policy rate to 1.5% at its December 17-18 meeting.",
+   "summary_ja": "総務省は11月20日、10月の全国消費者物価指数(CPI)が前年比2.3%上昇したと発表した(9月は2.1%)。生鮮食品を除くコアCPIは2.4%から2.2%にやや鈍化した。発表後のドル円は159.70円近辺で推移し、オーバーナイト・スワップ市場は12月17~18日の日銀会合での1.5%への利上げの確率を約80%とみている。",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/news/23-japans-national-cpi-climbs-in-october-202611192331"
+  },
   {
    "date": "2026-11-18",
    "headline": "Fed minutes show officials favoring a December rate hike, pushing USD/JPY back toward 160",
