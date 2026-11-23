@@ -1,0 +1,233 @@
+{
+  "edition": "2026-11-23-0830",
+  "edition_label": "23 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T00:40:00Z",
+  "reading_minutes": 4,
+  "items": [
+    {
+      "headline": "Wacom MBO tender offer priced at ¥1,030 a share",
+      "summary": "MBK Partners has set the tender offer price for its management buyout of Wacom at ¥1,030 per share, finalising terms of the take-private deal already valued at up to ¥136.6bn. The pricing follows a week in which MBK twice raised the disclosed scale of the buyout and secured a reinvestment commitment from a Samsung Electronics-affiliated shareholder. The announcement also drew a wave of online reaction, with some investors expressing surprise at seeing Wacom targeted for a buyout.",
+      "why_it_matters": "The ¥1,030 price gives shareholders a concrete number to weigh against MBK's already-sweetened offer, a detail that will shape whether investors tender into one of Japan's highest-profile sponsor-backed delistings this year. It also tests how the market absorbs a deal whose size has shifted twice in a matter of days.",
+      "summary_ja": "MBKパートナーズは、ワコムの経営陣による買収(MBO)における株式公開買付け(TOB)価格を1株1,030円に設定した。すでに最大1,366億円まで引き上げられていた買収案の条件が、これで確定した形となる。この1週間でMBKは買収規模を2度上方修正し、サムスン電子系株主からの再出資確約も取り付けており、今回の発表はSNS上でも大きな反応を呼び、買収の規模に驚く声も見られた。",
+      "why_it_matters_ja": "1,030円という価格は、株主がMBKの買収案に応募するかどうかを判断する具体的な基準となる。今回の開示は、日本で続くスポンサー主導の非公開化の中でも注目度の高い案件の行方を左右する。規模がわずか数日で2度変わった買収案を市場がどう受け止めるかを試す局面でもある。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-22-0830",
+        "index": 0
+      },
+      "key": "wacom-mbo-mbk-partners",
+      "ids": [
+        "1c6e7399767255"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4zaldSQWF4blAtT1M0aVNaSlFjT0dNNk10Zi1SRkEyUVhINkVKLU1pd0xfU3lRMWRsaFByVktiRjItLUpXTTdn?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "SK Hynix denies any knowledge of Son's reported $1tn buyout approach",
+      "summary": "SK Hynix said it has no knowledge of any approach after reports that SoftBank founder Masayoshi Son explored a roughly $1tn buyout of the chipmaker. The denial follows earlier reporting, confirmed by SoftBank, that Son had explored financing for such a deal with Wall Street banks but was not actively pursuing it. Neither company has offered further detail beyond its respective statement.",
+      "why_it_matters": "SK Hynix's flat denial adds friction to a storyline that already looked speculative, widening the gap between SoftBank's dealmaking ambitions in AI memory and the target's own account of events. It leaves open whether this was a real approach that stalled or a rumour that outran the facts.",
+      "summary_ja": "SKハイニックスは、ソフトバンクの孫正義会長が同社に対して約1兆ドル規模の買収を検討していたと報じられた件について、「全く知らない」と否定した。この否定は、孫氏がウォール街の銀行に資金調達を打診していたものの現時点では積極的に推進していないとソフトバンク側が確認済みだった報道を受けたものだ。両社とも、それぞれの説明以上の詳細は明らかにしていない。",
+      "why_it_matters_ja": "SKハイニックス側の明確な否定は、もともと憶測の域を出なかった買収構想にさらに疑問を投げかける。AIメモリー分野での孫氏の野心的な動きと、買収対象企業側の説明との間の食い違いを浮き立たせる。実際の打診が頓挫したのか、事実を超えて広まった憶測だったのかは依然不明だ。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-21-1230",
+        "index": 0
+      },
+      "key": "softbank-son-sk-hynix-trillion-buyout",
+      "ids": [
+        "8b5dcdfcb926bf"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DdUphcm95WkJpNFZ2QS02ODc2a1pIYVBCVW9FZFpQWGx0MzFJZ0tNcERPRkd3d2FiQkZ0ZlMwQ1ZUZUJ0MTNzbGoxajZuNlUxaEhaZWFfdTVwa2NUOFZ6d2JveGpXZw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Amazon moves to acquire Israeli AI startup Decart for about $7.5bn",
+      "summary": "Amazon is reported to be acquiring Israeli AI startup Decart in a deal valued at roughly $7.5bn, equivalent to about ₩10tn in one report. Coverage frames the deal around AI chip efficiency technology positioned as a challenge to Nvidia. Neither company has been reported as commenting on the terms.",
+      "why_it_matters": "A deal of this size for an AI-chip-efficiency startup would rank among Amazon's largest AI acquisitions to date and signals the scramble among hyperscalers to reduce reliance on Nvidia's chips. It would also mark a rare large exit for an Israeli AI startup to a US hyperscaler.",
+      "summary_ja": "アマゾンがイスラエルのAIスタートアップ、デカルト(Decart)を約75億ドル(ある報道では約10兆ウォン相当)で買収する方向だと報じられた。AIチップの効率化技術に関する買収とされ、エヌビディアへの挑戦と位置付けられている。両社とも取引条件についてコメントしたとは報じられていない。",
+      "why_it_matters_ja": "この規模の買収が実現すれば、AIチップ効率化分野でのアマゾンの買収としては最大級となる。ハイパースケーラー各社がエヌビディア依存を減らそうと競う構図を浮き立たせる。イスラエルのAIスタートアップが米ハイパースケーラーへ大型イグジットする稀な例にもなる。",
+      "status": "new",
+      "prev": null,
+      "key": "amazon-decart-acquisition",
+      "ids": [
+        "4e5694927545cf",
+        "2872744477bdea"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAya2xDZEtKQ1VWU29tUzQwVVJwZ2lGeHVRYnZOSXpkRXNNZG11dG1lajJFNFBQRmpoZGp0OWFPWG9TRW96a0l2OHpjZXZFNTcyNnBLNlNLQjBERU93SlVYWW51V2VfMHlVaF9XRGxOXzVVNXN1?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSWRna2dZSlF2Zm0yTER6NFQzZllKUnlJNFkyWWk2Z28xdVM0bFFEX3JGd0UxZE1qR2tsX2VPZE5CZXNheHZheW1xRlE3Nzd3RDRESUo1eXd5X2NFODZyYXBZMHZqU2trR2dZRXJYMXJsVlF1Wjc0SnQzcnB2MGFDOQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "US Treasury's Bessent says Nvidia board is probing chip sales to China",
+      "summary": "US Treasury Secretary Bessent said Washington is seeking answers on Nvidia's sale of chips to China, adding that the chipmaker's board of directors is working to determine what happened. He did not specify a timeline for the board's review.",
+      "why_it_matters": "Scrutiny from the Treasury secretary over Nvidia's China chip sales raises the stakes around US export-control compliance just as Nvidia already faces pressure over AI chip supply and governance. A board-level review suggests the company itself sees the matter as serious enough to warrant internal fact-finding.",
+      "summary_ja": "米財務長官ベッセント氏は、エヌビディアによる中国への半導体販売について米政府が説明を求めていると述べた。同氏によると、エヌビディアの取締役会は何が起きたのかを確認する作業を進めているという。レビューの完了時期については言及していない。",
+      "why_it_matters_ja": "財務長官自らがエヌビディアの中国向け半導体販売を問題視したことで、米輸出管理規制の遵守をめぐる圧力が一段と強まる。エヌビディアはAI半導体の供給やガバナンスを巡る圧力にすでに直面しており、取締役会レベルでのレビューは、同社自身がこの問題を社内調査に値する重大な事案と捉えていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "nvidia-china-chip-sale-probe",
+      "ids": [
+        "5f20db4decb109"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/us-seeks-answers-nvidias-sale-chips-china-bessent"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US",
+        "HK/CN"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "EQT banks $17bn in Asia exits over two years as $15.6bn BPEA IX nears 20% deployment",
+      "summary": "EQT said it has generated $17bn from exits across Asia over the past two years, as its $15.6bn BPEA IX fund approaches 20% deployment. The firm did not break down the exit total by sector or country.",
+      "why_it_matters": "The exit haul shows EQT finding liquidity events in Asia even as broader PE exit markets remain challenged, while the BPEA IX deployment pace signals continued appetite for new Asian buyouts. Both data points matter for LPs weighing distributions against fresh capital calls.",
+      "summary_ja": "EQTは過去2年間でアジア域内のエグジットにより170億ドルを得たと明らかにした。同社の156億ドル規模のファンド「BPEA IX」は、投資の約2割を実行した段階にある。エグジット総額の業種別・国別の内訳は明らかにされていない。",
+      "why_it_matters_ja": "PEのエグジット市場全体が厳しい中でも、EQTがアジアで流動性イベントを確保できている点が浮かび上がる。BPEA IXの投資進捗は、アジアでの新規バイアウトへの意欲が続いていることを示す。いずれの数字も、分配と新規資金の投入の間で判断を迫られるLPにとって重要な材料となる。",
+      "status": "new",
+      "prev": null,
+      "key": "eqt-asia-exit-haul-bpea-ix",
+      "ids": [
+        "d7a4de6d5600c2"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wNlJSdmw0VHFsUWl6U2RfSDJRa0JDbElqRzRhaTQwRUR1dU1GYTJ2Rnl2V2c3X2ZSNV9PbG9GekVsYUJTTGVHeDB4NWIyTWVYSDJnX1VMdEx1YlU3QWE4b1RUWU5GZmZEUEtnZw?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Alpha JWC's Fund V hits near-$70m first close, looks beyond Southeast Asia",
+      "summary": "Southeast Asian private equity firm Alpha JWC has reached a first close of nearly $70m for its Fund V, and is now looking beyond the region for future investments. The firm did not disclose a target size for the fund's final close.",
+      "why_it_matters": "Alpha JWC extending its scope beyond Southeast Asia suggests regional funds are widening their mandates to chase returns as SEA deal flow remains selective. A near-$70m first close also offers a read on LP appetite for the region's mid-market PE strategies.",
+      "summary_ja": "東南アジアのPE投資会社アルファJWCは、ファンドVの一次クローズで約7,000万ドルを確保したと明らかにした。同社は今後、東南アジアを超えた投資先の開拓を検討しているという。ファンドの最終的な目標規模は明らかにされていない。",
+      "why_it_matters_ja": "アルファJWCが東南アジアの枠を超えて投資先を探る動きは、同地域のディールフローが限られる中で、地域ファンドが運用方針を広げてリターンを追求しようとしていることを示す。約7,000万ドルの一次クローズは、同地域のミッドマーケットPE戦略に対するLPの関心の度合いも示す。",
+      "status": "new",
+      "prev": null,
+      "key": "alpha-jwc-fund-v-first-close",
+      "ids": [
+        "d6477bb55a04a6"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WTHg0Y05aZVE5VXphTmg5WlRzbzRMUEo3cUJkam1KNENEM2FZLVhfc3JuNmdURkZDWFVWNXpVMG9GWU5WaXA2M0tiM1FSdGo1MVNrWkFlempLT2pNXzNSU2JwazV1WEJDZkhIZ1JnRndUUm9pZjVOVnV3?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "CTP acquires Vietnam's SLP in $500m deal",
+      "summary": "CTP has acquired Vietnam-based developer SLP in a deal valued at $500m, according to a report examining lessons from the transaction. No further financial or operational details were disclosed.",
+      "why_it_matters": "A $500m deal for a Vietnamese developer underscores continued investor appetite for SEA assets even as broader regional dealmaking remains selective. The transaction is already being held up as a case study for how cross-border buyers approach Vietnam.",
+      "summary_ja": "CTPはベトナムの企業SLPを5億ドルで買収したことが明らかになった。この買収から得られる教訓を検証する報道によるもので、財務・事業面の詳細はこれ以上明らかにされていない。",
+      "why_it_matters_ja": "ベトナムの企業に対する5億ドル規模の買収は、東南アジア全体のディールフローが選別的な中でも、同地域の資産に対する投資家の関心が続いていることを示す。この取引は、国境を越えた買い手がベトナムにどう向き合うかのケーススタディとして早くも取り上げられている。",
+      "status": "new",
+      "prev": null,
+      "key": "ctp-slp-vietnam-acquisition",
+      "ids": [
+        "73af35d3d7057f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbG8wTmtoNFVVaWFfWVA1aVYxMkJxVGlBOVVXQUhNenl4eFNOSFB1QmtzTE9pa1kxV1FYUTVncnNBeEVEU1F5ZHJCTkNkVDYyUGxmVHozREhVSjhURk1iNkxaYTJfc3ozRUJISG1pRnl0Yk1GSGR1NW5mSU1kVGJRZEpMVS00N3pER29zMVpxQnZsRlFMX1JPdl9Dc29tOFk?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "GoTyme's JV partners inject a further $13.4m into Philippine digital bank",
+      "summary": "The joint-venture partners behind Philippine digital bank GoTyme have injected a further $13.4m into the business, according to a report. The report did not specify the partners' individual stakes or the bank's total capital raised to date.",
+      "why_it_matters": "A fresh capital injection signals continued shareholder support for GoTyme as competition among the Philippines' digital banks intensifies. The size of the top-up points to incremental funding rather than a step-change in the bank's scale.",
+      "summary_ja": "フィリピンのデジタルバンク、GoTymeの合弁パートナー各社が、同社にさらに1,340万ドルを追加出資したことが報じられた。各パートナーの出資比率や、これまでの累計調達額については明らかにされていない。",
+      "why_it_matters_ja": "追加出資は、フィリピンのデジタルバンク間の競争が激化する中でも、株主がGoTymeを支え続けていることを示す。今回の追加額の規模からは、事業規模の飛躍的な拡大ではなく、段階的な資金注入であることがうかがえる。",
+      "status": "new",
+      "prev": null,
+      "key": "gotyme-jv-partners-capital-injection",
+      "ids": [
+        "08084a5ce57e4f"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUV9PNkdheUx1OFJtX1hzbXVwMnMxXzM0ZmtLdUNFcTM4ZWtpZl9xeXQtRE9ETXBuQXAwV2pxZkpyZm1TS0xqWUZfOHhRSFlGSVE0b3VuQTlsZ0RJQkkwX0FqbkZTNXBHd3hyZTlqSmtQWWJwNk52TkpqR3lvemZISHhJUTdzbFZmLVBuU1BVTTBEZkJSdjRxNU5WVnQwQWd6NV9RNUNFRnZjQQ?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    }
+  ]
+}
