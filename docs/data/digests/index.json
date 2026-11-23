@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-23-1530",
+      "label": "23 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-23T07:35:00Z",
+      "items": 4,
+      "headlines": [
+        "Brookfield reported to acquire PGP Glass from Blackstone",
+        "Partners Group reported to acquire New Zealand's StraitNZ",
+        "Seino Holdings to acquire a Mitsubishi Electric logistics unit"
+      ]
+    },
+    {
       "id": "2026-11-23-1230",
       "label": "23 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-23T04:35:00Z",
