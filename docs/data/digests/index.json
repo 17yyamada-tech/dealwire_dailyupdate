@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-24-1230",
+      "label": "24 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-24T04:37:00Z",
+      "items": 6,
+      "headlines": [
+        "Progress Software completes acquisition of Domo, pairing AI data preparation with execution tools",
+        "POSCO completes ₩740bn acquisition of US shale gas field, securing North American production base",
+        "Reliance Worldwide shares jump 12% as top holder Australian Super backs Brookfield's A$2.53bn bid"
+      ]
+    },
+    {
       "id": "2026-11-24-0830",
       "label": "24 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-24T00:39:00Z",

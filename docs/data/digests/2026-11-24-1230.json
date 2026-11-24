@@ -1,0 +1,188 @@
+{
+  "edition": "2026-11-24-1230",
+  "edition_label": "24 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T04:37:00Z",
+  "reading_minutes": 3,
+  "items": [
+    {
+      "headline": "Progress Software completes acquisition of Domo, pairing AI data preparation with execution tools",
+      "summary": "Progress Software has acquired data and AI company Domo, according to Japan M&A reporting, combining Domo's AI-oriented data-preparation capabilities with execution tooling. A separate report framed the deal as part of Progress's strategy of extending AI from \"analysis\" into \"execution.\"",
+      "why_it_matters": "The deal gives Progress a foothold in AI-driven business-operations software rather than just data infrastructure, as enterprise software vendors race to bundle analytics with automated execution.",
+      "summary_ja": "プログレス・ソフトウェアはデータ・AI企業ドーモを買収したと日本M&A関連報道が伝えた。ドーモが持つAI向けデータ整備機能とプログレスの業務実行ツールを組み合わせる形となる。別の報道は、本件をプログレスがAIを「分析」から「実行」へ広げる戦略の一環と位置付けている。",
+      "why_it_matters_ja": "データ基盤にとどまらず、AI主導の業務実行ソフトウェアへも足場を得る買収であり、エンタープライズソフトウェア各社が分析と自動実行の一体化を競う動きを反映する。",
+      "status": "new",
+      "prev": null,
+      "key": "progress-software-domo-acquisition",
+      "ids": [
+        "ca38854f1507ec",
+        "dc4530e8f2eecd"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Cb3J2clBucVRlZERoSzh4SW5JSUtsdkVaeXJsU0NaV1pHNmFGTG9SVEFPRkJWWTFJUTNVT0RxN1lDeDMxcjhhTTRTejZPM0xnaTZv?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fUFlwaXNISlBmUnlWcmlac1VISnM2d0djYzZmakJpNlVKYk1XRjZxOGdPcnVYdmVrT0dPcnhJUUpIYnQxS0hmVVBiaXhuLVFXYnhacHk5TFpaZGdIdHR5NXY5UEk5Z0tKa1ZBUUZLWk53UjNGTnJj0gF8QVVfeXFMTnZGVFE5ekZ3RUh6Tm00ekdfb1ZaMlZBRFNqRVNHTjF4dzlEX3RNR05tQm1sM0laZ21Ldm9GWDlJOVJVSXktTmtnREo2dFRkUEh4aFBEajlpN3l6R1YtREtnVmtjczl2cHk2ZjhzTGF4eUtBbW5uSERILUlXTQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "POSCO completes ₩740bn acquisition of US shale gas field, securing North American production base",
+      "summary": "POSCO International has completed the acquisition of a US shale gas field for about ₩740 billion, according to Japan M&A reporting, giving the group a production base in North America.",
+      "why_it_matters": "The deal extends a Korean industrial group's push to lock in upstream energy supply outside Asia, adding direct exposure to US shale output rather than relying on purchase contracts alone.",
+      "summary_ja": "ポスコインターナショナルは米国のシェールガス田を約7,400億ウォンで買収完了したと日本M&A関連報道が伝えた。これにより北米に生産拠点を確保する。",
+      "why_it_matters_ja": "韓国の産業グループがアジア域外での上流エネルギー権益確保を進める動きの一環であり、購入契約に依存するだけでなく米国産シェールガスへの直接的な権益を持つことになる。",
+      "status": "new",
+      "prev": null,
+      "key": "posco-us-shale-gas-acquisition",
+      "ids": [
+        "6f7b5f6836d93c",
+        "3f154c64b9e316"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBQc0dBajdEQWh0VnZXVm4td1ZHNEswcjhySlJEYnZaWk9zQkpYMmV3VDctcXBUaW9NQmJwM0h6SkEtQmZnUnZEQm56RXc5T3FyZTgtaEtRcEVHejlwcVJRXzgzbkRwdDVHMVo1RXBLVjRBaFZP?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYTJPT3FwbkZibEVKZ2hDNVVWWHZwUEtaTUZxaFlhdDROeHQxV1BHU1UzbjVPN0Y4VnZielR3LWxRSGlNUmxrYnkyQ3ExTE0xeE5kQnNpSk1aUkVIOGJWdlljSUtlbWtpd0Q5Y1dfX01MNTAwYjA2RW5pWXlRSnMteFRR0gGWAUFVX3lxTFAza0cwWi1ETHNuYjhfSmNiUWZSRmdrNm9rWFo4bU5kd3k4UEJDdzZmbl9iV2NobjllNW9ySkIxbmVsV0pNby1jR3djZnpPeTNLcldSaDI0UnZOc0d0ZTdLRmpmbzgxYWY0V0tVNFZFWXRIWThKcDRFMU9NVlp4dG96Y0FtWnJtbE1IOTFFeThYTHZBc2dydw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Reliance Worldwide shares jump 12% as top holder Australian Super backs Brookfield's A$2.53bn bid",
+      "summary": "Shares in Reliance Worldwide rose as much as 12% after Australian Super, a major shareholder, said it supports Brookfield's proposed A$2.53 billion acquisition of the company, Japan M&A reporting said.",
+      "why_it_matters": "Backing from a top shareholder removes one of the bigger hurdles to a sponsor takeover of this size, and the share jump signals the market now sees the deal as more likely to complete.",
+      "summary_ja": "大株主オーストラリアン・スーパーがブルックフィールドによる25.3億豪ドル規模の買収提案を支持すると表明したことを受け、リライアンス・ワールドワイド株は一時12%上昇したと日本M&A関連報道が伝えた。",
+      "why_it_matters_ja": "大株主の支持を得たことで、この規模のスポンサーによる買収案における大きな障壁の一つが取り除かれた形であり、株価上昇は市場が成立の可能性を高く見ていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "brookfield-reliance-worldwide-bid",
+      "ids": [
+        "953aec035dce86",
+        "44d63aa80586a6"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OUE13MjEzY2pTMDRuRXZMWUpOX1NVaEJHS3hrSlF3dmlpNFIzcVJQR2tna2RHb3RndnJkQmo4cW9BRFRCemg4SkFjc2FRNDh3U1g3RlhXMXF1UUdpNXZGcjZLdjkwREpYMFN1ams1TkdvQVk1?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOcjQ3VGQteXdGUzFDYWJSaUQtVG45Y19kOHh6bzFodUJyR2xvWndOM015d1Y1ZVpBelRZM2tlZVJJTThRT2t2ZTh5S1kxUDJLVnJyVjlaZ1NVU2w5MEd6UEhPRjZvOVpjNXgxZ280d18?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Authentic Brands Group acquires surf and outdoor label O'Neill",
+      "summary": "Authentic Brands Group has acquired lifestyle brand O'Neill, expanding its global action and outdoor portfolio, the company announced via PR Newswire. Authentic said O'Neill will gain new growth opportunities across content, experiences and global commerce on its platform. Financial terms were not disclosed.",
+      "why_it_matters": "The deal continues Authentic's brand roll-up strategy of acquiring heritage lifestyle names and running them through its licensing and content platform rather than operating them as a standalone retailer.",
+      "summary_ja": "オーセンティック・ブランズ・グループはライフスタイルブランドのオニールを買収し、グローバルなアクション・アウトドア事業の布陣を拡大したとPRニューズワイヤー経由で発表した。同社はオニールが自社プラットフォーム上でコンテンツ、体験、グローバル商取引にわたる新たな成長機会を得るとしている。買収金額は非公開。",
+      "why_it_matters_ja": "伝統あるライフスタイルブランドを買収し、単独の小売事業者としてではなく自社のライセンス・コンテンツ基盤を通じて運営するという、オーセンティックのブランド集約戦略が継続していることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "authentic-brands-oneill-acquisition",
+      "ids": [
+        "2845691ab01a49",
+        "5b399e7c80194e"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/authentic-acquires-oneill-expanding-global-action-and-outdoor-portfolio-302948389.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPTEZhcG05WDhTbktPdHVzeXFacXNNSUpFZ0ZhaHVmQXBIZmFzcGdTV1Nmb3N4Y2o5MnRZZUFZNGZUN1BMdGhBdlVjdWtJWUZSZHRoV2pxeW1XbHJUeWE5aHc5cFl4NS0zYjdlaGRlS3ZCazF4M3BXQThBNkZscmpEcUFidE9XYWJNX1hURnlzMTRBck1LMnZMN1dEdlF0dUt0Nm9VTHQwd2VCaFRMMl8zV3VjUXkxTk54MnUtTERXeEppMnhmaEFrdkI0UFg1ZDliN2tkVFcxdzlRdWxUcl9tOUtCSmFmQU5RanNYRUVzUVk4aTBDLXEycGZoQVgyaXF6cUp1S0E3QXFqV1lFZnhnOHhQS3VsNHUzLWhkemJwVFlPeVFOS1dnWVgtZ1RuUVVNbUozeGMtMTl1OHhDY2FVdVNPb01OUnR0bnhCQW5R?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Consumer"
+      ]
+    },
+    {
+      "headline": "Fullerton Health acquires The Gastro Practice",
+      "summary": "Fullerton Health has acquired The Gastro Practice, DealStreetAsia reported. Financial terms were not disclosed.",
+      "why_it_matters": "The acquisition adds another clinic to Fullerton Health's network as regional healthcare groups continue to consolidate independent providers.",
+      "summary_ja": "フラトン・ヘルスはザ・ガストロ・プラクティスを買収したとディールストリート・アジアが報じた。買収金額は非公開。",
+      "why_it_matters_ja": "地域の医療グループが独立系の診療提供者を統合する動きが続く中、フラトン・ヘルスのネットワークに新たな診療拠点が加わる。",
+      "status": "new",
+      "prev": null,
+      "key": "fullerton-health-gastro-practice-acquisition",
+      "ids": [
+        "b18f37f36b3516"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSUF2aWszaVBwM1dvUkIyZnNfSXNaYlNZUDk3b3JqUC1zejNRV1ptbUszZnZZTkpNQWoxYW9vVnV3eUFST3czZFc0MXEwTnF3blVvUmpJR2V3QlBtMTJiR28xd0JsQ2V0Q2RPX3NqN3FZWkhkMTRrckZYWmthTUxwWGdNMEJRY1RvUjU3NUd5dDdObk52cEE?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Korea's CJ CGV assumes ₩106.1bn of acquisition financing from FI, raises ₩70bn via commercial paper",
+      "summary": "CJ CGV has taken over about ₩106.1 billion of acquisition-related financing previously provided by a financial investor, funding part of it through a ₩70 billion commercial paper issuance, Japan M&A reporting said.",
+      "why_it_matters": "The refinancing lets CJ CGV replace FI-provided acquisition debt with its own capital-markets borrowing, a step companies take to simplify financing structures or manage refinancing risk when conditions allow.",
+      "summary_ja": "CJ CGVは財務的投資者（FI）が提供していた買収関連の資金調達約1,061億ウォンを肩代わりし、その一部をCP（コマーシャルペーパー）700億ウォンの発行で調達したと日本M&A関連報道が伝えた。",
+      "why_it_matters_ja": "FIが提供していた買収資金をCJ CGV自身の資金調達に切り替える動きであり、調達環境が許す局面で企業が資金構造を簡素化したり借換えリスクを管理したりする際によく取られる手段である。",
+      "status": "new",
+      "prev": null,
+      "key": "cj-cgv-fi-financing-refinance",
+      "ids": [
+        "a108e4cfa33e26"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YVHhWTl9mbXpua3NPM2ptYVJwMUZLeGYwbTlYLU5HUURsWnAzUUczMFZweWdDbElzOWhwNnF1VzF5NkxUV0U2MFVXLWpXZmh0TFM0RVNVRTluWUsybWw3N3NiY1FIT0Zfc0xPUG9sVmlVTEdl?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    }
+  ]
+}
