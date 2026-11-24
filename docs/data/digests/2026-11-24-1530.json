@@ -1,0 +1,165 @@
+{
+  "edition": "2026-11-24-1530",
+  "edition_label": "24 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T07:37:31Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Sanofi agrees to acquire Insmed for about $41bn in cash, confirming earlier takeover report",
+      "summary": "Sanofi agreed to acquire US biopharma Insmed for roughly $41bn (about ¥6.5tn) in cash, days after reports the French drugmaker was weighing a bid. The deal gives Sanofi two first-in-disease commercialized products and pipeline assets that bolster its immunology and rare-disease portfolio.",
+      "why_it_matters": "The confirmed price makes this one of the largest pharma takeovers of the year and shows Sanofi choosing M&A over internal R&D to deepen its specialty and rare-disease pipeline.",
+      "summary_ja": "サノフィは米バイオ医薬品企業インスメッドを現金約410億ドル（約6.5兆円）で買収することに合意した。仏製薬大手が買収を検討していると報じられてから数日後の決定で、インスメッドの上市済み製品2品とパイプライン資産を取得し、免疫・希少疾患領域の強化につながる。",
+      "why_it_matters_ja": "買収価格の確定により今年最大級の製薬M&Aとなり、サノフィが社内開発ではなくM&Aで専門医薬品・希少疾患パイプラインの拡充を図る姿勢を示している。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-20-0830",
+        "index": 4
+      },
+      "key": "sanofi-insmed-acquisition-report",
+      "ids": [
+        "7c38befd54a8d5",
+        "f8ebec52c3e2ef",
+        "e3b442bb67c152"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/sanofi-to-acquire-insmed-in-strategic-step-that-strengthens-long-term-future-302949056.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MZk9TTUlqNnRtWUU0MHJ0THU3MlRBRWJEN0U3UDdERi1Na1o3TjdKbmZuOXY4MFFSYnlMV205RUtWQjBNZkh0bEVyZlhPbGF4WExVU0ZqZkptd1EzdUhWa0RfdHZkUXUtWXkySUFCUjE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaldadXI2alBlbzdubUlndnRyVGlkbUlHelBZazdlNUZ0WmhJdUI4ZkJ2QjJQY0M4V3RZaldQZTh6NVlXUlhsSzk1UTZ2Rk9HRHpuejdKRmdBSGRSNVI5bHcwQjlMLXJTWkw3VVZCYVJDcWtDRThjbkNnUXhFZDQ5VlVKTmR1M3NQdmJCUzdB?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Infrastructure",
+        "Other"
+      ]
+    },
+    {
+      "headline": "Mitsui Chemicals moves to acquire JSR for about ¥1.8tn",
+      "summary": "Mitsui Chemicals has moved to acquire JSR, a materials and semiconductor-chemicals maker, in a deal valued at about ¥1.8tn, a Japan M&A newswire report said. No further transaction details were disclosed.",
+      "why_it_matters": "A ¥1.8tn price tag would rank among the largest domestic deals in Japan's chemicals sector this year, underscoring consolidation pressure as semiconductor-materials demand reshapes the industry.",
+      "summary_ja": "三井化学は、材料・半導体関連化学品メーカーのJSRを約1.8兆円で買収する方向で動いていると、Japan M&Aのニュースワイヤーが報じた。取引に関するその他の詳細は明らかになっていない。",
+      "why_it_matters_ja": "1.8兆円規模となれば今年の日本の化学業界で最大級の国内統合案件となり、半導体材料需要の高まりが業界再編の圧力になっていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "mitsui-chemicals-jsr-acquisition",
+      "ids": [
+        "38089399b30523"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5McWNrZU9faGpyaEpTYlM2OFUteV9HLWw3RTlNMXJNN04wMjJ2RDRZTWFoejdsa1hFUi1kZjdJU0EzTFh0OWVWVzB5N2FpQk5iZnFCb2JB?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Materials"
+      ]
+    },
+    {
+      "headline": "SpaceX and Tesla reportedly tap five directors to lead merger talks",
+      "summary": "SpaceX and Tesla have entrusted five directors with talks on a potential merger between the two companies, the Financial Times reported, according to CNA Business. No financial terms or timeline were disclosed.",
+      "why_it_matters": "A SpaceX-Tesla combination would unite two of Elon Musk's flagship companies under one structure, a tie-up investors have long speculated about given their overlapping technology and capital needs.",
+      "summary_ja": "スペースXとテスラは両社間の合併協議を担う取締役5人を指名した、とFT（フィナンシャル・タイムズ）がCNAビジネス経由で報じた。財務条件や時期は明らかにされていない。",
+      "why_it_matters_ja": "スペースXとテスラの統合が実現すればイーロン・マスク氏の中核2社が一つの組織にまとまることになり、技術と資金需要の重なりから投資家がかねて憶測していた組み合わせだ。",
+      "status": "new",
+      "prev": null,
+      "key": "spacex-tesla-merger-talks",
+      "ids": [
+        "43c5cbe29ae64c"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/spacex-and-tesla-entrusts-five-directors-merger-talks-ft-reports-6577276"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Foundation Healthcare secures S$325m credit facility to refinance debt",
+      "summary": "Singapore-listed Foundation Healthcare secured a S$325m credit facility to refinance existing debt at lower borrowing costs and fund growth, the company said in an SGX filing.",
+      "why_it_matters": "Locking in cheaper, committed credit gives Foundation Healthcare more balance-sheet flexibility to pursue further growth, a sign lenders remain willing to back Singapore healthcare credits.",
+      "summary_ja": "シンガポール上場のファウンデーション・ヘルスケアは、既存債務をより低い金利で借り換え、成長資金にも充てるため、3億2,500万シンガポールドルのクレジットファシリティを確保したとSGX開示資料で明らかにした。",
+      "why_it_matters_ja": "低コストでコミットされた融資を確保したことで、同社は今後の成長戦略に向けたバランスシート上の柔軟性を得た。これはシンガポールのヘルスケア関連クレジットに対する貸し手の意欲が続いていることを示す。",
+      "status": "new",
+      "prev": null,
+      "key": "foundation-healthcare-credit-facility",
+      "ids": [
+        "46246ecd2b7594"
+      ],
+      "links": [
+        {
+          "source": "SGX announcements",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMGcxd1QwbXJ6MDRjRHFuYWtqX2RXVlhBaG44b3BHX2N5eVBJWlFOMUtIZTJjaVNPRGt4MmhKOUlEanFkdVpDcjYwdElQelhLRWlwc0xOUGJJWDhsUGhKLVlickpjTWZDNUwyaWU2QUJQVWs5WmFBSGVMMHlqNk5rS2pmYS05VHJXSm1yX3dEVFEwNkx2ZjlPV2k5VUtfMGlxVWJDa0hoSFBzVDR0RVJlWGowRXV2SV9sYks5U3FsT3FuZU1sQVlieEZ6N0dxUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Financials",
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Toyo Corp completes acquisition of radiation-equipment maker Aloka",
+      "summary": "Toyo Corp completed its acquisition of Aloka, a maker of radiation-measurement devices, making it a subsidiary, according to a disclosure filing. Toyo Corp shares rose on the news.",
+      "why_it_matters": "The bolt-on gives Toyo Corp, a measurement-instruments supplier, a foothold in radiation-detection equipment, broadening its product line in a niche but steady industrial-measurement market.",
+      "summary_ja": "東陽テクニカは放射線測定装置メーカーのアロカの株式取得を完了し、子会社化したと適時開示資料で発表した。発表を受けて東陽テクニカの株価は上昇した。",
+      "why_it_matters_ja": "計測機器を手掛ける東陽テクニカにとって、放射線検知機器分野への足がかりとなるボルトオン買収であり、ニッチながら安定した産業計測市場での製品ラインの拡充につながる。",
+      "status": "new",
+      "prev": null,
+      "key": "toyo-corp-aloka-acquisition",
+      "ids": [
+        "dc96352cb378ed",
+        "a325109c9f57bc"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PVGYxaUM1RTFhdUJ2ZHNpZFRSTEJNbkFvUTVlSVdvRFQ4cndpbnVfTzNIQVR4bUpldHFLeXc1dWZOSTFvYXEzRlVsaUVPY1ctMTAzZHRRLU9zQ3lwT0E3MnNGV05IYTNPQVE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nc0N0RG43dVNDaEdrMkpzeVctZVJuUUpseFJHNy1wQmRfQTJRM0YyTmdtelNKMHNUM1ZOd1NQNHZfa0o2allFSHNobkU0dFFwb2kyb1BjZGlDZXZOWFowMg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

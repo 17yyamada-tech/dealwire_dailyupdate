@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-24-1530",
+      "label": "24 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-24T07:37:31Z",
+      "items": 5,
+      "headlines": [
+        "Sanofi agrees to acquire Insmed for about $41bn in cash, confirming earlier takeover report",
+        "Mitsui Chemicals moves to acquire JSR for about ¥1.8tn",
+        "SpaceX and Tesla reportedly tap five directors to lead merger talks"
+      ]
+    },
+    {
       "id": "2026-11-24-1230",
       "label": "24 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-24T04:37:00Z",
