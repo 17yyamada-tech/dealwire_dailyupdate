@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-24-0830",
+      "label": "24 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-24T00:39:00Z",
+      "items": 10,
+      "headlines": [
+        "CrowdStrike agrees $44bn all-stock takeover of Zscaler, the largest-ever cybersecurity deal",
+        "StarHub and M1 confirm S$1.1 billion merger, StarHub to also acquire Circles.Life Singapore",
+        "Texas Pacific Land to buy EagleRock Land for $3bn in all-stock deal"
+      ]
+    },
+    {
       "id": "2026-11-23-1530",
       "label": "23 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-23T07:35:00Z",

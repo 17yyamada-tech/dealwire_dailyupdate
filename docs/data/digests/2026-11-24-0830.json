@@ -1,0 +1,329 @@
+{
+  "edition": "2026-11-24-0830",
+  "edition_label": "24 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T00:39:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "CrowdStrike agrees $44bn all-stock takeover of Zscaler, the largest-ever cybersecurity deal",
+      "summary": "CrowdStrike has signed a definitive agreement to acquire Zscaler in an all-stock transaction valued at about $44 billion, confirmed in SEC filings from both companies. It is being described as the largest-ever M&A deal in cybersecurity history, with the Business Times reporting the combination would expand the companies' addressable market by more than $185 billion by 2029.",
+      "why_it_matters": "The signed $44bn price is well above the roughly $32bn valuation reported for the same approach just two days earlier, confirming this as 2026's largest cybersecurity consolidation. The all-stock structure preserves CrowdStrike's cash but dilutes existing holders, and the combined identity-and-network-security footprint is large enough to invite close antitrust scrutiny.",
+      "summary_ja": "クラウドストライクは全株式交換によりゼットスケーラーを約440億ドルで買収する最終契約を締結した。両社のSEC提出資料で確認された。サイバーセキュリティ史上最大のM&Aとされ、ビジネス・タイムズは両社の対象市場が2029年までに1850億ドル以上拡大すると報じた。",
+      "why_it_matters_ja": "確定した440億ドルという価格は、わずか2日前に報じられた同じ案件の想定価値約320億ドルを大きく上回り、2026年最大のサイバーセキュリティ統合であることが裏付けられた。全株式交換の構造はクラウドストライクの資金繰りの柔軟性を保つ一方、既存株主の希薄化を伴う。アイデンティティ保護とネットワークセキュリティ市場での統合規模の大きさから、独禁当局の厳しい審査を招くとみられる。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-22-0830",
+        "index": 1
+      },
+      "key": "crowdstrike-zscaler-talks",
+      "ids": [
+        "d90a303a46b1da",
+        "142902e78f0ccb",
+        "47678dd7ae0a13"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/crowdstrike-acquire-zscaler-us44-billion-deal-would-create-cybersecurity-giant"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926130785/0001104659-26-130785-index.htm"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZMVFSenlfNjNOUjlTRmY1bk8yYUxzbkwwamplbG9rcU9WM2M1Z0NqYTUwcV9FVWV0V1hMRThvVVFXZFpfN295aU9jTTdGaldkU3Fyd3RpQ2x3STJocXEzbDJTdzR1UERVWHhVZEk0TmxCUUUx?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA",
+        "US"
+      ],
+      "sectors": [
+        "TMT",
+        "Other"
+      ]
+    },
+    {
+      "headline": "StarHub and M1 confirm S$1.1 billion merger, StarHub to also acquire Circles.Life Singapore",
+      "summary": "StarHub and M1 have confirmed a merger valued at S$1.1 billion, Channel NewsAsia and the Business Times reported. StarHub separately said it exercised a call option to acquire Circles.Life Singapore under a put-and-call agreement between the two telcos. The deal follows a collapsed S$1.4 billion merger attempt between Simba and M1 in May.",
+      "why_it_matters": "This is Singapore telecom's second major consolidation attempt this year after the Simba-M1 talks collapsed in May, cutting the number of mobile players in the market. Folding in Circles.Life gives StarHub a low-cost sub-brand rather than ceding that segment to a rival consolidator.",
+      "summary_ja": "スターハブとエムワンは11億シンガポールドル規模の合併を確認したとチャンネル・ニュースアジアとビジネス・タイムズが報じた。スターハブは別途、両社間のプット・コールオプション契約に基づきコールオプションを行使し、サークルズ・ライフ・シンガポールを買収すると発表した。この統合は5月に破談となったシンバとエムワンの14億シンガポールドル規模の合併計画に続くものである。",
+      "why_it_matters_ja": "シンバとエムワンの協議が5月に破談となって以降、今年2度目となる大型統合であり、モバイル事業者数が減る結果となる。サークルズ・ライフを取り込むことで、スターハブはその低価格帯を競合の統合相手に譲るのではなく自社の傘下に収める。",
+      "status": "new",
+      "prev": null,
+      "key": "starhub-m1-merger",
+      "ids": [
+        "f71ee0a80b3824",
+        "b986c5e7bb3577"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/starhub-merges-m1-s1-1-billion-acquires-circles-life-singapore"
+        },
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/starhub-m1-merger-keppel-confirmed-telco-6576341"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Texas Pacific Land to buy EagleRock Land for $3bn in all-stock deal",
+      "summary": "Texas Pacific Land has agreed to acquire EagleRock Land in an all-stock transaction valued at about $3 billion, confirmed via an SEC filing, as Permian Basin land consolidation continues.",
+      "why_it_matters": "An all-stock structure lets Texas Pacific Land expand its royalty and surface-acreage footprint in the Permian without raising cash, continuing a wave of consolidation among land and mineral owners. At $3bn, it is among the larger land-and-royalty deals struck in the basin this year.",
+      "summary_ja": "テキサス・パシフィック・ランドは全株式交換によりイーグルロック・ランドを約30億ドルで買収することに合意したとSEC提出資料で確認された。パーミアン盆地における土地統合が続いている。",
+      "why_it_matters_ja": "全株式交換により、テキサス・パシフィック・ランドは現金を使わずにパーミアン盆地のロイヤルティおよび地表権の保有を拡大できる。土地・鉱業権保有者による盆地統合の流れが続く中、30億ドルという規模は今年同盆地で成立した土地関連取引の中でも大きい方に入る。",
+      "status": "new",
+      "prev": null,
+      "key": "texas-pacific-land-eaglerock",
+      "ids": [
+        "2951e3c6ac1518",
+        "077c9c30c51424"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xN3JJaVg5a3A5YVp2dW42bmNGenJ1bU1veFA4UTBhZzV4dHN2SDNSVWs4Z1RNa2M0LV9OQ2lZLTJINU9ObTlsbXZVX3V0S05wLVlZdjd5UklSM0E0aXFHZ21VLTZWLTl0YWt5Vmd6dUJGTVh3?oc=5"
+        },
+        {
+          "source": "SEC EDGAR 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811074/000119312526472518/0001193125-26-472518-index.htm"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "ABB to acquire Germany's Ziehl-Abegg for $2.65bn, expanding data-centre cooling push",
+      "summary": "ABB has agreed to acquire German fan manufacturer Ziehl-Abegg for about $2.65 billion, a report said, aimed at strengthening its data-centre cooling business.",
+      "why_it_matters": "The deal gives ABB more exposure to data-centre infrastructure spending tied to AI buildouts, a theme pulling industrial conglomerates toward cooling and power-management assets. At $2.65bn, it is one of the larger thermal-management acquisitions this year as hyperscalers push cooling demand further up the supply chain.",
+      "summary_ja": "ABBはドイツの送風機大手ツィール・アベッグを約26.5億ドルで買収することに合意したと報じられた。データセンター冷却事業の強化を狙う。",
+      "why_it_matters_ja": "データセンター関連インフラへの投資機会が増すことで、ABBはAI関連需要に支えられた冷却・電力管理分野への事業露出を拡大する。26.5億ドルという規模は、ハイパースケーラーの冷却需要がサプライチェーンの上流にまで及ぶ中で、今年の熱管理分野の買収としては大型の一つである。",
+      "status": "new",
+      "prev": null,
+      "key": "abb-ziehl-abegg-datacenter-cooling",
+      "ids": [
+        "23280a72b35422"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12RzFaVFN3NExjTUtXSVJaN1FFWGo3Zkh6WVRjV1RHVmEzWC1XUjlRRjRBWHhReWhLS0tiSWptRGRnNERtY2xFNVl6bUkwU0t4czh3QmJXZnpZYkpHaERFNXAxV2VYMGlvejRfN0EwQVE3ZUZs?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Brookfield confirms $1.7bn deal to buy PGP Glass from Blackstone",
+      "summary": "Brookfield has agreed to acquire PGP Glass from Blackstone for about $1.7 billion, DealStreetAsia and a separate report said, confirming earlier reports of the approach with a disclosed price. The target was described as an AI-enabled packaging business.",
+      "why_it_matters": "The confirmed price turns a previously reported approach into a signed transaction, continuing Blackstone's streak of monetizing industrial portfolio companies. Brookfield's framing of the target as an AI-enabled packaging business adds a tech-adjacent angle to what might otherwise read as a conventional industrial buyout.",
+      "summary_ja": "ブルックフィールドはブラックストーンからPGPグラスを約17億ドルで買収することに合意したとディールストリート・アジアおよび別の報道が伝え、価格を明示したことで既報の接触報道が確定した。買収対象はAIを活用した包装事業と説明されている。",
+      "why_it_matters_ja": "価格確定により、これまで報道段階だった接触が正式な契約に移行した。ブラックストーンは産業系ポートフォリオ企業の売却を続けている。ブルックフィールドが買収対象をAI活用の包装事業と位置付けている点は、一般的な産業系バイアウトに技術色を加えるものである。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-23-1530",
+        "index": 0
+      },
+      "key": "brookfield-pgp-glass-blackstone",
+      "ids": [
+        "700d1aee3210ea",
+        "83cc0bbc83c8e9"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQk55NjdxODh4eU42RGF0dHA2Y25xWU5LZnE0UFJYZ3NVUkFHNzdpWmYyc2hCYzdTdm5JZm9HZE95ODRrRzJ4ZUhtYW9xcUVBSm9sdGVpS2JQSENKWHBSZDF5Szg0cmxVN0t6UUxxdUNKdldtUHJWWGpfVU1aVWRxdXdXWQ?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1nNTVBVDIydm1UNjRiaUVQVDc4R3JYRkxsNGc1ZHQxREFONEp6cExUaWRjQzQyVlJQNU1ENHNPb1ZJYTIzQW9yYmlIVG1iWmJVSWxUZ3JNWlF2cEx1b1hsQzczZUhWcjUwQXlTSEVCWDBKaWxG?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other",
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Nvidia-backed Firmus weighs $1.5bn bond sale after shelving IPO",
+      "summary": "Firmus, an Nvidia-backed AI company, is considering a US$1.5 billion bond offering after shelving its IPO plans, the Business Times reported. The potential bond sale is part of a larger debt financing package.",
+      "why_it_matters": "Firmus turning to debt after pulling its IPO shows AI infrastructure financing shifting toward credit markets while IPO windows stay choppy for growth-stage tech. A $1.5bn bond sale folded into a larger financing package suggests lenders are willing to underwrite AI compute buildouts even where equity investors have hesitated.",
+      "summary_ja": "エヌビディアが支援するAI企業ファーマスは、IPO計画を見送った後、15億米ドル規模の債券発行を検討しているとビジネス・タイムズが報じた。この債券発行案はより大きな負債性資金調達計画の一部である。",
+      "why_it_matters_ja": "IPOを取り下げて負債調達に切り替える動きは、成長段階のテック企業にとってIPO市場の環境が依然厳しい中、AIインフラ向け資金調達がクレジット市場へシフトしていることを示す。より大きな資金調達計画に組み込まれた15億ドルの債券発行は、株式投資家が慎重な局面でも、貸し手がAI計算基盤の構築に融資する意欲を持っていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "firmus-bond-offering-ipo-shelved",
+      "ids": [
+        "bd784c86851758"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/nvidia-backed-ai-company-firmus-mulls-us1-5-billion-bond-offering-after-shelving-ipo"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "Eli Lilly to acquire UK biotech LoQus23 for up to $725m, targeting Huntington's disease",
+      "summary": "Eli Lilly has agreed to acquire UK biotech LoQus23 for up to about $725 million, a report said, adding a Huntington's disease treatment candidate to its pipeline.",
+      "why_it_matters": "The bolt-on continues large pharma's pattern of paying for de-risked assets in rare neurological disease, where M&A remains one of the few reliable growth levers for big pharma pipelines. At up to $725m, it is a modest-sized deal relative to Lilly's recent dealmaking, reflecting a bolt-on rather than a platform bet.",
+      "summary_ja": "イーライリリーは英国のバイオ企業ロクアス23を最大約7.25億ドルで買収することに合意したと報じられた。ハンチントン病治療薬候補をパイプラインに追加する。",
+      "why_it_matters_ja": "大手製薬企業が希少な神経疾患領域でリスクの低減された資産に対価を払う流れが続いている。M&Aは大手製薬のパイプラインにとって依然数少ない確実な成長手段の一つである。最大7.25億ドルという規模はリリー社の近年のM&Aに比べれば小ぶりで、プラットフォーム投資というより小規模な補完買収の位置付けである。",
+      "status": "new",
+      "prev": null,
+      "key": "eli-lilly-loqus23-huntingtons",
+      "ids": [
+        "0ed2b68ae69dc4"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YNEk0WDFISnpScWNJYjFwT0xFd3dBNEFkaEh3czJKM3hkRFVicmNaLVo5VnFheldKU1ltMjdMY0FzTV9tTjBxQUJpTVYzLU9YSHJkaXNjUzlaSEh1SVZRU0xXTVZ3UG8wbWUtNzVlZDNRTHBE?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Madison Dearborn to acquire Peli BioThermal from Pelican Products and Platinum Equity",
+      "summary": "Madison Dearborn Partners has agreed to acquire cold-chain logistics provider Peli BioThermal from Pelican Products and Platinum Equity, according to a company announcement. Financial terms were not disclosed.",
+      "why_it_matters": "This is a sponsor-to-sponsor handoff that carves Peli BioThermal out as a standalone healthcare supply-chain company, a structure PE firms increasingly use to monetize non-core divisions without a strategic buyer. Platinum Equity exits a cold-chain logistics asset while Madison Dearborn adds healthcare-adjacent infrastructure exposure to its portfolio.",
+      "summary_ja": "マディソン・デアボーン・パートナーズは、ペリカン・プロダクツとプラチナム・エクイティからコールドチェーン物流企業ペリ・バイオサーマルを買収することに合意したと発表された。買収金額は非公開。",
+      "why_it_matters_ja": "スポンサー間のセカンダリー取引で、ペリ・バイオサーマルをヘルスケア向けサプライチェーン専業企業として独立させる形だ。戦略的買い手がいない非中核事業をPEファームが売却する際に多用される手法である。プラチナム・エクイティはコールドチェーン物流資産を手放し、マディソン・デアボーンはヘルスケア関連のインフラ露出を新たに取り込む。",
+      "status": "new",
+      "prev": null,
+      "key": "madison-dearborn-peli-biothermal",
+      "ids": [
+        "84879da58d7351"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/madison-dearborn-partners-to-acquire-peli-biothermal-a-trusted-cold-chain-solutions-provider-from-pelican-products-and-platinum-equity-302948222.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "Cogent Communications to sell three data centre facilities in definitive agreement",
+      "summary": "Cogent Communications' subsidiary Cogent Fiber has entered a definitive agreement to sell three data centre facilities, the company announced. The aggregate purchase price was not disclosed in the available statement.",
+      "why_it_matters": "Divesting physical data centre real estate lets Cogent recycle capital while a fibre network operator steps back from owning the buildings it once operated out of, a structure increasingly used to separate real estate from core connectivity business. It adds to a broader trend of telecom and internet infrastructure firms monetizing data centre assets as hyperscaler and AI demand pushes up valuations.",
+      "summary_ja": "コージェント・コミュニケーションズの子会社コージェント・ファイバーは、3カ所のデータセンター施設を売却する最終契約を締結したと発表した。入手した発表内容では、合計の売却額は開示されていない。",
+      "why_it_matters_ja": "データセンターという物理資産を売却することで、コージェントは資本を回収しつつ、かつて自社で運営していた建物の所有から手を引く。これは不動産とコア事業である接続サービスを分離する手法として広がりつつある。ハイパースケーラーやAI需要がデータセンターの評価額を押し上げる中、通信・インターネットインフラ企業が同資産を収益化する大きな流れの一例である。",
+      "status": "new",
+      "prev": null,
+      "key": "cogent-communications-data-center-sale",
+      "ids": [
+        "a38c25b1537cee"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/cogent-communications-announces-definitive-agreement-to-sell-three-data-center-facilities-302947462.html"
+        }
+      ],
+      "categories": [
+        "Infra",
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "TMT",
+        "Infrastructure"
+      ]
+    },
+    {
+      "headline": "Research Solutions to be acquired by CJK Group's KnowledgeWorks Global for $3.25 a share",
+      "summary": "Research Solutions has agreed to be acquired by KnowledgeWorks Global, a CJK Group company, in an all-cash deal at $3.25 per share, the company announced. That price represents a 51.9% premium to Research Solutions' November 20 closing price.",
+      "why_it_matters": "The steep premium suggests the board saw limited standalone upside for a small-cap scholarly-publishing services firm and opted for a clean exit over continued independence. It is a reminder that strategic buyers are still willing to pay up for niche, profitable services businesses even as broader M&A premiums have compressed.",
+      "summary_ja": "リサーチ・ソリューションズは、CJKグループ傘下のナレッジワークス・グローバルによる全額現金での買収に1株3.25ドルで合意したと発表した。この価格は11月20日終値に対して51.9%のプレミアムとなる。",
+      "why_it_matters_ja": "高めのプレミアムは、小型の学術出版支援企業にとって単独での成長余地が限られていたことを取締会が認識し、独立継続より明確な売却を選んだことを示している。幅広いM&A市場でプレミアムが縮小する中でも、戦略的買い手がニッチで収益性の高いサービス企業には相応の対価を払う姿勢を示す例である。",
+      "status": "new",
+      "prev": null,
+      "key": "research-solutions-knowledgeworks-global-cjk",
+      "ids": [
+        "d0594680111df5",
+        "d62e92aed9fba9"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/research-solutions-to-join-knowledgeworks-global-ltd-a-cjk-group-company-in-all-cash-acquisition-302947935.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84VzVORTg3RHpYdWV4RUlkV3d6T0gzbmVpSndZRjhyRG9DdDI3MGYtM2w5Z1BfR1o5WXpxaDdMaFp4N0k5M0ZoYkxwcGZlTTBoa3pheHJPS0dHOUoxTWp1TnlRQkpxZDBEVmlJcDg2WlM?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
