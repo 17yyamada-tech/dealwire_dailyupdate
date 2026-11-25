@@ -1,0 +1,315 @@
+{
+ "edition": "2026-11-25-0830",
+ "edition_label": "25 Nov 2026 · 08:30 SGT",
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T00:41:35Z",
+ "reading_minutes": 5,
+ "items": [
+  {
+   "headline": "NSK and NTN sign definitive agreement for merger into joint holding company",
+   "summary": "NSK and NTN have signed the final agreement for their previously announced management integration and confirmed plans to establish a joint holding company, a Japan M&A newswire report said. NTN shares extended gains to a sixth straight session on the news.",
+   "why_it_matters": "The signed contract converts this week's merger framework into a binding deal, clearing a major closing risk ahead of the planned integration and underscoring continued consolidation among Japan's industrial-parts makers. It also adds to a run of bearing and auto-supply-chain tie-ups as Japanese manufacturers seek scale against slowing domestic vehicle production.",
+   "summary_ja": "NSKとNTNは、既に発表していた経営統合について最終契約を締結し、共同持株会社の設立方針を確認したとJapan M&Aのニュースワイヤーが報じた。この発表を受けNTN株は6営業日続伸した。",
+   "why_it_matters_ja": "最終契約の締結により、今週発表された統合の枠組みが拘束力のある契約に移行し、2027年の統合に向けた主要な完了リスクが後退した。日本の産業部品メーカーの間で続く再編の流れを裏付ける動きでもあり、国内自動車生産の鈍化を背景に規模を追求する軸受・自動車部品サプライチェーンの統合が相次いでいることも示している。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-21-0830",
+    "index": 3
+   },
+   "key": "nsk-ntn-merger",
+   "ids": [
+    "e1b1f787185e66",
+    "913b211be50b0f"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44NWFpdnVialhMSTZSOHdqc0ltVzJpOGNUMHlHdnpFVEZvNFQ1cjlGYnB3VkhCZGdYQV9oalNGQnZTcWl2bGY3Q3NqYlZ3MEJRQWFDelFEVnBIUTRaOGY2OQ?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5TYVAyZnByZ0U5NlNPZHpYYTd5Sy1iS1J4M2tHZk1NZzZSRUZjVHkwU1hYejJxd3dWdWtOVWNQNWVBY0tINjlaaFdLRndvYXY1dkRR?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Cerberus Capital Management agrees to acquire Airbus's US space systems business",
+   "summary": "Cerberus Capital Management said it has agreed to acquire the U.S. space systems business of Airbus, a deal framed as establishing U.S. ownership of the unit. The investment firm said the transaction is intended to expand capabilities and grow the satellite platform across national-security and commercial missions.",
+   "why_it_matters": "Shifting a European aerospace giant's U.S. space assets into American private-equity hands addresses sovereignty concerns around national-security satellite programmes, and signals continued PE appetite for defence and space infrastructure. It also fits a broader pattern of large contractors carving out and selling U.S. defence-adjacent units to buyers that can satisfy domestic-ownership requirements.",
+   "summary_ja": "サーベラス・キャピタル・マネジメントは、エアバスの米国宇宙部門事業を買収することで合意したと発表した。同事業の米国資本化を図る取引と位置づけられており、同社は国家安全保障・商業両分野の衛星プラットフォームの能力拡大と成長を狙いとしていると説明した。",
+   "why_it_matters_ja": "欧州の航空宇宙大手が持つ米国の宇宙関連資産が米系プライベートエクイティの手に移ることで、安全保障上重要な衛星計画における資本の自国保有に関する懸念に対応する形となる。防衛・宇宙インフラ分野へのPEマネーの関心の高さを示す動きでもあり、大手防衛関連企業が米国資本保有の要件を満たす買い手に米国事業を切り出して売却する流れにも合致する。",
+   "status": "new",
+   "prev": null,
+   "key": "cerberus-airbus-space-systems",
+   "ids": [
+    "957dd0af986f55",
+    "6901e3d8797b39"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/cerberus-to-acquire-the-us-space-systems-business-of-airbus-302949473.html"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTaW0tbE1HLVVoRGZXaWgtWTFDWU5lVXgtRWExM1oybzhiWnZIUExOcUZxUzVZVHJDNFpEcW9hU1UzWkRaUklIQ08yb0tTamtLU1hmYUF6QlpITE5tYWFYVXBIdGNPZTJGdk55NHUxa0c?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "CF Industries agrees to acquire Mosaic's Faustina ammonia plant in Louisiana",
+   "summary": "The Mosaic Company said it has entered into a definitive agreement to sell its Faustina ammonia plant in Louisiana to CF Industries Holdings. Financial terms of the transaction were not disclosed in the companies' announcement.",
+   "why_it_matters": "The sale lets Mosaic shed a non-core ammonia asset while CF Industries, a leading listed nitrogen producer, adds production capacity, extending a wave of asset-swapping among North American fertiliser and chemicals makers. It also points to continued portfolio pruning in the sector as producers concentrate capital around their most efficient plants.",
+   "summary_ja": "モザイク・カンパニーは、ルイジアナ州のファウスティナ・アンモニア工場をCFインダストリーズ・ホールディングスに売却する最終契約を締結したと発表した。両社の発表では取引の金額など財務条件は明らかにされていない。",
+   "why_it_matters_ja": "モザイクにとっては非中核のアンモニア資産を切り出す売却であり、CFインダストリーズは上場窒素メーカーとして上位の地位を生かして生産能力を積み増す。北米の肥料・化学メーカー間で進む資産入れ替えの流れを示す一例であり、生産者が最も効率の高い工場に資本を集中させる業界内のポートフォリオ見直しが続いていることも示している。",
+   "status": "new",
+   "prev": null,
+   "key": "cf-industries-mosaic-faustina",
+   "ids": [
+    "52a29a118f3ab0"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/mosaic-announces-agreement-with-cf-industries-for-the-sale-of-its-faustina-ammonia-plant-302948776.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Oriental Land to buy back up to ¥60bn in shares after Keisei signals stake sale",
+   "summary": "Oriental Land, operator of Tokyo Disney Resort, announced a share buyback of up to ¥60bn and the cancellation of treasury shares, a disclosure filing said. The move responds to major shareholder Keisei Electric Railway's stated intention to sell down its stake.",
+   "why_it_matters": "The buyback cushions Oriental Land's share price against the overhang from a large shareholder's planned exit, and is another sign of Japanese companies unwinding long-standing cross-shareholdings under governance pressure. For Keisei, the move clears a path to monetise part of its stake without necessarily depressing the market price it can realise.",
+   "summary_ja": "東京ディズニーリゾートを運営するオリエンタルランドは、最大600億円の自己株式取得と消却を発表したと適時開示資料で明らかにした。主要株主である京成電鉄が株式売却の意向を示したことへの対応だとしている。",
+   "why_it_matters_ja": "大株主の売却による株式の供給過多（オーバーハング）を自己株買いで吸収する動きであり、ガバナンス強化の圧力の下で日本企業が長年の持ち合い株を解消する流れをまた一つ示す事例だ。京成電鉄にとっては、売却時の株価への下押し圧力を抑えつつ保有株の一部を現金化する道筋が開けることになる。",
+   "status": "new",
+   "prev": null,
+   "key": "oriental-land-buyback-keisei",
+   "ids": [
+    "914e2837de957d"
+   ],
+   "links": [
+    {
+     "source": "Japan disclosures",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tSGhLMlA0emlpLU82TjVBZVNxWXVfeGV2VURqTGJOSTdSQ0E0YkVCS0puSndGdE40dEwzNWctY2s3TmEyNVQ1SW1kNUR4Z2M?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "China's Will Semiconductor to acquire Yutai Semiconductor; shares fall over 6%",
+   "summary": "China's Will Semiconductor announced an acquisition of Yutai Semiconductor, a Japan M&A newswire report said. Will Semiconductor shares fell more than 6% after trading resumed following the announcement.",
+   "why_it_matters": "The share-price drop suggests investors have questions about the deal's terms or strategic logic, even as Chinese chipmakers continue to consolidate to build scale amid tightening export controls. The market reaction is a reminder that not every tie-up in China's semiconductor sector is being read as value-accretive by shareholders.",
+   "summary_ja": "中国の艾為電子（ウィル・セミコンダクター）は鈺泰半導体の買収を発表したと、Japan M&Aのニュースワイヤーが報じた。発表を受けて取引再開後に艾為電子の株価は6%超下落した。",
+   "why_it_matters_ja": "株価の下落は、取引条件や戦略的合理性について投資家が疑問を持っていることをうかがわせる。輸出規制が強まる中、中国の半導体メーカーが規模拡大を目指して統合を進める動きが続いていることも背景にあるが、中国半導体業界の統合すべてが株主にとって価値創造型と受け止められているわけではないことも示している。",
+   "status": "new",
+   "prev": null,
+   "key": "will-semiconductor-yutai-semiconductor",
+   "ids": [
+    "40e15ae4cc6b25"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KNm53OV9TRENJejllWTFKT2U1MThpUUVaUE5Xd2Q3NTU1UWhCY2Q3TG5Hc2lEMW9fTjJXTEFBZGtONE5rS1hrelVGNmprSU13dEt4V1QyQ2NuRU4zbjlPczVkQXJtTXVSZVhuUXhqUkNrQUhm?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "HK/CN"
+   ],
+   "sectors": [
+    "AI & Semis"
+   ]
+  },
+  {
+   "headline": "Yakult said to be weighing acquisition of Euglena's Kyusai aojiru business",
+   "summary": "Yakult is considering acquiring the Kyusai aojiru (barley-grass drink) business, with Euglena potentially divesting what reports described as its biggest earnings contributor, according to multiple Japanese media reports. No terms or timeline were disclosed.",
+   "why_it_matters": "A sale would let Euglena offload its most profitable unit, raising questions about its strategy, while giving Yakult a bolt-on in the health-drink category it already dominates domestically. It would also mark another case of a Japanese consumer company trimming its portfolio to focus on a narrower core business.",
+   "summary_ja": "ヤクルトが、ユーグレナの「キューサイ」青汁事業の買収を検討していると、複数の日本メディアが報じた。報道ではキューサイ事業はユーグレナの稼ぎ頭とされており、条件や時期は明らかにされていない。",
+   "why_it_matters_ja": "売却が実現すればユーグレナは最も収益性の高い事業を手放すことになり、同社の戦略に疑問が生じる可能性がある。一方ヤクルトにとっては、既に国内で強い地位を持つ健康飲料分野でのボルトオン買収となる。日本の消費財企業が事業ポートフォリオを絞り込み、中核事業に集中する動きの一例にもなる。",
+   "status": "new",
+   "prev": null,
+   "key": "yakult-euglena-kyusai",
+   "ids": [
+    "35c558d1bc4d7e",
+    "7f22ba9a91095e",
+    "742a9c6ca486f4"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBYUnZVQVhGRWc5WEdnM0dLay1OYnlFaFVuVHZWTkxvSXJHVFNfaVJ4OU1zU09SbVZzQ0I0SXQycWNkNmZsNURDUG8wM3M?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBYUnZVQVhGRWc5WEdnM0dLay1OYnlFaFVuVHZWTkxvSXJHVFNfaVJ4OU1zU09SbVZzQ0I0SXQycWNkNmZsNURDUG8wM3M?oc=5"
+    },
+    {
+     "source": "Japan PE & activists",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdE1WRldKN1kxNmxGeGFwYlZrMWNERHU1dWhhQ3owOU1HYjVReV9kN3FTSjRLRnF0Qm9YNk52d0F1NFdCSFBROWZHT2ZoTTRaSXg5dTNuR0JXQnNIdHJVOHYtV2FlRlhySzNCMHR6RnFmdy00TTc0UHZ4MmdKLTdYZ0VncGlJNk0?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A",
+    "PE"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "NIIF Infrastructure Finance raises about $86m through non-convertible debentures",
+   "summary": "NIIF Infrastructure Finance raised approximately $86m through non-convertible debentures (NCDs), DealStreetAsia reported. No further details of the issuance were disclosed.",
+   "why_it_matters": "The raise shows continued investor appetite for infrastructure-linked debt instruments in the region, giving the platform fresh capital to deploy into infrastructure financing. Even at a modest size, it adds to a steady flow of NCD issuance that Indian infrastructure financiers have used to diversify away from bank funding.",
+   "summary_ja": "NIIFインフラストラクチャー・ファイナンスは非転換債（NCD）を通じて約8,600万ドルを調達したと、DealStreetAsiaが報じた。発行の詳細についてはそれ以上明らかにされていない。",
+   "why_it_matters_ja": "インフラ関連の債務性証券に対する投資家需要が引き続き存在することを示す調達であり、同社はインフラ融資に向けた新たな資金を確保した。規模は大きくないものの、インド系のインフラ金融会社が銀行融資への依存を減らすために活用してきたNCD発行の流れが続いていることも示している。",
+   "status": "new",
+   "prev": null,
+   "key": "niif-infrastructure-finance-ncd",
+   "ids": [
+    "134c164b0e0612"
+   ],
+   "links": [
+    {
+     "source": "DealStreetAsia",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSk5uWEdjcW16aHl2bGxxa0o0WHRwUEh4cXRuS3VLdVlMX3ZwbHgxeF93MF9iQ2N0Zmx1SUVpejJodW4tV05ZY0xIV2YxemNsMi11WmJzb2xudXhBaUp5NzF1dWFoVm45SVFaUVdPN0JmQTVRdHNkRXhiX3h6cHM2Nnd5WVNHeXlmTllN?oc=5"
+    }
+   ],
+   "categories": [
+    "Infra"
+   ],
+   "countries": [],
+   "sectors": [
+    "Infrastructure"
+   ]
+  },
+  {
+   "headline": "OpenTable agrees to acquire Australian AI restaurant-tech firm me&u",
+   "summary": "OpenTable said it has entered into an agreement to acquire me&u, an AI-native Australian restaurant-technology company serving high-volume, multi-venue enterprise groups, the companies announced. A Japan M&A report described me&u as a provider of voice-AI and in-venue software.",
+   "why_it_matters": "The deal extends OpenTable's push into AI-driven restaurant software and gives it an enterprise, multi-venue customer base beyond its traditional reservations business, as restaurant-tech consolidation around AI tools accelerates. It also gives OpenTable a stronger foothold in the Australian market through an already-scaled local operator.",
+   "summary_ja": "オープンテーブルは、大規模・複数店舗展開の企業グループ向けにサービスを提供するAIネイティブの豪レストランテクノロジー企業、ミーアンドユー（me&u）を買収する契約を締結したと発表した。日本語の報道では、同社は音声AIと店舗向けソフトウェアを手がける企業と説明されている。",
+   "why_it_matters_ja": "この買収により、オープンテーブルはAIを活用したレストラン向けソフトウェア事業を拡大し、従来の予約事業を超えて大規模・多店舗展開の企業顧客基盤を得ることになる。AIツールを軸としたレストランテック業界の統合が加速していることを示す動きであり、既に事業基盤を持つ現地企業を通じて豪州市場での足場も強化する。",
+   "status": "new",
+   "prev": null,
+   "key": "opentable-meu-acquisition",
+   "ids": [
+    "3daf4a358d3ad4",
+    "d6f4047364698f"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/opentable-announces-proposed-acquisition-of-australian-restaurant-technology-company-meu-302949939.html"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb24wdXZQdk1keW0tSy1zM0dwQU5UVXUxdHZkd3l0NHVwSzVOVlozTlRmYTdyNzJpakx4Nko5cDc3V2YtVlFpS1RjdnU1TnAyQVAxaUJlUGFOZ3JDcTJFeHo2WEtkemdqcjl0UGxfa3Y4VVI5cWVfaklWdUNsTVBnZ1JaeTloUUJNLW1MU2kxSTJvVDdVWGhUYw?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "AI & Semis",
+    "TMT",
+    "Consumer"
+   ]
+  },
+  {
+   "headline": "Sentinel Capital Partners acquires lab-supplies distributor GSI Group Holdings",
+   "summary": "Sentinel Capital Partners, a private equity firm focused on midmarket companies, announced its acquisition of GSI Group Holdings, a provider of laboratory supplies, the company said. Sentinel said the deal builds on its experience with branded-products businesses.",
+   "why_it_matters": "The deal is a straightforward sponsor buy-and-build in a defensive, recurring-revenue niche, typical of the midmarket PE deals that continue to get done even as larger buyout activity stays choppy. It also shows sponsors still favouring branded, fragmented distribution businesses where roll-up economics are well understood.",
+   "summary_ja": "中堅企業に投資するプライベートエクイティ(PE)ファームのセンチネル・キャピタル・パートナーズは、研究用品を提供するGSIグループ・ホールディングスの買収を発表した。同社はこの取引がブランド製品事業での経験を生かすものだとしている。",
+   "why_it_matters_ja": "この買収は、安定した継続収益が見込めるニッチ分野におけるスポンサーによる典型的なバイ・アンド・ビルド型の取引である。大型バイアウト市場が不安定な中でも、ミドルマーケットのPE取引は着実に成立し続けていることを示している。ロールアップの経済性が理解しやすいブランド力のある分散型の流通事業を、スポンサーが依然好んでいることも示す動きだ。",
+   "status": "new",
+   "prev": null,
+   "key": "sentinel-capital-gsi-group",
+   "ids": [
+    "9dd27a5ea9d725"
+   ],
+   "links": [
+    {
+     "source": "PR Newswire M&A",
+     "url": "https://www.prnewswire.com/news-releases/sentinel-capital-partners-acquires-gsi-group-holdings-302948842.html"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "US"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Watami's MBO aimed at accelerating shift into comprehensive dining business, report says",
+   "summary": "Watami's management buyout to go private is aimed at accelerating a shift toward becoming a comprehensive dining operator, a Japanese M&A report said, adding new strategic detail to the founder-led take-private move first reported earlier this week. Financial terms remain undisclosed.",
+   "why_it_matters": "The added strategic rationale suggests Watami's MBO is about more than ownership structure, positioning the chain to restructure its restaurant portfolio away from public-market scrutiny. It fits a broader pattern of Japanese founder-led operators using MBOs to pursue strategic shifts that would be harder to execute as a listed company.",
+   "summary_ja": "ワタミが進めているMBOによる非公開化は、総合外食企業への転換を加速させることが狙いだと日本のM&A関連の報道が伝えた。創業者主導のこの非公開化は今週初めて報じられていたが、今回新たに戦略的な狙いが明らかになった。財務条件は依然非公開。",
+   "why_it_matters_ja": "戦略的な狙いが明らかになったことで、ワタミのMBOが単なる資本構成の変更以上の意味を持つことが示された。株式市場の監視から離れ、外食事業のポートフォリオを再構築する狙いがうかがえる。上場企業では実行しにくい戦略転換を進めるため、創業者主導でMBOを活用する日本企業の広がりにも合致する動きだ。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-21-1530",
+    "index": 2
+   },
+   "key": "watami-founder-mbo-takeprivate",
+   "ids": [
+    "b6f657edb3afda"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ONWtYS1UyTk13akd0NDl6aEdlVFR6Uk5QbTJTcTR2bkJuVWdrWmZ1S0FJTW1QTW50Ny1ycFhyV0pKZERwS3JVSkQ5cEdTeHhkRnpMSW10OWducnktcGEwYnh4SVdXX2FKckttTmpR?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "sectors": [
+    "Consumer"
+   ]
+  }
+ ]
+}

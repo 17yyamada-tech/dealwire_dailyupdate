@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-25-0830",
+      "label": "25 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-25T00:41:35Z",
+      "items": 10,
+      "headlines": [
+        "NSK and NTN sign definitive agreement for merger into joint holding company",
+        "Cerberus Capital Management agrees to acquire Airbus's US space systems business",
+        "CF Industries agrees to acquire Mosaic's Faustina ammonia plant in Louisiana"
+      ]
+    },
+    {
       "id": "2026-11-24-1530",
       "label": "24 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-24T07:37:31Z",
