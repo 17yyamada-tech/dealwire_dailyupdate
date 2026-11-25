@@ -4,11 +4,11 @@
  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lc3RjdmdYb3pWWG9zN1ljaWU2ZE00alZ3QmpOaG1aekJBcXpBM3Fja0d1a1JjY2hWSmlmemlXbVI0azR3dURvQUx6NGtZbVZhMkpDSnJ2cTA2NUdMLUR4NU9ha181YXllZkJnb0xZV0JndFVGWWV4T19lOHphWTQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-09-27T10:00:23Z",
- "checked_at": "2026-11-25T04:50:32Z",
+ "checked_at": "2026-11-25T07:55:00Z",
  "status": {
-  "as_of": "2026-11-20",
-  "text": "Agreed, pending close: Payward signed Oct 14 to buy Lithuania's Saldo Bank for an EU license, then agreed Nov 18 to buy co-CEO Sethi's Tribe Capital (~$2.6bn AUM); both close in 2027.",
-  "text_ja": "Paywardは10月14日Saldo Bank買収(EU免許)に合意し、11月18日にはTribe Capital(資産約26億ドル)買収にも合意。完了は27年中。",
+  "as_of": "2026-11-25",
+  "text": "Agreed, pending close: Payward is buying Lithuania's Saldo Bank (Oct 14) and Tribe Capital (~$2.6bn AUM, Nov 18); on Nov 24 its Krak unit unveiled two US credit cards with up to 4% bitcoin cashback.",
+  "text_ja": "Paywardはサルドバンク買収(10月合意)とトライブ・キャピタル買収(11月18日合意)を27年中に完了予定。11月24日、傘下Krakが最大4%還元のカード2種を発表。",
   "refs": [
    {
     "list": "since",
@@ -17,6 +17,10 @@
    {
     "list": "since",
     "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
+   },
+   {
+    "list": "since",
+    "url": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498"
    }
   ]
  },
@@ -63,6 +67,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-24",
+   "headline": "Payward's Krak unit opens US waitlist for two bitcoin-cashback credit cards, including a USDC-secured card, targeting early 2027 launch",
+   "summary": "Payward's Krak app opened a US waitlist for two credit cards offering up to 4% cashback in bitcoin or dollars, including a secured card backed by USDC collateral, with launch planned for early 2027; pricing and fee details were not disclosed.",
+   "summary_ja": "Payward傘下のKrakアプリは米国で2種類のクレジットカードの事前登録受付を開始した。最大4%をビットコインまたはドルで還元し、うち1種はUSDCを担保とする保証型で、2027年初めの提供開始を目指す。価格や手数料の詳細は未公表。",
+   "source": "The Block",
+   "url": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498"
+  },
   {
    "date": "2026-11-18",
    "headline": "Payward agrees to buy co-CEO Arjun Sethi's venture firm Tribe Capital, worth about $2.6 billion in assets",
