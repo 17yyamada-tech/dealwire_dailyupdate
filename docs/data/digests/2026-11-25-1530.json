@@ -1,0 +1,115 @@
+{
+  "edition": "2026-11-25-1530",
+  "edition_label": "25 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T07:37:42Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "NSK and NTN target full integration, including production, by 2032 with ¥50bn-¥60bn in synergies",
+      "summary": "NSK and NTN, which signed a definitive agreement earlier this week to merge into a joint holding company, said the combined group aims to fully integrate operations, including production functions, by 2032. The companies project annual synergies of ¥50bn-¥60bn from the integration.",
+      "why_it_matters": "The first synergy figures put a number on the strategic logic behind one of Japan's largest bearings-industry mergers, giving investors a timeline and a benchmark to judge execution against.",
+      "summary_ja": "日本精工（NSK）とNTNは、両社が持株会社設立による統合で本契約を締結したのに続き、生産機能を含めた事業の完全統合を2032年までに目指す方針を示した。両社は統合により年500億〜600億円のシナジー効果を見込んでいる。",
+      "why_it_matters_ja": "初めて示されたシナジー効果の数字は、日本のベアリング業界で最大級となる今回の統合の狙いを具体化するものであり、投資家に実行状況を測るための時間軸と基準を与える。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-25-0830",
+        "index": 0
+      },
+      "key": "nsk-ntn-merger",
+      "ids": [
+        "e0486a108b2efb"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aMmdyVjVMS3lQeWFPbEZENFI4UWo3MlhmeDlIS0Rtc25PTmFHZE5YUTl1Y0ZQWE5wOWd5UFpwNXUza1h0S3I5ckZjUDc0TzQtVTB1QkxoV2Ftbl9rcUVERTJ6eU15WkRqYzVZbzF4SQ?oc=5"
+        }
+      ],
+      "categories": [],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Industrials"
+      ]
+    },
+    {
+      "headline": "Cognizant in talks to acquire parts of S&P Global's Capital IQ operations, sources say",
+      "summary": "Cognizant is in talks to take over parts of S&P Global's Capital IQ operations, according to people familiar with the matter.",
+      "why_it_matters": "A deal would hand Cognizant, primarily an IT-services and consulting group, a foothold in one of the financial industry's core data and analytics platforms, deepening the convergence between tech-services providers and financial-information vendors.",
+      "summary_ja": "コグニザントが、S&Pグローバルのキャピタル・アイキュー（Capital IQ）事業の一部を引き継ぐ交渉を進めていると、事情に詳しい関係者が明らかにした。",
+      "why_it_matters_ja": "実現すれば、主にITサービス・コンサルティングを手掛けるコグニザントが、金融業界の中核的なデータ・分析プラットフォームの一角を手に入れることになり、ITサービス企業と金融情報ベンダーの融合が一段と進む。",
+      "status": "new",
+      "prev": null,
+      "key": "cognizant-sp-global-capital-iq",
+      "ids": [
+        "4f6481f36befa7"
+      ],
+      "links": [
+        {
+          "source": "CNA Business",
+          "url": "https://www.channelnewsasia.com/business/cognizant-in-talks-take-over-parts-sp-globals-capital-iq-operations-sources-say-6580926"
+        }
+      ],
+      "categories": [],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "US activist fund Sapphire Terra calls Sanyo Shokai's dividend cut a 'mistake,' demands increase to ¥40",
+      "summary": "US activist fund Sapphire Terra sent a letter to Sanyo Shokai calling the Japanese apparel company's cut to its year-end dividend a mistake and demanding an increase to ¥40 per share. A representative of the fund, Hosomizu, said the move disregards shareholders.",
+      "why_it_matters": "The letter adds Sanyo Shokai to a growing list of Japanese companies facing public activist pressure over capital returns, a trend that has pushed boards across the market to raise payouts and buybacks this year.",
+      "summary_ja": "米系アクティビストファンドのサファイアテラは三陽商会に書簡を送り、同社による期末配当の減額を「誤り」と批判し、1株当たり40円への増額を求めた。同ファンドの細水氏は、この対応は株主軽視だと述べた。",
+      "why_it_matters_ja": "この書簡により、三陽商会も資本還元を巡って公然とアクティビストの圧力を受ける日本企業の列に加わった。同様の圧力は今年、市場全体で配当や自己株式取得の増加を後押ししてきた。",
+      "status": "new",
+      "prev": null,
+      "key": "sapphire-terra-sanyo-shokai-dividend",
+      "ids": [
+        "a6f650d879d62c"
+      ],
+      "links": [
+        {
+          "source": "Japan PE & activists",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53MXctLXJaaXV4Uy1PMWRxbnJYdVZWcmRNQ1pPMGxmUV9MU3J5NEY2N3ZaeDZOaDFZczhEU0hZdm9VTU9RU0VHMXVhYlNCeTdTNGxMcmdXbWFZWnlzQThXUm9meGhLNFZJU1N1SllFd3dRamlyTGF3?oc=5"
+        }
+      ],
+      "categories": [
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Five9 completes acquisition of conversational-AI startup Level AI",
+      "summary": "Five9 said it has completed its acquisition of Level AI.",
+      "why_it_matters": "The deal adds AI-driven capability to Five9's contact-centre software, part of a broader wave of consolidation as customer-experience vendors bolt on artificial-intelligence tools to meet enterprise demand.",
+      "summary_ja": "Five9は、Level AIの買収を完了したと発表した。",
+      "why_it_matters_ja": "今回の買収により、Five9はコンタクトセンター向けソフトウエアにAI機能を取り込む。カスタマーエクスペリエンス関連ベンダーが企業需要に応えるためAIツールを相次いで取り込む、業界再編の流れの一環でもある。",
+      "status": "new",
+      "prev": null,
+      "key": "five9-level-ai",
+      "ids": [
+        "05350f9cfb6e83"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcFFKN0tPODcyT3FXOHRjY2RWMElhLWxadzZTa3IxMU1BMnRwNkFkOVpJcmQzTGd4OC1WYTFaLVpta1dkRjk1WnBjWV9oVE9wRS0xTmY5T2M0VDZ1TmdURjI4T3JFSHBrU2JxTXdBblI5dzFEM2F5WnVQSXZfYlR0MWRPVVVXN0J5RUxCdjNGTQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    }
+  ]
+}

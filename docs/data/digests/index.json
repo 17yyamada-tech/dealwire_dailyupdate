@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-25-1530",
+      "label": "25 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-25T07:37:42Z",
+      "items": 4,
+      "headlines": [
+        "NSK and NTN target full integration, including production, by 2032 with ¥50bn-¥60bn in synergies",
+        "Cognizant in talks to acquire parts of S&P Global's Capital IQ operations, sources say",
+        "US activist fund Sapphire Terra calls Sanyo Shokai's dividend cut a 'mistake,' demands increase to ¥40"
+      ]
+    },
+    {
       "id": "2026-11-25-1230",
       "label": "25 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-25T04:35:00Z",
