@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-25-1230",
+      "label": "25 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-25T04:35:00Z",
+      "items": 6,
+      "headlines": [
+        "BlackRock-led consortium said to be weighing lower bid for Stack Infrastructure's Asia unit",
+        "Starbucks engages banks to explore sale of its Japan business, Bloomberg reports",
+        "Netflix buys Radford Studio Center for $380m, its first full ownership of a major LA lot"
+      ]
+    },
+    {
       "id": "2026-11-25-0830",
       "label": "25 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-25T00:41:35Z",
