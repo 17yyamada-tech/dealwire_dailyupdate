@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-26-0830",
+      "label": "26 Nov 2026 · 08:30 SGT",
+      "generated_at": "2026-11-26T00:40:56Z",
+      "items": 10,
+      "headlines": [
+        "Targa Resources reported in talks to acquire Kinetik Holdings as shares surge",
+        "LS Power completes acquisition of 4.4 GW of gas generation assets from Constellation",
+        "Walmart-backed PhonePe restarts IPO process, eyeing valuation of up to $15bn"
+      ]
+    },
+    {
       "id": "2026-11-25-1530",
       "label": "25 Nov 2026 · 15:30 SGT",
       "generated_at": "2026-11-25T07:37:42Z",
