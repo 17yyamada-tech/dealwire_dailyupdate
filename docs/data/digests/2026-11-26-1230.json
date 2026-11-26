@@ -1,0 +1,183 @@
+{
+  "edition": "2026-11-26-1230",
+  "edition_label": "26 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T04:35:27Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Unnamed billionaire's US-backed consortium signs deal for Lukoil International's energy assets",
+      "summary": "An unnamed billionaire investor leading a US-backed consortium signed a share-exchange agreement to acquire Lukoil International's global portfolio of energy assets, according to Japanese-language wire reports. Financial terms of the agreement were not disclosed.",
+      "why_it_matters": "A US-anchored buyer taking control of Lukoil's non-Russian energy assets would mark a major reshuffling of ownership of assets that have been clouded by sanctions risk.",
+      "summary_ja": "米国が支援するコンソーシアムを率いる匿名の億万長者が、ルクオイル・インターナショナルが保有する世界各地のエネルギー資産ポートフォリオの買収に向けた株式交換契約に署名した。契約の金額などの詳細条件は明らかにされていない。",
+      "why_it_matters_ja": "米国を拠点とする買い手がルクオイルの非ロシア資産の支配権を握れば、制裁リスクで不透明感が続いていた資産の所有構造が大きく変わることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "lukoil-international-consortium-acquisition",
+      "ids": [
+        "b87cdf1350100a",
+        "341b67bfd01617"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zRVNldWNvcWJLa0RPdXQ0YThfdTJfNzVrNVdONDdxeVQ3U3FIWDJNWUZZLUtNOUhlNW0tV0w1UHlDamxERTVPUHhNT0g5ODdFMFEwb1p1c2NzOXRBek13OFdUZUhIZFdDYjZGWklyOEEzX0tBSllhTg?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QZVNVUUNGU18ySDQtaWxBb1J1Y3l2YWN0SFNDVWZUWU1SWTlRMURSLTBDY053Rmhjbm9HaXY5UE03dUw0N1Y1QlZhYUc3d2V0VEh1Mmg4S1k1Zw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Banks lead $4.5bn sale of CoreWeave's Meta-linked loan next week",
+      "summary": "Banks arranging CoreWeave's financing plan to sell a $4.5 billion loan tied to the cloud-computing firm's business with Meta next week, the Business Times reported. The sale comes as investors scrutinize the economics of AI infrastructure spending.",
+      "why_it_matters": "A successful placement would test credit-market appetite for AI infrastructure debt at a time when some investors are questioning whether AI spending will pay off.",
+      "summary_ja": "クラウド企業CoreWeaveの資金調達を手掛ける銀行団が、同社のMeta向け事業に紐づく45億ドルのローンを来週売却する計画だと、ビジネス・タイムズが報じた。AI投資の経済合理性に投資家の目が厳しく注がれる中での売却となる。",
+      "why_it_matters_ja": "この売却が成功するかどうかは、AI投資の採算性に疑問の声も出ている局面で、AIインフラ債務に対する信用市場の需要を試す試金石となる。",
+      "status": "new",
+      "prev": null,
+      "key": "coreweave-meta-loan-sale",
+      "ids": [
+        "2f915950c42fb7"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/coreweaves-banks-sell-us4-5-billion-meta-tied-loan-next-week"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "AI & Semis",
+        "TMT",
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Mizuho to acquire stake in India's Avendus for over ¥55bn",
+      "summary": "Mizuho Financial Group agreed to acquire a stake in Indian investment bank Avendus for more than ¥55 billion, according to Japanese wire reports. The deal is part of Mizuho's push to expand its investment-banking strategy into India and pursue larger cross-border transactions.",
+      "why_it_matters": "The purchase gives a Japanese megabank a platform to source and execute large India-linked M&A, as Japanese financial institutions increasingly look to India for growth beyond a shrinking home market.",
+      "summary_ja": "みずほフィナンシャルグループは、インドの投資銀行アベンダスの株式を550億円超で取得することで合意したと複数の邦字媒体が報じた。インドへの投資銀行戦略の拡大と、より大型のクロスボーダー案件の獲得を狙った買収だとされる。",
+      "why_it_matters_ja": "この買収により、邦銀大手はインド関連の大型M&Aを獲得・遂行する拠点を手にする。国内市場の縮小を背景に、日本の金融機関がインドに成長機会を求める動きが強まっている。",
+      "status": "new",
+      "prev": null,
+      "key": "mizuho-avendus-india-stake",
+      "ids": [
+        "f7b1aa7e47d0b1",
+        "fd62b27a001661"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd05CcEtpTk1oX0owVGFHQVhNclRORTNSM3dnWVBHM3ZJVXNjdExrNktFckhNNGlWdjh1WmM4cFYxcmZnbnZUU081WmNucVhON2lHNW9qNXFsb3JpQ3huMURvRVU3NEx2Vy1FWGwyMUhLNHZxYjhqSlRGMERHa2F5dm9xUmdWeDlDMGRiUkpR?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNUzlKQm9Xb3dvSkxFdm9TVDQ5X0xWekZiWTFYeTU3OFlTRDZ6TjhwTGs2VW9YWXBSTmEyT0w2Y2dIZVBqdHRvMFF3Vmd2Y3I2QnJidW1WbkxfNlM0dTBIVzdDSXhyYmgzSDFhUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Tempus notifies $600m cash option in planned Personalis acquisition",
+      "summary": "Tempus notified Personalis shareholders of a $600 million cash-election option in connection with its planned acquisition of the genomic-testing company, according to a Japanese-language wire report citing Investing.com. Other terms of the agreement were not disclosed in the report.",
+      "why_it_matters": "The deal would add genomic and oncology-testing capability to Tempus's AI-driven diagnostics business as the sector continues to consolidate.",
+      "summary_ja": "Tempusは、ゲノム検査会社Personalis Incの買収計画に関連し、同社株主に対して現金6億ドルの選択権を通知したと、Investing.comを引用した邦字媒体が報じた。契約のその他の条件は明らかにされていない。",
+      "why_it_matters_ja": "この買収が成立すれば、AIを活用した診断事業を展開するTempusはゲノム・がん検査分野の能力を強化することになり、業界再編の流れが一段と進む。",
+      "status": "new",
+      "prev": null,
+      "key": "tempus-personalis-acquisition",
+      "ids": [
+        "5089257c5dbb29"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mOF9wZERxb3hLaWRRMmhOdXNiMWVRcm5yTk4yRjdiLU1taUlpZ041dmF0T1ZLVkd4X0xxZm9ndUpQWk01a1dYYXJVbWNFdFBtNDd6dTJNVkZRVS1jMlVEeFliM3BDUDhZZTdDajdMUQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Saab completes acquisition of AI startup Mythos AI",
+      "summary": "Sweden's Saab completed its acquisition of US artificial-intelligence startup Mythos AI, according to a Japanese-language wire report. Financial terms of the deal were not disclosed.",
+      "why_it_matters": "The deal adds AI capability to Saab's defense and technology portfolio as European defense contractors race to build AI expertise in-house.",
+      "summary_ja": "スウェーデンのサーブは、米AIスタートアップMythos AIの買収を完了したと、邦字媒体が報じた。取引の金額などの条件は明らかにされていない。",
+      "why_it_matters_ja": "欧州の防衛関連企業がAI技術の自社獲得を競う中、この買収はサーブの防衛・技術ポートフォリオにAI能力を加えるものとなる。",
+      "status": "new",
+      "prev": null,
+      "key": "saab-mythos-ai-acquisition",
+      "ids": [
+        "350849628c7d7b"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1JVHlqajRSRWN1YWFvZDFHNkV0ZW5WMUVZanJxeGtNakhZSVFQeThSM29zTWNPdktJZ2xuVVNyZmJfUlF6RzQ3Xw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "AI & Semis",
+        "TMT"
+      ]
+    },
+    {
+      "headline": "IFC proposes $50m loan to Bangladesh's Bahon",
+      "summary": "The International Finance Corporation proposed a $50 million loan to Bangladeshi telecom company Bahon, DealStreetAsia reported. Further terms of the proposed facility were not disclosed.",
+      "why_it_matters": "Continued IFC lending to South Asian telecom infrastructure underscores development-finance appetite for the sector even as broader private-equity fundraising in the region cools.",
+      "summary_ja": "国際金融公社（IFC）は、バングラデシュの通信会社Bahonに5000万ドルの融資を提案したと、DealStreetAsiaが報じた。提案されている融資枠のその他の条件は明らかにされていない。",
+      "why_it_matters_ja": "南アジアの通信インフラへのIFCの融資継続は、同地域のPEファンド調達が冷え込む中でも、開発金融機関が通信セクターへの意欲を保っていることを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "ifc-bahon-bangladesh-loan",
+      "ids": [
+        "501eb88f5c6c2a"
+      ],
+      "links": [
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjBwMmV3d09CVU9Udnd5b3puX2xqOW5tMm9PM0YtUlg0NW1QbXIzWWhUUlM3bVlzTEJNU0djMFRfczJuVmRMQXUyOWVZVzNsVDg4QjI0Yi1yMWpmQW1vSnRMcThOVjBUR3lVSUh3Vkg3cFUxcS0zdWpqOXh2R25rZmZNUzBnNGhRZUdfdFVB?oc=5"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [],
+      "sectors": [
+        "TMT"
+      ]
+    }
+  ]
+}
