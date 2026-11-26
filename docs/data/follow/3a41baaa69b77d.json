@@ -4,15 +4,15 @@
  "link": "https://www.channelnewsasia.com/business/spacex-tesla-merger-talks-progress-bloomberg-news-reports-6547466",
  "source": "CNA Business",
  "published": "2026-11-12T20:42:41Z",
- "checked_at": "2026-11-26T00:49:07Z",
+ "checked_at": "2026-11-26T04:53:37Z",
  "status": {
-  "as_of": "2026-11-20",
-  "text": "Musk said Nov 19 a merger would probably make SpaceX and Tesla \"better together\" given growing convergence, but said the decision rests with shareholders, not him.",
-  "text_ja": "マスク氏は11月19日、両社の事業の重なりが増す中、合併すれば「より良い組み合わせ」になりそうだと述べたが、決定権は自分でなく株主にあるとした。",
+  "as_of": "2026-11-26",
+  "text": "Per FT (Nov 24), SpaceX and Tesla special committees began formal merger negotiations over an all-stock deal valued at about $3.5 trillion; completion is targeted before end-2026, though Tesla's China operations remain a hurdle.",
+  "text_ja": "FTは11月24日、スペースXとテスラの特別委員会が総額約3.5兆ドルの全株式交換型合併で正式交渉入りしたと報道。年内完了を目指すが、テスラの中国事業が障害となり得る。",
   "refs": [
    {
     "list": "since",
-    "url": "https://247wallst.com/investing/2026/11/19/elon-musk-says-tesla-and-spacex-would-probably-be-better-together/"
+    "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-directors-negotiate-potential-062339987.html"
    }
   ]
  },
@@ -59,6 +59,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-24",
+   "headline": "FT: SpaceX and Tesla start formal merger talks via five-director teams, deal eyed at $3.5 trillion",
+   "summary": "The Financial Times reported on Nov 24, 2026 that SpaceX's and Tesla's special committees moved into formal negotiations on an all-stock merger valuing the combined company at about $3.5 trillion, with SpaceX represented by directors Roelof Botha and Randy Glein, advised by Morgan Stanley and Goldman Sachs, and Tesla by Robyn Denholm, Kathleen Wilson-Thompson and Jack Hartung, advised by Evercore. The report said the companies are targeting completion before the end of 2026, though Tesla's China operations could complicate approval.",
+   "summary_ja": "FTは2026年11月24日、スペースXとテスラの特別委員会が総額約3.5兆ドルの全株式交換型合併で正式交渉に入ったと報じた。スペースX側はロエロフ・ボサ氏とランディ・グレイン氏(モルガン・スタンレー、ゴールドマン・サックスが助言)、テスラ側はロビン・デンホルム氏、キャスリーン・ウィルソン-トンプソン氏、ジャック・ハートゥング氏(エバコアが助言)が交渉を担当し、年内完了を目指すが、テスラの中国事業が承認の障害となり得るという。",
+   "source": "Financial Times (via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-directors-negotiate-potential-062339987.html"
+  },
   {
    "date": "2026-11-19",
    "headline": "Musk says SpaceX-Tesla merger should not trigger extra pay for him",
