@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-26-1530",
+      "label": "26 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-26T07:35:34Z",
+      "items": 5,
+      "headlines": [
+        "Mizuho completes Avendus purchase, takes over 60% stake for more than ¥55bn",
+        "Vanke again seeks delay on 1.2bn yuan bond repayment as distress deepens",
+        "South Korea's Homeplus confirms sale LOIs received as union drops opposition"
+      ]
+    },
+    {
       "id": "2026-11-26-1230",
       "label": "26 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-26T04:35:27Z",

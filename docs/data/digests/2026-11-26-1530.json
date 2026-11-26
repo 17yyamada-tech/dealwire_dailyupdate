@@ -1,0 +1,155 @@
+{
+ "edition": "2026-11-26-1530",
+ "edition_label": "26 Nov 2026 · 15:30 SGT",
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T07:35:34Z",
+ "reading_minutes": 2,
+ "items": [
+  {
+   "headline": "Mizuho completes Avendus purchase, takes over 60% stake for more than ¥55bn",
+   "summary": "Mizuho Securities has completed its acquisition of India's Avendus, taking a stake of more than 60% for over ¥55 billion, according to Japanese wire reports. Avendus becomes a subsidiary of Mizuho, following the stake-purchase agreement reported earlier the same day.",
+   "why_it_matters": "Closing gives Mizuho a controlling platform in Indian investment banking rather than a minority toehold, as the megabank pushes to originate larger cross-border M&A from India.",
+   "summary_ja": "みずほ証券はインドのアベンダスの買収を完了し、株式60％超を550億円超で取得した。同日先に報じられた株式取得合意に続き、アベンダスはみずほの子会社となった。",
+   "why_it_matters_ja": "買収完了により、みずほは少数株主としての足がかりに止まらず、インド関連の大型クロスボーダーM&Aを主導する支配株主としての拠点を得る。",
+   "status": "update",
+   "prev": {
+    "edition": "2026-11-26-1230",
+    "index": 2
+   },
+   "key": "mizuho-avendus-india-stake",
+   "ids": [
+    "a5449dc3f18d1b",
+    "4ae16b4a06251d"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94TDRzZnFzQmg5MVFjdjZyZFk5QmpxSUFaaWozZlNFUDNaVFlwSFRXaHpkbTJ0bHlJNHUwTFNpcTVxc29QbmNqS2F5Zi1DLVpnU1JoOUVocGs1UlVpdUx0ZjJqaW9RaVVzellfYQ?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wd2lpeGNRc3lXY054RTNLV0ZUT3JNUlhjVXMwT21SVVlCZndPUmZ2Rll3RXAyUmpRdGd3MXFCVjdMOC12Sk1Pc0p5bjJHaFNMdjZ3OHZn?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other",
+    "Financials"
+   ]
+  },
+  {
+   "headline": "Vanke again seeks delay on 1.2bn yuan bond repayment as distress deepens",
+   "summary": "Chinese homebuilder Vanke is again seeking to delay a bond repayment, aiming to postpone a 1.2 billion yuan principal payment due in December by three years, the Business Times reported. The developer has sought similar extensions before, and its financial distress is deepening.",
+   "why_it_matters": "A repeat request to push out principal by three years signals Vanke's liquidity problems are not resolving, keeping credit investors exposed to further restructuring risk in China's property sector.",
+   "summary_ja": "中国の住宅開発大手、万科（バンケ）は12月期日の社債について、残存本金12億人民元の支払いを3年延長するよう再度要請していることが、ビジネス・タイムズの報道で分かった。同社は過去にも同様の延長を求めており、財務的な逼迫が深まっている。",
+   "why_it_matters_ja": "元本返済の再延長要請は、万科の流動性問題が解消していないことを示す。中国不動産セクター全体で、クレジット投資家がさらなる再建リスクに晒され続けることを意味する。",
+   "status": "new",
+   "prev": null,
+   "key": "vanke-bond-delay",
+   "ids": [
+    "b8d010576f0f0d"
+   ],
+   "links": [
+    {
+     "source": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/chinese-homebuilder-vanke-seeks-bond-delay-again-distress-deepens"
+    }
+   ],
+   "categories": [
+    "Credit"
+   ],
+   "countries": [
+    "HK/CN"
+   ],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "South Korea's Homeplus confirms sale LOIs received as union drops opposition",
+   "summary": "South Korea's Homeplus has officially confirmed it has received letters of intent for its sale, according to wire reports. The retailer's labour union, which had previously opposed a sale, has shifted to a stance of cooperating with the process.",
+   "why_it_matters": "The union's shift removes a key obstacle to a sale of the distressed retailer, potentially clearing the way for bidders to move ahead with due diligence.",
+   "summary_ja": "韓国のホームプラスは、売却に向けた買収意向書を受け付けたことを正式に確認した。これまで売却に反対していた労働組合は、手続きへの協力姿勢に転じた。",
+   "why_it_matters_ja": "労働組合の方針転換により、経営難に陥っている同社の売却を阻んでいた大きな障害が取り除かれ、買い手候補がデューデリジェンスを進めやすくなる可能性がある。",
+   "status": "new",
+   "prev": null,
+   "key": "homeplus-korea-sale-loi",
+   "ids": [
+    "71f1d38fd26ed5"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zbWJDTFJyczJVQWhUdmctQl83OFliUWFmMFlyUVVoMWlxcGtwZkFzdUpCZXU0c1JRWkJoQ3dOY0dmZ0RUTF9UT2Jvam9RbmRqYzFrLWYwMXE4SF93Y2dLQWpRVGsxU2xKaGFsOS1FZkJfYUtO?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Basis to make fire-safety inspection firm Daiichi Bosai a wholly owned subsidiary",
+   "summary": "Japan's Basis is moving to make Daiichi Bosai, a fire-fighting and building-equipment inspection company, a wholly owned subsidiary. The move targets IoT-enabled inspection services as a growth area.",
+   "why_it_matters": "The deal shows a strategic buyer consolidating a fragmented building-safety inspection sector around IoT services, a space with room for further roll-ups.",
+   "summary_ja": "日本のベイシスは、消防用設備・建築設備の点検を手がける第一防災を完全子会社化する方針を示した。IoTを活用した点検サービスを成長領域として位置づけている。",
+   "why_it_matters_ja": "この買収は、戦略的買い手が建築安全点検という分散的な領域でIoTサービスを軸に統合を進めていることを示しており、ロールアップの余地が大きい分野であることを浮き立たせる。",
+   "status": "new",
+   "prev": null,
+   "key": "daiichi-bosai-basis-subsidiary",
+   "ids": [
+    "567022a492071c",
+    "0d912d8a6b645f"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EWldsaE9EeFMtNTMxd2pFQ0xsRGtSQzg0c3BWVVBRbURKa0dsekE5cmJZbHYtdlNkNHVhMXh1Q2k3Wi1MSV94TFZRVE95SDhyUHpndlJPV1JTdUJjWnlweF93?oc=5"
+    },
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JaFM3bE5Pbm1lVFZNcWVNYU5XU3VvZjRFYlpHdGRCeF9CcnUtc2dOcDFXb0VrdFZORHNIdHJBdUFSS1Y4VEV4SmZhWVVZcVF5YzhvTFU2bXFVVWlYY193?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  },
+  {
+   "headline": "Japan's Hibino buys Australian company for $14.7m",
+   "summary": "Japanese professional audio-equipment supplier Hibino agreed to acquire an Australian company for $14.7 million, according to NNA.",
+   "why_it_matters": "The purchase extends a Japanese AV specialist's push into Australia, adding scale as live-events and installation demand grows in the region.",
+   "summary_ja": "日本の業務用音響大手ヒビノは、NNAの報道によれば、豪州企業を1,470万ドルで買収することに合意した。",
+   "why_it_matters_ja": "この買収により、日本の音響機器専門企業が豪州での事業を拡大し、同地域で拡大するライブイベントや設備需要に対応する規模を確保する。",
+   "status": "new",
+   "prev": null,
+   "key": "hibino-australia-acquisition",
+   "ids": [
+    "d974273cb099fe"
+   ],
+   "links": [
+    {
+     "source": "Japan M&A",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UTXVZOUVJOGVUNHliNTkwRndsXzFESzJIQ2ZyOTZoYlJGa3lHd3N0SDhhRktmcWI1ck1QYUlQQ3RGTHFkMkVuRnN0SmVvR096X0JFSjdMYUgzNDl5NmE2NUJSQ1pqNC1ncFpmN1dhMjFEVE9BX1FoRjV5c3dLdXM?oc=5"
+    }
+   ],
+   "categories": [
+    "M&A"
+   ],
+   "countries": [],
+   "sectors": [
+    "Other"
+   ]
+  }
+ ]
+}
