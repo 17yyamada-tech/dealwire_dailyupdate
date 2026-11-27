@@ -4,19 +4,19 @@
  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tXzM0a0JmZHp6NWIwR202UTJHUl9jVnRXMTFsd2JtNWxwMXlxdllaQU5yZkd4NFpPXzNYYktRam5xbFJMbkU3dHBMY3JpM3NQdWx6dmthMHMwUzFqX0VoZlphd3Jad3dTRDdPRQ?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-09T13:24:04Z",
- "checked_at": "2026-11-26T07:48:00Z",
+ "checked_at": "2026-11-27T08:00:00Z",
  "status": {
-  "as_of": "2026-11-22",
-  "text": "A third bidder has emerged: J-Oil Mills, backed by shareholder Mitsui & Co. (21.92%), offered roughly ¥2,914-3,044/share on Nov 20, 2026, topping Integral's ¥2,655 TOB, which Kadoya's board still backs.",
-  "text_ja": "三井物産(21.92%)がJオイルミルズの買収案(1株2,914~3,044円)を支持し三つ巴に。かどや製油はインテグラルの2,655円TOBへの賛同を維持。",
+  "as_of": "2026-11-27",
+  "text": "Contest narrows to two: J-Oil Mills ('Company B') withdrew Nov 26; Integral extended its ¥2,655/share TOB to Dec 15 against Advantage Partners' ('Company C') up-to-¥3,200 rival bid, with Kadoya's board still backing Integral.",
+  "text_ja": "買収候補は2陣営に。B社(Jオイルミルズ)が11月26日撤退。インテグラルはTOBを12月15日に延長、対抗のC社(最大3,200円)と争う。取締役会はインテグラル支持継続。",
   "refs": [
    {
     "list": "since",
-    "url": "https://www.nikkei.com/article/DGXZQOUC20BFV0Q6A121C2000000/"
+    "url": "https://www.media-ir.com/news/?p=189629"
    },
    {
     "list": "since",
-    "url": "https://www.bloomberg.com/jp/news/articles/2026-11-16/TO9WFXT96OSG00"
+    "url": "https://www.nikkei.com/article/DGXZQOUC20BFV0Q6A121C2000000/"
    }
   ]
  },
@@ -55,6 +55,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-26",
+   "headline": "Kadoya bidder J-Oil Mills withdraws; Integral extends ¥2,655 TOB to Dec 15 as contest narrows to two",
+   "summary": "Kadoya Seiyu disclosed on Nov 26 that one of the three going-private bidders, referred to as 'Company B' and reported to be J-Oil Mills, withdrew its proposal in writing, narrowing the contest to Integral's tender offer and a rival proposal from 'Company C,' reported to be Advantage Partners, at ¥2,830/share without full major-shareholder consent or up to ¥3,200/share with it; Integral extended its ¥2,655/share tender offer deadline from Nov 26 to Dec 15, 2026, and Kadoya's board continues to recommend shareholders tender into Integral's offer.",
+   "summary_ja": "かどや製油は11月26日、非公開化を提案していた3者のうち「B社」(報道ではJオイルミルズとされる)が書面で提案を撤回したと開示し、買収候補はインテグラルのTOBと、「C社」(報道ではアドバンテッジパートナーズとされる)による対抗案(大株主全員の同意がなければ1株2,830円、同意があれば最大3,200円)の2陣営に絞られた。インテグラルは同日、1株2,655円のTOB期限を11月26日から12月15日に延長し、かどや製油取締役会はなおインテグラルのTOBへの応募を推奨している。",
+   "source": "Media-IR",
+   "url": "https://www.media-ir.com/news/?p=189629"
+  },
   {
    "date": "2026-11-20",
    "headline": "Mitsui & Co. to back J-Oil Mills' raised ¥2,914-3,044/share bid for Kadoya Seiyu if it tops rivals",

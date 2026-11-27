@@ -4,23 +4,19 @@
  "link": "https://www.businesstimes.com.sg/companies-markets/us-dollar-dips-oil-eases-yen-jumps-japan-remarks",
  "source": "The Business Times",
  "published": "2026-09-27T13:31:03Z",
- "checked_at": "2026-11-26T07:48:00Z",
+ "checked_at": "2026-11-27T08:00:00Z",
  "status": {
-  "as_of": "2026-11-23",
-  "text": "Yen holds near 160/dollar with intervention risk high; Oct National CPI rose to 2.3% YoY (Nov 20), keeping swaps-implied odds of a Dec 17-18 BOJ hike to 1.5% at about 80%.",
-  "text_ja": "ドル円は160円近辺で介入警戒が続く。10月の全国CPIは前年比2.3%に上昇(11月20日発表)、スワップ市場は12月17~18日の日銀利上げ(1.5%)の確率を約80%とみる。",
+  "as_of": "2026-11-27",
+  "text": "USD/JPY holds near 159, below the 160 intervention line; Tokyo's Nov core CPI rose to 2.9% YoY (Nov 27), keeping swaps-implied odds of a Dec 18 BOJ hike to 1.5% at 70-80%.",
+  "text_ja": "ドル円は介入ラインの160円を下回る159円台で推移。11月27日の東京都区部コアCPIは前年比2.9%に上昇し、12月18日の日銀利上げ(1.5%)観測は7~8割となっている。",
   "refs": [
    {
     "list": "since",
-    "url": "https://www.fxstreet.com/news/23-japans-national-cpi-climbs-in-october-202611192331"
+    "url": "https://www.fxstreet.com/news/japanese-yen-softens-after-soft-tokyo-core-cpi-inflation-data-202611270027"
    },
    {
     "list": "since",
-    "url": "https://www.adn.com/business-economy/2026/11/18/fed-minutes-higher-interest-rates-needed-in-december-as-inflation-worries-mount/"
-   },
-   {
-    "list": "since",
-    "url": "https://www.vtmarkets.com/en-asia/live-updates/ueda-signals-further-boj-rate-rises-as-usd-jpy-nears-160-intervention-risk/"
+    "url": "https://www.fxstreet.com/news/japanese-yen-holds-gains-as-boj-policymaker-signals-chance-of-faster-pace-rate-hikes-202611260552"
    }
   ]
  },
@@ -91,6 +87,30 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-27",
+   "headline": "Tokyo's Nov core CPI accelerates to 2.9% YoY, just below 3% consensus, as yen edges lower",
+   "summary": "Japan's Statistics Bureau data released Nov 27 showed Tokyo's preliminary November core CPI (excluding fresh food) rose 2.9% year-on-year, up from 2.6% in October but slightly below the roughly 3% consensus forecast; USD/JPY softened modestly on the miss, holding near 159.20, with markets still largely expecting a BOJ rate hike in December.",
+   "summary_ja": "総務省が11月27日発表した東京都区部の11月コアCPI(生鮮食品除く・速報)は前年比2.9%となり、10月の2.6%から加速したが、市場予想の3%弱をやや下回った。発表後に円はやや軟化し、ドル円は159円台で推移。市場は12月の日銀追加利上げを依然として有力視している。",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/news/japanese-yen-softens-after-soft-tokyo-core-cpi-inflation-data-202611270027"
+  },
+  {
+   "date": "2026-11-26",
+   "headline": "BOJ's Tamura flags faster hike pace; markets price 70-80% odds of Dec 18 move, 90% odds of Fed hike Dec 9",
+   "summary": "Bank of Japan board member Naoki Tamura was reported on Nov 26 signaling openness to a faster pace of rate increases, with swaps pricing roughly 71-80% odds of a BOJ hike at its Dec 18 meeting, while markets separately priced about 90% odds of a Federal Reserve hike to 4.00%-4.25% at its Dec 9 meeting; USD/JPY held near 159.20-159.50, with Japan's cumulative 2026 yen-buying intervention cited at ¥27.13 trillion.",
+   "summary_ja": "日銀の田村直樹審議委員が11月26日、利上げペースを速める可能性を示唆したと報じられた。スワップ市場は12月18日の日銀会合での利上げ確率を7~8割程度と見込み、一方でFRBは12月9日の会合で4.00~4.25%への利上げを9割程度の確率で予想している。ドル円は159.20~159.50円で推移し、2026年の円買い介入総額は27.13兆円に達しているとされる。",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/news/japanese-yen-holds-gains-as-boj-policymaker-signals-chance-of-faster-pace-rate-hikes-202611260552"
+  },
+  {
+   "date": "2026-11-25",
+   "headline": "USD/JPY steadies near 159 as strong US data offsets fastest Japan services-price rise since 1990",
+   "summary": "On Nov 25, stronger-than-expected US economic data and the fastest annual rise in Japan's corporate services price index since 1990 pulled USD/JPY in opposite directions, leaving the pair little changed just above 159.00 ahead of US PCE data.",
+   "summary_ja": "11月25日、米国の強い経済指標と1990年以来最速のペースで上昇した日本の企業向けサービス価格指数が互いに相殺し、ドル円は米PCEデータ発表を控え159円台前半でほぼ変わらずの展開となった。",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/news/strong-us-data-leaves-the-yen-unmoved-before-tokyo-inflation-202611252307"
+  },
   {
    "date": "2026-11-20",
    "headline": "Japan's October national CPI rises to 2.3% YoY, core CPI eases to 2.2%, keeping BOJ on track for a December hike",

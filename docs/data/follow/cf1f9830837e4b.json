@@ -4,23 +4,19 @@
  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR2RfcVhlZnNuRXhTQ1YzZC12dVFvSTNlWXRFb2RGSllqdkxQamh5TVlrcFhSVnBIbVBwZWtRWHRZMmhub1BIc2wtUTBKREx3RUU3NkNhMzlKQmpTSFNxZzktSGRCcW5VMFpPUVdzYUM?oc=5",
  "source": "Japan M&A",
  "published": "2026-11-10T19:10:00Z",
- "checked_at": "2026-11-26T07:48:00Z",
+ "checked_at": "2026-11-27T08:00:00Z",
  "status": {
-  "as_of": "2026-11-14",
-  "text": "OpenAI acquired AI travel startup Odessia on Nov 10, 2026, terms undisclosed; OpenAI itself still has not publicly confirmed the deal, which founder Francis Davidson announced, and Odessia's standalone app has closed to new users.",
-  "text_ja": "OpenAIは11月10日、旅行AIスタートアップのOdessiaを条件非公開で買収。自社では未確認で、発表は創業者デビッドソン氏による。単体アプリは新規受付を停止。",
+  "as_of": "2026-11-27",
+  "text": "OpenAI acquired Odessia on Nov 10, 2026 (terms undisclosed); it still has not confirmed the deal itself, but by Nov 19 was hiring ChatGPT travel engineers, with founder Francis Davidson now styled 'head of travel.'",
+  "text_ja": "OpenAIは11月10日にOdessiaを買収したが自ら確認せず、11月19日時点で旅行チームの採用を進める。デビッドソン氏は自らを「head of travel」と称する。",
   "refs": [
    {
     "list": "since",
-    "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai/"
+    "url": "https://www.travelvoice.jp/20261119-160899"
    },
    {
     "list": "since",
     "url": "https://betakit.com/?p=412064"
-   },
-   {
-    "list": "since",
-    "url": "https://www.phocuswire.com/news/startups/openai-acquires-ai-travel-agent-odessia"
    }
   ]
  },
@@ -59,6 +55,14 @@
   }
  ],
  "since": [
+  {
+   "date": "2026-11-19",
+   "headline": "OpenAI posts San Francisco job listings for a ChatGPT travel team led by Odessia's Davidson",
+   "summary": "OpenAI began recruiting software engineers in San Francisco to build travel features into ChatGPT under its Consumer Verticals group, with a full-stack engineering role posted at $347,000-$385,000 plus equity; Odessia founder Francis Davidson, whose startup OpenAI acquired on Nov 10, now describes himself as the company's head of travel, though OpenAI still has not announced a specific travel product or launch timeline.",
+   "summary_ja": "OpenAIはChatGPTに旅行機能を組み込むため、サンフランシスコでソフトウェアエンジニアの採用を始めた。コンシューマー部門のフルスタックエンジニア職の年俸は34万7000~38万5000ドル(株式報酬別)。11月10日にOpenAIに買収されたOdessia創業者フランシス・デビッドソン氏は自らを同社の「head of travel」と称しているが、具体的な旅行プロダクトや投入時期はまだ発表されていない。",
+   "source": "Skift (via Travel Voice)",
+   "url": "https://www.travelvoice.jp/20261119-160899"
+  },
   {
    "date": "2026-11-10",
    "headline": "OpenAI itself has not confirmed the Odessia acquisition; BetaKit and TechCrunch say it did not respond to requests for comment",
