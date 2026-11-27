@@ -1,0 +1,187 @@
+{
+  "edition": "2026-11-27-1530",
+  "edition_label": "27 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T07:32:00Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "KKR again delays TOB for Japan's Taiyo Holdings as domestic and overseas approvals drag",
+      "summary": "KKR has postponed the closing of its tender offer for Taiyo Holdings for a second time, a Japanese report said, citing delays in completing regulatory procedures both in Japan and overseas. No new completion date was given.",
+      "why_it_matters": "Repeated delays in an already-agreed take-private process highlight how cross-border approvals are slowing Japanese buyouts even once a deal is announced, leaving more time for other shareholders to press the board on alternatives.",
+      "summary_ja": "KKRは太陽ホールディングスに対するTOBの完了を2度目にわたり延期した。国内外での許認可手続きの遅れが理由とされ、新たな完了予定日は示されていない。",
+      "why_it_matters_ja": "既に合意済みの非公開化案件で延期が繰り返される事態は、発表後でも国境を越えた許認可がM&Aの遅延要因になっていることを示す。結果として他の株主が代替案を取締役会に働きかける時間的余地も広がる。",
+      "status": "new",
+      "prev": null,
+      "key": "kkr-taiyo-holdings-tob-delay",
+      "ids": [
+        "d139cc8d15137e"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfdlNOM1JPbkhOWXZqeEJtU3ZaRHBOVjJRWUlJZ0xkeXZseHdHY3VjTklOamdvTVVfUjJCemVUemh6QnBLSlJKSURBZDRWT1NrUHp6a05GTnVHZl9xNVM3MGJINGJVaS1QUGI3aQ?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "EQT Healthcare Growth to take majority stake in UK-based specialty pharma group Kelso Pharma",
+      "summary": "EQT's healthcare growth strategy has agreed to acquire a majority stake in Kelso Pharma, a specialty pharmaceutical group with roughly 14 medicines focused on endocrine, gastrointestinal and central nervous system conditions. Kelso has built a commercial platform in the UK with a growing presence across Europe.",
+      "why_it_matters": "The deal adds to a run of PE investment in niche specialty-pharma platforms that can scale distribution across Europe without the R&D risk of originator biotech, a model increasingly attractive to growth-equity investors.",
+      "summary_ja": "EQTのヘルスケア・グロース戦略は、英国拠点の専門医薬品グループKelso Pharmaの過半数株式を取得する契約を締結した。Kelsoは内分泌・消化器・中枢神経系領域を中心に約14の医薬品を抱え、英国で商業基盤を築き欧州各国へ展開を広げている。",
+      "why_it_matters_ja": "原薬由来のR&Dリスクを抱えずに欧州全体で販売網を拡大できる専門医薬品プラットフォームへのPE投資が続いており、グロースエクイティ投資家にとって魅力度が高まっているモデルの一例だ。",
+      "status": "new",
+      "prev": null,
+      "key": "eqt-kelso-pharma-majority-stake",
+      "ids": [
+        "eaf2e2ca4deda7"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/eqt-healthcare-growth-to-acquire-majority-stake-in-specialty-european-pharmaceutical-business-kelso-pharma-302951594.html"
+        }
+      ],
+      "categories": [
+        "M&A",
+        "PE"
+      ],
+      "countries": [],
+      "sectors": [
+        "Healthcare"
+      ]
+    },
+    {
+      "headline": "JPMorgan, BlackRock and Endowus emerge as frontrunners for mandate to manage S$700bn of Singapore's CPF savings",
+      "summary": "JPMorgan, BlackRock and Endowus are the frontrunners in a scheme aimed at lifting returns on Singapore's S$700bn Central Provident Fund savings pool, a Business Times report said. Just S$22bn, or 3% of net assets, is currently invested through the CPF's optional investment plan.",
+      "why_it_matters": "Winning even a slice of CPF mandate flow would be a major asset-gathering prize for global and local managers, and signals Singapore's push to get more of its retirement savings working in markets rather than sitting in low-yield instruments.",
+      "summary_ja": "JPモルガン、ブラックロック、Endowusの3社が、シンガポールの中央積立基金（CPF）が運用する7000億シンガポールドルの資金の利回り向上を目的とした制度の運用受託で有力候補となっていると、ビジネス・タイムズが報じた。CPFの任意投資制度で実際に運用されているのは純資産のわずか220億シンガポールドル（3%）にとどまる。",
+      "why_it_matters_ja": "CPFの受託マンデートの一部でも獲得できれば、グローバル及びシンガポール現地の運用会社にとって大きな資金獲得の好機となる。これは、低利回りの資産に留め置かれているシンガポールの退職後資産をより市場で稼働させようとする当局の姿勢を示すものでもある。",
+      "status": "new",
+      "prev": null,
+      "key": "jpmorgan-blackrock-endowus-cpf-scheme",
+      "ids": [
+        "6815892298e5bb",
+        "a3b09968fddb93"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/jpmorgan-blackrock-endowus-bid-scheme-lift-returns-s700-billion-cpf-savings"
+        },
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/jpmorgan-blackrock-endowus-frontrunners-scheme-lift-returns-s700-billion-cpf-savings"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "SG",
+        "SEA"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Thales enters exclusive talks to acquire 51.6% stake in French photonics group Lumibird",
+      "summary": "Thales has entered exclusive negotiations to acquire a 51.6% stake in Lumibird, a French laser and photonics company, according to a report. Terms beyond the stake size were not disclosed.",
+      "why_it_matters": "A majority stake from a top-tier defence and aerospace group would give Lumibird's laser technology a route into larger defence and industrial programmes, part of a broader wave of consolidation among European defence-adjacent suppliers.",
+      "summary_ja": "タレスは、フランスのレーザー・フォトニクス企業ルミバードの株式51.6%を取得するための独占交渉に入ったと報じられた。株式比率以外の条件は明らかにされていない。",
+      "why_it_matters_ja": "大手防衛・航空宇宙グループによる過半数株式の取得は、ルミバードのレーザー技術がより大規模な防衛・産業プログラムに組み込まれる道を開くものであり、欧州の防衛関連サプライヤーで広がる統合の流れの一端でもある。",
+      "status": "new",
+      "prev": null,
+      "key": "thales-lumibird-stake",
+      "ids": [
+        "664ce6db726b41"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50TTBBMWFCNmdBU2JVMDhPRnBiR01IUEtMMHpJZXpBcnFnUjhIdExyYlZ3TnA3Z0VHRGh4d1V1bEVRRTliblpZM2Rlem9sSVhLUFlSWWNaVWxPYlhoOThmaXdpYi00S1FYY2V5UTJHeHg?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Macquarie completes $224m acquisition of South Korean cosmetics makers Hwasung and NOWCOS",
+      "summary": "Macquarie has completed its acquisition of South Korean cosmetics makers Hwasung and NOWCOS for about $224m, reports said.",
+      "why_it_matters": "The deal gives Macquarie direct exposure to Korea's K-beauty manufacturing boom, a sector that has drawn steady private equity interest across Asia as global brands lean on Korean producers.",
+      "summary_ja": "マッコーリーは韓国の化粧品メーカー、華城化粧品とNOWCOSの買収を完了したと報じられた。買収金額は約2.24億ドル。",
+      "why_it_matters_ja": "この買収により、マッコーリーは韓国のK-ビューティー製造ブームへの直接的なエクスポージャーを得る。グローバルブランドが韓国メーカーへの生産委託を強めるなか、同分野はアジア全体でプライベートエクイティの関心を集め続けている。",
+      "status": "new",
+      "prev": null,
+      "key": "macquarie-hwasung-nowcos-completion",
+      "ids": [
+        "8279493a868370",
+        "68e24d2bf1d85a"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfUE5tc3gyaVQwa3d3cEt0VVl6Tm5sRjJDVmNHLXJuckpMUUZjWlpMMktTV0RtVG5yNG9YMlZCZnNMWkhkdDhLRnFjN2RCVmJCT1lVa19xcWxkazJWZXZjSGZUQzhnYW5Ndy1EQ2N4RFBHU0Z1?oc=5"
+        },
+        {
+          "source": "DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5COEFYaHRTTTIwZ290a0tPc1pGS3MxdG9XNzVTQWRBVXlIOXM5eWozZldURVA0My1uUGhHU0pHZnh5SjF1U092dkZHQ29KRVBkOGN2cFcwX3Bpc3VUVmZTQmpVbWRGbDRQWTVnLV9qRlo5YUxudThvMlVHZw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Mitsubishi Soko moves to consolidate Hankyu Hanshin Express as subsidiary; analysts flag amortisation hit",
+      "summary": "Mitsubishi Soko (Mitsubishi Warehouse) is proceeding with its acquisition of shares in Hankyu Hanshin Express to make it a consolidated subsidiary, according to a disclosure filing and follow-up supplementary material. SMBC Nikko cut its target price on Mitsubishi Soko shares, citing a share price level that reflects substantial amortisation expected after the HHE acquisition.",
+      "why_it_matters": "The deal expands Mitsubishi Soko's logistics footprint through a sizeable acquisition, but the analyst downgrade signals the market expects a meaningful near-term earnings drag from purchase accounting, a trade-off common in Japan's wave of logistics consolidation.",
+      "summary_ja": "三菱倉庫は阪急阪神エクスプレスの株式取得を進め、連結子会社化する方針で、適時開示および補足説明資料で明らかにした。SMBC日興証券は、HHE買収後に相当程度の償却費が見込まれる水準を反映し、三菱倉庫株の目標株価を引き下げた。",
+      "why_it_matters_ja": "大型買収により三菱倉庫の物流事業基盤は拡大するが、アナリストによる目標株価の引き下げは、買収に伴う償却負担が当面の業績を圧迫するとの市場の見方を示している。これは日本の物流業界で進む統合の過程でよく見られるトレードオフだ。",
+      "status": "new",
+      "prev": null,
+      "key": "mitsubishi-soko-hankyu-hanshin-express",
+      "ids": [
+        "e4924c91e824b9",
+        "581edc821c41ad"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObzhSd0kxTFpUUldQNzltaS1fMkRDbjRTOWxRbS1XSVVaOXl6X2oyVHBmdkxkdDVDMUdNbExiSzZEMVhkeEd3aDhha2hnUXd0RFZNRmJlNXUxV1lVMklmNlhBZ1huNVRyQ2psSkpjRFlZbk9TY21KM1BIc3VaZkNPV29PcVB0TVNtb1RiQ3lrZTlKWC1QNjM1VFdIc0RyNlN4YUdWby12OTY2NWd1MXFyY2loN2FGd2oydzJTNXcyMUNWejZaRmRnZ2tmVUE?oc=5"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOREUzbVZvNE9nX0pOU1ZhOGszZ0Q3Tl9tTjNsdmlodG9laWtUdjh2V1N1YWpZeHA5c1FFcWNCUS02NWxCYnp6OUNHa3AwT1RvLVVxZ2ZxRUptVXU5bWl5Zi0yaGE5V3k4a2VXYkRTb3gtQk9zMHJlZU1YYUc0T25UMzYzQXlsa2s?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
