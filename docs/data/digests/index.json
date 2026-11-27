@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-27-1230",
+      "label": "27 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-27T04:35:00Z",
+      "items": 3,
+      "headlines": [
+        "Japan Tobacco and Altria now reported weighing joint Imperial Brands bid as JT shares surge as much as 17%",
+        "Kadoya Seiyu tender deadline extended to Dec 15 as third bidder J-Oil Mills reported to withdraw",
+        "EQT receives bids for minority stake in Singapore's HMI Medical"
+      ]
+    },
+    {
       "id": "2026-11-27-0830",
       "label": "27 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-27T00:35:00Z",

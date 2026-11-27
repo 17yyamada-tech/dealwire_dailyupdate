@@ -1,0 +1,63 @@
+{
+  "edition": "2026-11-27-1230",
+  "edition_label": "27 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T04:35:00Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "Japan Tobacco and Altria now reported weighing joint Imperial Brands bid as JT shares surge as much as 17%",
+      "summary": "Japanese reports now describe Japan Tobacco as considering a joint takeover approach for Imperial Brands together with Altria, rather than a separate competing move as earlier reported. Japan Tobacco shares jumped as much as 17% intraday on the reports, having first risen 3.6% earlier in the session.",
+      "why_it_matters": "A joint approach would remove the risk of Japan Tobacco and Altria bidding against each other for Imperial Brands, but it raises the stakes of combining two of Big Tobacco's few remaining independent majors into a single consolidated buyer. The scale of the share move shows investors see the joint-bid scenario as the more likely outcome.",
+      "summary_ja": "日本の報道によると、JTは英インペリアル・ブランズの買収について、従来伝えられていた単独での対抗提案ではなく、アルトリアとの共同買収を検討しているとされる。この報道を受け、JT株は一時17%超高となり、その前には同日中に3.6%高となる場面もあった。",
+      "why_it_matters_ja": "共同買収であれば、JTとアルトリアが互いに競り合う展開は避けられる一方、数少ない独立系大手たばこ会社2社を一つの買収主体に統合するという点で案件の規模は一段と大きくなる。株価の変動幅の大きさは、投資家が共同買収シナリオをより有力と見ていることを示している。",
+      "status": "update",
+      "prev": {"edition": "2026-11-27-0830", "index": 0},
+      "key": "altria-imperial-brands-jt-takeover",
+      "ids": ["df4ac302658071", "682a64f815bdce", "a4dbf79e00454b"],
+      "categories": ["M&A"],
+      "countries": ["JP", "US"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CSER6dTE2eHJtOHphOHBmS2c1eHplZk1qemE2czZhZjA4YzFwTFBxdkxpb2VOd2hwMFVKSHlMTGh5VGFpczZhLUVmdllUMG14ZTVRRg?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KdTRzX3lGTFBUVnktYk9uUDJzSFMySGtqWEkxVGhGeWRwUnl5T3FtN0FlRXJaZmdTSk1PUVItcWpKSmNqYW9KWTFGV3pkaXVsQ1BybXhiOF9fQXVuMlJyb29LZ9IBaEFVX3lxTE16a0s2YTNWTlFGelBWTzZHcDE1czNReTJkbi1xN0FnTTl2NEZJdWZSbUQ2NkNSMFFZaTdIVWtuRW1majYzRzRrUmxQQmQ3aE5NdVBuZnFQbjZVTk9hUXJtS3pwcWxhREUy?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0ySXcyUWdSQ3h1NUtCRWV2cXpqV2pWbGkydkVDc2Y3cG45Qkh1a3VRZWtXNXdndThMNnJCSU42ZjRTRTl0ZmFWNGFlUDF1SnNSM0tVa1c2Qm5ONjdBRU5GdTBzdkNvaUEycWl0WA?oc=5"}
+      ]
+    },
+    {
+      "headline": "Kadoya Seiyu tender deadline extended to Dec 15 as third bidder J-Oil Mills reported to withdraw",
+      "summary": "The tender offer deadline for Kadoya Seiyu has been extended to December 15, and a third bidder, reported to be J-Oil Mills, is said to have withdrawn its buyout proposal, narrowing the contest to two camps, according to Japanese reports. Advantage Partners and Integral had previously been reported competing with rival tender offers for the company.",
+      "why_it_matters": "A bidder dropping out removes one source of upward price pressure in a contest that has already seen at least one side raise its offer, though the repeated deadline extensions suggest Advantage Partners and Integral may still be negotiating terms rather than converging on a final price.",
+      "summary_ja": "かどや製油のTOB期限が12月15日まで延長され、報道によると第3の買収候補とされるJ-オイルミルズが買収提案を撤回し、争いは2陣営に絞られたとされる。これまでアドバンテッジパートナーズとインテグラルが対抗TOBを巡って競り合っていると報じられていた。",
+      "why_it_matters_ja": "候補の1社が撤退したことで、これまで一部で見られた価格引き上げ圧力の一因は取り除かれる。一方で期限延長が繰り返されている点は、アドバンテッジパートナーズとインテグラルが最終価格の一致にまだ至っておらず、条件交渉を続けている可能性を示す。",
+      "status": "update",
+      "prev": {"edition": "2026-11-26-0830", "index": 9},
+      "key": "kadoya-seiyu-tob-bidding-war",
+      "ids": ["4d052933ef7619", "2dd246b54e4dc4"],
+      "categories": ["M&A"],
+      "countries": ["JP"],
+      "sectors": ["Other"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04c0Y2QmpxZGpkcmczc1pzeVNhSU5BamU4QTFTQ1E5d1pSUzhDNjVjclNpUVNPQ0JwczMzQ2VPRWFTUlNhNTEtTWtZS3ZHRFpOUHdaUw?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jYlV0WE1kNE5oSk1xcW1teWRLa05NRGJ3UVozc01SOHhRcEwxT2pIMUlzY2ltZE1USEdqTWRDelVoNkpacmk2VTlHc2NpRmdncldaZ1IxMEx4elFEdll2c181bTBuTjBwNC1INA?oc=5"}
+      ]
+    },
+    {
+      "headline": "EQT receives bids for minority stake in Singapore's HMI Medical",
+      "summary": "EQT has received bids for a minority stake in Singapore-based HMI Medical, DealStreetAsia reported.",
+      "why_it_matters": "A minority-stake process rather than a full sale suggests EQT wants to bring in a partner or realise some value from the Singapore healthcare platform while retaining control, an approach sponsors increasingly use to manage exit timing when full-sale buyers are scarce.",
+      "summary_ja": "DealStreetAsiaの報道によると、EQTはシンガポールのHMIメディカルの少数株への入札を受け付けたという。",
+      "why_it_matters_ja": "完全売却ではなく少数株の売却プロセスである点は、EQTがシンガポールのヘルスケア事業について支配権を維持しつつ提携先を得るか一部の価値を実現しようとしていることを示す。買い手が限られる環境で、スポンサーがエグジットの時期を調整する手法として広がっている。",
+      "status": "new",
+      "prev": null,
+      "key": "eqt-hmi-medical-stake",
+      "ids": ["99559f29882571"],
+      "categories": ["M&A", "PE"],
+      "countries": ["SG", "SEA"],
+      "sectors": ["Healthcare"],
+      "links": [
+        {"source": "DealStreetAsia", "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05eEt6SmotSUJ6azQ3YmtRejNkcGh0Zk1CU1NvWXZPbVZYRGJDVlB0eW9vaS02V29aaGxaUlFHR3JETDlYdGZia0ZVWmRuNkFjLUNDV2h3VUlzTlp5djBpcEw0N3hTc1l3THl0N0Jyc1BYcmUtOUJwUzBQNDFHZw?oc=5"}
+      ]
+    }
+  ]
+}
