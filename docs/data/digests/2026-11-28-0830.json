@@ -1,0 +1,148 @@
+{
+  "edition": "2026-11-28-0830",
+  "edition_label": "28 Nov 2026 · 08:30 SGT",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T00:35:43Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Uber lifts Delivery Hero stake to 87%, advancing $14.8bn buyout",
+      "summary": "Uber has acquired 87% of Delivery Hero's shares, moving closer to a full takeover of the German food-delivery group in a deal valued at about $14.8bn, a Japan M&A newswire report said. The stake is well above the majority level typically needed for control, though no completion date for a full buyout was disclosed.",
+      "why_it_matters": "A full Uber takeover of Delivery Hero would combine two of the largest food-delivery platforms in the world under a single owner, significantly extending Uber's reach into markets where Delivery Hero already has an established presence across Europe, the Middle East and Asia. It would also sharpen competition with DoorDash and other delivery platforms that have themselves been consolidating through acquisitions, intensifying the race for scale in a business where route and logistics density drive profitability.",
+      "summary_ja": "ウーバーがデリバリーヒーロー株の87%を取得し、約148億ドル規模とされる同社の完全買収に向けて前進したと、Japan M&Aのニュースワイヤーが報じた。この比率は支配に通常必要とされる過半数を大きく上回るが、完全買収の完了時期は明らかになっていない。",
+      "why_it_matters_ja": "ウーバーがデリバリーヒーローを完全買収すれば、世界最大級のフードデリバリー事業者2社が単一の親会社の下に統合され、デリバリーヒーローが既に基盤を持つ欧州・中東・アジアの各市場にウーバーの事業領域が大きく広がることになる。M&Aで規模拡大を図る業界の中で、ドアダッシュなど他のデリバリー事業者との競争も一段と激しくなり、配送網の密度が収益性を左右する業界で規模獲得の競争が強まる。",
+      "status": "new",
+      "prev": null,
+      "key": "uber-delivery-hero-stake",
+      "ids": ["ff89bae3d6a7d7"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01UkQ3aFVjdDF5RC1LMGNDRzFnaVNkNElOSU1hNDIwSW9WOGhEckxnbXlBb1NJQ1daNEMyX3BNVHl3M1BsQVhUUEoyOGpWWUl5b2E2N2VvVHpvM2JNMDQ0b3hFeWVHak41RnZOQ0RoNkMxdWpp?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "MDA Space completes acquisition of satellite maker Blue Canyon Technologies",
+      "summary": "MDA Space has completed its previously announced acquisition of Blue Canyon Technologies, the Toronto- and New York-listed company said in a statement, describing itself as a mission partner to the rapidly expanding global defence and space industry.",
+      "why_it_matters": "Closing the deal gives MDA Space in-house access to Blue Canyon's satellite platforms and components rather than relying on an external supplier relationship, a shift that can improve margins and shorten development timelines on future satellite programmes. It also reflects a broader push among defence and space companies to build vertically integrated hardware businesses as government and commercial satellite demand continues to grow.",
+      "summary_ja": "MDAスペースは、以前発表していたBlue Canyon Technologiesの買収を完了したと、トロントとニューヨークに上場する同社が発表した。同社は自らを防衛・宇宙産業の拡大を支えるミッションパートナーと位置付けている。",
+      "why_it_matters_ja": "買収完了により、MDAスペースは外部の供給関係に依存せず、Blue Canyonの衛星プラットフォームや部品を自社内に取り込むことになり、マージンの改善や今後の衛星計画の開発期間短縮につながり得る。これは、政府・商業双方での衛星需要の拡大に伴い、防衛・宇宙企業が垂直統合型の機器事業を構築しようとする大きな流れを反映している。",
+      "status": "new",
+      "prev": null,
+      "key": "mda-space-blue-canyon-completion",
+      "ids": ["a34f1aa9f3ca06", "cd1a33a0b67ee0"],
+      "links": [
+        {"source": "PR Newswire M&A", "url": "https://www.prnewswire.com/news-releases/mda-space-completes-acquisition-of-blue-canyon-technologies-302951817.html"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00eG5WcjE3dnhBMzluV1ZTcWczZFJXa3NISnF5OWl5anN5cHhNeElUemJBZzNnMzdIaXF2bjlPOWp4RTZTSTRFSEJSMEQ1NDBhRnRwbnVSa044RHZvckpoN1gxeElORWljUlZyRmZXRDg?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["US"],
+      "sectors": ["Industrials", "Other"]
+    },
+    {
+      "headline": "Verizon in talks to buy fiber operator Fidium for $6bn, report says",
+      "summary": "Verizon is in talks to acquire fiber-internet operator Fidium for about $6bn, according to a Japan M&A newswire report citing media coverage. No other terms of the potential transaction, including a timeline for reaching an agreement, were disclosed.",
+      "why_it_matters": "Adding Fidium's fiber subscribers would expand Verizon's broadband footprint at a time when US telecoms are competing hard for high-speed internet customers amid slowing wireless subscriber growth. Fiber has become a strategic priority for carriers as they look to support growing data demand from streaming, cloud and AI applications, making smaller regional fiber operators attractive acquisition targets.",
+      "summary_ja": "ベライゾンが光回線事業者フィディウムを約60億ドルで買収する交渉に入ったと、Japan M&Aのニュースワイヤーが報道を引用して伝えた。合意に至る時期を含め、想定される取引のその他の条件は明らかになっていない。",
+      "why_it_matters_ja": "フィディウムの加入者を取り込めれば、無線契約者の増加が鈍る中で米通信各社が高速インターネット顧客を奪い合う中、ベライゾンのブロードバンド事業基盤が広がることになる。ストリーミングやクラウド、AI関連のデータ需要が拡大する中、光回線は通信各社にとって戦略的な優先事項となり、地域の中小光回線事業者が買収対象として注目されやすくなっている。",
+      "status": "new",
+      "prev": null,
+      "key": "verizon-fidium-fiber-talks",
+      "ids": ["2b27e623d53df1"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jLVhmTm1oUHZBaExHZ01iZHdpeFlJVzZ5TE9fNWlPWkJYelVCSExEeHlWUHV3bTFfdFdIUmxObHBveVFWMkRJNFJyTXZ1WEJqck50UjJHTWxVbUJ1d1V3VkJNTGQwTXh3eDl5VFRzdUJ4TzN5?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Mitsui Chemicals caps capital raise for ¥1.8tn JSR deal at under ¥100bn",
+      "summary": "Mitsui Chemicals, which is acquiring JSR in a deal valued at about ¥1.8tn, will keep its related capital increase to within ¥100bn out of consideration for existing shareholders, a Japan M&A newswire report said.",
+      "why_it_matters": "Capping the equity raise limits dilution for Mitsui Chemicals' current shareholders as it funds one of Japan's largest chemicals-sector acquisitions this year, a sensitive issue for a deal of this scale and one that can weigh on how a market reacts to an all-share or part-equity financed takeover. How Mitsui Chemicals finances the remainder of the roughly ¥1.8tn purchase price, whether through debt, asset sales or further equity, will be watched closely by investors and rating agencies alike.",
+      "summary_ja": "JSRを約1.8兆円で買収する三井化学は、既存株主への配慮から、関連する増資を1000億円以内に抑える方針だと、Japan M&Aのニュースワイヤーが報じた。",
+      "why_it_matters_ja": "増資規模を抑えることで、この規模の取引では特に注目される既存株主の希薄化を限定することになり、全株式対価型や一部増資による取引に市場がどう反応するかにも影響しうる。約1.8兆円とされる買収価格の残りを、負債、資産売却、追加増資のいずれで調達するかは、投資家や格付け会社から注視されるだろう。",
+      "status": "update",
+      "prev": {"edition": "2026-11-24-1530", "index": 1},
+      "key": "mitsui-chemicals-jsr-acquisition",
+      "ids": ["f638bf13f7ba0d"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00UVZKMFJndm9fMW02eVlYclNBbG1wbllsOFhYV1VSeTFPa20yZzVlclVYSzM5QXlYaEZ0TzZWdHNndUZoWEY3Z1gtWERSOHNoSXFIUjE1ZzZMVmJCc1B0akxRMmhJR2l4alQ4RA?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Materials"]
+    },
+    {
+      "headline": "Mitsubishi Soko puts EV/EBITDA multiple on Hankyu Hanshin Express deal at 18.4x",
+      "summary": "Mitsubishi Soko (Mitsubishi Warehouse) has calculated an EV/EBITDA multiple of 18.4x for its acquisition of Hankyu Hanshin Express, a Japan M&A newswire report said, as it proceeds with making the logistics group a consolidated subsidiary.",
+      "why_it_matters": "An 18.4x EV/EBITDA multiple is a rich valuation for a logistics acquisition, consistent with the amortisation hit analysts have already flagged for Mitsubishi Soko shares following the deal's announcement. The disclosure gives investors a clearer basis for judging whether the price paid is justified by Hankyu Hanshin Express's earnings, and for comparing the deal with other logistics consolidation under way in Japan.",
+      "summary_ja": "三菱倉庫は、阪急阪神エクスプレスを連結子会社化する買収について、EV/EBITDA倍率を18.4倍と算定したと、Japan M&Aのニュースワイヤーが報じた。",
+      "why_it_matters_ja": "EV/EBITDA倍率18.4倍は物流業の買収としては高い水準であり、買収発表後にアナリストがすでに指摘している三菱倉庫株への償却負担の重さと整合的だ。この開示により、投資家は買収価格が阪急阪神エクスプレスの収益力に見合うかどうか、また日本で進む他の物流業の統合案件と比較してどうかを判断しやすくなる。",
+      "status": "update",
+      "prev": {"edition": "2026-11-27-1530", "index": 5},
+      "key": "mitsubishi-soko-hankyu-hanshin-express",
+      "ids": ["d1695c31b78343"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRmhuNGpVcGowMTFjc3BvSjVfTTVjUnBGYnFacC1GcVpZbmw3NVIwaTQzNFJJQVBDWGlnV1R3R19ra19nWEtEeEdpRWdzZmQ4cy15WUlRX2J5Umg3Tl9mR3NlVGZ6LWV5aXFoX1VEZDRNazE1RndqYklQRk91MUl3YS1kcWV3RU9nVnp3VVVhQjQxUUpnLVE?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Industrials"]
+    },
+    {
+      "headline": "Tesla pushes to acquire Germany's EMAG to build in-house Optimus gear supply",
+      "summary": "Tesla is advancing plans to acquire German machine-tool and manufacturing-systems maker EMAG, aiming to secure in-house capability to produce precision gears for its Optimus humanoid robot, a Japan M&A newswire report said. Elon Musk is said to be targeting a production network for 20,000 Optimus units.",
+      "why_it_matters": "Bringing gear production in-house would reduce Tesla's reliance on outside suppliers as it scales Optimus manufacturing, a key swing factor in the robot's unit economics and production ramp. Acquiring EMAG would also give Tesla a manufacturing base in Germany for Optimus components, extending the vertical-integration approach it has used in its electric-vehicle business to robotics.",
+      "summary_ja": "テスラは、ドイツの工作機械・製造システム大手EMAGの買収を進めており、人型ロボットOptimus向けの精密ギアを内製する能力を確保する狙いだと、Japan M&Aのニュースワイヤーが報じた。イーロン・マスク氏は、Optimus 2万台規模に対応できる生産網を目指しているとされる。",
+      "why_it_matters_ja": "ギアの生産を内製化できれば、Optimusの量産拡大に伴う外部サプライヤーへの依存を減らすことができ、ロボットの単位経済性や量産ペースを左右する重要な要因となる。EMAGの買収が実現すれば、テスラはOptimus部品のドイツ国内生産拠点も得ることになり、電気自動車事業で採用してきた垂直統合の手法をロボット事業にも広げることになる。",
+      "status": "new",
+      "prev": null,
+      "key": "tesla-emag-acquisition",
+      "ids": ["cf4ee5eab8a722", "fbdc3f7978809f", "38543605f1531f"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2TWF0LWhKeVhydGhYRDhHaTl3SWdKbmhMUnBqZ014VUtJN3FmWUtXQmYxZnJqeDBQeERiQzlKbnBpZmFGR0xvdE50SkxUZldlSm9YZUpUcWxoWmcyNjk0dC1ocU9uNVozSzBZMlJRWC1Cblpu?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xcGY0d1ZBLWQyeG0ySlhMMERFdzRSLXB0RzRybFFWcTkyenJBTW54ckVXU1ZlZHJCa1NwbksydEtwUUlyTWcwaUkzbmxrdDFSOEJCbGg0R3Z3OWxhQnktQnllWEZETnBpSUZ2RDBlMTI5c1l4?oc=5"},
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5RWW9VNmJjczM4cVQ1aFFwbHlDQW8tdE13WldmX3NqRlMxM3d2MzQwTV8wanZnZjRJeXljZ2hkT1Zrd3ozQnZwWWxNTzZWWnd1dlpIZTJKeWtsRzFST0VHMk9aTVpOa2FSYUl5YW10NTdkcVJocUI4?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other", "Industrials"]
+    },
+    {
+      "headline": "Hulic's tender offer for Rise Education Group succeeds, stake rises to 87.79%",
+      "summary": "Hulic's tender offer for Rise Education Group has succeeded, raising its ownership stake in the education company to 87.79%, a Japan M&A newswire report said.",
+      "why_it_matters": "A stake of 87.79% gives Hulic effective control of Rise Education Group well above the thresholds typically needed to consolidate a subsidiary, extending the property group's push into the education sector beyond its core real estate business. The result adds to a string of Japanese tender offers reaching completion this week, underscoring how active Japan's M&A market has become heading into year-end.",
+      "summary_ja": "ヒューリックによるリソー教育グループへのTOBが成立し、同社に対する所有割合が87.79%に上昇したと、Japan M&Aのニュースワイヤーが報じた。",
+      "why_it_matters_ja": "所有割合87.79%は、子会社化に通常必要とされる水準を大きく上回り、ヒューリックはリソー教育グループを実質的に支配することになる。これは不動産業を中核とする同社の教育分野への進出を一段と大きく進めるものだ。今週は日本市場で複数のTOBが相次いで成立しており、年末にかけて日本のM&A市場の活発さを示している。",
+      "status": "new",
+      "prev": null,
+      "key": "hulic-riso-education-tob-completion",
+      "ids": ["e2233f7756b2fb"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSUVFTWxhYmt5OG1uNHpYMHlRaDBpaE1MaDVBblNnZTd4QkpOdWNsclZSV2pKeTVDbFBQSzFKWnN2RnNLR3RNX2pJLTQyVHp0UTVrRlRWY2lfVW1VaWVoS1M2ZWNLaTQ4Tzk2MVpPbzBqcUxyVTNWTEsteUxPQ0YwSEptc0hyU0lnbXhpMU90aEl0YkZVNUt3ckFTbVZTenVzQkY0ZU1kbEk3T1ND?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": [],
+      "sectors": ["Other"]
+    },
+    {
+      "headline": "Itochu enters Southeast Asia cloud services with ¥4bn local acquisition",
+      "summary": "Itochu is entering the Southeast Asian cloud-services market by acquiring a local company for ¥4bn, a Japan M&A newswire report said. The identity of the target and further transaction details were not broken down in the report.",
+      "why_it_matters": "The deal gives Itochu a foothold in Southeast Asia's growing cloud-infrastructure market as Japanese trading houses diversify beyond commodities and resources into digital services. It adds to a wave of Japanese corporate investment targeting Southeast Asian technology assets, as companies look for growth outside a slower-growing domestic market.",
+      "summary_ja": "伊藤忠商事は現地企業を40億円で買収し、東南アジアのクラウドサービス市場に参入すると、Japan M&Aのニュースワイヤーが報じた。買収対象企業の詳細やその他の取引条件は報道の中で明らかにされていない。",
+      "why_it_matters_ja": "この買収により、伊藤忠は成長する東南アジアのクラウド基盤市場に足がかりを得ることになり、日本の商社が資源・コモディティビジネスからデジタルサービスへと多角化を進める動きを示している。成長が鈍る国内市場の外に成長機会を求める日本企業による、東南アジアのテクノロジー資産への投資の広がりにも通じる。",
+      "status": "new",
+      "prev": null,
+      "key": "itochu-sea-cloud-acquisition",
+      "ids": ["b2ad9c43c1edf2"],
+      "links": [
+        {"source": "Japan M&A", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EeTdaRWZJWjdvZnI5ckRQdlNlWTVLdWNQSEVLU2RBTUI3azlpbklsNXJ0d0F4OGtMWWdwLVZpcjNraFBweUVkdTBWQ2hOaGk5VzdTQm5pN0VCNDhXNTJqUnlFQjdzUFBwcFFncw?oc=5"}
+      ],
+      "categories": ["M&A"],
+      "countries": ["SEA"],
+      "sectors": ["TMT"]
+    }
+  ]
+}
