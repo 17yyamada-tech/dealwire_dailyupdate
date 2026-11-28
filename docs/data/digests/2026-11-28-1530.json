@@ -1,0 +1,206 @@
+{
+  "edition": "2026-11-28-1530",
+  "edition_label": "28 Nov 2026 · 15:30 SGT",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T07:36:22Z",
+  "reading_minutes": 5,
+  "items": [
+    {
+      "headline": "Banks agree to pay over $400m to settle US bond price-fixing class action",
+      "summary": "A group of banks facing trial over alleged bond price-fixing have agreed to pay more than US$400 million to settle a long-running federal class-action lawsuit, according to the Business Times. The case had reached the US Supreme Court before the settlement was reached.",
+      "why_it_matters": "The settlement removes years of litigation risk for the banks involved and signals how such price-fixing claims against fixed-income desks continue to carry real liability even after reaching the top US court.",
+      "summary_ja": "債券の価格操作疑惑で裁判を控えていた複数の銀行が、長期化した連邦クラスアクション訴訟の和解金として4億米ドル超を支払うことで合意した、とビジネス・タイムズが報じた。同訴訟は和解に至る前に米最高裁まで持ち込まれていた。",
+      "why_it_matters_ja": "今回の和解により、関係する銀行は長年の訴訟リスクから解放される。米最高裁まで争われた後でも、債券取引部門に対する価格操作訴訟が実質的な賠償責任につながり得ることを改めて示した。",
+      "status": "new",
+      "prev": null,
+      "key": "banks-bond-price-fixing-settlement",
+      "ids": [
+        "a6d26ea24226d6"
+      ],
+      "links": [
+        {
+          "source": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/banks-facing-bond-price-fixing-trial-agree-pay-over-us400-million"
+        }
+      ],
+      "categories": [
+        "Credit"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "India's SEBI opens review of Tata Steel's over $3bn APL Apollo takeover",
+      "summary": "India's securities regulator SEBI has opened a review of Tata Steel's takeover of APL Apollo, now valued at more than $3bn, Japan M&A reported. Tata Steel had moved in November to take control of APL Apollo through a $1.67bn stake purchase and open offer.",
+      "why_it_matters": "Regulatory review is a required step before the open offer can complete, and the larger quoted deal value underscores the scale of Tata's push into higher-value steel tube and coated-steel products.",
+      "summary_ja": "インドの証券取引委員会(SEBI)が、タタ・スチールによるAPLアポロ買収(現在は30億ドル超と報じられる)の審査を開始した、とJapan M&Aが報じた。タタ・スチールは11月、16.7億ドルの株式取得と公開買付けによりAPLアポロの支配権獲得に動いていた。",
+      "why_it_matters_ja": "規制当局の審査は公開買付けが完了する前に必要な手続きであり、取引額がより大きく報じられたことは、タタがカラーコート鋼板・鋼管といった高付加価値製品分野への進出を拡大していることを示す。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-23-1230",
+        "index": 2
+      },
+      "key": "tata-steel-apl-apollo-stake",
+      "ids": [
+        "a0ae2d27c1b424"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5yS01MbVZHSEFyOUppN0Zza2I0MjN1VFlNSzF1cm5nVkY1R1ByU3lVVTR6cjZ5Y3VHem1QclVFeXB3WjVvYk5CZF9CXzZibmc5YjNHeHFEU2hrVWRUNjRsZjlOWXNsNlFnMWI1ZFluYlR2QnpY?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "Peak Credit Union agrees all-cash deal to acquire Southwest Heritage Bank",
+      "summary": "Peak Credit Union has entered into a definitive agreement to acquire Southwest Heritage Bank in an all-cash deal, the credit union said. The deal would expand Peak's business banking operations into Arizona and New Mexico.",
+      "why_it_matters": "The deal is part of a broader wave of credit unions acquiring community banks to gain commercial banking capabilities and expand geographically beyond their traditional footprints.",
+      "summary_ja": "Peak Credit Unionは、Southwest Heritage Bankを全額現金で買収する最終契約を締結したと発表した。今回の買収により、Peakの事業性バンキング業務はアリゾナ州とニューメキシコ州に拡大する。",
+      "why_it_matters_ja": "今回の取引は、信用組合がコミュニティバンクを買収して商業銀行業務の機能を獲得し、従来の事業地域を越えて地理的に拡大する大きな流れの一環である。",
+      "status": "new",
+      "prev": null,
+      "key": "peak-credit-union-southwest-heritage-bank",
+      "ids": [
+        "f21370fef3b49b",
+        "67b5db1aeef4d5"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/peak-credit-union-announces-agreement-to-acquire-southwest-heritage-bank-302951825.html"
+        },
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ29EMXRPa0tMWndmQU5vcDNtY0FnRXctNGgtOWJyLVJnYTBvaWF0RjE4Y3N3N1NaRGhYWVdTUUNHT1dLUFpjYjdsWHRQcVZHMG9vS2F6NnZMajhwVmVaY0MzSlN0WENSdHpxNWswVGlZd0hYNlpiNWltSGI5NUlFVmJxYVpUTjRzYVlPWEdIYkppYnlxdWlpUnRYSWkzZw?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "South Korea's Homeplus sale battle reignites, spotlight on Meritz's W1.4tn position",
+      "summary": "The contest over the sale of South Korea's distressed retailer Homeplus has reignited, with attention turning to Meritz Financial Group, which has committed 1.4 trillion won to the situation, Japan M&A reported. The report framed the key question as whether Meritz can move up the timeline for recovering that investment.",
+      "why_it_matters": "A faster recovery timeline for Meritz would reshape the pressure on other creditors and bidders in what has been a prolonged and contentious sale process for Homeplus.",
+      "summary_ja": "経営難の韓国ホームプラスの売却をめぐる争いが再び活発化し、1.4兆ウォンを投じているMeritz Financial Groupに注目が集まっている、とJapan M&Aが報じた。同報道は、Meritzが投資の回収時期を前倒しできるかが焦点になっているとしている。",
+      "why_it_matters_ja": "Meritzの回収時期が前倒しされれば、長期化し対立が続くホームプラスの売却プロセスにおいて、他の債権者や買い手候補にかかる圧力の構図が変わる可能性がある。",
+      "status": "update",
+      "prev": {
+        "edition": "2026-11-26-1530",
+        "index": 2
+      },
+      "key": "homeplus-korea-sale-loi",
+      "ids": [
+        "3514eef7b63931"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tdEdqb1VLdkM5MzI5cmZoc2JSUVN3SkwyLWNrVGV1QlBBZjFVcWVJU0hTVGFBVVRTQUlNbXd3bEpqWnFSSHI4dmRUM3l1MGFFeTlKcUFLWnlIVEtvUk15S25NVzJvd240V3Q1V1pxMklfRTV1?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "France's competition authority clears Séché Environnement's acquisition of Flamme Group",
+      "summary": "France's competition authority has cleared Séché Environnement's acquisition of Flamme Group, a Japan M&A report citing Investing.com said.",
+      "why_it_matters": "The antitrust clearance removes the main regulatory hurdle to completing the deal, allowing it to move toward closing.",
+      "summary_ja": "フランスの競争当局が、セシェ・アンヴィロンヌマンによるフラム・グループ買収を承認した、とInvesting.comを引用したJapan M&Aの報道が伝えた。",
+      "why_it_matters_ja": "独占禁止法上の承認により、取引完了に向けた主要な規制上の障害が取り除かれ、クロージングに向けて前進することになる。",
+      "status": "new",
+      "prev": null,
+      "key": "seche-environnement-flamme-group",
+      "ids": [
+        "e498f7f23a5cb5"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jQUZFY1lMM0JkZFZPR1c5SzJuWjF2RUdqaEhjNTgwMUJadHh2NVhrajBPSVdYTV96SVBnZ0J1SnR0eFJBVDBZUjZzT0pjMTZFclRpMldaSW9jVTlmWHRpeHhKZkpqbFNUc3dLSlV1eUU?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "Ausgold shareholders approve OceanaGold's scheme-of-arrangement takeover",
+      "summary": "Shareholders of Australia's Ausgold Limited have voted in favour of the scheme of arrangement under which OceanaGold Corporation will acquire the company, OceanaGold announced.",
+      "why_it_matters": "Shareholder approval clears one of the final hurdles to closing the takeover, positioning OceanaGold to add Ausgold's gold assets pending any remaining court and regulatory steps.",
+      "summary_ja": "オーストラリアのAusgold Limitedの株主は、OceanaGold Corporationによる買収のスキーム・オブ・アレンジメントに賛成する投票を行った、とOceanaGoldが発表した。",
+      "why_it_matters_ja": "株主の承認により、買収完了に向けた最終段階の関門の一つが取り除かれ、残る裁判所手続きや規制対応を経てOceanaGoldがAusgoldの金資産を取り込む体制が整う。",
+      "status": "new",
+      "prev": null,
+      "key": "oceanagold-ausgold-shareholder-approval",
+      "ids": [
+        "3c1d91eb04645e"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/oceanagold-announces-ausgold-shareholder-approval-804881601.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "US"
+      ],
+      "sectors": [
+        "Other"
+      ]
+    },
+    {
+      "headline": "CIP raises €1.7bn in pathfinder collateralised fund obligation",
+      "summary": "Infrastructure manager CIP has raised €1.7bn through a vehicle described as a pathfinder collateralised fund obligation, according to Infrastructure Investor.",
+      "why_it_matters": "A collateralised fund obligation structure for infrastructure equity is a relatively novel financing tool, and a successful pathfinder deal of this size could open the structure to wider use among infrastructure managers raising leveraged co-investment capital.",
+      "summary_ja": "インフラ運用会社CIPが、「パスファインダー」型のコラテラライズド・ファンド・オブリゲーション(CFO)と呼ばれる手法を通じて17億ユーロを調達した、とInfrastructure Investorが報じた。",
+      "why_it_matters_ja": "インフラ株式向けのCFOという仕組みは比較的新しい資金調達手法であり、このパスファインダー取引がこの規模で成功したことで、レバレッジ付き共同投資資金を調達するインフラ運用会社の間で同様の手法の活用が広がる可能性がある。",
+      "status": "new",
+      "prev": null,
+      "key": "cip-pathfinder-cfo",
+      "ids": [
+        "f41e75d3ae934a"
+      ],
+      "links": [
+        {
+          "source": "Infrastructure Investor",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHJkYnc4WDJpdDBQZ2R4aFJXU1BFWkY3SzlWcEh5Z2I5cnZGV1h3UkRTcktwd3hreDZjZG9ibzRrQnRKLXlxY2ZHNGtRaHF6aEVSZ25GUEtkWTF5WVJUTHZHeEhjdENjSkRMMlJ3NWRhaG5nekptWTBoRHZoVTBDeXdMWHh3aWd1N3p0YUJqQWl4X3BVLUEta09ZcDhrbkh1R2t2cmhhU2c?oc=5"
+        }
+      ],
+      "categories": [
+        "Infra"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}

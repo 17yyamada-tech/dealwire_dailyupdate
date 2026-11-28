@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-28-1530",
+      "label": "28 Nov 2026 · 15:30 SGT",
+      "generated_at": "2026-11-28T07:36:22Z",
+      "items": 7,
+      "headlines": [
+        "Banks agree to pay over $400m to settle US bond price-fixing class action",
+        "India's SEBI opens review of Tata Steel's over $3bn APL Apollo takeover",
+        "Peak Credit Union agrees all-cash deal to acquire Southwest Heritage Bank"
+      ]
+    },
+    {
       "id": "2026-11-28-1230",
       "label": "28 Nov 2026 · 12:30 SGT",
       "generated_at": "2026-11-28T04:36:00Z",
