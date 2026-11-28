@@ -1,6 +1,17 @@
 {
   "editions": [
     {
+      "id": "2026-11-28-1230",
+      "label": "28 Nov 2026 · 12:30 SGT",
+      "generated_at": "2026-11-28T04:36:00Z",
+      "items": 3,
+      "headlines": [
+        "First Citizens Bank agrees to buy United Fidelity Bank, fsb in whole-bank deal",
+        "China's Zhongnan Culture buys Jiangyin Tianli for 4.3bn yuan, entering gas sector",
+        "Japan's Gijutsu Shokei Kiko (Technology Succession Organization) buys crusher and pump maker Karui"
+      ]
+    },
+    {
       "id": "2026-11-28-0830",
       "label": "28 Nov 2026 · 08:30 SGT",
       "generated_at": "2026-11-28T00:35:43Z",

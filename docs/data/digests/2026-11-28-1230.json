@@ -1,0 +1,89 @@
+{
+  "edition": "2026-11-28-1230",
+  "edition_label": "28 Nov 2026 · 12:30 SGT",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T04:36:00Z",
+  "reading_minutes": 2,
+  "items": [
+    {
+      "headline": "First Citizens Bank agrees to buy United Fidelity Bank, fsb in whole-bank deal",
+      "summary": "First Citizens Bank, the banking subsidiary of First Citizens BancShares, has agreed to acquire United Fidelity Bank, fsb in a whole-bank purchase, the companies said in a joint statement. The acquirer said the deal strengthens its competitive position and supports what it called sustainable value creation for stakeholders. Financial terms of the transaction were not disclosed in the release.",
+      "why_it_matters": "A whole-bank purchase lets First Citizens absorb United Fidelity's deposits, loans and branch network directly rather than through an asset-only deal, extending a wave of US regional-bank consolidation that has continued even as rate cuts ease pressure on smaller lenders' margins. With no price disclosed, investors will have to wait for regulatory filings to judge what First Citizens paid relative to United Fidelity's balance sheet.",
+      "summary_ja": "ファースト・シチズンズ銀行（ファースト・シチズンズ・バンクシェアーズの銀行子会社）は、ユナイテッド・フィデリティ銀行（fsb）をホールバンク方式で買収することで合意したと、両社が共同声明で発表した。買収企業側はこの取引が自社の競争力を強化し、ステークホルダーにとって持続的な価値創出を支えるものだとしている。発表では取引の金額など具体的な条件は開示されていない。",
+      "why_it_matters_ja": "ホールバンク方式の買収により、ファースト・シチズンズはユナイテッド・フィデリティの預金・貸出・店舗網を資産買収ではなく直接取り込むことができ、利下げで中小銀行の利ざや圧力が和らぐ中でも続く米地銀再編の流れを一段と進めるものだ。価格が非開示のため、投資家は監督当局向けの開示が出るまでユナイテッド・フィデリティのバランスシートに対して支払われた対価の妥当性を判断できない。",
+      "status": "new",
+      "prev": null,
+      "key": "first-citizens-united-fidelity-bank",
+      "ids": [
+        "fc44c619a724b4"
+      ],
+      "links": [
+        {
+          "source": "PR Newswire M&A",
+          "url": "https://www.prnewswire.com/news-releases/first-citizens-bank-enters-into-whole-bank-purchase-of-united-fidelity-bank-fsb-302951956.html"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Financials"
+      ]
+    },
+    {
+      "headline": "China's Zhongnan Culture buys Jiangyin Tianli for 4.3bn yuan, entering gas sector",
+      "summary": "China's Zhongnan Culture has agreed to acquire Jiangyin Tianli for 4.3bn yuan, a Japan M&A newswire report said. The report described the deal as marking Zhongnan Culture's entry into the natural gas business as part of an energy-transition push.",
+      "why_it_matters": "The move signals a media and culture company diversifying into energy infrastructure, reflecting how firms outside China's traditional energy sector are positioning for its longer-term shift away from coal. With no valuation multiple disclosed, investors have little basis yet to judge whether the 4.3bn-yuan price is in line with other recent gas-asset deals in China.",
+      "summary_ja": "中国の中南文化は江陰天力を43億元で買収することで合意したと、Japan M&Aのニュースワイヤーが報じた。報道はこの買収が中南文化の天然ガス事業への進出であり、エネルギー転換の一環だとしている。",
+      "why_it_matters_ja": "この動きは、メディア・文化企業がエネルギーインフラへ多角化する事例であり、中国の石炭依存からの転換が進む中で、エネルギー以外の企業がどのように布石を打っているかを示している。バリュエーション倍率が開示されていないため、投資家は43億元という価格が他の中国国内のガス資産取引と比べて妥当かどうかを判断する材料に乏しい。",
+      "status": "new",
+      "prev": null,
+      "key": "zhongnan-culture-jiangyin-tianli-gas",
+      "ids": [
+        "b0da675439f83f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oRk51eS1xRDJXSG5VYXpndDU5cFBZQUFHZ3Z1SGpRSW5oSTlfLUZNcmxUal85VlZJQ1d4Xy1ONTNPbEJvOUlVcE1HMmw1TkZLNkpuLTF5VmhWWWlhTFkxbWtqQW8tVUhhTDA2TWJCcW1fUlZo?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [
+        "HK/CN"
+      ],
+      "sectors": [
+        "Energy"
+      ]
+    },
+    {
+      "headline": "Japan's Gijutsu Shokei Kiko (Technology Succession Organization) buys crusher and pump maker Karui",
+      "summary": "Gijutsu Shokei Kiko (Technology Succession Organization) has made Karui, a maker of crushers and pumps, a subsidiary, a Japan M&A newswire report said. Financial terms of the acquisition were not disclosed in the report.",
+      "why_it_matters": "The deal adds to a string of acquisitions by specialist buyers targeting small and midsize Japanese manufacturers facing succession gaps as founders age without clear heirs. For deal professionals, it is another data point in the broader trend of Japan's SME succession wave feeding a steady pipeline of niche industrial buyouts, even when individual transaction sizes are small.",
+      "summary_ja": "技術承継機構は、粉砕機・ポンプメーカーのカルイを子会社化したと、Japan M&Aのニュースワイヤーが報じた。買収の金額など具体的な条件は報道で開示されていない。",
+      "why_it_matters_ja": "この買収は、後継者不在のまま創業者が高齢化する日本の中小製造業を専門に狙う買い手による一連の買収の一例に加わるものだ。個々の取引規模が小さくても、日本の事業承継問題が専門的なニッチ製造業買収の案件を着実に生み出している大きな流れを示す一つのデータ点だ。",
+      "status": "new",
+      "prev": null,
+      "key": "gijutsu-shokei-kiko-karui",
+      "ids": [
+        "bf82bfb8299e2f"
+      ],
+      "links": [
+        {
+          "source": "Japan M&A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pODMxSHFFVzVCQk1RRGV2UHNDSXdyUUVrX0hycXRPU3hOOHppei1aOEdIT1RZeFhMNnIyVDYyeUR5X2c3ODlnZndsdG96RmZDdDR2UFdOb19oUU1qRlhV?oc=5"
+        }
+      ],
+      "categories": [
+        "M&A"
+      ],
+      "countries": [],
+      "sectors": [
+        "Other"
+      ]
+    }
+  ]
+}
